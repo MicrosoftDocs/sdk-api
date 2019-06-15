@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeletePwrScheme, DeletePwrScheme function, _win32_deletepwrscheme, base.deletepwrscheme, powrprof/DeletePwrScheme
 ms.topic: function
+f1_keywords: ["powrprof/DeletePwrScheme"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_SYSTEM_PORTS0, FWPM_SYSTEM_PORTS0 structure [Filtering], fwp.fwpm_system_ports0, fwpmtypes/FWPM_SYSTEM_PORTS0
 ms.topic: struct
+f1_keywords: ["fwpmtypes/FWPM_SYSTEM_PORTS0"]
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

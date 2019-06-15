@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Add method, INetFwOpenPorts.Add, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add
 ms.topic: method
+f1_keywords: ["netfw/INetFwOpenPorts.Add"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRequestReply, WsRequestReply function [Web Services for Windows], webservices/WsRequestReply, wsw.wsrequestreply
 ms.topic: function
+f1_keywords: ["webservices/WsRequestReply"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

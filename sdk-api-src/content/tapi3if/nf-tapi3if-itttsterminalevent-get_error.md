@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Error method, ITTTSTerminalEvent.get_Error, ITTTSTerminalEvent::get_Error, _tapi3_itttsterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_error, tapi3if/ITTTSTerminalEvent::get_Error
 ms.topic: method
+f1_keywords: ["tapi3if/ITTTSTerminalEvent.get_Error"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

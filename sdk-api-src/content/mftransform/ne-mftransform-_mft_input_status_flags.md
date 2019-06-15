@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFT_INPUT_STATUS_ACCEPT_DATA, _MFT_INPUT_STATUS_FLAGS, _MFT_INPUT_STATUS_FLAGS enumeration [Media Foundation], c63052a1-58b6-4537-9214-6f8d79a9eafd, mf._mft_input_status_flags, mftransform/MFT_INPUT_STATUS_ACCEPT_DATA, mftransform/_MFT_INPUT_STATUS_FLAGS
 ms.topic: enum
+f1_keywords: ["mftransform/_MFT_INPUT_STATUS_FLAGS"]
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

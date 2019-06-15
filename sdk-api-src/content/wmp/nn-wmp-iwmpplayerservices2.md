@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices2, IWMPPlayerServices2 interface [Windows Media Player], IWMPPlayerServices2 interface [Windows Media Player],described, IWMPPlayerServices2Interface, wmp.iwmpplayerservices2, wmp/IWMPPlayerServices2
 ms.topic: interface
+f1_keywords: ["wmp/IWMPPlayerServices2"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

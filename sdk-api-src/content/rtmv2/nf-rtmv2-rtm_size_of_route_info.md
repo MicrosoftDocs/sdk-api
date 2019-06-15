@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_SIZE_OF_ROUTE_INFO, RTM_SIZE_OF_ROUTE_INFO macro [RAS], _rtmv2ref_rtm_size_of_route_info, rras.rtm_size_of_route_info, rtmv2/RTM_SIZE_OF_ROUTE_INFO
 ms.topic: macro
+f1_keywords: ["rtmv2/RTM_SIZE_OF_ROUTE_INFO"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

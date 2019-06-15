@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_CLEANPOINT_ONLY, WMT_OFF, WMT_ON, WMT_STREAM_SELECTION, WMT_STREAM_SELECTION enumeration [windows Media Format], wmformat.wmt_stream_selection, wmsdkidl/WMT_CLEANPOINT_ONLY, wmsdkidl/WMT_OFF, wmsdkidl/WMT_ON, wmsdkidl/WMT_STREAM_SELECTION
 ms.topic: enum
+f1_keywords: ["wmsdkidl/WMT_STREAM_SELECTION"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificOperation interface [Microsoft Broadband Networks],SetVendorSpecific method, IMbnVendorSpecificOperation.SetVendorSpecific, IMbnVendorSpecificOperation::SetVendorSpecific, SetVendorSpecific, SetVendorSpecific method [Microsoft Broadband Networks], SetVendorSpecific method [Microsoft Broadband Networks],IMbnVendorSpecificOperation interface, mbn.imbnvendorspecificoperation_setvendorspecific, mbnapi/IMbnVendorSpecificOperation::SetVendorSpecific
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnVendorSpecificOperation.SetVendorSpecific"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

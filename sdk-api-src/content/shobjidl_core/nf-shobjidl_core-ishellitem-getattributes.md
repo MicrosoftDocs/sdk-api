@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetAttributes method, IShellItem.GetAttributes, IShellItem::GetAttributes, _win32_IShellItem_GetAttributes, shell.IShellItem_GetAttributes, shobjidl_core/IShellItem::GetAttributes
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellItem.GetAttributes"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

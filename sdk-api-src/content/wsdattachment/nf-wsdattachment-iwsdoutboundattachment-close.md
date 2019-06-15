@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method, Close method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Close method, IWSDOutboundAttachment.Close, IWSDOutboundAttachment::Close, ncd.iwsdoutboundattachment_close_method, wsdattachment/IWSDOutboundAttachment::Close
 ms.topic: method
+f1_keywords: ["wsdattachment/IWSDOutboundAttachment.Close"]
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

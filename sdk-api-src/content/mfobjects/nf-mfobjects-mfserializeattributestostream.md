@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFSerializeAttributesToStream, MFSerializeAttributesToStream function [Media Foundation], b8bc88e5-19ae-46b3-aa78-a00afee1f481, mf.mfserializeattributestostream, mfobjects/MFSerializeAttributesToStream
 ms.topic: function
+f1_keywords: ["mfobjects/MFSerializeAttributesToStream"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

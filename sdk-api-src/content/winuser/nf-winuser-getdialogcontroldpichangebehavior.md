@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDialogControlDpiChangeBehavior, GetDialogControlDpiChangeBehavior function [High DPI], hidpi.getdialogresizebehavior, winuser/GetDialogControlDpiChangeBehavior
 ms.topic: function
+f1_keywords: ["winuser/GetDialogControlDpiChangeBehavior"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

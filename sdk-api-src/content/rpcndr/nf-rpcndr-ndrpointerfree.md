@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrPointerFree, NdrPointerFree function [RPC], rpc.ndrpointerfree, rpcndr/NdrPointerFree
 ms.topic: function
+f1_keywords: ["rpcndr/NdrPointerFree"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

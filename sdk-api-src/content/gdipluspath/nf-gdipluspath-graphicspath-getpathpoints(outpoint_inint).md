@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPathPoints, GetPathPoints method [GDI+], GetPathPoints method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathPoints method, GraphicsPath.GetPathPoints, GraphicsPath.GetPathPoints(OUT Point,IN INT), GraphicsPath.GetPathPoints(Point*,INT), GraphicsPath::GetPathPoints, GraphicsPath::GetPathPoints(OUT Point,IN INT), _gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_
 ms.topic: method
+f1_keywords: ["gdipluspath/GraphicsPath.GetPathPoints"]
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

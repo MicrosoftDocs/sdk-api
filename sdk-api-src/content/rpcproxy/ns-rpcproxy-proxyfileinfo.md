@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtendedProxyFileInfo, ProxyFileInfo, ProxyFileInfo structure [RPC], rpc.proxyfileinfo, rpcproxy/ProxyFileInfo
 ms.topic: struct
+f1_keywords: ["rpcproxy/ProxyFileInfo"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

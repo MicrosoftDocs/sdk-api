@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCISTATUS, FNFCISTATUS macro [Windows API], fci/FNFCISTATUS, winprog.fnfcistatus
 ms.topic: macro
+f1_keywords: ["fci/FNFCISTATUS"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

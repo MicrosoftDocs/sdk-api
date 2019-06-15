@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: End, End method [Direct3D 11], End method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],End method, ID3D11DeviceContext.End, ID3D11DeviceContext::End, c700f203-34b8-01ee-d941-99cff256b5c2, d3d11/ID3D11DeviceContext::End, direct3d11.id3d11devicecontext_end
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.End"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

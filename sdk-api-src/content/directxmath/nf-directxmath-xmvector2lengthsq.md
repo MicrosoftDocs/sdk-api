@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2LengthSq, XMVector2LengthSq, XMVector2LengthSq method [DirectX Math Support APIs], dxmath.xmvector2lengthsq
 ms.topic: function
+f1_keywords: ["directxmath/XMVector2LengthSq"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

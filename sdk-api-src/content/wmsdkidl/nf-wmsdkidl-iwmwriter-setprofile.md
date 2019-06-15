@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetProfile method, IWMWriter.SetProfile, IWMWriter::SetProfile, IWMWriterSetProfile, SetProfile, SetProfile method [windows Media Format], SetProfile method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setprofile, wmsdkidl/IWMWriter::SetProfile
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMWriter.SetProfile"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

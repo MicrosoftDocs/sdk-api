@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddVectoredExceptionHandler, AddVectoredExceptionHandler function, _win32_addvectoredexceptionhandler, base.addvectoredexceptionhandler, errhandlingapi/AddVectoredExceptionHandler
 ms.topic: function
+f1_keywords: ["errhandlingapi/AddVectoredExceptionHandler"]
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

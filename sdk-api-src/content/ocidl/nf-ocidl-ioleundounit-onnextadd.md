@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleUndoUnit interface [COM],OnNextAdd method, IOleUndoUnit.OnNextAdd, IOleUndoUnit::OnNextAdd, OnNextAdd, OnNextAdd method [COM], OnNextAdd method [COM],IOleUndoUnit interface, _ole_ioleundounit_onnextadd, com.ioleundounit_onnextadd, ocidl/IOleUndoUnit::OnNextAdd
 ms.topic: method
+f1_keywords: ["ocidl/IOleUndoUnit.OnNextAdd"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

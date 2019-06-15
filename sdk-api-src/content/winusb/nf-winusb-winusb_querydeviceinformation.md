@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryDeviceInformation, WinUsb_QueryDeviceInformation function [Buses], buses.winusb_querydeviceinformation, winusb/WinUsb_QueryDeviceInformation, winusbfunc_db8c1496-f45c-4d74-b786-8822692aafd9.xml
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_QueryDeviceInformation"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

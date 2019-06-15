@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Transform method, BoundingFrustum.Transform, BoundingFrustum.Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR), BoundingFrustum.Transform(BoundingFrustum&,float,XMVECTOR,XMVECTOR), BoundingFrustum::Transform, BoundingFrustum::Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR), Transform, Transform method [DirectX Math Support APIs], Transform method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_transform_2
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingFrustum.Transform"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

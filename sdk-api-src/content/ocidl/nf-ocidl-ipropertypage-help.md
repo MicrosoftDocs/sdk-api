@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Help, Help method [COM], Help method [COM],IPropertyPage interface, IPropertyPage interface [COM],Help method, IPropertyPage.Help, IPropertyPage::Help, _ctrl_ipropertypage_help, com.ipropertypage_help, ocidl/IPropertyPage::Help
 ms.topic: method
+f1_keywords: ["ocidl/IPropertyPage.Help"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

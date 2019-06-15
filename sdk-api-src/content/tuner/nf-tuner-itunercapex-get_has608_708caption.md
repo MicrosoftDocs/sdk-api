@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Has608_708Caption property [Microsoft TV Technologies], Has608_708Caption property [Microsoft TV Technologies],ITunerCapEx interface, ITunerCapEx interface [Microsoft TV Technologies],Has608_708Caption property, ITunerCapEx.Has608_708Caption, ITunerCapEx.get_Has608_708Caption, ITunerCapEx::Has608_708Caption, ITunerCapEx::get_Has608_708Caption, get_Has608_708Caption, mstv.itunercapex_has608_708caption, tuner/ITunerCapEx::Has608_708Caption, tuner/ITunerCapEx::get_Has608_708Caption
 ms.topic: method
+f1_keywords: ["tuner/ITunerCapEx.Has608_708Caption"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

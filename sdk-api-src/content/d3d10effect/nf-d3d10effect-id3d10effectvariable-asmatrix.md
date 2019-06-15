@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsMatrix, AsMatrix method [Direct3D 10], AsMatrix method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsMatrix method, ID3D10EffectVariable.AsMatrix, ID3D10EffectVariable::AsMatrix, d3d10effect/ID3D10EffectVariable::AsMatrix, dc6784cd-b78e-6390-1d7a-db0d3c27410b, direct3d10.id3d10effectvariable_asmatrix
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectVariable.AsMatrix"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FixupInfo, FixupInfo structure [NAP], nap.fixupinfo_struct, naptypes/FixupInfo
 ms.topic: struct
+f1_keywords: ["naptypes/FixupInfo"]
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

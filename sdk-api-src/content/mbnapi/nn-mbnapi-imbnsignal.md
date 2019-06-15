@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IMbnSignal interface [Microsoft Broadband Networks],described, mbn.imbnsignal, mbnapi/IMbnSignal
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnSignal"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

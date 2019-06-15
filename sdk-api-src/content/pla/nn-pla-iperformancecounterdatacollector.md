@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA],described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
 ms.topic: interface
+f1_keywords: ["pla/IPerformanceCounterDataCollector"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

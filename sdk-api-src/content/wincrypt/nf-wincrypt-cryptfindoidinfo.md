@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OID_DISABLE_SEARCH_DS_FLAG, CRYPT_OID_INFO_ALGID_KEY, CRYPT_OID_INFO_CNG_ALGID_KEY, CRYPT_OID_INFO_CNG_SIGN_KEY, CRYPT_OID_INFO_NAME_KEY, CRYPT_OID_INFO_OID_KEY, CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CRYPT_OID_INFO_SIGN_KEY, CryptFindOIDInfo, CryptFindOIDInfo function [Security], _crypto2_cryptfindoidinfo, security.cryptfindoidinfo, wincrypt/CryptFindOIDInfo
 ms.topic: function
+f1_keywords: ["wincrypt/CryptFindOIDInfo"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSStringFromPropertyKey, PSStringFromPropertyKey function [Windows Properties], _shell_PSStringFromPropertyKey, properties.PSStringFromPropertyKey, propsys/PSStringFromPropertyKey, shell.PSStringFromPropertyKey
 ms.topic: function
+f1_keywords: ["propsys/PSStringFromPropertyKey"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

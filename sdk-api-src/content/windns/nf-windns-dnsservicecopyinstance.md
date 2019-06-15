@@ -5,6 +5,7 @@ description: Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instanc
 ms.date: 02/19/2019
 ms.keywords: DnsServiceCopyInstance
 ms.topic: language-reference
+f1_keywords: ["windns/DnsServiceCopyInstance"]
 targetos: Windows
 product: Windows
 req.assembly: 

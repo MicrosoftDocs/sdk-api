@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnlockDirectDrawSurface, EngUnlockDirectDrawSurface function [Display Devices], display.engunlockdirectdrawsurface, gdifncs_6582e033-3e56-4a8d-904d-2978c63ddd4b.xml, winddi/EngUnlockDirectDrawSurface
 ms.topic: function
+f1_keywords: ["winddi/EngUnlockDirectDrawSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

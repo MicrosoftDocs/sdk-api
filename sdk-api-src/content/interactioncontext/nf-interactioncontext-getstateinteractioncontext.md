@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, input_intcontext.getstateinteractioncontext, interactioncontext.getstateinteractioncontext, interactioncontext/GetStateInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/GetStateInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

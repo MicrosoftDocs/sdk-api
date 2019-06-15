@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetVolume method, IXAudio2Voice.SetVolume, IXAudio2Voice::SetVolume, SetVolume, SetVolume method [XAudio2 Audio Mixing APIs], SetVolume method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setvolume, xaudio2/IXAudio2Voice::SetVolume
 ms.topic: method
+f1_keywords: ["xaudio2/IXAudio2Voice.SetVolume"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

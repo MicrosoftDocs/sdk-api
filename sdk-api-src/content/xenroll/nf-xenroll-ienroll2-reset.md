@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],Reset method, IEnroll2.Reset, IEnroll2::Reset, IEnroll3 interface [Security],Reset method, IEnroll3::Reset, IEnroll4 interface [Security],Reset method, IEnroll4::Reset, Reset, Reset method [Security], Reset method [Security],IEnroll2 interface, Reset method [Security],IEnroll3 interface, Reset method [Security],IEnroll4 interface, security.ienroll4_reset, xenroll/IEnroll2::Reset, xenroll/IEnroll3::Reset, xenroll/IEnroll4::Reset
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll2.Reset"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

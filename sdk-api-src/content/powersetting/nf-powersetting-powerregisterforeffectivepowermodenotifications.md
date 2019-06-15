@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEffectivePowerModeNotifications function, base.powerregisterforeffectivepowermodenotifications, powersetting/PowerRegisterForEffectivePowerModeNotifications
 ms.topic: function
+f1_keywords: ["powersetting/PowerRegisterForEffectivePowerModeNotifications"]
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

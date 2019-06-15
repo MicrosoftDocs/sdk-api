@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDIBColorTable, SetDIBColorTable function [Windows GDI], _win32_SetDIBColorTable, gdi.setdibcolortable, wingdi/SetDIBColorTable
 ms.topic: function
+f1_keywords: ["wingdi/SetDIBColorTable"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

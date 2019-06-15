@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaPropertyChangedEventArgs, UiaPropertyChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaPropertyChangedEventArgsStruct, uiauto_UiaPropertyChangedEventArgsStruct, uiautomationcoreapi/UiaPropertyChangedEventArgs, winauto.uiauto_UiaPropertyChangedEventArgsStruct
 ms.topic: struct
+f1_keywords: ["uiautomationcoreapi/UiaPropertyChangedEventArgs"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

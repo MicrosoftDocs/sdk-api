@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateSharedMemory, AllocateSharedMemory callback function [Security], LSA_ALLOCATE_SHARED_MEMORY, LSA_ALLOCATE_SHARED_MEMORY callback, _ssp_allocatesharedmemory, ntsecpkg/AllocateSharedMemory, security.allocatesharedmemory
 ms.topic: callback
+f1_keywords: ["ntsecpkg/AllocateSharedMemory"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

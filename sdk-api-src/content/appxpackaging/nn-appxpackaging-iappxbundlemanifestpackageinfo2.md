@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestPackageInfo2, IAppxBundleManifestPackageInfo2 interface [App packaging and management], IAppxBundleManifestPackageInfo2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfo2, appxpkg.iappxbundlemanifestpackageinfo2
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfo2"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

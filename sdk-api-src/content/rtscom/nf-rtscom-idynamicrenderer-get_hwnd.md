@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1795100f-d529-4513-8635-65d1d7285f72, HWND property [Tablet PC], HWND property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],HWND property, IDynamicRenderer.HWND, IDynamicRenderer.get_HWND, IDynamicRenderer.put_HWND, IDynamicRenderer::HWND, IDynamicRenderer::get_HWND, IDynamicRenderer::put_HWND, get_HWND, rtscom/IDynamicRenderer::HWND, rtscom/IDynamicRenderer::get_HWND, rtscom/IDynamicRenderer::put_HWND, tablet.idynamicrenderer_hwnd
 ms.topic: method
+f1_keywords: ["rtscom/IDynamicRenderer.HWND"]
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

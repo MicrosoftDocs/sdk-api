@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetNoShowUI method, IExecuteCommand.SetNoShowUI, IExecuteCommand::SetNoShowUI, SetNoShowUI, SetNoShowUI method [Windows Shell], SetNoShowUI method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetNoShowUI, shell.IExecuteCommand_SetNoShowUI, shobjidl_core/IExecuteCommand::SetNoShowUI
 ms.topic: method
+f1_keywords: ["shobjidl_core/IExecuteCommand.SetNoShowUI"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

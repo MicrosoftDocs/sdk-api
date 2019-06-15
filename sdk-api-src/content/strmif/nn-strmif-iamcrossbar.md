@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar, IAMCrossbar interface [DirectShow], IAMCrossbar interface [DirectShow],described, IAMCrossbarInterface, dshow.iamcrossbar, strmif/IAMCrossbar
 ms.topic: interface
+f1_keywords: ["strmif/IAMCrossbar"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: IDirect3DDxgiInterfaceAccess, IDirect3DDxgiInterfaceAccess interface, IDirect3DDxgiInterfaceAccess interface,described, windows.graphics.directx.direct3d11.interop.idirect3ddxgiInterfaceaccess, windows/IDirect3DDxgiInterfaceAccess
 ms.topic: interface
+f1_keywords: ["windows.graphics.directx.direct3d11.interop/IDirect3DDxgiInterfaceAccess"]
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

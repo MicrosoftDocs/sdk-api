@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColor, GetColor method [Direct2D], GetColor method [Direct2D],ID2D1SvgPaint interface, ID2D1SvgPaint interface [Direct2D],GetColor method, ID2D1SvgPaint.GetColor, ID2D1SvgPaint::GetColor, d2d1svg/ID2D1SvgPaint::GetColor, direct2d.id2d1svgpaint_getcolor
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgPaint.GetColor"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

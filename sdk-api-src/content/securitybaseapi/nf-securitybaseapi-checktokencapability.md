@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckTokenCapability, CheckTokenCapability function [Security], security.checktokencapability, securitybaseapi/CheckTokenCapability
 ms.topic: function
+f1_keywords: ["securitybaseapi/CheckTokenCapability"]
 req.header: securitybaseapi.h
 req.include-header: 
 req.target-type: Windows

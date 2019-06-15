@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig interface [Human Input Devices],OpenConfigKey method, IDirectInputJoyConfig.OpenConfigKey, IDirectInputJoyConfig::OpenConfigKey, OpenConfigKey, OpenConfigKey (IDirectInputJoyConfig8), OpenConfigKey method [Human Input Devices], OpenConfigKey method [Human Input Devices],IDirectInputJoyConfig interface, di_ref_d0c78a58-7e2c-46bb-a974-4996a2e488a3.xml, dinputd/IDirectInputJoyConfig::OpenConfigKey, hid.idirectinputjoyconfig8_openconfigkey
 ms.topic: method
+f1_keywords: ["dinputd/IDirectInputJoyConfig.OpenConfigKey"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

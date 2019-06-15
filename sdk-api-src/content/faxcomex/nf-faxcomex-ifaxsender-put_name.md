@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],Name property, IFaxSender.Name, IFaxSender.get_Name, IFaxSender.put_Name, IFaxSender::Name, IFaxSender::get_Name, IFaxSender::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxSender interface, _mfax_faxsender.name, fax._mfax_faxsender_cpp_mfax_faxsender_name_cpp, fax._mfax_faxsender_name, faxcomex/IFaxSender::Name, faxcomex/IFaxSender::get_Name, faxcomex/IFaxSender::put_Name, put_Name
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxSender.Name"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

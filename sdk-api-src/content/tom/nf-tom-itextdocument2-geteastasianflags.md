@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEastAsianFlags, GetEastAsianFlags method [Windows Controls], GetEastAsianFlags method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetEastAsianFlags method, ITextDocument2.GetEastAsianFlags, ITextDocument2::GetEastAsianFlags, controls.itextdocument2_geteastasianflags, tom/ITextDocument2::GetEastAsianFlags, tomNoIME, tomRE10Mode, tomSelfIME, tomTextFlowMask, tomUseAtFont, tomUsePassword
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.GetEastAsianFlags"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

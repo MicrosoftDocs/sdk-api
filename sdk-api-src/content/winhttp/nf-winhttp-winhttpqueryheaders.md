@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.winhttpqueryheaders, winhttp.winhttpqueryheaders_function, winhttp/WinHttpQueryHeaders
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpQueryHeaders"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

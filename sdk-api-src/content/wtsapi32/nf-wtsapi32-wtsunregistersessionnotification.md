@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSUnRegisterSessionNotification, WTSUnRegisterSessionNotification function [Remote Desktop Services], _win32_wtsunregistersessionnotification, termserv.wtsunregistersessionnotification, wtsapi32/WTSUnRegisterSessionNotification
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSUnRegisterSessionNotification"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_FEATURE, DXGI_FEATURE enumeration [DXGI], DXGI_FEATURE_PRESENT_ALLOW_TEARING, direct3ddxgi.dxgi_feature, dxgi1_5/DXGI_FEATURE, dxgi1_5/DXGI_FEATURE_PRESENT_ALLOW_TEARING
 ms.topic: enum
+f1_keywords: ["dxgi1_5/DXGI_FEATURE"]
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

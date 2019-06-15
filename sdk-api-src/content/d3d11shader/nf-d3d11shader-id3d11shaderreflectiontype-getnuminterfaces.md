@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 79155c21-6096-6e00-a9ec-bc54062bd29f, GetNumInterfaces, GetNumInterfaces method [Direct3D 11], GetNumInterfaces method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetNumInterfaces method, ID3D11ShaderReflectionType.GetNumInterfaces, ID3D11ShaderReflectionType::GetNumInterfaces, d3d11shader/ID3D11ShaderReflectionType::GetNumInterfaces, direct3d11.id3d11shaderreflectiontype_getnuminterfaces
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ShaderReflectionType.GetNumInterfaces"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

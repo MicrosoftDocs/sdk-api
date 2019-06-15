@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSeekInfo, IMFSeekInfo interface [Media Foundation], IMFSeekInfo interface [Media Foundation],described, mf.imfseekinfo, mfidl/IMFSeekInfo
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSeekInfo"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

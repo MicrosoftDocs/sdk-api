@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpSetExtendedInformation, SpSetExtendedInformation callback function [Security], SpSetExtendedInformationFn, SpSetExtendedInformationFn callback, _ssp_spsetextendedinformation, ntsecpkg/SpSetExtendedInformation, security.spsetextendedinformation
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpSetExtendedInformation"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

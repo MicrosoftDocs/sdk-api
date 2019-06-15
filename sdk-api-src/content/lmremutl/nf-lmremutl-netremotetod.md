@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
 ms.topic: function
+f1_keywords: ["lmremutl/NetRemoteTOD"]
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows

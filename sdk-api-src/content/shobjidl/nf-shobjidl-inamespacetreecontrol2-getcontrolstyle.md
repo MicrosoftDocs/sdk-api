@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetControlStyle, GetControlStyle method [Windows Shell], GetControlStyle method [Windows Shell],INameSpaceTreeControl2 interface, INameSpaceTreeControl2 interface [Windows Shell],GetControlStyle method, INameSpaceTreeControl2.GetControlStyle, INameSpaceTreeControl2::GetControlStyle, _shell_INameSpaceTreeControl2_GetControlStyle, shell.INameSpaceTreeControl2_GetControlStyle, shobjidl/INameSpaceTreeControl2::GetControlStyle
 ms.topic: method
+f1_keywords: ["shobjidl/INameSpaceTreeControl2.GetControlStyle"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

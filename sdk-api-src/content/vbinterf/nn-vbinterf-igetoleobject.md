@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetOleObject, IGetOleObject interface [COM], IGetOleObject interface [COM],described, _com_IGetOleObject, com.igetoleobject, vbinterf/IGetOleObject
 ms.topic: interface
+f1_keywords: ["vbinterf/IGetOleObject"]
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

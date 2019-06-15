@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultWidth, GetDefaultWidth method [Windows Properties], GetDefaultWidth method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetDefaultWidth method, IPropertyUI.GetDefaultWidth, IPropertyUI::GetDefaultWidth, _shell_IPropertyUI_GetDefaultWidth, properties.IPropertyUI_GetDefaultWidth, shell.IPropertyUI_GetDefaultWidth, shobjidl_core/IPropertyUI::GetDefaultWidth
 ms.topic: method
+f1_keywords: ["shobjidl_core/IPropertyUI.GetDefaultWidth"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

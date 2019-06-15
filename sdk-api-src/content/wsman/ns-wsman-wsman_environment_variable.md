@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_ENVIRONMENT_VARIABLE, WSMAN_ENVIRONMENT_VARIABLE structure [Windows Remote Management], winrm.wsman_environment_variable, wsman/WSMAN_ENVIRONMENT_VARIABLE
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_ENVIRONMENT_VARIABLE"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

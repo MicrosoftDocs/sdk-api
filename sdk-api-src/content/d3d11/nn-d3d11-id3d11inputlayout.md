@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11InputLayout, ID3D11InputLayout interface [Direct3D 11], ID3D11InputLayout interface [Direct3D 11],described, b8a9a875-1563-0aed-8b68-020a489fb28a, d3d11/ID3D11InputLayout, direct3d11.id3d11inputlayout
 ms.topic: interface
+f1_keywords: ["d3d11/ID3D11InputLayout"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

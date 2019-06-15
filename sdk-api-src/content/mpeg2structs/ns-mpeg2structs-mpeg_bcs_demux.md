@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPEG_BCS_DEMUX, MPEG_BCS_DEMUX structure [Microsoft TV Technologies], mpeg2structs/MPEG_BCS_DEMUX, mstv.mpeg_bcs_demux
 ms.topic: struct
+f1_keywords: ["mpeg2structs/MPEG_BCS_DEMUX"]
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

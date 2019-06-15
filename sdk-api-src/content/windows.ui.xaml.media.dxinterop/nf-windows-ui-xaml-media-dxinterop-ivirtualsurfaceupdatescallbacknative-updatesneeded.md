@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceUpdatesCallbackNative interface [Windows Runtime],UpdatesNeeded method, IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative.xaml, IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, IVirtualSurfaceUpdatesCallbackNative::xaml, UpdatesNeeded, UpdatesNeeded method [Windows Runtime], UpdatesNeeded method [Windows Runtime],IVirtualSurfaceUpdatesCallbackNative interface, windows/IVirtualSurfaceUpdatesCallbackNative::UpdatesNeeded, winrt.ivirtualsurfaceupdatescallbacknative_updatesneeded
 ms.topic: method
+f1_keywords: ["windows.ui.xaml.media.dxinterop/IVirtualSurfaceUpdatesCallbackNative.UpdatesNeeded"]
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

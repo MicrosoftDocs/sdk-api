@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRDS_CERT_TYPE, WRDS_CERT_TYPE enumeration [Remote Desktop Services], WTS_CERT_TYPE, WTS_CERT_TYPE enumeration [Remote Desktop Services], WTS_CERT_TYPE_INVALID, WTS_CERT_TYPE_PROPRIETORY, WTS_CERT_TYPE_X509, termserv.wts_cert_type, wtsdefs/WRDS_CERT_TYPE, wtsdefs/WTS_CERT_TYPE, wtsdefs/WTS_CERT_TYPE_INVALID, wtsdefs/WTS_CERT_TYPE_PROPRIETORY, wtsdefs/WTS_CERT_TYPE_X509
 ms.topic: enum
+f1_keywords: ["wtsdefs/WTS_CERT_TYPE"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder interface,RecordDispatch method, IDMLCommandRecorder.RecordDispatch, IDMLCommandRecorder::RecordDispatch, RecordDispatch, RecordDispatch method, RecordDispatch method,IDMLCommandRecorder interface, direct3d12.idmlcommandrecorder_recorddispatch, directml/IDMLCommandRecorder::RecordDispatch
 ms.topic: method
+f1_keywords: ["directml/IDMLCommandRecorder.RecordDispatch"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

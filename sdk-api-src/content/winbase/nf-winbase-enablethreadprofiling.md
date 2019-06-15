@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableThreadProfiling, EnableThreadProfiling function [Hardware Counter Profiling], hcp.enablethreadprofiling, winbase/EnableThreadProfiling
 ms.topic: function
+f1_keywords: ["winbase/EnableThreadProfiling"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

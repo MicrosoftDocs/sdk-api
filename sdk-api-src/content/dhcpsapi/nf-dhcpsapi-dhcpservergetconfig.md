@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerGetConfig, DhcpServerGetConfig function [DHCP], dhcp.dhcpservergetconfig, dhcpsapi/DhcpServerGetConfig
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerGetConfig"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

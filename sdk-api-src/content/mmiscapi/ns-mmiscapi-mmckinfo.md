@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMMCKINFO, *NPMMCKINFO, *PMMCKINFO, MMCKINFO, MMCKINFO structure [Windows Multimedia], MMIO_DIRTY, _MMCKINFO, _win32_MMCKINFO_str, mmiscapi/MMCKINFO, multimedia.mmckinfo"
 ms.topic: struct
+f1_keywords: ["mmiscapi/MMCKINFO"]
 req.header: mmiscapi.h
 req.include-header: Windows.h
 req.target-type: Windows

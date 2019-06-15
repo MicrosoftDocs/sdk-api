@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UninstallationNotes property, IUpdateHistoryEntry.UninstallationNotes, IUpdateHistoryEntry.get_UninstallationNotes, IUpdateHistoryEntry::UninstallationNotes, IUpdateHistoryEntry::get_UninstallationNotes, UninstallationNotes property [Windows Update Agent], UninstallationNotes property [Windows Update Agent],IUpdateHistoryEntry interface, get_UninstallationNotes, wua.iupdatehistoryentry_uninstallationnotes, wuapi/IUpdateHistoryEntry::UninstallationNotes, wuapi/IUpdateHistoryEntry::get_UninstallationNotes
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateHistoryEntry.UninstallationNotes"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

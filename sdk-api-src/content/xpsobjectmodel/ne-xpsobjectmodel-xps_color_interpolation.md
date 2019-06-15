@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR_INTERPOLATION, XPS_COLOR_INTERPOLATION enumeration [XPS Documents and Packaging], XPS_COLOR_INTERPOLATION_SCRGBLINEAR, XPS_COLOR_INTERPOLATION_SRGBLINEAR, xps.xps_color_interpolation, xpsobjectmodel/XPS_COLOR_INTERPOLATION, xpsobjectmodel/XPS_COLOR_INTERPOLATION_SCRGBLINEAR, xpsobjectmodel/XPS_COLOR_INTERPOLATION_SRGBLINEAR
 ms.topic: enum
+f1_keywords: ["xpsobjectmodel/XPS_COLOR_INTERPOLATION"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

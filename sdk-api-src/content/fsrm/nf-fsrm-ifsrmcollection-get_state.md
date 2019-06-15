@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],State property, IFsrmCollection.State, IFsrmCollection.get_State, IFsrmCollection::State, IFsrmCollection::get_State, State property [File Server Resource Manager], State property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_state, fsrm.ifsrmcollection_state, fsrm/IFsrmCollection::State, fsrm/IFsrmCollection::get_State, get_State
 ms.topic: method
+f1_keywords: ["fsrm/IFsrmCollection.State"]
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

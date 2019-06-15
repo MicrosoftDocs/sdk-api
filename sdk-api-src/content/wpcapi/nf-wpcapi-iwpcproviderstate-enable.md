@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method, Enable method,IWPCProviderState interface, IWPCProviderState interface,Enable method, IWPCProviderState.Enable, IWPCProviderState::Enable, parcon.iwpcproviderstate_enable, wpcapi/IWPCProviderState::Enable
 ms.topic: method
+f1_keywords: ["wpcapi/IWPCProviderState.Enable"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

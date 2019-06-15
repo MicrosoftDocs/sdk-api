@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
 ms.topic: interface
+f1_keywords: ["msrdc/ISimilarityReportProgress"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

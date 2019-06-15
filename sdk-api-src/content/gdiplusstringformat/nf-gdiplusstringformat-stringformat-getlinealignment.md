@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLineAlignment, GetLineAlignment method [GDI+], GetLineAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],GetLineAlignment method, StringFormat.GetLineAlignment, StringFormat::GetLineAlignment, _gdiplus_CLASS_StringFormat_GetLineAlignment_, gdiplus._gdiplus_CLASS_StringFormat_GetLineAlignment_
 ms.topic: method
+f1_keywords: ["gdiplusstringformat/StringFormat.GetLineAlignment"]
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

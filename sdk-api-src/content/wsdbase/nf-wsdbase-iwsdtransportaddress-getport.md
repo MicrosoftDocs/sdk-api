@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDTransportAddress.GetPort"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

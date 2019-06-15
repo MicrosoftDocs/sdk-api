@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
 ms.topic: callback
+f1_keywords: ["ws2spi/NSPCleanup"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

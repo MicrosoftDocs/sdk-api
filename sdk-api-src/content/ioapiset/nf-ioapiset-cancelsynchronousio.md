@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cancelsynchronousio_func, ioapiset/CancelSynchronousIo, winbase/CancelSynchronousIo
 ms.topic: function
+f1_keywords: ["ioapiset/CancelSynchronousIo"]
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

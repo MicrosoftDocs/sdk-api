@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,Clear method, IWSDHttpMessageParameters.Clear, IWSDHttpMessageParameters::Clear, ncd.iwsdhttpmessageparameters_clear, wsdbase/IWSDHttpMessageParameters::Clear
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDHttpMessageParameters.Clear"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

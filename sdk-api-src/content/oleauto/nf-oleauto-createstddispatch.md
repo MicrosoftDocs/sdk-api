@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
 ms.topic: function
+f1_keywords: ["oleauto/CreateStdDispatch"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

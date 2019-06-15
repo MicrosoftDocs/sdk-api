@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetLinkStatistics, RasGetLinkStatistics function [RAS], _ras_rasgetlinkstatistics, ras/RasGetLinkStatistics, rras.rasgetlinkstatistics
 ms.topic: function
+f1_keywords: ["ras/RasGetLinkStatistics"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

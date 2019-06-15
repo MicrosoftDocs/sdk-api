@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverOpen, acmDriverOpen, acmDriverOpen function [Windows Multimedia], msacm/acmDriverOpen, multimedia.acmdriveropen"
 ms.topic: function
+f1_keywords: ["msacm/acmDriverOpen"]
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

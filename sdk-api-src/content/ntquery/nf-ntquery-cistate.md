@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexsrv.cistate, ntquery/CIState
 ms.topic: function
+f1_keywords: ["ntquery/CIState"]
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

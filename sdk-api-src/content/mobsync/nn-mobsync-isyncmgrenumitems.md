@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISyncMgrEnumItems interface [Windows Shell],described, mobsync/ISyncMgrEnumItems, shell.syncmgr_isyncmgrenumitems, syncmgr.isyncmgrenumitems
 ms.topic: interface
+f1_keywords: ["mobsync/ISyncMgrEnumItems"]
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

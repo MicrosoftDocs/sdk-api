@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpApplyControlToken, SpApplyControlToken callback function [Security], SpApplyControlTokenFn, SpApplyControlTokenFn callback, _ssp_spapplycontroltoken, ntsecpkg/SpApplyControlToken, security.spapplycontroltoken
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpApplyControlToken"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

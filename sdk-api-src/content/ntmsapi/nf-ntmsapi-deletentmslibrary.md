@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsLibrary, DeleteNtmsLibrary function [Files], _zaw_deletentmslibrary, base.deletentmslibrary, fs.deletentmslibrary, ntmsapi/DeleteNtmsLibrary
 ms.topic: function
+f1_keywords: ["ntmsapi/DeleteNtmsLibrary"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

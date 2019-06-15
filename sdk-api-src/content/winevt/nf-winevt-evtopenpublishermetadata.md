@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
 ms.topic: function
+f1_keywords: ["winevt/EvtOpenPublisherMetadata"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

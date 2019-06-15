@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 44824060-7dfe-0b44-7549-6ab5b12a7e8f, ID3D10Query, ID3D10Query interface [Direct3D 10], ID3D10Query interface [Direct3D 10],described, d3d10/ID3D10Query, direct3d10.id3d10query
 ms.topic: interface
+f1_keywords: ["d3d10/ID3D10Query"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

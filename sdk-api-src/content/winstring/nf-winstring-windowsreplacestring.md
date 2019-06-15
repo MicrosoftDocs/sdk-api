@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsReplaceString, WindowsReplaceString function [Windows Runtime], winrt.windowsreplacestring, winstring/WindowsReplaceString
 ms.topic: function
+f1_keywords: ["winstring/WindowsReplaceString"]
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

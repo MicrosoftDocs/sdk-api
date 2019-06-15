@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScreenToClient, ScreenToClient function [Windows GDI], _win32_ScreenToClient, gdi.screentoclient, winuser/ScreenToClient
 ms.topic: function
+f1_keywords: ["winuser/ScreenToClient"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

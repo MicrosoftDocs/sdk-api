@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], rometadataresolution/RoResolveNamespace, winrt.roresolvenamespace
 ms.topic: function
+f1_keywords: ["rometadataresolution/RoResolveNamespace"]
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows

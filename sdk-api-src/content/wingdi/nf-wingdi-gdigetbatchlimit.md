@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiGetBatchLimit, GdiGetBatchLimit function [Windows GDI], _win32_GdiGetBatchLimit, gdi.gdigetbatchlimit, wingdi/GdiGetBatchLimit
 ms.topic: function
+f1_keywords: ["wingdi/GdiGetBatchLimit"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

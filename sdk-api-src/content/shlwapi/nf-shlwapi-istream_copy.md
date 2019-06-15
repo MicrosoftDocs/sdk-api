@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
 ms.topic: function
+f1_keywords: ["shlwapi/IStream_Copy"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

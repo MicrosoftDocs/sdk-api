@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
 ms.topic: struct
+f1_keywords: ["wabdefs/Gender"]
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

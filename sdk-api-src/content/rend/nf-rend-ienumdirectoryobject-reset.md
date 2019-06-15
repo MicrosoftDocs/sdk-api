@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Reset method, IEnumDirectoryObject.Reset, IEnumDirectoryObject::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_reset, rend/IEnumDirectoryObject::Reset, tapi3.ienumdirectoryobject_reset
 ms.topic: method
+f1_keywords: ["rend/IEnumDirectoryObject.Reset"]
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

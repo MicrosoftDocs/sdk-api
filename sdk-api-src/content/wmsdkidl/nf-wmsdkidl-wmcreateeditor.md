@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
 ms.topic: function
+f1_keywords: ["wmsdkidl/WMCreateEditor"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

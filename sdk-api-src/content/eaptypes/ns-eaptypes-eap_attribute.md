@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_ATTRIBUTE, EAP_ATTRIBUTE structure [EAPHost], EapAttribute, EapAttribute structure [EAPHost], eaphost.eap_attribute, eaptypes/EAP_ATTRIBUTE, eaptypes/EapAttribute
 ms.topic: struct
+f1_keywords: ["eaptypes/EAP_ATTRIBUTE"]
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

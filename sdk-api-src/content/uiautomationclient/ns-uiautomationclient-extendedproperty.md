@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtendedProperty, ExtendedProperty structure [Windows Accessibility], uiautomationclient/ExtendedProperty, winauto.uiauto_extendedproperty
 ms.topic: struct
+f1_keywords: ["uiautomationclient/ExtendedProperty"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

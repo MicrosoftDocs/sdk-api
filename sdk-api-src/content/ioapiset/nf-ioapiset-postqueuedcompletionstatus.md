@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PostQueuedCompletionStatus, PostQueuedCompletionStatus function [Files], _win32_postqueuedcompletionstatus, base.postqueuedcompletionstatus, fs.postqueuedcompletionstatus, ioapiset/PostQueuedCompletionStatus, winbase/PostQueuedCompletionStatus
 ms.topic: function
+f1_keywords: ["ioapiset/PostQueuedCompletionStatus"]
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

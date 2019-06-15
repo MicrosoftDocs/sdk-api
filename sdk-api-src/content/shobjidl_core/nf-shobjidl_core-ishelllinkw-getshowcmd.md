@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetShowCmd, GetShowCmd method [Windows Shell], GetShowCmd method [Windows Shell],IShellLink interface, GetShowCmd method [Windows Shell],IShellLinkA interface, GetShowCmd method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetShowCmd method, IShellLink::GetShowCmd, IShellLinkA interface [Windows Shell],GetShowCmd method, IShellLinkA::GetShowCmd, IShellLinkW interface [Windows Shell],GetShowCmd method, IShellLinkW.GetShowCmd, IShellLinkW::GetShowCmd, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWNORMAL, _win32_IShellLink_GetShowCmd, shell.IShellLink_GetShowCmd, shobjidl_core/IShellLink::GetShowCmd, shobjidl_core/IShellLinkA::GetShowCmd, shobjidl_core/IShellLinkW::GetShowCmd
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.GetShowCmd"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRule interface [Fax Service],Save method, IFaxOutboundRoutingRule.Save, IFaxOutboundRoutingRule::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutboundRoutingRule interface, _mfax_faxoutboundroutingrule.save, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp, fax._mfax_faxoutboundroutingrule_save, faxcomex/IFaxOutboundRoutingRule::Save
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutboundRoutingRule.Save"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

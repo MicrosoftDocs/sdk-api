@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_ELEMENTS_LAYOUT, D3D12_ELEMENTS_LAYOUT enumeration, D3D12_ELEMENTS_LAYOUT_ARRAY, D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS, d3d12/D3D12_ELEMENTS_LAYOUT, d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY, d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS, direct3d12.d3d12_elements_layout
 ms.topic: enum
+f1_keywords: ["d3d12/D3D12_ELEMENTS_LAYOUT"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

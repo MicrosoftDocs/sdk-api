@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_TVFormat method, IAMAnalogVideoDecoder.put_TVFormat, IAMAnalogVideoDecoder::put_TVFormat, IAMAnalogVideoDecoderput_TVFormat, dshow.iamanalogvideodecoder_put_tvformat, put_TVFormat, put_TVFormat method [DirectShow], put_TVFormat method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_TVFormat
 ms.topic: method
+f1_keywords: ["strmif/IAMAnalogVideoDecoder.put_TVFormat"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

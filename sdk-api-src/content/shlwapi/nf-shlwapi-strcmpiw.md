@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCmpI, StrCmpI function [Windows Shell], StrCmpIW, _win32_StrCmpI, shell.StrCmpI, shlwapi/StrCmpI, shlwapi/StrCmpIW
 ms.topic: function
+f1_keywords: ["shlwapi/StrCmpI"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PopStorageFilter method, ID3D12InfoQueue.PopStorageFilter, ID3D12InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method, PopStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopStorageFilter, direct3d12.id3d12infoqueue_popstoragefilter
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.PopStorageFilter"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

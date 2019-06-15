@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function [Filtering], fwp.fwpmcalloutsubscriptionsget0_func, fwpmu/FwpmCalloutSubscriptionsGet0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmCalloutSubscriptionsGet0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

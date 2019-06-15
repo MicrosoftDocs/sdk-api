@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Font, Font class [GDI+], Font class [GDI+],described, _gdiplus_CLASS_Font_Class, gdiplus._gdiplus_CLASS_Font_Class, gdiplusheaders/Font
 ms.topic: class
+f1_keywords: ["gdiplusheaders/Font"]
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_PostgapAlreadyInImage method, IDiscFormat2Data.get_PostgapAlreadyInImage, IDiscFormat2Data::get_PostgapAlreadyInImage, get_PostgapAlreadyInImage, get_PostgapAlreadyInImage method [IMAPI], get_PostgapAlreadyInImage method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_postgapalreadyinimage, imapi2/IDiscFormat2Data::get_PostgapAlreadyInImage
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2Data.get_PostgapAlreadyInImage"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

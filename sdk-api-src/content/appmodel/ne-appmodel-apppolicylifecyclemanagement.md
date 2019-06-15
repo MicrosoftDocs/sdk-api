@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyLifecycleManagement, AppPolicyLifecycleManagement enumeration [App packaging and management], AppPolicyLifecycleManagement_Managed, AppPolicyLifecycleManagement_Unmanaged, appmodel/AppPolicyLifecycleManagement, appmodel/AppPolicyLifecycleManagement_Managed, appmodel/AppPolicyLifecycleManagement_Unmanaged, appxpkg.apppolicylifecyclemanagement_enumeration
 ms.topic: enum
+f1_keywords: ["appmodel/AppPolicyLifecycleManagement"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

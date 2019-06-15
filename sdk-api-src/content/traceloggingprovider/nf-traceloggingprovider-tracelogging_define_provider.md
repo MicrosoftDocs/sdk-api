@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER, TRACELOGGING_DEFINE_PROVIDER macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER, tracelogging.traceloggingprovider, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
 ms.topic: macro
+f1_keywords: ["traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER"]
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

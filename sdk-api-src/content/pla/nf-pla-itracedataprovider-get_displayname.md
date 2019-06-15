@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],DisplayName property, ITraceDataProvider.DisplayName, ITraceDataProvider.get_DisplayName, ITraceDataProvider::DisplayName, ITraceDataProvider::get_DisplayName, ITraceDataProvider::put_DisplayName, base.itracedataprovider_displayname, get_DisplayName, pla.itracedataprovider_displayname, pla/ITraceDataProvider::DisplayName, pla/ITraceDataProvider::get_DisplayName, pla/ITraceDataProvider::put_DisplayName
 ms.topic: method
+f1_keywords: ["pla/ITraceDataProvider.DisplayName"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

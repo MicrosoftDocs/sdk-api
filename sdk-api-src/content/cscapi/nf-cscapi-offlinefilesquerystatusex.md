@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesQueryStatusEx, OfflineFilesQueryStatusEx function [Offline Files], cscapi/OfflineFilesQueryStatusEx, of.offlinefilesquerystatusex
 ms.topic: function
+f1_keywords: ["cscapi/OfflineFilesQueryStatusEx"]
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows

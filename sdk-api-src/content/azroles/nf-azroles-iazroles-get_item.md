@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzRoles object [Security],Item property, IAzRoles interface [Security],Item property, IAzRoles.Item, IAzRoles.get_Item, IAzRoles::Item, IAzRoles::get_Item, Item property [Security], Item property [Security],AzRoles object, Item property [Security],IAzRoles interface, azroles/IAzRoles::Item, azroles/IAzRoles::get_Item, get_Item, security.iazroles_item
 ms.topic: method
+f1_keywords: ["azroles/IAzRoles.Item"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

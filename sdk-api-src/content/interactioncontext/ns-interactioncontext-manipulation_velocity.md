@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_VELOCITY, MANIPULATION_VELOCITY structure, input_intcontext.manipulation_velocity, interactioncontext.manipulation_velocity, interactioncontext/MANIPULATION_VELOCITY
 ms.topic: struct
+f1_keywords: ["interactioncontext/MANIPULATION_VELOCITY"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

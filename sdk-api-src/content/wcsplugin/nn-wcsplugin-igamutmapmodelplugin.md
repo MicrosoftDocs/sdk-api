@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGamutMapModelPlugIn, IGamutMapModelPlugIn interface [Windows Color System], IGamutMapModelPlugIn interface [Windows Color System],described, _color_IGamutMapModelPlugIn, wcs.igamutmapmodelplugin, wcsplugin/IGamutMapModelPlugIn
 ms.topic: interface
+f1_keywords: ["wcsplugin/IGamutMapModelPlugIn"]
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

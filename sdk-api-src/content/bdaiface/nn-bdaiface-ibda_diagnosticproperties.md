@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DiagnosticProperties, IBDA_DiagnosticProperties interface [Microsoft TV Technologies], IBDA_DiagnosticProperties interface [Microsoft TV Technologies],described, IBDA_DiagnosticPropertiesInterface, bdaiface/IBDA_DiagnosticProperties, mstv.ibda_diagnosticproperties
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_DiagnosticProperties"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

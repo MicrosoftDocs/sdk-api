@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeactivateProfile, DeactivateProfile method [Text Services Framework], DeactivateProfile method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],DeactivateProfile method, ITfInputProcessorProfileMgr.DeactivateProfile, ITfInputProcessorProfileMgr::DeactivateProfile, TF_IPPMF_DISABLEPROFILE, TF_IPPMF_FORPROCESS, TF_IPPMF_FORSESSION, TF_PROFILETYPE_INPUTPROCESSOR, TF_PROFILETYPE_KEYBOARDLAYOUT, msctf/ITfInputProcessorProfileMgr::DeactivateProfile, tsf.itfinputprocessorprofilemgr_deactivateprofile
 ms.topic: method
+f1_keywords: ["msctf/ITfInputProcessorProfileMgr.DeactivateProfile"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

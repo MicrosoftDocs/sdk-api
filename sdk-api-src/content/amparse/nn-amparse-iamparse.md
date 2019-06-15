@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
 ms.topic: interface
+f1_keywords: ["amparse/IAMParse"]
 req.header: amparse.h
 req.include-header: 
 req.target-type: Windows

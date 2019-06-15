@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewport, GetViewport method [Direct Manipulation], GetViewport method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetViewport method, IDirectManipulationContent.GetViewport, IDirectManipulationContent::GetViewport, directmanipulation.idirectmanipulationcontent_getviewport, directmanipulation/IDirectManipulationContent::GetViewport
 ms.topic: method
+f1_keywords: ["directmanipulation/IDirectManipulationContent.GetViewport"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

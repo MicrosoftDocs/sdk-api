@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRRESTOREDC, EMRRESTOREDC, EMRRESTOREDC structure [Windows GDI], PEMRRESTOREDC, PEMRRESTOREDC structure pointer [Windows GDI], _win32_EMRRESTOREDC_str, gdi.emrrestoredc, wingdi/EMRRESTOREDC, wingdi/PEMRRESTOREDC"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRRESTOREDC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

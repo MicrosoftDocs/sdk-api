@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgpdu, mbnapi/IMbnSmsReadMsgPdu
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnSmsReadMsgPdu"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

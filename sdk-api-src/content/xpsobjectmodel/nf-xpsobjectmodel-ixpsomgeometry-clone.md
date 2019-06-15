@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],Clone method, IXpsOMGeometry.Clone, IXpsOMGeometry::Clone, xps.ixpsomgeometry_clone, xpsobjectmodel/IXpsOMGeometry::Clone
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMGeometry.Clone"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

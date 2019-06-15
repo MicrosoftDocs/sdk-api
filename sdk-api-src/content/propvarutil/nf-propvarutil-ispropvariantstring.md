@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsPropVariantString, IsPropVariantString function [Windows Properties], properties.IsPropVariantString, propvarutil/IsPropVariantString, shell.IsPropVariantString, shell_IsPropVariantString
 ms.topic: function
+f1_keywords: ["propvarutil/IsPropVariantString"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

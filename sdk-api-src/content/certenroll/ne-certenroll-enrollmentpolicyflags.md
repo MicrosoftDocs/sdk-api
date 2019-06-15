@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableGroupPolicyList, DisableUserServerList, EnrollmentPolicyFlags, EnrollmentPolicyFlags enumeration [Security], certenroll/DisableGroupPolicyList, certenroll/DisableUserServerList, certenroll/EnrollmentPolicyFlags, security.enrollmentpolicyflags
 ms.topic: enum
+f1_keywords: ["certenroll/EnrollmentPolicyFlags"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

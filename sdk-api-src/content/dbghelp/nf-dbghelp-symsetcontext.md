@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
 ms.topic: function
+f1_keywords: ["dbghelp/SymSetContext"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

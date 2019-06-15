@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTARGETPROTOCOLTYPE, ISCSI_TCP_PROTOCOL_TYPE, TARGETPROTOCOLTYPE, TARGETPROTOCOLTYPE enumeration [iSCSI Discovery Library API], iscsidisc.targetprotocoltype, iscsidsc/ISCSI_TCP_PROTOCOL_TYPE, iscsidsc/TARGETPROTOCOLTYPE"
 ms.topic: enum
+f1_keywords: ["iscsidsc/TARGETPROTOCOLTYPE"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

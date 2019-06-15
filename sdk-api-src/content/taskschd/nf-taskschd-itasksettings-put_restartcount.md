@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],RestartCount property, ITaskSettings.RestartCount, ITaskSettings.put_RestartCount, ITaskSettings::RestartCount, ITaskSettings::get_RestartCount, ITaskSettings::put_RestartCount, RestartCount property [Task Scheduler], RestartCount property [Task Scheduler],ITaskSettings interface, put_RestartCount, taskschd.itasksettings_restartcount, taskschd/ITaskSettings::RestartCount, taskschd/ITaskSettings::get_RestartCount, taskschd/ITaskSettings::put_RestartCount
 ms.topic: method
+f1_keywords: ["taskschd/ITaskSettings.RestartCount"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

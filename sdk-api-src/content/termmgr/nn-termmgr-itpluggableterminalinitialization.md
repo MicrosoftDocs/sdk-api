@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalInitialization, ITPluggableTerminalInitialization interface [TAPI 2.2], ITPluggableTerminalInitialization interface [TAPI 2.2],described, _tapi3_itpluggableterminalinitialization, tapi3.itpluggableterminalinitialization, termmgr/ITPluggableTerminalInitialization
 ms.topic: interface
+f1_keywords: ["termmgr/ITPluggableTerminalInitialization"]
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

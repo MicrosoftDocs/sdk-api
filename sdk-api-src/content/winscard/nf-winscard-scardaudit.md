@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
 ms.topic: function
+f1_keywords: ["winscard/SCardAudit"]
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

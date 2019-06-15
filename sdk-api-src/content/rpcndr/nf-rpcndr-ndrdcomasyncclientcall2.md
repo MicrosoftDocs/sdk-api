@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrDcomAsyncClientCall2, NdrDcomAsyncClientCall2 function [RPC], rpc.ndrdcomasyncclientcall2, rpcndr/NdrDcomAsyncClientCall2
 ms.topic: function
+f1_keywords: ["rpcndr/NdrDcomAsyncClientCall2"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

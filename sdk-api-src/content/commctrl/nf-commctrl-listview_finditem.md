@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_FindItem, ListView_FindItem macro [Windows Controls], _win32_ListView_FindItem, _win32_ListView_FindItem_cpp, commctrl/ListView_FindItem, controls.ListView_FindItem, controls._win32_ListView_FindItem
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_FindItem"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

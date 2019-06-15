@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnsureCached, EnsureCached method [Direct2D], EnsureCached method [Direct2D],ID2D1ImageSourceFromWic interface, ID2D1ImageSourceFromWic interface [Direct2D],EnsureCached method, ID2D1ImageSourceFromWic.EnsureCached, ID2D1ImageSourceFromWic.EnsureCached(const D2D1_RECT_U), ID2D1ImageSourceFromWic::EnsureCached, ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U), d2d1_3/ID2D1ImageSourceFromWic::EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1ImageSourceFromWic.EnsureCached"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

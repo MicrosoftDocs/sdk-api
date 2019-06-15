@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], ILanguageExceptionErrorInfo2 interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo2, winrt.ilanguageexceptionerrorinfo2
 ms.topic: interface
+f1_keywords: ["restrictederrorinfo/ILanguageExceptionErrorInfo2"]
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

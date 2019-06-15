@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryUsersOnEncryptedFile, QueryUsersOnEncryptedFile function [Files], _win32_queryusersonencryptedfile, base.queryusersonencryptedfile, fs.queryusersonencryptedfile, winefs/QueryUsersOnEncryptedFile
 ms.topic: function
+f1_keywords: ["winefs/QueryUsersOnEncryptedFile"]
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

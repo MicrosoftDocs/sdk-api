@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LeaveCriticalPolicySection, LeaveCriticalPolicySection function [Group Policy], _win32_leavecriticalpolicysection, policy.leavecriticalpolicysection, userenv/LeaveCriticalPolicySection
 ms.topic: function
+f1_keywords: ["userenv/LeaveCriticalPolicySection"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

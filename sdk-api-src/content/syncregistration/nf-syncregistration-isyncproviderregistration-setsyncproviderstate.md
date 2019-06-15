@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],SetSyncProviderState method, ISyncProviderRegistration.SetSyncProviderState, ISyncProviderRegistration::SetSyncProviderState, SetSyncProviderState, SetSyncProviderState method [Windows Sync], SetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::SetSyncProviderState, winsync.isyncproviderregistration_setsyncproviderstate
 ms.topic: method
+f1_keywords: ["syncregistration/ISyncProviderRegistration.SetSyncProviderState"]
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

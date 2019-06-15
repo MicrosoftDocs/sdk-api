@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordAdd, ULongAdd, ULongAdd function [Windows Shell], _shell_ULongAdd, intsafe/ULongAdd, shell.ULongAdd
 ms.topic: function
+f1_keywords: ["intsafe/ULongAdd"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFICATION_MAPPING, PRJ_NOTIFICATION_MAPPING structure, ProjFS.prj_notification_mapping, projectedfslib/PRJ_NOTIFICATION_MAPPING
 ms.topic: struct
+f1_keywords: ["projectedfslib/PRJ_NOTIFICATION_MAPPING"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

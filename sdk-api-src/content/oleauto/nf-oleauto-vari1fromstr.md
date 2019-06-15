@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarI1FromStr, VarI1FromStr function [Automation], _oa96_VarI1FromStr, automat.vari1fromstr, oleauto/VarI1FromStr
 ms.topic: function
+f1_keywords: ["oleauto/VarI1FromStr"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetAppendWindowEnd method, IMFSourceBuffer.SetAppendWindowEnd, IMFSourceBuffer::SetAppendWindowEnd, SetAppendWindowEnd, SetAppendWindowEnd method [Media Foundation], SetAppendWindowEnd method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_setappendwindowend, mfmediaengine/IMFSourceBuffer::SetAppendWindowEnd
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFSourceBuffer.SetAppendWindowEnd"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WFDOpenLegacySession, WFDOpenLegacySession function [NativeWIFI], nwifi.wfdopenlegacysession, wlanapi/WFDOpenLegacySession
 ms.topic: function
+f1_keywords: ["wlanapi/WFDOpenLegacySession"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

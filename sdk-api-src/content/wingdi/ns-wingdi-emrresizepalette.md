@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRRESIZEPALETTE, EMRRESIZEPALETTE, EMRRESIZEPALETTE structure [Windows GDI], PEMRRESIZEPALETTE, PEMRRESIZEPALETTE structure pointer [Windows GDI], _win32_EMRRESIZEPALETTE_str, gdi.emrresizepalette, wingdi/EMRRESIZEPALETTE, wingdi/PEMRRESIZEPALETTE"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRRESIZEPALETTE"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

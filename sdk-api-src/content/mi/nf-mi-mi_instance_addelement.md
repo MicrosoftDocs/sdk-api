@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_ANY, MI_FLAG_BORROW, MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_FLAG_REQUIRED, MI_FLAG_STREAM, MI_Instance_AddElement, MI_Instance_AddElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_AddElement, wmi_v2.mi_instance_addelement
 ms.topic: function
+f1_keywords: ["mi/MI_Instance_AddElement"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

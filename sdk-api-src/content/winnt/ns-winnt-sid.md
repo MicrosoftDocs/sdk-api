@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PISID, PSID, PSID structure pointer [Security], SID, SID structure [Security], _SID, _win32_sid_str, security.sid, winnt/PSID, winnt/SID"
 ms.topic: struct
+f1_keywords: ["winnt/SID"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

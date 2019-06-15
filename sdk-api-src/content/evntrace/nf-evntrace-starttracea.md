@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StartTrace, StartTrace function [ETW], StartTraceA, StartTraceW, _evt_starttrace, base.starttrace, etw.starttrace, evntrace/StartTrace, evntrace/StartTraceA, evntrace/StartTraceW
 ms.topic: function
+f1_keywords: ["evntrace/StartTrace"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

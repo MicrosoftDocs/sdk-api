@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],JoinDuration property, IWdsTransportClient.JoinDuration, IWdsTransportClient.get_JoinDuration, IWdsTransportClient::JoinDuration, IWdsTransportClient::get_JoinDuration, JoinDuration property [Windows Deployment Services], JoinDuration property [Windows Deployment Services],IWdsTransportClient interface, get_JoinDuration, wds.iwdstransportclient_joinduration, wdstptmgmt/IWdsTransportClient::JoinDuration, wdstptmgmt/IWdsTransportClient::get_JoinDuration
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportClient.JoinDuration"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

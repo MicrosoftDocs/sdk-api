@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
 ms.topic: interface
+f1_keywords: ["certenc/ICertEncodeCRLDistInfo"]
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBindW, _glines_dsunbind, ad.dsunbind, ntdsapi/DsUnBind, ntdsapi/DsUnBindA, ntdsapi/DsUnBindW
 ms.topic: function
+f1_keywords: ["ntdsapi/DsUnBind"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

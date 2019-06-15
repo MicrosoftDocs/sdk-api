@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
 ms.topic: callback
+f1_keywords: ["evntrace/EventCallback"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

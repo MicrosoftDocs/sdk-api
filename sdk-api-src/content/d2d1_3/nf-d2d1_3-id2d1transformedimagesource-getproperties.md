@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [Direct2D], GetProperties method [Direct2D],ID2D1TransformedImageSource interface, ID2D1TransformedImageSource interface [Direct2D],GetProperties method, ID2D1TransformedImageSource.GetProperties, ID2D1TransformedImageSource::GetProperties, d2d1_3/ID2D1TransformedImageSource::GetProperties, direct2d.id2d1transformedimagesource_getproperties
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1TransformedImageSource.GetProperties"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

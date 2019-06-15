@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectConstruction2Events, IComObjectConstruction2Events interface [COM+], IComObjectConstruction2Events interface [COM+],described, _dtc_icomobjectconstruction2events, comsvcs/IComObjectConstruction2Events, cos.icomobjectconstruction2events
 ms.topic: interface
+f1_keywords: ["comsvcs/IComObjectConstruction2Events"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

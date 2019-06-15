@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClient, IAudioClient interface [Core Audio], IAudioClient interface [Core Audio],described, audioclient/IAudioClient, coreaudio.iaudioclient
 ms.topic: interface
+f1_keywords: ["audioclient/IAudioClient"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

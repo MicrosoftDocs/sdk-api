@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPOINTF, LPPOINTF, LPPOINTF structure pointer [COM], POINTF, POINTF structure [COM], _ole_POINTF, com.pointf, ocidl/LPPOINTF, ocidl/POINTF"
 ms.topic: struct
+f1_keywords: ["ocidl/POINTF"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCloseContentInformation, PeerDistServerCloseContentInformation function [Peer Networking], p2p.peerdistserverclosecontentinformation, peerdist/PeerDistServerCloseContentInformation
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistServerCloseContentInformation"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

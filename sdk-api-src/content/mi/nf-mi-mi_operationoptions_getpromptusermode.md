@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetPromptUserMode, MI_OperationOptions_GetPromptUserMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserMode, wmi_v2.mi_operationoptions_getpromptusermode
 ms.topic: function
+f1_keywords: ["mi/MI_OperationOptions_GetPromptUserMode"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

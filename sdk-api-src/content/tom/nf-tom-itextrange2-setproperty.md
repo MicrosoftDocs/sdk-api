@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetProperty method, ITextRange2.SetProperty, ITextRange2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextRange2 interface, controls.itextrange2_setproperty, tom/ITextRange2::SetProperty
 ms.topic: method
+f1_keywords: ["tom/ITextRange2.SetProperty"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

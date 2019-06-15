@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAccept, TSPI_lineAccept function [TAPI 2.2], _tspi_tspi_lineaccept, tspi.tspi_lineaccept, tspi/TSPI_lineAccept
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineAccept"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

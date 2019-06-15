@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgress, IInstallationProgress interface [Windows Update Agent], IInstallationProgress interface [Windows Update Agent],described, wua.iinstallationprogress, wuapi/IInstallationProgress
 ms.topic: interface
+f1_keywords: ["wuapi/IInstallationProgress"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

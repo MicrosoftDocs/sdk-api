@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_PEER_METHOD_ROUTINES, EAP_PEER_METHOD_ROUTINES structure [EAPHost], eaphost.eap_peer_method_routines, eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES
 ms.topic: struct
+f1_keywords: ["eapmethodpeerapis/EAP_PEER_METHOD_ROUTINES"]
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DX11_FFT_BUFFER_INFO, D3DX11_FFT_BUFFER_INFO structure [Direct3D 11], d3dcsx/D3DX11_FFT_BUFFER_INFO, direct3d11.d3dx11_fft_buffer_info, f06d9ab2-6da1-c0ae-f9cc-c42662b380f5
 ms.topic: struct
+f1_keywords: ["d3dcsx/D3DX11_FFT_BUFFER_INFO"]
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

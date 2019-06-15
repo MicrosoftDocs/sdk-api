@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],QueryScopeImageList method, IConsole.QueryScopeImageList, IConsole::QueryScopeImageList, QueryScopeImageList, QueryScopeImageList method [MMC], QueryScopeImageList method [MMC],IConsole interface, mmc.iconsole_queryscopeimagelist, mmc/IConsole::QueryScopeImageList
 ms.topic: method
+f1_keywords: ["mmc/IConsole.QueryScopeImageList"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

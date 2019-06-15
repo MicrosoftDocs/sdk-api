@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ESB_DISABLE_BOTH, ESB_DISABLE_DOWN, ESB_DISABLE_LEFT, ESB_DISABLE_LTUP, ESB_DISABLE_RIGHT, ESB_DISABLE_RTDN, ESB_DISABLE_UP, ESB_ENABLE_BOTH, FlatSB_EnableScrollBar, FlatSB_EnableScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_EnableScrollBar, _win32_FlatSB_EnableScrollBar_cpp, commctrl/FlatSB_EnableScrollBar, controls.FlatSB_EnableScrollBar, controls._win32_FlatSB_EnableScrollBar
 ms.topic: function
+f1_keywords: ["commctrl/FlatSB_EnableScrollBar"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

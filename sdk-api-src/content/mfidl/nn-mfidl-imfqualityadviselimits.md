@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdviseLimits, IMFQualityAdviseLimits interface [Media Foundation], IMFQualityAdviseLimits interface [Media Foundation],described, mf.imfqualityadviselimits, mfidl/IMFQualityAdviseLimits
 ms.topic: interface
+f1_keywords: ["mfidl/IMFQualityAdviseLimits"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

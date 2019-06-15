@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CROSS_SLIDE_PARAMETER, CROSS_SLIDE_PARAMETER structure, input_intcontext.cross_slide_parameter, interactioncontext.cross_slide_parameter, interactioncontext/CROSS_SLIDE_PARAMETER
 ms.topic: struct
+f1_keywords: ["interactioncontext/CROSS_SLIDE_PARAMETER"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

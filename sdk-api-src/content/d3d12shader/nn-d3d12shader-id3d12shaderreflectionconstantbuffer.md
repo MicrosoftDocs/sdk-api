@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionConstantBuffer, ID3D12ShaderReflectionConstantBuffer interface, ID3D12ShaderReflectionConstantBuffer interface,described, d3d12shader/ID3D12ShaderReflectionConstantBuffer, direct3d12.id3d12shaderreflectionconstantbuffer
 ms.topic: interface
+f1_keywords: ["d3d12shader/ID3D12ShaderReflectionConstantBuffer"]
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

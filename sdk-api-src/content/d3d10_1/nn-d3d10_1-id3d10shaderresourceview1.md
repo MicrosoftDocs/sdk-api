@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 42bd4307-40a4-6b0e-192f-643d483668e8, ID3D10ShaderResourceView1, ID3D10ShaderResourceView1 interface [Direct3D 10], ID3D10ShaderResourceView1 interface [Direct3D 10],described, d3d10_1/ID3D10ShaderResourceView1, direct3d10.id3d10shaderresourceview1
 ms.topic: interface
+f1_keywords: ["d3d10_1/ID3D10ShaderResourceView1"]
 req.header: d3d10_1.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

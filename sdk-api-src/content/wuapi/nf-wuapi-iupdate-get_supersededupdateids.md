@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupersededUpdateIDs property, IUpdate.SupersededUpdateIDs, IUpdate.get_SupersededUpdateIDs, IUpdate::SupersededUpdateIDs, IUpdate::get_SupersededUpdateIDs, SupersededUpdateIDs property [Windows Update Agent], SupersededUpdateIDs property [Windows Update Agent],IUpdate interface, get_SupersededUpdateIDs, wua.iupdate_supercededupdateids, wua.iupdate_supersededupdateids, wuapi/IUpdate::SupersededUpdateIDs, wuapi/IUpdate::get_SupersededUpdateIDs
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate.SupersededUpdateIDs"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

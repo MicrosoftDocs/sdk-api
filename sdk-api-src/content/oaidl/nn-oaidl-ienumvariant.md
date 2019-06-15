@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumVARIANT, IEnumVARIANT interface [Automation], IEnumVARIANT interface [Automation],described, _oa96_IEnumVARIANT_Interface, automat.ienumvariant, oaidl/IEnumVARIANT
 ms.topic: interface
+f1_keywords: ["oaidl/IEnumVARIANT"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

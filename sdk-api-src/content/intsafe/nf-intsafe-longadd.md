@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongAdd, LongAdd function [Windows Shell], intsafe/LongAdd, shell.LongAdd
 ms.topic: function
+f1_keywords: ["intsafe/LongAdd"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

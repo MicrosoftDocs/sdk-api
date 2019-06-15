@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineConditionalMediaDetection, TSPI_lineConditionalMediaDetection function [TAPI 2.2], _tspi_tspi_lineconditionalmediadetection, tspi.tspi_lineconditionalmediadetection, tspi/TSPI_lineConditionalMediaDetection
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineConditionalMediaDetection"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

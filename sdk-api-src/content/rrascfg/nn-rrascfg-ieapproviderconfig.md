@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig, IEAPProviderConfig interface [EAP], IEAPProviderConfig interface [EAP],described, _eap_ieapproviderconfig, eap.ieapproviderconfig, rrascfg/IEAPProviderConfig
 ms.topic: interface
+f1_keywords: ["rrascfg/IEAPProviderConfig"]
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows

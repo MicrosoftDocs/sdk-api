@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9Frequency, VMR9Frequency structure [DirectShow], VMR9FrequencyStructure, dshow.vmr9frequency, vmr9/VMR9Frequency
 ms.topic: struct
+f1_keywords: ["vmr9/VMR9Frequency"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

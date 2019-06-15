@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
 ms.topic: function
+f1_keywords: ["vfw/ICGetInfo"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

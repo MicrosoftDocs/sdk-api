@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmSetProfileList, WcmSetProfileList function [Windows Connection Manager], wcm.wcmsetprofilelist, wcmapi/WcmSetProfileList
 ms.topic: function
+f1_keywords: ["wcmapi/WcmSetProfileList"]
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

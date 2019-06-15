@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetCurrentMediaType method, IMFSourceReader.GetCurrentMediaType, IMFSourceReader::GetCurrentMediaType, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getcurrentmediatype, mfreadwrite/IMFSourceReader::GetCurrentMediaType
 ms.topic: method
+f1_keywords: ["mfreadwrite/IMFSourceReader.GetCurrentMediaType"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

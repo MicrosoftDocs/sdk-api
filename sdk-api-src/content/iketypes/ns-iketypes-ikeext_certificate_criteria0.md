@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERTIFICATE_CRITERIA0, IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering], fwp.ikeext_certificate_criteria0, iketypes/IKEEXT_CERTIFICATE_CRITERIA0
 ms.topic: struct
+f1_keywords: ["iketypes/IKEEXT_CERTIFICATE_CRITERIA0"]
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

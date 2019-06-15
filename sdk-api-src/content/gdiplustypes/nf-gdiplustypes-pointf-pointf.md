@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(), PointF::PointF, _gdiplus_CLASS_PointF_PointF_, gdiplus._gdiplus_CLASS_PointF_PointF_
 ms.topic: method
+f1_keywords: ["gdiplustypes/PointF.PointF"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

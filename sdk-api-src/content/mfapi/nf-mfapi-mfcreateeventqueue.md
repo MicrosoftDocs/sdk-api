@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateEventQueue"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExplorerCommand interface, IEnumExplorerCommand interface [Windows Shell],Clone method, IEnumExplorerCommand.Clone, IEnumExplorerCommand::Clone, _shell_IEnumExplorerCommand_Clone, shell.IEnumExplorerCommand_Clone, shobjidl_core/IEnumExplorerCommand::Clone
 ms.topic: method
+f1_keywords: ["shobjidl_core/IEnumExplorerCommand.Clone"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

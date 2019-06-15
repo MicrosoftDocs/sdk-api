@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Linker interface [Direct3D 11],Link method, ID3D11Linker.Link, ID3D11Linker::Link, Link, Link method [Direct3D 11], Link method [Direct3D 11],ID3D11Linker interface, d3d11shader/ID3D11Linker::Link, direct3d11.id3d11linker_link
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11Linker.Link"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

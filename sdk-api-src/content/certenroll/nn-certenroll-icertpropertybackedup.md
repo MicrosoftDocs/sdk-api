@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security],described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup
 ms.topic: interface
+f1_keywords: ["certenroll/ICertPropertyBackedUp"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

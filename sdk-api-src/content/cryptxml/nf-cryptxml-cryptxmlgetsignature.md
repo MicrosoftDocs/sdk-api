@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature
 ms.topic: function
+f1_keywords: ["cryptxml/CryptXmlGetSignature"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

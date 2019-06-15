@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPXE_ADDRESS, PPXE_ADDRESS, PPXE_ADDRESS structure pointer [Windows Deployment Services], PXE_ADDRESS, PXE_ADDRESS structure [Windows Deployment Services], PXE_ADDR_BROADCAST, PXE_ADDR_USE_ADDR, PXE_ADDR_USE_DHCP_RULES, PXE_ADDR_USE_PORT, wds.pxe_address, wdspxe/PPXE_ADDRESS, wdspxe/PXE_ADDRESS"
 ms.topic: struct
+f1_keywords: ["wdspxe/PXE_ADDRESS"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaItem, IWiaItem interface [WIA], IWiaItem interface [WIA],described, _wia_IWiaItem, wia._wia_IWiaItem, wia_xp/IWiaItem
 ms.topic: interface
+f1_keywords: ["wia_xp/IWiaItem"]
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

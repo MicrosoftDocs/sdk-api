@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrChrI, StrChrI function [Windows Shell], StrChrIA, StrChrIW, _win32_StrChrI, shell.StrChrI, shlwapi/StrChrI, shlwapi/StrChrIA, shlwapi/StrChrIW
 ms.topic: function
+f1_keywords: ["shlwapi/StrChrI"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

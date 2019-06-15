@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BrokenConnectionAction property [Remote Desktop Services], BrokenConnectionAction property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],BrokenConnectionAction property, IADsTSUserEx.BrokenConnectionAction, IADsTSUserEx.get_BrokenConnectionAction, IADsTSUserEx::BrokenConnectionAction, IADsTSUserEx::get_BrokenConnectionAction, IADsTSUserEx::put_BrokenConnectionAction, get_BrokenConnectionAction, termserv.iadstsuserex_brokenconnectionaction, tsuserex/IADsTSUserEx::BrokenConnectionAction, tsuserex/IADsTSUserEx::get_BrokenConnectionAction, tsuserex/IADsTSUserEx::put_BrokenConnectionAction
 ms.topic: method
+f1_keywords: ["tsuserex/IADsTSUserEx.BrokenConnectionAction"]
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

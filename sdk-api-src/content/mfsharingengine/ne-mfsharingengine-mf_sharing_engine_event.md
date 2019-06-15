@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_SHARING_ENGINE_EVENT, MF_SHARING_ENGINE_EVENT enumeration [Media Foundation], MF_SHARING_ENGINE_EVENT_DISCONNECT, MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED, MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED, MF_SHARING_ENGINE_EVENT_STOPPED, mf.mf_sharing_engine_event, mfsharingengine/MF_SHARING_ENGINE_EVENT, mfsharingengine/MF_SHARING_ENGINE_EVENT_DISCONNECT, mfsharingengine/MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED, mfsharingengine/MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED, mfsharingengine/MF_SHARING_ENGINE_EVENT_STOPPED
 ms.topic: enum
+f1_keywords: ["mfsharingengine/MF_SHARING_ENGINE_EVENT"]
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

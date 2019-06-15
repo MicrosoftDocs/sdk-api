@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNormalizeEst, XMPlaneNormalizeEst, XMPlaneNormalizeEst method [DirectX Math Support APIs], dxmath.xmplanenormalizeest
 ms.topic: function
+f1_keywords: ["directxmath/XMPlaneNormalizeEst"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

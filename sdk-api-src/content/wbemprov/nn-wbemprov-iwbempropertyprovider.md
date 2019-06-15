@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPropertyProvider, IWbemPropertyProvider interface [Windows Management Instrumentation], IWbemPropertyProvider interface [Windows Management Instrumentation],described, _hmm_iwbempropertyprovider, wbemprov/IWbemPropertyProvider, wmi.iwbempropertyprovider
 ms.topic: interface
+f1_keywords: ["wbemprov/IWbemPropertyProvider"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

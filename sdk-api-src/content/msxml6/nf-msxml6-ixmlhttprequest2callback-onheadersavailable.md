@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnHeadersAvailable method, IXMLHTTPRequest2Callback.OnHeadersAvailable, IXMLHTTPRequest2Callback::OnHeadersAvailable, OnHeadersAvailable, OnHeadersAvailable method [XMLHttpRequest2], OnHeadersAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onheadersavailable, msxml6/IXMLHTTPRequest2Callback::OnHeadersAvailable
 ms.topic: method
+f1_keywords: ["msxml6/IXMLHTTPRequest2Callback.OnHeadersAvailable"]
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

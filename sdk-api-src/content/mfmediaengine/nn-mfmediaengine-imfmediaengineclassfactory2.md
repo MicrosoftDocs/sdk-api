@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactory2, IMFMediaEngineClassFactory2 interface [Media Foundation], IMFMediaEngineClassFactory2 interface [Media Foundation],described, mf.imfmediaengineclassfactory2, mfmediaengine/IMFMediaEngineClassFactory2
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFMediaEngineClassFactory2"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

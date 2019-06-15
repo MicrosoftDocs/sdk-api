@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_EVENT_INFO, TRACE_EVENT_INFO, TRACE_EVENT_INFO structure [ETW], etw.trace_event_info_struct, tdh.trace_event_info_struct, tdh/TRACE_EVENT_INFO"
 ms.topic: struct
+f1_keywords: ["tdh/TRACE_EVENT_INFO"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

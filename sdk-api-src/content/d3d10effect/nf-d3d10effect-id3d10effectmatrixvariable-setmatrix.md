@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5af32f4e-56a0-556d-ab18-783fdfb6038f, ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrix method, ID3D10EffectMatrixVariable.SetMatrix, ID3D10EffectMatrixVariable::SetMatrix, SetMatrix, SetMatrix method [Direct3D 10], SetMatrix method [Direct3D 10],ID3D10EffectMatrixVariable interface, d3d10effect/ID3D10EffectMatrixVariable::SetMatrix, direct3d10.id3d10effectmatrixvariable_setmatrix
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectMatrixVariable.SetMatrix"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

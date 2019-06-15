@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
 ms.topic: struct
+f1_keywords: ["windows.data.pdf.interop/PDF_RENDER_PARAMS"]
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

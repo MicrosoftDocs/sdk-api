@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendScsiReportLuns, SendScsiReportLuns function [iSCSI Discovery Library API], iscsidisc.sendscsireportluns, iscsidsc/SendScsiReportLuns
 ms.topic: function
+f1_keywords: ["iscsidsc/SendScsiReportLuns"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

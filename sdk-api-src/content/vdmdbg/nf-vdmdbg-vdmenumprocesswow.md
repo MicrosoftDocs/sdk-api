@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDMEnumProcessWOW, VDMEnumProcessWOW function [Windows API], vdmdbg/VDMEnumProcessWOW, winprog.vdmenumprocesswow
 ms.topic: function
+f1_keywords: ["vdmdbg/VDMEnumProcessWOW"]
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows

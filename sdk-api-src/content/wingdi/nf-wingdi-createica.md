@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIC, CreateIC function [Windows GDI], CreateICA, CreateICW, _win32_CreateIC, gdi.createic, wingdi/CreateIC, wingdi/CreateICA, wingdi/CreateICW
 ms.topic: function
+f1_keywords: ["wingdi/CreateIC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

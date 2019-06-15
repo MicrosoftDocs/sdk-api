@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActiveStory, GetActiveStory method [Windows Controls], GetActiveStory method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetActiveStory method, ITextDocument2.GetActiveStory, ITextDocument2::GetActiveStory, controls.itextdocument2_getactivestory, tom/ITextDocument2::GetActiveStory
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.GetActiveStory"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

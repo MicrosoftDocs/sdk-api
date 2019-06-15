@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EqualPrefixSid, EqualPrefixSid function [Security], _win32_equalprefixsid, security.equalprefixsid, securitybaseapi/EqualPrefixSid
 ms.topic: function
+f1_keywords: ["securitybaseapi/EqualPrefixSid"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

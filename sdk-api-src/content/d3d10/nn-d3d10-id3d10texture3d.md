@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Texture3D, ID3D10Texture3D interface [Direct3D 10], ID3D10Texture3D interface [Direct3D 10],described, a0af960d-1977-383c-0ee3-09972ece4699, d3d10/ID3D10Texture3D, direct3d10.id3d10texture3d
 ms.topic: interface
+f1_keywords: ["d3d10/ID3D10Texture3D"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

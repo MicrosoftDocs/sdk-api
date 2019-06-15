@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseMetaFile, CloseMetaFile function [Windows GDI], _win32_CloseMetaFile, gdi.closemetafile, wingdi/CloseMetaFile
 ms.topic: function
+f1_keywords: ["wingdi/CloseMetaFile"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

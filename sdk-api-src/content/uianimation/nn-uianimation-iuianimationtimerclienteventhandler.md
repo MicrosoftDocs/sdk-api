@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerClientEventHandler, IUIAnimationTimerClientEventHandler interface [Windows Animation], IUIAnimationTimerClientEventHandler interface [Windows Animation],described, uianimation.iuianimationtimerclienteventhandler, uianimation/IUIAnimationTimerClientEventHandler
 ms.topic: interface
+f1_keywords: ["uianimation/IUIAnimationTimerClientEventHandler"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

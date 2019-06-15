@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange
 ms.topic: function
+f1_keywords: ["netioapi/NotifyUnicastIpAddressChange"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

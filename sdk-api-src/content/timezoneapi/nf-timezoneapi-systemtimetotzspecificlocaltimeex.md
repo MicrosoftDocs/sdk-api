@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToTzSpecificLocalTimeEx, SystemTimeToTzSpecificLocalTimeEx function, base.systemtimetotzspecificlocaltimeex, timezoneapi/SystemTimeToTzSpecificLocalTimeEx
 ms.topic: function
+f1_keywords: ["timezoneapi/SystemTimeToTzSpecificLocalTimeEx"]
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

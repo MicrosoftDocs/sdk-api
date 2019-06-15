@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorAdjustment, GetColorAdjustment function [Windows GDI], _win32_GetColorAdjustment, gdi.getcoloradjustment, wingdi/GetColorAdjustment
 ms.topic: function
+f1_keywords: ["wingdi/GetColorAdjustment"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

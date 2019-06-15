@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetSource method, ISettingsResult.GetSource, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
 ms.topic: method
+f1_keywords: ["wcmconfig/ISettingsResult.GetSource"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

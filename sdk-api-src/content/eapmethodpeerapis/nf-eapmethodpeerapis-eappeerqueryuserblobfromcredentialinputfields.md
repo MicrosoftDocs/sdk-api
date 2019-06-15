@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerQueryUserBlobFromCredentialInputFields, EapPeerQueryUserBlobFromCredentialInputFields function [EAPHost], eaphost.eappeerqueryuserblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields
 ms.topic: function
+f1_keywords: ["eapmethodpeerapis/EapPeerQueryUserBlobFromCredentialInputFields"]
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

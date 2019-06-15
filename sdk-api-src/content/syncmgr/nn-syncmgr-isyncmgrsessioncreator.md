@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSessionCreator, ISyncMgrSessionCreator interface [Windows Shell], ISyncMgrSessionCreator interface [Windows Shell],described, _shell_ISyncMgrSessionCreator, shell.ISyncMgrSessionCreator, syncmgr/ISyncMgrSessionCreator
 ms.topic: interface
+f1_keywords: ["syncmgr/ISyncMgrSessionCreator"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

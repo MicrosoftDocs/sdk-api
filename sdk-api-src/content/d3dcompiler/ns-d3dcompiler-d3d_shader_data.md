@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D_SHADER_DATA, D3D_SHADER_DATA structure [HLSL], _D3D_SHADER_DATA, d3dcompiler/D3D_SHADER_DATA, direct3dhlsl.d3d_shader_data
 ms.topic: struct
+f1_keywords: ["d3dcompiler/D3D_SHADER_DATA"]
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get_Item method, IUPnPDevices.get_Item, IUPnPDevices::get_Item, _upnp_iupnpdevices_item, get_Item, get_Item method [UPnP APIs], get_Item method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices_item, upnp/IUPnPDevices::get_Item
 ms.topic: method
+f1_keywords: ["upnp/IUPnPDevices.get_Item"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

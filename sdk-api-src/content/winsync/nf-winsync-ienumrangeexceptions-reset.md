@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Reset method, IEnumRangeExceptions.Reset, IEnumRangeExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_reset, winsync/IEnumRangeExceptions::Reset
 ms.topic: method
+f1_keywords: ["winsync/IEnumRangeExceptions.Reset"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

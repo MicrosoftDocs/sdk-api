@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo"
 ms.topic: struct
+f1_keywords: ["ntmsmli/MediaLabelInfo"]
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows

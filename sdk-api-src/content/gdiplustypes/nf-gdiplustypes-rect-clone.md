@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Rect class, Rect class [GDI+],Clone method, Rect.Clone, Rect::Clone, _gdiplus_CLASS_Rect_Clone_, gdiplus._gdiplus_CLASS_Rect_Clone_
 ms.topic: method
+f1_keywords: ["gdiplustypes/Rect.Clone"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

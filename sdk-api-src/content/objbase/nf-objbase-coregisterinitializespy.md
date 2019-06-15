@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRegisterInitializeSpy, CoRegisterInitializeSpy function [COM], _com_CoRegisterInitializeSpy, com.coregisterinitializespy, objbase/CoRegisterInitializeSpy
 ms.topic: function
+f1_keywords: ["objbase/CoRegisterInitializeSpy"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

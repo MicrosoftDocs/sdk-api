@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetInt16Elem, PropVariantGetInt16Elem function [Windows Properties], _shell_PropVariantGetInt16Elem, properties.PropVariantGetInt16Elem, propvarutil/PropVariantGetInt16Elem, shell.PropVariantGetInt16Elem
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantGetInt16Elem"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

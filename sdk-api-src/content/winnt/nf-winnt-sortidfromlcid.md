@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
 ms.topic: macro
+f1_keywords: ["winnt/SORTIDFROMLCID"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

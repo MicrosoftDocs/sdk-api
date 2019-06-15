@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelNtmsOperatorRequest, CancelNtmsOperatorRequest function [Files], _zaw_cancelntmsoperatorrequest, base.cancelntmsoperatorrequest, fs.cancelntmsoperatorrequest, ntmsapi/CancelNtmsOperatorRequest
 ms.topic: function
+f1_keywords: ["ntmsapi/CancelNtmsOperatorRequest"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

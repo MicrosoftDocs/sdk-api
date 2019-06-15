@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Interval, MI_Interval structure [Windows Management Infrastructure (MI)], mi/MI_Interval, wmi._mi_interval, wmi_v2.mi_interval
 ms.topic: struct
+f1_keywords: ["mi/MI_Interval"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

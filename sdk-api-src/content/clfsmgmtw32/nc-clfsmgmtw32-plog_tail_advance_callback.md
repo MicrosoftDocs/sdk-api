@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOG_TAIL_ADVANCE_CALLBACK, LOG_TAIL_ADVANCE_CALLBACK callback function [Files], PLOG_TAIL_ADVANCE_CALLBACK, PLOG_TAIL_ADVANCE_CALLBACK callback, clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK, fs.log_tail_advance_callback
 ms.topic: callback
+f1_keywords: ["clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK"]
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

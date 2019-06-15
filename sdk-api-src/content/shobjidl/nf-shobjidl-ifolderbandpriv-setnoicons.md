@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoIcons method, IFolderBandPriv.SetNoIcons, IFolderBandPriv::SetNoIcons, SetNoIcons, SetNoIcons method [Windows Shell], SetNoIcons method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoIcons, shell.IFolderBandPriv_SetNoIcons, shobjidl/IFolderBandPriv::SetNoIcons
 ms.topic: method
+f1_keywords: ["shobjidl/IFolderBandPriv.SetNoIcons"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

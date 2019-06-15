@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLSIDFromProgIDEx, CLSIDFromProgIDEx function [COM], _com_CLSIDFromProgIDEx, com.clsidfromprogidex, combaseapi/CLSIDFromProgIDEx
 ms.topic: function
+f1_keywords: ["objbase/CLSIDFromProgIDEx"]
 req.header: objbase.h
 req.include-header: Objbase.h
 req.target-type: Windows

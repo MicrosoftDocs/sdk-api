@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSkipNode, WsSkipNode function [Web Services for Windows], webservices/WsSkipNode, wsw.wsskipnode
 ms.topic: function
+f1_keywords: ["webservices/WsSkipNode"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

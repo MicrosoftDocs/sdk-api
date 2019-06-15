@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValidateRgn, ValidateRgn function [Windows GDI], _win32_ValidateRgn, gdi.validatergn, winuser/ValidateRgn
 ms.topic: function
+f1_keywords: ["winuser/ValidateRgn"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

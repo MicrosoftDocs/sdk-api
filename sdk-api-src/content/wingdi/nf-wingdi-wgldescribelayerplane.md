@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglDescribeLayerPlane, opengl.wgldescribelayerplane, wglDescribeLayerPlane, wglDescribeLayerPlane function [OpenGL], wingdi/wglDescribeLayerPlane"
 ms.topic: function
+f1_keywords: ["wingdi/wglDescribeLayerPlane"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvUnloadFontFile, DrvUnloadFontFile function [Display Devices], ddifncs_db8c3f72-5fde-4dd3-84e1-5bea9b7e530d.xml, display.drvunloadfontfile, winddi/DrvUnloadFontFile
 ms.topic: function
+f1_keywords: ["winddi/DrvUnloadFontFile"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

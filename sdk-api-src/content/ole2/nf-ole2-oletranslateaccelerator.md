@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleTranslateAccelerator, OleTranslateAccelerator function [COM], _ole_OleTranslateAccelerator, com.oletranslateaccelerator, ole2/OleTranslateAccelerator
 ms.topic: function
+f1_keywords: ["ole2/OleTranslateAccelerator"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CWbemProviderGlue, CWbemProviderGlue class [Windows Management Instrumentation], CWbemProviderGlue class [Windows Management Instrumentation],described, _hmm_cwbemproviderglue, wbemglue/CWbemProviderGlue, wmi.cwbemproviderglue
 ms.topic: class
+f1_keywords: ["wbemglue/CWbemProviderGlue"]
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

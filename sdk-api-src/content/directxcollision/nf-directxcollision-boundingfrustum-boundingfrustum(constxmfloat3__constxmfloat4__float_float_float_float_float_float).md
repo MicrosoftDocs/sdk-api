@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum constructor [DirectX Math Support APIs], BoundingFrustum constructor [DirectX Math Support APIs],BoundingFrustum interface, BoundingFrustum interface [DirectX Math Support APIs],BoundingFrustum constructor, BoundingFrustum.BoundingFrustum, BoundingFrustum.BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), BoundingFrustum.BoundingFrustum(const XMFLOAT3&,const XMFLOAT4&,float,float,float,float,float,float), BoundingFrustum::BoundingFrustum, BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float), dxmath.boundingfrustum_ctor_2
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingFrustum.BoundingFrustum"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

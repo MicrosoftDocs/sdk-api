@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BitmapProperties1, BitmapProperties1 function [Direct2D], d2d1_1helper/BitmapProperties1, direct2d.bitmapproperties1
 ms.topic: function
+f1_keywords: ["d2d1_1helper/BitmapProperties1"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

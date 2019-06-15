@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyAddrChange, NotifyAddrChange function [IP Helper], _iphlp_notifyaddrchange, iphlp.notifyaddrchange, iphlpapi/NotifyAddrChange
 ms.topic: function
+f1_keywords: ["iphlpapi/NotifyAddrChange"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetLastLineWrapping method, IDWriteTextLayout2.SetLastLineWrapping, IDWriteTextLayout2::SetLastLineWrapping, SetLastLineWrapping, SetLastLineWrapping method [Direct Write], SetLastLineWrapping method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setlastlinewrapping, dwrite_2/IDWriteTextLayout2::SetLastLineWrapping
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteTextLayout2.SetLastLineWrapping"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

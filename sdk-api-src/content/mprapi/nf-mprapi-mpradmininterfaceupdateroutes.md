@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceUpdateRoutes, MprAdminInterfaceUpdateRoutes function [RAS], _mpr_mpradmininterfaceupdateroutes, mprapi/MprAdminInterfaceUpdateRoutes, rras.mpradmininterfaceupdateroutes
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminInterfaceUpdateRoutes"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

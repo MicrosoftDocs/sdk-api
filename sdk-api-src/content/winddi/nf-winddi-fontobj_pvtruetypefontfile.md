@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pvTrueTypeFontFile, FONTOBJ_pvTrueTypeFontFile function [Display Devices], display.fontobj_pvtruetypefontfile, gdifncs_72ff6779-98e3-44b1-919c-06fa0ac1ffa2.xml, winddi/FONTOBJ_pvTrueTypeFontFile
 ms.topic: function
+f1_keywords: ["winddi/FONTOBJ_pvTrueTypeFontFile"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

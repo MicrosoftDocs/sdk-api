@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BreakMirrorVirtualDisk, BreakMirrorVirtualDisk function [VHD], vdssys/BreakMirrorVirtualDisk, vhd.breakmirrorvirtualdisk, virtdisk/BreakMirrorVirtualDisk
 ms.topic: function
+f1_keywords: ["virtdisk/BreakMirrorVirtualDisk"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

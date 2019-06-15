@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.protectfiletoenterpriseidentity, ProtectFileToEnterpriseIdentity, ProtectFileToEnterpriseIdentity function, edpwin32/ProtectFileToEnterpriseIdentity
 ms.topic: function
+f1_keywords: ["edpwin32/ProtectFileToEnterpriseIdentity"]
 req.header: edpwin32.h
 req.include-header: 
 req.target-type: Windows

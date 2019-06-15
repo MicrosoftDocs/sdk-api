@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_SERVICE_STATE, PWRDS_SERVICE_STATE, PWRDS_SERVICE_STATE structure pointer [Remote Desktop Services], PWTS_SERVICE_STATE, PWTS_SERVICE_STATE structure pointer [Remote Desktop Services], WRDS_SERVICE_STATE, WRDS_SERVICE_STATE structure [Remote Desktop Services], WTS_SERVICE_STATE, WTS_SERVICE_STATE structure [Remote Desktop Services], termserv.wts_service_state, wtsdefs/PWRDS_SERVICE_STATE, wtsdefs/PWTS_SERVICE_STATE, wtsdefs/WRDS_SERVICE_STATE, wtsdefs/WTS_SERVICE_STATE"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_SERVICE_STATE"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

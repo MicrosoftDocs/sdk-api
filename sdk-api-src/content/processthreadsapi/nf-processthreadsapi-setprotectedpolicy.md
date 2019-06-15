@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProtectedPolicy, SetProtectedPolicy function, base.setprotectedpolicy, processthreadsapi/SetProtectedPolicy
 ms.topic: function
+f1_keywords: ["processthreadsapi/SetProtectedPolicy"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

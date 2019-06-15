@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,SetStatus method, IValidate.SetStatus, IValidate::SetStatus, SetStatus, SetStatus method, SetStatus method,IValidate interface, evalcom2/IValidate::SetStatus, setup.ivalidate_setstatus
 ms.topic: method
+f1_keywords: ["evalcom2/IValidate.SetStatus"]
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

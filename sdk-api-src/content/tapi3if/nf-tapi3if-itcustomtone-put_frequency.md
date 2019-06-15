@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_Frequency method, ITCustomTone.put_Frequency, ITCustomTone::put_Frequency, _tapi3_itcustomtone_put_frequency, put_Frequency, put_Frequency method [TAPI 2.2], put_Frequency method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_frequency, tapi3if/ITCustomTone::put_Frequency
 ms.topic: method
+f1_keywords: ["tapi3if/ITCustomTone.put_Frequency"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

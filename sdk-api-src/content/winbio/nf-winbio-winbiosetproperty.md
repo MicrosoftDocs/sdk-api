@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioSetProperty, WinBioSetProperty function [Windows Biometric Framework API], secbiomet.winbiosetproperty, winbio/WinBioSetProperty
 ms.topic: function
+f1_keywords: ["winbio/WinBioSetProperty"]
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

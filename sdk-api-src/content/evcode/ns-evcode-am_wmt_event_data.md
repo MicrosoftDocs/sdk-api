@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [windows Media Format], evcode/AM_WMT_EVENT_DATA, wmformat.am_wmt_event_data
 ms.topic: struct
+f1_keywords: ["evcode/AM_WMT_EVENT_DATA"]
 req.header: evcode.h
 req.include-header: 
 req.target-type: Windows

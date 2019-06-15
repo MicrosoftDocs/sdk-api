@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevicePosition, GetDevicePosition method [Core Audio], GetDevicePosition method [Core Audio],IAudioClock2 interface, IAudioClock2 interface [Core Audio],GetDevicePosition method, IAudioClock2.GetDevicePosition, IAudioClock2::GetDevicePosition, audioclient/IAudioClock2::GetDevicePosition, coreaudio.iaudioclock2_getdeviceposition
 ms.topic: method
+f1_keywords: ["audioclient/IAudioClock2.GetDevicePosition"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

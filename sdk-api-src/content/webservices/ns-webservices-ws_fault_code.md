@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_FAULT_CODE, WS_FAULT_CODE structure [Web Services for Windows], webservices/WS_FAULT_CODE, wsw.ws_fault_code
 ms.topic: struct
+f1_keywords: ["webservices/WS_FAULT_CODE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

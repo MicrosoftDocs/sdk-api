@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecPrivateData interface [Media Foundation],SetPartialOutputType method, IWMCodecPrivateData.SetPartialOutputType, IWMCodecPrivateData::SetPartialOutputType, SetPartialOutputType, SetPartialOutputType method [Media Foundation], SetPartialOutputType method [Media Foundation],IWMCodecPrivateData interface, codecapi.iwmcodecprivatedatasetpartialoutputtype, mf.iwmcodecprivatedatasetpartialoutputtype, wmcodecdsp/IWMCodecPrivateData::SetPartialOutputType
 ms.topic: method
+f1_keywords: ["wmcodecdsp/IWMCodecPrivateData.SetPartialOutputType"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

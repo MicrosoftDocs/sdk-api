@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception
 ms.topic: function
+f1_keywords: ["rtlsupportapi/RtlRaiseException"]
 req.header: rtlsupportapi.h
 req.include-header: 
 req.target-type: Windows

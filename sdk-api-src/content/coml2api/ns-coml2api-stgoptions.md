@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions
 ms.topic: struct
+f1_keywords: ["coml2api/STGOPTIONS"]
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

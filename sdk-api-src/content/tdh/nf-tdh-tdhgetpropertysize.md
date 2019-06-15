@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetPropertySize, TdhGetPropertySize function [ETW], etw.tdhgetpropertysize_func, tdh.tdhgetpropertysize_func, tdh/TdhGetPropertySize
 ms.topic: function
+f1_keywords: ["tdh/TdhGetPropertySize"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

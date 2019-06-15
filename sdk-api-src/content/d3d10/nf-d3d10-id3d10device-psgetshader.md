@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 22e11c1b-a242-803e-3d24-a515820d6e7a, ID3D10Device interface [Direct3D 10],PSGetShader method, ID3D10Device.PSGetShader, ID3D10Device::PSGetShader, PSGetShader, PSGetShader method [Direct3D 10], PSGetShader method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetShader, direct3d10.id3d10device_psgetshader
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.PSGetShader"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

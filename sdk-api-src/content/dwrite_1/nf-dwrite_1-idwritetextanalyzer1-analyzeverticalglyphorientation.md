@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnalyzeVerticalGlyphOrientation, AnalyzeVerticalGlyphOrientation method [Direct Write], AnalyzeVerticalGlyphOrientation method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],AnalyzeVerticalGlyphOrientation method, IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation, IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation, directwrite.idwritetextanalyzer1_analyzeverticalglyphorientation, dwrite_1/IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation
 ms.topic: method
+f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

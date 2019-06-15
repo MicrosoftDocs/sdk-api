@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHostNotify, IWSDDeviceHostNotify interface, IWSDDeviceHostNotify interface,described, ncd.iwsddevicehostnotify, wsdhost/IWSDDeviceHostNotify
 ms.topic: interface
+f1_keywords: ["wsdhost/IWSDDeviceHostNotify"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

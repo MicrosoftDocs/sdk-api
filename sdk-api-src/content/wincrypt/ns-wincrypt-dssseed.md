@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DSSSEED, DSSSEED structure [Security], _crypto2_dssseed, security.dssseed, wincrypt/DSSSEED
 ms.topic: struct
+f1_keywords: ["wincrypt/DSSSEED"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

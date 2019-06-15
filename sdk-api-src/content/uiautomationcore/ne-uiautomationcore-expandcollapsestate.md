@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandCollapseState, ExpandCollapseState enumeration [Windows Accessibility], ExpandCollapseState_Collapsed, ExpandCollapseState_Expanded, ExpandCollapseState_LeafNode, ExpandCollapseState_PartiallyExpanded, uiauto.uiauto_ExpandCollapseStateEnum, uiauto_ExpandCollapseStateEnum, uiautomationcore/ExpandCollapseState, uiautomationcore/ExpandCollapseState_Collapsed, uiautomationcore/ExpandCollapseState_Expanded, uiautomationcore/ExpandCollapseState_LeafNode, uiautomationcore/ExpandCollapseState_PartiallyExpanded, winauto.uiauto_ExpandCollapseStateEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcore/ExpandCollapseState"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

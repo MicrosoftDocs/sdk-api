@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentZoomLevel property [Windows Accessibility], CurrentZoomLevel property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentZoomLevel property, IUIAutomationTransformPattern2.CurrentZoomLevel, IUIAutomationTransformPattern2.get_CurrentZoomLevel, IUIAutomationTransformPattern2::CurrentZoomLevel, IUIAutomationTransformPattern2::get_CurrentZoomLevel, get_CurrentZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::CurrentZoomLevel, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentZoomLevel, winauto.uiauto_iuiautomationtransformpattern2_currentzoomlevel
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern2.CurrentZoomLevel"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

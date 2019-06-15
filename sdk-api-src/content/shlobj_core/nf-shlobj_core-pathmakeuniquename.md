@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
 ms.topic: function
+f1_keywords: ["shlobj_core/PathMakeUniqueName"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],SizeInCharacters property, IMbnSmsReadMsgTextCdma.SizeInCharacters, IMbnSmsReadMsgTextCdma.get_SizeInCharacters, IMbnSmsReadMsgTextCdma::SizeInCharacters, IMbnSmsReadMsgTextCdma::get_SizeInCharacters, SizeInCharacters property [Microsoft Broadband Networks], SizeInCharacters property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_SizeInCharacters, mbn.imbnsmsreadmsgtextcdma_sizeincharacters, mbnapi/IMbnSmsReadMsgTextCdma::SizeInCharacters, mbnapi/IMbnSmsReadMsgTextCdma::get_SizeInCharacters
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnSmsReadMsgTextCdma.SizeInCharacters"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

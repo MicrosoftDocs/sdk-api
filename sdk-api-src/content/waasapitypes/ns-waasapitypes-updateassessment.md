@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, waasapitypes/UpdateAssessment
 ms.topic: struct
+f1_keywords: ["waasapitypes/UpdateAssessment"]
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows

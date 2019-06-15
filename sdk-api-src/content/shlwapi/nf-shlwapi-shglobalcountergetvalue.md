@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows Shell], _shell_SHGlobalCounterGetValue, shell.SHGlobalCounterGetValue, shlwapi/SHGlobalCounterGetValue
 ms.topic: function
+f1_keywords: ["shlwapi/SHGlobalCounterGetValue"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

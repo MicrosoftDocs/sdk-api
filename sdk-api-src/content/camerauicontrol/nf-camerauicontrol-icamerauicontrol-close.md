@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
 ms.topic: method
+f1_keywords: ["camerauicontrol/ICameraUIControl.Close"]
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

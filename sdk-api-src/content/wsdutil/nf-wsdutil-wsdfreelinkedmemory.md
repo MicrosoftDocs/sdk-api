@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDFreeLinkedMemory, WSDFreeLinkedMemory function, ncd.wsdfreelinkedmemory_func, wsdutil/WSDFreeLinkedMemory
 ms.topic: function
+f1_keywords: ["wsdutil/WSDFreeLinkedMemory"]
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

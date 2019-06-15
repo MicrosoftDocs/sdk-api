@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCloseContent, PeerDistClientCloseContent function [Peer Networking], p2p.peerdistclientclosecontent, peerdist/PeerDistClientCloseContent
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistClientCloseContent"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

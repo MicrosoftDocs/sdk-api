@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanAllocateMemory, WlanAllocateMemory function [NativeWIFI], nwifi.wlanallocatememory, wlanapi/WlanAllocateMemory
 ms.topic: function
+f1_keywords: ["wlanapi/WlanAllocateMemory"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

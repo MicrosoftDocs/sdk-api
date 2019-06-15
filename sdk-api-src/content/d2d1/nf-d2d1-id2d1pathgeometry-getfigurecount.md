@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFigureCount, GetFigureCount method [Direct2D], GetFigureCount method [Direct2D],ID2D1PathGeometry interface, ID2D1PathGeometry interface [Direct2D],GetFigureCount method, ID2D1PathGeometry.GetFigureCount, ID2D1PathGeometry::GetFigureCount, d2d1/ID2D1PathGeometry::GetFigureCount, direct2d.ID2D1PathGeometry_GetFigureCount
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1PathGeometry.GetFigureCount"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

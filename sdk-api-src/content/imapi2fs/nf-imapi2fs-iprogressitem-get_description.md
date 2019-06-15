@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_Description method, IProgressItem.get_Description, IProgressItem::get_Description, get_Description, get_Description method [IMAPI], get_Description method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_description, imapi2fs/IProgressItem::get_Description
 ms.topic: method
+f1_keywords: ["imapi2fs/IProgressItem.get_Description"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

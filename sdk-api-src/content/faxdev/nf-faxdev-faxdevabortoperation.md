@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevAbortOperation, FaxDevAbortOperation function [Fax Service], _mfax_faxdevabortoperation, fax._mfax_faxdevabortoperation, faxdev/FaxDevAbortOperation
 ms.topic: function
+f1_keywords: ["faxdev/FaxDevAbortOperation"]
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

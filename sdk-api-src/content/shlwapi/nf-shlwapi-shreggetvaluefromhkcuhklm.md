@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegGetValueFromHKCUHKLM, SHRegGetValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetValueFromHKCUHKLM, shell.SHRegGetValueFromHKCUHKLM, shlwapi/SHRegGetValueFromHKCUHKLM
 ms.topic: function
+f1_keywords: ["shlwapi/SHRegGetValueFromHKCUHKLM"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_XBUTTON_WPARAM, GET_XBUTTON_WPARAM macro [Keyboard and Mouse Input], _win32_GET_XBUTTON_WPARAM, _win32_get_xbutton_wparam_cpp, inputdev.get_xbutton_wparam, winui._win32_get_xbutton_wparam, winuser/GET_XBUTTON_WPARAM
 ms.topic: macro
+f1_keywords: ["winuser/GET_XBUTTON_WPARAM"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

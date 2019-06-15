@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMINIMIZEDMETRICS, *PMINIMIZEDMETRICS, ARW_BOTTOMLEFT, ARW_BOTTOMRIGHT, ARW_DOWN, ARW_HIDE, ARW_LEFT, ARW_RIGHT, ARW_TOPLEFT, ARW_TOPRIGHT, ARW_UP, LPMINIMIZEDMETRICS, LPMINIMIZEDMETRICS structure pointer [Windows and Messages], MINIMIZEDMETRICS, MINIMIZEDMETRICS structure [Windows and Messages], PMINIMIZEDMETRICS, PMINIMIZEDMETRICS structure pointer [Windows and Messages], _win32_minimizedmetrics_str, base.minimizedmetrics_str, minimizedmetrics_str_cpp, tagMINIMIZEDMETRICS, winmsg.minimizedmetrics_str, winui.minimizedmetrics_str, winuser/LPMINIMIZEDMETRICS, winuser/MINIMIZEDMETRICS, winuser/PMINIMIZEDMETRICS"
 ms.topic: struct
+f1_keywords: ["winuser/MINIMIZEDMETRICS"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

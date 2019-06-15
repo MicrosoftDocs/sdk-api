@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_SetText, Button_SetText macro [Windows Controls], _win32_Button_SetText, _win32_Button_SetText_cpp, controls.Button_SetText, controls._win32_Button_SetText, windowsx/Button_SetText
 ms.topic: macro
+f1_keywords: ["windowsx/Button_SetText"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

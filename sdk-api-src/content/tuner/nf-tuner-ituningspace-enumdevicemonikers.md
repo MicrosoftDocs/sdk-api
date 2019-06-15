@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceMonikers, EnumDeviceMonikers method [Microsoft TV Technologies], EnumDeviceMonikers method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumDeviceMonikers method, ITuningSpace.EnumDeviceMonikers, ITuningSpace::EnumDeviceMonikers, ITuningSpaceEnumDeviceMonikers, mstv.ituningspace_enumdevicemonikers, tuner/ITuningSpace::EnumDeviceMonikers
 ms.topic: method
+f1_keywords: ["tuner/ITuningSpace.EnumDeviceMonikers"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

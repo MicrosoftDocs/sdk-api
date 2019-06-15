@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerStoreQueryReportMetadataV2, WerStoreQueryReportMetadataV2 function [Windows Error Reporting], wer.werstorequeryreportmetadatav2, werapi/WerStoreQueryReportMetadataV2
 ms.topic: function
+f1_keywords: ["werapi/WerStoreQueryReportMetadataV2"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupFilesEnumerator interface [App packaging and management],MoveNext method, IAppxContentGroupFilesEnumerator.MoveNext, IAppxContentGroupFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxContentGroupFilesEnumerator interface, appxpackaging/IAppxContentGroupFilesEnumerator::MoveNext, appxpkg.iappxcontentgroupfilesenumerator__movenext
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxContentGroupFilesEnumerator.MoveNext"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

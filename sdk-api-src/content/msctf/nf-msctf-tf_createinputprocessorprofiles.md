@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_CreateInputProcessorProfiles, TF_CreateInputProcessorProfiles function [Text Services Framework], msctf/TF_CreateInputProcessorProfiles, tsf.tf_createinputprocessorprofiles
 ms.topic: function
+f1_keywords: ["msctf/TF_CreateInputProcessorProfiles"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

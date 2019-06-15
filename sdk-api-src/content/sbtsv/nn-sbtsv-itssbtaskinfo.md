@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo, ITsSbTaskInfo interface [Remote Desktop Services], ITsSbTaskInfo interface [Remote Desktop Services],described, sbtsv/ITsSbTaskInfo, termserv.itssbtaskinfo
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbTaskInfo"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

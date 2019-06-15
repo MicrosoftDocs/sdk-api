@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPowerSource, GetPowerSource method [windows Media Device Manager], GetPowerSource method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetPowerSource method, IMDSPDevice.GetPowerSource, IMDSPDevice::GetPowerSource, IMDSPDeviceGetPowerSource, mswmdm/IMDSPDevice::GetPowerSource, wmdm.imdspdevice_getpowersource
 ms.topic: method
+f1_keywords: ["mswmdm/IMDSPDevice.GetPowerSource"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

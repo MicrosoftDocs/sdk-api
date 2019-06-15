@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddSecurityPackage, AddSecurityPackage function [Security], AddSecurityPackageA, AddSecurityPackageW, security.addsecuritypackage, sspi/AddSecurityPackage, sspi/AddSecurityPackageA, sspi/AddSecurityPackageW
 ms.topic: function
+f1_keywords: ["sspi/AddSecurityPackage"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

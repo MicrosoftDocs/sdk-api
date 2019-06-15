@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardfreememory, security.scardfreememory, winscard/SCardFreeMemory
 ms.topic: function
+f1_keywords: ["winscard/SCardFreeMemory"]
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

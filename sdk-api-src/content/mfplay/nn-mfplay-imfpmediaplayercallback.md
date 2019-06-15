@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], IMFPMediaPlayerCallback interface [Media Foundation],described, mf.imfpmediaplayercallback, mfplay/IMFPMediaPlayerCallback
 ms.topic: interface
+f1_keywords: ["mfplay/IMFPMediaPlayerCallback"]
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

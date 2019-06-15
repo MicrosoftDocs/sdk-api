@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration, INetSharingConfiguration interface [ICS/ICF], INetSharingConfiguration interface [ICS/ICF],described, _ics_inetsharingconfiguration, ics.inetsharingconfiguration, netcon/INetSharingConfiguration
 ms.topic: interface
+f1_keywords: ["netcon/INetSharingConfiguration"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_MEMBER_FLAGS, PEER_MEMBER_FLAGS enumeration [Peer Networking], PEER_MEMBER_PRESENT, p2p.peer_member_flags, p2p/PEER_MEMBER_FLAGS, p2p/PEER_MEMBER_PRESENT
 ms.topic: enum
+f1_keywords: ["p2p/PEER_MEMBER_FLAGS"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

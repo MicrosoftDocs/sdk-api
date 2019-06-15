@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmExportImport, IFsrmExportImport interface [File Server Resource Manager], IFsrmExportImport interface [File Server Resource Manager],described, fs.ifsrmexportimport, fsrm.ifsrmexportimport, fsrm/IFsrmExportImport
 ms.topic: interface
+f1_keywords: ["fsrm/IFsrmExportImport"]
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

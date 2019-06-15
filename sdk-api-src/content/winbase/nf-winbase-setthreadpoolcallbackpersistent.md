@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackPersistent, SetThreadpoolCallbackPersistent function, base.setthreadpoolcallbackpersistent, winbase/SetThreadpoolCallbackPersistent
 ms.topic: function
+f1_keywords: ["winbase/SetThreadpoolCallbackPersistent"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

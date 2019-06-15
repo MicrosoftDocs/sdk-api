@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbFilterPluginStore interface [Remote Desktop Services],SaveProperties method, ITsSbFilterPluginStore.SaveProperties, ITsSbFilterPluginStore::SaveProperties, SaveProperties, SaveProperties method [Remote Desktop Services], SaveProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, sbtsv/ITsSbFilterPluginStore::SaveProperties, termserv.itssbfilterpluginstore_saveproperties
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbFilterPluginStore.SaveProperties"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

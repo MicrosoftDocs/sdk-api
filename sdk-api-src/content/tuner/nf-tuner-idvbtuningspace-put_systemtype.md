@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace interface [Microsoft TV Technologies],put_SystemType method, IDVBTuningSpace.put_SystemType, IDVBTuningSpace::put_SystemType, IDVBTuningSpaceput_SystemType, mstv.idvbtuningspace_put_systemtype, put_SystemType, put_SystemType method [Microsoft TV Technologies], put_SystemType method [Microsoft TV Technologies],IDVBTuningSpace interface, tuner/IDVBTuningSpace::put_SystemType
 ms.topic: method
+f1_keywords: ["tuner/IDVBTuningSpace.put_SystemType"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetHeader, ListView_GetHeader macro [Windows Controls], _win32_ListView_GetHeader, _win32_ListView_GetHeader_cpp, commctrl/ListView_GetHeader, controls.ListView_GetHeader, controls._win32_ListView_GetHeader
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_GetHeader"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

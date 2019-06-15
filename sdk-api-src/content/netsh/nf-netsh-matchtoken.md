@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, netsh/MatchToken, netshell.matchtoken
 ms.topic: function
+f1_keywords: ["netsh/MatchToken"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_URI_LIST, WSD_URI_LIST structure, ncd.wsd_uri_list_struct, wsdtypes/WSD_URI_LIST
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_URI_LIST"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

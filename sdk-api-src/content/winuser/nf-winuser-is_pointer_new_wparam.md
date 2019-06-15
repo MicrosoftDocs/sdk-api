@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_NEW_WPARAM, IS_POINTER_NEW_WPARAM	, IS_POINTER_NEW_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_new_wparam, winuser/IS_POINTER_NEW_WPARAM
 ms.topic: macro
+f1_keywords: ["winuser/IS_POINTER_NEW_WPARAM"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

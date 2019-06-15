@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPostView, IWMWriterPostView interface [windows Media Format], IWMWriterPostView interface [windows Media Format],described, IWMWriterPostViewInterface, wmformat.iwmwriterpostview, wmsdkidl/IWMWriterPostView
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMWriterPostView"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

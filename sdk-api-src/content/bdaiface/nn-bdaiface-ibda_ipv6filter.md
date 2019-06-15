@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV6Filter, IBDA_IPV6Filter interface [Microsoft TV Technologies], IBDA_IPV6Filter interface [Microsoft TV Technologies],described, IBDA_IPV6FilterInterface, bdaiface/IBDA_IPV6Filter, mstv.ibda_ipv6filter
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_IPV6Filter"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

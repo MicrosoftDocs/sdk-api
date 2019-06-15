@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOCollection, IGPMStarterGPOCollection, IGPMStarterGPOCollection interface [GPMC], IGPMStarterGPOCollection interface [GPMC],described, gpmc.igpmstartergpocollection, gpmgmt/IGPMStarterGPOCollection
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMStarterGPOCollection"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

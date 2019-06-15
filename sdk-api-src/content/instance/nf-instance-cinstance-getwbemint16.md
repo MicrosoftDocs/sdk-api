@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z, ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z, CInstance interface [Windows Management Instrumentation],GetWBEMINT16 method, CInstance.GetWBEMINT16, CInstance::GetWBEMINT16, GetWBEMINT16, GetWBEMINT16 method [Windows Management Instrumentation], GetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getwbemint16, instance/CInstance::GetWBEMINT16, wmi.cinstance_getwbemint16"
 ms.topic: method
+f1_keywords: ["instance/CInstance.GetWBEMINT16"]
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

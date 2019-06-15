@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropSetHwnd, ADsPropSetHwnd function [Active Directory], _glines_adspropsethwnd, ad.adspropsethwnd, adsprop/ADsPropSetHwnd
 ms.topic: function
+f1_keywords: ["adsprop/ADsPropSetHwnd"]
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

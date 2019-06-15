@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputeSiteCosts, ComputeSiteCosts method [Security], ComputeSiteCosts method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],ComputeSiteCosts method, ICertificationAuthorities.ComputeSiteCosts, ICertificationAuthorities::ComputeSiteCosts, certenroll/ICertificationAuthorities::ComputeSiteCosts, security.icertificationauthorities_computesitecosts
 ms.topic: method
+f1_keywords: ["certenroll/ICertificationAuthorities.ComputeSiteCosts"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

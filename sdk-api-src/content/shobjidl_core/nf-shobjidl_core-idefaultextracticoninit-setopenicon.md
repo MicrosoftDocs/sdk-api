@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetOpenIcon method, IDefaultExtractIconInit.SetOpenIcon, IDefaultExtractIconInit::SetOpenIcon, SetOpenIcon, SetOpenIcon method [Windows Shell], SetOpenIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetOpenIcon, shell.IDefaultExtractIconInit_SetOpenIcon, shobjidl_core/IDefaultExtractIconInit::SetOpenIcon
 ms.topic: method
+f1_keywords: ["shobjidl_core/IDefaultExtractIconInit.SetOpenIcon"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

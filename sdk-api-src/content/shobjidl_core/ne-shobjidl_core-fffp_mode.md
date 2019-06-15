@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_MODE, FFFP_MODE enumeration [Windows Shell], FFFP_NEARESTPARENTMATCH, _shell_FFFP_MODE, shell.FFFP_MODE, shobjidl_core/FFFP_EXACTMATCH, shobjidl_core/FFFP_MODE, shobjidl_core/FFFP_NEARESTPARENTMATCH
 ms.topic: enum
+f1_keywords: ["shobjidl_core/FFFP_MODE"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

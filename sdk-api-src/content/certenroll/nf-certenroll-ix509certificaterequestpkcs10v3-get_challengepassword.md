@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChallengePassword property [Security], ChallengePassword property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],ChallengePassword property, IX509CertificateRequestPkcs10V3.ChallengePassword, IX509CertificateRequestPkcs10V3.get_ChallengePassword, IX509CertificateRequestPkcs10V3::ChallengePassword, IX509CertificateRequestPkcs10V3::get_ChallengePassword, IX509CertificateRequestPkcs10V3::put_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::get_ChallengePassword, certenroll/IX509CertificateRequestPkcs10V3::put_ChallengePassword, get_ChallengePassword, security.ix509certificaterequestpkcs10v3_challengepassword
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequestPkcs10V3.ChallengePassword"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

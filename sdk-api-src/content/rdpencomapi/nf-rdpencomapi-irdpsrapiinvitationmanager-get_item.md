@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitationManager interface [RDP],Item property, IRDPSRAPIInvitationManager.Item, IRDPSRAPIInvitationManager.get_Item, IRDPSRAPIInvitationManager::Item, IRDPSRAPIInvitationManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIInvitationManager interface, Item property [RDP],RDPSRAPIInvitationManager object, RDPSRAPIInvitationManager object [RDP],Item property, get_Item, rdp.irdpsrapiinvitationmanager_item, rdpencomapi/IRDPSRAPIInvitationManager::Item, rdpencomapi/IRDPSRAPIInvitationManager::get_Item
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIInvitationManager.Item"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

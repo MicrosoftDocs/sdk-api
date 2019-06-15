@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAsyncReaderTimestampScaling, IAMAsyncReaderTimestampScaling interface [DirectShow], IAMAsyncReaderTimestampScaling interface [DirectShow],described, dshow.iamasyncreadertimestampscaling, strmif/IAMAsyncReaderTimestampScaling
 ms.topic: interface
+f1_keywords: ["strmif/IAMAsyncReaderTimestampScaling"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

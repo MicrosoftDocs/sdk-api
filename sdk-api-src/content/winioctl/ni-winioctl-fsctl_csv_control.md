@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_CSV_CONTROL, FSCTL_CSV_CONTROL control, FSCTL_CSV_CONTROL control code [Files], fs.fsctl_csv_control, winioctl/FSCTL_CSV_CONTROL
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_CSV_CONTROL"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

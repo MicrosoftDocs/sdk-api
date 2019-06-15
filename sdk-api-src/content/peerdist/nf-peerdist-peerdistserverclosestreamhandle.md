@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCloseStreamHandle, PeerDistServerCloseStreamHandle function [Peer Networking], p2p.peerdistserverclosestreamhandle, peerdist/PeerDistServerCloseStreamHandle
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistServerCloseStreamHandle"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

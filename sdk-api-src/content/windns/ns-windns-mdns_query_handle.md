@@ -5,6 +5,7 @@ description: Contains information related to an ongoing MDNS query. Your applica
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_HANDLE, MDNS_QUERY_HANDLE
 ms.topic: language-reference
+f1_keywords: ["windns/_MDNS_QUERY_HANDLE"]
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VSS_USAGE_TYPE, VSS_USAGE_TYPE enumeration [VSS], VSS_UT_BOOTABLESYSTEMSTATE, VSS_UT_OTHER, VSS_UT_SYSTEMSERVICE, VSS_UT_UNDEFINED, VSS_UT_USERDATA, _win32_vss_usage_type, base.vss_usage_type, enumeration [VSS], vswriter/VSS_USAGE_TYPE, vswriter/VSS_UT_BOOTABLESYSTEMSTATE, vswriter/VSS_UT_OTHER, vswriter/VSS_UT_SYSTEMSERVICE, vswriter/VSS_UT_UNDEFINED, vswriter/VSS_UT_USERDATA
 ms.topic: enum
+f1_keywords: ["vswriter/VSS_USAGE_TYPE"]
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

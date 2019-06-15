@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpModifyClassV6, DhcpModifyClassV6 function [DHCP], dhcp.dhcpmodifyclassv6, dhcpsapi/DhcpModifyClassV6
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpModifyClassV6"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

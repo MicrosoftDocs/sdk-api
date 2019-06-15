@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_CONFIGURATION_MODE, EC_SUBSCRIPTION_CONFIGURATION_MODE enumeration, EcConfigurationModeCustom, EcConfigurationModeMinBandwidth, EcConfigurationModeMinLatency, EcConfigurationModeNormal, evcoll/EC_SUBSCRIPTION_CONFIGURATION_MODE, evcoll/EcConfigurationModeCustom, evcoll/EcConfigurationModeMinBandwidth, evcoll/EcConfigurationModeMinLatency, evcoll/EcConfigurationModeNormal, wec.ec_subscription_configuration_mode, wes.ec_subscription_configuration_mode
 ms.topic: enum
+f1_keywords: ["evcoll/EC_SUBSCRIPTION_CONFIGURATION_MODE"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

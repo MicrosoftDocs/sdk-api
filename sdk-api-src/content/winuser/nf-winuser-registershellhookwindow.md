@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterShellHookWindow, RegisterShellHookWindow function [Windows and Messages], _win32_RegisterShellHookWindow, _win32_registershellhookwindow_cpp, winmsg.registershellhookwindow, winui._win32_registershellhookwindow, winuser/RegisterShellHookWindow
 ms.topic: function
+f1_keywords: ["winuser/RegisterShellHookWindow"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

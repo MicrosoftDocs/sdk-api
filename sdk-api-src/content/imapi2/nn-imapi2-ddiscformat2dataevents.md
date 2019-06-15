@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDiscFormat2DataEvents, DDiscFormat2DataEvents interface [IMAPI], DDiscFormat2DataEvents interface [IMAPI],described, imapi.ddiscformat2dataevents, imapi2/DDiscFormat2DataEvents
 ms.topic: interface
+f1_keywords: ["imapi2/DDiscFormat2DataEvents"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

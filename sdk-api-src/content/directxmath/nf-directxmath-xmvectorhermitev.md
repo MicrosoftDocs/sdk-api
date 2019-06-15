@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorHermiteV, XMVectorHermiteV, XMVectorHermiteV method [DirectX Math Support APIs], dxmath.xmvectorhermitev
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorHermiteV"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

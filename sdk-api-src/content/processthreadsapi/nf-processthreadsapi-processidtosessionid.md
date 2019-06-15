@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessIdToSessionId, ProcessIdToSessionId function [Remote Desktop Services], _win32_processidtosessionid, processthreadsapi/ProcessIdToSessionId, termserv.processidtosessionid
 ms.topic: function
+f1_keywords: ["processthreadsapi/ProcessIdToSessionId"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

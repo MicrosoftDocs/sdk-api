@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase2, ISyncChangeBatchBase2 interface [Windows Sync], ISyncChangeBatchBase2 interface [Windows Sync],described, winsync.isyncchangebatchbase2, winsync/ISyncChangeBatchBase2
 ms.topic: interface
+f1_keywords: ["winsync/ISyncChangeBatchBase2"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

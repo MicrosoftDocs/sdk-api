@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedValue property [Windows Accessibility], CachedValue property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedValue property, IUIAutomationRangeValuePattern.CachedValue, IUIAutomationRangeValuePattern.get_CachedValue, IUIAutomationRangeValuePattern::CachedValue, IUIAutomationRangeValuePattern::get_CachedValue, get_CachedValue, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedValue, uiauto_IUIAutomationRangeValuePattern_CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::CachedValue, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedValue, winauto.uiauto_IUIAutomationRangeValuePattern_CachedValue
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern.CachedValue"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify.OnOutgoingMessageRemoved, OnOutgoingMessageRemoved, OnOutgoingMessageRemoved method [Fax Service], OnOutgoingMessageRemoved method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnOutgoingMessageRemoved method, _IFaxAccountNotify.OnOutgoingMessageRemoved, _IFaxAccountNotify::OnOutgoingMessageRemoved, _mfax_ifaxaccountnotify_onoutgoingmessageremoved, fax._mfax_ifaxaccountnotify_onoutgoingmessageremoved, faxcomex/_IFaxAccountNotify::OnOutgoingMessageRemoved
 ms.topic: method
+f1_keywords: ["faxcomex/_IFaxAccountNotify.OnOutgoingMessageRemoved"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

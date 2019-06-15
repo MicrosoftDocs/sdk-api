@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows], webservices/WS_CUSTOM_HTTP_PROXY, wsw.ws_custom_http_proxy
 ms.topic: struct
+f1_keywords: ["webservices/WS_CUSTOM_HTTP_PROXY"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

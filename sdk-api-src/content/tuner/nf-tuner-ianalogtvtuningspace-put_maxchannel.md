@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogTVTuningSpace interface [Microsoft TV Technologies],put_MaxChannel method, IAnalogTVTuningSpace.put_MaxChannel, IAnalogTVTuningSpace::put_MaxChannel, IAnalogTVTuningSpaceput_MaxChannel, mstv.ianalogtvtuningspace_put_maxchannel, put_MaxChannel, put_MaxChannel method [Microsoft TV Technologies], put_MaxChannel method [Microsoft TV Technologies],IAnalogTVTuningSpace interface, tuner/IAnalogTVTuningSpace::put_MaxChannel
 ms.topic: method
+f1_keywords: ["tuner/IAnalogTVTuningSpace.put_MaxChannel"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

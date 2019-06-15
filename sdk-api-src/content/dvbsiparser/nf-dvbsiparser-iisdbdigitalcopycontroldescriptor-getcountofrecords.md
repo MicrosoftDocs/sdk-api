@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbDigitalCopyControlDescriptor interface, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbDigitalCopyControlDescriptor.GetCountOfRecords, IIsdbDigitalCopyControlDescriptor::GetCountOfRecords, dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetCountOfRecords, mstv.iisdbdigitalcopycontroldescriptor_getcountofrecords
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbDigitalCopyControlDescriptor.GetCountOfRecords"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

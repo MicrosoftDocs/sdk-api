@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCreateVector, SafeArrayCreateVector function [Automation], _oa96_SafeArrayCreateVector, automat.safearraycreatevector, oleauto/SafeArrayCreateVector
 ms.topic: function
+f1_keywords: ["oleauto/SafeArrayCreateVector"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

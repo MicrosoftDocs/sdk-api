@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFMultiplexer, IMFASFMultiplexer interface [Media Foundation], IMFASFMultiplexer interface [Media Foundation],described, bdb549b5-425b-4f77-b413-723ceb7acd11, mf.imfasfmultiplexer, wmcontainer/IMFASFMultiplexer
 ms.topic: interface
+f1_keywords: ["wmcontainer/IMFASFMultiplexer"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

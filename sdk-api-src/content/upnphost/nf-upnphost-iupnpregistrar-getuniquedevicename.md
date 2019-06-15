@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUniqueDeviceName, GetUniqueDeviceName method [UPnP APIs], GetUniqueDeviceName method [UPnP APIs],IUPnPRegistrar interface, IUPnPRegistrar interface [UPnP APIs],GetUniqueDeviceName method, IUPnPRegistrar.GetUniqueDeviceName, IUPnPRegistrar::GetUniqueDeviceName, _upnp_iupnpregistrar_getuniquedevicename, upnp.iupnpregistrar_getuniquedevicename, upnphost/IUPnPRegistrar::GetUniqueDeviceName
 ms.topic: method
+f1_keywords: ["upnphost/IUPnPRegistrar.GetUniqueDeviceName"]
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

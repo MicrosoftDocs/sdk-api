@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_AE_END, TF_AE_NONE, TF_AE_START, TfActiveSelEnd, TfActiveSelEnd enumeration [Text Services Framework], _tsf_tfactiveselend_ref, msctf/TF_AE_END, msctf/TF_AE_NONE, msctf/TF_AE_START, msctf/TfActiveSelEnd, tsf.tfactiveselend
 ms.topic: enum
+f1_keywords: ["msctf/TfActiveSelEnd"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS"
 ms.topic: struct
+f1_keywords: ["ndhelper/HYPOTHESIS, *PHYPOTHESIS"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

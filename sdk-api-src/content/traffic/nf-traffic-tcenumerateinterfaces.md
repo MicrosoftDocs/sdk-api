@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateInterfaces, TcEnumerateInterfaces function [QOS], _gqos_tcenumerateinterfaces, qos.tcenumerateinterfaces, traffic/TcEnumerateInterfaces
 ms.topic: function
+f1_keywords: ["traffic/TcEnumerateInterfaces"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

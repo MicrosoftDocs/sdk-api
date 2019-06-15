@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThemeName, GetCurrentThemeName function [Windows Controls], controls.GetCurrentThemeName, controls.inet_GetCurrentThemeName, inet_GetCurrentThemeName, inet_GetCurrentThemeName_cpp, uxtheme/GetCurrentThemeName
 ms.topic: function
+f1_keywords: ["uxtheme/GetCurrentThemeName"]
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

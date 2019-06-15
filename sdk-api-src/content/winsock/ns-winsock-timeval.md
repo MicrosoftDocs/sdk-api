@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTIMEVAL, *PTIMEVAL, TIMEVAL, _win32_timeval_2, timeval, timeval structure [Winsock], winsock.timeval_2, winsock/timeval"
 ms.topic: struct
+f1_keywords: ["winsock/timeval"]
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

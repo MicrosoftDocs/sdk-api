@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetString, MI_OperationOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetString, wmi_v2.mi_operationoptions_getstring
 ms.topic: function
+f1_keywords: ["mi/MI_OperationOptions_GetString"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

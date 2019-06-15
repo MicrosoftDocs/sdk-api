@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MSE_ERROR, MF_MSE_ERROR enumeration [Media Foundation], MF_MSE_ERROR_DECODE, MF_MSE_ERROR_NETWORK, MF_MSE_ERROR_NOERROR, MF_MSE_ERROR_UNKNOWN_ERROR, mf.mf_mse_error, mfmediaengine/MF_MSE_ERROR, mfmediaengine/MF_MSE_ERROR_DECODE, mfmediaengine/MF_MSE_ERROR_NETWORK, mfmediaengine/MF_MSE_ERROR_NOERROR, mfmediaengine/MF_MSE_ERROR_UNKNOWN_ERROR
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_MSE_ERROR"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

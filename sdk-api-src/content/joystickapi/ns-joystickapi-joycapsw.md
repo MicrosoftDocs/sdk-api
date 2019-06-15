@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPJOYCAPSW, *NPJOYCAPSW, *PJOYCAPSW, JOYCAPS, JOYCAPS structure [Windows Multimedia], JOYCAPSA, JOYCAPSW, _win32_JOYCAPS_str, joystickapi/JOYCAPS, joystickapi/JOYCAPSA, joystickapi/JOYCAPSW, multimedia.joycaps, tagJOYCAPSA, tagJOYCAPSW"
 ms.topic: struct
+f1_keywords: ["joystickapi/JOYCAPS"]
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows

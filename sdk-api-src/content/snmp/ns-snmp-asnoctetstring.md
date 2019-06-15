@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsnBits, AsnDisplayString, AsnIPAddress, AsnImplicitSequence, AsnNetworkAddress, AsnOctetString, AsnOctetString structure [SNMP], AsnOpaque, AsnSequence, _snmp_asnoctetstring_str, snmp.asnoctetstring_str, snmp/AsnOctetString
 ms.topic: struct
+f1_keywords: ["snmp/AsnOctetString"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetColor, SetColor method [GDI+], SetColor method [GDI+],SolidBrush class, SolidBrush class [GDI+],SetColor method, SolidBrush.SetColor, SolidBrush::SetColor, _gdiplus_CLASS_SolidBrush_SetColor_color_, gdiplus._gdiplus_CLASS_SolidBrush_SetColor_color_
 ms.topic: method
+f1_keywords: ["gdiplusbrush/SolidBrush.SetColor"]
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

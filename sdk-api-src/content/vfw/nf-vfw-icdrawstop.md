@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawStop, ICDrawStop macro [Windows Multimedia], _win32_ICDrawStop, multimedia.icdrawstop, vfw/ICDrawStop
 ms.topic: macro
+f1_keywords: ["vfw/ICDrawStop"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

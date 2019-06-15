@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
 ms.topic: interface
+f1_keywords: ["iads/IADsFileServiceOperations"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

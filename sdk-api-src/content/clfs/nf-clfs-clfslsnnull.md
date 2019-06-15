@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnNull, LsnNull, LsnNull function [Files], clfs/LsnNull, fs.lsnnull
 ms.topic: function
+f1_keywords: ["clfs/LsnNull"]
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

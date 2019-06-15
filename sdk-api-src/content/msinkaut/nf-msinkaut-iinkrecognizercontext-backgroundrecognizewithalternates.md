@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1559678c-c220-4c67-aa0f-566377d95818, BackgroundRecognizeWithAlternates, BackgroundRecognizeWithAlternates method [Tablet PC], BackgroundRecognizeWithAlternates method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],BackgroundRecognizeWithAlternates method, IInkRecognizerContext.BackgroundRecognizeWithAlternates, IInkRecognizerContext::BackgroundRecognizeWithAlternates, msinkaut/IInkRecognizerContext::BackgroundRecognizeWithAlternates, tablet.inkrecognizercontext_backgroundrecognizewithalternates
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognizerContext.BackgroundRecognizeWithAlternates"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

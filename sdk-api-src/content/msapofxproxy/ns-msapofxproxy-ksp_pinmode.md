@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKSP_PINMODE, KSP_PINMODE, KSP_PINMODE structure [Audio Devices], PKSP_PINMODE, PKSP_PINMODE structure pointer [Audio Devices], audio.ksp_pinmode, msapofxproxy/KSP_PINMODE, msapofxproxy/PKSP_PINMODE"
 ms.topic: struct
+f1_keywords: ["msapofxproxy/KSP_PINMODE"]
 req.header: msapofxproxy.h
 req.include-header: 
 req.target-type: Windows

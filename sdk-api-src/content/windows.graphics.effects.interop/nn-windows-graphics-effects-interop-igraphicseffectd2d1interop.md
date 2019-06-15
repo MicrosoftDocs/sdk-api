@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGraphicsEffectD2D1Interop, IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,described, w_graph_fx.igraphicseffectd2d1interop, windows/IGraphicsEffectD2D1Interop
 ms.topic: interface
+f1_keywords: ["windows.graphics.effects.interop/IGraphicsEffectD2D1Interop"]
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

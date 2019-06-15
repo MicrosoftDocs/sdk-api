@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadLONG, PSPropertyBag_ReadLONG function [Windows Properties], properties.PSPropertyBag_ReadLONG, propsys/PSPropertyBag_ReadLONG, shell.PSPropertyBag_ReadLONG, shell_PSPropertyBag_ReadLONG
 ms.topic: function
+f1_keywords: ["propsys/PSPropertyBag_ReadLONG"]
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows

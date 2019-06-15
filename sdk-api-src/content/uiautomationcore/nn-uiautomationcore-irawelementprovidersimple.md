@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple, IRawElementProviderSimple interface [Windows Accessibility], IRawElementProviderSimple interface [Windows Accessibility],described, uiauto.uiauto_IRawElementProviderSimple, uiauto_IRawElementProviderSimple, uiautomationcore/IRawElementProviderSimple, winauto.uiauto_IRawElementProviderSimple
 ms.topic: interface
+f1_keywords: ["uiautomationcore/IRawElementProviderSimple"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

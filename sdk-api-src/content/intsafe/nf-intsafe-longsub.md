@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongSub, LongSub function [Windows Shell], intsafe/LongSub, shell.LongSub
 ms.topic: function
+f1_keywords: ["intsafe/LongSub"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

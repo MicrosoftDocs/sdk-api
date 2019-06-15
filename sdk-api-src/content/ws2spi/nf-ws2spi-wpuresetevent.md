@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
 ms.topic: function
+f1_keywords: ["ws2spi/WPUResetEvent"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation"
 ms.topic: struct
+f1_keywords: ["avrfsdk/AVRF_HANDLE_OPERATION"]
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

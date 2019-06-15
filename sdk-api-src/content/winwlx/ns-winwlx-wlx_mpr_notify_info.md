@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO, PWLX_MPR_NOTIFY_INFO structure pointer [Security], WLX_MPR_NOTIFY_INFO, WLX_MPR_NOTIFY_INFO structure [Security], _gina_wlx_mpr_notify_info, security.wlx_mpr_notify_info, winwlx/PWLX_MPR_NOTIFY_INFO, winwlx/WLX_MPR_NOTIFY_INFO"
 ms.topic: struct
+f1_keywords: ["winwlx/WLX_MPR_NOTIFY_INFO"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

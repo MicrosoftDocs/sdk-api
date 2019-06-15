@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetVolume, TSPI_phoneSetVolume function [TAPI 2.2], _tspi_tspi_phonesetvolume, tspi.tspi_phonesetvolume, tspi/TSPI_phoneSetVolume
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneSetVolume"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

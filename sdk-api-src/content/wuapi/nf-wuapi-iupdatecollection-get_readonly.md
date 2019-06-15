@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],ReadOnly property, IUpdateCollection.ReadOnly, IUpdateCollection.get_ReadOnly, IUpdateCollection::ReadOnly, IUpdateCollection::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IUpdateCollection interface, get_ReadOnly, wua.iupdatecollection_readonly, wuapi/IUpdateCollection::ReadOnly, wuapi/IUpdateCollection::get_ReadOnly
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateCollection.ReadOnly"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

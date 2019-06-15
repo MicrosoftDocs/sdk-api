@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetDefaultOIDFunctionAddress, CryptGetDefaultOIDFunctionAddress function [Security], _crypto2_cryptgetdefaultoidfunctionaddress, security.cryptgetdefaultoidfunctionaddress, wincrypt/CryptGetDefaultOIDFunctionAddress
 ms.topic: function
+f1_keywords: ["wincrypt/CryptGetDefaultOIDFunctionAddress"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPropertyName, AddPropertyName method [MMC], AddPropertyName method [MMC],ISnapinPropertiesCallback interface, ISnapinPropertiesCallback interface [MMC],AddPropertyName method, ISnapinPropertiesCallback.AddPropertyName, ISnapinPropertiesCallback::AddPropertyName, MMC_PROP_CHANGEAFFECTSUI, MMC_PROP_MODIFIABLE, MMC_PROP_PERSIST, MMC_PROP_REMOVABLE, _slate_isnapinpropertiescallback_addpropertyname, mmc.isnapinpropertiescallback_addpropertyname, mmcobj/ISnapinPropertiesCallback::AddPropertyName
 ms.topic: method
+f1_keywords: ["mmcobj/ISnapinPropertiesCallback.AddPropertyName"]
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

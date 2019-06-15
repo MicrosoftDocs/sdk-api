@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetRoutePointer, RtmGetRoutePointer function [RAS], _rtmv2ref_rtmgetroutepointer, rras.rtmgetroutepointer, rtmv2/RtmGetRoutePointer
 ms.topic: function
+f1_keywords: ["rtmv2/RtmGetRoutePointer"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

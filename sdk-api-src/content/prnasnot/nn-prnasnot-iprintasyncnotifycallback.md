@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyCallback, IPrintAsyncNotifyCallback interface [Windows GDI], IPrintAsyncNotifyCallback interface [Windows GDI],described, _win32_IPrintAsyncNotifyCallback, gdi.iprintasyncnotifycallback, prnasnot/IPrintAsyncNotifyCallback
 ms.topic: interface
+f1_keywords: ["prnasnot/IPrintAsyncNotifyCallback"]
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
 ms.topic: function
+f1_keywords: ["shlwapi/SHGlobalCounterDecrement"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

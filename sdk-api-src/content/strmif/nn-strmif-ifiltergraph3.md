@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph3, IFilterGraph3 interface [DirectShow], IFilterGraph3 interface [DirectShow],described, IFilterGraph3Interface, dshow.ifiltergraph3, strmif/IFilterGraph3
 ms.topic: interface
+f1_keywords: ["strmif/IFilterGraph3"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

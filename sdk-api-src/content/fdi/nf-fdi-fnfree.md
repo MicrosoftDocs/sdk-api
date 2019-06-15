@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFREE, FNFREE macro [Windows API], fdi/FNFREE, winprog.fnfree
 ms.topic: macro
+f1_keywords: ["fdi/FNFREE"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

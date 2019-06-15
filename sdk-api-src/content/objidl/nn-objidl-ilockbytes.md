@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILockBytes, ILockBytes interface [Structured Storage], ILockBytes interface [Structured Storage],described, _stg_ilockbytes, objidl/ILockBytes, stg.ilockbytes
 ms.topic: interface
+f1_keywords: ["objidl/ILockBytes"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

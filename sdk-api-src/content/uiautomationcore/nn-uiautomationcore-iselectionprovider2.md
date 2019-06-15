@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISelectionProvider2, ISelectionProvider2 interface [Windows Accessibility], ISelectionProvider2 interface [Windows Accessibility],described, uiautomationcore/ISelectionProvider2, winauto.uiauto_ISelectionProvider2
 ms.topic: interface
+f1_keywords: ["uiautomationcore/ISelectionProvider2"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

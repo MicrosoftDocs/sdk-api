@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwIcmpSettings, INetFwIcmpSettings interface [ICS/ICF], INetFwIcmpSettings interface [ICS/ICF],described, ics.inetfwicmpsettings, netfw/INetFwIcmpSettings
 ms.topic: interface
+f1_keywords: ["netfw/INetFwIcmpSettings"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

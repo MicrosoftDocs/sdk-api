@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRCREATEPALETTE, EMRCREATEPALETTE, EMRCREATEPALETTE structure [Windows GDI], PEMRCREATEPALETTE, PEMRCREATEPALETTE structure pointer [Windows GDI], _win32_EMRCREATEPALETTE_str, gdi.emrcreatepalette, wingdi/EMRCREATEPALETTE, wingdi/PEMRCREATEPALETTE"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRCREATEPALETTE"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

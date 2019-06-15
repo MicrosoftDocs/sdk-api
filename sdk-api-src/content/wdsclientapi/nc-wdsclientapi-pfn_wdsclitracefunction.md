@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsCliTraceFunction, PFN_WdsCliTraceFunction callback, PFN_WdsCliTraceFunction callback function [Windows Deployment Services], wds.pfn_wdsclitracefunction, wdsclientapi/PFN_WdsCliTraceFunction
 ms.topic: callback
+f1_keywords: ["wdsclientapi/PFN_WdsCliTraceFunction"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

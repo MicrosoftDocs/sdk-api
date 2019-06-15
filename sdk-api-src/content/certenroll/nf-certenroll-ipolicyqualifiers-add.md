@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Add method, IPolicyQualifiers.Add, IPolicyQualifiers::Add, certenroll/IPolicyQualifiers::Add, security.ipolicyqualifiers_add_method
 ms.topic: method
+f1_keywords: ["certenroll/IPolicyQualifiers.Add"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

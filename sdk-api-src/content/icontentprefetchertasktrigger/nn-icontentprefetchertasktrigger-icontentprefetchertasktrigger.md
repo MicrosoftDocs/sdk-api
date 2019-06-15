@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContentPrefetcherTaskTrigger, IContentPrefetcherTaskTrigger interface [Web Services for Windows], IContentPrefetcherTaskTrigger interface [Web Services for Windows],described, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger, wsw.icontentprefetchertasktrigger
 ms.topic: interface
+f1_keywords: ["icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger"]
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 
 req.target-type: Windows

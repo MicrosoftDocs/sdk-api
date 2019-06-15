@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpLsaModeInitialize, SpLsaModeInitialize callback function [Security], SpLsaModeInitializeFn, SpLsaModeInitializeFn callback, _ssp_splsamodeinitialize, ntsecpkg/SpLsaModeInitialize, security.splsamodeinitialize
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpLsaModeInitialize"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

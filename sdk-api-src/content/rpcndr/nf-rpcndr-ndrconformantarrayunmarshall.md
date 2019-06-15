@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall, pStubMsg, pStubMsg function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/pStubMsg
 ms.topic: function
+f1_keywords: ["rpcndr/pStubMsg"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

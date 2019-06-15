@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_TYPE, WS_CHANNEL_TYPE enumeration [Web Services for Windows], WS_CHANNEL_TYPE_DUPLEX, WS_CHANNEL_TYPE_DUPLEX_SESSION, WS_CHANNEL_TYPE_INPUT, WS_CHANNEL_TYPE_INPUT_SESSION, WS_CHANNEL_TYPE_OUTPUT, WS_CHANNEL_TYPE_OUTPUT_SESSION, WS_CHANNEL_TYPE_REPLY, WS_CHANNEL_TYPE_REQUEST, WS_CHANNEL_TYPE_SESSION, webservices/WS_CHANNEL_TYPE, webservices/WS_CHANNEL_TYPE_DUPLEX, webservices/WS_CHANNEL_TYPE_DUPLEX_SESSION, webservices/WS_CHANNEL_TYPE_INPUT, webservices/WS_CHANNEL_TYPE_INPUT_SESSION, webservices/WS_CHANNEL_TYPE_OUTPUT, webservices/WS_CHANNEL_TYPE_OUTPUT_SESSION, webservices/WS_CHANNEL_TYPE_REPLY, webservices/WS_CHANNEL_TYPE_REQUEST, webservices/WS_CHANNEL_TYPE_SESSION, wsw.ws_channel_type
 ms.topic: enum
+f1_keywords: ["webservices/WS_CHANNEL_TYPE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

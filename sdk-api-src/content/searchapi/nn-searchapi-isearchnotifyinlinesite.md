@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
 ms.topic: interface
+f1_keywords: ["searchapi/ISearchNotifyInlineSite"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

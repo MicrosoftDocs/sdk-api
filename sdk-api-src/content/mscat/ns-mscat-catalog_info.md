@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], mscat/CATALOG_INFO, security.catalog_info
 ms.topic: struct
+f1_keywords: ["mscat/CATALOG_INFO"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

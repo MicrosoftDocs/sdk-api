@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UShortToUChar, UShortToUChar function [Windows Shell], WordToUChar, _shell_UShortToUChar, intsafe/UShortToUChar, shell.UShortToUChar
 ms.topic: function
+f1_keywords: ["intsafe/UShortToUChar"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreFromParsingName, SHGetPropertyStoreFromParsingName function [Windows Properties], _shell_SHGetPropertyStoreFromParsingName, properties.SHGetPropertyStoreFromParsingName, shell.SHGetPropertyStoreFromParsingName, shobjidl_core/SHGetPropertyStoreFromParsingName
 ms.topic: function
+f1_keywords: ["shobjidl_core/SHGetPropertyStoreFromParsingName"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

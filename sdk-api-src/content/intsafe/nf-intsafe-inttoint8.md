@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntToInt8, IntToInt8 function [Windows Shell], intsafe/IntToInt8, shell.IntToInt8
 ms.topic: function
+f1_keywords: ["intsafe/IntToInt8"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

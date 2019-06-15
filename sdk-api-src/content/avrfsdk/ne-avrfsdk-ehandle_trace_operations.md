@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OperationDbBADREF, OperationDbCLOSE, OperationDbOPEN, OperationDbUnused, avrfsdk/OperationDbBADREF, avrfsdk/OperationDbCLOSE, avrfsdk/OperationDbOPEN, avrfsdk/OperationDbUnused, avrfsdk/eHANDLE_TRACE_OPERATIONS, base.ehandle_trace_operations, eHANDLE_TRACE_OPERATIONS, eHANDLE_TRACE_OPERATIONS enumeration [Windows API], winprog.ehandle_trace_operations
 ms.topic: enum
+f1_keywords: ["avrfsdk/eHANDLE_TRACE_OPERATIONS"]
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

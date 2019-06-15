@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_REQUEST, *PHTTP_REQUEST_V2, *PHTTP_REQUEST_V2 structure [HTTP], HTTP_REQUEST, HTTP_REQUEST_V2, HTTP_REQUEST_V2 structure [HTTP], http.http_request_v2, http/*PHTTP_REQUEST_V2, http/HTTP_REQUEST_V2"
 ms.topic: struct
+f1_keywords: ["http/HTTP_REQUEST_V2"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

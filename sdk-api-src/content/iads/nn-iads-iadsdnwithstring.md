@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DNWithString, IADsDNWithString, IADsDNWithString interface [ADSI], IADsDNWithString interface [ADSI],described, _ds_iadsdnwithstring, adsi.iadsdnwithstring, iads/IADsDNWithString
 ms.topic: interface
+f1_keywords: ["iads/IADsDNWithString"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

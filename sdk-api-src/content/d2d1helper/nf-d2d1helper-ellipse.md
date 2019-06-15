@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Ellipse, Ellipse function [Direct2D], d2d1helper/Ellipse, direct2d.ellipse
 ms.topic: function
+f1_keywords: ["d2d1helper/Ellipse"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

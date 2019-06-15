@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGetProtocolOnInterface, MgmGetProtocolOnInterface function [RAS], _mpr_mgmgetprotocoloninterface, mgm/MgmGetProtocolOnInterface, rras.mgmgetprotocoloninterface
 ms.topic: function
+f1_keywords: ["mgm/MgmGetProtocolOnInterface"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

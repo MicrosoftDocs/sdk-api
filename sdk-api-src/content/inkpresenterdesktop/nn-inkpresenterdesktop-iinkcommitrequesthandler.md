@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkCommitRequestHandler, IInkCommitRequestHandler interface, IInkCommitRequestHandler interface,described, InkPresenterDesktop.iinkcommitrequesthandler, inkpresenterdesktop/IInkCommitRequestHandler, input_ink.iinkcommitrequesthandler
 ms.topic: interface
+f1_keywords: ["inkpresenterdesktop/IInkCommitRequestHandler"]
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySessionNotify interface [Media Foundation],KeyAdded method, IMFMediaKeySessionNotify.KeyAdded, IMFMediaKeySessionNotify::KeyAdded, KeyAdded, KeyAdded method [Media Foundation], KeyAdded method [Media Foundation],IMFMediaKeySessionNotify interface, mf.imfmediakeysessionnotify_keyadded, mfmediaengine/IMFMediaKeySessionNotify::KeyAdded
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaKeySessionNotify.KeyAdded"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

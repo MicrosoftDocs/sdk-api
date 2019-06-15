@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerBeginSession, EapPeerBeginSession function [EAPHost], eaphost.eappeerbeginsession, eapmethodpeerapis/EapPeerBeginSession
 ms.topic: function
+f1_keywords: ["eapmethodpeerapis/EapPeerBeginSession"]
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

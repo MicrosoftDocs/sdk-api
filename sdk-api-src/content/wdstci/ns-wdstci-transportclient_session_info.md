@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRANSPORTCLIENT_SESSION_INFO, PTRANSPORTCLIENT_SESSION_INFO, PTRANSPORTCLIENT_SESSION_INFO structure pointer [Windows Deployment Services], TRANSPORTCLIENT_SESSION_INFO, TRANSPORTCLIENT_SESSION_INFO structure [Windows Deployment Services], wds.transportclient_session_info, wdstci/PTRANSPORTCLIENT_SESSION_INFO, wdstci/TRANSPORTCLIENT_SESSION_INFO"
 ms.topic: struct
+f1_keywords: ["wdstci/TRANSPORTCLIENT_SESSION_INFO"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

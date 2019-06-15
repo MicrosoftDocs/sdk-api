@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D122Device5, ID3D122Device5 interface, ID3D122Device5 interface,described, ID3D12Device5, d3d12/ID3D12Device5, direct3d12.id3d12device5
 ms.topic: interface
+f1_keywords: ["d3d12/ID3D12Device5"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

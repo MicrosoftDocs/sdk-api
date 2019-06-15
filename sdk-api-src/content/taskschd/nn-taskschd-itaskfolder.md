@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
 ms.topic: interface
+f1_keywords: ["taskschd/ITaskFolder"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO, CMSG_MAIL_LIST_RECIPIENT_INFO structure [Security], PCMSG_MAIL_LIST_RECIPIENT_INFO, PCMSG_MAIL_LIST_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_mail_list_recipient_info, security.cmsg_mail_list_recipient_info, wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO, wincrypt/PCMSG_MAIL_LIST_RECIPIENT_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CMSG_MAIL_LIST_RECIPIENT_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

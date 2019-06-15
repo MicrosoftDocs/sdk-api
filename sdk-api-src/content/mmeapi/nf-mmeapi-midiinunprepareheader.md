@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiInUnprepareHeader, midiInUnprepareHeader, midiInUnprepareHeader function [Windows Multimedia], mmeapi/midiInUnprepareHeader, multimedia.midiinunprepareheader"
 ms.topic: function
+f1_keywords: ["mmeapi/midiInUnprepareHeader"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

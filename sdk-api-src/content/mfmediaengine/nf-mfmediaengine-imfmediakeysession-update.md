@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],Update method, IMFMediaKeySession.Update, IMFMediaKeySession::Update, Update, Update method [Media Foundation], Update method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_update, mfmediaengine/IMFMediaKeySession::Update
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaKeySession.Update"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabAsyncInviteContact, PeerCollabAsyncInviteContact function [Peer Networking], p2p.peercollabasyncinvitecontact, p2p/PeerCollabAsyncInviteContact
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabAsyncInviteContact"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

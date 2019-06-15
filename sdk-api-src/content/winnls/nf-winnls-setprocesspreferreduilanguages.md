@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, SetProcessPreferredUILanguages, SetProcessPreferredUILanguages function [Internationalization for Windows Applications], intl.setprocesspreferreduilanguages, winnls/SetProcessPreferredUILanguages
 ms.topic: function
+f1_keywords: ["winnls/SetProcessPreferredUILanguages"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

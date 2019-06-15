@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEV_EXTRA_CERT_CHAIN_POLICY_PARA, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_PARA, EV_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_PARA, PEV_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], security.ev_extra_cert_chain_policy_para, wincrypt/EV_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_PARA"
 ms.topic: struct
+f1_keywords: ["wincrypt/EV_EXTRA_CERT_CHAIN_POLICY_PARA"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

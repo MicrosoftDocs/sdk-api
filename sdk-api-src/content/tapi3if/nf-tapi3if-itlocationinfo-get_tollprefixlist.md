@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_TollPrefixList method, ITLocationInfo.get_TollPrefixList, ITLocationInfo::get_TollPrefixList, _tapi3_itlocationinfo_get_tollprefixlist, get_TollPrefixList, get_TollPrefixList method [TAPI 2.2], get_TollPrefixList method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_tollprefixlist, tapi3if/ITLocationInfo::get_TollPrefixList
 ms.topic: method
+f1_keywords: ["tapi3if/ITLocationInfo.get_TollPrefixList"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteSetRoutingInfo, FaxRouteSetRoutingInfo function [Fax Service], _mfax_faxroutesetroutinginfo, fax._mfax_faxroutesetroutinginfo, faxroute/FaxRouteSetRoutingInfo
 ms.topic: function
+f1_keywords: ["faxroute/FaxRouteSetRoutingInfo"]
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

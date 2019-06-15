@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PQUERY_POWER, PQUERY_POWER callback, QueryPower, QueryPower callback function [RAS], _mpr_querypower, routprot/QueryPower, rras.querypower
 ms.topic: callback
+f1_keywords: ["routprot/QueryPower"]
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

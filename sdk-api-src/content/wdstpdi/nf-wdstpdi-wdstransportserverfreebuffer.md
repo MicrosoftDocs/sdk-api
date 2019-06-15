@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportServerFreeBuffer"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

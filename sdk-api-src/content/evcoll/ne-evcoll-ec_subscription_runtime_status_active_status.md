@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS enumeration, EcRuntimeStatusActiveStatusActive, EcRuntimeStatusActiveStatusDisabled, EcRuntimeStatusActiveStatusInactive, EcRuntimeStatusActiveStatusTrying, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, evcoll/EcRuntimeStatusActiveStatusActive, evcoll/EcRuntimeStatusActiveStatusDisabled, evcoll/EcRuntimeStatusActiveStatusInactive, evcoll/EcRuntimeStatusActiveStatusTrying, wec.ec_subscription_runtime_status_active_status, wes.ec_subscription_runtime_status_active_status
 ms.topic: enum
+f1_keywords: ["evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

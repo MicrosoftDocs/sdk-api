@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_BUFFER_SEGMENT, WMT_BUFFER_SEGMENT structure [windows Media Format], wmformat.wmt_buffer_segment, wmsdkidl/WMT_BUFFER_SEGMENT
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WMT_BUFFER_SEGMENT"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

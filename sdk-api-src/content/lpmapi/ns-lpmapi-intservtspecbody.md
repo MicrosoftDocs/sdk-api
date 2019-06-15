@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
 ms.topic: struct
+f1_keywords: ["lpmapi/IntServTspecBody"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

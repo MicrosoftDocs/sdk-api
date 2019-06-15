@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateObjrefMoniker, CreateObjrefMoniker function [COM], _com_CreateObjrefMoniker, com.createobjrefmoniker, objbase/CreateObjrefMoniker
 ms.topic: function
+f1_keywords: ["objbase/CreateObjrefMoniker"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

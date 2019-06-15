@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
 ms.topic: function
+f1_keywords: ["intsafe/PtrdiffTAdd"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents interface [COM+],OnMethodReturn method, IComMethodEvents.OnMethodReturn, IComMethodEvents::OnMethodReturn, OnMethodReturn, OnMethodReturn method [COM+], OnMethodReturn method [COM+],IComMethodEvents interface, _dtc_icommethodevents_onmethodreturn, comsvcs/IComMethodEvents::OnMethodReturn, cos.icommethodevents_onmethodreturn
 ms.topic: method
+f1_keywords: ["comsvcs/IComMethodEvents.OnMethodReturn"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

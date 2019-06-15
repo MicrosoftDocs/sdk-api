@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSegmentLastSectionNumber, GetSegmentLastSectionNumber method [Microsoft TV Technologies], GetSegmentLastSectionNumber method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetSegmentLastSectionNumber method, IDVB_EIT.GetSegmentLastSectionNumber, IDVB_EIT::GetSegmentLastSectionNumber, IDVB_EITGetSegmentLastSectionNumber, dvbsiparser/IDVB_EIT::GetSegmentLastSectionNumber, mstv.idvb_eit_getsegmentlastsectionnumber
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_EIT.GetSegmentLastSectionNumber"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo2, IBasicVideo2 interface [DirectShow], IBasicVideo2 interface [DirectShow],described, IBasicVideo2Interface, control/IBasicVideo2, dshow.ibasicvideo2
 ms.topic: interface
+f1_keywords: ["control/IBasicVideo2"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

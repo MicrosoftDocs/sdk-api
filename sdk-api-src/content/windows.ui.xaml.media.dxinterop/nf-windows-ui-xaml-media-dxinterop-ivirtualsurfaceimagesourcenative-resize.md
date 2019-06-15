@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Resize method, IVirtualSurfaceImageSourceNative.Resize, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Resize, IVirtualSurfaceImageSourceNative::xaml, Resize, Resize method [Windows Runtime], Resize method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Resize, winrt.ivirtualsurfaceimagesourcenative_resize
 ms.topic: method
+f1_keywords: ["windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.Resize"]
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

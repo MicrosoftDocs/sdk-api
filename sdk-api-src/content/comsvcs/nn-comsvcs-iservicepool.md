@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+],described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
 ms.topic: interface
+f1_keywords: ["comsvcs/IServicePool"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

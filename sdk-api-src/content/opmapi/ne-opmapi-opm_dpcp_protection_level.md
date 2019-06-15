@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_DPCP_FORCE_ULONG, OPM_DPCP_OFF, OPM_DPCP_ON, OPM_DPCP_PROTECTION_LEVEL, OPM_DPCP_PROTECTION_LEVEL enumeration [Media Foundation], mf.opm_dpcp_protection_level, opmapi/OPM_DPCP_FORCE_ULONG, opmapi/OPM_DPCP_OFF, opmapi/OPM_DPCP_ON, opmapi/OPM_DPCP_PROTECTION_LEVEL
 ms.topic: enum
+f1_keywords: ["opmapi/OPM_DPCP_PROTECTION_LEVEL"]
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

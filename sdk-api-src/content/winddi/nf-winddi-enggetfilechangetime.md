@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGetFileChangeTime, EngGetFileChangeTime function [Display Devices], display.enggetfilechangetime, gdifncs_627ace85-186b-4fe7-bd50-f8f0fb7da105.xml, winddi/EngGetFileChangeTime
 ms.topic: function
+f1_keywords: ["winddi/EngGetFileChangeTime"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

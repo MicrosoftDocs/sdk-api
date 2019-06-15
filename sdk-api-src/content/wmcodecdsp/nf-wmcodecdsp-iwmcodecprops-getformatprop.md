@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatProp, GetFormatProp method [Media Foundation], GetFormatProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetFormatProp method, IWMCodecProps.GetFormatProp, IWMCodecProps::GetFormatProp, codecapi.iwmcodecpropsgetformatprop, g_wszSpeechFormatCaps, mf.iwmcodecpropsgetformatprop, wmcodecdsp/IWMCodecProps::GetFormatProp
 ms.topic: method
+f1_keywords: ["wmcodecdsp/IWMCodecProps.GetFormatProp"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

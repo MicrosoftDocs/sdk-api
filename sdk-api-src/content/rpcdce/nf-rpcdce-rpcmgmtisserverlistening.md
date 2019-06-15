@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtIsServerListening, RpcMgmtIsServerListening function [RPC], _rpc_rpcmgmtisserverlistening, rpc.rpcmgmtisserverlistening, rpcdce/RpcMgmtIsServerListening
 ms.topic: function
+f1_keywords: ["rpcdce/RpcMgmtIsServerListening"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

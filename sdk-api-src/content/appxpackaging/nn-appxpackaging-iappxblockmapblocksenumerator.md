@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapBlocksEnumerator, IAppxBlockMapBlocksEnumerator interface [App packaging and management], IAppxBlockMapBlocksEnumerator interface [App packaging and management],described, appxpackaging/IAppxBlockMapBlocksEnumerator, appxpkg.iappxblockmapblocksenumerator
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxBlockMapBlocksEnumerator"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

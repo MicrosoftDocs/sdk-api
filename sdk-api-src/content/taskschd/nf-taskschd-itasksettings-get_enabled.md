@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],Enabled property, ITaskSettings.Enabled, ITaskSettings.get_Enabled, ITaskSettings::Enabled, ITaskSettings::get_Enabled, get_Enabled, taskschd.itasksettings_enabled, taskschd/ITaskSettings::Enabled, taskschd/ITaskSettings::get_Enabled
 ms.topic: method
+f1_keywords: ["taskschd/ITaskSettings.Enabled"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

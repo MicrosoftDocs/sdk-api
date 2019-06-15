@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo2, IOfflineFilesPinInfo2 interface [Offline Files], IOfflineFilesPinInfo2 interface [Offline Files],described, cscobj/IOfflineFilesPinInfo2, of.iofflinefilespininfo2
 ms.topic: interface
+f1_keywords: ["cscobj/IOfflineFilesPinInfo2"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

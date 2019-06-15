@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceStatus, GetServiceStatus method [Network Policy Server], GetServiceStatus method [Network Policy Server],ISdoServiceControl interface, ISdoServiceControl interface [Network Policy Server],GetServiceStatus method, ISdoServiceControl.GetServiceStatus, ISdoServiceControl::GetServiceStatus, SERVICE_RUNNING, SERVICE_START_PENDING, SERVICE_STOPPED, SERVICE_STOP_PENDING, _sdo_isdoservicecontrol_getservicestatus, nps.SDO_isdoservicecontrol_getservicestatus, sdo.isdoservicecontrol_getservicestatus, sdoias/ISdoServiceControl::GetServiceStatus
 ms.topic: method
+f1_keywords: ["sdoias/ISdoServiceControl.GetServiceStatus"]
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

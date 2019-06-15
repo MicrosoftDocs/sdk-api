@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsBpGetOptionBuffer, WdsBpGetOptionBuffer function [Windows Deployment Services], wds.wdsbpgetoptionbuffer, wdsbp/WdsBpGetOptionBuffer
 ms.topic: function
+f1_keywords: ["wdsbp/WdsBpGetOptionBuffer"]
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

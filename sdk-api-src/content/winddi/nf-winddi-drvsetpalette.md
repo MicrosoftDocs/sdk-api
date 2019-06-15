@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSetPalette, DrvSetPalette function [Display Devices], ddifncs_b76ad321-743e-4e7b-bf58-85f969470e29.xml, display.drvsetpalette, winddi/DrvSetPalette
 ms.topic: function
+f1_keywords: ["winddi/DrvSetPalette"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

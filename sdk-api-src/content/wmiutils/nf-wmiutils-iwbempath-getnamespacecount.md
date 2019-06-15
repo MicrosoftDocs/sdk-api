@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamespaceCount, GetNamespaceCount method [Windows Management Instrumentation], GetNamespaceCount method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetNamespaceCount method, IWbemPath.GetNamespaceCount, IWbemPath::GetNamespaceCount, _hmm_iwbempath_getnamespacecount, wmi.iwbempath_getnamespacecount, wmiutils/IWbemPath::GetNamespaceCount
 ms.topic: method
+f1_keywords: ["wmiutils/IWbemPath.GetNamespaceCount"]
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

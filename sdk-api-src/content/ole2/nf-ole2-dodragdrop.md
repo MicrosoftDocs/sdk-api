@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoDragDrop, DoDragDrop function [COM], _ole_DoDragDrop, com.dodragdrop, ole2/DoDragDrop
 ms.topic: function
+f1_keywords: ["ole2/DoDragDrop"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

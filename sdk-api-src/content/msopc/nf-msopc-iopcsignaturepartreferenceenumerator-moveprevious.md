@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignaturePartReferenceEnumerator.MovePrevious, IOpcSignaturePartReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, msopc/IOpcSignaturePartReferenceEnumerator::MovePrevious, opc.iopcsignaturepartreferenceenumerator_moveprevious
 ms.topic: method
+f1_keywords: ["msopc/IOpcSignaturePartReferenceEnumerator.MovePrevious"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

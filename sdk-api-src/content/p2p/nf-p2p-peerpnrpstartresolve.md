@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpStartResolve, PeerPnrpStartResolve function [Peer Networking], p2p.peerpnrpstartresolve, p2p/PeerPnrpStartResolve
 ms.topic: function
+f1_keywords: ["p2p/PeerPnrpStartResolve"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

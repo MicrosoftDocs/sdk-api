@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFile, GetFontFile method [Direct Write], GetFontFile method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFontFile method, IDWriteFontFaceReference.GetFontFile, IDWriteFontFaceReference::GetFontFile, directwrite.idwritefontfacereference_getfontfile, dwrite_3/IDWriteFontFaceReference::GetFontFile
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteFontFaceReference.GetFontFile"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

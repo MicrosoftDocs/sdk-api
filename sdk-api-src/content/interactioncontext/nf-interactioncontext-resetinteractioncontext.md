@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResetInteractionContext, ResetInteractionContext function, input_intcontext.resetinteractioncontext, interactioncontext.resetinteractioncontext, interactioncontext/ResetInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/ResetInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

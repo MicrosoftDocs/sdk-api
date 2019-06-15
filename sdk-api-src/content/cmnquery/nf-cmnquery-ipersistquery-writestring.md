@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteString method, IPersistQuery.WriteString, IPersistQuery::WriteString, WriteString, WriteString method [Active Directory], WriteString method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writestring, ad.ipersistquery__writestring, ad.ipersistquery_writestring, cmnquery/IPersistQuery::WriteString
 ms.topic: method
+f1_keywords: ["cmnquery/IPersistQuery.WriteString"]
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

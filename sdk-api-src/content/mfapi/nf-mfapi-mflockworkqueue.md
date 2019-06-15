@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 307a1ec5-e54a-47f6-8ace-3b935081faf8, MFLockWorkQueue, MFLockWorkQueue function [Media Foundation], mf.mflockworkqueue, mfapi/MFLockWorkQueue
 ms.topic: function
+f1_keywords: ["mfapi/MFLockWorkQueue"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

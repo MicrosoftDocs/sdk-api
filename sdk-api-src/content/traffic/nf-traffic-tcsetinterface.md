@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
 ms.topic: function
+f1_keywords: ["traffic/TcSetInterface"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

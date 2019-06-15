@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Segment property, IDataCollectorSet.Segment, IDataCollectorSet.get_Segment, IDataCollectorSet::Segment, IDataCollectorSet::get_Segment, IDataCollectorSet::put_Segment, Segment property [PLA], Segment property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_segment, get_Segment, pla.idatacollectorset_get_segment, pla/IDataCollectorSet::Segment, pla/IDataCollectorSet::get_Segment, pla/IDataCollectorSet::put_Segment
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.Segment"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

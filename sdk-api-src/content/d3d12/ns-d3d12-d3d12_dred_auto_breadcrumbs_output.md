@@ -8,6 +8,7 @@ ms.author: windowssdkdev
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT structure, d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT, direct3d12.d3d12_dred_auto_breadcrumbs_output
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_DRED_AUTO_BREADCRUMBS_OUTPUT"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

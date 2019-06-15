@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows Sync], winsync.sync_session_statistics, winsync/SYNC_SESSION_STATISTICS
 ms.topic: struct
+f1_keywords: ["winsync/SYNC_SESSION_STATISTICS"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

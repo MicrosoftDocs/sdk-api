@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreInterpolationSpace, GetPreInterpolationSpace method [Direct2D], GetPreInterpolationSpace method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetPreInterpolationSpace method, ID2D1GradientStopCollection1.GetPreInterpolationSpace, ID2D1GradientStopCollection1::GetPreInterpolationSpace, d2d1_1/ID2D1GradientStopCollection1::GetPreInterpolationSpace, direct2d.id2d1gradientstopcollection1_getpreinterpolationspace
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1GradientStopCollection1.GetPreInterpolationSpace"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

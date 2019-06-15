@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback, IAMFilterGraphCallback interface [DirectShow], IAMFilterGraphCallback interface [DirectShow],described, IAMFilterGraphCallbackInterface, dshow.iamfiltergraphcallback, strmif/IAMFilterGraphCallback
 ms.topic: interface
+f1_keywords: ["strmif/IAMFilterGraphCallback"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

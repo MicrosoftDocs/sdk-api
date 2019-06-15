@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetDefaultMediaDetection, TSPI_lineSetDefaultMediaDetection function [TAPI 2.2], _tspi_tspi_linesetdefaultmediadetection, tspi.tspi_linesetdefaultmediadetection, tspi/TSPI_lineSetDefaultMediaDetection
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineSetDefaultMediaDetection"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

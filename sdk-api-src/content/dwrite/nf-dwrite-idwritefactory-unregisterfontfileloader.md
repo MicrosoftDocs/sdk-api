@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory interface [Direct Write],UnregisterFontFileLoader method, IDWriteFactory.UnregisterFontFileLoader, IDWriteFactory::UnregisterFontFileLoader, UnregisterFontFileLoader, UnregisterFontFileLoader method [Direct Write], UnregisterFontFileLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_UnregisterFontFileLoader, dwrite/IDWriteFactory::UnregisterFontFileLoader
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteFactory.UnregisterFontFileLoader"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

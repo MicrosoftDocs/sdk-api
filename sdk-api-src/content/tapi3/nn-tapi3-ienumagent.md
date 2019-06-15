@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2],described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
 ms.topic: interface
+f1_keywords: ["tapi3/IEnumAgent"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

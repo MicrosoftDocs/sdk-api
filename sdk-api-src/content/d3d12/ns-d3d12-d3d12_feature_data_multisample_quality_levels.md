@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS structure, d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS, direct3d12.d3d12_feature_data_multisample_quality_levels
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_FEATURE_DATA_MULTISAMPLE_QUALITY_LEVELS"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

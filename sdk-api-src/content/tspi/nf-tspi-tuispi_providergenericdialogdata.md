@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerGenericDialogData, TUISPI_providerGenericDialogData function [TAPI 2.2], _tspi_tuispi_providergenericdialogdata, tspi.tuispi_providergenericdialogdata, tspi/TUISPI_providerGenericDialogData
 ms.topic: function
+f1_keywords: ["tspi/TUISPI_providerGenericDialogData"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_OFFER_RESOURCE_FLAGS, DXGI_OFFER_RESOURCE_FLAGS enumeration [DXGI], DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT, direct3ddxgi.dxgi_offer_resource_flags, dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS, dxgi1_5/DXGI_OFFER_RESOURCE_FLAG_ALLOW_DECOMMIT
 ms.topic: enum
+f1_keywords: ["dxgi1_5/DXGI_OFFER_RESOURCE_FLAGS"]
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

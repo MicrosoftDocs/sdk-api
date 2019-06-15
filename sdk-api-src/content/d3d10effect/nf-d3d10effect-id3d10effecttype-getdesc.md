@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9e64bfa1-7fde-b141-e176-3bdc98f92982, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetDesc method, ID3D10EffectType.GetDesc, ID3D10EffectType::GetDesc, d3d10effect/ID3D10EffectType::GetDesc, direct3d10.id3d10effecttype_getdesc
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectType.GetDesc"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

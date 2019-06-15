@@ -4,6 +4,7 @@ title: D2D1CreateFactory
 ms.date: 01/30/19
 ms.keywords: D2D1CreateFactory
 ms.topic: language-reference
+f1_keywords: ["d2d1/D2D1CreateFactory"]
 targetos: Windows
 product: Windows
 req.assembly: 

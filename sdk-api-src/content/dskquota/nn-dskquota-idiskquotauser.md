@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser, IDiskQuotaUser interface [Files], IDiskQuotaUser interface [Files],described, _win32_idiskquotauser, base.idiskquotauser, dskquota/IDiskQuotaUser, fs.idiskquotauser
 ms.topic: interface
+f1_keywords: ["dskquota/IDiskQuotaUser"]
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

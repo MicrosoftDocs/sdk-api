@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMCOLOR, XMCOLOR constructor [DirectX Math Support APIs], XMCOLOR constructor [DirectX Math Support APIs],XMCOLOR structure, XMCOLOR structure [DirectX Math Support APIs],XMCOLOR constructor, XMCOLOR.XMCOLOR, XMCOLOR.XMCOLOR(), XMCOLOR.XMCOLOR(XMCOLOR &&), XMCOLOR::XMCOLOR, XMCOLOR::XMCOLOR(XMCOLOR &&), dxmath.xmcolor_ctor_1
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMCOLOR.XMCOLOR"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

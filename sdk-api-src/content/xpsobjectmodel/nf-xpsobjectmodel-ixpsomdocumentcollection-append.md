@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMDocumentCollection interface, IXpsOMDocumentCollection interface [XPS Documents and Packaging],Append method, IXpsOMDocumentCollection.Append, IXpsOMDocumentCollection::Append, xps.ixpsomdocumentcollection_append, xpsobjectmodel/IXpsOMDocumentCollection::Append
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMDocumentCollection.Append"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

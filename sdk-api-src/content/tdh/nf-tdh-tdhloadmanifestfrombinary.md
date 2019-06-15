@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhLoadManifestFromBinary, TdhLoadManifestFromBinary function [ETW], etw.tdhloadmanifestfrombinary, tdh/TdhLoadManifestFromBinary
 ms.topic: function
+f1_keywords: ["tdh/TdhLoadManifestFromBinary"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

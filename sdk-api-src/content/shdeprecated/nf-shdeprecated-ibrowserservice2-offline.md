@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],Offline method, IBrowserService2.Offline, IBrowserService2::Offline, Offline, Offline method [Windows Shell], Offline method [Windows Shell],IBrowserService2 interface, SBSC_QUERY, SBSC_TOGGLE, shdeprecated/IBrowserService2::Offline, shell.IBrowserService2_Offline, zone_IBrowserService2_Offline
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2.Offline"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

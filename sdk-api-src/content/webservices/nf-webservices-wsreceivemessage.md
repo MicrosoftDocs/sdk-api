@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReceiveMessage, WsReceiveMessage function [Web Services for Windows], webservices/WsReceiveMessage, wsw.wsreceivemessage
 ms.topic: function
+f1_keywords: ["webservices/WsReceiveMessage"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

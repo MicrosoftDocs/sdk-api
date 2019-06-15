@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
 ms.topic: interface
+f1_keywords: ["subscriptionservices/IWMPSubscriptionServiceCallback"]
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

@@ -4,6 +4,7 @@ title: WLAN_NOTIFICATION_MSM
 ms.date: 01/30/19
 ms.keywords: _WLAN_NOTIFICATION_MSM, WLAN_NOTIFICATION_MSM
 ms.topic: language-reference
+f1_keywords: ["wlanapi/_WLAN_NOTIFICATION_MSM"]
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

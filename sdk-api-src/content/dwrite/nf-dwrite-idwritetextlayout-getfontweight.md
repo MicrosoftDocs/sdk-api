@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontWeight, GetFontWeight method [Direct Write], GetFontWeight method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontWeight method, IDWriteTextLayout.GetFontWeight, IDWriteTextLayout::GetFontWeight, directwrite.IDWriteTextLayout_GetFontWeight, dwrite/IDWriteTextLayout::GetFontWeight
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.GetFontWeight"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

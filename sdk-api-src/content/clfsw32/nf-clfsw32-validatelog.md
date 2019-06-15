@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValidateLog, ValidateLog function [Files], clfsw32/ValidateLog, fs.validatelogrestore
 ms.topic: function
+f1_keywords: ["clfsw32/ValidateLog"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Accessibility], GetText method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetText method, IUIAutomationTextRange.GetText, IUIAutomationTextRange::GetText, uiauto.uiauto_IUIAutomationTextRange_GetText, uiauto_IUIAutomationTextRange_GetText, uiautomationclient/IUIAutomationTextRange::GetText, winauto.uiauto_IUIAutomationTextRange_GetText
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTextRange.GetText"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

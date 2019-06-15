@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: IFileViewerA
 ms.topic: language-reference
+f1_keywords: ["shlobj/IFileViewerA"]
 targetos: Windows
 product: Windows
 req.assembly: 

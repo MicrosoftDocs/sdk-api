@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhServiceBlockBackup, FhServiceBlockBackup function [Windows API], fhsvcctl/FhServiceBlockBackup, winprog.fhserviceblockbackup
 ms.topic: function
+f1_keywords: ["fhsvcctl/FhServiceBlockBackup"]
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

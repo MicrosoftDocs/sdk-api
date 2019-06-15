@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
 ms.topic: function
+f1_keywords: ["fileapi/ReadFileEx"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
 ms.topic: interface
+f1_keywords: ["control/IMediaControl"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

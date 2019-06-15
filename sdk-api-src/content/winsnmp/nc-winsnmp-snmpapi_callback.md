@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_CALLBACK, SNMPAPI_CALLBACK callback, SNMPAPI_CALLBACK callback function [SNMP], _snmp_snmpapi_callback, snmp.snmpapi_callback, winsnmp/SNMPAPI_CALLBACK
 ms.topic: callback
+f1_keywords: ["winsnmp/SNMPAPI_CALLBACK"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverRemove, acmDriverRemove, acmDriverRemove function [Windows Multimedia], msacm/acmDriverRemove, multimedia.acmdriverremove"
 ms.topic: function
+f1_keywords: ["msacm/acmDriverRemove"]
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

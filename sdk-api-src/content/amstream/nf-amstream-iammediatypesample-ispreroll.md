@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsPreroll method, IAMMediaTypeSample.IsPreroll, IAMMediaTypeSample::IsPreroll, IAMMediaTypeSampleIsPreroll, IsPreroll, IsPreroll method [DirectShow], IsPreroll method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsPreroll, dshow.iammediatypesample_ispreroll
 ms.topic: method
+f1_keywords: ["amstream/IAMMediaTypeSample.IsPreroll"]
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

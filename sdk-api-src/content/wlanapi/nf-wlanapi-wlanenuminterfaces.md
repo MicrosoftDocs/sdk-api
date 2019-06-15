@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanEnumInterfaces, WlanEnumInterfaces function [NativeWIFI], nwifi.wlanenuminterfaces, wlanapi/WlanEnumInterfaces
 ms.topic: function
+f1_keywords: ["wlanapi/WlanEnumInterfaces"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

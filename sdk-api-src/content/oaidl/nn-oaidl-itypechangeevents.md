@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
 ms.topic: interface
+f1_keywords: ["oaidl/ITypeChangeEvents"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

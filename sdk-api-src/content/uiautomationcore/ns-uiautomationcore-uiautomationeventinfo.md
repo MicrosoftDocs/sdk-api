@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIAutomationEventInfo, UIAutomationEventInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationEventInfoStruct, uiauto_UIAutomationEventInfoStruct, uiautomationcore/UIAutomationEventInfo, winauto.uiauto_UIAutomationEventInfoStruct
 ms.topic: struct
+f1_keywords: ["uiautomationcore/UIAutomationEventInfo"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

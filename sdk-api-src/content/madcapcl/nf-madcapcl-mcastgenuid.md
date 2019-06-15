@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastGenUID, McastGenUID function [MADCAP], _mdhcp_mcastgenuid, madcap.mcastgenuid, madcapcl/McastGenUID
 ms.topic: function
+f1_keywords: ["madcapcl/McastGenUID"]
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

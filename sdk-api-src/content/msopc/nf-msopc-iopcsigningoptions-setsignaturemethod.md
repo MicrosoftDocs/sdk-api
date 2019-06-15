@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureMethod method, IOpcSigningOptions.SetSignatureMethod, IOpcSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [Open Packaging Conventions], SetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureMethod, opc.iopcsigningoptions_setsignaturemethod
 ms.topic: method
+f1_keywords: ["msopc/IOpcSigningOptions.SetSignatureMethod"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

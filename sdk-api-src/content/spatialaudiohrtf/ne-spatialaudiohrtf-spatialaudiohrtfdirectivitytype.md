@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioHrtfDirectivityType, SpatialAudioHrtfDirectivityType enumeration [Core Audio], SpatialAudioHrtfDirectivity_Cardioid, SpatialAudioHrtfDirectivity_Cone, SpatialAudioHrtfDirectivity_OmniDirectional, coreaudio.spatialaudiohrtfdirectivitytype, spatialaudiohrtf/SpatialAudioHrtfDirectivityType, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivity_Cone, spatialaudiohrtf/SpatialAudioHrtfDirectivity_OmniDirectional
 ms.topic: enum
+f1_keywords: ["spatialaudiohrtf/SpatialAudioHrtfDirectivityType"]
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows

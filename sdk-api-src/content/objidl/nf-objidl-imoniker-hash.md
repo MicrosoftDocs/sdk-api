@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Hash, Hash method [COM], Hash method [COM],IMoniker interface, IMoniker interface [COM],Hash method, IMoniker.Hash, IMoniker::Hash, _com_imoniker_hash, com.imoniker_hash, objidl/IMoniker::Hash
 ms.topic: method
+f1_keywords: ["objidl/IMoniker.Hash"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_LINE_CAP, XPS_LINE_CAP enumeration [XPS Documents and Packaging], XPS_LINE_CAP_FLAT, XPS_LINE_CAP_ROUND, XPS_LINE_CAP_SQUARE, XPS_LINE_CAP_TRIANGLE, xps.xps_line_cap, xpsobjectmodel/XPS_LINE_CAP, xpsobjectmodel/XPS_LINE_CAP_FLAT, xpsobjectmodel/XPS_LINE_CAP_ROUND, xpsobjectmodel/XPS_LINE_CAP_SQUARE, xpsobjectmodel/XPS_LINE_CAP_TRIANGLE
 ms.topic: enum
+f1_keywords: ["xpsobjectmodel/XPS_LINE_CAP"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BfAttrNone, BfEnTvRat_GenericAttributes, BfEnTvRat_GenericAttributes enumeration [Microsoft TV Technologies], BfIsAttr_1, BfIsAttr_2, BfIsAttr_3, BfIsAttr_4, BfIsAttr_5, BfIsAttr_6, BfIsAttr_7, BfIsBlocked, BfValidAttrSubmask, mstv.bfentvrat_genericattributes, tvratings/BfAttrNone, tvratings/BfEnTvRat_GenericAttributes, tvratings/BfIsAttr_1, tvratings/BfIsAttr_2, tvratings/BfIsAttr_3, tvratings/BfIsAttr_4, tvratings/BfIsAttr_5, tvratings/BfIsAttr_6, tvratings/BfIsAttr_7, tvratings/BfIsBlocked, tvratings/BfValidAttrSubmask
 ms.topic: enum
+f1_keywords: ["tvratings/BfEnTvRat_GenericAttributes"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

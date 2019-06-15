@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetErrorLogWrite, NetErrorLogWrite function [Network Management], _win32_neterrorlogwrite, lmerrlog/NetErrorLogWrite, netmgmt.neterrorlogwrite
 ms.topic: function
+f1_keywords: ["lmerrlog/NetErrorLogWrite"]
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows

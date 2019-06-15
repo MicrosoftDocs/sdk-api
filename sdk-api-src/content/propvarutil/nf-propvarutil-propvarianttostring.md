@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToString, PropVariantToString function [Windows Properties], properties.PropVariantToString, propvarutil/PropVariantToString, shell.PropVariantToString, shell_PropVariantToString
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToString"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

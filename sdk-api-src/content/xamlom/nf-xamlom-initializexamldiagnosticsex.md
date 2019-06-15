@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeXamlDiagnosticsEx, InitializeXamlDiagnosticsEx function, xaml_diagnostics.initializexamldiagnosticsex, xamlom/InitializeXamlDiagnosticsEx
 ms.topic: function
+f1_keywords: ["xamlom/InitializeXamlDiagnosticsEx"]
 req.header: xamlom.h
 req.include-header: Windows.UI.Xaml.h
 req.target-type: Windows

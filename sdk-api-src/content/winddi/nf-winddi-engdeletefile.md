@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile
 ms.topic: function
+f1_keywords: ["winddi/EngDeleteFile"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventType property [File Server Resource Manager], EventType property [File Server Resource Manager],IFsrmActionEventLog interface, IFsrmActionEventLog interface [File Server Resource Manager],EventType property, IFsrmActionEventLog.EventType, IFsrmActionEventLog.get_EventType, IFsrmActionEventLog::EventType, IFsrmActionEventLog::get_EventType, IFsrmActionEventLog::put_EventType, fs.ifsrmactioneventlog_eventtype, fsrm.ifsrmactioneventlog_eventtype, fsrm/IFsrmActionEventLog::EventType, fsrm/IFsrmActionEventLog::get_EventType, fsrm/IFsrmActionEventLog::put_EventType, get_EventType
 ms.topic: method
+f1_keywords: ["fsrm/IFsrmActionEventLog.EventType"]
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows

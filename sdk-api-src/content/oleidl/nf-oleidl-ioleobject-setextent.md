@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleObject interface [COM],SetExtent method, IOleObject.SetExtent, IOleObject::SetExtent, SetExtent, SetExtent method [COM], SetExtent method [COM],IOleObject interface, _ole_ioleobject_setextent, com.ioleobject_setextent, oleidl/IOleObject::SetExtent
 ms.topic: method
+f1_keywords: ["oleidl/IOleObject.SetExtent"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_VPIV, D3D11_TEX2D_VPIV structure [Media Foundation], d3d11/D3D11_TEX2D_VPIV, mf.d3d11_tex2d_vpiv
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_TEX2D_VPIV"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

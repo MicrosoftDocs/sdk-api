@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComInstance2Events, IComInstance2Events interface [COM+], IComInstance2Events interface [COM+],described, _dtc_icominstance2events, comsvcs/IComInstance2Events, cos.icominstance2events
 ms.topic: interface
+f1_keywords: ["comsvcs/IComInstance2Events"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

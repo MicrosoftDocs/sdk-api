@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Registry_Property, CM_Get_DevNode_Registry_Property function [Device and Driver Installation], CM_Get_DevNode_Registry_PropertyW, cfgmgr32/CM_Get_DevNode_Registry_Property, cfgmgr32/CM_Get_DevNode_Registry_PropertyW, cfgmgrfn_f5c0e7d6-81f6-4d0f-bca8-de9c4f51e3d9.xml, devinst.cm_get_devnode_registry_property
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Get_DevNode_Registry_Property"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

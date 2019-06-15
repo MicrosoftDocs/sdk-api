@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtDeviceIoControlFile, NtDeviceIoControlFile function [Windows API], winprog.ntdeviceiocontrolfile, winternl/NtDeviceIoControlFile, winui.ntdeviceiocontrolfile
 ms.topic: function
+f1_keywords: ["winternl/NtDeviceIoControlFile"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

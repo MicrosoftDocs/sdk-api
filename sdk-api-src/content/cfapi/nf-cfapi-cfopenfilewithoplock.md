@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfOpenFileWithOplock, CfOpenFileWithOplock function, cfapi/CfOpenFileWithOplock, cloudApi.cfopenfilewithoplock
 ms.topic: function
+f1_keywords: ["cfapi/CfOpenFileWithOplock"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysAddRefString, SysAddRefString function [Automation], automat.sysaddrefstring, oleauto/SysAddRefString
 ms.topic: function
+f1_keywords: ["oleauto/SysAddRefString"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

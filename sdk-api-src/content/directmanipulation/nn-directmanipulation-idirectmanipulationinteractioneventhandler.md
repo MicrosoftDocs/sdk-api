@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationInteractionEventHandler, IDirectManipulationInteractionEventHandler interface [Direct Manipulation], IDirectManipulationInteractionEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationinteractioneventhandler, directmanipulation/IDirectManipulationInteractionEventHandler
 ms.topic: interface
+f1_keywords: ["directmanipulation/IDirectManipulationInteractionEventHandler"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

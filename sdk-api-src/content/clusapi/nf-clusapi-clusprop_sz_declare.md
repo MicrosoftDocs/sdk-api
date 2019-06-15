@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSPROP_SZ_DECLARE, CLUSPROP_SZ_DECLARE macro [Failover Cluster], _wolf_clusprop_sz_declare, clusapi/CLUSPROP_SZ_DECLARE, mscs.clusprop_sz_declare
 ms.topic: macro
+f1_keywords: ["clusapi/CLUSPROP_SZ_DECLARE"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

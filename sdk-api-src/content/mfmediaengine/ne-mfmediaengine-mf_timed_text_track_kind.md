@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_TRACK_KIND, MF_TIMED_TEXT_TRACK_KIND enumeration [Media Foundation], MF_TIMED_TEXT_TRACK_KIND_CAPTIONS, MF_TIMED_TEXT_TRACK_KIND_METADATA, MF_TIMED_TEXT_TRACK_KIND_SUBTITLES, MF_TIMED_TEXT_TRACK_KIND_UNKNOWN, mf.mf_timed_text_track_kind, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_CAPTIONS, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_METADATA, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_SUBTITLES, mfmediaengine/MF_TIMED_TEXT_TRACK_KIND_UNKNOWN
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_TIMED_TEXT_TRACK_KIND"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

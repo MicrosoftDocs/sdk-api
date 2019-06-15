@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWINHTTP_CREDS, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS, PWINHTTP_CREDS structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS, WINHTTP_CREDS structure [HTTP], http.winhttp_creds, winhttp/PWINHTTP_CREDS, winhttp/WINHTTP_CREDS"
 ms.topic: struct
+f1_keywords: ["winhttp/WINHTTP_CREDS"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

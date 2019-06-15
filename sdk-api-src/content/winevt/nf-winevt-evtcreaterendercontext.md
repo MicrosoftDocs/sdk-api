@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtCreateRenderContext, EvtCreateRenderContext function [EventLog], wes.evtcreaterendercontext, winevt/EvtCreateRenderContext
 ms.topic: function
+f1_keywords: ["winevt/EvtCreateRenderContext"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

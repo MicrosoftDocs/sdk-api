@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Network Virtualization], wnv.wnvrequestnotification, wnvapi/WnvRequestNotification
 ms.topic: function
+f1_keywords: ["wnvapi/WnvRequestNotification"]
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

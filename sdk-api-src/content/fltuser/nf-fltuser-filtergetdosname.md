@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterGetDosName, FilterGetDosName function [Installable File System Drivers], FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml, fltuser/FilterGetDosName, ifsk.filtergetdosname
 ms.topic: function
+f1_keywords: ["fltuser/FilterGetDosName"]
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

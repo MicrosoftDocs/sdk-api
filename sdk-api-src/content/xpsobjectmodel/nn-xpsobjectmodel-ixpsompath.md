@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMPath"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

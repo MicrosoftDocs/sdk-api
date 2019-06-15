@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt16, PropVariantToUInt16 function [Windows Properties], properties.PropVariantToUInt16, propvarutil/PropVariantToUInt16, shell.PropVariantToUInt16, shell_PropVariantToUInt16
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToUInt16"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

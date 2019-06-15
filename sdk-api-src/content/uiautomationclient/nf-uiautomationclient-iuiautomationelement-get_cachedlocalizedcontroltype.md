@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedLocalizedControlType property [Windows Accessibility], CachedLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedLocalizedControlType property, IUIAutomationElement.CachedLocalizedControlType, IUIAutomationElement.get_CachedLocalizedControlType, IUIAutomationElement::CachedLocalizedControlType, IUIAutomationElement::get_CachedLocalizedControlType, get_CachedLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CachedLocalizedControlType, uiauto_IUIAutomationElement_CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::CachedLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CachedLocalizedControlType, winauto.uiauto_IUIAutomationElement_CachedLocalizedControlType
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedLocalizedControlType"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

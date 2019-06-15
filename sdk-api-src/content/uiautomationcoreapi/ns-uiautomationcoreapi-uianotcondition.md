@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNotCondition, UiaNotCondition structure [Windows Accessibility], uiauto.uiauto_UiaNotConditionStruct, uiauto_UiaNotConditionStruct, uiautomationcoreapi/UiaNotCondition, winauto.uiauto_UiaNotConditionStruct
 ms.topic: struct
+f1_keywords: ["uiautomationcoreapi/UiaNotCondition"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

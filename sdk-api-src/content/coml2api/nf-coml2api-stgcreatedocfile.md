@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
 ms.topic: function
+f1_keywords: ["coml2api/StgCreateDocfile"]
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

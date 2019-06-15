@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink, ISearchPersistentItemsChangedSink interface [search], ISearchPersistentItemsChangedSink interface [search],described, _search_ISearchPersistentItemsChangedSink, search._search_ISearchPersistentItemsChangedSink, searchapi/ISearchPersistentItemsChangedSink
 ms.topic: interface
+f1_keywords: ["searchapi/ISearchPersistentItemsChangedSink"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

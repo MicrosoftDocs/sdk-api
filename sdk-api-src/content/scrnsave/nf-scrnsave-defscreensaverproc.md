@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _win32_DefScreenSaverProc, scrnsave/DefScreenSaverProc, shell.DefScreenSaverProc
 ms.topic: function
+f1_keywords: ["scrnsave/DefScreenSaverProc"]
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows

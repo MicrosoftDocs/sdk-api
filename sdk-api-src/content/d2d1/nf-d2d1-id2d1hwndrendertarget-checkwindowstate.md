@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckWindowState, CheckWindowState method [Direct2D], CheckWindowState method [Direct2D],ID2D1HwndRenderTarget interface, ID2D1HwndRenderTarget interface [Direct2D],CheckWindowState method, ID2D1HwndRenderTarget.CheckWindowState, ID2D1HwndRenderTarget::CheckWindowState, d2d1/ID2D1HwndRenderTarget::CheckWindowState, direct2d.ID2D1HwndRenderTarget_CheckWindowState
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1HwndRenderTarget.CheckWindowState"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

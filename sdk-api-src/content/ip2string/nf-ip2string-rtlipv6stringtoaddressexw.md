@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6StringToAddressEx, RtlIpv6StringToAddressEx function [IP Helper], RtlIpv6StringToAddressExW, ip2string/RtlIpv6StringToAddressEx, ip2string/RtlIpv6StringToAddressExW, iphlp.rtlipv6stringtoaddressex
 ms.topic: function
+f1_keywords: ["ip2string/RtlIpv6StringToAddressEx"]
 req.header: ip2string.h
 req.include-header: Mstcpip.h
 req.target-type: Windows

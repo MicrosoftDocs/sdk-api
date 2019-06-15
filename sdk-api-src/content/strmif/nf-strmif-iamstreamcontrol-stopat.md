@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StopAt method, IAMStreamControl.StopAt, IAMStreamControl::StopAt, IAMStreamControlStopAt, StopAt, StopAt method [DirectShow], StopAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_stopat, strmif/IAMStreamControl::StopAt
 ms.topic: method
+f1_keywords: ["strmif/IAMStreamControl.StopAt"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

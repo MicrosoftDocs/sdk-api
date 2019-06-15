@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadDpiAwarenessContext, SetThreadDpiAwarenessContext function [High DPI], hidpi.setthreaddpiawarenesscontext, winuser/SetThreadDpiAwarenessContext
 ms.topic: function
+f1_keywords: ["winuser/SetThreadDpiAwarenessContext"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

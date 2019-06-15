@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallInfoString method, ITCallInfo.get_CallInfoString, ITCallInfo::get_CallInfoString, _tapi3_itcallinfo_get_callinfostring, get_CallInfoString, get_CallInfoString method [TAPI 2.2], get_CallInfoString method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callinfostring, tapi3if/ITCallInfo::get_CallInfoString
 ms.topic: method
+f1_keywords: ["tapi3if/ITCallInfo.get_CallInfoString"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

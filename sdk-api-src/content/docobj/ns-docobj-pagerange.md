@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE
 ms.topic: struct
+f1_keywords: ["docobj/PAGERANGE"]
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

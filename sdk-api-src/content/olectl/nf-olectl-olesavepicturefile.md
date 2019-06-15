@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96_OleSavePictureFile, automat.olesavepicturefile, olectl/OleSavePictureFile
 ms.topic: function
+f1_keywords: ["olectl/OleSavePictureFile"]
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

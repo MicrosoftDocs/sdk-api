@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _ras_ras_stats, ras/RAS_STATS, rras.ras_stats"
 ms.topic: struct
+f1_keywords: ["ras/RAS_STATS"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

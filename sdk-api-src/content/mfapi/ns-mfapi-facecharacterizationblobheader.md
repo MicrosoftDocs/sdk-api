@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaceCharacterizationBlobHeader, FaceCharacterizationBlobHeader structure [Streaming Media Devices], mfapi/FaceCharacterizationBlobHeader, stream.facecharacterizationblobheader
 ms.topic: struct
+f1_keywords: ["mfapi/FaceCharacterizationBlobHeader"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

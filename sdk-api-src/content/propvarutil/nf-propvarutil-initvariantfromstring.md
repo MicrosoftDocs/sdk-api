@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromString, InitVariantFromString function [Windows Properties], _shell_InitVariantFromString, properties.InitVariantFromString, propvarutil/InitVariantFromString, shell.InitVariantFromString
 ms.topic: function
+f1_keywords: ["propvarutil/InitVariantFromString"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

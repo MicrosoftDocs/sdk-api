@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Init method, IWSDDeviceHost.Init, IWSDDeviceHost::Init, Init, Init method, Init method,IWSDDeviceHost interface, ncd.iwsddevicehost_init_method, wsdhost/IWSDDeviceHost::Init
 ms.topic: method
+f1_keywords: ["wsdhost/IWSDDeviceHost.Init"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

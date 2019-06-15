@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback
 ms.topic: interface
+f1_keywords: ["tapi3if/ITMediaPlayback"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

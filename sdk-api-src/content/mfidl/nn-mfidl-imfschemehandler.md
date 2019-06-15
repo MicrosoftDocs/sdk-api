@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSchemeHandler, IMFSchemeHandler interface [Media Foundation], IMFSchemeHandler interface [Media Foundation],described, a342054e-2cb5-494a-a2f7-d144c72d1fa5, mf.imfschemehandler, mfidl/IMFSchemeHandler
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSchemeHandler"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

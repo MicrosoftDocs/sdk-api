@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_FLAG, COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD], COMPACT_VIRTUAL_DISK_FLAG_NONE, vdssys/COMPACT_VIRTUAL_DISK_FLAG, vdssys/COMPACT_VIRTUAL_DISK_FLAG_NONE, vhd.compact_virtual_disk_flag, virtdisk/COMPACT_VIRTUAL_DISK_FLAG, virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
+f1_keywords: ["virtdisk/COMPACT_VIRTUAL_DISK_FLAG"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryDriverInfo, DrvQueryDriverInfo function [Display Devices], ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml, display.drvquerydriverinfo, winddi/DrvQueryDriverInfo
 ms.topic: function
+f1_keywords: ["winddi/DrvQueryDriverInfo"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

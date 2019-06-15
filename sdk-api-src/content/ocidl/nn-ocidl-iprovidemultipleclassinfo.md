@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProvideMultipleClassInfo, IProvideMultipleClassInfo interface [COM], IProvideMultipleClassInfo interface [COM],described, _com_iprovidemultipleclassinfo, com.iprovidemultipleclassinfo, ocidl/IProvideMultipleClassInfo
 ms.topic: interface
+f1_keywords: ["ocidl/IProvideMultipleClassInfo"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

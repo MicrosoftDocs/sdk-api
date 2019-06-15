@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTypographyOptions, GetTypographyOptions method [Windows Controls], GetTypographyOptions method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetTypographyOptions method, ITextDocument2.GetTypographyOptions, ITextDocument2::GetTypographyOptions, TO_ADVANCEDTYPOGRAPHY, TO_SIMPLELINEBREAK, controls.itextdocument2_gettypographyoptions, tom/ITextDocument2::GetTypographyOptions
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.GetTypographyOptions"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

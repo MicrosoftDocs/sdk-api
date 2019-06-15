@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentToggleState property [Windows Accessibility], CurrentToggleState property [Windows Accessibility],IUIAutomationTogglePattern interface, IUIAutomationTogglePattern interface [Windows Accessibility],CurrentToggleState property, IUIAutomationTogglePattern.CurrentToggleState, IUIAutomationTogglePattern.get_CurrentToggleState, IUIAutomationTogglePattern::CurrentToggleState, IUIAutomationTogglePattern::get_CurrentToggleState, get_CurrentToggleState, uiauto.uiauto_IUIAutomationTogglePattern_CurrentToggleState, uiauto_IUIAutomationTogglePattern_CurrentToggleState, uiautomationclient/IUIAutomationTogglePattern::CurrentToggleState, uiautomationclient/IUIAutomationTogglePattern::get_CurrentToggleState, winauto.uiauto_IUIAutomationTogglePattern_CurrentToggleState
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTogglePattern.CurrentToggleState"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

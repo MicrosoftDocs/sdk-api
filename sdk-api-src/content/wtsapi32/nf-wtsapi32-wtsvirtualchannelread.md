@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelRead, WTSVirtualChannelRead function [Remote Desktop Services], _win32_wtsvirtualchannelread, termserv.wtsvirtualchannelread, wtsapi32/WTSVirtualChannelRead
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSVirtualChannelRead"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

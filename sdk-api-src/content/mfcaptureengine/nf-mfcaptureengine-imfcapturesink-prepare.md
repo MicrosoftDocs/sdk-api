@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],Prepare method, IMFCaptureSink.Prepare, IMFCaptureSink::Prepare, Prepare, Prepare method [Media Foundation], Prepare method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_prepare, mfcaptureengine/IMFCaptureSink::Prepare
 ms.topic: method
+f1_keywords: ["mfcaptureengine/IMFCaptureSink.Prepare"]
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

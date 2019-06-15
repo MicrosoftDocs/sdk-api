@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveLogContainerSet, RemoveLogContainerSet function [Files], clfsw32/RemoveLogContainerSet, fs.removelogcontainerset
 ms.topic: function
+f1_keywords: ["clfsw32/RemoveLogContainerSet"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

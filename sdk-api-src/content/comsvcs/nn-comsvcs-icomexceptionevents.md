@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComExceptionEvents, IComExceptionEvents interface [COM+], IComExceptionEvents interface [COM+],described, _dtc_IComExceptionEvents, comsvcs/IComExceptionEvents, cos.icomexceptionevents
 ms.topic: interface
+f1_keywords: ["comsvcs/IComExceptionEvents"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.ndfcreatepnrpincident, ndfapi/NdfCreatePnrpIncident
 ms.topic: function
+f1_keywords: ["ndfapi/NdfCreatePnrpIncident"]
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComponentSummary, ComponentSummary structure [COM+], comsvcs/ComponentSummary, cos.componentsummary
 ms.topic: struct
+f1_keywords: ["comsvcs/ComponentSummary"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

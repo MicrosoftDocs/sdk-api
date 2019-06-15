@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocalFree, LocalFree function, _win32_localfree, base.localfree, winbase/LocalFree
 ms.topic: function
+f1_keywords: ["winbase/LocalFree"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

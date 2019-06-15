@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSymFromName, SymGetSymFromName function, SymGetSymFromName64, SymGetSymFromName64 function, _win32_symgetsymfromname64, base.symgetsymfromname64, dbghelp/SymGetSymFromName, dbghelp/SymGetSymFromName64
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetSymFromName64"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

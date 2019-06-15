@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfChapters, GetNumberOfChapters method [DirectShow], GetNumberOfChapters method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetNumberOfChapters method, IDvdInfo2.GetNumberOfChapters, IDvdInfo2::GetNumberOfChapters, IDvdInfo2GetNumberOfChapters, dshow.idvdinfo2_getnumberofchapters, strmif/IDvdInfo2::GetNumberOfChapters
 ms.topic: method
+f1_keywords: ["strmif/IDvdInfo2.GetNumberOfChapters"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

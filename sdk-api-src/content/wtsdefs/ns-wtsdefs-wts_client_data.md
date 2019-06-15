@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_CLIENT_DATA, PWRDS_CLIENT_DATA, PWRDS_CLIENT_DATA structure pointer [Remote Desktop Services], PWTS_CLIENT_DATA, PWTS_CLIENT_DATA structure pointer [Remote Desktop Services], WRDS_CLIENT_DATA, WRDS_CLIENT_DATA structure [Remote Desktop Services], WTS_CLIENT_DATA, WTS_CLIENT_DATA structure [Remote Desktop Services], termserv.wts_client_data, wtsdefs/PWRDS_CLIENT_DATA, wtsdefs/PWTS_CLIENT_DATA, wtsdefs/WRDS_CLIENT_DATA, wtsdefs/WTS_CLIENT_DATA"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_CLIENT_DATA"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandQueue, ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,described, d3d12sdklayers/ID3D12DebugCommandQueue, direct3d12.id3d12debugcommandqueue
 ms.topic: interface
+f1_keywords: ["d3d12sdklayers/ID3D12DebugCommandQueue"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

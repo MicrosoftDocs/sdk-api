@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_NON_RPC_LITERAL_OPERATION, WS_OPERATION_STYLE, WS_OPERATION_STYLE enumeration [Web Services for Windows], WS_RPC_LITERAL_OPERATION, webservices/WS_NON_RPC_LITERAL_OPERATION, webservices/WS_OPERATION_STYLE, webservices/WS_RPC_LITERAL_OPERATION, wsw.ws_operation_style
 ms.topic: enum
+f1_keywords: ["webservices/WS_OPERATION_STYLE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

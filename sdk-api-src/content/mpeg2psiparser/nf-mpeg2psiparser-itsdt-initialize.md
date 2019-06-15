@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSDT interface [Microsoft TV Technologies],Initialize method, ITSDT.Initialize, ITSDT::Initialize, ITSDTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::Initialize, mstv.itsdt_initialize
 ms.topic: method
+f1_keywords: ["mpeg2psiparser/ITSDT.Initialize"]
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

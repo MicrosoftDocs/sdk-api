@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
 ms.topic: interface
+f1_keywords: ["certpol/ICertPolicy"]
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows

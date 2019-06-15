@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows API], comppkgsup/IsMediaBehaviorEnabled, winprog.ismediabehaviorenabled
 ms.topic: function
+f1_keywords: ["comppkgsup/IsMediaBehaviorEnabled"]
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

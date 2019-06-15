@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
 ms.topic: interface
+f1_keywords: ["objidl/IROTData"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

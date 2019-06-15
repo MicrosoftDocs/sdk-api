@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_USER, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetRegistryKey method, IGPEInformation.GetRegistryKey, IGPEInformation::GetRegistryKey, _win32_igpeinformation_getregistrykey, gpedit/IGPEInformation::GetRegistryKey, policy.igpeinformation_getregistrykey
 ms.topic: method
+f1_keywords: ["gpedit/IGPEInformation.GetRegistryKey"]
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

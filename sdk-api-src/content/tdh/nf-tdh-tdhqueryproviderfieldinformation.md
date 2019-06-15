@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhQueryProviderFieldInformation, TdhQueryProviderFieldInformation function [ETW], etw.tdhqueryproviderfieldinformation_func, tdh.tdhqueryproviderfieldinformation_func, tdh/TdhQueryProviderFieldInformation
 ms.topic: function
+f1_keywords: ["tdh/TdhQueryProviderFieldInformation"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntPtrMult, IntPtrMult function [Windows Shell], intsafe/IntPtrMult, shell.IntPtrMult
 ms.topic: function
+f1_keywords: ["intsafe/IntPtrMult"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

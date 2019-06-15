@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],QueryInterface method, IDirectInputEffectDriver.QueryInterface, IDirectInputEffectDriver::QueryInterface, QueryInterface, QueryInterface method [Human Input Devices], QueryInterface method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_99e25056-d0d2-464f-81b4-cfa6bdfa06db.xml, dinputd/IDirectInputEffectDriver::QueryInterface, hid.idirectinputeffectdriver_queryinterface
 ms.topic: method
+f1_keywords: ["dinputd/IDirectInputEffectDriver.QueryInterface"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

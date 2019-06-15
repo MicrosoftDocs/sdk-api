@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGenerateTone, TSPI_lineGenerateTone function [TAPI 2.2], _tspi_tspi_linegeneratetone, tspi.tspi_linegeneratetone, tspi/TSPI_lineGenerateTone
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineGenerateTone"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

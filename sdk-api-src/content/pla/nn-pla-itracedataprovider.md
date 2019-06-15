@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA],described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
 ms.topic: interface
+f1_keywords: ["pla/ITraceDataProvider"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

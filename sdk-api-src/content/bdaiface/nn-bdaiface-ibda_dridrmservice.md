@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], IBDA_DRIDRMService interface [DirectShow],described, bdaiface/IBDA_DRIDRMService, mstv.ibda_dridrmservice
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_DRIDRMService"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

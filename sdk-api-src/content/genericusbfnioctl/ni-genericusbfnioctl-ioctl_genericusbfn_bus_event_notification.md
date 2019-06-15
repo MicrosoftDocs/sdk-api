@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control, IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_genericusbfn_bus_event_notification, genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION
 ms.topic: ioctl
+f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_BUS_EVENT_NOTIFICATION"]
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

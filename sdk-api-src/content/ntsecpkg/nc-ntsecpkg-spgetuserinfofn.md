@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NO_LONG_NAMES, SpGetUserInfo, SpGetUserInfo callback function [Security], SpGetUserInfoFn, SpGetUserInfoFn callback, UNDERSTANDS_LONG_NAMES, _ssp_spgetuserinfo, ntsecpkg/SpGetUserInfo, security.spgetuserinfo
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpGetUserInfo"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

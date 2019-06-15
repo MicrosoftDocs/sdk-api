@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFind_InitMenuPopup, SHFind_InitMenuPopup function [Windows Shell], _win32_SHFind_InitMenuPopup, shell.SHFind_InitMenuPopup, shlobj_core/SHFind_InitMenuPopup
 ms.topic: function
+f1_keywords: ["shlobj_core/SHFind_InitMenuPopup"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

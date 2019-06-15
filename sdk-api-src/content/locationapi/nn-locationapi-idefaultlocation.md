@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaultLocation interface [WinLocation],described, locationapi/IDefaultLocation, winlocation.idefaultlocation
 ms.topic: interface
+f1_keywords: ["locationapi/IDefaultLocation"]
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

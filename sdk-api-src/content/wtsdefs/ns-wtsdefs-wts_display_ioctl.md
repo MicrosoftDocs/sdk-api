@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL, PWRDS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], PWTS_DISPLAY_IOCTL, PWTS_DISPLAY_IOCTL structure pointer [Remote Desktop Services], WRDS_DISPLAY_IOCTL, WRDS_DISPLAY_IOCTL structure [Remote Desktop Services], WTS_DISPLAY_IOCTL, WTS_DISPLAY_IOCTL structure [Remote Desktop Services], termserv.wts_display_ioctl, wtsdefs/PWRDS_DISPLAY_IOCTL, wtsdefs/PWTS_DISPLAY_IOCTL, wtsdefs/WRDS_DISPLAY_IOCTL, wtsdefs/WTS_DISPLAY_IOCTL"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_DISPLAY_IOCTL"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

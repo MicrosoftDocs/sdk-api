@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_BUFFER, XAUDIO2_BUFFER structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer, xaudio2/XAUDIO2_BUFFER
 ms.topic: struct
+f1_keywords: ["xaudio2/XAUDIO2_BUFFER"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

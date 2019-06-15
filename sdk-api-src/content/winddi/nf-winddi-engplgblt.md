@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngPlgBlt, EngPlgBlt function [Display Devices], display.engplgblt, gdifncs_e7b5fc87-c1d3-4513-a101-742cd358ed85.xml, winddi/EngPlgBlt
 ms.topic: function
+f1_keywords: ["winddi/EngPlgBlt"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

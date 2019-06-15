@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],get_Entitlement method, IBDA_ConditionalAccess.get_Entitlement, IBDA_ConditionalAccess::get_Entitlement, IBDA_ConditionalAccessget_Entitlement, bdaiface/IBDA_ConditionalAccess::get_Entitlement, get_Entitlement, get_Entitlement method [Microsoft TV Technologies], get_Entitlement method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, mstv.ibda_conditionalaccess_get_entitlement
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_ConditionalAccess.get_Entitlement"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

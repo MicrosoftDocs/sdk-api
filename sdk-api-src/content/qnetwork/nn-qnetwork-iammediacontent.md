@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent, IAMMediaContent interface [DirectShow], IAMMediaContent interface [DirectShow],described, IAMMediaContentInterface, dshow.iammediacontent, qnetwork/IAMMediaContent
 ms.topic: interface
+f1_keywords: ["qnetwork/IAMMediaContent"]
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

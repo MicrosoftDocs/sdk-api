@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarFormatCurrency, VarFormatCurrency function [Automation], _oa96_VarFormatCurrency, automat.varformatcurrency, oleauto/VarFormatCurrency
 ms.topic: function
+f1_keywords: ["oleauto/VarFormatCurrency"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

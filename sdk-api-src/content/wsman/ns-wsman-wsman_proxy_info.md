@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PROXY_INFO, WSMAN_PROXY_INFO structure [Windows Remote Management], winrm.wsman_proxy_info, wsman/WSMAN_PROXY_INFO
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_PROXY_INFO"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

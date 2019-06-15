@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetappspecific, lineSetAppSpecific, lineSetAppSpecific function [TAPI 2.2], tapi/lineSetAppSpecific, tapi2.linesetappspecific"
 ms.topic: function
+f1_keywords: ["tapi/lineSetAppSpecific"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsInstalled property, IUpdate.IsInstalled, IUpdate.get_IsInstalled, IUpdate::IsInstalled, IUpdate::get_IsInstalled, IsInstalled property [Windows Update Agent], IsInstalled property [Windows Update Agent],IUpdate interface, get_IsInstalled, wua.iupdate_isinstalled, wuapi/IUpdate::IsInstalled, wuapi/IUpdate::get_IsInstalled
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate.IsInstalled"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

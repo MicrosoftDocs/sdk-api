@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegDeleteValue, ClusterRegDeleteValue function [Failover Cluster], _wolf_clusterregdeletevalue, clusapi/ClusterRegDeleteValue, mscs.clusterregdeletevalue
 ms.topic: function
+f1_keywords: ["clusapi/ClusterRegDeleteValue"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

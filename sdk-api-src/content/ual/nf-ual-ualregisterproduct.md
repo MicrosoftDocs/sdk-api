@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
 ms.topic: function
+f1_keywords: ["ual/UalRegisterProduct"]
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows

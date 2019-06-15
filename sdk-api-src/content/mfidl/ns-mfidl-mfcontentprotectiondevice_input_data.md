@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_INPUT_DATA, MFCONTENTPROTECTIONDEVICE_INPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_input_data, mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 ms.topic: struct
+f1_keywords: ["mfidl/MFCONTENTPROTECTIONDEVICE_INPUT_DATA"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_DESC, DML_BINDING_DESC structure, direct3d12.dml_binding_desc, directml/DML_BINDING_DESC
 ms.topic: struct
+f1_keywords: ["directml/DML_BINDING_DESC"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

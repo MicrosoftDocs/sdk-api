@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_DISPLAY_COLOR_SPACE, DXGI_DISPLAY_COLOR_SPACE structure [DXGI], direct3ddxgi.dxgi_display_color_space, dxgi/DXGI_DISPLAY_COLOR_SPACE
 ms.topic: struct
+f1_keywords: ["dxgi/DXGI_DISPLAY_COLOR_SPACE"]
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

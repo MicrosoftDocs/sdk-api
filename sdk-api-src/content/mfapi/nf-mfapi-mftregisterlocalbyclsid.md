@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocalByCLSID, MFTRegisterLocalByCLSID function [Media Foundation], mf.mftregisterlocalbyclsid, mfapi/MFTRegisterLocalByCLSID
 ms.topic: function
+f1_keywords: ["mfapi/MFTRegisterLocalByCLSID"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

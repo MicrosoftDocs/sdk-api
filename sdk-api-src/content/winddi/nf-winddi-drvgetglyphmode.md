@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvGetGlyphMode, DrvGetGlyphMode function [Display Devices], ddifncs_e5ac278d-3417-4b76-aa0f-7fd2906f8137.xml, display.drvgetglyphmode, winddi/DrvGetGlyphMode
 ms.topic: function
+f1_keywords: ["winddi/DrvGetGlyphMode"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

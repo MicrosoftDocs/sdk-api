@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamCreate, AVIStreamCreate function [Windows Multimedia], _win32_AVIStreamCreate, multimedia.avistreamcreate, vfw/AVIStreamCreate
 ms.topic: function
+f1_keywords: ["vfw/AVIStreamCreate"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

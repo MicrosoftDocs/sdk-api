@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumOptionValues, DhcpEnumOptionValues function [DHCP], dhcp.dhcpenumoptionvalues, dhcpsapi/DhcpEnumOptionValues
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpEnumOptionValues"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

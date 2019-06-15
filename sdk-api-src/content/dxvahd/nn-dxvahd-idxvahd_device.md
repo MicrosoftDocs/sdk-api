@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAHD_Device interface [Media Foundation],described, dxvahd/IDXVAHD_Device, mf.idxvahd_device
 ms.topic: interface
+f1_keywords: ["dxvahd/IDXVAHD_Device"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

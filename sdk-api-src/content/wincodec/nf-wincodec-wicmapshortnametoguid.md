@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICMapShortNameToGuid, WICMapShortNameToGuid function [Windows Imaging Component], _wic_codec_wicmapshortnametoguid, wic._wic_codec_wicmapshortnametoguid, wincodec/WICMapShortNameToGuid
 ms.topic: function
+f1_keywords: ["wincodec/WICMapShortNameToGuid"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

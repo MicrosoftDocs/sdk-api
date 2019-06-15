@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesChangeInfo, IOfflineFilesChangeInfo interface [Offline Files], IOfflineFilesChangeInfo interface [Offline Files],described, cscobj/IOfflineFilesChangeInfo, of.iofflinefileschangeinfo
 ms.topic: interface
+f1_keywords: ["cscobj/IOfflineFilesChangeInfo"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

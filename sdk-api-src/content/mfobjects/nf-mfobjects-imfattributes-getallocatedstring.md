@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 550a3035-ea16-4784-8f69-9522259bb338, GetAllocatedString, GetAllocatedString method [Media Foundation], GetAllocatedString method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetAllocatedString method, IMFAttributes.GetAllocatedString, IMFAttributes::GetAllocatedString, mf.imfattributes_getallocatedstring, mfobjects/IMFAttributes::GetAllocatedString
 ms.topic: method
+f1_keywords: ["mfobjects/IMFAttributes.GetAllocatedString"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

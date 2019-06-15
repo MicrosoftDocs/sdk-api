@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup, IBackgroundCopyGroup interface [BITS], IBackgroundCopyGroup interface [BITS],described, bits.ibackgroundcopygroup, qmgr/IBackgroundCopyGroup
 ms.topic: interface
+f1_keywords: ["qmgr/IBackgroundCopyGroup"]
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

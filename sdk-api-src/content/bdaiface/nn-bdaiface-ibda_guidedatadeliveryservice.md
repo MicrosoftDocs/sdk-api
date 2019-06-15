@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],described, bdaiface/IBDA_GuideDataDeliveryService, mstv.ibda_guidedatadeliveryservice
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_GuideDataDeliveryService"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

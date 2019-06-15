@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Point2L, Point2L function [Direct2D], d2d1_1helper/Point2L, direct2d.point2l
 ms.topic: function
+f1_keywords: ["d2d1_1helper/Point2L"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryLangID method, ITfFnLMProcessor.QueryLangID, ITfFnLMProcessor::QueryLangID, QueryLangID, QueryLangID method [Text Services Framework], QueryLangID method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_querylangid_ref, ctffunc/ITfFnLMProcessor::QueryLangID, tsf.itffnlmprocessor_querylangid
 ms.topic: method
+f1_keywords: ["ctffunc/ITfFnLMProcessor.QueryLangID"]
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

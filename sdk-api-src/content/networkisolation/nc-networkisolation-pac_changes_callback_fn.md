@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PAC_CHANGES_CALLBACK_FN, PAC_CHANGES_CALLBACK_FN callback, PAC_CHANGES_CALLBACK_FN callback function [ICS/ICF], ics.pac_changes_callback_fn, networkisolation/PAC_CHANGES_CALLBACK_FN
 ms.topic: callback
+f1_keywords: ["networkisolation/PAC_CHANGES_CALLBACK_FN"]
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

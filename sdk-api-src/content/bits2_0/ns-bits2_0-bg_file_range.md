@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], bits.bg_file_range, bits2_0/BG_FILE_RANGE
 ms.topic: struct
+f1_keywords: ["bits2_0/BG_FILE_RANGE"]
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows

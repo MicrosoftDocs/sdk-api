@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileTime, SetFileTime function, _win32_setfiletime, base.setfiletime, fileapi/SetFileTime, winbase/SetFileTime
 ms.topic: function
+f1_keywords: ["fileapi/SetFileTime"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

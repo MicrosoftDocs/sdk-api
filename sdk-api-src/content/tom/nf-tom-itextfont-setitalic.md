@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetItalic method, ITextFont.SetItalic, ITextFont::SetItalic, SetItalic, SetItalic method [Windows Controls], SetItalic method [Windows Controls],ITextFont interface, _win32_ITextFont_SetItalic, _win32_ITextFont_SetItalic_cpp, controls.ITextFont_SetItalic, controls._win32_ITextFont_SetItalic, tom/ITextFont::SetItalic
 ms.topic: method
+f1_keywords: ["tom/ITextFont.SetItalic"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

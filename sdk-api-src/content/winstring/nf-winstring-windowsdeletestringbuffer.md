@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsDeleteStringBuffer, WindowsDeleteStringBuffer function [Windows Runtime], winrt.windowsdeletestringbuffer, winstring/WindowsDeleteStringBuffer
 ms.topic: function
+f1_keywords: ["winstring/WindowsDeleteStringBuffer"]
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

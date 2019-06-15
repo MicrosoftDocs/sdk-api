@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CatTop2, CatTop2 method [Windows Controls], CatTop2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],CatTop2 method, ITextStrings.CatTop2, ITextStrings::CatTop2, controls.itextstrings_cattop2, tom/ITextStrings::CatTop2
 ms.topic: method
+f1_keywords: ["tom/ITextStrings.CatTop2"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

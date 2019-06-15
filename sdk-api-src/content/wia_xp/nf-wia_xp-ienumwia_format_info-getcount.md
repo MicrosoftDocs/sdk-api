@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_FORMAT_INFO interface, IEnumWIA_FORMAT_INFO interface [WIA],GetCount method, IEnumWIA_FORMAT_INFO.GetCount, IEnumWIA_FORMAT_INFO::GetCount, _wia_IEnumWIA_FORMAT_INFO_GetCount, wia._wia_IEnumWIA_FORMAT_INFO_GetCount, wia_xp/IEnumWIA_FORMAT_INFO::GetCount
 ms.topic: method
+f1_keywords: ["wia_xp/IEnumWIA_FORMAT_INFO.GetCount"]
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

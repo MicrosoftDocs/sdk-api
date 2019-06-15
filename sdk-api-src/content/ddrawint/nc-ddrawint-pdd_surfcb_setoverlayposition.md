@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSetOverlayPosition, DdSetOverlayPosition callback function [Display Devices], PDD_SURFCB_SETOVERLAYPOSITION, PDD_SURFCB_SETOVERLAYPOSITION callback, ddfncs_9e5f3748-1da5-4512-9024-88939ee0d3fc.xml, ddrawint/DdSetOverlayPosition, display.ddsetoverlayposition
 ms.topic: callback
+f1_keywords: ["ddrawint/DdSetOverlayPosition"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

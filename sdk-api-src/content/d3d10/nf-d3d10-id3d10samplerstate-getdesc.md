@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6131b597-fb10-10b7-7f9a-f0dbdb30f917, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10SamplerState interface, ID3D10SamplerState interface [Direct3D 10],GetDesc method, ID3D10SamplerState.GetDesc, ID3D10SamplerState::GetDesc, d3d10/ID3D10SamplerState::GetDesc, direct3d10.id3d10samplerstate_getdesc
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10SamplerState.GetDesc"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

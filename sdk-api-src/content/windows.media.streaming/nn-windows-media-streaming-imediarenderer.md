@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer, IMediaRenderer interface [Media Streaming API], IMediaRenderer interface [Media Streaming API],described, mediastreaming.imediarenderer, windows/IMediaRenderer
 ms.topic: interface
+f1_keywords: ["windows.media.streaming/IMediaRenderer"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrStr, StrStr function [Windows Shell], StrStrA, StrStrW, _win32_StrStr, shell.StrStr, shlwapi/StrStr, shlwapi/StrStrA, shlwapi/StrStrW
 ms.topic: function
+f1_keywords: ["shlwapi/StrStr"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

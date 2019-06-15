@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],get_MediaState method, ITMediaControl.get_MediaState, ITMediaControl::get_MediaState, _tapi3_itmediacontrol_get_mediastate, get_MediaState, get_MediaState method [TAPI 2.2], get_MediaState method [TAPI 2.2],ITMediaControl interface, tapi3.itmediacontrol_get_mediastate, tapi3if/ITMediaControl::get_MediaState
 ms.topic: method
+f1_keywords: ["tapi3if/ITMediaControl.get_MediaState"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

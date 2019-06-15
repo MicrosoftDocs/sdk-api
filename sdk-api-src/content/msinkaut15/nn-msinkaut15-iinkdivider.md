@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkDivider, IInkDivider interface [Tablet PC], IInkDivider interface [Tablet PC],described, msinkaut15/IInkDivider, tablet.iinkdivider
 ms.topic: interface
+f1_keywords: ["msinkaut15/IInkDivider"]
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows

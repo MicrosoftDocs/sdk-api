@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
 ms.topic: function
+f1_keywords: ["enclaveapi/IsEnclaveTypeSupported"]
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

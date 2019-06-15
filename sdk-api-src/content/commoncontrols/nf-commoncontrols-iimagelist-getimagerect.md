@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImageRect, GetImageRect method [Windows Controls], GetImageRect method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetImageRect method, IImageList.GetImageRect, IImageList::GetImageRect, comctl_IImageList_GetImageRect, comctl_IImageList_GetImageRect_cpp, commoncontrols/IImageList::GetImageRect, controls.IImageList_GetImageRect, controls.comctl_IImageList_GetImageRect
 ms.topic: method
+f1_keywords: ["commoncontrols/IImageList.GetImageRect"]
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

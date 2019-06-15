@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumFeedClockVector interface, IEnumFeedClockVector interface [Windows Sync],Clone method, IEnumFeedClockVector.Clone, IEnumFeedClockVector::Clone, winsync.ienumfeedclockvector_clone, winsync/IEnumFeedClockVector::Clone
 ms.topic: method
+f1_keywords: ["winsync/IEnumFeedClockVector.Clone"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

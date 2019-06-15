@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR
 ms.topic: struct
+f1_keywords: ["vds/VDS_PARTITION_INFO_MBR"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

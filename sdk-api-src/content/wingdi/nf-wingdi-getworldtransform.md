@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWorldTransform, GetWorldTransform function [Windows GDI], _win32_GetWorldTransform, gdi.getworldtransform, wingdi/GetWorldTransform
 ms.topic: function
+f1_keywords: ["wingdi/GetWorldTransform"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

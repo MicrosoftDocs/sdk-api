@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_SimpleRateChange, AM_SimpleRateChange structure [DirectShow], dshow.am_simpleratechange, dvdmedia/AM_SimpleRateChange
 ms.topic: struct
+f1_keywords: ["dvdmedia/AM_SimpleRateChange"]
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

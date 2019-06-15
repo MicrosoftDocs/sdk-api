@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_UDP6ROW, MIB_UDP6ROW, MIB_UDP6ROW structure [MIB], PMIB_UDP6ROW, PMIB_UDP6ROW structure pointer [MIB], mib.mib_udp6row, udpmib/MIB_UDP6ROW, udpmib/PMIB_UDP6ROW"
 ms.topic: struct
+f1_keywords: ["udpmib/MIB_UDP6ROW"]
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

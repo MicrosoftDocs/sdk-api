@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawColorControl, IDirectDrawColorControl interface [DirectDraw], IDirectDrawColorControl interface [DirectDraw],described, ddraw/IDirectDrawColorControl, directdraw.idirectdrawcolorcontrol
 ms.topic: interface
+f1_keywords: ["ddraw/IDirectDrawColorControl"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

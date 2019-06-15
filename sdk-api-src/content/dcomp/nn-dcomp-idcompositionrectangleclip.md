@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip, IDCompositionRectangleClip interface [DirectComposition], IDCompositionRectangleClip interface [DirectComposition],described, dcomp/IDCompositionRectangleClip, directcomp.idcompositionrectangleclip
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionRectangleClip"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetPercentComplete method, IPhotoProgressDialog.SetPercentComplete, IPhotoProgressDialog::SetPercentComplete, IPhotoProgressDialogSetPercentComplete, SetPercentComplete, SetPercentComplete method [Picture Acquisition], SetPercentComplete method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetPercentComplete, picacq.iphotoprogressdialog_setpercentcomplete
 ms.topic: method
+f1_keywords: ["photoacquire/IPhotoProgressDialog.SetPercentComplete"]
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_POL_ATTR_TYPE, DHCP_POL_ATTR_TYPE enumeration [DHCP], DhcpAttrHWAddr, DhcpAttrOption, DhcpAttrSubOption, dhcp.dhcp_pol_attr_type, dhcpsapi/DHCP_POL_ATTR_TYPE, dhcpsapi/DhcpAttrHWAddr, dhcpsapi/DhcpAttrOption, dhcpsapi/DhcpAttrSubOption
 ms.topic: enum
+f1_keywords: ["dhcpsapi/DHCP_POL_ATTR_TYPE"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

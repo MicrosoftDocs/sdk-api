@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskRunAsSelf property, IDataCollectorSet.TaskRunAsSelf, IDataCollectorSet.put_TaskRunAsSelf, IDataCollectorSet::TaskRunAsSelf, IDataCollectorSet::get_TaskRunAsSelf, IDataCollectorSet::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IDataCollectorSet interface, pla.idatacollectorset_taskrunasself, pla/IDataCollectorSet::TaskRunAsSelf, pla/IDataCollectorSet::get_TaskRunAsSelf, pla/IDataCollectorSet::put_TaskRunAsSelf, put_TaskRunAsSelf
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.TaskRunAsSelf"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Determinant, D2D1::Matrix3x2F::Determinant, Determinant, Determinant method [Direct2D], Determinant method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Determinant method, Matrix3x2F.Determinant, Matrix3x2F::Determinant, d2d1helper/Matrix3x2F::Determinant, direct2d.matrix3x2f_determinant
 ms.topic: method
+f1_keywords: ["d2d1helper/Matrix3x2F.Determinant"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

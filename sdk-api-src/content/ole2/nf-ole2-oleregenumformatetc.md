@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleRegEnumFormatEtc, OleRegEnumFormatEtc function [COM], _ole_OleRegEnumFormatEtc, com.oleregenumformatetc, ole2/OleRegEnumFormatEtc
 ms.topic: function
+f1_keywords: ["ole2/OleRegEnumFormatEtc"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

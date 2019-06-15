@@ -9,6 +9,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: interop::CreateDirect3DSurface
 ms.topic: function
+f1_keywords: ["windows.graphics.directx.direct3d11.interop/interop::CreateDirect3DSurface"]
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

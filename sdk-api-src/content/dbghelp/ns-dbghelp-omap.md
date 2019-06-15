@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POMAP, OMAP, OMAP structure, POMAP, POMAP structure pointer, _OMAP, base.omap, dbghelp/OMAP, dbghelp/POMAP"
 ms.topic: struct
+f1_keywords: ["dbghelp/OMAP"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

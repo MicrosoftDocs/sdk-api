@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo
 ms.topic: function
+f1_keywords: ["appmodel/GetCurrentPackageInfo"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

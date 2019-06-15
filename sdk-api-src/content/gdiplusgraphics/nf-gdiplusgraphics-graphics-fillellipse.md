@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillEllipse
 ms.topic: language-reference
+f1_keywords: ["gdiplusgraphics/Graphics::FillEllipse"]
 targetos: Windows
 product: Windows
 req.assembly: 

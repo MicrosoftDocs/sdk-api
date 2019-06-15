@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7ae3bb9d-8153-8ae3-c7bb-4b1581c7af45, D3D10_SHADER_RESOURCE_VIEW_DESC, D3D10_SHADER_RESOURCE_VIEW_DESC structure [Direct3D 10], d3d10/D3D10_SHADER_RESOURCE_VIEW_DESC, direct3d10.d3d10_shader_resource_view_desc
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_SHADER_RESOURCE_VIEW_DESC"]
 req.header: d3d10.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

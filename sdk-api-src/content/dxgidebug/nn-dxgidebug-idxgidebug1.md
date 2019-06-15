@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IDXGIDebug1 interface [DXGI],described, direct3ddxgi.idxgidebug1, dxgidebug/IDXGIDebug1
 ms.topic: interface
+f1_keywords: ["dxgidebug/IDXGIDebug1"]
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

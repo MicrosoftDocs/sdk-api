@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterFolder, EnterFolder method [Windows Shell], EnterFolder method [Windows Shell],INamespaceWalkCB interface, INamespaceWalkCB interface [Windows Shell],EnterFolder method, INamespaceWalkCB.EnterFolder, INamespaceWalkCB::EnterFolder, _win32_INamespaceWalkCB_EnterFolder, shell.INamespaceWalkCB_EnterFolder, shobjidl_core/INamespaceWalkCB::EnterFolder
 ms.topic: method
+f1_keywords: ["shobjidl_core/INamespaceWalkCB.EnterFolder"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

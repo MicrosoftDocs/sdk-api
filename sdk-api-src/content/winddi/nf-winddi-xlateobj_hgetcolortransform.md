@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_hGetColorTransform, XLATEOBJ_hGetColorTransform function [Display Devices], display.xlateobj_hgetcolortransform, gdifncs_6df99fb8-f6ad-4fe8-a140-c004700b9d33.xml, winddi/XLATEOBJ_hGetColorTransform
 ms.topic: function
+f1_keywords: ["winddi/XLATEOBJ_hGetColorTransform"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

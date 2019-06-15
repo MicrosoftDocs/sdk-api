@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHelperAttributeInfo, HelperAttributeInfo, HelperAttributeInfo structure [NDF], HelperAttributeInfo,*PHelperAttributeInfo, HelperAttributeInfo,*PHelperAttributeInfo structure [NDF], ndf.helperattributeinfo, ndhelper/HelperAttributeInfo"
 ms.topic: struct
+f1_keywords: ["ndhelper/HelperAttributeInfo, *PHelperAttributeInfo"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

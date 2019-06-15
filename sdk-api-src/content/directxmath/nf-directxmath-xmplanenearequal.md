@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneNearEqual, XMPlaneNearEqual, XMPlaneNearEqual method [DirectX Math Support APIs], dxmath.xmplanenearequal
 ms.topic: function
+f1_keywords: ["directxmath/XMPlaneNearEqual"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognizers interface, IInkRecognizers interface [Tablet PC],Count property, IInkRecognizers.Count, IInkRecognizers.get_Count, IInkRecognizers::Count, IInkRecognizers::get_Count, InkRecognizers.get_Count, get_Count, msinkaut/IInkRecognizers::Count, msinkaut/IInkRecognizers::get_Count, tablet.inkrecognizers_count
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognizers.Count"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

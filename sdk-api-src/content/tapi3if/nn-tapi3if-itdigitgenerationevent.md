@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent, ITDigitGenerationEvent interface [TAPI 2.2], ITDigitGenerationEvent interface [TAPI 2.2],described, _tapi3_itdigitgenerationevent, tapi3.itdigitgenerationevent, tapi3if/ITDigitGenerationEvent
 ms.topic: interface
+f1_keywords: ["tapi3if/ITDigitGenerationEvent"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

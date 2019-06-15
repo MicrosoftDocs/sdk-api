@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICFormatConverter, IWICFormatConverter interface [Windows Imaging Component], IWICFormatConverter interface [Windows Imaging Component],described, _wic_codec_iwicformatconverter, wic._wic_codec_iwicformatconverter, wincodec/IWICFormatConverter
 ms.topic: interface
+f1_keywords: ["wincodec/IWICFormatConverter"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

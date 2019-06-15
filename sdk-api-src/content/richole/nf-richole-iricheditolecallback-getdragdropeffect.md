@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDragDropEffect, GetDragDropEffect method [Windows Controls], GetDragDropEffect method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],GetDragDropEffect method, IRichEditOleCallback.GetDragDropEffect, IRichEditOleCallback::GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect, _win32_IRichEditOleCallback_GetDragDropEffect_cpp, controls.IRichEditOleCallback_GetDragDropEffect, controls._win32_IRichEditOleCallback_GetDragDropEffect, richole/IRichEditOleCallback::GetDragDropEffect
 ms.topic: method
+f1_keywords: ["richole/IRichEditOleCallback.GetDragDropEffect"]
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_STORAGE_LOAD_MEDIA control code, _win32_ioctl_storage_load_media, base.ioctl_storage_load_media, winioctl/IOCTL_STORAGE_LOAD_MEDIA
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_LOAD_MEDIA"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

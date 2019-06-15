@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComposePhrase, ComposePhrase method [search], ComposePhrase method [search],IWordBreaker interface, IWordBreaker interface [search],ComposePhrase method, IWordBreaker.ComposePhrase, IWordBreaker::ComposePhrase, _search_IWordBreaker_ComposePhrase, indexsrv/IWordBreaker::ComposePhrase, search._search_IWordBreaker_ComposePhrase
 ms.topic: method
+f1_keywords: ["indexsrv/IWordBreaker.ComposePhrase"]
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

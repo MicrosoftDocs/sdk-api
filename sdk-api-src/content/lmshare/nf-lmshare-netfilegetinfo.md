@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2, 3, NetFileGetInfo, NetFileGetInfo function [Files], _win32_netfilegetinfo, fs.netfilegetinfo, lmshare/NetFileGetInfo, netmgmt.netfilegetinfo
 ms.topic: function
+f1_keywords: ["lmshare/NetFileGetInfo"]
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

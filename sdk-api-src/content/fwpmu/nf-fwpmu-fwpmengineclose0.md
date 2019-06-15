@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Filtering], fwp.fwpmengineclose0_func, fwpmu/FwpmEngineClose0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmEngineClose0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

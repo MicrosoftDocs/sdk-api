@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXHR_CERT, PXHR_CERT structure pointer [XMLHttpRequest2], XHR_CERT, XHR_CERT structure [XMLHttpRequest2], ixhr2.xhr_cert, msxml6/PXHR_CERT, msxml6/XHR_CERT, tagXHR_CERT
 ms.topic: struct
+f1_keywords: ["msxml6/XHR_CERT"]
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

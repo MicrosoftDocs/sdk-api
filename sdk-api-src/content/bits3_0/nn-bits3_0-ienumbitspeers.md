@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers, IEnumBitsPeers interface [BITS], IEnumBitsPeers interface [BITS],described, bits.ienumbitspeers, bits3_0/IEnumBitsPeers
 ms.topic: interface
+f1_keywords: ["bits3_0/IEnumBitsPeers"]
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

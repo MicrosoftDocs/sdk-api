@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWCOLUMN, IEnumCERTVIEWCOLUMN interface [Security], IEnumCERTVIEWCOLUMN interface [Security],described, _certsrv_ienumcertviewcolumn, certview/IEnumCERTVIEWCOLUMN, security.ienumcertviewcolumn
 ms.topic: interface
+f1_keywords: ["certview/IEnumCERTVIEWCOLUMN"]
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows

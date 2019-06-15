@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
 ms.topic: function
+f1_keywords: ["wingdi/GetDCOrgEx"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

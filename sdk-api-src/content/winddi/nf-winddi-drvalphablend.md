@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc2d104a-d161-4f43-af15-ad088b5a2d3f.xml, display.drvalphablend, winddi/DrvAlphaBlend
 ms.topic: function
+f1_keywords: ["winddi/DrvAlphaBlend"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

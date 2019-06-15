@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDAsyncResult interface, IWSDAsyncResult interface,Abort method, IWSDAsyncResult.Abort, IWSDAsyncResult::Abort, ncd.iwsdasyncresult_abort, wsdclient/IWSDAsyncResult::Abort
 ms.topic: method
+f1_keywords: ["wsdclient/IWSDAsyncResult.Abort"]
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

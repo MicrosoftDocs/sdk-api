@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3 interface [Windows Shell],_PositionViewWindow method, IBrowserService3._PositionViewWindow, IBrowserService3::_PositionViewWindow, _PositionViewWindow, _PositionViewWindow method [Windows Shell], _PositionViewWindow method [Windows Shell],IBrowserService3 interface, shdeprecated/IBrowserService3::_PositionViewWindow, shell.IBrowserService3__PositionViewWindow, zone_IBrowserService3__PositionViewWindow
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService3._PositionViewWindow"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

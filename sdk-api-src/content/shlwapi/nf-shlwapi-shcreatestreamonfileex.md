@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Shell], _shell_SHCreateStreamOnFileEx, shell.SHCreateStreamOnFileEx, shlwapi/SHCreateStreamOnFileEx
 ms.topic: function
+f1_keywords: ["shlwapi/SHCreateStreamOnFileEx"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

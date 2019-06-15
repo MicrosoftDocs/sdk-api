@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.setendoflog
 ms.topic: function
+f1_keywords: ["clfsw32/SetEndOfLog"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ControlTransfer, WinUsb_ControlTransfer function [Buses], buses.winusb_controltransfer, winusb/WinUsb_ControlTransfer, winusbfunc_016c7bb1-6139-4a37-95d9-f3e2312871a2.xml
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_ControlTransfer"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

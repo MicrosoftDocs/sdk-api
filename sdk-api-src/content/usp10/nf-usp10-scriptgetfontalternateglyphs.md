@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptGetFontAlternateGlyphs, ScriptGetFontAlternateGlyphs function [Internationalization for Windows Applications], _win32_ScriptGetFontAlternateGlyphs, intl.scriptgetfontalternateglyphs, usp10/ScriptGetFontAlternateGlyphs
 ms.topic: function
+f1_keywords: ["usp10/ScriptGetFontAlternateGlyphs"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

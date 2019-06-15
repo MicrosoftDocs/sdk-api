@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsPromoteStringBuffer, WindowsPromoteStringBuffer function [Windows Runtime], winrt.windowspromotestringbuffer, winstring/WindowsPromoteStringBuffer
 ms.topic: function
+f1_keywords: ["winstring/WindowsPromoteStringBuffer"]
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

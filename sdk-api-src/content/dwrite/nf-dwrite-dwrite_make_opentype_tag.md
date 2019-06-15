@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MAKE_OPENTYPE_TAG, DWRITE_MAKE_OPENTYPE_TAG macro [Direct Write], directwrite.dwrite_make_opentype_tag, dwrite/DWRITE_MAKE_OPENTYPE_TAG
 ms.topic: macro
+f1_keywords: ["dwrite/DWRITE_MAKE_OPENTYPE_TAG"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

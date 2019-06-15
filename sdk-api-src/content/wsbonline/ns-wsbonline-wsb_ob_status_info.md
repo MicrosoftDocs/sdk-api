@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_INFO, WSB_OB_STATUS_INFO structure [Windows Server Backup], wsb.wsb_ob_status_info, wsbonline/WSB_OB_STATUS_INFO
 ms.topic: struct
+f1_keywords: ["wsbonline/WSB_OB_STATUS_INFO"]
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

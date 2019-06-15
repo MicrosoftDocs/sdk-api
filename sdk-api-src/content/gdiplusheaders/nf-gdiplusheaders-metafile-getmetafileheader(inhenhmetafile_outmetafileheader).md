@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMetafileHeader, GetMetafileHeader method [GDI+], GetMetafileHeader method [GDI+],Metafile class, Metafile class [GDI+],GetMetafileHeader method, Metafile.GetMetafileHeader, Metafile.GetMetafileHeader(HENHMETAFILE*,MetafileHeader*), Metafile.GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader), Metafile::GetMetafileHeader, Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader), _gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Metafile.GetMetafileHeader"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

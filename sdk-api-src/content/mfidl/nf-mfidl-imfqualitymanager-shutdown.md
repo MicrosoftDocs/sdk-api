@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],Shutdown method, IMFQualityManager.Shutdown, IMFQualityManager::Shutdown, Shutdown, Shutdown method [Media Foundation], Shutdown method [Media Foundation],IMFQualityManager interface, c71bec12-33aa-4156-a052-cf75c80df263, mf.imfqualitymanager_shutdown, mfidl/IMFQualityManager::Shutdown
 ms.topic: method
+f1_keywords: ["mfidl/IMFQualityManager.Shutdown"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

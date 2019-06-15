@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtOpenChannelEnum, EvtOpenChannelEnum function [EventLog], wes.evtopenchannelenum, winevt/EvtOpenChannelEnum
 ms.topic: function
+f1_keywords: ["winevt/EvtOpenChannelEnum"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

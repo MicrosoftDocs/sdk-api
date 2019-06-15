@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastApiCleanup, McastApiCleanup function [MADCAP], _mdhcp_mcastapicleanup, madcap.mcastapicleanup, madcapcl/McastApiCleanup
 ms.topic: function
+f1_keywords: ["madcapcl/McastApiCleanup"]
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

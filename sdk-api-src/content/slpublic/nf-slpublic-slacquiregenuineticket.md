@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLAcquireGenuineTicket, SLAcquireGenuineTicket function [Security], security.slacquiregenuineticket, slpublic/SLAcquireGenuineTicket
 ms.topic: function
+f1_keywords: ["slpublic/SLAcquireGenuineTicket"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

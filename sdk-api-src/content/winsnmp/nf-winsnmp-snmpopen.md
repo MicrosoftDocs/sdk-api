@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpOpen, SnmpOpen function [SNMP], _snmp_snmpopen, snmp.snmpopen, winsnmp/SnmpOpen
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpOpen"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

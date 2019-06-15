@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
 ms.topic: interface
+f1_keywords: ["msrdc/ISimilarityTableDumpState"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

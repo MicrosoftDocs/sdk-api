@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiFreeAuthIdentity, SspiFreeAuthIdentity function [Security], security.sspifreeauthidentity, sspi/SspiFreeAuthIdentity
 ms.topic: function
+f1_keywords: ["sspi/SspiFreeAuthIdentity"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

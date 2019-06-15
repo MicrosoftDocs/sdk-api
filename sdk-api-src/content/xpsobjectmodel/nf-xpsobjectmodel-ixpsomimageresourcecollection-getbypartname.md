@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMImageResourceCollection.GetByPartName, IXpsOMImageResourceCollection::GetByPartName, xps.ixpsomimageresourcecollection_getbypartname, xpsobjectmodel/IXpsOMImageResourceCollection::GetByPartName
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMImageResourceCollection.GetByPartName"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

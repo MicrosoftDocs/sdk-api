@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],LockBuffer method, CHString.LockBuffer, CHString::LockBuffer, LockBuffer, LockBuffer method [Windows Management Instrumentation], LockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_lockbuffer, chstring/CHString::LockBuffer, wmi.chstring_lockbuffer
 ms.topic: method
+f1_keywords: ["chstring/CHString.LockBuffer"]
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

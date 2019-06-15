@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIconFromResource, CreateIconFromResource function [Menus and Other Resources], _win32_CreateIconFromResource, _win32_createiconfromresource_cpp, menurc.createiconfromresource, winui._win32_createiconfromresource, winuser/CreateIconFromResource
 ms.topic: function
+f1_keywords: ["winuser/CreateIconFromResource"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptStreamOpenToProtect, NCryptStreamOpenToProtect function [Security], ncryptprotect/NCryptStreamOpenToProtect, security.ncryptstreamopentoprotect
 ms.topic: function
+f1_keywords: ["ncryptprotect/NCryptStreamOpenToProtect"]
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

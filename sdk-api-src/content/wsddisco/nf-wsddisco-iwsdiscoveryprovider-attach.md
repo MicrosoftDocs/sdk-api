@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
 ms.topic: method
+f1_keywords: ["wsddisco/IWSDiscoveryProvider.Attach"]
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

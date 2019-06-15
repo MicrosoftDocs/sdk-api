@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
 ms.topic: interface
+f1_keywords: ["oleidl/IOleClientSite"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

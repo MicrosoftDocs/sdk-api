@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_BOX, D3D10_BOX structure [Direct3D 10], a02d025c-3b75-5cb1-2b68-a6c9d6261bf1, d3d10/D3D10_BOX, direct3d10.d3d10_box
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_BOX"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

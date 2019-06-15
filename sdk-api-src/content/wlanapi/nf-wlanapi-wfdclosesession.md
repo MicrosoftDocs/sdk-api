@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WFDCloseSession, WFDCloseSession function [NativeWIFI], nwifi.wfdclosesession, wlanapi/WFDCloseSession
 ms.topic: function
+f1_keywords: ["wlanapi/WFDCloseSession"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamPseudoRandomBased, IStreamPseudoRandomBased interface [IMAPI], IStreamPseudoRandomBased interface [IMAPI],described, imapi.istreampseudorandombased, imapi2/IStreamPseudoRandomBased
 ms.topic: interface
+f1_keywords: ["imapi2/IStreamPseudoRandomBased"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

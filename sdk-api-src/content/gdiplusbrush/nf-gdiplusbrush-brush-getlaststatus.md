@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Brush class [GDI+],GetLastStatus method, Brush.GetLastStatus, Brush::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetLastStatus_, gdiplus._gdiplus_CLASS_Brush_GetLastStatus_
 ms.topic: method
+f1_keywords: ["gdiplusbrush/Brush.GetLastStatus"]
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

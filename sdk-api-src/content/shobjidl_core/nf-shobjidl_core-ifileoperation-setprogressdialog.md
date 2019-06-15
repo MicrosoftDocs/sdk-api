@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProgressDialog method, IFileOperation.SetProgressDialog, IFileOperation::SetProgressDialog, SetProgressDialog, SetProgressDialog method [Windows Shell], SetProgressDialog method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProgressDialog, shell.IFileOperation_SetProgressDialog, shobjidl_core/IFileOperation::SetProgressDialog
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileOperation.SetProgressDialog"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

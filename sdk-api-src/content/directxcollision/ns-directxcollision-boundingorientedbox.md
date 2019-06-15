@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox, BoundingOrientedBox structure [DirectX Math Support APIs], directxcollision/BoundingOrientedBox, dxmath.boundingorientedbox
 ms.topic: struct
+f1_keywords: ["directxcollision/BoundingOrientedBox"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

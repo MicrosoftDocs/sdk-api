@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SOCKET_SECURITY_QUERY_TEMPLATE, SOCKET_SECURITY_QUERY_TEMPLATE structure [Winsock], mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE, winsock.socket_security_query_template
 ms.topic: struct
+f1_keywords: ["mstcpip/SOCKET_SECURITY_QUERY_TEMPLATE"]
 req.header: mstcpip.h
 req.include-header: 
 req.target-type: Windows

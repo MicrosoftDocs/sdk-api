@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MappingRecognizeText, MappingRecognizeText function [Internationalization for Windows Applications], elscore/MappingRecognizeText, intl.mappingrecognizetext
 ms.topic: function
+f1_keywords: ["elscore/MappingRecognizeText"]
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

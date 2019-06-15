@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleSetAutoConvert, OleSetAutoConvert function [COM], _com_OleSetAutoConvert, com.olesetautoconvert, ole2/OleSetAutoConvert
 ms.topic: function
+f1_keywords: ["ole2/OleSetAutoConvert"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

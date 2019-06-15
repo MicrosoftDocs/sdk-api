@@ -4,6 +4,7 @@ title: DECIMAL
 ms.date: 01/30/19
 ms.keywords: tagDEC, DECIMAL
 ms.topic: language-reference
+f1_keywords: ["wtypes/tagDEC"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

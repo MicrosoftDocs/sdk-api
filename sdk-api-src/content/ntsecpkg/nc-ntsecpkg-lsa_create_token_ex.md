@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTokenEx, CreateTokenEx callback function [Security], LSA_CREATE_TOKEN_EX, LSA_CREATE_TOKEN_EX callback, LsaTokenInformationNull, LsaTokenInformationV1, ntsecpkg/CreateTokenEx, security.createtokenex
 ms.topic: callback
+f1_keywords: ["ntsecpkg/CreateTokenEx"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbPluginPropertySet, ITsSbPluginPropertySet interface [Remote Desktop Services], ITsSbPluginPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbPluginPropertySet, termserv.itssbpluginpropertyset
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbPluginPropertySet"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

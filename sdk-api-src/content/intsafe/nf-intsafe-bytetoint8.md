@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ByteToInt8, ByteToInt8 function [Windows Shell], intsafe/ByteToInt8, shell.ByteToInt8
 ms.topic: function
+f1_keywords: ["intsafe/ByteToInt8"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

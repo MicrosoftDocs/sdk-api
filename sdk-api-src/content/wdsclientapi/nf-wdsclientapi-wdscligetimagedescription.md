@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageDescription, WdsCliGetImageDescription function [Windows Deployment Services], wds.wdscligetimagedescription, wdsclientapi/WdsCliGetImageDescription
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliGetImageDescription"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

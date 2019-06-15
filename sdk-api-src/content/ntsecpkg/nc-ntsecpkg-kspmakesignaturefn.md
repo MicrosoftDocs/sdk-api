@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KspMakeSignatureFn, KspMakeSignatureFn callback, SpMakeSignature, SpMakeSignature callback function [Security], _ssp_spmakesignature, ntsecpkg/SpMakeSignature, security.spmakesignature
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpMakeSignature"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

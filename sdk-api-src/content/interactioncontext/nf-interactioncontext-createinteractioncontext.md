@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInteractionContext, CreateInteractionContext function, input_intcontext.createinteractioncontext, interactioncontext.createinteractioncontext, interactioncontext/CreateInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/CreateInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

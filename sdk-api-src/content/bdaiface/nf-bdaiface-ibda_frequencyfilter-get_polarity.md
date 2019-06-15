@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Polarity method, IBDA_FrequencyFilter.get_Polarity, IBDA_FrequencyFilter::get_Polarity, IBDA_FrequencyFilterget_Polarity, bdaiface/IBDA_FrequencyFilter::get_Polarity, get_Polarity, get_Polarity method [Microsoft TV Technologies], get_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_polarity
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_FrequencyFilter.get_Polarity"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Media Foundation], mf.mfcreatesinkwriterfromurl, mfreadwrite/MFCreateSinkWriterFromURL
 ms.topic: function
+f1_keywords: ["mfreadwrite/MFCreateSinkWriterFromURL"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

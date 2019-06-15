@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderInfo, CfGetPlaceholderInfo function, cfapi/CfGetPlaceholderInfo, cloudApi.cfgetplaceholderinfo
 ms.topic: function
+f1_keywords: ["cfapi/CfGetPlaceholderInfo"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

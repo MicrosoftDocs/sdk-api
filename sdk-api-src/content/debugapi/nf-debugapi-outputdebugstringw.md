@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OutputDebugString, OutputDebugString function, OutputDebugStringA, OutputDebugStringW, _win32_outputdebugstring, base.outputdebugstring, debugapi/OutputDebugString, debugapi/OutputDebugStringA, debugapi/OutputDebugStringW
 ms.topic: function
+f1_keywords: ["debugapi/OutputDebugString"]
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

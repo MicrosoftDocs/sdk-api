@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyIcon, DestroyIcon function [Menus and Other Resources], _win32_DestroyIcon, _win32_destroyicon_cpp, menurc.destroyicon, winui._win32_destroyicon, winuser/DestroyIcon
 ms.topic: function
+f1_keywords: ["winuser/DestroyIcon"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudioMediaStream interface [DirectShow],described, IAudioMediaStreamInterface, austream/IAudioMediaStream, dshow.iaudiomediastream
 ms.topic: interface
+f1_keywords: ["austream/IAudioMediaStream"]
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows

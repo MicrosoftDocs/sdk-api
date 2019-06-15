@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_HOST_METADATA, WSD_HOST_METADATA structure, ncd.wsd_host_metadata_struct, wsdtypes/WSD_HOST_METADATA
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_HOST_METADATA"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

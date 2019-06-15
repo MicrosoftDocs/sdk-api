@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], IMbnRegistrationEvents interface [Microsoft Broadband Networks],described, mbn.imbnregistrationevents, mbnapi/IMbnRegistrationEvents
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnRegistrationEvents"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

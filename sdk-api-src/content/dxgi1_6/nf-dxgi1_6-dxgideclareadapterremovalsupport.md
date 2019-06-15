@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGIDeclareAdapterRemovalSupport, DXGIDeclareAdapterRemovalSupport function [DXGI], direct3ddxgi.dxgideclareadapterremovalsupport, dxgi1_6/DXGIDeclareAdapterRemovalSupport
 ms.topic: function
+f1_keywords: ["dxgi1_6/DXGIDeclareAdapterRemovalSupport"]
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows

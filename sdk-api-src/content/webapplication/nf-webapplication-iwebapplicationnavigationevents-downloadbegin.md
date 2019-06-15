@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DownloadBegin, DownloadBegin method [Debugging Windows Store apps], DownloadBegin method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadBegin method, IWebApplicationNavigationEvents.DownloadBegin, IWebApplicationNavigationEvents::DownloadBegin, debug.iwebapplicationnavigationevents_downloadbegin, webapplication/IWebApplicationNavigationEvents::DownloadBegin
 ms.topic: method
+f1_keywords: ["webapplication/IWebApplicationNavigationEvents.DownloadBegin"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ElasticMarginRight property [Windows Touch], ElasticMarginRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginRight property, IInertiaProcessor.ElasticMarginRight, IInertiaProcessor.put_ElasticMarginRight, IInertiaProcessor::ElasticMarginRight, IInertiaProcessor::get_ElasticMarginRight, IInertiaProcessor::put_ElasticMarginRight, manipulations/IInertiaProcessor::ElasticMarginRight, manipulations/IInertiaProcessor::get_ElasticMarginRight, manipulations/IInertiaProcessor::put_ElasticMarginRight, put_ElasticMarginRight, wintouch.iinertiaprocessor_elasticmarginright
 ms.topic: method
+f1_keywords: ["manipulations/IInertiaProcessor.ElasticMarginRight"]
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

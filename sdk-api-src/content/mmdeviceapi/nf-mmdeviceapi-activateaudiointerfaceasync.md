@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [Core Audio], coreaudio.activateaudiointerfaceasync, mmdeviceapi/ActivateAudioInterfaceAsync
 ms.topic: function
+f1_keywords: ["mmdeviceapi/ActivateAudioInterfaceAsync"]
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6a382bf1-a9ce-3b9b-41ed-46a4fee9ef85, D3D11_CULL_BACK, D3D11_CULL_FRONT, D3D11_CULL_MODE, D3D11_CULL_MODE enumeration [Direct3D 11], D3D11_CULL_NONE, d3d11/D3D11_CULL_BACK, d3d11/D3D11_CULL_FRONT, d3d11/D3D11_CULL_MODE, d3d11/D3D11_CULL_NONE, direct3d11.d3d11_cull_mode
 ms.topic: enum
+f1_keywords: ["d3d11/D3D11_CULL_MODE"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

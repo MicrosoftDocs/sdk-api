@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
 ms.topic: interface
+f1_keywords: ["segment/IMSVidAudioRendererEvent2"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

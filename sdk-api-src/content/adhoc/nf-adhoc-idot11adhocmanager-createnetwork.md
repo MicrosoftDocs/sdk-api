@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateNetwork, CreateNetwork method [NativeWIFI], CreateNetwork method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],CreateNetwork method, IDot11AdHocManager.CreateNetwork, IDot11AdHocManager::CreateNetwork, adhoc/IDot11AdHocManager::CreateNetwork, nwifi.idot11adhocmanager_createnetwork
 ms.topic: method
+f1_keywords: ["adhoc/IDot11AdHocManager.CreateNetwork"]
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

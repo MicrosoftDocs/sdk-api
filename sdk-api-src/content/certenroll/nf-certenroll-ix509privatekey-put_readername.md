@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],ReaderName property, IX509PrivateKey.ReaderName, IX509PrivateKey.put_ReaderName, IX509PrivateKey::ReaderName, IX509PrivateKey::get_ReaderName, IX509PrivateKey::put_ReaderName, ReaderName property [Security], ReaderName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ReaderName, certenroll/IX509PrivateKey::get_ReaderName, certenroll/IX509PrivateKey::put_ReaderName, put_ReaderName, security.ix509privatekey_readername_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509PrivateKey.ReaderName"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

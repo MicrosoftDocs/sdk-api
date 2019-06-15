@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellFolderViewEx, SHCreateShellFolderViewEx function [Windows Shell], _win32_SHCreateShellFolderViewEx, shell.SHCreateShellFolderViewEx, shlobj_core/SHCreateShellFolderViewEx
 ms.topic: function
+f1_keywords: ["shlobj_core/SHCreateShellFolderViewEx"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

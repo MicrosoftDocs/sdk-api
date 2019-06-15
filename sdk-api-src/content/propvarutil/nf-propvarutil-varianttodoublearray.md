@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToDoubleArray, VariantToDoubleArray function [Windows Properties], _shell_VariantToDoubleArray, properties.VariantToDoubleArray, propvarutil/VariantToDoubleArray, shell.VariantToDoubleArray
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToDoubleArray"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

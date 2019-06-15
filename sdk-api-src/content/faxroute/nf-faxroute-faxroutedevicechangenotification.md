@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteDeviceChangeNotification, FaxRouteDeviceChangeNotification function [Fax Service], _mfax_faxroutedevicechangenotification, fax._mfax_faxroutedevicechangenotification, faxroute/FaxRouteDeviceChangeNotification
 ms.topic: function
+f1_keywords: ["faxroute/FaxRouteDeviceChangeNotification"]
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

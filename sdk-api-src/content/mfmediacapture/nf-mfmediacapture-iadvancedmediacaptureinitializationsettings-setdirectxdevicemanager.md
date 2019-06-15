@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCaptureInitializationSettings interface [Media Foundation],SetDirectxDeviceManager method, IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager, IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager, SetDirectxDeviceManager, SetDirectxDeviceManager method [Media Foundation], SetDirectxDeviceManager method [Media Foundation],IAdvancedMediaCaptureInitializationSettings interface, mf.iadvancedmediacaptureInitializationsettings_setdirectxdevicemanager, mfmediacapture/IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
 ms.topic: method
+f1_keywords: ["mfmediacapture/IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager"]
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows

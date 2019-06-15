@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFPinholeCameraIntrinsic_IntrinsicModel, MFPinholeCameraIntrinsic_IntrinsicModel structure [Media Foundation], PMFPinholeCameraIntrinsic_IntrinsicModel, PMFPinholeCameraIntrinsic_IntrinsicModel structure pointer [Media Foundation], mf.mfpinholecameraintrinsic_intrinsicmodel, mfapi/MFPinholeCameraIntrinsic_IntrinsicModel, mfapi/PMFPinholeCameraIntrinsic_IntrinsicModel
 ms.topic: struct
+f1_keywords: ["mfapi/MFPinholeCameraIntrinsic_IntrinsicModel"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

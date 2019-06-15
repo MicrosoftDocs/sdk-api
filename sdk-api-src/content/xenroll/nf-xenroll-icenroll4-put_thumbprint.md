@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],ThumbPrint property, ICEnroll4 interface [Security],ThumbPrint property, ICEnroll4.ThumbPrint, ICEnroll4.put_ThumbPrint, ICEnroll4::ThumbPrint, ICEnroll4::get_ThumbPrint, ICEnroll4::put_ThumbPrint, ThumbPrint property [Security], ThumbPrint property [Security],CEnroll object, ThumbPrint property [Security],ICEnroll4 interface, _xen_icenroll4_thumbprint, put_ThumbPrint, security.icenroll4_thumbprint, xenroll/ICEnroll4::ThumbPrint, xenroll/ICEnroll4::get_ThumbPrint, xenroll/ICEnroll4::put_ThumbPrint
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.ThumbPrint"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_InstanceField, MI_InstanceField structure [Windows Management Infrastructure (MI)], mi/MI_InstanceField, wmi._mi_instancefield, wmi_v2.mi_instancefield
 ms.topic: struct
+f1_keywords: ["mi/MI_InstanceField"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

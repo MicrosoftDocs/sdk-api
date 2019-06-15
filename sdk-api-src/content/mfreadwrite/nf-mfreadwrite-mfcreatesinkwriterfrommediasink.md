@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromMediaSink, MFCreateSinkWriterFromMediaSink function [Media Foundation], mf.mfcreatesinkwriterfrommediasink, mfreadwrite/MFCreateSinkWriterFromMediaSink
 ms.topic: function
+f1_keywords: ["mfreadwrite/MFCreateSinkWriterFromMediaSink"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

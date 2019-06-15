@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole2, IConsole2 interface [MMC], IConsole2 interface [MMC],described, _slate_iconsole2, mmc.iconsole2, mmc/IConsole2
 ms.topic: interface
+f1_keywords: ["mmc/IConsole2"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

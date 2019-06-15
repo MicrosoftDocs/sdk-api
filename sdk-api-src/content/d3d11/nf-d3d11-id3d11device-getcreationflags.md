@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 19c344e0-8664-5c52-5bb8-46d3941967fa, GetCreationFlags, GetCreationFlags method [Direct3D 11], GetCreationFlags method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetCreationFlags method, ID3D11Device.GetCreationFlags, ID3D11Device::GetCreationFlags, d3d11/ID3D11Device::GetCreationFlags, direct3d11.id3d11device_getcreationflags
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11Device.GetCreationFlags"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

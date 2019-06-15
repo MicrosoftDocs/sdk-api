@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],clear method, IWMPPlaylist.clear, IWMPPlaylist::clear, IWMPPlaylistclear, clear, clear method [Windows Media Player], clear method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_clear, wmp/IWMPPlaylist::clear
 ms.topic: method
+f1_keywords: ["wmp/IWMPPlaylist.clear"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

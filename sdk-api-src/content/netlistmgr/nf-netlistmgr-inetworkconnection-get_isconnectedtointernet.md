@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkConnection interface [Network Awareness],get_IsConnectedToInternet method, INetworkConnection.get_IsConnectedToInternet, INetworkConnection::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetworkConnection interface, netlistmgr/INetworkConnection::get_IsConnectedToInternet, nla.inetworkconnection_get_isconnectedtointernet
 ms.topic: method
+f1_keywords: ["netlistmgr/INetworkConnection.get_IsConnectedToInternet"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

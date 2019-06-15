@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Skip method, IEnumRegFilters.Skip, IEnumRegFilters::Skip, IEnumRegFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_skip, strmif/IEnumRegFilters::Skip
 ms.topic: method
+f1_keywords: ["strmif/IEnumRegFilters.Skip"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

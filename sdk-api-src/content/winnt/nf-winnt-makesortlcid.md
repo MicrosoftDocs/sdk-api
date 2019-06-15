@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows Applications], _win32_MAKESORTLCID, intl.makesortlcid, winnt/MAKESORTLCID
 ms.topic: macro
+f1_keywords: ["winnt/MAKESORTLCID"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

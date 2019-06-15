@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnclaveVerifyAttestationReport, EnclaveVerifyAttestationReport function, base.enclaveverifyattestationreport, winenclaveapi/EnclaveVerifyAttestationReport
 ms.topic: function
+f1_keywords: ["winenclaveapi/EnclaveVerifyAttestationReport"]
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

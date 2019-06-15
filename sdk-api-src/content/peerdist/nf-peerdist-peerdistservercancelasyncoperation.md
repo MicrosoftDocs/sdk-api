@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerCancelAsyncOperation, PeerDistServerCancelAsyncOperation function [Peer Networking], p2p.peerdistservercancelasyncoperation, peerdist/PeerDistServerCancelAsyncOperation
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistServerCancelAsyncOperation"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtomicCopyBufferUINT64, AtomicCopyBufferUINT64 method, AtomicCopyBufferUINT64 method,ID3D12GraphicsCommandList1 interface, ID3D12GraphicsCommandList1 interface,AtomicCopyBufferUINT64 method, ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64, ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64, direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint64
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

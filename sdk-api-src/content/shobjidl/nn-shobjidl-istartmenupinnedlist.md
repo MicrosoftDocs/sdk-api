@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], IStartMenuPinnedList interface [Windows Shell],described, _shell_IStartMenuPinnedList, shell.IStartMenuPinnedList, shobjidl/IStartMenuPinnedList
 ms.topic: interface
+f1_keywords: ["shobjidl/IStartMenuPinnedList"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFilledGeometryRealization, CreateFilledGeometryRealization method [Direct2D], CreateFilledGeometryRealization method [Direct2D],ID2D1DeviceContext1 interface, ID2D1DeviceContext1 interface [Direct2D],CreateFilledGeometryRealization method, ID2D1DeviceContext1.CreateFilledGeometryRealization, ID2D1DeviceContext1::CreateFilledGeometryRealization, d2d1_2/ID2D1DeviceContext1::CreateFilledGeometryRealization, direct2d.id2d1devicecontext1_createfilledgeometryrealization
 ms.topic: method
+f1_keywords: ["d2d1_2/ID2D1DeviceContext1.CreateFilledGeometryRealization"]
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

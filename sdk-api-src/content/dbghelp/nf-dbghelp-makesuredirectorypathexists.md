@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MakeSureDirectoryPathExists, MakeSureDirectoryPathExists function, _win32_makesuredirectorypathexists, base.makesuredirectorypathexists, dbghelp/MakeSureDirectoryPathExists
 ms.topic: function
+f1_keywords: ["dbghelp/MakeSureDirectoryPathExists"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

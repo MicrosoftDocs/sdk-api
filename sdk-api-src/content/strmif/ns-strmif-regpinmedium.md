@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REGPINMEDIUM, REGPINMEDIUM structure [DirectShow], REGPINMEDIUMStructure, dshow.regpinmedium, strmif/REGPINMEDIUM
 ms.topic: struct
+f1_keywords: ["strmif/REGPINMEDIUM"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

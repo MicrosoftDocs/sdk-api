@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DDCREATE_EMULATIONONLY, DDCREATE_HARDWAREONLY, DirectDrawCreate, DirectDrawCreate function [DirectDraw], ddraw/DirectDrawCreate, directdraw.directdrawcreate
 ms.topic: function
+f1_keywords: ["ddraw/DirectDrawCreate"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

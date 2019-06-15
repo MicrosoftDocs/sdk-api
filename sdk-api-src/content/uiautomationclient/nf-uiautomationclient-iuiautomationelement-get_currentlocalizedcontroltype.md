@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentLocalizedControlType property [Windows Accessibility], CurrentLocalizedControlType property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentLocalizedControlType property, IUIAutomationElement.CurrentLocalizedControlType, IUIAutomationElement.get_CurrentLocalizedControlType, IUIAutomationElement::CurrentLocalizedControlType, IUIAutomationElement::get_CurrentLocalizedControlType, get_CurrentLocalizedControlType, uiauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiauto_IUIAutomationElement_CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::CurrentLocalizedControlType, uiautomationclient/IUIAutomationElement::get_CurrentLocalizedControlType, winauto.uiauto_IUIAutomationElement_CurrentLocalizedControlType
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentLocalizedControlType"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

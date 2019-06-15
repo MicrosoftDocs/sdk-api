@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcErrorEndEnumeration, RpcErrorEndEnumeration function [RPC], _rpc_rpcerrorendenumeration, rpc.rpcerrorendenumeration, rpcasync/RpcErrorEndEnumeration
 ms.topic: function
+f1_keywords: ["rpcasync/RpcErrorEndEnumeration"]
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

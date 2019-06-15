@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventClass2 interface [COM+],MultiInterfacePublisherFilterCLSID property, IEventClass2.MultiInterfacePublisherFilterCLSID, IEventClass2.put_MultiInterfacePublisherFilterCLSID, IEventClass2::MultiInterfacePublisherFilterCLSID, IEventClass2::get_MultiInterfacePublisherFilterCLSID, IEventClass2::put_MultiInterfacePublisherFilterCLSID, MultiInterfacePublisherFilterCLSID property [COM+], MultiInterfacePublisherFilterCLSID property [COM+],IEventClass2 interface, _cos_IEventClass2_get_MultiInterfacePublisherFilterCLSID, _cos_IEventClass2_put_MultiInterfacePublisherFilterCLSID, cos.ieventclass2_multiinterfacepublisherfilterclsid, eventsys/IEventClass2::MultiInterfacePublisherFilterCLSID, eventsys/IEventClass2::get_MultiInterfacePublisherFilterCLSID, eventsys/IEventClass2::put_MultiInterfacePublisherFilterCLSID, put_MultiInterfacePublisherFilterCLSID
 ms.topic: method
+f1_keywords: ["eventsys/IEventClass2.MultiInterfacePublisherFilterCLSID"]
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

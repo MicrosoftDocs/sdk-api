@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ExePath method, IExeServerRegistration.get_ExePath, IExeServerRegistration::get_ExePath, activationregistration/IExeServerRegistration::get_ExePath, get_ExePath, get_ExePath method [Windows Runtime], get_ExePath method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_exepath
 ms.topic: method
+f1_keywords: ["activationregistration/IExeServerRegistration.get_ExePath"]
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

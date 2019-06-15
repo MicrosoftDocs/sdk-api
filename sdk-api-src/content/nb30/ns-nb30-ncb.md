@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNCB, NCB, NCB structure [NetBIOS], PNCB, PNCB structure pointer [NetBIOS], nb30/NCB, nb30/PNCB, netbios.ncb"
 ms.topic: struct
+f1_keywords: ["nb30/NCB"]
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

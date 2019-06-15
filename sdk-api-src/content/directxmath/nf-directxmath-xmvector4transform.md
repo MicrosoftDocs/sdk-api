@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Transform, XMVector4Transform, XMVector4Transform method [DirectX Math Support APIs], dxmath.xmvector4transform
 ms.topic: function
+f1_keywords: ["directxmath/XMVector4Transform"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

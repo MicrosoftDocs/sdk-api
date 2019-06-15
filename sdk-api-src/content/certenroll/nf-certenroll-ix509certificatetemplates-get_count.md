@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509CertificateTemplates interface, IX509CertificateTemplates interface [Security],Count property, IX509CertificateTemplates.Count, IX509CertificateTemplates.get_Count, IX509CertificateTemplates::Count, IX509CertificateTemplates::get_Count, certenroll/IX509CertificateTemplates::Count, certenroll/IX509CertificateTemplates::get_Count, get_Count, security.ix509certificatetemplates_count
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateTemplates.Count"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

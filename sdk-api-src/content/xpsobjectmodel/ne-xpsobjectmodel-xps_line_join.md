@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_LINE_JOIN, XPS_LINE_JOIN enumeration [XPS Documents and Packaging], XPS_LINE_JOIN_BEVEL, XPS_LINE_JOIN_MITER, XPS_LINE_JOIN_ROUND, xps.xps_line_join, xpsobjectmodel/XPS_LINE_JOIN, xpsobjectmodel/XPS_LINE_JOIN_BEVEL, xpsobjectmodel/XPS_LINE_JOIN_MITER, xpsobjectmodel/XPS_LINE_JOIN_ROUND
 ms.topic: enum
+f1_keywords: ["xpsobjectmodel/XPS_LINE_JOIN"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

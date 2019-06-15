@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxValueBufferLength, GetMaxValueBufferLength method [Core Audio], GetMaxValueBufferLength method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxValueBufferLength method, ISpatialAudioMetadataItems.GetMaxValueBufferLength, ISpatialAudioMetadataItems::GetMaxValueBufferLength, coreaudio.ispatialaudiometadataitems_getmaxvaluebufferlength, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxValueBufferLength
 ms.topic: method
+f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataItems.GetMaxValueBufferLength"]
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

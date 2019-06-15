@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],MultiLine property, IInkEdit.MultiLine, IInkEdit.put_MultiLine, IInkEdit::MultiLine, IInkEdit::get_MultiLine, IInkEdit::put_MultiLine, InkEdit.get_MultiLine, InkEdit.put_MultiLine, MultiLine property [Tablet PC], MultiLine property [Tablet PC],IInkEdit interface, get_MultiLine, inked/IInkEdit::MultiLine, inked/IInkEdit::get_MultiLine, inked/IInkEdit::put_MultiLine, put_MultiLine, tablet.inkedit_multiline
 ms.topic: method
+f1_keywords: ["inked/IInkEdit.MultiLine"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

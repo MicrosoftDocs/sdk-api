@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Chord, Chord function [Windows GDI], _win32_Chord, gdi.chord, wingdi/Chord
 ms.topic: function
+f1_keywords: ["wingdi/Chord"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

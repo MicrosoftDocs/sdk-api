@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMMediaProps interface [windows Media Format],SetMediaType method, IWMMediaProps.SetMediaType, IWMMediaProps::SetMediaType, IWMMediaPropsSetMediaType, SetMediaType, SetMediaType method [windows Media Format], SetMediaType method [windows Media Format],IWMMediaProps interface, wmformat.iwmmediaprops_setmediatype, wmsdkidl/IWMMediaProps::SetMediaType
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMMediaProps.SetMediaType"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCreateInstance, WdsTransportProviderCreateInstance callback, WdsTransportProviderCreateInstance callback function [Windows Deployment Services], wds.wdstransportprovidercreateinstance, wdstpdi/WdsTransportProviderCreateInstance
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportProviderCreateInstance"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

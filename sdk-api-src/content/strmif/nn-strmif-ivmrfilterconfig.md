@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig, IVMRFilterConfig interface [DirectShow], IVMRFilterConfig interface [DirectShow],described, IVMRFilterConfigInterface, dshow.ivmrfilterconfig, strmif/IVMRFilterConfig
 ms.topic: interface
+f1_keywords: ["strmif/IVMRFilterConfig"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

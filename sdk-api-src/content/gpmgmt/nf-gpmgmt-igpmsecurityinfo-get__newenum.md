@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMSecurityInfo interface [GPMC],get__NewEnum method, IGPMSecurityInfo.get__NewEnum, IGPMSecurityInfo::get__NewEnum, _win32_igpmsecurityinfo_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSecurityInfo interface, gpmc.igpmsecurityinfo_get__newenum, gpmgmt/IGPMSecurityInfo::get__NewEnum
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMSecurityInfo.get__NewEnum"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

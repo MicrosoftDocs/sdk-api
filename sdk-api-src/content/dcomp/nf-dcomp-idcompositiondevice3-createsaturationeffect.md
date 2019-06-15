@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSaturationEffect, CreateSaturationEffect method [DirectComposition], CreateSaturationEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateSaturationEffect method, IDCompositionDevice3.CreateSaturationEffect, IDCompositionDevice3::CreateSaturationEffect, dcomp/IDCompositionDevice3::CreateSaturationEffect, directcomp.idcompositiondevice3_createsaturationeffect
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionDevice3.CreateSaturationEffect"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

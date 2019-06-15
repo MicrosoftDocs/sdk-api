@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_AudioHasPreemphasis method, IRawCDImageTrackInfo.get_AudioHasPreemphasis, IRawCDImageTrackInfo::get_AudioHasPreemphasis, get_AudioHasPreemphasis, get_AudioHasPreemphasis method [IMAPI], get_AudioHasPreemphasis method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_audiohaspreemphasis, imapi2/IRawCDImageTrackInfo::get_AudioHasPreemphasis
 ms.topic: method
+f1_keywords: ["imapi2/IRawCDImageTrackInfo.get_AudioHasPreemphasis"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

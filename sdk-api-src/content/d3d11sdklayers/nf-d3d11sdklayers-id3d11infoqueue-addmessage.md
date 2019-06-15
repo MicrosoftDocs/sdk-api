@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1ac22c4e-5bd3-bec5-0c6b-508a2b311005, AddMessage, AddMessage method [Direct3D 11], AddMessage method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],AddMessage method, ID3D11InfoQueue.AddMessage, ID3D11InfoQueue::AddMessage, d3d11sdklayers/ID3D11InfoQueue::AddMessage, direct3d11.id3d11infoqueue_addmessage
 ms.topic: method
+f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.AddMessage"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngQueryLocalTime, EngQueryLocalTime function [Display Devices], display.engquerylocaltime, gdifncs_268682b0-aef3-4241-b49c-1cea87ec4f29.xml, winddi/EngQueryLocalTime
 ms.topic: function
+f1_keywords: ["winddi/EngQueryLocalTime"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

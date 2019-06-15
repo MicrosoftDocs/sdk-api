@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPBDASiParser, IPBDASiParser interface [DirectShow], IPBDASiParser interface [DirectShow],described, dvbsiparser/IPBDASiParser, mstv.ipbdasiparser
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IPBDASiParser"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

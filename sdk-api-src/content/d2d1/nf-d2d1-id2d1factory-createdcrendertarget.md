@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDCRenderTarget, CreateDCRenderTarget method [Direct2D], CreateDCRenderTarget method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateDCRenderTarget method, ID2D1Factory.CreateDCRenderTarget, ID2D1Factory::CreateDCRenderTarget, d2d1/ID2D1Factory::CreateDCRenderTarget, direct2d.ID2D1Factory_CreateDCRenderTarget
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1Factory.CreateDCRenderTarget"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

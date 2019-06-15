@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinder, IUPnPDeviceFinder interface [UPnP APIs], IUPnPDeviceFinder interface [UPnP APIs],described, _upnp_iupnpdevicefinder, upnp.iupnpdevicefinder, upnp/IUPnPDeviceFinder
 ms.topic: interface
+f1_keywords: ["upnp/IUPnPDeviceFinder"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

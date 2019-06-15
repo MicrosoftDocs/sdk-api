@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windows Applications], _win32_SetUserGeoID, intl.setusergeoid, winnls/SetUserGeoID
 ms.topic: function
+f1_keywords: ["winnls/SetUserGeoID"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContextPropertyValue, GetContextPropertyValue function [Tablet PC], e3f154ce-b4bf-4520-a4de-03cfe27ef9b0, recapis/GetContextPropertyValue, tablet.getcontextpropertyvalue
 ms.topic: function
+f1_keywords: ["recapis/GetContextPropertyValue"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

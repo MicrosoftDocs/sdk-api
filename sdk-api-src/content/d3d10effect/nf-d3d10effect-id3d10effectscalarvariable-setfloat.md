@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5ff1fc81-0f45-4ada-0fe1-749772e20ccc, ID3D10EffectScalarVariable interface [Direct3D 10],SetFloat method, ID3D10EffectScalarVariable.SetFloat, ID3D10EffectScalarVariable::SetFloat, SetFloat, SetFloat method [Direct3D 10], SetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetFloat, direct3d10.id3d10effectscalarvariable_setfloat
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectScalarVariable.SetFloat"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

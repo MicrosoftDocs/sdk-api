@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenTrace, OpenTrace function [ETW], OpenTraceA, OpenTraceW, _evt_opentrace, base.opentrace, etw.opentrace, evntrace/OpenTrace, evntrace/OpenTraceA, evntrace/OpenTraceW
 ms.topic: function
+f1_keywords: ["evntrace/OpenTrace"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

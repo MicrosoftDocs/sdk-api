@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMDLG_FILTERSPEC, COMDLG_FILTERSPEC structure [Windows Shell], shell.COMDLG_FILTERSPEC, shell_COMDLG_FILTERSPEC, shtypes/COMDLG_FILTERSPEC
 ms.topic: struct
+f1_keywords: ["shtypes/COMDLG_FILTERSPEC"]
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

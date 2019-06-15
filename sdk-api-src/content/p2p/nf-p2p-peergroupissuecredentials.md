@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_GROUP_STORE_CREDENTIALS, PeerGroupIssueCredentials, PeerGroupIssueCredentials function [Peer Networking], p2p.peergroupissuecredentials, p2p/PeerGroupIssueCredentials
 ms.topic: function
+f1_keywords: ["p2p/PeerGroupIssueCredentials"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

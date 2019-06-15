@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_SetSite, IUnknown_SetSite function [Windows Shell], _win32_IUnknown_SetSite, shell.IUnknown_SetSite, shlwapi/IUnknown_SetSite
 ms.topic: function
+f1_keywords: ["shlwapi/IUnknown_SetSite"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

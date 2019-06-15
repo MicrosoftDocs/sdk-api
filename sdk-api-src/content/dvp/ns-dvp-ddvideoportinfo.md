@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDVIDEOPORTINFO, DDVIDEOPORTINFO, DDVIDEOPORTINFO structure [Display Devices], ddstrcts_7190df68-6789-4dd1-8cbf-697a863435c5.xml, display.ddvideoportinfo, dvp/DDVIDEOPORTINFO"
 ms.topic: struct
+f1_keywords: ["dvp/DDVIDEOPORTINFO"]
 req.header: dvp.h
 req.include-header: Dvp.h
 req.target-type: Windows

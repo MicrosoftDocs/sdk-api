@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
 ms.topic: interface
+f1_keywords: ["strmif/IIPDVDec"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

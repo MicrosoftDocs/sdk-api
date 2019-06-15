@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNetworkState, GetNetworkState method [Media Foundation], GetNetworkState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNetworkState method, IMFMediaEngine.GetNetworkState, IMFMediaEngine::GetNetworkState, mf.imfmediaengine_getnetworkstate, mfmediaengine/IMFMediaEngine::GetNetworkState
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.GetNetworkState"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

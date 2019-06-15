@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteConfig, DeleteConfig method [Human Input Devices], DeleteConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],DeleteConfig method, IDirectInputJoyConfig8.DeleteConfig, IDirectInputJoyConfig8::DeleteConfig, di_ref_453b121d-6edc-4674-ab3c-f610ba900831.xml, dinputd/IDirectInputJoyConfig8::DeleteConfig, hid.idirectinputjoyconfig8_deleteconfig
 ms.topic: method
+f1_keywords: ["dinputd/IDirectInputJoyConfig8.DeleteConfig"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

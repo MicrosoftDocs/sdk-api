@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_CHANNEL_REFERENCE_FLAGS, EVT_CHANNEL_REFERENCE_FLAGS enumeration [EventLog], EvtChannelReferenceImported, wes.evt_channel_reference_flags, winevt/EVT_CHANNEL_REFERENCE_FLAGS, winevt/EvtChannelReferenceImported
 ms.topic: enum
+f1_keywords: ["winevt/EVT_CHANNEL_REFERENCE_FLAGS"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

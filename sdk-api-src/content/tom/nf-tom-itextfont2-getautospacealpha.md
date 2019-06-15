@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAutospaceAlpha, GetAutospaceAlpha method [Windows Controls], GetAutospaceAlpha method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceAlpha method, ITextFont2.GetAutospaceAlpha, ITextFont2::GetAutospaceAlpha, controls.itextfont2_getautospacealpha, tom/ITextFont2::GetAutospaceAlpha
 ms.topic: method
+f1_keywords: ["tom/ITextFont2.GetAutospaceAlpha"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

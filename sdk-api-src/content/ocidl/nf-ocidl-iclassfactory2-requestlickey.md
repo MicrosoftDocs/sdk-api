@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClassFactory2 interface [COM],RequestLicKey method, IClassFactory2.RequestLicKey, IClassFactory2::RequestLicKey, RequestLicKey, RequestLicKey method [COM], RequestLicKey method [COM],IClassFactory2 interface, _com_iclassfactory2_requestlickey, com.iclassfactory2_requestlickey, ocidl/IClassFactory2::RequestLicKey
 ms.topic: method
+f1_keywords: ["ocidl/IClassFactory2.RequestLicKey"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteComputer interface [Windows Shell],Initialize method, IRemoteComputer.Initialize, IRemoteComputer::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IRemoteComputer interface, _win32_IRemoteComputer_Initialize, shell.IRemoteComputer_Initialize, shobjidl_core/IRemoteComputer::Initialize
 ms.topic: method
+f1_keywords: ["shobjidl_core/IRemoteComputer.Initialize"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO, IEnumCATEGORYINFO interface [COM], IEnumCATEGORYINFO interface [COM],described, _com_ienumcategoryinfo, com.ienumcategoryinfo, comcat/IEnumCATEGORYINFO
 ms.topic: interface
+f1_keywords: ["comcat/IEnumCATEGORYINFO"]
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

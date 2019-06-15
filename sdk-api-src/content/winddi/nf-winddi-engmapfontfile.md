@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngMapFontFile, EngMapFontFile function [Display Devices], display.engmapfontfile, gdifncs_d19f98a8-779f-4a26-aa3e-c4499b0f0ff8.xml, winddi/EngMapFontFile
 ms.topic: function
+f1_keywords: ["winddi/EngMapFontFile"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

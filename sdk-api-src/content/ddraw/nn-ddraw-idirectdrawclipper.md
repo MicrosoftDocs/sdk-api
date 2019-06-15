@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawClipper, IDirectDrawClipper interface [DirectDraw], IDirectDrawClipper interface [DirectDraw],described, ddraw/IDirectDrawClipper, directdraw.idirectdrawclipper
 ms.topic: interface
+f1_keywords: ["ddraw/IDirectDrawClipper"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

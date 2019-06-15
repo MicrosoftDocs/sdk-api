@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_linePrepareAddToConference, TSPI_linePrepareAddToConference function [TAPI 2.2], _tspi_tspi_lineprepareaddtoconference, tspi.tspi_lineprepareaddtoconference, tspi/TSPI_linePrepareAddToConference
 ms.topic: function
+f1_keywords: ["tspi/TSPI_linePrepareAddToConference"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

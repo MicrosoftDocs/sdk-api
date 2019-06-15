@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Remove, ImageList_Remove function [Windows Controls], _win32_ImageList_Remove, _win32_ImageList_Remove_cpp, commctrl/ImageList_Remove, controls.ImageList_Remove, controls._win32_ImageList_Remove
 ms.topic: function
+f1_keywords: ["commctrl/ImageList_Remove"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

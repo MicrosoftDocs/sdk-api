@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHUnlockShared, SHUnlockShared function [Windows Shell], _win32_SHUnlockShared, shell.SHUnlockShared, shlwapi/SHUnlockShared
 ms.topic: function
+f1_keywords: ["shlwapi/SHUnlockShared"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

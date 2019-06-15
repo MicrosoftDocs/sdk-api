@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactManagerInterop, IContactManagerInterop interface [Windows Shell], IContactManagerInterop interface [Windows Shell],described, shell.IContactManagerInterop, shobjidl_core/IContactManagerInterop
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IContactManagerInterop"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

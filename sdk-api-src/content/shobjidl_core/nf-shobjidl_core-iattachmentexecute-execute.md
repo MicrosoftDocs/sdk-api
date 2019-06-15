@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [Windows Shell], Execute method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],Execute method, IAttachmentExecute.Execute, IAttachmentExecute::Execute, _win32_IAttachmentExecute_Execute, shell.IAttachmentExecute_Execute, shobjidl_core/IAttachmentExecute::Execute
 ms.topic: method
+f1_keywords: ["shobjidl_core/IAttachmentExecute.Execute"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

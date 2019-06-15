@@ -6,6 +6,7 @@ description: Test the BoundingFrustum for intersection with a BoundingSphere.
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Intersects
 ms.topic: language-reference
+f1_keywords: ["directxcollision/BoundingFrustum::Intersects"]
 targetos: Windows
 product: Windows
 req.assembly: 

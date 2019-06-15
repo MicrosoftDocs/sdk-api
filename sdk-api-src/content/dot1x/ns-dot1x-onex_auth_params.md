@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS structure [NativeWIFI], PONEX_AUTH_PARAMS, PONEX_AUTH_PARAMS structure pointer [NativeWIFI], dot1x/ONEX_AUTH_PARAMS, dot1x/PONEX_AUTH_PARAMS, nwifi.onex_auth_params"
 ms.topic: struct
+f1_keywords: ["dot1x/ONEX_AUTH_PARAMS"]
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

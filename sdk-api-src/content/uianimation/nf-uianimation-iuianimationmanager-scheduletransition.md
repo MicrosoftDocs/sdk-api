@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],ScheduleTransition method, IUIAnimationManager.ScheduleTransition, IUIAnimationManager::ScheduleTransition, ScheduleTransition, ScheduleTransition method [Windows Animation], ScheduleTransition method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_scheduletransition, uianimation/IUIAnimationManager::ScheduleTransition
 ms.topic: method
+f1_keywords: ["uianimation/IUIAnimationManager.ScheduleTransition"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

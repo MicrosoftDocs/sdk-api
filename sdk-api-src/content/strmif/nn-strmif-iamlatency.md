@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMLatency, IAMLatency interface [DirectShow], IAMLatency interface [DirectShow],described, IAMLatencyInterface, dshow.iamlatency, strmif/IAMLatency
 ms.topic: interface
+f1_keywords: ["strmif/IAMLatency"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

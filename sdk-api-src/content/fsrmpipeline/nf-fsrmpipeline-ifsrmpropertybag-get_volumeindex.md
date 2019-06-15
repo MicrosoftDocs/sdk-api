@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeIndex property, IFsrmPropertyBag.VolumeIndex, IFsrmPropertyBag.get_VolumeIndex, IFsrmPropertyBag::VolumeIndex, IFsrmPropertyBag::get_VolumeIndex, VolumeIndex property [File Server Resource Manager], VolumeIndex property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumeindex, fsrm.ifsrmpropertybag_volumeindex, fsrmpipeline/IFsrmPropertyBag::VolumeIndex, fsrmpipeline/IFsrmPropertyBag::get_VolumeIndex, get_VolumeIndex
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.VolumeIndex"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_APARTMENTTYPE, DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration, DQTAT_COM_ASTA, DQTAT_COM_NONE, DQTAT_COM_STA, base.dispatcherqueue_thread_apartmenttype, dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE, dispatcherqueue/DQTAT_COM_ASTA, dispatcherqueue/DQTAT_COM_NONE, dispatcherqueue/DQTAT_COM_STA
 ms.topic: enum
+f1_keywords: ["dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE"]
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

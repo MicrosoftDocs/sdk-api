@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPaletteSize, GetPaletteSize method [GDI+], GetPaletteSize method [GDI+],Image class, Image class [GDI+],GetPaletteSize method, Image.GetPaletteSize, Image::GetPaletteSize, _gdiplus_CLASS_Image_GetPaletteSize_, gdiplus._gdiplus_CLASS_Image_GetPaletteSize_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Image.GetPaletteSize"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

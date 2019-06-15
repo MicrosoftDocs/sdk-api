@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEllipticRgnIndirect, CreateEllipticRgnIndirect function [Windows GDI], _win32_CreateEllipticRgnIndirect, gdi.createellipticrgnindirect, wingdi/CreateEllipticRgnIndirect
 ms.topic: function
+f1_keywords: ["wingdi/CreateEllipticRgnIndirect"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAutomationPropertyChangedEvent, AddAutomationPropertyChangedEvent method [Windows Accessibility], AddAutomationPropertyChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddAutomationPropertyChangedEvent method, IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent, IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent, uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationPropertyChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationPropertyChangedEvent
 ms.topic: method
+f1_keywords: ["uiautomationcore/IProxyProviderWinEventSink.AddAutomationPropertyChangedEvent"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

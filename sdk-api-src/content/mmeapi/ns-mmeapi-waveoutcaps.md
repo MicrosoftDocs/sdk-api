@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWAVEOUTCAPS, *NPWAVEOUTCAPS, *PWAVEOUTCAPS, WAVEOUTCAPS, WAVEOUTCAPS structure [Windows Multimedia], _win32_WAVEOUTCAPS_str, mmeapi/WAVEOUTCAPS, multimedia.waveoutcaps, tagWAVEOUTCAPSA, tagWAVEOUTCAPSW, waveoutcaps_tag"
 ms.topic: struct
+f1_keywords: ["mmeapi/WAVEOUTCAPS"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

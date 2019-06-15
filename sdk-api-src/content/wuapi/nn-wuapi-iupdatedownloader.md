@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader, IUpdateDownloader interface [Windows Update Agent], IUpdateDownloader interface [Windows Update Agent],described, wua.iupdatedownloader, wuapi/IUpdateDownloader
 ms.topic: interface
+f1_keywords: ["wuapi/IUpdateDownloader"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

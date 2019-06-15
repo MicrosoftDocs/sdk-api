@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuningSpace2 interface [Microsoft TV Technologies],get_NetworkID method, IDVBTuningSpace2.get_NetworkID, IDVBTuningSpace2::get_NetworkID, IDVBTuningSpace2get_NetworkID, get_NetworkID, get_NetworkID method [Microsoft TV Technologies], get_NetworkID method [Microsoft TV Technologies],IDVBTuningSpace2 interface, mstv.idvbtuningspace2_get_networkid, tuner/IDVBTuningSpace2::get_NetworkID
 ms.topic: method
+f1_keywords: ["tuner/IDVBTuningSpace2.get_NetworkID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

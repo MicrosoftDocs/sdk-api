@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncryptMessage, EncryptMessage (Digest), EncryptMessage function [Security], SealMessage [Security], security.encryptmessage__digest_, sspi/EncryptMessage
 ms.topic: function
+f1_keywords: ["sspi/EncryptMessage"]
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

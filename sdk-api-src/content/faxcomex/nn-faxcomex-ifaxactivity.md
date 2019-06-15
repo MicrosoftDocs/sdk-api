@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxActivity, IFaxActivity interface [Fax Service], IFaxActivity interface [Fax Service],described, _mfax_faxactivity_cpp, fax._mfax_faxactivity_cpp, faxcomex/IFaxActivity
 ms.topic: interface
+f1_keywords: ["faxcomex/IFaxActivity"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

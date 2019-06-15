@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDRMNetHelper, IMFDRMNetHelper interface [Media Foundation], IMFDRMNetHelper interface [Media Foundation],described, mf.imfdrmnethelper, wmcontainer/IMFDRMNetHelper
 ms.topic: interface
+f1_keywords: ["wmcontainer/IMFDRMNetHelper"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_CBF_USERPACKED, D3D_CBF_FORCE_DWORD, D3D_CBF_USERPACKED, D3D_SHADER_CBUFFER_FLAGS, D3D_SHADER_CBUFFER_FLAGS enumeration [Direct3D 11], d3dcommon/D3D10_CBF_USERPACKED, d3dcommon/D3D_CBF_FORCE_DWORD, d3dcommon/D3D_CBF_USERPACKED, d3dcommon/D3D_SHADER_CBUFFER_FLAGS, direct3d11.d3d_shader_cbuffer_flags
 ms.topic: enum
+f1_keywords: ["d3dcommon/D3D_SHADER_CBUFFER_FLAGS"]
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

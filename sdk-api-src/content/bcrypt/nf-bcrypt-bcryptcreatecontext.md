@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptCreateContext, BCryptCreateContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptCreateContext, security.bcryptcreatecontext
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptCreateContext"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

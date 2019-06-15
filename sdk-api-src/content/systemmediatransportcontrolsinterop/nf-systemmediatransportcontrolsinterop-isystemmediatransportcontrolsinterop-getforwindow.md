@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,GetForWindow method, ISystemMediaTransportControlsInterop.GetForWindow, ISystemMediaTransportControlsInterop::GetForWindow, mediatransport.isystemmediatransportcontrolsinterop_getforwindow, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow
 ms.topic: method
+f1_keywords: ["systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop.GetForWindow"]
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
 req.target-type: Windows

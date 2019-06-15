@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_Create, DPA_Create function [Windows Controls], _win32_DPA_Create, _win32_DPA_Create_cpp, controls.DPA_Create, controls._win32_DPA_Create, dpa_dsa/DPA_Create
 ms.topic: function
+f1_keywords: ["dpa_dsa/DPA_Create"]
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

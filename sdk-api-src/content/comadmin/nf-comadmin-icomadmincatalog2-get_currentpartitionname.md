@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentPartitionName property [COM+], CurrentPartitionName property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CurrentPartitionName property, ICOMAdminCatalog2.CurrentPartitionName, ICOMAdminCatalog2.get_CurrentPartitionName, ICOMAdminCatalog2::CurrentPartitionName, ICOMAdminCatalog2::get_CurrentPartitionName, _cos_IComAdminCatalog2_get_CurrentPartitionName, comadmin/ICOMAdminCatalog2::CurrentPartitionName, comadmin/ICOMAdminCatalog2::get_CurrentPartitionName, cos.icomadmincatalog2_currentpartitionname, get_CurrentPartitionName
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog2.CurrentPartitionName"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

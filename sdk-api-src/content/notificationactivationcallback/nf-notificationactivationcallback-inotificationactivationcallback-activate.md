@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method, Activate method,INotificationActivationCallback interface, INotificationActivationCallback interface,Activate method, INotificationActivationCallback.Activate, INotificationActivationCallback::Activate, notificationactivationcallback/INotificationActivationCallback::Activate, win32_tile_badge_notif.inotificationactivationcallback_activate
 ms.topic: method
+f1_keywords: ["notificationactivationcallback/INotificationActivationCallback.Activate"]
 req.header: notificationactivationcallback.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadListener, IDWriteFontDownloadListener interface [Direct Write], IDWriteFontDownloadListener interface [Direct Write],described, directwrite.idwritefontdownloadlistener, dwrite_3/IDWriteFontDownloadListener
 ms.topic: interface
+f1_keywords: ["dwrite_3/IDWriteFontDownloadListener"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

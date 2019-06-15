@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable, netioapi/FreeMibTable
 ms.topic: function
+f1_keywords: ["netioapi/FreeMibTable"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

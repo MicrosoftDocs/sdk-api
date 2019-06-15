@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_PROTECT_MEMORY, LSA_PROTECT_MEMORY callback, LsaProtectMemory, LsaProtectMemory callback function [Security], ntsecpkg/LsaProtectMemory, security.lsaprotectmemory
 ms.topic: callback
+f1_keywords: ["ntsecpkg/LsaProtectMemory"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

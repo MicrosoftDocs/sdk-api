@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetControlDetails function [Windows Multimedia], mixerGetControlDetailsA, mixerGetControlDetailsW, mmsystem/mixerGetControlDetails, mmsystem/mixerGetControlDetailsA, mmsystem/mixerGetControlDetailsW, multimedia.mixergetcontroldetails"
 ms.topic: function
+f1_keywords: ["mmeapi/mixerGetControlDetails"]
 req.header: mmeapi.h
 req.include-header: Mmeapi.h, Windows.h
 req.target-type: Windows

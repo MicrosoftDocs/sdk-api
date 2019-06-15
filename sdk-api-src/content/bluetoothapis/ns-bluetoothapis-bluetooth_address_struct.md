@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_ADDRESS, BLUETOOTH_ADDRESS structure [Bluetooth], BLUETOOTH_ADDRESS_STRUCT, _BLUETOOTH_ADDRESS, _bth_bluetooth_address, bluetooth.bluetooth_address, bluetoothapis/BLUETOOTH_ADDRESS
 ms.topic: struct
+f1_keywords: ["bluetoothapis/BLUETOOTH_ADDRESS"]
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows

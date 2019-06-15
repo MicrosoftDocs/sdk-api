@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpClose, SnmpClose function [SNMP], _snmp_snmpclose, snmp.snmpclose, winsnmp/SnmpClose
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpClose"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

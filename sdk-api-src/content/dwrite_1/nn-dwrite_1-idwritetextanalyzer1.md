@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalyzer1, IDWriteTextAnalyzer1 interface [Direct Write], IDWriteTextAnalyzer1 interface [Direct Write],described, directwrite.idwritetextanalyzer1, dwrite_1/IDWriteTextAnalyzer1
 ms.topic: interface
+f1_keywords: ["dwrite_1/IDWriteTextAnalyzer1"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

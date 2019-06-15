@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRegisterRoutingExtension, FaxRegisterRoutingExtension function [Fax Service], FaxRegisterRoutingExtensionW, _mfax_faxregisterroutingextension, fax._mfax_faxregisterroutingextension, winfax/FaxRegisterRoutingExtension
 ms.topic: function
+f1_keywords: ["winfax/FaxRegisterRoutingExtension"]
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

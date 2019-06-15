@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
 ms.topic: function
+f1_keywords: ["netsh/PrintError"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

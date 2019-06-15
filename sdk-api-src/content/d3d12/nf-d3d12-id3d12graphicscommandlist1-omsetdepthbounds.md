@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,OMSetDepthBounds method, ID3D12GraphicsCommandList1.OMSetDepthBounds, ID3D12GraphicsCommandList1::OMSetDepthBounds, OMSetDepthBounds, OMSetDepthBounds method, OMSetDepthBounds method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds, direct3d12.id3d12graphicscommandlist1_omsetdepthbounds
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12GraphicsCommandList1.OMSetDepthBounds"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

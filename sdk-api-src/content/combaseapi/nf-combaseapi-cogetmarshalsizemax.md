@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetMarshalSizeMax, CoGetMarshalSizeMax function [COM], _com_CoGetMarshalSizeMax, com.cogetmarshalsizemax, combaseapi/CoGetMarshalSizeMax
 ms.topic: function
+f1_keywords: ["combaseapi/CoGetMarshalSizeMax"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

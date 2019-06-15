@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_UTF8_TEXT, WS_XML_UTF8_TEXT structure [Web Services for Windows], webservices/WS_XML_UTF8_TEXT, wsw.ws_xml_utf8_text
 ms.topic: struct
+f1_keywords: ["webservices/WS_XML_UTF8_TEXT"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

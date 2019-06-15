@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_perror, ldap.ldap__perror, ldap.ldap_perror, ldap_perror, ldap_perror function [LDAP], winldap/ldap_perror"
 ms.topic: function
+f1_keywords: ["winldap/ldap_perror"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

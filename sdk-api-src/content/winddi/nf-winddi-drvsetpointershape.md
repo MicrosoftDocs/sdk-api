@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSetPointerShape, DrvSetPointerShape function [Display Devices], ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml, display.drvsetpointershape, winddi/DrvSetPointerShape
 ms.topic: function
+f1_keywords: ["winddi/DrvSetPointerShape"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

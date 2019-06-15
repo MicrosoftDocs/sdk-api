@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Description property, IFsrmPropertyDefinitionValue.Description, IFsrmPropertyDefinitionValue.get_Description, IFsrmPropertyDefinitionValue::Description, IFsrmPropertyDefinitionValue::get_Description, fs.ifsrmpropertydefinitionvalue_description, fsrm.ifsrmpropertydefinitionvalue_description, fsrmpipeline/IFsrmPropertyDefinitionValue::Description, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Description, get_Description
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyDefinitionValue.Description"]
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Recipient property, IFaxOutgoingJob.Recipient, IFaxOutgoingJob.get_Recipient, IFaxOutgoingJob::Recipient, IFaxOutgoingJob::get_Recipient, Recipient property [Fax Service], Recipient property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.recipient_cpp, fax._mfax_faxoutgoingjob_recipient_cpp, faxcomex/IFaxOutgoingJob::Recipient, faxcomex/IFaxOutgoingJob::get_Recipient, get_Recipient
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.Recipient"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

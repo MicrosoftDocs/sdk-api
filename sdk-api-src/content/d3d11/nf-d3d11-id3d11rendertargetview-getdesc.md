@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2c013bba-4c72-dab2-50a8-557fee4cbbaf, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11RenderTargetView interface, ID3D11RenderTargetView interface [Direct3D 11],GetDesc method, ID3D11RenderTargetView.GetDesc, ID3D11RenderTargetView::GetDesc, d3d11/ID3D11RenderTargetView::GetDesc, direct3d11.id3d11rendertargetview_getdesc
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11RenderTargetView.GetDesc"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

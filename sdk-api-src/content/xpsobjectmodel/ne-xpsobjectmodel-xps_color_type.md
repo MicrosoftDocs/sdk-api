@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR_TYPE, XPS_COLOR_TYPE enumeration [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_SCRGB, XPS_COLOR_TYPE_SRGB, xps.xps_color_type, xpsobjectmodel/XPS_COLOR_TYPE, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT, xpsobjectmodel/XPS_COLOR_TYPE_SCRGB, xpsobjectmodel/XPS_COLOR_TYPE_SRGB
 ms.topic: enum
+f1_keywords: ["xpsobjectmodel/XPS_COLOR_TYPE"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

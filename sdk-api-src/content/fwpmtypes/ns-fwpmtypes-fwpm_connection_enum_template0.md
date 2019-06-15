@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_ENUM_FLAG_QUERY_BYTES_TRANSFERRED, FWPM_CONNECTION_ENUM_TEMPLATE0, FWPM_CONNECTION_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_connection_enum_template0, fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0
 ms.topic: struct
+f1_keywords: ["fwpmtypes/FWPM_CONNECTION_ENUM_TEMPLATE0"]
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

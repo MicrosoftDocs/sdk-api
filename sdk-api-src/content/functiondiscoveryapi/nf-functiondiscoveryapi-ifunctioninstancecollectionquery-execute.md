@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method, Execute method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,Execute method, IFunctionInstanceCollectionQuery.Execute, IFunctionInstanceCollectionQuery::Execute, functiondiscoveryapi/IFunctionInstanceCollectionQuery::Execute, ncd.ifunctioninstancecollectionquery_execute_method
 ms.topic: method
+f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollectionQuery.Execute"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventTrigger, IEventTrigger interface [Task Scheduler], IEventTrigger interface [Task Scheduler],described, event trigger [Task Scheduler],interface, taskschd.ieventtrigger, taskschd/IEventTrigger
 ms.topic: interface
+f1_keywords: ["taskschd/IEventTrigger"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12DescriptorHeap, ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,described, d3d12/ID3D12DescriptorHeap, direct3d12.id3d12descriptorheap
 ms.topic: interface
+f1_keywords: ["d3d12/ID3D12DescriptorHeap"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

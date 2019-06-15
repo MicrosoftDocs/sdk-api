@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
 ms.topic: interface
+f1_keywords: ["windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory"]
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows

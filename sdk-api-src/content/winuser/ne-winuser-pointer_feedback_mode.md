@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: POINTER_FEEDBACK_DEFAULT, POINTER_FEEDBACK_INDIRECT, POINTER_FEEDBACK_MODE, POINTER_FEEDBACK_MODE enumeration, POINTER_FEEDBACK_NONE, input_pointerdevice.pointer_feedback_mode, winuser/POINTER_FEEDBACK_DEFAULT, winuser/POINTER_FEEDBACK_INDIRECT, winuser/POINTER_FEEDBACK_MODE, winuser/POINTER_FEEDBACK_NONE
 ms.topic: enum
+f1_keywords: ["winuser/POINTER_FEEDBACK_MODE"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

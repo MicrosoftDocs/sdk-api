@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetOutput, WsSetOutput function [Web Services for Windows], webservices/WsSetOutput, wsw.wssetoutput
 ms.topic: function
+f1_keywords: ["webservices/WsSetOutput"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

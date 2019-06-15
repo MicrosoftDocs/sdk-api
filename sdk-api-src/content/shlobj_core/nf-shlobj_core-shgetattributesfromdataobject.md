@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetAttributesFromDataObject, SHGetAttributesFromDataObject function [Windows Shell], _win32_SHGetAttributesFromDataObject, shell.SHGetAttributesFromDataObject, shlobj_core/SHGetAttributesFromDataObject
 ms.topic: function
+f1_keywords: ["shlobj_core/SHGetAttributesFromDataObject"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

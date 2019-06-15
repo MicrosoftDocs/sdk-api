@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],put_OrbitalPosition method, IDVBSLocator.put_OrbitalPosition, IDVBSLocator::put_OrbitalPosition, IDVBSLocatorput_OrbitalPosition, mstv.idvbslocator_put_orbitalposition, put_OrbitalPosition, put_OrbitalPosition method [Microsoft TV Technologies], put_OrbitalPosition method [Microsoft TV Technologies],IDVBSLocator interface, tuner/IDVBSLocator::put_OrbitalPosition
 ms.topic: method
+f1_keywords: ["tuner/IDVBSLocator.put_OrbitalPosition"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

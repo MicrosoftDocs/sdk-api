@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 805411f1-db1c-6558-e717-3629cfc7d811, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflectionVariable interface, ID3D10ShaderReflectionVariable interface [Direct3D 10],GetDesc method, ID3D10ShaderReflectionVariable.GetDesc, ID3D10ShaderReflectionVariable::GetDesc, d3d10shader/ID3D10ShaderReflectionVariable::GetDesc, direct3d10.id3d10shaderreflectionvariable_getdesc
 ms.topic: method
+f1_keywords: ["d3d10shader/ID3D10ShaderReflectionVariable.GetDesc"]
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

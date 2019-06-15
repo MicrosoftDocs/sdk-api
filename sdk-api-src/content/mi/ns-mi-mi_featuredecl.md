@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FeatureDecl, MI_FeatureDecl structure [Windows Management Infrastructure (MI)], mi/MI_FeatureDecl, wmi_v2.mi_featuredecl
 ms.topic: struct
+f1_keywords: ["mi/MI_FeatureDecl"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

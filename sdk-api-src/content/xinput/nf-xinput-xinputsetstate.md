@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputSetState, XInputSetState function [XInput Game Controller APIs], xinput.xinputsetstate, xinput/XInputSetState
 ms.topic: function
+f1_keywords: ["xinput/XInputSetState"]
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

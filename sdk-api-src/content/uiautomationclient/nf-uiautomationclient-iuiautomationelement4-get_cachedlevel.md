@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedLevel property [Windows Accessibility], CachedLevel property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedLevel property, IUIAutomationElement4.CachedLevel, IUIAutomationElement4.get_CachedLevel, IUIAutomationElement4::CachedLevel, IUIAutomationElement4::get_CachedLevel, get_CachedLevel, uiautomationclient/IUIAutomationElement4::CachedLevel, uiautomationclient/IUIAutomationElement4::get_CachedLevel, winauto.uiauto_IUIAutomationElement4_CachedLevel
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement4.CachedLevel"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

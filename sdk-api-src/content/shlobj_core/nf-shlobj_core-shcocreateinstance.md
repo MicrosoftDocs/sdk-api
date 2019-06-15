@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
 ms.topic: function
+f1_keywords: ["shlobj_core/SHCoCreateInstance"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

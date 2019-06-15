@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap_ui_data_format, eaptypes/EAP_UI_DATA_FORMAT
 ms.topic: struct
+f1_keywords: ["eaptypes/EAP_UI_DATA_FORMAT"]
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

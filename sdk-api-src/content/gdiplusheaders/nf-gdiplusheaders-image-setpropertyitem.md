@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Image class [GDI+],SetPropertyItem method, Image.SetPropertyItem, Image::SetPropertyItem, SetPropertyItem, SetPropertyItem method [GDI+], SetPropertyItem method [GDI+],Image class, _gdiplus_CLASS_Image_SetPropertyItem_item_, gdiplus._gdiplus_CLASS_Image_SetPropertyItem_item_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Image.SetPropertyItem"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

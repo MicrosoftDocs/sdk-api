@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMap interface, IValueMap interface [PLA],Description property, IValueMap.Description, IValueMap.put_Description, IValueMap::Description, IValueMap::get_Description, IValueMap::put_Description, base.ivaluemap_description, pla.ivaluemap_description, pla/IValueMap::Description, pla/IValueMap::get_Description, pla/IValueMap::put_Description, put_Description
 ms.topic: method
+f1_keywords: ["pla/IValueMap.Description"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

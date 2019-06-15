@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
 ms.topic: function
+f1_keywords: ["dxva2api/DXVA2CreateVideoService"]
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

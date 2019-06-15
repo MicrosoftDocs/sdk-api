@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelOpen, VirtualChannelOpen callback, VirtualChannelOpen callback function [Remote Desktop Services], _win32_virtualchannelopen, cchannel/VirtualChannelOpen, termserv.virtualchannelopen
 ms.topic: callback
+f1_keywords: ["cchannel/VirtualChannelOpen"]
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

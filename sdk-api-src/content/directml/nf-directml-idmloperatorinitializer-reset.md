@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLOperatorInitializer interface,Reset method, IDMLOperatorInitializer.Reset, IDMLOperatorInitializer::Reset, Reset, Reset method, Reset method,IDMLOperatorInitializer interface, direct3d12.idmloperatorinitializer_reset, directml/IDMLOperatorInitializer::Reset
 ms.topic: method
+f1_keywords: ["directml/IDMLOperatorInitializer.Reset"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

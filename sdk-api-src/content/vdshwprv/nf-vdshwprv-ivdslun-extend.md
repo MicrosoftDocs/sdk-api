@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Extend, Extend method [VDS], Extend method [VDS],IVdsLun interface, IVdsLun interface [VDS],Extend method, IVdsLun.Extend, IVdsLun::Extend, base.ivdslun_extend, vds/IVdsLun::Extend, vdshwprv/IVdsLun::Extend
 ms.topic: method
+f1_keywords: ["vdshwprv/IVdsLun.Extend"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

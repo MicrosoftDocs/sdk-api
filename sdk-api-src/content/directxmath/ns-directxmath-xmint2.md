@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMINT2, XMINT2 structure [DirectX Math Support APIs], directxmath/XMINT2, dxmath.xmint2
 ms.topic: struct
+f1_keywords: ["directxmath/XMINT2"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

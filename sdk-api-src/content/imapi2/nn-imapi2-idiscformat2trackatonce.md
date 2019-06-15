@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], IDiscFormat2TrackAtOnce interface [IMAPI],described, imapi.idiscformat2trackatonce, imapi2/IDiscFormat2TrackAtOnce
 ms.topic: interface
+f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRef, AddRef method [Human Input Devices], AddRef method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],AddRef method, IDirectInputJoyConfig8.AddRef, IDirectInputJoyConfig8::AddRef, di_ref_5b8306ac-22f0-48f9-af91-a83d6bd8b936.xml, dinputd/IDirectInputJoyConfig8::AddRef, hid.idirectinputjoyconfig8_addref
 ms.topic: method
+f1_keywords: ["dinputd/IDirectInputJoyConfig8.AddRef"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

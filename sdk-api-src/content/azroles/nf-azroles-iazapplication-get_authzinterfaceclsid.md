@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInterfaceClsid property [Security], AuthzInterfaceClsid property [Security],AzApplication object, AuthzInterfaceClsid property [Security],IAzApplication interface, AzApplication object [Security],AuthzInterfaceClsid property, IAzApplication interface [Security],AuthzInterfaceClsid property, IAzApplication.AuthzInterfaceClsid, IAzApplication.get_AuthzInterfaceClsid, IAzApplication::AuthzInterfaceClsid, IAzApplication::get_AuthzInterfaceClsid, IAzApplication::put_AuthzInterfaceClsid, azroles/IAzApplication::AuthzInterfaceClsid, azroles/IAzApplication::get_AuthzInterfaceClsid, azroles/IAzApplication::put_AuthzInterfaceClsid, get_AuthzInterfaceClsid, security.iazapplication_authzinterfaceclsid
 ms.topic: method
+f1_keywords: ["azroles/IAzApplication.AuthzInterfaceClsid"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

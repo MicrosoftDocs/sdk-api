@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongPtrSub, LongPtrSub function [Windows Shell], intsafe/LongPtrSub, shell.LongPtrSub
 ms.topic: function
+f1_keywords: ["intsafe/LongPtrSub"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

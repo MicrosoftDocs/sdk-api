@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorContext, GetColorContext method [Direct2D], GetColorContext method [Direct2D],ID2D1Bitmap1 interface, ID2D1Bitmap1 interface [Direct2D],GetColorContext method, ID2D1Bitmap1.GetColorContext, ID2D1Bitmap1::GetColorContext, d2d1_1/ID2D1Bitmap1::GetColorContext, direct2d.id2d1bitmap1_getcolorcontext
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Bitmap1.GetColorContext"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

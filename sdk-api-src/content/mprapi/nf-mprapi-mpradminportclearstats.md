@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminPortClearStats"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Deployment Services], Description property [Windows Deployment Services],IWdsTransportContentProvider interface, IWdsTransportContentProvider interface [Windows Deployment Services],Description property, IWdsTransportContentProvider.Description, IWdsTransportContentProvider.get_Description, IWdsTransportContentProvider::Description, IWdsTransportContentProvider::get_Description, get_Description, wds.iwdstransportcontentprovider_description, wdstptmgmt/IWdsTransportContentProvider::Description, wdstptmgmt/IWdsTransportContentProvider::get_Description
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportContentProvider.Description"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

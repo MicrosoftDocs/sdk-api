@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_bind_2, bind, bind function [Winsock], winsock.bind_2, winsock/bind"
 ms.topic: function
+f1_keywords: ["winsock2/bind"]
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

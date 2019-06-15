@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaGetById0, IkeextSaGetById0 function [Filtering], fwp.ikeextsagetbyid0, fwpmu/IkeextSaGetById0
 ms.topic: function
+f1_keywords: ["fwpmu/IkeextSaGetById0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

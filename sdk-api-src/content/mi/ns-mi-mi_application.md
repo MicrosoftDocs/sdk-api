@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Application, MI_Application structure [Windows Management Infrastructure (MI)], mi/MI_Application, wmi_v2.mi_application
 ms.topic: struct
+f1_keywords: ["mi/MI_Application"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

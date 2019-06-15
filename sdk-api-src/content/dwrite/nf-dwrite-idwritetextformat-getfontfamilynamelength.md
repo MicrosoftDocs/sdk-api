@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFamilyNameLength, GetFontFamilyNameLength method [Direct Write], GetFontFamilyNameLength method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontFamilyNameLength method, IDWriteTextFormat.GetFontFamilyNameLength, IDWriteTextFormat::GetFontFamilyNameLength, directwrite.IDWriteTextFormat_GetFontFamilyNameLength, dwrite/IDWriteTextFormat::GetFontFamilyNameLength
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextFormat.GetFontFamilyNameLength"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

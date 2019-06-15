@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
 ms.topic: function
+f1_keywords: ["syncmgr/FreeConfirmConflictItem"]
 req.header: syncmgr.h
 req.include-header: Syncmgr.idl
 req.target-type: Windows

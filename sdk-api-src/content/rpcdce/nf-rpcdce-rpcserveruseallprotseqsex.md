@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqsEx, RpcServerUseAllProtseqsEx function [RPC], _rpc_rpcserveruseallprotseqsex, rpc.rpcserveruseallprotseqsex, rpcdce/RpcServerUseAllProtseqsEx
 ms.topic: function
+f1_keywords: ["rpcdce/RpcServerUseAllProtseqsEx"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

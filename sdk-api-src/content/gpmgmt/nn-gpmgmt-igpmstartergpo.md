@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPMStarterGPO, IGPMStarterGPO interface [GPMC], IGPMStarterGPO interface [GPMC],described, gpmc.igpmstartergpo, gpmgmt/IGPMStarterGPO
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMStarterGPO"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

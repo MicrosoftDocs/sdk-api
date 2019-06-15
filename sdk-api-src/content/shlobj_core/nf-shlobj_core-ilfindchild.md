@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILFindChild, ILFindChild function [Windows Shell], _win32_ILFindChild, shell.ILFindChild, shlobj_core/ILFindChild
 ms.topic: function
+f1_keywords: ["shlobj_core/ILFindChild"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

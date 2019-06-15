@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: DirectX::PackedVector.XMSHORTN2.operator =, DirectX::PackedVector::XMSHORTN2::operator =, XMSHORTN2 structure [DirectX Math Support APIs],operator = method, XMSHORTN2.operator =, XMSHORTN2.operator-assign, XMSHORTN2.operator=, XMSHORTN2::operator-assign, XMSHORTN2::operator=, dxmath.xmshortn2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMSHORTN2 structure, operator=
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMSHORTN2.operator ="]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

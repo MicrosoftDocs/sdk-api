@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
 ms.topic: interface
+f1_keywords: ["objsel/IDsObjectPickerCredentials"]
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

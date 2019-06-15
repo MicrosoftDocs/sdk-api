@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpRecvMsg, SnmpRecvMsg function [SNMP], _snmp_snmprecvmsg, snmp.snmprecvmsg, winsnmp/SnmpRecvMsg
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpRecvMsg"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

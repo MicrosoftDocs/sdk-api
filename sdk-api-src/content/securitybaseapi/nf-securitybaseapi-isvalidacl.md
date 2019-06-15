@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, security.isvalidacl, securitybaseapi/IsValidAcl
 ms.topic: function
+f1_keywords: ["securitybaseapi/IsValidAcl"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

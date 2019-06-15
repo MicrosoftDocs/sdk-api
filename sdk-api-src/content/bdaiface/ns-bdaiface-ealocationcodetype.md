@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EALocationCodeType, EALocationCodeType structure [Microsoft TV Technologies], EALocationCodeTypeStructure, bdaiface_enums/EALocationCodeType, mstv.ealocationcodetype
 ms.topic: struct
+f1_keywords: ["bdaiface/EALocationCodeType"]
 req.header: bdaiface.h
 req.include-header: Bdaiface.h
 req.target-type: Windows

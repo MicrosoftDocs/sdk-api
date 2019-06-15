@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputSelector, IAudioOutputSelector interface [Core Audio], IAudioOutputSelector interface [Core Audio],described, coreaudio.iaudiooutputselector, devicetopology/IAudioOutputSelector
 ms.topic: interface
+f1_keywords: ["devicetopology/IAudioOutputSelector"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

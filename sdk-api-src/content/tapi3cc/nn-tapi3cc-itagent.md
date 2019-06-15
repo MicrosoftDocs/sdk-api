@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent, ITAgent interface [TAPI 2.2], ITAgent interface [TAPI 2.2],described, _tapi3_itagent, tapi3.itagent, tapi3cc/ITAgent
 ms.topic: interface
+f1_keywords: ["tapi3cc/ITAgent"]
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

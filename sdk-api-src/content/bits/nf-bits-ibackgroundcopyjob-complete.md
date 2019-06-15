@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Complete, Complete method [BITS], Complete method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],Complete method, IBackgroundCopyJob.Complete, IBackgroundCopyJob::Complete, _drz_ibackgroundcopyjob_complete, bits.ibackgroundcopyjob_complete, bits/IBackgroundCopyJob::Complete
 ms.topic: method
+f1_keywords: ["bits/IBackgroundCopyJob.Complete"]
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

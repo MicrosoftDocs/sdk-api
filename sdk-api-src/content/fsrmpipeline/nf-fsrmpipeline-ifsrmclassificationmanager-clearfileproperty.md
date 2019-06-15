@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearFileProperty, ClearFileProperty method [File Server Resource Manager], ClearFileProperty method [File Server Resource Manager],FsrmClassificationManager class, ClearFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, ClearFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager interface [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager.ClearFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],ClearFileProperty method, IFsrmClassificationManager2::ClearFileProperty, IFsrmClassificationManager::ClearFileProperty, fs.ifsrmclassificationmanager_clearfileproperty, fsrm.ifsrmclassificationmanager_clearfileproperty, fsrmpipeline/IFsrmClassificationManager2::ClearFileProperty, fsrmpipeline/IFsrmClassificationManager::ClearFileProperty
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmClassificationManager.ClearFileProperty"]
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

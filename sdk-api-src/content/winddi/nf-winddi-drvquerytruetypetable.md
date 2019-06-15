@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devices], ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml, display.drvquerytruetypetable, winddi/DrvQueryTrueTypeTable
 ms.topic: function
+f1_keywords: ["winddi/DrvQueryTrueTypeTable"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

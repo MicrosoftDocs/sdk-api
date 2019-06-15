@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: R2_BLACK, R2_COPYPEN, R2_MASKNOTPEN, R2_MASKPEN, R2_MASKPENNOT, R2_MERGENOTPEN, R2_MERGEPEN, R2_MERGEPENNOT, R2_NOP, R2_NOT, R2_NOTCOPYPEN, R2_NOTMASKPEN, R2_NOTMERGEPEN, R2_NOTXORPEN, R2_WHITE, R2_XORPEN, SetROP2, SetROP2 function [Windows GDI], _win32_SetROP2, gdi.setrop2, wingdi/SetROP2
 ms.topic: function
+f1_keywords: ["wingdi/SetROP2"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

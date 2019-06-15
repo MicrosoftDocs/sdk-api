@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminReleaseIpAddress, MprAdminReleaseIpAddress callback, MprAdminReleaseIpAddress callback function [RAS], _mpr_mpradminreleaseipaddress, mprapi/MprAdminReleaseIpAddress, rras.mpradminreleaseipaddress
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminReleaseIpAddress"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

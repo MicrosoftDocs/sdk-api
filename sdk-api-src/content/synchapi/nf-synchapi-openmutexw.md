@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenMutex, OpenMutex function, OpenMutexA, OpenMutexW, _win32_openmutex, base.openmutex, synchapi/OpenMutex, synchapi/OpenMutexA, synchapi/OpenMutexW
 ms.topic: function
+f1_keywords: ["synchapi/OpenMutex"]
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

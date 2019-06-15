@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC, ADS_PROV_SPECIFIC structure [ADSI], PADS_PROV_SPECIFIC, PADS_PROV_SPECIFIC structure pointer [ADSI], _ds_ads_prov_specific, adsi.ads__prov__specific, adsi.ads_prov_specific, iads/ADS_PROV_SPECIFIC, iads/PADS_PROV_SPECIFIC"
 ms.topic: struct
+f1_keywords: ["iads/ADS_PROV_SPECIFIC"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

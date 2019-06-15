@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnDestroy method, IBrowserService2.OnDestroy, IBrowserService2::OnDestroy, OnDestroy, OnDestroy method [Windows Shell], OnDestroy method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnDestroy, shell.IBrowserService2_OnDestroy, zone_IBrowserService2_OnDestroy
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2.OnDestroy"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

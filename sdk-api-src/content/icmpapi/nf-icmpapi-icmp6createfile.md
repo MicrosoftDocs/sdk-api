@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
 ms.topic: function
+f1_keywords: ["icmpapi/Icmp6CreateFile"]
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

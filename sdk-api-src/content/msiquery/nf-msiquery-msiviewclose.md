@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiViewClose, MsiViewClose function, _msi_msiviewclose, msiquery/MsiViewClose, setup.msiviewclose
 ms.topic: function
+f1_keywords: ["msiquery/MsiViewClose"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

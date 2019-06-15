@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Windows Shell], Append method [Windows Shell],IObjMgr interface, IObjMgr interface [Windows Shell],Append method, IObjMgr.Append, IObjMgr::Append, _win32_IObjMgr_Append, shell.IObjMgr_Append, shlobj_core/IObjMgr::Append
 ms.topic: method
+f1_keywords: ["shlobj_core/IObjMgr.Append"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

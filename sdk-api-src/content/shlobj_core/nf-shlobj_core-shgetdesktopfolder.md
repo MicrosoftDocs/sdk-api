@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetDesktopFolder, SHGetDesktopFolder function [Windows Shell], _win32_SHGetDesktopFolder, shell.SHGetDesktopFolder, shlobj_core/SHGetDesktopFolder
 ms.topic: function
+f1_keywords: ["shlobj_core/SHGetDesktopFolder"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

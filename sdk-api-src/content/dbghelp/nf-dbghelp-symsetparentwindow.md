@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSetParentWindow, SymSetParentWindow function, _win32_symsetparentwindow, base.symsetparentwindow, dbghelp/SymSetParentWindow
 ms.topic: function
+f1_keywords: ["dbghelp/SymSetParentWindow"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

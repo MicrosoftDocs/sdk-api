@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SendBeep method, IWTSProtocolConnection.SendBeep, IWTSProtocolConnection::SendBeep, SendBeep, SendBeep method [Remote Desktop Services], SendBeep method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_sendbeep, wtsprotocol/IWTSProtocolConnection::SendBeep
 ms.topic: method
+f1_keywords: ["wtsprotocol/IWTSProtocolConnection.SendBeep"]
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

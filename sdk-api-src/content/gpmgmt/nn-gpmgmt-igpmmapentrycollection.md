@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntryCollection, IGPMMapEntryCollection, IGPMMapEntryCollection interface [GPMC], IGPMMapEntryCollection interface [GPMC],described, gpmc.igpmmapentrycollection, gpmgmt/IGPMMapEntryCollection
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMMapEntryCollection"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

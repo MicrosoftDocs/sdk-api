@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],SetValue method, Color.SetValue, Color::SetValue, SetValue, SetValue method [GDI+], SetValue method [GDI+],Color class, _gdiplus_CLASS_Color_SetValue_argb_, gdiplus._gdiplus_CLASS_Color_SetValue_argb_
 ms.topic: method
+f1_keywords: ["gdipluscolor/Color.SetValue"]
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

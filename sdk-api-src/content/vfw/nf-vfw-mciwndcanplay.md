@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndCanPlay"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEERDIST_CONTENT_TAG, PEERDIST_CONTENT_TAG, PEERDIST_CONTENT_TAG structure [Peer Networking], PPEERDIST_CONTENT_TAG, PPEERDIST_CONTENT_TAG structure pointer [Peer Networking], p2p.peerdist_content_tag, peerdist/PEERDIST_CONTENT_TAG, peerdist/PPEERDIST_CONTENT_TAG"
 ms.topic: struct
+f1_keywords: ["peerdist/PEERDIST_CONTENT_TAG"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

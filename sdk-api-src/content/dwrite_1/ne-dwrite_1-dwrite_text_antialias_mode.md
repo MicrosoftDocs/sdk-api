@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_ANTIALIAS_MODE, DWRITE_TEXT_ANTIALIAS_MODE enumeration [Direct Write], DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE, DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE, directwrite.dwrite_text_antialias_mode, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE
 ms.topic: enum
+f1_keywords: ["dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

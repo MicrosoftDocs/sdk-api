@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ControlViewCondition property [Windows Accessibility], ControlViewCondition property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ControlViewCondition property, IUIAutomation.ControlViewCondition, IUIAutomation.get_ControlViewCondition, IUIAutomation::ControlViewCondition, IUIAutomation::get_ControlViewCondition, get_ControlViewCondition, uiauto.uiauto_IUIAutomation_ControlViewCondition, uiauto_IUIAutomation_ControlViewCondition, uiautomationclient/IUIAutomation::ControlViewCondition, uiautomationclient/IUIAutomation::get_ControlViewCondition, winauto.uiauto_IUIAutomation_ControlViewCondition
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomation.ControlViewCondition"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

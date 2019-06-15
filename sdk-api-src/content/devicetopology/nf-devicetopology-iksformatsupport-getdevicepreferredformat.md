@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevicePreferredFormat, GetDevicePreferredFormat method [Core Audio], GetDevicePreferredFormat method [Core Audio],IKsFormatSupport interface, IKsFormatSupport interface [Core Audio],GetDevicePreferredFormat method, IKsFormatSupport.GetDevicePreferredFormat, IKsFormatSupport::GetDevicePreferredFormat, IKsFormatSupportGetDevicePreferredFormat, coreaudio.iksformatsupport_getdevicepreferredformat, devicetopology/IKsFormatSupport::GetDevicePreferredFormat
 ms.topic: method
+f1_keywords: ["devicetopology/IKsFormatSupport.GetDevicePreferredFormat"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

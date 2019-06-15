@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_INITIALIZE_PACKAGE, LSA_AP_INITIALIZE_PACKAGE callback, LsaApInitializePackage, LsaApInitializePackage callback function [Security], _lsa_lsaapinitializepackage, ntsecpkg/LsaApInitializePackage, security.lsaapinitializepackage
 ms.topic: callback
+f1_keywords: ["ntsecpkg/LsaApInitializePackage"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

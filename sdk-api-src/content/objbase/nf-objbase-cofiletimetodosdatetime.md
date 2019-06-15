@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoFileTimeToDosDateTime, CoFileTimeToDosDateTime function [COM], _com_CoFileTimeToDosDateTime, com.cofiletimetodosdatetime, objbase/CoFileTimeToDosDateTime
 ms.topic: function
+f1_keywords: ["objbase/CoFileTimeToDosDateTime"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

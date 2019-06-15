@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],UnregisterHardwareContentProtectionTeardownStatus method, IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus, IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus, UnregisterHardwareContentProtectionTeardownStatus, UnregisterHardwareContentProtectionTeardownStatus method [DXGI], UnregisterHardwareContentProtectionTeardownStatus method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus, dxgi1_4/IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus
 ms.topic: method
+f1_keywords: ["dxgi1_4/IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus"]
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows

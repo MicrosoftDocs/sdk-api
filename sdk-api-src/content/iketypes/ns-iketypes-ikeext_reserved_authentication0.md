@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_RESERVED_AUTHENTICATION0, IKEEXT_RESERVED_AUTHENTICATION0 structure [Filtering], IKEEXT_RESERVED_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, fwp.ikeext_reserved_authentication0, iketypes/IKEEXT_RESERVED_AUTHENTICATION0
 ms.topic: struct
+f1_keywords: ["iketypes/IKEEXT_RESERVED_AUTHENTICATION0"]
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROGRESS_DIALOG_CHECKBOX_ID, PROGRESS_DIALOG_CHECKBOX_ID enumeration [Picture Acquisition], PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT, enumeration [Picture Acquisition], photoacquire/PROGRESS_DIALOG_CHECKBOX_ID, photoacquire/PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT, picacq.progress_dialog_checkbox_id
 ms.topic: enum
+f1_keywords: ["photoacquire/PROGRESS_DIALOG_CHECKBOX_ID"]
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

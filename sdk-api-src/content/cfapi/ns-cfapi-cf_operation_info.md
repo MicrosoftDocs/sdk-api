@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_INFO, CF_OPERATION_INFO structure, cfapi/CF_OPERATION_INFO, cloudApi.cf_operation_info
 ms.topic: struct
+f1_keywords: ["cfapi/CF_OPERATION_INFO"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

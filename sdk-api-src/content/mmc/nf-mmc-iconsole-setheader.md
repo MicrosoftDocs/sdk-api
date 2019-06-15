@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SetHeader method, IConsole.SetHeader, IConsole::SetHeader, SetHeader, SetHeader method [MMC], SetHeader method [MMC],IConsole interface, mmc.iconsole_setheader, mmc/IConsole::SetHeader
 ms.topic: method
+f1_keywords: ["mmc/IConsole.SetHeader"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

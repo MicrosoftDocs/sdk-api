@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNameInfoW, GetNameInfoW function [Winsock], winsock.getnameinfow, ws2tcpip/GetNameInfoW
 ms.topic: function
+f1_keywords: ["ws2tcpip/GetNameInfoW"]
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

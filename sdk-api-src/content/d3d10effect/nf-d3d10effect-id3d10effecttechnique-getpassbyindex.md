@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPassByIndex, GetPassByIndex method [Direct3D 10], GetPassByIndex method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetPassByIndex method, ID3D10EffectTechnique.GetPassByIndex, ID3D10EffectTechnique::GetPassByIndex, bf6a09f2-4226-0743-fbab-24f41fc1fd18, d3d10effect/ID3D10EffectTechnique::GetPassByIndex, direct3d10.id3d10effecttechnique_getpassbyindex
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectTechnique.GetPassByIndex"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

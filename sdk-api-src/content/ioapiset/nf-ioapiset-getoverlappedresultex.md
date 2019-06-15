@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverlappedResultEx, GetOverlappedResultEx function, base.getoverlappedresultex, ioapiset/GetOverlappedResultEx
 ms.topic: function
+f1_keywords: ["ioapiset/GetOverlappedResultEx"]
 req.header: ioapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

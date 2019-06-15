@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ReadIsochPipeAsap, WinUsb_ReadIsochPipeAsap function [Buses], buses.winusb_readisochpipeasap, winusb/WinUsb_ReadIsochPipeAsap
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_ReadIsochPipeAsap"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

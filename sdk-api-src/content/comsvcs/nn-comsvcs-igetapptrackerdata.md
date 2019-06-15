@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetAppTrackerData, IGetAppTrackerData interface [COM+], IGetAppTrackerData interface [COM+],described, comsvcs/IGetAppTrackerData, cos.igetapptrackerdata
 ms.topic: interface
+f1_keywords: ["comsvcs/IGetAppTrackerData"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

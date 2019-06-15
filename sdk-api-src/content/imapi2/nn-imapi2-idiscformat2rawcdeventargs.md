@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], IDiscFormat2RawCDEventArgs interface [IMAPI],described, imapi.idiscformat2rawcdeventargs, imapi2/IDiscFormat2RawCDEventArgs
 ms.topic: interface
+f1_keywords: ["imapi2/IDiscFormat2RawCDEventArgs"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

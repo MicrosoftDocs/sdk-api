@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureCollection, IXpsSignatureCollection interface [XPS Documents and Packaging], IXpsSignatureCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturecollection, xpsdigitalsignature/IXpsSignatureCollection
 ms.topic: interface
+f1_keywords: ["xpsdigitalsignature/IXpsSignatureCollection"]
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

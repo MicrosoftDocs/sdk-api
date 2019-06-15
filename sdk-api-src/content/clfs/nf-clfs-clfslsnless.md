@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnLess, LsnLess, LsnLess function [Files], clfs/LsnLess, fs.lsnless
 ms.topic: function
+f1_keywords: ["clfs/LsnLess"]
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

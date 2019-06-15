@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection interface,Remove method, IFunctionInstanceCollection.Remove, IFunctionInstanceCollection::Remove, Remove, Remove method, Remove method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Remove, ncd.ifunctioninstancecollection_remove
 ms.topic: method
+f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollection.Remove"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

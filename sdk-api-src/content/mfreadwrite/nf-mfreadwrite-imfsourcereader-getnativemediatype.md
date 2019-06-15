@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNativeMediaType, GetNativeMediaType method [Media Foundation], GetNativeMediaType method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetNativeMediaType method, IMFSourceReader.GetNativeMediaType, IMFSourceReader::GetNativeMediaType, MF_SOURCE_READER_CURRENT_TYPE_INDEX, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getnativemediatype, mfreadwrite/IMFSourceReader::GetNativeMediaType
 ms.topic: method
+f1_keywords: ["mfreadwrite/IMFSourceReader.GetNativeMediaType"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

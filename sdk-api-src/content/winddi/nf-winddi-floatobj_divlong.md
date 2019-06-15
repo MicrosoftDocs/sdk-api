@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_DivLong, FLOATOBJ_DivLong function [Display Devices], display.floatobj_divlong, gdifncs_2c12858b-3c1a-4f4e-883f-aa4527695961.xml, winddi/FLOATOBJ_DivLong
 ms.topic: function
+f1_keywords: ["winddi/FLOATOBJ_DivLong"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

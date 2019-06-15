@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VDOV_DIMENSION, D3D11_VDOV_DIMENSION enumeration [Media Foundation], D3D11_VDOV_DIMENSION_TEXTURE2D, D3D11_VDOV_DIMENSION_UNKNOWN, d3d11/D3D11_VDOV_DIMENSION, d3d11/D3D11_VDOV_DIMENSION_TEXTURE2D, d3d11/D3D11_VDOV_DIMENSION_UNKNOWN, mf.d3d11_vdov_dimension
 ms.topic: enum
+f1_keywords: ["d3d11/D3D11_VDOV_DIMENSION"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

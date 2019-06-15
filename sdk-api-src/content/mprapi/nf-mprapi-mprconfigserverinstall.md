@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerInstall, MprConfigServerInstall function [RAS], _mpr_mprconfigserverinstall, mprapi/MprConfigServerInstall, rras.mprconfigserverinstall
 ms.topic: function
+f1_keywords: ["mprapi/MprConfigServerInstall"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

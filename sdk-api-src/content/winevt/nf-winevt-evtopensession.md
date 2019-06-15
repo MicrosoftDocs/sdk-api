@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtOpenSession, EvtOpenSession function [EventLog], wes.evtopensession, winevt/EvtOpenSession
 ms.topic: function
+f1_keywords: ["winevt/EvtOpenSession"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

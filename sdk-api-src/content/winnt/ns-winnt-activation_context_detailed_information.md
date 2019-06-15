@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PACTIVATION_CONTEXT_DETAILED_INFORMATION, ACTIVATION_CONTEXT_DETAILED_INFORMATION, ACTIVATION_CONTEXT_DETAILED_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_DETAILED_INFORMATION, PACTIVATION_CONTEXT_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_DETAILED_INFORMATION, _win32_activation_context_detailed_information, setup.activation_context_detailed_information, winnt/ACTIVATION_CONTEXT_DETAILED_INFORMATION, winnt/PACTIVATION_CONTEXT_DETAILED_INFORMATION"
 ms.topic: struct
+f1_keywords: ["winnt/ACTIVATION_CONTEXT_DETAILED_INFORMATION"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

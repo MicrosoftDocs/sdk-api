@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring/HSTRING_HEADER, winrt.hstring_header
 ms.topic: struct
+f1_keywords: ["hstring/HSTRING_HEADER"]
 req.header: hstring.h
 req.include-header: 
 req.target-type: Windows

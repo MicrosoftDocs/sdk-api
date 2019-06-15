@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventDescGetChannel, EventDescGetChannel function [ETW], base.eventdescgetchannel_func, etw.eventdescgetchannel_func, evntprov/EventDescGetChannel
 ms.topic: function
+f1_keywords: ["evntprov/EventDescGetChannel"]
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

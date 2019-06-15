@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransactionManagerId, GetTransactionManagerId function [Files], fs.getidentitytransactionmanager_func, fs.gettransactionmanagerid, ktmw32/GetTransactionManagerId
 ms.topic: function
+f1_keywords: ["ktmw32/GetTransactionManagerId"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

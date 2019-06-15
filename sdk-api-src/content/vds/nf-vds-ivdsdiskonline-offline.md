@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline interface,Offline method, IVdsDiskOnline.Offline, IVdsDiskOnline::Offline, Offline, Offline method, Offline method,IVdsDiskOnline interface, base.ivdsdiskonline_offline, vds/IVdsDiskOnline::Offline
 ms.topic: method
+f1_keywords: ["vds/IVdsDiskOnline.Offline"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDCLOSEHANDLE, DDCLOSEHANDLE, DDCLOSEHANDLE structure [Display Devices], LPDDCLOSEHANDLE, LPDDCLOSEHANDLE structure pointer [Display Devices], ddkmapi/DDCLOSEHANDLE, ddkmapi/LPDDCLOSEHANDLE, ddstrcts_6f935c9b-9a18-4002-adcd-f9f203251e84.xml, display.ddclosehandle"
 ms.topic: struct
+f1_keywords: ["ddkmapi/DDCLOSEHANDLE"]
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

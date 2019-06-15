@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorMod, XMVectorMod, XMVectorMod method [DirectX Math Support APIs], dxmath.xmvectormod
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorMod"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

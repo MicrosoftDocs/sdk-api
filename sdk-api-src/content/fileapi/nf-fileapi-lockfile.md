@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LockFile, LockFile function [Files], _win32_lockfile, base.lockfile, fileapi/LockFile, fs.lockfile, winbase/LockFile
 ms.topic: function
+f1_keywords: ["fileapi/LockFile"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

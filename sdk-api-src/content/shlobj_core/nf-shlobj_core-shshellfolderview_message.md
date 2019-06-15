@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHShellFolderView_Message, SHShellFolderView_Message function [Windows Shell], _win32_SHShellFolderView_Message, shell.SHShellFolderView_Message, shlobj_core/SHShellFolderView_Message
 ms.topic: function
+f1_keywords: ["shlobj_core/SHShellFolderView_Message"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

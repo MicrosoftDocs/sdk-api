@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_DH_PARAMETERS_MAGIC, BCRYPT_DH_PARAMETER_HEADER, BCRYPT_DH_PARAMETER_HEADER structure [Security], bcrypt/BCRYPT_DH_PARAMETER_HEADER, security.bcrypt_dh_parameter_header
 ms.topic: struct
+f1_keywords: ["bcrypt/BCRYPT_DH_PARAMETER_HEADER"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

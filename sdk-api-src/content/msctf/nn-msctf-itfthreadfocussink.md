@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadFocusSink, ITfThreadFocusSink interface [Text Services Framework], ITfThreadFocusSink interface [Text Services Framework],described, _tsf_itfthreadfocussink_ref, msctf/ITfThreadFocusSink, tsf.itfthreadfocussink
 ms.topic: interface
+f1_keywords: ["msctf/ITfThreadFocusSink"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

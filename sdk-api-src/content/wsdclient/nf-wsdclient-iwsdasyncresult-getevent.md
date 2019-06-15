@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
 ms.topic: method
+f1_keywords: ["wsdclient/IWSDAsyncResult.GetEvent"]
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

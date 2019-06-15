@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook interface [Windows Shell],SetReferent method, INewShortcutHook::SetReferent, INewShortcutHookA, INewShortcutHookA interface [Windows Shell],SetReferent method, INewShortcutHookA.SetReferent, INewShortcutHookA::SetReferent, INewShortcutHookW, INewShortcutHookW interface [Windows Shell],SetReferent method, INewShortcutHookW::SetReferent, SetReferent, SetReferent method [Windows Shell], SetReferent method [Windows Shell],INewShortcutHook interface, SetReferent method [Windows Shell],INewShortcutHookA interface, SetReferent method [Windows Shell],INewShortcutHookW interface, _win32_INewShortcutHook_SetReferent, shell.INewShortcutHook_SetReferent, shlobj/INewShortcutHook::SetReferent, shlobj/INewShortcutHookA::SetReferent, shlobj/INewShortcutHookW::SetReferent
 ms.topic: method
+f1_keywords: ["shlobj/INewShortcutHookA.SetReferent"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

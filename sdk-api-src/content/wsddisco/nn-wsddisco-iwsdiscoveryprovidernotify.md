@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
 ms.topic: interface
+f1_keywords: ["wsddisco/IWSDiscoveryProviderNotify"]
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDITEMHDR, RDITEMHDR structure [MMC], _slate_rditemhdr, mmc.rditemhdr, mmc/RDITEMHDR
 ms.topic: struct
+f1_keywords: ["mmc/RDITEMHDR"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

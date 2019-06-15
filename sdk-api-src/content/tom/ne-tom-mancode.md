@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MANCODE, MANCODE enumeration [Windows Controls], MBOLD, MFRAK, MGREEK, MINIT, MISOL, MITAL, MLOOP, MMATH, MMONO, MOPEN, MOPENA, MROMN, MSANS, MSCRP, MSTRCH, MTAIL, controls.mancode, tom/MANCODE, tom/MBOLD, tom/MFRAK, tom/MGREEK, tom/MINIT, tom/MISOL, tom/MITAL, tom/MLOOP, tom/MMATH, tom/MMONO, tom/MOPEN, tom/MOPENA, tom/MROMN, tom/MSANS, tom/MSCRP, tom/MSTRCH, tom/MTAIL
 ms.topic: enum
+f1_keywords: ["tom/MANCODE"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

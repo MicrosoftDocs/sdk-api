@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_TASK_DISPLAY_OBJECT, MMC_TASK_DISPLAY_OBJECT structure [MMC], _slate_mmc_task_display_object, mmc.mmc_task_display_object, mmc/MMC_TASK_DISPLAY_OBJECT
 ms.topic: struct
+f1_keywords: ["mmc/MMC_TASK_DISPLAY_OBJECT"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

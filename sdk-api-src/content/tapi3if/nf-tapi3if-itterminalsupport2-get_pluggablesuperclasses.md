@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableSuperclasses method, ITTerminalSupport2.get_PluggableSuperclasses, ITTerminalSupport2::get_PluggableSuperclasses, _tapi3_itterminalsupport2_get_pluggablesuperclasses, get_PluggableSuperclasses, get_PluggableSuperclasses method [TAPI 2.2], get_PluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, tapi3.itterminalsupport2_get_pluggablesuperclasses, tapi3if/ITTerminalSupport2::get_PluggableSuperclasses
 ms.topic: method
+f1_keywords: ["tapi3if/ITTerminalSupport2.get_PluggableSuperclasses"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

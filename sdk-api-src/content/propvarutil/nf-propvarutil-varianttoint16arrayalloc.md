@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToInt16ArrayAlloc, VariantToInt16ArrayAlloc function [Windows Properties], _shell_VariantToInt16ArrayAlloc, properties.VariantToInt16ArrayAlloc, propvarutil/VariantToInt16ArrayAlloc, shell.VariantToInt16ArrayAlloc
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToInt16ArrayAlloc"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

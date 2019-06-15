@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarR4CmpR8, VarR4CmpR8 function [Automation], _oa96_VarR4CmpR8, automat.varr4cmpr8, oleauto/VarR4CmpR8
 ms.topic: function
+f1_keywords: ["oleauto/VarR4CmpR8"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

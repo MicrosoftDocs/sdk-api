@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_ReverseBlockEnd, AM_ReverseBlockStart, AM_SAMPLE2_PROPERTIES, AM_SAMPLE2_PROPERTIES structure [DirectShow], AM_SAMPLE2_PROPERTIESStructure, AM_UseNewCSSKey, AM_VIDEO_FLAG_FIELD1, AM_VIDEO_FLAG_FIELD1FIRST, AM_VIDEO_FLAG_FIELD2, AM_VIDEO_FLAG_FIELD_MASK, AM_VIDEO_FLAG_INTERLEAVED_FRAME, AM_VIDEO_FLAG_REPEAT_FIELD, AM_VIDEO_FLAG_WEAVE, dshow.am_sample2_properties, strmif/AM_SAMPLE2_PROPERTIES
 ms.topic: struct
+f1_keywords: ["strmif/AM_SAMPLE2_PROPERTIES"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

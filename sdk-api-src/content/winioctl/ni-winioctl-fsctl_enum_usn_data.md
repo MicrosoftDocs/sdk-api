@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_ENUM_USN_DATA, FSCTL_ENUM_USN_DATA control, FSCTL_ENUM_USN_DATA control code [Files], _win32_fsctl_enum_usn_data, base.fsctl_enum_usn_data, fs.fsctl_enum_usn_data, winioctl/FSCTL_ENUM_USN_DATA
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_ENUM_USN_DATA"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

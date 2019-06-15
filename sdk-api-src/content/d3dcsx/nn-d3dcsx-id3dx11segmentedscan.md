@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3DX11SegmentedScan, ID3DX11SegmentedScan interface [Direct3D 11], ID3DX11SegmentedScan interface [Direct3D 11],described, c6827b47-df7b-c393-42aa-d39fb87fcf6d, d3dcsx/ID3DX11SegmentedScan, direct3d11.id3dx11segmentedscan
 ms.topic: interface
+f1_keywords: ["d3dcsx/ID3DX11SegmentedScan"]
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

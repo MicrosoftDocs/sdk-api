@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRSOPInformation, IRSOPInformation interface [Group Policy], IRSOPInformation interface [Group Policy],described, _win32_irsopinformation, gpedit/IRSOPInformation, policy.irsopinformation
 ms.topic: interface
+f1_keywords: ["gpedit/IRSOPInformation"]
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

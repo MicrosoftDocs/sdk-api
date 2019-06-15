@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordInfoFromGuids, GetRecordInfoFromGuids function [Automation], _oa96_GetRecordInfoFromGuids, automat.getrecordinfofromguids, oleauto/GetRecordInfoFromGuids
 ms.topic: function
+f1_keywords: ["oleauto/GetRecordInfoFromGuids"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

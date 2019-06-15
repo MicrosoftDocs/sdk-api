@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyWinEvent, NotifyWinEvent function [Windows Accessibility], _msaa_NotifyWinEvent, msaa.notifywinevent, winauto.notifywinevent, winuser/NotifyWinEvent
 ms.topic: function
+f1_keywords: ["winuser/NotifyWinEvent"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

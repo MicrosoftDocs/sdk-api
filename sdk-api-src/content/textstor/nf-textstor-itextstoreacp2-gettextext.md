@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetTextExt method, ITextStoreACP2.GetTextExt, ITextStoreACP2::GetTextExt, textstor/ITextStoreACP2::GetTextExt, tsf.itextstoreacp2_gettextext
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreACP2.GetTextExt"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

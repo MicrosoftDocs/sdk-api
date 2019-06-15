@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjStopVirtualizing, PrjStopVirtualizing function, ProjFS.prjstopvirtualizing, projectedfslib/PrjStopVirtualizing
 ms.topic: function
+f1_keywords: ["projectedfslib/PrjStopVirtualizing"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

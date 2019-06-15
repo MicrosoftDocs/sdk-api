@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProtocolVersion, GetProtocolVersion method [Microsoft TV Technologies], GetProtocolVersion method [Microsoft TV Technologies],IATSC_ETT interface, IATSC_ETT interface [Microsoft TV Technologies],GetProtocolVersion method, IATSC_ETT.GetProtocolVersion, IATSC_ETT::GetProtocolVersion, IATSC_ETTGetProtocolVersion, atscpsipparser/IATSC_ETT::GetProtocolVersion, mstv.iatsc_ett_getprotocolversion
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_ETT.GetProtocolVersion"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

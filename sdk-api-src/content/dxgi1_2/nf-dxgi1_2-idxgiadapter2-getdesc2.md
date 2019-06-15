@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc2, GetDesc2 method [DXGI], GetDesc2 method [DXGI],IDXGIAdapter2 interface, IDXGIAdapter2 interface [DXGI],GetDesc2 method, IDXGIAdapter2.GetDesc2, IDXGIAdapter2::GetDesc2, direct3ddxgi.idxgiadapter2_getdesc2, dxgi1_2/IDXGIAdapter2::GetDesc2
 ms.topic: method
+f1_keywords: ["dxgi1_2/IDXGIAdapter2.GetDesc2"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

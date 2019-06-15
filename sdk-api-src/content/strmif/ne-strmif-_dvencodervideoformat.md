@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVENCODERVIDEOFORMAT, DVENCODERVIDEOFORMATEnumeration, DVENCODERVIDEOFORMAT_NTSC, DVENCODERVIDEOFORMAT_PAL, _DVENCODERVIDEOFORMAT, _DVENCODERVIDEOFORMAT enumeration [DirectShow], dshow.dvencodervideoformat, strmif/DVENCODERVIDEOFORMAT_NTSC, strmif/DVENCODERVIDEOFORMAT_PAL, strmif/_DVENCODERVIDEOFORMAT
 ms.topic: enum
+f1_keywords: ["strmif/_DVENCODERVIDEOFORMAT"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

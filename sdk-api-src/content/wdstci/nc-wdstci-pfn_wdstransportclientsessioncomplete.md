@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientSessionComplete, PFN_WdsTransportClientSessionComplete callback, PFN_WdsTransportClientSessionComplete callback function [Windows Deployment Services], wds.pfn_wdstransportclientsessioncomplete, wdstci/PFN_WdsTransportClientSessionComplete
 ms.topic: callback
+f1_keywords: ["wdstci/PFN_WdsTransportClientSessionComplete"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

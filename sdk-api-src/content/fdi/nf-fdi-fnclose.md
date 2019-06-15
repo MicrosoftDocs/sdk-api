@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNCLOSE, FNCLOSE macro [Windows API], fdi/FNCLOSE, winprog.fnclose
 ms.topic: macro
+f1_keywords: ["fdi/FNCLOSE"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], IWMReaderTimecode interface [windows Media Format],described, IWMReaderTimecodeInterface, wmformat.iwmreadertimecode, wmsdkidl/IWMReaderTimecode
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMReaderTimecode"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

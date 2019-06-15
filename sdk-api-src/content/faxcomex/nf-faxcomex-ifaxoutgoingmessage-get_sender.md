@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],Sender property, IFaxOutgoingMessage.Sender, IFaxOutgoingMessage.get_Sender, IFaxOutgoingMessage::Sender, IFaxOutgoingMessage::get_Sender, Sender property [Fax Service], Sender property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.sender_cpp, fax._mfax_faxoutgoingmessage_sender_cpp, faxcomex/IFaxOutgoingMessage::Sender, faxcomex/IFaxOutgoingMessage::get_Sender, get_Sender
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingMessage.Sender"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

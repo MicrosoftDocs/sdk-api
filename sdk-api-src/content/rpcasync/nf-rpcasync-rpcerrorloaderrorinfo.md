@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcErrorLoadErrorInfo, RpcErrorLoadErrorInfo function [RPC], _rpc_rpcerrorloaderrorinfo, rpc.rpcerrorloaderrorinfo, rpcasync/RpcErrorLoadErrorInfo
 ms.topic: function
+f1_keywords: ["rpcasync/RpcErrorLoadErrorInfo"]
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

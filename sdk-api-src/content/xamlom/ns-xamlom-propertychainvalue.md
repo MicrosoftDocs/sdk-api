@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPropertyChainValue, PPropertyChainValue structure pointer, PropertyChainValue, PropertyChainValue structure, xaml_diagnostics.propertychainvalue, xamlom/PPropertyChainValue, xamlom/PropertyChainValue
 ms.topic: struct
+f1_keywords: ["xamlom/PropertyChainValue"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

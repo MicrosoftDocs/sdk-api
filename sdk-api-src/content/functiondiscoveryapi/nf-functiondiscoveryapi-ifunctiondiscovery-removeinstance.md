@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscovery interface,RemoveInstance method, IFunctionDiscovery.RemoveInstance, IFunctionDiscovery::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IFunctionDiscovery interface, functiondiscoveryapi/IFunctionDiscovery::RemoveInstance, ncd.ifunctiondiscovery_removeinstance_method
 ms.topic: method
+f1_keywords: ["functiondiscoveryapi/IFunctionDiscovery.RemoveInstance"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

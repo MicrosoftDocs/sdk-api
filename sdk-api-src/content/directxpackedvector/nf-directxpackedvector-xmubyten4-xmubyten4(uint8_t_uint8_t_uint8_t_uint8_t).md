@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 constructor [DirectX Math Support APIs], XMUBYTEN4 constructor [DirectX Math Support APIs],XMUBYTEN4 structure, XMUBYTEN4 structure [DirectX Math Support APIs],XMUBYTEN4 constructor, XMUBYTEN4.XMUBYTEN4, XMUBYTEN4.XMUBYTEN4(uint8_t,uint8_t,uint8_t,uint8_t), XMUBYTEN4::XMUBYTEN4, XMUBYTEN4::XMUBYTEN4(uint8_t,uint8_t,uint8_t,uint8_t), dxmath.xmubyten4_ctor_3
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMUBYTEN4.XMUBYTEN4"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

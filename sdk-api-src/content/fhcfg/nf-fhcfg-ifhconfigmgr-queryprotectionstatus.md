@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FH_STATE_DISABLED_BY_GP, FH_STATE_FATAL_CONFIG_ERROR, FH_STATE_NOT_TRACKED, FH_STATE_NO_ERROR, FH_STATE_OFF, FH_STATE_STAGING_FULL, FH_STATE_TARGET_ABSENT, FH_STATE_TARGET_ACCESS_DENIED, FH_STATE_TARGET_FULL, FH_STATE_TARGET_FULL_RETENTION_MAX, FH_STATE_TARGET_LOW_SPACE, FH_STATE_TARGET_LOW_SPACE_RETENTION_MAX, FH_STATE_TARGET_VOLUME_DIRTY, FH_STATE_TOO_MUCH_BEHIND, FhConfigMgr class [Windows API],QueryProtectionStatus method, IFhConfigMgr interface [Windows API],QueryProtectionStatus method, IFhConfigMgr.QueryProtectionStatus, IFhConfigMgr::QueryProtectionStatus, QueryProtectionStatus, QueryProtectionStatus method [Windows API], QueryProtectionStatus method [Windows API],FhConfigMgr class, QueryProtectionStatus method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::QueryProtectionStatus, winprog.ifhconfigmgr_queryprotectionstatus
 ms.topic: method
+f1_keywords: ["fhcfg/IFhConfigMgr.QueryProtectionStatus"]
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

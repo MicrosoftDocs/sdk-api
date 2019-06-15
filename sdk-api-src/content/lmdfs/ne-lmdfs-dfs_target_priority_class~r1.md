@@ -4,6 +4,7 @@ title: DFS_TARGET_PRIORITY_CLASS
 ms.date: 01/30/19
 ms.keywords: _DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS
 ms.topic: language-reference
+f1_keywords: ["lmdfs/_DFS_TARGET_PRIORITY_CLASS"]
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

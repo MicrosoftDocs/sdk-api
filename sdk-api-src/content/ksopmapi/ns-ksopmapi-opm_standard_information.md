@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media Foundation], _OPM_STANDARD_INFORMATION, ksopmapi/OPM_STANDARD_INFORMATION, mf.opm_standard_information
 ms.topic: struct
+f1_keywords: ["ksopmapi/OPM_STANDARD_INFORMATION"]
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

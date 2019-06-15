@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegEnumKey, RegEnumKey function, RegEnumKeyA, RegEnumKeyW, _win32_regenumkey, base.regenumkey, winreg/RegEnumKey, winreg/RegEnumKeyA, winreg/RegEnumKeyW
 ms.topic: function
+f1_keywords: ["winreg/RegEnumKey"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

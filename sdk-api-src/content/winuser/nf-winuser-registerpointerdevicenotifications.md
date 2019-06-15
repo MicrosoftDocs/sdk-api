@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerDeviceNotifications, RegisterPointerDeviceNotifications function, input_pointerdevice.registerpointerdevicenotifications, unifiedinputstack.registerpointerdevicenotifications, winuser/RegisterPointerDeviceNotifications
 ms.topic: function
+f1_keywords: ["winuser/RegisterPointerDeviceNotifications"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

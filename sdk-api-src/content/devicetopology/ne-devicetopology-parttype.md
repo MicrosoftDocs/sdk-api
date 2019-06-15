@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connector, PartType, PartType , PartType enumeration [Core Audio], Subunit, coreaudio.parttype, devicetopology/Connector, devicetopology/PartType, devicetopology/Subunit
 ms.topic: enum
+f1_keywords: ["devicetopology/PartType"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

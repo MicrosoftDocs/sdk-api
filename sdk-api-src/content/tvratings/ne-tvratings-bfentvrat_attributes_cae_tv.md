@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BfEnTvRat_Attributes_CAE_TV, BfEnTvRat_Attributes_CAE_TV enumeration [Microsoft TV Technologies], CAE_IsBlocked, CAE_ValidAttrSubmask, mstv.bfentvrat_attributes_cae_tv, tvratings/BfEnTvRat_Attributes_CAE_TV, tvratings/CAE_IsBlocked, tvratings/CAE_ValidAttrSubmask
 ms.topic: enum
+f1_keywords: ["tvratings/BfEnTvRat_Attributes_CAE_TV"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

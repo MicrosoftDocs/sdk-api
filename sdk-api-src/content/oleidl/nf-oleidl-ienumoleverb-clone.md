@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOLEVERB interface, IEnumOLEVERB interface [COM],Clone method, IEnumOLEVERB.Clone, IEnumOLEVERB::Clone, _ole_ienumoleverb_clone, com.ienumoleverb_clone, oleidl/IEnumOLEVERB::Clone
 ms.topic: method
+f1_keywords: ["oleidl/IEnumOLEVERB.Clone"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

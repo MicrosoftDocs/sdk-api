@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_CONVOLUTION_MODE, DML_CONVOLUTION_MODE enumeration, DML_CONVOLUTION_MODE_CONVOLUTION, DML_CONVOLUTION_MODE_CROSS_CORRELATION, direct3d12.dml_convolution_mode, directml/DML_CONVOLUTION_MODE, directml/DML_CONVOLUTION_MODE_CONVOLUTION, directml/DML_CONVOLUTION_MODE_CROSS_CORRELATION
 ms.topic: enum
+f1_keywords: ["directml/DML_CONVOLUTION_MODE"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

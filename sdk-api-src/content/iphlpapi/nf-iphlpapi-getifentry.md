@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
 ms.topic: function
+f1_keywords: ["iphlpapi/GetIfEntry"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

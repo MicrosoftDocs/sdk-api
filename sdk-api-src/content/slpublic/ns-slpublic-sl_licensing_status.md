@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SL_LICENSING_STATUS, SL_LICENSING_STATUS structure [Security], security.sl_licensing_status, slpublic/SL_LICENSING_STATUS
 ms.topic: struct
+f1_keywords: ["slpublic/SL_LICENSING_STATUS"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfConnectSyncRoot, CfConnectSyncRoot function, cfapi/CfConnectSyncRoot, cloudApi.cfconnectsyncroot
 ms.topic: function
+f1_keywords: ["cfapi/CfConnectSyncRoot"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

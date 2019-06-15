@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(HWND,BOOL), Graphics.Graphics(IN HWND,IN BOOL), Graphics::Graphics, Graphics::Graphics(IN HWND,IN BOOL), _gdiplus_CLASS_Graphics_Graphics_hwnd_icm_, gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_
 ms.topic: method
+f1_keywords: ["gdiplusgraphics/Graphics.Graphics"]
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

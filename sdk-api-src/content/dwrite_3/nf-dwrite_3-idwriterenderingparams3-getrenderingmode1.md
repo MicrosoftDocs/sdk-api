@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRenderingMode1, GetRenderingMode1 method [Direct Write], GetRenderingMode1 method [Direct Write],IDWriteRenderingParams3 interface, IDWriteRenderingParams3 interface [Direct Write],GetRenderingMode1 method, IDWriteRenderingParams3.GetRenderingMode1, IDWriteRenderingParams3::GetRenderingMode1, directwrite.idwriterenderingparams3_getrenderingmode1, dwrite_3/IDWriteRenderingParams3::GetRenderingMode1
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteRenderingParams3.GetRenderingMode1"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel function [Windows GDI], _win32_CreatePrintAsyncNotifyChannel, gdi.createprintasyncnotifychannel, prnasnot/CreatePrintAsyncNotifyChannel
 ms.topic: function
+f1_keywords: ["prnasnot/CreatePrintAsyncNotifyChannel"]
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows

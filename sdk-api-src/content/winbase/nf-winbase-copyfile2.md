@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyFile2, CopyFile2 function [Files], fs.copyfile2, winbase/CopyFile2
 ms.topic: function
+f1_keywords: ["winbase/CopyFile2"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

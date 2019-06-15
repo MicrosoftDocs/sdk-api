@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructure, dshow.filter_info, strmif/FILTER_INFO
 ms.topic: struct
+f1_keywords: ["strmif/FILTER_INFO"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

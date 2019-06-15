@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageVersion, WdsCliGetImageVersion function [Windows Deployment Services], wds.wdscligetimageversion, wdsclientapi/WdsCliGetImageVersion
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliGetImageVersion"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

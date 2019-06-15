@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHH_WINTYPE, HH_WINTYPE, HH_WINTYPE structure [HTML Help Workshop], htmlhelp.hh_wintype_structure, htmlhelp/HH_WINTYPE, vsconStrhhwintype"
 ms.topic: struct
+f1_keywords: ["htmlhelp/HH_WINTYPE"]
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

@@ -4,6 +4,7 @@ title: ILLoadFromStreamEx
 ms.date: 01/30/19
 ms.keywords: ILLoadFromStreamEx
 ms.topic: language-reference
+f1_keywords: ["shlobj_core/ILLoadFromStreamEx"]
 targetos: Windows
 product: Windows
 req.assembly: 

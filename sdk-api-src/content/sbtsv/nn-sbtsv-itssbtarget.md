@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services],described, sbtsv/ITsSbTarget, termserv.itssbtarget
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbTarget"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

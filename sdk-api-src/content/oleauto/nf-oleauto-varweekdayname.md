@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarWeekdayName, VarWeekdayName function [Automation], _oa96_VarWeekdayName, automat.varweekdayname, oleauto/VarWeekdayName
 ms.topic: function
+f1_keywords: ["oleauto/VarWeekdayName"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

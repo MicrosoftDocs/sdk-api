@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionNotification, IAudioSessionNotification interface [Core Audio], IAudioSessionNotification interface [Core Audio],described, audiopolicy/IAudioSessionNotification, coreaudio.iaudiosessionnotification
 ms.topic: interface
+f1_keywords: ["audiopolicy/IAudioSessionNotification"]
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

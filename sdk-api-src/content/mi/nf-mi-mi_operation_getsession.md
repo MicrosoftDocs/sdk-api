@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_GetSession, MI_Operation_GetSession function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetSession, wmi_v2.mi_operation_getsession
 ms.topic: function
+f1_keywords: ["mi/MI_Operation_GetSession"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIOBJECTCALIBRATION, DIOBJECTCALIBRATION, DIOBJECTCALIBRATION structure [Human Input Devices], di_ref_232167f0-8ec2-4ec7-91aa-169ab5ae5921.xml, dinputd/DIOBJECTCALIBRATION, hid.diobjectcalibration"
 ms.topic: struct
+f1_keywords: ["dinputd/DIOBJECTCALIBRATION"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows

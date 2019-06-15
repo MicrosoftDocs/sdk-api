@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Actions property [Task Scheduler], Actions property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Actions property, ITaskDefinition.Actions, ITaskDefinition.get_Actions, ITaskDefinition::Actions, ITaskDefinition::get_Actions, ITaskDefinition::put_Actions, get_Actions, taskschd.itaskdefinition_actions, taskschd/ITaskDefinition::Actions, taskschd/ITaskDefinition::get_Actions, taskschd/ITaskDefinition::put_Actions
 ms.topic: method
+f1_keywords: ["taskschd/ITaskDefinition.Actions"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

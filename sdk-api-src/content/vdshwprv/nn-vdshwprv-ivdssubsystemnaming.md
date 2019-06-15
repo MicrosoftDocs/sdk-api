@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming
 ms.topic: interface
+f1_keywords: ["vdshwprv/IVdsSubSystemNaming"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

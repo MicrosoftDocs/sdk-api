@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComMethod2Events interface [COM+],OnMethodException2 method, IComMethod2Events.OnMethodException2, IComMethod2Events::OnMethodException2, OnMethodException2, OnMethodException2 method [COM+], OnMethodException2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodException2, comsvcs/IComMethod2Events::OnMethodException2, cos.icommethod2events_onmethodexception2
 ms.topic: method
+f1_keywords: ["comsvcs/IComMethod2Events.OnMethodException2"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

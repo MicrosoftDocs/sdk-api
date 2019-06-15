@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CO_MARSHALING_CONTEXT_ATTRIBUTES, CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration [COM], CO_MARSHALING_SOURCE_IS_APP_CONTAINER, com.co_marshaling_context_attributes, objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES, objidl/CO_MARSHALING_SOURCE_IS_APP_CONTAINER
 ms.topic: enum
+f1_keywords: ["objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES"]
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

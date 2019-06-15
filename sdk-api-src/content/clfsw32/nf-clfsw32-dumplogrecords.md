@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsNullRecord, ClfsRestartRecord, DumpLogRecords, DumpLogRecords function [Files], clfsw32/DumpLogRecords, fs.dumplogrecords
 ms.topic: function
+f1_keywords: ["clfsw32/DumpLogRecords"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterSetRegistrationInfo, PerfQueryCounterSetRegistrationInfo function [Perf], perf.perfquerycountersetregistrationinfo, perflib/PerfQueryCounterSetRegistrationInfo
 ms.topic: function
+f1_keywords: ["perflib/PerfQueryCounterSetRegistrationInfo"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

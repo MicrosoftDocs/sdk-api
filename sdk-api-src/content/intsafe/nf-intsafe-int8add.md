@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
 ms.topic: function
+f1_keywords: ["intsafe/Int8Add"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],KeySpec property, ICEnroll interface [Security],KeySpec property, ICEnroll.KeySpec, ICEnroll.put_KeySpec, ICEnroll2 interface [Security],KeySpec property, ICEnroll2.KeySpec, ICEnroll2::get_KeySpec, ICEnroll2::put_KeySpec, ICEnroll3 interface [Security],KeySpec property, ICEnroll3.KeySpec, ICEnroll3::get_KeySpec, ICEnroll3::put_KeySpec, ICEnroll4 interface [Security],KeySpec property, ICEnroll4.KeySpec, ICEnroll4::KeySpec, ICEnroll4::get_KeySpec, ICEnroll4::put_KeySpec, ICEnroll::get_KeySpec, ICEnroll::put_KeySpec, KeySpec property [Security], KeySpec property [Security],CEnroll object, KeySpec property [Security],ICEnroll interface, KeySpec property [Security],ICEnroll2 interface, KeySpec property [Security],ICEnroll3 interface, KeySpec property [Security],ICEnroll4 interface, put_KeySpec, security.icenroll4_keyspec, xenroll/ICEnroll2::KeySpec, xenroll/ICEnroll2::get_KeySpec, xenroll/ICEnroll2::put_KeySpec, xenroll/ICEnroll3::KeySpec, xenroll/ICEnroll3::get_KeySpec, xenroll/ICEnroll3::put_KeySpec, xenroll/ICEnroll4::KeySpec, xenroll/ICEnroll4::get_KeySpec, xenroll/ICEnroll4::put_KeySpec, xenroll/ICEnroll::KeySpec, xenroll/ICEnroll::get_KeySpec, xenroll/ICEnroll::put_KeySpec
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.KeySpec"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

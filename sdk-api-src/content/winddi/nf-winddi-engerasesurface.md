@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngEraseSurface, EngEraseSurface function [Display Devices], display.engerasesurface, gdifncs_49673ad2-d8a0-4c8b-bf0f-c1fab9f3c519.xml, winddi/EngEraseSurface
 ms.topic: function
+f1_keywords: ["winddi/EngEraseSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

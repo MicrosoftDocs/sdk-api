@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewRect, GetViewRect method [Windows Shell], GetViewRect method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetViewRect method, IBrowserService2.GetViewRect, IBrowserService2::GetViewRect, shdeprecated/IBrowserService2::GetViewRect, shell.IBrowserService2_GetViewRect, zone_IBrowserService2_GetViewRect
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2.GetViewRect"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

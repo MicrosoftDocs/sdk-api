@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],GetDocument method, IVssCreateWriterMetadata.GetDocument, IVssCreateWriterMetadata::GetDocument, _win32_ivsscreatewritermetadata_getdocument, base.ivsscreatewritermetadata_getdocument, vswriter/IVssCreateWriterMetadata::GetDocument
 ms.topic: method
+f1_keywords: ["vswriter/IVssCreateWriterMetadata.GetDocument"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

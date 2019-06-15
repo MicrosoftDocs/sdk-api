@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddVectoredContinueHandler, AddVectoredContinueHandler function, base.addvectoredcontinuehandler, errhandlingapi/AddVectoredContinueHandler
 ms.topic: function
+f1_keywords: ["errhandlingapi/AddVectoredContinueHandler"]
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerFreeMemory, EapHostPeerFreeMemory function [EAPHost], eaphost.eaphostpeerfreememory, eaphostpeerconfigapis/EapHostPeerFreeMemory
 ms.topic: function
+f1_keywords: ["eaphostpeerconfigapis/EapHostPeerFreeMemory"]
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

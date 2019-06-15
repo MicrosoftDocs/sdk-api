@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWDS_CLI_CRED, *PWDS_CLI_CRED, LPWDS_CLI_CRED, LPWDS_CLI_CRED structure pointer [Windows Deployment Services], PWDS_CLI_CRED, PWDS_CLI_CRED structure pointer [Windows Deployment Services], WDS_CLI_CRED, WDS_CLI_CRED structure [Windows Deployment Services], wds.wds_cli_cred, wdsclientapi/LPWDS_CLI_CRED, wdsclientapi/PWDS_CLI_CRED, wdsclientapi/WDS_CLI_CRED"
 ms.topic: struct
+f1_keywords: ["wdsclientapi/WDS_CLI_CRED"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMClockAdjust, IAMClockAdjust interface [DirectShow], IAMClockAdjust interface [DirectShow],described, IAMClockAdjustInterface, dshow.iamclockadjust, strmif/IAMClockAdjust
 ms.topic: interface
+f1_keywords: ["strmif/IAMClockAdjust"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

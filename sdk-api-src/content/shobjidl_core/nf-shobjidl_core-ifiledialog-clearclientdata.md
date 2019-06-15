@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearClientData, ClearClientData method [Windows Shell], ClearClientData method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],ClearClientData method, IFileDialog.ClearClientData, IFileDialog::ClearClientData, shell.IFileDialog_ClearClientData, shell_IFileDialog_ClearClientData, shobjidl_core/IFileDialog::ClearClientData
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialog.ClearClientData"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

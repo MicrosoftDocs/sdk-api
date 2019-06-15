@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
 ms.topic: interface
+f1_keywords: ["exdisp/IWebBrowser2"]
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

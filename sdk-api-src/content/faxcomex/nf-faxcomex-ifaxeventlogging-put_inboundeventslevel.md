@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging interface [Fax Service],InboundEventsLevel property, IFaxEventLogging.InboundEventsLevel, IFaxEventLogging.get_InboundEventsLevel, IFaxEventLogging.put_InboundEventsLevel, IFaxEventLogging::InboundEventsLevel, IFaxEventLogging::get_InboundEventsLevel, IFaxEventLogging::put_InboundEventsLevel, InboundEventsLevel property [Fax Service], InboundEventsLevel property [Fax Service],IFaxEventLogging interface, _mfax_faxeventlogging.inboundeventslevel, fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_inboundeventslevel_cpp, fax._mfax_faxeventlogging_inboundeventslevel, faxcomex/IFaxEventLogging::InboundEventsLevel, faxcomex/IFaxEventLogging::get_InboundEventsLevel, faxcomex/IFaxEventLogging::put_InboundEventsLevel, put_InboundEventsLevel
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxEventLogging.InboundEventsLevel"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

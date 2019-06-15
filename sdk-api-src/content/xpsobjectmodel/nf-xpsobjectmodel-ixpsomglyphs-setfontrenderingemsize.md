@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontRenderingEmSize method, IXpsOMGlyphs.SetFontRenderingEmSize, IXpsOMGlyphs::SetFontRenderingEmSize, SetFontRenderingEmSize, SetFontRenderingEmSize method [XPS Documents and Packaging], SetFontRenderingEmSize method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontrenderingemsize, xpsobjectmodel/IXpsOMGlyphs::SetFontRenderingEmSize
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMGlyphs.SetFontRenderingEmSize"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

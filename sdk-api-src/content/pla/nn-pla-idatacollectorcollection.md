@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorCollection, IDataCollectorCollection interface [PLA], IDataCollectorCollection interface [PLA],described, base.idatacollectorcollection, pla.idatacollectorcollection, pla/IDataCollectorCollection
 ms.topic: interface
+f1_keywords: ["pla/IDataCollectorCollection"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

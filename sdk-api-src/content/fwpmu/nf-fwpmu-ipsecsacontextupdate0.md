@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_BUNDLE_UPDATE_FLAGS, IPSEC_SA_BUNDLE_UPDATE_KEY_MODULE_STATE, IPSEC_SA_BUNDLE_UPDATE_MM_SA_ID, IPSEC_SA_BUNDLE_UPDATE_NAP_CONTEXT, IPSEC_SA_BUNDLE_UPDATE_PEER_V4_PRIVATE_ADDRESS, IPSEC_SA_DETAILS_UPDATE_TRAFFIC, IPSEC_SA_DETAILS_UPDATE_UDP_ENCAPSULATION, IPsecSaContextUpdate0, IPsecSaContextUpdate0 function [Filtering], fwp.ipsecsacontextupdate0, fwpmu/IPsecSaContextUpdate0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaContextUpdate0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

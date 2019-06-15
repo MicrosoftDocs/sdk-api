@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Name property, IWdsTransportContent.Name, IWdsTransportContent.get_Name, IWdsTransportContent::Name, IWdsTransportContent::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContent interface, get_Name, wds.iwdstransportcontent_name, wdstptmgmt/IWdsTransportContent::Name, wdstptmgmt/IWdsTransportContent::get_Name
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportContent.Name"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

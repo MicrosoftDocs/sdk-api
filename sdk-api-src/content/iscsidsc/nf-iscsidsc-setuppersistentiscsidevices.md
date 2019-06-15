@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupPersistentIScsiDevices, SetupPersistentIscsiDevices, SetupPersistentIscsiDevices function [iSCSI Discovery Library API], iscsidisc.setuppersistentiscsidevices, iscsidsc/SetupPersistentIscsiDevices
 ms.topic: function
+f1_keywords: ["iscsidsc/SetupPersistentIscsiDevices"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

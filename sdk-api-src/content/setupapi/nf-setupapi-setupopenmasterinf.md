@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupOpenMasterInf, SetupOpenMasterInf function [Setup API], _setupapi_setupopenmasterinf, setup.setupopenmasterinf, setupapi/SetupOpenMasterInf
 ms.topic: function
+f1_keywords: ["setupapi/SetupOpenMasterInf"]
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

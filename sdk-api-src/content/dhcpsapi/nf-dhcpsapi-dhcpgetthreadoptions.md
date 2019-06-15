@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpGetThreadOptions, DhcpGetThreadOptions function [DHCP], dhcp.dhcpgetthreadoptions, dhcpsapi/DhcpGetThreadOptions
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpGetThreadOptions"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

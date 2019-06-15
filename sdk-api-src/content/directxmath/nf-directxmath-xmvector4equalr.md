@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4EqualR, XMVector4EqualR, XMVector4EqualR method [DirectX Math Support APIs], dxmath.xmvector4equalr
 ms.topic: function
+f1_keywords: ["directxmath/XMVector4EqualR"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

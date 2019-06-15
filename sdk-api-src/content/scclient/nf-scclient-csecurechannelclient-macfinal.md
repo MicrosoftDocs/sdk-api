@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACFinal method, CSecureChannelClient.MACFinal, CSecureChannelClient::MACFinal, CSecureChannelClientMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACFinal, wmdm.csecurechannelclient_macfinal
 ms.topic: method
+f1_keywords: ["scclient/CSecureChannelClient.MACFinal"]
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_BUFFER_SRV, D3D12_BUFFER_SRV structure, d3d12/D3D12_BUFFER_SRV, direct3d12.d3d12_buffer_srv
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_BUFFER_SRV"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

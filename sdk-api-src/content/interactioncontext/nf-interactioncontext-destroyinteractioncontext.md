@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyInteractionContext, DestroyInteractionContext function, input_intcontext.destroyinteractioncontext, interactioncontext.destroyinteractioncontext, interactioncontext/DestroyInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/DestroyInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

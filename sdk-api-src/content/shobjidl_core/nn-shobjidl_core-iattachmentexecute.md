@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute, IAttachmentExecute interface [Windows Shell], IAttachmentExecute interface [Windows Shell],described, _win32_IAttachmentExecute, shell.IAttachmentExecute, shobjidl_core/IAttachmentExecute
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IAttachmentExecute"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

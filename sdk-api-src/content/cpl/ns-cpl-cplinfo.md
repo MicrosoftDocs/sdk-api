@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO"
 ms.topic: struct
+f1_keywords: ["cpl/CPLINFO"]
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows

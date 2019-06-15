@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RdcNeedPointer, RdcNeedPointer structure [Remote Differential Compression], fs.rdcneedpointer, msrdc/RdcNeedPointer, rdc.rdcneedpointer
 ms.topic: struct
+f1_keywords: ["msrdc/RdcNeedPointer"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

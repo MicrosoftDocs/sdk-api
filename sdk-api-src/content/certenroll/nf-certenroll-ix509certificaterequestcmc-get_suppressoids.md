@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SuppressOids property, IX509CertificateRequestCmc.SuppressOids, IX509CertificateRequestCmc.get_SuppressOids, IX509CertificateRequestCmc::SuppressOids, IX509CertificateRequestCmc::get_SuppressOids, SuppressOids property [Security], SuppressOids property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SuppressOids, certenroll/IX509CertificateRequestCmc::get_SuppressOids, get_SuppressOids, security.ix509certificaterequestcmc_suppressoids_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequestCmc.SuppressOids"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

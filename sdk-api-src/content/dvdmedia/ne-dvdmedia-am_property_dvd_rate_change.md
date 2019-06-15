@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_PROPERTY_DVD_RATE_CHANGE, AM_PROPERTY_DVD_RATE_CHANGE enumeration [DirectShow], AM_RATE_ChangeRate, AM_RATE_DecoderPosition, AM_RATE_DecoderVersion, AM_RATE_FullDataRateMax, AM_RATE_ReverseDecode, dshow.am_property_dvd_rate_change, dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE, dvdmedia/AM_RATE_ChangeRate, dvdmedia/AM_RATE_DecoderPosition, dvdmedia/AM_RATE_DecoderVersion, dvdmedia/AM_RATE_FullDataRateMax, dvdmedia/AM_RATE_ReverseDecode
 ms.topic: enum
+f1_keywords: ["dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE"]
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

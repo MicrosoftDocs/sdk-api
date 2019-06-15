@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession3 interface [Windows Update Agent],QueryHistory method, IUpdateSession3.QueryHistory, IUpdateSession3::QueryHistory, QueryHistory, QueryHistory method [Windows Update Agent], QueryHistory method [Windows Update Agent],IUpdateSession3 interface, wua.iupdatesession3_queryhistory, wuapi/IUpdateSession3::QueryHistory
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateSession3.QueryHistory"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

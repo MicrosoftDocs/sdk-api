@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Path property, IRegisteredTask.Path, IRegisteredTask.get_Path, IRegisteredTask::Path, IRegisteredTask::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],IRegisteredTask interface, get_Path, taskschd.iregisteredtask_path, taskschd/IRegisteredTask::Path, taskschd/IRegisteredTask::get_Path
 ms.topic: method
+f1_keywords: ["taskschd/IRegisteredTask.Path"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

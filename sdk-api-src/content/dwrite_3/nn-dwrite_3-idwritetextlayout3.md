@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout3, IDWriteTextLayout3 interface [Direct Write], IDWriteTextLayout3 interface [Direct Write],described, directwrite.idwritetextlayout3, dwrite_3/IDWriteTextLayout3
 ms.topic: interface
+f1_keywords: ["dwrite_3/IDWriteTextLayout3"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

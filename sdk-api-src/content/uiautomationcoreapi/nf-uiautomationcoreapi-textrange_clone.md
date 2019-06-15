@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_Clone, TextRange_Clone function [Windows Accessibility], uiauto.uiauto_TextRange_CloneConPat, uiauto_TextRange_CloneConPat, uiautomationcoreapi/TextRange_Clone, winauto.uiauto_TextRange_CloneConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/TextRange_Clone"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

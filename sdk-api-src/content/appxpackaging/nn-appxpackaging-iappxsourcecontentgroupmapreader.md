@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxSourceContentGroupMapReader, IAppxSourceContentGroupMapReader interface [App packaging and management], IAppxSourceContentGroupMapReader interface [App packaging and management],described, appxpackaging/IAppxSourceContentGroupMapReader, appxpkg.iappxsourcecontentgroupmapreader
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxSourceContentGroupMapReader"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

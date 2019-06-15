@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecInt, VarDecInt function [Automation], _oa96_VarDecInt, automat.vardecint, oleauto/VarDecInt
 ms.topic: function
+f1_keywords: ["oleauto/VarDecInt"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

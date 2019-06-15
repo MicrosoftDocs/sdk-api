@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoalesceEvents property [Windows Accessibility], CoalesceEvents property [Windows Accessibility],IUIAutomation6 interface, IUIAutomation6 interface [Windows Accessibility],CoalesceEvents property, IUIAutomation6.CoalesceEvents, IUIAutomation6.get_CoalesceEvents, IUIAutomation6::CoalesceEvents, IUIAutomation6::get_CoalesceEvents, IUIAutomation6::put_CoalesceEvents, get_CoalesceEvents, uiautomationclient/IUIAutomation6::CoalesceEvents, uiautomationclient/IUIAutomation6::get_CoalesceEvents, uiautomationclient/IUIAutomation6::put_CoalesceEvents, winauto.uiauto_IUIAutomation6_CoalesceEvents
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomation6.CoalesceEvents"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

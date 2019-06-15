@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsWddmIddProps, IWRdsWddmIddProps interface [Remote Desktop Services], IWRdsWddmIddProps interface [Remote Desktop Services],described, termserv.iwrdswddmiddprops, wtsprotocol/IWRdsWddmIddProps
 ms.topic: interface
+f1_keywords: ["wtsprotocol/IWRdsWddmIddProps"]
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

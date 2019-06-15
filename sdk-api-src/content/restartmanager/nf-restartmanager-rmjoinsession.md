@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager/RmJoinSession, rstmgr.rmjoinsession
 ms.topic: function
+f1_keywords: ["restartmanager/RmJoinSession"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

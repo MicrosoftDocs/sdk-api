@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAuditClear, NetAuditClear function [Network Management], _win32_netauditclear, lmaudit/NetAuditClear, netmgmt.netauditclear
 ms.topic: function
+f1_keywords: ["lmaudit/NetAuditClear"]
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWABObject, IWABObject interface [Windows Address Book], IWABObject interface [Windows Address Book],described, _wab_IWABObject, wab._wab_IWABObject, wabapi/IWABObject
 ms.topic: interface
+f1_keywords: ["wabapi/IWABObject"]
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

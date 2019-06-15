@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enumerate, Enumerate method [MMC], Enumerate method [MMC],IStringTable interface, IStringTable interface [MMC],Enumerate method, IStringTable.Enumerate, IStringTable::Enumerate, _slate_istringtable_enumerate, mmc.istringtable_enumerate, mmc/IStringTable::Enumerate
 ms.topic: method
+f1_keywords: ["mmc/IStringTable.Enumerate"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMappings, AddMappings method [Direct Write], AddMappings method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],AddMappings method, IDWriteFontFallbackBuilder.AddMappings, IDWriteFontFallbackBuilder::AddMappings, directwrite.idwritefontfallbackbuilder_addmappings, dwrite_2/IDWriteFontFallbackBuilder::AddMappings
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteFontFallbackBuilder.AddMappings"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

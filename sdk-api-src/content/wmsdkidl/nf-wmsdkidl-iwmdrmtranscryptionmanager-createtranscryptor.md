@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTranscryptor, CreateTranscryptor method [windows Media Format], CreateTranscryptor method [windows Media Format],IWMDRMTranscryptionManager interface, IWMDRMTranscryptionManager interface [windows Media Format],CreateTranscryptor method, IWMDRMTranscryptionManager.CreateTranscryptor, IWMDRMTranscryptionManager::CreateTranscryptor, wmformat.iwmdrmtranscryptionmanager_createtranscryptor, wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMDRMTranscryptionManager.CreateTranscryptor"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

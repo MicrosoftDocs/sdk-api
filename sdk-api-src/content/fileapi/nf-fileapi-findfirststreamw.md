@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstStreamW, FindFirstStreamW function [Files], FindStreamInfoStandard, _win32_findfirststreamw, base.findfirststreamw, fileapi/FindFirstStreamW, fs.findfirststreamw
 ms.topic: function
+f1_keywords: ["fileapi/FindFirstStreamW"]
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

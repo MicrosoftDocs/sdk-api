@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
 ms.topic: interface
+f1_keywords: ["shimgdata/IShellImageDataAbort"]
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

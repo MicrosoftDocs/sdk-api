@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+], Point class [GDI+],described, _gdiplus_CLASS_Point_Class, gdiplus._gdiplus_CLASS_Point_Class, gdiplustypes/Point
 ms.topic: class
+f1_keywords: ["gdiplustypes/Point"]
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSGetImageReferenceForValue, PSGetImageReferenceForValue function [Windows Properties], _shell_PSGetImageReferenceForValue, properties.PSGetImageReferenceForValue, propsys/PSGetImageReferenceForValue, shell.PSGetImageReferenceForValue
 ms.topic: function
+f1_keywords: ["propsys/PSGetImageReferenceForValue"]
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows

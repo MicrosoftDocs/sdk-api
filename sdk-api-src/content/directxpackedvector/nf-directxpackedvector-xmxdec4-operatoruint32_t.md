@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMXDEC4.operator uint32_t, DirectX::PackedVector::XMXDEC4::operator uint32_t, XMXDEC4 structure [DirectX Math Support APIs],operator uint32_t method, XMXDEC4.operator uint32_t, XMXDEC4::operator uint32_t, dxmath.xmxdec4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMXDEC4 structure
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMXDEC4.operator uint32_t"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

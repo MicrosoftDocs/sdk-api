@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExportNtmsDatabase, ExportNtmsDatabase function [Files], _zaw_exportntmsdatabase, base.exportntmsdatabase, fs.exportntmsdatabase, ntmsapi/ExportNtmsDatabase
 ms.topic: function
+f1_keywords: ["ntmsapi/ExportNtmsDatabase"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

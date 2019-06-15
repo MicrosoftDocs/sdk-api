@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
 ms.topic: function
+f1_keywords: ["webservices/WsGetReaderPosition"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

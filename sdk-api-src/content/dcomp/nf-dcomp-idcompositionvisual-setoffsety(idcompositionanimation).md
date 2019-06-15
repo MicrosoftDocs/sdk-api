@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetOffsetY method, IDCompositionVisual.SetOffsetY, IDCompositionVisual.SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY, IDCompositionVisual::SetOffsetY(IDCompositionAnimation), IDCompositionVisual::SetOffsetY(IDCompositionAnimation*), SetOffsetY, SetOffsetY method [DirectComposition], SetOffsetY method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetOffsetY, directcomp.idcompositionvisual_setoffsety_idcompositionanimation
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionVisual.SetOffsetY"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

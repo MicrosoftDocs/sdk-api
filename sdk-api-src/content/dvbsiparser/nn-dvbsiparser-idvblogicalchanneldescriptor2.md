@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvbLogicalChannelDescriptor2, IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies], IDvbLogicalChannelDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLogicalChannelDescriptor2, mstv.idvblogicalchanneldescriptor2
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IDvbLogicalChannelDescriptor2"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

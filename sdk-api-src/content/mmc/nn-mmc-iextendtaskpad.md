@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExtendTaskPad, IExtendTaskPad interface [MMC], IExtendTaskPad interface [MMC],described, _slate_iextendtaskpad, mmc.iextendtaskpad, mmc/IExtendTaskPad
 ms.topic: interface
+f1_keywords: ["mmc/IExtendTaskPad"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

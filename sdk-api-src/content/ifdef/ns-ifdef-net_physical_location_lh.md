@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNET_PHYSICAL_LOCATION, *PNET_PHYSICAL_LOCATION_LH, NET_PHYSICAL_LOCATION, NET_PHYSICAL_LOCATION structure [Network Drivers Starting with Windows Vista], NET_PHYSICAL_LOCATION_LH, ifdef/NET_PHYSICAL_LOCATION, net_if_struct_ref_838a8166-a43e-4b5a-ab96-15286d981684.xml, netvista.net_physical_location"
 ms.topic: struct
+f1_keywords: ["ifdef/NET_PHYSICAL_LOCATION"]
 req.header: ifdef.h
 req.include-header: Ntddndis.h
 req.target-type: Windows

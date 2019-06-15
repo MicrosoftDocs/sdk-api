@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkStopUsing, WlanHostedNetworkStopUsing function [NativeWIFI], nwifi.wlanhostednetworkstopusing, wlanapi/WlanHostedNetworkStopUsing
 ms.topic: function
+f1_keywords: ["wlanapi/WlanHostedNetworkStopUsing"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetForceFeedbackState, GetForceFeedbackState method [Human Input Devices], GetForceFeedbackState method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],GetForceFeedbackState method, IDirectInputEffectDriver.GetForceFeedbackState, IDirectInputEffectDriver::GetForceFeedbackState, di_ref_a4cecccc-23d2-408c-90af-f178846f3938.xml, dinputd/IDirectInputEffectDriver::GetForceFeedbackState, hid.idirectinputeffectdriver_getforcefeedbackstate
 ms.topic: method
+f1_keywords: ["dinputd/IDirectInputEffectDriver.GetForceFeedbackState"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

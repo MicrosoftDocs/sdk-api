@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], IAdviseSinkEx interface [COM],described, _ole_iadvisesinkex, com.iadvisesinkex, ocidl/IAdviseSinkEx
 ms.topic: interface
+f1_keywords: ["ocidl/IAdviseSinkEx"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

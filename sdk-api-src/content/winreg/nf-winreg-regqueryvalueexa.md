@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegQueryValueEx, RegQueryValueEx function, RegQueryValueExA, RegQueryValueExW, _win32_regqueryvalueex, base.regqueryvalueex, winreg/RegQueryValueEx, winreg/RegQueryValueExA, winreg/RegQueryValueExW
 ms.topic: function
+f1_keywords: ["winreg/RegQueryValueEx"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

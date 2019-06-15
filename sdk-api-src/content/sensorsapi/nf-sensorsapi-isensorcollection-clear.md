@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method, Clear method,ISensorCollection interface, ISensorCollection interface,Clear method, ISensorCollection.Clear, ISensorCollection::Clear, sensorsapi/ISensorCollection::Clear, winsensors_com_ref.isensorcollection_clear
 ms.topic: method
+f1_keywords: ["sensorsapi/ISensorCollection.Clear"]
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

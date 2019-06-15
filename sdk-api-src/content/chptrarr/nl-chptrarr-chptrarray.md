@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??1CHPtrArray@@QAE@XZ, CHPtrArray, CHPtrArray class [Windows Management Instrumentation], CHPtrArray class [Windows Management Instrumentation],described, chptrarr/CHPtrArray, wmi.chptrarray"
 ms.topic: class
+f1_keywords: ["chptrarr/CHPtrArray"]
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

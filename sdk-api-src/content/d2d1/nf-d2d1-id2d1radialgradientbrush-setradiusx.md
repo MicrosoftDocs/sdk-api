@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RadialGradientBrush interface [Direct2D],SetRadiusX method, ID2D1RadialGradientBrush.SetRadiusX, ID2D1RadialGradientBrush::SetRadiusX, SetRadiusX, SetRadiusX method [Direct2D], SetRadiusX method [Direct2D],ID2D1RadialGradientBrush interface, d2d1/ID2D1RadialGradientBrush::SetRadiusX, direct2d.ID2D1RadialGradientBrush_SetRadiusX
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RadialGradientBrush.SetRadiusX"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

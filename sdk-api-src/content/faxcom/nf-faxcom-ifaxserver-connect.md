@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Fax Service], Connect method [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Connect method, IFaxServer.Connect, IFaxServer::Connect, _mfax_ifaxserver_connect_client, fax._mfax_ifaxserver_client_mfax_ifaxserver_connect_client_cpp, fax._mfax_ifaxserver_connect_client, faxcom/IFaxServer::Connect
 ms.topic: method
+f1_keywords: ["faxcom/IFaxServer.Connect"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

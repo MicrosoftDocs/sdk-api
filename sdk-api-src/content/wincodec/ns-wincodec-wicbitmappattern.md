@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICBitmapPattern, WICBitmapPattern structure [Windows Imaging Component], _wic_codec_wicbitmappattern, wic._wic_codec_wicbitmappattern, wincodec/WICBitmapPattern
 ms.topic: struct
+f1_keywords: ["wincodec/WICBitmapPattern"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

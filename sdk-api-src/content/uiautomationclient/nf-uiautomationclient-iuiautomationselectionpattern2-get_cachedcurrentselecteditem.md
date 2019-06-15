@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCurrentSelectedItem property [Windows Accessibility], CachedCurrentSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedCurrentSelectedItem property, IUIAutomationSelectionPattern2.CachedCurrentSelectedItem, IUIAutomationSelectionPattern2.get_CachedCurrentSelectedItem, IUIAutomationSelectionPattern2::CachedCurrentSelectedItem, IUIAutomationSelectionPattern2::get_CachedCurrentSelectedItem, get_CachedCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CachedCurrentSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedCurrentSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CachedCurrentSelectedItem
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationSelectionPattern2.CachedCurrentSelectedItem"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

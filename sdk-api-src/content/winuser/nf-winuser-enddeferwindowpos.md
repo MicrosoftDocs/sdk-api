@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndDeferWindowPos, EndDeferWindowPos function [Windows and Messages], _win32_EndDeferWindowPos, _win32_enddeferwindowpos_cpp, winmsg.enddeferwindowpos, winui._win32_enddeferwindowpos, winuser/EndDeferWindowPos
 ms.topic: function
+f1_keywords: ["winuser/EndDeferWindowPos"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

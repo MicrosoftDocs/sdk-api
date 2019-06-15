@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get__NewEnum method, INetSharingPortMappingCollection.get__NewEnum, INetSharingPortMappingCollection::get__NewEnum, _ics_inetsharingportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get__newenum, netcon/INetSharingPortMappingCollection::get__NewEnum
 ms.topic: method
+f1_keywords: ["netcon/INetSharingPortMappingCollection.get__NewEnum"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

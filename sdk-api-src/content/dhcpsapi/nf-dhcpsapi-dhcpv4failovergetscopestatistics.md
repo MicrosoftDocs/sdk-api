@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverGetScopeStatistics, DhcpV4FailoverGetScopeStatistics function [DHCP], dhcp.dhcpv4failovergetscopestatistics, dhcpsapi/DhcpV4FailoverGetScopeStatistics
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpV4FailoverGetScopeStatistics"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

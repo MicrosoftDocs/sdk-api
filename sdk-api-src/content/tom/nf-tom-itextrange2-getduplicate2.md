@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetDuplicate2 method, ITextRange2.GetDuplicate2, ITextRange2::GetDuplicate2, controls.itextrange2_getduplicate2, tom/ITextRange2::GetDuplicate2
 ms.topic: method
+f1_keywords: ["tom/ITextRange2.GetDuplicate2"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

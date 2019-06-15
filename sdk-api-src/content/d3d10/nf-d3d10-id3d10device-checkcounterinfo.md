@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 10aa0166-3a37-c674-790b-e34167e1b454, CheckCounterInfo, CheckCounterInfo method [Direct3D 10], CheckCounterInfo method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckCounterInfo method, ID3D10Device.CheckCounterInfo, ID3D10Device::CheckCounterInfo, d3d10/ID3D10Device::CheckCounterInfo, direct3d10.id3d10device_checkcounterinfo
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.CheckCounterInfo"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

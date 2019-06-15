@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngPaint, EngPaint function [Display Devices], display.engpaint, gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml, winddi/EngPaint
 ms.topic: function
+f1_keywords: ["winddi/EngPaint"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

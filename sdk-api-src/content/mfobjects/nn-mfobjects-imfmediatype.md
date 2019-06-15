@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaType, IMFMediaType interface [Media Foundation], IMFMediaType interface [Media Foundation],described, f1d60bec-71e4-4fcc-a020-92754b6f3c02, mf.imfmediatype, mfobjects/IMFMediaType
 ms.topic: interface
+f1_keywords: ["mfobjects/IMFMediaType"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

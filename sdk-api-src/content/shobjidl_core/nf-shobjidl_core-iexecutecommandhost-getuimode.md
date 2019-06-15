@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ECHUIM_DESKTOP, ECHUIM_IMMERSIVE, ECHUIM_SYSTEM_LAUNCHER, GetUIMode, GetUIMode method [Windows Shell], GetUIMode method [Windows Shell],IExecuteCommandHost interface, IExecuteCommandHost interface [Windows Shell],GetUIMode method, IExecuteCommandHost.GetUIMode, IExecuteCommandHost::GetUIMode, shell.IExecuteCommandHost_GetUIMode, shobjidl_core/IExecuteCommandHost::GetUIMode
 ms.topic: method
+f1_keywords: ["shobjidl_core/IExecuteCommandHost.GetUIMode"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

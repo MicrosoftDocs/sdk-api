@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],InitErrorCode property, IFaxDeviceProvider.InitErrorCode, IFaxDeviceProvider.get_InitErrorCode, IFaxDeviceProvider::InitErrorCode, IFaxDeviceProvider::get_InitErrorCode, InitErrorCode property [Fax Service], InitErrorCode property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.initerrorcode, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_initerrorcode_cpp, fax._mfax_faxdeviceprovider_initerrorcode, faxcomex/IFaxDeviceProvider::InitErrorCode, faxcomex/IFaxDeviceProvider::get_InitErrorCode, get_InitErrorCode
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDeviceProvider.InitErrorCode"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
 ms.topic: function
+f1_keywords: ["slpublic/SLUnregisterEvent"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

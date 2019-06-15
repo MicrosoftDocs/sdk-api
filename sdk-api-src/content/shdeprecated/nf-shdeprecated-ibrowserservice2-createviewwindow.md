@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateViewWindow, CreateViewWindow method [Windows Shell], CreateViewWindow method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateViewWindow method, IBrowserService2.CreateViewWindow, IBrowserService2::CreateViewWindow, shdeprecated/IBrowserService2::CreateViewWindow, shell.IBrowserService2_CreateViewWindow, zone_IBrowserService2_CreateViewWindow
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2.CreateViewWindow"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

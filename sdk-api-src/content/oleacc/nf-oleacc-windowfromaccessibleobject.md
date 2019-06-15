@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowFromAccessibleObject, WindowFromAccessibleObject function [Windows Accessibility], _msaa_WindowFromAccessibleObject, msaa.windowfromaccessibleobject, oleacc/WindowFromAccessibleObject, winauto.windowfromaccessibleobject
 ms.topic: function
+f1_keywords: ["oleacc/WindowFromAccessibleObject"]
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

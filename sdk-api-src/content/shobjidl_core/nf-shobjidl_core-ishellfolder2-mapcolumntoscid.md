@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolder2 interface [Windows Shell],MapColumnToSCID method, IShellFolder2.MapColumnToSCID, IShellFolder2::MapColumnToSCID, MapColumnToSCID, MapColumnToSCID method [Windows Shell], MapColumnToSCID method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder2_MapColumnToSCID, shell.IShellFolder2_MapColumnToSCID, shobjidl_core/IShellFolder2::MapColumnToSCID
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellFolder2.MapColumnToSCID"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageNamespace, WdsCliGetImageNamespace function [Windows Deployment Services], wds.wdscligetimagenamespace, wdsclientapi/WdsCliGetImageNamespace
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliGetImageNamespace"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

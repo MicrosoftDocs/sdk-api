@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitChainCOMCallback, RegisterWaitChainCOMCallback function, base.registerwaitchaincomcallback, wct/RegisterWaitChainCOMCallback
 ms.topic: function
+f1_keywords: ["wct/RegisterWaitChainCOMCallback"]
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

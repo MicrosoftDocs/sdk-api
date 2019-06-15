@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_CLIENT_DISPLAY, 1, 16, 2, 24, 32, 4, 8, PWTS_CLIENT_DISPLAY, PWTS_CLIENT_DISPLAY structure pointer [Remote Desktop Services], WTS_CLIENT_DISPLAY, WTS_CLIENT_DISPLAY structure [Remote Desktop Services], _win32_wts_client_display_str, termserv.wts_client_display_str, wtsapi32/PWTS_CLIENT_DISPLAY, wtsapi32/WTS_CLIENT_DISPLAY"
 ms.topic: struct
+f1_keywords: ["wtsapi32/WTS_CLIENT_DISPLAY"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

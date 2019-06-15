@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
 ms.topic: interface
+f1_keywords: ["wuapi/IWebProxy"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

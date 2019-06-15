@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SharpenParams, SharpenParams structure [GDI+], _gdiplus_STRUC_SharpenParams, gdiplus._gdiplus_STRUC_SharpenParams, gdipluseffects/SharpenParams
 ms.topic: struct
+f1_keywords: ["gdipluseffects/SharpenParams"]
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

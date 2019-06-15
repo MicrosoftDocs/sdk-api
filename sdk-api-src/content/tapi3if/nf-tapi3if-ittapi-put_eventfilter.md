@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],put_EventFilter method, ITTAPI.put_EventFilter, ITTAPI::put_EventFilter, _tapi3_ittapi_put_eventfilter, put_EventFilter, put_EventFilter method [TAPI 2.2], put_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_put_eventfilter, tapi3if/ITTAPI::put_EventFilter
 ms.topic: method
+f1_keywords: ["tapi3if/ITTAPI.put_EventFilter"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

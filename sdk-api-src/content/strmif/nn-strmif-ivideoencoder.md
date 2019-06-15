@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoEncoder, IVideoEncoder interface [DirectShow], IVideoEncoder interface [DirectShow],described, dshow.ivideoencoder, strmif/IVideoEncoder
 ms.topic: interface
+f1_keywords: ["strmif/IVideoEncoder"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

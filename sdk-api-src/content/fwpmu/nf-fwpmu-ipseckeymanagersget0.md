@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecKeyManagersGet0, IPsecKeyManagersGet0 function [Filtering], fwp.ipseckeymanagersget0, fwpmu/IPsecKeyManagersGet0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecKeyManagersGet0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

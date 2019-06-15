@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptDuplicateHash, BCryptDuplicateHash function [Security], bcrypt/BCryptDuplicateHash, security.bcryptduplicatehash_func
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptDuplicateHash"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderSecurity, IWbemEventProviderSecurity interface [Windows Management Instrumentation], IWbemEventProviderSecurity interface [Windows Management Instrumentation],described, _hmm_iwbemeventprovidersecurity, wbemprov/IWbemEventProviderSecurity, wmi.iwbemeventprovidersecurity
 ms.topic: interface
+f1_keywords: ["wbemprov/IWbemEventProviderSecurity"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

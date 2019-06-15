@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSTATDATA, LPSTATDATA, LPSTATDATA structure pointer [COM], STATDATA, STATDATA structure [COM], _ole_STATDATA, com.statdata, objidl/LPSTATDATA, objidl/STATDATA"
 ms.topic: struct
+f1_keywords: ["objidl/STATDATA"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

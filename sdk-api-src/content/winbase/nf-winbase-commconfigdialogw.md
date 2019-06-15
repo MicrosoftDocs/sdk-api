@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommConfigDialog, CommConfigDialog function, CommConfigDialogA, CommConfigDialogW, _win32_commconfigdialog, base.commconfigdialog, winbase/CommConfigDialog, winbase/CommConfigDialogA, winbase/CommConfigDialogW
 ms.topic: function
+f1_keywords: ["winbase/CommConfigDialog"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

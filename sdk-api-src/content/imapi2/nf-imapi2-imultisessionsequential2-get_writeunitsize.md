@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential2 interface [IMAPI],get_WriteUnitSize method, IMultisessionSequential2.get_WriteUnitSize, IMultisessionSequential2::get_WriteUnitSize, get_WriteUnitSize, get_WriteUnitSize method [IMAPI], get_WriteUnitSize method [IMAPI],IMultisessionSequential2 interface, imapi.imultisessionsequential2_get_writeunitsize, imapi2/IMultisessionSequential2::get_WriteUnitSize
 ms.topic: method
+f1_keywords: ["imapi2/IMultisessionSequential2.get_WriteUnitSize"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

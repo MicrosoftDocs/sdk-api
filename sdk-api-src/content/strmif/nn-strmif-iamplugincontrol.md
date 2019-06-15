@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl
 ms.topic: interface
+f1_keywords: ["strmif/IAMPluginControl"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

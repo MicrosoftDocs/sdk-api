@@ -6,6 +6,7 @@ description: Transforms the BoundingFrustum by the specified transformation matr
 ms.date: 04/22/19
 ms.keywords: BoundingFrustum::Transform
 ms.topic: language-reference
+f1_keywords: ["directxcollision/BoundingFrustum::Transform"]
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FXEQ_PARAMETERS, FXEQ_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXEQ_PARAMETERS, xaudio2.fxeq_parameters
 ms.topic: struct
+f1_keywords: ["xapofx/FXEQ_PARAMETERS"]
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

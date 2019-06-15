@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5ebf117c-e60a-40f2-a24b-c4f9dbdae942, IMFTopoLoader, IMFTopoLoader interface [Media Foundation], IMFTopoLoader interface [Media Foundation],described, mf.imftopoloader, mfidl/IMFTopoLoader
 ms.topic: interface
+f1_keywords: ["mfidl/IMFTopoLoader"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

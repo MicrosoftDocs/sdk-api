@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckDeviceState, CheckDeviceState method [DirectComposition], CheckDeviceState method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CheckDeviceState method, IDCompositionDevice.CheckDeviceState, IDCompositionDevice::CheckDeviceState, dcomp/IDCompositionDevice::CheckDeviceState, directcomp.idcompositiondevice_checkdevicestate
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionDevice.CheckDeviceState"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSink interface [Media Foundation],RemoveAllStreams method, IMFCaptureSink.RemoveAllStreams, IMFCaptureSink::RemoveAllStreams, RemoveAllStreams, RemoveAllStreams method [Media Foundation], RemoveAllStreams method [Media Foundation],IMFCaptureSink interface, mf.imfcapturesink_removeallstreams, mfcaptureengine/IMFCaptureSink::RemoveAllStreams
 ms.topic: method
+f1_keywords: ["mfcaptureengine/IMFCaptureSink.RemoveAllStreams"]
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

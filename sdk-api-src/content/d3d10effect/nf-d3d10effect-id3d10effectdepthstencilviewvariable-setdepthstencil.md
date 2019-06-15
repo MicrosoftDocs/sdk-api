@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],SetDepthStencil method, ID3D10EffectDepthStencilViewVariable.SetDepthStencil, ID3D10EffectDepthStencilViewVariable::SetDepthStencil, SetDepthStencil, SetDepthStencil method [Direct3D 10], SetDepthStencil method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, d3d10effect/ID3D10EffectDepthStencilViewVariable::SetDepthStencil, direct3d10.id3d10effectdepthstencilviewvariable_setdepthstencil, f51d583e-3ffb-5e28-6cc3-6ce3dc1b7d32
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectDepthStencilViewVariable.SetDepthStencil"]
 req.header: d3d10effect.h
 req.include-header: D3d10
 req.target-type: Windows

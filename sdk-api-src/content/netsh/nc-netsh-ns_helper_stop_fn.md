@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_HELPER_STOP_FN, NS_HELPER_STOP_FN callback, NS_HELPER_STOP_FN callback function [NetShell], SampleStopHelper, _netsh_ns_helper_stop_fn, netsh/NS_HELPER_STOP_FN, netshell.ns_helper_stop_fn
 ms.topic: callback
+f1_keywords: ["netsh/NS_HELPER_STOP_FN"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

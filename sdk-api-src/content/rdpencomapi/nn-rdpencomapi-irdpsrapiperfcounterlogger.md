@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger, IRDPSRAPIPerfCounterLogger class [RDP], IRDPSRAPIPerfCounterLogger class [RDP],described, rdp.irdpsrapiperfcounterlogger, rdpencomapi/IRDPSRAPIPerfCounterLogger
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPSRAPIPerfCounterLogger"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

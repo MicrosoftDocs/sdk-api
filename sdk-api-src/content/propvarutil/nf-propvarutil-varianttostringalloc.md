@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToStringAlloc, VariantToStringAlloc function [Windows Properties], _shell_VariantToStringAlloc, properties.VariantToStringAlloc, propvarutil/VariantToStringAlloc, shell.VariantToStringAlloc
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToStringAlloc"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

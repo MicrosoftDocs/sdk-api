@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropertyItem, PropertyItem class [GDI+], PropertyItem class [GDI+],described, _gdiplus_CLASS_PropertyItem_Class, gdiplus._gdiplus_CLASS_PropertyItem_Class, gdiplusimaging/PropertyItem
 ms.topic: class
+f1_keywords: ["gdiplusimaging/PropertyItem"]
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

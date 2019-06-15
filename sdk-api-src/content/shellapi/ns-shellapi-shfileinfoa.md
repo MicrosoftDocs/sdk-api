@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOA, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.topic: struct
+f1_keywords: ["shellapi/SHFILEINFO"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

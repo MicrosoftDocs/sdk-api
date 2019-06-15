@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [Direct3D 10], GetBreakOnCategory method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetBreakOnCategory method, ID3D10InfoQueue.GetBreakOnCategory, ID3D10InfoQueue::GetBreakOnCategory, d3d10sdklayers/ID3D10InfoQueue::GetBreakOnCategory, direct3d10.id3d10infoqueue_getbreakoncategory, f7712289-f56a-df8e-a2dd-2568f07262a8
 ms.topic: method
+f1_keywords: ["d3d10sdklayers/ID3D10InfoQueue.GetBreakOnCategory"]
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_RequestedWriteSpeed method, IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed, IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed, get_RequestedWriteSpeed, get_RequestedWriteSpeed method [IMAPI], get_RequestedWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_requestedwritespeed, imapi2/IDiscFormat2TrackAtOnce::get_RequestedWriteSpeed
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.get_RequestedWriteSpeed"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

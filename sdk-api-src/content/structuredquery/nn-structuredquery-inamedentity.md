@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search],described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
 ms.topic: interface
+f1_keywords: ["structuredquery/INamedEntity"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

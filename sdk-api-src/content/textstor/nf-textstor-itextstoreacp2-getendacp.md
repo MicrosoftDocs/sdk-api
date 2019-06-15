@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEndACP, GetEndACP method [Text Services Framework], GetEndACP method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetEndACP method, ITextStoreACP2.GetEndACP, ITextStoreACP2::GetEndACP, textstor/ITextStoreACP2::GetEndACP, tsf.itextstoreacp2_getendacp
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreACP2.GetEndACP"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

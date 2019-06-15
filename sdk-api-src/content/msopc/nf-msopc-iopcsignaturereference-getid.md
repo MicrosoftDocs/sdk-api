@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Open Packaging Conventions], GetId method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetId method, IOpcSignatureReference.GetId, IOpcSignatureReference::GetId, msopc/IOpcSignatureReference::GetId, opc.iopcsignaturereference_getid
 ms.topic: method
+f1_keywords: ["msopc/IOpcSignatureReference.GetId"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

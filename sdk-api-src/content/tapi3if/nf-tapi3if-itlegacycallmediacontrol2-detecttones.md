@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DetectTones, DetectTones method [TAPI 2.2], DetectTones method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],DetectTones method, ITLegacyCallMediaControl2.DetectTones, ITLegacyCallMediaControl2::DetectTones, _tapi3_itlegacycallmediacontrol2_detecttones, tapi3.itlegacycallmediacontrol2_detecttones, tapi3if/ITLegacyCallMediaControl2::DetectTones
 ms.topic: method
+f1_keywords: ["tapi3if/ITLegacyCallMediaControl2.DetectTones"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

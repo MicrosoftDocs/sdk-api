@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextProvider interface [Windows Accessibility],SupportedTextSelection property, ITextProvider.SupportedTextSelection, ITextProvider.get_SupportedTextSelection, ITextProvider::SupportedTextSelection, ITextProvider::get_SupportedTextSelection, SupportedTextSelection property [Windows Accessibility], SupportedTextSelection property [Windows Accessibility],ITextProvider interface, get_SupportedTextSelection, uiauto.uiauto_ITextProvider_SupportedTextSelection, uiauto_ITextProvider_SupportedTextSelection, uiautomationcore/ITextProvider::SupportedTextSelection, uiautomationcore/ITextProvider::get_SupportedTextSelection, winauto.uiauto_ITextProvider_SupportedTextSelection
 ms.topic: method
+f1_keywords: ["uiautomationcore/ITextProvider.SupportedTextSelection"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

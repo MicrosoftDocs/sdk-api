@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_V3, LSA_TOKEN_INFORMATION_V3, LSA_TOKEN_INFORMATION_V3 structure [Security], PLSA_TOKEN_INFORMATION_V3, PLSA_TOKEN_INFORMATION_V3 structure pointer [Security], _LSA_TOKEN_INFORMATION_V3, ntsecpkg/LSA_TOKEN_INFORMATION_V3, ntsecpkg/PLSA_TOKEN_INFORMATION_V3, security.lsa_token_information_v3"
 ms.topic: struct
+f1_keywords: ["ntsecpkg/LSA_TOKEN_INFORMATION_V3"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_SHADER_DEBUG_TOKEN_INFO, D3D10_SHADER_DEBUG_TOKEN_INFO structure [Direct3D 10], bc17063b-6965-506e-6465-5f361287445e, d3d10_1shader/D3D10_SHADER_DEBUG_TOKEN_INFO, direct3d10.d3d10_shader_debug_token_info
 ms.topic: struct
+f1_keywords: ["d3d10_1shader/D3D10_SHADER_DEBUG_TOKEN_INFO"]
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

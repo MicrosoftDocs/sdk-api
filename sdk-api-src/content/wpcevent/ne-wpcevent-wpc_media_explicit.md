@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPC_MEDIA_EXPLICIT, WPC_MEDIA_EXPLICIT enumeration, WPC_MEDIA_EXPLICIT_FALSE, WPC_MEDIA_EXPLICIT_TRUE, WPC_MEDIA_EXPLICIT_TYPE, WPC_MEDIA_EXPLICIT_UNKNOWN, parcon.wpc_media_explicit, wpcevent/WPC_MEDIA_EXPLICIT, wpcevent/WPC_MEDIA_EXPLICIT_FALSE, wpcevent/WPC_MEDIA_EXPLICIT_TRUE, wpcevent/WPC_MEDIA_EXPLICIT_UNKNOWN
 ms.topic: enum
+f1_keywords: ["wpcevent/WPC_MEDIA_EXPLICIT"]
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows

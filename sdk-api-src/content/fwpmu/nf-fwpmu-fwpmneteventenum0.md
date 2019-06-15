@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventEnum0, FwpmNetEventEnum0 function [Filtering], fwp.fwpmneteventenum0, fwpmu/FwpmNetEventEnum0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmNetEventEnum0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

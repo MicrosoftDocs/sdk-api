@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_SetImageList, TabCtrl_SetImageList macro [Windows Controls], _win32_TabCtrl_SetImageList, _win32_TabCtrl_SetImageList_cpp, commctrl/TabCtrl_SetImageList, controls.TabCtrl_SetImageList, controls._win32_TabCtrl_SetImageList
 ms.topic: macro
+f1_keywords: ["commctrl/TabCtrl_SetImageList"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

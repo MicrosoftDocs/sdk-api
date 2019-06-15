@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Buffer, Buffer method [Windows Runtime], Buffer method [Windows Runtime],IBufferByteAccess interface, IBufferByteAccess interface [Windows Runtime],Buffer method, IBufferByteAccess.Buffer, IBufferByteAccess::Buffer, robuffer/IBufferByteAccess::Buffer, winrt.ibufferbyteaccess_buffer
 ms.topic: method
+f1_keywords: ["robuffer/IBufferByteAccess.Buffer"]
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows

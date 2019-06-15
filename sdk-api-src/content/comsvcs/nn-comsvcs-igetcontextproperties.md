@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetContextProperties, IGetContextProperties interface [COM+], IGetContextProperties interface [COM+],described, _cos_IGetContextProperties, comsvcs/IGetContextProperties, cos.igetcontextproperties
 ms.topic: interface
+f1_keywords: ["comsvcs/IGetContextProperties"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAUncompDataInfo, DXVAUncompDataInfo structure [Media Foundation], _DXVAUncompDataInfo, dxva9typ/DXVAUncompDataInfo, mf.dxvauncompdatainfo
 ms.topic: struct
+f1_keywords: ["dxva9typ/DXVAUncompDataInfo"]
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows

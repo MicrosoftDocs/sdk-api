@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_getservbyport_2, getservbyport, getservbyport function [Winsock], winsock.getservbyport_2, winsock/getservbyport"
 ms.topic: function
+f1_keywords: ["winsock/getservbyport"]
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

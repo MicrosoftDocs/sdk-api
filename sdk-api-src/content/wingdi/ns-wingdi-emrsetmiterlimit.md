@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSETMITERLIMIT, EMRSETMITERLIMIT, EMRSETMITERLIMIT structure [Windows GDI], PEMRSETMITERLIMIT, PEMRSETMITERLIMIT structure pointer [Windows GDI], _win32_EMRSETMITERLIMIT_str, gdi.emrsetmiterlimit, wingdi/EMRSETMITERLIMIT, wingdi/PEMRSETMITERLIMIT"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRSETMITERLIMIT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

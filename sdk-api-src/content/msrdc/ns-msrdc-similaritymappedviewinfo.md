@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SimilarityMappedViewInfo, SimilarityMappedViewInfo structure [Remote Differential Compression], fs.similaritymappedviewinfo, msrdc/SimilarityMappedViewInfo, rdc.similaritymappedviewinfo
 ms.topic: struct
+f1_keywords: ["msrdc/SimilarityMappedViewInfo"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

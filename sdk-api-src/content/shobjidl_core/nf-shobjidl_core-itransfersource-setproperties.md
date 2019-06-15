@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],SetProperties method, ITransferSource.SetProperties, ITransferSource::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],ITransferSource interface, _shell_ITransferSource_SetProperties, shell.ITransferSource_SetProperties, shobjidl_core/ITransferSource::SetProperties
 ms.topic: method
+f1_keywords: ["shobjidl_core/ITransferSource.SetProperties"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

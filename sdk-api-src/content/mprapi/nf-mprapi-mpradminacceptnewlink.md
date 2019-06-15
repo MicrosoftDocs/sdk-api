@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptNewLink, MprAdminAcceptNewLink callback, MprAdminAcceptNewLink callback function [RAS], _mpr_mpradminacceptnewlink, mprapi/MprAdminAcceptNewLink, rras.mpradminacceptnewlink
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminAcceptNewLink"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT, DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT structure, direct3d12.dml_feature_query_tensor_data_type_support, directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT
 ms.topic: struct
+f1_keywords: ["directml/DML_FEATURE_QUERY_TENSOR_DATA_TYPE_SUPPORT"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

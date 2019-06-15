@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],FromHICON method, Bitmap.FromHICON, Bitmap::FromHICON, FromHICON, FromHICON method [GDI+], FromHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_FromHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_FromHICON_hicon_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Bitmap.FromHICON"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

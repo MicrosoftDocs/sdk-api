@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIT_DUI, UIT_HELP_PANE, UIT_NONE, UIT_SHELL_COMMAND, UI_INFO_TYPE, UI_INFO_TYPE enumeration [NDF], ndattrib/UIT_DUI, ndattrib/UIT_HELP_PANE, ndattrib/UIT_NONE, ndattrib/UIT_SHELL_COMMAND, ndattrib/UI_INFO_TYPE, ndf.ui_info_type
 ms.topic: enum
+f1_keywords: ["ndattrib/UI_INFO_TYPE"]
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

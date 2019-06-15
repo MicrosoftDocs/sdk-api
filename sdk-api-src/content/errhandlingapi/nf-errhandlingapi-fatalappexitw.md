@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FatalAppExit, FatalAppExit function, FatalAppExitA, FatalAppExitW, _win32_fatalappexit, base.fatalappexit, errhandlingapi/FatalAppExit, errhandlingapi/FatalAppExitA, errhandlingapi/FatalAppExitW
 ms.topic: function
+f1_keywords: ["errhandlingapi/FatalAppExit"]
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

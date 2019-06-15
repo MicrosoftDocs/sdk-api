@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SACAuth method, CSecureChannelServer.SACAuth, CSecureChannelServer::SACAuth, CSecureChannelServerSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SACAuth, wmdm.csecurechannelserver_sacauth
 ms.topic: method
+f1_keywords: ["scserver/CSecureChannelServer.SACAuth"]
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

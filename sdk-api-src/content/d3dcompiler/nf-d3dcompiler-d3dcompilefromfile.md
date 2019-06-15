@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DCompileFromFile, D3DCompileFromFile function [HLSL], d3dcompiler/D3DCompileFromFile, direct3dhlsl.d3dcompilefromfile
 ms.topic: function
+f1_keywords: ["d3dcompiler/D3DCompileFromFile"]
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

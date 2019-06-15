@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compact, Compact method [DirectDraw], Compact method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],Compact method, IDirectDraw7.Compact, IDirectDraw7::Compact, ddraw/IDirectDraw7::Compact, directdraw.idirectdraw7_compact
 ms.topic: method
+f1_keywords: ["ddraw/IDirectDraw7.Compact"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

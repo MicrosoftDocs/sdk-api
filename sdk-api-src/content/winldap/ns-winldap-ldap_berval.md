@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBERVAL, *PLDAP_BERVAL, BERVAL, BERVAL structure [LDAP], BerValue, BerValue structure [LDAP], LDAP_BERVAL, LDAP_BERVAL structure [LDAP], PBERVAL, PBERVAL structure pointer [LDAP], PLDAP_BERVAL, PLDAP_BERVAL structure pointer [LDAP], _ldap_berval, berval, berval structure [LDAP], ldap.berval, winldap/BERVAL, winldap/BerValue, winldap/PBERVAL, winldap/PLDAP_BERVAL, winldap/berval"
 ms.topic: struct
+f1_keywords: ["winldap/LDAP_BERVAL"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

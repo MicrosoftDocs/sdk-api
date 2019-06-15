@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1PathGeometry interface [Direct2D],Stream method, ID2D1PathGeometry.Stream, ID2D1PathGeometry::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1PathGeometry interface, d2d1/ID2D1PathGeometry::Stream, direct2d.ID2D1PathGeometry_Stream
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1PathGeometry.Stream"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

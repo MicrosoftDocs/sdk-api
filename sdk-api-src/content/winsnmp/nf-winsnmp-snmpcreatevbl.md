@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateVbl, SnmpCreateVbl function [SNMP], _snmp_snmpcreatevbl, snmp.snmpcreatevbl, winsnmp/SnmpCreateVbl
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpCreateVbl"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMULTIKEYHELPW, *PMULTIKEYHELPW, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPW, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP"
 ms.topic: struct
+f1_keywords: ["winuser/MULTIKEYHELP"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

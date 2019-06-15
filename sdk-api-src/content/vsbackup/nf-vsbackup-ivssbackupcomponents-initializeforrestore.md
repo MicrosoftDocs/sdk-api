@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],InitializeForRestore method, IVssBackupComponents.InitializeForRestore, IVssBackupComponents::InitializeForRestore, InitializeForRestore, InitializeForRestore method [VSS], InitializeForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforrestore, base.ivssbackupcomponents_initializeforrestore, vsbackup/IVssBackupComponents::InitializeForRestore
 ms.topic: method
+f1_keywords: ["vsbackup/IVssBackupComponents.InitializeForRestore"]
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

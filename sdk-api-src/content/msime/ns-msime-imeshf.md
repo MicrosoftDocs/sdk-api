@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMESHF, IMESHF structure [Internationalization for Windows Applications], PIMESHF, PIMESHF structure pointer [Internationalization for Windows Applications], intl.imeshf, msime/IMESHF, msime/PIMESHF
 ms.topic: struct
+f1_keywords: ["msime/IMESHF"]
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

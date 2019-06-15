@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [GDI+], GetSize method [GDI+],Rect class, Rect class [GDI+],GetSize method, Rect.GetSize, Rect::GetSize, _gdiplus_CLASS_Rect_GetSize_size_, gdiplus._gdiplus_CLASS_Rect_GetSize_size_
 ms.topic: method
+f1_keywords: ["gdiplustypes/Rect.GetSize"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

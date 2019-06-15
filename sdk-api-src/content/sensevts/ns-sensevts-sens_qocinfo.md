@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSENS_QOCINFO, SENS_QOCINFO, SENS_QOCINFO structure [SENS], _zaw_sens_qocinfo, sens.sens_qocinfo, sensevts/SENS_QOCINFO, syncmgr.sens_qocinfo"
 ms.topic: struct
+f1_keywords: ["sensevts/SENS_QOCINFO"]
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

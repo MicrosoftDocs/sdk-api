@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalStrength method, IBDA_SignalStatistics.get_SignalStrength, IBDA_SignalStatistics::get_SignalStrength, IBDA_SignalStatisticsget_SignalStrength, bdaiface/IBDA_SignalStatistics::get_SignalStrength, get_SignalStrength, get_SignalStrength method [Microsoft TV Technologies], get_SignalStrength method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalstrength
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_SignalStatistics.get_SignalStrength"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

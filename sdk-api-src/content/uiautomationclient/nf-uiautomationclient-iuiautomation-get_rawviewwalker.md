@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RawViewWalker property, IUIAutomation.RawViewWalker, IUIAutomation.get_RawViewWalker, IUIAutomation::RawViewWalker, IUIAutomation::get_RawViewWalker, RawViewWalker property [Windows Accessibility], RawViewWalker property [Windows Accessibility],IUIAutomation interface, get_RawViewWalker, uiauto.uiauto_IUIAutomation_RawViewWalker, uiauto_IUIAutomation_RawViewWalker, uiautomationclient/IUIAutomation::RawViewWalker, uiautomationclient/IUIAutomation::get_RawViewWalker, winauto.uiauto_IUIAutomation_RawViewWalker
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomation.RawViewWalker"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

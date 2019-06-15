@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_STATE_BLOCK_MASK, D3D10_STATE_BLOCK_MASK structure [Direct3D 10], bf81f800-b1fd-0774-8da5-ae9bd9fc43d4, d3d10effect/D3D10_STATE_BLOCK_MASK, direct3d10.d3d10_state_block_mask
 ms.topic: struct
+f1_keywords: ["d3d10effect/D3D10_STATE_BLOCK_MASK"]
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

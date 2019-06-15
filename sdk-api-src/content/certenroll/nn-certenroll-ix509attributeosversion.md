@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
 ms.topic: interface
+f1_keywords: ["certenroll/IX509AttributeOSVersion"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

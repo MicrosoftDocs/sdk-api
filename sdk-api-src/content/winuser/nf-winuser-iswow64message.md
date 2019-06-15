@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWow64Message, IsWow64Message function, base.iswow64message, winuser/IsWow64Message
 ms.topic: function
+f1_keywords: ["winuser/IsWow64Message"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

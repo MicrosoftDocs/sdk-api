@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtendModeY, GetExtendModeY method [Direct2D], GetExtendModeY method [Direct2D],ID2D1BorderTransform interface, ID2D1BorderTransform interface [Direct2D],GetExtendModeY method, ID2D1BorderTransform.GetExtendModeY, ID2D1BorderTransform::GetExtendModeY, d2d1effectauthor/ID2D1BorderTransform::GetExtendModeY, direct2d.id2d1bordertransform_getextendmodey
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1BorderTransform.GetExtendModeY"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

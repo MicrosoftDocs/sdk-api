@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OperationResultCode, OperationResultCode enumeration [Windows Update Agent], orcAborted, orcFailed, orcInProgress, orcNotStarted, orcSucceeded, orcSucceededWithErrors, wua.operationresultcode, wuapi/OperationResultCode, wuapi/orcAborted, wuapi/orcFailed, wuapi/orcInProgress, wuapi/orcNotStarted, wuapi/orcSucceeded, wuapi/orcSucceededWithErrors
 ms.topic: enum
+f1_keywords: ["wuapi/OperationResultCode"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

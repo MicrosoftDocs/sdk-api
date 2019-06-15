@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyStorageBuffer, GetPropertyStorageBuffer method [Windows Shell], GetPropertyStorageBuffer method [Windows Shell],IPersistSerializedPropStorage2 interface, IPersistSerializedPropStorage2 interface [Windows Shell],GetPropertyStorageBuffer method, IPersistSerializedPropStorage2.GetPropertyStorageBuffer, IPersistSerializedPropStorage2::GetPropertyStorageBuffer, _shell_IPersistSerializedPropStorage2_GetPropertyStorageBuffer, propsys/IPersistSerializedPropStorage2::GetPropertyStorageBuffer, shell.IPersistSerializedPropStorage2_GetPropertyStorageBuffer
 ms.topic: method
+f1_keywords: ["propsys/IPersistSerializedPropStorage2.GetPropertyStorageBuffer"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

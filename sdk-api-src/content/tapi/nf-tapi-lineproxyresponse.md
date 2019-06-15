@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse function [TAPI 2.2], tapi/lineProxyResponse, tapi2.lineproxyresponse"
 ms.topic: function
+f1_keywords: ["tapi/lineProxyResponse"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

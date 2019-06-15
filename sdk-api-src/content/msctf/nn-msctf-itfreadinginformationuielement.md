@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfReadingInformationUIElement, ITfReadingInformationUIElement interface [Text Services Framework], ITfReadingInformationUIElement interface [Text Services Framework],described, msctf/ITfReadingInformationUIElement, tsf.itfreadinginformationuielement
 ms.topic: interface
+f1_keywords: ["msctf/ITfReadingInformationUIElement"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

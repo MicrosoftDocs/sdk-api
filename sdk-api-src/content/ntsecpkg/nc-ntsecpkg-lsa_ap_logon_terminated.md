@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_TERMINATED, LSA_AP_LOGON_TERMINATED callback, LsaApLogonTerminated, LsaApLogonTerminated callback function [Security], _lsa_lsaaplogonterminated, ntsecpkg/LsaApLogonTerminated, security.lsaaplogonterminated
 ms.topic: callback
+f1_keywords: ["ntsecpkg/LsaApLogonTerminated"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

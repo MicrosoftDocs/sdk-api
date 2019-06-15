@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequestSupport, IMPEG2TuneRequestSupport interface [Microsoft TV Technologies], IMPEG2TuneRequestSupport interface [Microsoft TV Technologies],described, mstv.impeg2tunerequestsupport, tuner/IMPEG2TuneRequestSupport
 ms.topic: interface
+f1_keywords: ["tuner/IMPEG2TuneRequestSupport"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

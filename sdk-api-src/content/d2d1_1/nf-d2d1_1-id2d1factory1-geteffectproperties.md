@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectProperties, GetEffectProperties method [Direct2D], GetEffectProperties method [Direct2D],ID2D1Factory1 interface, ID2D1Factory1 interface [Direct2D],GetEffectProperties method, ID2D1Factory1.GetEffectProperties, ID2D1Factory1::GetEffectProperties, d2d1_1/ID2D1Factory1::GetEffectProperties, direct2d.id2d1factory1_geteffectproperties
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Factory1.GetEffectProperties"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

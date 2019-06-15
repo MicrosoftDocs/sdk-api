@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
 ms.topic: function
+f1_keywords: ["shlwapi/AssocIsDangerous"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

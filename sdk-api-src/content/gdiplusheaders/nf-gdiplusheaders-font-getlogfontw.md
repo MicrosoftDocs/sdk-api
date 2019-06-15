@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetLogFontW method, Font.GetLogFontW, Font::GetLogFontW, GetLogFontW, GetLogFontW method [GDI+], GetLogFontW method [GDI+],Font class, _gdiplus_CLASS_Font_GetLogFontW_g_logfontW_, gdiplus._gdiplus_CLASS_Font_GetLogFontW_g_logfontW_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Font.GetLogFontW"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

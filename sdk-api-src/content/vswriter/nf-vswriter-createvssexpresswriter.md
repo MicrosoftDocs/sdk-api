@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVssExpressWriter, CreateVssExpressWriter function, CreateVssExpressWriterInternal, base.createvssexpresswriter, vswriter/CreateVssExpressWriter, vswriter/CreateVssExpressWriterInternal
 ms.topic: function
+f1_keywords: ["vswriter/CreateVssExpressWriter"]
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

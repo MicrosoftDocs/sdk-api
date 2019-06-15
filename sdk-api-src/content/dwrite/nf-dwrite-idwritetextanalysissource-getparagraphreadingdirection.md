@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParagraphReadingDirection, GetParagraphReadingDirection method [Direct Write], GetParagraphReadingDirection method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetParagraphReadingDirection method, IDWriteTextAnalysisSource.GetParagraphReadingDirection, IDWriteTextAnalysisSource::GetParagraphReadingDirection, directwrite.idwritetextanalysissource_getparagraphreadingdirection, dwrite/IDWriteTextAnalysisSource::GetParagraphReadingDirection
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextAnalysisSource.GetParagraphReadingDirection"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

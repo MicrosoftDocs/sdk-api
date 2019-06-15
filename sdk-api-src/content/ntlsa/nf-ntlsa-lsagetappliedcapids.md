@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaGetAppliedCAPIDs, LsaGetAppliedCAPIDs function [Security], ntlsa/LsaGetAppliedCAPIDs, security.lsagetappliedcapids
 ms.topic: function
+f1_keywords: ["ntlsa/LsaGetAppliedCAPIDs"]
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPOINTS, *PPOINTS, LPPOINTS, LPPOINTS structure pointer [Display Devices], POINTS, POINTS structure [Display Devices], PPOINTS, PPOINTS structure pointer [Display Devices], display.points, grstrcts_ae45abcf-f0a0-4fbc-b9b8-f021d8f4f182.xml, windef/LPPOINTS, windef/POINTS, windef/PPOINTS"
 ms.topic: struct
+f1_keywords: ["windef/POINTS"]
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows

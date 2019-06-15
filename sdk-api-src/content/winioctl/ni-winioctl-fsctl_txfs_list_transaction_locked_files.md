@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES, FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control, FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES control code [Files], fs.fsctl_txfs_list_transaction_locked_files, winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_TXFS_LIST_TRANSACTION_LOCKED_FILES"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream_Reset, IStream_Reset function [Windows Shell], _win32_IStream_Reset, shell.IStream_Reset, shlwapi/IStream_Reset
 ms.topic: function
+f1_keywords: ["shlwapi/IStream_Reset"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

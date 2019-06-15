@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], WinRTActivateInstance, roapi/RoActivateInstance, roapi/WinRTActivateInstance, winrt.roactivateinstance, winrt.winrtactivateinstance
 ms.topic: function
+f1_keywords: ["roapi/RoActivateInstance"]
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows

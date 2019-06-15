@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateStreamDescriptor"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

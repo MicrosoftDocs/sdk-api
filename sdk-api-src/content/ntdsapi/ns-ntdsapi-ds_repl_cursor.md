@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_CURSOR, DS_REPL_CURSOR structure [Active Directory], _glines_ds_repl_cursor, ad.ds__repl__cursor, ad.ds_repl_cursor, ntdsapi/DS_REPL_CURSOR
 ms.topic: struct
+f1_keywords: ["ntdsapi/DS_REPL_CURSOR"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

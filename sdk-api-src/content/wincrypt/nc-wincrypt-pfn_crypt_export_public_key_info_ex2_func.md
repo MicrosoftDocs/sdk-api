@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC, PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC callback, PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC callback function [Security], security.pfn_crypt_export_public_key_info_ex2_func, wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
 ms.topic: callback
+f1_keywords: ["wincrypt/PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

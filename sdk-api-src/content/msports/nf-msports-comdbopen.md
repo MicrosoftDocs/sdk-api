@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComDBOpen, ComDBOpen function [Serial Ports], comdb_ab14e7a4-69f0-42fc-82b5-df6f5863779a.xml, msports/ComDBOpen, serports.comdbopen
 ms.topic: function
+f1_keywords: ["msports/ComDBOpen"]
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

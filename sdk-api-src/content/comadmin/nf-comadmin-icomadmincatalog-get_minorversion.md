@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MinorVersion property, ICOMAdminCatalog.MinorVersion, ICOMAdminCatalog.get_MinorVersion, ICOMAdminCatalog::MinorVersion, ICOMAdminCatalog::get_MinorVersion, MinorVersion property [COM+], MinorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MinorVersion, comadmin/ICOMAdminCatalog::MinorVersion, comadmin/ICOMAdminCatalog::get_MinorVersion, cos.icomadmincatalog_minorversion, get_MinorVersion
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog.MinorVersion"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

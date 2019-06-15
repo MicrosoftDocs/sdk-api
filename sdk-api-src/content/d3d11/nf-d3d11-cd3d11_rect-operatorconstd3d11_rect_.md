@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CD3D11_RECT interface [Direct3D 11],operator const D3D11_RECT& method, CD3D11_RECT.operator const D3D11_RECT&, CD3D11_RECT::operator const D3D11_RECT&, CD3D11_RECT::operator const D3D11_RECT&(), d3d11/CD3D11_RECT::operator const D3D11_RECT&, direct3d11.cd3d11_rect_d3d11_rect__, operator const D3D11_RECT&, operator const D3D11_RECT& method [Direct3D 11], operator const D3D11_RECT& method [Direct3D 11],CD3D11_RECT interface
 ms.topic: method
+f1_keywords: ["d3d11/CD3D11_RECT.operator const D3D11_RECT&"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1SvgPathData interface, ID2D1SvgPathData interface [Direct2D],CreatePathGeometry method, ID2D1SvgPathData.CreatePathGeometry, ID2D1SvgPathData::CreatePathGeometry, d2d1svg/ID2D1SvgPathData::CreatePathGeometry, direct2d.id2d1svgpathdata_createpathgeometry
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgPathData.CreatePathGeometry"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

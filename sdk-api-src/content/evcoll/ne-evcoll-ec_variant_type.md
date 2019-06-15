@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EC_VARIANT_TYPE, EC_VARIANT_TYPE enumeration, EcVarObjectArrayPropertyHandle, EcVarTypeBoolean, EcVarTypeDateTime, EcVarTypeNull, EcVarTypeString, EcVarTypeUInt32, evcoll/EC_VARIANT_TYPE, evcoll/EcVarObjectArrayPropertyHandle, evcoll/EcVarTypeBoolean, evcoll/EcVarTypeDateTime, evcoll/EcVarTypeNull, evcoll/EcVarTypeString, evcoll/EcVarTypeUInt32, wec.ec_variant_type, wes.ec_variant_type
 ms.topic: enum
+f1_keywords: ["evcoll/EC_VARIANT_TYPE"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

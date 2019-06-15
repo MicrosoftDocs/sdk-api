@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice function [Media Foundation], mf.mfcreatecontentprotectiondevice, mfidl/MFCreateContentProtectionDevice
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateContentProtectionDevice"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

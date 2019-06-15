@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetlinedevstatus, lineSetLineDevStatus, lineSetLineDevStatus function [TAPI 2.2], tapi/lineSetLineDevStatus, tapi2.linesetlinedevstatus"
 ms.topic: function
+f1_keywords: ["tapi/lineSetLineDevStatus"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

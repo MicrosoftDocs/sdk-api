@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLabels, GetLabels method [Windows Contacts], GetLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetLabels method, IContactProperties.GetLabels, IContactProperties::GetLabels, _wincontacts_IContactProperties_GetLabels, icontact/IContactProperties::GetLabels, wincontacts._wincontacts_IContactProperties_GetLabels
 ms.topic: method
+f1_keywords: ["icontact/IContactProperties.GetLabels"]
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

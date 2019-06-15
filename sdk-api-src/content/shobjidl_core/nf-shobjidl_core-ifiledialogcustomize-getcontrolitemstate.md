@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetControlItemState, GetControlItemState method [Windows Shell], GetControlItemState method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetControlItemState method, IFileDialogCustomize.GetControlItemState, IFileDialogCustomize::GetControlItemState, shell.IFileDialogCustomize_GetControlItemState, shell_IFileDialogCustomize_GetControlItemState, shobjidl_core/IFileDialogCustomize::GetControlItemState
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialogCustomize.GetControlItemState"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

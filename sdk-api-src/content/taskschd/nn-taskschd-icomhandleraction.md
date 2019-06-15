@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COM handler action [Task Scheduler],interface, IComHandlerAction, IComHandlerAction interface [Task Scheduler], IComHandlerAction interface [Task Scheduler],described, taskschd.icomhandleraction, taskschd/IComHandlerAction
 ms.topic: interface
+f1_keywords: ["taskschd/IComHandlerAction"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

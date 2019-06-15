@@ -5,6 +5,7 @@ description: Used to cancel a running DNS-SD discovery query.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceBrowseCancel
 ms.topic: language-reference
+f1_keywords: ["windns/DnsServiceBrowseCancel"]
 targetos: Windows
 product: Windows
 req.assembly: 

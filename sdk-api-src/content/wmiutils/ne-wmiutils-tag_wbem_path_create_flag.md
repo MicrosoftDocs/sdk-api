@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMPATH_CREATE_ACCEPT_ABSOLUTE, WBEMPATH_CREATE_ACCEPT_ALL, WBEMPATH_CREATE_ACCEPT_RELATIVE, WBEMPATH_TREAT_SINGLE_IDENT_AS_NS, tag_WBEM_PATH_CREATE_FLAG, tag_WBEM_PATH_CREATE_FLAG enumeration [Windows Management Instrumentation], wmi.tag_wbem_path_create_flag, wmiutils/WBEMPATH_CREATE_ACCEPT_ABSOLUTE, wmiutils/WBEMPATH_CREATE_ACCEPT_ALL, wmiutils/WBEMPATH_CREATE_ACCEPT_RELATIVE, wmiutils/WBEMPATH_TREAT_SINGLE_IDENT_AS_NS, wmiutils/tag_WBEM_PATH_CREATE_FLAG
 ms.topic: enum
+f1_keywords: ["wmiutils/tag_WBEM_PATH_CREATE_FLAG"]
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

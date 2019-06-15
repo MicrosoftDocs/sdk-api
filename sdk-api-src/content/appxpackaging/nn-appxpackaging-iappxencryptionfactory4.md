@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptionFactory4, IAppxEncryptionFactory4 interface [App packaging and management], IAppxEncryptionFactory4 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory4, appxpkg.iappxencryptionfactory4
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxEncryptionFactory4"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

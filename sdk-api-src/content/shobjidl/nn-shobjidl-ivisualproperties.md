@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVisualProperties interface [Windows Shell],described, _shell_IVisualProperties, shell.IVisualProperties, shobjidl/IVisualProperties
 ms.topic: interface
+f1_keywords: ["shobjidl/IVisualProperties"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DATADIR, DATADIR enumeration [COM], DATADIR_GET, DATADIR_SET, _ole_DATADIR, com.datadir, objidl/DATADIR, objidl/DATADIR_GET, objidl/DATADIR_SET
 ms.topic: enum
+f1_keywords: ["objidl/DATADIR"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

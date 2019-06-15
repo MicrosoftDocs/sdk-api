@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallStateEvent interface [TAPI 2.2],get_Call method, ITCallStateEvent.get_Call, ITCallStateEvent::get_Call, _tapi3_itcallstateevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallStateEvent interface, tapi3.itcallstateevent_get_call, tapi3if/ITCallStateEvent::get_Call
 ms.topic: method
+f1_keywords: ["tapi3if/ITCallStateEvent.get_Call"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

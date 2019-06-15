@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncCompleteCall, RpcAsyncCompleteCall function [RPC], _rpc_rpcasynccompletecall, rpc.rpcasynccompletecall, rpcasync/RpcAsyncCompleteCall
 ms.topic: function
+f1_keywords: ["rpcasync/RpcAsyncCompleteCall"]
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

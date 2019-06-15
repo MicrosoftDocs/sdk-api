@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAllocateWorkQueue function [Media Foundation], mf.mfallocateworkqueue, mfapi/MFAllocateWorkQueue
 ms.topic: function
+f1_keywords: ["mfapi/MFAllocateWorkQueue"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

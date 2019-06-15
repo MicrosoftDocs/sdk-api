@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdUnlock, DdUnlock callback function [Display Devices], PDD_SURFCB_UNLOCK, PDD_SURFCB_UNLOCK callback, ddfncs_9599bb87-0f48-4481-a5c8-4c3d60dc1fc6.xml, ddrawint/DdUnlock, display.ddunlock
 ms.topic: callback
+f1_keywords: ["ddrawint/DdUnlock"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcCloseInterface, TcCloseInterface function [QOS], _gqos_tccloseinterface, qos.tccloseinterface, traffic/TcCloseInterface
 ms.topic: function
+f1_keywords: ["traffic/TcCloseInterface"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

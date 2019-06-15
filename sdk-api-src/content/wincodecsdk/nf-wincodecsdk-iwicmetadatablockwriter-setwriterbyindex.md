@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],SetWriterByIndex method, IWICMetadataBlockWriter.SetWriterByIndex, IWICMetadataBlockWriter::SetWriterByIndex, SetWriterByIndex, SetWriterByIndex method [Windows Imaging Component], SetWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_setwriterbyindex, wic._wic_codec_iwicmetadatablockwriter_setwriterbyindex, wincodecsdk/IWICMetadataBlockWriter::SetWriterByIndex
 ms.topic: method
+f1_keywords: ["wincodecsdk/IWICMetadataBlockWriter.SetWriterByIndex"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

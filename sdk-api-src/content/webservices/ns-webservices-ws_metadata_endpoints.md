@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_ENDPOINTS, WS_METADATA_ENDPOINTS structure [Web Services for Windows], webservices/WS_METADATA_ENDPOINTS, wsw.ws_metadata_endpoints
 ms.topic: struct
+f1_keywords: ["webservices/WS_METADATA_ENDPOINTS"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

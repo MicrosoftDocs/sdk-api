@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMPermission"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

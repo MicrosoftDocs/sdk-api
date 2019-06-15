@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, wingdi/LOGBRUSH, wingdi/PLOGBRUSH"
 ms.topic: struct
+f1_keywords: ["wingdi/LOGBRUSH"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

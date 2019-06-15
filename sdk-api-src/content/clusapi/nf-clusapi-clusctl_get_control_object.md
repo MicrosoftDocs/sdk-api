@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSCTL_GET_CONTROL_OBJECT, CLUSCTL_GET_CONTROL_OBJECT macro [Failover Cluster], _wolf_clusctl_get_control_object, clusapi/CLUSCTL_GET_CONTROL_OBJECT, mscs.clusctl_get_control_object
 ms.topic: macro
+f1_keywords: ["clusapi/CLUSCTL_GET_CONTROL_OBJECT"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

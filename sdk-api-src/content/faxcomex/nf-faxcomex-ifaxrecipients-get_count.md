@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxRecipients interface, IFaxRecipients interface [Fax Service],Count property, IFaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp, faxcomex/IFaxRecipients::Count, faxcomex/IFaxRecipients::get_Count, get_Count
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxRecipients.Count"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

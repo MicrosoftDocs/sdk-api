@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMStatusMessage"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

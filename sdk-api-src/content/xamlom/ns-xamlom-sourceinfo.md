@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSourceInfo, PSourceInfo structure pointer, SourceInfo, SourceInfo structure, xaml_diagnostics.sourceinfo, xamlom/PSourceInfo, xamlom/SourceInfo
 ms.topic: struct
+f1_keywords: ["xamlom/SourceInfo"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

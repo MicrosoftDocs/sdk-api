@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
 ms.topic: interface
+f1_keywords: ["shobjidl/IAccessibleObject"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

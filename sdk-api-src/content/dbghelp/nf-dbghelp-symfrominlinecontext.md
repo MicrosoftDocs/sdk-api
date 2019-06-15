@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
 ms.topic: function
+f1_keywords: ["dbghelp/SymFromInlineContext"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

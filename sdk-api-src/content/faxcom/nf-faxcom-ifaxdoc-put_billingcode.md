@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],IFaxDoc interface, IFaxDoc interface [Fax Service],BillingCode property, IFaxDoc.BillingCode, IFaxDoc.put_BillingCode, IFaxDoc::BillingCode, IFaxDoc::get_BillingCode, IFaxDoc::put_BillingCode, _mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_billingcode_cpp, faxcom/IFaxDoc::BillingCode, faxcom/IFaxDoc::get_BillingCode, faxcom/IFaxDoc::put_BillingCode, put_BillingCode
 ms.topic: method
+f1_keywords: ["faxcom/IFaxDoc.BillingCode"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

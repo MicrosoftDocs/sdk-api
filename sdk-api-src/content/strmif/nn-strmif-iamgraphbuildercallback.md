@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], IAMGraphBuilderCallback interface [DirectShow],described, IAMGraphBuilderCallbackInterface, dshow.iamgraphbuildercallback, strmif/IAMGraphBuilderCallback
 ms.topic: interface
+f1_keywords: ["strmif/IAMGraphBuilderCallback"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAPOFree, XAPOFree macro [XAudio2 Audio Mixing APIs], xapo/XAPOFree, xaudio2.xapofree
 ms.topic: macro
+f1_keywords: ["xapo/XAPOFree"]
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

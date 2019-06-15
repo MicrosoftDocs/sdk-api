@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO, LPRSVP_RESERVE_INFO structure pointer [QOS], RSVP_DEFAULT_STYLE, RSVP_FIXED_FILTER_STYLE, RSVP_RESERVE_INFO, RSVP_RESERVE_INFO structure [QOS], RSVP_SHARED_EXPLICIT_STYLE, RSVP_WILDCARD_SYLE, _gqos_rsvp_reserve_info, qos.rsvp_reserve_info, qossp/LPRSVP_RESERVE_INFO, qossp/RSVP_RESERVE_INFO"
 ms.topic: struct
+f1_keywords: ["qossp/RSVP_RESERVE_INFO"]
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

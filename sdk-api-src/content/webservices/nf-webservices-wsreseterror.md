@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetError, WsResetError function [Web Services for Windows], webservices/WsResetError, wsw.wsreseterror
 ms.topic: function
+f1_keywords: ["webservices/WsResetError"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

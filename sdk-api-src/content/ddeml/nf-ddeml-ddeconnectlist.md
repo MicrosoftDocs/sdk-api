@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeConnectList, DdeConnectList function [Data Exchange], _win32_DdeConnectList, _win32_ddeconnectlist_cpp, dataxchg.ddeconnectlist, ddeml/DdeConnectList, winui._win32_ddeconnectlist
 ms.topic: function
+f1_keywords: ["ddeml/DdeConnectList"]
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

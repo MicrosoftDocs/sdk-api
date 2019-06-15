@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsActive method, IMFTimedTextTrack.IsActive, IMFTimedTextTrack::IsActive, IsActive, IsActive method [Media Foundation], IsActive method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isactive, mfmediaengine/IMFTimedTextTrack::IsActive
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFTimedTextTrack.IsActive"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

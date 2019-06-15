@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetConstrictionSize method, IMFVideoProcessorControl.SetConstrictionSize, IMFVideoProcessorControl::SetConstrictionSize, SetConstrictionSize, SetConstrictionSize method [Media Foundation], SetConstrictionSize method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setconstrictionsize, mfidl/IMFVideoProcessorControl::SetConstrictionSize
 ms.topic: method
+f1_keywords: ["mfidl/IMFVideoProcessorControl.SetConstrictionSize"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

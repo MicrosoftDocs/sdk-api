@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPPP_EAP_INPUT, PPPP_EAP_INPUT, PPPP_EAP_INPUT structure pointer [EAP], PPP_EAP_INPUT, PPP_EAP_INPUT structure [EAP], RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_ALTERNATIVE_USER_DB, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PEAP_UPFRONT, RAS_EAP_FLAG_PRE_LOGON, RAS_EAP_FLAG_RESUME_FROM_HIBERNATE, RAS_EAP_FLAG_ROUTER, _eap_ppp_eap_input, eap.ppp_eap_input, raseapif/PPPP_EAP_INPUT, raseapif/PPP_EAP_INPUT"
 ms.topic: struct
+f1_keywords: ["raseapif/PPP_EAP_INPUT"]
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

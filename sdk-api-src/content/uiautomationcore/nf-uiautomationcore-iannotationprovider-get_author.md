@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Author property [Windows Accessibility], Author property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],Author property, IAnnotationProvider.Author, IAnnotationProvider.get_Author, IAnnotationProvider::Author, IAnnotationProvider::get_Author, get_Author, uiautomationcore/IAnnotationProvider::Author, uiautomationcore/IAnnotationProvider::get_Author, winauto.uiauto_IAnnotationProvider_Author
 ms.topic: method
+f1_keywords: ["uiautomationcore/IAnnotationProvider.Author"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

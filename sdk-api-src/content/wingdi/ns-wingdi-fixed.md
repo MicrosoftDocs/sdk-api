@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FIXED, FIXED structure [Windows GDI], _win32_FIXED_str, gdi.fixed, wingdi/FIXED
 ms.topic: struct
+f1_keywords: ["wingdi/FIXED"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

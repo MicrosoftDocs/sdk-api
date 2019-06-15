@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateShare, CreateShare method [Windows Shell], CreateShare method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],CreateShare method, ISharingConfigurationManager.CreateShare, ISharingConfigurationManager::CreateShare, SHARE_ROLE_CO_OWNER, SHARE_ROLE_READER, _shell_ISharingConfigurationManager_CreateShare, shell.ISharingConfigurationManager_CreateShare, shobjidl_core/ISharingConfigurationManager::CreateShare
 ms.topic: method
+f1_keywords: ["shobjidl_core/ISharingConfigurationManager.CreateShare"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

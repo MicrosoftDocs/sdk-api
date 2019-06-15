@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM], CreateInstance method [COM],IClassFactory interface, IClassFactory interface [COM],CreateInstance method, IClassFactory.CreateInstance, IClassFactory::CreateInstance, _com_iclassfactory_createinstance, com.iclassfactory_createinstance, unknwn/IClassFactory::CreateInstance
 ms.topic: method
+f1_keywords: ["unknwn/IClassFactory.CreateInstance"]
 req.header: unknwn.h
 req.include-header: 
 req.target-type: Windows

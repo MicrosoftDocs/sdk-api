@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificate property, IOCSPCAConfiguration.SigningCertificate, IOCSPCAConfiguration.get_SigningCertificate, IOCSPCAConfiguration::SigningCertificate, IOCSPCAConfiguration::get_SigningCertificate, IOCSPCAConfiguration::put_SigningCertificate, SigningCertificate property [Security], SigningCertificate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificate, certadm/IOCSPCAConfiguration::get_SigningCertificate, certadm/IOCSPCAConfiguration::put_SigningCertificate, get_SigningCertificate, security.iocspcaconfiguration_signingcertificate_method
 ms.topic: method
+f1_keywords: ["certadm/IOCSPCAConfiguration.SigningCertificate"]
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

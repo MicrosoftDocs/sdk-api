@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceControl, IUPnPDeviceControl interface [UPnP APIs], IUPnPDeviceControl interface [UPnP APIs],described, _upnp_iupnpdevicecontrol, upnp.iupnpdevicecontrol, upnphost/IUPnPDeviceControl
 ms.topic: interface
+f1_keywords: ["upnphost/IUPnPDeviceControl"]
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventAccessRemove, EventAccessRemove function [ETW], base.eventaccessremove_func, etw.eventaccessremove_func, evntcons/EventAccessRemove
 ms.topic: function
+f1_keywords: ["evntcons/EventAccessRemove"]
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

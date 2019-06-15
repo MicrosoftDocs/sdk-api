@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_GREATER_VERSION, HTTPAPI_GREATER_VERSION macro [HTTP], http.httpapi_greater_version, http/HTTPAPI_GREATER_VERSION
 ms.topic: macro
+f1_keywords: ["http/HTTP_GREATER_VERSION"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

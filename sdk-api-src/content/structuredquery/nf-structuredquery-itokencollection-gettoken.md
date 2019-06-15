@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetToken, GetToken method [search], GetToken method [search],ITokenCollection interface, ITokenCollection interface [search],GetToken method, ITokenCollection.GetToken, ITokenCollection::GetToken, _search_ITokenCollection_GetToken, search._search_ITokenCollection_GetToken, structuredquery/ITokenCollection::GetToken
 ms.topic: method
+f1_keywords: ["structuredquery/ITokenCollection.GetToken"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

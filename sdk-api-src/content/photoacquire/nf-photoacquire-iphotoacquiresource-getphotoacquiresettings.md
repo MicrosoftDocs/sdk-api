@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPhotoAcquireSettings, GetPhotoAcquireSettings method [Picture Acquisition], GetPhotoAcquireSettings method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetPhotoAcquireSettings method, IPhotoAcquireSource.GetPhotoAcquireSettings, IPhotoAcquireSource::GetPhotoAcquireSettings, IPhotoAcquireSourceGetPhotoAcquireSettings, photoacquire/IPhotoAcquireSource::GetPhotoAcquireSettings, picacq.iphotoacquiresource_getphotoacquiresettings
 ms.topic: method
+f1_keywords: ["photoacquire/IPhotoAcquireSource.GetPhotoAcquireSettings"]
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktopP interface [Legacy Windows Environment Features],SetSafeMode method, IActiveDesktopP.SetSafeMode, IActiveDesktopP::SetSafeMode, SSM_SET, SSM_UPDATE, SetSafeMode, SetSafeMode method [Legacy Windows Environment Features], SetSafeMode method [Legacy Windows Environment Features],IActiveDesktopP interface, _win32_IActiveDesktopP_SetSafeMode, lwef.iactivedesktopp_setsafemode, shell.iactivedesktopp_setsafemode, shlobj/IActiveDesktopP::SetSafeMode
 ms.topic: method
+f1_keywords: ["shlobj/IActiveDesktopP.SetSafeMode"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

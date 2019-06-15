@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextCallback, IContextCallback interface [COM], IContextCallback interface [COM],described, _com_icontextcallback, com.icontextcallback, ctxtcall/IContextCallback
 ms.topic: interface
+f1_keywords: ["ctxtcall/IContextCallback"]
 req.header: ctxtcall.h
 req.include-header: 
 req.target-type: Windows

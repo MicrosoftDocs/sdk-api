@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameUDF method, IFileSystemImage.get_VolumeNameUDF, IFileSystemImage::get_VolumeNameUDF, get_VolumeNameUDF, get_VolumeNameUDF method [IMAPI], get_VolumeNameUDF method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenameudf, imapi2fs/IFileSystemImage::get_VolumeNameUDF
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.get_VolumeNameUDF"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

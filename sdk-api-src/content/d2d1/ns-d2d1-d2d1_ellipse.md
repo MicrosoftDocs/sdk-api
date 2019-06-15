@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_ELLIPSE, D2D1_ELLIPSE structure [Direct2D], d2d1/D2D1_ELLIPSE, direct2d.D2D1_ELLIPSE
 ms.topic: struct
+f1_keywords: ["d2d1/D2D1_ELLIPSE"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

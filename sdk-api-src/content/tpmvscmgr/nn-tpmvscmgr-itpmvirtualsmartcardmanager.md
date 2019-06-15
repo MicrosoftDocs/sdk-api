@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManager, ITpmVirtualSmartCardManager interface [Security], ITpmVirtualSmartCardManager interface [Security],described, security.itpmvirtualsmartcardmanager, tpmvscmgr/ITpmVirtualSmartCardManager
 ms.topic: interface
+f1_keywords: ["tpmvscmgr/ITpmVirtualSmartCardManager"]
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

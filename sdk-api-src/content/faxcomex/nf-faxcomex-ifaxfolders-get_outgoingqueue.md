@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxFolders interface [Fax Service],OutgoingQueue property, IFaxFolders.OutgoingQueue, IFaxFolders.get_OutgoingQueue, IFaxFolders::OutgoingQueue, IFaxFolders::get_OutgoingQueue, OutgoingQueue property [Fax Service], OutgoingQueue property [Fax Service],IFaxFolders interface, _mfax_faxfolders.outgoingqueue, fax._mfax_faxfolders_cpp_mfax_faxfolders_outgoingqueue_cpp, fax._mfax_faxfolders_outgoingqueue, faxcomex/IFaxFolders::OutgoingQueue, faxcomex/IFaxFolders::get_OutgoingQueue, get_OutgoingQueue
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxFolders.OutgoingQueue"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

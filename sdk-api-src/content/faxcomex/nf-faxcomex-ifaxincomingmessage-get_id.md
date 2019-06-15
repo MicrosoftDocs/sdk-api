@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],Id property, IFaxIncomingMessage.Id, IFaxIncomingMessage.get_Id, IFaxIncomingMessage::Id, IFaxIncomingMessage::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.id, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_id_cpp, fax._mfax_faxincomingmessage_id, faxcomex/IFaxIncomingMessage::Id, faxcomex/IFaxIncomingMessage::get_Id, get_Id
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingMessage.Id"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBitmapDescription, GetBitmapDescription method, GetBitmapDescription method,IBitmapData interface, IBitmapData interface,GetBitmapDescription method, IBitmapData.GetBitmapDescription, IBitmapData::GetBitmapDescription, xaml_diagnostics.ibitmapdata_getbitmapdescription, xamlom/IBitmapData::GetBitmapDescription
 ms.topic: method
+f1_keywords: ["xamlom/IBitmapData.GetBitmapDescription"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

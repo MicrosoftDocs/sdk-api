@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSmDestroyClientContext, RpcSmDestroyClientContext function [RPC], _rpc_rpcsmdestroyclientcontext, rpc.rpcsmdestroyclientcontext, rpcndr/RpcSmDestroyClientContext
 ms.topic: function
+f1_keywords: ["rpcndr/RpcSmDestroyClientContext"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

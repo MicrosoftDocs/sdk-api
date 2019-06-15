@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc1, GetDesc1 method [Direct3D 10], GetDesc1 method [Direct3D 10],ID3D10BlendState1 interface, ID3D10BlendState1 interface [Direct3D 10],GetDesc1 method, ID3D10BlendState1.GetDesc1, ID3D10BlendState1::GetDesc1, b4b6a61b-f094-530a-21fb-49f9704b2b79, d3d10_1/ID3D10BlendState1::GetDesc1, direct3d10.id3d10blendstate1_getdesc1
 ms.topic: method
+f1_keywords: ["d3d10_1/ID3D10BlendState1.GetDesc1"]
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

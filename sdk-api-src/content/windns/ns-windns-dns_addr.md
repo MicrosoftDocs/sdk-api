@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR"
 ms.topic: struct
+f1_keywords: ["windns/DNS_ADDR"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

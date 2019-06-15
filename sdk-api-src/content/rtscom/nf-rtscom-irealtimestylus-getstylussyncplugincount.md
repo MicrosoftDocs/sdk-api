@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1f8d9097-6f17-4c62-a624-98583ac26f98, GetStylusSyncPluginCount, GetStylusSyncPluginCount method [Tablet PC], GetStylusSyncPluginCount method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPluginCount method, IRealTimeStylus.GetStylusSyncPluginCount, IRealTimeStylus::GetStylusSyncPluginCount, rtscom/IRealTimeStylus::GetStylusSyncPluginCount, tablet.irealtimestylus_getstylussyncplugincount
 ms.topic: method
+f1_keywords: ["rtscom/IRealTimeStylus.GetStylusSyncPluginCount"]
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

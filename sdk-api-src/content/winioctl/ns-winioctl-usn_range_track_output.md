@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSN_RANGE_TRACK_OUTPUT, PUSN_RANGE_TRACK_OUTPUT, PUSN_RANGE_TRACK_OUTPUT structure pointer [Files], USN_RANGE_TRACK_OUTPUT, USN_RANGE_TRACK_OUTPUT structure [Files], fs.usn_range_track_output, winioctl/PUSN_RANGE_TRACK_OUTPUT, winioctl/USN_RANGE_TRACK_OUTPUT"
 ms.topic: struct
+f1_keywords: ["winioctl/USN_RANGE_TRACK_OUTPUT"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

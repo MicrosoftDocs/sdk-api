@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_ROUTES, PDO_UPDATE_ROUTES callback, _mpr_doupdateroutes, routprot/DoUpdateRoutes, rras.doupdateroutes
 ms.topic: callback
+f1_keywords: ["routprot/DoUpdateRoutes"]
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

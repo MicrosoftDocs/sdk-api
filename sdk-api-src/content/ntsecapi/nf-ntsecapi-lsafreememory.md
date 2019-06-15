@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaFreeMemory, LsaFreeMemory function [Security], _lsa_lsafreememory, ntsecapi/LsaFreeMemory, security.lsafreememory
 ms.topic: function
+f1_keywords: ["ntsecapi/LsaFreeMemory"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

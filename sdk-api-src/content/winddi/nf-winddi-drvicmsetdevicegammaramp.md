@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvIcmSetDeviceGammaRamp, DrvIcmSetDeviceGammaRamp function [Display Devices], ddifncs_4f81d949-51a0-4d83-b779-e9e950c2851d.xml, display.drvicmsetdevicegammaramp, winddi/DrvIcmSetDeviceGammaRamp
 ms.topic: function
+f1_keywords: ["winddi/DrvIcmSetDeviceGammaRamp"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

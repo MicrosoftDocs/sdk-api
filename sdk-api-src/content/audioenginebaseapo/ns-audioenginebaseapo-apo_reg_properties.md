@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAPO_REG_PROPERTIES, APO_REG_PROPERTIES, APO_REG_PROPERTIES structure [Audio Devices], PAPO_REG_PROPERTIES, PAPO_REG_PROPERTIES structure pointer [Audio Devices], audio.apo_reg_properties, audioenginebaseapo/APO_REG_PROPERTIES, audioenginebaseapo/PAPO_REG_PROPERTIES"
 ms.topic: struct
+f1_keywords: ["audioenginebaseapo/APO_REG_PROPERTIES"]
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

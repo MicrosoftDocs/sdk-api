@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5e255a6a-0061-9fe8-11d9-e7f4391dd52d, D3D10_RENDER_TARGET_VIEW_DESC, D3D10_RENDER_TARGET_VIEW_DESC structure [Direct3D 10], d3d10/D3D10_RENDER_TARGET_VIEW_DESC, direct3d10.d3d10_render_target_view_desc
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_RENDER_TARGET_VIEW_DESC"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

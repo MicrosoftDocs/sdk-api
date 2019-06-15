@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRFILLPATH, *PEMRSTROKEANDFILLPATH, *PEMRSTROKEPATH, EMRFILLPATH, EMRFILLPATH structure [Windows GDI], EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH, EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH structure [Windows GDI], EMRSTROKEANDFILLPATH, EMRSTROKEANDFILLPATH structure [Windows GDI], EMRSTROKEPATH, EMRSTROKEPATH structure [Windows GDI], PEMRFILLPATH, PEMRFILLPATH structure pointer [Windows GDI], PEMRSTROKEANDFILLPATH, PEMRSTROKEANDFILLPATH structure pointer [Windows GDI], PEMRSTROKEPATH, PEMRSTROKEPATH structure pointer [Windows GDI], _win32_EMRFILLPATH_str, gdi.emrfillpath__emrstrokeandfillpath__emrstrokepath, wingdi/EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH, wingdi/EMRSTROKEANDFILLPATH, wingdi/EMRSTROKEPATH, wingdi/PEMRFILLPATH, wingdi/PEMRSTROKEANDFILLPATH, wingdi/PEMRSTROKEPATH"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRFILLPATH"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

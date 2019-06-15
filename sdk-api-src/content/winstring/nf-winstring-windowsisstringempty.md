@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
 ms.topic: function
+f1_keywords: ["winstring/WindowsIsStringEmpty"]
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCInstallNameSpace, WSCInstallNameSpace function [Winsock], _win32_wscinstallnamespace_2, winsock.wscinstallnamespace_2, ws2spi/WSCInstallNameSpace
 ms.topic: function
+f1_keywords: ["ws2spi/WSCInstallNameSpace"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

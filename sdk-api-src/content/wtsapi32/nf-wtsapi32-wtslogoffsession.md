@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSLogoffSession, WTSLogoffSession function [Remote Desktop Services], _win32_wtslogoffsession, termserv.wtslogoffsession, wtsapi32/WTSLogoffSession
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSLogoffSession"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

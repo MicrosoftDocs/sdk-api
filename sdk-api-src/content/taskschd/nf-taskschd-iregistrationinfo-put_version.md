@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],Version property, IRegistrationInfo.Version, IRegistrationInfo.put_Version, IRegistrationInfo::Version, IRegistrationInfo::get_Version, IRegistrationInfo::put_Version, Version property [Task Scheduler], Version property [Task Scheduler],IRegistrationInfo interface, put_Version, taskschd.iregistrationinfo_version, taskschd/IRegistrationInfo::Version, taskschd/IRegistrationInfo::get_Version, taskschd/IRegistrationInfo::put_Version
 ms.topic: method
+f1_keywords: ["taskschd/IRegistrationInfo.Version"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

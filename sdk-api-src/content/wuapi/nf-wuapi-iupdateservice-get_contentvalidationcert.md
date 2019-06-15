@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContentValidationCert property [Windows Update Agent], ContentValidationCert property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ContentValidationCert property, IUpdateService.ContentValidationCert, IUpdateService.get_ContentValidationCert, IUpdateService::ContentValidationCert, IUpdateService::get_ContentValidationCert, get_ContentValidationCert, wua.iupdateservice_contentvalidationcert, wuapi/IUpdateService::ContentValidationCert, wuapi/IUpdateService::get_ContentValidationCert
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateService.ContentValidationCert"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

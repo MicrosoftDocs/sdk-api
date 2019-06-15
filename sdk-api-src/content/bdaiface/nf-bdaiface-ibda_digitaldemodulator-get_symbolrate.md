@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_SymbolRate method, IBDA_DigitalDemodulator.get_SymbolRate, IBDA_DigitalDemodulator::get_SymbolRate, IBDA_DigitalDemodulatorget_SymbolRate, bdaiface/IBDA_DigitalDemodulator::get_SymbolRate, get_SymbolRate, get_SymbolRate method [Microsoft TV Technologies], get_SymbolRate method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_symbolrate
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_DigitalDemodulator.get_SymbolRate"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

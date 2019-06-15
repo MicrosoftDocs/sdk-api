@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIGETOPENINFO, FNFCIGETOPENINFO macro [Windows API], fci/FNFCIGETOPENINFO, winprog.fnfcigetopeninfo
 ms.topic: macro
+f1_keywords: ["fci/FNFCIGETOPENINFO"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

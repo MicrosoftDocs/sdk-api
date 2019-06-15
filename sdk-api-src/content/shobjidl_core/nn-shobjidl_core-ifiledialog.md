@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog, IFileDialog interface [Windows Shell], IFileDialog interface [Windows Shell],described, shell.IFileDialog, shell_IFileDialog, shobjidl_core/IFileDialog
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IFileDialog"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

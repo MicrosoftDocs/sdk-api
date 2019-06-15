@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Direct3D 11], GetBufferSize method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferSize method, ID3D10Blob.GetBufferSize, ID3D10Blob::GetBufferSize, d3dcommon/ID3D10Blob::GetBufferSize, direct3d11.id3d10blob_getbuffersize
 ms.topic: method
+f1_keywords: ["d3dcommon/ID3D10Blob.GetBufferSize"]
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

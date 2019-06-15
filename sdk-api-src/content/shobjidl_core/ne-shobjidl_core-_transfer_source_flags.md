@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRANSFER_SOURCE_FLAGS, TRANSFER_SOURCE_FLAGS enumeration [Windows Shell], TSF_ALLOW_DECRYPTION, TSF_COPY_CREATION_TIME, TSF_COPY_HARD_LINK, TSF_COPY_LOCALIZED_NAME, TSF_COPY_WRITE_TIME, TSF_DELETE_RECYCLE_IF_POSSIBLE, TSF_FAIL_EXIST, TSF_MOVE_AS_COPY_DELETE, TSF_NORMAL, TSF_NO_SECURITY, TSF_OVERWRITE_EXIST, TSF_RENAME_EXIST, TSF_SUSPEND_SHELLEVENTS, TSF_USE_FULL_ACCESS, _TRANSFER_SOURCE_FLAGS, _shell_TSF_constants, shell.TSF_constants, shobjidl_core/TRANSFER_SOURCE_FLAGS, shobjidl_core/TSF_ALLOW_DECRYPTION, shobjidl_core/TSF_COPY_CREATION_TIME, shobjidl_core/TSF_COPY_HARD_LINK, shobjidl_core/TSF_COPY_LOCALIZED_NAME, shobjidl_core/TSF_COPY_WRITE_TIME, shobjidl_core/TSF_DELETE_RECYCLE_IF_POSSIBLE, shobjidl_core/TSF_FAIL_EXIST, shobjidl_core/TSF_MOVE_AS_COPY_DELETE, shobjidl_core/TSF_NORMAL, shobjidl_core/TSF_NO_SECURITY, shobjidl_core/TSF_OVERWRITE_EXIST, shobjidl_core/TSF_RENAME_EXIST, shobjidl_core/TSF_SUSPEND_SHELLEVENTS, shobjidl_core/TSF_USE_FULL_ACCESS
 ms.topic: enum
+f1_keywords: ["shobjidl_core/TRANSFER_SOURCE_FLAGS"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

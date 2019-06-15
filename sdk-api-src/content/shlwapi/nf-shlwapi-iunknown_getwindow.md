@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_GetWindow, IUnknown_GetWindow function [Windows Shell], _win32_IUnknown_GetWindow, shell.IUnknown_GetWindow, shlwapi/IUnknown_GetWindow
 ms.topic: function
+f1_keywords: ["shlwapi/IUnknown_GetWindow"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

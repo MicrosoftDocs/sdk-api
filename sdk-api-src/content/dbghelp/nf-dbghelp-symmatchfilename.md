@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
 ms.topic: function
+f1_keywords: ["dbghelp/SymMatchFileName"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

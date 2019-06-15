@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapUsernamePasswordCredential, EapUsernamePasswordCredential structure [EAPHost], eaphost.eapusernamepasswordcredential, eaptypes/EapUsernamePasswordCredential
 ms.topic: struct
+f1_keywords: ["eaptypes/EapUsernamePasswordCredential"]
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER
 ms.topic: struct
+f1_keywords: ["amvideo/VIDEOINFOHEADER"]
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2, IWindowsDriverUpdate2 interface [Windows Update Agent], IWindowsDriverUpdate2 interface [Windows Update Agent],described, wua.iwindowsdriverupdate2, wuapi/IWindowsDriverUpdate2
 ms.topic: interface
+f1_keywords: ["wuapi/IWindowsDriverUpdate2"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

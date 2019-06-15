@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10StateBlockMaskUnion, D3D10StateBlockMaskUnion function [Direct3D 10], c41aabcb-aa6c-e4b6-5de4-b68cb7241686, d3d10effect/D3D10StateBlockMaskUnion, direct3d10.d3d10stateblockmaskunion
 ms.topic: function
+f1_keywords: ["d3d10effect/D3D10StateBlockMaskUnion"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

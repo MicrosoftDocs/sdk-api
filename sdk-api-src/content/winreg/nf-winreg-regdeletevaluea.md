@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegDeleteValue, RegDeleteValue function, RegDeleteValueA, RegDeleteValueW, _win32_regdeletevalue, base.regdeletevalue, winreg/RegDeleteValue, winreg/RegDeleteValueA, winreg/RegDeleteValueW
 ms.topic: function
+f1_keywords: ["winreg/RegDeleteValue"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFELanguage interface [Internationalization for Windows Applications],Open method, IFELanguage.Open, IFELanguage::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFELanguage interface, intl.ifelanguage_open, msime/IFELanguage::Open
 ms.topic: method
+f1_keywords: ["msime/IFELanguage.Open"]
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows

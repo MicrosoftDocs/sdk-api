@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1c3a5470-eba9-4233-8744-8630002d3fa0, CreateStreamPrioritization, CreateStreamPrioritization method [Media Foundation], CreateStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],CreateStreamPrioritization method, IMFASFProfile.CreateStreamPrioritization, IMFASFProfile::CreateStreamPrioritization, mf.imfasfprofile_createstreamprioritization, wmcontainer/IMFASFProfile::CreateStreamPrioritization
 ms.topic: method
+f1_keywords: ["wmcontainer/IMFASFProfile.CreateStreamPrioritization"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
 ms.topic: function
+f1_keywords: ["wingdi/ExtFloodFill"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

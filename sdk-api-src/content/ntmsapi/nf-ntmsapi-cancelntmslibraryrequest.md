@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelNtmsLibraryRequest, CancelNtmsLibraryRequest function [Files], _zaw_cancelntmslibraryrequest, base.cancelntmslibraryrequest, fs.cancelntmslibraryrequest, ntmsapi/CancelNtmsLibraryRequest
 ms.topic: function
+f1_keywords: ["ntmsapi/CancelNtmsLibraryRequest"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

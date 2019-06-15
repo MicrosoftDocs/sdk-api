@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LinearGradientMode, LinearGradientMode enumeration [GDI+], LinearGradientModeBackwardDiagonal, LinearGradientModeForwardDiagonal, LinearGradientModeHorizontal, LinearGradientModeVertical, _gdiplus_ENUM_LinearGradientMode, gdiplus._gdiplus_ENUM_LinearGradientMode, gdiplusenums/LinearGradientMode, gdiplusenums/LinearGradientModeBackwardDiagonal, gdiplusenums/LinearGradientModeForwardDiagonal, gdiplusenums/LinearGradientModeHorizontal, gdiplusenums/LinearGradientModeVertical
 ms.topic: enum
+f1_keywords: ["gdiplusenums/LinearGradientMode"]
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

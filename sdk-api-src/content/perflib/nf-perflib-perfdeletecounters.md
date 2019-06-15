@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
 ms.topic: function
+f1_keywords: ["perflib/PerfDeleteCounters"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

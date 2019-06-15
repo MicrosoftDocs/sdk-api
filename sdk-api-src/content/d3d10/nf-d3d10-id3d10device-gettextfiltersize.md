@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 17c84de7-9714-f15b-6e79-288beb4a3193, GetTextFilterSize, GetTextFilterSize method [Direct3D 10], GetTextFilterSize method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetTextFilterSize method, ID3D10Device.GetTextFilterSize, ID3D10Device::GetTextFilterSize, d3d10/ID3D10Device::GetTextFilterSize, direct3d10.id3d10device_gettextfiltersize
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.GetTextFilterSize"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

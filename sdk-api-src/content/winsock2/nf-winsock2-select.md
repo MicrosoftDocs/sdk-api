@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select"
 ms.topic: function
+f1_keywords: ["winsock2/select"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

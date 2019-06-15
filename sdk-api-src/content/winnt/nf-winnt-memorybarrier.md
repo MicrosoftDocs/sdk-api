@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MemoryBarrier, MemoryBarrier function, base.memorybarrier, winnt/MemoryBarrier
 ms.topic: function
+f1_keywords: ["winnt/MemoryBarrier"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

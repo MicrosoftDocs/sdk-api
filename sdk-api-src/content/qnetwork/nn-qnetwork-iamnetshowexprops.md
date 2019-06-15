@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps, IAMNetShowExProps interface [DirectShow], IAMNetShowExProps interface [DirectShow],described, IAMNetShowExPropsInterface, dshow.iamnetshowexprops, qnetwork/IAMNetShowExProps
 ms.topic: interface
+f1_keywords: ["qnetwork/IAMNetShowExProps"]
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

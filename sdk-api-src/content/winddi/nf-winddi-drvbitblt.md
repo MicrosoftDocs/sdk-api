@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvBitBlt, DrvBitBlt function [Display Devices], ddifncs_1314a0f2-0f0d-4b76-b060-207e332dafde.xml, display.drvbitblt, winddi/DrvBitBlt
 ms.topic: function
+f1_keywords: ["winddi/DrvBitBlt"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

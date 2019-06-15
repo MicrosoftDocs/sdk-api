@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawGammaControl, IDirectDrawGammaControl interface [DirectDraw], IDirectDrawGammaControl interface [DirectDraw],described, ddraw/IDirectDrawGammaControl, directdraw.idirectdrawgammacontrol
 ms.topic: interface
+f1_keywords: ["ddraw/IDirectDrawGammaControl"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1GetGradientMeshInteriorPointsFromCoonsPatch, D2D1GetGradientMeshInteriorPointsFromCoonsPatch function [Direct2D], d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch, direct2d.d2d1getgradientmeshinteriorpointsfromcoonspatch
 ms.topic: function
+f1_keywords: ["d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

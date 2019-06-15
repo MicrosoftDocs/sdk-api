@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetLastStatus method, CustomLineCap.GetLastStatus, CustomLineCap::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetLastStatus_, gdiplus._gdiplus_CLASS_CustomLineCap_GetLastStatus_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/CustomLineCap.GetLastStatus"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

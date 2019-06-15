@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwMgr interface [ICS/ICF],LocalPolicy property, INetFwMgr.LocalPolicy, INetFwMgr.get_LocalPolicy, INetFwMgr::LocalPolicy, INetFwMgr::get_LocalPolicy, LocalPolicy property [ICS/ICF], LocalPolicy property [ICS/ICF],INetFwMgr interface, get_LocalPolicy, ics.inetfwmgr_localpolicy, netfw/INetFwMgr::LocalPolicy, netfw/INetFwMgr::get_LocalPolicy
 ms.topic: method
+f1_keywords: ["netfw/INetFwMgr.LocalPolicy"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

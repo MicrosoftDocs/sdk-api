@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerConfigBlob2Xml, EapPeerConfigBlob2Xml function [EAPHost], eaphost.eappeerconfigblob2xml, eapmethodpeerapis/EapPeerConfigBlob2Xml
 ms.topic: function
+f1_keywords: ["eapmethodpeerapis/EapPeerConfigBlob2Xml"]
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

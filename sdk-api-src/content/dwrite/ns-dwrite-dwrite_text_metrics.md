@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_METRICS, DWRITE_TEXT_METRICS structure [Direct Write], directwrite.dwrite_text_metrics, dwrite/DWRITE_TEXT_METRICS
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_TEXT_METRICS"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

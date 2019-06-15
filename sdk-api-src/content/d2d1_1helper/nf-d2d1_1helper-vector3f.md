@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Vector3F, Vector3F function [Direct2D], d2d1_1helper/Vector3F, direct2d.vector3f
 ms.topic: function
+f1_keywords: ["d2d1_1helper/Vector3F"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

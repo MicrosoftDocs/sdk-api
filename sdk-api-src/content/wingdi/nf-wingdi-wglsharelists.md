@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglShareLists, opengl.wglsharelists, wglShareLists, wglShareLists function [OpenGL], wingdi/wglShareLists"
 ms.topic: function
+f1_keywords: ["wingdi/wglShareLists"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

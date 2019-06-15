@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform, IDCompositionRotateTransform interface [DirectComposition], IDCompositionRotateTransform interface [DirectComposition],described, dcomp/IDCompositionRotateTransform, directcomp.idcompositionrotatetransform
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionRotateTransform"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

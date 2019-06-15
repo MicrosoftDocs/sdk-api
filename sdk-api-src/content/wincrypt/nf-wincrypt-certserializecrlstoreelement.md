@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSerializeCRLStoreElement, CertSerializeCRLStoreElement function [Security], _crypto2_certserializecrlstoreelement, security.certserializecrlstoreelement, wincrypt/CertSerializeCRLStoreElement
 ms.topic: function
+f1_keywords: ["wincrypt/CertSerializeCRLStoreElement"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

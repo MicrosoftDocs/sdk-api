@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocumentIndex, GetDocumentIndex method [XPS Documents and Packaging], GetDocumentIndex method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentIndex method, IXpsSignatureBlock.GetDocumentIndex, IXpsSignatureBlock::GetDocumentIndex, xps.ixpssignatureblock_getdocumentindex, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentIndex
 ms.topic: method
+f1_keywords: ["xpsdigitalsignature/IXpsSignatureBlock.GetDocumentIndex"]
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

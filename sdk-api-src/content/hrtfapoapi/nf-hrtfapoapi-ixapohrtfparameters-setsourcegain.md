@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],SetSourceGain method, IXAPOHrtfParameters.SetSourceGain, IXAPOHrtfParameters::SetSourceGain, SetSourceGain, SetSourceGain method [XAudio2 Audio Mixing APIs], SetSourceGain method [XAudio2 Audio Mixing APIs],IXAPOHrtfParameters interface, hrtfapoapi/IXAPOHrtfParameters::SetSourceGain, xaudio2.ixapohrtfparameters_setsourcegain
 ms.topic: method
+f1_keywords: ["hrtfapoapi/IXAPOHrtfParameters.SetSourceGain"]
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

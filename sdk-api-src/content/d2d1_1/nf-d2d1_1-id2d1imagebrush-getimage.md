@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [Direct2D], GetImage method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetImage method, ID2D1ImageBrush.GetImage, ID2D1ImageBrush::GetImage, d2d1_1/ID2D1ImageBrush::GetImage, direct2d.id2d1imagebrush_getimage
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1ImageBrush.GetImage"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHTestTokenMembership, SHTestTokenMembership function [Windows Shell], _win32_SHTestTokenMembership, shell.SHTestTokenMembership, shellapi/SHTestTokenMembership
 ms.topic: function
+f1_keywords: ["shellapi/SHTestTokenMembership"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

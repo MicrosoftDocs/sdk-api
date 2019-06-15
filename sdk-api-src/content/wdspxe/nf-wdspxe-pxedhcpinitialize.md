@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpInitialize, PxeDhcpInitialize function [Windows Deployment Services], wds.pxedhcpinitialize, wdspxe/PxeDhcpInitialize
 ms.topic: function
+f1_keywords: ["wdspxe/PxeDhcpInitialize"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyPalette, CopyPalette method [Windows Imaging Component], CopyPalette method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],CopyPalette method, IWICBitmapDecoder.CopyPalette, IWICBitmapDecoder::CopyPalette, _wic_codec_iwicbitmapdecoder_copypalette, wic._wic_codec_iwicbitmapdecoder_copypalette, wincodec/IWICBitmapDecoder::CopyPalette
 ms.topic: method
+f1_keywords: ["wincodec/IWICBitmapDecoder.CopyPalette"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO, DSROLE_OPERATION_STATE_INFO structure [Active Directory], ad.dsrole_operation_state_info, dsrole/DSROLE_OPERATION_STATE_INFO"
 ms.topic: struct
+f1_keywords: ["dsrole/DSROLE_OPERATION_STATE_INFO"]
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

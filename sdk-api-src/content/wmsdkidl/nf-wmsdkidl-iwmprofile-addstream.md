@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [windows Media Format], AddStream method [windows Media Format],IWMProfile interface, AddStream method [windows Media Format],IWMProfile2 interface, AddStream method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],AddStream method, IWMProfile.AddStream, IWMProfile2 interface [windows Media Format],AddStream method, IWMProfile2::AddStream, IWMProfile3 interface [windows Media Format],AddStream method, IWMProfile3::AddStream, IWMProfile::AddStream, IWMProfileAddStream, wmformat.iwmprofile_addstream, wmsdkidl/IWMProfile2::AddStream, wmsdkidl/IWMProfile3::AddStream, wmsdkidl/IWMProfile::AddStream
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMProfile.AddStream"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

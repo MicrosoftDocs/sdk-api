@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],Clone method, IXpsOMVisualBrush.Clone, IXpsOMVisualBrush::Clone, xps.ixpsomvisualbrush_clone, xpsobjectmodel/IXpsOMVisualBrush::Clone
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMVisualBrush.Clone"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

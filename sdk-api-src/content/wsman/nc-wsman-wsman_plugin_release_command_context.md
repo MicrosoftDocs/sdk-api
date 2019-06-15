@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT, WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback, WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT callback function [Windows Remote Management], WSManPluginReleaseCommandContext, winrm.wsman_plugin_release_command_context, wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT
 ms.topic: callback
+f1_keywords: ["wsman/WSMAN_PLUGIN_RELEASE_COMMAND_CONTEXT"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

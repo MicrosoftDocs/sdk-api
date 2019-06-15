@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagnostic function [App packaging and management], appmodel/AppPolicyGetShowDeveloperDiagnostic, appxpkg.apppolicygetshowdeveloperdiagnostic_function
 ms.topic: function
+f1_keywords: ["appmodel/AppPolicyGetShowDeveloperDiagnostic"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

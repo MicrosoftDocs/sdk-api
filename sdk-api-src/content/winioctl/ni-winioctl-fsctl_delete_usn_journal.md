@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_DELETE_USN_JOURNAL, FSCTL_DELETE_USN_JOURNAL control, FSCTL_DELETE_USN_JOURNAL control code [Files], _win32_fsctl_delete_usn_journal, base.fsctl_delete_usn_journal, fs.fsctl_delete_usn_journal, winioctl/FSCTL_DELETE_USN_JOURNAL
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_DELETE_USN_JOURNAL"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

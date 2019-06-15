@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],Description property, Description property [Security], Description property [Security],AzAuthorizationStore object, Description property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Description property, IAzAuthorizationStore.Description, IAzAuthorizationStore.put_Description, IAzAuthorizationStore::Description, IAzAuthorizationStore::get_Description, IAzAuthorizationStore::put_Description, azroles/IAzAuthorizationStore::Description, azroles/IAzAuthorizationStore::get_Description, azroles/IAzAuthorizationStore::put_Description, put_Description, security.azauthorizationstore_description
 ms.topic: method
+f1_keywords: ["azroles/IAzAuthorizationStore.Description"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

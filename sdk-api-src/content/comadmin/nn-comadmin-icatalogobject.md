@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject, ICatalogObject interface [COM+], ICatalogObject interface [COM+],described, _cos_ICatalogObject_Interface, comadmin/ICatalogObject, cos.icatalogobject
 ms.topic: interface
+f1_keywords: ["comadmin/ICatalogObject"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

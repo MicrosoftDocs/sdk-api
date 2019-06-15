@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], IMbnDeviceServicesContext interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicescontext, mbnapi/IMbnDeviceServicesContext
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnDeviceServicesContext"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

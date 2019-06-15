@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetRemoveAlternateComputerName, NetRemoveAlternateComputerName function [Network Management], lmjoin/NetRemoveAlternateComputerName, netmgmt.netremovealternatecomputername
 ms.topic: function
+f1_keywords: ["lmjoin/NetRemoveAlternateComputerName"]
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

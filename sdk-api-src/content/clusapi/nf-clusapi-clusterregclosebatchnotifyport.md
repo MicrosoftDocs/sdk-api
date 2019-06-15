@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseBatchNotifyPort, ClusterRegCloseBatchNotifyPort function [Failover Cluster], PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT, clusapi/ClusterRegCloseBatchNotifyPort, mscs.clusterregclosebatchnotifyport
 ms.topic: function
+f1_keywords: ["clusapi/ClusterRegCloseBatchNotifyPort"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

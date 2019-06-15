@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],PauseTimer method, IOperationsProgressDialog.PauseTimer, IOperationsProgressDialog::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_PauseTimer, shell.IOperationsProgressDialog_PauseTimer, shobjidl_core/IOperationsProgressDialog::PauseTimer
 ms.topic: method
+f1_keywords: ["shobjidl_core/IOperationsProgressDialog.PauseTimer"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

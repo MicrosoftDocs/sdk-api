@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phonesetdata, phoneSetData, phoneSetData function [TAPI 2.2], tapi/phoneSetData, tapi2.phonesetdata"
 ms.topic: function
+f1_keywords: ["tapi/phoneSetData"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

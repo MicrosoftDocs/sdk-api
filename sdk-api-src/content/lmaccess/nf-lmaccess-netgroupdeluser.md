@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGroupDelUser, NetGroupDelUser function [Network Management], _win32_netgroupdeluser, lmaccess/NetGroupDelUser, netmgmt.netgroupdeluser
 ms.topic: function
+f1_keywords: ["lmaccess/NetGroupDelUser"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

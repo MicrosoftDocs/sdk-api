@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia interface [Windows Media Player],get_sourceURL method, IWMPMedia.get_sourceURL, IWMPMedia2 interface [Windows Media Player],get_sourceURL method, IWMPMedia2::get_sourceURL, IWMPMedia3 interface [Windows Media Player],get_sourceURL method, IWMPMedia3::get_sourceURL, IWMPMedia::get_sourceURL, IWMPMediaget_sourceURL, get_sourceURL, get_sourceURL method [Windows Media Player], get_sourceURL method [Windows Media Player],IWMPMedia interface, get_sourceURL method [Windows Media Player],IWMPMedia2 interface, get_sourceURL method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia_get_sourceurl, wmp/IWMPMedia2::get_sourceURL, wmp/IWMPMedia3::get_sourceURL, wmp/IWMPMedia::get_sourceURL
 ms.topic: method
+f1_keywords: ["wmp/IWMPMedia.get_sourceURL"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

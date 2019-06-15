@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSTOP_PROTOCOL, PSTOP_PROTOCOL callback, StopProtocol, StopProtocol callback function [RAS], _mpr_stopprotocol, routprot/StopProtocol, rras.stopprotocol
 ms.topic: callback
+f1_keywords: ["routprot/StopProtocol"]
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

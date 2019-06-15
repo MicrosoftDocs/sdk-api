@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFProtectedEnvironmentAccess, IMFProtectedEnvironmentAccess interface [Media Foundation], IMFProtectedEnvironmentAccess interface [Media Foundation],described, mf.imfprotectedenvironmentaccess, mfidl/IMFProtectedEnvironmentAccess
 ms.topic: interface
+f1_keywords: ["mfidl/IMFProtectedEnvironmentAccess"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

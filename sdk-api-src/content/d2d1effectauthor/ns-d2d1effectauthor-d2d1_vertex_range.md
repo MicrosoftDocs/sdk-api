@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_VERTEX_RANGE, D2D1_VERTEX_RANGE structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_RANGE, direct2d.d2d1_vertex_range
 ms.topic: struct
+f1_keywords: ["d2d1effectauthor/D2D1_VERTEX_RANGE"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

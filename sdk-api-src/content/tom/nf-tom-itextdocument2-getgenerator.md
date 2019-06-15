@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGenerator, GetGenerator method [Windows Controls], GetGenerator method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetGenerator method, ITextDocument2.GetGenerator, ITextDocument2::GetGenerator, controls.itextdocument2_getgenerator, tom/ITextDocument2::GetGenerator
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.GetGenerator"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

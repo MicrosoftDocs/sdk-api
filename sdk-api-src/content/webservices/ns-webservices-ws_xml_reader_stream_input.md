@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_STREAM_INPUT, WS_XML_READER_STREAM_INPUT structure [Web Services for Windows], webservices/WS_XML_READER_STREAM_INPUT, wsw.ws_xml_reader_stream_input
 ms.topic: struct
+f1_keywords: ["webservices/WS_XML_READER_STREAM_INPUT"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

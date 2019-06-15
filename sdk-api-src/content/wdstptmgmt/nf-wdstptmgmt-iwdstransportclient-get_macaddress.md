@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],MacAddress property, IWdsTransportClient.MacAddress, IWdsTransportClient.get_MacAddress, IWdsTransportClient::MacAddress, IWdsTransportClient::get_MacAddress, MacAddress property [Windows Deployment Services], MacAddress property [Windows Deployment Services],IWdsTransportClient interface, get_MacAddress, wds.iwdstransportclient_macaddress, wdstptmgmt/IWdsTransportClient::MacAddress, wdstptmgmt/IWdsTransportClient::get_MacAddress
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportClient.MacAddress"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

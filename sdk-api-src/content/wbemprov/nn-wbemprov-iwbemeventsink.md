@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], IWbemEventSink interface [Windows Management Instrumentation],described, _hmm_iwbemeventsink, wbemprov/IWbemEventSink, wmi.iwbemeventsink
 ms.topic: interface
+f1_keywords: ["wbemprov/IWbemEventSink"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

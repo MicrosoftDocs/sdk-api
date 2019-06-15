@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice interface [Media Streaming API],SetCachedSinkProtocolInfo method, IActiveBasicDevice.SetCachedSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::SetCachedSinkProtocolInfo, IActiveBasicDevice::streaming, SetCachedSinkProtocolInfo, SetCachedSinkProtocolInfo method [Media Streaming API], SetCachedSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, mediastreaming.iactivebasicdevice_setcachedsinkprotocolinfo, windows/IActiveBasicDevice::SetCachedSinkProtocolInfo
 ms.topic: method
+f1_keywords: ["windows.media.streaming/IActiveBasicDevice.SetCachedSinkProtocolInfo"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

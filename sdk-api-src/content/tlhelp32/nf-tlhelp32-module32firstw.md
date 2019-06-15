@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
 ms.topic: function
+f1_keywords: ["tlhelp32/Module32First"]
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

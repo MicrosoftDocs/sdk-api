@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.topic: function
+f1_keywords: ["sas/SendSAS"]
 req.header: sas.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentPositionInSet property [Windows Accessibility], CurrentPositionInSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentPositionInSet property, IUIAutomationElement4.CurrentPositionInSet, IUIAutomationElement4.get_CurrentPositionInSet, IUIAutomationElement4::CurrentPositionInSet, IUIAutomationElement4::get_CurrentPositionInSet, get_CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::CurrentPositionInSet, uiautomationclient/IUIAutomationElement4::get_CurrentPositionInSet, winauto.uiauto_IUIAutomationElement4_CurrentPositionInSet
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement4.CurrentPositionInSet"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

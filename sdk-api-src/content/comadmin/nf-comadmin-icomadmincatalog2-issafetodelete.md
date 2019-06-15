@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMAdminInUseByCatalog, COMAdminInUseByRegistryClsid, COMAdminInUseByRegistryProxyStub, COMAdminInUseByRegistryTypeLib, COMAdminInUseByRegistryUnknown, COMAdminNotInUse, ICOMAdminCatalog2 interface [COM+],IsSafeToDelete method, ICOMAdminCatalog2.IsSafeToDelete, ICOMAdminCatalog2::IsSafeToDelete, IsSafeToDelete, IsSafeToDelete method [COM+], IsSafeToDelete method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_IsSafeToDelete, comadmin/ICOMAdminCatalog2::IsSafeToDelete, cos.icomadmincatalog2_issafetodelete
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog2.IsSafeToDelete"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

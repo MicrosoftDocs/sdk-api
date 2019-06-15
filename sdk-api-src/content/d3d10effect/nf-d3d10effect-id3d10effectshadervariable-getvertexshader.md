@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVertexShader, GetVertexShader method [Direct3D 10], GetVertexShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetVertexShader method, ID3D10EffectShaderVariable.GetVertexShader, ID3D10EffectShaderVariable::GetVertexShader, d3d10effect/ID3D10EffectShaderVariable::GetVertexShader, d42282c4-3590-3201-8fd7-e13e4054fb34, direct3d10.id3d10effectshadervariable_getvertexshader
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectShaderVariable.GetVertexShader"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

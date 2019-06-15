@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER
 ms.topic: struct
+f1_keywords: ["ocidl/QACONTAINER"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

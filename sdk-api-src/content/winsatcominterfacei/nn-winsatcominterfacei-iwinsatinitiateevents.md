@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IWinSATInitiateEvents interface [WinSAT],described, winsat.iwinsatinitiateevents, winsatcominterfacei/IWinSATInitiateEvents
 ms.topic: interface
+f1_keywords: ["winsatcominterfacei/IWinSATInitiateEvents"]
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

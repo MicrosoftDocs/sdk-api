@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminTransportCreate"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

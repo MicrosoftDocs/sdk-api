@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaEventArgs, UiaEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaEventArgsStruct, uiauto_UiaEventArgsStruct, uiautomationcoreapi/UiaEventArgs, winauto.uiauto_UiaEventArgsStruct
 ms.topic: struct
+f1_keywords: ["uiautomationcoreapi/UiaEventArgs"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

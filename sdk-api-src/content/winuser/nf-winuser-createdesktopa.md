@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDesktop, CreateDesktop function [Windows Stations and Desktops], CreateDesktopA, CreateDesktopW, DF_ALLOWOTHERACCOUNTHOOK, _win32_createdesktop, base.createdesktop, winstation.createdesktop, winuser/CreateDesktop, winuser/CreateDesktopA, winuser/CreateDesktopW
 ms.topic: function
+f1_keywords: ["winuser/CreateDesktop"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

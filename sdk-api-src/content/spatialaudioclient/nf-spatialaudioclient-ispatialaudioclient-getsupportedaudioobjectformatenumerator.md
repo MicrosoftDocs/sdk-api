@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSupportedAudioObjectFormatEnumerator, GetSupportedAudioObjectFormatEnumerator method [Core Audio], GetSupportedAudioObjectFormatEnumerator method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetSupportedAudioObjectFormatEnumerator method, ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator, ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator, coreaudio.ispatialaudioclient_getsupportedaudioobjectformatenumerator, spatialaudioclient/ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator
 ms.topic: method
+f1_keywords: ["spatialaudioclient/ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator"]
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows

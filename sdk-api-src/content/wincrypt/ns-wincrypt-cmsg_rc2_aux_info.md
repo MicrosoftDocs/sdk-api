@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO, CMSG_RC2_AUX_INFO structure [Security], PCMSG_RC2_AUX_INFO, PCMSG_RC2_AUX_INFO structure pointer [Security], _crypto2_cmsg_rc2_aux_info, security.cmsg_rc2_aux_info, wincrypt/CMSG_RC2_AUX_INFO, wincrypt/PCMSG_RC2_AUX_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CMSG_RC2_AUX_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

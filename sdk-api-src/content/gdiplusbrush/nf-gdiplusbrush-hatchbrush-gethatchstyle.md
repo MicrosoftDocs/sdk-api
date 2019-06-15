@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHatchStyle, GetHatchStyle method [GDI+], GetHatchStyle method [GDI+],HatchBrush class, HatchBrush class [GDI+],GetHatchStyle method, HatchBrush.GetHatchStyle, HatchBrush::GetHatchStyle, _gdiplus_CLASS_HatchBrush_GetHatchStyle_, gdiplus._gdiplus_CLASS_HatchBrush_GetHatchStyle_
 ms.topic: method
+f1_keywords: ["gdiplusbrush/HatchBrush.GetHatchStyle"]
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

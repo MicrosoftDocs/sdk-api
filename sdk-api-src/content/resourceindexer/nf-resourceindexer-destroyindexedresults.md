@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyIndexedResults, DestroyIndexedResults function [Menus and Other Resources], menurc.destroyindexedresults, resourceindexer/DestroyIndexedResults
 ms.topic: function
+f1_keywords: ["resourceindexer/DestroyIndexedResults"]
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

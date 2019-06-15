@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionHueRotationEffect, IDCompositionHueRotationEffect interface [DirectComposition], IDCompositionHueRotationEffect interface [DirectComposition],described, dcomp/IDCompositionHueRotationEffect, directcomp.idcompositionhuerotationeffect
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionHueRotationEffect"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddVarDesc, AddVarDesc method [Automation], AddVarDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddVarDesc method, ICreateTypeInfo.AddVarDesc, ICreateTypeInfo::AddVarDesc, _oa96_ICreateTypeInfo_AddVarDesc, automat.icreatetypeinfo_addvardesc, oaidl/ICreateTypeInfo::AddVarDesc
 ms.topic: method
+f1_keywords: ["oaidl/ICreateTypeInfo.AddVarDesc"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

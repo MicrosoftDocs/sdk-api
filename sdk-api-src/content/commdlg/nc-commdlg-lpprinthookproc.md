@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPPRINTHOOKPROC, LPPRINTHOOKPROC callback, LPPRINTHOOKPROC callback function [Dialog Boxes], _win32_PrintHookProc, _win32_printhookproc_cpp, commdlg/LPPRINTHOOKPROC, dlgbox.printhookproc, winui._win32_printhookproc
 ms.topic: callback
+f1_keywords: ["commdlg/LPPRINTHOOKPROC"]
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

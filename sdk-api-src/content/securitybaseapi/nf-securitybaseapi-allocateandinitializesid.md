@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
 ms.topic: function
+f1_keywords: ["securitybaseapi/AllocateAndInitializeSid"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

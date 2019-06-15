@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCompletedCallbackArgs, ISearchCompletedCallbackArgs interface [Windows Update Agent], ISearchCompletedCallbackArgs interface [Windows Update Agent],described, wua.isearchcompletedcallbackargs, wuapi/ISearchCompletedCallbackArgs
 ms.topic: interface
+f1_keywords: ["wuapi/ISearchCompletedCallbackArgs"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

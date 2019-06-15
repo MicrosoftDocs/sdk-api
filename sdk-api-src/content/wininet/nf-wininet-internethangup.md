@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
 ms.topic: function
+f1_keywords: ["wininet/InternetHangUp"]
 req.header: wininet.h
 req.include-header: Wininet.h
 req.target-type: Windows

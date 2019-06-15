@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPCATEGORYINFOLIST, APPCATEGORYINFOLIST structure [Windows Shell], _APPCATEGORYINFOLIST, appmgmt/APPCATEGORYINFOLIST, inet_APPCATEGORYINFOLIST, shell.APPCATEGORYINFOLIST
 ms.topic: struct
+f1_keywords: ["appmgmt/APPCATEGORYINFOLIST"]
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

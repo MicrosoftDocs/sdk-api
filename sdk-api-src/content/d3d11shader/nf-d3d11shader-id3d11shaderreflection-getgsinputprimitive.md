@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 186739b6-e023-0b79-ed38-b3030b56e2ed, GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 11], GetGSInputPrimitive method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetGSInputPrimitive method, ID3D11ShaderReflection.GetGSInputPrimitive, ID3D11ShaderReflection::GetGSInputPrimitive, d3d11shader/ID3D11ShaderReflection::GetGSInputPrimitive, direct3d11.id3d11shaderreflection_getgsinputprimitive
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ShaderReflection.GetGSInputPrimitive"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11Device1 interface [Direct3D 11],OpenSharedResourceByName method, ID3D11Device1.OpenSharedResourceByName, ID3D11Device1::OpenSharedResourceByName, OpenSharedResourceByName, OpenSharedResourceByName method [Direct3D 11], OpenSharedResourceByName method [Direct3D 11],ID3D11Device1 interface, d3d11_1/ID3D11Device1::OpenSharedResourceByName, direct3d11.id3d11device1_opensharedresourcebyname
 ms.topic: method
+f1_keywords: ["d3d11_1/ID3D11Device1.OpenSharedResourceByName"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

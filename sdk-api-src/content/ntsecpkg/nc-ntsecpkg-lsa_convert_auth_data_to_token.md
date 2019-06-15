@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertAuthDataToToken, ConvertAuthDataToToken callback function [Security], LSA_CONVERT_AUTH_DATA_TO_TOKEN, LSA_CONVERT_AUTH_DATA_TO_TOKEN callback, _ssp_convertauthdatatotoken, ntsecpkg/ConvertAuthDataToToken, security.convertauthdatatotoken
 ms.topic: callback
+f1_keywords: ["ntsecpkg/ConvertAuthDataToToken"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

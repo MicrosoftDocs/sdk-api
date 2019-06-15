@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFGetWorkQueueMMCSSPriority, MFGetWorkQueueMMCSSPriority function [Media Foundation], mf.mfgetworkqueuemmcsspriority, mfapi/MFGetWorkQueueMMCSSPriority, mfplat/MFGetWorkQueueMMCSSPriority
 ms.topic: function
+f1_keywords: ["mfapi/MFGetWorkQueueMMCSSPriority"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

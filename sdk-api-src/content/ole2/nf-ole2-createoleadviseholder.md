@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateOleAdviseHolder, CreateOleAdviseHolder function [COM], _ole_CreateOleAdviseHolder, com.createoleadviseholder, ole2/CreateOleAdviseHolder
 ms.topic: function
+f1_keywords: ["ole2/CreateOleAdviseHolder"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

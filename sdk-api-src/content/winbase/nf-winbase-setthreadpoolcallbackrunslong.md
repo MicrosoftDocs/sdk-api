@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackRunsLong, SetThreadpoolCallbackRunsLong function, base.setthreadpoolcallbackrunslong, winbase/SetThreadpoolCallbackRunsLong
 ms.topic: function
+f1_keywords: ["winbase/SetThreadpoolCallbackRunsLong"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

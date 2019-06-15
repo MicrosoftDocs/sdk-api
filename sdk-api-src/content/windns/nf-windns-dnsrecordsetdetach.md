@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsRecordSetDetach, DnsRecordSetDetach function [DNS], _dns_dnsrecordsetdetach, dns.dnsrecordsetdetach, windns/DnsRecordSetDetach
 ms.topic: function
+f1_keywords: ["windns/DnsRecordSetDetach"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

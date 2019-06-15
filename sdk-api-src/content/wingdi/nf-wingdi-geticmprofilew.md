@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetICMProfile, GetICMProfile function [Windows Color System], GetICMProfileA, GetICMProfileW, _color_GetICMProfile, wcs.geticmprofile, wingdi/GetICMProfile, wingdi/GetICMProfileA, wingdi/GetICMProfileW
 ms.topic: function
+f1_keywords: ["wingdi/GetICMProfile"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

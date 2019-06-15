@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_READ_CALLBACK, WS_READ_CALLBACK callback, WS_READ_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_CALLBACK, wsw.ws_read_callback
 ms.topic: callback
+f1_keywords: ["webservices/WS_READ_CALLBACK"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

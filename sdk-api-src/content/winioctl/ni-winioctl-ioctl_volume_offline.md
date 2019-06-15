@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_VOLUME_OFFLINE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

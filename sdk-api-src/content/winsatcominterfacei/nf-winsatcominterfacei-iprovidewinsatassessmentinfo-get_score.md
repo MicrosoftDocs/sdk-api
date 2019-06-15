@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Score property, IProvideWinSATAssessmentInfo.Score, IProvideWinSATAssessmentInfo.get_Score, IProvideWinSATAssessmentInfo::Score, IProvideWinSATAssessmentInfo::get_Score, Score property [WinSAT], Score property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Score, winsat.iprovidewinsatassessmentinfo_score, winsatcominterfacei/IProvideWinSATAssessmentInfo::Score, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Score
 ms.topic: method
+f1_keywords: ["winsatcominterfacei/IProvideWinSATAssessmentInfo.Score"]
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WcmQueryProperty, WcmQueryProperty function [Windows Connection Manager], wcm.wcmqueryproperty, wcmapi/WcmQueryProperty
 ms.topic: function
+f1_keywords: ["wcmapi/WcmQueryProperty"]
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows

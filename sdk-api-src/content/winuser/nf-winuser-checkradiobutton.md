@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckRadioButton, CheckRadioButton function [Windows Controls], _win32_CheckRadioButton, _win32_CheckRadioButton_cpp, controls.CheckRadioButton, controls._win32_CheckRadioButton, winuser/CheckRadioButton
 ms.topic: function
+f1_keywords: ["winuser/CheckRadioButton"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

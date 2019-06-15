@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
 ms.topic: interface
+f1_keywords: ["portabledeviceapi/IPortableDeviceDispatchFactory"]
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

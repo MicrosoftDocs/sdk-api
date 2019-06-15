@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl, IHeaderCtrl interface [MMC], IHeaderCtrl interface [MMC],described, mmc.iheaderctrl, mmc/IHeaderCtrl
 ms.topic: interface
+f1_keywords: ["mmc/IHeaderCtrl"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*!*, SymEnumSymbols, SymEnumSymbols function, SymEnumSymbolsW, _win32_symenumsymbols, base.symenumsymbols, dbghelp/SymEnumSymbols, dbghelp/SymEnumSymbolsW, foo, foo*!bar, foo?"
 ms.topic: function
+f1_keywords: ["dbghelp/SymEnumSymbols"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

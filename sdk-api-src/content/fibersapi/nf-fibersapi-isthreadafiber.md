@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsThreadAFiber, IsThreadAFiber function, base.isthreadafiber, fibersapi/IsThreadAFiber, winbase/IsThreadAFiber
 ms.topic: function
+f1_keywords: ["fibersapi/IsThreadAFiber"]
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

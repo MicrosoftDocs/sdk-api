@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectArray, IObjectArray interface [Windows Shell], IObjectArray interface [Windows Shell],described, _shell_IObjectArray, objectarray/IObjectArray, shell.IObjectArray
 ms.topic: interface
+f1_keywords: ["objectarray/IObjectArray"]
 req.header: objectarray.h
 req.include-header: 
 req.target-type: Windows

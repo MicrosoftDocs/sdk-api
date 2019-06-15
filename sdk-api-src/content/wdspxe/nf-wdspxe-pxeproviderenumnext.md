@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
 ms.topic: function
+f1_keywords: ["wdspxe/PxeProviderEnumNext"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

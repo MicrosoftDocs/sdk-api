@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],ThumbPrintWStr property, IEnroll4.ThumbPrintWStr, IEnroll4.get_ThumbPrintWStr, IEnroll4::ThumbPrintWStr, IEnroll4::get_ThumbPrintWStr, IEnroll4::put_ThumbPrintWStr, ThumbPrintWStr property [Security], ThumbPrintWStr property [Security],IEnroll4 interface, get_ThumbPrintWStr, security.ienroll4_thumbprintwstr, xenroll/IEnroll4::ThumbPrintWStr, xenroll/IEnroll4::get_ThumbPrintWStr, xenroll/IEnroll4::put_ThumbPrintWStr
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll4.ThumbPrintWStr"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

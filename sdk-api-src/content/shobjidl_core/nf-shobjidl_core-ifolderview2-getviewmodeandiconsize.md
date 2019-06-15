@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetViewModeAndIconSize, GetViewModeAndIconSize method [Windows Shell], GetViewModeAndIconSize method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetViewModeAndIconSize method, IFolderView2.GetViewModeAndIconSize, IFolderView2::GetViewModeAndIconSize, _shell_IFolderView2_GetViewModeAndIconSize, shell.IFolderView2_GetViewModeAndIconSize, shobjidl_core/IFolderView2::GetViewModeAndIconSize
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFolderView2.GetViewModeAndIconSize"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

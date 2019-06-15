@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player],described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
 ms.topic: interface
+f1_keywords: ["wmp/IWMPErrorItem"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

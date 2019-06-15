@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CBM_INIT, CreateDIBitmap, CreateDIBitmap function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBitmap, gdi.createdibitmap, wingdi/CreateDIBitmap
 ms.topic: function
+f1_keywords: ["wingdi/CreateDIBitmap"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Writable property, IAzTask interface [Security],Writable property, IAzTask.Writable, IAzTask.get_Writable, IAzTask::Writable, IAzTask::get_Writable, Writable property [Security], Writable property [Security],AzTask object, Writable property [Security],IAzTask interface, azroles/IAzTask::Writable, azroles/IAzTask::get_Writable, get_Writable, security.iaztask_writable
 ms.topic: method
+f1_keywords: ["azroles/IAzTask.Writable"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

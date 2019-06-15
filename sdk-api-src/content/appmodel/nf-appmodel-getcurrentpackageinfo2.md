@@ -6,6 +6,7 @@ tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetCurrentPackageInfo2
 ms.topic: function
+f1_keywords: ["appmodel/GetCurrentPackageInfo2"]
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

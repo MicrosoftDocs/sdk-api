@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShaderConstantI method, IDirect3DDevice9.SetPixelShaderConstantI, IDirect3DDevice9::SetPixelShaderConstantI, SetPixelShaderConstantI, SetPixelShaderConstantI method [Direct3D 9], SetPixelShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, c9149cc8-7c91-43d6-390a-f416b94deaea, d3d9helper/IDirect3DDevice9::SetPixelShaderConstantI, direct3d9.idirect3ddevice9__setpixelshaderconstanti
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.SetPixelShaderConstantI"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

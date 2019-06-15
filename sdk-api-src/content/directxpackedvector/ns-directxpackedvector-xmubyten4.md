@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMUBYTEN4, XMUBYTEN4 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTEN4, dxmath.xmubyten4
 ms.topic: struct
+f1_keywords: ["directxpackedvector/XMUBYTEN4"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

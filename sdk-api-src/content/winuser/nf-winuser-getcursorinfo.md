@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCursorInfo, GetCursorInfo function [Menus and Other Resources], _win32_GetCursorInfo, _win32_getcursorinfo_cpp, menurc.getcursorinfo, winui._win32_getcursorinfo, winuser/GetCursorInfo
 ms.topic: function
+f1_keywords: ["winuser/GetCursorInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

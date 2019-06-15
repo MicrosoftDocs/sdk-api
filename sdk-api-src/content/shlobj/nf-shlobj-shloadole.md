@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
 ms.topic: function
+f1_keywords: ["shlobj/SHLoadOLE"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

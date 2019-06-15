@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetURL method, ITextRange2.SetURL, ITextRange2::SetURL, SetURL, SetURL method [Windows Controls], SetURL method [Windows Controls],ITextRange2 interface, controls.itextrange2_seturl, tom/ITextRange2::SetURL
 ms.topic: method
+f1_keywords: ["tom/ITextRange2.SetURL"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

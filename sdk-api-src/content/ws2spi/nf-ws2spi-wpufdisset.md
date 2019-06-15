@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUFDIsSet, WPUFDIsSet function [Winsock], _win32_wpufdisset_2, winsock.wpufdisset_2, ws2spi/WPUFDIsSet
 ms.topic: function
+f1_keywords: ["ws2spi/WPUFDIsSet"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

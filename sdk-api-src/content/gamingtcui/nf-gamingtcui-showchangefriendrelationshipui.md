@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI function, gamingtcui/ShowChangeFriendRelationshipUI, tcui.showchangefriendrelationshipui
 ms.topic: function
+f1_keywords: ["gamingtcui/ShowChangeFriendRelationshipUI"]
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

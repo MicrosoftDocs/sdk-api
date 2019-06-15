@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method, Connect method,IMsmMerge interface, IMsmMerge interface,Connect method, IMsmMerge.Connect, IMsmMerge::Connect, _msi_connect_function, mergemod/IMsmMerge::Connect, setup.imsmmerge_connect
 ms.topic: method
+f1_keywords: ["mergemod/IMsmMerge.Connect"]
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

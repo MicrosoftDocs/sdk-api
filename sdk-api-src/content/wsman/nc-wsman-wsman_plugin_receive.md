@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_RECEIVE, WSMAN_PLUGIN_RECEIVE callback, WSMAN_PLUGIN_RECEIVE callback function [Windows Remote Management], WSManPluginReceive, winrm.wsman_plugin_receive, wsman/WSMAN_PLUGIN_RECEIVE
 ms.topic: callback
+f1_keywords: ["wsman/WSMAN_PLUGIN_RECEIVE"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

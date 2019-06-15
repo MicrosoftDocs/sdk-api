@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],RingsBeforeAnswer property, IFaxDevice.RingsBeforeAnswer, IFaxDevice.get_RingsBeforeAnswer, IFaxDevice.put_RingsBeforeAnswer, IFaxDevice::RingsBeforeAnswer, IFaxDevice::get_RingsBeforeAnswer, IFaxDevice::put_RingsBeforeAnswer, RingsBeforeAnswer property [Fax Service], RingsBeforeAnswer property [Fax Service],IFaxDevice interface, _mfax_faxdevice.ringsbeforeanswer, fax._mfax_faxdevice_cpp_mfax_faxdevice_ringsbeforeanswer_cpp, fax._mfax_faxdevice_ringsbeforeanswer, faxcomex/IFaxDevice::RingsBeforeAnswer, faxcomex/IFaxDevice::get_RingsBeforeAnswer, faxcomex/IFaxDevice::put_RingsBeforeAnswer, put_RingsBeforeAnswer
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDevice.RingsBeforeAnswer"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

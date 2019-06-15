@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PD2D1_PROPERTY_SET_FUNCTION, PD2D1_PROPERTY_SET_FUNCTION function, PD2D1_PROPERTY_SET_FUNCTION function pointer [Direct2D], d2d1effectauthor/PD2D1_PROPERTY_SET_FUNCTION, direct2d.pd2d1_property_set_function
 ms.topic: callback
+f1_keywords: ["d2d1effectauthor/PD2D1_PROPERTY_SET_FUNCTION"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

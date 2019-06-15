@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Enhanced Storage], GetInfo method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetInfo method, IEnhancedStorageSilo.GetInfo, IEnhancedStorageSilo::GetInfo, ehstorapi/IEnhancedStorageSilo::GetInfo, enstor.ienhancedstoragesilo_getinfo
 ms.topic: method
+f1_keywords: ["ehstorapi/IEnhancedStorageSilo.GetInfo"]
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

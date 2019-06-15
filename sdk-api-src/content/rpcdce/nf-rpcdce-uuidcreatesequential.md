@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UuidCreateSequential, UuidCreateSequential function [RPC], _rpc_uuidcreatesequential, rpc.uuidcreatesequential, rpcdce/UuidCreateSequential
 ms.topic: function
+f1_keywords: ["rpcdce/UuidCreateSequential"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

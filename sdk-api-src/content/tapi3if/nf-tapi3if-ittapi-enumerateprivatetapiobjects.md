@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumeratePrivateTAPIObjects, EnumeratePrivateTAPIObjects method [TAPI 2.2], EnumeratePrivateTAPIObjects method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumeratePrivateTAPIObjects method, ITTAPI.EnumeratePrivateTAPIObjects, ITTAPI::EnumeratePrivateTAPIObjects, _tapi3_ittapi_enumerateprivatetapiobjects, tapi3.ittapi_enumerateprivatetapiobjects, tapi3if/ITTAPI::EnumeratePrivateTAPIObjects
 ms.topic: method
+f1_keywords: ["tapi3if/ITTAPI.EnumeratePrivateTAPIObjects"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDriverFiles, SetupDiInstallDriverFiles function [Device and Driver Installation], devinst.setupdiinstalldriverfiles, di-rtns_0790674a-71fa-469e-b716-d420fbf40e7b.xml, setupapi/SetupDiInstallDriverFiles
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiInstallDriverFiles"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

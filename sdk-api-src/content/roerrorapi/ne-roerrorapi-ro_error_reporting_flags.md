@@ -12,6 +12,7 @@ ms.keywords: RO_ERROR_REPORTING_FLAGS, RO_ERROR_REPORTING_FLAGS enumeration [Win
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
+f1_keywords: ["roerrorapi/RO_ERROR_REPORTING_FLAGS"]
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

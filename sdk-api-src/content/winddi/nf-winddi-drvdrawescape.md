@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDrawEscape, DrvDrawEscape function [Display Devices], ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml, display.drvdrawescape, winddi/DrvDrawEscape
 ms.topic: function
+f1_keywords: ["winddi/DrvDrawEscape"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

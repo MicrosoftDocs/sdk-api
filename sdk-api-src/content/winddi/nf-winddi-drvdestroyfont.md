@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDestroyFont, DrvDestroyFont function [Display Devices], ddifncs_a73e0b14-897a-423d-a9db-8c4ba831a36b.xml, display.drvdestroyfont, winddi/DrvDestroyFont
 ms.topic: function
+f1_keywords: ["winddi/DrvDestroyFont"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

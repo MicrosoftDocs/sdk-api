@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin
 ms.topic: interface
+f1_keywords: ["strmif/IMemInputPin"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

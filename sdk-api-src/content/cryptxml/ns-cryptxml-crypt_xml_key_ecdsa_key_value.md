@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_ECDSA_KEY_VALUE, CRYPT_XML_KEY_ECDSA_KEY_VALUE structure [Security], cryptxml/CRYPT_XML_KEY_ECDSA_KEY_VALUE, security.crypt_xml_key_ecdsa_key_value
 ms.topic: struct
+f1_keywords: ["cryptxml/CRYPT_XML_KEY_ECDSA_KEY_VALUE"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

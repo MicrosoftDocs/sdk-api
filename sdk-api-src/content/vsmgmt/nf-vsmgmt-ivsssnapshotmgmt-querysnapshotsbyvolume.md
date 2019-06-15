@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt interface [VSS],QuerySnapshotsByVolume method, IVssSnapshotMgmt.QuerySnapshotsByVolume, IVssSnapshotMgmt::QuerySnapshotsByVolume, QuerySnapshotsByVolume, QuerySnapshotsByVolume method [VSS], QuerySnapshotsByVolume method [VSS],IVssSnapshotMgmt interface, base.ivsssnapshotmgmt_querysnapshotsbyvolume, vsmgmt/IVssSnapshotMgmt::QuerySnapshotsByVolume
 ms.topic: method
+f1_keywords: ["vsmgmt/IVssSnapshotMgmt.QuerySnapshotsByVolume"]
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, DS_INET_ADDRESS, DS_NETBIOS_ADDRESS, KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure [Security], PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST structure pointer [Security], ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, ntsecapi/PKERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST, security.kerb_add_binding_cache_entry_ex_request"
 ms.topic: struct
+f1_keywords: ["ntsecapi/KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITRendezvous, ITRendezvous interface [TAPI 2.2], ITRendezvous interface [TAPI 2.2],described, _tapi3_itrendezvous, rend/ITRendezvous, tapi3.itrendezvous
 ms.topic: interface
+f1_keywords: ["rend/ITRendezvous"]
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

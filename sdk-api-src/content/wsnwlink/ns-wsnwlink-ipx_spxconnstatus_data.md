@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA structure [Winsock], PIPX_SPXCONNSTATUS_DATA, PIPX_SPXCONNSTATUS_DATA structure pointer [Winsock], _win32_ipx_spxconnstatus_data_2, winsock.ipx_spxconnstatus_data_2, wsnwlink/IPX_SPXCONNSTATUS_DATA, wsnwlink/PIPX_SPXCONNSTATUS_DATA"
 ms.topic: struct
+f1_keywords: ["wsnwlink/IPX_SPXCONNSTATUS_DATA"]
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows

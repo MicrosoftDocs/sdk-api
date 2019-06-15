@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtEnableIdleCleanup, RpcMgmtEnableIdleCleanup function [RPC], _rpc_rpcmgmtenableidlecleanup, rpc.rpcmgmtenableidlecleanup, rpcdce/RpcMgmtEnableIdleCleanup
 ms.topic: function
+f1_keywords: ["rpcdce/RpcMgmtEnableIdleCleanup"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

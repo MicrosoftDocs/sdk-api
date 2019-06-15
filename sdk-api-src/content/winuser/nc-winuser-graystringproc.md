@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GRAYSTRINGPROC, GRAYSTRINGPROC callback, GRAYSTRINGPROC callback function [Windows GDI], _win32_OutputProc, gdi.outputproc, winuser/GRAYSTRINGPROC
 ms.topic: callback
+f1_keywords: ["winuser/GRAYSTRINGPROC"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??1Provider@@UAE@XZ, ??1Provider@@UEAA@XZ, Provider, Provider class [Windows Management Instrumentation], Provider class [Windows Management Instrumentation],described, _hmm_provider, provider/Provider, wmi.provider"
 ms.topic: class
+f1_keywords: ["provider/Provider"]
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

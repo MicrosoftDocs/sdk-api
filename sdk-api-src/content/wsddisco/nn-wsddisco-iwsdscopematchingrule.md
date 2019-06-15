@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,described, ncd.iwsdscopematchingrule, wsddisco/IWSDScopeMatchingRule
 ms.topic: interface
+f1_keywords: ["wsddisco/IWSDScopeMatchingRule"]
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

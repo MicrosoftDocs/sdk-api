@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HANDLE_ACCESS_OPTIONS, HANDLE_ACCESS_OPTIONS enumeration [Windows Runtime], HAO_DELETE, HAO_NONE, HAO_READ, HAO_READ_ATTRIBUTES, HAO_WRITE, windowsstoragecom/HANDLE_ACCESS_OPTIONS, windowsstoragecom/HAO_DELETE, windowsstoragecom/HAO_NONE, windowsstoragecom/HAO_READ, windowsstoragecom/HAO_READ_ATTRIBUTES, windowsstoragecom/HAO_WRITE, winrt.handle_access_options
 ms.topic: enum
+f1_keywords: ["windowsstoragecom/HANDLE_ACCESS_OPTIONS"]
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

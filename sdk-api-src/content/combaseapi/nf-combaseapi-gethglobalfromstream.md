@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHGlobalFromStream, GetHGlobalFromStream function [Structured Storage], _stg_gethglobalfromstream, combaseapi/GetHGlobalFromStream, stg.gethglobalfromstream
 ms.topic: function
+f1_keywords: ["combaseapi/GetHGlobalFromStream"]
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

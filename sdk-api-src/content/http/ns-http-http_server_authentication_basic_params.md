@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, *PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS structure [HTTP], http.http_server_authentication_basic_params, http/*PHTTP_SERVER_AUTHENTICATION_BASIC_PARAMS, http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"
 ms.topic: struct
+f1_keywords: ["http/HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

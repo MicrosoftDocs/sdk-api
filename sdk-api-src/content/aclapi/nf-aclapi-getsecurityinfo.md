@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
 ms.topic: function
+f1_keywords: ["aclapi/GetSecurityInfo"]
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

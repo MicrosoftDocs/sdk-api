@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerInputTargetEx, RegisterPointerInputTargetEx function [Windows Accessibility], winauto.registerpointerinputtargetex, winuser/RegisterPointerInputTargetEx
 ms.topic: function
+f1_keywords: ["winuser/RegisterPointerInputTargetEx"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

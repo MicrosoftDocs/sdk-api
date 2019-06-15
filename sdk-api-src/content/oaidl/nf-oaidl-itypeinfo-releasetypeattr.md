@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseTypeAttr method, ITypeInfo.ReleaseTypeAttr, ITypeInfo::ReleaseTypeAttr, ReleaseTypeAttr, ReleaseTypeAttr method [Automation], ReleaseTypeAttr method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseTypeAttr, automat.itypeinfo_releasetypeattr, oaidl/ITypeInfo::ReleaseTypeAttr
 ms.topic: method
+f1_keywords: ["oaidl/ITypeInfo.ReleaseTypeAttr"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

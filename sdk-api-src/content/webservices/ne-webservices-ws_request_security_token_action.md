@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_REQUEST_SECURITY_TOKEN_ACTION, WS_REQUEST_SECURITY_TOKEN_ACTION enumeration [Web Services for Windows], WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE, WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT, WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT, webservices/WS_REQUEST_SECURITY_TOKEN_ACTION, webservices/WS_REQUEST_SECURITY_TOKEN_ACTION_ISSUE, webservices/WS_REQUEST_SECURITY_TOKEN_ACTION_NEW_CONTEXT, webservices/WS_REQUEST_SECURITY_TOKEN_ACTION_RENEW_CONTEXT, wsw.ws_request_security_token_action
 ms.topic: enum
+f1_keywords: ["webservices/WS_REQUEST_SECURITY_TOKEN_ACTION"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

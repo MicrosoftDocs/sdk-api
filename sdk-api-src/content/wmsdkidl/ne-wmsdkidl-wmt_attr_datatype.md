@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_ATTR_DATATYPE, WMT_ATTR_DATATYPE enumeration [windows Media Format], WMT_TYPE_BINARY, WMT_TYPE_BOOL, WMT_TYPE_DWORD, WMT_TYPE_GUID, WMT_TYPE_QWORD, WMT_TYPE_STRING, WMT_TYPE_WORD, wmformat.wmt_attr_datatype, wmsdkidl/WMT_ATTR_DATATYPE, wmsdkidl/WMT_TYPE_BINARY, wmsdkidl/WMT_TYPE_BOOL, wmsdkidl/WMT_TYPE_DWORD, wmsdkidl/WMT_TYPE_GUID, wmsdkidl/WMT_TYPE_QWORD, wmsdkidl/WMT_TYPE_STRING, wmsdkidl/WMT_TYPE_WORD
 ms.topic: enum
+f1_keywords: ["wmsdkidl/WMT_ATTR_DATATYPE"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

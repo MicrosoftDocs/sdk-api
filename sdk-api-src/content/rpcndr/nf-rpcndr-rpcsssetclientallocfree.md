@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsSetClientAllocFree, RpcSsSetClientAllocFree function [RPC], _rpc_rpcsssetclientallocfree, rpc.rpcsssetclientallocfree, rpcndr/RpcSsSetClientAllocFree
 ms.topic: function
+f1_keywords: ["rpcndr/RpcSsSetClientAllocFree"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

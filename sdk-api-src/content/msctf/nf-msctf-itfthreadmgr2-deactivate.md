@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],Deactivate method, ITfThreadMgr2.Deactivate, ITfThreadMgr2::Deactivate, msctf/ITfThreadMgr2::Deactivate, tsf.itfthreadmgr2_deactivate
 ms.topic: method
+f1_keywords: ["msctf/ITfThreadMgr2.Deactivate"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

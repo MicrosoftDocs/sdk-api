@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCellShading, GetCellShading method [Windows Controls], GetCellShading method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellShading method, ITextRow.GetCellShading, ITextRow::GetCellShading, controls.itextrow_getcellshading, tom/ITextRow::GetCellShading
 ms.topic: method
+f1_keywords: ["tom/ITextRow.GetCellShading"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

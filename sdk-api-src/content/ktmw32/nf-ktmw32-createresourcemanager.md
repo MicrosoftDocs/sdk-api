@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateResourceManager, CreateResourceManager function [Files], RESOURCE_MANAGER_VOLATILE, fs.createresourcemanager, ktmw32/CreateResourceManager
 ms.topic: function
+f1_keywords: ["ktmw32/CreateResourceManager"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

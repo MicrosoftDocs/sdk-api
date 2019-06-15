@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhSetQueryTimeRange, PdhSetQueryTimeRange function [Perf], _win32_pdhsetquerytimerange, base.pdhsetquerytimerange, pdh/PdhSetQueryTimeRange, perf.pdhsetquerytimerange
 ms.topic: function
+f1_keywords: ["pdh/PdhSetQueryTimeRange"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearOutputChannel, ClearOutputChannel method [GDI+], ClearOutputChannel method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearOutputChannel method, ImageAttributes.ClearOutputChannel, ImageAttributes::ClearOutputChannel, _gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_
 ms.topic: method
+f1_keywords: ["gdiplusimageattributes/ImageAttributes.ClearOutputChannel"]
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

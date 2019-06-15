@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_HookSwitchState method, ITPhoneEvent.get_HookSwitchState, ITPhoneEvent::get_HookSwitchState, _tapi3_itphoneevent_get_hookswitchstate, get_HookSwitchState, get_HookSwitchState method [TAPI 2.2], get_HookSwitchState method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_hookswitchstate, tapi3if/ITPhoneEvent::get_HookSwitchState
 ms.topic: method
+f1_keywords: ["tapi3if/ITPhoneEvent.get_HookSwitchState"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

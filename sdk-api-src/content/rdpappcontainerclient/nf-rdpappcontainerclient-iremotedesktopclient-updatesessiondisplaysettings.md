@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],UpdateSessionDisplaySettings method, IRemoteDesktopClient.UpdateSessionDisplaySettings, IRemoteDesktopClient::UpdateSessionDisplaySettings, UpdateSessionDisplaySettings, UpdateSessionDisplaySettings method [Remote Desktop Services], UpdateSessionDisplaySettings method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::UpdateSessionDisplaySettings, termserv.iremotedesktopclient_updatesessiondisplaysettings
 ms.topic: method
+f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient.UpdateSessionDisplaySettings"]
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

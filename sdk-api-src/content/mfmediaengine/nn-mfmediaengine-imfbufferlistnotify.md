@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFBufferListNotify"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

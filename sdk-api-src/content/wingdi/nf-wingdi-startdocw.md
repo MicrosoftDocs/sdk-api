@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StartDoc, StartDoc function [Windows GDI], StartDocA, StartDocW, _win32_StartDoc, gdi.startdoc, wingdi/StartDoc, wingdi/StartDocA, wingdi/StartDocW
 ms.topic: function
+f1_keywords: ["wingdi/StartDoc"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

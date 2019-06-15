@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromBooleanArray, InitVariantFromBooleanArray function [Windows Properties], _shell_InitVariantFromBooleanArray, properties.InitVariantFromBooleanArray, propvarutil/InitVariantFromBooleanArray, shell.InitVariantFromBooleanArray
 ms.topic: function
+f1_keywords: ["propvarutil/InitVariantFromBooleanArray"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

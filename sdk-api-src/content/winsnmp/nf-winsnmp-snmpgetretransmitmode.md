@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpGetRetransmitMode, SnmpGetRetransmitMode function [SNMP], _snmp_snmpgetretransmitmode, snmp.snmpgetretransmitmode, winsnmp/SnmpGetRetransmitMode
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpGetRetransmitMode"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

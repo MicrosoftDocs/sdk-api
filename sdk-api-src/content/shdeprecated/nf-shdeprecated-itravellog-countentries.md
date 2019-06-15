@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CountEntries, CountEntries method [Windows Shell], CountEntries method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],CountEntries method, ITravelLog.CountEntries, ITravelLog::CountEntries, shdeprecated/ITravelLog::CountEntries, shell.ITravelLog_CountEntries, zone_ITravelLog_CountEntries
 ms.topic: method
+f1_keywords: ["shdeprecated/ITravelLog.CountEntries"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID, IEnumGUID interface [COM], IEnumGUID interface [COM],described, _com_ienumguid, com.ienumguid, comcat/IEnumGUID
 ms.topic: interface
+f1_keywords: ["comcat/IEnumGUID"]
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackLongFunction, TpSetCallbackLongFunction function, base.tpsetcallbacklongfunction, winnt/TpSetCallbackLongFunction
 ms.topic: function
+f1_keywords: ["winnt/TpSetCallbackLongFunction"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

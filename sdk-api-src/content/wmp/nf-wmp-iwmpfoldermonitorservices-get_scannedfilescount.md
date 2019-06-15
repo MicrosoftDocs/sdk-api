@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_scannedFilesCount method, IWMPFolderMonitorServices.get_scannedFilesCount, IWMPFolderMonitorServices::get_scannedFilesCount, IWMPFolderMonitorServicesget_scannedFilesCount, get_scannedFilesCount, get_scannedFilesCount method [Windows Media Player], get_scannedFilesCount method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_scannedfilescount, wmp/IWMPFolderMonitorServices::get_scannedFilesCount
 ms.topic: method
+f1_keywords: ["wmp/IWMPFolderMonitorServices.get_scannedFilesCount"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

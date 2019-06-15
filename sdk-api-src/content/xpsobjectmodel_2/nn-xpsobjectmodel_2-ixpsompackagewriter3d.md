@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackageWriter3D, IXpsOMPackageWriter3D interface [XPS Documents and Packaging], IXpsOMPackageWriter3D interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter3d, xpsobjectmodel_2/IXpsOMPackageWriter3D
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel_2/IXpsOMPackageWriter3D"]
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

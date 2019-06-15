@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIImage, IUIImage interface [Windows Ribbon], IUIImage interface [Windows Ribbon],described, scenicintent_IUIImage, uiribbon/IUIImage, windowsribbon.windowsribbon_iuiimage
 ms.topic: interface
+f1_keywords: ["uiribbon/IUIImage"]
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

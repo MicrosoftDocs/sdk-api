@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICNamedWhitePoint, WICNamedWhitePoint enumeration [Windows Imaging Component], WICWhitePointAsShot, WICWhitePointAutoWhiteBalance, WICWhitePointCloudy, WICWhitePointCustom, WICWhitePointDaylight, WICWhitePointDefault, WICWhitePointFlash, WICWhitePointFluorescent, WICWhitePointShade, WICWhitePointTungsten, WICWhitePointUnderwater, _wic_codec_wicnamedwhitepoint, wic._wic_codec_wicnamedwhitepoint, wincodec/WICNamedWhitePoint, wincodec/WICWhitePointAsShot, wincodec/WICWhitePointAutoWhiteBalance, wincodec/WICWhitePointCloudy, wincodec/WICWhitePointCustom, wincodec/WICWhitePointDaylight, wincodec/WICWhitePointDefault, wincodec/WICWhitePointFlash, wincodec/WICWhitePointFluorescent, wincodec/WICWhitePointShade, wincodec/WICWhitePointTungsten, wincodec/WICWhitePointUnderwater
 ms.topic: enum
+f1_keywords: ["wincodec/WICNamedWhitePoint"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

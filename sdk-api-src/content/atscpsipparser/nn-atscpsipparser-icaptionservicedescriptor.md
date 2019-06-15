@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], ICaptionServiceDescriptor interface [Microsoft TV Technologies],described, ICaptionServiceDescriptorInterface, atscpsipparser/ICaptionServiceDescriptor, mstv.icaptionservicedescriptor
 ms.topic: interface
+f1_keywords: ["atscpsipparser/ICaptionServiceDescriptor"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

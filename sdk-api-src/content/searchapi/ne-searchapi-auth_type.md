@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTH_TYPE, AUTH_TYPE enumeration [search], _search_AUTH_TYPE, eAUTH_TYPE_ANONYMOUS, eAUTH_TYPE_BASIC, eAUTH_TYPE_NTLM, search._search_AUTH_TYPE, searchapi/AUTH_TYPE, searchapi/eAUTH_TYPE_ANONYMOUS, searchapi/eAUTH_TYPE_BASIC, searchapi/eAUTH_TYPE_NTLM
 ms.topic: enum
+f1_keywords: ["searchapi/AUTH_TYPE"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

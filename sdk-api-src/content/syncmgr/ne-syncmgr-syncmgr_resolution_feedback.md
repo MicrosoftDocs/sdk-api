@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_RESOLUTION_FEEDBACK, SYNCMGR_RESOLUTION_FEEDBACK enumeration [Windows Shell], SYNCMGR_RF_CANCEL, SYNCMGR_RF_CONTINUE, SYNCMGR_RF_REFRESH, _shell_SYNCMGR_RESOLUTION_FEEDBACK, shell.SYNCMGR_RESOLUTION_FEEDBACK, syncmgr/SYNCMGR_RESOLUTION_FEEDBACK, syncmgr/SYNCMGR_RF_CANCEL, syncmgr/SYNCMGR_RF_CONTINUE, syncmgr/SYNCMGR_RF_REFRESH
 ms.topic: enum
+f1_keywords: ["syncmgr/SYNCMGR_RESOLUTION_FEEDBACK"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

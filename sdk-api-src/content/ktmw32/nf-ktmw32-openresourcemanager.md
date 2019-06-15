@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openresourcemanager, ktmw32/OpenResourceManager
 ms.topic: function
+f1_keywords: ["ktmw32/OpenResourceManager"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

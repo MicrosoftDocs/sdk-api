@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function [Bluetooth Devices], bltooth.bluetoothsetlocalserviceinfo, bluetoothapis/BluetoothSetLocalServiceInfo, bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml
 ms.topic: function
+f1_keywords: ["bluetoothapis/BluetoothSetLocalServiceInfo"]
 req.header: bluetoothapis.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PUNCTUATION, PUNCTUATION structure [Windows Controls], _win32_PUNCTUATION_str, _win32_PUNCTUATION_str_cpp, controls.PUNCTUATION, controls._win32_PUNCTUATION_str, richedit/PUNCTUATION
 ms.topic: struct
+f1_keywords: ["richedit/PUNCTUATION"]
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

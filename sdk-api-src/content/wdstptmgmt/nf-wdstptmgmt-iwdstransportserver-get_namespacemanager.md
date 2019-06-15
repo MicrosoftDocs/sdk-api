@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],NamespaceManager property, IWdsTransportServer.NamespaceManager, IWdsTransportServer.get_NamespaceManager, IWdsTransportServer::NamespaceManager, IWdsTransportServer::get_NamespaceManager, NamespaceManager property [Windows Deployment Services], NamespaceManager property [Windows Deployment Services],IWdsTransportServer interface, get_NamespaceManager, wds.iwdstransportserver_namespacemanager, wdstptmgmt/IWdsTransportServer::NamespaceManager, wdstptmgmt/IWdsTransportServer::get_NamespaceManager
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportServer.NamespaceManager"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

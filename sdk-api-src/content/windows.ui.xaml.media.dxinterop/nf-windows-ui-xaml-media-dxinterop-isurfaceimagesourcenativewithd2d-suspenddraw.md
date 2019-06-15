@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],SuspendDraw method, ISurfaceImageSourceNativeWithD2D.SuspendDraw, ISurfaceImageSourceNativeWithD2D.xaml, ISurfaceImageSourceNativeWithD2D::SuspendDraw, ISurfaceImageSourceNativeWithD2D::xaml, SuspendDraw, SuspendDraw method [Windows Runtime], SuspendDraw method [Windows Runtime],ISurfaceImageSourceNativeWithD2D interface, windows/ISurfaceImageSourceNativeWithD2D::SuspendDraw, winrt.isurfaceimagesourcenativewithd2d_suspenddraw
 ms.topic: method
+f1_keywords: ["windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D.SuspendDraw"]
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows

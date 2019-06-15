@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearCommBreak, ClearCommBreak function, _win32_clearcommbreak, base.clearcommbreak, winbase/ClearCommBreak
 ms.topic: function
+f1_keywords: ["winbase/ClearCommBreak"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

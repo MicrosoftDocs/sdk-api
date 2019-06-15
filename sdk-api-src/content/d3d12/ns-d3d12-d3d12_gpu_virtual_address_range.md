@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_VIRTUAL_ADDRESS_RANGE, D3D12_GPU_VIRTUAL_ADDRESS_RANGE structure, PD3D12_GPU_VIRTUAL_ADDRESS_RANGE, PD3D12_GPU_VIRTUAL_ADDRESS_RANGE structure pointer, d3d12/D3D12_GPU_VIRTUAL_ADDRESS_RANGE, d3d12/PD3D12_GPU_VIRTUAL_ADDRESS_RANGE, direct3d12.d3d12_gpu_virtual_address_range
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_GPU_VIRTUAL_ADDRESS_RANGE"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

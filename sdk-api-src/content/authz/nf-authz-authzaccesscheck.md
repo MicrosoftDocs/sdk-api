@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_ACCESS_CHECK_NO_DEEP_COPY_SD, AuthzAccessCheck, AuthzAccessCheck function [Security], _win32_authzaccesscheck, authz/AuthzAccessCheck, security.authzaccesscheck
 ms.topic: function
+f1_keywords: ["authz/AuthzAccessCheck"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

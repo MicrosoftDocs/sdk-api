@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell], inet_SLOWAPPINFO, shappmgr/SLOWAPPINFO, shell.SLOWAPPINFO"
 ms.topic: struct
+f1_keywords: ["shappmgr/SLOWAPPINFO"]
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

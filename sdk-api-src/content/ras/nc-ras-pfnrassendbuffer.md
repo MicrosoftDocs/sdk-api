@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNRASSENDBUFFER, PFNRASSENDBUFFER callback, RasSendBuffer, RasSendBuffer callback function [RAS], _ras_rassendbuffer, ras/RasSendBuffer, rras.rassendbuffer
 ms.topic: callback
+f1_keywords: ["ras/RasSendBuffer"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

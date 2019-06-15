@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleCacheControl interface [COM],OnStop method, IOleCacheControl.OnStop, IOleCacheControl::OnStop, OnStop, OnStop method [COM], OnStop method [COM],IOleCacheControl interface, _ole_iolecachecontrol_onstop, com.iolecachecontrol_onstop, oleidl/IOleCacheControl::OnStop
 ms.topic: method
+f1_keywords: ["oleidl/IOleCacheControl.OnStop"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

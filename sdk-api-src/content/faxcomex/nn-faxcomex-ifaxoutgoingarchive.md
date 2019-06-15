@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive, IFaxOutgoingArchive interface [Fax Service], IFaxOutgoingArchive interface [Fax Service],described, _mfax_faxoutgoingarchive_cpp, fax._mfax_faxoutgoingarchive_cpp, faxcomex/IFaxOutgoingArchive
 ms.topic: interface
+f1_keywords: ["faxcomex/IFaxOutgoingArchive"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

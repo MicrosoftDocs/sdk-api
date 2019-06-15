@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsCallerInRole method, ObjectContext.IsCallerInRole, ObjectContext::IsCallerInRole, _cos_ObjectContext_IsCallerInRole, comsvcs/ObjectContext::IsCallerInRole, cos.objectcontext_iscallerinrole
 ms.topic: method
+f1_keywords: ["comsvcs/ObjectContext.IsCallerInRole"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

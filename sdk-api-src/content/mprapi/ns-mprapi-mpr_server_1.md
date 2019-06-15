@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMPR_SERVER_1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_1, MPR_SERVER_1 structure [RAS], PMPR_SERVER_1, PMPR_SERVER_1 structure pointer [RAS], mprapi/MPR_SERVER_1, mprapi/PMPR_SERVER_1, rras.mpr_server_1"
 ms.topic: struct
+f1_keywords: ["mprapi/MPR_SERVER_1"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

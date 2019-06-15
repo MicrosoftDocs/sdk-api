@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSlideshow, GetSlideshow method [Windows Shell], GetSlideshow method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetSlideshow method, IDesktopWallpaper.GetSlideshow, IDesktopWallpaper::GetSlideshow, shell.IDesktopWallpaper_GetSlideshow, shobjidl_core/IDesktopWallpaper::GetSlideshow
 ms.topic: method
+f1_keywords: ["shobjidl_core/IDesktopWallpaper.GetSlideshow"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

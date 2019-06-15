@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelectionItemPattern_Select, SelectionItemPattern_Select function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_SelectConPat, uiauto_SelectionItemPattern_SelectConPat, uiautomationcoreapi/SelectionItemPattern_Select, winauto.uiauto_SelectionItemPattern_SelectConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/SelectionItemPattern_Select"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

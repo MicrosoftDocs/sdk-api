@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilVarBindFree, SnmpUtilVarBindFree function [SNMP], _snmp_snmputilvarbindfree, snmp.snmputilvarbindfree, snmp/SnmpUtilVarBindFree
 ms.topic: function
+f1_keywords: ["snmp/SnmpUtilVarBindFree"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

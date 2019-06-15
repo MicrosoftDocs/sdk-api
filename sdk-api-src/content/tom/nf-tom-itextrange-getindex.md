@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Windows Controls], GetIndex method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetIndex method, ITextRange.GetIndex, ITextRange::GetIndex, _win32_ITextRange_GetIndex, _win32_ITextRange_GetIndex_cpp, controls.ITextRange_GetIndex, controls._win32_ITextRange_GetIndex, tom/ITextRange::GetIndex
 ms.topic: method
+f1_keywords: ["tom/ITextRange.GetIndex"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

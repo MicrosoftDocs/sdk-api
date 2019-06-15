@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextCharacterExtra, GetTextCharacterExtra function [Windows GDI], _win32_GetTextCharacterExtra, gdi.gettextcharacterextra, wingdi/GetTextCharacterExtra
 ms.topic: function
+f1_keywords: ["wingdi/GetTextCharacterExtra"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

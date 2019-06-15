@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongToIntPtr, LongToIntPtr function [Windows Shell], LongToPtrdiffT, _shell_LongToIntPtr, intsafe/LongToIntPtr, shell.LongToIntPtr
 ms.topic: function
+f1_keywords: ["intsafe/LongToIntPtr"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

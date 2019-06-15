@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service],described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
 ms.topic: interface
+f1_keywords: ["cmdtree/IQuery"]
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_InnerFECMethod method, IBDA_DigitalDemodulator.get_InnerFECMethod, IBDA_DigitalDemodulator::get_InnerFECMethod, IBDA_DigitalDemodulatorget_InnerFECMethod, bdaiface/IBDA_DigitalDemodulator::get_InnerFECMethod, get_InnerFECMethod, get_InnerFECMethod method [Microsoft TV Technologies], get_InnerFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_innerfecmethod
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_DigitalDemodulator.get_InnerFECMethod"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

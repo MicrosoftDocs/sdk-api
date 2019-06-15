@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetForwardScale, GetForwardScale method [Direct3D 11], GetForwardScale method [Direct3D 11],ID3DX11FFT interface, ID3DX11FFT interface [Direct3D 11],GetForwardScale method, ID3DX11FFT.GetForwardScale, ID3DX11FFT::GetForwardScale, d15a8e9c-685b-8592-6a11-8c6add9d890d, d3dcsx/ID3DX11FFT::GetForwardScale, direct3d11.id3dx11fft_getforwardscale
 ms.topic: method
+f1_keywords: ["d3dcsx/ID3DX11FFT.GetForwardScale"]
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

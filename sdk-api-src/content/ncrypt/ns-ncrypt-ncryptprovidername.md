@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt/NCryptProviderName, security.ncryptprovidername_struct
 ms.topic: struct
+f1_keywords: ["ncrypt/NCryptProviderName"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

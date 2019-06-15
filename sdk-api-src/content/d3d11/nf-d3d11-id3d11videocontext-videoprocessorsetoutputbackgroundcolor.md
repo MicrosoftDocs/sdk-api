@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputBackgroundColor method, ID3D11VideoContext.VideoProcessorSetOutputBackgroundColor, ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor, VideoProcessorSetOutputBackgroundColor, VideoProcessorSetOutputBackgroundColor method [Media Foundation], VideoProcessorSetOutputBackgroundColor method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputBackgroundColor, mf.id3d11videocontext_videoprocessorsetoutputbackgroundcolor
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorSetOutputBackgroundColor"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

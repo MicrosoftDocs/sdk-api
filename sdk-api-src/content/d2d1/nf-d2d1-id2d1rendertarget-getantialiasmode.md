@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAntialiasMode, GetAntialiasMode method [Direct2D], GetAntialiasMode method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],GetAntialiasMode method, ID2D1RenderTarget.GetAntialiasMode, ID2D1RenderTarget::GetAntialiasMode, d2d1/ID2D1RenderTarget::GetAntialiasMode, direct2d.ID2D1RenderTarget_GetAntialiasMode
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RenderTarget.GetAntialiasMode"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

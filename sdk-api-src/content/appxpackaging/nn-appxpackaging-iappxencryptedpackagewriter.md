@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], IAppxEncryptedPackageWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter, appxpkg.iappxencryptedpackagewriter
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxEncryptedPackageWriter"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

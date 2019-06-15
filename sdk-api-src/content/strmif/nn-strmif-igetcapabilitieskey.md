@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetCapabilitiesKey, IGetCapabilitiesKey interface [DirectShow], IGetCapabilitiesKey interface [DirectShow],described, IGetCapabilitiesKeyInterface, dshow.igetcapabilitieskey, strmif/IGetCapabilitiesKey
 ms.topic: interface
+f1_keywords: ["strmif/IGetCapabilitiesKey"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],CreateFromPoints method, BoundingSphere.CreateFromPoints, BoundingSphere::CreateFromPoints, CreateFromPoints, CreateFromPoints method [DirectX Math Support APIs], CreateFromPoints method [DirectX Math Support APIs],BoundingSphere interface, Use DirectX..BoundingSphere.CreateFromPoints, Use DirectX::::BoundingSphere::CreateFromPoints, dxmath.boundingsphere_createfrompoints
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingSphere.CreateFromPoints"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

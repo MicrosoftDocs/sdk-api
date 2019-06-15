@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEIT, GetEIT method [Microsoft TV Technologies], GetEIT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetEIT method, IAtscPsipParser.GetEIT, IAtscPsipParser::GetEIT, IAtscPsipParserGetEIT, atscpsipparser/IAtscPsipParser::GetEIT, mstv.iatscpsipparser_geteit
 ms.topic: method
+f1_keywords: ["atscpsipparser/IAtscPsipParser.GetEIT"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

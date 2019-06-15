@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPdfRendererNative, IPdfRendererNative interface [Windows Runtime], IPdfRendererNative interface [Windows Runtime],described, windows/IPdfRendererNative, winrt.ipdfrenderernative
 ms.topic: interface
+f1_keywords: ["windows.data.pdf.interop/IPdfRendererNative"]
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

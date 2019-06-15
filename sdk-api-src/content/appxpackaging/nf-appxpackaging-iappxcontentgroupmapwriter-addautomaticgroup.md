@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAutomaticGroup, AddAutomaticGroup method [App packaging and management], AddAutomaticGroup method [App packaging and management],IAppxContentGroupMapWriter interface, IAppxContentGroupMapWriter interface [App packaging and management],AddAutomaticGroup method, IAppxContentGroupMapWriter.AddAutomaticGroup, IAppxContentGroupMapWriter::AddAutomaticGroup, appxpackaging/IAppxContentGroupMapWriter::AddAutomaticGroup, appxpkg.iappxcontentgroupmapwriter_addautomaticgroup
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxContentGroupMapWriter.AddAutomaticGroup"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixLookToLH, XMMatrixLookToLH, XMMatrixLookToLH method [DirectX Math Support APIs], dxmath.xmmatrixlooktolh
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixLookToLH"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

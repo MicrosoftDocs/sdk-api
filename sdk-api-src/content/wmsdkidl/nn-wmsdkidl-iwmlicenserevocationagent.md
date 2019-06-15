@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], IWMLicenseRevocationAgent interface [windows Media Format],described, IWMLicenseRevocationAgentInterface, wmformat.iwmlicenserevocationagent, wmsdkidl/IWMLicenseRevocationAgent
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMLicenseRevocationAgent"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,Merge method, IMsmMerge.Merge, IMsmMerge::Merge, Merge, Merge method, Merge method,IMsmMerge interface, _msi_merge_function, mergemod/IMsmMerge::Merge, setup.imsmmerge_merge
 ms.topic: method
+f1_keywords: ["mergemod/IMsmMerge.Merge"]
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

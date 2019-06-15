@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESOURCE_MONITOR_STATE, RESOURCE_MONITOR_STATE enumeration [Failover Cluster], RmonArbitrateResource, RmonDeadlocked, RmonDeletingResource, RmonIdle, RmonInitializing, RmonInitializingResource, RmonIsAlivePoll, RmonLooksAlivePoll, RmonOfflineResource, RmonOnlineResource, RmonReleaseResource, RmonResourceControl, RmonResourceTypeControl, RmonShutdownResource, RmonStartingResource, RmonTerminateResource, mscs.resource_monitor_state, resapi/RESOURCE_MONITOR_STATE, resapi/RmonArbitrateResource, resapi/RmonDeadlocked, resapi/RmonDeletingResource, resapi/RmonIdle, resapi/RmonInitializing, resapi/RmonInitializingResource, resapi/RmonIsAlivePoll, resapi/RmonLooksAlivePoll, resapi/RmonOfflineResource, resapi/RmonOnlineResource, resapi/RmonReleaseResource, resapi/RmonResourceControl, resapi/RmonResourceTypeControl, resapi/RmonShutdownResource, resapi/RmonStartingResource, resapi/RmonTerminateResource
 ms.topic: enum
+f1_keywords: ["resapi/RESOURCE_MONITOR_STATE"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

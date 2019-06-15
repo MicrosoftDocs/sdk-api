@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignature interface [XPS Documents and Packaging],Verify method, IXpsSignature.Verify, IXpsSignature::Verify, Verify, Verify method [XPS Documents and Packaging], Verify method [XPS Documents and Packaging],IXpsSignature interface, xps.ixpssignature_verify, xpsdigitalsignature/IXpsSignature::Verify
 ms.topic: method
+f1_keywords: ["xpsdigitalsignature/IXpsSignature.Verify"]
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

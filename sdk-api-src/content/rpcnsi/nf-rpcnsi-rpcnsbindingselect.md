@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingSelect, RpcNsBindingSelect function [RPC], _rpc_rpcnsbindingselect, rpc.rpcnsbindingselect, rpcnsi/RpcNsBindingSelect
 ms.topic: function
+f1_keywords: ["rpcnsi/RpcNsBindingSelect"]
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

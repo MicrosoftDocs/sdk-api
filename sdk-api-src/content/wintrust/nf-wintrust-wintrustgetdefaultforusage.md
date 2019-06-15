@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, WintrustGetDefaultForUsage function [Security], security.wintrustgetdefaultforusage, wintrust/WintrustGetDefaultForUsage
 ms.topic: function
+f1_keywords: ["wintrust/WintrustGetDefaultForUsage"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

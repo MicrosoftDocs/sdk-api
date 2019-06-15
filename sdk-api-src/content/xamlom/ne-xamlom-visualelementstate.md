@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ErrorInvalidResource, ErrorResolved, ErrorResourceNotFound, VisualElementState, VisualElementState enumeration, xaml_diagnostics.visualelementstate, xamlom/ErrorInvalidResource, xamlom/ErrorResolved, xamlom/ErrorResourceNotFound, xamlom/VisualElementState
 ms.topic: enum
+f1_keywords: ["xamlom/VisualElementState"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

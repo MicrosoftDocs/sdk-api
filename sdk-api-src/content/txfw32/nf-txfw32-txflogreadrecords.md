@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TxfLogReadRecords, TxfLogReadRecords function [Files], fs.txflogreadrecords, txfw32/TxfLogReadRecords
 ms.topic: function
+f1_keywords: ["txfw32/TxfLogReadRecords"]
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

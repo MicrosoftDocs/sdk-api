@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [Fax Service], _mfax_faxdevvirtualdevicecreation, fax._mfax_faxdevvirtualdevicecreation, faxdev/FaxDevVirtualDeviceCreation
 ms.topic: function
+f1_keywords: ["faxdev/FaxDevVirtualDeviceCreation"]
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

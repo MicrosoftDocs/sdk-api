@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CrediUnmarshalandDecodeString, CrediUnmarshalandDecodeString callback function [Security], CrediUnmarshalandDecodeStringFn, CrediUnmarshalandDecodeStringFn callback, ntsecpkg/CrediUnmarshalandDecodeString, security.crediunmarshalanddecodestring
 ms.topic: callback
+f1_keywords: ["ntsecpkg/CrediUnmarshalandDecodeString"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

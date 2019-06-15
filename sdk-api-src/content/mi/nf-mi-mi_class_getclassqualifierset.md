@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetClassQualifierSet, MI_Class_GetClassQualifierSet function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassQualifierSet, wmi_v2.mi_class_getclassqualifierset
 ms.topic: function
+f1_keywords: ["mi/MI_Class_GetClassQualifierSet"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

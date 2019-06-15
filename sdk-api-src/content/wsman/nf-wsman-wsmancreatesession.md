@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManCreateSession, WSManCreateSession function [Windows Remote Management], winrm.wsmancreatesession, wsman/WSManCreateSession
 ms.topic: function
+f1_keywords: ["wsman/WSManCreateSession"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckColorsInGamut, CheckColorsInGamut function [Windows Color System], _color_CheckColorsInGamut, wcs.checkcolorsingamut, wingdi/CheckColorsInGamut
 ms.topic: function
+f1_keywords: ["wingdi/CheckColorsInGamut"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

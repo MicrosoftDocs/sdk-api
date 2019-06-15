@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConfirmOverwrite, ConfirmOverwrite method [Windows Shell], ConfirmOverwrite method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],ConfirmOverwrite method, ITransferAdviseSink.ConfirmOverwrite, ITransferAdviseSink::ConfirmOverwrite, _shell_ITransferAdviseSink_ConfirmOverwrite, shell.ITransferAdviseSink_ConfirmOverwrite, shobjidl_core/ITransferAdviseSink::ConfirmOverwrite
 ms.topic: method
+f1_keywords: ["shobjidl_core/ITransferAdviseSink.ConfirmOverwrite"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

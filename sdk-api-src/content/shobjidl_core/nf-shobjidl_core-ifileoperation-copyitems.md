@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyItems, CopyItems method [Windows Shell], CopyItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItems method, IFileOperation.CopyItems, IFileOperation::CopyItems, _shell_IFileOperation_CopyItems, shell.IFileOperation_CopyItems, shobjidl_core/IFileOperation::CopyItems
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileOperation.CopyItems"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

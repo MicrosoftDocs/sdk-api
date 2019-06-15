@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2506ae6e-a3bb-4d36-8c70-837a42cfb272, MFInitMediaTypeFromMPEG1VideoInfo, MFInitMediaTypeFromMPEG1VideoInfo function [Media Foundation], mf.mfinitmediatypefrommpeg1videoinfo, mfapi/MFInitMediaTypeFromMPEG1VideoInfo
 ms.topic: function
+f1_keywords: ["mfapi/MFInitMediaTypeFromMPEG1VideoInfo"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

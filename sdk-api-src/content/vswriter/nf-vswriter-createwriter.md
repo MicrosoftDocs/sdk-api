@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
 ms.topic: function
+f1_keywords: ["vswriter/CreateWriter"]
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

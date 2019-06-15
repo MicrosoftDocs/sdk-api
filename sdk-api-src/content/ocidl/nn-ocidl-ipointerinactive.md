@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
 ms.topic: interface
+f1_keywords: ["ocidl/IPointerInactive"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

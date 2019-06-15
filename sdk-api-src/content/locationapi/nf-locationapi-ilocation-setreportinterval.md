@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocation interface [WinLocation],SetReportInterval method, ILocation.SetReportInterval, ILocation::SetReportInterval, SetReportInterval, SetReportInterval method [WinLocation], SetReportInterval method [WinLocation],ILocation interface, WinLocation_COM_Ref.ilocation_setreportinterval, locationapi/ILocation::SetReportInterval
 ms.topic: method
+f1_keywords: ["locationapi/ILocation.SetReportInterval"]
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

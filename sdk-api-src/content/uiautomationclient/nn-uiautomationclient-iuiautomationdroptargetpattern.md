@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDropTargetPattern, IUIAutomationDropTargetPattern interface [Windows Accessibility], IUIAutomationDropTargetPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDropTargetPattern, winauto.uiauto_iuiautomationdroptargetpattern
 ms.topic: interface
+f1_keywords: ["uiautomationclient/IUIAutomationDropTargetPattern"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

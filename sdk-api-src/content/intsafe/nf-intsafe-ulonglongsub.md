@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SIZETSub, SIZETSub function [Windows Shell], ULongLongSub, _shell_SIZETSub, intsafe/SIZETSub, shell.SIZETSub, shell.SIZETSub_1
 ms.topic: function
+f1_keywords: ["intsafe/SIZETSub"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RenderingParameters, RenderingParameters structure [Media Streaming API], mediastreaming.renderingparameters, windows/RenderingParameters
 ms.topic: struct
+f1_keywords: ["windows.media.streaming/RenderingParameters"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

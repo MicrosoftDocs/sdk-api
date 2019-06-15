@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [PLA], Enabled property [PLA],IDataManager interface, IDataManager interface [PLA],Enabled property, IDataManager.Enabled, IDataManager.put_Enabled, IDataManager::Enabled, IDataManager::get_Enabled, IDataManager::put_Enabled, base.idatamanager_enabled, pla.idatamanager_enabled, pla/IDataManager::Enabled, pla/IDataManager::get_Enabled, pla/IDataManager::put_Enabled, put_Enabled
 ms.topic: method
+f1_keywords: ["pla/IDataManager.Enabled"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

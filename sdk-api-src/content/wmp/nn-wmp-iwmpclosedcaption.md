@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], IWMPClosedCaption interface [Windows Media Player],described, IWMPClosedCaptionInterface, wmp.iwmpclosedcaption, wmp/IWMPClosedCaption
 ms.topic: interface
+f1_keywords: ["wmp/IWMPClosedCaption"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

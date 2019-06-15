@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableTimeUpdateTimer, EnableTimeUpdateTimer method [Media Foundation], EnableTimeUpdateTimer method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableTimeUpdateTimer method, IMFMediaEngineEx.EnableTimeUpdateTimer, IMFMediaEngineEx::EnableTimeUpdateTimer, mf.imfmediaengineex_enabletimeupdatetimer, mfmediaengine/IMFMediaEngineEx::EnableTimeUpdateTimer
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineEx.EnableTimeUpdateTimer"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

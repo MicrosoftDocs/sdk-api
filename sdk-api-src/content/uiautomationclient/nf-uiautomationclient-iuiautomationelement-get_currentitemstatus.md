@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentItemStatus property [Windows Accessibility], CurrentItemStatus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentItemStatus property, IUIAutomationElement.CurrentItemStatus, IUIAutomationElement.get_CurrentItemStatus, IUIAutomationElement::CurrentItemStatus, IUIAutomationElement::get_CurrentItemStatus, get_CurrentItemStatus, uiauto.uiauto_IUIAutomationElement_CurrentItemStatus, uiauto_IUIAutomationElement_CurrentItemStatus, uiautomationclient/IUIAutomationElement::CurrentItemStatus, uiautomationclient/IUIAutomationElement::get_CurrentItemStatus, winauto.uiauto_IUIAutomationElement_CurrentItemStatus
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentItemStatus"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

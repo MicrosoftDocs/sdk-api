@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachedRowHeaders, GetCachedRowHeaders method [Windows Accessibility], GetCachedRowHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCachedRowHeaders method, IUIAutomationTablePattern.GetCachedRowHeaders, IUIAutomationTablePattern::GetCachedRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCachedRowHeaders, uiauto_IUIAutomationTablePattern_GetCachedRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCachedRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCachedRowHeaders
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTablePattern.GetCachedRowHeaders"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

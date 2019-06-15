@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModulation, GetModulation method [Microsoft TV Technologies], GetModulation method [Microsoft TV Technologies],IDvbCableDeliverySystemDescriptor interface, IDvbCableDeliverySystemDescriptor interface [Microsoft TV Technologies],GetModulation method, IDvbCableDeliverySystemDescriptor.GetModulation, IDvbCableDeliverySystemDescriptor::GetModulation, IDvbCableDeliverySystemDescriptorGetModulation, dvbsiparser/IDvbCableDeliverySystemDescriptor::GetModulation, mstv.idvbcabledeliverysystemdescriptor_getmodulation
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDvbCableDeliverySystemDescriptor.GetModulation"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

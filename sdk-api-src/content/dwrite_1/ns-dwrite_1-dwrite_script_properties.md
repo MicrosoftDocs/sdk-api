@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SCRIPT_PROPERTIES, DWRITE_SCRIPT_PROPERTIES structure [Direct Write], directwrite.dwrite_script_properties, dwrite_1/DWRITE_SCRIPT_PROPERTIES
 ms.topic: struct
+f1_keywords: ["dwrite_1/DWRITE_SCRIPT_PROPERTIES"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

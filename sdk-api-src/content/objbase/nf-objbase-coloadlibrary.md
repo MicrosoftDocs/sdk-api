@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoLoadLibrary, CoLoadLibrary function [COM], _com_CoLoadLibrary, com.coloadlibrary, objbase/CoLoadLibrary
 ms.topic: function
+f1_keywords: ["objbase/CoLoadLibrary"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

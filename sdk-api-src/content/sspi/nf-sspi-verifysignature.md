@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
 ms.topic: function
+f1_keywords: ["sspi/VerifySignature"]
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

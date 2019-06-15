@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaHTextRangeFromVariant, UiaHTextRangeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHTextRangeFromVariantFunction, uiauto_UiaHTextRangeFromVariantFunction, uiautomationcoreapi/UiaHTextRangeFromVariant, winauto.uiauto_UiaHTextRangeFromVariantFunction
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaHTextRangeFromVariant"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

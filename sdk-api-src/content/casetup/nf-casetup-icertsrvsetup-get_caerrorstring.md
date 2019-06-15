@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAErrorString property [Security], CAErrorString property [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAErrorString property, ICertSrvSetup.CAErrorString, ICertSrvSetup.get_CAErrorString, ICertSrvSetup::CAErrorString, ICertSrvSetup::get_CAErrorString, casetup/ICertSrvSetup::CAErrorString, casetup/ICertSrvSetup::get_CAErrorString, get_CAErrorString, security.icertsrvsetup_caerrorstring
 ms.topic: method
+f1_keywords: ["casetup/ICertSrvSetup.CAErrorString"]
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

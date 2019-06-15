@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpGetInfo, SpGetInfo callback function [Security], SpGetInfoFn, SpGetInfoFn callback, _ssp_spgetinfo, ntsecpkg/SpGetInfo, security.spgetinfo
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpGetInfo"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

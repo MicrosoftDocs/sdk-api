@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],getMyStore method, IEnroll.getMyStore, IEnroll2 interface [Security],getMyStore method, IEnroll2::getMyStore, IEnroll::getMyStore, getMyStore, getMyStore method [Security], getMyStore method [Security],IEnroll interface, getMyStore method [Security],IEnroll2 interface, security.ienroll4_getmystore, xenroll/IEnroll2::getMyStore, xenroll/IEnroll::getMyStore
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll.getMyStore"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

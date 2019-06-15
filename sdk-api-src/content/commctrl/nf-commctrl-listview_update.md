@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_Update, ListView_Update macro [Windows Controls], _win32_ListView_Update, _win32_ListView_Update_cpp, commctrl/ListView_Update, controls.ListView_Update, controls._win32_ListView_Update
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_Update"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

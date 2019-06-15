@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MinorBuild property, IFaxInboundRoutingExtension.MinorBuild, IFaxInboundRoutingExtension.get_MinorBuild, IFaxInboundRoutingExtension::MinorBuild, IFaxInboundRoutingExtension::get_MinorBuild, MinorBuild property [Fax Service], MinorBuild property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.minorbuild, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorbuild_cpp, fax._mfax_faxinboundroutingextension_minorbuild, faxcomex/IFaxInboundRoutingExtension::MinorBuild, faxcomex/IFaxInboundRoutingExtension::get_MinorBuild, get_MinorBuild
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxInboundRoutingExtension.MinorBuild"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

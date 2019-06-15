@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, SaferSetPolicyInformation, SaferSetPolicyInformation function [Security], security.safersetpolicyinformation, winsafer/SaferSetPolicyInformation
 ms.topic: function
+f1_keywords: ["winsafer/SaferSetPolicyInformation"]
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

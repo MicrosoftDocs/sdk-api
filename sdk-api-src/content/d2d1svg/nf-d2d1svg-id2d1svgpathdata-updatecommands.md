@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],UpdateCommands method, ID2D1SvgPathData.UpdateCommands, ID2D1SvgPathData::UpdateCommands, UpdateCommands, UpdateCommands method [Direct2D], UpdateCommands method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::UpdateCommands, direct2d.id2d1svgpathdata_updatecommands
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgPathData.UpdateCommands"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

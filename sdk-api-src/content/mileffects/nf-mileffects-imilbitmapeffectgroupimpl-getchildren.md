@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChildren, GetChildren method [WPF Bitmap Effects], GetChildren method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],GetChildren method, IMILBitmapEffectGroupImpl.GetChildren, IMILBitmapEffectGroupImpl::GetChildren, _wibe_imilbitmapeffectgroupimpl_getchildren, mileffects/IMILBitmapEffectGroupImpl::GetChildren, wibe._wibe_imilbitmapeffectgroupimpl_getchildren
 ms.topic: method
+f1_keywords: ["mileffects/IMILBitmapEffectGroupImpl.GetChildren"]
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

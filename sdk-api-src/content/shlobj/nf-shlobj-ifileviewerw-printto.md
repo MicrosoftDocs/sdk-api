@@ -9,6 +9,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::PrintTo
 ms.topic: language-reference
+f1_keywords: ["shlobj/IFileViewerW::PrintTo"]
 targetos: Windows
 product: Windows
 req.assembly: 

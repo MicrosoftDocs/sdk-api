@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], IWMPCdromBurn interface [Windows Media Player],described, IWMPCdromBurnInterface, wmp.iwmpcdromburn, wmp/IWMPCdromBurn
 ms.topic: interface
+f1_keywords: ["wmp/IWMPCdromBurn"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontCaps, DrvQueryFontCaps function [Display Devices], ddifncs_7ae0a56c-3c98-456c-9595-b127f36209a1.xml, display.drvqueryfontcaps, winddi/DrvQueryFontCaps
 ms.topic: function
+f1_keywords: ["winddi/DrvQueryFontCaps"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

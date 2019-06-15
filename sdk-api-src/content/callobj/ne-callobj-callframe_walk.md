@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_WALK, CALLFRAME_WALK enumeration [COM], CALLFRAME_WALK_IN, CALLFRAME_WALK_INOUT, CALLFRAME_WALK_OUT, _com_CALLFRAME_WALK, callobj/CALLFRAME_WALK, callobj/CALLFRAME_WALK_IN, callobj/CALLFRAME_WALK_INOUT, callobj/CALLFRAME_WALK_OUT, com.callframe_walk
 ms.topic: enum
+f1_keywords: ["callobj/CALLFRAME_WALK"]
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

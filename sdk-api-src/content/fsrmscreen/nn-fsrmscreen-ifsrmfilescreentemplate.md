@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplate, IFsrmFileScreenTemplate interface [File Server Resource Manager], IFsrmFileScreenTemplate interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplate, fsrm.ifsrmfilescreentemplate, fsrmscreen/IFsrmFileScreenTemplate
 ms.topic: interface
+f1_keywords: ["fsrmscreen/IFsrmFileScreenTemplate"]
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows

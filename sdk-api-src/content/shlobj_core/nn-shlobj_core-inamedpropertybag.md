@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyBag, INamedPropertyBag interface [Windows Shell], INamedPropertyBag interface [Windows Shell],described, _shell_INamedPropertyBag, shell.INamedPropertyBag, shlobj_core/INamedPropertyBag
 ms.topic: interface
+f1_keywords: ["shlobj_core/INamedPropertyBag"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

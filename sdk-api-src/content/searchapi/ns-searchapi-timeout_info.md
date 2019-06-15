@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TIMEOUT_INFO, TIMEOUT_INFO structure [search], _search_TIMEOUT_INFO, search._search_TIMEOUT_INFO, searchapi/TIMEOUT_INFO
 ms.topic: struct
+f1_keywords: ["searchapi/TIMEOUT_INFO"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

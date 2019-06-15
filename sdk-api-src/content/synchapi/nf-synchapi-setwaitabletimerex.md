@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWaitableTimerEx, SetWaitableTimerEx function, base.setwaitabletimerex, synchapi/SetWaitableTimerEx, winbase/SetWaitableTimerEx
 ms.topic: function
+f1_keywords: ["synchapi/SetWaitableTimerEx"]
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

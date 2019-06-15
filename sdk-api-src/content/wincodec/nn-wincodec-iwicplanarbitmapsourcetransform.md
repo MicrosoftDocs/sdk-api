@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPlanarBitmapSourceTransform, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component], IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],described, wic.iwicplanarbitmapsourcetransform, wincodec/IWICPlanarBitmapSourceTransform
 ms.topic: interface
+f1_keywords: ["wincodec/IWICPlanarBitmapSourceTransform"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

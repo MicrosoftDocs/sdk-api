@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWatermarkInfo, IWMWatermarkInfo interface [windows Media Format], IWMWatermarkInfo interface [windows Media Format],described, IWMWatermarkInfoInterface, wmformat.iwmwatermarkinfo, wmsdkidl/IWMWatermarkInfo
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMWatermarkInfo"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

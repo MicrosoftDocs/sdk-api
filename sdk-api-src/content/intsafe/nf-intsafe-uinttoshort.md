@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIntToShort, UIntToShort function [Windows Shell], _shell_UIntToShort, intsafe/UIntToShort, shell.UIntToShort
 ms.topic: function
+f1_keywords: ["intsafe/UIntToShort"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

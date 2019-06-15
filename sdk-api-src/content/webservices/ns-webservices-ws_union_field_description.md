@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_UNION_FIELD_DESCRIPTION, WS_UNION_FIELD_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNION_FIELD_DESCRIPTION, wsw.ws_union_field_description
 ms.topic: struct
+f1_keywords: ["webservices/WS_UNION_FIELD_DESCRIPTION"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

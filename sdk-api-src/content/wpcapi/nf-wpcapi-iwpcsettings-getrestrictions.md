@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IWPCSettings interface, IWPCSettings interface,GetRestrictions method, IWPCSettings.GetRestrictions, IWPCSettings::GetRestrictions, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcsettings_getrestrictions, wpcapi/IWPCSettings::GetRestrictions
 ms.topic: method
+f1_keywords: ["wpcapi/IWPCSettings.GetRestrictions"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

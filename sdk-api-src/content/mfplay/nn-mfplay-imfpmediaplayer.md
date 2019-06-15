@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer, IMFPMediaPlayer interface [Media Foundation], IMFPMediaPlayer interface [Media Foundation],described, mf.imfpmediaplayer, mfplay/IMFPMediaPlayer
 ms.topic: interface
+f1_keywords: ["mfplay/IMFPMediaPlayer"]
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

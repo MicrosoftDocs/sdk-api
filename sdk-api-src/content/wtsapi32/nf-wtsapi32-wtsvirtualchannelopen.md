@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelOpen, WTSVirtualChannelOpen function [Remote Desktop Services], _win32_wtsvirtualchannelopen, termserv.wtsvirtualchannelopen, wtsapi32/WTSVirtualChannelOpen
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSVirtualChannelOpen"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_NetworkProvider.GetTuningSpace, IBDA_NetworkProvider::GetTuningSpace, IBDA_NetworkProviderGetTuningSpace, bdaiface/IBDA_NetworkProvider::GetTuningSpace, mstv.ibda_networkprovider_gettuningspace
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_NetworkProvider.GetTuningSpace"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

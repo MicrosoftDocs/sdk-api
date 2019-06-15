@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_remedy method, IWMPErrorItem.get_remedy, IWMPErrorItem::get_remedy, IWMPErrorItemget_remedy, get_remedy, get_remedy method [Windows Media Player], get_remedy method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_remedy, wmp/IWMPErrorItem::get_remedy
 ms.topic: method
+f1_keywords: ["wmp/IWMPErrorItem.get_remedy"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

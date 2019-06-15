@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery2, ISCPSecureQuery2 interface [windows Media Device Manager], ISCPSecureQuery2 interface [windows Media Device Manager],described, ISCPSecureQuery2Interface, mswmdm/ISCPSecureQuery2, wmdm.iscpsecurequery2
 ms.topic: interface
+f1_keywords: ["mswmdm/ISCPSecureQuery2"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

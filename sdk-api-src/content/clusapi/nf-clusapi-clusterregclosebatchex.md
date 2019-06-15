@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
 ms.topic: function
+f1_keywords: ["clusapi/ClusterRegCloseBatchEx"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

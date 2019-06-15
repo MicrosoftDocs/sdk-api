@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_TIMESPAN, WS_TIMESPAN structure [Web Services for Windows], webservices/WS_TIMESPAN, wsw.ws_timespan
 ms.topic: struct
+f1_keywords: ["webservices/WS_TIMESPAN"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

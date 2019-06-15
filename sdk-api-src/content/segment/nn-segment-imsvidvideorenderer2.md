@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2, IMSVidVideoRenderer2 interface [Microsoft TV Technologies], IMSVidVideoRenderer2 interface [Microsoft TV Technologies],described, IMSVidVideoRenderer2Interface, mstv.imsvidvideorenderer2, segment/IMSVidVideoRenderer2
 ms.topic: interface
+f1_keywords: ["segment/IMSVidVideoRenderer2"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

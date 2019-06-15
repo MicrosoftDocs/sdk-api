@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EmptyWorkingSet, EmptyWorkingSet function [PSAPI], K32EmptyWorkingSet, _win32_emptyworkingset, base.emptyworkingset, psapi.emptyworkingset, psapi/EmptyWorkingSet, psapi/K32EmptyWorkingSet
 ms.topic: function
+f1_keywords: ["psapi/EmptyWorkingSet"]
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

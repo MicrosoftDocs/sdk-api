@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, rpcndr/NdrClientCall3
 ms.topic: function
+f1_keywords: ["rpcndr/NdrClientCall3"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],SignalPilot property, IDVBSLocator2.SignalPilot, IDVBSLocator2.get_SignalPilot, IDVBSLocator2::SignalPilot, IDVBSLocator2::get_SignalPilot, IDVBSLocator2::put_SignalPilot, SignalPilot property [Microsoft TV Technologies], SignalPilot property [Microsoft TV Technologies],IDVBSLocator2 interface, get_SignalPilot, mstv.idvbslocator2_signalpilot, tuner/IDVBSLocator2::SignalPilot, tuner/IDVBSLocator2::get_SignalPilot, tuner/IDVBSLocator2::put_SignalPilot
 ms.topic: method
+f1_keywords: ["tuner/IDVBSLocator2.SignalPilot"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method, GetState method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetState method, IRtwqAsyncResult.GetState, IRtwqAsyncResult::GetState, base.irtwqasyncresult_getstate, rtworkq/IRtwqAsyncResult::GetState
 ms.topic: method
+f1_keywords: ["rtworkq/IRtwqAsyncResult.GetState"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

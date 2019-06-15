@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SystemHealthAgentState, SystemHealthAgentState structure [NAP], nap.systemhealthagentstate_struct, naptypes/SystemHealthAgentState
 ms.topic: struct
+f1_keywords: ["naptypes/SystemHealthAgentState"]
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

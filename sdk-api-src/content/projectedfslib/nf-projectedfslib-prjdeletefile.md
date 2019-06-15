@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjDeleteFile, PrjDeleteFile function, ProjFS.prjdeletefile, projectedfslib/PrjDeleteFile
 ms.topic: function
+f1_keywords: ["projectedfslib/PrjDeleteFile"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

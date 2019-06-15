@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSource function [Security], authz/AuthzUnregisterSecurityEventSource, security.authzunregistersecurityeventsource
 ms.topic: function
+f1_keywords: ["authz/AuthzUnregisterSecurityEventSource"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

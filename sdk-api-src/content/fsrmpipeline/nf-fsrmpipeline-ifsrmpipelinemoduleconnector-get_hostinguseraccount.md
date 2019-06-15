@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],HostingUserAccount property, HostingUserAccount property [File Server Resource Manager], HostingUserAccount property [File Server Resource Manager],FsrmPipelineModuleConnector class, HostingUserAccount property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, IFsrmPipelineModuleConnector interface [File Server Resource Manager],HostingUserAccount property, IFsrmPipelineModuleConnector.HostingUserAccount, IFsrmPipelineModuleConnector.get_HostingUserAccount, IFsrmPipelineModuleConnector::HostingUserAccount, IFsrmPipelineModuleConnector::get_HostingUserAccount, fs.ifsrmpipelinemoduleconnector_hostinguseraccount, fsrm.ifsrmpipelinemoduleconnector_hostinguseraccount, fsrmpipeline/IFsrmPipelineModuleConnector::HostingUserAccount, fsrmpipeline/IFsrmPipelineModuleConnector::get_HostingUserAccount, get_HostingUserAccount
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleConnector.HostingUserAccount"]
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

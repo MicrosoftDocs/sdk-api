@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Receive property, IFaxPort.Receive, IFaxPort.get_Receive, IFaxPort::Receive, IFaxPort::get_Receive, IFaxPort::put_Receive, Receive property [Fax Service], Receive property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive, fax._mfax_ifaxport_mfax_ifaxport_get_receive_cpp, faxcom/IFaxPort::Receive, faxcom/IFaxPort::get_Receive, faxcom/IFaxPort::put_Receive, get_Receive
 ms.topic: method
+f1_keywords: ["faxcom/IFaxPort.Receive"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

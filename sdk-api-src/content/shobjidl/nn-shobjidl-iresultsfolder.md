@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], IResultsFolder interface [Windows Shell],described, _shell_IResultsFolder, shell.IResultsFolder, shobjidl/IResultsFolder
 ms.topic: interface
+f1_keywords: ["shobjidl/IResultsFolder"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSymPrev, SymGetSymPrev function, SymGetSymPrev64, SymGetSymPrev64 function, _win32_symgetsymprev64, base.symgetsymprev64, dbghelp/SymGetSymPrev, dbghelp/SymGetSymPrev64
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetSymPrev64"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1InkStyle interface [Direct2D],SetNibTransform method, ID2D1InkStyle.SetNibTransform, ID2D1InkStyle.SetNibTransform(const D2D1_MATRIX_3X2_F &), ID2D1InkStyle::SetNibTransform, ID2D1InkStyle::SetNibTransform(const D2D1_MATRIX_3X2_F &), SetNibTransform, SetNibTransform method [Direct2D], SetNibTransform method [Direct2D],ID2D1InkStyle interface, d2d1_3/ID2D1InkStyle::SetNibTransform, direct2d.id2d1inkstyle_setnibtransform_2
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1InkStyle.SetNibTransform"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

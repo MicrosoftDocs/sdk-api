@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupCloseFileQueue, SetupCloseFileQueue function [Setup API], _setupapi_setupclosefilequeue, setup.setupclosefilequeue, setupapi/SetupCloseFileQueue
 ms.topic: function
+f1_keywords: ["setupapi/SetupCloseFileQueue"]
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

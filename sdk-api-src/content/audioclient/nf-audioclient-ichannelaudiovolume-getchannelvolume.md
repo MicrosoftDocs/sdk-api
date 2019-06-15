@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio],IChannelAudioVolume interface, IChannelAudioVolume interface [Core Audio],GetChannelVolume method, IChannelAudioVolume.GetChannelVolume, IChannelAudioVolume::GetChannelVolume, IChannelAudioVolumeGetChannelVolume, audioclient/IChannelAudioVolume::GetChannelVolume, coreaudio.ichannelaudiovolume_getchannelvolume
 ms.topic: method
+f1_keywords: ["audioclient/IChannelAudioVolume.GetChannelVolume"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

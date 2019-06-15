@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
 ms.topic: function
+f1_keywords: ["shlwapi/IUnknown_AtomicRelease"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

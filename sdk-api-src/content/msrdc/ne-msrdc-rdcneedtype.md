@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDCNEED_SEED, RDCNEED_SEED_MAX, RDCNEED_SOURCE, RDCNEED_TARGET, RdcNeedType, RdcNeedType enumeration [Remote Differential Compression], fs.rdcneedtype, msrdc/RDCNEED_SEED, msrdc/RDCNEED_SEED_MAX, msrdc/RDCNEED_SOURCE, msrdc/RDCNEED_TARGET, msrdc/RdcNeedType, rdc.rdcneedtype
 ms.topic: enum
+f1_keywords: ["msrdc/RdcNeedType"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

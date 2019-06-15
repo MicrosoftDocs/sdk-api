@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleControl, IOleControl interface [COM], IOleControl interface [COM],described, _ctrl_iolecontrol, com.iolecontrol, ocidl/IOleControl
 ms.topic: interface
+f1_keywords: ["ocidl/IOleControl"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

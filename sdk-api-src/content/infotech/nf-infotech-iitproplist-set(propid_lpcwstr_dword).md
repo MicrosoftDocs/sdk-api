@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],Set method, IITPropList.Set, IITPropList.Set(PROPID,LPCWSTR,DWORD), IITPropList::Set, IITPropList::Set(PROPID,LPCWSTR,DWORD), PROP_ADD, PROP_DELETE, PROP_UPDATE, Set, Set method [HTML Help Workshop], Set method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_set3, infotech/IITPropList::Set, refIITPropListSetUnicodeString
 ms.topic: method
+f1_keywords: ["infotech/IITPropList.Set"]
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RealChildWindowFromPoint, RealChildWindowFromPoint function [Windows and Messages], _win32_RealChildWindowFromPoint, _win32_realchildwindowfrompoint_cpp, winmsg.realchildwindowfrompoint, winui._win32_realchildwindowfrompoint, winuser/RealChildWindowFromPoint
 ms.topic: function
+f1_keywords: ["winuser/RealChildWindowFromPoint"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

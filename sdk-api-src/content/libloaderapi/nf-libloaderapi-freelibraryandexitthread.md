@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeLibraryAndExitThread, FreeLibraryAndExitThread function, _win32_freelibraryandexitthread, base.freelibraryandexitthread, libloaderapi/FreeLibraryAndExitThread, winbase/FreeLibraryAndExitThread
 ms.topic: function
+f1_keywords: ["libloaderapi/FreeLibraryAndExitThread"]
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

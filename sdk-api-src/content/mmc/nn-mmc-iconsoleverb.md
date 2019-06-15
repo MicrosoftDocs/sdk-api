@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsoleVerb, IConsoleVerb interface [MMC], IConsoleVerb interface [MMC],described, _slate_iconsoleverb, mmc.iconsoleverb, mmc/IConsoleVerb
 ms.topic: interface
+f1_keywords: ["mmc/IConsoleVerb"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

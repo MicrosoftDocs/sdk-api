@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvEnableDirectDraw, DrvEnableDirectDraw function [Display Devices], ddfncs_259dc59e-2e2c-4cdb-9d79-08e42fd5bc91.xml, display.drvenabledirectdraw, winddi/DrvEnableDirectDraw
 ms.topic: function
+f1_keywords: ["winddi/DrvEnableDirectDraw"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

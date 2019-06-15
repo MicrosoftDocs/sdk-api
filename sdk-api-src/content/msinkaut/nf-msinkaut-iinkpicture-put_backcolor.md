@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackColor property [Tablet PC], BackColor property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],BackColor property, IInkPicture.BackColor, IInkPicture.put_BackColor, IInkPicture::BackColor, IInkPicture::get_BackColor, IInkPicture::put_BackColor, InkPicture.get_BackColor, InkPicture.put_BackColor, get_BackColor, msinkaut/IInkPicture::BackColor, msinkaut/IInkPicture::get_BackColor, msinkaut/IInkPicture::put_BackColor, put_BackColor, tablet.inkpicture_backcolor
 ms.topic: method
+f1_keywords: ["msinkaut/IInkPicture.BackColor"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

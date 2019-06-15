@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HANDLE_CREATION_OPTIONS, HANDLE_CREATION_OPTIONS enumeration [Windows Runtime], HCO_CREATE_ALWAYS, HCO_CREATE_NEW, HCO_OPEN_ALWAYS, HCO_OPEN_EXISTING, HCO_TRUNCATE_EXISTING, windowsstoragecom/HANDLE_CREATION_OPTIONS, windowsstoragecom/HCO_CREATE_ALWAYS, windowsstoragecom/HCO_CREATE_NEW, windowsstoragecom/HCO_OPEN_ALWAYS, windowsstoragecom/HCO_OPEN_EXISTING, windowsstoragecom/HCO_TRUNCATE_EXISTING, winrt.handle_creation_options
 ms.topic: enum
+f1_keywords: ["windowsstoragecom/HANDLE_CREATION_OPTIONS"]
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

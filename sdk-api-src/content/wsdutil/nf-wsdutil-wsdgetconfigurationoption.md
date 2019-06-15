@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDGetConfigurationOption, WSDGetConfigurationOption function, ncd.wsdgetconfigurationoption, wsdutil/WSDGetConfigurationOption
 ms.topic: function
+f1_keywords: ["wsdutil/WSDGetConfigurationOption"]
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

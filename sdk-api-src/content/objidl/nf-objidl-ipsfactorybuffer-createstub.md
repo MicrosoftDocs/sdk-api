@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStub, CreateStub method [COM], CreateStub method [COM],IPSFactoryBuffer interface, IPSFactoryBuffer interface [COM],CreateStub method, IPSFactoryBuffer.CreateStub, IPSFactoryBuffer::CreateStub, _com_ipsfactorybuffer_createstub, com.ipsfactorybuffer_createstub, objidlbase/IPSFactoryBuffer::CreateStub
 ms.topic: method
+f1_keywords: ["objidl/IPSFactoryBuffer.CreateStub"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

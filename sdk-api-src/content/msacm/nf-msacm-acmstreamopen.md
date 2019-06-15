@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen"
 ms.topic: function
+f1_keywords: ["msacm/acmStreamOpen"]
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

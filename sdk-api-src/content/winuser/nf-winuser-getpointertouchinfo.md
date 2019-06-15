@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerTouchInfo, GetPointerTouchInfo function [Input Messages and Notifications], inputmsg.getpointertouchinfo, winuser/GetPointerTouchInfo
 ms.topic: function
+f1_keywords: ["winuser/GetPointerTouchInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetListenerProperty, WsGetListenerProperty function [Web Services for Windows], webservices/WsGetListenerProperty, wsw.wsgetlistenerproperty
 ms.topic: function
+f1_keywords: ["webservices/WsGetListenerProperty"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

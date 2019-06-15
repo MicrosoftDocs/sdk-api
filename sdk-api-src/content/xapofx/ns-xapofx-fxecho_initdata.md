@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FXECHO_INITDATA, FXECHO_INITDATA structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_INITDATA, xaudio2.fxecho_initdata
 ms.topic: struct
+f1_keywords: ["xapofx/FXECHO_INITDATA"]
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows

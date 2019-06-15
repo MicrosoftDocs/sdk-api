@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [Media Foundation], AddStreamForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddStreamForRecord method, IMFASFMutualExclusion.AddStreamForRecord, IMFASFMutualExclusion::AddStreamForRecord, cfbfe3be-b0a4-408a-952e-e4f996f94cee, mf.imfasfmutualexclusion_addstreamforrecord, wmcontainer/IMFASFMutualExclusion::AddStreamForRecord
 ms.topic: method
+f1_keywords: ["wmcontainer/IMFASFMutualExclusion.AddStreamForRecord"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

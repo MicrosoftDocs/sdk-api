@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPreRestoreFailureMsg, GetPreRestoreFailureMsg method [VSS], GetPreRestoreFailureMsg method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreRestoreFailureMsg method, IVssComponent.GetPreRestoreFailureMsg, IVssComponent::GetPreRestoreFailureMsg, _win32_ivsscomponent_getprerestorefailuremsg, base.ivsscomponent_getprerestorefailuremsg, vswriter/IVssComponent::GetPreRestoreFailureMsg
 ms.topic: method
+f1_keywords: ["vswriter/IVssComponent.GetPreRestoreFailureMsg"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

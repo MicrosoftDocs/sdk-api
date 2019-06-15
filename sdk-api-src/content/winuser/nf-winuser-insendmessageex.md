@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InSendMessageEx, InSendMessageEx function [Windows and Messages], _win32_InSendMessageEx, _win32_insendmessageex_cpp, winmsg.insendmessageex, winui._win32_insendmessageex, winuser/InSendMessageEx
 ms.topic: function
+f1_keywords: ["winuser/InSendMessageEx"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

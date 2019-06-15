@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskVariables, ITaskVariables interface [Task Scheduler], ITaskVariables interface [Task Scheduler],described, taskschd.itaskvariables, taskschd/ITaskVariables
 ms.topic: interface
+f1_keywords: ["taskschd/ITaskVariables"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

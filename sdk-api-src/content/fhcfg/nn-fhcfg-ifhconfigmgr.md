@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
 ms.topic: interface
+f1_keywords: ["fhcfg/IFhConfigMgr"]
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

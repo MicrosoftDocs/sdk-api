@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINEMONITORTONE, LINEMONITORTONE, LINEMONITORTONE structure [TAPI 2.2], LPLINEMONITORTONE, LPLINEMONITORTONE structure pointer [TAPI 2.2], _tapi2_linemonitortone_str, tapi/LINEMONITORTONE, tapi/LPLINEMONITORTONE, tapi2.linemonitortone_str"
 ms.topic: struct
+f1_keywords: ["tapi/LINEMONITORTONE"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

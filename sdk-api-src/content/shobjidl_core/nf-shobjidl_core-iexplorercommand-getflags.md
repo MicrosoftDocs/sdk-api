@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ECF_AUTOMENUICONS, ECF_DEFAULT, ECF_HASLUASHIELD, ECF_HASSPLITBUTTON, ECF_HASSUBCOMMANDS, ECF_HIDELABEL, ECF_ISDROPDOWN, ECF_ISSEPARATOR, ECF_SEPARATORAFTER, ECF_SEPARATORBEFORE, ECF_TOGGLEABLE, GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetFlags method, IExplorerCommand.GetFlags, IExplorerCommand::GetFlags, _shell_IExplorerCommand_GetFlags, shell.IExplorerCommand_GetFlags, shobjidl_core/IExplorerCommand::GetFlags
 ms.topic: method
+f1_keywords: ["shobjidl_core/IExplorerCommand.GetFlags"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

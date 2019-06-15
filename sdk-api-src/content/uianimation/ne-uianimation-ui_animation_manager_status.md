@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_MANAGER_BUSY, UI_ANIMATION_MANAGER_IDLE, UI_ANIMATION_MANAGER_STATUS, UI_ANIMATION_MANAGER_STATUS enumeration [Windows Animation], uianimation.ui_animation_manager_status, uianimation/UI_ANIMATION_MANAGER_BUSY, uianimation/UI_ANIMATION_MANAGER_IDLE, uianimation/UI_ANIMATION_MANAGER_STATUS
 ms.topic: enum
+f1_keywords: ["uianimation/UI_ANIMATION_MANAGER_STATUS"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

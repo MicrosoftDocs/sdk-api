@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], IFilterMapper interface [DirectShow],described, IFilterMapperInterface, dshow.ifiltermapper, strmif/IFilterMapper
 ms.topic: interface
+f1_keywords: ["strmif/IFilterMapper"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

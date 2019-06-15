@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWdsTransportServer, GetWdsTransportServer method [Windows Deployment Services], GetWdsTransportServer method [Windows Deployment Services],IWdsTransportManager interface, IWdsTransportManager interface [Windows Deployment Services],GetWdsTransportServer method, IWdsTransportManager.GetWdsTransportServer, IWdsTransportManager::GetWdsTransportServer, wds.iwdstransportmanager_getwdstransportserver, wdstptmgmt/IWdsTransportManager::GetWdsTransportServer
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportManager.GetWdsTransportServer"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

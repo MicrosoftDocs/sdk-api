@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Skip method, IEnumNetworks.Skip, IEnumNetworks::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Skip, nla.ienumnetworks_skip
 ms.topic: method
+f1_keywords: ["netlistmgr/IEnumNetworks.Skip"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

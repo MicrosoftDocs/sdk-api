@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetDelayOffer, DhcpSetSubnetDelayOffer function [DHCP], dhcp.dhcpsetsubnetdelayoffer, dhcpsapi/DhcpSetSubnetDelayOffer
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpSetSubnetDelayOffer"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

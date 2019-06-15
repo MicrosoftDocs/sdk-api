@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_BAT, IDVB_BAT interface [Microsoft TV Technologies], IDVB_BAT interface [Microsoft TV Technologies],described, IDVB_BATInterface, dvbsiparser/IDVB_BAT, mstv.idvb_bat
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IDVB_BAT"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

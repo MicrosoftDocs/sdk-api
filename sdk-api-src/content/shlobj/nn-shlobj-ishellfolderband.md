@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand, IShellFolderBand interface [Windows Shell], IShellFolderBand interface [Windows Shell],described, _win32_IShellFolderBand, shell.IShellFolderBand, shlobj/IShellFolderBand
 ms.topic: interface
+f1_keywords: ["shlobj/IShellFolderBand"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlphaBlend, AlphaBlend function [Windows GDI], _win32_AlphaBlend, gdi.alphablend, wingdi/AlphaBlend
 ms.topic: function
+f1_keywords: ["wingdi/AlphaBlend"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

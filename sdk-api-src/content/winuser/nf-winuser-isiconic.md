@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsIconic, IsIconic function [Windows and Messages], _win32_IsIconic, _win32_isiconic_cpp, winmsg.isiconic, winui._win32_isiconic, winuser/IsIconic
 ms.topic: function
+f1_keywords: ["winuser/IsIconic"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

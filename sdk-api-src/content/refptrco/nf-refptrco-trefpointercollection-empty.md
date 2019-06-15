@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Empty method, TRefPointerCollection.Empty, TRefPointerCollection::Empty, _hmm_trefpointercollection_empty, refptrco/TRefPointerCollection::Empty, wmi.trefpointercollection_empty
 ms.topic: method
+f1_keywords: ["refptrco/TRefPointerCollection.Empty"]
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows

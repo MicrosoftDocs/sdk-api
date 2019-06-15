@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Reset method, IEnumFsiItems.Reset, IEnumFsiItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_reset, imapi2fs/IEnumFsiItems::Reset
 ms.topic: method
+f1_keywords: ["imapi2fs/IEnumFsiItems.Reset"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
 ms.topic: function
+f1_keywords: ["lzexpand/LZCopy"]
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

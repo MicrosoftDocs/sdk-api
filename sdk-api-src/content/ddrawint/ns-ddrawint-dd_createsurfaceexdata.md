@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA structure [Display Devices], d3dstrct_221c1055-03a3-4b43-bef4-8b0fbd6eb45e.xml, ddrawint/DD_CREATESURFACEEXDATA, display.dd_createsurfaceexdata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_CREATESURFACEEXDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

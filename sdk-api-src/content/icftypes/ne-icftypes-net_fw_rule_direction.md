@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_RULE_DIRECTION, NET_FW_RULE_DIRECTION enumeration [ICS/ICF], NET_FW_RULE_DIR_IN, NET_FW_RULE_DIR_MAX, NET_FW_RULE_DIR_OUT, icftypes/NET_FW_RULE_DIRECTION, icftypes/NET_FW_RULE_DIR_IN, icftypes/NET_FW_RULE_DIR_MAX, icftypes/NET_FW_RULE_DIR_OUT, ics.net_fw_rule_direction
 ms.topic: enum
+f1_keywords: ["icftypes/NET_FW_RULE_DIRECTION"]
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

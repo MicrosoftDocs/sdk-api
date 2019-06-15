@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAgent interface [TAPI 2.2],Skip method, IEnumAgent.Skip, IEnumAgent::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_skip, tapi3.ienumagent_skip, tapi3cc/IEnumAgent::Skip
 ms.topic: method
+f1_keywords: ["tapi3/IEnumAgent.Skip"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

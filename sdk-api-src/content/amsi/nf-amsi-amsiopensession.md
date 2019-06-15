@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AmsiOpenSession, AmsiOpenSession function [Antimalware Scan Interface], amsi.amsiopensession, amsi/AmsiOpenSession
 ms.topic: function
+f1_keywords: ["amsi/AmsiOpenSession"]
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

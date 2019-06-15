@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control, IOCTL_DISK_IS_WRITABLE control code [Files], base.ioctl_disk_is_writable, fs.ioctl_disk_is_writable, winioctl/IOCTL_DISK_IS_WRITABLE
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_DISK_IS_WRITABLE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

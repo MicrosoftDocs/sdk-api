@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,described, base.ivdshwproviderstoragepools, vds/IVdsHwProviderStoragePools, vdshwprv/IVdsHwProviderStoragePools
 ms.topic: interface
+f1_keywords: ["vdshwprv/IVdsHwProviderStoragePools"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

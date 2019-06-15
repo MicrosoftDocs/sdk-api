@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove function [RAS], _mpr_mpradmininterfacetransportremove, mprapi/MprAdminInterfaceTransportRemove, rras.mpradmininterfacetransportremove
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminInterfaceTransportRemove"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

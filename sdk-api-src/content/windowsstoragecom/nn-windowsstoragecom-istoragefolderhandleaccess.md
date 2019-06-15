@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorageFolderHandleAccess, IStorageFolderHandleAccess interface [Windows Runtime], IStorageFolderHandleAccess interface [Windows Runtime],described, windowsstoragecom/IStorageFolderHandleAccess, winrt.istoragefolderhandleaccess
 ms.topic: interface
+f1_keywords: ["windowsstoragecom/IStorageFolderHandleAccess"]
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

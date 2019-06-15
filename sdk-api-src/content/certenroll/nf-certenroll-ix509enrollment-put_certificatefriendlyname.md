@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertificateFriendlyName property [Security], CertificateFriendlyName property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CertificateFriendlyName property, IX509Enrollment.CertificateFriendlyName, IX509Enrollment.put_CertificateFriendlyName, IX509Enrollment::CertificateFriendlyName, IX509Enrollment::get_CertificateFriendlyName, IX509Enrollment::put_CertificateFriendlyName, certenroll/IX509Enrollment::CertificateFriendlyName, certenroll/IX509Enrollment::get_CertificateFriendlyName, certenroll/IX509Enrollment::put_CertificateFriendlyName, put_CertificateFriendlyName, security.ix509enrollment_certificatefriendlyname_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509Enrollment.CertificateFriendlyName"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

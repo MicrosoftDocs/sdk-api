@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_CONVOLUTION_DIRECTION, DML_CONVOLUTION_DIRECTION enumeration, DML_CONVOLUTION_DIRECTION_BACKWARD, DML_CONVOLUTION_DIRECTION_FORWARD, direct3d12.dml_convolution_direction, directml/DML_CONVOLUTION_DIRECTION, directml/DML_CONVOLUTION_DIRECTION_BACKWARD, directml/DML_CONVOLUTION_DIRECTION_FORWARD
 ms.topic: enum
+f1_keywords: ["directml/DML_CONVOLUTION_DIRECTION"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

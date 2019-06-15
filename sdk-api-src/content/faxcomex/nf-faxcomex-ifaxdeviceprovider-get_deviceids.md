@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceIds property [Fax Service], DeviceIds property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],DeviceIds property, IFaxDeviceProvider.DeviceIds, IFaxDeviceProvider.get_DeviceIds, IFaxDeviceProvider::DeviceIds, IFaxDeviceProvider::get_DeviceIds, _mfax_faxdeviceprovider.deviceids, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_deviceids_cpp, fax._mfax_faxdeviceprovider_deviceids, faxcomex/IFaxDeviceProvider::DeviceIds, faxcomex/IFaxDeviceProvider::get_DeviceIds, get_DeviceIds
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDeviceProvider.DeviceIds"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

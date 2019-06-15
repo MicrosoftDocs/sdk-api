@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyNameFromToken, GetPackageFamilyNameFromToken function [App packaging and management], appmodel/GetPackageFamilyNameFromToken, appxpkg.getpackagefamilynamefromtoken
 ms.topic: function
+f1_keywords: ["appmodel/GetPackageFamilyNameFromToken"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

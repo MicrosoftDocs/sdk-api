@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters
 ms.topic: interface
+f1_keywords: ["wsdbase/IWSDHttpAuthParameters"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

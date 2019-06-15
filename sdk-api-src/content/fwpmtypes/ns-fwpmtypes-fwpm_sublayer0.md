@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER0, FWPM_SUBLAYER0 structure [Filtering], FWPM_SUBLAYER_FLAG_PERSISTENT, fwp.fwpm_sublayer0_struct, fwpmtypes/FWPM_SUBLAYER0
 ms.topic: struct
+f1_keywords: ["fwpmtypes/FWPM_SUBLAYER0"]
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

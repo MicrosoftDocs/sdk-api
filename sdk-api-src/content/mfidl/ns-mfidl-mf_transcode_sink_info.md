@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Foundation], mf.mf_transcode_sink_info, mfidl/MF_TRANSCODE_SINK_INFO
 ms.topic: struct
+f1_keywords: ["mfidl/MF_TRANSCODE_SINK_INFO"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

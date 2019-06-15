@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linepark, linePark, linePark function [TAPI 2.2], lineParkA, lineParkW, tapi/linePark, tapi/lineParkA, tapi/lineParkW, tapi2.linepark"
 ms.topic: function
+f1_keywords: ["tapi/linePark"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

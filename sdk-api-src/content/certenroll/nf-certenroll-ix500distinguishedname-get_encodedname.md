@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EncodedName property [Security], EncodedName property [Security],IX500DistinguishedName interface, IX500DistinguishedName interface [Security],EncodedName property, IX500DistinguishedName.EncodedName, IX500DistinguishedName.get_EncodedName, IX500DistinguishedName::EncodedName, IX500DistinguishedName::get_EncodedName, certenroll/IX500DistinguishedName::EncodedName, certenroll/IX500DistinguishedName::get_EncodedName, get_EncodedName, security.ix500distinguishedname_encodedname_property
 ms.topic: method
+f1_keywords: ["certenroll/IX500DistinguishedName.EncodedName"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

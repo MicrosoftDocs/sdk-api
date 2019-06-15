@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint8Field, MI_Uint8Field structure [Windows Management Infrastructure (MI)], mi/MI_Uint8Field, wmi._mi_uint8field, wmi_v2.mi_uint8field
 ms.topic: struct
+f1_keywords: ["mi/MI_Uint8Field"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

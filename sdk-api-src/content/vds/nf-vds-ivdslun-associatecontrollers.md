@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AssociateControllers, AssociateControllers method [VDS], AssociateControllers method [VDS],IVdsLun interface, IVdsLun interface [VDS],AssociateControllers method, IVdsLun.AssociateControllers, IVdsLun::AssociateControllers, base.ivdslun_associatecontrollers, vds/IVdsLun::AssociateControllers, vdshwprv/IVdsLun::AssociateControllers
 ms.topic: method
+f1_keywords: ["vds/IVdsLun.AssociateControllers"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

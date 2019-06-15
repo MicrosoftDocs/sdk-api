@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_POPULATION_POLICY_MODIFIER, CF_POPULATION_POLICY_MODIFIER enumeration, CF_POPULATION_POLICY_MODIFIER_NONE, cfapi/CF_POPULATION_POLICY_MODIFIER, cfapi/CF_POPULATION_POLICY_MODIFIER_NONE, cloudApi.cf_population_policy_modifier
 ms.topic: enum
+f1_keywords: ["cfapi/CF_POPULATION_POLICY_MODIFIER"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

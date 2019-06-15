@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO, EVENT_PROPERTY_INFO structure [ETW], etw.event_property_info_struct, tdh.event_property_info_struct, tdh/EVENT_PROPERTY_INFO"
 ms.topic: struct
+f1_keywords: ["tdh/EVENT_PROPERTY_INFO"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

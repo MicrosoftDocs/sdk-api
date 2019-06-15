@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties interface [MMC],Initialize method, ISnapinProperties.Initialize, ISnapinProperties::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],ISnapinProperties interface, _slate_isnapinproperties_initialize, mmc.isnapinproperties_initialize, mmcobj/ISnapinProperties::Initialize
 ms.topic: method
+f1_keywords: ["mmcobj/ISnapinProperties.Initialize"]
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows

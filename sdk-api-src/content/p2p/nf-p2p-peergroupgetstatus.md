@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetStatus, PeerGroupGetStatus function [Peer Networking], p2p.peergroupgetstatus, p2p/PeerGroupGetStatus
 ms.topic: function
+f1_keywords: ["p2p/PeerGroupGetStatus"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

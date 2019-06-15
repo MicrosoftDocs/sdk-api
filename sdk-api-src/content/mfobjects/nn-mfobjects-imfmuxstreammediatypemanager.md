@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMuxStreamMediaTypeManager, IMFMuxStreamMediaTypeManager interface [Media Foundation], IMFMuxStreamMediaTypeManager interface [Media Foundation],described, mf.imfmuxstreammediatypemanager, mfobjects/IMFMuxStreamMediaTypeManager
 ms.topic: interface
+f1_keywords: ["mfobjects/IMFMuxStreamMediaTypeManager"]
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

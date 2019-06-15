@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedIsPassword property [Windows Accessibility], CachedIsPassword property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsPassword property, IUIAutomationElement.CachedIsPassword, IUIAutomationElement.get_CachedIsPassword, IUIAutomationElement::CachedIsPassword, IUIAutomationElement::get_CachedIsPassword, get_CachedIsPassword, uiauto.uiauto_IUIAutomationElement_CachedIsPassword, uiauto_IUIAutomationElement_CachedIsPassword, uiautomationclient/IUIAutomationElement::CachedIsPassword, uiautomationclient/IUIAutomationElement::get_CachedIsPassword, winauto.uiauto_IUIAutomationElement_CachedIsPassword
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedIsPassword"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

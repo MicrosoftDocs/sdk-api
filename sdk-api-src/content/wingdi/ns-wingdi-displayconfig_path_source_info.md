@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_5a87f2c5-d99e-46f6-8a91-61d2d4edfb68.xml, DISPLAYCONFIG_PATH_SOURCE_INFO, DISPLAYCONFIG_PATH_SOURCE_INFO structure [Display Devices], display.displayconfig_path_source_info, wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO
 ms.topic: struct
+f1_keywords: ["wingdi/DISPLAYCONFIG_PATH_SOURCE_INFO"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

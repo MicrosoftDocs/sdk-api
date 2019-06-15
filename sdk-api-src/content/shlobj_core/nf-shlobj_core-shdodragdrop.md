@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHDoDragDrop, SHDoDragDrop function [Windows Shell], _win32_SHDoDragDrop, shell.SHDoDragDrop, shlobj_core/SHDoDragDrop
 ms.topic: function
+f1_keywords: ["shlobj_core/SHDoDragDrop"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

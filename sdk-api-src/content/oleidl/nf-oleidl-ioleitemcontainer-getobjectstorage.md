@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectStorage, GetObjectStorage method [COM], GetObjectStorage method [COM],IOleItemContainer interface, IOleItemContainer interface [COM],GetObjectStorage method, IOleItemContainer.GetObjectStorage, IOleItemContainer::GetObjectStorage, _com_ioleitemcontainer_getobjectstorage, com.ioleitemcontainer_getobjectstorage, oleidl/IOleItemContainer::GetObjectStorage
 ms.topic: method
+f1_keywords: ["oleidl/IOleItemContainer.GetObjectStorage"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

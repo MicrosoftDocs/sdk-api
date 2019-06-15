@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfUIElementMgr, ITfUIElementMgr interface [Text Services Framework], ITfUIElementMgr interface [Text Services Framework],described, _tsf_itfuielementmgr_ref, msctf/ITfUIElementMgr, tsf.itfuielementmgr
 ms.topic: interface
+f1_keywords: ["msctf/ITfUIElementMgr"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

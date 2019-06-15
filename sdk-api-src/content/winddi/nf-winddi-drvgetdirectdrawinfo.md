@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvGetDirectDrawInfo, DrvGetDirectDrawInfo function [Display Devices], ddfncs_bebc9a48-6664-4b23-908f-a4c586e79f63.xml, display.drvgetdirectdrawinfo, winddi/DrvGetDirectDrawInfo
 ms.topic: function
+f1_keywords: ["winddi/DrvGetDirectDrawInfo"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

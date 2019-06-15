@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResetDC, ResetDC function [Windows GDI], ResetDCA, ResetDCW, _win32_ResetDC, gdi.resetdc, wingdi/ResetDC, wingdi/ResetDCA, wingdi/ResetDCW
 ms.topic: function
+f1_keywords: ["wingdi/ResetDC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

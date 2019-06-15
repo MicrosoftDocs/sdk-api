@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr interface [TAPI 2.2],Skip method, IEnumBstr.Skip, IEnumBstr::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumBstr interface, _tapi3_ienumbstr_skip, tapi3.ienumbstr_skip, tapi3if/IEnumBstr::Skip
 ms.topic: method
+f1_keywords: ["tapi3if/IEnumBstr.Skip"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

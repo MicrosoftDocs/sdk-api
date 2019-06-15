@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],IContext interface, IContext interface [COM],GetProperty method, IContext.GetProperty, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
 ms.topic: method
+f1_keywords: ["objidl/IContext.GetProperty"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

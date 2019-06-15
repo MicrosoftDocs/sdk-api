@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorStream, MFCreateSensorStream function [Media Foundation], mf.mfcreatesensorstream, mfidl/MFCreateSensorStream
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateSensorStream"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpCancelMsg, SnmpCancelMsg function [SNMP], _snmp_snmpcancelmsg, snmp.snmpcancelmsg, winsnmp/SnmpCancelMsg
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpCancelMsg"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

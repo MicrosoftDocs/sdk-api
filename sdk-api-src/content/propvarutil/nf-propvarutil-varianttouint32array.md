@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32Array, VariantToUInt32Array function [Windows Properties], _shell_VariantToUInt32Array, properties.VariantToUInt32Array, propvarutil/VariantToUInt32Array, shell.VariantToUInt32Array
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToUInt32Array"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

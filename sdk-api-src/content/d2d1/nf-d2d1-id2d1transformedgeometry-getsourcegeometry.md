@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceGeometry, GetSourceGeometry method [Direct2D], GetSourceGeometry method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetSourceGeometry method, ID2D1TransformedGeometry.GetSourceGeometry, ID2D1TransformedGeometry::GetSourceGeometry, d2d1/ID2D1TransformedGeometry::GetSourceGeometry, direct2d.ID2D1TransformedGeometry_GetSourceGeometry
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1TransformedGeometry.GetSourceGeometry"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

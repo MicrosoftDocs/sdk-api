@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteGdiInterop1, IDWriteGdiInterop1 interface [Direct Write], IDWriteGdiInterop1 interface [Direct Write],described, directwrite.idwritegdiinterop1, dwrite_3/IDWriteGdiInterop1
 ms.topic: interface
+f1_keywords: ["dwrite_3/IDWriteGdiInterop1"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

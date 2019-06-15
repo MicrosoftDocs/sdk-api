@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter
 ms.topic: interface
+f1_keywords: ["dshowasf/IConfigAsfWriter"]
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

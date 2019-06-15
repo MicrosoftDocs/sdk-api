@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDVIDEOPORTDATA, DDVIDEOPORTDATA, DDVIDEOPORTDATA structure [Display Devices], LPDDVIDEOPORTDATA, LPDDVIDEOPORTDATA structure pointer [Display Devices], Video_Structs_2c27c41d-7b5c-4e72-a362-ca2699099ef4.xml, display.ddvideoportdata, dxmini/DDVIDEOPORTDATA, dxmini/LPDDVIDEOPORTDATA"
 ms.topic: struct
+f1_keywords: ["dxmini/DDVIDEOPORTDATA"]
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

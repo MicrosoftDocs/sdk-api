@@ -6,6 +6,7 @@ description: Tests the BoundingOrientedBox for intersection with a BoundingSpher
 ms.date: 04/22/19
 ms.keywords: BoundingOrientedBox::Intersects
 ms.topic: language-reference
+f1_keywords: ["directxcollision/BoundingOrientedBox::Intersects"]
 targetos: Windows
 product: Windows
 req.assembly: 

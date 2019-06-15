@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetErrorLogRead, NetErrorLogRead function [Network Management], _win32_neterrorlogread, lmerrlog/NetErrorLogRead, netmgmt.neterrorlogread
 ms.topic: function
+f1_keywords: ["lmerrlog/NetErrorLogRead"]
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows

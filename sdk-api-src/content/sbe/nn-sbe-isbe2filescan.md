@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2FileScan, ISBE2FileScan interface [Microsoft TV Technologies], ISBE2FileScan interface [Microsoft TV Technologies],described, mstv.isbe2filescan, sbe/ISBE2FileScan
 ms.topic: interface
+f1_keywords: ["sbe/ISBE2FileScan"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

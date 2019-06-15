@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioClockAdjustment, IAudioClockAdjustment interface [Core Audio], IAudioClockAdjustment interface [Core Audio],described, audioclient/IAudioClockAdjustment, coreaudio.iaudioclockadjustment
 ms.topic: interface
+f1_keywords: ["audioclient/IAudioClockAdjustment"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

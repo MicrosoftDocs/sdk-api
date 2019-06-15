@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],VolumeName property, IFsrmPropertyBag.VolumeName, IFsrmPropertyBag.get_VolumeName, IFsrmPropertyBag::VolumeName, IFsrmPropertyBag::get_VolumeName, VolumeName property [File Server Resource Manager], VolumeName property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_volumename, fsrm.ifsrmpropertybag_volumename, fsrmpipeline/IFsrmPropertyBag::VolumeName, fsrmpipeline/IFsrmPropertyBag::get_VolumeName, get_VolumeName
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.VolumeName"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

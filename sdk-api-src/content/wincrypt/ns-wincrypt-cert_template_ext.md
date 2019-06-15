@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_TEMPLATE_EXT, CERT_TEMPLATE_EXT, CERT_TEMPLATE_EXT structure [Security], PCERT_TEMPLATE_EXT, PCERT_TEMPLATE_EXT structure pointer [Security], _crypto2_cert_template_ext, security.cert_template_ext, wincrypt/CERT_TEMPLATE_EXT, wincrypt/PCERT_TEMPLATE_EXT"
 ms.topic: struct
+f1_keywords: ["wincrypt/CERT_TEMPLATE_EXT"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

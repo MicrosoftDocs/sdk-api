@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement3 interface [Windows Accessibility],ShowContextMenu method, IUIAutomationElement3.ShowContextMenu, IUIAutomationElement3::ShowContextMenu, ShowContextMenu, ShowContextMenu method [Windows Accessibility], ShowContextMenu method [Windows Accessibility],IUIAutomationElement3 interface, uiautomationclient/IUIAutomationElement3::ShowContextMenu, winauto.uiauto_IUIAutomationElement3_ShowContextMenu
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement3.ShowContextMenu"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

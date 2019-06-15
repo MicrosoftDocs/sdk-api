@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTVALIDATIONTESTSPARAMS, TTVALIDATIONTESTSPARAMS structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMS, gdi.ttvalidationtestparams, t2embapi/TTVALIDATIONTESTSPARAMS
 ms.topic: struct
+f1_keywords: ["t2embapi/TTVALIDATIONTESTSPARAMS"]
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

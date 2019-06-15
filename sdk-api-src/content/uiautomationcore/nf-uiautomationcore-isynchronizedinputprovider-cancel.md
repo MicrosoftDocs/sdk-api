@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Accessibility], Cancel method [Windows Accessibility],ISynchronizedInputProvider interface, ISynchronizedInputProvider interface [Windows Accessibility],Cancel method, ISynchronizedInputProvider.Cancel, ISynchronizedInputProvider::Cancel, uiauto.uiauto_ISynchronizedInputProvider_Cancel, uiauto_ISynchronizedInputProvider_Cancel, uiautomationcore/ISynchronizedInputProvider::Cancel, winauto.uiauto_ISynchronizedInputProvider_Cancel
 ms.topic: method
+f1_keywords: ["uiautomationcore/ISynchronizedInputProvider.Cancel"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

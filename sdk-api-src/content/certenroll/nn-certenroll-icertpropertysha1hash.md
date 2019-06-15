@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertySHA1Hash, ICertPropertySHA1Hash interface [Security], ICertPropertySHA1Hash interface [Security],described, certenroll/ICertPropertySHA1Hash, security.icertpropertysha1hash
 ms.topic: interface
+f1_keywords: ["certenroll/ICertPropertySHA1Hash"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

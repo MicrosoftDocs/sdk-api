@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SignalPresent method, IBDA_SignalStatistics.put_SignalPresent, IBDA_SignalStatistics::put_SignalPresent, IBDA_SignalStatisticsput_SignalPresent, bdaiface/IBDA_SignalStatistics::put_SignalPresent, mstv.ibda_signalstatistics_put_signalpresent, put_SignalPresent, put_SignalPresent method [Microsoft TV Technologies], put_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_SignalStatistics.put_SignalPresent"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

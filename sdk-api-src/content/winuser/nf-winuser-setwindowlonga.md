@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWL_DLGPROC, DWL_MSGRESULT, DWL_USER, GWL_EXSTYLE, GWL_HINSTANCE, GWL_ID, GWL_STYLE, GWL_USERDATA, GWL_WNDPROC, SetWindowLong, SetWindowLong function [Windows and Messages], SetWindowLongA, SetWindowLongW, _win32_SetWindowLong, _win32_setwindowlong_cpp, winmsg.setwindowlong, winui._win32_setwindowlong, winuser/SetWindowLong, winuser/SetWindowLongA, winuser/SetWindowLongW
 ms.topic: function
+f1_keywords: ["winuser/SetWindowLong"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetClientGuid method, IAttachmentExecute.SetClientGuid, IAttachmentExecute::SetClientGuid, SetClientGuid, SetClientGuid method [Windows Shell], SetClientGuid method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetClientGuid, shell.IAttachmentExecute_SetClientGuid, shobjidl_core/IAttachmentExecute::SetClientGuid
 ms.topic: method
+f1_keywords: ["shobjidl_core/IAttachmentExecute.SetClientGuid"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

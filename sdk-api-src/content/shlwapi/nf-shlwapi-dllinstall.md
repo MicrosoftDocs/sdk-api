@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
 ms.topic: function
+f1_keywords: ["shlwapi/DllInstall"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

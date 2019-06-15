@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_ALIGNMENT, MF_TIMED_TEXT_ALIGNMENT enumeration [Media Foundation], MF_TIMED_TEXT_ALIGNMENT_CENTER, MF_TIMED_TEXT_ALIGNMENT_END, MF_TIMED_TEXT_ALIGNMENT_START, mf.mf_timed_text_alignment, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_CENTER, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_END, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_START
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_TIMED_TEXT_ALIGNMENT"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

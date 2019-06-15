@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RegisterPortType method, IWSDDeviceHost.RegisterPortType, IWSDDeviceHost::RegisterPortType, RegisterPortType, RegisterPortType method, RegisterPortType method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerporttype_method, wsdhost/IWSDDeviceHost::RegisterPortType
 ms.topic: method
+f1_keywords: ["wsdhost/IWSDDeviceHost.RegisterPortType"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

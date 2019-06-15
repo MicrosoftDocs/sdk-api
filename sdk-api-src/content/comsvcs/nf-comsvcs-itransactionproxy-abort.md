@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Abort method, ITransactionProxy.Abort, ITransactionProxy::Abort, comsvcs/ITransactionProxy::Abort, cos.itransactionproxy_abort
 ms.topic: method
+f1_keywords: ["comsvcs/ITransactionProxy.Abort"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterDeviceWithManagementUsingAADCredentials, RegisterDeviceWithManagementUsingAADCredentials function [MDM Registration], mdmreg.registerdevicewithmanagementusingaadcredentials, mdmregistration/RegisterDeviceWithManagementUsingAADCredentials
 ms.topic: function
+f1_keywords: ["mdmregistration/RegisterDeviceWithManagementUsingAADCredentials"]
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

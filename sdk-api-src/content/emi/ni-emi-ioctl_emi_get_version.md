@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_EMI_GET_VERSION, IOCTL_EMI_GET_VERSION control, IOCTL_EMI_GET_VERSION control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_VERSION, powermeter.ioctl_emi_get_version
 ms.topic: ioctl
+f1_keywords: ["emi/IOCTL_EMI_GET_VERSION"]
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows

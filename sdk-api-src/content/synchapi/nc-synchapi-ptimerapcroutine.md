@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTIMERAPCROUTINE, PTIMERAPCROUTINE callback, PTIMERAPCROUTINE callback function, _win32_timerapcproc, base.timerapcproc, synchapi/PTIMERAPCROUTINE
 ms.topic: callback
+f1_keywords: ["synchapi/PTIMERAPCROUTINE"]
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

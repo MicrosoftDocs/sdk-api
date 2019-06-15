@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRoutingInstallationCallback, PFAX_ROUTING_INSTALLATION_CALLBACKW, PFAX_ROUTING_INSTALLATION_CALLBACKW callback, PFAX_ROUTING_INSTALLATION_CALLBACKW callback function [Fax Service], _mfax_faxroutinginstallationcallback, fax._mfax_faxroutinginstallationcallback, winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW
 ms.topic: callback
+f1_keywords: ["winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW"]
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

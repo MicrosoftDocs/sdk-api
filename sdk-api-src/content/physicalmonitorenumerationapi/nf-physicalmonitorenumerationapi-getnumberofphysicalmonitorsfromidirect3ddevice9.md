@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfPhysicalMonitorsFromIDirect3DDevice9, GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 function [Monitor Configuration], monitor.getnumberofphysicalmonitorsfromidirect3ddevice9, physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9
 ms.topic: function
+f1_keywords: ["physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromIDirect3DDevice9"]
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

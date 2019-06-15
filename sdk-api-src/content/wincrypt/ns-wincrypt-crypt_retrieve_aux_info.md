@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_RETRIEVE_AUX_INFO, CRYPT_RETRIEVE_AUX_INFO, CRYPT_RETRIEVE_AUX_INFO structure [Security], PCRYPT_RETRIEVE_AUX_INFO, PCRYPT_RETRIEVE_AUX_INFO structure pointer [Security], _crypto2_crypt_retrieve_aux_info, security.crypt_retrieve_aux_info, wincrypt/CRYPT_RETRIEVE_AUX_INFO, wincrypt/PCRYPT_RETRIEVE_AUX_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CRYPT_RETRIEVE_AUX_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

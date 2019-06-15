@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountOutgoingArchive interface [Fax Service],Refresh method, IFaxAccountOutgoingArchive.Refresh, IFaxAccountOutgoingArchive::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxAccountOutgoingArchive interface, _mfax_faxaccountoutgoingarchive.refresh, fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_refresh_cpp, fax._mfax_faxaccountoutgoingarchive_refresh, faxcomex/IFaxAccountOutgoingArchive::Refresh
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxAccountOutgoingArchive.Refresh"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

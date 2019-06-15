@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Pause method, IMFMediaEngine.Pause, IMFMediaEngine::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_pause, mfmediaengine/IMFMediaEngine::Pause
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.Pause"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

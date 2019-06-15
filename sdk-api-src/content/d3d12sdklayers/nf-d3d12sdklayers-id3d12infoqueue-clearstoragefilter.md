@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearStorageFilter, ClearStorageFilter method, ClearStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearStorageFilter method, ID3D12InfoQueue.ClearStorageFilter, ID3D12InfoQueue::ClearStorageFilter, d3d12sdklayers/ID3D12InfoQueue::ClearStorageFilter, direct3d12.id3d12infoqueue_clearstoragefilter
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.ClearStorageFilter"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

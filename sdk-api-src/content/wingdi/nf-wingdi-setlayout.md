@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LAYOUT_BITMAPORIENTATIONPRESERVED, LAYOUT_RTL, SetLayout, SetLayout function [Windows GDI], _win32_SetLayout, gdi.setlayout, wingdi/SetLayout
 ms.topic: function
+f1_keywords: ["wingdi/SetLayout"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CD3D11_BUFFER_DESC interface [Direct3D 11],~CD3D11_BUFFER_DESC destructor, CD3D11_BUFFER_DESC.~CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC::~CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC::~CD3D11_BUFFER_DESC(), d3d11/CD3D11_BUFFER_DESC::~CD3D11_BUFFER_DESC, direct3d11.cd3d11_buffer_desc__cd3d11_buffer_desc__destructor, ~CD3D11_BUFFER_DESC, ~CD3D11_BUFFER_DESC destructor [Direct3D 11], ~CD3D11_BUFFER_DESC destructor [Direct3D 11],CD3D11_BUFFER_DESC interface
 ms.topic: method
+f1_keywords: ["d3d11/CD3D11_BUFFER_DESC.~CD3D11_BUFFER_DESC"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

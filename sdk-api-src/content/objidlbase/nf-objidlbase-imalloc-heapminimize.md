@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapMinimize, HeapMinimize method [COM], HeapMinimize method [COM],IMalloc interface, IMalloc interface [COM],HeapMinimize method, IMalloc.HeapMinimize, IMalloc::HeapMinimize, _com_imalloc_heapminimize, com.imalloc_heapminimize, objidlbase/IMalloc::HeapMinimize
 ms.topic: method
+f1_keywords: ["objidlbase/IMalloc.HeapMinimize"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

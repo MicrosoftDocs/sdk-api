@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLogMarshallingArea, CreateLogMarshallingArea function [Files], clfsw32/CreateLogMarshallingArea, fs.createlogmarshalingarea, fs.createlogmarshallingarea
 ms.topic: function
+f1_keywords: ["clfsw32/CreateLogMarshallingArea"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

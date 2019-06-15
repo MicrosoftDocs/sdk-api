@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],Commit method, IShellLibrary.Commit, IShellLibrary::Commit, _shell_IShellLibrary_Commit, shell.IShellLibrary_Commit, shobjidl_core/IShellLibrary::Commit
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLibrary.Commit"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

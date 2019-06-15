@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetSigninOptions, PeerCollabGetSigninOptions function [Peer Networking], p2p.peercollabgetsigninoptions, p2p/PeerCollabGetSigninOptions
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabGetSigninOptions"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

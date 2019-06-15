@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient function [Files], clfsmgmtw32/DeregisterManageableLogClient, fs.deregistermanageablelogclient
 ms.topic: function
+f1_keywords: ["clfsmgmtw32/DeregisterManageableLogClient"]
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

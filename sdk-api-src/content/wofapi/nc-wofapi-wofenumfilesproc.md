@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofEnumFilesProc, WofEnumFilesProc callback, WofEnumFilesProc callback function [Files], fs.wofenumfilesproc, wofapi/WofEnumFilesProc
 ms.topic: callback
+f1_keywords: ["wofapi/WofEnumFilesProc"]
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

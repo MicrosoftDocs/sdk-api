@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY, PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY function [Failover Cluster], RemoveClusterGroupSetDependency, RemoveClusterGroupSetDependency function [Failover Cluster], clusapi/PCLUSAPI_REMOVE_CLUSTER_GROUP_GROUPSET_DEPENDENCY, clusapi/RemoveClusterGroupSetDependency, mscs.removeclustergroupcollectiondependency
 ms.topic: function
+f1_keywords: ["clusapi/RemoveClusterGroupSetDependency"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

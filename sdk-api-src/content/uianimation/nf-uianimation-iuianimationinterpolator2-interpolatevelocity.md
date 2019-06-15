@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],InterpolateVelocity method, IUIAnimationInterpolator2.InterpolateVelocity, IUIAnimationInterpolator2::InterpolateVelocity, InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_interpolatevelocity, uianimation/IUIAnimationInterpolator2::InterpolateVelocity
 ms.topic: method
+f1_keywords: ["uianimation/IUIAnimationInterpolator2.InterpolateVelocity"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

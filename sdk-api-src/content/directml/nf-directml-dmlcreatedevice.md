@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DMLCreateDevice, DMLCreateDevice function, direct3d12.dmlcreatedevice, directml/DMLCreateDevice
 ms.topic: function
+f1_keywords: ["directml/DMLCreateDevice"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

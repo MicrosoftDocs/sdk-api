@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorPow, XMVectorPow, XMVectorPow method [DirectX Math Support APIs], dxmath.xmvectorpow
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorPow"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

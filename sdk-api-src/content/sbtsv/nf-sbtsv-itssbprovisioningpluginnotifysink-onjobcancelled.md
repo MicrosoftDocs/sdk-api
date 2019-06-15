@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCancelled method, ITsSbProvisioningPluginNotifySink.OnJobCancelled, ITsSbProvisioningPluginNotifySink::OnJobCancelled, OnJobCancelled, OnJobCancelled method [Remote Desktop Services], OnJobCancelled method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCancelled, termserv.itssbprovisioningpluginnotifysink_onjobcancelled
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbProvisioningPluginNotifySink.OnJobCancelled"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

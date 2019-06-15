@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HrtfOrientation, HrtfOrientation structure [XAudio2 Audio Mixing APIs], PHrtfOrientation, PHrtfOrientation structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfOrientation, hrtfapoapi/PHrtfOrientation, xaudio2.hrtforientation
 ms.topic: struct
+f1_keywords: ["hrtfapoapi/HrtfOrientation"]
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows

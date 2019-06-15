@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteDriveLetter, DeleteDriveLetter method [VDS], DeleteDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],DeleteDriveLetter method, IVdsAdvancedDisk.DeleteDriveLetter, IVdsAdvancedDisk::DeleteDriveLetter, base.ivdsadvanceddisk_deletedriveletter, vds/IVdsAdvancedDisk::DeleteDriveLetter
 ms.topic: method
+f1_keywords: ["vds/IVdsAdvancedDisk.DeleteDriveLetter"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

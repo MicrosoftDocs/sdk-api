@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPFNDFMCALLBACK, LPFNDFMCALLBACK callback, LPFNDFMCALLBACK callback function [Windows Shell], _win32_LPFNDFMCALLBACK, shell.LPFNDFMCALLBACK, shlobj_core/LPFNDFMCALLBACK
 ms.topic: callback
+f1_keywords: ["shlobj_core/LPFNDFMCALLBACK"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

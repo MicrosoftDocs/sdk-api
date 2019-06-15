@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], IMetaDataTables2 interface [Windows Runtime],described, rometadataapi/IMetaDataTables2, winrt.imetadatatables2
 ms.topic: interface
+f1_keywords: ["rometadataapi/IMetaDataTables2"]
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

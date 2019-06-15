@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorYUVToRGB, XMColorYUVToRGB, XMColorYUVToRGB method [DirectX Math Support APIs], dxmath.xmcoloryuvtorgb
 ms.topic: function
+f1_keywords: ["directxmath/XMColorYUVToRGB"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

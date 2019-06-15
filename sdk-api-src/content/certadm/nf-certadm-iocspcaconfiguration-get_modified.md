@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Modified property, IOCSPCAConfiguration.Modified, IOCSPCAConfiguration.get_Modified, IOCSPCAConfiguration::Modified, IOCSPCAConfiguration::get_Modified, Modified property [Security], Modified property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Modified, certadm/IOCSPCAConfiguration::get_Modified, get_Modified, security.iocspcaconfiguration_modified_method
 ms.topic: method
+f1_keywords: ["certadm/IOCSPCAConfiguration.Modified"]
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

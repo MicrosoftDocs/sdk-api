@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxDestroyCaret method, ITextHost2.TxDestroyCaret, ITextHost2::TxDestroyCaret, TxDestroyCaret, TxDestroyCaret method [Windows Controls], TxDestroyCaret method [Windows Controls],ITextHost2 interface, controls.itexthost2_txdestroycaret, textserv/ITextHost2::TxDestroyCaret
 ms.topic: method
+f1_keywords: ["textserv/ITextHost2.TxDestroyCaret"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

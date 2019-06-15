@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnViewportUpdated method, IDirectManipulationViewportEventHandler.OnViewportUpdated, IDirectManipulationViewportEventHandler::OnViewportUpdated, OnViewportUpdated, OnViewportUpdated method [Direct Manipulation], OnViewportUpdated method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_onviewportupdated, directmanipulation/IDirectManipulationViewportEventHandler::OnViewportUpdated
 ms.topic: method
+f1_keywords: ["directmanipulation/IDirectManipulationViewportEventHandler.OnViewportUpdated"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

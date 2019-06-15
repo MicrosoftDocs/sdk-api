@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],PromptUser method, IWbemObjectSinkEx.PromptUser, IWbemObjectSinkEx::PromptUser, PromptUser, PromptUser method [Windows Management Instrumentation], PromptUser method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::PromptUser, wmi.iwbemobjectsinkex_promptuser
 ms.topic: method
+f1_keywords: ["wbemcli/IWbemObjectSinkEx.PromptUser"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

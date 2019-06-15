@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface,described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
 ms.topic: interface
+f1_keywords: ["xamlom/IXamlDiagnostics"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

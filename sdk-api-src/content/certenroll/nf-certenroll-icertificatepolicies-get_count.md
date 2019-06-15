@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Count property, ICertificatePolicies.Count, ICertificatePolicies.get_Count, ICertificatePolicies::Count, ICertificatePolicies::get_Count, certenroll/ICertificatePolicies::Count, certenroll/ICertificatePolicies::get_Count, get_Count, security.icertificatepolicies_count_property
 ms.topic: method
+f1_keywords: ["certenroll/ICertificatePolicies.Count"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

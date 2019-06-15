@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Gender, Gender enumeration [Windows Address Book], _wab_gender, genderFemale, genderMale, genderUnspecified, wab._wab_gender, wabtags/Gender, wabtags/genderFemale, wabtags/genderMale, wabtags/genderUnspecified
 ms.topic: enum
+f1_keywords: ["wabtags/Gender"]
 req.header: wabtags.h
 req.include-header: 
 req.target-type: Windows

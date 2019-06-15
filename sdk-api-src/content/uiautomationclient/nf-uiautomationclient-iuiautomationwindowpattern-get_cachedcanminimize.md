@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCanMinimize property [Windows Accessibility], CachedCanMinimize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMinimize property, IUIAutomationWindowPattern.CachedCanMinimize, IUIAutomationWindowPattern.get_CachedCanMinimize, IUIAutomationWindowPattern::CachedCanMinimize, IUIAutomationWindowPattern::get_CachedCanMinimize, get_CachedCanMinimize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMinimize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationWindowPattern.CachedCanMinimize"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

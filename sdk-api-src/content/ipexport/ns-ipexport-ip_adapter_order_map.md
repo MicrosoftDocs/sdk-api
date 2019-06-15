@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP structure [IP Helper], PIP_ADAPTER_ORDER_MAP, PIP_ADAPTER_ORDER_MAP structure pointer [IP Helper], ipexport/IP_ADAPTER_ORDER_MAP, ipexport/PIP_ADAPTER_ORDER_MAP, iphlp.ip_adapter_order_map"
 ms.topic: struct
+f1_keywords: ["ipexport/IP_ADAPTER_ORDER_MAP"]
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

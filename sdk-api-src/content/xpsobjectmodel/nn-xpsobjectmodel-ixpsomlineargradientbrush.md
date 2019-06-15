@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMLinearGradientBrush, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging], IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],described, xps.ixpsomlineargradientbrush, xpsobjectmodel/IXpsOMLinearGradientBrush
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMLinearGradientBrush"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

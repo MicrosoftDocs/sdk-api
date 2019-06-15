@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeInstanceFindClose, FilterVolumeInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_5cdcef76-2a6d-4d64-9af6-09b050073573.xml, fltuser/FilterVolumeInstanceFindClose, ifsk.filtervolumeinstancefindclose
 ms.topic: function
+f1_keywords: ["fltuser/FilterVolumeInstanceFindClose"]
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

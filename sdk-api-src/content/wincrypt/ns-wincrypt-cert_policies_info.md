@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_POLICIES_INFO, CERT_POLICIES_INFO, CERT_POLICIES_INFO structure [Security], PCERT_POLICIES_INFO, PCERT_POLICIES_INFO structure pointer [Security], _crypto2_cert_policies_info, security.cert_policies_info, wincrypt/CERT_POLICIES_INFO, wincrypt/PCERT_POLICIES_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CERT_POLICIES_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

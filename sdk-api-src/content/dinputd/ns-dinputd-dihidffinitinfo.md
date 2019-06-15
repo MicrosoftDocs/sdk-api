@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIHIDFFINITINFO, DIHIDFFINITINFO, DIHIDFFINITINFO structure [Human Input Devices], di_ref_2ed2499d-7d1f-4247-be74-ea356144df44.xml, dinputd/DIHIDFFINITINFO, hid.dihidffinitinfo"
 ms.topic: struct
+f1_keywords: ["dinputd/DIHIDFFINITINFO"]
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

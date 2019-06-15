@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BatteryClassStatusNotify, BatteryClassStatusNotify function [Battery Devices], bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml, batclass/BatteryClassStatusNotify, battery.batteryclassstatusnotify
 ms.topic: function
+f1_keywords: ["batclass/BatteryClassStatusNotify"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

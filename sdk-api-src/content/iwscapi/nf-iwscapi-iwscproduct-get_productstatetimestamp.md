@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWscProduct interface [Windows API],get_ProductStateTimeStamp method, IWscProduct.get_ProductStateTimestamp, IWscProduct::get_ProductStateTimeStamp, IWscProduct::get_ProductStateTimestamp, get_ProductStateTimeStamp, get_ProductStateTimeStamp method [Windows API], get_ProductStateTimeStamp method [Windows API],IWscProduct interface, get_ProductStateTimestamp, iwscapi/IWscProduct::get_ProductStateTimeStamp, winprog.iwscproduct_producttimestamp
 ms.topic: method
+f1_keywords: ["iwscapi/IWscProduct.get_ProductStateTimeStamp"]
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

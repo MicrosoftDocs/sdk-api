@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectionRecoveryBehaviorOptions, ConnectionRecoveryBehaviorOptions enumeration [Windows Accessibility], ConnectionRecoveryBehaviorOptions_Disabled, ConnectionRecoveryBehaviorOptions_Enabled, uiautomationclient/ConnectionRecoveryBehaviorOptions, uiautomationclient/ConnectionRecoveryBehaviorOptions_Disabled, uiautomationclient/ConnectionRecoveryBehaviorOptions_Enabled, winauto.uiauto_connectionrecoverybehavioroptions
 ms.topic: enum
+f1_keywords: ["uiautomationclient/ConnectionRecoveryBehaviorOptions"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

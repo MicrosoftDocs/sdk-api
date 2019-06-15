@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerUnsubscribeChanges0, FwpmSubLayerUnsubscribeChanges0 function [Filtering], fwp.fwpmsublayerunsubscribechanges0_func, fwpmu/FwpmSubLayerUnsubscribeChanges0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmSubLayerUnsubscribeChanges0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

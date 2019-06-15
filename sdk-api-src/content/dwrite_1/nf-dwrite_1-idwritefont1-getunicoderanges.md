@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFont1 interface, IDWriteFont1 interface [Direct Write],GetUnicodeRanges method, IDWriteFont1.GetUnicodeRanges, IDWriteFont1::GetUnicodeRanges, directwrite.idwritefont1_getunicoderanges, dwrite_1/IDWriteFont1::GetUnicodeRanges
 ms.topic: method
+f1_keywords: ["dwrite_1/IDWriteFont1.GetUnicodeRanges"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

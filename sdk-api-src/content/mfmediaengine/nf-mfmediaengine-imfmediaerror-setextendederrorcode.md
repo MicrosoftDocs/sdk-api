@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaError interface [Media Foundation],SetExtendedErrorCode method, IMFMediaError.SetExtendedErrorCode, IMFMediaError::SetExtendedErrorCode, SetExtendedErrorCode, SetExtendedErrorCode method [Media Foundation], SetExtendedErrorCode method [Media Foundation],IMFMediaError interface, mf.imfmediaerror_setextendederrorcode, mfmediaengine/IMFMediaError::SetExtendedErrorCode
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaError.SetExtendedErrorCode"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

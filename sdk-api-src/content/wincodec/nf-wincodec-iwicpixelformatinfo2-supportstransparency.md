@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPixelFormatInfo2 interface [Windows Imaging Component],SupportsTransparency method, IWICPixelFormatInfo2.SupportsTransparency, IWICPixelFormatInfo2::SupportsTransparency, SupportsTransparency, SupportsTransparency method [Windows Imaging Component], SupportsTransparency method [Windows Imaging Component],IWICPixelFormatInfo2 interface, _wic_codec_iwicpixelformatinfo2_supportstransparency, wic._wic_codec_iwicpixelformatinfo2_supportstransparency, wincodec/IWICPixelFormatInfo2::SupportsTransparency
 ms.topic: method
+f1_keywords: ["wincodec/IWICPixelFormatInfo2.SupportsTransparency"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

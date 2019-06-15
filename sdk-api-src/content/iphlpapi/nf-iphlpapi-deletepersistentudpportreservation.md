@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeletePersistentUdpPortReservation, DeletePersistentUdpPortReservation function [IP Helper], iphlp.deletepersistentudpportreservation, iphlpapi/DeletePersistentUdpPortReservation
 ms.topic: function
+f1_keywords: ["iphlpapi/DeletePersistentUdpPortReservation"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

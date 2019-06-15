@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents, IEnumSyncMgrEvents interface [Windows Shell], IEnumSyncMgrEvents interface [Windows Shell],described, _shell_IEnumSyncMgrEvents, shell.IEnumSyncMgrEvents, syncmgr/IEnumSyncMgrEvents
 ms.topic: interface
+f1_keywords: ["syncmgr/IEnumSyncMgrEvents"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

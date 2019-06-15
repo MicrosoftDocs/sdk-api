@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI8FromStr, VarUI8FromStr function [Automation], _oa96_VarUI8FromStr, automat.varui8fromstr, oleauto/VarUI8FromStr
 ms.topic: function
+f1_keywords: ["oleauto/VarUI8FromStr"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImpersonateNamedPipeClient, ImpersonateNamedPipeClient function [Security], _win32_impersonatenamedpipeclient, namedpipeapi/ImpersonateNamedPipeClient, security.impersonatenamedpipeclient
 ms.topic: function
+f1_keywords: ["namedpipeapi/ImpersonateNamedPipeClient"]
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

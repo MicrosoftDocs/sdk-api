@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Destroy, ImageList_Destroy function [Windows Controls], _win32_ImageList_Destroy, _win32_ImageList_Destroy_cpp, commctrl/ImageList_Destroy, controls.ImageList_Destroy, controls._win32_ImageList_Destroy
 ms.topic: function
+f1_keywords: ["commctrl/ImageList_Destroy"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CD3D11_VIEWPORT interface [Direct3D 11],operator const D3D11_VIEWPORT& method, CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&, CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&, CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&(), d3d11/CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&, direct3d11.cd3d11_viewport_d3d11_viewport__, operator const D3D11_VIEWPORT&, operator const D3D11_VIEWPORT& method [Direct3D 11], operator const D3D11_VIEWPORT& method [Direct3D 11],CD3D11_VIEWPORT interface
 ms.topic: method
+f1_keywords: ["d3d11/CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

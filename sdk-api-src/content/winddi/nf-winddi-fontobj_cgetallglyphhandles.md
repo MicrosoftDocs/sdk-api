@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_cGetAllGlyphHandles, FONTOBJ_cGetAllGlyphHandles function [Display Devices], display.fontobj_cgetallglyphhandles, gdifncs_b082dddb-7eb3-4676-a05b-8eb731d96fc4.xml, winddi/FONTOBJ_cGetAllGlyphHandles
 ms.topic: function
+f1_keywords: ["winddi/FONTOBJ_cGetAllGlyphHandles"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

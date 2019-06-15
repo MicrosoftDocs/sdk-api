@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey, IX509AttributeArchiveKey interface [Security], IX509AttributeArchiveKey interface [Security],described, certenroll/IX509AttributeArchiveKey, security.ix509attributearchivekey
 ms.topic: interface
+f1_keywords: ["certenroll/IX509AttributeArchiveKey"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

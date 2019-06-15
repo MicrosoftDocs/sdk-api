@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqScheduleWorkItem, RtwqScheduleWorkItem function, base.rtwqscheduleworkitem, rtworkq/RtwqScheduleWorkItem
 ms.topic: function
+f1_keywords: ["rtworkq/RtwqScheduleWorkItem"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

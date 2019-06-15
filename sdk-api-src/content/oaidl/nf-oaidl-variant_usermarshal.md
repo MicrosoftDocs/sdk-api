@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserMarshal, VARIANT_UserMarshal function [Automation], _oa96_VARIANT_UserMarshal, automat.variant_usermarshal, oaidl/VARIANT_UserMarshal
 ms.topic: function
+f1_keywords: ["oaidl/VARIANT_UserMarshal"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

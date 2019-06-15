@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpCheckPlatform"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

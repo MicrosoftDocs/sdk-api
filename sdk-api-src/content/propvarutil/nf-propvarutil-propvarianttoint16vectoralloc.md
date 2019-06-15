@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16VectorAlloc, PropVariantToInt16VectorAlloc function [Windows Properties], _shell_PropVariantToInt16VectorAlloc, properties.PropVariantToInt16VectorAlloc, propvarutil/PropVariantToInt16VectorAlloc, shell.PropVariantToInt16VectorAlloc
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToInt16VectorAlloc"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

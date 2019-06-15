@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkInitSettings, WlanHostedNetworkInitSettings function [NativeWIFI], nwifi.wlanhostednetworkinitsettings, wlanapi/WlanHostedNetworkInitSettings
 ms.topic: function
+f1_keywords: ["wlanapi/WlanHostedNetworkInitSettings"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

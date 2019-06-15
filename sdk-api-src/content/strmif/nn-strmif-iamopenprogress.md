@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
 ms.topic: interface
+f1_keywords: ["strmif/IAMOpenProgress"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

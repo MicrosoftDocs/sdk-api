@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIN_INFO, PIN_INFO structure [DirectShow], PIN_INFOStructure, dshow.pin_info, strmif/PIN_INFO
 ms.topic: struct
+f1_keywords: ["strmif/PIN_INFO"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

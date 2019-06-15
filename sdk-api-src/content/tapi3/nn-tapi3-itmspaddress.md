@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMSPAddress, ITMSPAddress interface [TAPI 2.2], ITMSPAddress interface [TAPI 2.2],described, _tapi3_itmspaddress, msp/ITMSPAddress, tapi3.itmspaddress
 ms.topic: interface
+f1_keywords: ["tapi3/ITMSPAddress"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

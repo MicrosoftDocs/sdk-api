@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], IAccessibleWindowlessSite interface [Windows Accessibility],described, oleacc/IAccessibleWindowlessSite, winauto.uiauto_IAccessibleWindowlessSite
 ms.topic: interface
+f1_keywords: ["oleacc/IAccessibleWindowlessSite"]
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

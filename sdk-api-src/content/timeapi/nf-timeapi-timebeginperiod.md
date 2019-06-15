@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_timeBeginPeriod, mmsystem/timeBeginPeriod, multimedia.timebeginperiod, timeBeginPeriod, timeBeginPeriod function [Windows Multimedia], timeapi/timeBeginPeriod"
 ms.topic: function
+f1_keywords: ["timeapi/timeBeginPeriod"]
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_SpectralInversion method, IDVBSTuningSpace.put_SpectralInversion, IDVBSTuningSpace::put_SpectralInversion, IDVBSTuningSpaceput_SpectralInversion, mstv.idvbstuningspace_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_SpectralInversion
 ms.topic: method
+f1_keywords: ["tuner/IDVBSTuningSpace.put_SpectralInversion"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

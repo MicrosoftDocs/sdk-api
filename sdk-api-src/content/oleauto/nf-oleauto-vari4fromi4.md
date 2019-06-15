@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarI4FromI4, VarI4FromInt, VarI4FromInt function [Automation], _oa96_VarI4FromInt, automat.vari4fromint, oleauto/VarI4FromInt
 ms.topic: macro
+f1_keywords: ["oleauto/VarI4FromInt"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

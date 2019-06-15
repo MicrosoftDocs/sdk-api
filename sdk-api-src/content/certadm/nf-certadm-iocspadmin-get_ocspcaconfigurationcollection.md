@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPAdmin interface [Security],OCSPCAConfigurationCollection property, IOCSPAdmin.OCSPCAConfigurationCollection, IOCSPAdmin.get_OCSPCAConfigurationCollection, IOCSPAdmin::OCSPCAConfigurationCollection, IOCSPAdmin::get_OCSPCAConfigurationCollection, OCSPCAConfigurationCollection property [Security], OCSPCAConfigurationCollection property [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::OCSPCAConfigurationCollection, certadm/IOCSPAdmin::get_OCSPCAConfigurationCollection, get_OCSPCAConfigurationCollection, security.iocspadmin_ocspcaconfigurationcollection_method
 ms.topic: method
+f1_keywords: ["certadm/IOCSPAdmin.OCSPCAConfigurationCollection"]
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

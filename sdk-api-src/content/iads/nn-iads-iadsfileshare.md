@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsFileShare, IADsFileShare interface [ADSI], IADsFileShare interface [ADSI],described, _ds_iadsfileshare, adsi.iadsfileshare, iads/IADsFileShare
 ms.topic: interface
+f1_keywords: ["iads/IADsFileShare"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

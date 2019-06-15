@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetResourceManagerCompletionPort, SetResourceManagerCompletionPort function [Files], fs.setresourcemanagercompletionport, ktmw32/SetResourceManagerCompletionPort
 ms.topic: function
+f1_keywords: ["ktmw32/SetResourceManagerCompletionPort"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

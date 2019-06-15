@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PROI_AREA, PROI_AREA, PROI_AREA structure pointer [Media Foundation], ROI_AREA, ROI_AREA structure [Media Foundation], mf.roi_area, mfapi/PROI_AREA, mfapi/ROI_AREA"
 ms.topic: struct
+f1_keywords: ["mfapi/ROI_AREA"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

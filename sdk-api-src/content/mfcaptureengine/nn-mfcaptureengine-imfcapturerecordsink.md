@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureRecordSink, IMFCaptureRecordSink interface [Media Foundation], IMFCaptureRecordSink interface [Media Foundation],described, mf.imfcapturerecordsink, mfcaptureengine/IMFCaptureRecordSink
 ms.topic: interface
+f1_keywords: ["mfcaptureengine/IMFCaptureRecordSink"]
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

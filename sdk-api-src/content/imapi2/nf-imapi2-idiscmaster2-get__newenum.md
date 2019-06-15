@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster2 interface [IMAPI],get__NewEnum method, IDiscMaster2.get__NewEnum, IDiscMaster2::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IDiscMaster2 interface, imapi.idiscmaster2_get__newenum, imapi2/IDiscMaster2::get__NewEnum
 ms.topic: method
+f1_keywords: ["imapi2/IDiscMaster2.get__NewEnum"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

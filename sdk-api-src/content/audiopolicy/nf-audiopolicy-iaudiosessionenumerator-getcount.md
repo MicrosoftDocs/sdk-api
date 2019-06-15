@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioSessionEnumerator interface, IAudioSessionEnumerator interface [Core Audio],GetCount method, IAudioSessionEnumerator.GetCount, IAudioSessionEnumerator::GetCount, audiopolicy/IAudioSessionEnumerator::GetCount, coreaudio.iaudiosessionenumerator_getcount
 ms.topic: method
+f1_keywords: ["audiopolicy/IAudioSessionEnumerator.GetCount"]
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

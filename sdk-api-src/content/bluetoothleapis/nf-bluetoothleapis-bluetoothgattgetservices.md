@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetServices, BluetoothGATTGetServices function [Bluetooth Devices], bltooth.bluetoothgattgetservices, bluetoothleapis/BluetoothGATTGetServices
 ms.topic: function
+f1_keywords: ["bluetoothleapis/BluetoothGATTGetServices"]
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

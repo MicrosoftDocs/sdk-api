@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAgent interface [TAPI 2.2],put_State method, ITAgent.put_State, ITAgent::put_State, _tapi3_itagent_put_state, put_State, put_State method [TAPI 2.2], put_State method [TAPI 2.2],ITAgent interface, tapi3.itagent_put_state, tapi3cc/ITAgent::put_State
 ms.topic: method
+f1_keywords: ["tapi3cc/ITAgent.put_State"]
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSStopTrackingClient, QOSStopTrackingClient function [QOS], qos.qosstoptrackingclient, qos2/QOSStopTrackingClient
 ms.topic: function
+f1_keywords: ["qos2/QOSStopTrackingClient"]
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

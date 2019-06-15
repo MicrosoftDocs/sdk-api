@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsProcessInJob, IsProcessInJob function, _win32_isprocessinjob, base.isprocessinjob, jobapi/IsProcessInJob, winbase/IsProcessInJob
 ms.topic: function
+f1_keywords: ["jobapi/IsProcessInJob"]
 req.header: jobapi.h
 req.include-header: 
 req.target-type: Windows

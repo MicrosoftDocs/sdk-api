@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Int64ShraMod32, Int64ShraMod32 macro [Windows API], _win32_int64shramod32, winnt/Int64ShraMod32, winprog.int64shramod32
 ms.topic: macro
+f1_keywords: ["winnt/Int64ShraMod32"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

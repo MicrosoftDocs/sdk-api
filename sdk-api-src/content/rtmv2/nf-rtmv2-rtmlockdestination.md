@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmLockDestination, RtmLockDestination function [RAS], _rtmv2ref_rtmlockdestination, rras.rtmlockdestination, rtmv2/RtmLockDestination
 ms.topic: function
+f1_keywords: ["rtmv2/RtmLockDestination"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

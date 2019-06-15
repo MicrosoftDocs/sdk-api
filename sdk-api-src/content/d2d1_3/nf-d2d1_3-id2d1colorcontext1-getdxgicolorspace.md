@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDXGIColorSpace, GetDXGIColorSpace method [Direct2D], GetDXGIColorSpace method [Direct2D],ID2D1ColorContext1 interface, ID2D1ColorContext1 interface [Direct2D],GetDXGIColorSpace method, ID2D1ColorContext1.GetDXGIColorSpace, ID2D1ColorContext1::GetDXGIColorSpace, d2d1_3/ID2D1ColorContext1::GetDXGIColorSpace, direct2d.id2d1colorcontext1_getdxgicolorspace
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1ColorContext1.GetDXGIColorSpace"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWMFLIP3DWINDOWPOLICY, DWMFLIP3DWINDOWPOLICY enumeration [Desktop Window Manager], DWMFLIP3D_DEFAULT, DWMFLIP3D_EXCLUDEABOVE, DWMFLIP3D_EXCLUDEBELOW, DWMFLIP3D_LAST, _udwm_dwmflip3dwindowpolicy, _udwm_dwmflip3dwindowpolicy_cpp, dwm.dwmflip3dwindowpolicy, dwmapi/DWMFLIP3DWINDOWPOLICY, dwmapi/DWMFLIP3D_DEFAULT, dwmapi/DWMFLIP3D_EXCLUDEABOVE, dwmapi/DWMFLIP3D_EXCLUDEBELOW, dwmapi/DWMFLIP3D_LAST, winui._udwm_dwmflip3dwindowpolicy
 ms.topic: enum
+f1_keywords: ["dwmapi/DWMFLIP3DWINDOWPOLICY"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

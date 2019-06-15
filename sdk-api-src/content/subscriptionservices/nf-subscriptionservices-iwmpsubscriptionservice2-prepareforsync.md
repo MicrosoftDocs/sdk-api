@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],prepareForSync method, IWMPSubscriptionService2.prepareForSync, IWMPSubscriptionService2::prepareForSync, IWMPSubscriptionService2prepareForSync, prepareForSync, prepareForSync method [Windows Media Player], prepareForSync method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::prepareForSync, wmp.iwmpsubscriptionservice2_prepareforsync
 ms.topic: method
+f1_keywords: ["subscriptionservices/IWMPSubscriptionService2.prepareForSync"]
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

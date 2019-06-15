@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISystemMediaTransportControlsInterop, ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,described, mediatransport.isystemmediatransportcontrolsinterop, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop
 ms.topic: interface
+f1_keywords: ["systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop"]
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
 req.target-type: Windows

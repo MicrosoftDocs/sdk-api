@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
 ms.topic: interface
+f1_keywords: ["wuapi/IInstallationAgent"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

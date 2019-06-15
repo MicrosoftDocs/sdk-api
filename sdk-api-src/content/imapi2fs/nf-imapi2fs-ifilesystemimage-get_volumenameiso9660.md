@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameISO9660 method, IFileSystemImage.get_VolumeNameISO9660, IFileSystemImage::get_VolumeNameISO9660, get_VolumeNameISO9660, get_VolumeNameISO9660 method [IMAPI], get_VolumeNameISO9660 method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenameiso9660, imapi2fs/IFileSystemImage::get_VolumeNameISO9660
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.get_VolumeNameISO9660"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

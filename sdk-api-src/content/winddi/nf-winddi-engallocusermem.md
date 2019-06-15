@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngAllocUserMem, EngAllocUserMem function [Display Devices], display.engallocusermem, gdifncs_fb95fed4-9948-4bc1-8917-8757ebe29442.xml, winddi/EngAllocUserMem
 ms.topic: macro
+f1_keywords: ["winddi/EngAllocUserMem"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

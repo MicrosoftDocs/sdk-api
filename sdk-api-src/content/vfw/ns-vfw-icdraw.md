@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDRAW, ICDRAW structure [Windows Multimedia], ICDRAW_HURRYUP, ICDRAW_NOTKEYFRAME, ICDRAW_NULLFRAME, ICDRAW_PREROLL, ICDRAW_UPDATE, multimedia.icdraw_COLLISION9, multimedia.icdraw_struct, vfw/ICDRAW
 ms.topic: struct
+f1_keywords: ["vfw/ICDRAW"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

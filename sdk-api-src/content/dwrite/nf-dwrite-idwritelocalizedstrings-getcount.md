@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Direct Write], GetCount method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetCount method, IDWriteLocalizedStrings.GetCount, IDWriteLocalizedStrings::GetCount, directwrite.IDWriteLocalizedStrings_GetCount, dwrite/IDWriteLocalizedStrings::GetCount
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteLocalizedStrings.GetCount"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

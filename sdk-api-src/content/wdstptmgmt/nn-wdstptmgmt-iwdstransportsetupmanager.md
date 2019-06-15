@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], IWdsTransportSetupManager interface [Windows Deployment Services],described, wds.iwdstransportsetupmanager, wdstptmgmt/IWdsTransportSetupManager
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

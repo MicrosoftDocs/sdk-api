@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecDospStateEnum0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], ISendMethodEvents interface [COM+],described, _cos_ISendMethodEvents, comsvcs/ISendMethodEvents, cos.isendmethodevents
 ms.topic: interface
+f1_keywords: ["comsvcs/ISendMethodEvents"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

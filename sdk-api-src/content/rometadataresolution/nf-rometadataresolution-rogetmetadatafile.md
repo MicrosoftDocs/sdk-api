@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
 ms.topic: function
+f1_keywords: ["rometadataresolution/RoGetMetaDataFile"]
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows

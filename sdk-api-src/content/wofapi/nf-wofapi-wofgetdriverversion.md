@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofGetDriverVersion, WofGetDriverVersion function [Files], fs.wofgetdriverversion, wofapi/WofGetDriverVersion
 ms.topic: function
+f1_keywords: ["wofapi/WofGetDriverVersion"]
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

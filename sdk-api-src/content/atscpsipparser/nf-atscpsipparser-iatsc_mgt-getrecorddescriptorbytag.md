@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IATSC_MGT.GetRecordDescriptorByTag, IATSC_MGT::GetRecordDescriptorByTag, IATSC_MGTGetRecordDescriptorByTag, atscpsipparser/IATSC_MGT::GetRecordDescriptorByTag, mstv.iatsc_mgt_getrecorddescriptorbytag
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_MGT.GetRecordDescriptorByTag"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

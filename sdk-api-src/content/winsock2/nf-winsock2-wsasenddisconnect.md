@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASendDisconnect, WSASendDisconnect function [Winsock], _win32_wsasenddisconnect_2, winsock.wsasenddisconnect_2, winsock2/WSASendDisconnect
 ms.topic: function
+f1_keywords: ["winsock2/WSASendDisconnect"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

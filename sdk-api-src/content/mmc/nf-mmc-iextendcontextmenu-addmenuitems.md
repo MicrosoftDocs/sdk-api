@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddMenuItems, AddMenuItems method [MMC], AddMenuItems method [MMC],IExtendContextMenu interface, CCM_INSERTIONALLOWED_NEW, CCM_INSERTIONALLOWED_TASK, CCM_INSERTIONALLOWED_TOP, CCM_INSERTIONALLOWED_VIEW, IExtendContextMenu interface [MMC],AddMenuItems method, IExtendContextMenu.AddMenuItems, IExtendContextMenu::AddMenuItems, _slate_iextendcontextmenu_addmenuitems, mmc.iextendcontextmenu_addmenuitems, mmc/IExtendContextMenu::AddMenuItems
 ms.topic: method
+f1_keywords: ["mmc/IExtendContextMenu.AddMenuItems"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

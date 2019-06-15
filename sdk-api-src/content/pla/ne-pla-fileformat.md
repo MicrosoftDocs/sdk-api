@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileFormat, FileFormat enumeration [PLA], base.fileformat, pla.fileformat, pla/FileFormat, pla/plaBinary, pla/plaCommaSeparated, pla/plaSql, pla/plaTabSeparated, plaBinary, plaCommaSeparated, plaSql, plaTabSeparated
 ms.topic: enum
+f1_keywords: ["pla/FileFormat"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

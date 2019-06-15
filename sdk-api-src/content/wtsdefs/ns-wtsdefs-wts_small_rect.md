@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_SMALL_RECT, PWRDS_SMALL_RECT, PWRDS_SMALL_RECT structure pointer [Remote Desktop Services], PWTS_SMALL_RECT, PWTS_SMALL_RECT structure pointer [Remote Desktop Services], WRDS_SMALL_RECT, WRDS_SMALL_RECT structure [Remote Desktop Services], WTS_SMALL_RECT, WTS_SMALL_RECT structure [Remote Desktop Services], termserv.wts_small_rect, wtsdefs/PWRDS_SMALL_RECT, wtsdefs/PWTS_SMALL_RECT, wtsdefs/WRDS_SMALL_RECT, wtsdefs/WTS_SMALL_RECT"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_SMALL_RECT"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

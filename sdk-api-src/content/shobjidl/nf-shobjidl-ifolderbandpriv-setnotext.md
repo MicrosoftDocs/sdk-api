@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetNoText method, IFolderBandPriv.SetNoText, IFolderBandPriv::SetNoText, SetNoText, SetNoText method [Windows Shell], SetNoText method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetNoText, shell.IFolderBandPriv_SetNoText, shobjidl/IFolderBandPriv::SetNoText
 ms.topic: method
+f1_keywords: ["shobjidl/IFolderBandPriv.SetNoText"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

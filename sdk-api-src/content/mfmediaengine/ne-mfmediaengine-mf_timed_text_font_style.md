@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_FONT_STYLE, MF_TIMED_TEXT_FONT_STYLE enumeration [Media Foundation], MF_TIMED_TEXT_FONT_STYLE_ITALIC, MF_TIMED_TEXT_FONT_STYLE_NORMAL, MF_TIMED_TEXT_FONT_STYLE_OBLIQUE, mf.mf_timed_text_font_style, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_ITALIC, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_NORMAL, mfmediaengine/MF_TIMED_TEXT_FONT_STYLE_OBLIQUE
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_TIMED_TEXT_FONT_STYLE"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

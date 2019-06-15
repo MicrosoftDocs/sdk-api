@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteIpForwardEntry2, DeleteIpForwardEntry2 function [IP Helper], iphlp.deleteipforwardentry2, netioapi/DeleteIpForwardEntry2
 ms.topic: function
+f1_keywords: ["netioapi/DeleteIpForwardEntry2"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

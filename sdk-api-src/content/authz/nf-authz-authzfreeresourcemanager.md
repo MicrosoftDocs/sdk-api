@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.topic: function
+f1_keywords: ["authz/AuthzFreeResourceManager"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

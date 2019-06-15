@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpReceiveResponse"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDropPosition method, INameSpaceTreeControlDropHandler.OnDropPosition, INameSpaceTreeControlDropHandler::OnDropPosition, OnDropPosition, OnDropPosition method [Windows Shell], OnDropPosition method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDropPosition, shell.INameSpaceTreeControlDropHandler_OnDropPosition, shobjidl/INameSpaceTreeControlDropHandler::OnDropPosition
 ms.topic: method
+f1_keywords: ["shobjidl/INameSpaceTreeControlDropHandler.OnDropPosition"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

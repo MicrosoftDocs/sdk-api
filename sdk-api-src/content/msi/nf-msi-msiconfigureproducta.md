@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProduct, MsiConfigureProduct function, MsiConfigureProductA, MsiConfigureProductW, _msi_msiconfigureproduct, msi/MsiConfigureProduct, msi/MsiConfigureProductA, msi/MsiConfigureProductW, setup.msiconfigureproduct
 ms.topic: function
+f1_keywords: ["msi/MsiConfigureProduct"]
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

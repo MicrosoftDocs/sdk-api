@@ -12,6 +12,7 @@ ms.keywords: PINSPECT_MEMORY_CALLBACK, PINSPECT_MEMORY_CALLBACK callback, PINSPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
+f1_keywords: ["roerrorapi/PINSPECT_MEMORY_CALLBACK"]
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

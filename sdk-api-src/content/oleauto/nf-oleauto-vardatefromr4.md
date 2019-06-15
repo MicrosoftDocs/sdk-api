@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDateFromR4, VarDateFromR4 function [Automation], _oa96_VarDateFromR4, automat.vardatefromr4, oleauto/VarDateFromR4
 ms.topic: function
+f1_keywords: ["oleauto/VarDateFromR4"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

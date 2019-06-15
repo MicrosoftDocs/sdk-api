@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCachedExtraSinkProtocolInfo, GetCachedExtraSinkProtocolInfo method [Media Streaming API], GetCachedExtraSinkProtocolInfo method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetCachedExtraSinkProtocolInfo method, IActiveBasicDevice.GetCachedExtraSinkProtocolInfo, IActiveBasicDevice.streaming, IActiveBasicDevice::GetCachedExtraSinkProtocolInfo, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_getcachedextrasinkprotocolinfo, windows/IActiveBasicDevice::GetCachedExtraSinkProtocolInfo
 ms.topic: method
+f1_keywords: ["windows.media.streaming/IActiveBasicDevice.GetCachedExtraSinkProtocolInfo"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

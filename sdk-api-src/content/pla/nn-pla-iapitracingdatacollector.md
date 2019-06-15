@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector, IApiTracingDataCollector interface [PLA], IApiTracingDataCollector interface [PLA],described, base.iapitracingdatacollector, pla.iapitracingdatacollector, pla/IApiTracingDataCollector
 ms.topic: interface
+f1_keywords: ["pla/IApiTracingDataCollector"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterHotKey, UnregisterHotKey function [Keyboard and Mouse Input], _win32_UnregisterHotKey, _win32_unregisterhotkey_cpp, inputdev.unregisterhotkey, winui._win32_unregisterhotkey, winuser/UnregisterHotKey
 ms.topic: function
+f1_keywords: ["winuser/UnregisterHotKey"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

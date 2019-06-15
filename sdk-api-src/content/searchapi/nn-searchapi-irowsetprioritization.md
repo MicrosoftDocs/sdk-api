@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRowsetPrioritization, IRowsetPrioritization interface [search], IRowsetPrioritization interface [search],described, _search_IRowsetPrioritization, search._search_IRowsetPrioritization, searchapi/IRowsetPrioritization
 ms.topic: interface
+f1_keywords: ["searchapi/IRowsetPrioritization"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

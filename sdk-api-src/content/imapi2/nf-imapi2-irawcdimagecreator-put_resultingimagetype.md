@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_ResultingImageType method, IRawCDImageCreator.put_ResultingImageType, IRawCDImageCreator::put_ResultingImageType, imapi.irawcdimagecreator_put_resultingimagetype, imapi2/IRawCDImageCreator::put_ResultingImageType, put_ResultingImageType, put_ResultingImageType method [IMAPI], put_ResultingImageType method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
+f1_keywords: ["imapi2/IRawCDImageCreator.put_ResultingImageType"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

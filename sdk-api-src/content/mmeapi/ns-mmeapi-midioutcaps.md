@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIOUTCAPS, *NPMIDIOUTCAPS, *PMIDIOUTCAPS, MIDICAPS_CACHE, MIDICAPS_LRVOLUME, MIDICAPS_STREAM, MIDICAPS_VOLUME, MIDIOUTCAPS, MIDIOUTCAPS structure [Windows Multimedia], MOD_FMSYNTH, MOD_MAPPER, MOD_MIDIPORT, MOD_SQSYNTH, MOD_SWSYNTH, MOD_SYNTH, MOD_WAVETABLE, _win32_MIDIOUTCAPS_str, midioutcaps_tag, mmeapi/MIDIOUTCAPS, multimedia.midioutcaps, tagMIDIOUTCAPSA, tagMIDIOUTCAPSW"
 ms.topic: struct
+f1_keywords: ["mmeapi/MIDIOUTCAPS"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

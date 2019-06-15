@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILayoutStorage interface [Structured Storage],described, _stg_ilayoutstorage, objidl/ILayoutStorage, stg.ilayoutstorage
 ms.topic: interface
+f1_keywords: ["objidl/ILayoutStorage"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

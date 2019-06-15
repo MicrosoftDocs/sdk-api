@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax Service],IFaxJobStatus interface, IFaxJobStatus interface [Fax Service],ExtendedStatus property, IFaxJobStatus.ExtendedStatus, IFaxJobStatus.get_ExtendedStatus, IFaxJobStatus::ExtendedStatus, IFaxJobStatus::get_ExtendedStatus, _mfax_faxjobstatus.extendedstatus, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_extendedstatus_cpp, fax._mfax_faxjobstatus_extendedstatus, faxcomex/IFaxJobStatus::ExtendedStatus, faxcomex/IFaxJobStatus::get_ExtendedStatus, get_ExtendedStatus
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxJobStatus.ExtendedStatus"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

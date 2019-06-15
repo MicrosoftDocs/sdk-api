@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Refract, XMVector3Refract, XMVector3Refract method [DirectX Math Support APIs], dxmath.xmvector3refract
 ms.topic: function
+f1_keywords: ["directxmath/XMVector3Refract"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

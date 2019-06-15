@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Files], PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Files], _win32_create_disk_gpt_str, base.create_disk_gpt_str, fs.create_disk_gpt_str, winioctl/CREATE_DISK_GPT, winioctl/PCREATE_DISK_GPT"
 ms.topic: struct
+f1_keywords: ["winioctl/CREATE_DISK_GPT"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

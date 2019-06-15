@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackNoActivationContext, TpSetCallbackNoActivationContext function, base.tpsetcallbacknoactivationcontext, winnt/TpSetCallbackNoActivationContext
 ms.topic: function
+f1_keywords: ["winnt/TpSetCallbackNoActivationContext"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

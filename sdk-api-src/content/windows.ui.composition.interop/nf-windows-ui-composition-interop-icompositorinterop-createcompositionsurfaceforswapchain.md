@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCompositionSurfaceForSwapChain, CreateCompositionSurfaceForSwapChain method, CreateCompositionSurfaceForSwapChain method,ICompositorInterop interface, ICompositorInterop interface,CreateCompositionSurfaceForSwapChain method, ICompositorInterop.CreateCompositionSurfaceForSwapChain, ICompositorInterop.composition, ICompositorInterop::CreateCompositionSurfaceForSwapChain, ICompositorInterop::composition, w_ui_comp.icompositorinterop_createcompositionsurfaceforswapchain, windows/ICompositorInterop::CreateCompositionSurfaceForSwapChain
 ms.topic: method
+f1_keywords: ["windows.ui.composition.interop/ICompositorInterop.CreateCompositionSurfaceForSwapChain"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

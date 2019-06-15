@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: READYSTATE, READYSTATE enumeration [DirectShow], READYSTATE_COMPLETE, READYSTATE_INTERACTIVE, READYSTATE_LOADED, READYSTATE_LOADING, READYSTATE_UNINITIALIZED, ReadyState Property, ReadyStateProperty, dshow.readystate_property, ocidl/READYSTATE_COMPLETE, ocidl/READYSTATE_INTERACTIVE, ocidl/READYSTATE_LOADED, ocidl/READYSTATE_LOADING, ocidl/READYSTATE_UNINITIALIZED, ocidl/tagREADYSTATE, tagREADYSTATE, tagREADYSTATE enumeration [DirectShow]
 ms.topic: enum
+f1_keywords: ["ocidl/READYSTATE"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

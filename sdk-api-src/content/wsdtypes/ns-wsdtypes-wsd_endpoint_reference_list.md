@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure, ncd.wsd_endpoint_reference_list, wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_ENDPOINT_REFERENCE_LIST"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

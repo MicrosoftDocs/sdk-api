@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage interface [Fax Service],OriginalScheduledTime property, IFaxOutgoingMessage.OriginalScheduledTime, IFaxOutgoingMessage.get_OriginalScheduledTime, IFaxOutgoingMessage::OriginalScheduledTime, IFaxOutgoingMessage::get_OriginalScheduledTime, OriginalScheduledTime property [Fax Service], OriginalScheduledTime property [Fax Service],IFaxOutgoingMessage interface, _mfax_faxoutgoingmessage.originalscheduledtime, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_originalscheduledtime_cpp, fax._mfax_faxoutgoingmessage_originalscheduledtime, faxcomex/IFaxOutgoingMessage::OriginalScheduledTime, faxcomex/IFaxOutgoingMessage::get_OriginalScheduledTime, get_OriginalScheduledTime
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingMessage.OriginalScheduledTime"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

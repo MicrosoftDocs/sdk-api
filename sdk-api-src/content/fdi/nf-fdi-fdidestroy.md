@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
 ms.topic: function
+f1_keywords: ["fdi/FDIDestroy"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

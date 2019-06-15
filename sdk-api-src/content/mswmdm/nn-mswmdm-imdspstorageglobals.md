@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorageGlobals, IMDSPStorageGlobals interface [windows Media Device Manager], IMDSPStorageGlobals interface [windows Media Device Manager],described, IMDSPStorageGlobalsInterface, mswmdm/IMDSPStorageGlobals, wmdm.imdspstorageglobals
 ms.topic: interface
+f1_keywords: ["mswmdm/IMDSPStorageGlobals"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

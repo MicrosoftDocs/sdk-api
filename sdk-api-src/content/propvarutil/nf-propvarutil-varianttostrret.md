@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToStrRet, VariantToStrRet function [Windows Properties], _shell_VariantToStrRet, properties.VariantToStrRet, propvarutil/VariantToStrRet, shell.VariantToStrRet
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToStrRet"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

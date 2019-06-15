@@ -4,6 +4,7 @@ title: WLAN_POWER_SETTING
 ms.date: 01/30/19
 ms.keywords: _WLAN_POWER_SETTING, WLAN_POWER_SETTING
 ms.topic: language-reference
+f1_keywords: ["wlanapi/_WLAN_POWER_SETTING"]
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

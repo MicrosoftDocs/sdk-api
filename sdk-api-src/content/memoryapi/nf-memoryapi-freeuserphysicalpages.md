@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeUserPhysicalPages, FreeUserPhysicalPages function, _win32_freeuserphysicalpages, base.freeuserphysicalpages, winbase/FreeUserPhysicalPages
 ms.topic: function
+f1_keywords: ["memoryapi/FreeUserPhysicalPages"]
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StartProgressDialog method, IOperationsProgressDialog.StartProgressDialog, IOperationsProgressDialog::StartProgressDialog, OPPROGDLG_ALLOWUNDO, OPPROGDLG_DEFAULT, OPPROGDLG_DONTDISPLAYDESTPATH, OPPROGDLG_DONTDISPLAYLOCATIONS, OPPROGDLG_DONTDISPLAYSOURCEPATH, OPPROGDLG_ENABLEPAUSE, OPPROGDLG_NOMULTIDAYESTIMATES, PROGDLG_AUTOTIME, PROGDLG_MARQUEEPROGRESS, PROGDLG_MODAL, PROGDLG_NOCANCEL, PROGDLG_NOMINIMIZE, PROGDLG_NOPROGRESSBAR, PROGDLG_NORMAL, PROGDLG_NOTIME, StartProgressDialog, StartProgressDialog method [Windows Shell], StartProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StartProgressDialog, shell.IOperationsProgressDialog_StartProgressDialog, shobjidl_core/IOperationsProgressDialog::StartProgressDialog
 ms.topic: method
+f1_keywords: ["shobjidl_core/IOperationsProgressDialog.StartProgressDialog"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

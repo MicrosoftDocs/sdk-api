@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_AUDIOONLY, MF_MEDIA_ENGINE_CREATEFLAGS, MF_MEDIA_ENGINE_CREATEFLAGS enumeration [Media Foundation], MF_MEDIA_ENGINE_CREATEFLAGS_MASK, MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS, MF_MEDIA_ENGINE_FORCEMUTE, MF_MEDIA_ENGINE_REAL_TIME_MODE, MF_MEDIA_ENGINE_WAITFORSTABLE_STATE, mf.mf_media_engine_createflags, mfmediaengine/MF_MEDIA_ENGINE_AUDIOONLY, mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS, mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS_MASK, mfmediaengine/MF_MEDIA_ENGINE_DISABLE_LOCAL_PLUGINS, mfmediaengine/MF_MEDIA_ENGINE_FORCEMUTE, mfmediaengine/MF_MEDIA_ENGINE_REAL_TIME_MODE, mfmediaengine/MF_MEDIA_ENGINE_WAITFORSTABLE_STATE
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_CREATEFLAGS"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

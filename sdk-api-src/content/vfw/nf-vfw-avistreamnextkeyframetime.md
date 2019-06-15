@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamNextKeyFrameTime, AVIStreamNextKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamNextKeyFrameTime, multimedia.avistreamnextkeyframetime, vfw/AVIStreamNextKeyFrameTime
 ms.topic: macro
+f1_keywords: ["vfw/AVIStreamNextKeyFrameTime"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

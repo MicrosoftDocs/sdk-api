@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Compare@CHString@@QBEHPBG@Z, ?Compare@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],Compare method, CHString.Compare, CHString::Compare, Compare, Compare method [Windows Management Instrumentation], Compare method [Windows Management Instrumentation],CHString interface, _hmm_chstring_compare, chstring/CHString::Compare, wmi.chstring_compare"
 ms.topic: method
+f1_keywords: ["chstring/CHString.Compare"]
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

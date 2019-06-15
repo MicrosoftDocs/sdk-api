@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCS_FORCEWRITE, FCS_READ, FCS_WRITE, SHGetSetFolderCustomSettings, SHGetSetFolderCustomSettings function [Windows Shell], _win32_SHGetSetFolderCustomSettings, shell.SHGetSetFolderCustomSettings, shlobj_core/SHGetSetFolderCustomSettings
 ms.topic: function
+f1_keywords: ["shlobj_core/SHGetSetFolderCustomSettings"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

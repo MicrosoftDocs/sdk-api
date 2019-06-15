@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/ShortToUIntPtr, shell.ShortToUIntPtr
 ms.topic: function
+f1_keywords: ["intsafe/ShortToUIntPtr"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

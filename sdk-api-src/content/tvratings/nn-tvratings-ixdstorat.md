@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
 ms.topic: interface
+f1_keywords: ["tvratings/IXDSToRat"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

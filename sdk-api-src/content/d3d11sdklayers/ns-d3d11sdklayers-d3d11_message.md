@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 63ec230f-4005-c7e9-9187-f8c6f44e0780, D3D11_MESSAGE, D3D11_MESSAGE structure [Direct3D 11], d3d11sdklayers/D3D11_MESSAGE, direct3d11.d3d11_message
 ms.topic: struct
+f1_keywords: ["d3d11sdklayers/D3D11_MESSAGE"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

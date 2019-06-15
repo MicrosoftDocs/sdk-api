@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [COM+],described, _dtc_ICrmMonitor_Interface, comsvcs/ICrmMonitor, cos.icrmmonitor
 ms.topic: interface
+f1_keywords: ["comsvcs/ICrmMonitor"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

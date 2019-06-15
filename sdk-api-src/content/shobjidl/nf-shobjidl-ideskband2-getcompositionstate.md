@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCompositionState, GetCompositionState method [Windows Shell], GetCompositionState method [Windows Shell],IDeskBand2 interface, IDeskBand2 interface [Windows Shell],GetCompositionState method, IDeskBand2.GetCompositionState, IDeskBand2::GetCompositionState, _shell_IDeskBand2_GetCompositionState, shell.IDeskBand2_GetCompositionState, shobjidl/IDeskBand2::GetCompositionState
 ms.topic: method
+f1_keywords: ["shobjidl/IDeskBand2.GetCompositionState"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

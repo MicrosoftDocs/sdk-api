@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanConvert, CanConvert method [Windows Imaging Component], CanConvert method [Windows Imaging Component],IWICFormatConverter interface, IWICFormatConverter interface [Windows Imaging Component],CanConvert method, IWICFormatConverter.CanConvert, IWICFormatConverter::CanConvert, _wic_codec_iwicformatconverter_canconvert, wic._wic_codec_iwicformatconverter_canconvert, wincodec/IWICFormatConverter::CanConvert
 ms.topic: method
+f1_keywords: ["wincodec/IWICFormatConverter.CanConvert"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

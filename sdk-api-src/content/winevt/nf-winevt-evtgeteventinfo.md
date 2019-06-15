@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtGetEventInfo, EvtGetEventInfo function [EventLog], wes.evtgeteventinfo, winevt/EvtGetEventInfo
 ms.topic: function
+f1_keywords: ["winevt/EvtGetEventInfo"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

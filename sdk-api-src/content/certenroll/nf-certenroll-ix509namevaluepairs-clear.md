@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Clear method, IX509NameValuePairs.Clear, IX509NameValuePairs::Clear, certenroll/IX509NameValuePairs::Clear, security.ix509namevaluepairs_clear_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509NameValuePairs.Clear"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

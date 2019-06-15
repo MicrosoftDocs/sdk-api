@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_RegistrationScope method, IActivatableClassRegistration.get_RegistrationScope, IActivatableClassRegistration::get_RegistrationScope, activationregistration/IActivatableClassRegistration::get_RegistrationScope, get_RegistrationScope, get_RegistrationScope method [Windows Runtime], get_RegistrationScope method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_registrationscope
 ms.topic: method
+f1_keywords: ["activationregistration/IActivatableClassRegistration.get_RegistrationScope"]
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

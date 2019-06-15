@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IdentityType, IdentityType enumeration [Windows Runtime], IdentityType_ActivateAsActivatingUser, IdentityType_ActivateAsActivator, IdentityType_ActivateAsPackage, IdentityType_RunAs, IdentityType_SessionUser, IdentityType_SessionVirtual, activationregistration/IdentityType, activationregistration/IdentityType_ActivateAsActivatingUser, activationregistration/IdentityType_ActivateAsActivator, activationregistration/IdentityType_ActivateAsPackage, activationregistration/IdentityType_RunAs, activationregistration/IdentityType_SessionUser, activationregistration/IdentityType_SessionVirtual, winrt.identitytype
 ms.topic: enum
+f1_keywords: ["activationregistration/IdentityType"]
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

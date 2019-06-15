@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_PROTOCOL_REQUEST_HANDLER, PROPERTY_PROTOCOL_START, PROTOCOLPROPERTIES, PROTOCOLPROPERTIES enumeration [Network Policy Server], _sdo_protocolproperties, nps.SDO_protocolproperties, sdo.protocolproperties, sdoias/PROPERTY_PROTOCOL_REQUEST_HANDLER, sdoias/PROPERTY_PROTOCOL_START, sdoias/PROTOCOLPROPERTIES
 ms.topic: enum
+f1_keywords: ["sdoias/PROTOCOLPROPERTIES"]
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

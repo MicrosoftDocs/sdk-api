@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDH_FLAGS_CLOSE_QUERY, PdhCloseLog, PdhCloseLog function [Perf], _win32_pdhcloselog, base.pdhcloselog, pdh/PdhCloseLog, perf.pdhcloselog
 ms.topic: function
+f1_keywords: ["pdh/PdhCloseLog"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

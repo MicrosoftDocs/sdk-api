@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateQuery, CreateQuery method [Direct3D 10], CreateQuery method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateQuery method, ID3D10Device.CreateQuery, ID3D10Device::CreateQuery, d3d10/ID3D10Device::CreateQuery, direct3d10.id3d10device_createquery, e041861e-bdae-c4f9-1ea4-d5af2d5b38ab
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.CreateQuery"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

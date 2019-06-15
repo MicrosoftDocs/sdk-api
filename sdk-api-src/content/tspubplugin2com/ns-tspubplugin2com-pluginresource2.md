@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: pluginResource2, pluginResource2 structure [Remote Desktop Services], termserv.pluginresource2, tspubplugin2com/pluginResource2
 ms.topic: struct
+f1_keywords: ["tspubplugin2com/pluginResource2"]
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

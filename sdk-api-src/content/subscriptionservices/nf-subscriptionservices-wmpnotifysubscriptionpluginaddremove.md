@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPNotifyPluginAddRemove_Subscriptions, WMPNotifySubscriptionPluginAddRemove, WMPNotifySubscriptionPluginAddRemove function [Windows Media Player], contentpartner/WMPNotifySubscriptionPluginAddRemove, wmp.wmpnotifysubscriptionpluginaddremove
 ms.topic: function
+f1_keywords: ["subscriptionservices/WMPNotifySubscriptionPluginAddRemove"]
 req.header: subscriptionservices.h
 req.include-header: Subscriptionservices.h
 req.target-type: Windows

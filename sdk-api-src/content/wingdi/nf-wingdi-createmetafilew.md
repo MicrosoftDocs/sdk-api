@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
 ms.topic: function
+f1_keywords: ["wingdi/CreateMetaFile"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

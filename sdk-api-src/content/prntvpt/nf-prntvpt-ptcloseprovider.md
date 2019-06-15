@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
 ms.topic: function
+f1_keywords: ["prntvpt/PTCloseProvider"]
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

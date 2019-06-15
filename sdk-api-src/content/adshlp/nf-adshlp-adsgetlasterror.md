@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterror, adshlp/ADsGetLastError, adsi.adsgetlasterror
 ms.topic: function
+f1_keywords: ["adshlp/ADsGetLastError"]
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

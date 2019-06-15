@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
 ms.topic: function
+f1_keywords: ["mfapi/MFMapDXGIFormatToDX9Format"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

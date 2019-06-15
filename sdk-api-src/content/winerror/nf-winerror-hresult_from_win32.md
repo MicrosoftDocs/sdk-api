@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FROM_WIN32, HRESULT_FROM_WIN32 macro [COM], _com_HRESULT_FROM_WIN32, com.hresult_from_win32, com.hresult_from_win32_macro, winerror/HRESULT_FROM_WIN32
 ms.topic: macro
+f1_keywords: ["winerror/HRESULT_FROM_WIN32"]
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

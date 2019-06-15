@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDpiCompensatedEffectInput, SetDpiCompensatedEffectInput function [Direct2D], d2d1_1helper/SetDpiCompensatedEffectInput, direct2d.setdpicompensatedeffectinput
 ms.topic: function
+f1_keywords: ["d2d1_1helper/SetDpiCompensatedEffectInput"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

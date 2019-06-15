@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],ResetTransform method, LinearGradientBrush.ResetTransform, LinearGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_LinearGradientBrush_ResetTransform_
 ms.topic: method
+f1_keywords: ["gdiplusbrush/LinearGradientBrush.ResetTransform"]
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

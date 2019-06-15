@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions, ID3D11RefDefaultTrackingOptions interface [Direct3D 11], ID3D11RefDefaultTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefDefaultTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions
 ms.topic: interface
+f1_keywords: ["d3d11sdklayers/ID3D11RefDefaultTrackingOptions"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

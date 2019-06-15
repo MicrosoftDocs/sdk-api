@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectConnector interface [WPF Bitmap Effects],IsConnected method, IMILBitmapEffectConnector.IsConnected, IMILBitmapEffectConnector::IsConnected, IsConnected, IsConnected method [WPF Bitmap Effects], IsConnected method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, _wibe_imilbitmapeffectconnector_isconnected, mileffects/IMILBitmapEffectConnector::IsConnected, wibe._wibe_imilbitmapeffectconnector_isconnected
 ms.topic: method
+f1_keywords: ["mileffects/IMILBitmapEffectConnector.IsConnected"]
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

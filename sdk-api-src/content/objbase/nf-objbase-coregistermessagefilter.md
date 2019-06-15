@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRegisterMessageFilter, CoRegisterMessageFilter function [COM], _com_CoRegisterMessageFilter, com.coregistermessagefilter, objbase/CoRegisterMessageFilter
 ms.topic: function
+f1_keywords: ["objbase/CoRegisterMessageFilter"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

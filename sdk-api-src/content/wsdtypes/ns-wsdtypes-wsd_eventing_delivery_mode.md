@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE, WSD_EVENTING_DELIVERY_MODE structure, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryModes/Push, ncd.wsd_eventing_delivery_mode, wsdtypes/WSD_EVENTING_DELIVERY_MODE
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_EVENTING_DELIVERY_MODE"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

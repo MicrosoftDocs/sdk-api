@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 35d749d8-2bca-4fe8-b145-175e178ae529, MFCreateLegacyMediaBufferOnMFMediaBuffer, MFCreateLegacyMediaBufferOnMFMediaBuffer function [Media Foundation], mf.mfcreatelegacymediabufferonmfmediabuffer, mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

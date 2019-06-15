@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaCreateTrustedDomainEx, LsaCreateTrustedDomainEx function [Security], _lsa_lsacreatetrusteddomainex, ntsecapi/LsaCreateTrustedDomainEx, security.lsacreatetrusteddomainex
 ms.topic: function
+f1_keywords: ["ntsecapi/LsaCreateTrustedDomainEx"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

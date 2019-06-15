@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMREXTTEXTOUTA, *PEMREXTTEXTOUTW, EMREXTTEXTOUTA, EMREXTTEXTOUTA structure [Windows GDI], EMREXTTEXTOUTA,EMREXTTEXTOUTW, EMREXTTEXTOUTA,EMREXTTEXTOUTW structure [Windows GDI], EMREXTTEXTOUTW, EMREXTTEXTOUTW structure [Windows GDI], PEMREXTTEXTOUTA, PEMREXTTEXTOUTA structure pointer [Windows GDI], PEMREXTTEXTOUTW, PEMREXTTEXTOUTW structure pointer [Windows GDI], _win32_EMREXTTEXTOUTA_str, gdi.emrexttextouta__emrexttextoutw, wingdi/EMREXTTEXTOUTA,EMREXTTEXTOUTW, wingdi/EMREXTTEXTOUTW, wingdi/PEMREXTTEXTOUTA, wingdi/PEMREXTTEXTOUTW"
 ms.topic: struct
+f1_keywords: ["wingdi/EMREXTTEXTOUTA"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService4 interface [Windows Shell],SaveViewState method, IBrowserService4.SaveViewState, IBrowserService4::SaveViewState, SaveViewState, SaveViewState method [Windows Shell], SaveViewState method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4_SaveViewState, shdeprecated/IBrowserService4::SaveViewState, shell.IBrowserService4_SaveViewState
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService4.SaveViewState"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

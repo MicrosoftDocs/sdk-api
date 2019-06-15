@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink3, IWMWriterFileSink3 interface [windows Media Format], IWMWriterFileSink3 interface [windows Media Format],described, IWMWriterFileSink3Interface, wmformat.iwmwriterfilesink3, wmsdkidl/IWMWriterFileSink3
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMWriterFileSink3"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

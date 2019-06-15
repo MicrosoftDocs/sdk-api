@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetInvitationResponse, PeerCollabGetInvitationResponse function [Peer Networking], p2p.peercollabgetinvitationresponse, p2p/PeerCollabGetInvitationResponse
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabGetInvitationResponse"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

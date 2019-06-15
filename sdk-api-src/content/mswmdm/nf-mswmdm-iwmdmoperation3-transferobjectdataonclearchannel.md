@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation3 interface [windows Media Device Manager],TransferObjectDataOnClearChannel method, IWMDMOperation3.TransferObjectDataOnClearChannel, IWMDMOperation3::TransferObjectDataOnClearChannel, IWMDMOperation3TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel, TransferObjectDataOnClearChannel method [windows Media Device Manager], TransferObjectDataOnClearChannel method [windows Media Device Manager],IWMDMOperation3 interface, mswmdm/IWMDMOperation3::TransferObjectDataOnClearChannel, wmdm.iwmdmoperation3__transferobjectdataonclearchannel
 ms.topic: method
+f1_keywords: ["mswmdm/IWMDMOperation3.TransferObjectDataOnClearChannel"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

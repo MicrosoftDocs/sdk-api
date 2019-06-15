@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
 ms.topic: function
+f1_keywords: ["mfapi/MFRegisterLocalByteStreamHandler"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

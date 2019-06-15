@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportProviderGetContentMetadata"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

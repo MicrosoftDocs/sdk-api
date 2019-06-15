@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtDeletePnrpBootstrapResolver, DrtDeletePnrpBootstrapResolver function [Peer Networking], drt/DrtDeletePnrpBootstrapResolver, p2p.drtdeletepnrpbootstrapresolver
 ms.topic: function
+f1_keywords: ["drt/DrtDeletePnrpBootstrapResolver"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

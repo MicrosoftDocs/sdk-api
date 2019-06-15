@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterChain, IFilterChain interface [DirectShow], IFilterChain interface [DirectShow],described, IFilterChainInterface, dshow.ifilterchain, strmif/IFilterChain
 ms.topic: interface
+f1_keywords: ["strmif/IFilterChain"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

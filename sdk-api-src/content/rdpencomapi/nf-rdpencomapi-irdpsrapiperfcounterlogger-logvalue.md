@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIPerfCounterLogger interface [RDP],LogValue method, IRDPSRAPIPerfCounterLogger.LogValue, IRDPSRAPIPerfCounterLogger::LogValue, LogValue, LogValue method [RDP], LogValue method [RDP],IRDPSRAPIPerfCounterLogger interface, rdp.irdpsrapiperfcounterlogger_logvalue, rdpencomapi/IRDPSRAPIPerfCounterLogger::LogValue
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIPerfCounterLogger.LogValue"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeTopology, MFCreateTranscodeTopology function [Media Foundation], mf.mfcreatetranscodetopology, mfidl/MFCreateTranscodeTopology
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateTranscodeTopology"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

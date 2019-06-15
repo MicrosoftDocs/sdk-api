@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertGetIntendedKeyUsage, CertGetIntendedKeyUsage function [Security], _crypto2_certgetintendedkeyusage, security.certgetintendedkeyusage, wincrypt/CertGetIntendedKeyUsage
 ms.topic: function
+f1_keywords: ["wincrypt/CertGetIntendedKeyUsage"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

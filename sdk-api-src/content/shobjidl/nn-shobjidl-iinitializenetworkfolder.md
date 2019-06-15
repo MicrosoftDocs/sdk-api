@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeNetworkFolder, IInitializeNetworkFolder interface [Windows Shell], IInitializeNetworkFolder interface [Windows Shell],described, _shell_IInitializeNetworkFolder, shell.IInitializeNetworkFolder, shobjidl/IInitializeNetworkFolder
 ms.topic: interface
+f1_keywords: ["shobjidl/IInitializeNetworkFolder"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentWindowVisualState property [Windows Accessibility], CurrentWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentWindowVisualState property, IUIAutomationWindowPattern.CurrentWindowVisualState, IUIAutomationWindowPattern.get_CurrentWindowVisualState, IUIAutomationWindowPattern::CurrentWindowVisualState, IUIAutomationWindowPattern::get_CurrentWindowVisualState, get_CurrentWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationWindowPattern.CurrentWindowVisualState"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

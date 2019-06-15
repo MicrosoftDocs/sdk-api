@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoStopRingOnOffHook method, ITAutomatedPhoneControl.get_AutoStopRingOnOffHook, ITAutomatedPhoneControl::get_AutoStopRingOnOffHook, _tapi3_itautomatedphonecontrol_get_autostopringonoffhook, get_AutoStopRingOnOffHook, get_AutoStopRingOnOffHook method [TAPI 2.2], get_AutoStopRingOnOffHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autostopringonoffhook, tapi3if/ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
 ms.topic: method
+f1_keywords: ["tapi3if/ITAutomatedPhoneControl.get_AutoStopRingOnOffHook"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::Pull, Pull, Pull method [COM], Pull method [COM],IPipeLong interface, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
 ms.topic: method
+f1_keywords: ["objidl/IPipeLong.Pull"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

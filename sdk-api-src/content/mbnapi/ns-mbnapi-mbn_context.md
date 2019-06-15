@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
 ms.topic: struct
+f1_keywords: ["mbnapi/MBN_CONTEXT"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

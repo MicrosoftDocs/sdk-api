@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider interface [Security],Import method, IIdentityProvider.Import, IIdentityProvider::Import, Import, Import method [Security], Import method [Security],IIdentityProvider interface, identityprovider/IIdentityProvider::Import, security.iidentityprovider_import
 ms.topic: method
+f1_keywords: ["identityprovider/IIdentityProvider.Import"]
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows

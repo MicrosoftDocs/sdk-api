@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_STREAM_ID_SET, WSMAN_STREAM_ID_SET structure [Windows Remote Management], winrm.wsman_stream_id_set, wsman/WSMAN_STREAM_ID_SET
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_STREAM_ID_SET"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

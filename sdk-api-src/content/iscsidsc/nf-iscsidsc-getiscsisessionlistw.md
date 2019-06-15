@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIScsiSessionListW, GetIscsiSessionList, GetIscsiSessionList function [iSCSI Discovery Library API], GetIscsiSessionListA, GetIscsiSessionListW, iscsidisc.getiscsisessionlist, iscsidsc/GetIscsiSessionList, iscsidsc/GetIscsiSessionListA, iscsidsc/GetIscsiSessionListW
 ms.topic: function
+f1_keywords: ["iscsidsc/GetIscsiSessionList"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

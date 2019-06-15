@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
 ms.topic: function
+f1_keywords: ["webservices/WsAbortChannel"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

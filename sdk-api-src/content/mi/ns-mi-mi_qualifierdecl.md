@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_DISABLEOVERRIDE, MI_FLAG_ENABLEOVERRIDE, MI_FLAG_RESTRICTED, MI_FLAG_TOSUBCLASS, MI_FLAG_TRANSLATABLE, MI_QualifierDecl, MI_QualifierDecl structure [Windows Management Infrastructure (MI)], mi/MI_QualifierDecl, wmi._mi_qualifierdecl, wmi_v2.mi_qualifierdecl
 ms.topic: struct
+f1_keywords: ["mi/MI_QualifierDecl"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

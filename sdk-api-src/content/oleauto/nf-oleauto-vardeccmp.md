@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecCmp, VarDecCmp function [Automation], _oa96_VarDecCmp, automat.vardeccmp, oleauto/VarDecCmp
 ms.topic: function
+f1_keywords: ["oleauto/VarDecCmp"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

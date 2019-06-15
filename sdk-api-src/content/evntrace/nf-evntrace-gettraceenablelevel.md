@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTraceEnableLevel, GetTraceEnableLevel function [ETW], _evt_gettraceenablelevel, base.gettraceenablelevel, etw.gettraceenablelevel, evntrace/GetTraceEnableLevel
 ms.topic: function
+f1_keywords: ["evntrace/GetTraceEnableLevel"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

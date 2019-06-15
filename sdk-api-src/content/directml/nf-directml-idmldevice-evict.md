@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: Evict, Evict method, Evict method,IDMLDevice interface, IDMLDevice interface,Evict method, IDMLDevice.Evict, IDMLDevice::Evict, direct3d12.idmldevice_evict, directml/IDMLDevice::Evict
 ms.topic: method
+f1_keywords: ["directml/IDMLDevice.Evict"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

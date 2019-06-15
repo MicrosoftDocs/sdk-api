@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_PROP_DATATYPE, WMT_PROP_DATATYPE enumeration [Media Foundation], WMT_PROP_TYPE_BINARY, WMT_PROP_TYPE_BOOL, WMT_PROP_TYPE_DWORD, WMT_PROP_TYPE_GUID, WMT_PROP_TYPE_QWORD, WMT_PROP_TYPE_STRING, WMT_PROP_TYPE_WORD, codecapi.wmt_prop_datatypeenumeration, mf.wmt_prop_datatype, mf.wmt_prop_datatypeenumeration, wmcodecdsp/WMT_PROP_DATATYPE, wmcodecdsp/WMT_PROP_TYPE_BINARY, wmcodecdsp/WMT_PROP_TYPE_BOOL, wmcodecdsp/WMT_PROP_TYPE_DWORD, wmcodecdsp/WMT_PROP_TYPE_GUID, wmcodecdsp/WMT_PROP_TYPE_QWORD, wmcodecdsp/WMT_PROP_TYPE_STRING, wmcodecdsp/WMT_PROP_TYPE_WORD
 ms.topic: enum
+f1_keywords: ["wmcodecdsp/WMT_PROP_DATATYPE"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

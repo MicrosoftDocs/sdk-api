@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BPAS_CUBIC, BPAS_LINEAR, BPAS_NONE, BPAS_SINE, BP_ANIMATIONSTYLE, BP_ANIMATIONSTYLE enumeration [Windows Controls], _shell_BP_ANIMATIONSTYLE, _shell_BP_ANIMATIONSTYLE_cpp, controls.BP_ANIMATIONSTYLE, controls._shell_BP_ANIMATIONSTYLE, uxtheme/BPAS_CUBIC, uxtheme/BPAS_LINEAR, uxtheme/BPAS_NONE, uxtheme/BPAS_SINE, uxtheme/BP_ANIMATIONSTYLE
 ms.topic: enum
+f1_keywords: ["uxtheme/BP_ANIMATIONSTYLE"]
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

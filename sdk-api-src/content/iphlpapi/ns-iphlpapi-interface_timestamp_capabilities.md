@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PINTERFACE_TIMESTAMP_CAPABILITIES, INTERFACE_TIMESTAMP_CAPABILITIES, INTERFACE_TIMESTAMP_CAPABILITIES structure [IP Helper], PINTERFACE_TIMESTAMP_CAPABILITIES, PINTERFACE_TIMESTAMP_CAPABILITIES structure pointer [IP Helper], iphlp.interface_timestamp_capabilities, iphlpapi/INTERFACE_TIMESTAMP_CAPABILITIES, iphlpapi/PINTERFACE_TIMESTAMP_CAPABILITIES"
 ms.topic: struct
+f1_keywords: ["iphlpapi/INTERFACE_TIMESTAMP_CAPABILITIES"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

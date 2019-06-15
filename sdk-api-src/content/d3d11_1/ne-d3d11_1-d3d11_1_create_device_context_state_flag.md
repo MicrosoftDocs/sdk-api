@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG, D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG enumeration [Direct3D 11], D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED, d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG, d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED, direct3d11.d3d11_1_create_device_context_state_flag
 ms.topic: enum
+f1_keywords: ["d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

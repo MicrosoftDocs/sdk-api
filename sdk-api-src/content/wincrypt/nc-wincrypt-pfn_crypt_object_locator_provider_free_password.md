@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD callback function [Security], security.pfn_crypt_object_locator_provider_free_password, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD
 ms.topic: callback
+f1_keywords: ["wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FREE_PASSWORD"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

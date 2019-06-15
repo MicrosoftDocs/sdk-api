@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Texture2D interface, ID3D10Texture2D interface [Direct3D 10],GetDesc method, ID3D10Texture2D.GetDesc, ID3D10Texture2D::GetDesc, d3d10/ID3D10Texture2D::GetDesc, db268331-a80d-aadf-4e4b-69cca5ab58b8, direct3d10.id3d10texture2d_getdesc
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Texture2D.GetDesc"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

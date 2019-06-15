@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMMC_EXT_VIEW_DATA, MMC_EXT_VIEW_DATA, MMC_EXT_VIEW_DATA structure [MMC], PMMC_EXT_VIEW_DATA, PMMC_EXT_VIEW_DATA structure pointer [MMC], _slate_mmc_ext_view_data, mmc.mmc_ext_view_data, mmc/MMC_EXT_VIEW_DATA, mmc/PMMC_EXT_VIEW_DATA"
 ms.topic: struct
+f1_keywords: ["mmc/MMC_EXT_VIEW_DATA"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

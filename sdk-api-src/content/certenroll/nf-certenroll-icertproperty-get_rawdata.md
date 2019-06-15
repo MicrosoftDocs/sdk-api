@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],RawData property, ICertProperty.RawData, ICertProperty.get_RawData, ICertProperty::RawData, ICertProperty::get_RawData, RawData property [Security], RawData property [Security],ICertProperty interface, certenroll/ICertProperty::RawData, certenroll/ICertProperty::get_RawData, get_RawData, security.icertproperty_rawdata_property
 ms.topic: method
+f1_keywords: ["certenroll/ICertProperty.RawData"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

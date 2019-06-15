@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIMakeCompressedStream, AVIMakeCompressedStream function [Windows Multimedia], _win32_AVIMakeCompressedStream, multimedia.avimakecompressedstream, vfw/AVIMakeCompressedStream
 ms.topic: function
+f1_keywords: ["vfw/AVIMakeCompressedStream"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],IsUsingDefaultSource method, IBasicVideo.IsUsingDefaultSource, IBasicVideo::IsUsingDefaultSource, IBasicVideoIsUsingDefaultSource, IsUsingDefaultSource, IsUsingDefaultSource method [DirectShow], IsUsingDefaultSource method [DirectShow],IBasicVideo interface, control/IBasicVideo::IsUsingDefaultSource, dshow.ibasicvideo_isusingdefaultsource
 ms.topic: method
+f1_keywords: ["control/IBasicVideo.IsUsingDefaultSource"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

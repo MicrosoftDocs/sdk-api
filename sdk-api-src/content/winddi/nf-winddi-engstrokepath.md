@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngStrokePath, EngStrokePath function [Display Devices], display.engstrokepath, gdifncs_d6a5ca42-fa75-4cba-8eff-d8c0801d058b.xml, winddi/EngStrokePath
 ms.topic: function
+f1_keywords: ["winddi/EngStrokePath"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

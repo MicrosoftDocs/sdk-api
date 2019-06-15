@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavGetExtendedError, DavGetExtendedError function [WebDAV], davclnt/DavGetExtendedError, webdav.davgetextendederror
 ms.topic: function
+f1_keywords: ["davclnt/DavGetExtendedError"]
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

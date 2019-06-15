@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionGetById0, FwpmConnectionGetById0 function [Filtering], fwp.fwpmconnectiongetbyid0, fwpmu/FwpmConnectionGetById0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmConnectionGetById0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

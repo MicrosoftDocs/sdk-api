@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],RangeFromChild method, IUIAutomationTextPattern.RangeFromChild, IUIAutomationTextPattern::RangeFromChild, RangeFromChild, RangeFromChild method [Windows Accessibility], RangeFromChild method [Windows Accessibility],IUIAutomationTextPattern interface, uiauto.uiauto_IUIAutomationTextPattern_RangeFromChild, uiauto_IUIAutomationTextPattern_RangeFromChild, uiautomationclient/IUIAutomationTextPattern::RangeFromChild, winauto.uiauto_IUIAutomationTextPattern_RangeFromChild
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTextPattern.RangeFromChild"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

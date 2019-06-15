@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSecPkgContext_SessionAppData, SecPkgContext_SessionAppData, SecPkgContext_SessionAppData structure [Security], schannel/SecPkgContext_SessionAppData, security.secpkgcontext_sessionappdata"
 ms.topic: struct
+f1_keywords: ["schannel/SecPkgContext_SessionAppData"]
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows

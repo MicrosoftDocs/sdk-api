@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_0a443841-294d-4b14-8f95-7825de89b8ac.xml, DISPLAYCONFIG_SOURCE_DEVICE_NAME, DISPLAYCONFIG_SOURCE_DEVICE_NAME structure [Display Devices], display.displayconfig_source_device_name, wingdi/DISPLAYCONFIG_SOURCE_DEVICE_NAME
 ms.topic: struct
+f1_keywords: ["wingdi/DISPLAYCONFIG_SOURCE_DEVICE_NAME"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

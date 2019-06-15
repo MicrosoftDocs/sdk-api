@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes
 ms.topic: struct
+f1_keywords: ["naptypes/ResultCodes"]
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

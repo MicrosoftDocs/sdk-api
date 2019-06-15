@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize, winrt.hstring_usersize
 ms.topic: function
+f1_keywords: ["winstring/HSTRING_UserSize"]
 req.header: winstring.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows

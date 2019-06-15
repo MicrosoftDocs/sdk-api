@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_STREAM_TYPE_INFO, WM_STREAM_TYPE_INFO structure [windows Media Format], structure [windows Media Format], wmformat.wm_stream_type_info, wmsdkidl/WM_STREAM_TYPE_INFO
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WM_STREAM_TYPE_INFO"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

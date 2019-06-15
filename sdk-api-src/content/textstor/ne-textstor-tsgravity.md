@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_GR_BACKWARD, TS_GR_FORWARD, TsGravity, TsGravity enumeration [Text Services Framework], _tsf_tsgravity_ref, textstor/TS_GR_BACKWARD, textstor/TS_GR_FORWARD, textstor/TsGravity, tsf.tsgravity
 ms.topic: enum
+f1_keywords: ["textstor/TsGravity"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

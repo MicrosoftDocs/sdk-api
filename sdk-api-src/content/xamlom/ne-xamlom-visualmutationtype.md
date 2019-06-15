@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Remove, VisualMutationType, VisualMutationType enumeration, xaml_diagnostics.visualmutationtype, xamlom/Add, xamlom/Remove, xamlom/VisualMutationType
 ms.topic: enum
+f1_keywords: ["xamlom/VisualMutationType"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

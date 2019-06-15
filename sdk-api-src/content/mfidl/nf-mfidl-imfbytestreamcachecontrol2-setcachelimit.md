@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],SetCacheLimit method, IMFByteStreamCacheControl2.SetCacheLimit, IMFByteStreamCacheControl2::SetCacheLimit, SetCacheLimit, SetCacheLimit method [Media Foundation], SetCacheLimit method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_setcachelimit, mfidl/IMFByteStreamCacheControl2::SetCacheLimit
 ms.topic: method
+f1_keywords: ["mfidl/IMFByteStreamCacheControl2.SetCacheLimit"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

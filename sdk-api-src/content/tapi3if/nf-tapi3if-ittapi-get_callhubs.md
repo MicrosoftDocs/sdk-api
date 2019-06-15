@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_CallHubs method, ITTAPI.get_CallHubs, ITTAPI::get_CallHubs, _tapi3_ittapi_get_callhubs, get_CallHubs, get_CallHubs method [TAPI 2.2], get_CallHubs method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_callhubs, tapi3if/ITTAPI::get_CallHubs
 ms.topic: method
+f1_keywords: ["tapi3if/ITTAPI.get_CallHubs"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

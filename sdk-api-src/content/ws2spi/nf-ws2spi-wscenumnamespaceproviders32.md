@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCEnumNameSpaceProviders32, WSCEnumNameSpaceProviders32 function [Winsock], winsock.wscenumnamespaceproviders32, ws2spi/WSCEnumNameSpaceProviders32
 ms.topic: function
+f1_keywords: ["ws2spi/WSCEnumNameSpaceProviders32"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

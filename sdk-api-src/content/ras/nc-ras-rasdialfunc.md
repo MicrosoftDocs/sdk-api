@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
 ms.topic: callback
+f1_keywords: ["ras/RasDialFunc"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
 ms.topic: function
+f1_keywords: ["ntsecapi/LsaEnumerateTrustedDomainsEx"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

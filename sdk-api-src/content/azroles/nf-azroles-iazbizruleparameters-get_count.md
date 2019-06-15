@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],Count property, IAzBizRuleParameters.Count, IAzBizRuleParameters.get_Count, IAzBizRuleParameters::Count, IAzBizRuleParameters::get_Count, azroles/IAzBizRuleParameters::Count, azroles/IAzBizRuleParameters::get_Count, get_Count, security.iazbizruleparameters_count_method
 ms.topic: method
+f1_keywords: ["azroles/IAzBizRuleParameters.Count"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

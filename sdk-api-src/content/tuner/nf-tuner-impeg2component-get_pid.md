@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],get_PID method, IMPEG2Component.get_PID, IMPEG2Component::get_PID, IMPEG2Componentget_PID, get_PID, get_PID method [Microsoft TV Technologies], get_PID method [Microsoft TV Technologies],IMPEG2Component interface, mstv.impeg2component_get_pid, tuner/IMPEG2Component::get_PID
 ms.topic: method
+f1_keywords: ["tuner/IMPEG2Component.get_PID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

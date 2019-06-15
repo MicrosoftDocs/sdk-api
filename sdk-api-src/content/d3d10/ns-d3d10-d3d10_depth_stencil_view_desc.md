@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_DEPTH_STENCIL_VIEW_DESC, D3D10_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 10], bc861c79-f54d-480a-d677-9bbbd949112b, d3d10/D3D10_DEPTH_STENCIL_VIEW_DESC, direct3d10.d3d10_depth_stencil_view_desc
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_DEPTH_STENCIL_VIEW_DESC"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

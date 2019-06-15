@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterContext, RegisterContext function [NetShell], _netsh_registercontext, netsh/RegisterContext, netshell.registercontext
 ms.topic: function
+f1_keywords: ["netsh/RegisterContext"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

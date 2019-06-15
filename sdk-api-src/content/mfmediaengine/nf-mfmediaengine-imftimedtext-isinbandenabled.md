@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],IsInBandEnabled method, IMFTimedText.IsInBandEnabled, IMFTimedText::IsInBandEnabled, IsInBandEnabled, IsInBandEnabled method [Media Foundation], IsInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_isinbandenabled, mfmediaengine/IMFTimedText::IsInBandEnabled
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFTimedText.IsInBandEnabled"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

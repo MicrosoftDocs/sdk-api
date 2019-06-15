@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
 ms.topic: interface
+f1_keywords: ["indexsrv/IWordFormSink"]
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

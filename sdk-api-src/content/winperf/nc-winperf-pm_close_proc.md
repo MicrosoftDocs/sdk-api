@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClosePerformanceData, ClosePerformanceData callback function [Perf], PM_CLOSE_PROC, PM_CLOSE_PROC callback, base.closeperformancedata, perf.closeperformancedata, winperf/ClosePerformanceData
 ms.topic: callback
+f1_keywords: ["winperf/ClosePerformanceData"]
 req.header: winperf.h
 req.include-header: 
 req.target-type: Windows

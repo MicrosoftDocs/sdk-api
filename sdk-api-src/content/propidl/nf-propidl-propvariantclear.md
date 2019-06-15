@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantClear, PropVariantClear function [Windows Properties], _shell_PropVariantClear, properties.PropVariantClear, propidl/PropVariantClear, shell.PropVariantClear
 ms.topic: function
+f1_keywords: ["propidl/PropVariantClear"]
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_EventCode method, ITPrivateEvent.get_EventCode, ITPrivateEvent::get_EventCode, _tapi3_itprivateevent_get_eventcode, get_EventCode, get_EventCode method [TAPI 2.2], get_EventCode method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_eventcode, tapi3if/ITPrivateEvent::get_EventCode
 ms.topic: method
+f1_keywords: ["tapi3if/ITPrivateEvent.get_EventCode"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], IAudioLoudness interface [Core Audio],described, coreaudio.iaudioloudness, devicetopology/IAudioLoudness
 ms.topic: interface
+f1_keywords: ["devicetopology/IAudioLoudness"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

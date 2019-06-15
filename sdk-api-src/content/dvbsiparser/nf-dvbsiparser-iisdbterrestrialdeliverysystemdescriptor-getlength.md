@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbTerrestrialDeliverySystemDescriptor.GetLength, IIsdbTerrestrialDeliverySystemDescriptor::GetLength, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetLength, mstv.iisdbterrestrialdeliverysystemdescriptor_getlength
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetLength"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

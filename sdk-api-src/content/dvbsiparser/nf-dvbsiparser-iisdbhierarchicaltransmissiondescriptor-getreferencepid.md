@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReferencePid, GetReferencePid method [Microsoft TV Technologies], GetReferencePid method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetReferencePid method, IIsdbHierarchicalTransmissionDescriptor.GetReferencePid, IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetReferencePid"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

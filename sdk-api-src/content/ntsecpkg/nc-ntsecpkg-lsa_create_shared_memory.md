@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSharedMemory, CreateSharedMemory callback function [Security], LSA_CREATE_SHARED_MEMORY, LSA_CREATE_SHARED_MEMORY callback, _ssp_createsharedmemory, ntsecpkg/CreateSharedMemory, security.createsharedmemory
 ms.topic: callback
+f1_keywords: ["ntsecpkg/CreateSharedMemory"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

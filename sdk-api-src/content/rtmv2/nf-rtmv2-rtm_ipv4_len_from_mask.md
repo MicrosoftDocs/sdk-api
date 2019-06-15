@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_LEN_FROM_MASK, RTM_IPV4_LEN_FROM_MASK macro [RAS], _rtmv2ref_rtm_ipv4_len_from_mask, rras.rtm_ipv4_len_from_mask, rtmv2/RTM_IPV4_LEN_FROM_MASK
 ms.topic: macro
+f1_keywords: ["rtmv2/RTM_IPV4_LEN_FROM_MASK"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

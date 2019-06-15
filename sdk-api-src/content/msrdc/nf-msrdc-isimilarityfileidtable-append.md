@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],Append method, ISimilarityFileIdTable.Append, ISimilarityFileIdTable::Append, fs.isimilarityfileidtable_append, msrdc/ISimilarityFileIdTable::Append, rdc.isimilarityfileidtable_append
 ms.topic: method
+f1_keywords: ["msrdc/ISimilarityFileIdTable.Append"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

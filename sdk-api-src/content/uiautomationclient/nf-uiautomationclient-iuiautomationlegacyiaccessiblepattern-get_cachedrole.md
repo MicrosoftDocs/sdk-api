@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedRole property [Windows Accessibility], CachedRole property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedRole property, IUIAutomationLegacyIAccessiblePattern.CachedRole, IUIAutomationLegacyIAccessiblePattern.get_CachedRole, IUIAutomationLegacyIAccessiblePattern::CachedRole, IUIAutomationLegacyIAccessiblePattern::get_CachedRole, get_CachedRole, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedRole, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedRole, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedRole
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedRole"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

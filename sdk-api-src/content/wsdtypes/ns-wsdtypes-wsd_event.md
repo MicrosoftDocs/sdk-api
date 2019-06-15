@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENT, WSD_EVENT structure, ncd.wsd_event_struct, wsdtypes/WSD_EVENT
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_EVENT"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

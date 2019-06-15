@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarAbs, VarAbs function [Automation], _oa96_VarAbs, automat.varabs, oleauto/VarAbs
 ms.topic: function
+f1_keywords: ["oleauto/VarAbs"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

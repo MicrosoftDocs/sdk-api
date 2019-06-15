@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.topic: macro
+f1_keywords: ["winnt/C_ASSERT"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

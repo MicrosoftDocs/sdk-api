@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregister_func, etw.eventunregister_func, evntprov/EventUnregister
 ms.topic: function
+f1_keywords: ["evntprov/EventUnregister"]
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

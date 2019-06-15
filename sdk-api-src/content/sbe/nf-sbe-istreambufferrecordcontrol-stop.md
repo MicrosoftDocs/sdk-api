@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Stop method, IStreamBufferRecordControl.Stop, IStreamBufferRecordControl::Stop, IStreamBufferRecordControlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_stop, sbe/IStreamBufferRecordControl::Stop
 ms.topic: method
+f1_keywords: ["sbe/IStreamBufferRecordControl.Stop"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

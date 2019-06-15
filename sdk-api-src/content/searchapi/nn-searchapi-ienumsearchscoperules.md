@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchScopeRules, IEnumSearchScopeRules interface [search], IEnumSearchScopeRules interface [search],described, _search_IEnumSearchScopeRules, search._search_IEnumSearchScopeRules, searchapi/IEnumSearchScopeRules
 ms.topic: interface
+f1_keywords: ["searchapi/IEnumSearchScopeRules"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

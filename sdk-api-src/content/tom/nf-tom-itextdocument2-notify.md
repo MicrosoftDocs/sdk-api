@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Notify method, ITextDocument2.Notify, ITextDocument2::Notify, Notify, Notify method [Windows Controls], Notify method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_notify, tom/ITextDocument2::Notify
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.Notify"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

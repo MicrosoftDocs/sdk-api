@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IATSC_MGT.GetRecordCountOfDescriptors, IATSC_MGT::GetRecordCountOfDescriptors, IATSC_MGTGetRecordCountOfDescriptors, atscpsipparser/IATSC_MGT::GetRecordCountOfDescriptors, mstv.iatsc_mgt_getrecordcountofdescriptors
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_MGT.GetRecordCountOfDescriptors"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhServiceReloadConfiguration, FhServiceReloadConfiguration function [Windows API], fhsvcctl/FhServiceReloadConfiguration, winprog.fhservicereloadconfiguration
 ms.topic: function
+f1_keywords: ["fhsvcctl/FhServiceReloadConfiguration"]
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDocViewSite interface [Windows Shell],OnSetTitle method, IDocViewSite.OnSetTitle, IDocViewSite::OnSetTitle, OnSetTitle, OnSetTitle method [Windows Shell], OnSetTitle method [Windows Shell],IDocViewSite interface, _win32_IDocViewSite_OnSetTitle, shell.IDocViewSite_OnSetTitle, shlobj/IDocViewSite::OnSetTitle
 ms.topic: method
+f1_keywords: ["shlobj/IDocViewSite.OnSetTitle"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

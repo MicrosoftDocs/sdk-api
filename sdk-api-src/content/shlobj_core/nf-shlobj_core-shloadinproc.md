@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHLoadInProc, SHLoadInProc function [Windows Shell], _win32_SHLoadInProc, shell.SHLoadInProc, shlobj_core/SHLoadInProc
 ms.topic: function
+f1_keywords: ["shlobj_core/SHLoadInProc"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTargetID, GetTargetID method [SMI], GetTargetID method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetID method, ITargetInfo.GetTargetID, ITargetInfo::GetTargetID, smi.itargetinfo_gettargetid, wcmconfig/ITargetInfo::GetTargetID
 ms.topic: method
+f1_keywords: ["wcmconfig/ITargetInfo.GetTargetID"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

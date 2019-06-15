@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumFormatEtc, EnumFormatEtc method [COM], EnumFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],EnumFormatEtc method, IDataObject.EnumFormatEtc, IDataObject::EnumFormatEtc, _ole_idataobject_enumformatetc, com.idataobject_enumformatetc, objidl/IDataObject::EnumFormatEtc
 ms.topic: method
+f1_keywords: ["objidl/IDataObject.EnumFormatEtc"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
 ms.topic: interface
+f1_keywords: ["wbemprov/IWbemProviderInitSink"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

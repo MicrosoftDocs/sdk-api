@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FULLPROPSPEC, FULLPROPSPEC structure [Indexing Service], _idxs_FULLPROPSPEC, filter/FULLPROPSPEC, indexsrv.fullpropspec, tagFULLPROPSPEC
 ms.topic: struct
+f1_keywords: ["filter/FULLPROPSPEC"]
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

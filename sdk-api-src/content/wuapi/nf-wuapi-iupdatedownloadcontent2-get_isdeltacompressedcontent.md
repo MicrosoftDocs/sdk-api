@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContent2 interface [Windows Update Agent],IsDeltaCompressedContent property, IUpdateDownloadContent2.IsDeltaCompressedContent, IUpdateDownloadContent2.get_IsDeltaCompressedContent, IUpdateDownloadContent2::IsDeltaCompressedContent, IUpdateDownloadContent2::get_IsDeltaCompressedContent, IsDeltaCompressedContent property [Windows Update Agent], IsDeltaCompressedContent property [Windows Update Agent],IUpdateDownloadContent2 interface, get_IsDeltaCompressedContent, wua.iupdatedownloadcontent2_isdeltacompressedcontent, wuapi/IUpdateDownloadContent2::IsDeltaCompressedContent, wuapi/IUpdateDownloadContent2::get_IsDeltaCompressedContent
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateDownloadContent2.IsDeltaCompressedContent"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

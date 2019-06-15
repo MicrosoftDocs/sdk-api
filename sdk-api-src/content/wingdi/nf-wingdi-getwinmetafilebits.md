@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWinMetaFileBits, GetWinMetaFileBits function [Windows GDI], _win32_GetWinMetaFileBits, gdi.getwinmetafilebits, wingdi/GetWinMetaFileBits
 ms.topic: function
+f1_keywords: ["wingdi/GetWinMetaFileBits"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

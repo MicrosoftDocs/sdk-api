@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelogging.traceloggingsocketaddress, traceloggingprovider/TraceLoggingSocketAddress
 ms.topic: macro
+f1_keywords: ["traceloggingprovider/TraceLoggingSocketAddress"]
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

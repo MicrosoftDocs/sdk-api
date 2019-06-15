@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsObjectOptions, IADsObjectOptions interface [ADSI], IADsObjectOptions interface [ADSI],described, _ds_iadsobjectoptions, adsi.iadsobjectoptions, iads/IADsObjectOptions
 ms.topic: interface
+f1_keywords: ["iads/IADsObjectOptions"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

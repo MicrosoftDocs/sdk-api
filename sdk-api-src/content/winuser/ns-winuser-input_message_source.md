@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INPUT_MESSAGE_SOURCE, INPUT_MESSAGE_SOURCE structure, input_sourceid.input_message_source, inputsourceid.input_message_source, tagINPUT_MESSAGE_SOURCE, winuser/INPUT_MESSAGE_SOURCE
 ms.topic: struct
+f1_keywords: ["winuser/INPUT_MESSAGE_SOURCE"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

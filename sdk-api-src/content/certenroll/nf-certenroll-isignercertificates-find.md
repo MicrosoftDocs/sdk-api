@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Find, Find method [Security], Find method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Find method, ISignerCertificates.Find, ISignerCertificates::Find, certenroll/ISignerCertificates::Find, security.isignercertificates_find_method
 ms.topic: method
+f1_keywords: ["certenroll/ISignerCertificates.Find"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

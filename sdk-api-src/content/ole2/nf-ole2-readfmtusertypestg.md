@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
 ms.topic: function
+f1_keywords: ["ole2/ReadFmtUserTypeStg"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

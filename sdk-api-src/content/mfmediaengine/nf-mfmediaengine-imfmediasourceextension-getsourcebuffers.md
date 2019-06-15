@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceBuffers, GetSourceBuffers method [Media Foundation], GetSourceBuffers method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetSourceBuffers method, IMFMediaSourceExtension.GetSourceBuffers, IMFMediaSourceExtension::GetSourceBuffers, mf.imfmediasourceextension_getsourcebuffers, mfmediaengine/IMFMediaSourceExtension::GetSourceBuffers
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaSourceExtension.GetSourceBuffers"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

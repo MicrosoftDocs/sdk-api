@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingQueue interface [Fax Service],Refresh method, IFaxIncomingQueue.Refresh, IFaxIncomingQueue::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxIncomingQueue interface, _mfax_faxincomingqueue.refresh, fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_refresh_cpp, fax._mfax_faxincomingqueue_refresh, faxcomex/IFaxIncomingQueue::Refresh
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingQueue.Refresh"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

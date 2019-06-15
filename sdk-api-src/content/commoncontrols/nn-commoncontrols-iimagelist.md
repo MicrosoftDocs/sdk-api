@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], IImageList interface [Windows Controls],described, comctl_IImageList, comctl_IImageList_cpp, commoncontrols/IImageList, controls.IImageList, controls.comctl_IImageList
 ms.topic: interface
+f1_keywords: ["commoncontrols/IImageList"]
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure pointer [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure [RPC], rpc.rpc_c_opt_cookie_auth_descriptor, rpcdcep/PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, rpcdcep/RPC_CALL_ATTRIBUTES_V1_A, rpcdcep/RPC_CALL_ATTRIBUTES_V1_W, rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 ms.topic: struct
+f1_keywords: ["rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR"]
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows

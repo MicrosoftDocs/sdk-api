@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHPropStgWriteMultiple, SHPropStgWriteMultiple function [Windows Properties], _win32_SHPropStgWriteMultiple, properties.SHPropStgWriteMultiple, shell.SHPropStgWriteMultiple, shlobj_core/SHPropStgWriteMultiple
 ms.topic: function
+f1_keywords: ["shlobj_core/SHPropStgWriteMultiple"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

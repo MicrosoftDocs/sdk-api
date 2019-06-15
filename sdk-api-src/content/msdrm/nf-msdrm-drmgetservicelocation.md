@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetServiceLocation, DRMGetServiceLocation function [Active Directory Rights Management Services SDK 1.0], DRM_SERVICE_LOCATION_ENTERPRISE, DRM_SERVICE_LOCATION_INTERNET, DRM_SERVICE_TYPE_ACTIVATION, DRM_SERVICE_TYPE_CERTIFICATION, DRM_SERVICE_TYPE_CLIENTLICENSOR, DRM_SERVICE_TYPE_PUBLISHING, DRM_SERVICE_TYPE_SILENT, msdrm/DRMGetServiceLocation, rm.drmgetservicelocation
 ms.topic: function
+f1_keywords: ["msdrm/DRMGetServiceLocation"]
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

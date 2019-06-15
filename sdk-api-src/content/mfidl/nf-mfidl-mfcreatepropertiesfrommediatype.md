@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreatePropertiesFromMediaType, MFCreatePropertiesFromMediaType function [Media Foundation], mf.mfcreatepropertiesfrommediatype, mfidl/MFCreatePropertiesFromMediaType
 ms.topic: function
+f1_keywords: ["mfidl/MFCreatePropertiesFromMediaType"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

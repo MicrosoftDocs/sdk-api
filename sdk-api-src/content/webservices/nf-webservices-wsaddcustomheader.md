@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsAddCustomHeader, WsAddCustomHeader function [Web Services for Windows], webservices/WsAddCustomHeader, wsw.wsaddcustomheader
 ms.topic: function
+f1_keywords: ["webservices/WsAddCustomHeader"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

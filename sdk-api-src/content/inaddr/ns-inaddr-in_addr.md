@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPIN_ADDR, *PIN_ADDR, IN_ADDR, IPAddr, IPAddr structure [IP Helper], in_addr, in_addr structure [IP Helper], inaddr/in_addr, ipexport/in_addr, iphlp.ipaddr"
 ms.topic: struct
+f1_keywords: ["inaddr/IPAddr"]
 req.header: inaddr.h
 req.include-header: Ipexport.h
 req.target-type: Windows

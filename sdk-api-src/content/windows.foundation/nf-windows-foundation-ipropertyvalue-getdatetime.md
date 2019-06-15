@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDateTime, GetDateTime method [Windows Runtime], GetDateTime method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTime method, IPropertyValue.GetDateTime, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTime, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTime, winrt.ipropertyvalue_getdatetime
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValue.GetDateTime"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

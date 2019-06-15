@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnVSSApplicationStartup method, CVssWriter.OnVSSApplicationStartup, CVssWriter::OnVSSApplicationStartup, OnVSSApplicationStartup, OnVSSApplicationStartup method [VSS], OnVSSApplicationStartup method [VSS],CVssWriter interface, _win32_cvsswriter_onvssapplicationstartup, base.cvsswriter_onvssapplicationstartup, vswriter/CVssWriter::OnVSSApplicationStartup
 ms.topic: method
+f1_keywords: ["vswriter/CVssWriter.OnVSSApplicationStartup"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

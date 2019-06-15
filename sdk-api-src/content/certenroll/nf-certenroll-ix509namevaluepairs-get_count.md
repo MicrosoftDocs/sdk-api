@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Count property, IX509NameValuePairs.Count, IX509NameValuePairs.get_Count, IX509NameValuePairs::Count, IX509NameValuePairs::get_Count, certenroll/IX509NameValuePairs::Count, certenroll/IX509NameValuePairs::get_Count, get_Count, security.ix509namevaluepairs_count_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509NameValuePairs.Count"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

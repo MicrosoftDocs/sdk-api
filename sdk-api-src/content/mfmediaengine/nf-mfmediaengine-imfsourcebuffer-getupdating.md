@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdating, GetUpdating method [Media Foundation], GetUpdating method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetUpdating method, IMFSourceBuffer.GetUpdating, IMFSourceBuffer::GetUpdating, mf.imfsourcebuffer_getupdating, mfmediaengine/IMFSourceBuffer::GetUpdating
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFSourceBuffer.GetUpdating"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

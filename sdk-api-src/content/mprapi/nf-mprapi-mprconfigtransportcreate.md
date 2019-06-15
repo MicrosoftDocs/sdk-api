@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportCreate, MprConfigTransportCreate function [RAS], _mpr_mprconfigtransportcreate, mprapi/MprConfigTransportCreate, rras.mprconfigtransportcreate
 ms.topic: function
+f1_keywords: ["mprapi/MprConfigTransportCreate"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

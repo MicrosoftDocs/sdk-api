@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICoreWindowInterop, ICoreWindowInterop interface [Windows Runtime], ICoreWindowInterop interface [Windows Runtime],described, corewindow/ICoreWindowInterop, winrt.icorewindowinterop
 ms.topic: interface
+f1_keywords: ["corewindow/ICoreWindowInterop"]
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows

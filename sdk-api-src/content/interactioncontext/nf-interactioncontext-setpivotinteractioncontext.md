@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetPivotInteractionContext, SetPivotInteractionContext function, input_intcontext.setpivotinteractioncontext, interactioncontext.setpivotinteractioncontext, interactioncontext/SetPivotInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/SetPivotInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

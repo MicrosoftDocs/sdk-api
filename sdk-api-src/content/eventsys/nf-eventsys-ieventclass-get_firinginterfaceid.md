@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FiringInterfaceID property [COM+], FiringInterfaceID property [COM+],IEventClass interface, IEventClass interface [COM+],FiringInterfaceID property, IEventClass.FiringInterfaceID, IEventClass.get_FiringInterfaceID, IEventClass::FiringInterfaceID, IEventClass::get_FiringInterfaceID, IEventClass::put_FiringInterfaceID, cos.ieventclass_firinginterfaceid, eventsys/IEventClass::FiringInterfaceID, eventsys/IEventClass::get_FiringInterfaceID, eventsys/IEventClass::put_FiringInterfaceID, get_FiringInterfaceID
 ms.topic: method
+f1_keywords: ["eventsys/IEventClass.FiringInterfaceID"]
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTLIBATTR, LPTLIBATTR, LPTLIBATTR structure pointer [Automation], TLIBATTR, TLIBATTR structure [Automation], _oa96_TLIBATTR, automat.tlibattr, oaidl/LPTLIBATTR, oaidl/TLIBATTR"
 ms.topic: struct
+f1_keywords: ["oaidl/TLIBATTR"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

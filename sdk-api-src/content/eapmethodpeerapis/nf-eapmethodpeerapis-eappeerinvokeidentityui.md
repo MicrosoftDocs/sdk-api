@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerInvokeIdentityUI, EapPeerInvokeIdentityUI function [EAPHost], eaphost.eappeerinvokeidentityui, eapmethodpeerapis/EapPeerInvokeIdentityUI
 ms.topic: function
+f1_keywords: ["eapmethodpeerapis/EapPeerInvokeIdentityUI"]
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

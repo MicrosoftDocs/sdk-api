@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NullTransform, IBDA_NullTransform interface [Microsoft TV Technologies], IBDA_NullTransform interface [Microsoft TV Technologies],described, IBDA_NullTransformInterface, bdaiface/IBDA_NullTransform, mstv.ibda_nulltransform
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_NullTransform"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

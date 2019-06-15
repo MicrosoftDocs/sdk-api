@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
 ms.topic: interface
+f1_keywords: ["control/IAMStats"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

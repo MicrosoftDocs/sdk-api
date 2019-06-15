@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeEntity, SnmpFreeEntity function [SNMP], _snmp_snmpfreeentity, snmp.snmpfreeentity, winsnmp/SnmpFreeEntity
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpFreeEntity"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

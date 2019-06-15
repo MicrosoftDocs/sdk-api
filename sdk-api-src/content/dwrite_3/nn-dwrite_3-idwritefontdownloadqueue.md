@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontDownloadQueue, IDWriteFontDownloadQueue interface [Direct Write], IDWriteFontDownloadQueue interface [Direct Write],described, directwrite.idwritefontdownloadqueue, dwrite_3/IDWriteFontDownloadQueue
 ms.topic: interface
+f1_keywords: ["dwrite_3/IDWriteFontDownloadQueue"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

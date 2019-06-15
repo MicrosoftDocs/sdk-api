@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_STOP, IOCTL_PWM_PIN_STOP control, IOCTL_PWM_PIN_STOP control code, base.ioctl_pwm_pin_stop, pwm/IOCTL_PWM_PIN_STOP
 ms.topic: ioctl
+f1_keywords: ["pwm/IOCTL_PWM_PIN_STOP"]
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

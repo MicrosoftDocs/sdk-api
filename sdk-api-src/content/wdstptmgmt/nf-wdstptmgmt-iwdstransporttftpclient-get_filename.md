@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileName property [Windows Deployment Services], FileName property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileName property, IWdsTransportTftpClient.FileName, IWdsTransportTftpClient.get_FileName, IWdsTransportTftpClient::FileName, IWdsTransportTftpClient::get_FileName, get_FileName, wds.iwdstransporttftpclient_filename, wdstptmgmt/IWdsTransportTftpClient::FileName, wdstptmgmt/IWdsTransportTftpClient::get_FileName
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportTftpClient.FileName"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

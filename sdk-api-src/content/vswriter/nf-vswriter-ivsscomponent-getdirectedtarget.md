@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDirectedTarget, GetDirectedTarget method [VSS], GetDirectedTarget method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTarget method, IVssComponent.GetDirectedTarget, IVssComponent::GetDirectedTarget, _win32_ivsscomponent_getdirectedtarget, base.ivsscomponent_getdirectedtarget, vswriter/IVssComponent::GetDirectedTarget
 ms.topic: method
+f1_keywords: ["vswriter/IVssComponent.GetDirectedTarget"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

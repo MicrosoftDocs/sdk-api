@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsnRecordSequence, LsnRecordSequence function [Files], clfsw32/LsnRecordSequence, fs.lsnrecordsequence
 ms.topic: function
+f1_keywords: ["clfsw32/LsnRecordSequence"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

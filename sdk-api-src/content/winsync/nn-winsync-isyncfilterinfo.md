@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncFilterInfo, ISyncFilterInfo interface [Windows Sync], ISyncFilterInfo interface [Windows Sync],described, winsync.isyncfilterinfo, winsync/ISyncFilterInfo
 ms.topic: interface
+f1_keywords: ["winsync/ISyncFilterInfo"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

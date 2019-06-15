@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Capabilities property [Tablet PC], Capabilities property [Tablet PC],IInkRecognizer interface, IInkRecognizer interface [Tablet PC],Capabilities property, IInkRecognizer.Capabilities, IInkRecognizer.get_Capabilities, IInkRecognizer::Capabilities, IInkRecognizer::get_Capabilities, c8662817-0a33-4828-8de7-c4ce259738a7, get_Capabilities, msinkaut/IInkRecognizer::Capabilities, msinkaut/IInkRecognizer::get_Capabilities, tablet.iinkrecognizer_capabilities
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognizer.Capabilities"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

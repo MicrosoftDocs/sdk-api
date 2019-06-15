@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_BOOT_AREA_INFO, FSCTL_GET_BOOT_AREA_INFO control, FSCTL_GET_BOOT_AREA_INFO control code [Files], fs.fsctl_get_boot_area_info, winioctl/FSCTL_GET_BOOT_AREA_INFO
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_GET_BOOT_AREA_INFO"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

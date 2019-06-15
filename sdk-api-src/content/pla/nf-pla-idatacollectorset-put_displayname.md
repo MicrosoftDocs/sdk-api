@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [PLA], DisplayName property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DisplayName property, IDataCollectorSet.DisplayName, IDataCollectorSet.put_DisplayName, IDataCollectorSet::DisplayName, IDataCollectorSet::get_DisplayName, IDataCollectorSet::put_DisplayName, pla.idatacollectorset_displayname, pla/IDataCollectorSet::DisplayName, pla/IDataCollectorSet::get_DisplayName, pla/IDataCollectorSet::put_DisplayName, put_DisplayName
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.DisplayName"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

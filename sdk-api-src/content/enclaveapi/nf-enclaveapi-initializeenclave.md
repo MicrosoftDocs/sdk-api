@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
 ms.topic: function
+f1_keywords: ["enclaveapi/InitializeEnclave"]
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager
 ms.topic: function
+f1_keywords: ["mtxdm/GetDispenserManager"]
 req.header: mtxdm.h
 req.include-header: 
 req.target-type: Windows

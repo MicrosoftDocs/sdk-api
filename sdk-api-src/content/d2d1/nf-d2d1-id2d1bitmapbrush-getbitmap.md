@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBitmap, GetBitmap method [Direct2D], GetBitmap method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetBitmap method, ID2D1BitmapBrush.GetBitmap, ID2D1BitmapBrush::GetBitmap, d2d1/ID2D1BitmapBrush::GetBitmap, direct2d.ID2D1BitmapBrush_GetBitmap
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1BitmapBrush.GetBitmap"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

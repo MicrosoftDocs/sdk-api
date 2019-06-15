@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS, PWLAN_CONNECTION_PARAMETERS structure pointer [NativeWIFI], WLAN_CONNECTION_PARAMETERS, WLAN_CONNECTION_PARAMETERS structure [NativeWIFI], nwifi.wlan_connection_parameters, wlanapi/PWLAN_CONNECTION_PARAMETERS, wlanapi/WLAN_CONNECTION_PARAMETERS"
 ms.topic: struct
+f1_keywords: ["wlanapi/WLAN_CONNECTION_PARAMETERS"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

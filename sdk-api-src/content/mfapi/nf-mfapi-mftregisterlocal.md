@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFTRegisterLocal, MFTRegisterLocal function [Media Foundation], mf.mftregisterlocal, mfapi/MFTRegisterLocal
 ms.topic: function
+f1_keywords: ["mfapi/MFTRegisterLocal"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

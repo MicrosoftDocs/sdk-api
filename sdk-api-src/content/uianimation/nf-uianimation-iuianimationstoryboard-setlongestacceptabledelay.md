@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetLongestAcceptableDelay method, IUIAnimationStoryboard.SetLongestAcceptableDelay, IUIAnimationStoryboard::SetLongestAcceptableDelay, SetLongestAcceptableDelay, SetLongestAcceptableDelay method [Windows Animation], SetLongestAcceptableDelay method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setlongestacceptabledelay, uianimation/IUIAnimationStoryboard::SetLongestAcceptableDelay
 ms.topic: method
+f1_keywords: ["uianimation/IUIAnimationStoryboard.SetLongestAcceptableDelay"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

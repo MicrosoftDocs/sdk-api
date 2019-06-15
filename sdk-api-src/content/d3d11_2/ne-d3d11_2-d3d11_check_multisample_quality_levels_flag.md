@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG enumeration [Direct3D 11], D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, direct3d11.d3d11_check_multisample_quality_levels_flags
 ms.topic: enum
+f1_keywords: ["d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG"]
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

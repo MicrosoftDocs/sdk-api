@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Dhcpv6ReleasePrefix, Dhcpv6ReleasePrefix function [DHCP], dhcp.dhcpv6releaseprefix, dhcpv6csdk/Dhcpv6ReleasePrefix
 ms.topic: function
+f1_keywords: ["dhcpv6csdk/Dhcpv6ReleasePrefix"]
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

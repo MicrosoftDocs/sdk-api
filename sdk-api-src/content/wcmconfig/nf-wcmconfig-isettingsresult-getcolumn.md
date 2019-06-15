@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [SMI], GetColumn method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetColumn method, ISettingsResult.GetColumn, ISettingsResult::GetColumn, smi.isettingsresult_getcolumn, wcmconfig/ISettingsResult::GetColumn
 ms.topic: method
+f1_keywords: ["wcmconfig/ISettingsResult.GetColumn"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

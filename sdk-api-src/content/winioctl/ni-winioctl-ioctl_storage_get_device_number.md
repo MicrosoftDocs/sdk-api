@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code, base.ioctl_storage_get_device_number, winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_GET_DEVICE_NUMBER"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

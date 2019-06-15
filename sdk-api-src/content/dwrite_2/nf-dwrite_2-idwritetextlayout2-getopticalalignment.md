@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOpticalAlignment, GetOpticalAlignment method [Direct Write], GetOpticalAlignment method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetOpticalAlignment method, IDWriteTextLayout2.GetOpticalAlignment, IDWriteTextLayout2::GetOpticalAlignment, directwrite.idwritetextlayout2_getopticalalignment, dwrite_2/IDWriteTextLayout2::GetOpticalAlignment
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteTextLayout2.GetOpticalAlignment"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

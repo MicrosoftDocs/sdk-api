@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_PROPERTY_APPEND, ADS_PROPERTY_CLEAR, ADS_PROPERTY_DELETE, ADS_PROPERTY_OPERATION_ENUM, ADS_PROPERTY_OPERATION_ENUM enumeration [ADSI], ADS_PROPERTY_UPDATE, _ds_ads_property_operation_enum, adsi.ads__property__operation__enum, adsi.ads_property_operation_enum, iads/ADS_PROPERTY_APPEND, iads/ADS_PROPERTY_CLEAR, iads/ADS_PROPERTY_DELETE, iads/ADS_PROPERTY_OPERATION_ENUM, iads/ADS_PROPERTY_UPDATE
 ms.topic: enum
+f1_keywords: ["iads/ADS_PROPERTY_OPERATION_ENUM"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

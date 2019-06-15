@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IControlInterface, IControlInterface interface [Core Audio], IControlInterface interface [Core Audio],described, coreaudio.icontrolinterface, devicetopology/IControlInterface
 ms.topic: interface
+f1_keywords: ["devicetopology/IControlInterface"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

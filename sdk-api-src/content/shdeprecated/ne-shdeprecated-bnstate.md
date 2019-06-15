@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BNSTATE, BNSTATE enumeration [Windows Shell], BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, _shell_BNSTATE, shdeprecated/BNSTATE, shdeprecated/BNS_BEGIN_NAVIGATE, shdeprecated/BNS_NAVIGATE, shdeprecated/BNS_NORMAL, shell.BNSTATE
 ms.topic: enum
+f1_keywords: ["shdeprecated/BNSTATE"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

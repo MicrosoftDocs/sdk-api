@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],IsVisible method, GraphicsPath.IsVisible, GraphicsPath.IsVisible(IN REAL,IN REAL,IN const Graphics), GraphicsPath.IsVisible(REAL,REAL,const Graphics*), GraphicsPath::IsVisible, GraphicsPath::IsVisible(IN REAL,IN REAL,IN const Graphics), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsVisible_REAL_x_REAL_y_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_REAL_x_REAL_y_Graphics_g_
 ms.topic: method
+f1_keywords: ["gdipluspath/GraphicsPath.IsVisible"]
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

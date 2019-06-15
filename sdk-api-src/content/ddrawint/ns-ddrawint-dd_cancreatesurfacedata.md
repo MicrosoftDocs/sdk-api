@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA, DD_CANCREATESURFACEDATA structure [Display Devices], ddrawint/DD_CANCREATESURFACEDATA, ddstrcts_53ef5031-d754-4aab-8729-520852df024a.xml, display.dd_cancreatesurfacedata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_CANCREATESURFACEDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

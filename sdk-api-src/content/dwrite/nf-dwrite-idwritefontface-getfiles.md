@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFiles, GetFiles method [Direct Write], GetFiles method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetFiles method, IDWriteFontFace.GetFiles, IDWriteFontFace::GetFiles, directwrite.IDWriteFontFace_GetFiles, dwrite/IDWriteFontFace::GetFiles
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteFontFace.GetFiles"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

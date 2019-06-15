@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],QueryS method, IEventSystem.QueryS, IEventSystem::QueryS, QueryS, QueryS method [COM+], QueryS method [COM+],IEventSystem interface, _cos_IEventSystem_QueryS, cos.ieventsystem_querys, eventsys/IEventSystem::QueryS
 ms.topic: method
+f1_keywords: ["eventsys/IEventSystem.QueryS"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

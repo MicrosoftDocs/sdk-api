@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView, IEnumITfCompositionView interface [Text Services Framework], IEnumITfCompositionView interface [Text Services Framework],described, _tsf_ienumitfcompositionview_ref, msctf/IEnumITfCompositionView, tsf.ienumitfcompositionview
 ms.topic: interface
+f1_keywords: ["msctf/IEnumITfCompositionView"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentStructureResource, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging], IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],described, xps.ixpsomdocumentstructureresource, xpsobjectmodel/IXpsOMDocumentStructureResource
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMDocumentStructureResource"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

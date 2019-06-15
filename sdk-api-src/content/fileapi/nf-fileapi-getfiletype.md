@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileType, GetFileType function [Files], _win32_getfiletype, base.getfiletype, fileapi/GetFileType, fs.getfiletype, winbase/GetFileType
 ms.topic: function
+f1_keywords: ["fileapi/GetFileType"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

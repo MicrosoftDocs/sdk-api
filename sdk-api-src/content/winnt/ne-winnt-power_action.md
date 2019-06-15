@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, _win32_power_action, base.power_action, winnt/POWER_ACTION, winnt/PPOWER_ACTION, winnt/PowerActionHibernate, winnt/PowerActionNone, winnt/PowerActionReserved, winnt/PowerActionShutdown, winnt/PowerActionShutdownOff, winnt/PowerActionShutdownReset, winnt/PowerActionSleep, winnt/PowerActionWarmEject"
 ms.topic: enum
+f1_keywords: ["winnt/POWER_ACTION"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

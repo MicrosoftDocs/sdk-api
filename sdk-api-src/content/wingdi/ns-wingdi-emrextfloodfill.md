@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL"
 ms.topic: struct
+f1_keywords: ["wingdi/EMREXTFLOODFILL"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

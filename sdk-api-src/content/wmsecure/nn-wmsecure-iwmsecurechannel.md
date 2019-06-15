@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel, IWMSecureChannel interface [windows Media Format], IWMSecureChannel interface [windows Media Format],described, wmformat.iwmsecurechannel, wmsecure/IWMSecureChannel
 ms.topic: interface
+f1_keywords: ["wmsecure/IWMSecureChannel"]
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows

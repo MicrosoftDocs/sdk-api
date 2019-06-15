@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],SharePrinters method, ISharingConfigurationManager.SharePrinters, ISharingConfigurationManager::SharePrinters, SharePrinters, SharePrinters method [Windows Shell], SharePrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_SharePrinters, shell.ISharingConfigurationManager_SharePrinters, shobjidl_core/ISharingConfigurationManager::SharePrinters
 ms.topic: method
+f1_keywords: ["shobjidl_core/ISharingConfigurationManager.SharePrinters"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

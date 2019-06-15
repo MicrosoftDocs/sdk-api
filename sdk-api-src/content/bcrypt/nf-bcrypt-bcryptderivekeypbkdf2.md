@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptDeriveKeyPBKDF2"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

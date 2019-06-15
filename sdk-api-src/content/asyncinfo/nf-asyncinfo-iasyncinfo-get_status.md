@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAsyncInfo interface [Windows Runtime],Status property, IAsyncInfo.Status, IAsyncInfo.get_Status, IAsyncInfo::Status, IAsyncInfo::get_Status, Status property [Windows Runtime], Status property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Status, asyncinfo/IAsyncInfo::get_Status, get_Status, winrt.iasyncinfo_status
 ms.topic: method
+f1_keywords: ["asyncinfo/IAsyncInfo.Status"]
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows

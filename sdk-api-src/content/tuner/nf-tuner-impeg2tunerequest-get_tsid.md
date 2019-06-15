@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMPEG2TuneRequest interface [Microsoft TV Technologies],get_TSID method, IMPEG2TuneRequest.get_TSID, IMPEG2TuneRequest::get_TSID, IMPEG2TuneRequestget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IMPEG2TuneRequest interface, mstv.impeg2tunerequest_get_tsid, tuner/IMPEG2TuneRequest::get_TSID
 ms.topic: method
+f1_keywords: ["tuner/IMPEG2TuneRequest.get_TSID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerRegisterMemoryBlock, WerRegisterMemoryBlock function [Windows Error Reporting], base.werregistermemoryblock, wer.werregistermemoryblock, werapi/WerRegisterMemoryBlock
 ms.topic: function
+f1_keywords: ["werapi/WerRegisterMemoryBlock"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

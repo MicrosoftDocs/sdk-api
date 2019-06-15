@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelLength property, IInkEdit.SelLength, IInkEdit.put_SelLength, IInkEdit::SelLength, IInkEdit::get_SelLength, IInkEdit::put_SelLength, InkEdit.get_SelLength, InkEdit.put_SelLength, SelLength property [Tablet PC], SelLength property [Tablet PC],IInkEdit interface, get_SelLength, inked/IInkEdit::SelLength, inked/IInkEdit::get_SelLength, inked/IInkEdit::put_SelLength, put_SelLength, tablet.inkedit_sellength
 ms.topic: method
+f1_keywords: ["inked/IInkEdit.SelLength"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

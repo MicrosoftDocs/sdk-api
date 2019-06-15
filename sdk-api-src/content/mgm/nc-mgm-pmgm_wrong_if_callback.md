@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmWrongIfCallback, PMGM_WRONG_IF_CALLBACK, PMGM_WRONG_IF_CALLBACK callback, PMGM_WRONG_IF_CALLBACK callback function [RAS], _mpr_pmgm_wrong_if_callback, mgm/PMGM_WRONG_IF_CALLBACK, rras.pmgm_wrong_if_callback
 ms.topic: callback
+f1_keywords: ["mgm/PMGM_WRONG_IF_CALLBACK"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

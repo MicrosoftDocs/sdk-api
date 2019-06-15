@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Media Foundation], mf.mfcreatemuxstreammediatype, mfapi/MFCreateMuxStreamMediaType
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateMuxStreamMediaType"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

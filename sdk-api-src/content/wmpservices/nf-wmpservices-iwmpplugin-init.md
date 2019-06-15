@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],Init method, IWMPPlugin.Init, IWMPPlugin::Init, IWMPPluginInitDSP, Init, Init method [Windows Media Player], Init method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_init, wmpservices/IWMPPlugin::Init
 ms.topic: method
+f1_keywords: ["wmpservices/IWMPPlugin.Init"]
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

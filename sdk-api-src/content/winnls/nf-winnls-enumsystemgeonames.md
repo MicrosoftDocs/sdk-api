@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalization for Windows Applications], intl.enumsystemgeonames, winnls/EnumSystemGeoNames
 ms.topic: function
+f1_keywords: ["winnls/EnumSystemGeoNames"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

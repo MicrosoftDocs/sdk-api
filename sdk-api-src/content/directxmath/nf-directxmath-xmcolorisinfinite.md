@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorIsInfinite, XMColorIsInfinite, XMColorIsInfinite method [DirectX Math Support APIs], dxmath.xmcolorisinfinite
 ms.topic: function
+f1_keywords: ["directxmath/XMColorIsInfinite"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

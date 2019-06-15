@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],Process method, IInertiaProcessor.Process, IInertiaProcessor::Process, Process, Process method [Windows Touch], Process method [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::Process, wintouch.iinertiaprocessor_process
 ms.topic: method
+f1_keywords: ["manipulations/IInertiaProcessor.Process"]
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

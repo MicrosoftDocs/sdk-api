@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFENUMPROC, MFENUMPROC callback, MFENUMPROC callback function [Windows GDI], _win32_EnumMetaFileProc, gdi.enummetafileproc, wingdi/MFENUMPROC
 ms.topic: callback
+f1_keywords: ["wingdi/MFENUMPROC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

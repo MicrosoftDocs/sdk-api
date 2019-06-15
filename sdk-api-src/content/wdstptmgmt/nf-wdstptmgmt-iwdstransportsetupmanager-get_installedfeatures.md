@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSetupManager interface [Windows Deployment Services],InstalledFeatures property, IWdsTransportSetupManager.InstalledFeatures, IWdsTransportSetupManager.get_InstalledFeatures, IWdsTransportSetupManager::InstalledFeatures, IWdsTransportSetupManager::get_InstalledFeatures, IWdsTransportSetupManager::put_InstalledFeatures, InstalledFeatures property [Windows Deployment Services], InstalledFeatures property [Windows Deployment Services],IWdsTransportSetupManager interface, get_InstalledFeatures, wds.iwdstransportsetupmanager_installedfeatures, wdstptmgmt/IWdsTransportSetupManager::InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::get_InstalledFeatures, wdstptmgmt/IWdsTransportSetupManager::put_InstalledFeatures
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportSetupManager.InstalledFeatures"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

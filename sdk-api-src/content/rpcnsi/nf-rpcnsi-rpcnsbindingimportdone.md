@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
 ms.topic: function
+f1_keywords: ["rpcnsi/RpcNsBindingImportDone"]
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

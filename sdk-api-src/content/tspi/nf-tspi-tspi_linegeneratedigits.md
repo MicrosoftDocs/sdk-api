@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGenerateDigits, TSPI_lineGenerateDigits function [TAPI 2.2], _tspi_tspi_linegeneratedigits, tspi.tspi_linegeneratedigits, tspi/TSPI_lineGenerateDigits
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineGenerateDigits"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

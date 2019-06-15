@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironmentPropertySet, ITsSbEnvironmentPropertySet interface [Remote Desktop Services], ITsSbEnvironmentPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbEnvironmentPropertySet, termserv.itssbenvironmentpropertyset
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbEnvironmentPropertySet"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

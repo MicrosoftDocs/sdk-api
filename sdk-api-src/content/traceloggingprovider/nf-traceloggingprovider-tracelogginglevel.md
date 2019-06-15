@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
 ms.topic: macro
+f1_keywords: ["traceloggingprovider/TraceLoggingLevel"]
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

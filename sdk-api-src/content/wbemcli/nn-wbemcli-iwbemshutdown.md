@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemShutdown, IWbemShutdown interface [Windows Management Instrumentation], IWbemShutdown interface [Windows Management Instrumentation],described, wbemcli/ IWbemShutdown, wmi.iwbemshutdown
 ms.topic: interface
+f1_keywords: ["wbemcli/IWbemShutdown"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

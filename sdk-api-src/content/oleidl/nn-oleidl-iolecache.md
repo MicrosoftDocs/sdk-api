@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleCache, IOleCache interface [COM], IOleCache interface [COM],described, _ole_iolecache, com.iolecache, oleidl/IOleCache
 ms.topic: interface
+f1_keywords: ["oleidl/IOleCache"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

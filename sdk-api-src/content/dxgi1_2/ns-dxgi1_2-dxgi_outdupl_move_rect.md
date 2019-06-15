@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_MOVE_RECT, DXGI_OUTDUPL_MOVE_RECT structure [DXGI], direct3ddxgi.dxgi_outdupl_move_rect, dxgi1_2/DXGI_OUTDUPL_MOVE_RECT
 ms.topic: struct
+f1_keywords: ["dxgi1_2/DXGI_OUTDUPL_MOVE_RECT"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

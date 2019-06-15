@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPASTREAMINFO, DPASTREAMINFO structure [Windows Controls], _win32_DPASTREAMINFO, _win32_DPASTREAMINFO_cpp, controls.DPASTREAMINFO, controls._win32_DPASTREAMINFO, dpa_dsa/DPASTREAMINFO
 ms.topic: struct
+f1_keywords: ["dpa_dsa/DPASTREAMINFO"]
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

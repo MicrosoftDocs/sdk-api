@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsuspendallowed, base.ispwrsuspendallowed, powrprof/IsPwrSuspendAllowed
 ms.topic: function
+f1_keywords: ["powrprof/IsPwrSuspendAllowed"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

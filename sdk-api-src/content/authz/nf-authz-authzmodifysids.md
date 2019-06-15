@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzModifySids, AuthzModifySids function [Security], authz/AuthzModifySids, security.authzmodifysids
 ms.topic: function
+f1_keywords: ["authz/AuthzModifySids"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

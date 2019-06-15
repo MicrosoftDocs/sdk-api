@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IDTFilter.get_EvalRatObjOK, IDTFilter::get_EvalRatObjOK, IDTFilterget_EvalRatObjOK, encdec/IDTFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_evalratobjok
 ms.topic: method
+f1_keywords: ["encdec/IDTFilter.get_EvalRatObjOK"]
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

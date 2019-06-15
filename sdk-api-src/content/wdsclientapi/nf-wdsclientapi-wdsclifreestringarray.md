@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliFreeStringArray, WdsCliFreeStringArray function [Windows Deployment Services], wds.wdsclifreestringarray, wdsclientapi/WdsCliFreeStringArray
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliFreeStringArray"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

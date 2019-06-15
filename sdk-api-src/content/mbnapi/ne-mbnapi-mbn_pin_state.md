@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_PIN_STATE, MBN_PIN_STATE enumeration [Microsoft Broadband Networks], MBN_PIN_STATE_ENTER, MBN_PIN_STATE_NONE, MBN_PIN_STATE_UNBLOCK, mbn.mbn_pin_state, mbnapi/MBN_PIN_STATE, mbnapi/MBN_PIN_STATE_ENTER, mbnapi/MBN_PIN_STATE_NONE, mbnapi/MBN_PIN_STATE_UNBLOCK
 ms.topic: enum
+f1_keywords: ["mbnapi/MBN_PIN_STATE"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

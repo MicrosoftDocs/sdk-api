@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, ID3D12Debug1 interface,described, d3d12sdklayers/ID3D12Debug1, direct3d12.id3d12debug1
 ms.topic: interface
+f1_keywords: ["d3d12sdklayers/ID3D12Debug1"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

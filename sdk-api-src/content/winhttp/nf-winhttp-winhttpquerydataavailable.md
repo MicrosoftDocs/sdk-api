@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpQueryDataAvailable"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

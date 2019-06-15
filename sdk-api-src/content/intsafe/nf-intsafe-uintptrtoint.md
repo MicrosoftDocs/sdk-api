@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SIZETToInt, SIZETToInt function [Windows Shell], UIntPtrToInt, _shell_SIZETToInt, intsafe/SIZETToInt, shell.SIZETToInt, shell.SIZETToInt_1
 ms.topic: function
+f1_keywords: ["intsafe/SIZETToInt"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

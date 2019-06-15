@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: getipv4sourcefilter, getipv4sourcefilter function [Winsock], winsock.getipv4sourcefilter, ws2tcpip/getipv4sourcefilter
 ms.topic: function
+f1_keywords: ["ws2tcpip/getipv4sourcefilter"]
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

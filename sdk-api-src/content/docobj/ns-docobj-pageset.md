@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET
 ms.topic: struct
+f1_keywords: ["docobj/PAGESET"]
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

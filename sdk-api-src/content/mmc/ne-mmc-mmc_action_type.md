@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_ACTION_ID, MMC_ACTION_LINK, MMC_ACTION_SCRIPT, MMC_ACTION_TYPE, MMC_ACTION_TYPE enumeration [MMC], MMC_ACTION_UNINITIALIZED, _slate_mmc_action_type, mmc.mmc_action_type, mmc/MMC_ACTION_ID, mmc/MMC_ACTION_LINK, mmc/MMC_ACTION_SCRIPT, mmc/MMC_ACTION_TYPE, mmc/MMC_ACTION_UNINITIALIZED
 ms.topic: enum
+f1_keywords: ["mmc/MMC_ACTION_TYPE"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

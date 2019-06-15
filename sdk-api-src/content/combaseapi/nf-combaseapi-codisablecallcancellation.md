@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoDisableCallCancellation, CoDisableCallCancellation function [COM], _com_CoDisableCallCancellation, com.codisablecallcancellation, combaseapi/CoDisableCallCancellation
 ms.topic: function
+f1_keywords: ["combaseapi/CoDisableCallCancellation"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

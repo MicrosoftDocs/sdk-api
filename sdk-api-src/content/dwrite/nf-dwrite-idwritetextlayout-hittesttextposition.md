@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HitTestTextPosition, HitTestTextPosition method [Direct Write], HitTestTextPosition method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextPosition method, IDWriteTextLayout.HitTestTextPosition, IDWriteTextLayout::HitTestTextPosition, directwrite.IDWriteTextLayout_HitTestTextPosition, dwrite/IDWriteTextLayout::HitTestTextPosition
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.HitTestTextPosition"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

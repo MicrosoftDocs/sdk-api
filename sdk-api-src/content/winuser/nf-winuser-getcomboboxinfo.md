@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComboBoxInfo, GetComboBoxInfo function [Windows Controls], _win32_GetComboBoxInfo, _win32_GetComboBoxInfo_cpp, controls.GetComboBoxInfo, controls._win32_GetComboBoxInfo, winuser/GetComboBoxInfo
 ms.topic: function
+f1_keywords: ["winuser/GetComboBoxInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

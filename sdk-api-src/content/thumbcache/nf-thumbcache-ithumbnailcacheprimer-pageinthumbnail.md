@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCachePrimer interface [Windows Shell],PageInThumbnail method, IThumbnailCachePrimer.PageInThumbnail, IThumbnailCachePrimer::PageInThumbnail, PageInThumbnail, PageInThumbnail method [Windows Shell], PageInThumbnail method [Windows Shell],IThumbnailCachePrimer interface, shell.IThumbnailCachePrimer_PageInThumbnail, thumbcache/IThumbnailCachePrimer::PageInThumbnail
 ms.topic: method
+f1_keywords: ["thumbcache/IThumbnailCachePrimer.PageInThumbnail"]
 req.header: thumbcache.h
 req.include-header: Thumbcache.h
 req.target-type: Windows

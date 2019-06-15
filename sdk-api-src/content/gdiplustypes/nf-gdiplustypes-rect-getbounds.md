@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Rect class, Rect class [GDI+],GetBounds method, Rect.GetBounds, Rect::GetBounds, _gdiplus_CLASS_Rect_GetBounds_rect_, gdiplus._gdiplus_CLASS_Rect_GetBounds_rect_
 ms.topic: method
+f1_keywords: ["gdiplustypes/Rect.GetBounds"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

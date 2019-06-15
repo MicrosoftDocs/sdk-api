@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoExCancel, GetAddrInfoExCancel function [Winsock], winsock.getaddrinfoexcancel, ws2tcpip/GetAddrInfoExCancel
 ms.topic: function
+f1_keywords: ["ws2tcpip/GetAddrInfoExCancel"]
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

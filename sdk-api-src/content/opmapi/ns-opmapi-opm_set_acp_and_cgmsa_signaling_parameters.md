@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Media Foundation], mf.opm_set_acp_and_cgmsa_signaling_parameters, opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 ms.topic: struct
+f1_keywords: ["opmapi/OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS"]
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

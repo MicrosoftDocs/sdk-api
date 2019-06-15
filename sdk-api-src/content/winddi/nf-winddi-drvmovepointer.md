@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvMovePointer, DrvMovePointer function [Display Devices], ddifncs_4fda6dd1-abd6-45fa-ba92-d20352fe35c5.xml, display.drvmovepointer, winddi/DrvMovePointer
 ms.topic: function
+f1_keywords: ["winddi/DrvMovePointer"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

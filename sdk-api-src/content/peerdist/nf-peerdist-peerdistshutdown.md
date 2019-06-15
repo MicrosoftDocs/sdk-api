@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistShutdown, PeerDistShutdown function [Peer Networking], p2p.peerdistshutdown, peerdist/PeerDistShutdown
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistShutdown"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

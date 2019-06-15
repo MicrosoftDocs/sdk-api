@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_SetFocus method, IBrowserService2._SetFocus, IBrowserService2::_SetFocus, _SetFocus, _SetFocus method [Windows Shell], _SetFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_SetFocus, shell.IBrowserService2__SetFocus, zone_IBrowserService2__SetFocus
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2._SetFocus"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

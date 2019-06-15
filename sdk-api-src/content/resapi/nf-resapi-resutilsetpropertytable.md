@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE, PRESUTIL_SET_PROPERTY_TABLE function [Failover Cluster], ResUtilSetPropertyTable, ResUtilSetPropertyTable function [Failover Cluster], _wolf_resutilsetpropertytable, mscs.resutilsetpropertytable, resapi/PRESUTIL_SET_PROPERTY_TABLE, resapi/ResUtilSetPropertyTable
 ms.topic: function
+f1_keywords: ["resapi/ResUtilSetPropertyTable"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

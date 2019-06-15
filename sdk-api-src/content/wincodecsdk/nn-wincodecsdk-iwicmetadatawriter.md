@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], IWICMetadataWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadatawriter, wic._wic_codec_iwicmetadatawriter, wincodecsdk/IWICMetadataWriter
 ms.topic: interface
+f1_keywords: ["wincodecsdk/IWICMetadataWriter"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

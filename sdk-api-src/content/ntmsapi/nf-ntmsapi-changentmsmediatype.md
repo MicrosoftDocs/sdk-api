@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType
 ms.topic: function
+f1_keywords: ["ntmsapi/ChangeNtmsMediaType"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

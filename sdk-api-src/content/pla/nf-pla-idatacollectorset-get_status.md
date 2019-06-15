@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Status property, IDataCollectorSet.Status, IDataCollectorSet.get_Status, IDataCollectorSet::Status, IDataCollectorSet::get_Status, Status property [PLA], Status property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_status, get_Status, pla.idatacollectorset_get_status, pla/IDataCollectorSet::Status, pla/IDataCollectorSet::get_Status
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.Status"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

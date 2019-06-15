@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSource, IStreamBufferSource interface [Microsoft TV Technologies], IStreamBufferSource interface [Microsoft TV Technologies],described, IStreamBufferSourceInterface, mstv.istreambuffersource, sbe/IStreamBufferSource
 ms.topic: interface
+f1_keywords: ["sbe/IStreamBufferSource"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

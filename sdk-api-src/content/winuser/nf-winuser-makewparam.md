@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPARAM, _win32_makewparam_cpp, winmsg.makewparam, winui._win32_makewparam, winuser/MAKEWPARAM
 ms.topic: macro
+f1_keywords: ["winuser/MAKEWPARAM"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

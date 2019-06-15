@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetIcon, TSPI_lineGetIcon function [TAPI 2.2], _tspi_tspi_linegeticon, tspi.tspi_linegeticon, tspi/TSPI_lineGetIcon
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineGetIcon"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

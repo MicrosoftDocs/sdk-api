@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_OFFSET, DWRITE_GLYPH_OFFSET structure [Direct Write], directwrite.dwrite_glyph_offset, dwrite/DWRITE_GLYPH_OFFSET
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_GLYPH_OFFSET"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

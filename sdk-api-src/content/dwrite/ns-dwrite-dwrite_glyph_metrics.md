@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_METRICS, DWRITE_GLYPH_METRICS structure [Direct Write], directwrite.dwrite_glyph_metrics, dwrite/DWRITE_GLYPH_METRICS
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_GLYPH_METRICS"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

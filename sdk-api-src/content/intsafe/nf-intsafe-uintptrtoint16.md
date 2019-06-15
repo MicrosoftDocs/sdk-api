@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToInt16, UIntPtrToInt16 function [Windows Shell], intsafe/UIntPtrToInt16, shell.UIntPtrToInt16
 ms.topic: function
+f1_keywords: ["intsafe/UIntPtrToInt16"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

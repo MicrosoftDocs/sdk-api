@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_Step method, IAnalogRadioTuningSpace.put_Step, IAnalogRadioTuningSpace::put_Step, IAnalogRadioTuningSpaceput_Step, mstv.ianalogradiotuningspace_put_step, put_Step, put_Step method [Microsoft TV Technologies], put_Step method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_Step
 ms.topic: method
+f1_keywords: ["tuner/IAnalogRadioTuningSpace.put_Step"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

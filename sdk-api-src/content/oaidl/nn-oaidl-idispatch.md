@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDispatch, IDispatch interface [Automation], IDispatch interface [Automation],described, _oa96_IDispatch_Interface, automat.idispatch, oaidl/IDispatch
 ms.topic: interface
+f1_keywords: ["oaidl/IDispatch"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

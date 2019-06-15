@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK structure [DirectX Math Support APIs],operator = method, XMFLOAT3PK.operator =(const XMFLOAT3PK&), XMFLOAT3PK.operator-assign(XMFLOAT3PK &&), XMFLOAT3PK.operator=, XMFLOAT3PK::operator-assign(XMFLOAT3PK &&), XMFLOAT3PK::operator=, dxmath.xmfloat3pk_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3PK structure, operator=
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMFLOAT3PK.operator ="]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFilePixelFormat, GetEnhMetaFilePixelFormat function [OpenGL], _ogl_GetEnhMetaFilePixelFormat, opengl.getenhmetafilepixelformat, wingdi/GetEnhMetaFilePixelFormat
 ms.topic: function
+f1_keywords: ["wingdi/GetEnhMetaFilePixelFormat"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

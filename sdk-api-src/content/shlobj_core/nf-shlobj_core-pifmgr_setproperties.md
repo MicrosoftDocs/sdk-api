@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PifMgr_SetProperties, PifMgr_SetProperties function [Windows Properties], _win32_PifMgr_SetProperties, properties.PifMgr_SetProperties, shell.PifMgr_SetProperties, shlobj_core/PifMgr_SetProperties
 ms.topic: function
+f1_keywords: ["shlobj_core/PifMgr_SetProperties"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

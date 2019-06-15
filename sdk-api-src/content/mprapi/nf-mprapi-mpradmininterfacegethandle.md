@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RAS], _mpr_mpradmininterfacegethandle, mprapi/MprAdminInterfaceGetHandle, rras.mpradmininterfacegethandle
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminInterfaceGetHandle"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

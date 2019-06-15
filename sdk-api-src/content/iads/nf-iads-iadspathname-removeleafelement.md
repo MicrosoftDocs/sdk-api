@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPathname interface [ADSI],RemoveLeafElement method, IADsPathname.RemoveLeafElement, IADsPathname::RemoveLeafElement, RemoveLeafElement, RemoveLeafElement method [ADSI], RemoveLeafElement method [ADSI],IADsPathname interface, _ds_iadspathname_removeleafelement, adsi.iadspathname__removeleafelement, adsi.iadspathname_removeleafelement, iads/IADsPathname::RemoveLeafElement
 ms.topic: method
+f1_keywords: ["iads/IADsPathname.RemoveLeafElement"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

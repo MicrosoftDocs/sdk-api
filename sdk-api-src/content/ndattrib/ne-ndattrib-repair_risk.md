@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REPAIR_RISK, REPAIR_RISK enumeration [NDF], RR_NORISK, RR_NOROLLBACK, RR_ROLLBACK, ndattrib/REPAIR_RISK, ndattrib/RR_NORISK, ndattrib/RR_NOROLLBACK, ndattrib/RR_ROLLBACK, ndf.repair_risk
 ms.topic: enum
+f1_keywords: ["ndattrib/REPAIR_RISK"]
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

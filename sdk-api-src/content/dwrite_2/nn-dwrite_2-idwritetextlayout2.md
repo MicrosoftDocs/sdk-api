@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2, IDWriteTextLayout2 interface [Direct Write], IDWriteTextLayout2 interface [Direct Write],described, directwrite.idwritetextlayout2, dwrite_2/IDWriteTextLayout2
 ms.topic: interface
+f1_keywords: ["dwrite_2/IDWriteTextLayout2"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

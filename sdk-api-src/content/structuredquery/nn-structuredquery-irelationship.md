@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRelationship, IRelationship interface [search], IRelationship interface [search],described, _search_IRelationship, search._search_IRelationship, structuredquery/IRelationship
 ms.topic: interface
+f1_keywords: ["structuredquery/IRelationship"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

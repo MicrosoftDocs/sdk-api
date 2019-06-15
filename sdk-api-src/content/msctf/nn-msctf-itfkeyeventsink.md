@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink, ITfKeyEventSink interface [Text Services Framework], ITfKeyEventSink interface [Text Services Framework],described, _tsf_itfkeyeventsink_ref, msctf/ITfKeyEventSink, tsf.itfkeyeventsink
 ms.topic: interface
+f1_keywords: ["msctf/ITfKeyEventSink"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

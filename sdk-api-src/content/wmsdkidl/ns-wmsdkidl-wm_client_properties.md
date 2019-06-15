@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_CLIENT_PROPERTIES, WM_CLIENT_PROPERTIES structure [windows Media Format], wmformat.wm_client_properties, wmsdkidl/WM_CLIENT_PROPERTIES
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WM_CLIENT_PROPERTIES"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

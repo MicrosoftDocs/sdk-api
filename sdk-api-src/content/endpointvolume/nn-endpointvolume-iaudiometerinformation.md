@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
 ms.topic: interface
+f1_keywords: ["endpointvolume/IAudioMeterInformation"]
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

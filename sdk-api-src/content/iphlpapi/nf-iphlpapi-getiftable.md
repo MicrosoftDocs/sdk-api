@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
 ms.topic: function
+f1_keywords: ["iphlpapi/GetIfTable"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

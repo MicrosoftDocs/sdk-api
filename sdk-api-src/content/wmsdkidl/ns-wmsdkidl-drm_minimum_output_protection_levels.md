@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS, DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure [windows Media Format], structure [windows Media Format], wmformat.drm_minimum_output_protection_levels, wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
 ms.topic: struct
+f1_keywords: ["wmsdkidl/DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS"]
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

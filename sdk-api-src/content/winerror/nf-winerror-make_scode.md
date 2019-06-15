@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKE_SCODE, MAKE_SCODE macro [COM], _com_MAKE_SCODE, com.make_scode, com.make_scode_macro, winerror/MAKE_SCODE
 ms.topic: macro
+f1_keywords: ["winerror/MAKE_SCODE"]
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

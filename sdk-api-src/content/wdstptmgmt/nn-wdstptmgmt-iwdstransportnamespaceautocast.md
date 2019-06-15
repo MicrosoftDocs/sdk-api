@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceAutoCast, IWdsTransportNamespaceAutoCast interface [Windows Deployment Services], IWdsTransportNamespaceAutoCast interface [Windows Deployment Services],described, wds.iwdstransportnamespaceautocast, wdstptmgmt/IWdsTransportNamespaceAutoCast
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportNamespaceAutoCast"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTP_SET_VERSION, HTTP_SET_VERSION macro [HTTP], _http_http_set_version, http.http_set_version, http/HTTP_SET_VERSION
 ms.topic: macro
+f1_keywords: ["http/HTTP_SET_VERSION"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

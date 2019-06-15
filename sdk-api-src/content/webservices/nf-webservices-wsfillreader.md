@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFillReader, WsFillReader function [Web Services for Windows], webservices/WsFillReader, wsw.wsfillreader
 ms.topic: function
+f1_keywords: ["webservices/WsFillReader"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

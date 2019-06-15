@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleParameters, IAzBizRuleParameters interface [Security], IAzBizRuleParameters interface [Security],described, azroles/IAzBizRuleParameters, security.iazbizruleparameters
 ms.topic: interface
+f1_keywords: ["azroles/IAzBizRuleParameters"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

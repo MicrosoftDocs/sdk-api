@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbEnvironment interface [Remote Desktop Services],Name property, ITsSbEnvironment.Name, ITsSbEnvironment.get_Name, ITsSbEnvironment::Name, ITsSbEnvironment::get_Name, Name property [Remote Desktop Services], Name property [Remote Desktop Services],ITsSbEnvironment interface, get_Name, sbtsv/ITsSbEnvironment::Name, sbtsv/ITsSbEnvironment::get_Name, termserv.itssbenvironment_name
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbEnvironment.Name"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

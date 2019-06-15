@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIPALCHANGE, AVIPALCHANGE structure [DirectShow], AVIPALCHANGEStructure, _AVIPALchange, avifmt/AVIPALCHANGE, dshow.avipalchange
 ms.topic: struct
+f1_keywords: ["avifmt/AVIPALCHANGE"]
 req.header: avifmt.h
 req.include-header: Vfw.h
 req.target-type: Windows

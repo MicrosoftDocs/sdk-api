@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING, WS_HTTP_HEADER_MAPPING structure [Web Services for Windows], webservices/WS_HTTP_HEADER_MAPPING, wsw.ws_http_header_mapping
 ms.topic: struct
+f1_keywords: ["webservices/WS_HTTP_HEADER_MAPPING"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TYPEDESC, TYPEDESC structure [Automation], _oa96_TYPEDESC, automat.typedesc, oaidl/TYPEDESC
 ms.topic: struct
+f1_keywords: ["oaidl/TYPEDESC"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

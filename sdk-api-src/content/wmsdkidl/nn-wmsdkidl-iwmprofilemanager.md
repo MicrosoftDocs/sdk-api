@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager, IWMProfileManager interface [windows Media Format], IWMProfileManager interface [windows Media Format],described, IWMProfileManagerInterface, wmformat.iwmprofilemanager, wmsdkidl/IWMProfileManager
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMProfileManager"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

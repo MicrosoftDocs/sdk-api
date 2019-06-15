@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Skip method, IEnumOleDocumentViews.Skip, IEnumOleDocumentViews::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOleDocumentViews interface, _ole_ienumoledocumentviews_skip, com.ienumoledocumentviews_skip, docobj/IEnumOleDocumentViews::Skip
 ms.topic: method
+f1_keywords: ["docobj/IEnumOleDocumentViews.Skip"]
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

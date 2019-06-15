@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValueCollection interface [Task Scheduler],Remove method, ITaskNamedValueCollection.Remove, ITaskNamedValueCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],ITaskNamedValueCollection interface, taskschd.itasknamedvaluecollection_remove, taskschd/ITaskNamedValueCollection::Remove
 ms.topic: method
+f1_keywords: ["taskschd/ITaskNamedValueCollection.Remove"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

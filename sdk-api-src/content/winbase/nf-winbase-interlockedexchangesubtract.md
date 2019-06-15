@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract
 ms.topic: function
+f1_keywords: ["winbase/InterlockedExchangeSubtract"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

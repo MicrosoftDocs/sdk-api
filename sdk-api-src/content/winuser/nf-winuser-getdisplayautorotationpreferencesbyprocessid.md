@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAutoRotationPreferencesByProcessId, GetDisplayAutoRotationPreferencesByProcessId function, base.getdisplayautorotationpreferencesbyprocessid, winuser/GetDisplayAutoRotationPreferencesByProcessId
 ms.topic: function
+f1_keywords: ["winuser/GetDisplayAutoRotationPreferencesByProcessId"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

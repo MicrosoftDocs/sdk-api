@@ -4,6 +4,7 @@ title: NLSVERSIONINFO
 ms.date: 01/30/19
 ms.keywords: _nlsversioninfo, NLSVERSIONINFO
 ms.topic: language-reference
+f1_keywords: ["winnls/_nlsversioninfo"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

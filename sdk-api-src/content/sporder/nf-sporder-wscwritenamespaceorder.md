@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCWriteNameSpaceOrder, WSCWriteNameSpaceOrder function [Winsock], sporder/WSCWriteNameSpaceOrder, winsock.wscwritenamespaceorder
 ms.topic: function
+f1_keywords: ["sporder/WSCWriteNameSpaceOrder"]
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows

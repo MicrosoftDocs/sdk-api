@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPBDA_EIT interface [Microsoft TV Technologies],Initialize method, IPBDA_EIT.Initialize, IPBDA_EIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDA_EIT interface, dvbsiparser/IPBDA_EIT::Initialize, mstv.ipbda_eit_initialize
 ms.topic: method
+f1_keywords: ["dvbsiparser/IPBDA_EIT.Initialize"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue
 ms.topic: function
+f1_keywords: ["ntlsa/LsaLookupPrivilegeValue"]
 req.header: ntlsa.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceIcons, GetDeviceIcons method [Picture Acquisition], GetDeviceIcons method [Picture Acquisition],IPhotoAcquireSource interface, IPhotoAcquireSource interface [Picture Acquisition],GetDeviceIcons method, IPhotoAcquireSource.GetDeviceIcons, IPhotoAcquireSource::GetDeviceIcons, IPhotoAcquireSourceGetDeviceIcons, photoacquire/IPhotoAcquireSource::GetDeviceIcons, picacq.iphotoacquiresource_getdeviceicons
 ms.topic: method
+f1_keywords: ["photoacquire/IPhotoAcquireSource.GetDeviceIcons"]
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

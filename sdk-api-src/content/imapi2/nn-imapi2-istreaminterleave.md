@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamInterleave, IStreamInterleave interface [IMAPI], IStreamInterleave interface [IMAPI],described, imapi.istreaminterleave, imapi2/IStreamInterleave
 ms.topic: interface
+f1_keywords: ["imapi2/IStreamInterleave"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_BASIC_INFO, CF_PLACEHOLDER_BASIC_INFO structure, cfapi/CF_PLACEHOLDER_BASIC_INFO, cloudApi.cf_placeholder_basic_info
 ms.topic: struct
+f1_keywords: ["cfapi/CF_PLACEHOLDER_BASIC_INFO"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

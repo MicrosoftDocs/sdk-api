@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RdcBufferPointer, RdcBufferPointer structure [Remote Differential Compression], fs.rdcbufferpointer, msrdc/RdcBufferPointer, rdc.rdcbufferpointer
 ms.topic: struct
+f1_keywords: ["msrdc/RdcBufferPointer"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

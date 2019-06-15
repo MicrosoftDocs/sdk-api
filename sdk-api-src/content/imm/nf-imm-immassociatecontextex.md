@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
 ms.topic: function
+f1_keywords: ["imm/ImmAssociateContextEx"]
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

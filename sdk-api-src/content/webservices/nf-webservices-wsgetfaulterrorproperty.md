@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetFaultErrorProperty, WsGetFaultErrorProperty function [Web Services for Windows], webservices/WsGetFaultErrorProperty, wsw.wsgetfaulterrorproperty
 ms.topic: function
+f1_keywords: ["webservices/WsGetFaultErrorProperty"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

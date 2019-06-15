@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTasks object [Security],_NewEnum property, IAzTasks interface [Security],_NewEnum property, IAzTasks._NewEnum, IAzTasks.get__NewEnum, IAzTasks::_NewEnum, IAzTasks::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzTasks object, _NewEnum property [Security],IAzTasks interface, azroles/IAzTasks::_NewEnum, azroles/IAzTasks::get__NewEnum, get__NewEnum, security.iaztasks_newenum
 ms.topic: method
+f1_keywords: ["azroles/IAzTasks._NewEnum"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
 ms.topic: function
+f1_keywords: ["winddi/EngCreateBitmap"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

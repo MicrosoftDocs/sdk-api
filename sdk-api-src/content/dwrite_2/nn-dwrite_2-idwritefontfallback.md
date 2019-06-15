@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallback, IDWriteFontFallback interface [Direct Write], IDWriteFontFallback interface [Direct Write],described, directwrite.idwritefontfallback, dwrite_2/IDWriteFontFallback
 ms.topic: interface
+f1_keywords: ["dwrite_2/IDWriteFontFallback"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

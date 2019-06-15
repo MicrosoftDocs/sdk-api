@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],resetExtensions method, ICEnroll4 interface [Security],resetExtensions method, ICEnroll4.resetExtensions, ICEnroll4::resetExtensions, _xen_icenroll4_resetextensions, resetExtensions, resetExtensions method [Security], resetExtensions method [Security],CEnroll object, resetExtensions method [Security],ICEnroll4 interface, security.icenroll4_resetextensions, xenroll/ICEnroll4::resetExtensions
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.resetExtensions"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

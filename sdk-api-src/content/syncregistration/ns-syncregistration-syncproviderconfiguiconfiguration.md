@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SyncProviderConfigUI, SyncProviderConfigUI structure [Windows Sync], SyncProviderConfigUIConfiguration, SyncProviderConfigUIConfiguration structure [Windows Sync], syncregistration/SyncProviderConfigUI, winsync.syncproviderconfiguiconfiguration
 ms.topic: struct
+f1_keywords: ["syncregistration/SyncProviderConfigUI"]
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

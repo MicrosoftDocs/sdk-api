@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_TCPROW2, MIB_TCPROW2, MIB_TCPROW2 structure [MIB], MIB_TCP_STATE_CLOSED, MIB_TCP_STATE_CLOSE_WAIT, MIB_TCP_STATE_CLOSING, MIB_TCP_STATE_DELETE_TCB, MIB_TCP_STATE_ESTAB, MIB_TCP_STATE_FIN_WAIT1, MIB_TCP_STATE_FIN_WAIT2, MIB_TCP_STATE_LAST_ACK, MIB_TCP_STATE_LISTEN, MIB_TCP_STATE_SYN_RCVD, MIB_TCP_STATE_SYN_SENT, MIB_TCP_STATE_TIME_WAIT, PMIB_TCPROW2, PMIB_TCPROW2 structure pointer [MIB], mib.mib_tcprow2, tcpmib/MIB_TCPROW2, tcpmib/PMIB_TCPROW2"
 ms.topic: struct
+f1_keywords: ["tcpmib/MIB_TCPROW2"]
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

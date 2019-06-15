@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChildWindowFromPoint, ChildWindowFromPoint function [Windows and Messages], _win32_ChildWindowFromPoint, _win32_childwindowfrompoint_cpp, winmsg.childwindowfrompoint, winui._win32_childwindowfrompoint, winuser/ChildWindowFromPoint
 ms.topic: function
+f1_keywords: ["winuser/ChildWindowFromPoint"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

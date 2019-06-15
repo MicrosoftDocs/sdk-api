@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdState, IDvdState interface [DirectShow], IDvdState interface [DirectShow],described, IDvdStateInterface, dshow.idvdstate, strmif/IDvdState
 ms.topic: interface
+f1_keywords: ["strmif/IDvdState"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

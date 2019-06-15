@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLBindingTable interface,Reset method, IDMLBindingTable.Reset, IDMLBindingTable::Reset, Reset, Reset method, Reset method,IDMLBindingTable interface, direct3d12.idmlbindingtable_reset, directml/IDMLBindingTable::Reset
 ms.topic: method
+f1_keywords: ["directml/IDMLBindingTable.Reset"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

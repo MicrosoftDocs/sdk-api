@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSoPAccessCheckByType, RSoPAccessCheckByType function [Group Policy], RsopAccessCheckByType, _win32_rsopaccesscheckbytype, policy.rsopaccesscheckbytype, userenv/RSoPAccessCheckByType
 ms.topic: function
+f1_keywords: ["userenv/RSoPAccessCheckByType"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

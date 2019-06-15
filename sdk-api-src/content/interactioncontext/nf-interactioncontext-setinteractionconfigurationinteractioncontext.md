@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetInteractionConfigurationInteractionContext, SetInteractionConfigurationInteractionContext function, input_intcontext.setinteractionconfigurationinteractioncontext, interactioncontext.setinteractionconfigurationinteractioncontext, interactioncontext/SetInteractionConfigurationInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/SetInteractionConfigurationInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

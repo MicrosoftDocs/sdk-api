@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LHashValOfName, LHashValOfName function [Automation], _oa96_LHashValOfName, automat.lhashvalofname, oleauto/LHashValOfName
 ms.topic: macro
+f1_keywords: ["oleauto/LHashValOfName"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

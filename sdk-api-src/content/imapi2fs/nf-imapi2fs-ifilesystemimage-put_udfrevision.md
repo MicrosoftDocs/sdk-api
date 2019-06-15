@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_UDFRevision method, IFileSystemImage.put_UDFRevision, IFileSystemImage::put_UDFRevision, imapi.ifilesystemimage_put_udfrevision, imapi2fs/IFileSystemImage::put_UDFRevision, put_UDFRevision, put_UDFRevision method [IMAPI], put_UDFRevision method [IMAPI],IFileSystemImage interface
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.put_UDFRevision"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

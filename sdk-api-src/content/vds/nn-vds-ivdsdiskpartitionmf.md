@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskPartitionMF, IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,described, base.ivdsdiskpartitionmf, vds/IVdsDiskPartitionMF
 ms.topic: interface
+f1_keywords: ["vds/IVdsDiskPartitionMF"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

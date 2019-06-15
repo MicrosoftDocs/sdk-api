@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_UpdateViewRectSize method, IBrowserService2._UpdateViewRectSize, IBrowserService2::_UpdateViewRectSize, _UpdateViewRectSize, _UpdateViewRectSize method [Windows Shell], _UpdateViewRectSize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UpdateViewRectSize, shell.IBrowserService2__UpdateViewRectSize, zone_IBrowserService2__UpdateViewRectSize
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2._UpdateViewRectSize"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

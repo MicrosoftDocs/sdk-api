@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyClosingDisc method, IDiscMasterProgressEvents.NotifyClosingDisc, IDiscMasterProgressEvents::NotifyClosingDisc, NotifyClosingDisc, NotifyClosingDisc method [IMAPI], NotifyClosingDisc method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyclosingdisc, base.idiscmasterprogressevents_notifyclosingdisc, imapi.idiscmasterprogressevents_notifyclosingdisc, imapi/IDiscMasterProgressEvents::NotifyClosingDisc
 ms.topic: method
+f1_keywords: ["imapi/IDiscMasterProgressEvents.NotifyClosingDisc"]
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

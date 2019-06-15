@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerCompleteRead, WdsTransportServerCompleteRead function [Windows Deployment Services], wds.wdstransportservercompleteread, wdstpdi/WdsTransportServerCompleteRead
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportServerCompleteRead"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

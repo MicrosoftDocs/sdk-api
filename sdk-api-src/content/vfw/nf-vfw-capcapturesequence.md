@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capCaptureSequence, capCaptureSequence, capCaptureSequence macro [Windows Multimedia], multimedia.capcapturesequence, vfw/capCaptureSequence"
 ms.topic: macro
+f1_keywords: ["vfw/capCaptureSequence"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

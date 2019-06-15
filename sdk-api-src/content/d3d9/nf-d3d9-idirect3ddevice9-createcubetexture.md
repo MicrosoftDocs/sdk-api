@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0b1afd24-65fb-4a7c-77ef-c3b832e6d5f1, CreateCubeTexture, CreateCubeTexture method [Direct3D 9], CreateCubeTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateCubeTexture method, IDirect3DDevice9.CreateCubeTexture, IDirect3DDevice9::CreateCubeTexture, d3d9helper/IDirect3DDevice9::CreateCubeTexture, direct3d9.idirect3ddevice9__createcubetexture
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3DDevice9.CreateCubeTexture"]
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

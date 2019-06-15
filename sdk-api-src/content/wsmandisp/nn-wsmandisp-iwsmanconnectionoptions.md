@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptions, IWSManConnectionOptions interface [Windows Remote Management], IWSManConnectionOptions interface [Windows Remote Management],described, winrm.iwsmanconnectionoptions, wsmandisp/IWSManConnectionOptions
 ms.topic: interface
+f1_keywords: ["wsmandisp/IWSManConnectionOptions"]
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

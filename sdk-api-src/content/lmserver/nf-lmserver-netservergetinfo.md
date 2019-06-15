@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 100, 101, 102, NetServerGetInfo, NetServerGetInfo function [Network Management], _win32_netservergetinfo, lmserver/NetServerGetInfo, netmgmt.netservergetinfo
 ms.topic: function
+f1_keywords: ["lmserver/NetServerGetInfo"]
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

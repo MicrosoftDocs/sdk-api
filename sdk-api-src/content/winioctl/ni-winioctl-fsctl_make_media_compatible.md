@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_MAKE_MEDIA_COMPATIBLE, FSCTL_MAKE_MEDIA_COMPATIBLE control, FSCTL_MAKE_MEDIA_COMPATIBLE control code [Files], fs.fsctl_make_media_compatible, winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_MAKE_MEDIA_COMPATIBLE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

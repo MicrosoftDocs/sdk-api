@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],Index property, IDataCollector.Index, IDataCollector.get_Index, IDataCollector::Index, IDataCollector::get_Index, Index property [PLA], Index property [PLA],IDataCollector interface, base.idatacollector_index, get_Index, pla.idatacollector_index, pla/IDataCollector::Index, pla/IDataCollector::get_Index
 ms.topic: method
+f1_keywords: ["pla/IDataCollector.Index"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

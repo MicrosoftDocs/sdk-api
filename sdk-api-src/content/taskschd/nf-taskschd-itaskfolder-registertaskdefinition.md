@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],RegisterTaskDefinition method, ITaskFolder.RegisterTaskDefinition, ITaskFolder::RegisterTaskDefinition, RegisterTaskDefinition, RegisterTaskDefinition method [Task Scheduler], RegisterTaskDefinition method [Task Scheduler],ITaskFolder interface, TASK_CREATE, TASK_CREATE_OR_UPDATE, TASK_DISABLE, TASK_DONT_ADD_PRINCIPAL_ACE, TASK_IGNORE_REGISTRATION_TRIGGERS, TASK_LOGON_GROUP, TASK_LOGON_INTERACTIVE_TOKEN, TASK_LOGON_INTERACTIVE_TOKEN_OR_PASSWORD, TASK_LOGON_NONE, TASK_LOGON_PASSWORD, TASK_LOGON_S4U, TASK_LOGON_SERVICE_ACCOUNT, TASK_UPDATE, TASK_VALIDATE_ONLY, taskschd.itaskfolder_registertaskdefinition, taskschd/ITaskFolder::RegisterTaskDefinition
 ms.topic: method
+f1_keywords: ["taskschd/ITaskFolder.RegisterTaskDefinition"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

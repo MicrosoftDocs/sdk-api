@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, versionhelpers/IsWindowsServer
 ms.topic: function
+f1_keywords: ["versionhelpers/IsWindowsServer"]
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

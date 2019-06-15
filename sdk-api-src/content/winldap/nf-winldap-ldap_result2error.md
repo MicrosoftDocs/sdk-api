@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_result2error, ldap.ldap__result2error, ldap.ldap_result2error, ldap_result2error, ldap_result2error function [LDAP], winldap/ldap_result2error"
 ms.topic: function
+f1_keywords: ["winldap/ldap_result2error"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

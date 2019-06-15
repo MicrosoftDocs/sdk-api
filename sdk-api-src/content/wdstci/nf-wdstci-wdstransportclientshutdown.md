@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientShutdown, WdsTransportClientShutdown function [Windows Deployment Services], wds.wdstransportclientshutdown, wdstci/WdsTransportClientShutdown
 ms.topic: function
+f1_keywords: ["wdstci/WdsTransportClientShutdown"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

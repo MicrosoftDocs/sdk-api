@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfCreatePlaceholders, CfCreatePlaceholders function, cfapi/CfCreatePlaceholders, cloudApi.cfcreateplaceholders
 ms.topic: function
+f1_keywords: ["cfapi/CfCreatePlaceholders"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

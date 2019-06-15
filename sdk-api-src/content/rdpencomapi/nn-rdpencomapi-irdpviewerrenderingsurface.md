@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPViewerRenderingSurface"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

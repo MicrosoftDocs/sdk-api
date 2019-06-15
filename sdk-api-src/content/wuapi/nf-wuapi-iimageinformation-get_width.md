@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageInformation interface [Windows Update Agent],Width property, IImageInformation.Width, IImageInformation.get_Width, IImageInformation::Width, IImageInformation::get_Width, Width property [Windows Update Agent], Width property [Windows Update Agent],IImageInformation interface, get_Width, wua.iimageinformation_width, wuapi/IImageInformation::Width, wuapi/IImageInformation::get_Width
 ms.topic: method
+f1_keywords: ["wuapi/IImageInformation.Width"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

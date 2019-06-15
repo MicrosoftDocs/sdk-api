@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IDvdInfo2 interface [DirectShow],described, IDvdInfo2Interface, dshow.idvdinfo2, strmif/IDvdInfo2
 ms.topic: interface
+f1_keywords: ["strmif/IDvdInfo2"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

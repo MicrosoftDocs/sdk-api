@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NapComponentRegistrationInfo, NapComponentRegistrationInfo structure [NAP], nap.napcomponentregistrationinfo_struct, naptypes/NapComponentRegistrationInfo
 ms.topic: struct
+f1_keywords: ["naptypes/NapComponentRegistrationInfo"]
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

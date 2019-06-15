@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4SetPolicy, DhcpV4SetPolicy function [DHCP], dhcp.dhcpv4setpolicy, dhcpsapi/DhcpV4SetPolicy
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpV4SetPolicy"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

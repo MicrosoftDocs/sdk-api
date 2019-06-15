@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency
 ms.topic: function
+f1_keywords: ["winbase/RequestWakeupLatency"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

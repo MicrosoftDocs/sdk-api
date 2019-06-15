@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpInitialize, SpInitialize callback function [Security], SpInitializeFn, SpInitializeFn callback, _ssp_spinitialize, ntsecpkg/SpInitialize, security.spinitialize
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpInitialize"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

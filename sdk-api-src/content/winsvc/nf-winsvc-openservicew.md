@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
 ms.topic: function
+f1_keywords: ["winsvc/OpenService"]
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

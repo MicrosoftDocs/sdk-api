@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],Cancel method, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_cancel_cpp, faxcomex/IFaxIncomingJob::Cancel
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingJob.Cancel"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

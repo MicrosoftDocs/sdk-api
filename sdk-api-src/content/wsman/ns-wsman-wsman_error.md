@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_ERROR, WSMAN_ERROR structure [Windows Remote Management], winrm.wsman_error_struct, wsman/WSMAN_ERROR
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_ERROR"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

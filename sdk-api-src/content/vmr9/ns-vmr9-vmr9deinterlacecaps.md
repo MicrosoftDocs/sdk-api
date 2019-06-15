@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9DeinterlaceCaps, VMR9DeinterlaceCaps structure [DirectShow], VMR9DeinterlaceCapsStructure, dshow.vmr9deinterlacecaps, vmr9/VMR9DeinterlaceCaps
 ms.topic: struct
+f1_keywords: ["vmr9/VMR9DeinterlaceCaps"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

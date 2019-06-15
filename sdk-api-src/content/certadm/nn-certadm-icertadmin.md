@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
 ms.topic: interface
+f1_keywords: ["certadm/ICertAdmin"]
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

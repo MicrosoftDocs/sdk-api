@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],BizrulesWritable property, BizrulesWritable property [Security], BizrulesWritable property [Security],AzScope object, BizrulesWritable property [Security],IAzScope interface, IAzScope interface [Security],BizrulesWritable property, IAzScope.BizrulesWritable, IAzScope.get_BizrulesWritable, IAzScope::BizrulesWritable, IAzScope::get_BizrulesWritable, azroles/IAzScope::BizrulesWritable, azroles/IAzScope::get_BizrulesWritable, get_BizrulesWritable, security.iazscope_bizruleswritable
 ms.topic: method
+f1_keywords: ["azroles/IAzScope.BizrulesWritable"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4e977348-30d8-474c-80af-56371be5aee4, Enabled property [Tablet PC], Enabled property [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],Enabled property, IGestureRecognizer.Enabled, IGestureRecognizer.get_Enabled, IGestureRecognizer.put_Enabled, IGestureRecognizer::Enabled, IGestureRecognizer::get_Enabled, IGestureRecognizer::put_Enabled, get_Enabled, rtscom/IGestureRecognizer::Enabled, rtscom/IGestureRecognizer::get_Enabled, rtscom/IGestureRecognizer::put_Enabled, tablet.igesturerecognizer_enabled
 ms.topic: method
+f1_keywords: ["rtscom/IGestureRecognizer.Enabled"]
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

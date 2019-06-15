@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ReferenceA, MI_ReferenceA structure [Windows Management Infrastructure (MI)], mi/MI_ReferenceA, wmi._mi_referencea, wmi_v2.mi_referencea
 ms.topic: struct
+f1_keywords: ["mi/MI_ReferenceA"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

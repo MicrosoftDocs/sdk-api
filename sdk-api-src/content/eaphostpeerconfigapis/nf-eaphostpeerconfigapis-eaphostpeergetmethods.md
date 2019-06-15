@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetMethods, EapHostPeerGetMethods function [EAPHost], eaphost.eaphostpeergetmethods, eaphostpeerconfigapis/EapHostPeerGetMethods
 ms.topic: function
+f1_keywords: ["eaphostpeerconfigapis/EapHostPeerGetMethods"]
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTPMPARAMS, LPTPMPARAMS, LPTPMPARAMS structure pointer [Menus and Other Resources], TPMPARAMS, TPMPARAMS structure [Menus and Other Resources], _win32_TPMPARAMS_str, _win32_tpmparams_str_cpp, menurc.tpmparams, winui._win32_tpmparams_str, winuser/LPTPMPARAMS, winuser/TPMPARAMS"
 ms.topic: struct
+f1_keywords: ["winuser/TPMPARAMS"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

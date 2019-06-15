@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchCanonicalize, PathCchCanonicalize function [Windows Shell], pathcch/PathCchCanonicalize, shell.PathCchCanonicalize
 ms.topic: function
+f1_keywords: ["pathcch/PathCchCanonicalize"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

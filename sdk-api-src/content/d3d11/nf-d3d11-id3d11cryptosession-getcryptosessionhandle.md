@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCryptoSessionHandle, GetCryptoSessionHandle method [Media Foundation], GetCryptoSessionHandle method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCryptoSessionHandle method, ID3D11CryptoSession.GetCryptoSessionHandle, ID3D11CryptoSession::GetCryptoSessionHandle, d3d11/ID3D11CryptoSession::GetCryptoSessionHandle, mf.id3d11cryptosession_getcryptosessionhandle
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11CryptoSession.GetCryptoSessionHandle"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_KEY, MI_FLAG_PROPERTY, MI_PropertyDecl, MI_PropertyDecl structure [Windows Management Infrastructure (MI)], mi/MI_PropertyDecl, wmi._mi_propertydecl, wmi_v2.mi_propertydecl
 ms.topic: struct
+f1_keywords: ["mi/MI_PropertyDecl"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

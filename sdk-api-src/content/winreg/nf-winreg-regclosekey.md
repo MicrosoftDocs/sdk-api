@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegCloseKey, RegCloseKey function, _win32_regclosekey, base.regclosekey, winreg/RegCloseKey
 ms.topic: function
+f1_keywords: ["winreg/RegCloseKey"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

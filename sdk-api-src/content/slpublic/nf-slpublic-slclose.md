@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
 ms.topic: function
+f1_keywords: ["slpublic/SLClose"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

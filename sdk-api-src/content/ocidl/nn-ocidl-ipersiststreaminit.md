@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], IPersistStreamInit interface [COM],described, _com_ipersiststreaminit, com.ipersiststreaminit, ocidl/IPersistStreamInit
 ms.topic: interface
+f1_keywords: ["ocidl/IPersistStreamInit"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

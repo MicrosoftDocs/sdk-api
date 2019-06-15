@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_SharingConnectionType method, INetSharingConfiguration.get_SharingConnectionType, INetSharingConfiguration::get_SharingConnectionType, _ics_inetsharingconfiguration_get_sharingconnectiontype, get_SharingConnectionType, get_SharingConnectionType method [ICS/ICF], get_SharingConnectionType method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_sharingconnectiontype, netcon/INetSharingConfiguration::get_SharingConnectionType
 ms.topic: method
+f1_keywords: ["netcon/INetSharingConfiguration.get_SharingConnectionType"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

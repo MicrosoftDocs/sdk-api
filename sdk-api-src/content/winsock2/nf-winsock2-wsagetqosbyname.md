@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAGetQOSByName, WSAGetQOSByName function [Winsock], _win32_wsagetqosbyname_2, winsock.wsagetqosbyname_2, winsock2/WSAGetQOSByName
 ms.topic: function
+f1_keywords: ["winsock2/WSAGetQOSByName"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

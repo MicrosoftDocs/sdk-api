@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLDT_ENTRY, LDT_ENTRY, LDT_ENTRY structure, PLDT_ENTRY, PLDT_ENTRY structure pointer, _LDT_ENTRY, _win32_ldt_entry_str, base.ldt_entry_str, winnt/LDT_ENTRY, winnt/PLDT_ENTRY"
 ms.topic: struct
+f1_keywords: ["winnt/LDT_ENTRY"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

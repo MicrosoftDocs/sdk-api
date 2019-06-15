@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGroupEnumerationEnd, MgmGroupEnumerationEnd function [RAS], _mpr_mgmgroupenumerationend, mgm/MgmGroupEnumerationEnd, rras.mgmgroupenumerationend
 ms.topic: function
+f1_keywords: ["mgm/MgmGroupEnumerationEnd"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

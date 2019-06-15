@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
 ms.topic: function
+f1_keywords: ["p2p/PeerPnrpGetEndpoint"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

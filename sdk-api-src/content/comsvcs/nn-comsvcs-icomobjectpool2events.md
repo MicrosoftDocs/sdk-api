@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPool2Events, IComObjectPool2Events interface [COM+], IComObjectPool2Events interface [COM+],described, _dtc_icomobjectpool2events, comsvcs/IComObjectPool2Events, cos.icomobjectpool2events
 ms.topic: interface
+f1_keywords: ["comsvcs/IComObjectPool2Events"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

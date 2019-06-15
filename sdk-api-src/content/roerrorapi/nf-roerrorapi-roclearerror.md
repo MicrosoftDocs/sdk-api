@@ -12,6 +12,7 @@ ms.keywords: RoClearError, RoClearError function [Windows Runtime], roerrorapi/R
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
+f1_keywords: ["roerrorapi/RoClearError"]
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

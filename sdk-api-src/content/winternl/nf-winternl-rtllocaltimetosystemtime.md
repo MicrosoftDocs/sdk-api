@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlLocalTimeToSystemTime, RtlLocalTimeToSystemTime function, base.rtllocaltimetosystemtime, winternl/RtlLocalTimeToSystemTime
 ms.topic: function
+f1_keywords: ["winternl/RtlLocalTimeToSystemTime"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

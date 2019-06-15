@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], IDirectManipulationDeferContactService interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdefercontactservice, directmanipulation/IDirectManipulationDeferContactService
 ms.topic: interface
+f1_keywords: ["directmanipulation/IDirectManipulationDeferContactService"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

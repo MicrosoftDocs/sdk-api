@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IResultData interface, GetItem method [MMC],IResultData2 interface, IResultData interface [MMC],GetItem method, IResultData.GetItem, IResultData2 interface [MMC],GetItem method, IResultData2::GetItem, IResultData::GetItem, _slate_iresultdata_getitem, mmc.iresultdata_getitem, mmc/IResultData2::GetItem, mmc/IResultData::GetItem
 ms.topic: method
+f1_keywords: ["mmc/IResultData.GetItem"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWsDecodeUrl, WsDecodeUrl, WsDecodeUrl function [Web Services for Windows], webservices/WsDecodeUrl, wsw.wsdecodeurl
 ms.topic: function
+f1_keywords: ["webservices/WsDecodeUrl"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

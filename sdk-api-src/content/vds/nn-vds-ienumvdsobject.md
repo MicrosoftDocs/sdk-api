@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
 ms.topic: interface
+f1_keywords: ["vds/IEnumVdsObject"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

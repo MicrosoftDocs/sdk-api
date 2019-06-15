@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedOrientation property [Windows Accessibility], CachedOrientation property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedOrientation property, IUIAutomationElement.CachedOrientation, IUIAutomationElement.get_CachedOrientation, IUIAutomationElement::CachedOrientation, IUIAutomationElement::get_CachedOrientation, get_CachedOrientation, uiauto.uiauto_IUIAutomationElement_CachedOrientation, uiauto_IUIAutomationElement_CachedOrientation, uiautomationclient/IUIAutomationElement::CachedOrientation, uiautomationclient/IUIAutomationElement::get_CachedOrientation, winauto.uiauto_IUIAutomationElement_CachedOrientation
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedOrientation"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

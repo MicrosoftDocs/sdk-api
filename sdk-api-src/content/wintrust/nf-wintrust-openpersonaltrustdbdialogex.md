@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenPersonalTrustDBDialogEx, OpenPersonalTrustDBDialogEx function [Security], WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG, security.openpersonaltrustdbdialogex, wintrust/OpenPersonalTrustDBDialogEx
 ms.topic: function
+f1_keywords: ["wintrust/OpenPersonalTrustDBDialogEx"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

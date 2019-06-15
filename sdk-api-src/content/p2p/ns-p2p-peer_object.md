@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_OBJECT, PCPEER_OBJECT, PCPEER_OBJECT structure pointer [Peer Networking], PEER_OBJECT, PEER_OBJECT structure [Peer Networking], PPEER_OBJECT, PPEER_OBJECT structure pointer [Peer Networking], p2p.peer_object, p2p/PCPEER_OBJECT, p2p/PEER_OBJECT, p2p/PPEER_OBJECT"
 ms.topic: struct
+f1_keywords: ["p2p/PEER_OBJECT"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_VERSION, MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD], MIRROR_VIRTUAL_DISK_VERSION_1, MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/MIRROR_VIRTUAL_DISK_VERSION, vdssys/MIRROR_VIRTUAL_DISK_VERSION_1, vdssys/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.mirror_virtual_disk_version, virtdisk/MIRROR_VIRTUAL_DISK_VERSION, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
+f1_keywords: ["virtdisk/MIRROR_VIRTUAL_DISK_VERSION"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

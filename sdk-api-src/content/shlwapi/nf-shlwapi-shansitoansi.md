@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHAnsiToAnsi, SHAnsiToAnsi function [Windows Shell], _win32_SHAnsiToAnsi, shell.SHAnsiToAnsi, shlwapi/SHAnsiToAnsi
 ms.topic: function
+f1_keywords: ["shlwapi/SHAnsiToAnsi"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

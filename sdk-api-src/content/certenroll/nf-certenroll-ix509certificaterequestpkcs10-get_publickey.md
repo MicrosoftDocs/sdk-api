@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],PublicKey property, IX509CertificateRequestPkcs10.PublicKey, IX509CertificateRequestPkcs10.get_PublicKey, IX509CertificateRequestPkcs10::PublicKey, IX509CertificateRequestPkcs10::get_PublicKey, PublicKey property [Security], PublicKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::PublicKey, certenroll/IX509CertificateRequestPkcs10::get_PublicKey, get_PublicKey, security.ix509certificaterequestpkcs10_publickey_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequestPkcs10.PublicKey"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

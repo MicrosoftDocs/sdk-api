@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MICUIELEMENTSTATE, MICUIELEMENTSTATE enumeration [Tablet PC], MICUIELEMENTSTATE_DISABLED, MICUIELEMENTSTATE_HOT, MICUIELEMENTSTATE_NORMAL, MICUIELEMENTSTATE_PRESSED, micaut/MICUIELEMENTSTATE, micaut/MICUIELEMENTSTATE_DISABLED, micaut/MICUIELEMENTSTATE_HOT, micaut/MICUIELEMENTSTATE_NORMAL, micaut/MICUIELEMENTSTATE_PRESSED, tablet.micuielementstate
 ms.topic: enum
+f1_keywords: ["micaut/MICUIELEMENTSTATE"]
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows

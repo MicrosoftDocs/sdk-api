@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Any other value, SetCoalescableTimer, SetCoalescableTimer function [Windows and Messages], TIMERV_DEFAULT_COALESCING, TIMERV_NO_COALESCING, winmsg.setcoalescabletimer, winuser/SetCoalescableTimer
 ms.topic: function
+f1_keywords: ["winuser/SetCoalescableTimer"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 52a3be2b-f715-4e12-9f69-6a832153ff5e, MFConvertColorInfoToDXVA, MFConvertColorInfoToDXVA function [Media Foundation], mf.mfconvertcolorinfotodxva, mfapi/MFConvertColorInfoToDXVA
 ms.topic: function
+f1_keywords: ["mfapi/MFConvertColorInfoToDXVA"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

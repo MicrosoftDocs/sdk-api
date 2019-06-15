@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerBackupDatabase"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

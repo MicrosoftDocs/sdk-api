@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT, VDS_DRIVE_EXTENT structure [VDS], base.vds_drive_extent, vds/_VDS_DRIVE_EXTENT, vdshwprv/_VDS_DRIVE_EXTENT"
 ms.topic: struct
+f1_keywords: ["vdshwprv/VDS_DRIVE_EXTENT"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

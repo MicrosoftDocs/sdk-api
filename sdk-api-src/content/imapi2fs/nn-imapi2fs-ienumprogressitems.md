@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumProgressItems, IEnumProgressItems interface [IMAPI], IEnumProgressItems interface [IMAPI],described, imapi.ienumprogressitems, imapi2fs/IEnumProgressItems
 ms.topic: interface
+f1_keywords: ["imapi2fs/IEnumProgressItems"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

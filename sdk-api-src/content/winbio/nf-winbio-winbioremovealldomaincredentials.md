@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioRemoveAllDomainCredentials, WinBioRemoveAllDomainCredentials function [Windows Biometric Framework API], secbiomet.winbioremovealldomaincredentials, winbio/WinBioRemoveAllDomainCredentials
 ms.topic: function
+f1_keywords: ["winbio/WinBioRemoveAllDomainCredentials"]
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows

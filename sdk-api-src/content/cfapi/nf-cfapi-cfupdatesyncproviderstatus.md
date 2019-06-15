@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfUpdateSyncProviderStatus, CfUpdateSyncProviderStatus function, cfapi/CfUpdateSyncProviderStatus, cloudApi.cfupdatesyncproviderstatus
 ms.topic: function
+f1_keywords: ["cfapi/CfUpdateSyncProviderStatus"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

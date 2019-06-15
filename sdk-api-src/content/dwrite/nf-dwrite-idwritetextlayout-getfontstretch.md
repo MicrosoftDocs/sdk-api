@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontStretch, GetFontStretch method [Direct Write], GetFontStretch method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontStretch method, IDWriteTextLayout.GetFontStretch, IDWriteTextLayout::GetFontStretch, directwrite.IDWriteTextLayout_GetFontStretch, dwrite/IDWriteTextLayout::GetFontStretch
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.GetFontStretch"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IValidate interface, IValidate interface,CloseDatabase method, IValidate.CloseDatabase, IValidate::CloseDatabase, evalcom2/IValidate::CloseDatabase, setup.ivalidate_closedatabase
 ms.topic: method
+f1_keywords: ["evalcom2/IValidate.CloseDatabase"]
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

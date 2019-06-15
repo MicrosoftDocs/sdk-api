@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COAUTHINFO, COAUTHINFO structure [COM], _COAUTHINFO, _com_COAUTHINFO, com.coauthinfo, wtypesbase/COAUTHINFO
 ms.topic: struct
+f1_keywords: ["wtypesbase/COAUTHINFO"]
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

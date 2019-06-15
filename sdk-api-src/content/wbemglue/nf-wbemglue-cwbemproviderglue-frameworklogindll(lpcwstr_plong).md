@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLoginDLL method, CWbemProviderGlue.FrameworkLoginDLL, CWbemProviderGlue.FrameworkLoginDLL(LPCWSTR,PLONG), CWbemProviderGlue::FrameworkLoginDLL, CWbemProviderGlue::FrameworkLoginDLL(LPCWSTR,PLONG), FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll"
 ms.topic: method
+f1_keywords: ["wbemglue/CWbemProviderGlue.FrameworkLoginDLL"]
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleNoteObjectVisible, OleNoteObjectVisible function [COM], _ole_OleNoteObjectVisible, com.olenoteobjectvisible, ole2/OleNoteObjectVisible
 ms.topic: function
+f1_keywords: ["ole2/OleNoteObjectVisible"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

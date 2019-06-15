@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptItemize, ScriptItemize function [Internationalization for Windows Applications], _win32_ScriptItemize, intl.scriptitemize, usp10/ScriptItemize
 ms.topic: function
+f1_keywords: ["usp10/ScriptItemize"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

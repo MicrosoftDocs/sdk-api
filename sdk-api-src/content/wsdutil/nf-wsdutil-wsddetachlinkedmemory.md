@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDDetachLinkedMemory, WSDDetachLinkedMemory function, ncd.wsddetachlinkedmemory_func, wsdutil/WSDDetachLinkedMemory
 ms.topic: function
+f1_keywords: ["wsdutil/WSDDetachLinkedMemory"]
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
 ms.topic: struct
+f1_keywords: ["tcpioctl/IPSNMPInfo"]
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

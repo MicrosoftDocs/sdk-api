@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificationAuthority, ICertificationAuthority interface [Security], ICertificationAuthority interface [Security],described, certenroll/ICertificationAuthority, security.icertificationauthority
 ms.topic: interface
+f1_keywords: ["certenroll/ICertificationAuthority"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

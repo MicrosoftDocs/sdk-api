@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance interface [VDS],described, base.ivdsmaintenance, vds/IVdsMaintenance, vdshwprv/IVdsMaintenance
 ms.topic: interface
+f1_keywords: ["vds/IVdsMaintenance"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasGetConnectionStatistics, RasGetConnectionStatistics function [RAS], _ras_rasgetconnectionstatistics, ras/RasGetConnectionStatistics, rras.rasgetconnectionstatistics
 ms.topic: function
+f1_keywords: ["ras/RasGetConnectionStatistics"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

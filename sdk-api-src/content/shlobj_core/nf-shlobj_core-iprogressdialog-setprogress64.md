@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetProgress64 method, IProgressDialog.SetProgress64, IProgressDialog::SetProgress64, SetProgress64, SetProgress64 method [Windows Shell], SetProgress64 method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetProgress64, shell.IProgressDialog_SetProgress64, shlobj_core/IProgressDialog::SetProgress64
 ms.topic: method
+f1_keywords: ["shlobj_core/IProgressDialog.SetProgress64"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

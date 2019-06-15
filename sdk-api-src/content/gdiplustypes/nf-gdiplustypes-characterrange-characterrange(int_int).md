@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CharacterRange, CharacterRange class [GDI+],CharacterRange constructor, CharacterRange constructor [GDI+], CharacterRange constructor [GDI+],CharacterRange class, CharacterRange.CharacterRange, CharacterRange.CharacterRange(INT,INT), CharacterRange::CharacterRange, CharacterRange::CharacterRange(INT,INT), _gdiplus_CLASS_CharacterRange_CharacterRange_first_length_, gdiplus._gdiplus_CLASS_CharacterRange_CharacterRange_first_length_
 ms.topic: method
+f1_keywords: ["gdiplustypes/CharacterRange.CharacterRange"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

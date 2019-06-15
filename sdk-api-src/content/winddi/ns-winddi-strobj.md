@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ, STROBJ structure [Display Devices], display.strobj, grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml, winddi/STROBJ
 ms.topic: struct
+f1_keywords: ["winddi/STROBJ"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

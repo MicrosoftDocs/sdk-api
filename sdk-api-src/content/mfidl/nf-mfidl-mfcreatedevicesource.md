@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateDeviceSource"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

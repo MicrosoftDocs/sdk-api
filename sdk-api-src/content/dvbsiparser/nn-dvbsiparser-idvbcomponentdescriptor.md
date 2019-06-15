@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], IDvbComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbComponentDescriptor, mstv.idvbcomponentdescriptor
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IDvbComponentDescriptor"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
 ms.topic: function
+f1_keywords: ["fhsvcctl/FhServiceOpenPipe"]
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows

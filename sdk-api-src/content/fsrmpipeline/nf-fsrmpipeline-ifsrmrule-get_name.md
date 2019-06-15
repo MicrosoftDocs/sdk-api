@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],Name property, IFsrmRule.Name, IFsrmRule.get_Name, IFsrmRule::Name, IFsrmRule::get_Name, IFsrmRule::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_name, fsrm.ifsrmrule_name, fsrmpipeline/IFsrmRule::Name, fsrmpipeline/IFsrmRule::get_Name, fsrmpipeline/IFsrmRule::put_Name, get_Name
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmRule.Name"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

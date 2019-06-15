@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCODE_SEVERITY, SCODE_SEVERITY macro [COM], _com_SCODE_SEVERITY, com.scode_severity, com.scode_severity_macro, winerror/SCODE_SEVERITY
 ms.topic: macro
+f1_keywords: ["winerror/SCODE_SEVERITY"]
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

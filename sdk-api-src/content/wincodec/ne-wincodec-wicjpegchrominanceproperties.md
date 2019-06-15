@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICJpegChrominanceProperties, WICJpegChrominanceProperties enumeration [Windows Imaging Component], WICJpegChrominanceTable, _wic_codec_wicjpegchrominanceproperties, wic._wic_codec_wicjpegchrominanceproperties, wincodec/WICJpegChrominanceProperties, wincodec/WICJpegChrominanceTable
 ms.topic: enum
+f1_keywords: ["wincodec/WICJpegChrominanceProperties"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

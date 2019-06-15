@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader, IWMSyncReader interface [windows Media Format], IWMSyncReader interface [windows Media Format],described, IWMSyncReaderInterface, wmformat.iwmsyncreader, wmsdkidl/IWMSyncReader
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMSyncReader"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

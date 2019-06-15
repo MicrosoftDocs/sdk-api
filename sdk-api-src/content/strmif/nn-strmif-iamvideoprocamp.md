@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp, IAMVideoProcAmp interface [DirectShow], IAMVideoProcAmp interface [DirectShow],described, IAMVideoProcAmpInterface, dshow.iamvideoprocamp, strmif/IAMVideoProcAmp
 ms.topic: interface
+f1_keywords: ["strmif/IAMVideoProcAmp"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

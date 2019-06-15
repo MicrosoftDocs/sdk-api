@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
 ms.topic: interface
+f1_keywords: ["shlwapi/IQueryAssociations"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

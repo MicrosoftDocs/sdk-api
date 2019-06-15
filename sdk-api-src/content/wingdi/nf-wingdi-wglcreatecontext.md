@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, wglCreateContext function [OpenGL], wingdi/wglCreateContext"
 ms.topic: function
+f1_keywords: ["wingdi/wglCreateContext"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

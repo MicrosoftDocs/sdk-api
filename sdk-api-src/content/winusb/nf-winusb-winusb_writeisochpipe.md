@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WriteIsochPipe, WinUsb_WriteIsochPipe function [Buses], buses.winusb_writeisochpipe, winusb/WinUsb_WriteIsochPipe
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_WriteIsochPipe"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

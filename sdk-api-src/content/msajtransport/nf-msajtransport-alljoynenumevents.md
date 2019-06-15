@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
 ms.topic: function
+f1_keywords: ["msajtransport/AllJoynEnumEvents"]
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows

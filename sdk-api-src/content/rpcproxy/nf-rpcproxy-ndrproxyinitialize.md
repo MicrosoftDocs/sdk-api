@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrProxyInitialize, NdrProxyInitialize function [RPC], rpc.ndrproxyinitialize, rpcproxy/NdrProxyInitialize
 ms.topic: function
+f1_keywords: ["rpcproxy/NdrProxyInitialize"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

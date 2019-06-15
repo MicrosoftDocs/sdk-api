@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
 ms.topic: function
+f1_keywords: ["wingdi/SelectClipPath"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

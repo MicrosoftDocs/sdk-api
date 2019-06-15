@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
 ms.topic: function
+f1_keywords: ["roparameterizediid/RoFreeParameterizedTypeExtra"]
 req.header: roparameterizediid.h
 req.include-header: Paraminstanceapi.h
 req.target-type: Windows

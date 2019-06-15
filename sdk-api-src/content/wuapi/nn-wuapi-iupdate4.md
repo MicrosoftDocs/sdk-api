@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate4, IUpdate4 interface [Windows Update Agent], IUpdate4 interface [Windows Update Agent],described, wua.iupdate4, wuapi/IUpdate4
 ms.topic: interface
+f1_keywords: ["wuapi/IUpdate4"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

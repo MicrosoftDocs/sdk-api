@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Name property, IFsrmPropertyDefinitionValue.Name, IFsrmPropertyDefinitionValue.get_Name, IFsrmPropertyDefinitionValue::Name, IFsrmPropertyDefinitionValue::get_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, fs.ifsrmpropertydefinitionvalue_name, fsrm.ifsrmpropertydefinitionvalue_name, fsrmpipeline/IFsrmPropertyDefinitionValue::Name, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Name, get_Name
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyDefinitionValue.Name"]
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

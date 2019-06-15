@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeProviderFreeInfo, PxeProviderFreeInfo function [Windows Deployment Services], wds.pxeproviderfreeinfo, wdspxe/PxeProviderFreeInfo
 ms.topic: function
+f1_keywords: ["wdspxe/PxeProviderFreeInfo"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

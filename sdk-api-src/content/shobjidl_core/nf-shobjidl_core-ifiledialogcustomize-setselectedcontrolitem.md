@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetSelectedControlItem method, IFileDialogCustomize.SetSelectedControlItem, IFileDialogCustomize::SetSelectedControlItem, SetSelectedControlItem, SetSelectedControlItem method [Windows Shell], SetSelectedControlItem method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetSelectedControlItem, shell_IFileDialogCustomize_SetSelectedControlItem, shobjidl_core/IFileDialogCustomize::SetSelectedControlItem
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialogCustomize.SetSelectedControlItem"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

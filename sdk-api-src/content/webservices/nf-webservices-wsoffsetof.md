@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsOffsetOf, WsOffsetOf macro [Web Services for Windows], webservices/WsOffsetOf, wsw.wsoffsetof
 ms.topic: macro
+f1_keywords: ["webservices/WsOffsetOf"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

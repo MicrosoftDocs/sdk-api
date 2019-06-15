@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AcquireDeveloperLicense, AcquireDeveloperLicense function, devlic.acquiredeveloperlicense, wsdevlicensing/AcquireDeveloperLicense
 ms.topic: function
+f1_keywords: ["wsdevlicensing/AcquireDeveloperLicense"]
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows

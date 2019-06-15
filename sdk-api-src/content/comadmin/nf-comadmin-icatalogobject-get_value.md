@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],Value property, ICatalogObject.Value, ICatalogObject.get_Value, ICatalogObject::Value, ICatalogObject::get_Value, ICatalogObject::put_Value, Value property [COM+], Value property [COM+],ICatalogObject interface, _cos_ICatalogObject_get_Value, _cos_ICatalogObject_put_Value, comadmin/ICatalogObject::Value, comadmin/ICatalogObject::get_Value, comadmin/ICatalogObject::put_Value, cos.icatalogobject_value, get_Value
 ms.topic: method
+f1_keywords: ["comadmin/ICatalogObject.Value"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

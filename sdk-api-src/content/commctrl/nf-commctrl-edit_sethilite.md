@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetHilite, Edit_SetHilite macro [Windows Controls], _shell_Edit_SetHilite, _shell_Edit_SetHilite_cpp, commctrl/Edit_SetHilite, controls.Edit_SetHilite, controls._shell_Edit_SetHilite
 ms.topic: macro
+f1_keywords: ["commctrl/Edit_SetHilite"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccessEntryEx, AddAccessEntryEx method [windows Media Format], AddAccessEntryEx method [windows Media Format],IWMAddressAccess2 interface, IWMAddressAccess2 interface [windows Media Format],AddAccessEntryEx method, IWMAddressAccess2.AddAccessEntryEx, IWMAddressAccess2::AddAccessEntryEx, IWMAddressAccess2AddAccessEntryEx, wmformat.iwmaddressaccess2_addaccessentryex, wmsdkidl/IWMAddressAccess2::AddAccessEntryEx
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMAddressAccess2.AddAccessEntryEx"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

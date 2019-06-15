@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],PropertyFlags property, IFsrmProperty.PropertyFlags, IFsrmProperty.get_PropertyFlags, IFsrmProperty::PropertyFlags, IFsrmProperty::get_PropertyFlags, PropertyFlags property [File Server Resource Manager], PropertyFlags property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_propertyflags, fsrm.ifsrmproperty_propertyflags, fsrmpipeline/IFsrmProperty::PropertyFlags, fsrmpipeline/IFsrmProperty::get_PropertyFlags, get_PropertyFlags
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmProperty.PropertyFlags"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

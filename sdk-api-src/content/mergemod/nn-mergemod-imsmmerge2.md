@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge2, IMsmMerge2 interface, IMsmMerge2 interface,described, _msi_imsmmerge2_interface, mergemod/IMsmMerge2, setup.imsmmerge2_interface
 ms.topic: interface
+f1_keywords: ["mergemod/IMsmMerge2"]
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

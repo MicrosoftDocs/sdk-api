@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG, CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG, CRYPT_FIND_MACHINE_KEYSET_FLAG, CRYPT_FIND_SILENT_KEYSET_FLAG, CRYPT_FIND_USER_KEYSET_FLAG, CryptFindCertificateKeyProvInfo, CryptFindCertificateKeyProvInfo function [Security], _crypto2_cryptfindcertificatekeyprovinfo, security.cryptfindcertificatekeyprovinfo, wincrypt/CryptFindCertificateKeyProvInfo
 ms.topic: function
+f1_keywords: ["wincrypt/CryptFindCertificateKeyProvInfo"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

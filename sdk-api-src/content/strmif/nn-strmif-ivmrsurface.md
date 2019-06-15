@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow],described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface
 ms.topic: interface
+f1_keywords: ["strmif/IVMRSurface"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

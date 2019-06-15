@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
 ms.topic: function
+f1_keywords: ["pathcch/PathCchAppend"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

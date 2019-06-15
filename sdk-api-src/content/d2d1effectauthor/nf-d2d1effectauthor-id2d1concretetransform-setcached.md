@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1ConcreteTransform interface [Direct2D],SetCached method, ID2D1ConcreteTransform.SetCached, ID2D1ConcreteTransform::SetCached, SetCached, SetCached method [Direct2D], SetCached method [Direct2D],ID2D1ConcreteTransform interface, d2d1effectauthor/ID2D1ConcreteTransform::SetCached, direct2d.id2d1concretetransform_setcached
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1ConcreteTransform.SetCached"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

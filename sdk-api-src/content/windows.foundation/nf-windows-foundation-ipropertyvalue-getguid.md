@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetGuid method, IPropertyValue.GetGuid, IPropertyValue.IPropertyValue, IPropertyValue::GetGuid, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetGuid, winrt.ipropertyvalue_getguid
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValue.GetGuid"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

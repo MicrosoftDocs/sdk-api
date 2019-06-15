@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],WriteFailure method, IMSVidStreamBufferSinkEvent.WriteFailure, IMSVidStreamBufferSinkEvent::WriteFailure, IMSVidStreamBufferSinkEventWriteFailure, WriteFailure, WriteFailure method [Microsoft TV Technologies], WriteFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, mstv.imsvidstreambuffersinkevent_writefailure, segment/IMSVidStreamBufferSinkEvent::WriteFailure
 ms.topic: method
+f1_keywords: ["segment/IMSVidStreamBufferSinkEvent.WriteFailure"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

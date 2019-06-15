@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: X3DAudioCalculate, X3DAudioCalculate function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioCalculate, xaudio2.x3daudiocalculate
 ms.topic: function
+f1_keywords: ["x3daudio/X3DAudioCalculate"]
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

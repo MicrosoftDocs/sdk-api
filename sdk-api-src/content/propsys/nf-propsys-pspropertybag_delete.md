@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
 ms.topic: function
+f1_keywords: ["propsys/PSPropertyBag_Delete"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

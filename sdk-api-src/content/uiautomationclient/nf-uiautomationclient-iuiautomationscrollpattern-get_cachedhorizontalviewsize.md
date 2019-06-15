@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedHorizontalViewSize property [Windows Accessibility], CachedHorizontalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontalViewSize property, IUIAutomationScrollPattern.CachedHorizontalViewSize, IUIAutomationScrollPattern.get_CachedHorizontalViewSize, IUIAutomationScrollPattern::CachedHorizontalViewSize, IUIAutomationScrollPattern::get_CachedHorizontalViewSize, get_CachedHorizontalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize, uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationScrollPattern.CachedHorizontalViewSize"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

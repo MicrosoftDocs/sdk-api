@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIDLData_CreateFromIDArray, CIDLData_CreateFromIDArray function [Windows Shell], _shell_CIDLData_CreateFromIDArray, shell.CIDLData_CreateFromIDArray, shlobj_core/CIDLData_CreateFromIDArray
 ms.topic: function
+f1_keywords: ["shlobj_core/CIDLData_CreateFromIDArray"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

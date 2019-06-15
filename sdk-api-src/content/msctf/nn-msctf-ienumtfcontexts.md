@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContexts, IEnumTfContexts interface [Text Services Framework], IEnumTfContexts interface [Text Services Framework],described, _tsf_ienumtfcontexts_ref, msctf/IEnumTfContexts, tsf.ienumtfcontexts
 ms.topic: interface
+f1_keywords: ["msctf/IEnumTfContexts"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

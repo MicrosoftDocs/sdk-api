@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAgileReference interface [Windows Runtime],Resolve method, IAgileReference.Resolve, IAgileReference.Resolve(REFIID,void), IAgileReference::Resolve, IAgileReference::Resolve(REFIID,void), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IAgileReference interface, objidl/IAgileReference::Resolve, winrt.iagilereference_resolve
 ms.topic: method
+f1_keywords: ["objidl/IAgileReference.Resolve"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

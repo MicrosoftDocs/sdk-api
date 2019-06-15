@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win32_DateTime_GetRange, _win32_DateTime_GetRange_cpp, commctrl/DateTime_GetRange, controls.DateTime_GetRange, controls._win32_DateTime_GetRange
 ms.topic: macro
+f1_keywords: ["commctrl/DateTime_GetRange"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

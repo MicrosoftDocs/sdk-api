@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChoosePixelFormat, ChoosePixelFormat function [OpenGL], _ogl_ChoosePixelFormat, opengl.choosepixelformat, wingdi/ChoosePixelFormat
 ms.topic: function
+f1_keywords: ["wingdi/ChoosePixelFormat"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

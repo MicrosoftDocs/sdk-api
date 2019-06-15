@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolTimeout method, IComObjectPoolEvents2.OnObjPoolTimeout, IComObjectPoolEvents2::OnObjPoolTimeout, OnObjPoolTimeout, OnObjPoolTimeout method [COM+], OnObjPoolTimeout method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolTimeout, comsvcs/IComObjectPoolEvents2::OnObjPoolTimeout, cos.icomobjectpoolevents2_onobjpooltimeout
 ms.topic: method
+f1_keywords: ["comsvcs/IComObjectPoolEvents2.OnObjPoolTimeout"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateItem, CreateItem method [Windows Shell], CreateItem method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],CreateItem method, ITransferDestination.CreateItem, ITransferDestination::CreateItem, _shell_ITransferDestination_CreateItem, shell.ITransferDestination_CreateItem, shobjidl_core/ITransferDestination::CreateItem
 ms.topic: method
+f1_keywords: ["shobjidl_core/ITransferDestination.CreateItem"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

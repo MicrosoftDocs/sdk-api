@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remote Management], winrm.wsman_plugin_request, wsman/WSMAN_PLUGIN_REQUEST
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_PLUGIN_REQUEST"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

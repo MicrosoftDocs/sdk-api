@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPublishingWizard, IPublishingWizard interface [Windows Shell], IPublishingWizard interface [Windows Shell],described, _shell_IPublishingWizard, shell.IPublishingWizard, shobjidl/IPublishingWizard
 ms.topic: interface
+f1_keywords: ["shobjidl/IPublishingWizard"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

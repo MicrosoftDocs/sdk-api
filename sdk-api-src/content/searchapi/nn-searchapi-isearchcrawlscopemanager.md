@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCrawlScopeManager, ISearchCrawlScopeManager interface [search], ISearchCrawlScopeManager interface [search],described, _search_ISearchCrawlScopeManager, search._search_ISearchCrawlScopeManager, searchapi/ISearchCrawlScopeManager
 ms.topic: interface
+f1_keywords: ["searchapi/ISearchCrawlScopeManager"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

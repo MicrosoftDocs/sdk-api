@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHRegGetIntW, SHRegGetIntW function [Windows Shell], _shell_SHRegGetInt, shell.SHRegGetInt, shlwapi/SHRegGetIntW
 ms.topic: function
+f1_keywords: ["shlwapi/SHRegGetIntW"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

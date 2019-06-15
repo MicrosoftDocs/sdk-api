@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],QueryRevertStatus method, IVssBackupComponents.QueryRevertStatus, IVssBackupComponents::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method [VSS], QueryRevertStatus method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_queryrevertstatus, base.ivssbackupcomponents_queryrevertstatus, vsbackup/IVssBackupComponents::QueryRevertStatus
 ms.topic: method
+f1_keywords: ["vsbackup/IVssBackupComponents.QueryRevertStatus"]
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

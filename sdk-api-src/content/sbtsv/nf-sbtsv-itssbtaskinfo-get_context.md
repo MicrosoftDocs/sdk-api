@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Context property [Remote Desktop Services], Context property [Remote Desktop Services],ITsSbTaskInfo interface, ITsSbTaskInfo interface [Remote Desktop Services],Context property, ITsSbTaskInfo.Context, ITsSbTaskInfo.get_Context, ITsSbTaskInfo::Context, ITsSbTaskInfo::get_Context, get_Context, sbtsv/ITsSbTaskInfo::Context, sbtsv/ITsSbTaskInfo::get_Context, termserv.itssbtaskinfo_context
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbTaskInfo.Context"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

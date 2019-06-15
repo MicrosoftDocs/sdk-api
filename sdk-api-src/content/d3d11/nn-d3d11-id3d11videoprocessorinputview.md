@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorInputView, ID3D11VideoProcessorInputView interface [Media Foundation], ID3D11VideoProcessorInputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorInputView, mf.id3d11videoprocessorinputview
 ms.topic: interface
+f1_keywords: ["d3d11/ID3D11VideoProcessorInputView"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

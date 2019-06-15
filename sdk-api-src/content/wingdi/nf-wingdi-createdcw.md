@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDC, CreateDC function [Windows GDI], CreateDCA, CreateDCW, _win32_CreateDC, gdi.createdc, wingdi/CreateDC, wingdi/CreateDCA, wingdi/CreateDCW
 ms.topic: function
+f1_keywords: ["wingdi/CreateDC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

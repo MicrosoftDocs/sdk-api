@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, naptypes/Ipv4Address
 ms.topic: struct
+f1_keywords: ["naptypes/Ipv4Address"]
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

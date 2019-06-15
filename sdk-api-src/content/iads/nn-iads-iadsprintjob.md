@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
 ms.topic: interface
+f1_keywords: ["iads/IADsPrintJob"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

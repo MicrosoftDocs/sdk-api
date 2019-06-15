@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlgNameWStr, GetAlgNameWStr method [Security], GetAlgNameWStr method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetAlgNameWStr method, IEnroll2.GetAlgNameWStr, IEnroll2::GetAlgNameWStr, security.ienroll4_getalgnamewstr, xenroll/IEnroll2::GetAlgNameWStr
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll2.GetAlgNameWStr"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

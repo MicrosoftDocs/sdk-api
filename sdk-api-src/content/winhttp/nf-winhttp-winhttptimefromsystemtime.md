@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpTimeFromSystemTime, WinHttpTimeFromSystemTime function [WinHTTP], http.winhttptimefromsystemtime, winhttp.winhttptimefromsystemtime_function, winhttp/WinHttpTimeFromSystemTime
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpTimeFromSystemTime"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

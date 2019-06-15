@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNETLOGON_INFO_1, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_1, NETLOGON_INFO_1 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_1, PNETLOGON_INFO_1 structure pointer [Windows API], lmaccess/NETLOGON_INFO_1, lmaccess/PNETLOGON_INFO_1, winprog.netlogon_info_1"
 ms.topic: struct
+f1_keywords: ["lmaccess/NETLOGON_INFO_1"]
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

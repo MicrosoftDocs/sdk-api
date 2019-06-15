@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorTransformFactory interface [Media Foundation],InitializeFactory method, IMFSensorTransformFactory.InitializeFactory, IMFSensorTransformFactory::InitializeFactory, InitializeFactory, InitializeFactory method [Media Foundation], InitializeFactory method [Media Foundation],IMFSensorTransformFactory interface, mf.imfsensortransformfactory_initializefactory, mfidl/IMFSensorTransformFactory::InitializeFactory
 ms.topic: method
+f1_keywords: ["mfidl/IMFSensorTransformFactory.InitializeFactory"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

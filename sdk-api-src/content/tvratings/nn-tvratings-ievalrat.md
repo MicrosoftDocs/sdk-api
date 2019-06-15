@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEvalRat, IEvalRat interface [Microsoft TV Technologies], IEvalRat interface [Microsoft TV Technologies],described, IEvalRatInterface, mstv.ievalrat, tvratings/IEvalRat
 ms.topic: interface
+f1_keywords: ["tvratings/IEvalRat"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

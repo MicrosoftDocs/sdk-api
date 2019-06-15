@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_POINTERID_WPARAM, GET_POINTERID_WPARAM	, GET_POINTERID_WPARAM macro [Input Messages and Notifications], inputmsg.get_pointerid_wparam, winuser/GET_POINTERID_WPARAM
 ms.topic: macro
+f1_keywords: ["winuser/GET_POINTERID_WPARAM"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

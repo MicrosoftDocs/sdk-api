@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationGamma, GetColorInterpolationGamma method [Direct2D], GetColorInterpolationGamma method [Direct2D],ID2D1GradientStopCollection interface, ID2D1GradientStopCollection interface [Direct2D],GetColorInterpolationGamma method, ID2D1GradientStopCollection.GetColorInterpolationGamma, ID2D1GradientStopCollection::GetColorInterpolationGamma, d2d1/ID2D1GradientStopCollection::GetColorInterpolationGamma, direct2d.ID2D1GradientStopCollection_GetColorInterpolationGamma
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1GradientStopCollection.GetColorInterpolationGamma"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

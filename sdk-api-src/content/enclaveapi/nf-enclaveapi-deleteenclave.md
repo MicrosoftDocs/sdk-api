@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
 ms.topic: function
+f1_keywords: ["enclaveapi/DeleteEnclave"]
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

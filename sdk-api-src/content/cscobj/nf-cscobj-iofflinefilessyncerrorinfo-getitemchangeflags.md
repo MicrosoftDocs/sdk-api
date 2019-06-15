@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemChangeFlags, GetItemChangeFlags method [Offline Files], GetItemChangeFlags method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetItemChangeFlags method, IOfflineFilesSyncErrorInfo.GetItemChangeFlags, IOfflineFilesSyncErrorInfo::GetItemChangeFlags, OFFLINEFILES_SYNC_ITEM_CHANGE_ATTRIBUTES, OFFLINEFILES_SYNC_ITEM_CHANGE_CHANGETIME, OFFLINEFILES_SYNC_ITEM_CHANGE_FILESIZE, OFFLINEFILES_SYNC_ITEM_CHANGE_NONE, OFFLINEFILES_SYNC_ITEM_CHANGE_WRITETIME, cscobj/IOfflineFilesSyncErrorInfo::GetItemChangeFlags, of.iofflinefilessyncerrorinfo_getitemchangeflags
 ms.topic: method
+f1_keywords: ["cscobj/IOfflineFilesSyncErrorInfo.GetItemChangeFlags"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

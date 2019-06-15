@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWaitHandle, GetWaitHandle method [Direct Write], GetWaitHandle method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetWaitHandle method, IDWriteAsyncResult.GetWaitHandle, IDWriteAsyncResult::GetWaitHandle, directwrite.idwriteasyncresult_getwaithandle, dwrite_3/IDWriteAsyncResult::GetWaitHandle
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteAsyncResult.GetWaitHandle"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

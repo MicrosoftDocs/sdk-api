@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoImpersonateClient, CoImpersonateClient function [COM], _com_CoImpersonateClient, com.coimpersonateclient, combaseapi/CoImpersonateClient
 ms.topic: function
+f1_keywords: ["combaseapi/CoImpersonateClient"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

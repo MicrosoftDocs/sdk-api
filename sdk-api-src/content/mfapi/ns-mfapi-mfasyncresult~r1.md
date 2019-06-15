@@ -4,6 +4,7 @@ title: MFASYNCRESULT
 ms.date: 01/30/19
 ms.keywords: tagMFASYNCRESULT, MFASYNCRESULT
 ms.topic: language-reference
+f1_keywords: ["mfapi/tagMFASYNCRESULT"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

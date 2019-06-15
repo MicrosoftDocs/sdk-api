@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortGetInfo, MprAdminPortGetInfo function [RAS], _mpr_mpradminportgetinfo, mprapi/MprAdminPortGetInfo, rras.mpradminportgetinfo
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminPortGetInfo"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

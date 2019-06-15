@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathGetShortPath, PathGetShortPath function [Windows Shell], _win32_PathGetShortPath, shell.PathGetShortPath, shlobj_core/PathGetShortPath
 ms.topic: function
+f1_keywords: ["shlobj_core/PathGetShortPath"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

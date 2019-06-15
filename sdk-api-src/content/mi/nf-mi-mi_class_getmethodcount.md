@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Class_GetMethodCount, MI_Class_GetMethodCount function [Windows Management Infrastructure (MI)], mi/MI_Class_GetMethodCount, wmi_v2.mi_class_getmethodcount
 ms.topic: function
+f1_keywords: ["mi/MI_Class_GetMethodCount"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

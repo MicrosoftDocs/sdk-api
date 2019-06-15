@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensorCollection interface,Remove method, ISensorCollection.Remove, ISensorCollection::Remove, Remove, Remove method, Remove method,ISensorCollection interface, sensorsapi/ISensorCollection::Remove, winsensors_com_ref.isensorcollection_remove
 ms.topic: method
+f1_keywords: ["sensorsapi/ISensorCollection.Remove"]
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

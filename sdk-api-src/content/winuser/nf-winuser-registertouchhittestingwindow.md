@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterTouchHitTestingWindow, RegisterTouchHitTestingWindow function, input_touchhittest.registertouchhittestingwindow, touch_hittest.registertouchhittestingwindow, winuser/RegisterTouchHitTestingWindow
 ms.topic: function
+f1_keywords: ["winuser/RegisterTouchHitTestingWindow"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

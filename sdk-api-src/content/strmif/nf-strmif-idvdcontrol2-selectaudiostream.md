@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAudioStream method, IDvdControl2.SelectAudioStream, IDvdControl2::SelectAudioStream, IDvdControl2SelectAudioStream, SelectAudioStream, SelectAudioStream method [DirectShow], SelectAudioStream method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectaudiostream, strmif/IDvdControl2::SelectAudioStream
 ms.topic: method
+f1_keywords: ["strmif/IDvdControl2.SelectAudioStream"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

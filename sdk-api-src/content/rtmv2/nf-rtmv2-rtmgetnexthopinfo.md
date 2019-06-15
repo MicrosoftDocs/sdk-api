@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetNextHopInfo, RtmGetNextHopInfo function [RAS], _rtmv2ref_rtmgetnexthopinfo, rras.rtmgetnexthopinfo, rtmv2/RtmGetNextHopInfo
 ms.topic: function
+f1_keywords: ["rtmv2/RtmGetNextHopInfo"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

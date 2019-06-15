@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 44cd2690-0c08-62c5-decf-0c54344edb9b, IDirect3DCubeTexture9, IDirect3DCubeTexture9 interface [Direct3D 9], IDirect3DCubeTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DCubeTexture9, direct3d9.idirect3dcubetexture9
 ms.topic: interface
+f1_keywords: ["d3d9helper/IDirect3DCubeTexture9"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

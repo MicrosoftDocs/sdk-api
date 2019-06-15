@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
 ms.topic: function
+f1_keywords: ["werapi/WerUnregisterFile"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

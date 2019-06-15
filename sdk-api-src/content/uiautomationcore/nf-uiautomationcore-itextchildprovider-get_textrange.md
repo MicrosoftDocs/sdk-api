@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextChildProvider interface [Windows Accessibility],TextRange property, ITextChildProvider.TextRange, ITextChildProvider.get_TextRange, ITextChildProvider::TextRange, ITextChildProvider::get_TextRange, TextRange property [Windows Accessibility], TextRange property [Windows Accessibility],ITextChildProvider interface, get_TextRange, uiautomationcore/ITextChildProvider::TextRange, uiautomationcore/ITextChildProvider::get_TextRange, winauto.uiauto_ITextChildProvider_TextRange
 ms.topic: method
+f1_keywords: ["uiautomationcore/ITextChildProvider.TextRange"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

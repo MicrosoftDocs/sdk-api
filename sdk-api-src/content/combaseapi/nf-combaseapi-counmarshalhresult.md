@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoUnmarshalHresult, CoUnmarshalHresult function [COM], _com_CoUnmarshalHresult, com.counmarshalhresult, combaseapi/CoUnmarshalHresult
 ms.topic: function
+f1_keywords: ["combaseapi/CoUnmarshalHresult"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

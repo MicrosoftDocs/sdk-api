@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCSetProviderInfo32, WSCSetProviderInfo32 function [Winsock], winsock.wscsetproviderinfo32, ws2spi/WSCSetProviderInfo32
 ms.topic: function
+f1_keywords: ["ws2spi/WSCSetProviderInfo32"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

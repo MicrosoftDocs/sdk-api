@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8e0d5af5-974b-b561-2c13-93983bd71b25, D3D10_TEX2D_ARRAY_RTV, D3D10_TEX2D_ARRAY_RTV structure [Direct3D 10], d3d10/D3D10_TEX2D_ARRAY_RTV, direct3d10.d3d10_tex2d_array_rtv
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_TEX2D_ARRAY_RTV"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

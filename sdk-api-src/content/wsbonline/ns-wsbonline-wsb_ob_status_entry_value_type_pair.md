@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup], wsb.wsb_ob_status_entry_value_type_pair, wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 ms.topic: struct
+f1_keywords: ["wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR"]
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

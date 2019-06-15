@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxDisplaySASNotice, WlxDisplaySASNotice function [Security], _gina_wlxdisplaysasnotice, security.wlxdisplaysasnotice, winwlx/WlxDisplaySASNotice
 ms.topic: function
+f1_keywords: ["winwlx/WlxDisplaySASNotice"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

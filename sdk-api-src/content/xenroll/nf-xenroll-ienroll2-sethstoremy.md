@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],SetHStoreMy method, IEnroll2 interface [Security],SetHStoreMy method, IEnroll2.SetHStoreMy, IEnroll2::SetHStoreMy, IEnroll::SetHStoreMy, SetHStoreMy, SetHStoreMy method [Security], SetHStoreMy method [Security],IEnroll interface, SetHStoreMy method [Security],IEnroll2 interface, security.ienroll4_sethstoremy, xenroll/IEnroll2::SetHStoreMy, xenroll/IEnroll::SetHStoreMy
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll.SetHStoreMy"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

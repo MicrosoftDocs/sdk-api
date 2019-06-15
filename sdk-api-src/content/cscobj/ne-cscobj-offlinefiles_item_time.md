@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_ITEM_TIME, OFFLINEFILES_ITEM_TIME enumeration [Offline Files], OFFLINEFILES_ITEM_TIME_CREATION, OFFLINEFILES_ITEM_TIME_LASTACCESS, OFFLINEFILES_ITEM_TIME_LASTWRITE, cscobj/OFFLINEFILES_ITEM_TIME, cscobj/OFFLINEFILES_ITEM_TIME_CREATION, cscobj/OFFLINEFILES_ITEM_TIME_LASTACCESS, cscobj/OFFLINEFILES_ITEM_TIME_LASTWRITE, of.offlinefiles_item_time
 ms.topic: enum
+f1_keywords: ["cscobj/OFFLINEFILES_ITEM_TIME"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

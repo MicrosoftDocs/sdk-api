@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, wingdi/LPPANOSE, wingdi/PANOSE"
 ms.topic: struct
+f1_keywords: ["wingdi/PANOSE"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1CreateDeviceContext, D2D1CreateDeviceContext function [Direct2D], d2d1_1/D2D1CreateDeviceContext, direct2d.d2d1createdevicecontext
 ms.topic: function
+f1_keywords: ["d2d1_1/D2D1CreateDeviceContext"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGenericDescriptor, IGenericDescriptor interface [Microsoft TV Technologies], IGenericDescriptor interface [Microsoft TV Technologies],described, IGenericDescriptorInterface, mpeg2psiparser/IGenericDescriptor, mstv.igenericdescriptor
 ms.topic: interface
+f1_keywords: ["mpeg2psiparser/IGenericDescriptor"]
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

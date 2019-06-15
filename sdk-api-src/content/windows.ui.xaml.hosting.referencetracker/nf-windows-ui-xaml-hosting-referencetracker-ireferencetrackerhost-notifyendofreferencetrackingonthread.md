@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceTrackerHost interface [Windows Runtime],NotifyEndOfReferenceTrackingOnThread method, IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread, IReferenceTrackerHost.xaml, IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, IReferenceTrackerHost::xaml, NotifyEndOfReferenceTrackingOnThread, NotifyEndOfReferenceTrackingOnThread method [Windows Runtime], NotifyEndOfReferenceTrackingOnThread method [Windows Runtime],IReferenceTrackerHost interface, windows/IReferenceTrackerHost::NotifyEndOfReferenceTrackingOnThread, winrt.ireferencetrackerhost_notifyendofreferencetrackingonthread
 ms.topic: method
+f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IReferenceTrackerHost.NotifyEndOfReferenceTrackingOnThread"]
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

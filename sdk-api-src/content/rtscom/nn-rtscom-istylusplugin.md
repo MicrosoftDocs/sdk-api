@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], IStylusPlugin interface [Tablet PC],described, bbef5cdb-4112-4733-80bb-692b7a198605, rtscom/IStylusPlugin, tablet.istylusplugin
 ms.topic: interface
+f1_keywords: ["rtscom/IStylusPlugin"]
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

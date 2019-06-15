@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose
 ms.topic: function
+f1_keywords: ["certbcli/CertSrvBackupClose"]
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasAudio, HasAudio method [Media Foundation], HasAudio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],HasAudio method, IMFMediaEngine.HasAudio, IMFMediaEngine::HasAudio, mf.imfmediaengine_hasaudio, mfmediaengine/IMFMediaEngine::HasAudio
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.HasAudio"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

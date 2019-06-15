@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents interface,InitializationComplete method, IRtwqPlatformEvents.InitializationComplete, IRtwqPlatformEvents::InitializationComplete, InitializationComplete, InitializationComplete method, InitializationComplete method,IRtwqPlatformEvents interface, base.irtwqplatformevents_initializationcomplete, rtworkq/IRtwqPlatformEvents::InitializationComplete
 ms.topic: method
+f1_keywords: ["rtworkq/IRtwqPlatformEvents.InitializationComplete"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

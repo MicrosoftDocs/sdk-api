@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr, ITfLangBarItemMgr interface [Text Services Framework], ITfLangBarItemMgr interface [Text Services Framework],described, _tsf_itflangbaritemmgr_ref, ctfutb/ITfLangBarItemMgr, tsf.itflangbaritemmgr
 ms.topic: interface
+f1_keywords: ["ctfutb/ITfLangBarItemMgr"]
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

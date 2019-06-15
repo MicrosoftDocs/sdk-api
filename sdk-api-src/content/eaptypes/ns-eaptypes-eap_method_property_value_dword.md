@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_DWORD, EAP_METHOD_PROPERTY_VALUE_DWORD structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_DWORD, PEAP_METHOD_PROPERTY_VALUE_DWORD structure pointer [EAPHost], eaphost.eap_method_property_value_dword, eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD, eaptypes/PEAP_METHOD_PROPERTY_VALUE_DWORD
 ms.topic: struct
+f1_keywords: ["eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD"]
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

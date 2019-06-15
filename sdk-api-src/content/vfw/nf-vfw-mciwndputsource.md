@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndPutSource, MCIWndPutSource macro [Windows Multimedia], _win32_MCIWndPutSource, multimedia.mciwndputsource, vfw/MCIWndPutSource
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndPutSource"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

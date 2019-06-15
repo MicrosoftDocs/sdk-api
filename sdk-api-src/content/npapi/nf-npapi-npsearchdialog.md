@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPSearchDialog, NPSearchDialog function [Security], _mnp_npsearchdialog, npapi/NPSearchDialog, security.npsearchdialog
 ms.topic: function
+f1_keywords: ["npapi/NPSearchDialog"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

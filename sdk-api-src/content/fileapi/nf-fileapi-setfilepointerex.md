@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointerEx, SetFilePointerEx function [Files], _win32_setfilepointerex, base.setfilepointerex, fileapi/SetFilePointerEx, fs.setfilepointerex, winbase/SetFilePointerEx
 ms.topic: function
+f1_keywords: ["fileapi/SetFilePointerEx"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

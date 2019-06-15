@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method [Direct2D], BeginDraw method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],BeginDraw method, ID2D1CommandSink.BeginDraw, ID2D1CommandSink::BeginDraw, d2d1_1/ID2D1CommandSink::BeginDraw, direct2d.id2d1commandsink_begindraw
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1CommandSink.BeginDraw"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

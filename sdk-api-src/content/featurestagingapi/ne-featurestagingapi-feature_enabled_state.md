@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FEATURE_ENABLED_STATE, FEATURE_ENABLED_STATE enumeration [Windows API], FEATURE_ENABLED_STATE_DEFAULT, FEATURE_ENABLED_STATE_DISABLED, FEATURE_ENABLED_STATE_ENABLED, FEATURE_ENABLED_STATE_HAS_NOTIFICATION, featurestagingapi/FEATURE_ENABLED_STATE, featurestagingapi/FEATURE_ENABLED_STATE_DEFAULT, featurestagingapi/FEATURE_ENABLED_STATE_DISABLED, featurestagingapi/FEATURE_ENABLED_STATE_ENABLED, featurestagingapi/FEATURE_ENABLED_STATE_HAS_NOTIFICATION, winprog.feature_enabled_state
 ms.topic: enum
+f1_keywords: ["featurestagingapi/FEATURE_ENABLED_STATE"]
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TxfLogCreateFileReadContext, TxfLogCreateFileReadContext function [Files], fs.txflogcreatefilereadcontext, txfw32/TxfLogCreateFileReadContext
 ms.topic: function
+f1_keywords: ["txfw32/TxfLogCreateFileReadContext"]
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

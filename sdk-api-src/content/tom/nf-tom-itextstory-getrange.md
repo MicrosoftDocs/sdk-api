@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Windows Controls], GetRange method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetRange method, ITextStory.GetRange, ITextStory::GetRange, controls.itextstory_getrange, tom/ITextStory::GetRange
 ms.topic: method
+f1_keywords: ["tom/ITextStory.GetRange"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

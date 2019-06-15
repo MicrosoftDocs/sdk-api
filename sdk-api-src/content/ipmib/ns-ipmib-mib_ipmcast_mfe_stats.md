@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS structure [MIB], PMIB_IPMCAST_MFE_STATS, PMIB_IPMCAST_MFE_STATS structure pointer [MIB], _mpr_mib_ipmcast_mfe_stats, ipmib/MIB_IPMCAST_MFE_STATS, ipmib/PMIB_IPMCAST_MFE_STATS, iprtrmib/MIB_IPMCAST_MFE_STATS, iprtrmib/PMIB_IPMCAST_MFE_STATS, mib.mib_ipmcast_mfe_stats, rras.mib_ipmcast_mfe_stats"
 ms.topic: struct
+f1_keywords: ["ipmib/MIB_IPMCAST_MFE_STATS"]
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

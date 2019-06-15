@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPBDA_Services, IPBDA_Services interface [Microsoft TV Technologies], IPBDA_Services interface [Microsoft TV Technologies],described, dvbsiparser/IPBDA_Services, mstv.ipbda_services
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IPBDA_Services"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

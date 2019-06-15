@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnknown_Release_Proxy, IUnknown_Release_Proxy function [RPC], rpc.iunknown_release_proxy, unknwnbase/IUnknown_Release_Proxy
 ms.topic: function
+f1_keywords: ["unknwnbase/IUnknown_Release_Proxy"]
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows

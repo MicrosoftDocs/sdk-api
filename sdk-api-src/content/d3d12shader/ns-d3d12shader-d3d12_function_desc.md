@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_FUNCTION_DESC, D3D12_FUNCTION_DESC structure, d3d12shader/D3D12_FUNCTION_DESC, direct3d12.d3d12_function_desc
 ms.topic: struct
+f1_keywords: ["d3d12shader/D3D12_FUNCTION_DESC"]
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

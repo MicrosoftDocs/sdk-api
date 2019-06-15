@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
 ms.topic: function
+f1_keywords: ["authz/AuthzInitializeContextFromAuthzContext"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTipTransactionEx, ICreateWithTipTransactionEx interface [COM+], ICreateWithTipTransactionEx interface [COM+],described, _dtc_ICreateWithTipTransactionEx_Interface, comsvcs/ICreateWithTipTransactionEx, cos.icreatewithtiptransactionex
 ms.topic: interface
+f1_keywords: ["comsvcs/ICreateWithTipTransactionEx"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAudio2FrequencyRatioToSemitones, XAudio2FrequencyRatioToSemitones function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2frequencyratiotosemitones, xaudio2/XAudio2FrequencyRatioToSemitones
 ms.topic: function
+f1_keywords: ["xaudio2/XAudio2FrequencyRatioToSemitones"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

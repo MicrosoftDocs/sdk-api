@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CD3D11_QUERY_DESC interface [Direct3D 11],~CD3D11_QUERY_DESC destructor, CD3D11_QUERY_DESC.~CD3D11_QUERY_DESC, CD3D11_QUERY_DESC::~CD3D11_QUERY_DESC, CD3D11_QUERY_DESC::~CD3D11_QUERY_DESC(), d3d11/CD3D11_QUERY_DESC::~CD3D11_QUERY_DESC, direct3d11.cd3d11_query_desc__cd3d11_query_desc__, ~CD3D11_QUERY_DESC, ~CD3D11_QUERY_DESC destructor [Direct3D 11], ~CD3D11_QUERY_DESC destructor [Direct3D 11],CD3D11_QUERY_DESC interface
 ms.topic: method
+f1_keywords: ["d3d11/CD3D11_QUERY_DESC.~CD3D11_QUERY_DESC"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

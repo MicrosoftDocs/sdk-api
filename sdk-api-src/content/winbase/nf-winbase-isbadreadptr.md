@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsBadReadPtr, IsBadReadPtr function, _win32_isbadreadptr, base.isbadreadptr, winbase/IsBadReadPtr
 ms.topic: function
+f1_keywords: ["winbase/IsBadReadPtr"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

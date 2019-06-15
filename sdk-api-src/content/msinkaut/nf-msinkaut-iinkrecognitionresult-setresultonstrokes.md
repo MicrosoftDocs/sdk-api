@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 928f6f39-1b8f-403a-8c18-0931c5a6dc5d, IInkRecognitionResult interface [Tablet PC],SetResultOnStrokes method, IInkRecognitionResult.SetResultOnStrokes, IInkRecognitionResult::SetResultOnStrokes, SetResultOnStrokes, SetResultOnStrokes method [Tablet PC], SetResultOnStrokes method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::SetResultOnStrokes, tablet.iinkrecognitionresult_setresultonstrokes
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognitionResult.SetResultOnStrokes"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

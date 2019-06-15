@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClipCursor, GetClipCursor function [Menus and Other Resources], _win32_GetClipCursor, _win32_getclipcursor_cpp, menurc.getclipcursor, winui._win32_getclipcursor, winuser/GetClipCursor
 ms.topic: function
+f1_keywords: ["winuser/GetClipCursor"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
 ms.topic: interface
+f1_keywords: ["azroles/IAzObjectPicker"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

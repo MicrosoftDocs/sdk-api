@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqUnregisterPlatformFromMMCSS, RtwqUnregisterPlatformFromMMCSS function, base.rtwqunregisterplatformfrommmcss, rtworkq/RtwqUnregisterPlatformFromMMCSS
 ms.topic: function
+f1_keywords: ["rtworkq/RtwqUnregisterPlatformFromMMCSS"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

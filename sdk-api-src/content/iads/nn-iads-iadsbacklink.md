@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackLink, IADsBackLink, IADsBackLink interface [ADSI], IADsBackLink interface [ADSI],described, _ds_iadsbacklink, adsi.iadsbacklink, iads/IADsBackLink
 ms.topic: interface
+f1_keywords: ["iads/IADsBackLink"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

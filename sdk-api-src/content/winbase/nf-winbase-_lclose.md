@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_lclose, _lclose function [Windows API], winbase/_lclose, winprog._lclose"
 ms.topic: function
+f1_keywords: ["winbase/_lclose"]
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows

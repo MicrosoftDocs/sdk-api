@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowSubstringMatch property [Windows Accessibility], AllowSubstringMatch property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],AllowSubstringMatch property, IUIAutomationProxyFactoryEntry.AllowSubstringMatch, IUIAutomationProxyFactoryEntry.get_AllowSubstringMatch, IUIAutomationProxyFactoryEntry::AllowSubstringMatch, IUIAutomationProxyFactoryEntry::get_AllowSubstringMatch, IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch, get_AllowSubstringMatch, uiauto.uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch, uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::get_AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch, winauto.uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationProxyFactoryEntry.AllowSubstringMatch"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

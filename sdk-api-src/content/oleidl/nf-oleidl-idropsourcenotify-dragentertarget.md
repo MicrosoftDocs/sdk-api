@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragEnterTarget, DragEnterTarget method [COM], DragEnterTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragEnterTarget method, IDropSourceNotify.DragEnterTarget, IDropSourceNotify::DragEnterTarget, _ole_idropsourcenotify_dragentertarget, com.idropsourcenotify_dragentertarget, oleidl/IDropSourceNotify::DragEnterTarget
 ms.topic: method
+f1_keywords: ["oleidl/IDropSourceNotify.DragEnterTarget"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], ISensLogon2 interface [SENS],described, _zaw_isenslogon2, sens.isenslogon2, sensevts/ISensLogon2, syncmgr.isenslogon2
 ms.topic: interface
+f1_keywords: ["sensevts/ISensLogon2"]
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

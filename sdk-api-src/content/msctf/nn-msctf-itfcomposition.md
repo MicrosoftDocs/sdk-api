@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfComposition, ITfComposition interface [Text Services Framework], ITfComposition interface [Text Services Framework],described, _tsf_itfcomposition_ref, msctf/ITfComposition, tsf.itfcomposition
 ms.topic: interface
+f1_keywords: ["msctf/ITfComposition"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

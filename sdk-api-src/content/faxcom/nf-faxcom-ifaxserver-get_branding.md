@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Branding property, IFaxServer.Branding, IFaxServer.get_Branding, IFaxServer.put_Branding, IFaxServer::Branding, IFaxServer::get_Branding, IFaxServer::put_Branding, _mfax_ifaxserver_get_branding, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_branding_cpp, fax._mfax_ifaxserver_get_branding, faxcom/IFaxServer::Branding, faxcom/IFaxServer::get_Branding, faxcom/IFaxServer::put_Branding, get_Branding
 ms.topic: method
+f1_keywords: ["faxcom/IFaxServer.Branding"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

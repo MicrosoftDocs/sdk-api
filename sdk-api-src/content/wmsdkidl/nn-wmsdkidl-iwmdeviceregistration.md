@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceRegistration, IWMDeviceRegistration interface [windows Media Format], IWMDeviceRegistration interface [windows Media Format],described, IWMDeviceRegistrationInterface, wmformat.iwmdeviceregistration, wmsdkidl/IWMDeviceRegistration
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMDeviceRegistration"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

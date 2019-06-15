@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ColorCurve class [GDI+],GetParameters method, ColorCurve.GetParameters, ColorCurve::GetParameters, GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],ColorCurve class, _gdiplus_CLASS_ColorCurve_GetParameters_, gdiplus._gdiplus_CLASS_ColorCurve_GetParameters_
 ms.topic: method
+f1_keywords: ["gdipluseffects/ColorCurve.GetParameters"]
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

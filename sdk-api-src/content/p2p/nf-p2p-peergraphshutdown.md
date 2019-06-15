@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphShutdown, PeerGraphShutdown function [Peer Networking], p2p.peergraphshutdown, p2p/PeerGraphShutdown
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphShutdown"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

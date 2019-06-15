@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WarpMode, WarpMode enumeration [GDI+], WarpModeBilinear, WarpModePerspective, _gdiplus_ENUM_WarpMode, gdiplus._gdiplus_ENUM_WarpMode, gdiplusenums/WarpMode, gdiplusenums/WarpModeBilinear, gdiplusenums/WarpModePerspective
 ms.topic: enum
+f1_keywords: ["gdiplusenums/WarpMode"]
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

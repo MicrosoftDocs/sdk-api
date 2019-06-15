@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InflateRect, InflateRect function [Windows GDI], _win32_InflateRect, gdi.inflaterect, winuser/InflateRect
 ms.topic: function
+f1_keywords: ["winuser/InflateRect"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

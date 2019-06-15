@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCharWidth, GetCharWidth function [Windows GDI], GetCharWidthA, GetCharWidthW, _win32_GetCharWidth, gdi.getcharwidth, wingdi/GetCharWidth, wingdi/GetCharWidthA, wingdi/GetCharWidthW
 ms.topic: function
+f1_keywords: ["wingdi/GetCharWidth"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

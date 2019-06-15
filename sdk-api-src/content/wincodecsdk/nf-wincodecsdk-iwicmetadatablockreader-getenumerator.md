@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Windows Imaging Component], GetEnumerator method [Windows Imaging Component],IWICMetadataBlockReader interface, IWICMetadataBlockReader interface [Windows Imaging Component],GetEnumerator method, IWICMetadataBlockReader.GetEnumerator, IWICMetadataBlockReader::GetEnumerator, _wic_codec_iwicmetadatablockreader_getenumerator, wic._wic_codec_iwicmetadatablockreader_getenumerator, wincodecsdk/IWICMetadataBlockReader::GetEnumerator
 ms.topic: method
+f1_keywords: ["wincodecsdk/IWICMetadataBlockReader.GetEnumerator"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

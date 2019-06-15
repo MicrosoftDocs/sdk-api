@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],SetResolution method, Bitmap.SetResolution, Bitmap::SetResolution, SetResolution, SetResolution method [GDI+], SetResolution method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_SetResolution_xdpi_ydpi_, gdiplus._gdiplus_CLASS_Bitmap_SetResolution_xdpi_ydpi_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Bitmap.SetResolution"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

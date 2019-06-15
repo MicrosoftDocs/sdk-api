@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetMalloc, SHGetMalloc function [Windows Shell], _win32_SHGetMalloc, shell.SHGetMalloc, shlobj_core/SHGetMalloc
 ms.topic: function
+f1_keywords: ["shlobj_core/SHGetMalloc"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

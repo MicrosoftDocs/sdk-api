@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.SetProduct, D2D1::Matrix3x2F::SetProduct, Matrix3x2F interface [Direct2D],SetProduct method, Matrix3x2F.SetProduct, Matrix3x2F::SetProduct, SetProduct, SetProduct method [Direct2D], SetProduct method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::SetProduct, direct2d.matrix3x2f_setproduct
 ms.topic: method
+f1_keywords: ["d2d1helper/Matrix3x2F.SetProduct"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

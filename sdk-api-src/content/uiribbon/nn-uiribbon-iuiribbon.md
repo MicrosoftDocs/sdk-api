@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIRibbon, IUIRibbon interface [Windows Ribbon], IUIRibbon interface [Windows Ribbon],described, scenicintent_IUIRibbon, uiribbon/IUIRibbon, windowsribbon.windowsribbon_iuiribbon
 ms.topic: interface
+f1_keywords: ["uiribbon/IUIRibbon"]
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
 ms.topic: function
+f1_keywords: ["lmjoin/NetRequestOfflineDomainJoin"]
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

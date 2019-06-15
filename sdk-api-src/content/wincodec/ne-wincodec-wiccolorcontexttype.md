@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICColorContextExifColorSpace, WICColorContextProfile, WICColorContextType, WICColorContextType enumeration [Windows Imaging Component], WICColorContextUninitialized, _wic_codec_wiccolorcontexttype, wic._wic_codec_wiccolorcontexttype, wincodec/WICColorContextExifColorSpace, wincodec/WICColorContextProfile, wincodec/WICColorContextType, wincodec/WICColorContextUninitialized
 ms.topic: enum
+f1_keywords: ["wincodec/WICColorContextType"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

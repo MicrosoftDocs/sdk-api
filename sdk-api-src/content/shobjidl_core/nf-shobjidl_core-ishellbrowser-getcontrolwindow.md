@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, GetControlWindow, GetControlWindow method [Windows Shell], GetControlWindow method [Windows Shell],IShellBrowser interface, IShellBrowser interface [Windows Shell],GetControlWindow method, IShellBrowser.GetControlWindow, IShellBrowser::GetControlWindow, _win32_IShellBrowser_GetControlWindow, shell.IShellBrowser_GetControlWindow, shobjidl_core/IShellBrowser::GetControlWindow
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellBrowser.GetControlWindow"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

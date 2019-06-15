@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIDFromString, IIDFromString function [COM], _com_IIDFromString, com.iidfromstring, combaseapi/IIDFromString
 ms.topic: function
+f1_keywords: ["combaseapi/IIDFromString"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PGENERIC_MAPPING, GENERIC_MAPPING, GENERIC_MAPPING structure [Security], PGENERIC_MAPPING, PGENERIC_MAPPING structure pointer [Security], _GENERIC_MAPPING, _win32_generic_mapping_str, security.generic_mapping, winnt/GENERIC_MAPPING, winnt/PGENERIC_MAPPING"
 ms.topic: struct
+f1_keywords: ["winnt/GENERIC_MAPPING"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

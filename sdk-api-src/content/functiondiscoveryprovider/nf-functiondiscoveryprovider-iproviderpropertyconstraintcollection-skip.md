@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Skip method, IProviderPropertyConstraintCollection.Skip, IProviderPropertyConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
 ms.topic: method
+f1_keywords: ["functiondiscoveryprovider/IProviderPropertyConstraintCollection.Skip"]
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

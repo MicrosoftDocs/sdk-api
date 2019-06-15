@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapWalk, HeapWalk function, _win32_heapwalk, base.heapwalk, heapapi/HeapWalk, winbase/HeapWalk
 ms.topic: function
+f1_keywords: ["heapapi/HeapWalk"]
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

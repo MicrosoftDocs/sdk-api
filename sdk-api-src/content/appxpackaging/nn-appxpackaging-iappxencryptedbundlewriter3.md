@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedBundleWriter3, IAppxEncryptedBundleWriter3 interface [App packaging and management], IAppxEncryptedBundleWriter3 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter3, appxpkg.iappxencryptedbundlewriter3
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxEncryptedBundleWriter3"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

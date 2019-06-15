@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNREAD, FNREAD macro [Windows API], fdi/FNREAD, winprog.fnread
 ms.topic: macro
+f1_keywords: ["fdi/FNREAD"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

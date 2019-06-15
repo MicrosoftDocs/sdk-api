@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePlugin, ITsSbResourcePlugin interface [Remote Desktop Services], ITsSbResourcePlugin interface [Remote Desktop Services],described, sbtsv/ITsSbResourcePlugin, termserv.itssbresourceplugin
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbResourcePlugin"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

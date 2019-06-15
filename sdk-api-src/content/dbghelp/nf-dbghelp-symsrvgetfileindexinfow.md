@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetFileIndexInfo, SymSrvGetFileIndexInfo function, SymSrvGetFileIndexInfoW, base.symsrvgetfileindexinfo, dbghelp/SymSrvGetFileIndexInfo, dbghelp/SymSrvGetFileIndexInfoW
 ms.topic: function
+f1_keywords: ["dbghelp/SymSrvGetFileIndexInfo"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

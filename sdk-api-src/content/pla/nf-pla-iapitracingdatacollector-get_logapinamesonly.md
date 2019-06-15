@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogApiNamesOnly property, IApiTracingDataCollector.LogApiNamesOnly, IApiTracingDataCollector.get_LogApiNamesOnly, IApiTracingDataCollector::LogApiNamesOnly, IApiTracingDataCollector::get_LogApiNamesOnly, IApiTracingDataCollector::put_LogApiNamesOnly, LogApiNamesOnly property [PLA], LogApiNamesOnly property [PLA],IApiTracingDataCollector interface, base.iapitracingdatacollector_logapinamesonly, get_LogApiNamesOnly, pla.iapitracingdatacollector_logapinamesonly, pla/IApiTracingDataCollector::LogApiNamesOnly, pla/IApiTracingDataCollector::get_LogApiNamesOnly, pla/IApiTracingDataCollector::put_LogApiNamesOnly
 ms.topic: method
+f1_keywords: ["pla/IApiTracingDataCollector.LogApiNamesOnly"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

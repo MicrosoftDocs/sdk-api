@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
 ms.topic: struct
+f1_keywords: ["bcrypt/BCRYPT_ALGORITHM_IDENTIFIER"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

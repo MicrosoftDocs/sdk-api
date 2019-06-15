@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithItem interface [Windows Shell],Initialize method, IInitializeWithItem.Initialize, IInitializeWithItem::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithItem interface, STGM_READ, STGM_READWRITE, shell.IInitializeWithItem_Initialize, shell_IInitializeWithItem_Initialize, shobjidl_core/IInitializeWithItem::Initialize
 ms.topic: method
+f1_keywords: ["shobjidl_core/IInitializeWithItem.Initialize"]
 req.header: shobjidl_core.h
 req.include-header: Propsys.h
 req.target-type: Windows

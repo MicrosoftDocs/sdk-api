@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingView method, IBrowserService2._CancelPendingView, IBrowserService2::_CancelPendingView, _CancelPendingView, _CancelPendingView method [Windows Shell], _CancelPendingView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingView, shell.IBrowserService2__CancelPendingView, zone_IBrowserService2__CancelPendingView
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2._CancelPendingView"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

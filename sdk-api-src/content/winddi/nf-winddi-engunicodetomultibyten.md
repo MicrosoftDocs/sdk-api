@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnicodeToMultiByteN, EngUnicodeToMultiByteN function [Display Devices], display.engunicodetomultibyten, gdifncs_4c6f2a59-787b-48a8-9676-c9a88f4201f4.xml, winddi/EngUnicodeToMultiByteN
 ms.topic: function
+f1_keywords: ["winddi/EngUnicodeToMultiByteN"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

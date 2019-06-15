@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAF_TV_13, CAF_TV_16, CAF_TV_18, CAF_TV_8, CAF_TV_Exempt, CAF_TV_G, CAF_TV_Reserved, CAF_TV_Reserved6, EnTvRat_CAF_TV, EnTvRat_CAF_TV enumeration [Microsoft TV Technologies], mstv.entvrat_caf_tv, tvratings/CAF_TV_13, tvratings/CAF_TV_16, tvratings/CAF_TV_18, tvratings/CAF_TV_8, tvratings/CAF_TV_Exempt, tvratings/CAF_TV_G, tvratings/CAF_TV_Reserved, tvratings/CAF_TV_Reserved6, tvratings/EnTvRat_CAF_TV
 ms.topic: enum
+f1_keywords: ["tvratings/EnTvRat_CAF_TV"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

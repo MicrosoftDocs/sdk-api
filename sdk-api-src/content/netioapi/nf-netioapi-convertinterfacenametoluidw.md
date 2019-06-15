@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceNameToLuidW, ConvertInterfaceNameToLuidW function [IP Helper], iphlp.convertinterfacenametoluidw, netioapi/ConvertInterfaceNameToLuidW
 ms.topic: function
+f1_keywords: ["netioapi/ConvertInterfaceNameToLuidW"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

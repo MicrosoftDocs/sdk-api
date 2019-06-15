@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrProxyGetBuffer, NdrProxyGetBuffer function [RPC], rpc.ndrproxygetbuffer, rpcproxy/NdrProxyGetBuffer
 ms.topic: function
+f1_keywords: ["rpcproxy/NdrProxyGetBuffer"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

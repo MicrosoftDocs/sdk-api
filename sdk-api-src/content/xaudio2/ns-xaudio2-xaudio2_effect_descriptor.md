@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_EFFECT_DESCRIPTOR, XAUDIO2_EFFECT_DESCRIPTOR structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_effect_descriptor, xaudio2/XAUDIO2_EFFECT_DESCRIPTOR
 ms.topic: struct
+f1_keywords: ["xaudio2/XAUDIO2_EFFECT_DESCRIPTOR"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

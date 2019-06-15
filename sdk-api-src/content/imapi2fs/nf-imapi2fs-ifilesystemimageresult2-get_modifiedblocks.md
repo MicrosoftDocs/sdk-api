@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult2 interface [IMAPI],get_ModifiedBlocks method, IFileSystemImageResult2.get_ModifiedBlocks, IFileSystemImageResult2::get_ModifiedBlocks, get_ModifiedBlocks, get_ModifiedBlocks method [IMAPI], get_ModifiedBlocks method [IMAPI],IFileSystemImageResult2 interface, imapi.ifilesystemimageresult2_get_modifiedblocks, imapi2fs/IFileSystemImageResult2::get_ModifiedBlocks
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImageResult2.get_ModifiedBlocks"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_POLICY_EFFECTIVE, NET_FW_POLICY_GROUP, NET_FW_POLICY_LOCAL, NET_FW_POLICY_TYPE, NET_FW_POLICY_TYPE enumeration [ICS/ICF], NET_FW_POLICY_TYPE_MAX, icftypes/NET_FW_POLICY_EFFECTIVE, icftypes/NET_FW_POLICY_GROUP, icftypes/NET_FW_POLICY_LOCAL, icftypes/NET_FW_POLICY_TYPE, icftypes/NET_FW_POLICY_TYPE_MAX, ics.net_fw_policy_type
 ms.topic: enum
+f1_keywords: ["icftypes/NET_FW_POLICY_TYPE"]
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenTransactionManager, OpenTransactionManager function [Files], fs.opentransactionmanager, ktmw32/OpenTransactionManager
 ms.topic: function
+f1_keywords: ["ktmw32/OpenTransactionManager"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

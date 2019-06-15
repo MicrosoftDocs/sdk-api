@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderEx interface [Media Foundation],SetNativeMediaType method, IMFSourceReaderEx.SetNativeMediaType, IMFSourceReaderEx::SetNativeMediaType, MF_SOURCE_READERF_ALLEFFECTSREMOVED, MF_SOURCE_READERF_CURRENTMEDIATYPECHANGED, SetNativeMediaType, SetNativeMediaType method [Media Foundation], SetNativeMediaType method [Media Foundation],IMFSourceReaderEx interface, mf.imfsourcereaderex_setnativemediatype, mfreadwrite/IMFSourceReaderEx::SetNativeMediaType
 ms.topic: method
+f1_keywords: ["mfreadwrite/IMFSourceReaderEx.SetNativeMediaType"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoDecoderOutputView interface, ID3D11VideoDecoderOutputView interface [Media Foundation],GetDesc method, ID3D11VideoDecoderOutputView.GetDesc, ID3D11VideoDecoderOutputView::GetDesc, d3d11/ID3D11VideoDecoderOutputView::GetDesc, mf.id3d11videodecoderoutputview_getdesc
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11VideoDecoderOutputView.GetDesc"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

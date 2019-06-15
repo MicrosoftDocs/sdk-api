@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateSensorProfile"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

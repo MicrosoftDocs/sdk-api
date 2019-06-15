@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_TIMER_CLIENT_BUSY, UI_ANIMATION_TIMER_CLIENT_IDLE, UI_ANIMATION_TIMER_CLIENT_STATUS, UI_ANIMATION_TIMER_CLIENT_STATUS enumeration [Windows Animation], uianimation.ui_animation_timer_client_status, uianimation/UI_ANIMATION_TIMER_CLIENT_BUSY, uianimation/UI_ANIMATION_TIMER_CLIENT_IDLE, uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS
 ms.topic: enum
+f1_keywords: ["uianimation/UI_ANIMATION_TIMER_CLIENT_STATUS"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

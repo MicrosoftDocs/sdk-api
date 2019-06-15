@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDS_FAIL_CHECK_MEMBER, IDS_FAIL_DETECT_READ_ACCESS, IDS_FAIL_FIND_CERT_TYPE, IDS_FAIL_FIND_DOMAIN, IDS_FAIL_FIND_SD_CERT_TYPE, IDS_FAIL_GET_COMPUTER_NAME, IDS_FAIL_LOGON_USER, IDS_FAIL_LOOK_UP, IDS_INVALID_NAME, IDS_NOT_IIS_MEMBER, IDS_NO_LOCAL_ACCOUNT, IDS_NO_READ_ACCESS_TO_TEMPLATE, IMSCEPSetup interface [Security],MSCEPErrorId property, IMSCEPSetup.MSCEPErrorId, IMSCEPSetup.get_MSCEPErrorId, IMSCEPSetup::MSCEPErrorId, IMSCEPSetup::get_MSCEPErrorId, MSCEPErrorId property [Security], MSCEPErrorId property [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::MSCEPErrorId, casetup/IMSCEPSetup::get_MSCEPErrorId, get_MSCEPErrorId, security.imscepsetup_msceperrorid
 ms.topic: method
+f1_keywords: ["casetup/IMSCEPSetup.MSCEPErrorId"]
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

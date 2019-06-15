@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PauseTimer method, IFileOperationProgressSink.PauseTimer, IFileOperationProgressSink::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PauseTimer, shell.IFileOperationProgressSink_PauseTimer, shobjidl_core/IFileOperationProgressSink::PauseTimer
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileOperationProgressSink.PauseTimer"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

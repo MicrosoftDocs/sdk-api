@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNavigate, UiaNavigate function [Windows Accessibility], uiauto.uiauto_UiaNavigateAutoMeth, uiauto_UiaNavigateAutoMeth, uiautomationcoreapi/UiaNavigate, winauto.uiauto_UiaNavigateAutoMeth
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaNavigate"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

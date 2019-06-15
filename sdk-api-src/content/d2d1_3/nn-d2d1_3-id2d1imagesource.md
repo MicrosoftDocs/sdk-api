@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSource, ID2D1ImageSource interface [Direct2D], ID2D1ImageSource interface [Direct2D],described, d2d1_3/ID2D1ImageSource, direct2d.id2d1imagesource
 ms.topic: interface
+f1_keywords: ["d2d1_3/ID2D1ImageSource"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_SET_WIDTH_VALUE, CM_SET_WIDTH_VALUE enumeration [Windows Shell], CM_WIDTH_AUTOSIZE, CM_WIDTH_USEDEFAULT, shell.CM_SET_WIDTH_VALUE, shell_CM_SET_WIDTH_VALUE, shobjidl_core/CM_SET_WIDTH_VALUE, shobjidl_core/CM_WIDTH_AUTOSIZE, shobjidl_core/CM_WIDTH_USEDEFAULT
 ms.topic: enum
+f1_keywords: ["shobjidl_core/CM_SET_WIDTH_VALUE"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

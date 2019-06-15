@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+],described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty
 ms.topic: interface
+f1_keywords: ["comsvcs/ITransactionProperty"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

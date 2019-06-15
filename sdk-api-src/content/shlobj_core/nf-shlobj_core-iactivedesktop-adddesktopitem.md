@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddDesktopItem, AddDesktopItem method [Legacy Windows Environment Features], AddDesktopItem method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],AddDesktopItem method, IActiveDesktop.AddDesktopItem, IActiveDesktop::AddDesktopItem, _win32_IActiveDesktop_AddDesktopItem, lwef.iactivedesktop_adddesktopitem, shell.iactivedesktop_adddesktopitem, shlobj_core/IActiveDesktop::AddDesktopItem
 ms.topic: method
+f1_keywords: ["shlobj_core/IActiveDesktop.AddDesktopItem"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

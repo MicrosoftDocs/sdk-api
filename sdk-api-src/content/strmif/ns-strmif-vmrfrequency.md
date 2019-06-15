@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStructure, dshow.vmrfrequency, strmif/VMRFrequency
 ms.topic: struct
+f1_keywords: ["strmif/VMRFrequency"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

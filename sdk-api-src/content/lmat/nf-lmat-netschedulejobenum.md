@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetScheduleJobEnum, NetScheduleJobEnum function [Network Management], _win32_netschedulejobenum, lmat/NetScheduleJobEnum, netmgmt.netschedulejobenum
 ms.topic: function
+f1_keywords: ["lmat/NetScheduleJobEnum"]
 req.header: lmat.h
 req.include-header: Lmat.h
 req.target-type: Windows

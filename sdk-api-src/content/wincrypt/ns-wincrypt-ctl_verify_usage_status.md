@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS structure [Security], PCTL_VERIFY_USAGE_STATUS, PCTL_VERIFY_USAGE_STATUS structure pointer [Security], _crypto2_ctl_verify_usage_status, security.ctl_verify_usage_status, wincrypt/CTL_VERIFY_USAGE_STATUS, wincrypt/PCTL_VERIFY_USAGE_STATUS"
 ms.topic: struct
+f1_keywords: ["wincrypt/CTL_VERIFY_USAGE_STATUS"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

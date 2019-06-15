@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DCreateFunctionLinkingGraph, D3DCreateFunctionLinkingGraph function [HLSL], d3dcompiler/D3DCreateFunctionLinkingGraph, direct3dhlsl.d3dcreatefunctionlinkinggraph
 ms.topic: function
+f1_keywords: ["d3dcompiler/D3DCreateFunctionLinkingGraph"]
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

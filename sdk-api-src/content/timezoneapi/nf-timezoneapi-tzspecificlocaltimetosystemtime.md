@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TzSpecificLocalTimeToSystemTime, TzSpecificLocalTimeToSystemTime function, _win32_tzspecificlocaltimetosystemtime, base.tzspecificlocaltimetosystemtime, timezoneapi/TzSpecificLocalTimeToSystemTime
 ms.topic: function
+f1_keywords: ["timezoneapi/TzSpecificLocalTimeToSystemTime"]
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

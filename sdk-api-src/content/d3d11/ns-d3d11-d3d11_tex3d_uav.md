@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3576e4ac-e8c6-2390-6df1-4597956a1b86, D3D11_TEX3D_UAV, D3D11_TEX3D_UAV structure [Direct3D 11], d3d11/D3D11_TEX3D_UAV, direct3d11.d3d11_tex3d_uav
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_TEX3D_UAV"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

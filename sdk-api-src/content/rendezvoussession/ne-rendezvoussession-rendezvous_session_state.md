@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RENDEZVOUS_SESSION_STATE, RENDEZVOUS_SESSION_STATE enumeration [Remote Assistance], RSS_ACCEPTED, RSS_CANCELLED, RSS_CONNECTED, RSS_DECLINED, RSS_INVITATION, RSS_READY, RSS_TERMINATED, RSS_UNKNOWN, remoteassist.remoteassist_RENDEZVOUS_SESSION_STATE, remoteassist_RENDEZVOUS_SESSION_STATE, rendezvoussession/RENDEZVOUS_SESSION_STATE, rendezvoussession/RSS_ACCEPTED, rendezvoussession/RSS_CANCELLED, rendezvoussession/RSS_CONNECTED, rendezvoussession/RSS_DECLINED, rendezvoussession/RSS_INVITATION, rendezvoussession/RSS_READY, rendezvoussession/RSS_TERMINATED, rendezvoussession/RSS_UNKNOWN
 ms.topic: enum
+f1_keywords: ["rendezvoussession/RENDEZVOUS_SESSION_STATE"]
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows

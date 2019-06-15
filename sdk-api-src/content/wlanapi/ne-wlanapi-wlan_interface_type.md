@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_INTERFACE_TYPE, PWLAN_INTERFACE_TYPE, PWLAN_INTERFACE_TYPE enumeration pointer [NativeWIFI], WLAN_INTERFACE_TYPE, WLAN_INTERFACE_TYPE enumeration [NativeWIFI], nwifi.wlan_interface_type, wlan_interface_type_emulated_802_11, wlan_interface_type_invalid, wlan_interface_type_native_802_11, wlanapi/PWLAN_INTERFACE_TYPE, wlanapi/WLAN_INTERFACE_TYPE, wlanapi/wlan_interface_type_emulated_802_11, wlanapi/wlan_interface_type_invalid, wlanapi/wlan_interface_type_native_802_11"
 ms.topic: enum
+f1_keywords: ["wlanapi/WLAN_INTERFACE_TYPE"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

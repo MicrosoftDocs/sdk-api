@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageStream method, IXpsSignatureManager.LoadPackageStream, IXpsSignatureManager::LoadPackageStream, LoadPackageStream, LoadPackageStream method [XPS Documents and Packaging], LoadPackageStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagestream, xpsdigitalsignature/IXpsSignatureManager::LoadPackageStream
 ms.topic: method
+f1_keywords: ["xpsdigitalsignature/IXpsSignatureManager.LoadPackageStream"]
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

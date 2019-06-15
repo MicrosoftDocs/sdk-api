@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_TARGET, WS_HTTP_HEADER_AUTH_TARGET enumeration [Web Services for Windows], WS_HTTP_HEADER_AUTH_TARGET_PROXY, WS_HTTP_HEADER_AUTH_TARGET_SERVICE, webservices/WS_HTTP_HEADER_AUTH_TARGET, webservices/WS_HTTP_HEADER_AUTH_TARGET_PROXY, webservices/WS_HTTP_HEADER_AUTH_TARGET_SERVICE, wsw.ws_http_header_auth_target
 ms.topic: enum
+f1_keywords: ["webservices/WS_HTTP_HEADER_AUTH_TARGET"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

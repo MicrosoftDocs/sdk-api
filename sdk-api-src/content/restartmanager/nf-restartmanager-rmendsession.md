@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
 ms.topic: function
+f1_keywords: ["restartmanager/RmEndSession"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

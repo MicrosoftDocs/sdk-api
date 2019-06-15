@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GROUP_ENUM_ALL, CLUSTER_GROUP_ENUM_CONTAINS, CLUSTER_GROUP_ENUM_NODES, ClusterGroupOpenEnum, ClusterGroupOpenEnum function [Failover Cluster], PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM function [Failover Cluster], _wolf_clustergroupopenenum, clusapi/ClusterGroupOpenEnum, clusapi/PCLUSAPI_CLUSTER_GROUP_OPEN_ENUM, mscs.clustergroupopenenum
 ms.topic: function
+f1_keywords: ["clusapi/ClusterGroupOpenEnum"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

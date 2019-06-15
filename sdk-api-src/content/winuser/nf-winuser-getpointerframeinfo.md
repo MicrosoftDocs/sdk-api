@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerFrameInfo, GetPointerFrameInfo function [Input Messages and Notifications], inputmsg.getpointerframeinfo, winuser/GetPointerFrameInfo
 ms.topic: function
+f1_keywords: ["winuser/GetPointerFrameInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

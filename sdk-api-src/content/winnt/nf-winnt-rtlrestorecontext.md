@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlRestoreContext, RtlRestoreContext function, base.rtlrestorecontext, winnt/RtlRestoreContext
 ms.topic: function
+f1_keywords: ["winnt/RtlRestoreContext"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

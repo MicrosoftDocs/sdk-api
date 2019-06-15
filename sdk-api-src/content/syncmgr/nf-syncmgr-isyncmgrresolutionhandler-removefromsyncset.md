@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],RemoveFromSyncSet method, ISyncMgrResolutionHandler.RemoveFromSyncSet, ISyncMgrResolutionHandler::RemoveFromSyncSet, RemoveFromSyncSet, RemoveFromSyncSet method [Windows Shell], RemoveFromSyncSet method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_RemoveFromSyncSet, shell.ISyncMgrResolutionHandler_RemoveFromSyncSet, syncmgr/ISyncMgrResolutionHandler::RemoveFromSyncSet
 ms.topic: method
+f1_keywords: ["syncmgr/ISyncMgrResolutionHandler.RemoveFromSyncSet"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

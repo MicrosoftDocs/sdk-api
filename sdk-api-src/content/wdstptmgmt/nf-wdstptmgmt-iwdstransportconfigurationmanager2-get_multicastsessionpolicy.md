@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager2 interface [Windows Deployment Services],MulticastSessionPolicy property, IWdsTransportConfigurationManager2.MulticastSessionPolicy, IWdsTransportConfigurationManager2.get_MulticastSessionPolicy, IWdsTransportConfigurationManager2::MulticastSessionPolicy, IWdsTransportConfigurationManager2::get_MulticastSessionPolicy, MulticastSessionPolicy property [Windows Deployment Services], MulticastSessionPolicy property [Windows Deployment Services],IWdsTransportConfigurationManager2 interface, get_MulticastSessionPolicy, wds.iwdstransportconfigurationmanager2_multicastsessionpolicy, wdstptmgmt/IWdsTransportConfigurationManager2::MulticastSessionPolicy, wdstptmgmt/IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager2.MulticastSessionPolicy"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

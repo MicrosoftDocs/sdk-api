@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_ClearFilter, Header_ClearFilter macro [Windows Controls], _win32_Header_ClearFilter, _win32_Header_ClearFilter_cpp, commctrl/Header_ClearFilter, controls.Header_ClearFilter, controls._win32_Header_ClearFilter
 ms.topic: macro
+f1_keywords: ["commctrl/Header_ClearFilter"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

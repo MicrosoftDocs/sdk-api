@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillType, FillType enumeration [Windows Accessibility], FillType_Color, FillType_Gradient, FillType_None, FillType_Pattern, FillType_Picture, uiautomationcore/FillType, uiautomationcore/FillType_Color, uiautomationcore/FillType_Gradient, uiautomationcore/FillType_None, uiautomationcore/FillType_Pattern, uiautomationcore/FillType_Picture, winauto.uiauto_FillTypeEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcore/FillType"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

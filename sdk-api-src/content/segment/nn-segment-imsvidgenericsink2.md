@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink2, IMSVidGenericSink2 interface [Microsoft TV Technologies], IMSVidGenericSink2 interface [Microsoft TV Technologies],described, IMSVidGenericSink2Interface, mstv.imsvidgenericsink2, segment/IMSVidGenericSink2
 ms.topic: interface
+f1_keywords: ["segment/IMSVidGenericSink2"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRegisterServiceProvider, FaxRegisterServiceProvider function [Fax Service], FaxRegisterServiceProviderW, _mfax_faxregisterserviceprovider, fax._mfax_faxregisterserviceprovider, winfax/FaxRegisterServiceProvider
 ms.topic: function
+f1_keywords: ["winfax/FaxRegisterServiceProvider"]
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

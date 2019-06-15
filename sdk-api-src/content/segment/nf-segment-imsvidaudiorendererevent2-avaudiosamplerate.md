@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVAudioSampleRate, AVAudioSampleRate method [Microsoft TV Technologies], AVAudioSampleRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioSampleRate method, IMSVidAudioRendererEvent2.AVAudioSampleRate, IMSVidAudioRendererEvent2::AVAudioSampleRate, mstv.imsvidaudiorendererevent2_avaudiosamplerate, segment/IMSVidAudioRendererEvent2::AVAudioSampleRate
 ms.topic: method
+f1_keywords: ["segment/IMSVidAudioRendererEvent2.AVAudioSampleRate"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

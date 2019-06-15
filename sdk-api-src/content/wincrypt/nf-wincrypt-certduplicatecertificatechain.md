@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertDuplicateCertificateChain, CertDuplicateCertificateChain function [Security], _crypto2_certduplicatecertificatechain, security.certduplicatecertificatechain, wincrypt/CertDuplicateCertificateChain
 ms.topic: function
+f1_keywords: ["wincrypt/CertDuplicateCertificateChain"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

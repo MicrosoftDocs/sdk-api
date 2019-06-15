@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize
 ms.topic: function
+f1_keywords: ["heapapi/HeapSize"]
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

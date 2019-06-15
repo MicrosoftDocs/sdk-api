@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Windows Controls], Collapse method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Collapse method, ITextRange.Collapse, ITextRange::Collapse, _win32_ITextRange_Collapse, _win32_ITextRange_Collapse_cpp, controls.ITextRange_Collapse, controls._win32_ITextRange_Collapse, tom/ITextRange::Collapse, tomEnd or tomFalse, tomStart or tomTrue
 ms.topic: method
+f1_keywords: ["tom/ITextRange.Collapse"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_WINNT_AUTH_DATA, PSEC_WINNT_AUTH_DATA, PSEC_WINNT_AUTH_DATA structure pointer [Security], SEC_WINNT_AUTH_DATA, SEC_WINNT_AUTH_DATA structure [Security], security.sec_winnt_auth_data, sspi/PSEC_WINNT_AUTH_DATA, sspi/SEC_WINNT_AUTH_DATA"
 ms.topic: struct
+f1_keywords: ["sspi/SEC_WINNT_AUTH_DATA"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

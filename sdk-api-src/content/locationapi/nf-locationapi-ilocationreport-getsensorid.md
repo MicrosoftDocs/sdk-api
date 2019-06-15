@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSensorID, GetSensorID method [WinLocation], GetSensorID method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetSensorID method, ILocationReport.GetSensorID, ILocationReport::GetSensorID, WinLocation_COM_Ref.ilocationreport_getsensorid, locationapi/ILocationReport::GetSensorID
 ms.topic: method
+f1_keywords: ["locationapi/ILocationReport.GetSensorID"]
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStream_WriteStr, IStream_WriteStr function [Windows Shell], _shell_IStream_WriteStr, shell.IStream_WriteStr, shlwapi/IStream_WriteStr
 ms.topic: function
+f1_keywords: ["shlwapi/IStream_WriteStr"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

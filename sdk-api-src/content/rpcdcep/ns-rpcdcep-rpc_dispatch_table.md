@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE structure [RPC], _rpc_rpc_dispatch_table, rpc.rpc_dispatch_table, rpcdcep/RPC_DISPATCH_TABLE"
 ms.topic: struct
+f1_keywords: ["rpcdcep/RPC_DISPATCH_TABLE"]
 req.header: rpcdcep.h
 req.include-header: 
 req.target-type: Windows

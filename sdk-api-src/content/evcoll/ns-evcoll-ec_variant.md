@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEC_VARIANT, EC_VARIANT, EC_VARIANT structure, evcoll/EC_VARIANT, wec.ec_variant, wes.ec_variant"
 ms.topic: struct
+f1_keywords: ["evcoll/EC_VARIANT"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

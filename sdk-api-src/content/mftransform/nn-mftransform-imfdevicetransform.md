@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media Devices], IMFDeviceTransform interface [Streaming Media Devices],described, mftransform/IMFDeviceTransform, stream.imfdevicetransform
 ms.topic: interface
+f1_keywords: ["mftransform/IMFDeviceTransform"]
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannel interface [RDP],Name property, IRDPSRAPIVirtualChannel.Name, IRDPSRAPIVirtualChannel.get_Name, IRDPSRAPIVirtualChannel::Name, IRDPSRAPIVirtualChannel::get_Name, Name property [RDP], Name property [RDP],IRDPSRAPIVirtualChannel interface, Name property [RDP],RDPSRAPIVirtualChannel object, RDPSRAPIVirtualChannel object [RDP],Name property, get_Name, rdp.irdpsrapivirtualchannel_name, rdpencomapi/IRDPSRAPIVirtualChannel::Name, rdpencomapi/IRDPSRAPIVirtualChannel::get_Name
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIVirtualChannel.Name"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

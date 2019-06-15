@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_C_PROFILE_ALL_ELTS, RPC_C_PROFILE_DEFAULT_ELT, RPC_C_PROFILE_MATCH_BY_BOTH, RPC_C_PROFILE_MATCH_BY_IF, RPC_C_PROFILE_MATCH_BY_MBR, RPC_C_VERS_ALL, RPC_C_VERS_COMPATIBLE, RPC_C_VERS_EXACT, RPC_C_VERS_MAJOR_ONLY, RPC_C_VERS_UPTO, RpcNsProfileEltInqBegin, RpcNsProfileEltInqBegin function [RPC], RpcNsProfileEltInqBeginA, RpcNsProfileEltInqBeginW, _rpc_rpcnsprofileeltinqbegin, rpc.rpcnsprofileeltinqbegin, rpcnsi/RpcNsProfileEltInqBegin, rpcnsi/RpcNsProfileEltInqBeginA, rpcnsi/RpcNsProfileEltInqBeginW
 ms.topic: function
+f1_keywords: ["rpcnsi/RpcNsProfileEltInqBegin"]
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

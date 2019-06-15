@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], IDsAdminNotifyHandler interface [Active Directory],described, _glines_idsadminnotifyhandler, ad.idsadminnotifyhandler, dsadmin/IDsAdminNotifyHandler
 ms.topic: interface
+f1_keywords: ["dsadmin/IDsAdminNotifyHandler"]
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard interface [TAPI 2.2],Reset method, IEnumCallingCard.Reset, IEnumCallingCard::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCallingCard interface, _tapi3_ienumcallingcard_reset, tapi3.ienumcallingcard_reset, tapi3if/IEnumCallingCard::Reset
 ms.topic: method
+f1_keywords: ["tapi3if/IEnumCallingCard.Reset"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

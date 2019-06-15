@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInput, GetInput method [Direct2D], GetInput method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetInput method, ID2D1Effect.GetInput, ID2D1Effect::GetInput, d2d1_1/ID2D1Effect::GetInput, direct2d.id2d1effect_getinput
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Effect.GetInput"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

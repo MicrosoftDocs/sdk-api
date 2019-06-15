@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRequests, GetRequests method [XPS Documents and Packaging], GetRequests method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetRequests method, IXpsSignatureBlock.GetRequests, IXpsSignatureBlock::GetRequests, xps.ixpssignatureblock_getrequests, xpsdigitalsignature/IXpsSignatureBlock::GetRequests
 ms.topic: method
+f1_keywords: ["xpsdigitalsignature/IXpsSignatureBlock.GetRequests"]
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows

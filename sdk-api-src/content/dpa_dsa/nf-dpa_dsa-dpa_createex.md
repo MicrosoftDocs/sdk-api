@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_CreateEx, DPA_CreateEx function [Windows Controls], _shell_DPA_CreateEx, _shell_DPA_CreateEx_cpp, controls.DPA_CreateEx, controls._shell_DPA_CreateEx, dpa_dsa/DPA_CreateEx
 ms.topic: function
+f1_keywords: ["dpa_dsa/DPA_CreateEx"]
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

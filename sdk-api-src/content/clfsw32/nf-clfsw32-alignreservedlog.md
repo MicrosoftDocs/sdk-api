@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlignReservedLog, AlignReservedLog function [Files], clfsw32/AlignReservedLog, fs.alignreservedlog
 ms.topic: function
+f1_keywords: ["clfsw32/AlignReservedLog"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteServer, DhcpDeleteServer function [DHCP], dhcp.dhcpdeleteserver, dhcpsapi/DhcpDeleteServer
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpDeleteServer"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

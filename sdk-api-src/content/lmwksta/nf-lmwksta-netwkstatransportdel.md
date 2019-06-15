@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetWkstaTransportDel, NetWkstaTransportDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netwkstatransportdel, lmwksta/NetWkstaTransportDel, netmgmt.netwkstatransportdel
 ms.topic: function
+f1_keywords: ["lmwksta/NetWkstaTransportDel"]
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h
 req.target-type: Windows

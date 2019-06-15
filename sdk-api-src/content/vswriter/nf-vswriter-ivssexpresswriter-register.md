@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
 ms.topic: method
+f1_keywords: ["vswriter/IVssExpressWriter.Register"]
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

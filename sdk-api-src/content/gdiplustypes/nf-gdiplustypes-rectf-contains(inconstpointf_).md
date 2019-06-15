@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],RectF class, RectF class [GDI+],Contains method, RectF.Contains, RectF.Contains(IN const PointF &), RectF.Contains(const PointF&), RectF::Contains, RectF::Contains(IN const PointF &), _gdiplus_CLASS_RectF_Contains_pt_, gdiplus._gdiplus_CLASS_RectF_Contains_pt_
 ms.topic: method
+f1_keywords: ["gdiplustypes/RectF.Contains"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext interface [Direct2D],IsBufferPrecisionSupported method, ID2D1DeviceContext.IsBufferPrecisionSupported, ID2D1DeviceContext::IsBufferPrecisionSupported, IsBufferPrecisionSupported, IsBufferPrecisionSupported method [Direct2D], IsBufferPrecisionSupported method [Direct2D],ID2D1DeviceContext interface, d2d1_1/ID2D1DeviceContext::IsBufferPrecisionSupported, direct2d.id2d1devicecontext_isbufferprecisionsupported
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1DeviceContext.IsBufferPrecisionSupported"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

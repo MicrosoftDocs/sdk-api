@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition2, IFsrmPropertyDefinition2 interface [File Server Resource Manager], IFsrmPropertyDefinition2 interface [File Server Resource Manager],described, fs.ifsrmpropertydefinition2, fsrm.ifsrmpropertydefinition2, fsrmpipeline/IFsrmPropertyDefinition2
 ms.topic: interface
+f1_keywords: ["fsrmpipeline/IFsrmPropertyDefinition2"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

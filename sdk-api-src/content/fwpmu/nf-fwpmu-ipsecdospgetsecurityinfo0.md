@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecDospGetSecurityInfo0, IPsecDospGetSecurityInfo0 function [Filtering], fwp.ipsecdospgetsecurityinfo0, fwpmu/IPsecDospGetSecurityInfo0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecDospGetSecurityInfo0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

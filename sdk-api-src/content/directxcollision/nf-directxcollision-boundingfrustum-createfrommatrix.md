@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],CreateFromMatrix method, BoundingFrustum.CreateFromMatrix, BoundingFrustum::CreateFromMatrix, CreateFromMatrix, CreateFromMatrix method [DirectX Math Support APIs], CreateFromMatrix method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_createfrommatrix
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingFrustum.CreateFromMatrix"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

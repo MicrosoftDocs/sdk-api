@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrCStdStubBuffer2_Release, NdrCStdStubBuffer2_Release function [RPC], rpc.ndrcstdstubbuffer2_release, rpcproxy/NdrCStdStubBuffer2_Release
 ms.topic: function
+f1_keywords: ["rpcproxy/NdrCStdStubBuffer2_Release"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

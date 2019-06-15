@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFunctionParameter, GetFunctionParameter method, GetFunctionParameter method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetFunctionParameter method, ID3D12FunctionReflection.GetFunctionParameter, ID3D12FunctionReflection::GetFunctionParameter, d3d12shader/ID3D12FunctionReflection::GetFunctionParameter, direct3d12.id3d12functionreflection_getfunctionparameter
 ms.topic: method
+f1_keywords: ["d3d12shader/ID3D12FunctionReflection.GetFunctionParameter"]
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

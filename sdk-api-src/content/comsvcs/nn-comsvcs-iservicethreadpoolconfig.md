@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceThreadPoolConfig, IServiceThreadPoolConfig interface [COM+], IServiceThreadPoolConfig interface [COM+],described, _cos_IServiceThreadPoolConfig, comsvcs/IServiceThreadPoolConfig, cos.iservicethreadpoolconfig
 ms.topic: interface
+f1_keywords: ["comsvcs/IServiceThreadPoolConfig"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

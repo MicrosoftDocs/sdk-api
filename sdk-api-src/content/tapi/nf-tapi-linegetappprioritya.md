@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetapppriority, lineGetAppPriority, lineGetAppPriority function [TAPI 2.2], lineGetAppPriorityA, lineGetAppPriorityW, tapi/lineGetAppPriority, tapi/lineGetAppPriorityA, tapi/lineGetAppPriorityW, tapi2.linegetapppriority"
 ms.topic: function
+f1_keywords: ["tapi/lineGetAppPriority"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

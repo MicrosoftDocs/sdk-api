@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DetermineMinWidth, DetermineMinWidth method [Direct Write], DetermineMinWidth method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],DetermineMinWidth method, IDWriteTextLayout.DetermineMinWidth, IDWriteTextLayout::DetermineMinWidth, directwrite.idwritetextlayout_determineminwidth, dwrite/IDWriteTextLayout::DetermineMinWidth
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.DetermineMinWidth"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

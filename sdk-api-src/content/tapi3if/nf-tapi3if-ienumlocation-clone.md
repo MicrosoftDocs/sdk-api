@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumLocation interface, IEnumLocation interface [TAPI 2.2],Clone method, IEnumLocation.Clone, IEnumLocation::Clone, _tapi3_ienumlocation_clone, tapi3.ienumlocation_clone, tapi3if/IEnumLocation::Clone
 ms.topic: method
+f1_keywords: ["tapi3if/IEnumLocation.Clone"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

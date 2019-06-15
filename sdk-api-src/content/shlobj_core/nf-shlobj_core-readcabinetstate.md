@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadCabinetState, ReadCabinetState function [Windows Shell], _win32_ReadCabinetState, shell.ReadCabinetState, shlobj_core/ReadCabinetState
 ms.topic: function
+f1_keywords: ["shlobj_core/ReadCabinetState"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

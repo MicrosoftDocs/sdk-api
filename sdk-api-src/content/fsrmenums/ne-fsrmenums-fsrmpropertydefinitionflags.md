@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionFlags, FsrmPropertyDefinitionFlags enumeration [File Server Resource Manager], FsrmPropertyDefinitionFlags_Deprecated, FsrmPropertyDefinitionFlags_Global, FsrmPropertyDefinitionFlags_Secure, fs.fsrmpropertydefinitionflags, fsrm.fsrmpropertydefinitionflags, fsrmenums/FsrmPropertyDefinitionFlags, fsrmenums/FsrmPropertyDefinitionFlags_Deprecated, fsrmenums/FsrmPropertyDefinitionFlags_Global, fsrmenums/FsrmPropertyDefinitionFlags_Secure
 ms.topic: enum
+f1_keywords: ["fsrmenums/FsrmPropertyDefinitionFlags"]
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

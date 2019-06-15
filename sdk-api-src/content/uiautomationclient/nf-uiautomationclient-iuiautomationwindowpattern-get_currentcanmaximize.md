@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCanMaximize property [Windows Accessibility], CurrentCanMaximize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentCanMaximize property, IUIAutomationWindowPattern.CurrentCanMaximize, IUIAutomationWindowPattern.get_CurrentCanMaximize, IUIAutomationWindowPattern::CurrentCanMaximize, IUIAutomationWindowPattern::get_CurrentCanMaximize, get_CurrentCanMaximize, uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiauto_IUIAutomationWindowPattern_CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::CurrentCanMaximize, uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMaximize, winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMaximize
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationWindowPattern.CurrentCanMaximize"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

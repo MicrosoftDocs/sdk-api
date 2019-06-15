@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTrustee, CreateTrustee method [GPMC], CreateTrustee method [GPMC],GPM object, CreateTrustee method [GPMC],IGPM interface, GPM object [GPMC],CreateTrustee method, IGPM interface [GPMC],CreateTrustee method, IGPM.CreateTrustee, IGPM::CreateTrustee, _win32_igpm_createtrustee, gpmc.igpm_createtrustee, gpmgmt/IGPM::CreateTrustee
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPM.CreateTrustee"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

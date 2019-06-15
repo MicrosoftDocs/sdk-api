@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ_vGetBounds, PATHOBJ_vGetBounds function [Display Devices], display.pathobj_vgetbounds, gdifncs_d5ad1bbf-ddbe-43c1-92a9-dbe3a0091b24.xml, winddi/PATHOBJ_vGetBounds
 ms.topic: function
+f1_keywords: ["winddi/PATHOBJ_vGetBounds"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

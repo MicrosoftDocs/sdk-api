@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRgn, GetUpdateRgn function [Windows GDI], _win32_GetUpdateRgn, gdi.getupdatergn, winuser/GetUpdateRgn
 ms.topic: function
+f1_keywords: ["winuser/GetUpdateRgn"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

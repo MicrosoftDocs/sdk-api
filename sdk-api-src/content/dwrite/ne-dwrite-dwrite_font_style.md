@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_STYLE, DWRITE_FONT_STYLE enumeration [Direct Write], DWRITE_FONT_STYLE_ITALIC, DWRITE_FONT_STYLE_NORMAL, DWRITE_FONT_STYLE_OBLIQUE, directwrite.dwrite_font_style, dwrite/DWRITE_FONT_STYLE, dwrite/DWRITE_FONT_STYLE_ITALIC, dwrite/DWRITE_FONT_STYLE_NORMAL, dwrite/DWRITE_FONT_STYLE_OBLIQUE
 ms.topic: enum
+f1_keywords: ["dwrite/DWRITE_FONT_STYLE"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

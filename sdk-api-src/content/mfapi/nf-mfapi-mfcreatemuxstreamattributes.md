@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateMuxStreamAttributes, MFCreateMuxStreamAttributes function [Media Foundation], mf.mfcreatemuxstreamattributes, mfapi/MFCreateMuxStreamAttributes
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateMuxStreamAttributes"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

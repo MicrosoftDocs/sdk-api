@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetDuplicate2 method, ITextPara2.GetDuplicate2, ITextPara2::GetDuplicate2, controls.itextpara2_getduplicate2, tom/ITextPara2::GetDuplicate2
 ms.topic: method
+f1_keywords: ["tom/ITextPara2.GetDuplicate2"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

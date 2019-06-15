@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumMessagesDiscardedByMessageCountLimit, GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 10], GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],GetNumMessagesDiscardedByMessageCountLimit method, ID3D10InfoQueue.GetNumMessagesDiscardedByMessageCountLimit, ID3D10InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, d12591c5-0fe7-d6c0-52b7-6344cee6e4a7, d3d10sdklayers/ID3D10InfoQueue::GetNumMessagesDiscardedByMessageCountLimit, direct3d10.id3d10infoqueue_getnummessagesdiscardedbymessagecountlimit
 ms.topic: method
+f1_keywords: ["d3d10sdklayers/ID3D10InfoQueue.GetNumMessagesDiscardedByMessageCountLimit"]
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows

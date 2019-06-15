@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ScheduledTime property, IFaxOutgoingJob.ScheduledTime, IFaxOutgoingJob.get_ScheduledTime, IFaxOutgoingJob::ScheduledTime, IFaxOutgoingJob::get_ScheduledTime, ScheduledTime property [Fax Service], ScheduledTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.scheduledtime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp, fax._mfax_faxoutgoingjob_scheduledtime, faxcomex/IFaxOutgoingJob::ScheduledTime, faxcomex/IFaxOutgoingJob::get_ScheduledTime, get_ScheduledTime
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.ScheduledTime"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

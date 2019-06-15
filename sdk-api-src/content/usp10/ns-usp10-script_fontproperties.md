@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_FONTPROPERTIES, SCRIPT_FONTPROPERTIES structure [Internationalization for Windows Applications], _win32_SCRIPT_FONTPROPERTIES_str, intl.script_fontproperties, usp10/SCRIPT_FONTPROPERTIES
 ms.topic: struct
+f1_keywords: ["usp10/SCRIPT_FONTPROPERTIES"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

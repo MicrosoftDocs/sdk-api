@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadFocusSink interface [Text Services Framework],OnSetThreadFocus method, ITfThreadFocusSink.OnSetThreadFocus, ITfThreadFocusSink::OnSetThreadFocus, OnSetThreadFocus, OnSetThreadFocus method [Text Services Framework], OnSetThreadFocus method [Text Services Framework],ITfThreadFocusSink interface, _tsf_itfthreadfocussink_onsetthreadfocus_ref, msctf/ITfThreadFocusSink::OnSetThreadFocus, tsf.itfthreadfocussink_onsetthreadfocus
 ms.topic: method
+f1_keywords: ["msctf/ITfThreadFocusSink.OnSetThreadFocus"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMRevoked, IWMDMRevoked interface [windows Media Device Manager], IWMDMRevoked interface [windows Media Device Manager],described, IWMDMRevokedInterface, mswmdm/IWMDMRevoked, wmdm.iwmdmrevoked
 ms.topic: interface
+f1_keywords: ["mswmdm/IWMDMRevoked"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

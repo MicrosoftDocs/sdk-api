@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IsManaged property, IUpdateService.IsManaged, IUpdateService.get_IsManaged, IUpdateService::IsManaged, IUpdateService::get_IsManaged, IsManaged property [Windows Update Agent], IsManaged property [Windows Update Agent],IUpdateService interface, get_IsManaged, wua.iupdateservice_ismanaged, wuapi/IUpdateService::IsManaged, wuapi/IUpdateService::get_IsManaged
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateService.IsManaged"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

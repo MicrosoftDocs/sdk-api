@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_SetLong, FLOATOBJ_SetLong function [Display Devices], display.floatobj_setlong, gdifncs_b0a076a3-766b-42fb-a04d-5da69177656b.xml, winddi/FLOATOBJ_SetLong
 ms.topic: function
+f1_keywords: ["winddi/FLOATOBJ_SetLong"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

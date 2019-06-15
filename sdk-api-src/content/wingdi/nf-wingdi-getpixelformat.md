@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat function [OpenGL], _ogl_GetPixelFormat, opengl.getpixelformat, wingdi/GetPixelFormat
 ms.topic: function
+f1_keywords: ["wingdi/GetPixelFormat"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

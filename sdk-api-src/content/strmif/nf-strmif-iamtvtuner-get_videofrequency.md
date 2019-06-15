@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_VideoFrequency method, IAMTVTuner.get_VideoFrequency, IAMTVTuner::get_VideoFrequency, IAMTVTunerget_VideoFrequency, dshow.iamtvtuner_get_videofrequency, get_VideoFrequency, get_VideoFrequency method [DirectShow], get_VideoFrequency method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_VideoFrequency
 ms.topic: method
+f1_keywords: ["strmif/IAMTVTuner.get_VideoFrequency"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

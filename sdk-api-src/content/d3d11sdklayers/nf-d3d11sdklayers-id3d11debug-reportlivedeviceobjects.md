@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 734af011-a2b7-a89f-361d-01350006a197, ID3D11Debug interface [Direct3D 11],ReportLiveDeviceObjects method, ID3D11Debug.ReportLiveDeviceObjects, ID3D11Debug::ReportLiveDeviceObjects, ReportLiveDeviceObjects, ReportLiveDeviceObjects method [Direct3D 11], ReportLiveDeviceObjects method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ReportLiveDeviceObjects, direct3d11.id3d11debug_reportlivedeviceobjects
 ms.topic: method
+f1_keywords: ["d3d11sdklayers/ID3D11Debug.ReportLiveDeviceObjects"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

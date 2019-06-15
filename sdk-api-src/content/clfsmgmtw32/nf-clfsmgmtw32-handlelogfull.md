@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandleLogFull, HandleLogFull function [Files], clfsmgmtw32/HandleLogFull, fs.handlelogfull
 ms.topic: function
+f1_keywords: ["clfsmgmtw32/HandleLogFull"]
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

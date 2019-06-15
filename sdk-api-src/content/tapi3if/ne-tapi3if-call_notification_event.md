@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CALL_NOTIFICATION_EVENT, CALL_NOTIFICATION_EVENT enumeration [TAPI 2.2], CNE_MONITOR, CNE_OWNER, _tapi3_call_notification_event, tapi3.call_notification_event, tapi3if/CALL_NOTIFICATION_EVENT, tapi3if/CNE_MONITOR, tapi3if/CNE_OWNER
 ms.topic: enum
+f1_keywords: ["tapi3if/CALL_NOTIFICATION_EVENT"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

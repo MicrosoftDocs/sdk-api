@@ -9,6 +9,7 @@ ms.author: windowssdkdev
 ms.date: 02/08/2019
 ms.keywords: SetAutoBreadcrumbsEnablement, SetAutoBreadcrumbsEnablement method, ID3D12DeviceRemovedExtendedDataSettings, ID3D12DeviceRemovedExtendedDataSettings interface, ID3D12DeviceRemovedExtendedDataSettings.SetAutoBreadcrumbsEnablement, ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement, d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement, direct3d12.id3d12deviceremovedextendeddatasettings_setautobreadcrumbsenablement
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12DeviceRemovedExtendedDataSettings::SetAutoBreadcrumbsEnablement"]
 req.construct-type: function
 req.ddi-compliance: 
 req.header: d3d12.h

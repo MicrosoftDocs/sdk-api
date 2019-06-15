@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],Size property, IFaxJobStatus.Size, IFaxJobStatus.get_Size, IFaxJobStatus::Size, IFaxJobStatus::get_Size, Size property [Fax Service], Size property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.size, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_size_cpp, fax._mfax_faxjobstatus_size, faxcomex/IFaxJobStatus::Size, faxcomex/IFaxJobStatus::get_Size, get_Size
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxJobStatus.Size"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

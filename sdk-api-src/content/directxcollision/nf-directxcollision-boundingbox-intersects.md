@@ -6,6 +6,7 @@ description:
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Intersects
 ms.topic: language-reference
+f1_keywords: ["directxcollision/BoundingBox::Intersects"]
 targetos: Windows
 product: Windows
 req.assembly: 

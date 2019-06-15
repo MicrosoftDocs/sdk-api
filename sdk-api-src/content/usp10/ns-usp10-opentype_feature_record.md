@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPENTYPE_FEATURE_RECORD, OPENTYPE_FEATURE_RECORD structure [Internationalization for Windows Applications], _win32_OPENTYPE_FEATURE_RECORD, intl.opentype_feature_record, usp10/OPENTYPE_FEATURE_RECORD
 ms.topic: struct
+f1_keywords: ["usp10/OPENTYPE_FEATURE_RECORD"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

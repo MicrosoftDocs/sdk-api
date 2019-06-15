@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDlgCtrlID, GetDlgCtrlID function [Dialog Boxes], _win32_GetDlgCtrlID, _win32_getdlgctrlid_cpp, dlgbox.getdlgctrlid, winui._win32_getdlgctrlid, winuser/GetDlgCtrlID
 ms.topic: function
+f1_keywords: ["winuser/GetDlgCtrlID"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

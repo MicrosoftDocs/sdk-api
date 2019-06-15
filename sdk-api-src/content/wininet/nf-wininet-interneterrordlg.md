@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetErrorDlg, InternetErrorDlg function [WinINet], _inet_interneterrordlg_function, wininet.interneterrordlg, wininet/InternetErrorDlg
 ms.topic: function
+f1_keywords: ["wininet/InternetErrorDlg"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

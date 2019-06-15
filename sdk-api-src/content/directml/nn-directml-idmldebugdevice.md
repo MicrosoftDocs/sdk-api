@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLDebugDevice, IDMLDebugDevice interface, IDMLDebugDevice interface,described, direct3d12.idmldebugdevice, directml/IDMLDebugDevice
 ms.topic: interface
+f1_keywords: ["directml/IDMLDebugDevice"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

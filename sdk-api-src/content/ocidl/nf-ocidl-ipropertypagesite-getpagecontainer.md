@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPageContainer, GetPageContainer method [COM], GetPageContainer method [COM],IPropertyPageSite interface, IPropertyPageSite interface [COM],GetPageContainer method, IPropertyPageSite.GetPageContainer, IPropertyPageSite::GetPageContainer, _ctrl_ipropertypagesite_getpagecontainer, com.ipropertypagesite_getpagecontainer, ocidl/IPropertyPageSite::GetPageContainer
 ms.topic: method
+f1_keywords: ["ocidl/IPropertyPageSite.GetPageContainer"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

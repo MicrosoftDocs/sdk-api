@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
 ms.topic: function
+f1_keywords: ["winbase/Wow64EnableWow64FsRedirection"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

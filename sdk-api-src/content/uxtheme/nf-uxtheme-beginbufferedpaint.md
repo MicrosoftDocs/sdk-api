@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginBufferedPaint, BeginBufferedPaint function [Windows Controls], _shell_BeginBufferedPaint, _shell_BeginBufferedPaint_cpp, controls.BeginBufferedPaint, controls._shell_BeginBufferedPaint, uxtheme/BeginBufferedPaint
 ms.topic: function
+f1_keywords: ["uxtheme/BeginBufferedPaint"]
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

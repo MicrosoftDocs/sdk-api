@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSecureMem, EngSecureMem function [Display Devices], display.engsecuremem, gdifncs_b152193e-5e03-4223-b847-8dc99aeb0852.xml, winddi/EngSecureMem
 ms.topic: function
+f1_keywords: ["winddi/EngSecureMem"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

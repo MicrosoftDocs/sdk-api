@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Direct Write], GetCount method [Direct Write],IDWriteStringList interface, IDWriteStringList interface [Direct Write],GetCount method, IDWriteStringList.GetCount, IDWriteStringList::GetCount, directwrite.idwritestringlist_getcount, dwrite_3/IDWriteStringList::GetCount
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteStringList.GetCount"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

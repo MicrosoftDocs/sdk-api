@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PACL, ACL, ACL structure [Security], PACL, PACL structure pointer [Security], _ACL, _win32_acl_str, security.acl, winnt/ACL, winnt/PACL"
 ms.topic: struct
+f1_keywords: ["winnt/ACL"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

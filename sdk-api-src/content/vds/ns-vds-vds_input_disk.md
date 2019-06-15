@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], base.vds_input_disk, vds/_VDS_INPUT_DISK
 ms.topic: struct
+f1_keywords: ["vds/VDS_INPUT_DISK"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

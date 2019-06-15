@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateNumberSubstitution, CreateNumberSubstitution method [Direct Write], CreateNumberSubstitution method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateNumberSubstitution method, IDWriteFactory.CreateNumberSubstitution, IDWriteFactory::CreateNumberSubstitution, directwrite.IDWriteFactory_CreateNumberSubstitution, dwrite/IDWriteFactory::CreateNumberSubstitution
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteFactory.CreateNumberSubstitution"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemAppEventData interface [COM+],described, _dtc_ISystemAppEventData, comsvcs/ISystemAppEventData, cos.isystemappeventdata
 ms.topic: interface
+f1_keywords: ["comsvcs/ISystemAppEventData"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

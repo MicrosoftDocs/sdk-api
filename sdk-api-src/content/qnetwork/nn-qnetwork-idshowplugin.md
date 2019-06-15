@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDShowPlugin, IDShowPlugin interface [DirectShow], IDShowPlugin interface [DirectShow],described, IDShowPluginInterface, dshow.idshowplugin, qnetwork/IDShowPlugin
 ms.topic: interface
+f1_keywords: ["qnetwork/IDShowPlugin"]
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

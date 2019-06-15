@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECTION, PSECTION, PSECTION structure pointer [Microsoft TV Technologies], SECTION, SECTION structure [Microsoft TV Technologies], mpeg2structs/PSECTION, mpeg2structs/SECTION, mstv.section"
 ms.topic: struct
+f1_keywords: ["mpeg2structs/SECTION"]
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

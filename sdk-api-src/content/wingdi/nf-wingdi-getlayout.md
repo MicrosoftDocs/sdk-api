@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLayout, GetLayout function [Windows GDI], _win32_GetLayout, gdi.getlayout, wingdi/GetLayout
 ms.topic: function
+f1_keywords: ["wingdi/GetLayout"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

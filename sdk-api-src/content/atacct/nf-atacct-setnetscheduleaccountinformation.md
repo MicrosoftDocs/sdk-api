@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNetScheduleAccountInformation, SetNetScheduleAccountInformation function [Network Management], atacct/SetNetScheduleAccountInformation, netmgmt.setnetscheduleaccountinformation
 ms.topic: function
+f1_keywords: ["atacct/SetNetScheduleAccountInformation"]
 req.header: atacct.h
 req.include-header: 
 req.target-type: Windows

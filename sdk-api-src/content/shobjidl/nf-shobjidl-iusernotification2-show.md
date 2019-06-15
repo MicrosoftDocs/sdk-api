@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],Show method, IUserNotification2.Show, IUserNotification2::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_Show, shell.IUserNotification2_Show, shobjidl/IUserNotification2::Show
 ms.topic: method
+f1_keywords: ["shobjidl/IUserNotification2.Show"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

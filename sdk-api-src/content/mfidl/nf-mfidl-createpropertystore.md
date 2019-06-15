@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
 ms.topic: function
+f1_keywords: ["mfidl/CreatePropertyStore"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

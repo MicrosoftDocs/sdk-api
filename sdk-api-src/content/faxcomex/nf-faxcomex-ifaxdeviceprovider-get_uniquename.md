@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceProvider interface [Fax Service],UniqueName property, IFaxDeviceProvider.UniqueName, IFaxDeviceProvider.get_UniqueName, IFaxDeviceProvider::UniqueName, IFaxDeviceProvider::get_UniqueName, UniqueName property [Fax Service], UniqueName property [Fax Service],IFaxDeviceProvider interface, _mfax_faxdeviceprovider.uniquename, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_uniquename_cpp, fax._mfax_faxdeviceprovider_uniquename, faxcomex/IFaxDeviceProvider::UniqueName, faxcomex/IFaxDeviceProvider::get_UniqueName, get_UniqueName
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDeviceProvider.UniqueName"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

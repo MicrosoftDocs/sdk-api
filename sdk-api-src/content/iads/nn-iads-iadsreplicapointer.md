@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsReplicaPointer, IADsReplicaPointer interface [ADSI], IADsReplicaPointer interface [ADSI],described, ReplicaPointer, _ds_iadsreplicapointer, adsi.iadsreplicapointer, iads/IADsReplicaPointer
 ms.topic: interface
+f1_keywords: ["iads/IADsReplicaPointer"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

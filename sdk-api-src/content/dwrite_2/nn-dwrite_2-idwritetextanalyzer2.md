@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalyzer2, IDWriteTextAnalyzer2 interface [Direct Write], IDWriteTextAnalyzer2 interface [Direct Write],described, directwrite.idwritetextanalyzer2, dwrite_2/IDWriteTextAnalyzer2
 ms.topic: interface
+f1_keywords: ["dwrite_2/IDWriteTextAnalyzer2"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

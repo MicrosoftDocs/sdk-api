@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_RANGE, DWRITE_TEXT_RANGE structure [Direct Write], directwrite.dwrite_text_range, dwrite/DWRITE_TEXT_RANGE
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_TEXT_RANGE"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

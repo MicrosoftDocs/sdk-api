@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestPackageId, IAppxManifestPackageId interface [App packaging and management], IAppxManifestPackageId interface [App packaging and management],described, appxpackaging/IAppxManifestPackageId, appxpkg.iappxmanifestpackageid
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxManifestPackageId"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

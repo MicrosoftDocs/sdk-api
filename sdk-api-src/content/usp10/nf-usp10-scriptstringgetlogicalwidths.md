@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptStringGetLogicalWidths, ScriptStringGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptStringGetLogicalWidths, intl.scriptstringgetlogicalwidths, usp10/ScriptStringGetLogicalWidths
 ms.topic: function
+f1_keywords: ["usp10/ScriptStringGetLogicalWidths"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

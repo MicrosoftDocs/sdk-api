@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaAddEvent, UiaAddEvent function [Windows Accessibility], uiauto.uiauto_UiaAddEventClientEvent, uiauto_UiaAddEventClientEvent, uiautomationcoreapi/UiaAddEvent, winauto.uiauto_UiaAddEventClientEvent
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaAddEvent"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFontFace, FindFontFace method [Direct Write], FindFontFace method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],FindFontFace method, IDWriteFontSet.FindFontFace, IDWriteFontSet::FindFontFace, directwrite.idwritefontset_findfontface, dwrite_3/IDWriteFontSet::FindFontFace
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteFontSet.FindFontFace"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

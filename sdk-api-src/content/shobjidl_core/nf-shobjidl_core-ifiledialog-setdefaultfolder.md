@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultFolder method, IFileDialog.SetDefaultFolder, IFileDialog::SetDefaultFolder, SetDefaultFolder, SetDefaultFolder method [Windows Shell], SetDefaultFolder method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultFolder, shell_IFileDialog_SetDefaultFolder, shobjidl_core/IFileDialog::SetDefaultFolder
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialog.SetDefaultFolder"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

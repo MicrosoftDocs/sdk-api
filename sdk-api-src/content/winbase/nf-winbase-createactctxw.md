@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateActCtx, CreateActCtx function [Side-by-side Assemblies], CreateActCtxA, CreateActCtxW, _win32_createactctx, setup.createactctx, winbase/CreateActCtx, winbase/CreateActCtxA, winbase/CreateActCtxW
 ms.topic: function
+f1_keywords: ["winbase/CreateActCtx"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

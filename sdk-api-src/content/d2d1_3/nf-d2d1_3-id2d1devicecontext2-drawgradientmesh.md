@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawGradientMesh, DrawGradientMesh method [Direct2D], DrawGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],DrawGradientMesh method, ID2D1DeviceContext2.DrawGradientMesh, ID2D1DeviceContext2::DrawGradientMesh, d2d1_3/ID2D1DeviceContext2::DrawGradientMesh, direct2d.id2d1devicecontext2_drawgradientmesh
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1DeviceContext2.DrawGradientMesh"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

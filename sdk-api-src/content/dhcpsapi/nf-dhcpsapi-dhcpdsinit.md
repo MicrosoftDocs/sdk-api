@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/DhcpDsInit
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpDsInit"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

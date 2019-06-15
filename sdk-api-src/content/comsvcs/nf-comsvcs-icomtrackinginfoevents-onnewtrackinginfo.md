@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoEvents interface [COM+],OnNewTrackingInfo method, IComTrackingInfoEvents.OnNewTrackingInfo, IComTrackingInfoEvents::OnNewTrackingInfo, OnNewTrackingInfo, OnNewTrackingInfo method [COM+], OnNewTrackingInfo method [COM+],IComTrackingInfoEvents interface, _dtc_IComTrackingInfoEvents_OnNewTrackingInfo, comsvcs/IComTrackingInfoEvents::OnNewTrackingInfo, cos.icomtrackinginfoevents_onnewtrackinginfo
 ms.topic: method
+f1_keywords: ["comsvcs/IComTrackingInfoEvents.OnNewTrackingInfo"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

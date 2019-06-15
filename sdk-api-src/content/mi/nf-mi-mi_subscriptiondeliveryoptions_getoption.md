@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetOption, MI_SubscriptionDeliveryOptions_GetOption function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetOption, wmi_v2.mi_subscriptiondeliveryoptions_getoption
 ms.topic: function
+f1_keywords: ["mi/MI_SubscriptionDeliveryOptions_GetOption"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

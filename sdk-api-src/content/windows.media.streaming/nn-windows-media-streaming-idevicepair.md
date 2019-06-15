@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDevicePair, IDevicePair interface [Media Streaming API], IDevicePair interface [Media Streaming API],described, mediastreaming.idevicepair, windows/IDevicePair
 ms.topic: interface
+f1_keywords: ["windows.media.streaming/IDevicePair"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

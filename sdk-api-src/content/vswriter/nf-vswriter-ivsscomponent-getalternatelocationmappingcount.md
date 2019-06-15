@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMappingCount, GetAlternateLocationMappingCount method [VSS], GetAlternateLocationMappingCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMappingCount method, IVssComponent.GetAlternateLocationMappingCount, IVssComponent::GetAlternateLocationMappingCount, _win32_ivsscomponent_getalternatelocationmappingcount, base.ivsscomponent_getalternatelocationmappingcount, vswriter/IVssComponent::GetAlternateLocationMappingCount
 ms.topic: method
+f1_keywords: ["vswriter/IVssComponent.GetAlternateLocationMappingCount"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

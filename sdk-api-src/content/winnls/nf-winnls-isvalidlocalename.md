@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidLocaleName, IsValidLocaleName function [Internationalization for Windows Applications], _win32_IsValidLocaleName, intl.isvalidlocalename, winnls/IsValidLocaleName
 ms.topic: function
+f1_keywords: ["winnls/IsValidLocaleName"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

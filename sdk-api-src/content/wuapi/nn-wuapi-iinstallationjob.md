@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], IInstallationJob interface [Windows Update Agent],described, wua.iinstallationjob, wuapi/IInstallationJob
 ms.topic: interface
+f1_keywords: ["wuapi/IInstallationJob"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

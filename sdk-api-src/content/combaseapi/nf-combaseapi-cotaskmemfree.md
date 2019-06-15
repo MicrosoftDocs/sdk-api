@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoTaskMemFree, CoTaskMemFree function [COM], _com_CoTaskMemFree, com.cotaskmemfree, combaseapi/CoTaskMemFree
 ms.topic: function
+f1_keywords: ["combaseapi/CoTaskMemFree"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

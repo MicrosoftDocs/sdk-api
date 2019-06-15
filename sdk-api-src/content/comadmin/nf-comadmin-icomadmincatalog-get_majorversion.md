@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MajorVersion property, ICOMAdminCatalog.MajorVersion, ICOMAdminCatalog.get_MajorVersion, ICOMAdminCatalog::MajorVersion, ICOMAdminCatalog::get_MajorVersion, MajorVersion property [COM+], MajorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MajorVersion, comadmin/ICOMAdminCatalog::MajorVersion, comadmin/ICOMAdminCatalog::get_MajorVersion, cos.icomadmincatalog_majorversion, get_MajorVersion
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog.MajorVersion"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

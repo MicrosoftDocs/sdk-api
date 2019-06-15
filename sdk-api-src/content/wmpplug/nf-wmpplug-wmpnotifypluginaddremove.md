@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPNotifyPluginAddRemove, WMPNotifyPluginAddRemove function [Windows Media Player], wmp.wmpnotifypluginaddremove, wmpplug/WMPNotifyPluginAddRemove
 ms.topic: function
+f1_keywords: ["wmpplug/WMPNotifyPluginAddRemove"]
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows

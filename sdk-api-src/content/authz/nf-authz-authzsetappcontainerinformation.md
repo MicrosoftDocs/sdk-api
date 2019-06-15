@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzSetAppContainerInformation, AuthzSetAppContainerInformation function [Security], authz/AuthzSetAppContainerInformation, security.authzsetappcontainerinformation
 ms.topic: function
+f1_keywords: ["authz/AuthzSetAppContainerInformation"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

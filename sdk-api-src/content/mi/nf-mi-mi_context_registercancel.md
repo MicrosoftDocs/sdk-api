@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Context_RegisterCancel, MI_Context_RegisterCancel function [Windows Management Infrastructure (MI)], mi/MI_Context_RegisterCancel, wmi.mi_registercancel, wmi_v2.mi_context_registercancel
 ms.topic: function
+f1_keywords: ["mi/MI_Context_RegisterCancel"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

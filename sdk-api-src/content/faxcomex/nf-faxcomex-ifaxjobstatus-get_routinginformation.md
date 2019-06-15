@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],RoutingInformation property, IFaxJobStatus.RoutingInformation, IFaxJobStatus.get_RoutingInformation, IFaxJobStatus::RoutingInformation, IFaxJobStatus::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.routinginformation, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cpp, fax._mfax_faxjobstatus_routinginformation, faxcomex/IFaxJobStatus::RoutingInformation, faxcomex/IFaxJobStatus::get_RoutingInformation, get_RoutingInformation
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxJobStatus.RoutingInformation"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

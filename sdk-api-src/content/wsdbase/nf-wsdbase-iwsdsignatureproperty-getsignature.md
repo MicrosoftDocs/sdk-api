@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignature method, IWSDSignatureProperty.GetSignature, IWSDSignatureProperty::GetSignature, ncd.iwsdsignatureproperty_getsignature, wsdbase/IWSDSignatureProperty::GetSignature
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDSignatureProperty.GetSignature"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

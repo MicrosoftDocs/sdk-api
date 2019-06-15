@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],FontFamily class, FontFamily class [GDI+],Clone method, FontFamily.Clone, FontFamily::Clone, _gdiplus_CLASS_FontFamily_Clone_, gdiplus._gdiplus_CLASS_FontFamily_Clone_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/FontFamily.Clone"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLM_CONNECTION_PROPERTY_CHANGE, NLM_CONNECTION_PROPERTY_CHANGE enumeration [Network Awareness], NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION, netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE, netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION, nla.nlm_connection_property_change
 ms.topic: enum
+f1_keywords: ["netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

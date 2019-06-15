@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumProcessModulesEx, EnumProcessModulesEx function [PSAPI], K32EnumProcessModulesEx, LIST_MODULES_32BIT, LIST_MODULES_64BIT, LIST_MODULES_ALL, LIST_MODULES_DEFAULT, base.enumprocessmodulesex, psapi.enumprocessmodulesex, psapi/EnumProcessModulesEx, psapi/K32EnumProcessModulesEx
 ms.topic: function
+f1_keywords: ["psapi/EnumProcessModulesEx"]
 req.header: psapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STIF_DEFAULT, STIF_SUPPORT_HEX, StrToIntEx, StrToIntEx function [Windows Shell], StrToIntExA, StrToIntExW, _win32_StrToIntEx, shell.StrToIntEx, shlwapi/StrToIntEx, shlwapi/StrToIntExA, shlwapi/StrToIntExW
 ms.topic: function
+f1_keywords: ["shlwapi/StrToIntEx"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

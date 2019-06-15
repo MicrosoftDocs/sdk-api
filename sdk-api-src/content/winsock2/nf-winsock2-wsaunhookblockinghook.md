@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAUnhookBlockingHook, WSAUnhookBlockingHook function [Winsock], _win32_wsaunhookblockinghook_2, winsock.wsaunhookblockinghook_2, winsock2/WSAUnhookBlockingHook
 ms.topic: function
+f1_keywords: ["winsock2/WSAUnhookBlockingHook"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

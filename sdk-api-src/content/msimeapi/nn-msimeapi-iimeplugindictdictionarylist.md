@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],described, intl.iimeplugindictdictionarylist, msimeapi/IImePlugInDictDictionaryList
 ms.topic: interface
+f1_keywords: ["msimeapi/IImePlugInDictDictionaryList"]
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows

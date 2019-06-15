@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
 ms.topic: interface
+f1_keywords: ["vsprov/IVssSoftwareSnapshotProvider"]
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

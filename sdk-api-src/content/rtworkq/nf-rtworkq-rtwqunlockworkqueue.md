@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockworkqueue, rtworkq/RtwqUnlockWorkQueue
 ms.topic: function
+f1_keywords: ["rtworkq/RtwqUnlockWorkQueue"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

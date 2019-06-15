@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistArray, IWMPPlaylistArray interface [Windows Media Player], IWMPPlaylistArray interface [Windows Media Player],described, IWMPPlaylistArrayInterface, wmp.iwmpplaylistarray, wmp/IWMPPlaylistArray
 ms.topic: interface
+f1_keywords: ["wmp/IWMPPlaylistArray"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

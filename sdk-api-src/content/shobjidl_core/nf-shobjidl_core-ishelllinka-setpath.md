@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetPath method, IShellLink::SetPath, IShellLinkA interface [Windows Shell],SetPath method, IShellLinkA.SetPath, IShellLinkA::SetPath, IShellLinkW interface [Windows Shell],SetPath method, IShellLinkW::SetPath, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IShellLink interface, SetPath method [Windows Shell],IShellLinkA interface, SetPath method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetPath, shell.IShellLink_SetPath, shobjidl_core/IShellLink::SetPath, shobjidl_core/IShellLinkA::SetPath, shobjidl_core/IShellLinkW::SetPath
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.SetPath"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

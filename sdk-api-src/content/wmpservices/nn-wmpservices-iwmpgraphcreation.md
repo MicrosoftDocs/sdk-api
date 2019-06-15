@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player],described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
 ms.topic: interface
+f1_keywords: ["wmpservices/IWMPGraphCreation"]
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

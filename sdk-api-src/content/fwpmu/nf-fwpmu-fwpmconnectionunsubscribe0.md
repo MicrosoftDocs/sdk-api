@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionUnsubscribe0, FwpmConnectionUnsubscribe0 function [Filtering], fwp.fwpmconnectionunsubscribe0, fwpmu/FwpmConnectionUnsubscribe0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmConnectionUnsubscribe0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

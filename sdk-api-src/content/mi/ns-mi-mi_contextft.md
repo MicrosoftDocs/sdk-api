@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ContextFT, MI_ContextFT structure [Windows Management Infrastructure (MI)], mi/MI_ContextFT, wmi_v2.mi_contextft
 ms.topic: struct
+f1_keywords: ["mi/MI_ContextFT"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

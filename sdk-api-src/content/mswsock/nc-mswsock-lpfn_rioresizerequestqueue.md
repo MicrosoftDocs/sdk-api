@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORESIZEREQUESTQUEUE
 ms.topic: language-reference
+f1_keywords: ["mswsock/LPFN_RIORESIZEREQUESTQUEUE"]
 targetos: Windows
 product: Windows
 req.assembly: 

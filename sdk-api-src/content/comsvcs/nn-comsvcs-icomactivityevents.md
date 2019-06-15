@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents, IComActivityEvents interface [COM+], IComActivityEvents interface [COM+],described, _dtc_IComActivityEvents, comsvcs/IComActivityEvents, cos.icomactivityevents
 ms.topic: interface
+f1_keywords: ["comsvcs/IComActivityEvents"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

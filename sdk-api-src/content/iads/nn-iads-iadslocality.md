@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsLocality, IADsLocality interface [ADSI], IADsLocality interface [ADSI],described, _ds_iadslocality, adsi.iadslocality, iads/IADsLocality
 ms.topic: interface
+f1_keywords: ["iads/IADsLocality"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

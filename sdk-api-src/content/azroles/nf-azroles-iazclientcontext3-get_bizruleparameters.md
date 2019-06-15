@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BizRuleParameters property [Security], BizRuleParameters property [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],BizRuleParameters property, IAzClientContext3.BizRuleParameters, IAzClientContext3.get_BizRuleParameters, IAzClientContext3::BizRuleParameters, IAzClientContext3::get_BizRuleParameters, azroles/IAzClientContext3::BizRuleParameters, azroles/IAzClientContext3::get_BizRuleParameters, get_BizRuleParameters, security.iazclientcontext3_bizruleparameters_method
 ms.topic: method
+f1_keywords: ["azroles/IAzClientContext3.BizRuleParameters"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

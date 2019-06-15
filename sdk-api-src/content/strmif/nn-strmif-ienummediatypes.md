@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes, IEnumMediaTypes interface [DirectShow], IEnumMediaTypes interface [DirectShow],described, IEnumMediaTypesInterface, dshow.ienummediatypes, strmif/IEnumMediaTypes
 ms.topic: interface
+f1_keywords: ["strmif/IEnumMediaTypes"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

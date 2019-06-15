@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddIScsiStaticTargetA, AddIscsiStaticTarget, AddIscsiStaticTarget function [iSCSI Discovery Library API], AddIscsiStaticTargetA, AddIscsiStaticTargetW, ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET, ISCSI_TARGET_FLAG_MERGE_TARGET_INFORMATION, iscsidisc.addiscsistatictarget, iscsidsc/AddIscsiStaticTarget, iscsidsc/AddIscsiStaticTargetA, iscsidsc/AddIscsiStaticTargetW
 ms.topic: function
+f1_keywords: ["iscsidsc/AddIscsiStaticTarget"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

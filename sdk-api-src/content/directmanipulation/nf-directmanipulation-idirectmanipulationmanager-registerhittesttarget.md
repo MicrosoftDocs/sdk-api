@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],RegisterHitTestTarget method, IDirectManipulationManager.RegisterHitTestTarget, IDirectManipulationManager::RegisterHitTestTarget, RegisterHitTestTarget, RegisterHitTestTarget method [Direct Manipulation], RegisterHitTestTarget method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_registerhittesttarget, directmanipulation/IDirectManipulationManager::RegisterHitTestTarget
 ms.topic: method
+f1_keywords: ["directmanipulation/IDirectManipulationManager.RegisterHitTestTarget"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

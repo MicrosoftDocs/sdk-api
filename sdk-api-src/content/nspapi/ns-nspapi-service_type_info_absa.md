@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVICE_TYPE_INFO_ABSA, *PSERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABS, SERVICE_TYPE_INFO_ABS structure [Winsock], SERVICE_TYPE_INFO_ABSA, SERVICE_TYPE_INFO_ABSW, _win32_service_type_info_abs_2, nspapi/SERVICE_TYPE_INFO_ABS, nspapi/SERVICE_TYPE_INFO_ABSA, nspapi/SERVICE_TYPE_INFO_ABSW, winsock.service_type_info_abs_2"
 ms.topic: struct
+f1_keywords: ["nspapi/SERVICE_TYPE_INFO_ABS"]
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

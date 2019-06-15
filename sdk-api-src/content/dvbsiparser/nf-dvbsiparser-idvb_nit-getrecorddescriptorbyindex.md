@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IDVB_NIT.GetRecordDescriptorByIndex, IDVB_NIT::GetRecordDescriptorByIndex, IDVB_NITGetRecordDescriptorByIndex, dvbsiparser/IDVB_NIT::GetRecordDescriptorByIndex, mstv.idvb_nit_getrecorddescriptorbyindex
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_NIT.GetRecordDescriptorByIndex"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

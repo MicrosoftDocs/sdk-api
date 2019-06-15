@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReturnValue, GetReturnValue method [COM], GetReturnValue method [COM],ICallFrame interface, ICallFrame interface [COM],GetReturnValue method, ICallFrame.GetReturnValue, ICallFrame::GetReturnValue, _com_icallframe_getreturnvalue, callobj/ICallFrame::GetReturnValue, com.icallframe_getreturnvalue
 ms.topic: method
+f1_keywords: ["callobj/ICallFrame.GetReturnValue"]
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

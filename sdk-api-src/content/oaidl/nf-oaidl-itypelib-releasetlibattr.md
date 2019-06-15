@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeLib interface [Automation],ReleaseTLibAttr method, ITypeLib.ReleaseTLibAttr, ITypeLib::ReleaseTLibAttr, ReleaseTLibAttr, ReleaseTLibAttr method [Automation], ReleaseTLibAttr method [Automation],ITypeLib interface, _oa96_ITypeLib_ReleaseTLibAttr, automat.itypelib_releasetlibattr, oaidl/ITypeLib::ReleaseTLibAttr
 ms.topic: method
+f1_keywords: ["oaidl/ITypeLib.ReleaseTLibAttr"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWMTRANSITION_OWNEDWINDOW_NULL, DWMTRANSITION_OWNEDWINDOW_REPOSITION, DWMTRANSITION_OWNEDWINDOW_TARGET, DWMTRANSITION_OWNEDWINDOW_TARGET enumeration [Desktop Window Manager], dwm.dwmtransition_ownedwindow_target, dwmapi/DWMTRANSITION_OWNEDWINDOW_NULL, dwmapi/DWMTRANSITION_OWNEDWINDOW_REPOSITION, dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET
 ms.topic: enum
+f1_keywords: ["dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

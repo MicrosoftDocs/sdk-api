@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere interface [DirectX Math Support APIs],Intersects method, BoundingSphere.Intersects, BoundingSphere.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingSphere.Intersects(XMVECTOR,XMVECTOR,XMVECTOR), BoundingSphere::Intersects, BoundingSphere::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingSphere interface, dxmath.boundingsphere_intersects_3
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingSphere.Intersects"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct2D], DrawGlyphRun method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawGlyphRun method, ID2D1RenderTarget.DrawGlyphRun, ID2D1RenderTarget::DrawGlyphRun, d2d1/ID2D1RenderTarget::DrawGlyphRun, direct2d.ID2D1RenderTarget_DrawGlyphRun
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RenderTarget.DrawGlyphRun"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

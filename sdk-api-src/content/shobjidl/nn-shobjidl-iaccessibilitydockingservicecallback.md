@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccessibilityDockingServiceCallback, IAccessibilityDockingServiceCallback interface [COM], IAccessibilityDockingServiceCallback interface [COM],described, com.iaccessibilitydockingservicecallback, shobjidl/IAccessibilityDockingServiceCallback
 ms.topic: interface
+f1_keywords: ["shobjidl/IAccessibilityDockingServiceCallback"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

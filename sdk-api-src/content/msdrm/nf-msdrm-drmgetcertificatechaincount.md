@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetCertificateChainCount, DRMGetCertificateChainCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetCertificateChainCount, rm.drmgetcertificatechaincount
 ms.topic: function
+f1_keywords: ["msdrm/DRMGetCertificateChainCount"]
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

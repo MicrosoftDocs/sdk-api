@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilOidFree, SnmpUtilOidFree function [SNMP], _snmp_snmputiloidfree, snmp.snmputiloidfree, snmp/SnmpUtilOidFree
 ms.topic: function
+f1_keywords: ["snmp/SnmpUtilOidFree"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

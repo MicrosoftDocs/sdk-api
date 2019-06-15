@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PKERB_CERTIFICATE_INFO_TYPE, CertHashInfo, KERB_CERTIFICATE_INFO_TYPE, KERB_CERTIFICATE_INFO_TYPE enumeration [Security], ntsecapi/CertHashInfo, ntsecapi/KERB_CERTIFICATE_INFO_TYPE, security.kerb_certificate_info_type"
 ms.topic: enum
+f1_keywords: ["ntsecapi/KERB_CERTIFICATE_INFO_TYPE"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

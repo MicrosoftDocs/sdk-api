@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrees, GetTrees method [ADSI], GetTrees method [ADSI],IADsADSystemInfo interface, IADsADSystemInfo interface [ADSI],GetTrees method, IADsADSystemInfo.GetTrees, IADsADSystemInfo::GetTrees, _ds_iadsadsysteminfo_gettrees, adsi.iadsadsysteminfo__gettrees, adsi.iadsadsysteminfo_gettrees, iads/IADsADSystemInfo::GetTrees
 ms.topic: method
+f1_keywords: ["iads/IADsADSystemInfo.GetTrees"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

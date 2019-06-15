@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeTToIntPtr, SizeTToPtrdiffT, UIntPtrToIntPtr, UIntPtrToIntPtr function [Windows Shell], _shell_UIntPtrToIntPtr, intsafe/UIntPtrToIntPtr, shell.UIntPtrToIntPtr
 ms.topic: function
+f1_keywords: ["intsafe/UIntPtrToIntPtr"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

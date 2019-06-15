@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS],CVssWriter method, CVssWriter method [VSS], CVssWriter method [VSS],CVssWriter interface, CVssWriter.CVssWriter, CVssWriter::CVssWriter, _win32_cvsswriter_cvsswriter, base.cvsswriter_cvsswriter, vswriter/CVssWriter::CVssWriter
 ms.topic: method
+f1_keywords: ["vswriter/CVssWriter.CVssWriter"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

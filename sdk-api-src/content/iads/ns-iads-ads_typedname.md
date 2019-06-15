@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_TYPEDNAME, ADS_TYPEDNAME, ADS_TYPEDNAME structure [ADSI], PADS_TYPEDNAME, PADS_TYPEDNAME structure pointer [ADSI], _ds_ads_typedname, adsi.ads__typedname, adsi.ads_typedname, iads/ADS_TYPEDNAME, iads/PADS_TYPEDNAME"
 ms.topic: struct
+f1_keywords: ["iads/ADS_TYPEDNAME"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

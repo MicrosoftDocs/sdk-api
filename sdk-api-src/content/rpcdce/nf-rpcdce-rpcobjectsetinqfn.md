@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcObjectSetInqFn, RpcObjectSetInqFn function [RPC], _rpc_rpcobjectsetinqfn, rpc.rpcobjectsetinqfn, rpcdce/RpcObjectSetInqFn
 ms.topic: function
+f1_keywords: ["rpcdce/RpcObjectSetInqFn"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

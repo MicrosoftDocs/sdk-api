@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], IEventPublisher interface [COM],described, _com_ieventpublisher, com.ieventpublisher, eventsys/IEventPublisher
 ms.topic: interface
+f1_keywords: ["eventsys/IEventPublisher"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

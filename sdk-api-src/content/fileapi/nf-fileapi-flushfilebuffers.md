@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushFileBuffers, FlushFileBuffers function [Files], _win32_flushfilebuffers, base.flushfilebuffers, fileapi/FlushFileBuffers, fs.flushfilebuffers, winbase/FlushFileBuffers
 ms.topic: function
+f1_keywords: ["fileapi/FlushFileBuffers"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

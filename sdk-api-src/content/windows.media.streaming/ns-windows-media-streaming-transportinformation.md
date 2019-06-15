@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TransportInformation, TransportInformation structure [Media Streaming API], mediastreaming.transportinformation, windows/TransportInformation
 ms.topic: struct
+f1_keywords: ["windows.media.streaming/TransportInformation"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

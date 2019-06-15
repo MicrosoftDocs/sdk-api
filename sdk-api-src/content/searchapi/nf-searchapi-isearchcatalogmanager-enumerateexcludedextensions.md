@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateExcludedExtensions, EnumerateExcludedExtensions method [search], EnumerateExcludedExtensions method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],EnumerateExcludedExtensions method, ISearchCatalogManager.EnumerateExcludedExtensions, ISearchCatalogManager::EnumerateExcludedExtensions, _search_ISearchCatalogManager_EnumerateExcludedExtensions, search._search_ISearchCatalogManager_EnumerateExcludedExtensions, searchapi/ISearchCatalogManager::EnumerateExcludedExtensions
 ms.topic: method
+f1_keywords: ["searchapi/ISearchCatalogManager.EnumerateExcludedExtensions"]
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

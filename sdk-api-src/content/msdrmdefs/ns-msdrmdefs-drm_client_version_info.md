@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM_CLIENT_VERSION_INFO, DRM_CLIENT_VERSION_INFO structure [Active Directory Rights Management Services SDK 1.0], dwVersion, msdrmdefs/DRM_CLIENT_VERSION_INFO, rm.drm_client_version_info
 ms.topic: struct
+f1_keywords: ["msdrmdefs/DRM_CLIENT_VERSION_INFO"]
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

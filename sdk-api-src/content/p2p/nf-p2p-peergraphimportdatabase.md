@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphImportDatabase, PeerGraphImportDatabase function [Peer Networking], p2p.peergraphimportdatabase, p2p/PeerGraphImportDatabase
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphImportDatabase"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

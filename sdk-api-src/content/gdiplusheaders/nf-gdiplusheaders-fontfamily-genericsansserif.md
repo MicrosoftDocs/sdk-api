@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GenericSansSerif method, FontFamily.GenericSansSerif, FontFamily::GenericSansSerif, GenericSansSerif, GenericSansSerif method [GDI+], GenericSansSerif method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GenericSansSerif_, gdiplus._gdiplus_CLASS_FontFamily_GenericSansSerif_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/FontFamily.GenericSansSerif"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

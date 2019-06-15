@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag, IPersistMediaPropertyBag interface [DirectShow], IPersistMediaPropertyBag interface [DirectShow],described, IPersistMediaPropertyBagInterface, dshow.ipersistmediapropertybag, strmif/IPersistMediaPropertyBag
 ms.topic: interface
+f1_keywords: ["strmif/IPersistMediaPropertyBag"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

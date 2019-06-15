@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PushCopyOfStorageFilter method, ID3D12InfoQueue.PushCopyOfStorageFilter, ID3D12InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method, PushCopyOfStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushCopyOfStorageFilter, direct3d12.id3d12infoqueue_pushcopyofstoragefilter
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.PushCopyOfStorageFilter"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

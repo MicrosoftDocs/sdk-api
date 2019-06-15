@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmTransactionAbort0, FwpmTransactionAbort0 function [Filtering], fwp.fwpmtransactionabort0_func, fwpmu/FwpmTransactionAbort0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmTransactionAbort0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

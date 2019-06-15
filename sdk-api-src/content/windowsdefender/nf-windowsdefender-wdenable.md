@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], lwef.defender_wdenable, shell.defender_wdenable, shell_defender_WDEnable, windowsdefender/WDEnable
 ms.topic: function
+f1_keywords: ["windowsdefender/WDEnable"]
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows

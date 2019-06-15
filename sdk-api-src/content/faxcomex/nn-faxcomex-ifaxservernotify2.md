@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2, IFaxServerNotify2 interface [Fax Service], IFaxServerNotify2 interface [Fax Service],described, IIFaxServerNotify2, _mfax_ifaxservernotify2, fax._mfax_ifaxservernotify2, faxcomex/IFaxServerNotify2
 ms.topic: interface
+f1_keywords: ["faxcomex/IFaxServerNotify2"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

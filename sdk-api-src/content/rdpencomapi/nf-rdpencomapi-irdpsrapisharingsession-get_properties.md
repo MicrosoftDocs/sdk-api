@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Properties property, IRDPSRAPISharingSession.Properties, IRDPSRAPISharingSession.get_Properties, IRDPSRAPISharingSession2 interface [RDP],Properties property, IRDPSRAPISharingSession2.Properties, IRDPSRAPISharingSession2::Properties, IRDPSRAPISharingSession2::get_Properties, IRDPSRAPISharingSession::get_Properties, Properties property [RDP], Properties property [RDP],IRDPSRAPISharingSession interface, Properties property [RDP],IRDPSRAPISharingSession2 interface, Properties property [RDP],RDPSession object, RDPSession object [RDP],Properties property, get_Properties, rdp.irdpsrapisharingsession_properties, rdpencomapi/IRDPSRAPISharingSession2::Properties, rdpencomapi/IRDPSRAPISharingSession2::get_Properties, rdpencomapi/IRDPSRAPISharingSession::Properties, rdpencomapi/IRDPSRAPISharingSession::get_Properties
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.Properties"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

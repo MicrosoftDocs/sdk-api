@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
 ms.topic: interface
+f1_keywords: ["winsync/ISyncChangeWithPrerequisite"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

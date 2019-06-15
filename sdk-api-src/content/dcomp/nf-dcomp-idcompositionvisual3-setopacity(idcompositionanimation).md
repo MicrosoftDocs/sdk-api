@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3 interface [DirectComposition],SetOpacity method, IDCompositionVisual3.SetOpacity, IDCompositionVisual3.SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity, IDCompositionVisual3::SetOpacity(IDCompositionAnimation), IDCompositionVisual3::SetOpacity(IDCompositionAnimation*), SetOpacity, SetOpacity method [DirectComposition], SetOpacity method [DirectComposition],IDCompositionVisual3 interface, dcomp/IDCompositionVisual3::SetOpacity, directcomp.idcompositionvisual3_setopacity_2
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionVisual3.SetOpacity"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IACList2, IACList2 interface [Windows Shell], IACList2 interface [Windows Shell],described, _win32_IACList2, shell.IACList2, shlobj_core/IACList2
 ms.topic: interface
+f1_keywords: ["shlobj_core/IACList2"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

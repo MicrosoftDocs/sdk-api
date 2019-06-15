@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DISALLOWED_USER_AGENT_SUBSTRINGS, WS_DISALLOWED_USER_AGENT_SUBSTRINGS structure [Web Services for Windows], webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS, wsw.ws_disallowed_user_agent_substrings
 ms.topic: struct
+f1_keywords: ["webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

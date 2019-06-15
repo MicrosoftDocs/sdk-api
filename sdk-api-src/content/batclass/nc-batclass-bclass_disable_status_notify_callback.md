@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK, BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback, BatteryMiniDisableStatusNotify, BatteryMiniDisableStatusNotify callback function [Battery Devices], bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml, batclass/BatteryMiniDisableStatusNotify, battery.batteryminidisablestatusnotify
 ms.topic: callback
+f1_keywords: ["batclass/BatteryMiniDisableStatusNotify"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

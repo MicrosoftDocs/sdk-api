@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtSubscribe, EvtSubscribe function [EventLog], wes.evtsubscribe, winevt/EvtSubscribe
 ms.topic: function
+f1_keywords: ["winevt/EvtSubscribe"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

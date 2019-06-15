@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawInk, DrawInk method [Direct2D], DrawInk method [Direct2D],ID2D1CommandSink2 interface, ID2D1CommandSink2 interface [Direct2D],DrawInk method, ID2D1CommandSink2.DrawInk, ID2D1CommandSink2::DrawInk, d2d1_3/ID2D1CommandSink2::DrawInk, direct2d.id2d1commandsink2_drawink
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1CommandSink2.DrawInk"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

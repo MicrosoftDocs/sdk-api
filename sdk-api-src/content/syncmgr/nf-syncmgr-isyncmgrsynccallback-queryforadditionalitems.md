@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],QueryForAdditionalItems method, ISyncMgrSyncCallback.QueryForAdditionalItems, ISyncMgrSyncCallback::QueryForAdditionalItems, QueryForAdditionalItems, QueryForAdditionalItems method [Windows Shell], QueryForAdditionalItems method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_QueryForAdditionalItems, shell.ISyncMgrSyncCallback_QueryForAdditionalItems, syncmgr/ISyncMgrSyncCallback::QueryForAdditionalItems
 ms.topic: method
+f1_keywords: ["syncmgr/ISyncMgrSyncCallback.QueryForAdditionalItems"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

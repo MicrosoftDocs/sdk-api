@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control, IOCTL_CHANGER_SET_ACCESS control code, _win32_ioctl_changer_set_access, base.ioctl_changer_set_access, winioctl/IOCTL_CHANGER_SET_ACCESS
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_CHANGER_SET_ACCESS"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

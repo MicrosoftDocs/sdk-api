@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get_Item method, IComponents.get_Item, IComponents::get_Item, IComponentsget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get_item, tuner/IComponents::get_Item
 ms.topic: method
+f1_keywords: ["tuner/IComponents.get_Item"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_VSWITCH_EVENT_CALLBACK0, FWPM_VSWITCH_EVENT_CALLBACK0 callback, FWPM_VSWITCH_EVENT_CALLBACK0 callback function [Filtering], fwp.fwpm_vswitch_event_callback0, fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0
 ms.topic: callback
+f1_keywords: ["fwpmu/FWPM_VSWITCH_EVENT_CALLBACK0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

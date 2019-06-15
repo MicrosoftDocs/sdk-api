@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], IXpsOMPrintTicketResource interface [XPS Documents and Packaging],described, xps.ixpsomprintticketresource, xpsobjectmodel/IXpsOMPrintTicketResource
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMPrintTicketResource"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

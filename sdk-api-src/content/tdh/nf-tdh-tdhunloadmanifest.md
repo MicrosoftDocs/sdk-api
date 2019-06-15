@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
 ms.topic: function
+f1_keywords: ["tdh/TdhUnloadManifest"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

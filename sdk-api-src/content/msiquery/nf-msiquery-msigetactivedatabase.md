@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
 ms.topic: function
+f1_keywords: ["msiquery/MsiGetActiveDatabase"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

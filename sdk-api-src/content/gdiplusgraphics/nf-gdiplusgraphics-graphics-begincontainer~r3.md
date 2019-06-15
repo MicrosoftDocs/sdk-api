@@ -4,6 +4,7 @@ title: Graphics::BeginContainer
 ms.date: 01/30/19
 ms.keywords: Graphics::BeginContainer
 ms.topic: language-reference
+f1_keywords: ["gdiplusgraphics/Graphics::BeginContainer"]
 targetos: Windows
 product: Windows
 req.assembly: 

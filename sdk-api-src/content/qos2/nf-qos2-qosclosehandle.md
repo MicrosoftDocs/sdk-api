@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, qos2/QOSCloseHandle
 ms.topic: function
+f1_keywords: ["qos2/QOSCloseHandle"]
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

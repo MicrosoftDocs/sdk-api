@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],CreateItemID method, CItemIDFactory.CreateItemID, CItemIDFactory::CreateItemID, CreateItemID, CreateItemID method [Windows Shell], CreateItemID method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_createitemid, shidfact/CItemIDFactory::CreateItemID
 ms.topic: method
+f1_keywords: ["shidfact/CItemIDFactory.CreateItemID"]
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

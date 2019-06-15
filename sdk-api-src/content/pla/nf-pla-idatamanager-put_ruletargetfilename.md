@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],RuleTargetFileName property, IDataManager.RuleTargetFileName, IDataManager.put_RuleTargetFileName, IDataManager::RuleTargetFileName, IDataManager::get_RuleTargetFileName, IDataManager::put_RuleTargetFileName, RuleTargetFileName property [PLA], RuleTargetFileName property [PLA],IDataManager interface, pla.idatamanager_ruletargetfilename, pla/IDataManager::RuleTargetFileName, pla/IDataManager::get_RuleTargetFileName, pla/IDataManager::put_RuleTargetFileName, put_RuleTargetFileName
 ms.topic: method
+f1_keywords: ["pla/IDataManager.RuleTargetFileName"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

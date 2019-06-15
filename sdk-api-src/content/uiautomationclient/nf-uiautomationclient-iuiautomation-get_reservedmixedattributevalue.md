@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedMixedAttributeValue property, IUIAutomation.ReservedMixedAttributeValue, IUIAutomation.get_ReservedMixedAttributeValue, IUIAutomation::ReservedMixedAttributeValue, IUIAutomation::get_ReservedMixedAttributeValue, ReservedMixedAttributeValue property [Windows Accessibility], ReservedMixedAttributeValue property [Windows Accessibility],IUIAutomation interface, get_ReservedMixedAttributeValue, uiauto.uiauto_IUIAutomation_ReservedMixedAttributeValue, uiauto_IUIAutomation_ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::get_ReservedMixedAttributeValue, winauto.uiauto_IUIAutomation_ReservedMixedAttributeValue
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomation.ReservedMixedAttributeValue"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

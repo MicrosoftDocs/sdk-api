@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPQCMINFO, QCMINFO, QCMINFO structure [Windows Shell], _QCMINFO, _win32_QCMINFO_str, shell.QCMINFO_str, shlobj_core/QCMINFO"
 ms.topic: struct
+f1_keywords: ["shlobj_core/QCMINFO"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

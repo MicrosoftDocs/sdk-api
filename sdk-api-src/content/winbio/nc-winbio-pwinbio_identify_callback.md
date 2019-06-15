@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWINBIO_IDENTIFY_CALLBACK, PWINBIO_IDENTIFY_CALLBACK callback, PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_identify_callback, winbio/PWINBIO_IDENTIFY_CALLBACK
 ms.topic: callback
+f1_keywords: ["winbio/PWINBIO_IDENTIFY_CALLBACK"]
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

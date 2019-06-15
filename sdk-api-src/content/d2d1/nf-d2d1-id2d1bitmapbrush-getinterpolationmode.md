@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterpolationMode, GetInterpolationMode method [Direct2D], GetInterpolationMode method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetInterpolationMode method, ID2D1BitmapBrush.GetInterpolationMode, ID2D1BitmapBrush::GetInterpolationMode, d2d1/ID2D1BitmapBrush::GetInterpolationMode, direct2d.ID2D1BitmapBrush_GetInterpolationMode
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1BitmapBrush.GetInterpolationMode"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

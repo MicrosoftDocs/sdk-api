@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MappingFreePropertyBag, MappingFreePropertyBag function [Internationalization for Windows Applications], elscore/MappingFreePropertyBag, intl.mappingfreepropertybag
 ms.topic: function
+f1_keywords: ["elscore/MappingFreePropertyBag"]
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

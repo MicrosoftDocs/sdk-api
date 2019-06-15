@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioRendererStats, IAMAudioRendererStats interface [DirectShow], IAMAudioRendererStats interface [DirectShow],described, IAMAudioRendererStatsInterface, dshow.iamaudiorendererstats, strmif/IAMAudioRendererStats
 ms.topic: interface
+f1_keywords: ["strmif/IAMAudioRendererStats"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

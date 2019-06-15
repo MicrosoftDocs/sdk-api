@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilVarBindListCpy, SnmpUtilVarBindListCpy function [SNMP], _snmp_snmputilvarbindlistcpy, snmp.snmputilvarbindlistcpy, snmp/SnmpUtilVarBindListCpy
 ms.topic: function
+f1_keywords: ["snmp/SnmpUtilVarBindListCpy"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

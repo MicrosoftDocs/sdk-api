@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAX_SERVER_EVENTS_TYPE_ENUM, FAX_SERVER_EVENTS_TYPE_ENUM enumeration [Fax Service], _mfax_fax_server_events_type_enum, fax._mfax_fax_server_events_type_enum, faxcomex/FAX_SERVER_EVENTS_TYPE_ENUM, faxcomex/fsetACTIVITY, faxcomex/fsetCONFIG, faxcomex/fsetDEVICE_STATUS, faxcomex/fsetFXSSVC_ENDED, faxcomex/fsetINCOMING_CALL, faxcomex/fsetIN_ARCHIVE, faxcomex/fsetIN_QUEUE, faxcomex/fsetNONE, faxcomex/fsetOUT_ARCHIVE, faxcomex/fsetOUT_QUEUE, faxcomex/fsetQUEUE_STATE, fsetACTIVITY, fsetCONFIG, fsetDEVICE_STATUS, fsetFXSSVC_ENDED, fsetINCOMING_CALL, fsetIN_ARCHIVE, fsetIN_QUEUE, fsetNONE, fsetOUT_ARCHIVE, fsetOUT_QUEUE, fsetQUEUE_STATE
 ms.topic: enum
+f1_keywords: ["faxcomex/FAX_SERVER_EVENTS_TYPE_ENUM"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

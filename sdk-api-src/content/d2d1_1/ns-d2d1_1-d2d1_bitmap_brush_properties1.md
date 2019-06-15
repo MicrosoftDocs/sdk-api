@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_BITMAP_BRUSH_PROPERTIES1, D2D1_BITMAP_BRUSH_PROPERTIES1 structure [Direct2D], d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1, direct2d.d2d1_bitmap_brush_properties1
 ms.topic: struct
+f1_keywords: ["d2d1_1/D2D1_BITMAP_BRUSH_PROPERTIES1"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

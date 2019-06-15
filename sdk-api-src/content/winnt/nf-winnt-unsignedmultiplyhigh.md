@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnsignedMulitplyHigh, UnsignedMultiplyHigh, UnsignedMultiplyHigh function [Windows API], winnt/UnsignedMultiplyHigh, winprog.unsignedmulitplyhigh
 ms.topic: function
+f1_keywords: ["winnt/UnsignedMultiplyHigh"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

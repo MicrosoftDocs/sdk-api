@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetEventData, PeerGroupGetEventData function [Peer Networking], p2p.peergroupgeteventdata, p2p/PeerGroupGetEventData
 ms.topic: function
+f1_keywords: ["p2p/PeerGroupGetEventData"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_Delete, MI_DestinationOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_Delete, wmi_v2.mi_destinationoptions_delete
 ms.topic: function
+f1_keywords: ["mi/MI_DestinationOptions_Delete"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

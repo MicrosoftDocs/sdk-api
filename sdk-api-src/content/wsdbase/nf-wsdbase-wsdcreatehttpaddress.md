@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
 ms.topic: function
+f1_keywords: ["wsdbase/WSDCreateHttpAddress"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

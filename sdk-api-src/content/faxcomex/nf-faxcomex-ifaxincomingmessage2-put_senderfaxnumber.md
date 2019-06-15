@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],SenderFaxNumber property, IFaxIncomingMessage2.SenderFaxNumber, IFaxIncomingMessage2.get_SenderFaxNumber, IFaxIncomingMessage2.put_SenderFaxNumber, IFaxIncomingMessage2::SenderFaxNumber, IFaxIncomingMessage2::get_SenderFaxNumber, IFaxIncomingMessage2::put_SenderFaxNumber, SenderFaxNumber property [Fax Service], SenderFaxNumber property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.senderfaxnumber, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderfaxnumber_cpp, fax._mfax_faxincomingmessage_senderfaxnumber, faxcomex/IFaxIncomingMessage2::SenderFaxNumber, faxcomex/IFaxIncomingMessage2::get_SenderFaxNumber, faxcomex/IFaxIncomingMessage2::put_SenderFaxNumber, put_SenderFaxNumber
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingMessage2.SenderFaxNumber"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

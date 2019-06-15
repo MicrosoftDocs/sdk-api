@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],State property, ILegacyIAccessibleProvider.State, ILegacyIAccessibleProvider.get_State, ILegacyIAccessibleProvider::State, ILegacyIAccessibleProvider::get_State, State property [Windows Accessibility], State property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_State, uiauto.uiauto_ILegacyIAccessibleProvider_State, uiauto_ILegacyIAccessibleProvider_State, uiautomationcore/ILegacyIAccessibleProvider::State, uiautomationcore/ILegacyIAccessibleProvider::get_State, winauto.uiauto_ILegacyIAccessibleProvider_State
 ms.topic: method
+f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.State"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

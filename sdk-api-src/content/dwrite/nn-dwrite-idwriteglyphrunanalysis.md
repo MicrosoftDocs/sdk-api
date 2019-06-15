@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteGlyphRunAnalysis, IDWriteGlyphRunAnalysis interface [Direct Write], IDWriteGlyphRunAnalysis interface [Direct Write],described, directwrite.IDWriteGlyphRunAnalysis, dwrite/IDWriteGlyphRunAnalysis
 ms.topic: interface
+f1_keywords: ["dwrite/IDWriteGlyphRunAnalysis"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

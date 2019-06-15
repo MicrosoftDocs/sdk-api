@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindDC, BindDC method [Direct2D], BindDC method [Direct2D],ID2D1DCRenderTarget interface, ID2D1DCRenderTarget interface [Direct2D],BindDC method, ID2D1DCRenderTarget.BindDC, ID2D1DCRenderTarget::BindDC, d2d1/ID2D1DCRenderTarget::BindDC, direct2d.ID2D1DCRenderTarget_BindDC
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1DCRenderTarget.BindDC"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

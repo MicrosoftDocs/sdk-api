@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5141e937-00ce-e7e4-cf38-b06ad4222cd4, DSSetSamplers, DSSetSamplers method [Direct3D 11], DSSetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSSetSamplers method, ID3D11DeviceContext.DSSetSamplers, ID3D11DeviceContext::DSSetSamplers, d3d11/ID3D11DeviceContext::DSSetSamplers, direct3d11.id3d11devicecontext_dssetsamplers
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.DSSetSamplers"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION, ACL_SIZE_INFORMATION structure [Security], PACL_SIZE_INFORMATION, PACL_SIZE_INFORMATION structure pointer [Security], _ACL_SIZE_INFORMATION, _win32_acl_size_information_str, security.acl_size_information, winnt/ACL_SIZE_INFORMATION, winnt/PACL_SIZE_INFORMATION"
 ms.topic: struct
+f1_keywords: ["winnt/ACL_SIZE_INFORMATION"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

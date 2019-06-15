@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVSplitter, IDVSplitter interface [DirectShow], IDVSplitter interface [DirectShow],described, IDVSplitterInterface, dshow.idvsplitter, strmif/IDVSplitter
 ms.topic: interface
+f1_keywords: ["strmif/IDVSplitter"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

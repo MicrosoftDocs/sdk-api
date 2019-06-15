@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowFeedbackSetting, SetWindowFeedbackSetting function, input_feedback.setwindowfeedbacksetting, inputfeedbackui.setwindowfeedbacksetting, winuser/SetWindowFeedbackSetting
 ms.topic: function
+f1_keywords: ["winuser/SetWindowFeedbackSetting"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

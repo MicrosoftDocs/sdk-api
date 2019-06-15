@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout3 interface [Direct Write],SetLineSpacing method, IDWriteTextLayout3.SetLineSpacing, IDWriteTextLayout3::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextLayout3 interface, directwrite.idwritetextlayout3_setlinespacing, dwrite_3/IDWriteTextLayout3::SetLineSpacing
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteTextLayout3.SetLineSpacing"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

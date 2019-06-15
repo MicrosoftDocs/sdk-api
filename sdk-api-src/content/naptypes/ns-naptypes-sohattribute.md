@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SoHAttribute, SoHAttribute structure [NAP], nap.sohattribute_struct, naptypes/SoHAttribute
 ms.topic: struct
+f1_keywords: ["naptypes/SoHAttribute"]
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows

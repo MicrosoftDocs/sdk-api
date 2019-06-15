@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_402, *PSERVER_INFO_402, LPSERVER_INFO_402, LPSERVER_INFO_402 structure pointer [Network Management], PSERVER_INFO_402, PSERVER_INFO_402 structure pointer [Network Management], SERVER_INFO_402, SERVER_INFO_402 structure [Network Management], SV_SHARESECURITY, SV_USERSECURITY, _win32_server_info_402_str, lmserver/LPSERVER_INFO_402, lmserver/PSERVER_INFO_402, lmserver/SERVER_INFO_402, netmgmt.server_info_402_str"
 ms.topic: struct
+f1_keywords: ["lmserver/SERVER_INFO_402"]
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResUtilPaxosComparer, ResUtilPaxosComparer function [Failover Cluster], mscs.resutilpaxoscomparer, resapi/ResUtilPaxosComparer
 ms.topic: function
+f1_keywords: ["resapi/ResUtilPaxosComparer"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

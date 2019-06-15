@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDropSource, IDropSource interface [COM], IDropSource interface [COM],described, _ole_idropsource, com.idropsource, oleidl/IDropSource
 ms.topic: interface
+f1_keywords: ["oleidl/IDropSource"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

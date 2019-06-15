@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,IFunctionInstance interface, IFunctionInstance interface,GetCategory method, IFunctionInstance.GetCategory, IFunctionInstance::GetCategory, functiondiscoveryapi/IFunctionInstance::GetCategory, ncd.ifunctioninstance_getcategory_method
 ms.topic: method
+f1_keywords: ["functiondiscoveryapi/IFunctionInstance.GetCategory"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

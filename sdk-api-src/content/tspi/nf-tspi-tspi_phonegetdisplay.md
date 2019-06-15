@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetDisplay, TSPI_phoneGetDisplay function [TAPI 2.2], _tspi_tspi_phonegetdisplay, tspi.tspi_phonegetdisplay, tspi/TSPI_phoneGetDisplay
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneGetDisplay"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

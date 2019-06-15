@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCOMPRESSFRAMES, ICCOMPRESSFRAMES structure [Windows Multimedia], _win32_ICCOMPRESSFRAMES_str, multimedia.iccompressframes, vfw/ICCOMPRESSFRAMES
 ms.topic: struct
+f1_keywords: ["vfw/ICCOMPRESSFRAMES"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

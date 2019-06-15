@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConnectNamedPipe, ConnectNamedPipe function, _win32_connectnamedpipe, base.connectnamedpipe, namedpipeapi/ConnectNamedPipe
 ms.topic: function
+f1_keywords: ["namedpipeapi/ConnectNamedPipe"]
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

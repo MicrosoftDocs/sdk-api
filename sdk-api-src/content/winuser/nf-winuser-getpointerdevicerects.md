@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceRects, GetPointerDeviceRects function, input_pointerdevice.getpointerdevicerects, unifiedinputstack.getpointerdevicerects, winuser/GetPointerDeviceRects
 ms.topic: function
+f1_keywords: ["winuser/GetPointerDeviceRects"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

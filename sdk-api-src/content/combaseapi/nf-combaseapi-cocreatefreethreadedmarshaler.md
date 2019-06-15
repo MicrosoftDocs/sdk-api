@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler function [COM], _com_CoCreateFreeThreadedMarshaler, com.cocreatefreethreadedmarshaler, combaseapi/CoCreateFreeThreadedMarshaler
 ms.topic: function
+f1_keywords: ["combaseapi/CoCreateFreeThreadedMarshaler"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

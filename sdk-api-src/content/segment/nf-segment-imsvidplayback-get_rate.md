@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Rate method, IMSVidPlayback.get_Rate, IMSVidPlayback::get_Rate, IMSVidPlaybackget_Rate, get_Rate, get_Rate method [Microsoft TV Technologies], get_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_rate, segment/IMSVidPlayback::get_Rate
 ms.topic: method
+f1_keywords: ["segment/IMSVidPlayback.get_Rate"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

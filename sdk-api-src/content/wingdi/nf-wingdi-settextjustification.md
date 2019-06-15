@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTextJustification, SetTextJustification function [Windows GDI], _win32_SetTextJustification, gdi.settextjustification, wingdi/SetTextJustification
 ms.topic: function
+f1_keywords: ["wingdi/SetTextJustification"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

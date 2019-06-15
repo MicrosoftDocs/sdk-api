@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],_NewEnum property, IActionCollection._NewEnum, IActionCollection.get__NewEnum, IActionCollection::_NewEnum, IActionCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IActionCollection interface, get__NewEnum, taskschd.iactioncollection__newenum, taskschd/IActionCollection::_NewEnum, taskschd/IActionCollection::get__NewEnum
 ms.topic: method
+f1_keywords: ["taskschd/IActionCollection._NewEnum"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

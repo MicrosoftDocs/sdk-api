@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVariableByIndex, GetVariableByIndex method [Direct3D 10], GetVariableByIndex method [Direct3D 10],ID3D10ShaderReflectionConstantBuffer interface, ID3D10ShaderReflectionConstantBuffer interface [Direct3D 10],GetVariableByIndex method, ID3D10ShaderReflectionConstantBuffer.GetVariableByIndex, ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex, d3d10shader/ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex, dc3115ea-2cdd-68c8-a77f-883ae86bf1a4, direct3d10.id3d10shaderreflectionconstantbuffer_getvariablebyindex
 ms.topic: method
+f1_keywords: ["d3d10shader/ID3D10ShaderReflectionConstantBuffer.GetVariableByIndex"]
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

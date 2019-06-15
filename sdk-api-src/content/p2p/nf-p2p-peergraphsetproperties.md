@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetProperties, PeerGraphSetProperties function [Peer Networking], p2p.peergraphsetproperties, p2p/PeerGraphSetProperties
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphSetProperties"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

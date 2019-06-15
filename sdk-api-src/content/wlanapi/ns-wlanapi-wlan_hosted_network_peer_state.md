@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE, PWLAN_HOSTED_NETWORK_PEER_STATE structure pointer [NativeWIFI], WLAN_HOSTED_NETWORK_PEER_STATE, WLAN_HOSTED_NETWORK_PEER_STATE structure [NativeWIFI], nwifi.wlan_hosted_network_peer_state, wlanapi/PWLAN_HOSTED_NETWORK_PEER_STATE, wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE"
 ms.topic: struct
+f1_keywords: ["wlanapi/WLAN_HOSTED_NETWORK_PEER_STATE"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

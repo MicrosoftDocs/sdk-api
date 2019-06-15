@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICompositionGraphicsDeviceInterop interface,SetRenderingDevice method, ICompositionGraphicsDeviceInterop.SetRenderingDevice, ICompositionGraphicsDeviceInterop.composition, ICompositionGraphicsDeviceInterop::SetRenderingDevice, ICompositionGraphicsDeviceInterop::composition, SetRenderingDevice, SetRenderingDevice method, SetRenderingDevice method,ICompositionGraphicsDeviceInterop interface, w_ui_comp.icompositiongraphicsdeviceinterop_setrenderingdevice, windows/ICompositionGraphicsDeviceInterop::SetRenderingDevice
 ms.topic: method
+f1_keywords: ["windows.ui.composition.interop/ICompositionGraphicsDeviceInterop.SetRenderingDevice"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

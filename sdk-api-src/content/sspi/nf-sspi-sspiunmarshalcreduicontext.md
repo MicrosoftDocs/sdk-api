@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiUnmarshalCredUIContext, SspiUnmarshalCredUIContext function [Security], security.sspiunmarshalcreduicontext, sspi/SspiUnmarshalCredUIContext
 ms.topic: function
+f1_keywords: ["sspi/SspiUnmarshalCredUIContext"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor, IUrlAccessor interface [search], IUrlAccessor interface [search],described, _search_IUrlAccessor, search._search_IUrlAccessor, searchapi/IUrlAccessor
 ms.topic: interface
+f1_keywords: ["searchapi/IUrlAccessor"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

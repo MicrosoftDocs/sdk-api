@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],ReleaseOutputDataPointer method, IAudioOutputEndpointRT.ReleaseOutputDataPointer, IAudioOutputEndpointRT::ReleaseOutputDataPointer, ReleaseOutputDataPointer, ReleaseOutputDataPointer method [Remote Desktop Services], ReleaseOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::ReleaseOutputDataPointer, termserv.iaudiooutputendpointrt_releaseoutputdatapointer
 ms.topic: method
+f1_keywords: ["audioengineendpoint/IAudioOutputEndpointRT.ReleaseOutputDataPointer"]
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

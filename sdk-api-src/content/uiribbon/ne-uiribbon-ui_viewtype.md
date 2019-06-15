@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_VIEWTYPE, UI_VIEWTYPE enumeration [Windows Ribbon], UI_VIEWTYPE_RIBBON, scenicintent_UI_VIEWTYPE, uiribbon/UI_VIEWTYPE, uiribbon/UI_VIEWTYPE_RIBBON, windowsribbon.windowsribbon_ui_viewtype
 ms.topic: enum
+f1_keywords: ["uiribbon/UI_VIEWTYPE"]
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

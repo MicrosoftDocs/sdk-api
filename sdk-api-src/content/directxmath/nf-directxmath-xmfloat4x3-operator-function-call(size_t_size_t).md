@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3 structure [DirectX Math Support APIs],operator () method, XMFLOAT4X3.operator ()(size_t,size_t), XMFLOAT4X3.operator (size_t,size_t), XMFLOAT4X3.operator(), XMFLOAT4X3.operator-function-call(size_t,size_t), XMFLOAT4X3::operator(), XMFLOAT4X3::operator-function-call(size_t,size_t), dxmath.xmfloat4x3_operator_parens_1, operator () method [DirectX Math Support APIs], operator () method [DirectX Math Support APIs],XMFLOAT4X3 structure, operator()
 ms.topic: method
+f1_keywords: ["directxmath/XMFLOAT4X3.operator ()"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

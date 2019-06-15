@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
 ms.topic: interface
+f1_keywords: ["comsvcs/IObjectContextActivity"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaferCloseLevel, SaferCloseLevel function [Security], _mnp_safercloselevel, security.safercloselevel, winsafer/SaferCloseLevel
 ms.topic: function
+f1_keywords: ["winsafer/SaferCloseLevel"]
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

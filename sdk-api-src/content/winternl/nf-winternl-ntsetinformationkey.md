@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
 ms.topic: function
+f1_keywords: ["winternl/NtSetInformationKey"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UIntToByte, UIntToUInt8, UIntToUInt8 function [Windows Shell], intsafe/UIntToUInt8, shell.UIntToUInt8
 ms.topic: function
+f1_keywords: ["intsafe/UIntToUInt8"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

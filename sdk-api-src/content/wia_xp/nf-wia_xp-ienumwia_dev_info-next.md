@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Next method, IEnumWIA_DEV_INFO.Next, IEnumWIA_DEV_INFO::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Next, wia._wia_IEnumWIA_DEV_INFO_Next, wia_xp/IEnumWIA_DEV_INFO::Next
 ms.topic: method
+f1_keywords: ["wia_xp/IEnumWIA_DEV_INFO.Next"]
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], IWbemRefresher interface [Windows Management Instrumentation],described, WbemRefresher, _hmm_iwbemrefresher, wbemcli/IWbemRefresher, wmi.iwbemrefresher
 ms.topic: interface
+f1_keywords: ["wbemcli/IWbemRefresher"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

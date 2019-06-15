@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_DEHYDRATE_FLAGS, CF_DEHYDRATE_FLAGS enumeration, CF_DEHYDRATE_FLAG_BACKGROUND, CF_DEHYDRATE_FLAG_NONE, cfapi/CF_DEHYDRATE_FLAGS, cfapi/CF_DEHYDRATE_FLAG_BACKGROUND, cfapi/CF_DEHYDRATE_FLAG_NONE, cloudApi.cf_dehydrate_flags
 ms.topic: enum
+f1_keywords: ["cfapi/CF_DEHYDRATE_FLAGS"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

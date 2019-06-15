@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketEndClientHandshake, WebSocketEndClientHandshake function [Websocket Protocol Component API], websock.websocketendclienthandshake, websocket/WebSocketEndClientHandshake
 ms.topic: function
+f1_keywords: ["websocket/WebSocketEndClientHandshake"]
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

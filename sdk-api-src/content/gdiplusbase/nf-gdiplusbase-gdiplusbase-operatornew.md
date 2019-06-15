@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase class [GDI+],operator new method, GdiplusBase.operator new, GdiplusBase::operator new, _gdiplus_CLASS_GdiplusBase_operator_new_in_size_, gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_in_size_, operator new, operator new method [GDI+], operator new method [GDI+],GdiplusBase class
 ms.topic: method
+f1_keywords: ["gdiplusbase/GdiplusBase.operator new"]
 req.header: gdiplusbase.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

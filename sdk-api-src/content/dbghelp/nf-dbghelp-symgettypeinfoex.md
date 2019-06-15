@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetTypeInfoEx, SymGetTypeInfoEx function, base.symgettypeinfoex, dbghelp/SymGetTypeInfoEx
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetTypeInfoEx"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

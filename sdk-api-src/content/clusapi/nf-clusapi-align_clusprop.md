@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALIGN_CLUSPROP, ALIGN_CLUSPROP macro [Failover Cluster], _wolf_align_clusprop, clusapi/ALIGN_CLUSPROP, mscs.align_clusprop
 ms.topic: macro
+f1_keywords: ["clusapi/ALIGN_CLUSPROP"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

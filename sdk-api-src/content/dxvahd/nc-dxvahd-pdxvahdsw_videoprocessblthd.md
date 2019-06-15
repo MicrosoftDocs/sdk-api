@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_VideoProcessBltHD, PDXVAHDSW_VideoProcessBltHD callback, PDXVAHDSW_VideoProcessBltHD callback function [Media Foundation], dxvahd/PDXVAHDSW_VideoProcessBltHD, mf.pdxvahdsw_videoprocessblthd
 ms.topic: callback
+f1_keywords: ["dxvahd/PDXVAHDSW_VideoProcessBltHD"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

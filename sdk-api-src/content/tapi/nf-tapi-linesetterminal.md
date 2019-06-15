@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
 ms.topic: function
+f1_keywords: ["tapi/lineSetTerminal"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

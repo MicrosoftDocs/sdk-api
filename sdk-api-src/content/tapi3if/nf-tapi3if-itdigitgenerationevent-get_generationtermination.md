@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent interface [TAPI 2.2],get_GenerationTermination method, ITDigitGenerationEvent.get_GenerationTermination, ITDigitGenerationEvent::get_GenerationTermination, _tapi3_itdigitgenerationevent_get_generationtermination, get_GenerationTermination, get_GenerationTermination method [TAPI 2.2], get_GenerationTermination method [TAPI 2.2],ITDigitGenerationEvent interface, tapi3.itdigitgenerationevent_get_generationtermination, tapi3if/ITDigitGenerationEvent::get_GenerationTermination
 ms.topic: method
+f1_keywords: ["tapi3if/ITDigitGenerationEvent.get_GenerationTermination"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

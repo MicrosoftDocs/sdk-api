@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
 ms.topic: function
+f1_keywords: ["memoryapi/OpenFileMappingFromApp"]
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

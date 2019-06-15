@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAuthDataForUser, GetAuthDataForUser callback function [Security], LSA_GET_AUTH_DATA_FOR_USER, LSA_GET_AUTH_DATA_FOR_USER callback, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
 ms.topic: callback
+f1_keywords: ["ntsecpkg/GetAuthDataForUser"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

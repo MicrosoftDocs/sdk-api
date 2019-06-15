@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMPATH_QUOTEDTEXT, WBEMPATH_TEXT, tag_WBEM_GET_KEY_FLAGS, tag_WBEM_GET_KEY_FLAGS enumeration [Windows Management Instrumentation], wmi.tag_wbem_get_key_flags, wmiutils/WBEMPATH_QUOTEDTEXT, wmiutils/WBEMPATH_TEXT, wmiutils/tag_WBEM_GET_KEY_FLAGS
 ms.topic: enum
+f1_keywords: ["wmiutils/tag_WBEM_GET_KEY_FLAGS"]
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

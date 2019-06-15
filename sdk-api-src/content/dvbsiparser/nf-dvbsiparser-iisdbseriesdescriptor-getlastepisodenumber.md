@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLastEpisodeNumber, GetLastEpisodeNumber method [Microsoft TV Technologies], GetLastEpisodeNumber method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetLastEpisodeNumber method, IIsdbSeriesDescriptor.GetLastEpisodeNumber, IIsdbSeriesDescriptor::GetLastEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetLastEpisodeNumber, mstv.iisdbseriesdescriptor_getlastepisodenumber
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbSeriesDescriptor.GetLastEpisodeNumber"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

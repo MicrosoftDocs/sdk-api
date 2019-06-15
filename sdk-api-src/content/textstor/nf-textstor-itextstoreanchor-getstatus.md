@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetStatus method, ITextStoreAnchor.GetStatus, ITextStoreAnchor::GetStatus, textstor/ITextStoreAnchor::GetStatus, tsf.itextstoreanchor_getstatus
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreAnchor.GetStatus"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

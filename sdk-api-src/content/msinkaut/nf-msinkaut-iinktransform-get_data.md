@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkTransform interface, IInkTransform interface [Tablet PC],Data property, IInkTransform.Data, IInkTransform.get_Data, IInkTransform::Data, IInkTransform::get_Data, IInkTransform::put_Data, InkTransform.get_Data, InkTransform.put_Data, f22c0ef8-8604-4719-bc93-a265a19defd0, get_Data, msinkaut/IInkTransform::Data, msinkaut/IInkTransform::get_Data, msinkaut/IInkTransform::put_Data, put_Data, tablet.inktransform_data
 ms.topic: method
+f1_keywords: ["msinkaut/IInkTransform.Data"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

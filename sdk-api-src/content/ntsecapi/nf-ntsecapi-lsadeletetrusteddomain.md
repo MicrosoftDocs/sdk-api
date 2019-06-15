@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaDeleteTrustedDomain, LsaDeleteTrustedDomain function [Security], _lsa_lsadeletetrusteddomain, ntsecapi/LsaDeleteTrustedDomain, security.lsadeletetrusteddomain
 ms.topic: function
+f1_keywords: ["ntsecapi/LsaDeleteTrustedDomain"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLASSIC_EVENT_ID, CLASSIC_EVENT_ID, CLASSIC_EVENT_ID structure [ETW], PCLASSIC_EVENT_ID, PCLASSIC_EVENT_ID structure pointer [ETW], _CLASSIC_EVENT_ID, etw.classic_event_id, evntrace/CLASSIC_EVENT_ID, evntrace/PCLASSIC_EVENT_ID"
 ms.topic: struct
+f1_keywords: ["evntrace/CLASSIC_EVENT_ID"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetActiveStory method, ITextDocument2.SetActiveStory, ITextDocument2::SetActiveStory, SetActiveStory, SetActiveStory method [Windows Controls], SetActiveStory method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setactivestory, tom/ITextDocument2::SetActiveStory
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.SetActiveStory"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

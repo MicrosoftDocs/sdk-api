@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CacheRichCreateFile, CacheRichCreateFile function [Windows API], filehc/CacheRichCreateFile, winprog._cacherichcreatefile
 ms.topic: function
+f1_keywords: ["filehc/CacheRichCreateFile"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

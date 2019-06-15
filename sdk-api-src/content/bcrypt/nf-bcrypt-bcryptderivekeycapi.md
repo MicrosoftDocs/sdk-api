@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptDeriveKeyCapi, BCryptDeriveKeyCapi function [Security], bcrypt/BCryptDeriveKeyCapi, security.bcryptderivekeycapi
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptDeriveKeyCapi"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

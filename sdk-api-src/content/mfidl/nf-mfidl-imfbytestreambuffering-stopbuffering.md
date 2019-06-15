@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamBuffering interface [Media Foundation],StopBuffering method, IMFByteStreamBuffering.StopBuffering, IMFByteStreamBuffering::StopBuffering, StopBuffering, StopBuffering method [Media Foundation], StopBuffering method [Media Foundation],IMFByteStreamBuffering interface, da342ac4-bb61-40d6-9b67-0480ac2a780f, mf.imfbytestreambuffering_stopbuffering, mfidl/IMFByteStreamBuffering::StopBuffering
 ms.topic: method
+f1_keywords: ["mfidl/IMFByteStreamBuffering.StopBuffering"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], IWMReaderTypeNegotiation interface [windows Media Format],described, IWMReaderTypeNegotiationInterface, wmformat.iwmreadertypenegotiation, wmsdkidl/IWMReaderTypeNegotiation
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMReaderTypeNegotiation"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

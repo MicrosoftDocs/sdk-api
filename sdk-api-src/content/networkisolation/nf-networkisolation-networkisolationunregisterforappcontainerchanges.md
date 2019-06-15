@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationUnregisterForAppContainerChanges, NetworkIsolationUnregisterForAppContainerChanges function [ICS/ICF], ics.networkisolationunregisterforappcontainerchanges, networkisolation/NetworkIsolationUnregisterForAppContainerChanges
 ms.topic: function
+f1_keywords: ["networkisolation/NetworkIsolationUnregisterForAppContainerChanges"]
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

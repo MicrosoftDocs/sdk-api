@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcCancelThreadEx, RpcCancelThreadEx function [RPC], _rpc_rpccancelthreadex, rpc.rpccancelthreadex, rpcdce/RpcCancelThreadEx
 ms.topic: function
+f1_keywords: ["rpcdce/RpcCancelThreadEx"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

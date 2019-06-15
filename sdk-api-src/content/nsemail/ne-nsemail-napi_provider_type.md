@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NAPI_PROVIDER_TYPE, NAPI_PROVIDER_TYPE enumeration [Winsock], ProviderType_Application, ProviderType_Service, nsemail/NAPI_PROVIDER_TYPE, nsemail/ProviderType_Application, nsemail/ProviderType_Service, winsock.napi_provider_type
 ms.topic: enum
+f1_keywords: ["nsemail/NAPI_PROVIDER_TYPE"]
 req.header: nsemail.h
 req.include-header: 
 req.target-type: Windows

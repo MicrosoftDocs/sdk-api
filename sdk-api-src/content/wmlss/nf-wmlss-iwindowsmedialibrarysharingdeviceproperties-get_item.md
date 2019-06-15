@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Item method, IWindowsMediaLibrarySharingDeviceProperties.get_Item, IWindowsMediaLibrarySharingDeviceProperties::get_Item, get_Item, get_Item method [Windows Media Library Sharing Services], get_Item method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Item, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Item
 ms.topic: method
+f1_keywords: ["wmlss/IWindowsMediaLibrarySharingDeviceProperties.get_Item"]
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows

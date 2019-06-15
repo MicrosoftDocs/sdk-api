@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollBarsConstants, ScrollBarsConstants enumeration [Tablet PC], d689f8ff-4ad9-4306-af2d-aaed60f33c53, inked/ScrollBarsConstants, inked/rtfBoth, inked/rtfHorizontal, inked/rtfNone, inked/rtfVertical, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.scrollbarsconstants
 ms.topic: enum
+f1_keywords: ["inked/ScrollBarsConstants"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

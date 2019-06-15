@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 ms.topic: struct
+f1_keywords: ["winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

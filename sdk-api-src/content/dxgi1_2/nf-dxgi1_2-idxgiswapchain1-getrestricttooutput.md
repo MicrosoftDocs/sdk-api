@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRestrictToOutput, GetRestrictToOutput method [DXGI], GetRestrictToOutput method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetRestrictToOutput method, IDXGISwapChain1.GetRestrictToOutput, IDXGISwapChain1::GetRestrictToOutput, direct3ddxgi.idxgiswapchain1_getrestricttooutput, dxgi1_2/IDXGISwapChain1::GetRestrictToOutput
 ms.topic: method
+f1_keywords: ["dxgi1_2/IDXGISwapChain1.GetRestrictToOutput"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

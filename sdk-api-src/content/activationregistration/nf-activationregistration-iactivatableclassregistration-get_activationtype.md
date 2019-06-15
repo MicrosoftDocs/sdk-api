@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_ActivationType method, IActivatableClassRegistration.get_ActivationType, IActivatableClassRegistration::get_ActivationType, activationregistration/IActivatableClassRegistration::get_ActivationType, get_ActivationType, get_ActivationType method [Windows Runtime], get_ActivationType method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_activationtype
 ms.topic: method
+f1_keywords: ["activationregistration/IActivatableClassRegistration.get_ActivationType"]
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

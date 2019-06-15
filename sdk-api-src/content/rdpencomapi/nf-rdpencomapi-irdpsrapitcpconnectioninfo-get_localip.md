@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalIP property, IRDPSRAPITcpConnectionInfo.LocalIP, IRDPSRAPITcpConnectionInfo.get_LocalIP, IRDPSRAPITcpConnectionInfo::LocalIP, IRDPSRAPITcpConnectionInfo::get_LocalIP, LocalIP property [RDP], LocalIP property [RDP],IRDPSRAPITcpConnectionInfo interface, LocalIP property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],LocalIP property, get_LocalIP, rdp.irdpsrapitcpconnectioninfo_localip, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalIP, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalIP
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPITcpConnectionInfo.LocalIP"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

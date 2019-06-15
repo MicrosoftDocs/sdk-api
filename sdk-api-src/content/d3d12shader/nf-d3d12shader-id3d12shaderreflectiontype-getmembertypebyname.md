@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeByName, GetMemberTypeByName method, GetMemberTypeByName method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByName method, ID3D12ShaderReflectionType.GetMemberTypeByName, ID3D12ShaderReflectionType::GetMemberTypeByName, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName, direct3d12.id3d12shaderreflectiontype_getmembertypebyname
 ms.topic: method
+f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByName"]
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENUM_DESCRIPTION, WS_ENUM_DESCRIPTION structure [Web Services for Windows], webservices/WS_ENUM_DESCRIPTION, wsw.ws_enum_description
 ms.topic: struct
+f1_keywords: ["webservices/WS_ENUM_DESCRIPTION"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

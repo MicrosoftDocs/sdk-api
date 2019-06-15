@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRequiredExtensions, IRequiredExtensions interface [MMC], IRequiredExtensions interface [MMC],described, _slate_irequiredextensions, mmc.irequiredextensions, mmc/IRequiredExtensions
 ms.topic: interface
+f1_keywords: ["mmc/IRequiredExtensions"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

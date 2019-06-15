@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignments interface [Security],_NewEnum property, IAzRoleAssignments._NewEnum, IAzRoleAssignments.get__NewEnum, IAzRoleAssignments::_NewEnum, IAzRoleAssignments::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IAzRoleAssignments interface, azroles/IAzRoleAssignments::_NewEnum, azroles/IAzRoleAssignments::get__NewEnum, get__NewEnum, security.iazroleassignments__newenum
 ms.topic: method
+f1_keywords: ["azroles/IAzRoleAssignments._NewEnum"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

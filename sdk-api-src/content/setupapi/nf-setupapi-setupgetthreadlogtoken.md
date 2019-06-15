@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetThreadLogToken, SetupGetThreadLogToken function [Device and Driver Installation], devinst.setupgetthreadlogtoken, setupapi/SetupGetThreadLogToken, setupapilog-ref_2d342787-8c0e-4198-85cc-e64d51e98abb.xml
 ms.topic: function
+f1_keywords: ["setupapi/SetupGetThreadLogToken"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

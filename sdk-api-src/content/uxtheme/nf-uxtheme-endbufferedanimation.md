@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndBufferedAnimation, EndBufferedAnimation function [Windows Controls], _shell_EndBufferedAnimation, _shell_EndBufferedAnimation_cpp, controls.EndBufferedAnimation, controls._shell_EndBufferedAnimation, uxtheme/EndBufferedAnimation
 ms.topic: function
+f1_keywords: ["uxtheme/EndBufferedAnimation"]
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

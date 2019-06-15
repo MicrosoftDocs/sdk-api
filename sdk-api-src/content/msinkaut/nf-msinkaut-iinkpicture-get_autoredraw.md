@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],AutoRedraw property, IInkPicture.AutoRedraw, IInkPicture.get_AutoRedraw, IInkPicture::AutoRedraw, IInkPicture::get_AutoRedraw, IInkPicture::put_AutoRedraw, InkPicture.get_AutoRedraw, InkPicture.put_AutoRedraw, get_AutoRedraw, msinkaut/IInkPicture::AutoRedraw, msinkaut/IInkPicture::get_AutoRedraw, msinkaut/IInkPicture::put_AutoRedraw, put_AutoRedraw, tablet.inkpicture_autoredraw
 ms.topic: method
+f1_keywords: ["msinkaut/IInkPicture.AutoRedraw"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorPaletteCount, GetColorPaletteCount method [Direct Write], GetColorPaletteCount method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetColorPaletteCount method, IDWriteFontFace2.GetColorPaletteCount, IDWriteFontFace2::GetColorPaletteCount, directwrite.idwritefontface2_getcolorpalettecount, dwrite_2/IDWriteFontFace2::GetColorPaletteCount
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteFontFace2.GetColorPaletteCount"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

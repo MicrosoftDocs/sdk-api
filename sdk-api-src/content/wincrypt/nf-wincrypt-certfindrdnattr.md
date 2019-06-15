@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_certfindrdnattr, security.certfindrdnattr, wincrypt/CertFindRDNAttr
 ms.topic: function
+f1_keywords: ["wincrypt/CertFindRDNAttr"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

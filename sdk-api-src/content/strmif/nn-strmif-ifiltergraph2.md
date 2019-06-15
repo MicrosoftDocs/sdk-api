@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], IFilterGraph2 interface [DirectShow],described, IFilterGraph2Interface, dshow.ifiltergraph2, strmif/IFilterGraph2
 ms.topic: interface
+f1_keywords: ["strmif/IFilterGraph2"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

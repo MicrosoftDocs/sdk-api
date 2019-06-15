@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_start_tls_s, ldap_start_tls_s, ldap_start_tls_s function [LDAP], ldap_start_tls_sA, ldap_start_tls_sW, winldap/ldap_start_tls_s, winldap/ldap_start_tls_sA, winldap/ldap_start_tls_sW
 ms.topic: function
+f1_keywords: ["winldap/ldap_start_tls_s"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

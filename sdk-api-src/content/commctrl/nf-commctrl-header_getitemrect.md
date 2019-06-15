@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_GetItemRect, Header_GetItemRect macro [Windows Controls], _win32_Header_GetItemRect, _win32_Header_GetItemRect_cpp, commctrl/Header_GetItemRect, controls.Header_GetItemRect, controls._win32_Header_GetItemRect
 ms.topic: macro
+f1_keywords: ["commctrl/Header_GetItemRect"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
 ms.topic: interface
+f1_keywords: ["windows.media.streaming/IActiveBasicDevice"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

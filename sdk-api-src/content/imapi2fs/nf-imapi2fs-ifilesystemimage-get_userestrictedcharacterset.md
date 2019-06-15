@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_UseRestrictedCharacterSet method, IFileSystemImage.get_UseRestrictedCharacterSet, IFileSystemImage::get_UseRestrictedCharacterSet, get_UseRestrictedCharacterSet, get_UseRestrictedCharacterSet method [IMAPI], get_UseRestrictedCharacterSet method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_userestrictedcharacterset, imapi2fs/IFileSystemImage::get_UseRestrictedCharacterSet
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.get_UseRestrictedCharacterSet"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

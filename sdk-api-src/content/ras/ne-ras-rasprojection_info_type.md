@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROJECTION_INFO_TYPE_IKEv2, PROJECTION_INFO_TYPE_PPP, RASPROJECTION_INFO_TYPE, RASPROJECTION_INFO_TYPE enumeration [RAS], ras/PROJECTION_INFO_TYPE_IKEv2, ras/PROJECTION_INFO_TYPE_PPP, ras/RASPROJECTION_INFO_TYPE, rras.rasprojection_info_type
 ms.topic: enum
+f1_keywords: ["ras/RASPROJECTION_INFO_TYPE"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

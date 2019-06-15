@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnlockFileEx, UnlockFileEx function [Files], _win32_unlockfileex, base.unlockfileex, fileapi/UnlockFileEx, fs.unlockfileex, winbase/UnlockFileEx
 ms.topic: function
+f1_keywords: ["fileapi/UnlockFileEx"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

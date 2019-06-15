@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl, IAMResourceControl interface [DirectShow], IAMResourceControl interface [DirectShow],described, IAMResourceControlInterface, dshow.iamresourcecontrol, strmif/IAMResourceControl
 ms.topic: interface
+f1_keywords: ["strmif/IAMResourceControl"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

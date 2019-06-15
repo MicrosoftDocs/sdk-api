@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportTftpClient"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaNodeRelease, UiaNodeRelease function [Windows Accessibility], uiauto.uiauto_UiaNodeReleaseMemManMeth, uiauto_UiaNodeReleaseMemManMeth, uiautomationcoreapi/UiaNodeRelease, winauto.uiauto_UiaNodeReleaseMemManMeth
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaNodeRelease"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

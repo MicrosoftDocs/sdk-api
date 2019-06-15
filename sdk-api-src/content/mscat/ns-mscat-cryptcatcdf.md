@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATCDF, CRYPTCATCDF structure [Security], mscat/CRYPTCATCDF, security.cryptcatcdf
 ms.topic: struct
+f1_keywords: ["mscat/CRYPTCATCDF"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

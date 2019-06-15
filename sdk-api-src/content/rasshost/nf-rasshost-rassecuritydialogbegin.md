@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
 ms.topic: function
+f1_keywords: ["rasshost/RasSecurityDialogBegin"]
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

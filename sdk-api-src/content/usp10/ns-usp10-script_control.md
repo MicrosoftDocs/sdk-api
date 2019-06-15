@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_CONTROL, SCRIPT_CONTROL structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_CONTROL_str, intl.script_control, usp10/SCRIPT_CONTROL
 ms.topic: struct
+f1_keywords: ["usp10/SCRIPT_CONTROL"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

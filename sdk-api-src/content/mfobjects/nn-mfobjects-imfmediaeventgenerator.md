@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator
 ms.topic: interface
+f1_keywords: ["mfobjects/IMFMediaEventGenerator"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

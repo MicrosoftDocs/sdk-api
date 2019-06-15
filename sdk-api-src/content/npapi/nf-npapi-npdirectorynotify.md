@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPDirectoryNotify, NPDirectoryNotify function [Security], WNDN_MKDIR, WNDN_MVDIR, WNDN_RMDIR, _mnp_npdirectorynotify, npapi/NPDirectoryNotify, security.npdirectorynotify
 ms.topic: function
+f1_keywords: ["npapi/NPDirectoryNotify"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

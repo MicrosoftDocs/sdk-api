@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMsaPolicy, GetMsaPolicy method, GetMsaPolicy method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaPolicy method, IXblIdpAuthTokenResult.GetMsaPolicy, IXblIdpAuthTokenResult::GetMsaPolicy, xblidp.ixblidpauthtokenresult_getmsapolicy, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaPolicy
 ms.topic: method
+f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetMsaPolicy"]
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

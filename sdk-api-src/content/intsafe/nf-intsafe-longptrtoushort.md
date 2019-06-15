@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LongPtrToUShort, LongPtrToUShort function [Windows Shell], intsafe/LongPtrToUShort, shell.LongPtrToUShort
 ms.topic: function
+f1_keywords: ["intsafe/LongPtrToUShort"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

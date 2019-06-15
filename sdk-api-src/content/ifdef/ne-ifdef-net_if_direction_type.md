@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNET_IF_DIRECTION_TYPE, NET_IF_DIRECTION_MAXIMUM, NET_IF_DIRECTION_RECEIVEONLY, NET_IF_DIRECTION_SENDONLY, NET_IF_DIRECTION_SENDRECEIVE, NET_IF_DIRECTION_TYPE, NET_IF_DIRECTION_TYPE enumeration [Network Drivers Starting with Windows Vista], PNET_IF_DIRECTION_TYPE, PNET_IF_DIRECTION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ifdef/NET_IF_DIRECTION_MAXIMUM, ifdef/NET_IF_DIRECTION_RECEIVEONLY, ifdef/NET_IF_DIRECTION_SENDONLY, ifdef/NET_IF_DIRECTION_SENDRECEIVE, ifdef/NET_IF_DIRECTION_TYPE, ifdef/PNET_IF_DIRECTION_TYPE, net_if_enums_ref_a000a0bc-2ed9-4d45-af32-4cfb71731367.xml, netvista.net_if_direction_type"
 ms.topic: enum
+f1_keywords: ["ifdef/NET_IF_DIRECTION_TYPE"]
 req.header: ifdef.h
 req.include-header: Netioapi.h, Ntddndis.h
 req.target-type: Windows

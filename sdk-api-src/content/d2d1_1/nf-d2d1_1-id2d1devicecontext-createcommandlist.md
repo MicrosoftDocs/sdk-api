@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCommandList, CreateCommandList method [Direct2D], CreateCommandList method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateCommandList method, ID2D1DeviceContext.CreateCommandList, ID2D1DeviceContext::CreateCommandList, d2d1_1/ID2D1DeviceContext::CreateCommandList, direct2d.id2d1devicecontext_createcommandlist
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1DeviceContext.CreateCommandList"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

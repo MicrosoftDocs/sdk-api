@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxNetPacketSize, GetMaxNetPacketSize method [windows Media Format], GetMaxNetPacketSize method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetMaxNetPacketSize method, IWMReaderNetworkConfig2.GetMaxNetPacketSize, IWMReaderNetworkConfig2::GetMaxNetPacketSize, IWMReaderNetworkConfig2GetMaxNetPacketSize, wmformat.iwmreadernetworkconfig2_getmaxnetpacketsize, wmsdkidl/IWMReaderNetworkConfig2::GetMaxNetPacketSize
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMReaderNetworkConfig2.GetMaxNetPacketSize"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

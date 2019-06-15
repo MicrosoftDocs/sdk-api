@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_PROCESS_INFO, CF_PROCESS_INFO structure, cfapi/CF_PROCESS_INFO, cloudApi.cf_process_info
 ms.topic: struct
+f1_keywords: ["cfapi/CF_PROCESS_INFO"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

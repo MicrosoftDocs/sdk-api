@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Direct2D], Clear method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],Clear method, ID2D1TransformGraph.Clear, ID2D1TransformGraph::Clear, d2d1effectauthor/ID2D1TransformGraph::Clear, direct2d.id2d1transformgraph_clear
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1TransformGraph.Clear"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

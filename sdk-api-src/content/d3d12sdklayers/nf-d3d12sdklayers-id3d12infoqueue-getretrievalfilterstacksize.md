@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilterStackSize, GetRetrievalFilterStackSize method, GetRetrievalFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetRetrievalFilterStackSize method, ID3D12InfoQueue.GetRetrievalFilterStackSize, ID3D12InfoQueue::GetRetrievalFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetRetrievalFilterStackSize, direct3d12.id3d12infoqueue_getretrievalfilterstacksize
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.GetRetrievalFilterStackSize"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

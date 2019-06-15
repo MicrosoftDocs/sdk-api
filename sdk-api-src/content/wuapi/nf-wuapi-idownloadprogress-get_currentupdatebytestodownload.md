@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdateBytesToDownload property [Windows Update Agent], CurrentUpdateBytesToDownload property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateBytesToDownload property, IDownloadProgress.CurrentUpdateBytesToDownload, IDownloadProgress.get_CurrentUpdateBytesToDownload, IDownloadProgress::CurrentUpdateBytesToDownload, IDownloadProgress::get_CurrentUpdateBytesToDownload, get_CurrentUpdateBytesToDownload, wua.idownloadprogress_currentupdatebytestodownload, wuapi/IDownloadProgress::CurrentUpdateBytesToDownload, wuapi/IDownloadProgress::get_CurrentUpdateBytesToDownload
 ms.topic: method
+f1_keywords: ["wuapi/IDownloadProgress.CurrentUpdateBytesToDownload"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

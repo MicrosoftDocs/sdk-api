@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICompositorInterop, ICompositorInterop interface, ICompositorInterop interface,described, w_ui_comp.icompositorinterop, windows/ICompositorInterop
 ms.topic: interface
+f1_keywords: ["windows.ui.composition.interop/ICompositorInterop"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

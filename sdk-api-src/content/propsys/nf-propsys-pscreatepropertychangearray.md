@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSCreatePropertyChangeArray, PSCreatePropertyChangeArray function [Windows Properties], _shell_PSCreatePropertyChangeArray, properties.PSCreatePropertyChangeArray, propsys/PSCreatePropertyChangeArray, shell.PSCreatePropertyChangeArray
 ms.topic: function
+f1_keywords: ["propsys/PSCreatePropertyChangeArray"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

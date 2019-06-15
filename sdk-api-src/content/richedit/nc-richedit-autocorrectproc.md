@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
 ms.topic: callback
+f1_keywords: ["richedit/AutoCorrectProc"]
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

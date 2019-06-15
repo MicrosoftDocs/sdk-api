@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectsettype, rpc.rpcobjectsettype, rpcdce/RpcObjectSetType
 ms.topic: function
+f1_keywords: ["rpcdce/RpcObjectSetType"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

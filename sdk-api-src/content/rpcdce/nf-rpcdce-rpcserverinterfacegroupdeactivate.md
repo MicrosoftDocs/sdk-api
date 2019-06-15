@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupDeactivate, RpcServerInterfaceGroupDeactivate function [RPC], rpc.rpcserverinterfacegroupdeactivate, rpcdce/RpcServerInterfaceGroupDeactivate
 ms.topic: function
+f1_keywords: ["rpcdce/RpcServerInterfaceGroupDeactivate"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

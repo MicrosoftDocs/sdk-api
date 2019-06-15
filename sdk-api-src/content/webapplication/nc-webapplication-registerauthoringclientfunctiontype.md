@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterAuthoringClientFunctionType, RegisterAuthoringClientFunctionType callback, RegisterAuthoringClientFunctionType callback function [Debugging Windows Store apps], debug.registerauthoringclientfunctiontype, webapplication/RegisterAuthoringClientFunctionType
 ms.topic: callback
+f1_keywords: ["webapplication/RegisterAuthoringClientFunctionType"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

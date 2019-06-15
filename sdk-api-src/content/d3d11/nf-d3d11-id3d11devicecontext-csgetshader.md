@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSGetShader, CSGetShader method [Direct3D 11], CSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetShader method, ID3D11DeviceContext.CSGetShader, ID3D11DeviceContext::CSGetShader, d3d11/ID3D11DeviceContext::CSGetShader, d55a8dcd-a09c-0388-1870-f4bcb519d6b1, direct3d11.id3d11devicecontext_csgetshader
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.CSGetShader"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

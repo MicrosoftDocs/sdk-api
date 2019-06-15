@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.deleteipnetentry2, netioapi/DeleteIpNetEntry2
 ms.topic: function
+f1_keywords: ["netioapi/DeleteIpNetEntry2"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

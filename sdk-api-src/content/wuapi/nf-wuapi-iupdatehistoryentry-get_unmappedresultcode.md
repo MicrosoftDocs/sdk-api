@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UnmappedResultCode property, IUpdateHistoryEntry.UnmappedResultCode, IUpdateHistoryEntry.get_UnmappedResultCode, IUpdateHistoryEntry::UnmappedResultCode, IUpdateHistoryEntry::get_UnmappedResultCode, UnmappedResultCode property [Windows Update Agent], UnmappedResultCode property [Windows Update Agent],IUpdateHistoryEntry interface, get_UnmappedResultCode, wua.iupdatehistoryentry_unmappedresultcode, wuapi/IUpdateHistoryEntry::UnmappedResultCode, wuapi/IUpdateHistoryEntry::get_UnmappedResultCode
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateHistoryEntry.UnmappedResultCode"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

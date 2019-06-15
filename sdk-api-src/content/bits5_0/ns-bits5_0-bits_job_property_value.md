@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], bits.bits_job_property_value, bits.bits_job_property_value_union, bits5_0/BITS_JOB_PROPERTY_VALUE
 ms.topic: struct
+f1_keywords: ["bits5_0/BITS_JOB_PROPERTY_VALUE"]
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows

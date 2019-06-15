@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_TuningSpace method, ITuneRequest.get_TuningSpace, ITuneRequest::get_TuningSpace, ITuneRequestget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_tuningspace, tuner/ITuneRequest::get_TuningSpace
 ms.topic: method
+f1_keywords: ["tuner/ITuneRequest.get_TuningSpace"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

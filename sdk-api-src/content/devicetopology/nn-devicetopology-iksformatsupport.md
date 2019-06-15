@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsFormatSupport, IKsFormatSupport interface [Core Audio], IKsFormatSupport interface [Core Audio],described, coreaudio.iksformatsupport, devicetopology/IKsFormatSupport
 ms.topic: interface
+f1_keywords: ["devicetopology/IKsFormatSupport"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

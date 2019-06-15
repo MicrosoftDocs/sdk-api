@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SWbemQueryQualifiedName, SWbemQueryQualifiedName structure [Windows Management Instrumentation], wmi.swbemqueryqualifiedname, wmiutils/SWbemQueryQualifiedName
 ms.topic: struct
+f1_keywords: ["wmiutils/SWbemQueryQualifiedName"]
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

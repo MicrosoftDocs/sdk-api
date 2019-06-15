@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMU555, XMU555 constructor [DirectX Math Support APIs], XMU555 constructor [DirectX Math Support APIs],XMU555 structure, XMU555 structure [DirectX Math Support APIs],XMU555 constructor, XMU555.XMU555, XMU555.XMU555(), XMU555.XMU555(const XMU555 &), XMU555::XMU555, XMU555::XMU555(const XMU555 &), dxmath.xmu555_ctor_1
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMU555.XMU555"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

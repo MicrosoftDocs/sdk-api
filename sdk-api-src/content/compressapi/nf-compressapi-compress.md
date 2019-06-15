@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Compress, Compress function [Compression API], cmpapi.compress, compressapi/Compress
 ms.topic: function
+f1_keywords: ["compressapi/Compress"]
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

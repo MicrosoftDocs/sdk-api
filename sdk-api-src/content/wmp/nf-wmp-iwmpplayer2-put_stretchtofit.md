@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_stretchToFit method, IWMPPlayer2.put_stretchToFit, IWMPPlayer2::put_stretchToFit, IWMPPlayer2put_stretchToFit, put_stretchToFit, put_stretchToFit method [Windows Media Player], put_stretchToFit method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_stretchtofit, wmp/IWMPPlayer2::put_stretchToFit
 ms.topic: method
+f1_keywords: ["wmp/IWMPPlayer2.put_stretchToFit"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

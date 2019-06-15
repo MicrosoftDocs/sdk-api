@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3, IDCompositionVisual3 interface [DirectComposition], IDCompositionVisual3 interface [DirectComposition],described, dcomp/IDCompositionVisual3, directcomp.idcompositionvisual3
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionVisual3"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

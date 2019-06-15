@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred_credread, security.credread, wincred/CredRead, wincred/CredReadA, wincred/CredReadW
 ms.topic: function
+f1_keywords: ["wincred/CredRead"]
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

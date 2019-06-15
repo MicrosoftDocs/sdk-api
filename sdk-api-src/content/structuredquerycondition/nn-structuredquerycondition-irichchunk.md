@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRichChunk, IRichChunk interface [search], IRichChunk interface [search],described, _search_IRichChunk, search._search_IRichChunk, structuredquerycondition/IRichChunk
 ms.topic: interface
+f1_keywords: ["structuredquerycondition/IRichChunk"]
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NtQueryMultipleValueKey, NtQueryMultipleValueKey function [Windows API], base.ntquerymultiplevaluekey, winprog.ntquerymultiplevaluekey, winternl/NtQueryMultipleValueKey
 ms.topic: function
+f1_keywords: ["winternl/NtQueryMultipleValueKey"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

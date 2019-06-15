@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetCounterTimeBase, PdhGetCounterTimeBase function [Perf], _win32_pdhgetcountertimebase, base.pdhgetcountertimebase, pdh/PdhGetCounterTimeBase, perf.pdhgetcountertimebase
 ms.topic: function
+f1_keywords: ["pdh/PdhGetCounterTimeBase"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

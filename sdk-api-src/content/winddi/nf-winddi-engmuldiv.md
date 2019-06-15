@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngMulDiv, EngMulDiv function [Display Devices], display.engmuldiv, gdifncs_0d175bf5-b421-43e5-acc5-a11299b0d990.xml, winddi/EngMulDiv
 ms.topic: function
+f1_keywords: ["winddi/EngMulDiv"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

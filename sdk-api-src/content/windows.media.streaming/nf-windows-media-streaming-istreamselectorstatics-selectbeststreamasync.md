@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamSelectorStatics interface [Media Streaming API],SelectBestStreamAsync method, IStreamSelectorStatics.SelectBestStreamAsync, IStreamSelectorStatics.streaming, IStreamSelectorStatics::SelectBestStreamAsync, IStreamSelectorStatics::streaming, SelectBestStreamAsync, SelectBestStreamAsync method [Media Streaming API], SelectBestStreamAsync method [Media Streaming API],IStreamSelectorStatics interface, mediastreaming.istreamselectorstatics_selectbeststreamasync, windows/IStreamSelectorStatics::SelectBestStreamAsync
 ms.topic: method
+f1_keywords: ["windows.media.streaming/IStreamSelectorStatics.SelectBestStreamAsync"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

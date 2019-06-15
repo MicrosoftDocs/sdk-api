@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterHelper, RegisterHelper function [NetShell], _netsh_registerhelper, netsh/RegisterHelper, netshell.registerhelper
 ms.topic: function
+f1_keywords: ["netsh/RegisterHelper"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

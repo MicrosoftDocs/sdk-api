@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptProcessMultiOperations"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

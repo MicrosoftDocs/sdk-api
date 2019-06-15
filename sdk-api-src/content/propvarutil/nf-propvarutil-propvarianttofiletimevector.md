@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [Windows Properties], _shell_PropVariantToFileTimeVector, properties.PropVariantToFileTimeVector, propvarutil/PropVariantToFileTimeVector, shell.PropVariantToFileTimeVector
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToFileTimeVector"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

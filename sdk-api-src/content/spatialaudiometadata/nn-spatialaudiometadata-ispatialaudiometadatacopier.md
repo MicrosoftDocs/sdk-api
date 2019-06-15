@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataCopier, ISpatialAudioMetadataCopier interface [Core Audio], ISpatialAudioMetadataCopier interface [Core Audio],described, coreaudio.ispatialaudiometadatacopier, spatialaudiometadata/ISpatialAudioMetadataCopier
 ms.topic: interface
+f1_keywords: ["spatialaudiometadata/ISpatialAudioMetadataCopier"]
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

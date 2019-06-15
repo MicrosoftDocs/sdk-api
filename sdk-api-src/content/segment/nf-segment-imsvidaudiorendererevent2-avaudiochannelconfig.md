@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVAudioChannelConfig, AVAudioChannelConfig method [Microsoft TV Technologies], AVAudioChannelConfig method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioChannelConfig method, IMSVidAudioRendererEvent2.AVAudioChannelConfig, IMSVidAudioRendererEvent2::AVAudioChannelConfig, mstv.imsvidaudiorendererevent2_avaudiochannelconfig, segment/IMSVidAudioRendererEvent2::AVAudioChannelConfig
 ms.topic: method
+f1_keywords: ["segment/IMSVidAudioRendererEvent2.AVAudioChannelConfig"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKernelHandle, GetKernelHandle method [Display Devices], GetKernelHandle method [Display Devices],IDirectDrawKernel interface, IDirectDrawKernel interface [Display Devices],GetKernelHandle method, IDirectDrawKernel.GetKernelHandle, IDirectDrawKernel::GetKernelHandle, ddfncs_5c255735-5359-481b-b6cb-3bae2d934926.xml, ddkernel/IDirectDrawKernel::GetKernelHandle, display.idirectdrawkernel_getkernelhandle
 ms.topic: method
+f1_keywords: ["ddkernel/IDirectDrawKernel.GetKernelHandle"]
 req.header: ddkernel.h
 req.include-header: Ddkernel.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTransactionEx, ICreateWithTransactionEx interface [COM+], ICreateWithTransactionEx interface [COM+],described, _dtc_ICreateWithTransactionEx_Interface, comsvcs/ICreateWithTransactionEx, cos.icreatewithtransactionex
 ms.topic: interface
+f1_keywords: ["comsvcs/ICreateWithTransactionEx"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

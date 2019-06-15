@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DROPDESCRIPTION, DROPDESCRIPTION structure [Windows Shell], _shell_DROPDESCRIPTION, shell.DROPDESCRIPTION, shlobj_core/DROPDESCRIPTION
 ms.topic: struct
+f1_keywords: ["shlobj_core/DROPDESCRIPTION"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

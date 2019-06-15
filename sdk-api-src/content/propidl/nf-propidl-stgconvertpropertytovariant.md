@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], propidl/StgConvertPropertyToVariant, stg.stgconvertpropertytovariant
 ms.topic: function
+f1_keywords: ["propidl/StgConvertPropertyToVariant"]
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

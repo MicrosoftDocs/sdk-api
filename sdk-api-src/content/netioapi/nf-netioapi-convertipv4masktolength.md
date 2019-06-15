@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertIpv4MaskToLength, ConvertIpv4MaskToLength function [IP Helper], iphlp.convertipv4masktolength, netioapi/ConvertIpv4MaskToLength
 ms.topic: function
+f1_keywords: ["netioapi/ConvertIpv4MaskToLength"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

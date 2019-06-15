@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
 ms.topic: interface
+f1_keywords: ["mfidl/IMFContentProtectionDevice"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

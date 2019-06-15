@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPalette, IWICPalette interface [Windows Imaging Component], IWICPalette interface [Windows Imaging Component],described, _wic_codec_iwicpalette, wic._wic_codec_iwicpalette, wincodec/IWICPalette
 ms.topic: interface
+f1_keywords: ["wincodec/IWICPalette"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

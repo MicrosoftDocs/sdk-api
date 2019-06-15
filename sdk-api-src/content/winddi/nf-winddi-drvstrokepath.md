@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvStrokePath, DrvStrokePath function [Display Devices], ddifncs_73cbbe62-5351-4297-82fc-b0098f21fee2.xml, display.drvstrokepath, winddi/DrvStrokePath
 ms.topic: function
+f1_keywords: ["winddi/DrvStrokePath"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

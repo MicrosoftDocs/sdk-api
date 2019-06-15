@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6ccc753f-e147-47f4-ab95-17687729404a, GetStringLength, GetStringLength method [Media Foundation], GetStringLength method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetStringLength method, IMFAttributes.GetStringLength, IMFAttributes::GetStringLength, mf.imfattributes_getstringlength, mfobjects/IMFAttributes::GetStringLength
 ms.topic: method
+f1_keywords: ["mfobjects/IMFAttributes.GetStringLength"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

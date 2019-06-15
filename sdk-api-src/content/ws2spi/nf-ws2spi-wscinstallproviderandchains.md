@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProviderAndChains, WSCInstallProviderAndChains function [Winsock], XP1_IFS_HANDLES, winsock.wscinstallproviderandchains, ws2spi/WSCInstallProviderAndChains
 ms.topic: function
+f1_keywords: ["ws2spi/WSCInstallProviderAndChains"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d1_1helper/ImageBrushProperties, direct2d.imagebrushproperties
 ms.topic: function
+f1_keywords: ["d2d1_1helper/ImageBrushProperties"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

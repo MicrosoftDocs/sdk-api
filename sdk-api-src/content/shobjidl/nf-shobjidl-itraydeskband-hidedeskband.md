@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HideDeskBand, HideDeskBand method [Windows Shell], HideDeskBand method [Windows Shell],ITrayDeskBand interface, ITrayDeskBand interface [Windows Shell],HideDeskBand method, ITrayDeskBand.HideDeskBand, ITrayDeskBand::HideDeskBand, _shell_ITrayDeskBand_HideDeskBand, shell.ITrayDeskBand_HideDeskBand, shobjidl/ITrayDeskBand::HideDeskBand
 ms.topic: method
+f1_keywords: ["shobjidl/ITrayDeskBand.HideDeskBand"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

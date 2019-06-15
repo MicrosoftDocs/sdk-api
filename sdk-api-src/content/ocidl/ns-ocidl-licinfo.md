@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO"
 ms.topic: struct
+f1_keywords: ["ocidl/LICINFO"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

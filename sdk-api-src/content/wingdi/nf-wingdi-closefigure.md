@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseFigure, CloseFigure function [Windows GDI], _win32_CloseFigure, gdi.closefigure, wingdi/CloseFigure
 ms.topic: function
+f1_keywords: ["wingdi/CloseFigure"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

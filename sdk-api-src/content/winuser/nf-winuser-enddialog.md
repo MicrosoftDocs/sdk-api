@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndDialog, EndDialog function [Dialog Boxes], _win32_EndDialog, _win32_enddialog_cpp, dlgbox.enddialog, winui._win32_enddialog, winuser/EndDialog
 ms.topic: function
+f1_keywords: ["winuser/EndDialog"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

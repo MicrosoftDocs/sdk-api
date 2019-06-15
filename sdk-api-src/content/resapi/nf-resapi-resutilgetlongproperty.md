@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_LONG_PROPERTY, PRESUTIL_GET_LONG_PROPERTY function [Failover Cluster], ResUtilGetLongProperty, ResUtilGetLongProperty function [Failover Cluster], mscs.resutilgetlongproperty, resapi/PRESUTIL_GET_LONG_PROPERTY, resapi/ResUtilGetLongProperty
 ms.topic: function
+f1_keywords: ["resapi/ResUtilGetLongProperty"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

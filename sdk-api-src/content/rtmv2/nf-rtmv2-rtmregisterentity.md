@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmRegisterEntity, RtmRegisterEntity function [RAS], _rtmv2ref_rtmregisterentity, rras.rtmregisterentity, rtmv2/RtmRegisterEntity
 ms.topic: function
+f1_keywords: ["rtmv2/RtmRegisterEntity"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

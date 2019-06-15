@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptCacheGetHeight, ScriptCacheGetHeight function [Internationalization for Windows Applications], _win32_ScriptCacheGetHeight, intl.scriptcachegetheight, usp10/ScriptCacheGetHeight
 ms.topic: function
+f1_keywords: ["usp10/ScriptCacheGetHeight"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

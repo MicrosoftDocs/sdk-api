@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_EXPIRES, WSD_EVENTING_EXPIRES structure, ncd.wsd_eventing_expires, wsdtypes/WSD_EVENTING_EXPIRES
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_EVENTING_EXPIRES"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

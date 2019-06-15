@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingPublicConnectionCollection, INetSharingPublicConnectionCollection interface [ICS/ICF], INetSharingPublicConnectionCollection interface [ICS/ICF],described, _ics_inetsharingpublicconnectioncollection, ics.inetsharingpublicconnectioncollection, netcon/INetSharingPublicConnectionCollection
 ms.topic: interface
+f1_keywords: ["netcon/INetSharingPublicConnectionCollection"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

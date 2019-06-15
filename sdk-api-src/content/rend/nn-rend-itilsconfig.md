@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITILSConfig, ITILSConfig interface [TAPI 2.2], ITILSConfig interface [TAPI 2.2],described, _tapi3_itilsconfig, rend/ITILSConfig, tapi3.itilsconfig
 ms.topic: interface
+f1_keywords: ["rend/ITILSConfig"]
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

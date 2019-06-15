@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Connect method, IRpcStubBuffer.Connect, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
 ms.topic: method
+f1_keywords: ["objidlbase/IRpcStubBuffer.Connect"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

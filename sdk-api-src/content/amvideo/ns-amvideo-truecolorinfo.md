@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure
 ms.topic: struct
+f1_keywords: ["amvideo/TRUECOLORINFO"]
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

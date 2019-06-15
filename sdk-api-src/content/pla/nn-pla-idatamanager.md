@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataManager, IDataManager interface [PLA], IDataManager interface [PLA],described, base.idatamanager, pla.idatamanager, pla/IDataManager
 ms.topic: interface
+f1_keywords: ["pla/IDataManager"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

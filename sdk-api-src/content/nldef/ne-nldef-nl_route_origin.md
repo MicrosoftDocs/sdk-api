@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN enumeration [Network Drivers Starting with Windows Vista], Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PNL_ROUTE_ORIGIN, PNL_ROUTE_ORIGIN enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_f6fb2f16-6da7-4f32-895e-8dbb6929f81f.xml, netvista.nl_route_origin, nldef/NL_ROUTE_ORIGIN, nldef/Nlro6to4, nldef/NlroDHCP, nldef/NlroManual, nldef/NlroRouterAdvertisement, nldef/NlroWellKnown, nldef/PNL_ROUTE_ORIGIN"
 ms.topic: enum
+f1_keywords: ["nldef/NL_ROUTE_ORIGIN"]
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows

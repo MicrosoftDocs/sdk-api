@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream interface [Media Foundation], IMFByteStream interface [Media Foundation],described, mf.imfbytestream, mfobjects/IMFByteStream
 ms.topic: interface
+f1_keywords: ["mfobjects/IMFByteStream"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

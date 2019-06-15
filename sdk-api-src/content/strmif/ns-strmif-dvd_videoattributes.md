@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_VideoAttributes, DVD_VideoAttributes structure [DirectShow], DVD_VideoAttributesStructure, dshow.dvd_videoattributes, strmif/DVD_VideoAttributes
 ms.topic: struct
+f1_keywords: ["strmif/DVD_VideoAttributes"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

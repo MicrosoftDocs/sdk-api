@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExcludeApis property [PLA], ExcludeApis property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExcludeApis property, IApiTracingDataCollector.ExcludeApis, IApiTracingDataCollector.get_ExcludeApis, IApiTracingDataCollector::ExcludeApis, IApiTracingDataCollector::get_ExcludeApis, IApiTracingDataCollector::put_ExcludeApis, base.iapitracingdatacollector_excludeapis, get_ExcludeApis, pla.iapitracingdatacollector_excludeapis, pla/IApiTracingDataCollector::ExcludeApis, pla/IApiTracingDataCollector::get_ExcludeApis, pla/IApiTracingDataCollector::put_ExcludeApis
 ms.topic: method
+f1_keywords: ["pla/IApiTracingDataCollector.ExcludeApis"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

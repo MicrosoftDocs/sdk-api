@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Skip method, IEnumWorkItems.Skip, IEnumWorkItems::Skip, Skip, Skip method [Task Scheduler], Skip method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_skip, mstask/IEnumWorkItems::Skip, taskschd.ienumworkitems_skip
 ms.topic: method
+f1_keywords: ["mstask/IEnumWorkItems.Skip"]
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS, CLUSPROP_RESOURCE_CLASS structure [Failover Cluster], CLUS_RESCLASS_NETWORK, CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_RESOURCE_CLASS, PCLUSPROP_RESOURCE_CLASS structure pointer [Failover Cluster], _wolf_clusprop_resource_class, clusapi/CLUSPROP_RESOURCE_CLASS, clusapi/PCLUSPROP_RESOURCE_CLASS, mscs.clusprop_resource_class"
 ms.topic: struct
+f1_keywords: ["clusapi/CLUSPROP_RESOURCE_CLASS"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

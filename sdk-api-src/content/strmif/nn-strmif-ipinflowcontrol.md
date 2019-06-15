@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPinFlowControl, IPinFlowControl interface [DirectShow], IPinFlowControl interface [DirectShow],described, IPinFlowControlInterface, dshow.ipinflowcontrol, strmif/IPinFlowControl
 ms.topic: interface
+f1_keywords: ["strmif/IPinFlowControl"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

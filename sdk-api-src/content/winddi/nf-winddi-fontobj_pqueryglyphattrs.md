@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pQueryGlyphAttrs, FONTOBJ_pQueryGlyphAttrs function [Display Devices], display.fontobj_pqueryglyphattrs, gdifncs_d646608d-3765-4cc7-aeff-bf5dc050d6b5.xml, winddi/FONTOBJ_pQueryGlyphAttrs
 ms.topic: function
+f1_keywords: ["winddi/FONTOBJ_pQueryGlyphAttrs"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

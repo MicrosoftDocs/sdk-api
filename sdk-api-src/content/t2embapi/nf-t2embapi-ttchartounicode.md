@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTCharToUnicode, TTCharToUnicode function [Windows GDI], _win32_BytesToUnicode, gdi.ttchartounicode, t2embapi/TTCharToUnicode
 ms.topic: function
+f1_keywords: ["t2embapi/TTCharToUnicode"]
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

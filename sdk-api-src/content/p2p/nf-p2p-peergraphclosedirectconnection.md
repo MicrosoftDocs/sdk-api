@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphCloseDirectConnection, PeerGraphCloseDirectConnection function [Peer Networking], p2p.peergraphclosedirectconnection, p2p/PeerGraphCloseDirectConnection
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphCloseDirectConnection"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

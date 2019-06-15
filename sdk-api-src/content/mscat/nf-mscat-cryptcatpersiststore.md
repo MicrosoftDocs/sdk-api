@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATPersistStore, CryptCATPersistStore function [Security], mscat/CryptCATPersistStore, security.cryptcatpersiststore
 ms.topic: function
+f1_keywords: ["mscat/CryptCATPersistStore"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

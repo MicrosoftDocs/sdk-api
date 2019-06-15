@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTarget interface [DirectComposition],SetRoot method, IDCompositionTarget.SetRoot, IDCompositionTarget::SetRoot, SetRoot, SetRoot method [DirectComposition], SetRoot method [DirectComposition],IDCompositionTarget interface, dcomp/IDCompositionTarget::SetRoot, directcomp.idcompositiontarget_setroot
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionTarget.SetRoot"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

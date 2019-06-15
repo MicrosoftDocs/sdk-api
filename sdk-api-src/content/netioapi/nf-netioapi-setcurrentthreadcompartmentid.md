@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCurrentThreadCompartmentId, SetCurrentThreadCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_955bc56f-f531-4937-8175-288ec03ef9af.xml, netioapi/SetCurrentThreadCompartmentId, netvista.setcurrentthreadcompartmentid
 ms.topic: function
+f1_keywords: ["netioapi/SetCurrentThreadCompartmentId"]
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows

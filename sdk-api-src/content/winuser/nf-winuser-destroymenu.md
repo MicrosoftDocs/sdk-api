@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyMenu, DestroyMenu function [Menus and Other Resources], _win32_DestroyMenu, _win32_destroymenu_cpp, menurc.destroymenu, winui._win32_destroymenu, winuser/DestroyMenu
 ms.topic: function
+f1_keywords: ["winuser/DestroyMenu"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

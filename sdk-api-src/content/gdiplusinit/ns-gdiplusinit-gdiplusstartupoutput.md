@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusStartupOutput, GdiplusStartupOutput structure [GDI+], _gdiplus_STRUC_GdiplusStartupOutput, gdiplus._gdiplus_STRUC_GdiplusStartupOutput, gdiplusinit/GdiplusStartupOutput
 ms.topic: struct
+f1_keywords: ["gdiplusinit/GdiplusStartupOutput"]
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

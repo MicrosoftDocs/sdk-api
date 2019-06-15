@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmDisableIgmpCallback, PMGM_DISABLE_IGMP_CALLBACK, PMGM_DISABLE_IGMP_CALLBACK callback, PMGM_DISABLE_IGMP_CALLBACK callback function [RAS], _mpr_pmgm_disable_igmp_callback, mgm/PMGM_DISABLE_IGMP_CALLBACK, rras.pmgm_disable_igmp_callback
 ms.topic: callback
+f1_keywords: ["mgm/PMGM_DISABLE_IGMP_CALLBACK"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

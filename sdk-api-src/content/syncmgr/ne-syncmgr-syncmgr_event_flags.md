@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_EF_NONE, SYNCMGR_EF_VALID, SYNCMGR_EVENT_FLAGS, SYNCMGR_EVENT_FLAGS enumeration [Windows Shell], shell.SYNCMGR_EVENT_FLAGS, shell_SYNCMGR_EVENT_FLAGS, syncmgr/SYNCMGR_EF_NONE, syncmgr/SYNCMGR_EF_VALID, syncmgr/SYNCMGR_EVENT_FLAGS
 ms.topic: enum
+f1_keywords: ["syncmgr/SYNCMGR_EVENT_FLAGS"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

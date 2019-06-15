@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportServerAllocateBuffer, WdsTransportServerAllocateBuffer function [Windows Deployment Services], wds.wdstransportserverallocatebuffer, wdstpdi/WdsTransportServerAllocateBuffer
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportServerAllocateBuffer"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar, IUPnPReregistrar interface [UPnP APIs], IUPnPReregistrar interface [UPnP APIs],described, _upnp_iupnpreregistrar, upnp.iupnpreregistrar, upnphost/IUPnPReregistrar
 ms.topic: interface
+f1_keywords: ["upnphost/IUPnPReregistrar"]
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows

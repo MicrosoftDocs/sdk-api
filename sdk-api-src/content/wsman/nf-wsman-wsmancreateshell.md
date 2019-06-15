@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManCreateShell, WSManCreateShell function [Windows Remote Management], winrm.wsmancreateshell, wsman/WSManCreateShell
 ms.topic: function
+f1_keywords: ["wsman/WSManCreateShell"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

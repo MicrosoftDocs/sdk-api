@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControlsCore, IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,described, parcon.iwindowsparentalcontrolscore, wpcapi/IWindowsParentalControlsCore
 ms.topic: interface
+f1_keywords: ["wpcapi/IWindowsParentalControlsCore"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpSetRetry, SnmpSetRetry function [SNMP], _snmp_snmpsetretry, snmp.snmpsetretry, winsnmp/SnmpSetRetry
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpSetRetry"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CPFS_DISPLAY_IN_BOTH, CPFS_DISPLAY_IN_DESELECTED_TILE, CPFS_DISPLAY_IN_SELECTED_TILE, CPFS_HIDDEN, CREDENTIAL_PROVIDER_FIELD_STATE, CREDENTIAL_PROVIDER_FIELD_STATE enumeration [Windows Shell], credentialprovider/CPFS_DISPLAY_IN_BOTH, credentialprovider/CPFS_DISPLAY_IN_DESELECTED_TILE, credentialprovider/CPFS_DISPLAY_IN_SELECTED_TILE, credentialprovider/CPFS_HIDDEN, credentialprovider/CREDENTIAL_PROVIDER_FIELD_STATE, shell.CREDENTIAL_PROVIDER_FIELD_STATE, shell_CREDENTIAL_PROVIDER_FIELD_STATE
 ms.topic: enum
+f1_keywords: ["credentialprovider/CREDENTIAL_PROVIDER_FIELD_STATE"]
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

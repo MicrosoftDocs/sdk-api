@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_PRESERVEDKEY, TF_PRESERVEDKEY structure [Text Services Framework], _tsf_tf_preservedkey_ref, msctf/TF_PRESERVEDKEY, tsf.tf_preservedkey
 ms.topic: struct
+f1_keywords: ["msctf/TF_PRESERVEDKEY"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

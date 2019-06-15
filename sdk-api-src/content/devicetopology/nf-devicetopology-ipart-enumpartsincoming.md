@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPartsIncoming, EnumPartsIncoming method [Core Audio], EnumPartsIncoming method [Core Audio],IPart interface, IPart interface [Core Audio],EnumPartsIncoming method, IPart.EnumPartsIncoming, IPart::EnumPartsIncoming, IPartEnumPartsIncoming, coreaudio.ipart_enumpartsincoming, devicetopology/IPart::EnumPartsIncoming
 ms.topic: method
+f1_keywords: ["devicetopology/IPart.EnumPartsIncoming"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

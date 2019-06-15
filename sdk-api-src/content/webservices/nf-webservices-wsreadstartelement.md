@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadStartElement, WsReadStartElement function [Web Services for Windows], webservices/WsReadStartElement, wsw.wsreadstartelement
 ms.topic: function
+f1_keywords: ["webservices/WsReadStartElement"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

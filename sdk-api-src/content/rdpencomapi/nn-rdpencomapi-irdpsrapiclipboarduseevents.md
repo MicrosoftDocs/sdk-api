@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents, IRDPSRAPIClipboardUseEvents interface [RDP], IRDPSRAPIClipboardUseEvents interface [RDP],described, rdp.irdpsrapiclipboarduseevents, rdpencomapi/IRDPSRAPIClipboardUseEvents
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPSRAPIClipboardUseEvents"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

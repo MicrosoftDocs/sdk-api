@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],ReadOnly property, IWebProxy.ReadOnly, IWebProxy.get_ReadOnly, IWebProxy::ReadOnly, IWebProxy::get_ReadOnly, ReadOnly property [Windows Update Agent], ReadOnly property [Windows Update Agent],IWebProxy interface, get_ReadOnly, wua.iwebproxy_readonly, wuapi/IWebProxy::ReadOnly, wuapi/IWebProxy::get_ReadOnly
 ms.topic: method
+f1_keywords: ["wuapi/IWebProxy.ReadOnly"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

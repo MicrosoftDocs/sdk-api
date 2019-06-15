@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadContext, SetThreadContext function, _win32_setthreadcontext, base.setthreadcontext, processthreadsapi/SetThreadContext
 ms.topic: function
+f1_keywords: ["processthreadsapi/SetThreadContext"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

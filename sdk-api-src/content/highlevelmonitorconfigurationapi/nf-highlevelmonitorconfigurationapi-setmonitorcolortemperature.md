@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMonitorColorTemperature, SetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorColorTemperature, monitor.setmonitorcolortemperature
 ms.topic: function
+f1_keywords: ["highlevelmonitorconfigurationapi/SetMonitorColorTemperature"]
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

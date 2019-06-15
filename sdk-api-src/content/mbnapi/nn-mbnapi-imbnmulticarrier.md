@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], IMbnMultiCarrier interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrier, mbnapi/IMbnMultiCarrier
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnMultiCarrier"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

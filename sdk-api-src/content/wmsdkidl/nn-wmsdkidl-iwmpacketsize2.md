@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPacketSize2, IWMPacketSize2 interface [windows Media Format], IWMPacketSize2 interface [windows Media Format],described, IWMPacketSize2Interface, wmformat.iwmpacketsize2, wmsdkidl/IWMPacketSize2
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMPacketSize2"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

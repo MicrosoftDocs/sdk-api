@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Files], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Files], fs.device_trim_descriptor, winioctl/DEVICE_TRIM_DESCRIPTOR, winioctl/PDEVICE_TRIM_DESCRIPTOR"
 ms.topic: struct
+f1_keywords: ["winioctl/DEVICE_TRIM_DESCRIPTOR"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

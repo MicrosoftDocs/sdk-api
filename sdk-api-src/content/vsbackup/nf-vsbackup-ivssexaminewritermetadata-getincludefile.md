@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIncludeFile, GetIncludeFile method [VSS], GetIncludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIncludeFile method, IVssExamineWriterMetadata.GetIncludeFile, IVssExamineWriterMetadata::GetIncludeFile, _win32_ivssexaminewritermetadata_getincludefile, base.ivssexaminewritermetadata_getincludefile, vsbackup/IVssExamineWriterMetadata::GetIncludeFile
 ms.topic: method
+f1_keywords: ["vsbackup/IVssExamineWriterMetadata.GetIncludeFile"]
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

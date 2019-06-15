@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],RequestAbort method, IDownloadJob.RequestAbort, IDownloadJob::RequestAbort, RequestAbort, RequestAbort method [Windows Update Agent], RequestAbort method [Windows Update Agent],IDownloadJob interface, wua.idownloadjob_requestabort, wuapi/IDownloadJob::RequestAbort
 ms.topic: method
+f1_keywords: ["wuapi/IDownloadJob.RequestAbort"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

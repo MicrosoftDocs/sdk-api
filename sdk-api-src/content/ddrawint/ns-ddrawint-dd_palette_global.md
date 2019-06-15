@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL, DD_PALETTE_GLOBAL structure [Display Devices], ddrawint/DD_PALETTE_GLOBAL, ddstrcts_26530035-45cd-43d3-84ee-b8b171c7c2de.xml, display.dd_palette_global"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_PALETTE_GLOBAL"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

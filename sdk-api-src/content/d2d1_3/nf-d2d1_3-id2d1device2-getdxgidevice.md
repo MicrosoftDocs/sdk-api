@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDxgiDevice, GetDxgiDevice method [Direct2D], GetDxgiDevice method [Direct2D],ID2D1Device2 interface, ID2D1Device2 interface [Direct2D],GetDxgiDevice method, ID2D1Device2.GetDxgiDevice, ID2D1Device2::GetDxgiDevice, d2d1_3/ID2D1Device2::GetDxgiDevice, direct2d.id2d1device2_getdxgidevice
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1Device2.GetDxgiDevice"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

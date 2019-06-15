@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings3 interface [Task Scheduler],Volatile property, ITaskSettings3.Volatile, ITaskSettings3.get_Volatile, ITaskSettings3::Volatile, ITaskSettings3::get_Volatile, ITaskSettings3::put_Volatile, Volatile property [Task Scheduler], Volatile property [Task Scheduler],ITaskSettings3 interface, get_Volatile, taskschd.itasksettings3_volatile, taskschd/ITaskSettings3::Volatile, taskschd/ITaskSettings3::get_Volatile, taskschd/ITaskSettings3::put_Volatile
 ms.topic: method
+f1_keywords: ["taskschd/ITaskSettings3.Volatile"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 61b0771c-e26b-3275-edc2-79e49d2f26f0, ID3D11InfoQueue interface [Direct3D 11],SetBreakOnID method, ID3D11InfoQueue.SetBreakOnID, ID3D11InfoQueue::SetBreakOnID, SetBreakOnID, SetBreakOnID method [Direct3D 11], SetBreakOnID method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetBreakOnID, direct3d11.id3d11infoqueue_setbreakonid
 ms.topic: method
+f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.SetBreakOnID"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectScalarVariable interface [Direct3D 10],SetBool method, ID3D10EffectScalarVariable.SetBool, ID3D10EffectScalarVariable::SetBool, SetBool, SetBool method [Direct3D 10], SetBool method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetBool, df7ba15f-fa96-1b62-92df-96ce9e9146b9, direct3d10.id3d10effectscalarvariable_setbool
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectScalarVariable.SetBool"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

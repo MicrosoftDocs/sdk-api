@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
 ms.topic: function
+f1_keywords: ["lpmapi/LPM_IpAddressTable"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

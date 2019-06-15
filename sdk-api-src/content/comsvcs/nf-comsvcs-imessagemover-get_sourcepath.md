@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],get_SourcePath method, IMessageMover.get_SourcePath, IMessageMover::get_SourcePath, comsvcs/IMessageMover::get_SourcePath, cos.imessagemover_get_sourcepath, get_SourcePath, get_SourcePath method [COM+], get_SourcePath method [COM+],IMessageMover interface
 ms.topic: method
+f1_keywords: ["comsvcs/IMessageMover.get_SourcePath"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

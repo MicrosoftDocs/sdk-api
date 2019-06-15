@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCONNECTDATA, *PCONNECTDATA, CONNECTDATA, CONNECTDATA structure [COM], LPCONNECTDATA, LPCONNECTDATA structure pointer [COM], PCONNECTDATA, PCONNECTDATA structure pointer [COM], _com_CONNECTDATA, com.connectdata, ocidl/CONNECTDATA, ocidl/LPCONNECTDATA, ocidl/PCONNECTDATA"
 ms.topic: struct
+f1_keywords: ["ocidl/CONNECTDATA"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

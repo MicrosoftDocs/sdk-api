@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamPrevKeyFrameTime, AVIStreamPrevKeyFrameTime macro [Windows Multimedia], _win32_AVIStreamPrevKeyFrameTime, multimedia.avistreamprevkeyframetime, vfw/AVIStreamPrevKeyFrameTime
 ms.topic: macro
+f1_keywords: ["vfw/AVIStreamPrevKeyFrameTime"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

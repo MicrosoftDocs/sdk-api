@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadByte4, XMLoadByte4, XMLoadByte4 method [DirectX Math Support APIs], dxmath.xmloadbyte4
 ms.topic: function
+f1_keywords: ["directxpackedvector/XMLoadByte4"]
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

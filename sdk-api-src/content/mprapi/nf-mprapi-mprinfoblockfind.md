@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockFind, MprInfoBlockFind function [RAS], _mpr_mprinfoblockfind, mprapi/MprInfoBlockFind, rras.mprinfoblockfind
 ms.topic: function
+f1_keywords: ["mprapi/MprInfoBlockFind"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

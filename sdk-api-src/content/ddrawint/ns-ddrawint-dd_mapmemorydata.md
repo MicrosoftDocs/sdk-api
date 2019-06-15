@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA, DD_MAPMEMORYDATA structure [Display Devices], ddrawint/DD_MAPMEMORYDATA, ddstrcts_8ed973e1-2324-4dba-bcff-78442d5f33ee.xml, display.dd_mapmemorydata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_MAPMEMORYDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

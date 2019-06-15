@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
 ms.topic: function
+f1_keywords: ["faxroute/FaxRouteInitialize"]
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDisplayControl, IDXGIDisplayControl interface [DXGI], IDXGIDisplayControl interface [DXGI],described, direct3ddxgi.idxgidisplaycontrol, dxgi1_2/IDXGIDisplayControl
 ms.topic: interface
+f1_keywords: ["dxgi1_2/IDXGIDisplayControl"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

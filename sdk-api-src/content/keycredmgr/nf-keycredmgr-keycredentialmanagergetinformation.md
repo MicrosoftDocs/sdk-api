@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerGetInformation, KeyCredentialManagerGetInformation function [Security], keycredmgr/KeyCredentialManagerGetInformation, security.keycredentialmanagergetinformation
 ms.topic: function
+f1_keywords: ["keycredmgr/KeyCredentialManagerGetInformation"]
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
 ms.topic: function
+f1_keywords: ["drt/DrtGetInstanceNameSize"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

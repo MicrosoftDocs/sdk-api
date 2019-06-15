@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CICreateCommand, CICreateCommand function [Indexing Service], _idxs_CICreateCommand, indexsrv.cicreatecommand, ntquery/CICreateCommand
 ms.topic: function
+f1_keywords: ["ntquery/CICreateCommand"]
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

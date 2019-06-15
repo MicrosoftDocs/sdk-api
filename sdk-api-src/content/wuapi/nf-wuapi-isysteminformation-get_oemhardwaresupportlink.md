@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],OemHardwareSupportLink property, ISystemInformation.OemHardwareSupportLink, ISystemInformation.get_OemHardwareSupportLink, ISystemInformation::OemHardwareSupportLink, ISystemInformation::get_OemHardwareSupportLink, OemHardwareSupportLink property [Windows Update Agent], OemHardwareSupportLink property [Windows Update Agent],ISystemInformation interface, get_OemHardwareSupportLink, wua.isysteminformation_oemhardwaresupportlink, wuapi/ISystemInformation::OemHardwareSupportLink, wuapi/ISystemInformation::get_OemHardwareSupportLink
 ms.topic: method
+f1_keywords: ["wuapi/ISystemInformation.OemHardwareSupportLink"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

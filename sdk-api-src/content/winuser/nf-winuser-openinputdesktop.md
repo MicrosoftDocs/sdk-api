@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenInputDesktop, OpenInputDesktop function [Windows Stations and Desktops], base.openinputdesktop, winstation.openinputdesktop, winuser/OpenInputDesktop
 ms.topic: function
+f1_keywords: ["winuser/OpenInputDesktop"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

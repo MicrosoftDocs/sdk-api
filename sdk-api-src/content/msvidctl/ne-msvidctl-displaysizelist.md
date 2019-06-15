@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplaySizeList, DisplaySizeList enumeration [Microsoft TV Technologies], MSVidCtlDisplaySizeListEnumeration, dslDefaultSize, dslDoubleSourceSize, dslFullScreen, dslHalfScreen, dslHalfSourceSize, dslQuarterScreen, dslSixteenthScreen, dslSourceSize, enumeration [Microsoft TV Technologies], mstv.displaysizelist, msvidctl/DisplaySizeList, msvidctl/dslDefaultSize, msvidctl/dslDoubleSourceSize, msvidctl/dslFullScreen, msvidctl/dslHalfScreen, msvidctl/dslHalfSourceSize, msvidctl/dslQuarterScreen, msvidctl/dslSixteenthScreen, msvidctl/dslSourceSize
 ms.topic: enum
+f1_keywords: ["msvidctl/DisplaySizeList"]
 req.header: msvidctl.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetIsServiceAccount, NetIsServiceAccount function [Security], lmaccess/NetIsServiceAccount, security.netisserviceaccount
 ms.topic: function
+f1_keywords: ["lmaccess/NetIsServiceAccount"]
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

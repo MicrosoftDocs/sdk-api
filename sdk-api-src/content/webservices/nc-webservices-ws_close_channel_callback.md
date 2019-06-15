@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CLOSE_CHANNEL_CALLBACK, WS_CLOSE_CHANNEL_CALLBACK callback, WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_CHANNEL_CALLBACK, wsw.ws_close_channel_callback
 ms.topic: callback
+f1_keywords: ["webservices/WS_CLOSE_CHANNEL_CALLBACK"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

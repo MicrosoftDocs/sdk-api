@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeWriter, WsFreeWriter function [Web Services for Windows], webservices/WsFreeWriter, wsw.wsfreewriter
 ms.topic: function
+f1_keywords: ["webservices/WsFreeWriter"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

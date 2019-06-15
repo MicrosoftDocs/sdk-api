@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],Delete method, IGPMStarterGPOBackup.Delete, IGPMStarterGPOBackup::Delete, _win32_igpmstartergpobackup_delete, gpmc.igpmstartergpobackup_delete, gpmgmt/IGPMStarterGPOBackup::Delete
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMStarterGPOBackup.Delete"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

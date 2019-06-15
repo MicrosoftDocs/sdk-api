@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mmGetCurrentTask, mmGetCurrentTask function [Windows Multimedia], mmddk/mmGetCurrentTask, multimedia.mmgetcurrenttask
 ms.topic: function
+f1_keywords: ["mmddk/mmGetCurrentTask"]
 req.header: mmddk.h
 req.include-header: Mmddk.h
 req.target-type: Windows

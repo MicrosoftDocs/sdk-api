@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer, IMFSpatialAudioObjectBuffer interface [Media Foundation], IMFSpatialAudioObjectBuffer interface [Media Foundation],described, mf.imfspatialaudioobjectbuffer, mfspatialaudio/IMFSpatialAudioObjectBuffer
 ms.topic: interface
+f1_keywords: ["mfspatialaudio/IMFSpatialAudioObjectBuffer"]
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows

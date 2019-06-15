@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerCompleteSecurityCallback, RpcServerCompleteSecurityCallback function [RPC], rpc.rpcservercompletesecuritycallback, rpcdce/RpcServerCompleteSecurityCallback
 ms.topic: function
+f1_keywords: ["rpcdce/RpcServerCompleteSecurityCallback"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

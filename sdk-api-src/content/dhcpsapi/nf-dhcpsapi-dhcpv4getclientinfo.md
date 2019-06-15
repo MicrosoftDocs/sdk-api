@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4GetClientInfo, DhcpV4GetClientInfo function [DHCP], dhcp.dhcpv4getclientinfo, dhcpsapi/DhcpV4GetClientInfo
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpV4GetClientInfo"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

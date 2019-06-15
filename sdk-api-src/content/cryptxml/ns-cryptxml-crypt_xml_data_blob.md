@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB, CRYPT_XML_DATA_BLOB structure [Security], PCRYPT_XML_DATA_BLOB, PCRYPT_XML_DATA_BLOB structure pointer [Security], cryptxml/CRYPT_XML_DATA_BLOB, cryptxml/PCRYPT_XML_DATA_BLOB, security.crypt_xml_data_blob"
 ms.topic: struct
+f1_keywords: ["cryptxml/CRYPT_XML_DATA_BLOB"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Name property, IFsrmPipelineModuleDefinition.Name, IFsrmPipelineModuleDefinition.put_Name, IFsrmPipelineModuleDefinition::Name, IFsrmPipelineModuleDefinition::get_Name, IFsrmPipelineModuleDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_name, fsrm.ifsrmpipelinemoduledefinition_name, fsrmpipeline/IFsrmPipelineModuleDefinition::Name, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Name, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name, put_Name
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleDefinition.Name"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NOTIFICATIONS_V1, CLUSTER_NOTIFICATIONS_V2, CLUSTER_NOTIFICATIONS_VERSION, CLUSTER_NOTIFICATIONS_VERSION enumeration [Failover Cluster], clusapi/CLUSTER_NOTIFICATIONS_V1, clusapi/CLUSTER_NOTIFICATIONS_V2, clusapi/CLUSTER_NOTIFICATIONS_VERSION, msclus/CLUSTER_NOTIFICATIONS_V1, msclus/CLUSTER_NOTIFICATIONS_V2, msclus/CLUSTER_NOTIFICATIONS_VERSION, mscs.cluster_notifications_version
 ms.topic: enum
+f1_keywords: ["clusapi/CLUSTER_NOTIFICATIONS_VERSION"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

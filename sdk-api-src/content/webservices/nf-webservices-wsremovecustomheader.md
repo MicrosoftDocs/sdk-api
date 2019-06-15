@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsRemoveCustomHeader, WsRemoveCustomHeader function [Web Services for Windows], webservices/WsRemoveCustomHeader, wsw.wsremovecustomheader
 ms.topic: function
+f1_keywords: ["webservices/WsRemoveCustomHeader"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

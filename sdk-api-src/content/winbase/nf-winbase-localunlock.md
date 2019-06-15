@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocalUnlock, LocalUnlock function, _win32_localunlock, base.localunlock, winbase/LocalUnlock
 ms.topic: function
+f1_keywords: ["winbase/LocalUnlock"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

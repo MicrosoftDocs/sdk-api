@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrPointerUnmarshall, NdrPointerUnmarshall function [RPC], rpc.ndrpointerunmarshall, rpcndr/NdrPointerUnmarshall
 ms.topic: function
+f1_keywords: ["rpcndr/NdrPointerUnmarshall"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

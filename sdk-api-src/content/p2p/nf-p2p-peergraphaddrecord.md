@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphAddRecord, PeerGraphAddRecord function [Peer Networking], p2p.peergraphaddrecord, p2p/PeerGraphAddRecord
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphAddRecord"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

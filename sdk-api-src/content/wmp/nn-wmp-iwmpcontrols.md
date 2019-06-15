@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPControls, IWMPControls interface [Windows Media Player], IWMPControls interface [Windows Media Player],described, IWMPControlsInterface, wmp.iwmpcontrols, wmp/IWMPControls
 ms.topic: interface
+f1_keywords: ["wmp/IWMPControls"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

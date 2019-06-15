@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsQuery, DnsQuery function [DNS], DnsQuery_A, DnsQuery_UTF8, DnsQuery_W, _dns_dnsquery, dns.dnsquery, windns/DnsQuery, windns/DnsQuery_A, windns/DnsQuery_UTF8, windns/DnsQuery_W
 ms.topic: function
+f1_keywords: ["windns/DnsQuery"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

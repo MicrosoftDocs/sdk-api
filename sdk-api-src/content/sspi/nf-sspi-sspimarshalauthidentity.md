@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security], security.sspimarshalauthidentity, sspi/SspiMarshalAuthIdentity
 ms.topic: function
+f1_keywords: ["sspi/SspiMarshalAuthIdentity"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

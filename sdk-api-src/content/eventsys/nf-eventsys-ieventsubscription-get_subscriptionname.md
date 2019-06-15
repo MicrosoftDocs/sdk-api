@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriptionName property, IEventSubscription.SubscriptionName, IEventSubscription.get_SubscriptionName, IEventSubscription::SubscriptionName, IEventSubscription::get_SubscriptionName, IEventSubscription::put_SubscriptionName, SubscriptionName property [COM+], SubscriptionName property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionname, eventsys/IEventSubscription::SubscriptionName, eventsys/IEventSubscription::get_SubscriptionName, eventsys/IEventSubscription::put_SubscriptionName, get_SubscriptionName
 ms.topic: method
+f1_keywords: ["eventsys/IEventSubscription.SubscriptionName"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

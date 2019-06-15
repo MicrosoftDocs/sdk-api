@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WFDCancelOpenSession, WFDCancelOpenSession function [NativeWIFI], nwifi.wfdcancelopensession, wlanapi/WFDCancelOpenSession
 ms.topic: function
+f1_keywords: ["wlanapi/WFDCancelOpenSession"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

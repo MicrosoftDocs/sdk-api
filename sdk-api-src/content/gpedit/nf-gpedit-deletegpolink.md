@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteGPOLink, DeleteGPOLink function [Group Policy], _win32_deletegpolink, gpedit/DeleteGPOLink, policy.deletegpolink
 ms.topic: function
+f1_keywords: ["gpedit/DeleteGPOLink"]
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_RECORD_ADDED, PEER_RECORD_CHANGE_TYPE, PEER_RECORD_CHANGE_TYPE enumeration [Peer Networking], PEER_RECORD_DELETED, PEER_RECORD_EXPIRED, PEER_RECORD_UPDATED, p2p.peer_record_change_type, p2p/PEER_RECORD_ADDED, p2p/PEER_RECORD_CHANGE_TYPE, p2p/PEER_RECORD_DELETED, p2p/PEER_RECORD_EXPIRED, p2p/PEER_RECORD_UPDATED
 ms.topic: enum
+f1_keywords: ["p2p/PEER_RECORD_CHANGE_TYPE"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

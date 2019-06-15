@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DuplicateIcon, DuplicateIcon function [Windows Shell], _shell_DuplicateIcon, shell.DuplicateIcon, shellapi/DuplicateIcon
 ms.topic: function
+f1_keywords: ["shellapi/DuplicateIcon"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

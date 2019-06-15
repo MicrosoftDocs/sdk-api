@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer_AddRef, CStdStubBuffer_AddRef function [RPC], rpc.cstdstubbuffer_addref, rpcproxy/CStdStubBuffer_AddRef
 ms.topic: function
+f1_keywords: ["rpcproxy/CStdStubBuffer_AddRef"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

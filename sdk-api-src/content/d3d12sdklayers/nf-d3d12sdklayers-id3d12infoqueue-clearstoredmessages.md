@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearStoredMessages, ClearStoredMessages method, ClearStoredMessages method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearStoredMessages method, ID3D12InfoQueue.ClearStoredMessages, ID3D12InfoQueue::ClearStoredMessages, d3d12sdklayers/ID3D12InfoQueue::ClearStoredMessages, direct3d12.id3d12infoqueue_clearstoredmessages
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.ClearStoredMessages"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

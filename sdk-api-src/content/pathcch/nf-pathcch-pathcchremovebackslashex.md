@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveBackslashEx, PathCchRemoveBackslashEx function [Windows Shell], pathcch/PathCchRemoveBackslashEx, shell.PathCchRemoveBackslashEx
 ms.topic: function
+f1_keywords: ["pathcch/PathCchRemoveBackslashEx"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

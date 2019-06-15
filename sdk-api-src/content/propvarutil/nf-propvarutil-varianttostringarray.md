@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToStringArray, VariantToStringArray function [Windows Properties], _shell_VariantToStringArray, properties.VariantToStringArray, propvarutil/VariantToStringArray, shell.VariantToStringArray
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToStringArray"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity interface,TraceLoggingThreadActivity method, TraceLoggingThreadActivity method, TraceLoggingThreadActivity method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity.TraceLoggingThreadActivity, TraceLoggingThreadActivity::TraceLoggingThreadActivity, tracelogging.traceloggingthreadactivity_traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity
 ms.topic: method
+f1_keywords: ["traceloggingactivity/TraceLoggingThreadActivity.TraceLoggingThreadActivity"]
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

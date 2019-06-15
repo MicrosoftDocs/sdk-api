@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleUninitialize, OleUninitialize function [COM], _ole_OleUninitialize, com.oleuninitialize, ole2/OleUninitialize
 ms.topic: function
+f1_keywords: ["ole2/OleUninitialize"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

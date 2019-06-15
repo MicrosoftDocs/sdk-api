@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA, mf.d3d11_key_exchange_hw_protection_output_data
 ms.topic: struct
+f1_keywords: ["d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_OUTPUT_DATA"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

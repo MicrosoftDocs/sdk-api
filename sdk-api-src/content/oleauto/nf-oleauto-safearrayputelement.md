@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayPutElement, SafeArrayPutElement function [Automation], _oa96_SafeArrayPutElement, automat.safearrayputelement, oleauto/SafeArrayPutElement
 ms.topic: function
+f1_keywords: ["oleauto/SafeArrayPutElement"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

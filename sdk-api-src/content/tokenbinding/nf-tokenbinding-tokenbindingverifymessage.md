@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
 ms.topic: function
+f1_keywords: ["tokenbinding/TokenBindingVerifyMessage"]
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

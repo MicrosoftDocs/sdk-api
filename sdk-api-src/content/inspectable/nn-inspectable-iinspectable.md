@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectable interface [Windows Runtime],described, inspectable/IInspectable, winrt.iinspectable
 ms.topic: interface
+f1_keywords: ["inspectable/IInspectable"]
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows

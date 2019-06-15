@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdBlt, DdBlt callback function [Display Devices], PDD_SURFCB_BLT, PDD_SURFCB_BLT callback, ddfncs_464b3f37-739d-45c9-955d-3103c6a21047.xml, ddrawint/DdBlt, display.ddblt
 ms.topic: callback
+f1_keywords: ["ddrawint/DdBlt"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

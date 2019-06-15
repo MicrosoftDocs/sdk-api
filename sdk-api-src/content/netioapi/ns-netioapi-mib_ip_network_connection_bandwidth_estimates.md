@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure [MIB], PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES structure pointer [MIB], mib.mib_ip_network_connection_bandwidth_estimates, netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES, netioapi/PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"
 ms.topic: struct
+f1_keywords: ["netioapi/MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

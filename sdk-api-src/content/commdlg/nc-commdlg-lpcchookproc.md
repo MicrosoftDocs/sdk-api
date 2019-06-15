@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCHookProc, LPCCHOOKPROC, LPCCHOOKPROC callback, LPCCHOOKPROC callback function [Dialog Boxes], _win32_CCHookProc, _win32_cchookproc_cpp, commdlg/LPCCHOOKPROC, dlgbox.cchookproc, winui._win32_cchookproc
 ms.topic: callback
+f1_keywords: ["commdlg/LPCCHOOKPROC"]
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

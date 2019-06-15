@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstringWithSpecifiedLength, WindowsSubstringWithSpecifiedLength function [Windows Runtime], winrt.windowssubstringwithspecifiedlength, winstring/WindowsSubstringWithSpecifiedLength
 ms.topic: function
+f1_keywords: ["winstring/WindowsSubstringWithSpecifiedLength"]
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

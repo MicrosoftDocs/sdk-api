@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTechniqueByIndex, GetTechniqueByIndex method [Direct3D 10], GetTechniqueByIndex method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetTechniqueByIndex method, ID3D10Effect.GetTechniqueByIndex, ID3D10Effect::GetTechniqueByIndex, d3d10effect/ID3D10Effect::GetTechniqueByIndex, direct3d10.id3d10effect_gettechniquebyindex, fa1352dd-acaf-8d2f-cb41-b99cf103e21b
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10Effect.GetTechniqueByIndex"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

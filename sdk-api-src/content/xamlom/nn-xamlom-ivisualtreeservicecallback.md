@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeServiceCallback, IVisualTreeServiceCallback interface, IVisualTreeServiceCallback interface,described, xaml_diagnostics.ivisualtreeservicecallback, xamlom/IVisualTreeServiceCallback
 ms.topic: interface
+f1_keywords: ["xamlom/IVisualTreeServiceCallback"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

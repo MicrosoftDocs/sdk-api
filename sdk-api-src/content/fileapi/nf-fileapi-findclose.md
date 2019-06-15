@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindClose, FindClose function [Files], _win32_findclose, base.findclose, fileapi/FindClose, fs.findclose, winbase/FindClose
 ms.topic: function
+f1_keywords: ["fileapi/FindClose"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

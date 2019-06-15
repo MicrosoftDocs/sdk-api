@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoFreeAllLibraries, CoFreeAllLibraries function [COM], _com_CoFreeAllLibraries, com.cofreealllibraries, objbase/CoFreeAllLibraries
 ms.topic: function
+f1_keywords: ["objbase/CoFreeAllLibraries"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

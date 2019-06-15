@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchAddBackslashEx, PathCchAddBackslashEx function [Windows Shell], pathcch/PathCchAddBackslashEx, shell.PathCchAddBackslashEx
 ms.topic: function
+f1_keywords: ["pathcch/PathCchAddBackslashEx"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
 ms.topic: function
+f1_keywords: ["slpublic/SLFireEvent"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

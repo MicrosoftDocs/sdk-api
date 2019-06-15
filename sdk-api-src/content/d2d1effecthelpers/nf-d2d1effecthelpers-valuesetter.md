@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ValueSetter, ValueSetter function [Direct2D], d2d1effecthelpers/ValueSetter, direct2d.valuesetter
 ms.topic: function
+f1_keywords: ["d2d1effecthelpers/ValueSetter"]
 req.header: d2d1effecthelpers.h
 req.include-header: 
 req.target-type: Windows

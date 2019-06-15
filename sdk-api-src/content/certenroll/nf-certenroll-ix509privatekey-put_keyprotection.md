@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],KeyProtection property, IX509PrivateKey.KeyProtection, IX509PrivateKey.put_KeyProtection, IX509PrivateKey::KeyProtection, IX509PrivateKey::get_KeyProtection, IX509PrivateKey::put_KeyProtection, KeyProtection property [Security], KeyProtection property [Security],IX509PrivateKey interface, XCN_NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, XCN_NCRYPT_UI_NO_PROTECTION_FLAG, XCN_NCRYPT_UI_PROTECT_KEY_FLAG, certenroll/IX509PrivateKey::KeyProtection, certenroll/IX509PrivateKey::get_KeyProtection, certenroll/IX509PrivateKey::put_KeyProtection, put_KeyProtection, security.ix509privatekey_keyprotection
 ms.topic: method
+f1_keywords: ["certenroll/IX509PrivateKey.KeyProtection"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

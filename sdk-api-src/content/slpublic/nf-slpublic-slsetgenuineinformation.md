@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLSetGenuineInformation, SLSetGenuineInformation function [Security], SL_BRT_COMMIT, SL_BRT_DATA, security.slsetgenuineinformation, slpublic/SLSetGenuineInformation
 ms.topic: function
+f1_keywords: ["slpublic/SLSetGenuineInformation"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

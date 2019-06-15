@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfigV4, DhcpServerSetConfigV4 function [DHCP], Set_APIProtocolSupport, Set_AuditLogState, Set_BackupInterval, Set_BackupPath, Set_BootFileTable, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_DebugFlag, Set_PingRetries, Set_RestoreFlag, dhcp.dhcpserversetconfigv4, dhcpsapi/DhcpServerSetConfigV4
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerSetConfigV4"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

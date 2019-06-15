@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiDecryptAuthIdentity, SspiDecryptAuthIdentity function [Security], security.sspidecryptauthidentity, sspi/SspiDecryptAuthIdentity
 ms.topic: function
+f1_keywords: ["sspi/SspiDecryptAuthIdentity"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

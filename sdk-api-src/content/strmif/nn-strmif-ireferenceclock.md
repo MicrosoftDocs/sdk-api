@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
 ms.topic: interface
+f1_keywords: ["strmif/IReferenceClock"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

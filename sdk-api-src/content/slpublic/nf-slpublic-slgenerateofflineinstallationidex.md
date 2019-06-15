@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGenerateOfflineInstallationIdEx, SLGenerateOfflineInstallationIdEx function [Security], security.slgenerateofflineinstallationidex, slpublic/SLGenerateOfflineInstallationIdEx
 ms.topic: function
+f1_keywords: ["slpublic/SLGenerateOfflineInstallationIdEx"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

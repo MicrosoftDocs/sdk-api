@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoContentType, codecapi/eAVEncVideoContentType_FixedCameraAngle, codecapi/eAVEncVideoContentType_Unknown, eAVEncVideoContentType, eAVEncVideoContentType enumeration [Media Foundation], eAVEncVideoContentType_FixedCameraAngle, eAVEncVideoContentType_Unknown, mf.eavencvideocontenttype
 ms.topic: enum
+f1_keywords: ["codecapi/eAVEncVideoContentType"]
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

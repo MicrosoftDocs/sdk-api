@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], ContextInfo interface [COM+],described, _cos_ContextInfo, comsvcs/ContextInfo, cos.contextinfo
 ms.topic: interface
+f1_keywords: ["comsvcs/ContextInfo"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

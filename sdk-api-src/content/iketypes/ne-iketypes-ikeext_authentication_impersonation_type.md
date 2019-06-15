@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE, IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE enumeration [Filtering], IKEEXT_IMPERSONATION_MAX, IKEEXT_IMPERSONATION_NONE, IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL, fwp.ikeext_authentication_impersonation_type, iketypes/IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE, iketypes/IKEEXT_IMPERSONATION_MAX, iketypes/IKEEXT_IMPERSONATION_NONE, iketypes/IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL
 ms.topic: enum
+f1_keywords: ["iketypes/IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE"]
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

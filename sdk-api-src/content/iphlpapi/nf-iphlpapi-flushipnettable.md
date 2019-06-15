@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushIpNetTable, FlushIpNetTable function [IP Helper], _iphlp_flushipnettable, iphlp.flushipnettable, iphlpapi/FlushIpNetTable
 ms.topic: function
+f1_keywords: ["iphlpapi/FlushIpNetTable"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

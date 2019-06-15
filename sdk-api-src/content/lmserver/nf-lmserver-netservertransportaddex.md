@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetServerTransportAddEx, NetServerTransportAddEx function [Network Management], _win32_netservertransportaddex, lmserver/NetServerTransportAddEx, netmgmt.netservertransportaddex
 ms.topic: function
+f1_keywords: ["lmserver/NetServerTransportAddEx"]
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

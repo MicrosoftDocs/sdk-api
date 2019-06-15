@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetIntervalTime, DRMGetIntervalTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetIntervalTime, rm.drmgetintervaltime
 ms.topic: function
+f1_keywords: ["msdrm/DRMGetIntervalTime"]
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

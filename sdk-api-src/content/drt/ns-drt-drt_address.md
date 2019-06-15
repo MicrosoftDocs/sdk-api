@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_ADDRESS, DRT_ADDRESS, DRT_ADDRESS structure [Peer Networking], PDRT_ADDRESS, PDRT_ADDRESS structure pointer [Peer Networking], drt/DRT_ADDRESS, drt/PDRT_ADDRESS, p2p.drt_address"
 ms.topic: struct
+f1_keywords: ["drt/DRT_ADDRESS"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

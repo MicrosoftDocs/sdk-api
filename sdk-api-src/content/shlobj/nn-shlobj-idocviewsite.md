@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDocViewSite, IDocViewSite interface [Windows Shell], IDocViewSite interface [Windows Shell],described, _win32_IDocViewSite, shell.IDocViewSite, shlobj/IDocViewSite
 ms.topic: interface
+f1_keywords: ["shlobj/IDocViewSite"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

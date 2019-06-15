@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLSA_STRING, LSA_STRING, LSA_STRING structure [Security], PLSA_STRING, PLSA_STRING structure pointer [Security], _lsa_lsa_string, lsalookup/LSA_STRING, lsalookup/PLSA_STRING, security.lsa_string"
 ms.topic: struct
+f1_keywords: ["lsalookup/LSA_STRING"]
 req.header: lsalookup.h
 req.include-header: 
 req.target-type: Windows

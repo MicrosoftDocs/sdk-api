@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackupClusterDatabase, BackupClusterDatabase function [Failover Cluster], _wolf_backupclusterdatabase, clusapi/BackupClusterDatabase, mscs.backupclusterdatabase
 ms.topic: function
+f1_keywords: ["clusapi/BackupClusterDatabase"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

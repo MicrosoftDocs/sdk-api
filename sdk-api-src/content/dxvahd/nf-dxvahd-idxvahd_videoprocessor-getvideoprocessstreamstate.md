@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessStreamState, GetVideoProcessStreamState method [Media Foundation], GetVideoProcessStreamState method [Media Foundation],IDXVAHD_VideoProcessor interface, IDXVAHD_VideoProcessor interface [Media Foundation],GetVideoProcessStreamState method, IDXVAHD_VideoProcessor.GetVideoProcessStreamState, IDXVAHD_VideoProcessor::GetVideoProcessStreamState, dxvahd/IDXVAHD_VideoProcessor::GetVideoProcessStreamState, mf.idxvahd_videoprocessor_getvideoprocessstreamstate
 ms.topic: method
+f1_keywords: ["dxvahd/IDXVAHD_VideoProcessor.GetVideoProcessStreamState"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

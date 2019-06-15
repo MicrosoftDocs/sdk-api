@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateKey, CryptXmlDllCreateKey callback, CryptXmlDllCreateKey callback function [Security], cryptxml/CryptXmlDllCreateKey, security.cryptxmldllcreatekey
 ms.topic: callback
+f1_keywords: ["cryptxml/CryptXmlDllCreateKey"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

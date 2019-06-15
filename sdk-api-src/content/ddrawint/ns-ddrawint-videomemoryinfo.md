@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO, LPVIDEOMEMORYINFO structure pointer [Display Devices], VIDEOMEMORYINFO, VIDEOMEMORYINFO structure [Display Devices], ddrawint/LPVIDEOMEMORYINFO, ddrawint/VIDEOMEMORYINFO, ddstrcts_7fe9cc27-40d0-41f7-b225-51cc97bc8fa0.xml, display.videomemoryinfo"
 ms.topic: struct
+f1_keywords: ["ddrawint/VIDEOMEMORYINFO"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

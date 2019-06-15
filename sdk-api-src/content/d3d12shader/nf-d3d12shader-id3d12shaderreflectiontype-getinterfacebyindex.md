@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceByIndex, GetInterfaceByIndex method, GetInterfaceByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetInterfaceByIndex method, ID3D12ShaderReflectionType.GetInterfaceByIndex, ID3D12ShaderReflectionType::GetInterfaceByIndex, d3d12shader/ID3D12ShaderReflectionType::GetInterfaceByIndex, direct3d12.id3d12shaderreflectiontype_getinterfacebyindex
 ms.topic: method
+f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType.GetInterfaceByIndex"]
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

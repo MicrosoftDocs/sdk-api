@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],Refresh method, IFaxDevice.Refresh, IFaxDevice::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxDevice interface, _mfax_faxdevice.refresh, fax._mfax_faxdevice_cpp_mfax_faxdevice_refresh_cpp, fax._mfax_faxdevice_refresh, faxcomex/IFaxDevice::Refresh
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDevice.Refresh"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

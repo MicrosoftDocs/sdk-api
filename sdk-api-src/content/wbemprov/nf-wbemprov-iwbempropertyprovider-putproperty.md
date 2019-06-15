@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPropertyProvider interface [Windows Management Instrumentation],PutProperty method, IWbemPropertyProvider.PutProperty, IWbemPropertyProvider::PutProperty, PutProperty, PutProperty method [Windows Management Instrumentation], PutProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, _hmm_iwbempropertyprovider_putproperty, wbemprov/IWbemPropertyProvider::PutProperty, wmi.iwbempropertyprovider_putproperty
 ms.topic: method
+f1_keywords: ["wbemprov/IWbemPropertyProvider.PutProperty"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

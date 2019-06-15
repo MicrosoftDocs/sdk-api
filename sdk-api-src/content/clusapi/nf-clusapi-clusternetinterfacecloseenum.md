@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterNetInterfaceCloseEnum, ClusterNetInterfaceCloseEnum function [Failover Cluster], clusapi/ClusterNetInterfaceCloseEnum, mscs.clusternetinterfacecloseenum
 ms.topic: function
+f1_keywords: ["clusapi/ClusterNetInterfaceCloseEnum"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

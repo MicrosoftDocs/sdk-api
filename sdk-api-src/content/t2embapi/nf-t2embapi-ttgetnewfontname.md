@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTGetNewFontName, TTGetNewFontName function [Windows GDI], _win32_TTGetNewFontName, gdi.ttgetnewfontname, t2embapi/TTGetNewFontName
 ms.topic: function
+f1_keywords: ["t2embapi/TTGetNewFontName"]
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

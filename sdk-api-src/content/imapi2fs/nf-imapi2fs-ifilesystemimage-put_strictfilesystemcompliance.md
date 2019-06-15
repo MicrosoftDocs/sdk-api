@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_StrictFileSystemCompliance method, IFileSystemImage.put_StrictFileSystemCompliance, IFileSystemImage::put_StrictFileSystemCompliance, imapi.ifilesystemimage_put_strictfilesystemcompliance, imapi2fs/IFileSystemImage::put_StrictFileSystemCompliance, put_StrictFileSystemCompliance, put_StrictFileSystemCompliance method [IMAPI], put_StrictFileSystemCompliance method [IMAPI],IFileSystemImage interface
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.put_StrictFileSystemCompliance"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

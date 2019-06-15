@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Shell], GetCurrentSelection method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetCurrentSelection method, IFileDialog.GetCurrentSelection, IFileDialog::GetCurrentSelection, shell.IFileDialog_GetCurrentSelection, shell_IFileDialog_GetCurrentSelection, shobjidl_core/IFileDialog::GetCurrentSelection
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialog.GetCurrentSelection"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

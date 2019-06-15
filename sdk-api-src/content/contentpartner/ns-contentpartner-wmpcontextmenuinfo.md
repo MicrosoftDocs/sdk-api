@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.wmpcontextmenuinfo
 ms.topic: struct
+f1_keywords: ["contentpartner/WMPContextMenuInfo"]
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

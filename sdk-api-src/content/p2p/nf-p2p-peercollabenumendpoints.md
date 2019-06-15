@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabEnumEndpoints"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

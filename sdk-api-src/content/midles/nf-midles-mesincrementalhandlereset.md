@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesIncrementalHandleReset, MesIncrementalHandleReset function [RPC], _rpc_mesincrementalhandlereset, midles/MesIncrementalHandleReset, rpc.mesincrementalhandlereset
 ms.topic: function
+f1_keywords: ["midles/MesIncrementalHandleReset"]
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

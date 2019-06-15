@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Translation, D2D1::Matrix3x2F::Translation, Matrix3x2F class [Direct2D],Translation method, Matrix3x2F.Translation, Matrix3x2F.Translation(FLOAT,FLOAT), Matrix3x2F::Translation, Matrix3x2F::Translation(FLOAT,FLOAT), Translation, Translation method [Direct2D], Translation method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Translation, direct2d.matrix3x2f_translation_float_float_
 ms.topic: method
+f1_keywords: ["d2d1helper/Matrix3x2F.Translation"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

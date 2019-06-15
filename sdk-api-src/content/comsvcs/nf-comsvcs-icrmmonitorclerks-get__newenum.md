@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],get__NewEnum method, ICrmMonitorClerks.get__NewEnum, ICrmMonitorClerks::get__NewEnum, _dtc_ICrmMonitorClerks__NewEnum, comsvcs/ICrmMonitorClerks::get__NewEnum, cos.icrmmonitorclerks_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ICrmMonitorClerks interface
 ms.topic: method
+f1_keywords: ["comsvcs/ICrmMonitorClerks.get__NewEnum"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

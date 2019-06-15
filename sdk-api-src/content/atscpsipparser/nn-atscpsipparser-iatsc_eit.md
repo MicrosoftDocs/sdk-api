@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSC_EIT, IATSC_EIT interface [Microsoft TV Technologies], IATSC_EIT interface [Microsoft TV Technologies],described, IATSC_EITInterface, atscpsipparser/IATSC_EIT, mstv.iatsc_eit
 ms.topic: interface
+f1_keywords: ["atscpsipparser/IATSC_EIT"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

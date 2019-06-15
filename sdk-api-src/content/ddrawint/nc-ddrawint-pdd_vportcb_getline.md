@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetLine, DdVideoPortGetLine callback function [Display Devices], PDD_VPORTCB_GETLINE, PDD_VPORTCB_GETLINE callback, ddfncs_7695bbcc-355a-4934-bf3f-ad9a58607917.xml, ddrawint/DdVideoPortGetLine, display.ddvideoportgetline
 ms.topic: callback
+f1_keywords: ["ddrawint/DdVideoPortGetLine"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

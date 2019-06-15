@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT, CLASS_MEDIA_CHANGE_CONTEXT structure, MediaNotPresent, MediaPresent, MediaUnavailable, MediaUnknown, PCLASS_MEDIA_CHANGE_CONTEXT, PCLASS_MEDIA_CHANGE_CONTEXT structure pointer, _win32_class_media_change_context_str, base.class_media_change_context_str, winioctl/CLASS_MEDIA_CHANGE_CONTEXT, winioctl/PCLASS_MEDIA_CHANGE_CONTEXT"
 ms.topic: struct
+f1_keywords: ["winioctl/CLASS_MEDIA_CHANGE_CONTEXT"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

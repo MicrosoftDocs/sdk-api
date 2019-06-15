@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect, IDCompositionArithmeticCompositeEffect interface [DirectComposition], IDCompositionArithmeticCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionArithmeticCompositeEffect, directcomp.idcompositionarithmeticcompositeeffect
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionArithmeticCompositeEffect"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], IBDA_Encoder interface [Microsoft TV Technologies],described, bdaiface/IBDA_Encoder, mstv.ibda_encoder
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_Encoder"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_FILEEX_INFO_LEVELS, GET_FILEEX_INFO_LEVELS enumeration [Files], GetFileExInfoStandard, GetFileExMaxInfoLevel, fs.get_fileex_info_levels, winbase/GET_FILEEX_INFO_LEVELS, winbase/GetFileExInfoStandard, winbase/GetFileExMaxInfoLevel
 ms.topic: enum
+f1_keywords: ["minwinbase/GET_FILEEX_INFO_LEVELS"]
 req.header: minwinbase.h
 req.include-header: Minwinbase.h, Windows.h
 req.target-type: Windows

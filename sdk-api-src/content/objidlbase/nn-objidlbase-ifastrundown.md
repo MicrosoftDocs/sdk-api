@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFastRundown, IFastRundown interface [COM], IFastRundown interface [COM],described, com.ifastrundown, objidl/IFastRundown
 ms.topic: interface
+f1_keywords: ["objidlbase/IFastRundown"]
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows

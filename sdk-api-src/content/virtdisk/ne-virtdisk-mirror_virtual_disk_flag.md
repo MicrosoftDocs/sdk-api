@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_FLAG, MIRROR_VIRTUAL_DISK_FLAG enumeration [VHD], MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, vdssys/MIRROR_VIRTUAL_DISK_FLAG, vdssys/MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, vdssys/MIRROR_VIRTUAL_DISK_FLAG_NONE, vhd.mirror_virtual_disk_flag, virtdisk/MIRROR_VIRTUAL_DISK_FLAG, virtdisk/MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, virtdisk/MIRROR_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
+f1_keywords: ["virtdisk/MIRROR_VIRTUAL_DISK_FLAG"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

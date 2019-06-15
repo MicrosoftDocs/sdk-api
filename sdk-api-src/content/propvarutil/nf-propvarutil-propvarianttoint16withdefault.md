@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16WithDefault, PropVariantToInt16WithDefault function [Windows Properties], properties.PropVariantToInt16WithDefault, propvarutil/PropVariantToInt16WithDefault, shell.PropVariantToInt16WithDefault, shell_PropVariantToInt16WithDefault
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToInt16WithDefault"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

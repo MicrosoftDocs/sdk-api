@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeMessage, WsFreeMessage function [Web Services for Windows], webservices/WsFreeMessage, wsw.wsfreemessage
 ms.topic: function
+f1_keywords: ["webservices/WsFreeMessage"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

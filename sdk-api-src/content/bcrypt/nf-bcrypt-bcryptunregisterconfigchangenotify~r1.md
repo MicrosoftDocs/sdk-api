@@ -4,6 +4,7 @@ title: BCryptUnregisterConfigChangeNotify
 ms.date: 01/30/19
 ms.keywords: BCryptUnregisterConfigChangeNotify
 ms.topic: language-reference
+f1_keywords: ["bcrypt/BCryptUnregisterConfigChangeNotify"]
 targetos: Windows
 product: Windows
 req.assembly: 

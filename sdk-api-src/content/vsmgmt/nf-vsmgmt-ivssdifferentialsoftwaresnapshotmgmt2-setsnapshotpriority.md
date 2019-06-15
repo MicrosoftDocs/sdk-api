@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority method, IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority, IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority, SetSnapshotPriority, SetSnapshotPriority method, SetSnapshotPriority method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
 ms.topic: method
+f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority"]
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

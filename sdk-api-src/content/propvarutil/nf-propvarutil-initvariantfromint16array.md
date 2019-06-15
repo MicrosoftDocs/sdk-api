@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt16Array, InitVariantFromInt16Array function [Windows Properties], _shell_InitVariantFromInt16Array, properties.InitVariantFromInt16Array, propvarutil/InitVariantFromInt16Array, shell.InitVariantFromInt16Array
 ms.topic: function
+f1_keywords: ["propvarutil/InitVariantFromInt16Array"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

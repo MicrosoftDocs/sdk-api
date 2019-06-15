@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl3, IWMDMStorageControl3 interface [windows Media Device Manager], IWMDMStorageControl3 interface [windows Media Device Manager],described, IWMDMStorageControl3Interface, mswmdm/IWMDMStorageControl3, wmdm.iwmdmstoragecontrol3
 ms.topic: interface
+f1_keywords: ["mswmdm/IWMDMStorageControl3"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceAddress property, IWdsTransportSession.NetworkInterfaceAddress, IWdsTransportSession.get_NetworkInterfaceAddress, IWdsTransportSession::NetworkInterfaceAddress, IWdsTransportSession::get_NetworkInterfaceAddress, NetworkInterfaceAddress property [Windows Deployment Services], NetworkInterfaceAddress property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceAddress, wds.iwdstransportsession_networkinterfaceaddress, wdstptmgmt/IWdsTransportSession::NetworkInterfaceAddress, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceAddress
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportSession.NetworkInterfaceAddress"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

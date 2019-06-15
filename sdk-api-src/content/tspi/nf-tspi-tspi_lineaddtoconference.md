@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineAddToConference, TSPI_lineAddToConference function [TAPI 2.2], _tspi_tspi_lineaddtoconference, tspi.tspi_lineaddtoconference, tspi/TSPI_lineAddToConference
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineAddToConference"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

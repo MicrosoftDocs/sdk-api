@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupNext, RpcNsBindingLookupNext function [RPC], _rpc_rpcnsbindinglookupnext, rpc.rpcnsbindinglookupnext, rpcnsi/RpcNsBindingLookupNext
 ms.topic: function
+f1_keywords: ["rpcnsi/RpcNsBindingLookupNext"]
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

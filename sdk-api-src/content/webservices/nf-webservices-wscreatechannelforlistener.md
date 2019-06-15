@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCreateChannelForListener, WsCreateChannelForListener function [Web Services for Windows], webservices/WsCreateChannelForListener, wsw.wscreatechannelforlistener
 ms.topic: function
+f1_keywords: ["webservices/WsCreateChannelForListener"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

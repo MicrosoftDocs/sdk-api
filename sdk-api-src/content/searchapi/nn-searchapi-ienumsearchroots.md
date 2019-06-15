@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchRoots, IEnumSearchRoots interface [search], IEnumSearchRoots interface [search],described, _search_IEnumSearchRoots, search._search_IEnumSearchRoots, searchapi/IEnumSearchRoots
 ms.topic: interface
+f1_keywords: ["searchapi/IEnumSearchRoots"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

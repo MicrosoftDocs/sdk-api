@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
 ms.topic: function
+f1_keywords: ["winbase/GlobalSize"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

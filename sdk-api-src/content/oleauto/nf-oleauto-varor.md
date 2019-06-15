@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarOr, VarOr function [Automation], _oa96_VarOr, automat.varor, oleauto/VarOr
 ms.topic: function
+f1_keywords: ["oleauto/VarOr"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

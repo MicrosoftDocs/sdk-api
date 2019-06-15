@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMI_OBJ_TEXT, WMI_OBJ_TEXT enumeration [Windows Management Instrumentation], WMI_OBJ_TEXT_CIM_DTD_2_0, WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_DTD_2_0, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, wbemcli/WMI_OBJ_TEXT, wbemcli/WMI_OBJ_TEXT_CIM_DTD_2_0, wbemcli/WMI_OBJ_TEXT_LAST, wbemcli/WMI_OBJ_TEXT_WMI_DTD_2_0, wbemcli/WMI_OBJ_TEXT_WMI_EXT1, wbemcli/WMI_OBJ_TEXT_WMI_EXT10, wbemcli/WMI_OBJ_TEXT_WMI_EXT2, wbemcli/WMI_OBJ_TEXT_WMI_EXT3, wbemcli/WMI_OBJ_TEXT_WMI_EXT4, wbemcli/WMI_OBJ_TEXT_WMI_EXT5, wbemcli/WMI_OBJ_TEXT_WMI_EXT6, wbemcli/WMI_OBJ_TEXT_WMI_EXT7, wbemcli/WMI_OBJ_TEXT_WMI_EXT8, wbemcli/WMI_OBJ_TEXT_WMI_EXT9, wmi.wmi_obj_text
 ms.topic: enum
+f1_keywords: ["wbemcli/WMI_OBJ_TEXT"]
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

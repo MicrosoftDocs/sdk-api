@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfReverseConversionList, ITfReverseConversionList interface [Text Services Framework], ITfReverseConversionList interface [Text Services Framework],described, msctf/ITfReverseConversionList, tsf.itfreverseconversionlist
 ms.topic: interface
+f1_keywords: ["msctf/ITfReverseConversionList"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

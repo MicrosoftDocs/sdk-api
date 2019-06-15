@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],get_Autotune method, IBDA_FrequencyFilter.get_Autotune, IBDA_FrequencyFilter::get_Autotune, IBDA_FrequencyFilterget_Autotune, bdaiface/IBDA_FrequencyFilter::get_Autotune, get_Autotune, get_Autotune method [Microsoft TV Technologies], get_Autotune method [Microsoft TV Technologies],IBDA_FrequencyFilter interface, mstv.ibda_frequencyfilter_get_autotune
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_FrequencyFilter.get_Autotune"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

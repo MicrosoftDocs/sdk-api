@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICGifCommentExtensionProperties, WICGifCommentExtensionProperties enumeration [Windows Imaging Component], WICGifCommentExtensionText, _wic_codec_wicgifcommentextensionproperties, wic._wic_codec_wicgifcommentextensionproperties, wincodec/WICGifCommentExtensionProperties, wincodec/WICGifCommentExtensionText
 ms.topic: enum
+f1_keywords: ["wincodec/WICGifCommentExtensionProperties"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

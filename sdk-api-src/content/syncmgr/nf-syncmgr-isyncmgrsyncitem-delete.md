@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Shell], Delete method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],Delete method, ISyncMgrSyncItem.Delete, ISyncMgrSyncItem::Delete, _shell_ISyncMgrSyncItem_Delete, shell.ISyncMgrSyncItem_Delete, syncmgr/ISyncMgrSyncItem::Delete
 ms.topic: method
+f1_keywords: ["syncmgr/ISyncMgrSyncItem.Delete"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

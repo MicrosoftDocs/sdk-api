@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
 ms.topic: function
+f1_keywords: ["lmjoin/NetSetPrimaryComputerName"]
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

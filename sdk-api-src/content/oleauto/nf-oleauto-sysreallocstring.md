@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysReAllocString, SysReAllocString function [Automation], _oa96_SysReAllocString, automat.sysreallocstring, oleauto/SysReAllocString
 ms.topic: function
+f1_keywords: ["oleauto/SysReAllocString"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

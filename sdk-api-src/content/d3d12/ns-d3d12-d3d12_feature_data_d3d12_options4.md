@@ -5,6 +5,7 @@ description: Indicates the level of support for 64KB-aligned MSAA textures, cros
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS4
 ms.topic: language-reference
+f1_keywords: ["d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS4"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

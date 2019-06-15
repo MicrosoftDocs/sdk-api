@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnmarshalClass, GetUnmarshalClass method [COM], GetUnmarshalClass method [COM],IMarshal interface, IMarshal interface [COM],GetUnmarshalClass method, IMarshal.GetUnmarshalClass, IMarshal::GetUnmarshalClass, _com_imarshal_getunmarshalclass, com.imarshal_getunmarshalclass, objidl/IMarshal::GetUnmarshalClass
 ms.topic: method
+f1_keywords: ["objidl/IMarshal.GetUnmarshalClass"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

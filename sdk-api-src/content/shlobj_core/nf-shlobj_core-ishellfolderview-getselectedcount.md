@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedCount, GetSelectedCount method [Windows Shell], GetSelectedCount method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedCount method, IShellFolderView.GetSelectedCount, IShellFolderView::GetSelectedCount, _shell_IShellFolderView_GetSelectedCount, shell.IShellFolderView_GetSelectedCount, shlobj_core/IShellFolderView::GetSelectedCount
 ms.topic: method
+f1_keywords: ["shlobj_core/IShellFolderView.GetSelectedCount"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

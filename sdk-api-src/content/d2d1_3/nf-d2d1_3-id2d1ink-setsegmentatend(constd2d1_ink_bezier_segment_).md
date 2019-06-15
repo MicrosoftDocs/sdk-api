@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Ink interface [Direct2D],SetSegmentAtEnd method, ID2D1Ink.SetSegmentAtEnd, ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &), ID2D1Ink::SetSegmentAtEnd, ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &), SetSegmentAtEnd, SetSegmentAtEnd method [Direct2D], SetSegmentAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend_2
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1Ink.SetSegmentAtEnd"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

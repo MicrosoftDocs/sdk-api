@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Reset method, IEnumExplorerCommand.Reset, IEnumExplorerCommand::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Reset, shell.IEnumExplorerCommand_Reset, shobjidl_core/IEnumExplorerCommand::Reset
 ms.topic: method
+f1_keywords: ["shobjidl_core/IEnumExplorerCommand.Reset"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

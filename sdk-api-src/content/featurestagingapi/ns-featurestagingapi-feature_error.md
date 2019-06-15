@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
 ms.topic: struct
+f1_keywords: ["featurestagingapi/FEATURE_ERROR"]
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

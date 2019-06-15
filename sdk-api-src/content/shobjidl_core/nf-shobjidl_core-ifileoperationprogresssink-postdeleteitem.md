@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostDeleteItem method, IFileOperationProgressSink.PostDeleteItem, IFileOperationProgressSink::PostDeleteItem, PostDeleteItem, PostDeleteItem method [Windows Shell], PostDeleteItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostDeleteItem, shell.IFileOperationProgressSink_PostDeleteItem, shobjidl_core/IFileOperationProgressSink::PostDeleteItem
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileOperationProgressSink.PostDeleteItem"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

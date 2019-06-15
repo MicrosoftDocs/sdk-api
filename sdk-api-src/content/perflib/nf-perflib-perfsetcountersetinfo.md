@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
 ms.topic: function
+f1_keywords: ["perflib/PerfSetCounterSetInfo"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

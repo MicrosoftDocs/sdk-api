@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OPM_OUTPUT_ID_DATA, OPM_OUTPUT_ID_DATA structure [Media Foundation], mf.opm_output_id_data, opmapi/OPM_OUTPUT_ID_DATA
 ms.topic: struct
+f1_keywords: ["opmapi/OPM_OUTPUT_ID_DATA"]
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

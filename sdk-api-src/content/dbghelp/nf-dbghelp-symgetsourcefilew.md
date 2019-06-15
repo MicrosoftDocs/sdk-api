@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFile, SymGetSourceFile function, SymGetSourceFileW, base.symgetsourcefile, dbghelp/SymGetSourceFile, dbghelp/SymGetSourceFileW
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetSourceFile"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

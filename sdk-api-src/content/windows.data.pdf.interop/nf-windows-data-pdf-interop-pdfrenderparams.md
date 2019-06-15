@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], windows/PdfRenderParams, winrt.pdfrenderparams
 ms.topic: function
+f1_keywords: ["windows.data.pdf.interop/PdfRenderParams"]
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

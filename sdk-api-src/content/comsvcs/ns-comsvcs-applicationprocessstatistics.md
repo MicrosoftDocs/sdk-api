@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessStatistics, ApplicationProcessStatistics structure [COM+], comsvcs/ApplicationProcessStatistics, cos.applicationprocessstatistics
 ms.topic: struct
+f1_keywords: ["comsvcs/ApplicationProcessStatistics"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

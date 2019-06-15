@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpFreeDescriptor, SnmpFreeDescriptor function [SNMP], _snmp_snmpfreedescriptor, snmp.snmpfreedescriptor, winsnmp/SnmpFreeDescriptor
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpFreeDescriptor"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

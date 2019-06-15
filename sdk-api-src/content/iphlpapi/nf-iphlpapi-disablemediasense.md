@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableMediaSense, DisableMediaSense function [IP Helper], iphlp.disablemediasense, iphlpapi/DisableMediaSense
 ms.topic: function
+f1_keywords: ["iphlpapi/DisableMediaSense"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

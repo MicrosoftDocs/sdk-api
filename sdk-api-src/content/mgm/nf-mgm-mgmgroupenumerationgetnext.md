@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGroupEnumerationGetNext, MgmGroupEnumerationGetNext function [RAS], _mpr_mgmgroupenumerationgetnext, mgm/MgmGroupEnumerationGetNext, rras.mgmgroupenumerationgetnext
 ms.topic: function
+f1_keywords: ["mgm/MgmGroupEnumerationGetNext"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

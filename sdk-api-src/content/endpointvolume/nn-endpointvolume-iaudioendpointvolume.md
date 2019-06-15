@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume, IAudioEndpointVolume interface [Core Audio], IAudioEndpointVolume interface [Core Audio],described, coreaudio.iaudioendpointvolume, endpointvolume/IAudioEndpointVolume
 ms.topic: interface
+f1_keywords: ["endpointvolume/IAudioEndpointVolume"]
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxWidth, GetMaxWidth method [Direct Write], GetMaxWidth method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetMaxWidth method, IDWriteTextLayout.GetMaxWidth, IDWriteTextLayout::GetMaxWidth, directwrite.IDWriteTextLayout_GetMaxWidth, dwrite/IDWriteTextLayout::GetMaxWidth
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.GetMaxWidth"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

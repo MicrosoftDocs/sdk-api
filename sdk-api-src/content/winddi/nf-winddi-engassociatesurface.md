@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngAssociateSurface, EngAssociateSurface function [Display Devices], display.engassociatesurface, gdifncs_6be89779-b79a-4620-b740-d702945464c5.xml, winddi/EngAssociateSurface
 ms.topic: function
+f1_keywords: ["winddi/EngAssociateSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

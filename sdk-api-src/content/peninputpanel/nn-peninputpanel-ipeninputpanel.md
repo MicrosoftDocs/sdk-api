@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPanel interface [Tablet PC],described, peninputpanel/IPenInputPanel, tablet.ipeninputpanel
 ms.topic: interface
+f1_keywords: ["peninputpanel/IPenInputPanel"]
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

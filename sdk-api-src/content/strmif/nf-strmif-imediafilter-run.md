@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],Run method, IMediaFilter.Run, IMediaFilter::Run, IMediaFilterRun, Run, Run method [DirectShow], Run method [DirectShow],IMediaFilter interface, dshow.imediafilter_run, strmif/IMediaFilter::Run
 ms.topic: method
+f1_keywords: ["strmif/IMediaFilter.Run"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

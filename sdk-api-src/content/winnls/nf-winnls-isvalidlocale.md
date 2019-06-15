@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidLocale, IsValidLocale function [Internationalization for Windows Applications], LCID_INSTALLED, LCID_SUPPORTED, _win32_IsValidLocale, intl.isvalidlocale, winnls/IsValidLocale
 ms.topic: function
+f1_keywords: ["winnls/IsValidLocale"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

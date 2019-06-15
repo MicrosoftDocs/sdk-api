@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorManagementVersion, GetColorManagementVersion method [Windows Imaging Component], GetColorManagementVersion method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetColorManagementVersion method, IWICBitmapCodecInfo.GetColorManagementVersion, IWICBitmapCodecInfo::GetColorManagementVersion, _wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wic._wic_codec_iwicbitmapcodecinfo_getcolormanagementversion, wincodec/IWICBitmapCodecInfo::GetColorManagementVersion
 ms.topic: method
+f1_keywords: ["wincodec/IWICBitmapCodecInfo.GetColorManagementVersion"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

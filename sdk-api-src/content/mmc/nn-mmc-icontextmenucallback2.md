@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextMenuCallback2, IContextMenuCallback2 interface [MMC], IContextMenuCallback2 interface [MMC],described, _slate_icontextmenucallback2, mmc.icontextmenucallback2, mmc/IContextMenuCallback2
 ms.topic: interface
+f1_keywords: ["mmc/IContextMenuCallback2"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

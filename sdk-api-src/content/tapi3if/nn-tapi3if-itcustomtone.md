@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone, ITCustomTone interface [TAPI 2.2], ITCustomTone interface [TAPI 2.2],described, _tapi3_itcustomtone, tapi3.itcustomtone, tapi3if/ITCustomTone
 ms.topic: interface
+f1_keywords: ["tapi3if/ITCustomTone"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

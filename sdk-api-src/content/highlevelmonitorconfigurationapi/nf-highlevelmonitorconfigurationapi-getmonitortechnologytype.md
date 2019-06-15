@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitorTechnologyType, GetMonitorTechnologyType function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorTechnologyType, monitor.getmonitortechnologytype
 ms.topic: function
+f1_keywords: ["highlevelmonitorconfigurationapi/GetMonitorTechnologyType"]
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

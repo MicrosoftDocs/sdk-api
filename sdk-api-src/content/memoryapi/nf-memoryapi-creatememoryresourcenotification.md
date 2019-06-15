@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMemoryResourceNotification, CreateMemoryResourceNotification function, HighMemoryResourceNotification, LowMemoryResourceNotification, _win32_creatememoryresourcenotification, base.creatememoryresourcenotification, winbase/CreateMemoryResourceNotification
 ms.topic: function
+f1_keywords: ["memoryapi/CreateMemoryResourceNotification"]
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

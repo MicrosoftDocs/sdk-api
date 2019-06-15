@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], IEnumOfflineFilesSettings interface [Offline Files],described, cscobj/IEnumOfflineFilesSettings, of.ienumofflinefilessettings
 ms.topic: interface
+f1_keywords: ["cscobj/IEnumOfflineFilesSettings"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

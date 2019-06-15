@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaHasServerSideProvider, UiaHasServerSideProvider function [Windows Accessibility], uiauto.uiauto_UiaHasServerSideProviderAutoMeth, uiauto_UiaHasServerSideProviderAutoMeth, uiautomationcoreapi/UiaHasServerSideProvider, winauto.uiauto_UiaHasServerSideProviderAutoMeth
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaHasServerSideProvider"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

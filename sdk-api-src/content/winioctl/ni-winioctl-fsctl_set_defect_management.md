@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_DEFECT_MANAGEMENT, FSCTL_SET_DEFECT_MANAGEMENT control, FSCTL_SET_DEFECT_MANAGEMENT control code [Files], fs.fsctl_set_defect_management, winioctl/FSCTL_SET_DEFECT_MANAGEMENT
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_SET_DEFECT_MANAGEMENT"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

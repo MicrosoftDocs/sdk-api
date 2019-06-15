@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT],described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
 ms.topic: interface
+f1_keywords: ["winsatcominterfacei/IQueryAllWinSATAssessments"]
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

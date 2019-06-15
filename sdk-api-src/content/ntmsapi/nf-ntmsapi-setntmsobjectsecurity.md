@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNtmsObjectSecurity, SetNtmsObjectSecurity function [Files], _zaw_setntmsobjectsecurity, base.setntmsobjectsecurity, fs.setntmsobjectsecurity, ntmsapi/SetNtmsObjectSecurity
 ms.topic: function
+f1_keywords: ["ntmsapi/SetNtmsObjectSecurity"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
 ms.topic: interface
+f1_keywords: ["objidl/IBlockingLock"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

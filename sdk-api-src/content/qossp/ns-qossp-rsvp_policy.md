@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRSVP_POLICY, *LPRSVP_POLICY structure [QOS], RSVP_POLICY, RSVP_POLICY structure [QOS], qos.rsvp_policy, qossp/*LPRSVP_POLICY, qossp/RSVP_POLICY"
 ms.topic: struct
+f1_keywords: ["qossp/RSVP_POLICY"]
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

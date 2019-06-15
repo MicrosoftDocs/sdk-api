@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkWriter interface [Media Foundation],described, mf.imfsinkwriter, mfreadwrite/IMFSinkWriter
 ms.topic: interface
+f1_keywords: ["mfreadwrite/IMFSinkWriter"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

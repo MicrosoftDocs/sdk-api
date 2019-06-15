@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcImpersonateClientContainer, RpcImpersonateClientContainer function [RPC], rpc.rpcimpersonateclientcontainer, rpcdce/RpcImpersonateClientContainer
 ms.topic: function
+f1_keywords: ["rpcdce/RpcImpersonateClientContainer"]
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows

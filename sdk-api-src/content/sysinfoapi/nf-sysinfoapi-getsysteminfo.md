@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemInfo, GetSystemInfo function, _win32_getsysteminfo, base.getsysteminfo, sysinfoapi/GetSystemInfo
 ms.topic: function
+f1_keywords: ["sysinfoapi/GetSystemInfo"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

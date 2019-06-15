@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SMMCDataObjects, SMMCDataObjects structure [MMC], _slate_smmcdataobjects, mmc.smmcdataobjects, mmc/SMMCDataObjects
 ms.topic: struct
+f1_keywords: ["mmc/SMMCDataObjects"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

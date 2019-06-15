@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBitmapFromWicBitmap, CreateBitmapFromWicBitmap interface [Direct2D],CreateBitmapFromWicBitmap method, CreateBitmapFromWicBitmap method [Direct2D], CreateBitmapFromWicBitmap method [Direct2D],CreateBitmapFromWicBitmap interface, CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap, ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1), ID2D1DeviceContext::CreateBitmapFromWicBitmap, ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,ID2D1Bitmap1), d2d1_3/CreateBitmapFromWicBitmap::CreateBitmapFromWicBitmap, direct2d.id2d1devicecontext_createbitmapfromwicbitmap_3
 ms.topic: method
+f1_keywords: ["d2d1_1/CreateBitmapFromWicBitmap.CreateBitmapFromWicBitmap"]
 req.header: d2d1_1.h
 req.include-header: D2d1_1.h
 req.target-type: Windows

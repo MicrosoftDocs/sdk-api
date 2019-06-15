@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_SpectralInversion method, IBDA_DigitalDemodulator.put_SpectralInversion, IBDA_DigitalDemodulator::put_SpectralInversion, IBDA_DigitalDemodulatorput_SpectralInversion, bdaiface/IBDA_DigitalDemodulator::put_SpectralInversion, mstv.ibda_digitaldemodulator_put_spectralinversion, put_SpectralInversion, put_SpectralInversion method [Microsoft TV Technologies], put_SpectralInversion method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_DigitalDemodulator.put_SpectralInversion"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

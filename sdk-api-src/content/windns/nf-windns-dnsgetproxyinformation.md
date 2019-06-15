@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.dnsgetproxyinformation, windns/DnsGetProxyInformation
 ms.topic: function
+f1_keywords: ["windns/DnsGetProxyInformation"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

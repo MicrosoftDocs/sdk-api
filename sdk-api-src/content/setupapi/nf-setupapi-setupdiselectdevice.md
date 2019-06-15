@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiSelectDevice, SetupDiSelectDevice function [Device and Driver Installation], devinst.setupdiselectdevice, di-rtns_0cbab99d-4106-4e25-81fc-68034d9f464d.xml, setupapi/SetupDiSelectDevice
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiSelectDevice"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

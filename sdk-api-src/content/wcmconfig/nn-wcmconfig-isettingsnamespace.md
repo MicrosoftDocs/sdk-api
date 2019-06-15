@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI],described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
 ms.topic: interface
+f1_keywords: ["wcmconfig/ISettingsNamespace"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

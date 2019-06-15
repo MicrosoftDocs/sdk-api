@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFileManagementJob, CreateFileManagementJob method [File Server Resource Manager], CreateFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, CreateFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager interface [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager.CreateFileManagementJob, IFsrmFileManagementJobManager::CreateFileManagementJob, fs.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::CreateFileManagementJob
 ms.topic: method
+f1_keywords: ["fsrmreports/IFsrmFileManagementJobManager.CreateFileManagementJob"]
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

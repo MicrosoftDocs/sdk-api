@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_INTEGRITY_MD5, IKEEXT_INTEGRITY_SHA1, IKEEXT_INTEGRITY_SHA_256, IKEEXT_INTEGRITY_SHA_384, IKEEXT_INTEGRITY_TYPE, IKEEXT_INTEGRITY_TYPE enumeration [Filtering], IKEEXT_INTEGRITY_TYPE_MAX, fwp.ikeext_integrity_type, iketypes/IKEEXT_INTEGRITY_MD5, iketypes/IKEEXT_INTEGRITY_SHA1, iketypes/IKEEXT_INTEGRITY_SHA_256, iketypes/IKEEXT_INTEGRITY_SHA_384, iketypes/IKEEXT_INTEGRITY_TYPE, iketypes/IKEEXT_INTEGRITY_TYPE_MAX
 ms.topic: enum
+f1_keywords: ["iketypes/IKEEXT_INTEGRITY_TYPE"]
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

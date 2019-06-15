@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WIC8BIMEmbeddedIPTC, WIC8BIMIptcPString, WIC8BIMIptcProperties, WIC8BIMIptcProperties enumeration [Windows Imaging Component], _wic_codec_wic8bimiptcproperties, wic._wic_codec_wic8bimiptcproperties, wincodec/WIC8BIMEmbeddedIPTC, wincodec/WIC8BIMIptcPString, wincodec/WIC8BIMIptcProperties
 ms.topic: enum
+f1_keywords: ["wincodec/WIC8BIMIptcProperties"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

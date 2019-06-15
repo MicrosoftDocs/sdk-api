@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1e68f701-f012-40bb-8ee4-a47da80cb8d6, IPT_Ball, IPT_Rectangle, InkPenTip, InkPenTip enumeration [Tablet PC], msinkaut/IPT_Ball, msinkaut/IPT_Rectangle, msinkaut/InkPenTip, tablet.inkpentip
 ms.topic: enum
+f1_keywords: ["msinkaut/InkPenTip"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

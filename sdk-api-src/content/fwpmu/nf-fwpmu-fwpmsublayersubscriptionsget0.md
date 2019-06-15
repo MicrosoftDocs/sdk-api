@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerSubscriptionsGet0, FwpmSubLayerSubscriptionsGet0 function [Filtering], fwp.fwpmsublayersubscriptionsget0_func, fwpmu/FwpmSubLayerSubscriptionsGet0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmSubLayerSubscriptionsGet0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

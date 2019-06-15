@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcBindingReset, RpcBindingReset function [RPC], _rpc_rpcbindingreset, rpc.rpcbindingreset, rpcdce/RpcBindingReset
 ms.topic: function
+f1_keywords: ["rpcdce/RpcBindingReset"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

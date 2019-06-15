@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAlternativeNames interface [Security],ItemByIndex property, IAlternativeNames.ItemByIndex, IAlternativeNames.get_ItemByIndex, IAlternativeNames::ItemByIndex, IAlternativeNames::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IAlternativeNames interface, certenroll/IAlternativeNames::ItemByIndex, certenroll/IAlternativeNames::get_ItemByIndex, get_ItemByIndex, security.ialternativenames_itembyindex_property
 ms.topic: method
+f1_keywords: ["certenroll/IAlternativeNames.ItemByIndex"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

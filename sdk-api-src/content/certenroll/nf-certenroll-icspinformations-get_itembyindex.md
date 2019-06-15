@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformations interface [Security],ItemByIndex property, ICspInformations.ItemByIndex, ICspInformations.get_ItemByIndex, ICspInformations::ItemByIndex, ICspInformations::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByIndex, certenroll/ICspInformations::get_ItemByIndex, get_ItemByIndex, security.icspinformations_itembyindex_property
 ms.topic: method
+f1_keywords: ["certenroll/ICspInformations.ItemByIndex"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightness class [GDI+],SetParameters method, HueSaturationLightness.SetParameters, HueSaturationLightness::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],HueSaturationLightness class, _gdiplus_CLASS_HueSaturationLightness_SetParameters_, gdiplus._gdiplus_CLASS_HueSaturationLightness_SetParameters_
 ms.topic: method
+f1_keywords: ["gdipluseffects/HueSaturationLightness.SetParameters"]
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

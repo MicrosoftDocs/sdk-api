@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_MaySaveChanges method, IBrowserService2._MaySaveChanges, IBrowserService2::_MaySaveChanges, _MaySaveChanges, _MaySaveChanges method [Windows Shell], _MaySaveChanges method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_MaySaveChanges, shell.IBrowserService2__MaySaveChanges, zone_IBrowserService2__MaySaveChanges
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2._MaySaveChanges"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

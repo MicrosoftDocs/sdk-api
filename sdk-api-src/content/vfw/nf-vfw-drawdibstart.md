@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibStart, DrawDibStart function [Windows Multimedia], _win32_DrawDibStart, multimedia.drawdibstart, vfw/DrawDibStart
 ms.topic: function
+f1_keywords: ["vfw/DrawDibStart"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

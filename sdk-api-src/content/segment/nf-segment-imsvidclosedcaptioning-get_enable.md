@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],get_Enable method, IMSVidClosedCaptioning.get_Enable, IMSVidClosedCaptioning::get_Enable, IMSVidClosedCaptioningget_Enable, get_Enable, get_Enable method [Microsoft TV Technologies], get_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, mstv.imsvidclosedcaptioning_get_enable, segment/IMSVidClosedCaptioning::get_Enable
 ms.topic: method
+f1_keywords: ["segment/IMSVidClosedCaptioning.get_Enable"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

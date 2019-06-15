@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_TAP, INTERACTION_ARGUMENTS_TAP structure, input_intcontext.interaction_arguments_tap, interactioncontext.interaction_arguments_tap, interactioncontext/INTERACTION_ARGUMENTS_TAP
 ms.topic: struct
+f1_keywords: ["interactioncontext/INTERACTION_ARGUMENTS_TAP"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyShowDeveloperDiagnostic, AppPolicyShowDeveloperDiagnostic enumeration [App packaging and management], AppPolicyShowDeveloperDiagnostic_None, AppPolicyShowDeveloperDiagnostic_ShowUI, appmodel/AppPolicyShowDeveloperDiagnostic, appmodel/AppPolicyShowDeveloperDiagnostic_None, appmodel/AppPolicyShowDeveloperDiagnostic_ShowUI, appxpkg.apppolicyshowdeveloperdiagnostic_enumeration
 ms.topic: enum
+f1_keywords: ["appmodel/AppPolicyShowDeveloperDiagnostic"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

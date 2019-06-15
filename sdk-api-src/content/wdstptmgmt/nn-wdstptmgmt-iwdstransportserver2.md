@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServer2, IWdsTransportServer2 interface [Windows Deployment Services], IWdsTransportServer2 interface [Windows Deployment Services],described, wds.iwdstransportserver2, wdstptmgmt/IWdsTransportServer2
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportServer2"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PROV_ENUMALGS, PROV_ENUMALGS structure [Security], _crypto2_prov_enumalgs, security.prov_enumalgs, wincrypt/PROV_ENUMALGS
 ms.topic: struct
+f1_keywords: ["wincrypt/PROV_ENUMALGS"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

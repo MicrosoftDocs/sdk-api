@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LookupAccountName, LookupAccountName function [Security], LookupAccountNameA, LookupAccountNameW, _win32_lookupaccountname, security.lookupaccountname, winbase/LookupAccountName, winbase/LookupAccountNameA, winbase/LookupAccountNameW
 ms.topic: function
+f1_keywords: ["winbase/LookupAccountName"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

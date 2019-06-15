@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+], InstalledFontCollection class [GDI+],described, _gdiplus_CLASS_InstalledFontCollection_Class, gdiplus._gdiplus_CLASS_InstalledFontCollection_Class, gdiplusheaders/InstalledFontCollection
 ms.topic: class
+f1_keywords: ["gdiplusheaders/InstalledFontCollection"]
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

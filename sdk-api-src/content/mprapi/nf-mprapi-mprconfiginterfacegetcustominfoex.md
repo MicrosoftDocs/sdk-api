@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceGetCustomInfoEx, MprConfigInterfaceGetCustomInfoEx function [RAS], mprapi/MprConfigInterfaceGetCustomInfoEx, rras.mprconfiginterfacegetcustominfoex
 ms.topic: function
+f1_keywords: ["mprapi/MprConfigInterfaceGetCustomInfoEx"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],Server property, IDataCollectorSet.Server, IDataCollectorSet.get_Server, IDataCollectorSet::Server, IDataCollectorSet::get_Server, Server property [PLA], Server property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_server, get_Server, pla.idatacollectorset_get_server, pla/IDataCollectorSet::Server, pla/IDataCollectorSet::get_Server
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.Server"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

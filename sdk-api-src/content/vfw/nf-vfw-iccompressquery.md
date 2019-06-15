@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCompressQuery, ICCompressQuery macro [Windows Multimedia], _win32_ICCompressQuery, multimedia.iccompressquery, vfw/ICCompressQuery
 ms.topic: macro
+f1_keywords: ["vfw/ICCompressQuery"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

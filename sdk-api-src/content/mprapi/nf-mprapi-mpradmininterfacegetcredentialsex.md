@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetCredentialsEx, MprAdminInterfaceGetCredentialsEx function [RAS], _mpr_mpradmininterfacegetcredentialsex, mprapi/MprAdminInterfaceGetCredentialsEx, rras.mpradmininterfacegetcredentialsex
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminInterfaceGetCredentialsEx"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

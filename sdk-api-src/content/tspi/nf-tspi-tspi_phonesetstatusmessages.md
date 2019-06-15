@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetStatusMessages, TSPI_phoneSetStatusMessages function [TAPI 2.2], _tspi_tspi_phonesetstatusmessages, tspi.tspi_phonesetstatusmessages, tspi/TSPI_phoneSetStatusMessages
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneSetStatusMessages"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

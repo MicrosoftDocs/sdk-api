@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK interface [MMC],Reset method, IEnumTASK.Reset, IEnumTASK::Reset, Reset, Reset method [MMC], Reset method [MMC],IEnumTASK interface, _slate_ienumtask_reset, mmc.ienumtask_reset, mmc/IEnumTASK::Reset
 ms.topic: method
+f1_keywords: ["mmc/IEnumTASK.Reset"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IHardwareAudioEngineBase, IHardwareAudioEngineBase interface [Core Audio], IHardwareAudioEngineBase interface [Core Audio],described, audioengineendpoint/IHardwareAudioEngineBase, coreaudio.ihardwareaudioenginebase
 ms.topic: interface
+f1_keywords: ["audioengineendpoint/IHardwareAudioEngineBase"]
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

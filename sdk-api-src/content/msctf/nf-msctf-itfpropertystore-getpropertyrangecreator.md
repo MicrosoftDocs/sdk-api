@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyRangeCreator, GetPropertyRangeCreator method [Text Services Framework], GetPropertyRangeCreator method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],GetPropertyRangeCreator method, ITfPropertyStore.GetPropertyRangeCreator, ITfPropertyStore::GetPropertyRangeCreator, _tsf_itfpropertystore_getpropertyrangecreator_ref, msctf/ITfPropertyStore::GetPropertyRangeCreator, tsf.itfpropertystore_getpropertyrangecreator
 ms.topic: method
+f1_keywords: ["msctf/ITfPropertyStore.GetPropertyRangeCreator"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

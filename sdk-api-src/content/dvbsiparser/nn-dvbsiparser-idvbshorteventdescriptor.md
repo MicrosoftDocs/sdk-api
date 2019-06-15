@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvbShortEventDescriptor, IDvbShortEventDescriptor interface [Microsoft TV Technologies], IDvbShortEventDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbShortEventDescriptor, mstv.idvbshorteventdescriptor
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IDvbShortEventDescriptor"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

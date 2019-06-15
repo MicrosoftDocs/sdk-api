@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPInterfaceInfo, IPInterfaceInfo structure [Windows API], tcpioctl/IPInterfaceInfo, winprog.ipinterfaceinfo
 ms.topic: struct
+f1_keywords: ["tcpioctl/IPInterfaceInfo"]
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows

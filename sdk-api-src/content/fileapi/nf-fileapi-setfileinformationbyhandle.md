@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
 ms.topic: function
+f1_keywords: ["fileapi/SetFileInformationByHandle"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

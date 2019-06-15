@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetProperties, PeerGraphGetProperties function [Peer Networking], p2p.peergraphgetproperties, p2p/PeerGraphGetProperties
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphGetProperties"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

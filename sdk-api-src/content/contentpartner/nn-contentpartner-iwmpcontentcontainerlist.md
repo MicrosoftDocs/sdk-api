@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPContentContainerList, IWMPContentContainerList interface [Windows Media Player], IWMPContentContainerList interface [Windows Media Player],described, IWMPContentContainerListInterface, contentpartner/IWMPContentContainerList, wmp.iwmpcontentcontainerlist
 ms.topic: interface
+f1_keywords: ["contentpartner/IWMPContentContainerList"]
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],Is64BitCatalogServer property, ICOMAdminCatalog2.Is64BitCatalogServer, ICOMAdminCatalog2.get_Is64BitCatalogServer, ICOMAdminCatalog2::Is64BitCatalogServer, ICOMAdminCatalog2::get_Is64BitCatalogServer, Is64BitCatalogServer property [COM+], Is64BitCatalogServer property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::Is64BitCatalogServer, comadmin/ICOMAdminCatalog2::get_Is64BitCatalogServer, cos.icomadmincatalog2_is64bitcatalogserver, get_Is64BitCatalogServer
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog2.Is64BitCatalogServer"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEM_LIMITS, WBEM_LIMITS enumeration [Windows Management Instrumentation], WBEM_MAX_IDENTIFIER, WBEM_MAX_OBJECT_NESTING, WBEM_MAX_PATH, WBEM_MAX_QUERY, WBEM_MAX_USER_PROPERTIES, wbemcli/WBEM_LIMITS, wbemcli/WBEM_MAX_IDENTIFIER, wbemcli/WBEM_MAX_OBJECT_NESTING, wbemcli/WBEM_MAX_PATH, wbemcli/WBEM_MAX_QUERY, wbemcli/WBEM_MAX_USER_PROPERTIES, wmi.wbem_limits
 ms.topic: enum
+f1_keywords: ["wbemcli/WBEM_LIMITS"]
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgGetIFillLockBytesOnILockBytes, StgGetIFillLockBytesOnILockBytes function [Structured Storage], _stg_stggetifilllockbytesonilockbytes, objbase/StgGetIFillLockBytesOnILockBytes, stg.stggetifilllockbytesonilockbytes
 ms.topic: function
+f1_keywords: ["objbase/StgGetIFillLockBytesOnILockBytes"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

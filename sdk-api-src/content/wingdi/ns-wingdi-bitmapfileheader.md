@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPBITMAPFILEHEADER, *PBITMAPFILEHEADER, BITMAPFILEHEADER, BITMAPFILEHEADER structure [Windows GDI], PBITMAPFILEHEADER, PBITMAPFILEHEADER structure pointer [Windows GDI], _win32_BITMAPFILEHEADER_str, gdi.bitmapfileheader, wingdi/BITMAPFILEHEADER, wingdi/PBITMAPFILEHEADER"
 ms.topic: struct
+f1_keywords: ["wingdi/BITMAPFILEHEADER"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

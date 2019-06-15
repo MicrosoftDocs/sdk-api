@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventObjectChange, IEventObjectChange interface [COM+], IEventObjectChange interface [COM+],described, _cos_IEventObjectChange, cos.ieventobjectchange, eventsys/IEventObjectChange
 ms.topic: interface
+f1_keywords: ["eventsys/IEventObjectChange"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files], _win32_netsessiongetinfo, fs.netsessiongetinfo, lmshare/NetSessionGetInfo, netmgmt.netsessiongetinfo
 ms.topic: function
+f1_keywords: ["lmshare/NetSessionGetInfo"]
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

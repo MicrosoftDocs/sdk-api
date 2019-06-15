@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
 ms.topic: interface
+f1_keywords: ["tsgpolicyengine/ITSGPolicyEngine"]
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows

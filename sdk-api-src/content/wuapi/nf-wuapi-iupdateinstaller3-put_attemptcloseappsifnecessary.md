@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller3 interface [Windows Update Agent],put_AttemptCloseAppsIfNecessary method, IUpdateInstaller3.put_AttemptCloseAppsIfNecessary, IUpdateInstaller3::put_AttemptCloseAppsIfNecessary, put_AttemptCloseAppsIfNecessary, put_AttemptCloseAppsIfNecessary method [Windows Update Agent], put_AttemptCloseAppsIfNecessary method [Windows Update Agent],IUpdateInstaller3 interface, wua.iupdateinstaller3_put_attemptcloseappsifnecessary, wuapi/IUpdateInstaller3::put_AttemptCloseAppsIfNecessary
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateInstaller3.put_AttemptCloseAppsIfNecessary"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

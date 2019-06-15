@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::Pull, Pull, Pull method [COM], Pull method [COM],IPipeByte interface, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
 ms.topic: method
+f1_keywords: ["objidl/IPipeByte.Pull"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

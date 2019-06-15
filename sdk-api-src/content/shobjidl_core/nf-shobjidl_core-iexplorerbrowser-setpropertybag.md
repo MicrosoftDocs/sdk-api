@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetPropertyBag method, IExplorerBrowser.SetPropertyBag, IExplorerBrowser::SetPropertyBag, SetPropertyBag, SetPropertyBag method [Windows Shell], SetPropertyBag method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetPropertyBag, shell.IExplorerBrowser_SetPropertyBag, shobjidl_core/IExplorerBrowser::SetPropertyBag
 ms.topic: method
+f1_keywords: ["shobjidl_core/IExplorerBrowser.SetPropertyBag"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

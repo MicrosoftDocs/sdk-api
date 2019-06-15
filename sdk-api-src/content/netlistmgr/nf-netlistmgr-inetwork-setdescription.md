@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetwork interface [Network Awareness],SetDescription method, INetwork.SetDescription, INetwork::SetDescription, SetDescription, SetDescription method [Network Awareness], SetDescription method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetDescription, nla.inetwork_setdescription
 ms.topic: method
+f1_keywords: ["netlistmgr/INetwork.SetDescription"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenProcessToken, OpenProcessToken function [Security], _win32_openprocesstoken, processthreadsapi/OpenProcessToken, security.openprocesstoken
 ms.topic: function
+f1_keywords: ["processthreadsapi/OpenProcessToken"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

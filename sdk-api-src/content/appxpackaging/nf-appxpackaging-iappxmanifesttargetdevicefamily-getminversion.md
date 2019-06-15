@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMinVersion, GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management],IAppxManifestTargetDeviceFamily interface, IAppxManifestTargetDeviceFamily interface [App packaging and management],GetMinVersion method, IAppxManifestTargetDeviceFamily.GetMinVersion, IAppxManifestTargetDeviceFamily::GetMinVersion, appxpackaging/IAppxManifestTargetDeviceFamily::GetMinVersion, appxpkg.iappxmanifesttargetdevicefamily_getminversion
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxManifestTargetDeviceFamily.GetMinVersion"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

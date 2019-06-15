@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHELL_UI_COMPONENT, SHELL_UI_COMPONENT enumeration [Windows Shell], SHELL_UI_COMPONENT_DESKBAND, SHELL_UI_COMPONENT_NOTIFICATIONAREA, SHELL_UI_COMPONENT_TASKBARS, shell.shell_ui_component, shellscalingapi/SHELL_UI_COMPONENT, shellscalingapi/SHELL_UI_COMPONENT_DESKBAND, shellscalingapi/SHELL_UI_COMPONENT_NOTIFICATIONAREA, shellscalingapi/SHELL_UI_COMPONENT_TASKBARS
 ms.topic: enum
+f1_keywords: ["shellscalingapi/SHELL_UI_COMPONENT"]
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

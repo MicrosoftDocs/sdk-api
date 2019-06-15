@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12Object interface,SetName method, ID3D12Object.SetName, ID3D12Object::SetName, SetName, SetName method, SetName method,ID3D12Object interface, d3d12/ID3D12Object::SetName, direct3d12.id3d12object_setname
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12Object.SetName"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

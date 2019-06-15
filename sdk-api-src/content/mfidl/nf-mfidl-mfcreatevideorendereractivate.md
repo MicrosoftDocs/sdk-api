@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 021887fc-36af-42d4-ae46-2edc1c700110, MFCreateVideoRendererActivate, MFCreateVideoRendererActivate function [Media Foundation], mf.mfcreatevideorendereractivate, mfidl/MFCreateVideoRendererActivate
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateVideoRendererActivate"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

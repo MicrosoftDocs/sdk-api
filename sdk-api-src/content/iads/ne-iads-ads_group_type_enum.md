@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, ADS_GROUP_TYPE_ENUM, ADS_GROUP_TYPE_ENUM enumeration [ADSI], ADS_GROUP_TYPE_GLOBAL_GROUP, ADS_GROUP_TYPE_LOCAL_GROUP, ADS_GROUP_TYPE_SECURITY_ENABLED, ADS_GROUP_TYPE_UNIVERSAL_GROUP, _ds_ads_group_type_enum, adsi.ads__group__type__enum, adsi.ads_group_type_enum, iads/ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, iads/ADS_GROUP_TYPE_ENUM, iads/ADS_GROUP_TYPE_GLOBAL_GROUP, iads/ADS_GROUP_TYPE_LOCAL_GROUP, iads/ADS_GROUP_TYPE_SECURITY_ENABLED, iads/ADS_GROUP_TYPE_UNIVERSAL_GROUP
 ms.topic: enum
+f1_keywords: ["iads/ADS_GROUP_TYPE_ENUM"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRCREATEPEN"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOwnerModuleFromUdpEntry, GetOwnerModuleFromUdpEntry function [IP Helper], iphlp.getownermodulefromudpentry, iphlpapi/GetOwnerModuleFromUdpEntry
 ms.topic: function
+f1_keywords: ["iphlpapi/GetOwnerModuleFromUdpEntry"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],UnlockDevice method, IMFDXGIDeviceManager.UnlockDevice, IMFDXGIDeviceManager::UnlockDevice, UnlockDevice, UnlockDevice method [Media Foundation], UnlockDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_unlockdevice, mfobjects/IMFDXGIDeviceManager::UnlockDevice
 ms.topic: method
+f1_keywords: ["mfobjects/IMFDXGIDeviceManager.UnlockDevice"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

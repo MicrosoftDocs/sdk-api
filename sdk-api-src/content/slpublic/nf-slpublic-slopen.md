@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLOpen, SLOpen function [Security], security.slopen, slpublic/SLOpen
 ms.topic: function
+f1_keywords: ["slpublic/SLOpen"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

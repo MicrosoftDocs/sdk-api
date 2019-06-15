@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvIcmDeleteColorTransform, DrvIcmDeleteColorTransform function [Display Devices], ddifncs_883d2f55-a3e0-4682-a099-8fef07b6e3a7.xml, display.drvicmdeletecolortransform, winddi/DrvIcmDeleteColorTransform
 ms.topic: function
+f1_keywords: ["winddi/DrvIcmDeleteColorTransform"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

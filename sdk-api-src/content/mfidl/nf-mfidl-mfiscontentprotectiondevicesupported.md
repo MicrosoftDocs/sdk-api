@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFIsContentProtectionDeviceSupported, MFIsContentProtectionDeviceSupported function [Media Foundation], mf.mfiscontentprotectiondevicesupported, mfidl/MFIsContentProtectionDeviceSupported
 ms.topic: function
+f1_keywords: ["mfidl/MFIsContentProtectionDeviceSupported"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

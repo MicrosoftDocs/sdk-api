@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
 ms.topic: callback
+f1_keywords: ["lpmapi/PALLOCMEM"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

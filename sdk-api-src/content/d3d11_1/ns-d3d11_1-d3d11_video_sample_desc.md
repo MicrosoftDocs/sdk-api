@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_SAMPLE_DESC, D3D11_VIDEO_SAMPLE_DESC structure [Media Foundation], d3d11_1/D3D11_VIDEO_SAMPLE_DESC, mf.d3d11_video_sample_desc
 ms.topic: struct
+f1_keywords: ["d3d11_1/D3D11_VIDEO_SAMPLE_DESC"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

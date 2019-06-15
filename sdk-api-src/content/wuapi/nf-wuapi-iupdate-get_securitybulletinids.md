@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SecurityBulletinIDs property, IUpdate.SecurityBulletinIDs, IUpdate.get_SecurityBulletinIDs, IUpdate::SecurityBulletinIDs, IUpdate::get_SecurityBulletinIDs, SecurityBulletinIDs property [Windows Update Agent], SecurityBulletinIDs property [Windows Update Agent],IUpdate interface, get_SecurityBulletinIDs, wua.iupdate_securitybulletinids, wuapi/IUpdate::SecurityBulletinIDs, wuapi/IUpdate::get_SecurityBulletinIDs
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate.SecurityBulletinIDs"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

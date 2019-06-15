@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRandomAccessStreamFileAccessMode, IRandomAccessStreamFileAccessMode interface [Windows Runtime], IRandomAccessStreamFileAccessMode interface [Windows Runtime],described, windowsstoragecom/IRandomAccessStreamFileAccessMode, winrt.irandomaccessstreamfileaccessmode
 ms.topic: interface
+f1_keywords: ["windowsstoragecom/IRandomAccessStreamFileAccessMode"]
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

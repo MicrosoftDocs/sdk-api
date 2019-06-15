@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_LISTEN_ENDPOINT_INFO, HTTP_LISTEN_ENDPOINT_INFO, HTTP_LISTEN_ENDPOINT_INFO structure [HTTP], PHTTP_LISTEN_ENDPOINT_INFO, PHTTP_LISTEN_ENDPOINT_INFO structure pointer [HTTP], http.http_listen_endpoint_info, http/HTTP_LISTEN_ENDPOINT_INFO, http/PHTTP_LISTEN_ENDPOINT_INFO"
 ms.topic: struct
+f1_keywords: ["http/HTTP_LISTEN_ENDPOINT_INFO"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

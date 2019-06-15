@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface [Core Audio],described, coreaudio.iconnector, devicetopology/IConnector
 ms.topic: interface
+f1_keywords: ["devicetopology/IConnector"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

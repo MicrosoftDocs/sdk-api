@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMMATRIX, XMMATRIX structure [DirectX Math Support APIs], directxmath/XMMATRIX, dxmath.xmmatrix
 ms.topic: struct
+f1_keywords: ["directxmath/XMMATRIX"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

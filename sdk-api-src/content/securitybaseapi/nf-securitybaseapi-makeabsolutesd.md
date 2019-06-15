@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MakeAbsoluteSD, MakeAbsoluteSD function [Security], _win32_makeabsolutesd, security.makeabsolutesd, securitybaseapi/MakeAbsoluteSD
 ms.topic: function
+f1_keywords: ["securitybaseapi/MakeAbsoluteSD"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

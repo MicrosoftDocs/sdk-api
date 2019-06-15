@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientReceiveContents, PFN_WdsTransportClientReceiveContents callback, PFN_WdsTransportClientReceiveContents callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivecontents, wdstci/PFN_WdsTransportClientReceiveContents
 ms.topic: callback
+f1_keywords: ["wdstci/PFN_WdsTransportClientReceiveContents"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AsyncContentLoadedState, AsyncContentLoadedState enumeration [Windows Accessibility], AsyncContentLoadedState_Beginning, AsyncContentLoadedState_Completed, AsyncContentLoadedState_Progress, uiauto.uiauto_AsyncContentLoadedStateEnum, uiauto_AsyncContentLoadedStateEnum, uiautomationcoreapi/AsyncContentLoadedState, uiautomationcoreapi/AsyncContentLoadedState_Beginning, uiautomationcoreapi/AsyncContentLoadedState_Completed, uiautomationcoreapi/AsyncContentLoadedState_Progress, winauto.uiauto_AsyncContentLoadedStateEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcoreapi/AsyncContentLoadedState"]
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

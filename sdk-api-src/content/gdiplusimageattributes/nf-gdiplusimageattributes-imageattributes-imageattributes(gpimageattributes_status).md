@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes, ImageAttributes class [GDI+],ImageAttributes constructor, ImageAttributes constructor [GDI+], ImageAttributes constructor [GDI+],ImageAttributes class, ImageAttributes.ImageAttributes, ImageAttributes.ImageAttributes(GpImageAttributes,Status), ImageAttributes::ImageAttributes, ImageAttributes::ImageAttributes(GpImageAttributes,Status), _gdiplus_CLASS_ImageAttributes_ImageAttributes_, gdiplus._gdiplus_CLASS_ImageAttributes_ImageAttributes_
 ms.topic: method
+f1_keywords: ["gdiplusimageattributes/ImageAttributes.ImageAttributes"]
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

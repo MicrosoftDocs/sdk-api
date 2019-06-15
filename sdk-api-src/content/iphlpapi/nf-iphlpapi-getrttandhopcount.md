@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRTTAndHopCount, GetRTTAndHopCount function [IP Helper], _iphlp_getrttandhopcount, iphlp.getrttandhopcount, iphlpapi/GetRTTAndHopCount
 ms.topic: function
+f1_keywords: ["iphlpapi/GetRTTAndHopCount"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

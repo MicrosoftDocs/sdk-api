@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocol, ISearchProtocol interface [search], ISearchProtocol interface [search],described, _search_ISearchProtocol, search._search_ISearchProtocol, searchapi/ISearchProtocol
 ms.topic: interface
+f1_keywords: ["searchapi/ISearchProtocol"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

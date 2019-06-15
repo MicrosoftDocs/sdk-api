@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnlockUrlCacheEntryStream, UnlockUrlCacheEntryStream function [WinINet], _inet_unlockurlcacheentrystream_function, wininet.unlockurlcacheentrystream, wininet/UnlockUrlCacheEntryStream
 ms.topic: function
+f1_keywords: ["wininet/UnlockUrlCacheEntryStream"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

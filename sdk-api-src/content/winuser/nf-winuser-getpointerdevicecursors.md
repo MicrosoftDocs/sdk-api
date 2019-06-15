@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors
 ms.topic: function
+f1_keywords: ["winuser/GetPointerDeviceCursors"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

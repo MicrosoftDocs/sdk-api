@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmGetList, RmGetList function [Restart Mgr], restartmanager/RmGetList, rstmgr.rmgetlist
 ms.topic: function
+f1_keywords: ["restartmanager/RmGetList"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

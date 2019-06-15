@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventAccessQuery, EventAccessQuery function [ETW], base.eventaccessquery_func, etw.eventaccessquery_func, evntcons/EventAccessQuery
 ms.topic: function
+f1_keywords: ["evntcons/EventAccessQuery"]
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

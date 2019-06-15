@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFontDisp, IFontDisp interface [COM], IFontDisp interface [COM],described, _ctrl_ifontdisp, com.ifontdisp, ocidl/IFontDisp
 ms.topic: interface
+f1_keywords: ["ocidl/IFontDisp"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

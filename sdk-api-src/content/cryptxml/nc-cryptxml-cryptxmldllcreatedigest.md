@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest callback, CryptXmlDllCreateDigest callback function [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest
 ms.topic: callback
+f1_keywords: ["cryptxml/CryptXmlDllCreateDigest"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

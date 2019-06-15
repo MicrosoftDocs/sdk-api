@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryChangesVirtualDisk, QueryChangesVirtualDisk function [VHD], vdssys/QueryChangesVirtualDisk, vhd.querychangesvirtualdisk, virtdisk/QueryChangesVirtualDisk
 ms.topic: function
+f1_keywords: ["virtdisk/QueryChangesVirtualDisk"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

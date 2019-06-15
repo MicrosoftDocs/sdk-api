@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILRemoveLastID, ILRemoveLastID function [Windows Shell], _win32_ILRemoveLastID, shell.ILRemoveLastID, shlobj_core/ILRemoveLastID
 ms.topic: function
+f1_keywords: ["shlobj_core/ILRemoveLastID"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

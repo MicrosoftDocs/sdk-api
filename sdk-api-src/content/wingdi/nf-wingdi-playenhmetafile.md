@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
 ms.topic: function
+f1_keywords: ["wingdi/PlayEnhMetaFile"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

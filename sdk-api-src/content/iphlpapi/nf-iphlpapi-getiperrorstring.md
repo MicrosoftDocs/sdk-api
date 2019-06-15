@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIpErrorString, GetIpErrorString function [IP Helper], iphlp.getiperrorstring, iphlpapi/GetIpErrorString
 ms.topic: function
+f1_keywords: ["iphlpapi/GetIpErrorString"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

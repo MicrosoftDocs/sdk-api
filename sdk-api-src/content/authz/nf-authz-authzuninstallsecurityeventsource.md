@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzUninstallSecurityEventSource, AuthzUninstallSecurityEventSource function [Security], authz/AuthzUninstallSecurityEventSource, security.authzuninstallsecurityeventsource
 ms.topic: function
+f1_keywords: ["authz/AuthzUninstallSecurityEventSource"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

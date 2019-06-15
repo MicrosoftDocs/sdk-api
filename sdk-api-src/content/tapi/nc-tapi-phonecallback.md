@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PHONECALLBACK, PHONECALLBACK callback function [TAPI 2.2], _tapi2_phonecallbackfunc, phoneCallback, phoneCallback callback, tapi/PHONECALLBACK, tapi2.phonecallbackfunc
 ms.topic: callback
+f1_keywords: ["tapi/PHONECALLBACK"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3a4b3089-4ba1-9479-73b6-84f4d49b52d8, GetStringArray, GetStringArray method [Direct3D 10], GetStringArray method [Direct3D 10],ID3D10EffectStringVariable interface, ID3D10EffectStringVariable interface [Direct3D 10],GetStringArray method, ID3D10EffectStringVariable.GetStringArray, ID3D10EffectStringVariable::GetStringArray, d3d10effect/ID3D10EffectStringVariable::GetStringArray, direct3d10.id3d10effectstringvariable_getstringarray
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectStringVariable.GetStringArray"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

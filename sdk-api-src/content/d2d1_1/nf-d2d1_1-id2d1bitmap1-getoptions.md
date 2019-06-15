@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Direct2D], GetOptions method [Direct2D],ID2D1Bitmap1 interface, ID2D1Bitmap1 interface [Direct2D],GetOptions method, ID2D1Bitmap1.GetOptions, ID2D1Bitmap1::GetOptions, d2d1_1/ID2D1Bitmap1::GetOptions, direct2d.id2d1bitmap1_getoptions
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Bitmap1.GetOptions"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

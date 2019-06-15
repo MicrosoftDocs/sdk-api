@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelText property, IInkEdit.SelText, IInkEdit.put_SelText, IInkEdit::SelText, IInkEdit::get_SelText, IInkEdit::put_SelText, InkEdit.get_SelText, InkEdit.put_SelText, SelText property [Tablet PC], SelText property [Tablet PC],IInkEdit interface, get_SelText, inked/IInkEdit::SelText, inked/IInkEdit::get_SelText, inked/IInkEdit::put_SelText, put_SelText, tablet.inkedit_seltext
 ms.topic: method
+f1_keywords: ["inked/IInkEdit.SelText"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

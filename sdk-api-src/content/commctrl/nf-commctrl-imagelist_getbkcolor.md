@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_GetBkColor, ImageList_GetBkColor function [Windows Controls], _win32_ImageList_GetBkColor, _win32_ImageList_GetBkColor_cpp, commctrl/ImageList_GetBkColor, controls.ImageList_GetBkColor, controls._win32_ImageList_GetBkColor
 ms.topic: function
+f1_keywords: ["commctrl/ImageList_GetBkColor"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

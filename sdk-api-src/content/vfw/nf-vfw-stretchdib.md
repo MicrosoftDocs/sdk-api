@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
 ms.topic: function
+f1_keywords: ["vfw/StretchDIB"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

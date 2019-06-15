@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapValidate, HeapValidate function, _win32_heapvalidate, base.heapvalidate, heapapi/HeapValidate, winbase/HeapValidate
 ms.topic: function
+f1_keywords: ["heapapi/HeapValidate"]
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

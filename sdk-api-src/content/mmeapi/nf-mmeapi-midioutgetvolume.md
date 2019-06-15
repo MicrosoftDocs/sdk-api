@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutGetVolume, midiOutGetVolume, midiOutGetVolume function [Windows Multimedia], mmeapi/midiOutGetVolume, multimedia.midioutgetvolume"
 ms.topic: function
+f1_keywords: ["mmeapi/midiOutGetVolume"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

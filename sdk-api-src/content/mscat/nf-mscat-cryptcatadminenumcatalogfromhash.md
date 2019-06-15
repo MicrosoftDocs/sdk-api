@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
 ms.topic: function
+f1_keywords: ["mscat/CryptCATAdminEnumCatalogFromHash"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

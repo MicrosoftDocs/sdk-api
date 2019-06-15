@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE2, WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format], wmformat.wmt_videoimage_sample2, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

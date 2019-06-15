@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDMOWrapperFilter, IDMOWrapperFilter interface [DirectShow], IDMOWrapperFilter interface [DirectShow],described, IDMOWrapperFilterInterface, dmodshow/IDMOWrapperFilter, dshow.idmowrapperfilter
 ms.topic: interface
+f1_keywords: ["dmodshow/IDMOWrapperFilter"]
 req.header: dmodshow.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantGetElementCount, VariantGetElementCount function [Windows Properties], _shell_VariantGetElementCount, properties.VariantGetElementCount, propvarutil/VariantGetElementCount, shell.VariantGetElementCount
 ms.topic: function
+f1_keywords: ["propvarutil/VariantGetElementCount"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

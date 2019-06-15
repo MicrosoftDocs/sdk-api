@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen"
 ms.topic: function
+f1_keywords: ["winsock2/listen"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

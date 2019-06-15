@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPCNOTIFICATION_ROUTINE, RPCNOTIFICATION_ROUTINE callback, RPCNOTIFICATION_ROUTINE callback function [RPC], RpcnotificationRoutine, _rpc_rpcnotification_routine, rpc.rpcnotification_routine, rpcasync/RPCNOTIFICATION_ROUTINE
 ms.topic: callback
+f1_keywords: ["rpcasync/RPCNOTIFICATION_ROUTINE"]
 req.header: rpcasync.h
 req.include-header: 
 req.target-type: Windows

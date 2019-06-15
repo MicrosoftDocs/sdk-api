@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsBpAddOption, WdsBpAddOption function [Windows Deployment Services], wds.wdsbpaddoption, wdsbp/WdsBpAddOption
 ms.topic: function
+f1_keywords: ["wdsbp/WdsBpAddOption"]
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

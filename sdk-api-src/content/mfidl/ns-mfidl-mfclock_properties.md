@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1efc6602-9851-40e5-85aa-0335d4e899a2, MFCLOCK_JITTER_DPC, MFCLOCK_JITTER_ISR, MFCLOCK_JITTER_PASSIVE, MFCLOCK_PROPERTIES, MFCLOCK_PROPERTIES structure [Media Foundation], mf.mfclock_properties, mfidl/MFCLOCK_PROPERTIES
 ms.topic: struct
+f1_keywords: ["mfidl/MFCLOCK_PROPERTIES"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

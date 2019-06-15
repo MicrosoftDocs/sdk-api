@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevSend, FaxDevSend function [Fax Service], _mfax_faxdevsend, fax._mfax_faxdevsend, faxdev/FaxDevSend
 ms.topic: function
+f1_keywords: ["faxdev/FaxDevSend"]
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

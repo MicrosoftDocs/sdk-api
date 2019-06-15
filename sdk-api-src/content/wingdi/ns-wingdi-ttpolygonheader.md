@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTTPOLYGONHEADER, LPTTPOLYGONHEADER, LPTTPOLYGONHEADER structure pointer [Windows GDI], TTPOLYGONHEADER, TTPOLYGONHEADER structure [Windows GDI], _win32_TTPOLYGONHEADER_str, gdi.ttpolygonheader, wingdi/LPTTPOLYGONHEADER, wingdi/TTPOLYGONHEADER"
 ms.topic: struct
+f1_keywords: ["wingdi/TTPOLYGONHEADER"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

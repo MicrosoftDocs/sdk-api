@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],MajorVersion property, IFaxServer.MajorVersion, IFaxServer.get_MajorVersion, IFaxServer::MajorVersion, IFaxServer::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxServer interface, _mfax_faxserver.majorversion, fax._mfax_faxserver_cpp_mfax_faxserver_majorversion_cpp, fax._mfax_faxserver_majorversion, faxcomex/IFaxServer::MajorVersion, faxcomex/IFaxServer::get_MajorVersion, get_MajorVersion
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxServer.MajorVersion"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

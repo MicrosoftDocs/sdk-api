@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IPropertyPage interface [COM],described, _ctrl_ipropertypage, com.ipropertypage, ocidl/IPropertyPage
 ms.topic: interface
+f1_keywords: ["ocidl/IPropertyPage"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindMatchingIndex, FindMatchingIndex method [Windows Properties], FindMatchingIndex method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],FindMatchingIndex method, IPropertyEnumTypeList.FindMatchingIndex, IPropertyEnumTypeList::FindMatchingIndex, _shell_IPropertyEnumTypeList_FindMatchingIndex, properties.IPropertyEnumTypeList_FindMatchingIndex, propsys/IPropertyEnumTypeList::FindMatchingIndex, shell.IPropertyEnumTypeList_FindMatchingIndex
 ms.topic: method
+f1_keywords: ["propsys/IPropertyEnumTypeList.FindMatchingIndex"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
 ms.topic: function
+f1_keywords: ["pathcch/PathCchStripPrefix"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

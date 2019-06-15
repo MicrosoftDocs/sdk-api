@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
 ms.topic: function
+f1_keywords: ["wincrypt/CryptSignMessage"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

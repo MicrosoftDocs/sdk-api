@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0306e054-b8c5-9b23-2bcb-82e72a683879, AsRasterizer, AsRasterizer method [Direct3D 10], AsRasterizer method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsRasterizer method, ID3D10EffectVariable.AsRasterizer, ID3D10EffectVariable::AsRasterizer, d3d10effect/ID3D10EffectVariable::AsRasterizer, direct3d10.id3d10effectvariable_asrasterizer
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectVariable.AsRasterizer"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

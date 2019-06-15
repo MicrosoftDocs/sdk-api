@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 21ea5b71-390e-448f-becc-1e3bb7015ed9, Buttons property [Tablet PC], Buttons property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],Buttons property, IInkCursor.Buttons, IInkCursor.get_Buttons, IInkCursor::Buttons, IInkCursor::get_Buttons, get_Buttons, msinkaut/IInkCursor::Buttons, msinkaut/IInkCursor::get_Buttons, tablet.iinkcursor_buttons
 ms.topic: method
+f1_keywords: ["msinkaut/IInkCursor.Buttons"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

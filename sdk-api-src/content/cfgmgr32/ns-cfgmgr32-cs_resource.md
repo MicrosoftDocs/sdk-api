@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCS_RESOURCE, CS_RESOURCE, CS_RESOURCE structure [Device and Driver Installation], PCS_RESOURCE, PCS_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/CS_RESOURCE, cfgmgr32/PCS_RESOURCE, cfgmgrst_f9da8049-7bf7-4f27-9788-3204a9fb42d5.xml, devinst.cs_resource"
 ms.topic: struct
+f1_keywords: ["cfgmgr32/CS_RESOURCE"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows

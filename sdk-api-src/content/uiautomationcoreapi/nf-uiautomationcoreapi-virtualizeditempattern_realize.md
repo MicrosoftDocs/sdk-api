@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualizedItemPattern_Realize, VirtualizedItemPattern_Realize function [Windows Accessibility], uiauto.uiauto_VirtualizedItemPattern_Realize, uiauto_VirtualizedItemPattern_Realize, uiautomationcoreapi/VirtualizedItemPattern_Realize, winauto.uiauto_VirtualizedItemPattern_Realize
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/VirtualizedItemPattern_Realize"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

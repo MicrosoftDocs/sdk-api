@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoRotationFormat, MFVideoRotationFormat enumeration [Media Foundation], MFVideoRotationFormat_0, MFVideoRotationFormat_180, MFVideoRotationFormat_270, MFVideoRotationFormat_90, mf.mfvideorotationformat, mfapi/MFVideoRotationFormat, mfapi/MFVideoRotationFormat_0, mfapi/MFVideoRotationFormat_180, mfapi/MFVideoRotationFormat_270, mfapi/MFVideoRotationFormat_90
 ms.topic: enum
+f1_keywords: ["mfapi/MFVideoRotationFormat"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

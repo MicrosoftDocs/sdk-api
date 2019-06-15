@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],OnActivated method, IShellWindows.OnActivated, IShellWindows::OnActivated, OnActivated, OnActivated method [Windows Shell], OnActivated method [Windows Shell],IShellWindows interface, _win32_IShellWindows_OnActivated, exdisp/IShellWindows::OnActivated, shell.IShellWindows_OnActivated
 ms.topic: method
+f1_keywords: ["exdisp/IShellWindows.OnActivated"]
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

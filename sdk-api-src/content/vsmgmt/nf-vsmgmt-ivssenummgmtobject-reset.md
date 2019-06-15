@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject interface [VSS],Reset method, IVssEnumMgmtObject.Reset, IVssEnumMgmtObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumMgmtObject interface, base.ivssenummgmtobject_reset, vsmgmt/IVssEnumMgmtObject::Reset
 ms.topic: method
+f1_keywords: ["vsmgmt/IVssEnumMgmtObject.Reset"]
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

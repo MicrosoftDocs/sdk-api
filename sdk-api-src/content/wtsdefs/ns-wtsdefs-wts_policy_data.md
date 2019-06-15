@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_POLICY_DATA, 1, 2, 3, 4, 5, PWTS_POLICY_DATA, PWTS_POLICY_DATA structure pointer [Remote Desktop Services], WTS_POLICY_DATA, WTS_POLICY_DATA structure [Remote Desktop Services], termserv.wts_policy_data, wtsdefs/PWTS_POLICY_DATA, wtsdefs/WTS_POLICY_DATA"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_POLICY_DATA"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CDF_PARSE_ERROR_CALLBACK, PFN_CDF_PARSE_ERROR_CALLBACK callback, PFN_CDF_PARSE_ERROR_CALLBACK callback function [Security], mscat/PFN_CDF_PARSE_ERROR_CALLBACK, security.pfn_cdf_parse_error_callback
 ms.topic: callback
+f1_keywords: ["mscat/PFN_CDF_PARSE_ERROR_CALLBACK"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
 ms.topic: function
+f1_keywords: ["ddraw/DirectDrawEnumerate"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

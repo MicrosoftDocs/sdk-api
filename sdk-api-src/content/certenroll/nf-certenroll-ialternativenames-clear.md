@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Clear method, IAlternativeNames.Clear, IAlternativeNames::Clear, certenroll/IAlternativeNames::Clear, security.ialternativenames_clear_method
 ms.topic: method
+f1_keywords: ["certenroll/IAlternativeNames.Clear"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

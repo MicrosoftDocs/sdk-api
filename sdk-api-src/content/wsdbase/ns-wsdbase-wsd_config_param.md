@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWSD_CONFIG_PARAM, WSD_CONFIG_PARAM, WSD_CONFIG_PARAM structure, _WSD_CONFIG_PARAM, ncd.wsd_config_param, wsdbase/WSD_CONFIG_PARAM"
 ms.topic: struct
+f1_keywords: ["wsdbase/WSD_CONFIG_PARAM"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.topic: function
+f1_keywords: ["msiquery/MsiSetMode"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

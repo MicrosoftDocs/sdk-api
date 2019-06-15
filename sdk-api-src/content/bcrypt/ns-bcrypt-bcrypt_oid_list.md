@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OID_LIST, BCRYPT_OID_LIST structure [Security], bcrypt/BCRYPT_OID_LIST, security.bcrypt_oid_list
 ms.topic: struct
+f1_keywords: ["bcrypt/BCRYPT_OID_LIST"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

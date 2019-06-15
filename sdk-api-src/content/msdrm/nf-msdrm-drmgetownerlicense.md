@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMGetOwnerLicense, DRMGetOwnerLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetOwnerLicense, rm.drmgetownerlicense
 ms.topic: function
+f1_keywords: ["msdrm/DRMGetOwnerLicense"]
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

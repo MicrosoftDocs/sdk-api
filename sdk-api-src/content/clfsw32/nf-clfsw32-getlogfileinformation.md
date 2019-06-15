@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogFileInformation, GetLogFileInformation function [Files], clfsw32/GetLogFileInformation, fs.getlogfileinformation
 ms.topic: function
+f1_keywords: ["clfsw32/GetLogFileInformation"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

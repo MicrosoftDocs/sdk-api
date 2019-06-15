@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsDocumentPackageTarget3D, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging], IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel_2/IXpsDocumentPackageTarget3D"]
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMPageReference.GetPrintTicketResource, IXpsOMPageReference::GetPrintTicketResource, xps.ixpsompagereference_getprintticketresource, xpsobjectmodel/IXpsOMPageReference::GetPrintTicketResource
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMPageReference.GetPrintTicketResource"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

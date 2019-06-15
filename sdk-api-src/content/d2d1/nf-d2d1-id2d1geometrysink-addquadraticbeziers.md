@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddQuadraticBeziers, AddQuadraticBeziers method [Direct2D], AddQuadraticBeziers method [Direct2D],ID2D1GeometrySink interface, ID2D1GeometrySink interface [Direct2D],AddQuadraticBeziers method, ID2D1GeometrySink.AddQuadraticBeziers, ID2D1GeometrySink::AddQuadraticBeziers, d2d1/ID2D1GeometrySink::AddQuadraticBeziers, direct2d.ID2D1GeometrySink_AddQuadraticBeziers
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1GeometrySink.AddQuadraticBeziers"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

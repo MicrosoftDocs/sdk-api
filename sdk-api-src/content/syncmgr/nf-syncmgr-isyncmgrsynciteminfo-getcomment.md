@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComment, GetComment method [Windows Shell], GetComment method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetComment method, ISyncMgrSyncItemInfo.GetComment, ISyncMgrSyncItemInfo::GetComment, _shell_ISyncMgrSyncItemInfo_GetComment, shell.ISyncMgrSyncItemInfo_GetComment, syncmgr/ISyncMgrSyncItemInfo::GetComment
 ms.topic: method
+f1_keywords: ["syncmgr/ISyncMgrSyncItemInfo.GetComment"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

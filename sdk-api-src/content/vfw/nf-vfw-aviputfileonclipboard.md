@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIPutFileOnClipboard, AVIPutFileOnClipboard function [Windows Multimedia], _win32_AVIPutFileOnClipboard, multimedia.aviputfileonclipboard, vfw/AVIPutFileOnClipboard
 ms.topic: function
+f1_keywords: ["vfw/AVIPutFileOnClipboard"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

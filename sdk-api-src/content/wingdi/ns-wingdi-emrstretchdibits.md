@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSTRETCHDIBITS, EMRSTRETCHDIBITS, EMRSTRETCHDIBITS structure [Windows GDI], PEMRSTRETCHDIBITS, PEMRSTRETCHDIBITS structure pointer [Windows GDI], _win32_EMRSTRETCHDIBITS_str, gdi.emrstretchdibits, wingdi/EMRSTRETCHDIBITS, wingdi/PEMRSTRETCHDIBITS"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRSTRETCHDIBITS"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

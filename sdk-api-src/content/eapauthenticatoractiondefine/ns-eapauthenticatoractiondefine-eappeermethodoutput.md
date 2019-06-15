@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerMethodOutput, EapPeerMethodOutput structure [EAPHost], eapauthenticatoractiondefine/EapPeerMethodOutput, eaphost.eappeermethodoutput
 ms.topic: struct
+f1_keywords: ["eapauthenticatoractiondefine/EapPeerMethodOutput"]
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 
 req.target-type: Windows

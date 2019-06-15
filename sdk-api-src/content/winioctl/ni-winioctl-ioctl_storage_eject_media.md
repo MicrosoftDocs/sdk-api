@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code, _win32_ioctl_storage_eject_media, base.ioctl_storage_eject_media, winioctl/IOCTL_STORAGE_EJECT_MEDIA
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_EJECT_MEDIA"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

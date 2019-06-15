@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: htonll, htonll function [Winsock], winsock.htonll, winsock2/htonll
 ms.topic: function
+f1_keywords: ["winsock2/htonll"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

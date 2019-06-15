@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_NIT.ConvertNextToCurrent, IDVB_NIT::ConvertNextToCurrent, IDVB_NITConvertNextToCurrent, dvbsiparser/IDVB_NIT::ConvertNextToCurrent, mstv.idvb_nit_convertnexttocurrent
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_NIT.ConvertNextToCurrent"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

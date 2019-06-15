@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCERT_LDAP_STORE_OPENED_PARA, CERT_LDAP_STORE_OPENED_PARA, CERT_LDAP_STORE_OPENED_PARA structure [Security], PCERT_LDAP_STORE_OPENED_PARA, PCERT_LDAP_STORE_OPENED_PARA structure pointer [Security], security.cert_ldap_store_opened_para, wincrypt/CERT_LDAP_STORE_OPENED_PARA, wincrypt/PCERT_LDAP_STORE_OPENED_PARA"
 ms.topic: struct
+f1_keywords: ["wincrypt/CERT_LDAP_STORE_OPENED_PARA"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

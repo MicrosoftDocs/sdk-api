@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Set_Device_Interface_Property, CM_Set_Device_Interface_Property function [Device and Driver Installation], CM_Set_Device_Interface_PropertyW, cfgmgr32/CM_Set_Device_Interface_Property, cfgmgr32/CM_Set_Device_Interface_PropertyW, devinst.cm_set_device_interface_property
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Set_Device_Interface_Property"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

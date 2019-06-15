@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Serializer_Close, MI_Serializer_Close function [Windows Management Infrastructure (MI)], mi/MI_Serializer_Close, wmi_v2.mi_serializer_close
 ms.topic: function
+f1_keywords: ["mi/MI_Serializer_Close"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

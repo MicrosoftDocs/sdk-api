@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilePropertyNames property [File Server Resource Manager], FilePropertyNames property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],FilePropertyNames property, IFsrmPropertyBag.FilePropertyNames, IFsrmPropertyBag.get_FilePropertyNames, IFsrmPropertyBag::FilePropertyNames, IFsrmPropertyBag::get_FilePropertyNames, fs.ifsrmpropertybag_filepropertynames, fsrm.ifsrmpropertybag_filepropertynames, fsrmpipeline/IFsrmPropertyBag::FilePropertyNames, fsrmpipeline/IFsrmPropertyBag::get_FilePropertyNames, get_FilePropertyNames
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.FilePropertyNames"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterClose, FilterClose function [Installable File System Drivers], FltWin32ApiRef_42f7f157-b74a-4856-ac99-bca1caac3493.xml, fltuser/FilterClose, ifsk.filterclose
 ms.topic: function
+f1_keywords: ["fltuser/FilterClose"]
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetResponseAttributes, EapHostPeerGetResponseAttributes function [EAPHost], eaphost.eaphostpeergetresponseattributes, eappapis/EapHostPeerGetResponseAttributes
 ms.topic: function
+f1_keywords: ["eappapis/EapHostPeerGetResponseAttributes"]
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

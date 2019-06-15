@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadOnlyAccess, ReadWriteAccess, WcmNamespaceAccess, WcmNamespaceAccess enumeration [SMI], smi.wcmnamespaceaccess, wcmconfig/ReadOnlyAccess, wcmconfig/ReadWriteAccess, wcmconfig/WcmNamespaceAccess
 ms.topic: enum
+f1_keywords: ["wcmconfig/WcmNamespaceAccess"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

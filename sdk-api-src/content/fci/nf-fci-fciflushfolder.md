@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlushFolder, winprog.fciflushfolder
 ms.topic: function
+f1_keywords: ["fci/FCIFlushFolder"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

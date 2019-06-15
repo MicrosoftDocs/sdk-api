@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_REGISTER_FLAGS, CF_REGISTER_FLAGS enumeration, CF_REGISTER_FLAG_DISABLE_ON_DEMAND_POPULATION_ON_ROOT, CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT, CF_REGISTER_FLAG_NONE, CF_REGISTER_FLAG_UPDATE, cfapi/CF_REGISTER_FLAGS, cfapi/CF_REGISTER_FLAG_DISABLE_ON_DEMAND_POPULATION_ON_ROOT, cfapi/CF_REGISTER_FLAG_MARK_IN_SYNC_ON_ROOT, cfapi/CF_REGISTER_FLAG_NONE, cfapi/CF_REGISTER_FLAG_UPDATE, cloudApi.cf_register_flags
 ms.topic: enum
+f1_keywords: ["cfapi/CF_REGISTER_FLAGS"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HTTPS_URL, WS_HTTPS_URL structure [Web Services for Windows], webservices/WS_HTTPS_URL, wsw.ws_https_url
 ms.topic: struct
+f1_keywords: ["webservices/WS_HTTPS_URL"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

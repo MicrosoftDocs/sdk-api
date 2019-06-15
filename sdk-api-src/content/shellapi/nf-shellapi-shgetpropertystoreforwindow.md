@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreForWindow, SHGetPropertyStoreForWindow function [Windows Properties], _shell_SHGetPropertyStoreForWindow, properties.SHGetPropertyStoreForWindow, shell.SHGetPropertyStoreForWindow, shellapi/SHGetPropertyStoreForWindow
 ms.topic: function
+f1_keywords: ["shellapi/SHGetPropertyStoreForWindow"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

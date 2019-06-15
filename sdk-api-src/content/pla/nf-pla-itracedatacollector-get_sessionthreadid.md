@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionThreadId property, ITraceDataCollector.SessionThreadId, ITraceDataCollector.get_SessionThreadId, ITraceDataCollector::SessionThreadId, ITraceDataCollector::get_SessionThreadId, SessionThreadId property [PLA], SessionThreadId property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionthreadid, get_SessionThreadId, pla.itracedatacollector_sessionthreadid, pla/ITraceDataCollector::SessionThreadId, pla/ITraceDataCollector::get_SessionThreadId
 ms.topic: method
+f1_keywords: ["pla/ITraceDataCollector.SessionThreadId"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

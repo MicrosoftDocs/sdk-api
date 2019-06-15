@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKeySecurityProvider, DrtCreateDerivedKeySecurityProvider function [Peer Networking], drt/DrtCreateDerivedKeySecurityProvider, p2p.drtcreatederivedkeysecurityprovider
 ms.topic: function
+f1_keywords: ["drt/DrtCreateDerivedKeySecurityProvider"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

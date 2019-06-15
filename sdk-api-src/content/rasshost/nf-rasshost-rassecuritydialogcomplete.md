@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogComplete, RasSecurityDialogComplete function [RAS], _ras_rassecuritydialogcomplete, rasshost/RasSecurityDialogComplete, rras.rassecuritydialogcomplete
 ms.topic: function
+f1_keywords: ["rasshost/RasSecurityDialogComplete"]
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

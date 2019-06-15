@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallNotificationEvent, ITCallNotificationEvent interface [TAPI 2.2], ITCallNotificationEvent interface [TAPI 2.2],described, _tapi3_itcallnotificationevent, tapi3.itcallnotificationevent, tapi3if/ITCallNotificationEvent
 ms.topic: interface
+f1_keywords: ["tapi3if/ITCallNotificationEvent"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

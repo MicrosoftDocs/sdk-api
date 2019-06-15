@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],LockVirtualMachine method, ITsSbProvisioningPluginNotifySink.LockVirtualMachine, ITsSbProvisioningPluginNotifySink::LockVirtualMachine, LockVirtualMachine, LockVirtualMachine method [Remote Desktop Services], LockVirtualMachine method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::LockVirtualMachine, termserv.itssbprovisioningpluginnotifysink_lockvirtualmachine
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbProvisioningPluginNotifySink.LockVirtualMachine"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

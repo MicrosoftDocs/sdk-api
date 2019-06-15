@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreateLinkToFileEx, OleCreateLinkToFileEx function [COM], _ole_OleCreateLinkToFileEx, com.olecreatelinktofileex, ole2/OleCreateLinkToFileEx
 ms.topic: function
+f1_keywords: ["ole2/OleCreateLinkToFileEx"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

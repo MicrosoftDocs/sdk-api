@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetProfile method, IMFTranscodeSinkInfoProvider.SetProfile, IMFTranscodeSinkInfoProvider::SetProfile, SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setprofile, mfidl/IMFTranscodeSinkInfoProvider::SetProfile
 ms.topic: method
+f1_keywords: ["mfidl/IMFTranscodeSinkInfoProvider.SetProfile"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

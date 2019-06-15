@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
 ms.topic: function
+f1_keywords: ["wincrypt/CryptGetMessageSignerCount"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

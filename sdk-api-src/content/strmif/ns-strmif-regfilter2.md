@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REGFILTER2, REGFILTER2 structure [DirectShow], REGFILTER2Structure, dshow.regfilter2, strmif/REGFILTER2
 ms.topic: struct
+f1_keywords: ["strmif/REGFILTER2"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

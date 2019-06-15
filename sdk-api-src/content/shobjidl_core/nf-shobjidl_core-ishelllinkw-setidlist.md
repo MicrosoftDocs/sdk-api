@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetIDList method, IShellLink::SetIDList, IShellLinkA interface [Windows Shell],SetIDList method, IShellLinkA::SetIDList, IShellLinkW interface [Windows Shell],SetIDList method, IShellLinkW.SetIDList, IShellLinkW::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IShellLink interface, SetIDList method [Windows Shell],IShellLinkA interface, SetIDList method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetIDList, shell.IShellLink_SetIDList, shobjidl_core/IShellLink::SetIDList, shobjidl_core/IShellLinkA::SetIDList, shobjidl_core/IShellLinkW::SetIDList
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.SetIDList"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

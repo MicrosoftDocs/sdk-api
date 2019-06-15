@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnimationStyle, AnimationStyle enumeration [Windows Accessibility], AnimationStyle_BlinkingBackground, AnimationStyle_LasVegasLights, AnimationStyle_MarchingBlackAnts, AnimationStyle_MarchingRedAnts, AnimationStyle_None, AnimationStyle_Other, AnimationStyle_Shimmer, AnimationStyle_SparkleText, uiauto.uiauto_AnimationStyleEnum, uiauto_AnimationStyleEnum, uiautomationcore/AnimationStyle, uiautomationcore/AnimationStyle_BlinkingBackground, uiautomationcore/AnimationStyle_LasVegasLights, uiautomationcore/AnimationStyle_MarchingBlackAnts, uiautomationcore/AnimationStyle_MarchingRedAnts, uiautomationcore/AnimationStyle_None, uiautomationcore/AnimationStyle_Other, uiautomationcore/AnimationStyle_Shimmer, uiautomationcore/AnimationStyle_SparkleText, winauto.uiauto_AnimationStyleEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcore/AnimationStyle"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HRESULT_CODE, HRESULT_CODE macro [COM], _com_HRESULT_CODE, com.hresult_code, com.hresult_code_macro, winerror/HRESULT_CODE
 ms.topic: macro
+f1_keywords: ["winerror/HRESULT_CODE"]
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows

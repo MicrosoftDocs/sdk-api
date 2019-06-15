@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSemaphore, EngDeleteSemaphore function [Display Devices], display.engdeletesemaphore, gdifncs_a669ceb3-f9b3-4940-b1f8-17c55ee42f59.xml, winddi/EngDeleteSemaphore
 ms.topic: function
+f1_keywords: ["winddi/EngDeleteSemaphore"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

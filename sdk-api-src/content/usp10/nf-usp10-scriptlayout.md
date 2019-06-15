@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptLayout, ScriptLayout function [Internationalization for Windows Applications], _win32_ScriptLayout, intl.scriptlayout, usp10/ScriptLayout
 ms.topic: function
+f1_keywords: ["usp10/ScriptLayout"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFSCE_LOG_INFO, PFSCE_LOG_INFO callback, PFSCE_LOG_INFO callback function [Security], SCE_LOG_LEVEL_ALWAYS, SCE_LOG_LEVEL_DEBUG, SCE_LOG_LEVEL_DETAIL, SCE_LOG_LEVEL_ERROR, _config_pfsce_log_info, scesvc/PFSCE_LOG_INFO, security.pfsce_log_info
 ms.topic: callback
+f1_keywords: ["scesvc/PFSCE_LOG_INFO"]
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

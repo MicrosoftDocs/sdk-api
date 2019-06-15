@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
 ms.topic: function
+f1_keywords: ["winuser/SetWindowRgn"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

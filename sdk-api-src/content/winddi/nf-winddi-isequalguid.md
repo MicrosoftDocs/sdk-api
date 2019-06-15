@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsEqualGUID, IsEqualGUID function [COM], _com_IsEqualGUID, com.isequalguid, winddi/IsEqualGUID
 ms.topic: macro
+f1_keywords: ["winddi/IsEqualGUID"]
 req.header: winddi.h
 req.include-header: GuidDef.h, Objbase.h
 req.target-type: Windows

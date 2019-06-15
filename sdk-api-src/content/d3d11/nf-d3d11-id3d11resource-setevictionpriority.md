@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource interface [Direct3D 11],SetEvictionPriority method, ID3D11Resource.SetEvictionPriority, ID3D11Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 11], SetEvictionPriority method [Direct3D 11],ID3D11Resource interface, d3d11/ID3D11Resource::SetEvictionPriority, direct3d11.id3d11resource_setevictionpriority
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11Resource.SetEvictionPriority"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

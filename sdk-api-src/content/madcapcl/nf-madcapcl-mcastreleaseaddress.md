@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastReleaseAddress, McastReleaseAddress function [MADCAP], _mdhcp_mcastreleaseaddress, madcap.mcastreleaseaddress, madcapcl/McastReleaseAddress
 ms.topic: function
+f1_keywords: ["madcapcl/McastReleaseAddress"]
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

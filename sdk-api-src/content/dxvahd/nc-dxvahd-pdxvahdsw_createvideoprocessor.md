@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_CreateVideoProcessor, PDXVAHDSW_CreateVideoProcessor callback, PDXVAHDSW_CreateVideoProcessor callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateVideoProcessor, mf.pdxvahdsw_createvideoprocessor
 ms.topic: callback
+f1_keywords: ["dxvahd/PDXVAHDSW_CreateVideoProcessor"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

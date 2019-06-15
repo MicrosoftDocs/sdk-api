@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPwrCapabilities, GetPwrCapabilities function, _win32_getpwrcapabilities, base.getpwrcapabilities, powerbase/GetPwrCapabilities, powrprof/GetPwrCapabilities
 ms.topic: function
+f1_keywords: ["powerbase/GetPwrCapabilities"]
 req.header: powerbase.h
 req.include-header: 
 req.target-type: Windows

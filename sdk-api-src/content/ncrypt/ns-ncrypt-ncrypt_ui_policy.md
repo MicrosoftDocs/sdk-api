@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_UI_APPCONTAINER_ACCESS_MEDIUM_FLAG, NCRYPT_UI_FORCE_HIGH_PROTECTION_FLAG, NCRYPT_UI_POLICY, NCRYPT_UI_POLICY structure [Security], NCRYPT_UI_PROTECT_KEY_FLAG, ncrypt/NCRYPT_UI_POLICY, security.ncrypt_ui_policy
 ms.topic: struct
+f1_keywords: ["ncrypt/NCRYPT_UI_POLICY"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

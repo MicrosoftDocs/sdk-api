@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC1, IPSEC_TRAFFIC1 structure [Filtering], fwp.ipsec_traffic1_struct, ipsectypes/IPSEC_TRAFFIC1
 ms.topic: struct
+f1_keywords: ["ipsectypes/IPSEC_TRAFFIC1"]
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

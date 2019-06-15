@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Font::GetHeight
 ms.topic: language-reference
+f1_keywords: ["gdiplusheaders/Font::GetHeight"]
 targetos: Windows
 product: Windows
 req.assembly: 

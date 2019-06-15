@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2f422135-8e5f-41fb-a709-77636d1b451b, BeginEnableContent, BeginEnableContent method [Media Foundation], BeginEnableContent method [Media Foundation],IMFContentProtectionManager interface, IMFContentProtectionManager interface [Media Foundation],BeginEnableContent method, IMFContentProtectionManager.BeginEnableContent, IMFContentProtectionManager::BeginEnableContent, mf.imfcontentprotectionmanager_beginenablecontent, mfidl/IMFContentProtectionManager::BeginEnableContent
 ms.topic: method
+f1_keywords: ["mfidl/IMFContentProtectionManager.BeginEnableContent"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

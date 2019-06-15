@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectVectorVariable interface [Direct3D 10],SetIntVectorArray method, ID3D10EffectVectorVariable.SetIntVectorArray, ID3D10EffectVectorVariable::SetIntVectorArray, SetIntVectorArray, SetIntVectorArray method [Direct3D 10], SetIntVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, c3a5fdc0-0b12-1092-5034-1af95e45a5cb, d3d10effect/ID3D10EffectVectorVariable::SetIntVectorArray, direct3d10.id3d10effectvectorvariable_setintvectorarray
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectVectorVariable.SetIntVectorArray"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

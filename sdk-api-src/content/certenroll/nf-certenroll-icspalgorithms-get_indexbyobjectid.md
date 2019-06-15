@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],IndexByObjectId property, ICspAlgorithms.IndexByObjectId, ICspAlgorithms.get_IndexByObjectId, ICspAlgorithms::IndexByObjectId, ICspAlgorithms::get_IndexByObjectId, IndexByObjectId property [Security], IndexByObjectId property [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::IndexByObjectId, certenroll/ICspAlgorithms::get_IndexByObjectId, get_IndexByObjectId, security.icspalgorithms_indexbyobjectid_property
 ms.topic: method
+f1_keywords: ["certenroll/ICspAlgorithms.IndexByObjectId"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

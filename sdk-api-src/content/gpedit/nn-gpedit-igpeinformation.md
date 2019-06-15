@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPEInformation, IGPEInformation interface [Group Policy], IGPEInformation interface [Group Policy],described, _win32_igpeinformation, gpedit/IGPEInformation, policy.igpeinformation
 ms.topic: interface
+f1_keywords: ["gpedit/IGPEInformation"]
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

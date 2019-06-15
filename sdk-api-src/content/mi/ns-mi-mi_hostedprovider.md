@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_HostedProvider, MI_HostedProvider structure [Windows Management Infrastructure (MI)], mi/MI_HostedProvider, wmi_v2.mi_hostedprovider
 ms.topic: struct
+f1_keywords: ["mi/MI_HostedProvider"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

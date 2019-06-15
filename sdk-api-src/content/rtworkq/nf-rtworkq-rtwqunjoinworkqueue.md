@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqUnjoinWorkQueue, RtwqUnjoinWorkQueue function, base.rtwqunjoinworkqueue, rtworkq/RtwqUnjoinWorkQueue
 ms.topic: function
+f1_keywords: ["rtworkq/RtwqUnjoinWorkQueue"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

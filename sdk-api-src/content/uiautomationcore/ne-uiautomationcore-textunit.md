@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextUnit, TextUnit enumeration [Windows Accessibility], TextUnit_Character, TextUnit_Document, TextUnit_Format, TextUnit_Line, TextUnit_Page, TextUnit_Paragraph, TextUnit_Word, uiauto.uiauto_TextUnitEnum, uiauto_TextUnitEnum, uiautomationcore/TextUnit, uiautomationcore/TextUnit_Character, uiautomationcore/TextUnit_Document, uiautomationcore/TextUnit_Format, uiautomationcore/TextUnit_Line, uiautomationcore/TextUnit_Page, uiautomationcore/TextUnit_Paragraph, uiautomationcore/TextUnit_Word, winauto.uiauto_TextUnitEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcore/TextUnit"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

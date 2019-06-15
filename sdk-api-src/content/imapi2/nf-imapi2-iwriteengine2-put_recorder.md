@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_Recorder method, IWriteEngine2.put_Recorder, IWriteEngine2::put_Recorder, imapi.iwriteengine2_put_recorder, imapi2/IWriteEngine2::put_Recorder, put_Recorder, put_Recorder method [IMAPI], put_Recorder method [IMAPI],IWriteEngine2 interface
 ms.topic: method
+f1_keywords: ["imapi2/IWriteEngine2.put_Recorder"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

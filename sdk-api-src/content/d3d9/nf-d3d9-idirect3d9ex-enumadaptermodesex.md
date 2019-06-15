@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4bc3b89a-9f5a-0632-2b67-102fd92c5053, EnumAdapterModesEx, EnumAdapterModesEx method [Direct3D 9], EnumAdapterModesEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],EnumAdapterModesEx method, IDirect3D9Ex.EnumAdapterModesEx, IDirect3D9Ex::EnumAdapterModesEx, d3d9/IDirect3D9Ex::EnumAdapterModesEx, direct3d9.idirect3d9ex_enumadaptermodesex
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3D9Ex.EnumAdapterModesEx"]
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

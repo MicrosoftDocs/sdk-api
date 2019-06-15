@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 02/20/2019
 ms.keywords: BG_JOB_TYPE, BG_JOB_TYPE enumeration [BITS], BG_JOB_TYPE_DOWNLOAD, BG_JOB_TYPE_UPLOAD, BG_JOB_TYPE_UPLOAD_REPLY, _drz_bg_job_type, bits.bg_job_type, bits/BG_JOB_TYPE, bits/BG_JOB_TYPE_DOWNLOAD, bits/BG_JOB_TYPE_UPLOAD, bits/BG_JOB_TYPE_UPLOAD_REPLY
 ms.topic: enum
+f1_keywords: ["bits/BG_JOB_TYPE"]
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

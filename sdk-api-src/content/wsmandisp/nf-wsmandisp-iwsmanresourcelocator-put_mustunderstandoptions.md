@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManResourceLocator interface [Windows Remote Management],MustUnderstandOptions property, IWSManResourceLocator.MustUnderstandOptions, IWSManResourceLocator.put_MustUnderstandOptions, IWSManResourceLocator::MustUnderstandOptions, IWSManResourceLocator::get_MustUnderstandOptions, IWSManResourceLocator::put_MustUnderstandOptions, MustUnderstandOptions property [Windows Remote Management], MustUnderstandOptions property [Windows Remote Management],IWSManResourceLocator interface, put_MustUnderstandOptions, winrm.iwsmanresourcelocator_mustunderstandoptions, wsmandisp/IWSManResourceLocator::MustUnderstandOptions, wsmandisp/IWSManResourceLocator::get_MustUnderstandOptions, wsmandisp/IWSManResourceLocator::put_MustUnderstandOptions
 ms.topic: method
+f1_keywords: ["wsmandisp/IWSManResourceLocator.MustUnderstandOptions"]
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

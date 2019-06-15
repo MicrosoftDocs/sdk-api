@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [SMI], GetName method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetName method, ISettingsItem.GetName, ISettingsItem::GetName, smi.isettingsitem_getname, wcmconfig/ISettingsItem::GetName
 ms.topic: method
+f1_keywords: ["wcmconfig/ISettingsItem.GetName"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

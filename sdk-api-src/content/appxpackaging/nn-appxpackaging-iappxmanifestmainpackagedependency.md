@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestMainPackageDependency, IAppxManifestMainPackageDependency interface [App packaging and management], IAppxManifestMainPackageDependency interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependency, appxpkg.iappxmanifestmainpackagedependency
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxManifestMainPackageDependency"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

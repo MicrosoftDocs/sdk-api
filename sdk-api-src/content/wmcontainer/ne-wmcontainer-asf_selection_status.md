@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1571650b-4d5c-49ae-9e6d-77ef4ae7ae59, ASF_SELECTION_STATUS, ASF_SELECTION_STATUS enumeration [Media Foundation], ASF_STATUS_ALLDATAUNITS, ASF_STATUS_CLEANPOINTSONLY, ASF_STATUS_NOTSELECTED, mf.asf_selection_status, wmcontainer/ASF_SELECTION_STATUS, wmcontainer/ASF_STATUS_ALLDATAUNITS, wmcontainer/ASF_STATUS_CLEANPOINTSONLY, wmcontainer/ASF_STATUS_NOTSELECTED
 ms.topic: enum
+f1_keywords: ["wmcontainer/ASF_SELECTION_STATUS"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

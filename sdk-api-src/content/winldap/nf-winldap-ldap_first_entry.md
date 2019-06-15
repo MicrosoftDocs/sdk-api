@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_first_entry, ldap.ldap__first__entry, ldap.ldap_first_entry, ldap_first_entry, ldap_first_entry function [LDAP], winldap/ldap_first_entry"
 ms.topic: function
+f1_keywords: ["winldap/ldap_first_entry"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

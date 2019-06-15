@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Actions property [PLA], Actions property [PLA],IFolderAction interface, IFolderAction interface [PLA],Actions property, IFolderAction.Actions, IFolderAction.get_Actions, IFolderAction::Actions, IFolderAction::get_Actions, IFolderAction::put_Actions, base.ifolderaction_actions, get_Actions, pla.ifolderaction_actions, pla/IFolderAction::Actions, pla/IFolderAction::get_Actions, pla/IFolderAction::put_Actions
 ms.topic: method
+f1_keywords: ["pla/IFolderAction.Actions"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

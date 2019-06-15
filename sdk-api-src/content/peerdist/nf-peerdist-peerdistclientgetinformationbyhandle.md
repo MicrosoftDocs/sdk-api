@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientGetInformationByHandle, PeerDistClientGetInformationByHandle function [Peer Networking], p2p.peerdistclientgetinformationbyhandle, peerdist/PeerDistClientGetInformationByHandle
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistClientGetInformationByHandle"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

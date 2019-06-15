@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetMuted method, IMFMediaEngine.SetMuted, IMFMediaEngine::SetMuted, SetMuted, SetMuted method [Media Foundation], SetMuted method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setmuted, mfmediaengine/IMFMediaEngine::SetMuted
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.SetMuted"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

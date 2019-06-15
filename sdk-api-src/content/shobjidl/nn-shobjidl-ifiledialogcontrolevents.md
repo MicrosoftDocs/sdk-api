@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents, IFileDialogControlEvents interface [Windows Shell], IFileDialogControlEvents interface [Windows Shell],described, shell.IFileDialogControlEvents, shell_IFileDialogControlEvents, shobjidl/IFileDialogControlEvents
 ms.topic: interface
+f1_keywords: ["shobjidl/IFileDialogControlEvents"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

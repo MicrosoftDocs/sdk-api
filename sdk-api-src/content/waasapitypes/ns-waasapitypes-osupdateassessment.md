@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OSUpdateAssessment, OSUpdateAssessment structure, base.osupdateassessment, waasapitypes/OSUpdateAssessment
 ms.topic: struct
+f1_keywords: ["waasapitypes/OSUpdateAssessment"]
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows

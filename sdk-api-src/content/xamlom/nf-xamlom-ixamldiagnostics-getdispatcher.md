@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDispatcher, GetDispatcher method, GetDispatcher method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetDispatcher method, IXamlDiagnostics.GetDispatcher, IXamlDiagnostics::GetDispatcher, xaml_diagnostics.ixamldiagnostics_getdispatcher, xamlom/IXamlDiagnostics::GetDispatcher
 ms.topic: method
+f1_keywords: ["xamlom/IXamlDiagnostics.GetDispatcher"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Direct2D], Clone method [Direct2D],ID2D1SvgAttribute interface, ID2D1SvgAttribute interface [Direct2D],Clone method, ID2D1SvgAttribute.Clone, ID2D1SvgAttribute::Clone, d2d1svg/ID2D1SvgAttribute::Clone, direct2d.id2d1svgattribute_clone
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgAttribute.Clone"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

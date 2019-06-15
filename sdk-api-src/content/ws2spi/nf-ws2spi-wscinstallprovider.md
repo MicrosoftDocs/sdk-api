@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCInstallProvider, WSCInstallProvider function [Winsock], _win32_wscinstallprovider_2, winsock.wscinstallprovider_2, ws2spi/WSCInstallProvider
 ms.topic: function
+f1_keywords: ["ws2spi/WSCInstallProvider"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

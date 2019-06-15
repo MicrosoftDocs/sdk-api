@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumControls, EnumControls method [COM], EnumControls method [COM],IVBGetControl interface, GCW_WCH_SIBLING, GC_WCH_ALL, GC_WCH_CONTAINED, GC_WCH_CONTAINER, GC_WCH_FONLYAFTER, GC_WCH_FONLYBEFORE, GC_WCH_FREVERSEDIR, GC_WCH_FSELECTED, IVBGetControl interface [COM],EnumControls method, IVBGetControl.EnumControls, IVBGetControl::EnumControls, OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHER, _com_IVBGetControl_EnumControls, com.ivbgetcontrol_enumcontrols, vbinterf/IVBGetControl::EnumControls
 ms.topic: method
+f1_keywords: ["vbinterf/IVBGetControl.EnumControls"]
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows

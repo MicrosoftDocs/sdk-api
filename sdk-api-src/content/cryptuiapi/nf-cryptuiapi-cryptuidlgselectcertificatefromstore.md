@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPTUI_SELECT_EXPIRATION_COLUMN, CRYPTUI_SELECT_FRIENDLYNAME_COLUMN, CRYPTUI_SELECT_INTENDEDUSE_COLUMN, CRYPTUI_SELECT_ISSUEDBY_COLUMN, CRYPTUI_SELECT_ISSUEDTO_COLUMN, CRYPTUI_SELECT_LOCATION_COLUMN, CryptUIDlgSelectCertificateFromStore, CryptUIDlgSelectCertificateFromStore function [Security], _crypto2_cryptuidlgselectcertificatefromstore, cryptuiapi/CryptUIDlgSelectCertificateFromStore, security.cryptuidlgselectcertificatefromstore
 ms.topic: function
+f1_keywords: ["cryptuiapi/CryptUIDlgSelectCertificateFromStore"]
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

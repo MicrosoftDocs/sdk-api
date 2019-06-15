@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEudcFontCollection, GetEudcFontCollection method [Direct Write], GetEudcFontCollection method [Direct Write],IDWriteFactory1 interface, IDWriteFactory1 interface [Direct Write],GetEudcFontCollection method, IDWriteFactory1.GetEudcFontCollection, IDWriteFactory1::GetEudcFontCollection, directwrite.idwritefactory1_geteudcfontcollection, dwrite_1/IDWriteFactory1::GetEudcFontCollection
 ms.topic: method
+f1_keywords: ["dwrite_1/IDWriteFactory1.GetEudcFontCollection"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

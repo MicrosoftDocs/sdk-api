@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSOURCEFILEW, PSOURCEFILE, PSOURCEFILE structure pointer, SOURCEFILE, SOURCEFILE structure, SOURCEFILEW, _SOURCEFILE, _SOURCEFILEW, base.sourcefile_str, dbghelp/PSOURCEFILE, dbghelp/SOURCEFILE, dbghelp/SOURCEFILEW"
 ms.topic: struct
+f1_keywords: ["dbghelp/SOURCEFILE"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

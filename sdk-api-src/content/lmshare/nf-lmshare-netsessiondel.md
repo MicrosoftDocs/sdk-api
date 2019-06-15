@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetSessionDel, NetSessionDel function [Files], _win32_netsessiondel, fs.netsessiondel, lmshare/NetSessionDel, netmgmt.netsessiondel
 ms.topic: function
+f1_keywords: ["lmshare/NetSessionDel"]
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

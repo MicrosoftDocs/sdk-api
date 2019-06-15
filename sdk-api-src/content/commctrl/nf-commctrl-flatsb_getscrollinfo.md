@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlatSB_GetScrollInfo, FlatSB_GetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_GetScrollInfo, _win32_FlatSB_GetScrollInfo_cpp, commctrl/FlatSB_GetScrollInfo, controls.FlatSB_GetScrollInfo, controls._win32_FlatSB_GetScrollInfo
 ms.topic: function
+f1_keywords: ["commctrl/FlatSB_GetScrollInfo"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

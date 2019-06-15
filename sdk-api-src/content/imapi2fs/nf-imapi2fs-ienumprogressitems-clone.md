@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [IMAPI], Clone method [IMAPI],IEnumProgressItems interface, IEnumProgressItems interface [IMAPI],Clone method, IEnumProgressItems.Clone, IEnumProgressItems::Clone, imapi.ienumprogressitems_clone, imapi2fs/IEnumProgressItems::Clone
 ms.topic: method
+f1_keywords: ["imapi2fs/IEnumProgressItems.Clone"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

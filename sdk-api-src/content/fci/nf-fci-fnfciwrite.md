@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
 ms.topic: macro
+f1_keywords: ["fci/FNFCIWRITE"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

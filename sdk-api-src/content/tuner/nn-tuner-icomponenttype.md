@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], IComponentType interface [Microsoft TV Technologies],described, IComponentTypeInterface, mstv.icomponenttype, tuner/IComponentType
 ms.topic: interface
+f1_keywords: ["tuner/IComponentType"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

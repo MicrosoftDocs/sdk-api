@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_UPDATEOVERLAYDATA, DD_UPDATEOVERLAYDATA, DD_UPDATEOVERLAYDATA structure [Display Devices], ddrawint/DD_UPDATEOVERLAYDATA, ddstrcts_43001aad-c6c1-4908-b945-bc612bd7297a.xml, display.dd_updateoverlaydata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_UPDATEOVERLAYDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

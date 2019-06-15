@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush class [GDI+], TextureBrush class [GDI+],described, _gdiplus_CLASS_TextureBrush_Class, gdiplus._gdiplus_CLASS_TextureBrush_Class, gdiplusbrush/TextureBrush
 ms.topic: class
+f1_keywords: ["gdiplusbrush/TextureBrush"]
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows

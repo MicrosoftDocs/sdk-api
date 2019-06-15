@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFREEMEM, PFREEMEM callback, PFREEMEM callback function [QOS], _gqos_pfreemem, lpmapi/PFREEMEM, qos.pfreemem
 ms.topic: callback
+f1_keywords: ["lpmapi/PFREEMEM"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

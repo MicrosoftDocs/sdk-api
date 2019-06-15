@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConsolePowerSink, IConsolePowerSink interface [MMC], IConsolePowerSink interface [MMC],described, _slate_iconsolepowersink, mmc.iconsolepowersink, mmc/IConsolePowerSink
 ms.topic: interface
+f1_keywords: ["mmc/IConsolePowerSink"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

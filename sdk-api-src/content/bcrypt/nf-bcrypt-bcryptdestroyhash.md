@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BCryptDestroyHash, security.bcryptdestroyhash_func
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptDestroyHash"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

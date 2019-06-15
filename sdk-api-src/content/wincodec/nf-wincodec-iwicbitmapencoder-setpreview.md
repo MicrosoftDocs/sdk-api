@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPreview method, IWICBitmapEncoder.SetPreview, IWICBitmapEncoder::SetPreview, SetPreview, SetPreview method [Windows Imaging Component], SetPreview method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setpreview, wic._wic_codec_iwicbitmapencoder_setpreview, wincodec/IWICBitmapEncoder::SetPreview
 ms.topic: method
+f1_keywords: ["wincodec/IWICBitmapEncoder.SetPreview"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

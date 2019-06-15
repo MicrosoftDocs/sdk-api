@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ConstDatetimeA, MI_ConstDatetimeA structure [Windows Management Infrastructure (MI)], mi/MI_ConstDatetimeA, wmi._mi_constdatetimea, wmi_v2.mi_constdatetimea
 ms.topic: struct
+f1_keywords: ["mi/MI_ConstDatetimeA"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

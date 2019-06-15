@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo interface [TAPI 2.2],Reset method, IEnumPluggableSuperclassInfo.Reset, IEnumPluggableSuperclassInfo::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumPluggableSuperclassInfo interface, _tapi3_ienumpluggablesuperclassinfo_reset, tapi3.ienumpluggablesuperclassinfo_reset, tapi3if/IEnumPluggableSuperclassInfo::Reset
 ms.topic: method
+f1_keywords: ["tapi3if/IEnumPluggableSuperclassInfo.Reset"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_LNBInfo interface [Microsoft TV Technologies],get_LocalOscilatorFrequencyLowBand method, IBDA_LNBInfo.get_LocalOscilatorFrequencyLowBand, IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand, IBDA_LNBInfoget_LocalOscilatorFrequencyLowBand, bdaiface/IBDA_LNBInfo::get_LocalOscilatorFrequencyLowBand, get_LocalOscilatorFrequencyLowBand, get_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies], get_LocalOscilatorFrequencyLowBand method [Microsoft TV Technologies],IBDA_LNBInfo interface, mstv.ibda_lnbinfo_get_localoscilatorfrequencylowband
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_LNBInfo.get_LocalOscilatorFrequencyLowBand"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

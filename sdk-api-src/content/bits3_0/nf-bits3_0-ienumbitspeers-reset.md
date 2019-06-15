@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBitsPeers interface [BITS],Reset method, IEnumBitsPeers.Reset, IEnumBitsPeers::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBitsPeers interface, bits.ienumbitspeers_reset, bits3_0/IEnumBitsPeers::Reset
 ms.topic: method
+f1_keywords: ["bits3_0/IEnumBitsPeers.Reset"]
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

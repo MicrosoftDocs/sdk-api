@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCB_RESET, GetBoundsRect, GetBoundsRect function [Windows GDI], _win32_GetBoundsRect, gdi.getboundsrect, wingdi/GetBoundsRect
 ms.topic: function
+f1_keywords: ["wingdi/GetBoundsRect"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

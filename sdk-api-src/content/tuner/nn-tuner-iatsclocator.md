@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator, IATSCLocator interface [Microsoft TV Technologies], IATSCLocator interface [Microsoft TV Technologies],described, IATSCLocatorInterface, mstv.iatsclocator, tuner/IATSCLocator
 ms.topic: interface
+f1_keywords: ["tuner/IATSCLocator"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

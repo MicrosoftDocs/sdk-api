@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FACTORY_TYPE, DWRITE_FACTORY_TYPE enumeration [Direct Write], DWRITE_FACTORY_TYPE_ISOLATED, DWRITE_FACTORY_TYPE_SHARED, directwrite.dwrite_factory_type, dwrite/DWRITE_FACTORY_TYPE, dwrite/DWRITE_FACTORY_TYPE_ISOLATED, dwrite/DWRITE_FACTORY_TYPE_SHARED
 ms.topic: enum
+f1_keywords: ["dwrite/DWRITE_FACTORY_TYPE"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

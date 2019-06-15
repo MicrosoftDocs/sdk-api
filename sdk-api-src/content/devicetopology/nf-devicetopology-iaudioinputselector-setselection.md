@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioInputSelector interface [Core Audio],SetSelection method, IAudioInputSelector.SetSelection, IAudioInputSelector::SetSelection, IAudioInputSelectorSetSelection, SetSelection, SetSelection method [Core Audio], SetSelection method [Core Audio],IAudioInputSelector interface, coreaudio.iaudioinputselector_setselection, devicetopology/IAudioInputSelector::SetSelection
 ms.topic: method
+f1_keywords: ["devicetopology/IAudioInputSelector.SetSelection"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

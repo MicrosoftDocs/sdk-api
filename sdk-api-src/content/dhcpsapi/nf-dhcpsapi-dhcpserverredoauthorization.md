@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerRedoAuthorization, DhcpServerRedoAuthorization function [DHCP], dhcp.dhcpserverredoauthorization, dhcpsapi/DhcpServerRedoAuthorization
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerRedoAuthorization"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

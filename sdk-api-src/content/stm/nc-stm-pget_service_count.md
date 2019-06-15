@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServiceCount, GetServiceCount callback function [RAS], PGET_SERVICE_COUNT, PGET_SERVICE_COUNT callback, _mpr_getservicecount, rras.getservicecount, stm/GetServiceCount
 ms.topic: callback
+f1_keywords: ["stm/GetServiceCount"]
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows

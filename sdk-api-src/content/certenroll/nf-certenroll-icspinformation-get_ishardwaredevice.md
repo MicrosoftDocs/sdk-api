@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],IsHardwareDevice property, ICspInformation.IsHardwareDevice, ICspInformation.get_IsHardwareDevice, ICspInformation::IsHardwareDevice, ICspInformation::get_IsHardwareDevice, IsHardwareDevice property [Security], IsHardwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsHardwareDevice, certenroll/ICspInformation::get_IsHardwareDevice, get_IsHardwareDevice, security.icspinformation_ishardwaredevice_property
 ms.topic: method
+f1_keywords: ["certenroll/ICspInformation.IsHardwareDevice"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

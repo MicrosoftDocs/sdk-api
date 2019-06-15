@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestProperties, IAppxManifestProperties interface [App packaging and management], IAppxManifestProperties interface [App packaging and management],described, appxpackaging/IAppxManifestProperties, appxpkg.iappxmanifestproperties
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxManifestProperties"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

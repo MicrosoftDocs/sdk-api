@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], xps.xps_size, xpsobjectmodel/XPS_SIZE
 ms.topic: struct
+f1_keywords: ["xpsobjectmodel/XPS_SIZE"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

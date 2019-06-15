@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBATTERY_NOTIFY, BATTERY_NOTIFY, BATTERY_NOTIFY structure [Battery Devices], PBATTERY_NOTIFY, PBATTERY_NOTIFY structure pointer [Battery Devices], bat-struct_cd1e6dc5-678c-4529-b852-2832ce2e791b.xml, batclass/BATTERY_NOTIFY, batclass/PBATTERY_NOTIFY, battery.battery_notify"
 ms.topic: struct
+f1_keywords: ["batclass/BATTERY_NOTIFY"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows

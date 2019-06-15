@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
 ms.topic: interface
+f1_keywords: ["azroles/IAzAuthorizationStore"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageType, GetPackageType method [App packaging and management], GetPackageType method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetPackageType method, IAppxBundleManifestPackageInfo.GetPackageType, IAppxBundleManifestPackageInfo::GetPackageType, appxpackaging/IAppxBundleManifestPackageInfo::GetPackageType, appxpkg.iappxbundlemanifestpackageinfo_getpackagetype
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxBundleManifestPackageInfo.GetPackageType"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

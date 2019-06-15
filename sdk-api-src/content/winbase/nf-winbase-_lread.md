@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_lread, _lread function [Windows API], winbase/_lread, winprog._lread"
 ms.topic: function
+f1_keywords: ["winbase/_lread"]
 req.header: winbase.h
 req.include-header: 
 req.target-type: Windows

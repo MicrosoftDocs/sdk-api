@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaFindParams, UiaFindParams structure [Windows Accessibility], uiauto.uiauto_UiaFindParamsStruct, uiauto_UiaFindParamsStruct, uiautomationcoreapi/UiaFindParams, winauto.uiauto_UiaFindParamsStruct
 ms.topic: struct
+f1_keywords: ["uiautomationcoreapi/UiaFindParams"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

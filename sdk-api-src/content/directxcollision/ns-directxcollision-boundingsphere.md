@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingSphere, BoundingSphere structure [DirectX Math Support APIs], directxcollision/BoundingSphere, dxmath.boundingsphere
 ms.topic: struct
+f1_keywords: ["directxcollision/BoundingSphere"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

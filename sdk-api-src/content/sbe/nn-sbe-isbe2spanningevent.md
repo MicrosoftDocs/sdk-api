@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2SpanningEvent, ISBE2SpanningEvent interface [Microsoft TV Technologies], ISBE2SpanningEvent interface [Microsoft TV Technologies],described, mstv.isbe2spanningevent, sbe/ISBE2SpanningEvent
 ms.topic: interface
+f1_keywords: ["sbe/ISBE2SpanningEvent"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

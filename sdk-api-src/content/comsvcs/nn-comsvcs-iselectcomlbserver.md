@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISelectCOMLBServer, ISelectCOMLBServer interface [COM+], ISelectCOMLBServer interface [COM+],described, _cos_ISelectCOMLBServer, comsvcs/ISelectCOMLBServer, cos.iselectcomlbserver
 ms.topic: interface
+f1_keywords: ["comsvcs/ISelectCOMLBServer"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

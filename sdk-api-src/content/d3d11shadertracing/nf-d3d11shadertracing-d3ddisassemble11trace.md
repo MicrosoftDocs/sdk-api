@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DDisassemble11Trace, D3DDisassemble11Trace function [Direct3D 11], d3d11shadertracing/D3DDisassemble11Trace, direct3d11.d3ddisassemble11trace
 ms.topic: function
+f1_keywords: ["d3d11shadertracing/D3DDisassemble11Trace"]
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

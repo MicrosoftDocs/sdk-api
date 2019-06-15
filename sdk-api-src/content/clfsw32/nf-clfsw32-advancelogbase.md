@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdvanceLogBase, AdvanceLogBase function [Files], clfsw32/AdvanceLogBase, fs.advancelogbase
 ms.topic: function
+f1_keywords: ["clfsw32/AdvanceLogBase"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

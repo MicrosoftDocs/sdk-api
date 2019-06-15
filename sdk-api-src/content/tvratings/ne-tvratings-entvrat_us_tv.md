@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnTvRat_US_TV, EnTvRat_US_TV enumeration [Microsoft TV Technologies], US_TV_14, US_TV_G, US_TV_MA, US_TV_None, US_TV_None7, US_TV_PG, US_TV_Y, US_TV_Y7, mstv.entvrat_us_tv, tvratings/EnTvRat_US_TV, tvratings/US_TV_14, tvratings/US_TV_G, tvratings/US_TV_MA, tvratings/US_TV_None, tvratings/US_TV_None7, tvratings/US_TV_PG, tvratings/US_TV_Y, tvratings/US_TV_Y7
 ms.topic: enum
+f1_keywords: ["tvratings/EnTvRat_US_TV"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

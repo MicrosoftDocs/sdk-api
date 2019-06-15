@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSACancelAsyncRequest, WSACancelAsyncRequest function [Winsock], _win32_wsacancelasyncrequest_2, winsock.wsacancelasyncrequest_2, winsock/WSACancelAsyncRequest
 ms.topic: function
+f1_keywords: ["winsock2/WSACancelAsyncRequest"]
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows

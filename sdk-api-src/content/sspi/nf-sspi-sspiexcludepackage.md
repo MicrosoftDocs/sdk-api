@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
 ms.topic: function
+f1_keywords: ["sspi/SspiExcludePackage"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

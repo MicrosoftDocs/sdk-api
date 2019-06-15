@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0009e4c5-6ad8-a897-de23-d289a78f9671, GetDeviceRemovedReason, GetDeviceRemovedReason method [Direct3D 10], GetDeviceRemovedReason method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetDeviceRemovedReason method, ID3D10Device.GetDeviceRemovedReason, ID3D10Device::GetDeviceRemovedReason, d3d10/ID3D10Device::GetDeviceRemovedReason, direct3d10.id3d10device_getdeviceremovedreason
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.GetDeviceRemovedReason"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

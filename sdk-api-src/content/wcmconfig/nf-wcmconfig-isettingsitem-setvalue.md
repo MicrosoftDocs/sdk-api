@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetValue, ISettingsItem::SetValue, SetValue, SetValue method [SMI], SetValue method [SMI],ISettingsItem interface, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
 ms.topic: method
+f1_keywords: ["wcmconfig/ISettingsItem.SetValue"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

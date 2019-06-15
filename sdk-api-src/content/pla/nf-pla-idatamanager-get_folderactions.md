@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FolderActions property [PLA], FolderActions property [PLA],IDataManager interface, IDataManager interface [PLA],FolderActions property, IDataManager.FolderActions, IDataManager.get_FolderActions, IDataManager::FolderActions, IDataManager::get_FolderActions, base.idatamanager_folderactions, get_FolderActions, pla.idatamanager_folderactions, pla/IDataManager::FolderActions, pla/IDataManager::get_FolderActions
 ms.topic: method
+f1_keywords: ["pla/IDataManager.FolderActions"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

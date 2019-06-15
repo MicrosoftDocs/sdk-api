@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySet_ContainsElement, MI_PropertySet_ContainsElement function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_ContainsElement, wmi_v2.mi_propertyset_containselement
 ms.topic: function
+f1_keywords: ["mi/MI_PropertySet_ContainsElement"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

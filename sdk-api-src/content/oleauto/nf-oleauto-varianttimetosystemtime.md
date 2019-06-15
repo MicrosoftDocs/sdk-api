@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantTimeToSystemTime, VariantTimeToSystemTime function [Automation], _oa96_VariantTimeToSystemTime, automat.varianttimetosystemtime, oleauto/VariantTimeToSystemTime
 ms.topic: function
+f1_keywords: ["oleauto/VariantTimeToSystemTime"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmStreamClose, acmStreamClose, acmStreamClose function [Windows Multimedia], msacm/acmStreamClose, multimedia.acmstreamclose"
 ms.topic: function
+f1_keywords: ["msacm/acmStreamClose"]
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

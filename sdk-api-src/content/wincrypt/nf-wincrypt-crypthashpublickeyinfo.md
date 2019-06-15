@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
 ms.topic: function
+f1_keywords: ["wincrypt/CryptHashPublicKeyInfo"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

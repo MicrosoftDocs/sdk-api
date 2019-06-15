@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzread, lzexpand/LZRead
 ms.topic: function
+f1_keywords: ["lzexpand/LZRead"]
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

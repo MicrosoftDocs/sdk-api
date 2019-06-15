@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx interface [WIA],InitializeLogEx method, IWiaLogEx.InitializeLogEx, IWiaLogEx::InitializeLogEx, InitializeLogEx, InitializeLogEx method [WIA], InitializeLogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_InitializeLogEx, wia._wia_IWiaLogEx_InitializeLogEx, wia_xp/IWiaLogEx::InitializeLogEx
 ms.topic: method
+f1_keywords: ["wia_xp/IWiaLogEx.InitializeLogEx"]
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMBYTEN2, XMBYTEN2 constructor [DirectX Math Support APIs], XMBYTEN2 constructor [DirectX Math Support APIs],XMBYTEN2 structure, XMBYTEN2 structure [DirectX Math Support APIs],XMBYTEN2 constructor, XMBYTEN2.XMBYTEN2, XMBYTEN2.XMBYTEN2(), XMBYTEN2.XMBYTEN2(uint16_t), XMBYTEN2::XMBYTEN2, XMBYTEN2::XMBYTEN2(uint16_t), dxmath.xmbyten2_ctor_1
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMBYTEN2.XMBYTEN2"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FDAP, FDAP enumeration [Windows Shell], FDAP_BOTTOM, FDAP_TOP, _shell_FDAP, shell.FDAP, shobjidl_core/FDAP, shobjidl_core/FDAP_BOTTOM, shobjidl_core/FDAP_TOP
 ms.topic: enum
+f1_keywords: ["shobjidl_core/FDAP"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

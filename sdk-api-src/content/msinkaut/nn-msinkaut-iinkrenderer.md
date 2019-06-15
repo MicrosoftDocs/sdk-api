@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC], IInkRenderer interface [Tablet PC],described, msinkaut/IInkRenderer, tablet.iinkrenderer
 ms.topic: interface
+f1_keywords: ["msinkaut/IInkRenderer"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

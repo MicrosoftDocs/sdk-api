@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPBDAAttributesDescriptor, IPBDAAttributesDescriptor interface [Microsoft TV Technologies], IPBDAAttributesDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IPBDAAttributesDescriptor, mstv.ipbdaattributesdescriptor
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IPBDAAttributesDescriptor"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWSAECOMPARATOR, *PWSAECOMPARATOR, COMP_EQUAL, COMP_NOTLESS, PWSAECOMPARATOR, PWSAECOMPARATOR enumeration pointer [Winsock], WSAECOMPARATOR, WSAECOMPARATOR enumeration [Winsock], _win32_wsaecomparator_2, winsock.wsaecomparator_2, winsock2/COMP_EQUAL, winsock2/COMP_NOTLESS, winsock2/PWSAECOMPARATOR, winsock2/WSAECOMPARATOR"
 ms.topic: enum
+f1_keywords: ["winsock2/WSAECOMPARATOR"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

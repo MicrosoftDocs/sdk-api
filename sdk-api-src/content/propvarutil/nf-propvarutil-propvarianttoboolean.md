@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Properties], properties.PropVariantToBoolean, propvarutil/PropVariantToBoolean, shell.PropVariantToBoolean, shell_PropVariantToBoolean
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToBoolean"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

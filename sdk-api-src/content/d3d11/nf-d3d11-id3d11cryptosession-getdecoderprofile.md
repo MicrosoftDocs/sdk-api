@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDecoderProfile, GetDecoderProfile method [Media Foundation], GetDecoderProfile method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetDecoderProfile method, ID3D11CryptoSession.GetDecoderProfile, ID3D11CryptoSession::GetDecoderProfile, d3d11/ID3D11CryptoSession::GetDecoderProfile, mf.id3d11cryptosession_getdecoderprofile
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11CryptoSession.GetDecoderProfile"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetResourceMinLOD, GetResourceMinLOD method [Direct3D 11], GetResourceMinLOD method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetResourceMinLOD method, ID3D11DeviceContext.GetResourceMinLOD, ID3D11DeviceContext::GetResourceMinLOD, d3d11/ID3D11DeviceContext::GetResourceMinLOD, direct3d11.id3d11devicecontext_getresourceminlod, ff23ef4d-444a-7056-36ac-50371c88186b
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.GetResourceMinLOD"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

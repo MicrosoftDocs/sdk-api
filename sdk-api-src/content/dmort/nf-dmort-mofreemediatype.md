@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
 ms.topic: function
+f1_keywords: ["dmort/MoFreeMediaType"]
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows

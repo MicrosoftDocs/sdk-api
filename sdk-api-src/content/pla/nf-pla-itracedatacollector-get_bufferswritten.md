@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersWritten property, ITraceDataCollector.BuffersWritten, ITraceDataCollector.get_BuffersWritten, ITraceDataCollector::BuffersWritten, ITraceDataCollector::get_BuffersWritten, base.itracedatacollector_bufferswritten, get_BuffersWritten, pla.itracedatacollector_bufferswritten, pla/ITraceDataCollector::BuffersWritten, pla/ITraceDataCollector::get_BuffersWritten
 ms.topic: method
+f1_keywords: ["pla/ITraceDataCollector.BuffersWritten"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

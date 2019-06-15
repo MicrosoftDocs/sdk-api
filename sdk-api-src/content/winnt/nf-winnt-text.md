@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
 ms.topic: macro
+f1_keywords: ["winnt/TEXT"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

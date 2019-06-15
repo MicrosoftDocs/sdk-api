@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RealDriveType, RealDriveType function [Windows Shell], _win32_RealDriveType, shell.RealDriveType, shlobj_core/RealDriveType
 ms.topic: function
+f1_keywords: ["shlobj_core/RealDriveType"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

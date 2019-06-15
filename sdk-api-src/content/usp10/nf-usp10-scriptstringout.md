@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ETO_CLIPPED, ETO_OPAQUE, ScriptStringOut, ScriptStringOut function [Internationalization for Windows Applications], _win32_ScriptStringOut, intl.scriptstringout, usp10/ScriptStringOut
 ms.topic: function
+f1_keywords: ["usp10/ScriptStringOut"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

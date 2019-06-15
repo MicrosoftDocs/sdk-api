@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_MediaTypes method, ITPluggableTerminalClassRegistration.get_MediaTypes, ITPluggableTerminalClassRegistration::get_MediaTypes, _tapi3_itpluggableterminalclassregistration_get_mediatypes, get_MediaTypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_mediatypes, termmgr/ITPluggableTerminalClassRegistration::get_MediaTypes
 ms.topic: method
+f1_keywords: ["termmgr/ITPluggableTerminalClassRegistration.get_MediaTypes"]
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

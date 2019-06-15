@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA structure [Display Devices], ddrawint/DD_GETMOCOMPFORMATSDATA, ddstrcts_641a377d-109e-43f2-bc12-631964737386.xml, display.dd_getmocompformatsdata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_GETMOCOMPFORMATSDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

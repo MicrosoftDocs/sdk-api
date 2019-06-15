@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterOutputCallbackInteractionContext, RegisterOutputCallbackInteractionContext function, input_intcontext.registeroutputcallbackinteractioncontext, interactioncontext.registeroutputcallbackinteractioncontext, interactioncontext/RegisterOutputCallbackInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/RegisterOutputCallbackInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

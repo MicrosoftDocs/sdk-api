@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Free, Free method [COM], Free method [COM],IMalloc interface, IMalloc interface [COM],Free method, IMalloc.Free, IMalloc::Free, _com_imalloc_free, com.imalloc_free, objidlbase/IMalloc::Free
 ms.topic: method
+f1_keywords: ["objidl/IMalloc.Free"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

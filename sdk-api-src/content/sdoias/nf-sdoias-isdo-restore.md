@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISdo interface [Network Policy Server],Restore method, ISdo.Restore, ISdo::Restore, Restore, Restore method [Network Policy Server], Restore method [Network Policy Server],ISdo interface, _sdo_isdo_restore, nps.SDO_isdo_restore, sdo.isdo_restore, sdoias/ISdo::Restore
 ms.topic: method
+f1_keywords: ["sdoias/ISdo.Restore"]
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

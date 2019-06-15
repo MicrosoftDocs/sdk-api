@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteFmtUserTypeStg, WriteFmtUserTypeStg function [Structured Storage], _stg_writefmtusertypestg, ole2/WriteFmtUserTypeStg, stg.writefmtusertypestg
 ms.topic: function
+f1_keywords: ["ole2/WriteFmtUserTypeStg"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

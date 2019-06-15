@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordToUChar, ULongToUChar, ULongToUChar function [Windows Shell], _shell_ULongToUChar, intsafe/ULongToUChar, shell.ULongToUChar
 ms.topic: function
+f1_keywords: ["intsafe/ULongToUChar"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_Select, LegacyIAccessiblePattern_Select function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_Select, uiauto_LegacyIAccessiblePattern_Select, uiautomationcoreapi/LegacyIAccessiblePattern_Select, winauto.uiauto_LegacyIAccessiblePattern_Select
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/LegacyIAccessiblePattern_Select"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

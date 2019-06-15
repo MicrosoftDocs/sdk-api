@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetElement, GetElement method [ADSI], GetElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetElement method, IADsPathname.GetElement, IADsPathname::GetElement, _ds_iadspathname_getelement, adsi.iadspathname__getelement, adsi.iadspathname_getelement, iads/IADsPathname::GetElement
 ms.topic: method
+f1_keywords: ["iads/IADsPathname.GetElement"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

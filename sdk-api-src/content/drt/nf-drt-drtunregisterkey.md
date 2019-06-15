@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtUnregisterKey, DrtUnregisterKey function [Peer Networking], drt/DrtUnregisterKey, p2p.drtunregisterkey
 ms.topic: function
+f1_keywords: ["drt/DrtUnregisterKey"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

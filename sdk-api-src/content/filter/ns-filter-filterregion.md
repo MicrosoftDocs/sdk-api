@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILTERREGION, filter/FILTERREGION, indexsrv.filterregion, tagFILTERREGION
 ms.topic: struct
+f1_keywords: ["filter/FILTERREGION"]
 req.header: filter.h
 req.include-header: 
 req.target-type: Windows

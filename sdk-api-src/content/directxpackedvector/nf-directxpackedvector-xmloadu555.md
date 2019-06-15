@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadU555, XMLoadU555, XMLoadU555 method [DirectX Math Support APIs], dxmath.xmloadu555
 ms.topic: function
+f1_keywords: ["directxpackedvector/XMLoadU555"]
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

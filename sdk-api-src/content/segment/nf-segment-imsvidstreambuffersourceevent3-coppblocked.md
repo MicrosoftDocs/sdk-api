@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COPPBlocked, COPPBlocked method [Microsoft TV Technologies], COPPBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],COPPBlocked method, IMSVidStreamBufferSourceEvent3.COPPBlocked, IMSVidStreamBufferSourceEvent3::COPPBlocked, IMSVidStreamBufferSourceEvent3COPPBlocked, mstv.imsvidstreambuffersourceevent3_coppblocked, segment/IMSVidStreamBufferSourceEvent3::COPPBlocked
 ms.topic: method
+f1_keywords: ["segment/IMSVidStreamBufferSourceEvent3.COPPBlocked"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

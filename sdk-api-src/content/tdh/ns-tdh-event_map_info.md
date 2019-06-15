@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_MAP_INFO, EVENT_MAP_INFO, EVENT_MAP_INFO structure [ETW], etw.event_map_info_struct, tdh.event_map_info_struct, tdh/EVENT_MAP_INFO"
 ms.topic: struct
+f1_keywords: ["tdh/EVENT_MAP_INFO"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

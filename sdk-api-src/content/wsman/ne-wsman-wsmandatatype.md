@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_DATA_NONE, WSMAN_DATA_TYPE_BINARY, WSMAN_DATA_TYPE_DWORD, WSMAN_DATA_TYPE_TEXT, WSManDataType, WSManDataType enumeration [Windows Remote Management], winrm.wsmandatatype, wsman/WSMAN_DATA_NONE, wsman/WSMAN_DATA_TYPE_BINARY, wsman/WSMAN_DATA_TYPE_DWORD, wsman/WSMAN_DATA_TYPE_TEXT, wsman/WSManDataType
 ms.topic: enum
+f1_keywords: ["wsman/WSManDataType"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

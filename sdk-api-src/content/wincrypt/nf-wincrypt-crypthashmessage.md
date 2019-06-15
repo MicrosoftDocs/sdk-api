@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptHashMessage, CryptHashMessage function [Security], _crypto2_crypthashmessage, security.crypthashmessage, wincrypt/CryptHashMessage
 ms.topic: function
+f1_keywords: ["wincrypt/CryptHashMessage"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSUserConfigSourceSAM, WTS_CONFIG_SOURCE, WTS_CONFIG_SOURCE enumeration [Remote Desktop Services], termserv.wts_config_source, wtsapi32/WTSUserConfigSourceSAM, wtsapi32/WTS_CONFIG_SOURCE
 ms.topic: enum
+f1_keywords: ["wtsapi32/WTS_CONFIG_SOURCE"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

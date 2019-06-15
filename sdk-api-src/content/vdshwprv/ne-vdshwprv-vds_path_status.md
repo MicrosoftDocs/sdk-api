@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_MPS_FAILED, VDS_MPS_ONLINE, VDS_MPS_STANDBY, VDS_MPS_UNKNOWN, VDS_PATH_STATUS, VDS_PATH_STATUS enumeration [VDS], base.vds_path_status, vds/VDS_MPS_FAILED, vds/VDS_MPS_ONLINE, vds/VDS_MPS_STANDBY, vds/VDS_MPS_UNKNOWN, vds/VDS_PATH_STATUS, vdshwprv/VDS_MPS_FAILED, vdshwprv/VDS_MPS_ONLINE, vdshwprv/VDS_MPS_STANDBY, vdshwprv/VDS_MPS_UNKNOWN, vdshwprv/VDS_PATH_STATUS
 ms.topic: enum
+f1_keywords: ["vdshwprv/VDS_PATH_STATUS"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Profiles property, INetFwRule.Profiles, INetFwRule.put_Profiles, INetFwRule::Profiles, INetFwRule::get_Profiles, INetFwRule::put_Profiles, Profiles property [ICS/ICF], Profiles property [ICS/ICF],INetFwRule interface, ics.inetfwrule_profiles, netfw/INetFwRule::Profiles, netfw/INetFwRule::get_Profiles, netfw/INetFwRule::put_Profiles, put_Profiles
 ms.topic: method
+f1_keywords: ["netfw/INetFwRule.Profiles"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

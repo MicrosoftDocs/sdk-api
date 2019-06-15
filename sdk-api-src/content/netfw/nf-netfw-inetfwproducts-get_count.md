@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwProducts interface, INetFwProducts interface [ICS/ICF],Count property, INetFwProducts.Count, INetFwProducts.get_Count, INetFwProducts::Count, INetFwProducts::get_Count, get_Count, ics.inetfwproducts_count, netfw/INetFwProducts::Count, netfw/INetFwProducts::get_Count
 ms.topic: method
+f1_keywords: ["netfw/INetFwProducts.Count"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

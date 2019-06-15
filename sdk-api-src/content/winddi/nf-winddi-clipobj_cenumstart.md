@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_cEnumStart, CLIPOBJ_cEnumStart function [Display Devices], display.clipobj_cenumstart, gdifncs_53ccc337-0aa7-442c-a612-facb369b66c6.xml, winddi/CLIPOBJ_cEnumStart
 ms.topic: function
+f1_keywords: ["winddi/CLIPOBJ_cEnumStart"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

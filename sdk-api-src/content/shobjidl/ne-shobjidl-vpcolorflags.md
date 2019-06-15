@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VPCF_BACKGROUND, VPCF_SORTCOLUMN, VPCF_SUBTEXT, VPCF_TEXT, VPCF_TEXTBACKGROUND, VPCOLORFLAGS, VPCOLORFLAGS enumeration [Windows Shell], _shell_VPCOLORFLAGS, shell.VPCOLORFLAGS, shobjidl/VPCF_BACKGROUND, shobjidl/VPCF_SORTCOLUMN, shobjidl/VPCF_SUBTEXT, shobjidl/VPCF_TEXT, shobjidl/VPCF_TEXTBACKGROUND, shobjidl/VPCOLORFLAGS
 ms.topic: enum
+f1_keywords: ["shobjidl/VPCOLORFLAGS"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

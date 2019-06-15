@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_PROCESS_INFORMATION, PSS_PROCESS_INFORMATION structure, proc_snap.pss_process_information, processsnapshot/PSS_PROCESS_INFORMATION
 ms.topic: struct
+f1_keywords: ["processsnapshot/PSS_PROCESS_INFORMATION"]
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

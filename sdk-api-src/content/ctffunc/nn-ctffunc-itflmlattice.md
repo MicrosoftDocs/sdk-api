@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfLMLattice, ITfLMLattice interface [Text Services Framework], ITfLMLattice interface [Text Services Framework],described, _tsf_itflmlattice_ref, ctffunc/ITfLMLattice, tsf.itflmlattice
 ms.topic: interface
+f1_keywords: ["ctffunc/ITfLMLattice"]
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

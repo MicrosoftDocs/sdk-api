@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleLockRunning, OleLockRunning function [COM], _ole_OleLockRunning, com.olelockrunning, ole2/OleLockRunning
 ms.topic: function
+f1_keywords: ["ole2/OleLockRunning"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

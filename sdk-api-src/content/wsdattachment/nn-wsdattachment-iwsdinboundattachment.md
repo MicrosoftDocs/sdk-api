@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment
 ms.topic: interface
+f1_keywords: ["wsdattachment/IWSDInboundAttachment"]
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

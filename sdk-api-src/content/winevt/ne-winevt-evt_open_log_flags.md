@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_OPEN_LOG_FLAGS, EVT_OPEN_LOG_FLAGS enumeration [EventLog], EvtOpenChannelPath, EvtOpenFilePath, wes.evt_open_log_flags, winevt/EVT_OPEN_LOG_FLAGS, winevt/EvtOpenChannelPath, winevt/EvtOpenFilePath
 ms.topic: enum
+f1_keywords: ["winevt/EVT_OPEN_LOG_FLAGS"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

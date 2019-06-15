@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustLoadFunctionPointers, WintrustLoadFunctionPointers function [Security], security.wintrustloadfunctionpointers, wintrust/WintrustLoadFunctionPointers
 ms.topic: function
+f1_keywords: ["wintrust/WintrustLoadFunctionPointers"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

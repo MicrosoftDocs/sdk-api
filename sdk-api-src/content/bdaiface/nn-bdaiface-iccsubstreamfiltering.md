@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICCSubStreamFiltering, ICCSubStreamFiltering interface [Microsoft TV Technologies], ICCSubStreamFiltering interface [Microsoft TV Technologies],described, ICCSubStreamFilteringInterface, bdaiface/ICCSubStreamFiltering, mstv.iccsubstreamfiltering
 ms.topic: interface
+f1_keywords: ["bdaiface/ICCSubStreamFiltering"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

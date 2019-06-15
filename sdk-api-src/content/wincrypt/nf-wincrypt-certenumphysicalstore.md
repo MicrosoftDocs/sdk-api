@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore
 ms.topic: function
+f1_keywords: ["wincrypt/CertEnumPhysicalStore"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdSetEntries, DdSetEntries callback function [Display Devices], PDD_PALCB_SETENTRIES, PDD_PALCB_SETENTRIES callback, ddfncs_904cb314-1d34-4ace-b1ba-92e25ed8f293.xml, ddrawint/DdSetEntries, display.ddsetentries
 ms.topic: callback
+f1_keywords: ["ddrawint/DdSetEntries"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

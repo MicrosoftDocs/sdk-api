@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator- method, WBEMTime.operator-, WBEMTime.operator-sub(const WBEMTimeSpan &), WBEMTime::operator-, WBEMTime::operator-(const WBEMTimeSpan&), WBEMTime::operator-sub(const WBEMTimeSpan &), operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-, wmi.wbemtime_operator_minus_const_wbemtimespan__"
 ms.topic: method
+f1_keywords: ["wbemtime/WBEMTime.operator-"]
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

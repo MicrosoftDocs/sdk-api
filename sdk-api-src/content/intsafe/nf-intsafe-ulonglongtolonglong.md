@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ULongLongToIntPtr, ULongLongToIntPtr function [Windows Shell], ULongLongToLongLong, ULongLongToPtrdiffT, _shell_ULongLongToIntPtr, intsafe/ULongLongToIntPtr, shell.ULongLongToIntPtr
 ms.topic: function
+f1_keywords: ["intsafe/ULongLongToIntPtr"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

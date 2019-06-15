@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdvanceSlideshow, AdvanceSlideshow method [Windows Shell], AdvanceSlideshow method [Windows Shell],IDesktopWallpaper interface, DSD_BACKWARD, DSD_FORWARD, IDesktopWallpaper interface [Windows Shell],AdvanceSlideshow method, IDesktopWallpaper.AdvanceSlideshow, IDesktopWallpaper::AdvanceSlideshow, shell.IDesktopWallpaper_AdvanceSlideshow, shobjidl_core/IDesktopWallpaper::AdvanceSlideshow
 ms.topic: method
+f1_keywords: ["shobjidl_core/IDesktopWallpaper.AdvanceSlideshow"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

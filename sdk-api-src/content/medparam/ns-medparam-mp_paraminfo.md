@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, dshow.mp_paraminfo, medparam/MP_PARAMINFO
 ms.topic: struct
+f1_keywords: ["medparam/MP_PARAMINFO"]
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

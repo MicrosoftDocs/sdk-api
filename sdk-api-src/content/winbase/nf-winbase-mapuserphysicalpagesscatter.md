@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
 ms.topic: function
+f1_keywords: ["winbase/MapUserPhysicalPagesScatter"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA structure [Display Devices], ddrawint/DD_DESTROYPALETTEDATA, ddstrcts_850bb816-b0df-4877-8903-c85b15074e30.xml, display.dd_destroypalettedata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_DESTROYPALETTEDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

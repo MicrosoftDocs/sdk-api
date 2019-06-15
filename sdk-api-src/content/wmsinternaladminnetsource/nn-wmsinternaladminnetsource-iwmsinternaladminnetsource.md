@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource, IWMSInternalAdminNetSource interface [windows Media Format], IWMSInternalAdminNetSource interface [windows Media Format],described, IWMSInternalAdminNetSourceInterface, wmformat.iwmsinternaladminnetsource, wmsinternaladminnetsource/IWMSInternalAdminNetSource
 ms.topic: interface
+f1_keywords: ["wmsinternaladminnetsource/IWMSInternalAdminNetSource"]
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows

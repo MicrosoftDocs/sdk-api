@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], WLAN_HOSTED_NETWORK_STATE, WLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], nwifi.wlan_hosted_network_state, wlan_hosted_network_active, wlan_hosted_network_idle, wlan_hosted_network_unavailable, wlanapi/PWLAN_HOSTED_NETWORK_STATE, wlanapi/WLAN_HOSTED_NETWORK_STATE, wlanapi/wlan_hosted_network_active, wlanapi/wlan_hosted_network_idle, wlanapi/wlan_hosted_network_unavailable"
 ms.topic: enum
+f1_keywords: ["wlanapi/WLAN_HOSTED_NETWORK_STATE"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

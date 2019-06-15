@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
 ms.topic: function
+f1_keywords: ["powrprof/DevicePowerSetDeviceState"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateStandardQualityManager"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

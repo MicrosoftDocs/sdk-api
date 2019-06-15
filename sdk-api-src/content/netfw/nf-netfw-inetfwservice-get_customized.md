@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Customized property [ICS/ICF], Customized property [ICS/ICF],INetFwService interface, INetFwService interface [ICS/ICF],Customized property, INetFwService.Customized, INetFwService.get_Customized, INetFwService::Customized, INetFwService::get_Customized, get_Customized, ics.inetfwservice_customized, netfw/INetFwService::Customized, netfw/INetFwService::get_Customized
 ms.topic: method
+f1_keywords: ["netfw/INetFwService.Customized"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

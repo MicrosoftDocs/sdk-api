@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateWICBitmapBuffer, MFCreateWICBitmapBuffer function [Media Foundation], mf.mfcreatewicbitmapbuffer, mfapi/MFCreateWICBitmapBuffer
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateWICBitmapBuffer"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

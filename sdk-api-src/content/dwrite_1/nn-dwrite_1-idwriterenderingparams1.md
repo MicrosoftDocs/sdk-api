@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteRenderingParams1, IDWriteRenderingParams1 interface [Direct Write], IDWriteRenderingParams1 interface [Direct Write],described, directwrite.idwriterenderingparams1, dwrite_1/IDWriteRenderingParams1
 ms.topic: interface
+f1_keywords: ["dwrite_1/IDWriteRenderingParams1"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxJob, IFaxJob interface [Fax Service], IFaxJob interface [Fax Service],described, _mfax_ifaxjob, fax._mfax_ifaxjob, faxcom/IFaxJob
 ms.topic: interface
+f1_keywords: ["faxcom/IFaxJob"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

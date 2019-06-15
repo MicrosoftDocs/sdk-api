@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: McastRenewAddress, McastRenewAddress function [MADCAP], _mdhcp_mcastrenewaddress, madcap.mcastrenewaddress, madcapcl/McastRenewAddress
 ms.topic: function
+f1_keywords: ["madcapcl/McastRenewAddress"]
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

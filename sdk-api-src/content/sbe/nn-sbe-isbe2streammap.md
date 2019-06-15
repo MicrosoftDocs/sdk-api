@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies],described, mstv.isbe2streammap, sbe/ISBE2StreamMap
 ms.topic: interface
+f1_keywords: ["sbe/ISBE2StreamMap"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

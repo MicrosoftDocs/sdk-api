@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxFile.GetName"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

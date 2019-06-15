@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumConflicts, EnumConflicts method [Windows Shell], EnumConflicts method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],EnumConflicts method, ISyncMgrConflictStore.EnumConflicts, ISyncMgrConflictStore::EnumConflicts, _shell_ISyncMgrConflictStore_EnumConflicts, shell.ISyncMgrConflictStore_EnumConflicts, syncmgr/ISyncMgrConflictStore::EnumConflicts
 ms.topic: method
+f1_keywords: ["syncmgr/ISyncMgrConflictStore.EnumConflicts"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

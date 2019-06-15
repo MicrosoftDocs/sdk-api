@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
 ms.topic: enum
+f1_keywords: ["wuapi/UpdateServiceOption"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

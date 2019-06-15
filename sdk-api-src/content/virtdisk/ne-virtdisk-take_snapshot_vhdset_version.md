@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TAKE_SNAPSHOT_VHDSET_VERSION, TAKE_SNAPSHOT_VHDSET_VERSION enumeration [VHD], TAKE_SNAPSHOT_VHDSET_VERSION_1, TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, vdssys/ TAKE_SNAPSHOT_VHDSET_VERSION_1, vdssys/TAKE_SNAPSHOT_VHDSET_VERSION, vdssys/TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED, vhd.take_snapshot_vhdset_version, virtdisk/ TAKE_SNAPSHOT_VHDSET_VERSION_1, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION, virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION_UNSPECIFIED
 ms.topic: enum
+f1_keywords: ["virtdisk/TAKE_SNAPSHOT_VHDSET_VERSION"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

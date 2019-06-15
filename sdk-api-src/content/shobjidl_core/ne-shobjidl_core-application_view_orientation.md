@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPLICATION_VIEW_ORIENTATION, APPLICATION_VIEW_ORIENTATION enumeration [Windows Shell], AVO_LANDSCAPE, AVO_PORTRAIT, shell.APPLICATION_VIEW_ORIENTATION, shobjidl_core/APPLICATION_VIEW_ORIENTATION, shobjidl_core/AVO_LANDSCAPE, shobjidl_core/AVO_PORTRAIT
 ms.topic: enum
+f1_keywords: ["shobjidl_core/APPLICATION_VIEW_ORIENTATION"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

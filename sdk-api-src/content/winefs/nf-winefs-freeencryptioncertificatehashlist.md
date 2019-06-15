@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
 ms.topic: function
+f1_keywords: ["winefs/FreeEncryptionCertificateHashList"]
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNPatchMode, GetNPatchMode method [Direct3D 9], GetNPatchMode method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetNPatchMode method, IDirect3DDevice9.GetNPatchMode, IDirect3DDevice9::GetNPatchMode, a14b100f-853a-c4a3-4c40-bb1bf093d57c, d3d9helper/IDirect3DDevice9::GetNPatchMode, direct3d9.idirect3ddevice9__getnpatchmode
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.GetNPatchMode"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

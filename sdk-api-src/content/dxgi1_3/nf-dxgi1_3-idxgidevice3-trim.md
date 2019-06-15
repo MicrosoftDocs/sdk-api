@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice3 interface [DXGI],Trim method, IDXGIDevice3.Trim, IDXGIDevice3::Trim, Trim, Trim method [DXGI], Trim method [DXGI],IDXGIDevice3 interface, direct3ddxgi.idxgidevice3_trim, dxgi1_3/IDXGIDevice3::Trim
 ms.topic: method
+f1_keywords: ["dxgi1_3/IDXGIDevice3.Trim"]
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

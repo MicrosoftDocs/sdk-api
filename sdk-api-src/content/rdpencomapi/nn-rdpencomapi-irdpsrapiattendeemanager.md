@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], IRDPSRAPIAttendeeManager interface [RDP],described, rdp.irdpsrapiattendeemanager, rdpencomapi/IRDPSRAPIAttendeeManager
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPSRAPIAttendeeManager"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

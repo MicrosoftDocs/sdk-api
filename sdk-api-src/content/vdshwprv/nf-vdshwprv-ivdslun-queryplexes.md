@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],QueryPlexes method, IVdsLun.QueryPlexes, IVdsLun::QueryPlexes, QueryPlexes, QueryPlexes method [VDS], QueryPlexes method [VDS],IVdsLun interface, base.ivdslun_queryplexes, vds/IVdsLun::QueryPlexes, vdshwprv/IVdsLun::QueryPlexes
 ms.topic: method
+f1_keywords: ["vdshwprv/IVdsLun.QueryPlexes"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

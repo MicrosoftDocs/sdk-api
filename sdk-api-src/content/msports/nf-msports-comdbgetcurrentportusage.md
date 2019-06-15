@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComDBGetCurrentPortUsage, ComDBGetCurrentPortUsage function [Serial Ports], comdb_b4de1b55-d769-424f-842a-21a8cb28ef1d.xml, msports/ComDBGetCurrentPortUsage, serports.comdbgetcurrentportusage
 ms.topic: function
+f1_keywords: ["msports/ComDBGetCurrentPortUsage"]
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

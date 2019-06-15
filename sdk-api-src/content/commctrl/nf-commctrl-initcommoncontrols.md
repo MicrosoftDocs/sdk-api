@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitCommonControls, InitCommonControls function [Windows Controls], _win32_InitCommonControls, _win32_InitCommonControls_cpp, commctrl/InitCommonControls, controls.InitCommonControls, controls._win32_InitCommonControls
 ms.topic: function
+f1_keywords: ["commctrl/InitCommonControls"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

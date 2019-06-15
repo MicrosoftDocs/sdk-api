@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APOInitSystemEffects2, APOInitSystemEffects2 structure [Audio Devices], PAPOInitSystemEffects2, PAPOInitSystemEffects2 structure pointer [Audio Devices], audio.apoinitsystemeffects2, audioenginebaseapo/APOInitSystemEffects2, audioenginebaseapo/PAPOInitSystemEffects2
 ms.topic: struct
+f1_keywords: ["audioenginebaseapo/APOInitSystemEffects2"]
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows

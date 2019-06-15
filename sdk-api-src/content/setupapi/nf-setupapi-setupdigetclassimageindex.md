@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassImageIndex, SetupDiGetClassImageIndex function [Device and Driver Installation], devinst.setupdigetclassimageindex, di-rtns_6f022ba0-12d8-47f4-9e7f-27f94dbe9b71.xml, setupapi/SetupDiGetClassImageIndex
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiGetClassImageIndex"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink, IStreamBufferSink interface [Microsoft TV Technologies], IStreamBufferSink interface [Microsoft TV Technologies],described, IStreamBufferSinkInterface, mstv.istreambuffersink, sbe/IStreamBufferSink
 ms.topic: interface
+f1_keywords: ["sbe/IStreamBufferSink"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetPropertySet property, ITsSbTarget.TargetPropertySet, ITsSbTarget.get_TargetPropertySet, ITsSbTarget::TargetPropertySet, ITsSbTarget::get_TargetPropertySet, ITsSbTarget::put_TargetPropertySet, ITsSbTargetEx interface [Remote Desktop Services],TargetPropertySet property, ITsSbTargetEx.TargetPropertySet, ITsSbTargetEx::get_TargetPropertySet, ITsSbTargetEx::put_TargetPropertySet, TargetPropertySet property [Remote Desktop Services], TargetPropertySet property [Remote Desktop Services],ITsSbTarget interface, TargetPropertySet property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetPropertySet, sbtsv/ITsSbTarget::TargetPropertySet, sbtsv/ITsSbTarget::get_TargetPropertySet, sbtsv/ITsSbTarget::put_TargetPropertySet, sbtsv/ITsSbTargetEx::TargetPropertySet, sbtsv/ITsSbTargetEx::get_TargetPropertySet, sbtsv/ITsSbTargetEx::put_TargetPropertySet, termserv.itssbtarget_targetpropertyset
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbTarget.TargetPropertySet"]
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows

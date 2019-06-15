@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Add method, IFunctionInstanceCollection.Add, IFunctionInstanceCollection::Add, functiondiscoveryapi/IFunctionInstanceCollection::Add, ncd.ifunctioninstancecollection_add
 ms.topic: method
+f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollection.Add"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

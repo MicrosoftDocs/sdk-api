@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCAUUID, CAUUID, CAUUID structure [COM], LPCAUUID, LPCAUUID structure pointer [COM], _ctrl_CAUUID, com.cauuid, ocidl/CAUUID, ocidl/LPCAUUID"
 ms.topic: struct
+f1_keywords: ["ocidl/CAUUID"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

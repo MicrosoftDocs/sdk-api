@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write], directwrite.dwrite_justification_opportunity, dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
 ms.topic: struct
+f1_keywords: ["dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

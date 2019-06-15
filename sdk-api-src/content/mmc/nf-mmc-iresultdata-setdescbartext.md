@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetDescBarText method, IResultData.SetDescBarText, IResultData2 interface [MMC],SetDescBarText method, IResultData2::SetDescBarText, IResultData::SetDescBarText, SetDescBarText, SetDescBarText method [MMC], SetDescBarText method [MMC],IResultData interface, SetDescBarText method [MMC],IResultData2 interface, _slate_iresultdata_setdescbartext, mmc.iresultdata_setdescbartext, mmc/IResultData2::SetDescBarText, mmc/IResultData::SetDescBarText
 ms.topic: method
+f1_keywords: ["mmc/IResultData.SetDescBarText"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

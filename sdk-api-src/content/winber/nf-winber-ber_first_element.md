@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_first_element, ber_first_element, ber_first_element function [LDAP], ldap.ber__first__element, ldap.ber_first_element, winber/ber_first_element"
 ms.topic: function
+f1_keywords: ["winber/ber_first_element"]
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSP_DEVINFO_DATA, PSP_DEVINFO_DATA, PSP_DEVINFO_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_DATA, SP_DEVINFO_DATA structure [Device and Driver Installation], devinst.sp_devinfo_data, di-struct_1d8e747e-8359-405d-8819-29c516a99cbe.xml, setupapi/PSP_DEVINFO_DATA, setupapi/SP_DEVINFO_DATA"
 ms.topic: struct
+f1_keywords: ["setupapi/SP_DEVINFO_DATA"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

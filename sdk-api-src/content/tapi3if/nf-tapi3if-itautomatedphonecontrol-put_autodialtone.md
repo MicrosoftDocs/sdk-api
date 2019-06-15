@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoDialtone method, ITAutomatedPhoneControl.put_AutoDialtone, ITAutomatedPhoneControl::put_AutoDialtone, _tapi3_itautomatedphonecontrol_put_autodialtone, put_AutoDialtone, put_AutoDialtone method [TAPI 2.2], put_AutoDialtone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autodialtone, tapi3if/ITAutomatedPhoneControl::put_AutoDialtone
 ms.topic: method
+f1_keywords: ["tapi3if/ITAutomatedPhoneControl.put_AutoDialtone"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

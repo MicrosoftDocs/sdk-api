@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAutoArrange, GetAutoArrange method [Windows Shell], GetAutoArrange method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetAutoArrange method, IFolderView.GetAutoArrange, IFolderView::GetAutoArrange, _shell_IFolderView_GetAutoArrange, shell.IFolderView_GetAutoArrange, shobjidl_core/IFolderView::GetAutoArrange
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFolderView.GetAutoArrange"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

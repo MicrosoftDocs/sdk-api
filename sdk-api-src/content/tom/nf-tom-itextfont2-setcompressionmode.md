@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCompressionMode method, ITextFont2.SetCompressionMode, ITextFont2::SetCompressionMode, SetCompressionMode, SetCompressionMode method [Windows Controls], SetCompressionMode method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcompressionmode, tom/ITextFont2::SetCompressionMode, tomCompressNone (default), tomCompressPunctuation, tomCompressPunctuationAndKana
 ms.topic: method
+f1_keywords: ["tom/ITextFont2.SetCompressionMode"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

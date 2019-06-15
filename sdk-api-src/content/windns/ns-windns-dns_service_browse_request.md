@@ -5,6 +5,7 @@ description: Contains the query parameters used in a call to [DnsServiceBrowse](
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_BROWSE_REQUEST, DNS_SERVICE_BROWSE_REQUEST
 ms.topic: language-reference
+f1_keywords: ["windns/_DNS_SERVICE_BROWSE_REQUEST"]
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContentProvider property [Windows Deployment Services], ContentProvider property [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],ContentProvider property, IWdsTransportNamespace.ContentProvider, IWdsTransportNamespace.get_ContentProvider, IWdsTransportNamespace::ContentProvider, IWdsTransportNamespace::get_ContentProvider, IWdsTransportNamespace::put_ContentProvider, get_ContentProvider, wds.iwdstransportnamespace_contentprovider, wdstptmgmt/IWdsTransportNamespace::ContentProvider, wdstptmgmt/IWdsTransportNamespace::get_ContentProvider, wdstptmgmt/IWdsTransportNamespace::put_ContentProvider
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.ContentProvider"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

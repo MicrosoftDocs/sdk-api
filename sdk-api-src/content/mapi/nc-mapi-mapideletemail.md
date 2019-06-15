@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPIDeleteMail, MAPIDeleteMail callback, MAPIDeleteMail callback function, mapi.mapideletemail, mapi/MAPIDeleteMail
 ms.topic: callback
+f1_keywords: ["mapi/MAPIDeleteMail"]
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

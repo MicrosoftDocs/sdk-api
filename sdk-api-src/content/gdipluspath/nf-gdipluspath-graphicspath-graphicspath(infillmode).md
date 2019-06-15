@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+],GraphicsPath constructor, GraphicsPath constructor [GDI+], GraphicsPath constructor [GDI+],GraphicsPath class, GraphicsPath.GraphicsPath, GraphicsPath.GraphicsPath(FillMode), GraphicsPath.GraphicsPath(IN FillMode), GraphicsPath::GraphicsPath, GraphicsPath::GraphicsPath(IN FillMode), _gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_, gdiplus._gdiplus_CLASS_GraphicsPath_GraphicsPath_fillMode_
 ms.topic: method
+f1_keywords: ["gdipluspath/GraphicsPath.GraphicsPath"]
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentIsReadOnly property, IUIAutomationRangeValuePattern.CurrentIsReadOnly, IUIAutomationRangeValuePattern.get_CurrentIsReadOnly, IUIAutomationRangeValuePattern::CurrentIsReadOnly, IUIAutomationRangeValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern.CurrentIsReadOnly"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services],described, sbtsv/ITsSbPlacement, termserv.itssbplacement
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbPlacement"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

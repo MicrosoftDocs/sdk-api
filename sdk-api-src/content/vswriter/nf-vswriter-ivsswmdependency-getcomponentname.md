@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetComponentName method, IVssWMDependency.GetComponentName, IVssWMDependency::GetComponentName, _win32_ivsswmdependency_getcomponentname, base.ivsswmdependency_getcomponentname, vswriter/IVssWMDependency::GetComponentName
 ms.topic: method
+f1_keywords: ["vswriter/IVssWMDependency.GetComponentName"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

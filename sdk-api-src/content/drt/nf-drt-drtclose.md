@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtClose, DrtClose function [Peer Networking], drt/DrtClose, p2p.drtclose
 ms.topic: function
+f1_keywords: ["drt/DrtClose"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

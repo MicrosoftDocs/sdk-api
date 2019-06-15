@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadSelectorEntry, GetThreadSelectorEntry function, _win32_getthreadselectorentry, base.getthreadselectorentry, winbase/GetThreadSelectorEntry
 ms.topic: function
+f1_keywords: ["winbase/GetThreadSelectorEntry"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

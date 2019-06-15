@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TDH_CONTEXT_MAXIMUM, TDH_CONTEXT_PDB_PATH, TDH_CONTEXT_POINTERSIZE, TDH_CONTEXT_TYPE, TDH_CONTEXT_TYPE enumeration [ETW], TDH_CONTEXT_WPP_GMT, TDH_CONTEXT_WPP_TMFFILE, TDH_CONTEXT_WPP_TMFSEARCHPATH, etw.tdh_context_type_enum, tdh.tdh_context_type_enum, tdh/TDH_CONTEXT_MAXIMUM, tdh/TDH_CONTEXT_PDB_PATH, tdh/TDH_CONTEXT_POINTERSIZE, tdh/TDH_CONTEXT_TYPE, tdh/TDH_CONTEXT_WPP_GMT, tdh/TDH_CONTEXT_WPP_TMFFILE, tdh/TDH_CONTEXT_WPP_TMFSEARCHPATH
 ms.topic: enum
+f1_keywords: ["tdh/TDH_CONTEXT_TYPE"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

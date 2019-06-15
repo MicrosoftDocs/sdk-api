@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmGetFirstMfe, MgmGetFirstMfe function [RAS], _mpr_mgmgetfirstmfe, mgm/MgmGetFirstMfe, rras.mgmgetfirstmfe
 ms.topic: function
+f1_keywords: ["mgm/MgmGetFirstMfe"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

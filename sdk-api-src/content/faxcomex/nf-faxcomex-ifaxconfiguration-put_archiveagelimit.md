@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveAgeLimit property, IFaxConfiguration.ArchiveAgeLimit, IFaxConfiguration.put_ArchiveAgeLimit, IFaxConfiguration::ArchiveAgeLimit, IFaxConfiguration::get_ArchiveAgeLimit, IFaxConfiguration::put_ArchiveAgeLimit, _mfax_IFaxConfiguration_ArchiveAgeLimit, fax._mfax_IFaxConfiguration_ArchiveAgeLimit, faxcomex/IFaxConfiguration::ArchiveAgeLimit, faxcomex/IFaxConfiguration::get_ArchiveAgeLimit, faxcomex/IFaxConfiguration::put_ArchiveAgeLimit, put_ArchiveAgeLimit
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxConfiguration.ArchiveAgeLimit"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

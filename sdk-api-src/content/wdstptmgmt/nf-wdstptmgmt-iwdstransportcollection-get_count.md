@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Deployment Services], Count property [Windows Deployment Services],IWdsTransportCollection interface, IWdsTransportCollection interface [Windows Deployment Services],Count property, IWdsTransportCollection.Count, IWdsTransportCollection.get_Count, IWdsTransportCollection::Count, IWdsTransportCollection::get_Count, get_Count, wds.iwdstransportcollection_count, wdstptmgmt/IWdsTransportCollection::Count, wdstptmgmt/IWdsTransportCollection::get_Count
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportCollection.Count"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

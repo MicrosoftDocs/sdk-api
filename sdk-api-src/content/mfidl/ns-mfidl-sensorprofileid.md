@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundation], SENSORPROFILEID, SENSORPROFILEID structure [Media Foundation], mf.sensorprofileid, mfidl/PSENSORPROFILEID, mfidl/SENSORPROFILEID
 ms.topic: struct
+f1_keywords: ["mfidl/SENSORPROFILEID"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

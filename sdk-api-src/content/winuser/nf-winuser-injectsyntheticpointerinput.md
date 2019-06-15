@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
 ms.topic: function
+f1_keywords: ["winuser/InjectSyntheticPointerInput"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

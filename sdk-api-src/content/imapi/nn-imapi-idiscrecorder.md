@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder, IDiscRecorder interface [IMAPI], IDiscRecorder interface [IMAPI],described, _win32_idiscrecorder, base.idiscrecorder, imapi.idiscrecorder, imapi/IDiscRecorder
 ms.topic: interface
+f1_keywords: ["imapi/IDiscRecorder"]
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

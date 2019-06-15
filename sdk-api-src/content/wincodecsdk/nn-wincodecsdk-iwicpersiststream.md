@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], IWICPersistStream interface [Windows Imaging Component],described, _wic_codec_iwicpersiststream, wic._wic_codec_iwicpersiststream, wincodecsdk/IWICPersistStream
 ms.topic: interface
+f1_keywords: ["wincodecsdk/IWICPersistStream"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

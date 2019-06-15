@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteCredential, DeleteCredential callback function [Security], LSA_DELETE_CREDENTIAL, LSA_DELETE_CREDENTIAL callback, _lsa_deletecredential, ntsecpkg/DeleteCredential, security.deletecredential
 ms.topic: callback
+f1_keywords: ["ntsecpkg/DeleteCredential"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

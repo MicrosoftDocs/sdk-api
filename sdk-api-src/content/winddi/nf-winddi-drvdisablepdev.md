@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDisablePDEV, DrvDisablePDEV function [Display Devices], ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml, display.drvdisablepdev, winddi/DrvDisablePDEV
 ms.topic: function
+f1_keywords: ["winddi/DrvDisablePDEV"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

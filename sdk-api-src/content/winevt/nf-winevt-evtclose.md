@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtClose, EvtClose function [EventLog], wes.evtclose, winevt/EvtClose
 ms.topic: function
+f1_keywords: ["winevt/EvtClose"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

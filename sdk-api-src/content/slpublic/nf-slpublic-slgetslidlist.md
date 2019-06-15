@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetSLIDList, SLGetSLIDList function [Security], security.slgetslidlist, slpublic/SLGetSLIDList
 ms.topic: function
+f1_keywords: ["slpublic/SLGetSLIDList"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

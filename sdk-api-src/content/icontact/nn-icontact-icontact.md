@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContact, IContact interface [Windows Contacts], IContact interface [Windows Contacts],described, _wincontacts_IContact, icontact/IContact, wincontacts._wincontacts_IContact
 ms.topic: interface
+f1_keywords: ["icontact/IContact"]
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

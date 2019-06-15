@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_VISIBLE_COLUMNS, MMC_VISIBLE_COLUMNS structure [MMC], _slate_mmc_visible_columns, mmc.mmc_visible_columns, mmc/MMC_VISIBLE_COLUMNS
 ms.topic: struct
+f1_keywords: ["mmc/MMC_VISIBLE_COLUMNS"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

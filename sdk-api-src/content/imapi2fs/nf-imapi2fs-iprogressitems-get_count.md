@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Count method, IProgressItems.get_Count, IProgressItems::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_count, imapi2fs/IProgressItems::get_Count
 ms.topic: method
+f1_keywords: ["imapi2fs/IProgressItems.get_Count"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

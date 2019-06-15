@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqSetDeadline2, RtwqSetDeadline2 function, base.rtwqsetdeadline2, rtworkq/RtwqSetDeadline2
 ms.topic: function
+f1_keywords: ["rtworkq/RtwqSetDeadline2"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

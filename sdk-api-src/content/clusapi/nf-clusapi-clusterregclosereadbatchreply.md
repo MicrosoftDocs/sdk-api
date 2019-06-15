@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseReadBatchReply, ClusterRegCloseReadBatchReply function [Failover Cluster], clusapi/ClusterRegCloseReadBatchReply, mscs.clusterregclosereadbatchreply
 ms.topic: function
+f1_keywords: ["clusapi/ClusterRegCloseReadBatchReply"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

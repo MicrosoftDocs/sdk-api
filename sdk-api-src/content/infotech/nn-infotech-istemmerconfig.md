@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop],described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
 ms.topic: interface
+f1_keywords: ["infotech/IStemmerConfig"]
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

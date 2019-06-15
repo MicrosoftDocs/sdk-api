@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable.IsWorkspaceCredentialSpecified, IWorkspaceScriptable2 interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable2::IsWorkspaceCredentialSpecified, IWorkspaceScriptable3 interface [Remote Desktop Services],IsWorkspaceCredentialSpecified method, IWorkspaceScriptable3::IsWorkspaceCredentialSpecified, IWorkspaceScriptable::IsWorkspaceCredentialSpecified, IsWorkspaceCredentialSpecified, IsWorkspaceCredentialSpecified method [Remote Desktop Services], IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable2 interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],IWorkspaceScriptable3 interface, IsWorkspaceCredentialSpecified method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],IsWorkspaceCredentialSpecified method, termserv.iworkspacescriptable_isworkspacecredentialspecified, workspaceruntime/IWorkspaceScriptable2::IsWorkspaceCredentialSpecified, workspaceruntime/IWorkspaceScriptable3::IsWorkspaceCredentialSpecified, workspaceruntime/IWorkspaceScriptable::IsWorkspaceCredentialSpecified
 ms.topic: method
+f1_keywords: ["workspaceruntime/IWorkspaceScriptable.IsWorkspaceCredentialSpecified"]
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

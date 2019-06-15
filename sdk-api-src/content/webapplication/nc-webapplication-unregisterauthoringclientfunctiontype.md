@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterAuthoringClientFunctionType, UnregisterAuthoringClientFunctionType callback, UnregisterAuthoringClientFunctionType callback function [Debugging Windows Store apps], debug.unregisterauthoringclientfunctiontype, webapplication/UnregisterAuthoringClientFunctionType
 ms.topic: callback
+f1_keywords: ["webapplication/UnregisterAuthoringClientFunctionType"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

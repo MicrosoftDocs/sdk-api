@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Direct Write], GetSize method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetSize method, IDWriteBitmapRenderTarget.GetSize, IDWriteBitmapRenderTarget::GetSize, directwrite.IDWriteBitmapRenderTarget_GetSize, dwrite/IDWriteBitmapRenderTarget::GetSize
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteBitmapRenderTarget.GetSize"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

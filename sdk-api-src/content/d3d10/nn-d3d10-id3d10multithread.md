@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 03af3cb4-f8ff-e677-80ea-33ee09667866, ID3D10Multithread, ID3D10Multithread interface [Direct3D 10], ID3D10Multithread interface [Direct3D 10],described, d3d10/ID3D10Multithread, direct3d10.id3d10multithread
 ms.topic: interface
+f1_keywords: ["d3d10/ID3D10Multithread"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

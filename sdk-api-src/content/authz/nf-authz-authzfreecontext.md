@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
 ms.topic: function
+f1_keywords: ["authz/AuthzFreeContext"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

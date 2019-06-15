@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps
 ms.topic: function
+f1_keywords: ["mssip/CryptSIPGetCaps"]
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

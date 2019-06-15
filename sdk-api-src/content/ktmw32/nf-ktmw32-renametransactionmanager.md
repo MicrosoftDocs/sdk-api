@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RenameTransactionManager, RenameTransactionManager function [Files], fs.renametransactionmanager, ktmw32/RenameTransactionManager
 ms.topic: function
+f1_keywords: ["ktmw32/RenameTransactionManager"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

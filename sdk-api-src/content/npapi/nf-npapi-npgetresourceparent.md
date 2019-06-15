@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_npgetresourceparent, npapi/NPGetResourceParent, security.npgetresourceparent
 ms.topic: function
+f1_keywords: ["npapi/NPGetResourceParent"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

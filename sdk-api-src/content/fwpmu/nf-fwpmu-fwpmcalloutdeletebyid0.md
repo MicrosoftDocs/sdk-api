@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Filtering], fwp.fwpmcalloutdeletebyid0_func, fwpmu/FwpmCalloutDeleteById0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmCalloutDeleteById0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

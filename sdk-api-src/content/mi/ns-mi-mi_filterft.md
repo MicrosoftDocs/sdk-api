@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructure (MI)], mi/MI_FilterFT, wmi_v2.mi_filterft
 ms.topic: struct
+f1_keywords: ["mi/MI_FilterFT"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

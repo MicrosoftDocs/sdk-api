@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManagedExtensions, GetManagedExtensions function [COM+], _cos_GetManagedExtensions, comsvcs/GetManagedExtensions, cos.getmanagedextensions
 ms.topic: function
+f1_keywords: ["comsvcs/GetManagedExtensions"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

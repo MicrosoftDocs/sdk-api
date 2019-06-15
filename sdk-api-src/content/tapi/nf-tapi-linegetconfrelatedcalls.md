@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegetconfrelatedcalls, lineGetConfRelatedCalls, lineGetConfRelatedCalls function [TAPI 2.2], tapi/lineGetConfRelatedCalls, tapi2.linegetconfrelatedcalls"
 ms.topic: function
+f1_keywords: ["tapi/lineGetConfRelatedCalls"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

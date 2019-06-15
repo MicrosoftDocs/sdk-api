@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_DC_INITIALIZE_MODE, D2D1_DC_INITIALIZE_MODE enumeration [Direct2D], D2D1_DC_INITIALIZE_MODE_CLEAR, D2D1_DC_INITIALIZE_MODE_COPY, d2d1/D2D1_DC_INITIALIZE_MODE, d2d1/D2D1_DC_INITIALIZE_MODE_CLEAR, d2d1/D2D1_DC_INITIALIZE_MODE_COPY, direct2d.D2D1_DC_INITIALIZE_MODE
 ms.topic: enum
+f1_keywords: ["d2d1/D2D1_DC_INITIALIZE_MODE"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

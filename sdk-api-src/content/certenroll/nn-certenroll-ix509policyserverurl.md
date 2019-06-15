@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PolicyServerUrl, IX509PolicyServerUrl interface [Security], IX509PolicyServerUrl interface [Security],described, certenroll/IX509PolicyServerUrl, security.ix509policyserverurl
 ms.topic: interface
+f1_keywords: ["certenroll/IX509PolicyServerUrl"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

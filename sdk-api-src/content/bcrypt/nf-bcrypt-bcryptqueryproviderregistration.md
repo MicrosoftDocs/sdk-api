@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryProviderRegistration, BCryptQueryProviderRegistration function [Security], CRYPT_ANY, CRYPT_KM, CRYPT_MM, CRYPT_UM, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryProviderRegistration, security.bcryptqueryproviderregistration
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptQueryProviderRegistration"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

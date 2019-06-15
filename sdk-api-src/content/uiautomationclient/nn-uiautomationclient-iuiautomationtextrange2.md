@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange2, IUIAutomationTextRange2 interface [Windows Accessibility], IUIAutomationTextRange2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextRange2, winauto.uiauto_IUIAutomationTextRange2
 ms.topic: interface
+f1_keywords: ["uiautomationclient/IUIAutomationTextRange2"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method, GetData method,ISensor interface, ISensor interface,GetData method, ISensor.GetData, ISensor::GetData, sensorsapi/ISensor::GetData, winsensors_com_ref.isensor_getdata
 ms.topic: method
+f1_keywords: ["sensorsapi/ISensor.GetData"]
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

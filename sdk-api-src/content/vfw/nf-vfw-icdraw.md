@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multimedia.icdraw, vfw/ICDraw
 ms.topic: function
+f1_keywords: ["vfw/ICDraw"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

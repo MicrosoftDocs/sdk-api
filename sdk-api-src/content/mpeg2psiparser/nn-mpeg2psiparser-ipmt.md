@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], IPMT interface [Microsoft TV Technologies],described, IPMTInterface, mpeg2psiparser/IPMT, mstv.ipmt
 ms.topic: interface
+f1_keywords: ["mpeg2psiparser/IPMT"]
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

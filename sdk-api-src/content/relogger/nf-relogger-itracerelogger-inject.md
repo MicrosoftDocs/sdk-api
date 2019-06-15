@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],Inject method, ITraceRelogger.Inject, ITraceRelogger::Inject, Inject, Inject method [ETW], Inject method [ETW],ITraceRelogger interface, etw.itracerelogger_inject, relogger/ITraceRelogger::Inject
 ms.topic: method
+f1_keywords: ["relogger/ITraceRelogger.Inject"]
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

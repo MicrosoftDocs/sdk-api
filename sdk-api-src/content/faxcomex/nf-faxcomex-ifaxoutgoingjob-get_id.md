@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Id property, IFaxOutgoingJob.Id, IFaxOutgoingJob.get_Id, IFaxOutgoingJob::Id, IFaxOutgoingJob::get_Id, Id property [Fax Service], Id property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.id, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp, fax._mfax_faxoutgoingjob_id, faxcomex/IFaxOutgoingJob::Id, faxcomex/IFaxOutgoingJob::get_Id, get_Id
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.Id"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

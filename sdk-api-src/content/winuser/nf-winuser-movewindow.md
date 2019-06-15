@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoveWindow, MoveWindow function [Windows and Messages], _win32_MoveWindow, _win32_movewindow_cpp, winmsg.movewindow, winui._win32_movewindow, winuser/MoveWindow
 ms.topic: function
+f1_keywords: ["winuser/MoveWindow"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

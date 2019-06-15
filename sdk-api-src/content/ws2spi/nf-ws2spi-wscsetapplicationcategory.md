@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCSetApplicationCategory, WSCSetApplicationCategory function [Winsock], winsock.wscsetapplicationcategory, ws2spi/WSCSetApplicationCategory
 ms.topic: function
+f1_keywords: ["ws2spi/WSCSetApplicationCategory"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

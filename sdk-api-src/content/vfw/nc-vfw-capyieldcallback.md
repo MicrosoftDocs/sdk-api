@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capYieldCallback, capYieldCallback, capYieldCallback callback, capYieldCallback callback function [Windows Multimedia], multimedia.capyieldcallback, vfw/capYieldCallback"
 ms.topic: callback
+f1_keywords: ["vfw/capYieldCallback"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

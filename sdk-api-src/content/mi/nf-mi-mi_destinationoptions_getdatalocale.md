@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_GetDataLocale, MI_DestinationOptions_GetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetDataLocale, wmi_v2.mi_destinationoptions_getdatalocale
 ms.topic: function
+f1_keywords: ["mi/MI_DestinationOptions_GetDataLocale"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

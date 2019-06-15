@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTTABLE, DBCONTENTTABLE structure [Indexing Service], _idxs_DBCONTENTTABLE, cmdtree/DBCONTENTTABLE, indexsrv.dbcontenttable, tagDBCONTENTTABLE
 ms.topic: struct
+f1_keywords: ["cmdtree/DBCONTENTTABLE"]
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB interface [Windows Shell],InitializeProgressDialog method, INamespaceWalkCB.InitializeProgressDialog, INamespaceWalkCB::InitializeProgressDialog, InitializeProgressDialog, InitializeProgressDialog method [Windows Shell], InitializeProgressDialog method [Windows Shell],INamespaceWalkCB interface, _win32_INamespaceWalkCB_InitializeProgressDialog, shell.INamespaceWalkCB_InitializeProgressDialog, shobjidl_core/INamespaceWalkCB::InitializeProgressDialog
 ms.topic: method
+f1_keywords: ["shobjidl_core/INamespaceWalkCB.InitializeProgressDialog"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

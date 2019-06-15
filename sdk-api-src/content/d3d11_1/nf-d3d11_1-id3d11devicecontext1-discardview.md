@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardView, DiscardView method [Direct3D 11], DiscardView method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],DiscardView method, ID3D11DeviceContext1.DiscardView, ID3D11DeviceContext1::DiscardView, d3d11_1/ID3D11DeviceContext1::DiscardView, direct3d11.id3d11devicecontext1_discardview
 ms.topic: method
+f1_keywords: ["d3d11_1/ID3D11DeviceContext1.DiscardView"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

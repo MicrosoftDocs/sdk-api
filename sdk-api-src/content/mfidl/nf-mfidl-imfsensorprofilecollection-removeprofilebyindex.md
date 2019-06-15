@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection interface [Media Foundation],RemoveProfileByIndex method, IMFSensorProfileCollection.RemoveProfileByIndex, IMFSensorProfileCollection::RemoveProfileByIndex, RemoveProfileByIndex, RemoveProfileByIndex method [Media Foundation], RemoveProfileByIndex method [Media Foundation],IMFSensorProfileCollection interface, mf.imfsensorprofilecollection_removeprofilebyindex, mfidl/IMFSensorProfileCollection::RemoveProfileByIndex
 ms.topic: method
+f1_keywords: ["mfidl/IMFSensorProfileCollection.RemoveProfileByIndex"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

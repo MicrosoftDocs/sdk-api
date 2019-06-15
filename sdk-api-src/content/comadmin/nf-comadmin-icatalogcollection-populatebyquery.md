@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByQuery method, ICatalogCollection.PopulateByQuery, ICatalogCollection::PopulateByQuery, PopulateByQuery, PopulateByQuery method [COM+], PopulateByQuery method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByQuery, comadmin/ICatalogCollection::PopulateByQuery, cos.icatalogcollection_populatebyquery
 ms.topic: method
+f1_keywords: ["comadmin/ICatalogCollection.PopulateByQuery"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

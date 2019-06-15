@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteUnicastIpAddressEntry, DeleteUnicastIpAddressEntry function [IP Helper], iphlp.deleteunicastipaddressentry, netioapi/DeleteUnicastIpAddressEntry
 ms.topic: function
+f1_keywords: ["netioapi/DeleteUnicastIpAddressEntry"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
 ms.topic: interface
+f1_keywords: ["ctffunc/ITfIntegratableCandidateListUIElement"]
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

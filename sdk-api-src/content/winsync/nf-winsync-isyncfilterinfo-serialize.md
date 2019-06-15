@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncFilterInfo interface [Windows Sync],Serialize method, ISyncFilterInfo.Serialize, ISyncFilterInfo::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncFilterInfo interface, winsync.isyncfilterinfo_serialize, winsync/ISyncFilterInfo::Serialize
 ms.topic: method
+f1_keywords: ["winsync/ISyncFilterInfo.Serialize"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

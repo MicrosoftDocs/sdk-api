@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxInboundRoutingExtensions interface, IFaxInboundRoutingExtensions interface [Fax Service],Count property, IFaxInboundRoutingExtensions.Count, IFaxInboundRoutingExtensions.get_Count, IFaxInboundRoutingExtensions::Count, IFaxInboundRoutingExtensions::get_Count, _mfax_faxinboundroutingextensions.count, fax._mfax_faxinboundroutingextensions_count, fax._mfax_faxinboundroutingextensions_cpp_mfax_faxinboundroutingextensions_count_cpp, faxcomex/IFaxInboundRoutingExtensions::Count, faxcomex/IFaxInboundRoutingExtensions::get_Count, get_Count
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxInboundRoutingExtensions.Count"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

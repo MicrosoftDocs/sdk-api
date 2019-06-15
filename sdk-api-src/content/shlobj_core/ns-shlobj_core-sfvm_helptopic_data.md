@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell], _SFVM_HELPTOPIC_DATA, _win32_SFVM_HELPTOPIC_DATA_str, shell.SFVM_HELPTOPIC_DATA_str, shlobj_core/SFVM_HELPTOPIC_DATA
 ms.topic: struct
+f1_keywords: ["shlobj_core/SFVM_HELPTOPIC_DATA"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTHelperProvDataFromStateData, WTHelperProvDataFromStateData function [Security], security.wthelperprovdatafromstatedata, wintrust/WTHelperProvDataFromStateData
 ms.topic: function
+f1_keywords: ["wintrust/WTHelperProvDataFromStateData"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

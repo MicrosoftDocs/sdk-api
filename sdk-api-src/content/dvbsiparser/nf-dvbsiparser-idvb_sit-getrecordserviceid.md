@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetRecordServiceId method, IDVB_SIT.GetRecordServiceId, IDVB_SIT::GetRecordServiceId, IDVB_SITGetRecordServiceId, dvbsiparser/IDVB_SIT::GetRecordServiceId, mstv.idvb_sit_getrecordserviceid
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_SIT.GetRecordServiceId"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

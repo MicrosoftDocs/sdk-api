@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanDeleteProfile, WlanDeleteProfile function [NativeWIFI], nwifi.wlandeleteprofile, wlanapi/WlanDeleteProfile
 ms.topic: function
+f1_keywords: ["wlanapi/WlanDeleteProfile"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

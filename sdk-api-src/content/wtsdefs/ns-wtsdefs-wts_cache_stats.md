@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_CACHE_STATS, 1, 2, 3, PWRDS_CACHE_STATS, PWRDS_CACHE_STATS structure pointer [Remote Desktop Services], PWTS_CACHE_STATS, PWTS_CACHE_STATS structure pointer [Remote Desktop Services], WRDS_CACHE_STATS, WRDS_CACHE_STATS structure [Remote Desktop Services], WTS_CACHE_STATS, WTS_CACHE_STATS structure [Remote Desktop Services], termserv.wts_cache_stats, wtsdefs/PWRDS_CACHE_STATS, wtsdefs/PWTS_CACHE_STATS, wtsdefs/WRDS_CACHE_STATS, wtsdefs/WTS_CACHE_STATS"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_CACHE_STATS"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

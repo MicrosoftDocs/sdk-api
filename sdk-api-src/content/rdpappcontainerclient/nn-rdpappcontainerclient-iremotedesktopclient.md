@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient, IRemoteDesktopClient interface [Remote Desktop Services], IRemoteDesktopClient interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClient, termserv.iremotedesktopclient
 ms.topic: interface
+f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClient"]
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

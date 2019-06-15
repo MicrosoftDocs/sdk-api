@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaEventCallback, UiaEventCallback callback, UiaEventCallback callback function [Windows Accessibility], uiauto.uiauto_UiaEventCallbackClientEvent, uiauto_UiaEventCallbackClientEvent, uiautomationcoreapi/UiaEventCallback, winauto.uiauto_UiaEventCallbackClientEvent
 ms.topic: callback
+f1_keywords: ["uiautomationcoreapi/UiaEventCallback"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

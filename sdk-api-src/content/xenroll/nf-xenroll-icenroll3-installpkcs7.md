@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],InstallPKCS7 method, ICEnroll3 interface [Security],InstallPKCS7 method, ICEnroll3.InstallPKCS7, ICEnroll3::InstallPKCS7, ICEnroll4 interface [Security],InstallPKCS7 method, ICEnroll4::InstallPKCS7, InstallPKCS7, InstallPKCS7 method [Security], InstallPKCS7 method [Security],CEnroll object, InstallPKCS7 method [Security],ICEnroll3 interface, InstallPKCS7 method [Security],ICEnroll4 interface, security.icenroll4_installpkcs7, xenroll/ICEnroll3::InstallPKCS7, xenroll/ICEnroll4::InstallPKCS7
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.InstallPKCS7"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

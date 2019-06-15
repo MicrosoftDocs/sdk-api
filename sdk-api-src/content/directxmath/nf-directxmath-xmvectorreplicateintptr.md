@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReplicateIntPtr, XMVectorReplicateIntPtr, XMVectorReplicateIntPtr method [DirectX Math Support APIs], dxmath.xmvectorreplicateintptr
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorReplicateIntPtr"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

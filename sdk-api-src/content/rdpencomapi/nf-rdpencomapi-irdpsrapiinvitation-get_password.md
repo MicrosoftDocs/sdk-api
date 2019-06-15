@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Password property, IRDPSRAPIInvitation.Password, IRDPSRAPIInvitation.get_Password, IRDPSRAPIInvitation::Password, IRDPSRAPIInvitation::get_Password, Password property [RDP], Password property [RDP],IRDPSRAPIInvitation interface, Password property [RDP],RDPSRAPIInvitation object, RDPSRAPIInvitation object [RDP],Password property, get_Password, rdp.irdpsrapiinvitation_password, rdpencomapi/IRDPSRAPIInvitation::Password, rdpencomapi/IRDPSRAPIInvitation::get_Password
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIInvitation.Password"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

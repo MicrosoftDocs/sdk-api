@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAX_DEVICE_RECEIVE_MODE_ENUM, FAX_DEVICE_RECEIVE_MODE_ENUM enumeration [Fax Service], _mfax_fax_device_receive_mode_enum, fax._mfax_fax_device_receive_mode_enum, faxcomex/FAX_DEVICE_RECEIVE_MODE_ENUM, faxcomex/fdrmAUTO_ANSWER, faxcomex/fdrmMANUAL_ANSWER, faxcomex/fdrmNO_ANSWER, fdrmAUTO_ANSWER, fdrmMANUAL_ANSWER, fdrmNO_ANSWER
 ms.topic: enum
+f1_keywords: ["faxcomex/FAX_DEVICE_RECEIVE_MODE_ENUM"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, direct3d11.d3d11_feature_data_d3d9_shadow_support
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

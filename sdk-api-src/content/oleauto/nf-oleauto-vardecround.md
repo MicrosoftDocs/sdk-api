@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecRound, VarDecRound function [Automation], _oa96_VarDecRound, automat.vardecround, oleauto/VarDecRound
 ms.topic: function
+f1_keywords: ["oleauto/VarDecRound"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

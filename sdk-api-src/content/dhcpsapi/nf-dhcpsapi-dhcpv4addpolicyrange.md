@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4AddPolicyRange, DhcpV4AddPolicyRange function [DHCP], dhcp.dhcpv4addpolicyrange, dhcpsapi/DhcpV4AddPolicyRange
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpV4AddPolicyRange"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

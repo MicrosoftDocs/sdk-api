@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientStartSession, WdsTransportClientStartSession function [Windows Deployment Services], wds.wdstransportclientstartsession, wdstci/WdsTransportClientStartSession
 ms.topic: function
+f1_keywords: ["wdstci/WdsTransportClientStartSession"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

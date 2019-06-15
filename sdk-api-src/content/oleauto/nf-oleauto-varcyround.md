@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyRound, VarCyRound function [Automation], _oa96_VarCyRound, automat.varcyround, oleauto/VarCyRound
 ms.topic: function
+f1_keywords: ["oleauto/VarCyRound"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

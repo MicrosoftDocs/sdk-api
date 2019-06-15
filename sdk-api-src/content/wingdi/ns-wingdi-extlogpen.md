@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPEXTLOGPEN, *NPEXTLOGPEN, *PEXTLOGPEN, EXTLOGPEN, EXTLOGPEN structure [Windows GDI], PEXTLOGPEN, PEXTLOGPEN structure pointer [Windows GDI], _win32_EXTLOGPEN_str, gdi.extlogpen, wingdi/EXTLOGPEN, wingdi/PEXTLOGPEN"
 ms.topic: struct
+f1_keywords: ["wingdi/EXTLOGPEN"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

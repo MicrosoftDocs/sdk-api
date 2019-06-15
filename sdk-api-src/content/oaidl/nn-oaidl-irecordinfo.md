@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo, IRecordInfo interface [Automation], IRecordInfo interface [Automation],described, _oa96_IRecordInfo_Interface, automat.irecordinfo, oaidl/IRecordInfo
 ms.topic: interface
+f1_keywords: ["oaidl/IRecordInfo"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

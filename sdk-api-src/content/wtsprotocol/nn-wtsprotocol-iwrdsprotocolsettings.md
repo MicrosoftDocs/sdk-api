@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], IWRdsProtocolSettings interface [Remote Desktop Services],described, termserv.iwrdsprotocolsettings, wtsprotocol/IWRdsProtocolSettings
 ms.topic: interface
+f1_keywords: ["wtsprotocol/IWRdsProtocolSettings"]
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

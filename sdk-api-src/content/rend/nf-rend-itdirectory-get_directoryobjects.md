@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DirectoryObjects method, ITDirectory.get_DirectoryObjects, ITDirectory::get_DirectoryObjects, _tapi3_itdirectory_get_directoryobjects, get_DirectoryObjects, get_DirectoryObjects method [TAPI 2.2], get_DirectoryObjects method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DirectoryObjects, tapi3.itdirectory_get_directoryobjects
 ms.topic: method
+f1_keywords: ["rend/ITDirectory.get_DirectoryObjects"]
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows

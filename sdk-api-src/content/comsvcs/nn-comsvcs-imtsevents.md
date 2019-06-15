@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents, IMtsEvents interface [COM+], IMtsEvents interface [COM+],described, _dtc_IMtsEvents_Interface, comsvcs/IMtsEvents, cos.imtsevents
 ms.topic: interface
+f1_keywords: ["comsvcs/IMtsEvents"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

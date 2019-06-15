@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot
 ms.topic: function
+f1_keywords: ["ntmsapi/ReserveNtmsCleanerSlot"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

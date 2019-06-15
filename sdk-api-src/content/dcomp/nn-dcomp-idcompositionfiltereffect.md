@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionFilterEffect, IDCompositionFilterEffect interface [DirectComposition], IDCompositionFilterEffect interface [DirectComposition],described, dcomp/IDCompositionFilterEffect, directcomp.idcompositionfiltereffect
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionFilterEffect"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommandLineToArgvW, CommandLineToArgvW function [Windows Shell], _shell_CommandLineToArgvW, shell.CommandLineToArgvW, shellapi/CommandLineToArgvW
 ms.topic: function
+f1_keywords: ["shellapi/CommandLineToArgvW"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

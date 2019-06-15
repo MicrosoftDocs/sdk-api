@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
 ms.topic: function
+f1_keywords: ["wdspxe/PxeDhcpIsValid"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

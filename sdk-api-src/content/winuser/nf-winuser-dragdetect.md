@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragDetect, DragDetect function [Keyboard and Mouse Input], _win32_DragDetect, _win32_dragdetect_cpp, inputdev.dragdetect, winui._win32_dragdetect, winuser/DragDetect
 ms.topic: function
+f1_keywords: ["winuser/DragDetect"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

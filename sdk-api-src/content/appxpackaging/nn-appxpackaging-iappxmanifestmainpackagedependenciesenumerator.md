@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestMainPackageDependenciesEnumerator, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator, appxpkg.iappxmanifestmainpackagedependenciesenumerator
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxManifestMainPackageDependenciesEnumerator"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

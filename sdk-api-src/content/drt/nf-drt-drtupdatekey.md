@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtUpdateKey, DrtUpdateKey function [Distributed Routing Tables], drt/DrtUpdateKey, p2p.drtupdatekey
 ms.topic: function
+f1_keywords: ["drt/DrtUpdateKey"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntToChar, IntToChar function [Windows Shell], _shell_IntToChar, intsafe/IntToChar, shell.IntToChar
 ms.topic: function
+f1_keywords: ["intsafe/IntToChar"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAPO, IXAPO interface [XAudio2 Audio Mixing APIs], IXAPO interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPO, xaudio2.ixapo
 ms.topic: interface
+f1_keywords: ["xapo/IXAPO"]
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

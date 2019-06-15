@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Service],IFaxOutgoingMessage2 interface, IFaxOutgoingMessage2 interface [Fax Service],HasCoverPage property, IFaxOutgoingMessage2.HasCoverPage, IFaxOutgoingMessage2.get_HasCoverPage, IFaxOutgoingMessage2::HasCoverPage, IFaxOutgoingMessage2::get_HasCoverPage, _mfax_faxoutgoingmessage.hascoverpage, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_hascoverpage_cpp, fax._mfax_faxoutgoingmessage_hascoverpage, faxcomex/IFaxOutgoingMessage2::HasCoverPage, faxcomex/IFaxOutgoingMessage2::get_HasCoverPage, get_HasCoverPage
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingMessage2.HasCoverPage"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

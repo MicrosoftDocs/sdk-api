@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Msv1_0SubAuthenticationRoutineGeneric, Msv1_0SubAuthenticationRoutineGeneric function [Security], security.msv1_0subauthenticationroutinegeneric, subauth/Msv1_0SubAuthenticationRoutineGeneric
 ms.topic: function
+f1_keywords: ["subauth/Msv1_0SubAuthenticationRoutineGeneric"]
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows

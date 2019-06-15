@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcClose, EcClose function, evcoll/EcClose, wec.ecclose, wes.ecclose
 ms.topic: function
+f1_keywords: ["evcoll/EcClose"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

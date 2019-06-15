@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServiceGetInfo, NetServiceGetInfo function [Network Management], _win32_netservicegetinfo, lmsvc/NetServiceGetInfo, netmgmt.netservicegetinfo
 ms.topic: function
+f1_keywords: ["lmsvc/NetServiceGetInfo"]
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows

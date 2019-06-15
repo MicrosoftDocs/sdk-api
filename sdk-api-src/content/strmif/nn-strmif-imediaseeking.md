@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IMediaSeeking interface [DirectShow],described, IMediaSeekingInterface, dshow.imediaseeking, strmif/IMediaSeeking
 ms.topic: interface
+f1_keywords: ["strmif/IMediaSeeking"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

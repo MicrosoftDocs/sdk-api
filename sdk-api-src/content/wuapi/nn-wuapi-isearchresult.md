@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchResult, ISearchResult interface [Windows Update Agent], ISearchResult interface [Windows Update Agent],described, wua.isearchresult, wuapi/ISearchResult
 ms.topic: interface
+f1_keywords: ["wuapi/ISearchResult"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

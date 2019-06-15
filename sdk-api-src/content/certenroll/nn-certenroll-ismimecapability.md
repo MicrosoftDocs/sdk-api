@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapability, ISmimeCapability interface [Security], ISmimeCapability interface [Security],described, certenroll/ISmimeCapability, security.ismimecapability
 ms.topic: interface
+f1_keywords: ["certenroll/ISmimeCapability"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

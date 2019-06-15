@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0c0173ef-9c29-465c-b725-ce38b220f94f, MFCreateTopoLoader, MFCreateTopoLoader function [Media Foundation], mf.mfcreatetopoloader, mfidl/MFCreateTopoLoader
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateTopoLoader"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

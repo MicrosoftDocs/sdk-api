@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFMediaSourceExtension"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

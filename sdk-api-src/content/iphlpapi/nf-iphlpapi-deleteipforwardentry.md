@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _iphlp_deleteipforwardentry, iphlp.deleteipforwardentry, iphlpapi/DeleteIpForwardEntry
 ms.topic: function
+f1_keywords: ["iphlpapi/DeleteIpForwardEntry"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

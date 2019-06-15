@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindSubjectInSortedCTL, CertFindSubjectInSortedCTL function [Security], _crypto2_certfindsubjectinsortedctl, security.certfindsubjectinsortedctl, wincrypt/CertFindSubjectInSortedCTL
 ms.topic: function
+f1_keywords: ["wincrypt/CertFindSubjectInSortedCTL"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

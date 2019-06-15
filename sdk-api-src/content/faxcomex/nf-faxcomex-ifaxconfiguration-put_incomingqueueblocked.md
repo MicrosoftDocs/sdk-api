@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],IncomingQueueBlocked property, IFaxConfiguration.IncomingQueueBlocked, IFaxConfiguration.put_IncomingQueueBlocked, IFaxConfiguration::IncomingQueueBlocked, IFaxConfiguration::get_IncomingQueueBlocked, IFaxConfiguration::put_IncomingQueueBlocked, IncomingQueueBlocked property [Fax Service], IncomingQueueBlocked property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_BlockIncomingQueue, fax._mfax_IFaxConfiguration_BlockIncomingQueue, faxcomex/IFaxConfiguration::IncomingQueueBlocked, faxcomex/IFaxConfiguration::get_IncomingQueueBlocked, faxcomex/IFaxConfiguration::put_IncomingQueueBlocked, put_IncomingQueueBlocked
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxConfiguration.IncomingQueueBlocked"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

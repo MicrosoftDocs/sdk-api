@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentMinimum property [Windows Accessibility], CurrentMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentMinimum property, IUIAutomationRangeValuePattern.CurrentMinimum, IUIAutomationRangeValuePattern.get_CurrentMinimum, IUIAutomationRangeValuePattern::CurrentMinimum, IUIAutomationRangeValuePattern::get_CurrentMinimum, get_CurrentMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiauto_IUIAutomationRangeValuePattern_CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CurrentMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentMinimum
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern.CurrentMinimum"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDynamicTimeZoneInformation, EnumDynamicTimeZoneInformation function, base.enumdynamictimezoneinformation, timezoneapi/EnumDynamicTimeZoneInformation
 ms.topic: function
+f1_keywords: ["timezoneapi/EnumDynamicTimeZoneInformation"]
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

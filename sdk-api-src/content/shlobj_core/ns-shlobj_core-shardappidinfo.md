@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHARDAPPIDINFO, SHARDAPPIDINFO structure [Windows Shell], _shell_SHARDAPPIDINFO, shell.SHARDAPPIDINFO, shlobj_core/SHARDAPPIDINFO
 ms.topic: struct
+f1_keywords: ["shlobj_core/SHARDAPPIDINFO"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

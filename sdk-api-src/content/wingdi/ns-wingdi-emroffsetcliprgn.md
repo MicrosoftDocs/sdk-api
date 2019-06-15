@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMROFFSETCLIPRGN, EMROFFSETCLIPRGN, EMROFFSETCLIPRGN structure [Windows GDI], PEMROFFSETCLIPRGN, PEMROFFSETCLIPRGN structure pointer [Windows GDI], _win32_EMROFFSETCLIPRGN_str, gdi.emroffsetcliprgn, wingdi/EMROFFSETCLIPRGN, wingdi/PEMROFFSETCLIPRGN"
 ms.topic: struct
+f1_keywords: ["wingdi/EMROFFSETCLIPRGN"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

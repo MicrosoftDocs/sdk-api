@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_WINDOW_STATE, D2D1_WINDOW_STATE enumeration [Direct2D], D2D1_WINDOW_STATE_NONE, D2D1_WINDOW_STATE_OCCLUDED, d2d1/D2D1_WINDOW_STATE, d2d1/D2D1_WINDOW_STATE_NONE, d2d1/D2D1_WINDOW_STATE_OCCLUDED, direct2d.D2D1_WINDOW_STATE
 ms.topic: enum
+f1_keywords: ["d2d1/D2D1_WINDOW_STATE"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

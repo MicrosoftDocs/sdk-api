@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAM_COPY_MACROVISION, AM_COPY_MACROVISION, AM_COPY_MACROVISION structure [DirectShow], PAM_COPY_MACROVISION, PAM_COPY_MACROVISION structure pointer [DirectShow], dshow.am_copy_macrovision, dvdmedia/AM_COPY_MACROVISION, dvdmedia/PAM_COPY_MACROVISION"
 ms.topic: struct
+f1_keywords: ["dvdmedia/AM_COPY_MACROVISION"]
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

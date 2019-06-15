@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasEapFreeMemory, RasEapFreeMemory callback, RasEapFreeMemory callback function [EAP], _eap_raseapfreememory, eap.raseapfreememory, raseapif/RasEapFreeMemory
 ms.topic: function
+f1_keywords: ["raseapif/RasEapFreeMemory"]
 req.header: raseapif.h
 req.include-header: 
 req.target-type: Windows

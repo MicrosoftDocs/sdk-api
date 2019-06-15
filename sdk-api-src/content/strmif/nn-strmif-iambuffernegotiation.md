@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], IAMBufferNegotiation interface [DirectShow],described, IAMBufferNegotiationInterface, dshow.iambuffernegotiation, strmif/IAMBufferNegotiation
 ms.topic: interface
+f1_keywords: ["strmif/IAMBufferNegotiation"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

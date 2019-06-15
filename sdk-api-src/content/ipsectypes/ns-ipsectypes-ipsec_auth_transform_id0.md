@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_CONFIG_GCM_AES_128, IPSEC_AUTH_CONFIG_GCM_AES_192, IPSEC_AUTH_CONFIG_GCM_AES_256, IPSEC_AUTH_CONFIG_HMAC_MD5_96, IPSEC_AUTH_CONFIG_HMAC_SHA_1_96, IPSEC_AUTH_CONFIG_HMAC_SHA_256_128, IPSEC_AUTH_TRANSFORM_ID0, IPSEC_AUTH_TRANSFORM_ID0 structure [Filtering], fwp.ipsec_auth_transform_id0_struct, ipsectypes/IPSEC_AUTH_TRANSFORM_ID0
 ms.topic: struct
+f1_keywords: ["ipsectypes/IPSEC_AUTH_TRANSFORM_ID0"]
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

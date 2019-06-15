@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method, ClearRetrievalFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,ClearRetrievalFilter method, ID3D12InfoQueue.ClearRetrievalFilter, ID3D12InfoQueue::ClearRetrievalFilter, d3d12sdklayers/ID3D12InfoQueue::ClearRetrievalFilter, direct3d12.id3d12infoqueue_clearretrievalfilter
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.ClearRetrievalFilter"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALLOCATOR_PROPERTIES, ALLOCATOR_PROPERTIES structure [DirectShow], ALLOCATOR_PROPERTIESStructure, dshow.allocator_properties, strmif/ALLOCATOR_PROPERTIES
 ms.topic: struct
+f1_keywords: ["strmif/ALLOCATOR_PROPERTIES"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

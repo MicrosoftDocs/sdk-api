@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
 ms.topic: function
+f1_keywords: ["faxext/FaxExtFreeBuffer"]
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

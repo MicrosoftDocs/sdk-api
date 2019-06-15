@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
 ms.topic: function
+f1_keywords: ["evntprov/EventWriteTransfer"]
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

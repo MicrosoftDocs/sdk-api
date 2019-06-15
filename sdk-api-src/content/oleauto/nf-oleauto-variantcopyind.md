@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantCopyInd, VariantCopyInd function [Automation], _oa96_VariantCopyInd, automat.variantcopyind, oleauto/VariantCopyInd
 ms.topic: function
+f1_keywords: ["oleauto/VariantCopyInd"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

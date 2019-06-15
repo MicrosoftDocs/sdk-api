@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptUIWizFreeDigitalSignContext, CryptUIWizFreeDigitalSignContext function [Security], cryptuiapi/CryptUIWizFreeDigitalSignContext, security.cryptuiwizfreedigitalsigncontext
 ms.topic: function
+f1_keywords: ["cryptuiapi/CryptUIWizFreeDigitalSignContext"]
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

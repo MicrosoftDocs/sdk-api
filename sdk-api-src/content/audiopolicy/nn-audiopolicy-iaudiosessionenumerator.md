@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], IAudioSessionEnumerator interface [Core Audio],described, audiopolicy/IAudioSessionEnumerator, coreaudio.iaudiosessionenumerator
 ms.topic: interface
+f1_keywords: ["audiopolicy/IAudioSessionEnumerator"]
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

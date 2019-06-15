@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallHubTracking, TSPI_lineSetCallHubTracking function [TAPI 2.2], _tspi_tspi_linesetcallhubtracking, tspi.tspi_linesetcallhubtracking, tspi/TSPI_lineSetCallHubTracking
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineSetCallHubTracking"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

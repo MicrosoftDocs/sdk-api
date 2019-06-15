@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12PipelineLibrary1, ID3D12PipelineLibrary1 interface, ID3D12PipelineLibrary1 interface,described, d3d12/ID3D12PipelineLibrary1, direct3d12.id3d12pipelinelibrary1
 ms.topic: interface
+f1_keywords: ["d3d12/ID3D12PipelineLibrary1"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
 ms.topic: interface
+f1_keywords: ["syncmgr/IEnumSyncMgrConflict"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

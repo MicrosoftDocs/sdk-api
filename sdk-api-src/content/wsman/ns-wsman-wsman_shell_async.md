@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_ASYNC, WSMAN_SHELL_ASYNC structure [Windows Remote Management], winrm.wsman_shell_async, wsman/WSMAN_SHELL_ASYNC
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_SHELL_ASYNC"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

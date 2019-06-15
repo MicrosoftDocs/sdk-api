@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIJOYTYPEINFO, DIJOYTYPEINFO, DIJOYTYPEINFO structure [Human Input Devices], DIJOYTYPEINFO,*LPDIJOYTYPEINFO, DIJOYTYPEINFO,*LPDIJOYTYPEINFO structure [Human Input Devices], di_ref_5b0a815b-710c-4f46-afa7-b8d051c7a5d6.xml, dinputd/DIJOYTYPEINFO, hid.dijoytypeinfo"
 ms.topic: struct
+f1_keywords: ["dinputd/DIJOYTYPEINFO, *LPDIJOYTYPEINFO"]
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

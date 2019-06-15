@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Xml property, IRegisteredTask.Xml, IRegisteredTask.get_Xml, IRegisteredTask::Xml, IRegisteredTask::get_Xml, Xml property [Task Scheduler], Xml property [Task Scheduler],IRegisteredTask interface, get_Xml, taskschd.iregisteredtask_xml, taskschd/IRegisteredTask::Xml, taskschd/IRegisteredTask::get_Xml
 ms.topic: method
+f1_keywords: ["taskschd/IRegisteredTask.Xml"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

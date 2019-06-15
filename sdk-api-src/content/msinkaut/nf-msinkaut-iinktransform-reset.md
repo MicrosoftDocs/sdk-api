@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reset method, IInkTransform.Reset, IInkTransform::Reset, Reset, Reset method [Tablet PC], Reset method [Tablet PC],IInkTransform interface, ea593b1c-0986-4969-8f6f-726987b7c4a6, msinkaut/IInkTransform::Reset, tablet.inktransform_reset
 ms.topic: method
+f1_keywords: ["msinkaut/IInkTransform.Reset"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

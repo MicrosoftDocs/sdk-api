@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetInteger, MsiRecordSetInteger function, _msi_msirecordsetinteger, msiquery/MsiRecordSetInteger, setup.msirecordsetinteger
 ms.topic: function
+f1_keywords: ["msiquery/MsiRecordSetInteger"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

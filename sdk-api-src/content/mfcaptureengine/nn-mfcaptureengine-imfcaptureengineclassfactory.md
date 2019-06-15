@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineClassFactory, IMFCaptureEngineClassFactory interface [Media Foundation], IMFCaptureEngineClassFactory interface [Media Foundation],described, mf.imfcaptureengineclassfactory, mfcaptureengine/IMFCaptureEngineClassFactory
 ms.topic: interface
+f1_keywords: ["mfcaptureengine/IMFCaptureEngineClassFactory"]
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

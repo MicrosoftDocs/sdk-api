@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBitsPeerCacheRecord, IBitsPeerCacheRecord interface [BITS], IBitsPeerCacheRecord interface [BITS],described, bits.ibitspeercacherecord, bits3_0/IBitsPeerCacheRecord
 ms.topic: interface
+f1_keywords: ["bits3_0/IBitsPeerCacheRecord"]
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

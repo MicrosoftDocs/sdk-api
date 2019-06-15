@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceConnector.Cancel, IPortableDeviceConnector::Cancel, devpkey/IPortableDeviceConnector::Cancel, portabledeviceconnectapi/IPortableDeviceConnector::Cancel, wpdsdk.iportabledeviceconnector_cancel
 ms.topic: method
+f1_keywords: ["portabledeviceconnectapi/IPortableDeviceConnector.Cancel"]
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows

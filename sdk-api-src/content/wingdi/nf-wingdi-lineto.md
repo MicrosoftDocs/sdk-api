@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LineTo, LineTo function [Windows GDI], _win32_LineTo, gdi.lineto, wingdi/LineTo
 ms.topic: function
+f1_keywords: ["wingdi/LineTo"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetIsOffline, intshcut/InetIsOffline, shell.InetIsOffline
 ms.topic: function
+f1_keywords: ["intshcut/InetIsOffline"]
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

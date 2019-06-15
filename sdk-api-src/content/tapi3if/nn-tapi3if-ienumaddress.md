@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress, IEnumAddress interface [TAPI 2.2], IEnumAddress interface [TAPI 2.2],described, _tapi3_ienumaddress, tapi3.ienumaddress, tapi3if/IEnumAddress
 ms.topic: interface
+f1_keywords: ["tapi3if/IEnumAddress"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

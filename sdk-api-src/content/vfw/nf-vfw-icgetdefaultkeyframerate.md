@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICGetDefaultKeyFrameRate, ICGetDefaultKeyFrameRate macro [Windows Multimedia], _win32_ICGetDefaultKeyFrameRate, multimedia.icgetdefaultkeyframerate, vfw/ICGetDefaultKeyFrameRate
 ms.topic: macro
+f1_keywords: ["vfw/ICGetDefaultKeyFrameRate"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

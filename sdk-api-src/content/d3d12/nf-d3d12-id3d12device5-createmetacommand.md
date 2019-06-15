@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMetaCommand, CreateMetaCommand method, CreateMetaCommand method,ID3D12Device5 interface, ID3D12Device5 interface,CreateMetaCommand method, ID3D12Device5.CreateMetaCommand, ID3D12Device5::CreateMetaCommand, d3d12/ID3D12Device5::CreateMetaCommand, direct3d12.id3d12device5_createmetacommand
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12Device5.CreateMetaCommand"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

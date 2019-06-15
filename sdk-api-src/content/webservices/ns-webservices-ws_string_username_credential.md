@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_STRING_USERNAME_CREDENTIAL, WS_STRING_USERNAME_CREDENTIAL structure [Web Services for Windows], webservices/WS_STRING_USERNAME_CREDENTIAL, wsw.ws_string_username_credential
 ms.topic: struct
+f1_keywords: ["webservices/WS_STRING_USERNAME_CREDENTIAL"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelQuery, WTSVirtualChannelQuery function [Remote Desktop Services], _win32_wtsvirtualchannelquery, termserv.wtsvirtualchannelquery, wtsapi32/WTSVirtualChannelQuery
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSVirtualChannelQuery"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

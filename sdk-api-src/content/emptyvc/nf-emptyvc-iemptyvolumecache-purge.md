@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],Purge method, IEmptyVolumeCache.Purge, IEmptyVolumeCache::Purge, Purge, Purge method [Legacy Windows Environment Features], Purge method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_Purge, emptyvc/IEmptyVolumeCache::Purge, lwef.iemptyvolumecache_purge, shell.iemptyvolumecache_purge
 ms.topic: method
+f1_keywords: ["emptyvc/IEmptyVolumeCache.Purge"]
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

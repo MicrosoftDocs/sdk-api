@@ -4,6 +4,7 @@ title: AudioClientProperties
 ms.date: 01/30/19
 ms.keywords: AudioClientProperties
 ms.topic: language-reference
+f1_keywords: ["audioclient/AudioClientProperties"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetMessage, WsResetMessage function [Web Services for Windows], webservices/WsResetMessage, wsw.wsresetmessage
 ms.topic: function
+f1_keywords: ["webservices/WsResetMessage"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

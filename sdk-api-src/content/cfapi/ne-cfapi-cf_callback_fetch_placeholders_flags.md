@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS enumeration, CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS, cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAG_NONE, cloudApi.cf_callback_fetch_placeholders_flags
 ms.topic: enum
+f1_keywords: ["cfapi/CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

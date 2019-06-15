@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_CHASE_REFERRALS_ALWAYS, ADS_CHASE_REFERRALS_ENUM, ADS_CHASE_REFERRALS_ENUM enumeration [ADSI], ADS_CHASE_REFERRALS_EXTERNAL, ADS_CHASE_REFERRALS_NEVER, ADS_CHASE_REFERRALS_SUBORDINATE, _ds_ads_chase_referrals_enum, adsi.ads__chase__referrals__enum, adsi.ads_chase_referrals_enum, iads/ADS_CHASE_REFERRALS_ALWAYS, iads/ADS_CHASE_REFERRALS_ENUM, iads/ADS_CHASE_REFERRALS_EXTERNAL, iads/ADS_CHASE_REFERRALS_NEVER, iads/ADS_CHASE_REFERRALS_SUBORDINATE
 ms.topic: enum
+f1_keywords: ["iads/ADS_CHASE_REFERRALS_ENUM"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

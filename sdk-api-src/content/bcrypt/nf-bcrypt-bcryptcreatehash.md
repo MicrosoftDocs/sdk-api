@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptCreateHash"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

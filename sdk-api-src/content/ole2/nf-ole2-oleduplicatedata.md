@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleDuplicateData, OleDuplicateData function [COM], _ole_OleDuplicateData, com.oleduplicatedata, ole2/OleDuplicateData
 ms.topic: function
+f1_keywords: ["ole2/OleDuplicateData"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

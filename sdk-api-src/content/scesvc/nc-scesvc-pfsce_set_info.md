@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, PFSCE_SET_INFO, PFSCE_SET_INFO callback, PFSCE_SET_INFO callback function [Security], SCESVC_ANALYSIS_INFO, SCESVC_CONFIGURATION_INFO, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, TRUE, _config_pfsce_set_info, scesvc/PFSCE_SET_INFO, security.pfsce_set_info
 ms.topic: callback
+f1_keywords: ["scesvc/PFSCE_SET_INFO"]
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

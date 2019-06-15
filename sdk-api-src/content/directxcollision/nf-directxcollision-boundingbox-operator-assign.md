@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],op_Assignment method, BoundingBox.op_Assignment, BoundingBox.operator-assign, BoundingBox.operator=, BoundingBox::operator-assign, BoundingBox::operator=, Use DirectX..BoundingBox.op_Assignment, Use DirectX::::BoundingBox::op_Assignment, dxmath.boundingbox_op_assignment, op_Assignment method [DirectX Math Support APIs], op_Assignment method [DirectX Math Support APIs],BoundingBox interface, operator=
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingBox.op_Assignment"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

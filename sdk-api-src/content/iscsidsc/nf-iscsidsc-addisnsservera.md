@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddISNSServerA, AddIsnsServer, AddIsnsServer function [iSCSI Discovery Library API], AddIsnsServerA, AddIsnsServerW, iscsidisc.addisnsserver, iscsidsc/AddIsnsServer, iscsidsc/AddIsnsServerA, iscsidsc/AddIsnsServerW
 ms.topic: function
+f1_keywords: ["iscsidsc/AddIsnsServer"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxSetForegroundWindow method, ITextHost2.TxSetForegroundWindow, ITextHost2::TxSetForegroundWindow, TxSetForegroundWindow, TxSetForegroundWindow method [Windows Controls], TxSetForegroundWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txsetforegroundwindow, textserv/ITextHost2::TxSetForegroundWindow
 ms.topic: method
+f1_keywords: ["textserv/ITextHost2.TxSetForegroundWindow"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowContextHelpId, GetWindowContextHelpId function [Windows Shell], _win32_GetWindowContextHelpId, shell.GetWindowContextHelpId, winuser/GetWindowContextHelpId
 ms.topic: function
+f1_keywords: ["winuser/GetWindowContextHelpId"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

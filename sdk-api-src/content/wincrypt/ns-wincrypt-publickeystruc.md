@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLOBHEADER, BLOBHEADER [Security], BLOBHEADER structure [Security], KEYSTATEBLOB, OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, PUBLICKEYBLOBEX, PUBLICKEYSTRUC, PUBLICKEYSTRUC structure [Security], SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _cryptcsp_blobheader, _crypto2_publickeystruc, security.blobheader, security.publickeystruc, wincrypt/PUBLICKEYSTRUC
 ms.topic: struct
+f1_keywords: ["wincrypt/BLOBHEADER"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

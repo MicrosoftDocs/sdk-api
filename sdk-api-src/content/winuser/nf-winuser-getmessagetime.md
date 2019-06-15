@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMessageTime, GetMessageTime function [Windows and Messages], _win32_GetMessageTime, _win32_getmessagetime_cpp, winmsg.getmessagetime, winui._win32_getmessagetime, winuser/GetMessageTime
 ms.topic: function
+f1_keywords: ["winuser/GetMessageTime"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

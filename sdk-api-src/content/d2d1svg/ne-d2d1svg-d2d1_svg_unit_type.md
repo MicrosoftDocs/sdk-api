@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_UNIT_TYPE, D2D1_SVG_UNIT_TYPE enumeration [Direct2D], D2D1_SVG_UNIT_TYPE_FORCE_DWORD, D2D1_SVG_UNIT_TYPE_OBJECT_BOUNDING_BOX, D2D1_SVG_UNIT_TYPE_USER_SPACE_ON_USE, d2d1svg/D2D1_SVG_UNIT_TYPE, d2d1svg/D2D1_SVG_UNIT_TYPE_FORCE_DWORD, d2d1svg/D2D1_SVG_UNIT_TYPE_OBJECT_BOUNDING_BOX, d2d1svg/D2D1_SVG_UNIT_TYPE_USER_SPACE_ON_USE, direct2d.d2d1_svg_unit_type
 ms.topic: enum
+f1_keywords: ["d2d1svg/D2D1_SVG_UNIT_TYPE"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2Ex interface [IMAPI],SendCommandSendDataToDevice method, IDiscRecorder2Ex.SendCommandSendDataToDevice, IDiscRecorder2Ex::SendCommandSendDataToDevice, SendCommandSendDataToDevice, SendCommandSendDataToDevice method [IMAPI], SendCommandSendDataToDevice method [IMAPI],IDiscRecorder2Ex interface, imapi.idiscrecorder2ex_sendcommandsenddatatodevice, imapi2/IDiscRecorder2Ex::SendCommandSendDataToDevice
 ms.topic: method
+f1_keywords: ["imapi2/IDiscRecorder2Ex.SendCommandSendDataToDevice"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICAT, ICAT interface [Microsoft TV Technologies], ICAT interface [Microsoft TV Technologies],described, ICATInterface, mpeg2psiparser/ICAT, mstv.icat
 ms.topic: interface
+f1_keywords: ["mpeg2psiparser/ICAT"]
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourcePresentationProvider, IMFMediaSourcePresentationProvider interface [Media Foundation], IMFMediaSourcePresentationProvider interface [Media Foundation],described, b6b36324-a315-42a0-bdbf-8d2cec6cde3f, mf.imfmediasourcepresentationprovider, mfidl/IMFMediaSourcePresentationProvider
 ms.topic: interface
+f1_keywords: ["mfidl/IMFMediaSourcePresentationProvider"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

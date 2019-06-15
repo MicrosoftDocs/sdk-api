@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchResolve method, IWSDiscoveryPublisher.MatchResolve, IWSDiscoveryPublisher::MatchResolve, MatchResolve, MatchResolve method, MatchResolve method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchresolve_method, wsddisco/IWSDiscoveryPublisher::MatchResolve
 ms.topic: method
+f1_keywords: ["wsddisco/IWSDiscoveryPublisher.MatchResolve"]
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

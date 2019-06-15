@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSACancelBlockingCall, WSACancelBlockingCall function [Winsock], _win32_wsacancelblockingcall_2, winsock.wsacancelblockingcall_2, winsock2/WSACancelBlockingCall
 ms.topic: function
+f1_keywords: ["winsock2/WSACancelBlockingCall"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

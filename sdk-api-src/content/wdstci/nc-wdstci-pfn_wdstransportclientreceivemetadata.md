@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientReceiveMetadata, PFN_WdsTransportClientReceiveMetadata callback, PFN_WdsTransportClientReceiveMetadata callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivemetadata, wdstci/PFN_WdsTransportClientReceiveMetadata
 ms.topic: callback
+f1_keywords: ["wdstci/PFN_WdsTransportClientReceiveMetadata"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

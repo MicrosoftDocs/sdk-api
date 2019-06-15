@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetGetJoinableOUs, NetGetJoinableOUs function [Network Management], _win32_netgetjoinableous, lmjoin/NetGetJoinableOUs, netmgmt.netgetjoinableous
 ms.topic: function
+f1_keywords: ["lmjoin/NetGetJoinableOUs"]
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

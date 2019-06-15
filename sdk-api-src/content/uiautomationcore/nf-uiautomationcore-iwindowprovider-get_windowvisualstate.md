@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowVisualState property, IWindowProvider.WindowVisualState, IWindowProvider.get_WindowVisualState, IWindowProvider::WindowVisualState, IWindowProvider::get_WindowVisualState, WindowVisualState property [Windows Accessibility], WindowVisualState property [Windows Accessibility],IWindowProvider interface, get_WindowVisualState, uiauto.uiauto_IWindowProvider_WindowVisualState, uiauto_IWindowProvider_WindowVisualState, uiautomationcore/IWindowProvider::WindowVisualState, uiautomationcore/IWindowProvider::get_WindowVisualState, winauto.uiauto_IWindowProvider_WindowVisualState
 ms.topic: method
+f1_keywords: ["uiautomationcore/IWindowProvider.WindowVisualState"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

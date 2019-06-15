@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxInboundRoutingExtension interface, IFaxInboundRoutingExtension interface [Fax Service],Debug property, IFaxInboundRoutingExtension.Debug, IFaxInboundRoutingExtension.get_Debug, IFaxInboundRoutingExtension::Debug, IFaxInboundRoutingExtension::get_Debug, _mfax_faxinboundroutingextension.debug, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp, fax._mfax_faxinboundroutingextension_debug, faxcomex/IFaxInboundRoutingExtension::Debug, faxcomex/IFaxInboundRoutingExtension::get_Debug, get_Debug
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxInboundRoutingExtension.Debug"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

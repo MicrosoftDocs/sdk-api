@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIDRIVERVERSIONS, DIDRIVERVERSIONS, DIDRIVERVERSIONS structure [Human Input Devices], di_ref_8a99e6d1-de51-4729-bcce-c201030bc557.xml, dinputd/DIDRIVERVERSIONS, hid.didriverversions"
 ms.topic: struct
+f1_keywords: ["dinputd/DIDRIVERVERSIONS"]
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

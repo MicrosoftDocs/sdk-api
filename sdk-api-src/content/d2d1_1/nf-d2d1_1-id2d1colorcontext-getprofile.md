@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProfile, GetProfile method [Direct2D], GetProfile method [Direct2D],ID2D1ColorContext interface, ID2D1ColorContext interface [Direct2D],GetProfile method, ID2D1ColorContext.GetProfile, ID2D1ColorContext::GetProfile, d2d1_1/ID2D1ColorContext::GetProfile, direct2d.id2d1colorcontext_getprofile
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1ColorContext.GetProfile"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

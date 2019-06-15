@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],NetworkProfile property, IWdsTransportServicePolicy.NetworkProfile, IWdsTransportServicePolicy.get_NetworkProfile, IWdsTransportServicePolicy::NetworkProfile, IWdsTransportServicePolicy::get_NetworkProfile, IWdsTransportServicePolicy::put_NetworkProfile, NetworkProfile property [Windows Deployment Services], NetworkProfile property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_NetworkProfile, wds.iwdstransportservicepolicy_networkprofile, wdstptmgmt/IWdsTransportServicePolicy::NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::get_NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::put_NetworkProfile
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportServicePolicy.NetworkProfile"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

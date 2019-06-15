@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedMaximum property [Windows Accessibility], CachedMaximum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedMaximum property, IUIAutomationRangeValuePattern.CachedMaximum, IUIAutomationRangeValuePattern.get_CachedMaximum, IUIAutomationRangeValuePattern::CachedMaximum, IUIAutomationRangeValuePattern::get_CachedMaximum, get_CachedMaximum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMaximum, uiauto_IUIAutomationRangeValuePattern_CachedMaximum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMaximum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMaximum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMaximum
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationRangeValuePattern.CachedMaximum"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

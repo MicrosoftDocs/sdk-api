@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PALETTISED, PALETTISED macro [DirectShow], amvideo/PALETTISED, dshow.palettised
 ms.topic: macro
+f1_keywords: ["amvideo/PALETTISED"]
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

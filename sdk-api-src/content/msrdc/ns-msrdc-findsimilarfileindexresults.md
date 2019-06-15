@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindSimilarFileIndexResults, FindSimilarFileIndexResults structure [Remote Differential Compression], fs.findsimilarfileindexresults, msrdc/FindSimilarFileIndexResults, rdc.findsimilarfileindexresults
 ms.topic: struct
+f1_keywords: ["msrdc/FindSimilarFileIndexResults"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Tombstoned property, IWdsTransportNamespace.Tombstoned, IWdsTransportNamespace.get_Tombstoned, IWdsTransportNamespace::Tombstoned, IWdsTransportNamespace::get_Tombstoned, Tombstoned property [Windows Deployment Services], Tombstoned property [Windows Deployment Services],IWdsTransportNamespace interface, get_Tombstoned, wds.iwdstransportnamespace_tombstoned, wdstptmgmt/IWdsTransportNamespace::Tombstoned, wdstptmgmt/IWdsTransportNamespace::get_Tombstoned
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.Tombstoned"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

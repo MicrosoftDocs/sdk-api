@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_INPUT_LAYOUT_DESC, D3D12_INPUT_LAYOUT_DESC structure, d3d12/D3D12_INPUT_LAYOUT_DESC, direct3d12.d3d12_input_layout_desc
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_INPUT_LAYOUT_DESC"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

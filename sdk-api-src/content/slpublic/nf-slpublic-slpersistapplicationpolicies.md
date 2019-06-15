@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLPersistApplicationPolicies, SLPersistApplicationPolicies function [Security], security.slpersistapplicationpolicies, slpublic/SLPersistApplicationPolicies
 ms.topic: function
+f1_keywords: ["slpublic/SLPersistApplicationPolicies"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

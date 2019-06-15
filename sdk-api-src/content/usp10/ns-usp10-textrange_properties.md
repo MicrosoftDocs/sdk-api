@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TEXTRANGE_PROPERTIES, TEXTRANGE_PROPERTIES structure [Internationalization for Windows Applications], _win32_TEXTRANGE_PROPERTIES, intl.textrange_properties, usp10/TEXTRANGE_PROPERTIES
 ms.topic: struct
+f1_keywords: ["usp10/TEXTRANGE_PROPERTIES"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary
 ms.topic: function
+f1_keywords: ["winbase/LoadPackagedLibrary"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

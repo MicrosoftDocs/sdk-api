@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
 ms.topic: function
+f1_keywords: ["recapis/AdviseInkChange"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

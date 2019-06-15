@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,OpenCUB method, IValidate.OpenCUB, IValidate::OpenCUB, OpenCUB, OpenCUB method, OpenCUB method,IValidate interface, evalcom2/IValidate::OpenCUB, setup.ivalidate_opencub
 ms.topic: method
+f1_keywords: ["evalcom2/IValidate.OpenCUB"]
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], IFileSystemImage3 interface [IMAPI],described, imapi.ifilesystemimage3, imapi2fs/IFileSystemImage3
 ms.topic: interface
+f1_keywords: ["imapi2fs/IFileSystemImage3"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

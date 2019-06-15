@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetServerStackSize, RpcMgmtSetServerStackSize function [RPC], _rpc_rpcmgmtsetserverstacksize, rpc.rpcmgmtsetserverstacksize, rpcdce/RpcMgmtSetServerStackSize
 ms.topic: function
+f1_keywords: ["rpcdce/RpcMgmtSetServerStackSize"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

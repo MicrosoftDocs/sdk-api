@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows GDI], PEMRSTRETCHBLT, PEMRSTRETCHBLT structure pointer [Windows GDI], _win32_EMRSTRETCHBLT_str, gdi.emrstretchblt, wingdi/EMRSTRETCHBLT, wingdi/PEMRSTRETCHBLT"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRSTRETCHBLT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

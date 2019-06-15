@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EPrintTicketScope, EPrintTicketScope enumeration [Windows GDI], _win32_EPrintTicketScope, gdi.eprintticketscope, kPTDocumentScope, kPTJobScope, kPTPageScope, prntvpt/EPrintTicketScope, prntvpt/kPTDocumentScope, prntvpt/kPTJobScope, prntvpt/kPTPageScope
 ms.topic: enum
+f1_keywords: ["prntvpt/EPrintTicketScope"]
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

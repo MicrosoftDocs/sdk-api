@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavCancelConnectionsToServer, DavCancelConnectionsToServer function [WebDAV], davclnt/DavCancelConnectionsToServer, webdav.davcancelconnectionstoserver
 ms.topic: function
+f1_keywords: ["davclnt/DavCancelConnectionsToServer"]
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

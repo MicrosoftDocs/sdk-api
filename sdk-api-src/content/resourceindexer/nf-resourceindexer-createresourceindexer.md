@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateResourceIndexer, CreateResourceIndexer function [Menus and Other Resources], menurc.createresourceindexer, resourceindexer/CreateResourceIndexer
 ms.topic: function
+f1_keywords: ["resourceindexer/CreateResourceIndexer"]
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows

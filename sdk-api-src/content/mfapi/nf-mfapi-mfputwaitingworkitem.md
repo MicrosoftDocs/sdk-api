@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
 ms.topic: function
+f1_keywords: ["mfapi/MFPutWaitingWorkItem"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

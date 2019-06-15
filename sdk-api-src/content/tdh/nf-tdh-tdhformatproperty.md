@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhFormatProperty, TdhFormatProperty function [ETW], etw.tdhformatproperty, tdh/TdhFormatProperty
 ms.topic: function
+f1_keywords: ["tdh/TdhFormatProperty"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

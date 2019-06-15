@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsSession, IADsSession interface [ADSI], IADsSession interface [ADSI],described, _ds_iadssession, adsi.iadssession, iads/IADsSession
 ms.topic: interface
+f1_keywords: ["iads/IADsSession"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExecAction interface [Task Scheduler],Path property, IExecAction.Path, IExecAction.get_Path, IExecAction::Path, IExecAction::get_Path, IExecAction::put_Path, Path property [Task Scheduler], Path property [Task Scheduler],IExecAction interface, get_Path, taskschd.iexecaction_path, taskschd/IExecAction::Path, taskschd/IExecAction::get_Path, taskschd/IExecAction::put_Path
 ms.topic: method
+f1_keywords: ["taskschd/IExecAction.Path"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

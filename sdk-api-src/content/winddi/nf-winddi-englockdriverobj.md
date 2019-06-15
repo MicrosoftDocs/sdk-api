@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLockDriverObj, EngLockDriverObj function [Display Devices], display.englockdriverobj, gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml, winddi/EngLockDriverObj
 ms.topic: function
+f1_keywords: ["winddi/EngLockDriverObj"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

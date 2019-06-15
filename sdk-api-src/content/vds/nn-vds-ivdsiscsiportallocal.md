@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal, IVdsIscsiPortalLocal interface [VDS], IVdsIscsiPortalLocal interface [VDS],described, base.ivdsiscsiportallocal, vds/IVdsIscsiPortalLocal
 ms.topic: interface
+f1_keywords: ["vds/IVdsIscsiPortalLocal"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmReleaseInterfaceOwnership, MgmReleaseInterfaceOwnership function [RAS], _mpr_mgmreleaseinterfaceownership, mgm/MgmReleaseInterfaceOwnership, rras.mgmreleaseinterfaceownership
 ms.topic: function
+f1_keywords: ["mgm/MgmReleaseInterfaceOwnership"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

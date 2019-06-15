@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_PALETTE_LOCAL, DD_PALETTE_LOCAL, DD_PALETTE_LOCAL structure [Display Devices], ddrawint/DD_PALETTE_LOCAL, ddstrcts_e56ec243-4e12-4e79-afd7-afce67f148b1.xml, display.dd_palette_local"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_PALETTE_LOCAL"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

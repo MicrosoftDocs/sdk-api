@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportProviderCloseInstance"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

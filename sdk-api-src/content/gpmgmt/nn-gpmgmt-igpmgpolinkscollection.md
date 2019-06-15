@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLinksCollection, IGPMGPOLinksCollection, IGPMGPOLinksCollection interface [GPMC], IGPMGPOLinksCollection interface [GPMC],described, _win32_igpmgpolinkscollection, gpmc.igpmgpolinkscollection, gpmgmt/IGPMGPOLinksCollection
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMGPOLinksCollection"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

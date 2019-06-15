@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
 ms.topic: function
+f1_keywords: ["midles/MesHandleFree"]
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows

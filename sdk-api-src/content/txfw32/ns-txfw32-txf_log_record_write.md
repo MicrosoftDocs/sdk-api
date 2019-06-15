@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTXF_LOG_RECORD_WRITE, PTXF_LOG_RECORD_WRITE, PTXF_LOG_RECORD_WRITE structure pointer [Files], TXF_LOG_RECORD_WRITE, TXF_LOG_RECORD_WRITE structure [Files], fs.txf_log_record_write, txfw32/PTXF_LOG_RECORD_WRITE, txfw32/TXF_LOG_RECORD_WRITE"
 ms.topic: struct
+f1_keywords: ["txfw32/TXF_LOG_RECORD_WRITE"]
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

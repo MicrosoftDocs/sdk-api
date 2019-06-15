@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFInitAMMediaTypeFromMFMediaType, MFInitAMMediaTypeFromMFMediaType function [Media Foundation], dbb69578-2563-476f-92f4-6b4e2bb2c77a, mf.mfinitammediatypefrommfmediatype, mfapi/MFInitAMMediaTypeFromMFMediaType
 ms.topic: function
+f1_keywords: ["mfapi/MFInitAMMediaTypeFromMFMediaType"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

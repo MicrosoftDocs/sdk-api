@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationDragDropEventHandler, IDirectManipulationDragDropEventHandler interface [Direct Manipulation], IDirectManipulationDragDropEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdragdropeventhandler, directmanipulation/IDirectManipulationDragDropEventHandler
 ms.topic: interface
+f1_keywords: ["directmanipulation/IDirectManipulationDragDropEventHandler"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

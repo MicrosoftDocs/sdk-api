@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_VALIDATE_PASSWORD_CALLBACK, WS_VALIDATE_PASSWORD_CALLBACK callback, WS_VALIDATE_PASSWORD_CALLBACK callback function [Web Services for Windows], webservices/WS_VALIDATE_PASSWORD_CALLBACK, wsw.ws_validate_password_callback
 ms.topic: callback
+f1_keywords: ["webservices/WS_VALIDATE_PASSWORD_CALLBACK"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9145910b-81f1-4fd1-8f6f-d6273e0edde6, IMFSourceOpenMonitor, IMFSourceOpenMonitor interface [Media Foundation], IMFSourceOpenMonitor interface [Media Foundation],described, mf.imfsourceopenmonitor, mfidl/IMFSourceOpenMonitor
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSourceOpenMonitor"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

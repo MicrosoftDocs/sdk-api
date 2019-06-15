@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetTag method, IGenericDescriptor.GetTag, IGenericDescriptor::GetTag, IGenericDescriptorGetTag, mpeg2psiparser/IGenericDescriptor::GetTag, mstv.igenericdescriptor_gettag
 ms.topic: method
+f1_keywords: ["mpeg2psiparser/IGenericDescriptor.GetTag"]
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

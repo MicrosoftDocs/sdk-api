@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt2, IVssSnapshotMgmt2 interface [Files], IVssSnapshotMgmt2 interface [Files],described, base.ivsssnapshotmgmt2, vsmgmt/IVssSnapshotMgmt2
 ms.topic: interface
+f1_keywords: ["vsmgmt/IVssSnapshotMgmt2"]
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

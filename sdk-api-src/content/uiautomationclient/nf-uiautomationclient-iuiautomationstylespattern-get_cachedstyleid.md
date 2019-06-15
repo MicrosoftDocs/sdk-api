@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedStyleId property [Windows Accessibility], CachedStyleId property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedStyleId property, IUIAutomationStylesPattern.CachedStyleId, IUIAutomationStylesPattern.get_CachedStyleId, IUIAutomationStylesPattern::CachedStyleId, IUIAutomationStylesPattern::get_CachedStyleId, get_CachedStyleId, uiautomationclient/IUIAutomationStylesPattern::CachedStyleId, uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleId, winauto.uiauto_IUIAutomationStylesPattern_CachedStyleId
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationStylesPattern.CachedStyleId"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

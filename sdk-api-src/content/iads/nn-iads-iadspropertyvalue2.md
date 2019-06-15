@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue2, IADsPropertyValue2 interface [ADSI], IADsPropertyValue2 interface [ADSI],described, _ds_iadspropertyvalue2, adsi.iadspropertyvalue2, iads/IADsPropertyValue2
 ms.topic: interface
+f1_keywords: ["iads/IADsPropertyValue2"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

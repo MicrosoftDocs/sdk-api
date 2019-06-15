@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymEnumLines, SymEnumLines function, SymEnumLinesW, base.symenumlines, dbghelp/SymEnumLines, dbghelp/SymEnumLinesW
 ms.topic: function
+f1_keywords: ["dbghelp/SymEnumLines"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

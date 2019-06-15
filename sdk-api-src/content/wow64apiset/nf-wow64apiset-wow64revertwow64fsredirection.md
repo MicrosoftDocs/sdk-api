@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64RevertWow64FsRedirection, Wow64RevertWow64FsRedirection function [Files], base.wow64revertwow64fsredirection, fs.wow64revertwow64fsredirection, wow64apiset/Wow64RevertWow64FsRedirection
 ms.topic: function
+f1_keywords: ["wow64apiset/Wow64RevertWow64FsRedirection"]
 req.header: wow64apiset.h
 req.include-header: Windows.h
 req.target-type: Windows

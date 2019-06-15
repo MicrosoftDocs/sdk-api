@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDisplayHelp, IDisplayHelp interface [MMC], IDisplayHelp interface [MMC],described, _slate_idisplayhelp, mmc.idisplayhelp, mmc/IDisplayHelp
 ms.topic: interface
+f1_keywords: ["mmc/IDisplayHelp"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

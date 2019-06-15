@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
 ms.topic: callback
+f1_keywords: ["timeprov/SetProviderStatusInfoFreeFunc"]
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

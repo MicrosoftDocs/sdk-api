@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ProtectedResourceSession interface, ID3D12ProtectedResourceSession interface,GetDesc method, ID3D12ProtectedResourceSession.GetDesc, ID3D12ProtectedResourceSession::GetDesc, d3d12/ID3D12ProtectedResourceSession::GetDesc, direct3d12.id3d12protectedresourcesession_getdesc
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12ProtectedResourceSession.GetDesc"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

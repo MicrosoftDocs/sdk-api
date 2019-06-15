@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaDbGetSecurityInfo0, IkeextSaDbGetSecurityInfo0 function [Filtering], fwp.ikeextsadbgetsecurityinfo0, fwpmu/IkeextSaDbGetSecurityInfo0
 ms.topic: function
+f1_keywords: ["fwpmu/IkeextSaDbGetSecurityInfo0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

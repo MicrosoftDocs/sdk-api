@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformations, ICspInformations interface [Security], ICspInformations interface [Security],described, certenroll/ICspInformations, security.icspinformations
 ms.topic: interface
+f1_keywords: ["certenroll/ICspInformations"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

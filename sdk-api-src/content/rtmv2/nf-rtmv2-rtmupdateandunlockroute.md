@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
 ms.topic: function
+f1_keywords: ["rtmv2/RtmUpdateAndUnlockRoute"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

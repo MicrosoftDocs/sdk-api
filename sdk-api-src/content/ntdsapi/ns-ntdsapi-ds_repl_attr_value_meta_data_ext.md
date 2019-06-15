@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA_EXT, DS_REPL_ATTR_VALUE_META_DATA_EXT structure [Active Directory], ad.ds_repl_attr_value_meta_data_ext, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA_EXT
 ms.topic: struct
+f1_keywords: ["ntdsapi/DS_REPL_ATTR_VALUE_META_DATA_EXT"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

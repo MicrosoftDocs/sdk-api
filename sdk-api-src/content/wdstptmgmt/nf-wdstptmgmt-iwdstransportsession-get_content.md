@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Content property [Windows Deployment Services], Content property [Windows Deployment Services],IWdsTransportSession interface, IWdsTransportSession interface [Windows Deployment Services],Content property, IWdsTransportSession.Content, IWdsTransportSession.get_Content, IWdsTransportSession::Content, IWdsTransportSession::get_Content, get_Content, wds.iwdstransportsession_content, wdstptmgmt/IWdsTransportSession::Content, wdstptmgmt/IWdsTransportSession::get_Content
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportSession.Content"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

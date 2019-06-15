@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISuspensionDependencyManager interface [Windows Shell],UngroupChildFromParent method, ISuspensionDependencyManager.UngroupChildFromParent, ISuspensionDependencyManager::UngroupChildFromParent, UngroupChildFromParent, UngroupChildFromParent method [Windows Shell], UngroupChildFromParent method [Windows Shell],ISuspensionDependencyManager interface, shell.ISuspensionDependencyManager_UngroupChildFromParent, shobjidl_core/ISuspensionDependencyManager::UngroupChildFromParent
 ms.topic: method
+f1_keywords: ["shobjidl_core/ISuspensionDependencyManager.UngroupChildFromParent"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

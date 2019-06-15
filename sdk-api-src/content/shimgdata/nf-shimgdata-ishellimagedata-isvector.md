@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsVector method, IShellImageData.IsVector, IShellImageData::IsVector, IsVector, IsVector method [Windows Shell], IsVector method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsVector, shell.IShellImageData_IsVector, shimgdata/IShellImageData::IsVector
 ms.topic: method
+f1_keywords: ["shimgdata/IShellImageData.IsVector"]
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

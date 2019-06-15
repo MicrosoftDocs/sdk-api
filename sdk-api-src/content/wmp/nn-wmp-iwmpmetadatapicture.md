@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture, IWMPMetadataPicture interface [Windows Media Player], IWMPMetadataPicture interface [Windows Media Player],described, IWMPMetadataPictureInterface, wmp.iwmpmetadatapicture, wmp/IWMPMetadataPicture
 ms.topic: interface
+f1_keywords: ["wmp/IWMPMetadataPicture"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

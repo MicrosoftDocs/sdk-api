@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK_CONTEXT, WS_PROXY_MESSAGE_CALLBACK_CONTEXT structure [Web Services for Windows], webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT, wsw.ws_proxy_message_callback_context
 ms.topic: struct
+f1_keywords: ["webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

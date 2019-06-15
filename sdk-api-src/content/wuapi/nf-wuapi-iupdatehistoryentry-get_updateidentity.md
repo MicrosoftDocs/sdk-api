@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UpdateIdentity property, IUpdateHistoryEntry.UpdateIdentity, IUpdateHistoryEntry.get_UpdateIdentity, IUpdateHistoryEntry::UpdateIdentity, IUpdateHistoryEntry::get_UpdateIdentity, UpdateIdentity property [Windows Update Agent], UpdateIdentity property [Windows Update Agent],IUpdateHistoryEntry interface, get_UpdateIdentity, wua.iupdatehistoryentry_updateidentity, wuapi/IUpdateHistoryEntry::UpdateIdentity, wuapi/IUpdateHistoryEntry::get_UpdateIdentity
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateHistoryEntry.UpdateIdentity"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

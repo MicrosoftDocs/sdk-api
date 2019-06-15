@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetEnd method, ITfContext.GetEnd, ITfContext::GetEnd, _tsf_itfcontext_getend_ref, msctf/ITfContext::GetEnd, tsf.itfcontext_getend
 ms.topic: method
+f1_keywords: ["msctf/ITfContext.GetEnd"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

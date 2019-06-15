@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceGammaRamp, GetDeviceGammaRamp function [Windows Color System], _color_GetDeviceGammaRamp, wcs.getdevicegammaramp, wingdi/GetDeviceGammaRamp
 ms.topic: function
+f1_keywords: ["wingdi/GetDeviceGammaRamp"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

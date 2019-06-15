@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNLSVersion, GetNLSVersion function [Internationalization for Windows Applications], _win32_GetNLSVersion, intl.getnlsversion, winnls/GetNLSVersion
 ms.topic: function
+f1_keywords: ["winnls/GetNLSVersion"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

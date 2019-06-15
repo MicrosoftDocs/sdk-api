@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],OpenStorage method, IStorage.OpenStorage, IStorage::OpenStorage, OpenStorage, OpenStorage method [Structured Storage], OpenStorage method [Structured Storage],IStorage interface, _stg_istorage_openstorage, objidl/IStorage::OpenStorage, stg.istorage_openstorage
 ms.topic: method
+f1_keywords: ["objidl/IStorage.OpenStorage"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

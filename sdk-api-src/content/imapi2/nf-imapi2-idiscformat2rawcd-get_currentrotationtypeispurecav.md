@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentRotationTypeIsPureCAV method, IDiscFormat2RawCD.get_CurrentRotationTypeIsPureCAV, IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV, get_CurrentRotationTypeIsPureCAV method [IMAPI], get_CurrentRotationTypeIsPureCAV method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentrotationtypeispurecav, imapi2/IDiscFormat2RawCD::get_CurrentRotationTypeIsPureCAV
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2RawCD.get_CurrentRotationTypeIsPureCAV"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

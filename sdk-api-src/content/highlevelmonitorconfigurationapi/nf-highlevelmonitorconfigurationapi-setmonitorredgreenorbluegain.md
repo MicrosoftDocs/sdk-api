@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMonitorRedGreenOrBlueGain, SetMonitorRedGreenOrBlueGain function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain, monitor.setmonitorredgreenorbluegain
 ms.topic: function
+f1_keywords: ["highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain"]
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

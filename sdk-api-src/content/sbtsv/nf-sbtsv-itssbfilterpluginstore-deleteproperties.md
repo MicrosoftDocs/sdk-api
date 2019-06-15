@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteProperties, DeleteProperties method [Remote Desktop Services], DeleteProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],DeleteProperties method, ITsSbFilterPluginStore.DeleteProperties, ITsSbFilterPluginStore::DeleteProperties, sbtsv/ITsSbFilterPluginStore::DeleteProperties, termserv.itssbfilterpluginstore_deleteproperties
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbFilterPluginStore.DeleteProperties"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

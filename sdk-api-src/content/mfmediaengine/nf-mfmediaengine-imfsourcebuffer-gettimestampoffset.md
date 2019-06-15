@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeStampOffset, GetTimeStampOffset method [Media Foundation], GetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, IMFSourceBuffer interface [Media Foundation],GetTimeStampOffset method, IMFSourceBuffer.GetTimeStampOffset, IMFSourceBuffer::GetTimeStampOffset, mf.imfsourcebuffer_gettimestampoffset, mfmediaengine/IMFSourceBuffer::GetTimeStampOffset
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFSourceBuffer.GetTimeStampOffset"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

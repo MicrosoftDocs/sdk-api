@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Structured Storage], _stg_freepropvariantarray, combaseapi/FreePropVariantArray, stg.freepropvariantarray
 ms.topic: function
+f1_keywords: ["combaseapi/FreePropVariantArray"]
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

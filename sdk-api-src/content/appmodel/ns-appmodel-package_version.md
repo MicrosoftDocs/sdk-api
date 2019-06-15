@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PACKAGE_VERSION, PACKAGE_VERSION structure [App packaging and management], appmodel/PACKAGE_VERSION, appxpkg.package_version
 ms.topic: struct
+f1_keywords: ["appmodel/PACKAGE_VERSION"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

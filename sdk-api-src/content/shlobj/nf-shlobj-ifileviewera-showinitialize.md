@@ -9,6 +9,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: IFileViewerA::ShowInitialize
 ms.topic: language-reference
+f1_keywords: ["shlobj/IFileViewerA::ShowInitialize"]
 targetos: Windows
 product: Windows
 req.assembly: 

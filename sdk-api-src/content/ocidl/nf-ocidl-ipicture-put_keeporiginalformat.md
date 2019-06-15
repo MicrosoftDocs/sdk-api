@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],put_KeepOriginalFormat method, IPicture.put_KeepOriginalFormat, IPicture::put_KeepOriginalFormat, _ctrl_ipicture_put_keeporiginalformat, com.ipicture_put_keeporiginalformat, ocidl/IPicture::put_KeepOriginalFormat, put_KeepOriginalFormat, put_KeepOriginalFormat method [COM], put_KeepOriginalFormat method [COM],IPicture interface
 ms.topic: method
+f1_keywords: ["ocidl/IPicture.put_KeepOriginalFormat"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

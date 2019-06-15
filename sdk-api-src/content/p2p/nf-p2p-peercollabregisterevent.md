@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabRegisterEvent"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNRASFREEBUFFER, PFNRASFREEBUFFER callback, RasFreeBuffer, RasFreeBuffer callback function [RAS], _ras_rasfreebuffer, ras/RasFreeBuffer, rras.rasfreebuffer
 ms.topic: callback
+f1_keywords: ["ras/RasFreeBuffer"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

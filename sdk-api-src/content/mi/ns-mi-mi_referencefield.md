@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_ReferenceField, MI_ReferenceField structure [Windows Management Infrastructure (MI)], mi/MI_ReferenceField, wmi._mi_referencefield, wmi_v2.mi_referencefield
 ms.topic: struct
+f1_keywords: ["mi/MI_ReferenceField"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

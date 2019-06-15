@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBTH_HCI_EVENT_INFO, *PBTH_HCI_EVENT_INFO structure [Bluetooth], BTH_HCI_EVENT_INFO, BTH_HCI_EVENT_INFO structure [Bluetooth], bluetooth.bth_hci_event_info, bthdef/*PBTH_HCI_EVENT_INFO, bthdef/BTH_HCI_EVENT_INFO"
 ms.topic: struct
+f1_keywords: ["bthdef/BTH_HCI_EVENT_INFO"]
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFontFaceFromHdc, CreateFontFaceFromHdc method [Direct Write], CreateFontFaceFromHdc method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateFontFaceFromHdc method, IDWriteGdiInterop.CreateFontFaceFromHdc, IDWriteGdiInterop::CreateFontFaceFromHdc, directwrite.IDWriteGdiInterop_CreateFontFaceFromHdc, dwrite/IDWriteGdiInterop::CreateFontFaceFromHdc
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteGdiInterop.CreateFontFaceFromHdc"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

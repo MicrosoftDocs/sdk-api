@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgrEx, ITfThreadMgrEx interface [Text Services Framework], ITfThreadMgrEx interface [Text Services Framework],described, _tsf_itfthreadmgrex_ref, msctf/ITfThreadMgrEx, tsf.itfthreadmgrex
 ms.topic: interface
+f1_keywords: ["msctf/ITfThreadMgrEx"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

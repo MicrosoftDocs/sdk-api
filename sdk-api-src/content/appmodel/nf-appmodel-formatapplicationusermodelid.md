@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FormatApplicationUserModelId, FormatApplicationUserModelId function [App packaging and management], appmodel/FormatApplicationUserModelId, appxpkg.formatapplicationusermodelid
 ms.topic: function
+f1_keywords: ["appmodel/FormatApplicationUserModelId"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

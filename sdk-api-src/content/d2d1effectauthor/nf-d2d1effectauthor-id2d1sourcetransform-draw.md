@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Direct2D], Draw method [Direct2D],ID2D1SourceTransform interface, ID2D1SourceTransform interface [Direct2D],Draw method, ID2D1SourceTransform.Draw, ID2D1SourceTransform::Draw, d2d1effectauthor/ID2D1SourceTransform::Draw, direct2d.id2d1sourcetransform_draw
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1SourceTransform.Draw"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

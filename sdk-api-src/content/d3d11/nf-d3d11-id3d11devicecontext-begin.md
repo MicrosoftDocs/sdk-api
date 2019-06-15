@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Direct3D 11], Begin method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Begin method, ID3D11DeviceContext.Begin, ID3D11DeviceContext::Begin, d3d11/ID3D11DeviceContext::Begin, direct3d11.id3d11devicecontext_begin, e0186f02-1f56-8ba4-2429-48dc47ff8dc9
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.Begin"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

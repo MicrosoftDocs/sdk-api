@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorCatmullRomV, XMVectorCatmullRomV, XMVectorCatmullRomV method [DirectX Math Support APIs], dxmath.xmvectorcatmullromv
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorCatmullRomV"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

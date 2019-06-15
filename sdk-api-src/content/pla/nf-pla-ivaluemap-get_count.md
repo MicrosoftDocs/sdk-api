@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [PLA], Count property [PLA],IValueMap interface, IValueMap interface [PLA],Count property, IValueMap.Count, IValueMap.get_Count, IValueMap::Count, IValueMap::get_Count, base.ivaluemap_count, get_Count, pla.ivaluemap_count, pla/IValueMap::Count, pla/IValueMap::get_Count
 ms.topic: method
+f1_keywords: ["pla/IValueMap.Count"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

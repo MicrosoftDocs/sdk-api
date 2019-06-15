@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiOutCacheDrumPatches, midiOutCacheDrumPatches, midiOutCacheDrumPatches function [Windows Multimedia], midiOutCacheDrumPatchesA, midiOutCacheDrumPatchesW, mmeapi/midiOutCacheDrumPatches, multimedia.midioutcachedrumpatches"
 ms.topic: function
+f1_keywords: ["mmeapi/midiOutCacheDrumPatches"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

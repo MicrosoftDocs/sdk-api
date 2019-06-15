@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F, Matrix4x4F class [Direct2D], Matrix4x4F class [Direct2D],described, d2d1_1helper/Matrix4x4F, direct2d.matrix4x4f
 ms.topic: class
+f1_keywords: ["d2d1_1helper/Matrix4x4F"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

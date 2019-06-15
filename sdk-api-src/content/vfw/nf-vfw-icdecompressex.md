@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDecompressEx, ICDecompressEx function [Windows Multimedia], _win32_ICDecompressEx, multimedia.icdecompressex, vfw/ICDecompressEx
 ms.topic: function
+f1_keywords: ["vfw/ICDecompressEx"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

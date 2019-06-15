@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValidate interface,Validate method, IValidate.Validate, IValidate::Validate, Validate, Validate method, Validate method,IValidate interface, evalcom2/IValidate::Validate, setup.ivalidate_validate
 ms.topic: method
+f1_keywords: ["evalcom2/IValidate.Validate"]
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

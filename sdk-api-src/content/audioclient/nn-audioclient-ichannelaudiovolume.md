@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChannelAudioVolume, IChannelAudioVolume interface [Core Audio], IChannelAudioVolume interface [Core Audio],described, audioclient/IChannelAudioVolume, coreaudio.ichannelaudiovolume
 ms.topic: interface
+f1_keywords: ["audioclient/IChannelAudioVolume"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMP_ERRORSTATUS_BADVALUE, SNMP_ERRORSTATUS_GENERR, SNMP_ERRORSTATUS_NOERROR, SNMP_ERRORSTATUS_NOSUCHNAME, SNMP_ERRORSTATUS_READONLY, SNMP_ERRORSTATUS_TOOBIG, SNMP_PDU_GET, SNMP_PDU_GETNEXT, SNMP_PDU_SET, SnmpExtensionQuery, SnmpExtensionQuery callback, SnmpExtensionQuery callback function [SNMP], _snmp_snmpextensionquery, snmp.snmpextensionquery, snmp/SnmpExtensionQuery
 ms.topic: function
+f1_keywords: ["snmp/SnmpExtensionQuery"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

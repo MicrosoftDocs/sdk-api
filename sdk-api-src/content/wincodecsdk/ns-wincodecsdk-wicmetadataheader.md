@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICMetadataHeader, WICMetadataHeader structure [Windows Imaging Component], _wic_codec_wicmetadataheader, wic._wic_codec_wicmetadataheader, wincodecsdk/WICMetadataHeader
 ms.topic: struct
+f1_keywords: ["wincodecsdk/WICMetadataHeader"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

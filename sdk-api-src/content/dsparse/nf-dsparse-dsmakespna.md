@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
 ms.topic: function
+f1_keywords: ["dsparse/DsMakeSpn"]
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows

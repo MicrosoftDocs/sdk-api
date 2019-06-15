@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUSAGE_PROPERTIES, PUSAGE_PROPERTIES, PUSAGE_PROPERTIES structure pointer, USAGE_PROPERTIES, USAGE_PROPERTIES structure, input_pointerdevice.usage_properties, winuser/PUSAGE_PROPERTIES, winuser/USAGE_PROPERTIES"
 ms.topic: struct
+f1_keywords: ["winuser/USAGE_PROPERTIES"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

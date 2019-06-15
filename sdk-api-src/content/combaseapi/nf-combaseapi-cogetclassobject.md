@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetClassObject, CoGetClassObject function [COM], _com_CoGetClassObject, com.cogetclassobject, combaseapi/CoGetClassObject
 ms.topic: function
+f1_keywords: ["combaseapi/CoGetClassObject"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

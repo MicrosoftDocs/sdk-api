@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
 ms.topic: interface
+f1_keywords: ["functiondiscoveryprovider/IProviderQueryConstraintCollection"]
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unmapandload, imagehlp/UnMapAndLoad
 ms.topic: function
+f1_keywords: ["imagehlp/UnMapAndLoad"]
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

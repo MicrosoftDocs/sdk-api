@@ -6,6 +6,7 @@ description: Test whether two triangles intersect.
 ms.date: 04/22/19
 ms.keywords: Intersects
 ms.topic: language-reference
+f1_keywords: ["directxcollision/Intersects"]
 targetos: Windows
 product: Windows
 req.assembly: 

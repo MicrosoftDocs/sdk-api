@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
 ms.topic: function
+f1_keywords: ["wingdi/PtInRegion"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

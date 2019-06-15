@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DateTime, DateTime structure [Windows Runtime], windows/DateTime, winrt.datetime
 ms.topic: struct
+f1_keywords: ["windows.foundation/DateTime"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

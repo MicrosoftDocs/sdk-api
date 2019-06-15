@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleRegGetUserType, OleRegGetUserType function [COM], _com_OleRegGetUserType, com.olereggetusertype, ole2/OleRegGetUserType
 ms.topic: function
+f1_keywords: ["ole2/OleRegGetUserType"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpFlushResponseCache, HttpFlushResponseCache function [HTTP], _http_httpflushresponsecache, http.httpflushresponsecache, http/HttpFlushResponseCache
 ms.topic: function
+f1_keywords: ["http/HttpFlushResponseCache"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

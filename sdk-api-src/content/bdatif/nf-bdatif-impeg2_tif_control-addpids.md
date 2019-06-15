@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPIDs, AddPIDs method [Microsoft TV Technologies], AddPIDs method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],AddPIDs method, IMPEG2_TIF_CONTROL.AddPIDs, IMPEG2_TIF_CONTROL::AddPIDs, IMPEG2_TIF_CONTROLAddPIDs, bdatif/IMPEG2_TIF_CONTROL::AddPIDs, mstv.impeg2_tif_control_addpids
 ms.topic: method
+f1_keywords: ["bdatif/IMPEG2_TIF_CONTROL.AddPIDs"]
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreateoption, dhcpsapi/DhcpCreateOption
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpCreateOption"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncChangeUnits interface, IEnumSyncChangeUnits interface [Windows Sync],Clone method, IEnumSyncChangeUnits.Clone, IEnumSyncChangeUnits::Clone, winsync.ienumsyncchangeunits_clone, winsync/IEnumSyncChangeUnits::Clone
 ms.topic: method
+f1_keywords: ["winsync/IEnumSyncChangeUnits.Clone"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

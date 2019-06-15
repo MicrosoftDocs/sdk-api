@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup interface [DirectComposition],SetTransform3D method, IDCompositionEffectGroup.SetTransform3D, IDCompositionEffectGroup::SetTransform3D, SetTransform3D, SetTransform3D method [DirectComposition], SetTransform3D method [DirectComposition],IDCompositionEffectGroup interface, dcomp/IDCompositionEffectGroup::SetTransform3D, directcomp.idcompositioneffectgroup_settransform3d
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionEffectGroup.SetTransform3D"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

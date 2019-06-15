@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_SerialNumber method, IUPnPDevice.get_SerialNumber, IUPnPDevice::get_SerialNumber, _upnp_iupnpdevice_serialnumber, get_SerialNumber, get_SerialNumber method [UPnP APIs], get_SerialNumber method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_serialnumber, upnp/IUPnPDevice::get_SerialNumber
 ms.topic: method
+f1_keywords: ["upnp/IUPnPDevice.get_SerialNumber"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

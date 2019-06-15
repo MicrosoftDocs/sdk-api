@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
 ms.topic: function
+f1_keywords: ["perflib/PerfQueryInstance"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

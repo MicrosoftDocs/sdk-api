@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDitherColor, EngDitherColor function [Display Devices], display.engdithercolor, gdifncs_99024e1a-c511-4b02-80dc-e39dd82a8d57.xml, winddi/EngDitherColor
 ms.topic: function
+f1_keywords: ["winddi/EngDitherColor"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

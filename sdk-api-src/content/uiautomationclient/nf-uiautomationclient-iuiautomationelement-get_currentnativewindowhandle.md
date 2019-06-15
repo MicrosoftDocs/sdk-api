@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentNativeWindowHandle property [Windows Accessibility], CurrentNativeWindowHandle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentNativeWindowHandle property, IUIAutomationElement.CurrentNativeWindowHandle, IUIAutomationElement.get_CurrentNativeWindowHandle, IUIAutomationElement::CurrentNativeWindowHandle, IUIAutomationElement::get_CurrentNativeWindowHandle, get_CurrentNativeWindowHandle, uiauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiauto_IUIAutomationElement_CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::CurrentNativeWindowHandle, uiautomationclient/IUIAutomationElement::get_CurrentNativeWindowHandle, winauto.uiauto_IUIAutomationElement_CurrentNativeWindowHandle
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentNativeWindowHandle"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

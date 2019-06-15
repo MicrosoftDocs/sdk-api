@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptMsgCountersign, CryptMsgCountersign function [Security], _crypto2_cryptmsgcountersign, security.cryptmsgcountersign, wincrypt/CryptMsgCountersign
 ms.topic: function
+f1_keywords: ["wincrypt/CryptMsgCountersign"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

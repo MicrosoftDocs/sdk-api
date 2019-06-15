@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWizardSite, IWizardSite interface [Windows Shell], IWizardSite interface [Windows Shell],described, _shell_IWizardSite, shell.IWizardSite, shobjidl/IWizardSite
 ms.topic: interface
+f1_keywords: ["shobjidl/IWizardSite"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAce, GetAce function [Security], _win32_getace, security.getace, securitybaseapi/GetAce
 ms.topic: function
+f1_keywords: ["securitybaseapi/GetAce"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

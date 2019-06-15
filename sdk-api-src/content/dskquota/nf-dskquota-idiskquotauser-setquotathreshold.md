@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser interface [Files],SetQuotaThreshold method, IDiskQuotaUser.SetQuotaThreshold, IDiskQuotaUser::SetQuotaThreshold, SetQuotaThreshold, SetQuotaThreshold method [Files], SetQuotaThreshold method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_setquotathreshold, base.idiskquotauser_setquotathreshold, dskquota/IDiskQuotaUser::SetQuotaThreshold, fs.idiskquotauser_setquotathreshold
 ms.topic: method
+f1_keywords: ["dskquota/IDiskQuotaUser.SetQuotaThreshold"]
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExpandCollapseProvider, IExpandCollapseProvider interface [Windows Accessibility], IExpandCollapseProvider interface [Windows Accessibility],described, uiauto.uiauto_IExpandCollapseProvider, uiauto_IExpandCollapseProvider, uiautomationcore/IExpandCollapseProvider, winauto.uiauto_IExpandCollapseProvider
 ms.topic: interface
+f1_keywords: ["uiautomationcore/IExpandCollapseProvider"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

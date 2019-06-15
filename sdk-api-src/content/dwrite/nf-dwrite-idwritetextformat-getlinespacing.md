@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLineSpacing, GetLineSpacing method [Direct Write], GetLineSpacing method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetLineSpacing method, IDWriteTextFormat.GetLineSpacing, IDWriteTextFormat::GetLineSpacing, directwrite.IDWriteTextFormat_GetLineSpacing, dwrite/IDWriteTextFormat::GetLineSpacing
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextFormat.GetLineSpacing"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

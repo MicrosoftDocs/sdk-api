@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_Sub, FLOATOBJ_Sub function [Display Devices], display.floatobj_sub, gdifncs_b1e31de5-5ada-4dc0-9946-a758cae47594.xml, winddi/FLOATOBJ_Sub
 ms.topic: function
+f1_keywords: ["winddi/FLOATOBJ_Sub"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

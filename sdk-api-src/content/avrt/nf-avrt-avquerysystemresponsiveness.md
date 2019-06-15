@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, avrt/AvQuerySystemResponsiveness, base.avquerysystemresponsiveness
 ms.topic: function
+f1_keywords: ["avrt/AvQuerySystemResponsiveness"]
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

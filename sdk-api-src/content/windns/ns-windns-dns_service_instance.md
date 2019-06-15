@@ -5,6 +5,7 @@ description: Represents a DNS service running on the network.
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_INSTANCE, DNS_SERVICE_INSTANCE
 ms.topic: language-reference
+f1_keywords: ["windns/_DNS_SERVICE_INSTANCE"]
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeletePin, DeletePin method [Microsoft TV Technologies], DeletePin method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],DeletePin method, IBDA_Topology.DeletePin, IBDA_Topology::DeletePin, IBDA_TopologyDeletePin, bdaiface/IBDA_Topology::DeletePin, mstv.ibda_topology_deletepin
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_Topology.DeletePin"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

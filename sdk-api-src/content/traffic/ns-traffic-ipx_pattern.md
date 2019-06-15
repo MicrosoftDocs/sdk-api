@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIPX_PATTERN, *PIPX_PATTERN structure [QOS], IPX_PATTERN, IPX_PATTERN structure [QOS], qos.ipx_pattern, traffic/*PIPX_PATTERN, traffic/IPX_PATTERN"
 ms.topic: struct
+f1_keywords: ["traffic/IPX_PATTERN"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

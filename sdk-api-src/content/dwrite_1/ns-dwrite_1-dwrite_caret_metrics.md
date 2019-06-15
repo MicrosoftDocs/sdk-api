@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_CARET_METRICS, DWRITE_CARET_METRICS structure [Direct Write], directwrite.dwrite_caret_metrics, dwrite_1/DWRITE_CARET_METRICS
 ms.topic: struct
+f1_keywords: ["dwrite_1/DWRITE_CARET_METRICS"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

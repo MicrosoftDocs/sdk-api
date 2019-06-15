@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], ISyncMgrEvent interface [Windows Shell],described, _shell_ISyncMgrEvent, shell.ISyncMgrEvent, syncmgr/ISyncMgrEvent
 ms.topic: interface
+f1_keywords: ["syncmgr/ISyncMgrEvent"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

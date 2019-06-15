@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],Retries property, IFaxConfiguration.Retries, IFaxConfiguration.get_Retries, IFaxConfiguration::Retries, IFaxConfiguration::get_Retries, IFaxConfiguration::put_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_Retries, fax._mfax_IFaxConfiguration_Retries, faxcomex/IFaxConfiguration::Retries, faxcomex/IFaxConfiguration::get_Retries, faxcomex/IFaxConfiguration::put_Retries, get_Retries
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxConfiguration.Retries"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

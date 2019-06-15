@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], ID3D11ShaderTrace interface [Direct3D 11],described, d3d11shadertracing/ID3D11ShaderTrace, direct3d11.id3d11shadertrace
 ms.topic: interface
+f1_keywords: ["d3d11shadertracing/ID3D11ShaderTrace"]
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows

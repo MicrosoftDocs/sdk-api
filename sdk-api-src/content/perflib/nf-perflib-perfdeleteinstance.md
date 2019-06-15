@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteInstance, PerfDeleteInstance function [Perf], base.perfdeleteinstance, perf.perfdeleteinstance, perflib/PerfDeleteInstance
 ms.topic: function
+f1_keywords: ["perflib/PerfDeleteInstance"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OemKeyScan, OemKeyScan function [Keyboard and Mouse Input], _win32_OemKeyScan, _win32_oemkeyscan_cpp, inputdev.oemkeyscan, winui._win32_oemkeyscan, winuser/OemKeyScan
 ms.topic: function
+f1_keywords: ["winuser/OemKeyScan"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

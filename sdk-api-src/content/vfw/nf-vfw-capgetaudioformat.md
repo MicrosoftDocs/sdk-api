@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capGetAudioFormat, capGetAudioFormat, capGetAudioFormat macro [Windows Multimedia], multimedia.capgetaudioformat, vfw/capGetAudioFormat"
 ms.topic: macro
+f1_keywords: ["vfw/capGetAudioFormat"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

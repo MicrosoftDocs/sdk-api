@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SFEA_ABORT, SFEA_FULL_ENUMERATION, SFEA_PARTIAL_SYNC, SYNC_FULL_ENUMERATION_ACTION, SYNC_FULL_ENUMERATION_ACTION enumeration [Windows Sync], winsync.sync_full_enumeration_action, winsync/SFEA_ABORT, winsync/SFEA_FULL_ENUMERATION, winsync/SFEA_PARTIAL_SYNC, winsync/SYNC_FULL_ENUMERATION_ACTION
 ms.topic: enum
+f1_keywords: ["winsync/SYNC_FULL_ENUMERATION_ACTION"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

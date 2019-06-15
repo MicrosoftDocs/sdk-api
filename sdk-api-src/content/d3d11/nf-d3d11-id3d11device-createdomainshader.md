@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8c230b52-7c67-4576-98d9-238d464c9620, CreateDomainShader, CreateDomainShader method [Direct3D 11], CreateDomainShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDomainShader method, ID3D11Device.CreateDomainShader, ID3D11Device::CreateDomainShader, d3d11/ID3D11Device::CreateDomainShader, direct3d11.id3d11device_createdomainshader
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11Device.CreateDomainShader"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

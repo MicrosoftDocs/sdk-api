@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertAddEnhancedKeyUsageIdentifier, CertAddEnhancedKeyUsageIdentifier function [Security], _crypto2_certaddenhancedkeyusageidentifier, security.certaddenhancedkeyusageidentifier, wincrypt/CertAddEnhancedKeyUsageIdentifier
 ms.topic: function
+f1_keywords: ["wincrypt/CertAddEnhancedKeyUsageIdentifier"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
 ms.topic: function
+f1_keywords: ["fileapi/FindFirstFileNameW"]
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

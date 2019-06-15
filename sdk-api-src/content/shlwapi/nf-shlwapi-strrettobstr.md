@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetToBSTR, shell.StrRetToBSTR, shlwapi/StrRetToBSTR
 ms.topic: function
+f1_keywords: ["shlwapi/StrRetToBSTR"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

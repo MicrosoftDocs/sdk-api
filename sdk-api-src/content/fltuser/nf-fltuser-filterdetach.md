@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterDetach, FilterDetach function [Installable File System Drivers], FltWin32ApiRef_ee7eb095-922a-48c6-943a-0a54fb0789f1.xml, fltuser/FilterDetach, ifsk.filterdetach
 ms.topic: function
+f1_keywords: ["fltuser/FilterDetach"]
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Inflate, Inflate methods [GDI+], Rect.Inflate, Rect::Inflate, _gdiplus_CLASS_Rect_Inflate_Methods, gdiplus._gdiplus_CLASS_Rect_Inflate_Methods, gdiplustypes/Inflate
 ms.topic: method
+f1_keywords: ["gdiplustypes/Rect.Inflate"]
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows

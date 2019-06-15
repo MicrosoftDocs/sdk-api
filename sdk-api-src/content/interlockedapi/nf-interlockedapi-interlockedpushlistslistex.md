@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
 ms.topic: function
+f1_keywords: ["interlockedapi/InterlockedPushListSListEx"]
 req.header: interlockedapi.h
 req.include-header: Windows.h
 req.target-type: Windows

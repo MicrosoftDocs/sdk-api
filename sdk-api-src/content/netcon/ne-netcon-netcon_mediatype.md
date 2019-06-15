@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCM_BRIDGE, NCM_DIRECT, NCM_ISDN, NCM_LAN, NCM_NONE, NCM_PHONE, NCM_PPPOE, NCM_SHAREDACCESSHOST_LAN, NCM_SHAREDACCESSHOST_RAS, NCM_TUNNEL, NETCON_MEDIATYPE, NETCON_MEDIATYPE enumeration [ICS/ICF], _ics_netcon_mediatype, ics.netcon_mediatype, netcon/NCM_BRIDGE, netcon/NCM_DIRECT, netcon/NCM_ISDN, netcon/NCM_LAN, netcon/NCM_NONE, netcon/NCM_PHONE, netcon/NCM_PPPOE, netcon/NCM_SHAREDACCESSHOST_LAN, netcon/NCM_SHAREDACCESSHOST_RAS, netcon/NCM_TUNNEL, netcon/NETCON_MEDIATYPE
 ms.topic: enum
+f1_keywords: ["netcon/NETCON_MEDIATYPE"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

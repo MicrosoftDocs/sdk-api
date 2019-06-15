@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider.GetObject(CInstance,long,CFrameworkQuery &), Provider::GetObject, Provider::GetObject(CInstance,long,CFrameworkQuery &), _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject"
 ms.topic: method
+f1_keywords: ["provider/Provider.GetObject"]
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_INSTANCE_INFO, EVENT_INSTANCE_INFO, EVENT_INSTANCE_INFO structure [ETW], PEVENT_INSTANCE_INFO, PEVENT_INSTANCE_INFO structure pointer [ETW], _evt_event_instance_info, base.event_instance_info, etw.event_instance_info, evntrace/EVENT_INSTANCE_INFO, evntrace/PEVENT_INSTANCE_INFO"
 ms.topic: struct
+f1_keywords: ["evntrace/EVENT_INSTANCE_INFO"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

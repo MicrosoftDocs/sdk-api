@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminConnectionClearStats"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

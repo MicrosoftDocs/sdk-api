@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadLogArchiveMetadata, ReadLogArchiveMetadata function [Files], clfsw32/ReadLogArchiveMetadata, fs.readlogarchivemetadata
 ms.topic: function
+f1_keywords: ["clfsw32/ReadLogArchiveMetadata"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
