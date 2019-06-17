@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
 ms.topic: struct
+f1_keywords: ["ipsectypes/IPSEC_KEY_MANAGER0"]
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_sasl_bind, ldap.ldap__sasl__bind, ldap.ldap_sasl_bind, ldap_sasl_bind, ldap_sasl_bind function [LDAP], ldap_sasl_bindA, ldap_sasl_bindW, winldap/ldap_sasl_bind, winldap/ldap_sasl_bindA, winldap/ldap_sasl_bindW"
 ms.topic: function
+f1_keywords: ["winldap/ldap_sasl_bind"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

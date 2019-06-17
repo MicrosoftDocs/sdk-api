@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWABObject interface [Windows Address Book],VCardRetrieve method, IWABObject.VCardRetrieve, IWABObject::VCardRetrieve, VCardRetrieve, VCardRetrieve method [Windows Address Book], VCardRetrieve method [Windows Address Book],IWABObject interface, WAB_VCARD_FILE, WAB_VCARD_STREAM, _wab_IWABObject_VCardRetrieve, wab._wab_IWABObject_VCardRetrieve, wabapi/IWABObject::VCardRetrieve
 ms.topic: method
+f1_keywords: ["wabapi/IWABObject.VCardRetrieve"]
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSendFaultMessageForError, WsSendFaultMessageForError function [Web Services for Windows], webservices/WsSendFaultMessageForError, wsw.wssendfaultmessageforerror
 ms.topic: function
+f1_keywords: ["webservices/WsSendFaultMessageForError"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

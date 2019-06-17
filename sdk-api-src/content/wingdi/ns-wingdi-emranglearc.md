@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRANGLEARC, EMRANGLEARC, EMRANGLEARC structure [Windows GDI], PEMRANGLEARC, PEMRANGLEARC structure pointer [Windows GDI], _win32_EMRANGLEARC_str, gdi.emranglearc, wingdi/EMRANGLEARC, wingdi/PEMRANGLEARC"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRANGLEARC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

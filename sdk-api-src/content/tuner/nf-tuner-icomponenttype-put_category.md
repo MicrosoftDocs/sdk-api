@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put_Category method, IComponentType.put_Category, IComponentType::put_Category, IComponentTypeput_Category, mstv.icomponenttype_put_category, put_Category, put_Category method [Microsoft TV Technologies], put_Category method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put_Category
 ms.topic: method
+f1_keywords: ["tuner/IComponentType.put_Category"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

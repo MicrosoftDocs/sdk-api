@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasChild, HasChild method [SMI], HasChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],HasChild method, ISettingsItem.HasChild, ISettingsItem::HasChild, smi.isettingsitem_haschild, wcmconfig/ISettingsItem::HasChild
 ms.topic: method
+f1_keywords: ["wcmconfig/ISettingsItem.HasChild"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

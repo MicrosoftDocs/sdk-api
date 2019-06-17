@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator, IRawCDImageCreator interface [IMAPI], IRawCDImageCreator interface [IMAPI],described, imapi.irawcdimagecreator, imapi2/IRawCDImageCreator
 ms.topic: interface
+f1_keywords: ["imapi2/IRawCDImageCreator"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

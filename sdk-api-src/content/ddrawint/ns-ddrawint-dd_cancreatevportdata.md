@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA, DD_CANCREATEVPORTDATA structure [Display Devices], ddrawint/DD_CANCREATEVPORTDATA, ddstrcts_72b44069-d635-4675-b632-d0d077aa96e8.xml, display.dd_cancreatevportdata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_CANCREATEVPORTDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

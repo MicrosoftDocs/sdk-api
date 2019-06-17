@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetDevCaps, TSPI_phoneGetDevCaps function [TAPI 2.2], _tspi_tspi_phonegetdevcaps, tspi.tspi_phonegetdevcaps, tspi/TSPI_phoneGetDevCaps
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneGetDevCaps"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

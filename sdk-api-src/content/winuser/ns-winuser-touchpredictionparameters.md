@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOUCHPREDICTIONPARAMETERS, PTouchPredictionParameters, PTouchPredictionParameters structure pointer [Input Messages and Notifications], TOUCHPREDICTIONPARAMETERS, TouchPredictionParameters, TouchPredictionParameters structure [Input Messages and Notifications], _TouchPredictionParameters, inputmsg.touchpredictionparameters_struct, winuser/PTouchPredictionParameters, winuser/TouchPredictionParameters"
 ms.topic: struct
+f1_keywords: ["winuser/TouchPredictionParameters"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

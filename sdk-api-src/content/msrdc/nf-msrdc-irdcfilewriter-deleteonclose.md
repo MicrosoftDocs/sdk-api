@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteOnClose, DeleteOnClose method [Remote Differential Compression], DeleteOnClose method [Remote Differential Compression],IRdcFileWriter interface, IRdcFileWriter interface [Remote Differential Compression],DeleteOnClose method, IRdcFileWriter.DeleteOnClose, IRdcFileWriter::DeleteOnClose, fs.irdcfilewriter_deleteonclose, msrdc/IRdcFileWriter::DeleteOnClose, rdc.irdcfilewriter_deleteonclose
 ms.topic: method
+f1_keywords: ["msrdc/IRdcFileWriter.DeleteOnClose"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

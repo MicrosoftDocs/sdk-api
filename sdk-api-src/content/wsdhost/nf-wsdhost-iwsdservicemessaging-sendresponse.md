@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceMessaging interface,SendResponse method, IWSDServiceMessaging.SendResponse, IWSDServiceMessaging::SendResponse, SendResponse, SendResponse method, SendResponse method,IWSDServiceMessaging interface, ncd.iwsdservicemessaging_sendresponse, wsdhost/IWSDServiceMessaging::SendResponse
 ms.topic: method
+f1_keywords: ["wsdhost/IWSDServiceMessaging.SendResponse"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

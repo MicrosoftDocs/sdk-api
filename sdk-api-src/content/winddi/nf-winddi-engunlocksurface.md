@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngUnlockSurface, EngUnlockSurface function [Display Devices], display.engunlocksurface, gdifncs_a7050a36-0beb-4f7e-857c-5d1e13d5f530.xml, winddi/EngUnlockSurface
 ms.topic: function
+f1_keywords: ["winddi/EngUnlockSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

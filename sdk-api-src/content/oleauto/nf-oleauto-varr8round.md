@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, automat.varr8round, oleauto/VarR8Round
 ms.topic: function
+f1_keywords: ["oleauto/VarR8Round"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

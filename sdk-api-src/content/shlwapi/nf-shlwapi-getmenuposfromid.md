@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMenuPosFromID, GetMenuPosFromID function [Windows Shell], _shell_GetMenuPosFromID, shell.GetMenuPosFromID, shlwapi/GetMenuPosFromID
 ms.topic: function
+f1_keywords: ["shlwapi/GetMenuPosFromID"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

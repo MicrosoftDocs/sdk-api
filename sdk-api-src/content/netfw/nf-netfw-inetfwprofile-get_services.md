@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],Services property, INetFwProfile.Services, INetFwProfile.get_Services, INetFwProfile::Services, INetFwProfile::get_Services, Services property [ICS/ICF], Services property [ICS/ICF],INetFwProfile interface, get_Services, ics.inetfwprofile_services, netfw/INetFwProfile::Services, netfw/INetFwProfile::get_Services
 ms.topic: method
+f1_keywords: ["netfw/INetFwProfile.Services"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

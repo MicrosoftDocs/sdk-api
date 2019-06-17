@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuxUlibInitialize, AuxUlibInitialize function [Windows API], aux_ulib/AuxUlibInitialize, winprog.auxulibinitialize_func
 ms.topic: function
+f1_keywords: ["aux_ulib/AuxUlibInitialize"]
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows

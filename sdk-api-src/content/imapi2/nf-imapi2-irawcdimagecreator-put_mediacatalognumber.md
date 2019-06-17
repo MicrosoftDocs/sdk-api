@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_MediaCatalogNumber method, IRawCDImageCreator.put_MediaCatalogNumber, IRawCDImageCreator::put_MediaCatalogNumber, imapi.irawcdimagecreator_put_mediacatalognumber, imapi2/IRawCDImageCreator::put_MediaCatalogNumber, put_MediaCatalogNumber, put_MediaCatalogNumber method [IMAPI], put_MediaCatalogNumber method [IMAPI],IRawCDImageCreator interface
 ms.topic: method
+f1_keywords: ["imapi2/IRawCDImageCreator.put_MediaCatalogNumber"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

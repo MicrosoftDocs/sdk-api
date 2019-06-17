@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_GetEnclosingElement, TextRange_GetEnclosingElement function [Windows Accessibility], uiauto.uiauto_TextRange_GetEnclosingElementConPat, uiauto_TextRange_GetEnclosingElementConPat, uiautomationcoreapi/TextRange_GetEnclosingElement, winauto.uiauto_TextRange_GetEnclosingElementConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/TextRange_GetEnclosingElement"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

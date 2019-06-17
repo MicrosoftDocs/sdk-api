@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_currentMedia method, IWMPCore.get_currentMedia, IWMPCore::get_currentMedia, IWMPCoreget_currentMedia, get_currentMedia, get_currentMedia method [Windows Media Player], get_currentMedia method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_currentmedia, wmp/IWMPCore::get_currentMedia
 ms.topic: method
+f1_keywords: ["wmp/IWMPCore.get_currentMedia"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

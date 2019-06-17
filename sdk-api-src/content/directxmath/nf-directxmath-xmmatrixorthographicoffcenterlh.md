@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixOrthographicOffCenterLH, XMMatrixOrthographicOffCenterLH, XMMatrixOrthographicOffCenterLH method [DirectX Math Support APIs], dxmath.xmmatrixorthographicoffcenterlh
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixOrthographicOffCenterLH"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

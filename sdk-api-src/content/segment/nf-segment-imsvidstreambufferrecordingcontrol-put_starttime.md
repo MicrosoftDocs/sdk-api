@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],put_StartTime method, IMSVidStreamBufferRecordingControl.put_StartTime, IMSVidStreamBufferRecordingControl::put_StartTime, IMSVidStreamBufferRecordingControlput_StartTime, mstv.imsvidstreambufferrecordingcontrol_put_starttime, put_StartTime, put_StartTime method [Microsoft TV Technologies], put_StartTime method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, segment/IMSVidStreamBufferRecordingControl::put_StartTime
 ms.topic: method
+f1_keywords: ["segment/IMSVidStreamBufferRecordingControl.put_StartTime"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

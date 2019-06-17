@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity, IClientSecurity interface [COM], IClientSecurity interface [COM],described, _com_iclientsecurity, com.iclientsecurity, objidl/IClientSecurity
 ms.topic: interface
+f1_keywords: ["objidl/IClientSecurity"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

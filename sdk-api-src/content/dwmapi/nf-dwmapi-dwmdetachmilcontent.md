@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmDetachMilContent, DwmDetachMilContent function [Desktop Window Manager], _udwm_dwmdetachmilcontent, _udwm_dwmdetachmilcontent_cpp, dwm.dwmdetachmilcontent, dwmapi/DwmDetachMilContent, winui._udwm_dwmdetachmilcontent
 ms.topic: function
+f1_keywords: ["dwmapi/DwmDetachMilContent"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

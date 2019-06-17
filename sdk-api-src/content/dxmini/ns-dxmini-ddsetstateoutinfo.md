@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDDSETSTATEOUTINFO, DDSETSTATEOUTINFO, DDSETSTATEOUTINFO structure [Display Devices], PDDSETSTATEOUTINFO, PDDSETSTATEOUTINFO structure pointer [Display Devices], Video_Structs_2c99366e-e41f-460b-b8ff-d3173ecc010c.xml, display.ddsetstateoutinfo, dxmini/DDSETSTATEOUTINFO, dxmini/PDDSETSTATEOUTINFO"
 ms.topic: struct
+f1_keywords: ["dxmini/DDSETSTATEOUTINFO"]
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

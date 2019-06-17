@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GamutShellTriangle, GamutShellTriangle structure [Windows Color System], _color_GamutShellTriangle_str, wcs.gamutshelltriangle, wcsplugin/GamutShellTriangle
 ms.topic: struct
+f1_keywords: ["wcsplugin/GamutShellTriangle"]
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

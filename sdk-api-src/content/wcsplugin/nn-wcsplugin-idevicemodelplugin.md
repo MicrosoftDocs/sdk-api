@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System],described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
 ms.topic: interface
+f1_keywords: ["wcsplugin/IDeviceModelPlugIn"]
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

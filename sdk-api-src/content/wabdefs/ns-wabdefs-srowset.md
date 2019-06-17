@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSRowSet, SRowSet, SRowSet structure [Windows Address Book], _wab_SRowSet, wab._wab_SRowSet, wabdefs/SRowSet"
 ms.topic: struct
+f1_keywords: ["wabdefs/SRowSet"]
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

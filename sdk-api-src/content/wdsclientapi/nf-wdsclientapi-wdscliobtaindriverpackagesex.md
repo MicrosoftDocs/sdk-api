@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliObtainDriverPackagesEx, WdsCliObtainDriverPackagesEx function [Windows Deployment Services], wds.wdscliobtaindriverpackagesex, wdsclientapi/WdsCliObtainDriverPackagesEx
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliObtainDriverPackagesEx"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

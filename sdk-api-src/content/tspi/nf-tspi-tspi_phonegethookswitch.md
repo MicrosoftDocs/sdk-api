@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetHookSwitch, TSPI_phoneGetHookSwitch function [TAPI 2.2], _tspi_tspi_phonegethookswitch, tspi.tspi_phonegethookswitch, tspi/TSPI_phoneGetHookSwitch
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneGetHookSwitch"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetPowerPolicy, WinUsb_GetPowerPolicy function [Buses], buses.winusb_getpowerpolicy, winusb/WinUsb_GetPowerPolicy, winusbfunc_85084f46-4707-4fd1-8246-61cd4a18eec0.xml
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_GetPowerPolicy"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

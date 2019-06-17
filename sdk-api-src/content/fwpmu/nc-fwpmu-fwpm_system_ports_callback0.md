@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_SYSTEM_PORTS_CALLBACK0, FWPM_SYSTEM_PORTS_CALLBACK0 callback, FWPM_SYSTEM_PORTS_CALLBACK0 callback function [Filtering], fwp.fwpm_system_ports_callback0_func, fwpmu/FWPM_SYSTEM_PORTS_CALLBACK0
 ms.topic: callback
+f1_keywords: ["fwpmu/FWPM_SYSTEM_PORTS_CALLBACK0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

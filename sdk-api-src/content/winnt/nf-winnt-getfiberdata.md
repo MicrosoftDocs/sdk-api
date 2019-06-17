@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFiberData, GetFiberData function, _win32_getfiberdata, base.getfiberdata, winnt/GetFiberData
 ms.topic: function
+f1_keywords: ["winnt/GetFiberData"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

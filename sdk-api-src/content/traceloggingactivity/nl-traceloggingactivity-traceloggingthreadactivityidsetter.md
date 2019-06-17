@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivityIdSetter, TraceLoggingThreadActivityIdSetter class, TraceLoggingThreadActivityIdSetter class,described, tracelogging.traceloggingthreadactivityidsetter, traceloggingactivity/TraceLoggingThreadActivityIdSetter
 ms.topic: class
+f1_keywords: ["traceloggingactivity/TraceLoggingThreadActivityIdSetter"]
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBottom, GetBottom method [GDI+], GetBottom method [GDI+],RectF class, RectF class [GDI+],GetBottom method, RectF.GetBottom, RectF::GetBottom, _gdiplus_CLASS_RectF_GetBottom_, gdiplus._gdiplus_CLASS_RectF_GetBottom_
 ms.topic: method
+f1_keywords: ["gdiplustypes/RectF.GetBottom"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDEndpointProxy, IWSDEndpointProxy interface, IWSDEndpointProxy interface,described, ncd.iwsdendpointproxy, wsdclient/IWSDEndpointProxy
 ms.topic: interface
+f1_keywords: ["wsdclient/IWSDEndpointProxy"]
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

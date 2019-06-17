@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParseDisplayName, com.mkparsedisplayname, objbase/MkParseDisplayName
 ms.topic: function
+f1_keywords: ["objbase/MkParseDisplayName"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

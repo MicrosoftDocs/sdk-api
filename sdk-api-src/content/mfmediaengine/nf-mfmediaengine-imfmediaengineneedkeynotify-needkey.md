@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNeedKeyNotify interface [Media Foundation],NeedKey method, IMFMediaEngineNeedKeyNotify.NeedKey, IMFMediaEngineNeedKeyNotify::NeedKey, NeedKey, NeedKey method [Media Foundation], NeedKey method [Media Foundation],IMFMediaEngineNeedKeyNotify interface, mf.imfmediaengineneedkeynotify_needkey, mfmediaengine/IMFMediaEngineNeedKeyNotify::NeedKey
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineNeedKeyNotify.NeedKey"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: Region::Exclude
 ms.topic: language-reference
+f1_keywords: ["gdiplusheaders/Region::Exclude"]
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
 ms.topic: function
+f1_keywords: ["lmaccess/NetLocalGroupEnum"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

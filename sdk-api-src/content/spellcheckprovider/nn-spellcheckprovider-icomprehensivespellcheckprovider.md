@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComprehensiveSpellCheckProvider, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications], IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],described, intl.icomprehensivespellcheckprovider, spellcheckprovider/IComprehensiveSpellCheckProvider
 ms.topic: interface
+f1_keywords: ["spellcheckprovider/IComprehensiveSpellCheckProvider"]
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

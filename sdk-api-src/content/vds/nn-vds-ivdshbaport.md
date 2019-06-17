@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHbaPort, IVdsHbaPort interface [VDS], IVdsHbaPort interface [VDS],described, base.ivdshbaport, vds/IVdsHbaPort
 ms.topic: interface
+f1_keywords: ["vds/IVdsHbaPort"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

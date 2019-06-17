@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DragFinish, DragFinish function [Windows Shell], _win32_DragFinish, shell.DragFinish, shellapi/DragFinish
 ms.topic: function
+f1_keywords: ["shellapi/DragFinish"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

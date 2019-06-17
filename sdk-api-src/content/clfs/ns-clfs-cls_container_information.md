@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Files], CLS_CONTAINER_INFORMATION, ClfsContainerActive, ClfsContainerActivePendingDelete, ClfsContainerInactive, ClfsContainerInitializing, ClfsContainerPendingArchive, ClfsContainerPendingArchiveAndDelete, PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Files], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Files], PPCLS_CONTAINER_INFORMATION, clfs/PCLFS_CONTAINER_INFORMATION, clfs/PPCLFS_CONTAINER_INFORMATION, clfs/_CLFS_CONTAINER_INFORMATION, fs.clfs_container_information"
 ms.topic: struct
+f1_keywords: ["clfs/CLFS_CONTAINER_INFORMATION"]
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRawInputData, GetRawInputData function [Keyboard and Mouse Input], RID_HEADER, RID_INPUT, _win32_GetRawInputData, _win32_getrawinputdata_cpp, inputdev.getrawinputdata, winui._win32_getrawinputdata, winuser/GetRawInputData
 ms.topic: function
+f1_keywords: ["winuser/GetRawInputData"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

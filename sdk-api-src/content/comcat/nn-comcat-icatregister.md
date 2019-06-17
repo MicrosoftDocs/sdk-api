@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatRegister, ICatRegister interface [COM], ICatRegister interface [COM],described, _com_icatregister, com.icatregister, comcat/ICatRegister
 ms.topic: interface
+f1_keywords: ["comcat/ICatRegister"]
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

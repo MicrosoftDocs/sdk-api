@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Media Foundation], GetCapabilities method [Media Foundation],IPlayToControlWithCapabilities interface, IPlayToControlWithCapabilities interface [Media Foundation],GetCapabilities method, IPlayToControlWithCapabilities.GetCapabilities, IPlayToControlWithCapabilities::GetCapabilities, mf.iplaytocontrolwithcapabilities_getcapabilities, mfsharingengine/IPlayToControlWithCapabilities::GetCapabilities
 ms.topic: method
+f1_keywords: ["mfsharingengine/IPlayToControlWithCapabilities.GetCapabilities"]
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows

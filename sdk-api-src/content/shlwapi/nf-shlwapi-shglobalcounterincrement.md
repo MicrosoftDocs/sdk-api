@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterIncrement, SHGlobalCounterIncrement function [Windows Shell], _shell_SHGlobalCounterIncrement, shell.SHGlobalCounterIncrement, shlwapi/SHGlobalCounterIncrement
 ms.topic: function
+f1_keywords: ["shlwapi/SHGlobalCounterIncrement"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

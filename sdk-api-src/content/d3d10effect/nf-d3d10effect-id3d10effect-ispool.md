@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 82637aae-8141-d7a4-6168-bdd7cd3afa44, ID3D10Effect interface [Direct3D 10],IsPool method, ID3D10Effect.IsPool, ID3D10Effect::IsPool, IsPool, IsPool method [Direct3D 10], IsPool method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::IsPool, direct3d10.id3d10effect_ispool
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10Effect.IsPool"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataReader, IWICMetadataReader interface [Windows Imaging Component], IWICMetadataReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatareader, wic._wic_codec_iwicmetadatareader, wincodecsdk/IWICMetadataReader
 ms.topic: interface
+f1_keywords: ["wincodecsdk/IWICMetadataReader"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

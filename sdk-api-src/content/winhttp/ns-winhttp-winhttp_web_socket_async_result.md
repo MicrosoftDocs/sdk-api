@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_ASYNC_RESULT, WINHTTP_WEB_SOCKET_ASYNC_RESULT structure [HTTP], http.http_web_socket_async_result, http.winhttp_web_socket_async_result, winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT
 ms.topic: struct
+f1_keywords: ["winhttp/WINHTTP_WEB_SOCKET_ASYNC_RESULT"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

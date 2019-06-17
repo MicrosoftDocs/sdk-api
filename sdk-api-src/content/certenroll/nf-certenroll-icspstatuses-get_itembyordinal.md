@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOrdinal property, ICspStatuses.ItemByOrdinal, ICspStatuses.get_ItemByOrdinal, ICspStatuses::ItemByOrdinal, ICspStatuses::get_ItemByOrdinal, ItemByOrdinal property [Security], ItemByOrdinal property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOrdinal, certenroll/ICspStatuses::get_ItemByOrdinal, get_ItemByOrdinal, security.icspstatuses_itembyordinal_property
 ms.topic: method
+f1_keywords: ["certenroll/ICspStatuses.ItemByOrdinal"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

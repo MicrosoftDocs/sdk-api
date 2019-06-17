@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [Media Foundation], GetContext method [Media Foundation],IToc interface, IToc interface [Media Foundation],GetContext method, IToc.GetContext, IToc::GetContext, codecapi.itoc_getcontext, mf.itoc_getcontext, wmcodecdsp/IToc::GetContext
 ms.topic: method
+f1_keywords: ["wmcodecdsp/IToc.GetContext"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

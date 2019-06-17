@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MANIPULATION_TRANSFORM, MANIPULATION_TRANSFORM structure, input_intcontext.manipulation_transform, interactioncontext.manipulation_transform, interactioncontext/MANIPULATION_TRANSFORM
 ms.topic: struct
+f1_keywords: ["interactioncontext/MANIPULATION_TRANSFORM"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

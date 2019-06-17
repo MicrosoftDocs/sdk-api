@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderEnum0, FwpmProviderEnum0 function [Filtering], fwp.fwpmproviderenum0_func, fwpmu/FwpmProviderEnum0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmProviderEnum0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

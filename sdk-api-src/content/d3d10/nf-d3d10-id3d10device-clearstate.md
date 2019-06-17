@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 779d4054-49b3-9f94-f49a-3f3d097a65aa, ClearState, ClearState method [Direct3D 10], ClearState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],ClearState method, ID3D10Device.ClearState, ID3D10Device::ClearState, d3d10/ID3D10Device::ClearState, direct3d10.id3d10device_clearstate
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.ClearState"]
 req.header: d3d10.h
 req.include-header: D3d10core
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngQueryFileTimeStamp, EngQueryFileTimeStamp function [Display Devices], display.engqueryfiletimestamp, gdifncs_6f6a0fd0-d012-4f50-a686-7c58cc051c5a.xml, winddi/EngQueryFileTimeStamp
 ms.topic: function
+f1_keywords: ["winddi/EngQueryFileTimeStamp"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

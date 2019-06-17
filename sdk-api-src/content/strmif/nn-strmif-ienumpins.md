@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [DirectShow],described, IEnumPinsInterface, dshow.ienumpins, strmif/IEnumPins
 ms.topic: interface
+f1_keywords: ["strmif/IEnumPins"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

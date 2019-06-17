@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseArchive property, IFaxConfiguration.UseArchive, IFaxConfiguration.get_UseArchive, IFaxConfiguration::UseArchive, IFaxConfiguration::get_UseArchive, IFaxConfiguration::put_UseArchive, UseArchive property [Fax Service], UseArchive property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseArchive, fax._mfax_IFaxConfiguration_UseArchive, faxcomex/IFaxConfiguration::UseArchive, faxcomex/IFaxConfiguration::get_UseArchive, faxcomex/IFaxConfiguration::put_UseArchive, get_UseArchive
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxConfiguration.UseArchive"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

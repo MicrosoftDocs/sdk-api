@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MiniDumpWriteDump, MiniDumpWriteDump function, _win32_minidumpwritedump, base.minidumpwritedump, minidumpapiset/MiniDumpWriteDump
 ms.topic: function
+f1_keywords: ["minidumpapiset/MiniDumpWriteDump"]
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

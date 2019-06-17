@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers, IEnumDiskQuotaUsers interface [Files], IEnumDiskQuotaUsers interface [Files],described, _win32_ienumdiskquotausers, base.ienumdiskquotausers, dskquota/IEnumDiskQuotaUsers, fs.ienumdiskquotausers
 ms.topic: interface
+f1_keywords: ["dskquota/IEnumDiskQuotaUsers"]
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixReflect, XMMatrixReflect, XMMatrixReflect method [DirectX Math Support APIs], dxmath.xmmatrixreflect
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixReflect"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

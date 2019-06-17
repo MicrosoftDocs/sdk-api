@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [Direct2D], GetColorInterpolationMode method [Direct2D],ID2D1GradientStopCollection1 interface, ID2D1GradientStopCollection1 interface [Direct2D],GetColorInterpolationMode method, ID2D1GradientStopCollection1.GetColorInterpolationMode, ID2D1GradientStopCollection1::GetColorInterpolationMode, d2d1_1/ID2D1GradientStopCollection1::GetColorInterpolationMode, direct2d.id2d1gradientstopcollection1_getcolorinterpolationmode
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1GradientStopCollection1.GetColorInterpolationMode"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

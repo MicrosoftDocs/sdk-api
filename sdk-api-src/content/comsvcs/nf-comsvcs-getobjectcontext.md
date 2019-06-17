@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
 ms.topic: macro
+f1_keywords: ["comsvcs/GetObjectContext"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BfEnTvRat_Attributes_US_TV, BfEnTvRat_Attributes_US_TV enumeration [Microsoft TV Technologies], US_TV_IsAdultLanguage, US_TV_IsBlocked, US_TV_IsSexualSituation, US_TV_IsSexuallySuggestiveDialog, US_TV_IsViolent, US_TV_ValidAttrSubmask, mstv.bfentvrat_attributes_us_tv, tvratings/BfEnTvRat_Attributes_US_TV, tvratings/US_TV_IsAdultLanguage, tvratings/US_TV_IsBlocked, tvratings/US_TV_IsSexualSituation, tvratings/US_TV_IsSexuallySuggestiveDialog, tvratings/US_TV_IsViolent, tvratings/US_TV_ValidAttrSubmask
 ms.topic: enum
+f1_keywords: ["tvratings/BfEnTvRat_Attributes_US_TV"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

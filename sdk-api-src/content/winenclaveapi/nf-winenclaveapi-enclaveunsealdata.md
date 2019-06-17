@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_UNSEAL_FLAG_STALE_KEY, EnclaveUnsealData, EnclaveUnsealData function, base.enclaveunsealdata, winenclaveapi/EnclaveUnsealData
 ms.topic: function
+f1_keywords: ["winenclaveapi/EnclaveUnsealData"]
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows

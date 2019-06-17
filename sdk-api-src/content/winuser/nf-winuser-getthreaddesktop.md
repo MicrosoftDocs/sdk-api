@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadDesktop, GetThreadDesktop function [Windows Stations and Desktops], _win32_getthreaddesktop, base.getthreaddesktop, winstation.getthreaddesktop, winuser/GetThreadDesktop
 ms.topic: function
+f1_keywords: ["winuser/GetThreadDesktop"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

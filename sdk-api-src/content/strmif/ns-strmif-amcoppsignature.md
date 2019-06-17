@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AMCOPPSignature, AMCOPPSignature structure [DirectShow], AMCOPPSignatureStructure, dshow.amcoppsignature, strmif/AMCOPPSignature
 ms.topic: struct
+f1_keywords: ["strmif/AMCOPPSignature"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

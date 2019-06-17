@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer interface [windows Media Format],SetLength method, INSSBuffer.SetLength, INSSBuffer::SetLength, INSSBufferSetLength, SetLength, SetLength method [windows Media Format], SetLength method [windows Media Format],INSSBuffer interface, wmformat.inssbuffer_setlength, wmsbuffer/INSSBuffer::SetLength
 ms.topic: method
+f1_keywords: ["wmsbuffer/INSSBuffer.SetLength"]
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

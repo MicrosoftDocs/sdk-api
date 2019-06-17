@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_OPTIONS, APPX_ENCRYPTED_PACKAGE_OPTIONS enumeration [App packaging and management], APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION, APPX_ENCRYPTED_PACKAGE_OPTION_NONE, APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTIONS, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_DIFFUSION, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_NONE, appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTION_PAGE_HASHING, appxpkg.appx_encrypted_package_options
 ms.topic: enum
+f1_keywords: ["appxpackaging/APPX_ENCRYPTED_PACKAGE_OPTIONS"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

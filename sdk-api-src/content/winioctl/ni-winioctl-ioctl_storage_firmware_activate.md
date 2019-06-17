@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Files], fs.ioctl_storage_firmware_activate, winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_FIRMWARE_ACTIVATE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

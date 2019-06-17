@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorSendPacket, EapMethodAuthenticatorSendPacket function [EAPHost], eaphost.eapmethodauthenticatorsendpacket, eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
 ms.topic: function
+f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket"]
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: pluginResource2FileAssociation, pluginResource2FileAssociation structure [Remote Desktop Services], termserv.pluginresource2fileassociation, tspubplugin2com/pluginResource2FileAssociation
 ms.topic: struct
+f1_keywords: ["tspubplugin2com/pluginResource2FileAssociation"]
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows

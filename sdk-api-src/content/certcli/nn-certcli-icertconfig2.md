@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertConfig2, ICertConfig2 interface [Security], ICertConfig2 interface [Security],described, _certsrv_icertconfig2, certcli/ICertConfig2, security.icertconfig2
 ms.topic: interface
+f1_keywords: ["certcli/ICertConfig2"]
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

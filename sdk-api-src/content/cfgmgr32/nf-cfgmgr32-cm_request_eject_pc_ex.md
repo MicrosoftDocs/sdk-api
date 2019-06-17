@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Request_Eject_PC_Ex, CM_Request_Eject_PC_Ex function [Device and Driver Installation], cfgmgr32/CM_Request_Eject_PC_Ex, cfgmgrfn_332d3bac-644d-407d-82e3-aa26af983184.xml, devinst.cm_request_eject_pc_ex
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Request_Eject_PC_Ex"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

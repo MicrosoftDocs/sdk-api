@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetWriterPosition, WsSetWriterPosition function [Web Services for Windows], webservices/WsSetWriterPosition, wsw.wssetwriterposition
 ms.topic: function
+f1_keywords: ["webservices/WsSetWriterPosition"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

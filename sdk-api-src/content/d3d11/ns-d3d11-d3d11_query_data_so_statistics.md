@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 595165cc-6026-e884-f8d4-b74f4fc8e939, D3D11_QUERY_DATA_SO_STATISTICS, D3D11_QUERY_DATA_SO_STATISTICS structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_SO_STATISTICS, direct3d11.d3d11_query_data_so_statistics
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_QUERY_DATA_SO_STATISTICS"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

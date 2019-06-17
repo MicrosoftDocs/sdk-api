@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_COMPRESSION, MBN_COMPRESSION enumeration [Microsoft Broadband Networks], MBN_COMPRESSION_ENABLE, MBN_COMPRESSION_NONE, mbn.mbn_compression, mbnapi/MBN_COMPRESSION, mbnapi/MBN_COMPRESSION_ENABLE, mbnapi/MBN_COMPRESSION_NONE
 ms.topic: enum
+f1_keywords: ["mbnapi/MBN_COMPRESSION"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

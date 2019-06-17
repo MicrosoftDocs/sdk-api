@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportMulticastSessionPolicy, IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services], IWdsTransportMulticastSessionPolicy interface [Windows Deployment Services],described, wds.iwdstransportmulticastsessionpolicy, wdstptmgmt/IWdsTransportMulticastSessionPolicy
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportMulticastSessionPolicy"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

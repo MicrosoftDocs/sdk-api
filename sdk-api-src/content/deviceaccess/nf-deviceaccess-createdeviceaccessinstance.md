@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
 ms.topic: function
+f1_keywords: ["deviceaccess/CreateDeviceAccessInstance"]
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderGetContentSize, WdsTransportProviderGetContentSize callback, WdsTransportProviderGetContentSize callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentsize, wdstpdi/WdsTransportProviderGetContentSize
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportProviderGetContentSize"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

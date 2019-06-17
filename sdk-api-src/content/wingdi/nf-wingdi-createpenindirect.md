@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
 ms.topic: function
+f1_keywords: ["wingdi/CreatePenIndirect"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

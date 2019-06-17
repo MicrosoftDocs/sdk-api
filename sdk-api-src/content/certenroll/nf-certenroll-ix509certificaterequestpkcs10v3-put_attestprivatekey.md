@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttestPrivateKey property [Security], AttestPrivateKey property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestPrivateKey property, IX509CertificateRequestPkcs10V3.AttestPrivateKey, IX509CertificateRequestPkcs10V3.put_AttestPrivateKey, IX509CertificateRequestPkcs10V3::AttestPrivateKey, IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::get_AttestPrivateKey, certenroll/IX509CertificateRequestPkcs10V3::put_AttestPrivateKey, put_AttestPrivateKey, security.ix509certificaterequestpkcs10v3_attestprivatekey
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequestPkcs10V3.AttestPrivateKey"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

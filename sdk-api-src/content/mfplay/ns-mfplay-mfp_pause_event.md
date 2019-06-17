@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFP_PAUSE_EVENT, MFP_PAUSE_EVENT structure [Media Foundation], mf.mfp_pause_event, mfplay/MFP_PAUSE_EVENT
 ms.topic: struct
+f1_keywords: ["mfplay/MFP_PAUSE_EVENT"]
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetSecurityInfoByKey0, FwpmLayerGetSecurityInfoByKey0 function [Filtering], fwp.fwpmlayergetsecurityinfobykey0_func, fwpmu/FwpmLayerGetSecurityInfoByKey0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmLayerGetSecurityInfoByKey0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLRES_CALLBACK_FUNCTION_TABLE, CLRES_CALLBACK_FUNCTION_TABLE, CLRES_CALLBACK_FUNCTION_TABLE structure [Failover Cluster], PCLRES_CALLBACK_FUNCTION_TABLE, PCLRES_CALLBACK_FUNCTION_TABLE structure pointer [Failover Cluster], mscs.clres_callback_function_table, resapi/CLRES_CALLBACK_FUNCTION_TABLE, resapi/PCLRES_CALLBACK_FUNCTION_TABLE"
 ms.topic: struct
+f1_keywords: ["resapi/CLRES_CALLBACK_FUNCTION_TABLE"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

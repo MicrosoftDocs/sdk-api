@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM],described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
 ms.topic: interface
+f1_keywords: ["objidl/IDataAdviseHolder"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

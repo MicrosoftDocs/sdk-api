@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mmTaskYield, mmTaskYield function [Windows Multimedia], mmddk/mmTaskYield, multimedia.mmtaskyield
 ms.topic: function
+f1_keywords: ["mmddk/mmTaskYield"]
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

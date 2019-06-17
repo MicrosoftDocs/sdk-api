@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetDevice, MCIWndGetDevice macro [Windows Multimedia], _win32_MCIWndGetDevice, multimedia.mciwndgetdevice, vfw/MCIWndGetDevice
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndGetDevice"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

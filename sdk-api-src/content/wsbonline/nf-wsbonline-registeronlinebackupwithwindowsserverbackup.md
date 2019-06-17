@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
 ms.topic: function
+f1_keywords: ["wsbonline/RegisterOnlineBackupWithWindowsServerBackup"]
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

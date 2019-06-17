@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMORegister, DMORegister function [DirectShow], dmoreg/DMORegister, dshow.dmoregister
 ms.topic: function
+f1_keywords: ["dmoreg/DMORegister"]
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

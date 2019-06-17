@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetType method, ITextStory.GetType, ITextStory::GetType, controls.itextstory_gettype, tom/ITextStory::GetType, tomCommentsStory, tomEndnotesStory, tomEvenPagesFooterStory, tomEvenPagesHeaderStory, tomFindStory, tomFirstPageFooterStory, tomFirstPageHeaderStory, tomFootnotesStory, tomMainTextStory, tomPrimaryFooterStory, tomPrimaryHeaderStory, tomReplaceStory, tomScratchStory, tomTextFrameStory, tomUnknownStory
 ms.topic: method
+f1_keywords: ["tom/ITextStory.GetType"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

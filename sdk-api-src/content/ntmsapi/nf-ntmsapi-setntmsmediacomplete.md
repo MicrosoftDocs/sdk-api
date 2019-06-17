@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetNtmsMediaComplete, SetNtmsMediaComplete function [Files], _zaw_setntmsmediacomplete, base.setntmsmediacomplete, fs.setntmsmediacomplete, ntmsapi/SetNtmsMediaComplete
 ms.topic: function
+f1_keywords: ["ntmsapi/SetNtmsMediaComplete"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

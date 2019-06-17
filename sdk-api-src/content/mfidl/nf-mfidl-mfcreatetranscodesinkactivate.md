@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeSinkActivate, MFCreateTranscodeSinkActivate function [Media Foundation], mf.mfcreatetranscodesinkactivate, mfidl/MFCreateTranscodeSinkActivate
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateTranscodeSinkActivate"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

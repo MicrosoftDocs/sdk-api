@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindAttribute, CertFindAttribute function [Security], _crypto2_certfindattribute, security.certfindattribute, wincrypt/CertFindAttribute
 ms.topic: function
+f1_keywords: ["wincrypt/CertFindAttribute"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, ColorMatchToTarget function [Windows Color System], _color_ColorMatchToTarget, wcs.colormatchtotarget, wingdi/ColorMatchToTarget
 ms.topic: function
+f1_keywords: ["wingdi/ColorMatchToTarget"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

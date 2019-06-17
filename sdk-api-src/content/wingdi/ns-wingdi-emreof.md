@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMREOF, EMREOF, EMREOF structure [Windows GDI], PEMREOF, PEMREOF structure pointer [Windows GDI], _win32_EMREOF_str, gdi.emreof, wingdi/EMREOF, wingdi/PEMREOF"
 ms.topic: struct
+f1_keywords: ["wingdi/EMREOF"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

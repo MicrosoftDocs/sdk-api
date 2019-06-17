@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob, IDownloadJob interface [Windows Update Agent], IDownloadJob interface [Windows Update Agent],described, wua.idownloadjob, wuapi/IDownloadJob
 ms.topic: interface
+f1_keywords: ["wuapi/IDownloadJob"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

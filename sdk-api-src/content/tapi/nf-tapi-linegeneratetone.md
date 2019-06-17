@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linegeneratetone, lineGenerateTone, lineGenerateTone function [TAPI 2.2], tapi/lineGenerateTone, tapi2.linegeneratetone"
 ms.topic: function
+f1_keywords: ["tapi/lineGenerateTone"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

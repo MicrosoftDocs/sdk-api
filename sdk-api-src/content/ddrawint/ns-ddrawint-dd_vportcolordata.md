@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_VPORTCOLORDATA, DD_VPORTCOLORDATA, DD_VPORTCOLORDATA structure [Display Devices], ddrawint/DD_VPORTCOLORDATA, ddstrcts_8dc16578-631f-406e-94da-510e6f8b1e24.xml, display.dd_vportcolordata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_VPORTCOLORDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_Recorder method, IWriteEngine2.get_Recorder, IWriteEngine2::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_recorder, imapi2/IWriteEngine2::get_Recorder
 ms.topic: method
+f1_keywords: ["imapi2/IWriteEngine2.get_Recorder"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDouble, InitVariantFromDouble function [Windows Properties], _shell_InitVariantFromDouble, properties.InitVariantFromDouble, propvarutil/InitVariantFromDouble, shell.InitVariantFromDouble
 ms.topic: function
+f1_keywords: ["propvarutil/InitVariantFromDouble"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

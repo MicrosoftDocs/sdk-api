@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleContainer interface [COM],LockContainer method, IOleContainer.LockContainer, IOleContainer::LockContainer, LockContainer, LockContainer method [COM], LockContainer method [COM],IOleContainer interface, _ole_iolecontainer_lockcontainer, com.iolecontainer_lockcontainer, oleidl/IOleContainer::LockContainer
 ms.topic: method
+f1_keywords: ["oleidl/IOleContainer.LockContainer"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

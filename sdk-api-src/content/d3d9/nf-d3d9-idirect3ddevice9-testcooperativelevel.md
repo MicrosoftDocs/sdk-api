@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 613a6a7b-3b6f-b565-1f3a-2b5322844deb, IDirect3DDevice9 interface [Direct3D 9],TestCooperativeLevel method, IDirect3DDevice9.TestCooperativeLevel, IDirect3DDevice9::TestCooperativeLevel, TestCooperativeLevel, TestCooperativeLevel method [Direct3D 9], TestCooperativeLevel method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::TestCooperativeLevel, direct3d9.idirect3ddevice9__testcooperativelevel
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3DDevice9.TestCooperativeLevel"]
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

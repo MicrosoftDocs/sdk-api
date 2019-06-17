@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerShutdown, TSPI_providerShutdown function [TAPI 2.2], _tspi_tspi_providershutdown, tspi.tspi_providershutdown, tspi/TSPI_providerShutdown
 ms.topic: function
+f1_keywords: ["tspi/TSPI_providerShutdown"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

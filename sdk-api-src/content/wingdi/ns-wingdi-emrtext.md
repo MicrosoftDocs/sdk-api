@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRTEXT, EMRTEXT, EMRTEXT structure [Windows GDI], PEMRTEXT, PEMRTEXT structure pointer [Windows GDI], _win32_EMRTEXT_str, gdi.emrtext, wingdi/EMRTEXT, wingdi/PEMRTEXT"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRTEXT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

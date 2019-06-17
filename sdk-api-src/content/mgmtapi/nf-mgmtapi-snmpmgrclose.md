@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpMgrClose, SnmpMgrClose function [SNMP], _snmp_snmpmgrclose, mgmtapi/SnmpMgrClose, snmp.snmpmgrclose
 ms.topic: function
+f1_keywords: ["mgmtapi/SnmpMgrClose"]
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows

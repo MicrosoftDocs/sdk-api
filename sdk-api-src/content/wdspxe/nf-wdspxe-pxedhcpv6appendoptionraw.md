@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6AppendOptionRaw, PxeDhcpv6AppendOptionRaw function [Windows Deployment Services], wds.pxedhcpv6appendoptionraw, wdspxe/PxeDhcpv6AppendOptionRaw
 ms.topic: function
+f1_keywords: ["wdspxe/PxeDhcpv6AppendOptionRaw"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Description property, Description property [Security], Description property [Security],AzApplicationGroup object, Description property [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],Description property, IAzApplicationGroup.Description, IAzApplicationGroup.get_Description, IAzApplicationGroup::Description, IAzApplicationGroup::get_Description, IAzApplicationGroup::put_Description, azroles/IAzApplicationGroup::Description, azroles/IAzApplicationGroup::get_Description, azroles/IAzApplicationGroup::put_Description, get_Description, security.iazapplicationgroup_description
 ms.topic: method
+f1_keywords: ["azroles/IAzApplicationGroup.Description"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

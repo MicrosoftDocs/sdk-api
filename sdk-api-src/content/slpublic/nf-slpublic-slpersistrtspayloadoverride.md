@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLPersistRTSPayloadOverride, SLPersistRTSPayloadOverride function [Security], security.slpersistrtspayloadoverride, slpublic/SLPersistRTSPayloadOverride
 ms.topic: function
+f1_keywords: ["slpublic/SLPersistRTSPayloadOverride"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

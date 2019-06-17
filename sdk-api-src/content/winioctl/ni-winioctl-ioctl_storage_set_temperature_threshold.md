@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Files], fs.ioctl_storage_set_temperature_threshold, winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

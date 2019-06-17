@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_EXTENSION_TYPE, MF_MEDIA_ENGINE_EXTENSION_TYPE enumeration [Media Foundation], MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE, mf.mf_media_engine_extension_type, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

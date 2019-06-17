@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ACS_ADDRESSDEVICESPECIFIC, ACS_LINEDEVICESPECIFIC, ACS_PERMANENTDEVICEGUID, ACS_PROTOCOL, ACS_PROVIDERSPECIFIC, ACS_SWITCHSPECIFIC, ADDRESS_CAPABILITY_STRING, ADDRESS_CAPABILITY_STRING enumeration [TAPI 2.2], _tapi3_address_capability_string, tapi3.address_capability_string, tapi3if/ACS_ADDRESSDEVICESPECIFIC, tapi3if/ACS_LINEDEVICESPECIFIC, tapi3if/ACS_PERMANENTDEVICEGUID, tapi3if/ACS_PROTOCOL, tapi3if/ACS_PROVIDERSPECIFIC, tapi3if/ACS_SWITCHSPECIFIC, tapi3if/ADDRESS_CAPABILITY_STRING
 ms.topic: enum
+f1_keywords: ["tapi3if/ADDRESS_CAPABILITY_STRING"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

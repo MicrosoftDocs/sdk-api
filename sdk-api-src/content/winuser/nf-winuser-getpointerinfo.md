@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerInfo, GetPointerInfo function [Input Messages and Notifications], inputmsg.getpointerinfo, winuser/GetPointerInfo
 ms.topic: function
+f1_keywords: ["winuser/GetPointerInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

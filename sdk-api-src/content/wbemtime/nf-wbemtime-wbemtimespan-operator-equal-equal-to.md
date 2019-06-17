@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator== method, WBEMTimeSpan.operator-equal-equal-to, WBEMTimeSpan.operator==, WBEMTimeSpan::operator-equal-equal-to, WBEMTimeSpan::operator==, _hmm_wbemtimespan_comparison_operators, operator==, operator== method [Windows Management Instrumentation], operator== method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator==, wmi.wbemtimespan_comparison_operators, wmi.wbemtimespan_comparison_operators_equal
 ms.topic: method
+f1_keywords: ["wbemtime/WBEMTimeSpan.operator=="]
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

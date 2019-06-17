@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSourceFilter, IFileSourceFilter interface [DirectShow], IFileSourceFilter interface [DirectShow],described, IFileSourceFilterInterface, dshow.ifilesourcefilter, strmif/IFileSourceFilter
 ms.topic: interface
+f1_keywords: ["strmif/IFileSourceFilter"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

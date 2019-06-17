@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixMultiplyTranspose, XMMatrixMultiplyTranspose, XMMatrixMultiplyTranspose method [DirectX Math Support APIs], dxmath.xmmatrixmultiplytranspose
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixMultiplyTranspose"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

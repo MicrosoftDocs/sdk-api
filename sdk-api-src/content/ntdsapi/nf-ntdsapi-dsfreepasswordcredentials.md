@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsFreePasswordCredentials, DsFreePasswordCredentials function [Active Directory], _glines_dsfreepasswordcredentials, ad.dsfreepasswordcredentials, ntdsapi/DsFreePasswordCredentials
 ms.topic: function
+f1_keywords: ["ntdsapi/DsFreePasswordCredentials"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

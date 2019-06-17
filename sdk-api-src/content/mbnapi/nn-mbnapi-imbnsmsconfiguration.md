@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks],described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnSmsConfiguration"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

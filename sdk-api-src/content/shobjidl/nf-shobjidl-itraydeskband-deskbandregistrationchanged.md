@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeskBandRegistrationChanged, DeskBandRegistrationChanged method [Windows Shell], DeskBandRegistrationChanged method [Windows Shell],ITrayDeskBand interface, ITrayDeskBand interface [Windows Shell],DeskBandRegistrationChanged method, ITrayDeskBand.DeskBandRegistrationChanged, ITrayDeskBand::DeskBandRegistrationChanged, _shell_ITrayDeskBand_DeskBandRegistrationChanged, shell.ITrayDeskBand_DeskBandRegistrationChanged, shobjidl/ITrayDeskBand::DeskBandRegistrationChanged
 ms.topic: method
+f1_keywords: ["shobjidl/ITrayDeskBand.DeskBandRegistrationChanged"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

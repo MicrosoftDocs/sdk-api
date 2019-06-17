@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerQueryDnsRegCredentials, DhcpServerQueryDnsRegCredentials function [DHCP], dhcp.dhcpserverquerydnsregcredentials, dhcpsapi/DhcpServerQueryDnsRegCredentials
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerQueryDnsRegCredentials"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,described, d3d12shader/ID3D12ShaderReflectionType, direct3d12.id3d12shaderreflectiontype
 ms.topic: interface
+f1_keywords: ["d3d12shader/ID3D12ShaderReflectionType"]
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows

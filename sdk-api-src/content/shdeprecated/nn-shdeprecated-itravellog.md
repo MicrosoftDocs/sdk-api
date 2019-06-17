@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITravelLog, ITravelLog interface [Windows Shell], ITravelLog interface [Windows Shell],described, shdeprecated/ITravelLog, shell.ITravelLog, zone_ITravelLog
 ms.topic: interface
+f1_keywords: ["shdeprecated/ITravelLog"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

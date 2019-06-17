@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerHostNameToPeerName, PeerHostNameToPeerName function [Peer Networking], p2p.peerhostnametopeername, p2p/PeerHostNameToPeerName
 ms.topic: function
+f1_keywords: ["p2p/PeerHostNameToPeerName"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

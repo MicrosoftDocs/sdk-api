@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Document property [Debugging Windows Store apps], Document property [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],Document property, IWebApplicationHost.Document, IWebApplicationHost.get_Document, IWebApplicationHost::Document, IWebApplicationHost::get_Document, debug.iwebapplicationhost_document, get_Document, webapplication/IWebApplicationHost::Document, webapplication/IWebApplicationHost::get_Document
 ms.topic: method
+f1_keywords: ["webapplication/IWebApplicationHost.Document"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

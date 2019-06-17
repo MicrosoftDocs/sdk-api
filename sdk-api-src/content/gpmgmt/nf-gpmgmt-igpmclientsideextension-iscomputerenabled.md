@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMClientSideExtension object [GPMC],IsComputerEnabled method, IGPMClientSideExtension interface [GPMC],IsComputerEnabled method, IGPMClientSideExtension.IsComputerEnabled, IGPMClientSideExtension::IsComputerEnabled, IsComputerEnabled, IsComputerEnabled method [GPMC], IsComputerEnabled method [GPMC],GPMClientSideExtension object, IsComputerEnabled method [GPMC],IGPMClientSideExtension interface, _win32_igpmclientsideextension_iscomputerenabled, gpmc.igpmclientsideextension_iscomputerenabled, gpmgmt/IGPMClientSideExtension::IsComputerEnabled
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMClientSideExtension.IsComputerEnabled"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

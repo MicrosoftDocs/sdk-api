@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
 ms.topic: function
+f1_keywords: ["jobapi2/QueryIoRateControlInformationJobObject"]
 req.header: jobapi2.h
 req.include-header: 
 req.target-type: Windows

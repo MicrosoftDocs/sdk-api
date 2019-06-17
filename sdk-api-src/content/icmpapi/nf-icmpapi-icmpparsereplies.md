@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IcmpParseReplies, IcmpParseReplies function [IP Helper], _iphlp_icmpparsereplies, icmpapi/IcmpParseReplies, iphlp.icmpparsereplies
 ms.topic: function
+f1_keywords: ["icmpapi/IcmpParseReplies"]
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows

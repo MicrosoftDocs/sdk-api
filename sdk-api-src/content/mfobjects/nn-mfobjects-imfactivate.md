@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
 ms.topic: interface
+f1_keywords: ["mfobjects/IMFActivate"]
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

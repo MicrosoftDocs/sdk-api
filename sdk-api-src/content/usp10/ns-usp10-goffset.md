@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GOFFSET, GOFFSET structure [Internationalization for Windows Applications], _win32_GOFFSET_str, intl.goffset, usp10/GOFFSET
 ms.topic: struct
+f1_keywords: ["usp10/GOFFSET"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

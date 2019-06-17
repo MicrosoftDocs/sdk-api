@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWscProduct interface [Windows API],get_RemediationPath method, IWscProduct.get_RemediationPath, IWscProduct::get_RemediationPath, get_RemediationPath, get_RemediationPath method [Windows API], get_RemediationPath method [Windows API],IWscProduct interface, iwscapi/IWscProduct::get_RemediationPath, winprog.iwscproduct_remediationpath
 ms.topic: method
+f1_keywords: ["iwscapi/IWscProduct.get_RemediationPath"]
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

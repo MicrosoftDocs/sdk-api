@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPEXTLOGFONTW, *NPEXTLOGFONTW, *PEXTLOGFONTW, EXTLOGFONT, EXTLOGFONT structure [Windows GDI], EXTLOGFONTA, EXTLOGFONTW, PEXTLOGFONT, PEXTLOGFONT structure pointer [Windows GDI], _win32_EXTLOGFONT_str, gdi.extlogfont, wingdi/EXTLOGFONT, wingdi/EXTLOGFONTA, wingdi/EXTLOGFONTW, wingdi/PEXTLOGFONT"
 ms.topic: struct
+f1_keywords: ["wingdi/EXTLOGFONT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

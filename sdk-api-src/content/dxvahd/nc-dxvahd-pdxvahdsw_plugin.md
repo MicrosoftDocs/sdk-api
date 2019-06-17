@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_Plugin, PDXVAHDSW_Plugin callback, PDXVAHDSW_Plugin callback function [Media Foundation], dxvahd/PDXVAHDSW_Plugin, mf.pdxvahdsw_plugin
 ms.topic: callback
+f1_keywords: ["dxvahd/PDXVAHDSW_Plugin"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

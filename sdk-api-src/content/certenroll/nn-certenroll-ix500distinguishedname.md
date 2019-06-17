@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
 ms.topic: interface
+f1_keywords: ["certenroll/IX500DistinguishedName"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

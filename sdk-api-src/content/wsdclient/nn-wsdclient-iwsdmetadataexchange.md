@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDMetadataExchange, IWSDMetadataExchange interface, IWSDMetadataExchange interface,described, ncd.iwsdmetadataexchange, wsdclient/IWSDMetadataExchange
 ms.topic: interface
+f1_keywords: ["wsdclient/IWSDMetadataExchange"]
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

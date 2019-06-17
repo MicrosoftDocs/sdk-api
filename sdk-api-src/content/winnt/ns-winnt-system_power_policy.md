@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY, PSYSTEM_POWER_POLICY structure pointer, SYSTEM_POWER_POLICY, SYSTEM_POWER_POLICY structure, _SYSTEM_POWER_POLICY, _win32_system_power_policy_str, base.system_power_policy_str, winnt/PSYSTEM_POWER_POLICY, winnt/SYSTEM_POWER_POLICY"
 ms.topic: struct
+f1_keywords: ["winnt/SYSTEM_POWER_POLICY"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

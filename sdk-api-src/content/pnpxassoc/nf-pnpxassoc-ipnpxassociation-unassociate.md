@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation interface,Unassociate method, IPNPXAssociation.Unassociate, IPNPXAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXAssociation interface, ncd.ipnpxassociation_unassociate, pnpxassoc/IPNPXAssociation::Unassociate
 ms.topic: method
+f1_keywords: ["pnpxassoc/IPNPXAssociation.Unassociate"]
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

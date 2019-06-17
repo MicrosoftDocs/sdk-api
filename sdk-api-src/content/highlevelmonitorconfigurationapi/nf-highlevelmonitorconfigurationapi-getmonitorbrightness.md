@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMonitorBrightness, GetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorBrightness, monitor.getmonitorbrightness
 ms.topic: function
+f1_keywords: ["highlevelmonitorconfigurationapi/GetMonitorBrightness"]
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

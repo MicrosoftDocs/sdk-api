@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],KeyboardShortcut property, ILegacyIAccessibleProvider.KeyboardShortcut, ILegacyIAccessibleProvider.get_KeyboardShortcut, ILegacyIAccessibleProvider::KeyboardShortcut, ILegacyIAccessibleProvider::get_KeyboardShortcut, KeyboardShortcut property [Windows Accessibility], KeyboardShortcut property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_KeyboardShortcut, uiauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiauto_ILegacyIAccessibleProvider_KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::KeyboardShortcut, uiautomationcore/ILegacyIAccessibleProvider::get_KeyboardShortcut, winauto.uiauto_ILegacyIAccessibleProvider_KeyboardShortcut
 ms.topic: method
+f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.KeyboardShortcut"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

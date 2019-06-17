@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetScaleFactor method, IApplicationDesignModeSettings.SetScaleFactor, IApplicationDesignModeSettings::SetScaleFactor, SetScaleFactor, SetScaleFactor method [Windows Shell], SetScaleFactor method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetScaleFactor, shobjidl_core/IApplicationDesignModeSettings::SetScaleFactor
 ms.topic: method
+f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings.SetScaleFactor"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

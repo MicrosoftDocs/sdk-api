@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: XMUBYTEN4::operator=
 ms.topic: language-reference
+f1_keywords: ["directxpackedvector/XMUBYTEN4::operator="]
 targetos: Windows
 product: Windows
 req.assembly: 

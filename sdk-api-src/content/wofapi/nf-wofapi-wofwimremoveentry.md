@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofWimRemoveEntry, WofWimRemoveEntry function [Files], fs.wofwimremoveentry, wofapi/WofWimRemoveEntry
 ms.topic: function
+f1_keywords: ["wofapi/WofWimRemoveEntry"]
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMPAREITEMSTRUCT, *PCOMPAREITEMSTRUCT, COMPAREITEMSTRUCT, COMPAREITEMSTRUCT structure [Windows Controls], _win32_COMPAREITEMSTRUCT_str, _win32_COMPAREITEMSTRUCT_str_cpp, controls.COMPAREITEMSTRUCT, controls._win32_COMPAREITEMSTRUCT_str, winuser/COMPAREITEMSTRUCT"
 ms.topic: struct
+f1_keywords: ["winuser/COMPAREITEMSTRUCT"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

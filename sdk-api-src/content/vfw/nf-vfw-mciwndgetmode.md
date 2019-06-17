@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetMode, MCIWndGetMode macro [Windows Multimedia], _win32_MCIWndGetMode, multimedia.mciwndgetmode, vfw/MCIWndGetMode
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndGetMode"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

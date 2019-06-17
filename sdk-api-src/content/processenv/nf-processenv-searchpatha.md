@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: SearchPath, SearchPath function [Files], SearchPathA, SearchPathW, _win32_searchpath, base.searchpath, fs.searchpath, processenv/SearchPath, processenv/SearchPathA, processenv/SearchPathW
 ms.topic: function
+f1_keywords: ["processenv/SearchPath"]
 req.header: processenv.h
 req.include-header: Windows.h
 req.target-type: Windows

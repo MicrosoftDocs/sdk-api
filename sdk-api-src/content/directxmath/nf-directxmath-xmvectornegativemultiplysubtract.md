@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNegativeMultiplySubtract, XMVectorNegativeMultiplySubtract, XMVectorNegativeMultiplySubtract method [DirectX Math Support APIs], dxmath.xmvectornegativemultiplysubtract
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorNegativeMultiplySubtract"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

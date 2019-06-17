@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSTT, GetSTT method [Microsoft TV Technologies], GetSTT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetSTT method, IAtscPsipParser.GetSTT, IAtscPsipParser::GetSTT, IAtscPsipParserGetSTT, atscpsipparser/IAtscPsipParser::GetSTT, mstv.iatscpsipparser_getstt
 ms.topic: method
+f1_keywords: ["atscpsipparser/IAtscPsipParser.GetSTT"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

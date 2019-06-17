@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UuidFromString, UuidFromString function [RPC], UuidFromStringA, UuidFromStringW, _rpc_uuidfromstring, rpc.uuidfromstring, rpcdce/UuidFromString, rpcdce/UuidFromStringA, rpcdce/UuidFromStringW
 ms.topic: function
+f1_keywords: ["rpcdce/UuidFromString"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

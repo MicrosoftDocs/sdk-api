@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConditionGenerator, IConditionGenerator interface [search], IConditionGenerator interface [search],described, _search_IConditionGenerator, search._search_IConditionGenerator, structuredquery/IConditionGenerator
 ms.topic: interface
+f1_keywords: ["structuredquery/IConditionGenerator"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

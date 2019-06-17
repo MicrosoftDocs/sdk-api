@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMClientConnections2, IWMClientConnections2 interface [windows Media Format], IWMClientConnections2 interface [windows Media Format],described, IWMClientConnections2Interface, wmformat.iwmclientconnections2, wmsdkidl/IWMClientConnections2
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMClientConnections2"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

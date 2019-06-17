@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxMajorVersionTested, GetMaxMajorVersionTested method [App packaging and management], GetMaxMajorVersionTested method [App packaging and management],IAppxManifestPackageDependency2 interface, IAppxManifestPackageDependency2 interface [App packaging and management],GetMaxMajorVersionTested method, IAppxManifestPackageDependency2.GetMaxMajorVersionTested, IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpackaging/IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpkg.iappxmanifestpackagedependency2_getmaxmajorversiontested
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxManifestPackageDependency2.GetMaxMajorVersionTested"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

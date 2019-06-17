@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFindSimilarResults, IFindSimilarResults interface [Remote Differential Compression], IFindSimilarResults interface [Remote Differential Compression],described, fs.ifindsimilarresults, msrdc/IFindSimilarResults, rdc.ifindsimilarresults
 ms.topic: interface
+f1_keywords: ["msrdc/IFindSimilarResults"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

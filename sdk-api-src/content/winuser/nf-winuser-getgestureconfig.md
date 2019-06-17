@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGestureConfig, GetGestureConfig function [Windows Touch], wintouch.getgestureconfig, winuser/GetGestureConfig
 ms.topic: function
+f1_keywords: ["winuser/GetGestureConfig"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

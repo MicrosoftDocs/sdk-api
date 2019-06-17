@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrPBrk, StrPBrk function [Windows Shell], StrPBrkA, StrPBrkW, _win32_StrPBrk, shell.StrPBrk, shlwapi/StrPBrk, shlwapi/StrPBrkA, shlwapi/StrPBrkW
 ms.topic: function
+f1_keywords: ["shlwapi/StrPBrk"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

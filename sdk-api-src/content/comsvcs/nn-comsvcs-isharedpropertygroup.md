@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup, ISharedPropertyGroup interface [COM+], ISharedPropertyGroup interface [COM+],described, _cos_ISharedPropertyGroup, comsvcs/ISharedPropertyGroup, cos.isharedpropertygroup
 ms.topic: interface
+f1_keywords: ["comsvcs/ISharedPropertyGroup"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

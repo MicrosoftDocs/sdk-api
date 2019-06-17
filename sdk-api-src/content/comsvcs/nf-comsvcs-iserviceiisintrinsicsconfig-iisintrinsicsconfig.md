@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISIntrinsicsConfig, IISIntrinsicsConfig method [COM+], IISIntrinsicsConfig method [COM+],IServiceIISIntrinsicsConfig interface, IServiceIISIntrinsicsConfig interface [COM+],IISIntrinsicsConfig method, IServiceIISIntrinsicsConfig.IISIntrinsicsConfig, IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, _cos_IServiceIISIntrinsicsConfig_IISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig_iisintrinsicsconfig
 ms.topic: method
+f1_keywords: ["comsvcs/IServiceIISIntrinsicsConfig.IISIntrinsicsConfig"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

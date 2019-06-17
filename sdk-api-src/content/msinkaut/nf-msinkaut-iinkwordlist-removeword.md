@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8bb88cad-7c63-4c2f-9aa1-96eae3a2e89d, IInkWordList, IInkWordList interface [Tablet PC],RemoveWord method, IInkWordList.RemoveWord, IInkWordList::RemoveWord, InkWordList class [Tablet PC],RemoveWord method, RemoveWord, RemoveWord method [Tablet PC], RemoveWord method [Tablet PC],IInkWordList interface, RemoveWord method [Tablet PC],InkWordList class, msinkaut/IInkWordList::RemoveWord, tablet.inkwordlist_removeword
 ms.topic: method
+f1_keywords: ["msinkaut/IInkWordList.RemoveWord"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

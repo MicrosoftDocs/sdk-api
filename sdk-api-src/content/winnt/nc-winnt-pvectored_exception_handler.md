@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PVECTORED_EXCEPTION_HANDLER, VectoredHandler, VectoredHandler callback, VectoredHandler callback function, _win32_vectoredhandler, base.vectoredhandler, winnt/VectoredHandler
 ms.topic: callback
+f1_keywords: ["winnt/VectoredHandler"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

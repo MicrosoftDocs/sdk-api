@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClientInfo, GetClientInfo callback function [Security], LSA_GET_CLIENT_INFO, LSA_GET_CLIENT_INFO callback, _ssp_getclientinfo, ntsecpkg/GetClientInfo, security.getclientinfo
 ms.topic: callback
+f1_keywords: ["ntsecpkg/GetClientInfo"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_MAPPING_FLAG, D3D11_TILE_MAPPING_FLAG enumeration [Direct3D 11], D3D11_TILE_MAPPING_NO_OVERWRITE, d3d11_2/D3D11_TILE_MAPPING_FLAG, d3d11_2/D3D11_TILE_MAPPING_NO_OVERWRITE, direct3d11.d3d11_tile_mapping_flags
 ms.topic: enum
+f1_keywords: ["d3d11_2/D3D11_TILE_MAPPING_FLAG"]
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

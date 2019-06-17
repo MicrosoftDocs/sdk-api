@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspInformations interface [Security],Remove method, ICspInformations.Remove, ICspInformations::Remove, Remove, Remove method [Security], Remove method [Security],ICspInformations interface, certenroll/ICspInformations::Remove, security.icspinformations_remove_method
 ms.topic: method
+f1_keywords: ["certenroll/ICspInformations.Remove"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

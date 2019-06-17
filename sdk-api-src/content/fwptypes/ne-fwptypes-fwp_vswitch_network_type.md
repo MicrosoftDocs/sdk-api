@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_VSWITCH_NETWORK_TYPE, FWP_VSWITCH_NETWORK_TYPE enumeration [Filtering], FWP_VSWITCH_NETWORK_TYPE_EXTERNAL, FWP_VSWITCH_NETWORK_TYPE_INTERNAL, FWP_VSWITCH_NETWORK_TYPE_PRIVATE, FWP_VSWITCH_NETWORK_TYPE_UNKNOWN, fwp.fwp_vswitch_network_type, fwptypes/FWP_VSWITCH_NETWORK_TYPE, fwptypes/FWP_VSWITCH_NETWORK_TYPE_EXTERNAL, fwptypes/FWP_VSWITCH_NETWORK_TYPE_INTERNAL, fwptypes/FWP_VSWITCH_NETWORK_TYPE_PRIVATE, fwptypes/FWP_VSWITCH_NETWORK_TYPE_UNKNOWN
 ms.topic: enum
+f1_keywords: ["fwptypes/FWP_VSWITCH_NETWORK_TYPE"]
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

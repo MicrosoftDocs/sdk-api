@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications],described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
 ms.topic: interface
+f1_keywords: ["spellcheck/IUserDictionariesRegistrar"]
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

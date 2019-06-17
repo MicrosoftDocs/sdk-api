@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShortToULong, ShortToULong function [Windows Shell], intsafe/ShortToULong, shell.ShortToULong
 ms.topic: function
+f1_keywords: ["intsafe/ShortToULong"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

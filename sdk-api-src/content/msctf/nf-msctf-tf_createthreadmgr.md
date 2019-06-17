@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_CreateThreadMgr, TF_CreateThreadMgr function [Text Services Framework], msctf/TF_CreateThreadMgr, tsf.tf_createthreadmgr
 ms.topic: function
+f1_keywords: ["msctf/TF_CreateThreadMgr"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

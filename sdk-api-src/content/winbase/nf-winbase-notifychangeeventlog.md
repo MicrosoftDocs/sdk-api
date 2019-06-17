@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog
 ms.topic: function
+f1_keywords: ["winbase/NotifyChangeEventLog"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

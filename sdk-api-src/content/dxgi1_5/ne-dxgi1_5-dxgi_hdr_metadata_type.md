@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_HDR_METADATA_TYPE, DXGI_HDR_METADATA_TYPE enumeration [DXGI], DXGI_HDR_METADATA_TYPE_HDR10, DXGI_HDR_METADATA_TYPE_NONE, direct3ddxgi.dxgi_hdr_metadata_type, dxgi1_5/DXGI_HDR_METADATA_TYPE, dxgi1_5/DXGI_HDR_METADATA_TYPE_HDR10, dxgi1_5/DXGI_HDR_METADATA_TYPE_NONE
 ms.topic: enum
+f1_keywords: ["dxgi1_5/DXGI_HDR_METADATA_TYPE"]
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspendInfo, IOfflineFilesSuspendInfo interface [Offline Files], IOfflineFilesSuspendInfo interface [Offline Files],described, cscobj/IOfflineFilesSuspendInfo, of.iofflinefilessuspendinfo
 ms.topic: interface
+f1_keywords: ["cscobj/IOfflineFilesSuspendInfo"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

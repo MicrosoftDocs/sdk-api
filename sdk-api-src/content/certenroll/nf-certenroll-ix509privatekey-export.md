@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, BCRYPT_PUBLIC_KEY_BLOB, Export, Export method [Security], Export method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Export method, IX509PrivateKey.Export, IX509PrivateKey::Export, certenroll/IX509PrivateKey::Export, security.ix509privatekey_export_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509PrivateKey.Export"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

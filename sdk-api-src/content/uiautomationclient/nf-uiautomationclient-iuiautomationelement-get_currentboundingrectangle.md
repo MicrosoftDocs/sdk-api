@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentBoundingRectangle property [Windows Accessibility], CurrentBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentBoundingRectangle property, IUIAutomationElement.CurrentBoundingRectangle, IUIAutomationElement.get_CurrentBoundingRectangle, IUIAutomationElement::CurrentBoundingRectangle, IUIAutomationElement::get_CurrentBoundingRectangle, get_CurrentBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiauto_IUIAutomationElement_CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::CurrentBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CurrentBoundingRectangle, winauto.uiauto_IUIAutomationElement_CurrentBoundingRectangle
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentBoundingRectangle"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

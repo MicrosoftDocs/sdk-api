@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentStatus, IX509EnrollmentStatus interface [Security], IX509EnrollmentStatus interface [Security],described, certenroll/IX509EnrollmentStatus, security.ix509enrollmentstatus
 ms.topic: interface
+f1_keywords: ["certenroll/IX509EnrollmentStatus"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

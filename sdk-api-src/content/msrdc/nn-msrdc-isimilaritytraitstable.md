@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], ISimilarityTraitsTable interface [Remote Differential Compression],described, fs.isimilaritytraitstable, msrdc/ISimilarityTraitsTable, rdc.isimilaritytraitstable
 ms.topic: interface
+f1_keywords: ["msrdc/ISimilarityTraitsTable"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

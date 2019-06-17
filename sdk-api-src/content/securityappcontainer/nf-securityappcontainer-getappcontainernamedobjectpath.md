@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerNamedObjectPath, GetAppContainerNamedObjectPath function [Security], security.getappcontainernamedobjectpath, securityappcontainer/GetAppContainerNamedObjectPath
 ms.topic: function
+f1_keywords: ["securityappcontainer/GetAppContainerNamedObjectPath"]
 req.header: securityappcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEffectivePermission, IEffectivePermission interface [Security], IEffectivePermission interface [Security],described, aclui/IEffectivePermission, security.ieffectivepermission
 ms.topic: interface
+f1_keywords: ["aclui/IEffectivePermission"]
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetRect, Edit_SetRect macro [Windows Controls], _win32_Edit_SetRect, _win32_Edit_SetRect_cpp, controls.Edit_SetRect, controls._win32_Edit_SetRect, windowsx/Edit_SetRect
 ms.topic: macro
+f1_keywords: ["windowsx/Edit_SetRect"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoAddRefServerProcess, CoAddRefServerProcess function [COM], _com_CoAddRefServerProcess, com.coaddrefserverprocess, combaseapi/CoAddRefServerProcess
 ms.topic: function
+f1_keywords: ["combaseapi/CoAddRefServerProcess"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

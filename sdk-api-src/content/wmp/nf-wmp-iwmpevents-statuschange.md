@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],StatusChange method, IWMPEvents.StatusChange, IWMPEvents::StatusChange, IWMPEventsStatusChange, StatusChange, StatusChange method [Windows Media Player], StatusChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__statuschange, wmp/IWMPEvents::StatusChange
 ms.topic: method
+f1_keywords: ["wmp/IWMPEvents.StatusChange"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

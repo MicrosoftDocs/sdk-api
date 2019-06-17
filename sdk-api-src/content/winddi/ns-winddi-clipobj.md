@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ, CLIPOBJ structure [Display Devices], display.clipobj, grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml, winddi/CLIPOBJ
 ms.topic: struct
+f1_keywords: ["winddi/CLIPOBJ"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

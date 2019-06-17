@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DropEffect property [Windows Accessibility], DropEffect property [Windows Accessibility],IDragProvider interface, IDragProvider interface [Windows Accessibility],DropEffect property, IDragProvider.DropEffect, IDragProvider.get_DropEffect, IDragProvider::DropEffect, IDragProvider::get_DropEffect, get_DropEffect, uiautomationcore/IDragProvider::DropEffect, uiautomationcore/IDragProvider::get_DropEffect, winauto.uiauto_idragprovider_dropeffect
 ms.topic: method
+f1_keywords: ["uiautomationcore/IDragProvider.DropEffect"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOverlayInfo, GetOverlayInfo method [Windows Shell], GetOverlayInfo method [Windows Shell],IShellIconOverlayIdentifier interface, ISIOI_ICONFILE, ISIOI_ICONINDEX, IShellIconOverlayIdentifier interface [Windows Shell],GetOverlayInfo method, IShellIconOverlayIdentifier.GetOverlayInfo, IShellIconOverlayIdentifier::GetOverlayInfo, _win32_IShellIconOverlayIdentifier_GetOverlayInfo, shell.IShellIconOverlayIdentifier_GetOverlayInfo, shobjidl_core/IShellIconOverlayIdentifier::GetOverlayInfo
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellIconOverlayIdentifier.GetOverlayInfo"]
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

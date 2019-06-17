@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], IConfigAviMux interface [DirectShow],described, IConfigAviMuxInterface, dshow.iconfigavimux, strmif/IConfigAviMux
 ms.topic: interface
+f1_keywords: ["strmif/IConfigAviMux"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

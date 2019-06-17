@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
 ms.topic: function
+f1_keywords: ["comppkgsup/UnregisterServerForPMP"]
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

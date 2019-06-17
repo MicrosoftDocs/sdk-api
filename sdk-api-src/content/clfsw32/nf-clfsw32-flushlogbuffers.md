@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlushLogBuffers, FlushLogBuffers function [Files], clfsw32/FlushLogBuffers, fs.flushlogbuffers
 ms.topic: function
+f1_keywords: ["clfsw32/FlushLogBuffers"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

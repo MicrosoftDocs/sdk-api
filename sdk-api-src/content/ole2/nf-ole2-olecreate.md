@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
 ms.topic: function
+f1_keywords: ["ole2/OleCreate"]
 req.header: ole2.h
 req.include-header: Ole2.h
 req.target-type: Windows

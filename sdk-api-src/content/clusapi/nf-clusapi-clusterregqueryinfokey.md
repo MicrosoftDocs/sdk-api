@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegQueryInfoKey, ClusterRegQueryInfoKey function [Failover Cluster], _wolf_clusterregqueryinfokey, clusapi/ClusterRegQueryInfoKey, mscs.clusterregqueryinfokey
 ms.topic: function
+f1_keywords: ["clusapi/ClusterRegQueryInfoKey"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

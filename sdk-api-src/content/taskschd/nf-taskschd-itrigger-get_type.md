@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITrigger interface [Task Scheduler],Type property, ITrigger.Type, ITrigger.get_Type, ITrigger::Type, ITrigger::get_Type, TASK_TRIGGER_BOOT, TASK_TRIGGER_DAILY, TASK_TRIGGER_EVENT, TASK_TRIGGER_IDLE, TASK_TRIGGER_LOGON, TASK_TRIGGER_MONTHLY, TASK_TRIGGER_MONTHLYDOW, TASK_TRIGGER_REGISTRATION, TASK_TRIGGER_SESSION_STATE_CHANGE, TASK_TRIGGER_TIME, TASK_TRIGGER_WEEKLY, Type property [Task Scheduler], Type property [Task Scheduler],ITrigger interface, get_Type, taskschd.itrigger_type, taskschd/ITrigger::Type, taskschd/ITrigger::get_Type
 ms.topic: method
+f1_keywords: ["taskschd/ITrigger.Type"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

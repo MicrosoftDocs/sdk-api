@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LockResource, LockResource function [Menus and Other Resources], _win32_LockResource, _win32_lockresource_cpp, libloaderapi/LockResource, menurc.lockresource, winui._win32_lockresource
 ms.topic: function
+f1_keywords: ["libloaderapi/LockResource"]
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

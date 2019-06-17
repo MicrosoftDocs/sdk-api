@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AmsiUninitialize, AmsiUninitialize function [Antimalware Scan Interface], amsi.amsiuninitialize, amsi/AmsiUninitialize
 ms.topic: function
+f1_keywords: ["amsi/AmsiUninitialize"]
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

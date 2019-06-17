@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDDGETCURRENTAUTOFLIPOUTINFO, DDGETCURRENTAUTOFLIPOUTINFO, DDGETCURRENTAUTOFLIPOUTINFO structure [Display Devices], PDDGETCURRENTAUTOFLIPOUTINFO, PDDGETCURRENTAUTOFLIPOUTINFO structure pointer [Display Devices], Video_Structs_2e52113e-1796-45bf-bd0b-d0e373679f15.xml, display.ddgetcurrentautoflipoutinfo, dxmini/DDGETCURRENTAUTOFLIPOUTINFO, dxmini/PDDGETCURRENTAUTOFLIPOUTINFO"
 ms.topic: struct
+f1_keywords: ["dxmini/DDGETCURRENTAUTOFLIPOUTINFO"]
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

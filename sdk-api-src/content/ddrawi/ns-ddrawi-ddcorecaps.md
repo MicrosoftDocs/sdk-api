@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDCORECAPS, DDCORECAPS, DDCORECAPS structure [Display Devices], ddrawi/DDCORECAPS, ddstrcts_c5f9b49c-9c33-453b-af30-1f2ed36d5851.xml, display.ddcorecaps"
 ms.topic: struct
+f1_keywords: ["ddrawi/DDCORECAPS"]
 req.header: ddrawi.h
 req.include-header: Ddrawi.h
 req.target-type: Windows

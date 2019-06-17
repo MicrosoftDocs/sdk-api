@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
 ms.topic: interface
+f1_keywords: ["structuredquery/IInterval"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

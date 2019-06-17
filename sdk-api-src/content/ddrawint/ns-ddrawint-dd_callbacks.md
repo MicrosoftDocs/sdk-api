@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_CALLBACKS, DD_CALLBACKS, DD_CALLBACKS structure [Display Devices], ddrawint/DD_CALLBACKS, ddstrcts_c4da6934-e140-40db-b7dc-686c205cb877.xml, display.dd_callbacks"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_CALLBACKS"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

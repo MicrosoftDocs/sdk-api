@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections interface [COM],Skip method, IEnumConnections.Skip, IEnumConnections::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnections interface, _com_ienumconnections_skip, com.ienumconnections_skip, ocidl/IEnumConnections::Skip
 ms.topic: method
+f1_keywords: ["ocidl/IEnumConnections.Skip"]
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

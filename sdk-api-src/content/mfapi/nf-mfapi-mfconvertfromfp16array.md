@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5cc11d32-8dcd-491d-b3df-c0b061233038, MFConvertFromFP16Array, MFConvertFromFP16Array function [Media Foundation], mf.mfconvertfromfp16array, mfapi/MFConvertFromFP16Array
 ms.topic: function
+f1_keywords: ["mfapi/MFConvertFromFP16Array"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

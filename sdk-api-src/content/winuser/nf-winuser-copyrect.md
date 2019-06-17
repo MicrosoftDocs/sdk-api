@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyRect, CopyRect function [Windows GDI], _win32_CopyRect, gdi.copyrect, winuser/CopyRect
 ms.topic: function
+f1_keywords: ["winuser/CopyRect"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

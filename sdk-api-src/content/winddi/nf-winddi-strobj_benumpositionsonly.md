@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STROBJ_bEnumPositionsOnly, STROBJ_bEnumPositionsOnly function [Display Devices], display.strobj_benumpositionsonly, gdifncs_acadb73a-d6b2-4af7-9727-3e5424d30549.xml, winddi/STROBJ_bEnumPositionsOnly
 ms.topic: function
+f1_keywords: ["winddi/STROBJ_bEnumPositionsOnly"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

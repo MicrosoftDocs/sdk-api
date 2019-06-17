@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetBitmapDimensionEx, SetBitmapDimensionEx function [Windows GDI], _win32_SetBitmapDimensionEx, gdi.setbitmapdimensionex, wingdi/SetBitmapDimensionEx
 ms.topic: function
+f1_keywords: ["wingdi/SetBitmapDimensionEx"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

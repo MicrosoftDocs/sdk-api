@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkCostManager, INetworkCostManager interface [Network Awareness], INetworkCostManager interface [Network Awareness],described, netlistmgr/INetworkCostManager, nla.inetworkcostmanager
 ms.topic: interface
+f1_keywords: ["netlistmgr/INetworkCostManager"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

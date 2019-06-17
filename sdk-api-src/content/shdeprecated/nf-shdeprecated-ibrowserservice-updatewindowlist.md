@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],UpdateWindowList method, IBrowserService.UpdateWindowList, IBrowserService::UpdateWindowList, UpdateWindowList, UpdateWindowList method [Windows Shell], UpdateWindowList method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateWindowList, shell.IBrowserService_UpdateWindowList, zone_IBrowserService_UpdateWindowList
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService.UpdateWindowList"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusWorkersTerminate, ClusWorkersTerminate function [Failover Cluster], mscs.clusworkersterminate, resapi/ClusWorkersTerminate
 ms.topic: function
+f1_keywords: ["resapi/ClusWorkersTerminate"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

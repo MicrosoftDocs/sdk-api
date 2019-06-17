@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1f603794-3b6a-4e8f-9804-fa4c85d82d1c, IInkRecognitionAlternate interface [Tablet PC],String property, IInkRecognitionAlternate.String, IInkRecognitionAlternate.get_String, IInkRecognitionAlternate::String, IInkRecognitionAlternate::get_String, String property [Tablet PC], String property [Tablet PC],IInkRecognitionAlternate interface, get_String, msinkaut/IInkRecognitionAlternate::String, msinkaut/IInkRecognitionAlternate::get_String, tablet.iinkrecognitionalternate_string
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognitionAlternate.String"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTimerQueue, CreateTimerQueue function, _win32_createtimerqueue, base.createtimerqueue, threadpoollegacyapiset/CreateTimerQueue, winbase/CreateTimerQueue
 ms.topic: function
+f1_keywords: ["threadpoollegacyapiset/CreateTimerQueue"]
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

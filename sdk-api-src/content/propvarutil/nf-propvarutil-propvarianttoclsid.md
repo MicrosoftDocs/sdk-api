@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToCLSID"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

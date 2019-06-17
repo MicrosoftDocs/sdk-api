@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetPipelineState method, ID3D12GraphicsCommandList.SetPipelineState, ID3D12GraphicsCommandList::SetPipelineState, SetPipelineState, SetPipelineState method, SetPipelineState method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetPipelineState, direct3d12.id3d12graphicscommandlist_setpipelinestate
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12GraphicsCommandList.SetPipelineState"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

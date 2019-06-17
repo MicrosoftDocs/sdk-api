@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_RECALL_FILE, FSCTL_RECALL_FILE control, FSCTL_RECALL_FILE control code [Files], _win32_fsctl_recall_file, base.fsctl_recall_file, fs.fsctl_recall_file, winioctl/FSCTL_RECALL_FILE
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_RECALL_FILE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

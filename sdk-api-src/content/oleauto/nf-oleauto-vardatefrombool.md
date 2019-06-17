@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDateFromBool, VarDateFromBool function [Automation], _oa96_VarDateFromBool, automat.vardatefrombool, oleauto/VarDateFromBool
 ms.topic: function
+f1_keywords: ["oleauto/VarDateFromBool"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

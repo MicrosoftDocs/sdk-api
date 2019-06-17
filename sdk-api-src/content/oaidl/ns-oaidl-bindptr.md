@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPBINDPTR, BINDPTR, BINDPTR structure [Automation], LPBINDPTR, LPBINDPTR structure pointer [Automation], _oa96_BINDPTR, automat.bindptr, oaidl/BINDPTR, oaidl/LPBINDPTR"
 ms.topic: struct
+f1_keywords: ["oaidl/BINDPTR"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

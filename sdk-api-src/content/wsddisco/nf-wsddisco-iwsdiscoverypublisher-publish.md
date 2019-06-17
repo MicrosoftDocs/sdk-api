@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,Publish method, IWSDiscoveryPublisher.Publish, IWSDiscoveryPublisher::Publish, Publish, Publish method, Publish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publish_method, wsddisco/IWSDiscoveryPublisher::Publish
 ms.topic: method
+f1_keywords: ["wsddisco/IWSDiscoveryPublisher.Publish"]
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

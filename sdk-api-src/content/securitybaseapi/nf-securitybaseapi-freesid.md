@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeSid, FreeSid function [Security], _win32_freesid, security.freesid, securitybaseapi/FreeSid
 ms.topic: function
+f1_keywords: ["securitybaseapi/FreeSid"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

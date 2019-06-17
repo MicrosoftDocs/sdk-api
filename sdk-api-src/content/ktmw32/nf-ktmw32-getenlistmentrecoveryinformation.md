@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEnlistmentRecoveryInformation, GetEnlistmentRecoveryInformation function [Files], fs.getenlistmentrecoveryinformation_func, ktmw32/GetEnlistmentRecoveryInformation
 ms.topic: function
+f1_keywords: ["ktmw32/GetEnlistmentRecoveryInformation"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

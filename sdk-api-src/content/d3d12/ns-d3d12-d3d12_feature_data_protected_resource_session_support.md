@@ -5,6 +5,7 @@ description: Indicates the level of support for protected resource sessions.
 ms.date: 05/20/2019
 ms.keywords: D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT
 ms.topic: language-reference
+f1_keywords: ["d3d12/D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

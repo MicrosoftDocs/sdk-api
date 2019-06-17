@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIfTable2Ex, GetIfTable2Ex function [IP Helper], MibIfTableNormal, MibIfTableRaw, iphlp.getiftable2ex, netioapi/GetIfTable2Ex
 ms.topic: function
+f1_keywords: ["netioapi/GetIfTable2Ex"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

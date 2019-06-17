@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_MoveGroup, ListView_MoveGroup macro [Windows Controls], _win32_ListView_MoveGroup, _win32_ListView_MoveGroup_cpp, commctrl/ListView_MoveGroup, controls.ListView_MoveGroup, controls._win32_ListView_MoveGroup
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_MoveGroup"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

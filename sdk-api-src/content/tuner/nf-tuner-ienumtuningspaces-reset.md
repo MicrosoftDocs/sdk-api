@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Reset method, IEnumTuningSpaces.Reset, IEnumTuningSpaces::Reset, IEnumTuningSpacesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_reset, tuner/IEnumTuningSpaces::Reset
 ms.topic: method
+f1_keywords: ["tuner/IEnumTuningSpaces.Reset"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

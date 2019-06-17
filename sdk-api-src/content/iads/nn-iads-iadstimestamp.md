@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsTimestamp, IADsTimestamp interface [ADSI], IADsTimestamp interface [ADSI],described, Timestamp, _ds_iadstimestamp, adsi.iadstimestamp, iads/IADsTimestamp
 ms.topic: interface
+f1_keywords: ["iads/IADsTimestamp"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

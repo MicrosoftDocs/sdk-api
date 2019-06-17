@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreateClip, EngCreateClip function [Display Devices], display.engcreateclip, gdifncs_e1faed88-1f89-49c2-871e-097e56db1a10.xml, winddi/EngCreateClip
 ms.topic: function
+f1_keywords: ["winddi/EngCreateClip"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

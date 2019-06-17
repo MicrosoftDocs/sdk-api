@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICENEXTEX, NSPv2LookupServiceNextEx, NSPv2LookupServiceNextEx function [Winsock], winsock.nspv2lookupservicenextex, ws2spi/NSPv2LookupServiceNextEx
 ms.topic: callback
+f1_keywords: ["ws2spi/NSPv2LookupServiceNextEx"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

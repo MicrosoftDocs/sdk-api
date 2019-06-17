@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL, DD_CLIPPER_GLOBAL structure [Display Devices], ddrawint/DD_CLIPPER_GLOBAL, ddstrcts_62e4fd83-7d6b-488e-aa96-ac6ad24ae4c0.xml, display.dd_clipper_global"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_CLIPPER_GLOBAL"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

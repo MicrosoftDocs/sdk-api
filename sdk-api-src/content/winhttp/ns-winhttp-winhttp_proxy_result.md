@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_PROXY_RESULT, WINHTTP_PROXY_RESULT structure [HTTP], http.winhttp_proxy_result, winhttp/WINHTTP_PROXY_RESULT
 ms.topic: struct
+f1_keywords: ["winhttp/WINHTTP_PROXY_RESULT"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

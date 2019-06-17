@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Shell], GetPath method [Windows Shell],IShellLink interface, GetPath method [Windows Shell],IShellLinkA interface, GetPath method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetPath method, IShellLink::GetPath, IShellLinkA interface [Windows Shell],GetPath method, IShellLinkA::GetPath, IShellLinkW interface [Windows Shell],GetPath method, IShellLinkW.GetPath, IShellLinkW::GetPath, SLGP_RAWPATH, SLGP_RELATIVEPRIORITY, SLGP_SHORTPATH, SLGP_UNCPRIORITY, _win32_IShellLink_GetPath, shell.IShellLink_GetPath, shobjidl_core/IShellLink::GetPath, shobjidl_core/IShellLinkA::GetPath, shobjidl_core/IShellLinkW::GetPath
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.GetPath"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

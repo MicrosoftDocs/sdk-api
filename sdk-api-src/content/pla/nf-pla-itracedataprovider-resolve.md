@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Resolve method, ITraceDataProvider.Resolve, ITraceDataProvider::Resolve, Resolve, Resolve method [PLA], Resolve method [PLA],ITraceDataProvider interface, base.itracedataprovider_resolve, pla.itracedataprovider_resolve, pla/ITraceDataProvider::Resolve
 ms.topic: method
+f1_keywords: ["pla/ITraceDataProvider.Resolve"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

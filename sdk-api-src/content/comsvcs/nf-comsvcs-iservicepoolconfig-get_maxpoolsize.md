@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_MaxPoolSize method, IServicePoolConfig.get_MaxPoolSize, IServicePoolConfig::get_MaxPoolSize, comsvcs/IServicePoolConfig::get_MaxPoolSize, cos.iservicepoolconfig_get_maxpoolsize, get_MaxPoolSize, get_MaxPoolSize method [COM+], get_MaxPoolSize method [COM+],IServicePoolConfig interface
 ms.topic: method
+f1_keywords: ["comsvcs/IServicePoolConfig.get_MaxPoolSize"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

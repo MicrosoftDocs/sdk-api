@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],SetComputerEnabled method, IGPMGPO interface [GPMC],SetComputerEnabled method, IGPMGPO.SetComputerEnabled, IGPMGPO::SetComputerEnabled, SetComputerEnabled, SetComputerEnabled method [GPMC], SetComputerEnabled method [GPMC],GPMGPO class, SetComputerEnabled method [GPMC],IGPMGPO interface, _win32_igpmgpo_setcomputerenabled, gpmc.igpmgpo_setcomputerenabled, gpmgmt/IGPMGPO::SetComputerEnabled
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMGPO.SetComputerEnabled"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

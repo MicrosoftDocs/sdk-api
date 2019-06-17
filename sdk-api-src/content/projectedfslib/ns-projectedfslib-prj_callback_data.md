@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACK_DATA, PRJ_CALLBACK_DATA structure, ProjFS.prj_callback_data, projectedfslib/PRJ_CALLBACK_DATA
 ms.topic: struct
+f1_keywords: ["projectedfslib/PRJ_CALLBACK_DATA"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

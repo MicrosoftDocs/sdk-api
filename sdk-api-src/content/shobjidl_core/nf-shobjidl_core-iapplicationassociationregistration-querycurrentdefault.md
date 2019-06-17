@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration interface [Windows Shell],QueryCurrentDefault method, IApplicationAssociationRegistration.QueryCurrentDefault, IApplicationAssociationRegistration::QueryCurrentDefault, QueryCurrentDefault, QueryCurrentDefault method [Windows Shell], QueryCurrentDefault method [Windows Shell],IApplicationAssociationRegistration interface, _shell_IApplicationAssociationRegistration_QueryCurrentDefault, shell.IApplicationAssociationRegistration_QueryCurrentDefault, shobjidl_core/IApplicationAssociationRegistration::QueryCurrentDefault
 ms.topic: method
+f1_keywords: ["shobjidl_core/IApplicationAssociationRegistration.QueryCurrentDefault"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

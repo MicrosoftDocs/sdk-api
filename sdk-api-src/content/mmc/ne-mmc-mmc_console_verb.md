@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_CONSOLE_VERB, MMC_CONSOLE_VERB enumeration [MMC], MMC_VERB_COPY, MMC_VERB_CUT, MMC_VERB_DELETE, MMC_VERB_NONE, MMC_VERB_OPEN, MMC_VERB_PASTE, MMC_VERB_PRINT, MMC_VERB_PROPERTIES, MMC_VERB_REFRESH, MMC_VERB_RENAME, _slate_mmc_console_verb, mmc.mmc_console_verb, mmc/MMC_CONSOLE_VERB, mmc/MMC_VERB_COPY, mmc/MMC_VERB_CUT, mmc/MMC_VERB_DELETE, mmc/MMC_VERB_NONE, mmc/MMC_VERB_OPEN, mmc/MMC_VERB_PASTE, mmc/MMC_VERB_PRINT, mmc/MMC_VERB_PROPERTIES, mmc/MMC_VERB_REFRESH, mmc/MMC_VERB_RENAME
 ms.topic: enum
+f1_keywords: ["mmc/MMC_CONSOLE_VERB"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

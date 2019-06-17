@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngWideCharToMultiByte, EngWideCharToMultiByte function [Display Devices], display.engwidechartomultibyte, gdifncs_04d04a1a-7a81-47f7-958b-47ea8f52f421.xml, winddi/EngWideCharToMultiByte
 ms.topic: function
+f1_keywords: ["winddi/EngWideCharToMultiByte"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

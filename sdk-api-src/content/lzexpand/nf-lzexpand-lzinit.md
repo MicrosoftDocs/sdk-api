@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
 ms.topic: function
+f1_keywords: ["lzexpand/LZInit"]
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

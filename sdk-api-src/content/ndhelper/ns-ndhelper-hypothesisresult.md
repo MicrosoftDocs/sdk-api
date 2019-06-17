@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisresult, ndhelper/HypothesisResult
 ms.topic: struct
+f1_keywords: ["ndhelper/HypothesisResult"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

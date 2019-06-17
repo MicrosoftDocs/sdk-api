@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_GroupBy method, IShellFolderViewDual3.put_GroupBy, IShellFolderViewDual3::put_GroupBy, _shell_IShellFolderViewDual3_put_GroupBy, put_GroupBy, put_GroupBy method [Windows Shell], put_GroupBy method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_GroupBy, shldisp/IShellFolderViewDual3::put_GroupBy
 ms.topic: method
+f1_keywords: ["shldisp/IShellFolderViewDual3.put_GroupBy"]
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

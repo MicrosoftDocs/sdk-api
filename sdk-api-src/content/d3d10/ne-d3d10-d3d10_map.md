@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 851d7498-d47c-94c7-f2ce-7635689c4642, D3D10_MAP, D3D10_MAP enumeration [Direct3D 10], D3D10_MAP_READ, D3D10_MAP_READ_WRITE, D3D10_MAP_WRITE, D3D10_MAP_WRITE_DISCARD, D3D10_MAP_WRITE_NO_OVERWRITE, d3d10/D3D10_MAP, d3d10/D3D10_MAP_READ, d3d10/D3D10_MAP_READ_WRITE, d3d10/D3D10_MAP_WRITE, d3d10/D3D10_MAP_WRITE_DISCARD, d3d10/D3D10_MAP_WRITE_NO_OVERWRITE, direct3d10.d3d10_map
 ms.topic: enum
+f1_keywords: ["d3d10/D3D10_MAP"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

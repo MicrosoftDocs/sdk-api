@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMonitorConfig, IVMRMonitorConfig interface [DirectShow], IVMRMonitorConfig interface [DirectShow],described, IVMRMonitorConfigInterface, dshow.ivmrmonitorconfig, strmif/IVMRMonitorConfig
 ms.topic: interface
+f1_keywords: ["strmif/IVMRMonitorConfig"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

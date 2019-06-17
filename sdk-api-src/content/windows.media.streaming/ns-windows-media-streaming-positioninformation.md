@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PositionInformation, PositionInformation structure [Media Streaming API], mediastreaming.positioninformation, windows/PositionInformation
 ms.topic: struct
+f1_keywords: ["windows.media.streaming/PositionInformation"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

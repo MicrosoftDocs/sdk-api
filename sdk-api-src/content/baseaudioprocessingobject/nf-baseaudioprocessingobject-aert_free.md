@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AERT_Free, AERT_Free function [Audio Devices], audio.aert_free, audio_syseffects_r_d23cc22f-79bc-4772-90bb-edb1c3afa9a7.xml, baseaudioprocessingobject/AERT_Free
 ms.topic: function
+f1_keywords: ["baseaudioprocessingobject/AERT_Free"]
 req.header: baseaudioprocessingobject.h
 req.include-header: 
 req.target-type: Universal

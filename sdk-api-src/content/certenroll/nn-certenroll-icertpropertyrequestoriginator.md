@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
 ms.topic: interface
+f1_keywords: ["certenroll/ICertPropertyRequestOriginator"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Next method, IEnumFsiItems.Next, IEnumFsiItems::Next, Next, Next method [IMAPI], Next method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_next, imapi2fs/IEnumFsiItems::Next
 ms.topic: method
+f1_keywords: ["imapi2fs/IEnumFsiItems.Next"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

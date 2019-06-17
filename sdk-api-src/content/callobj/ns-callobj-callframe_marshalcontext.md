@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_MARSHALCONTEXT, CALLFRAME_MARSHALCONTEXT structure [COM], callobj/CALLFRAME_MARSHALCONTEXT, com.callframe_marshalcontext
 ms.topic: struct
+f1_keywords: ["callobj/CALLFRAME_MARSHALCONTEXT"]
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
 ms.topic: interface
+f1_keywords: ["vss/IVssEnumObject"]
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

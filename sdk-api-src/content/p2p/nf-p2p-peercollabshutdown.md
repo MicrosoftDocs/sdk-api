@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabShutdown, PeerCollabShutdown function [Peer Networking], p2p.peercollabshutdown, p2p/PeerCollabShutdown
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabShutdown"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

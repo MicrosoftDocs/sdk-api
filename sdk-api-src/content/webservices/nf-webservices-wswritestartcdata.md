@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsWriteStartCData, WsWriteStartCData function [Web Services for Windows], webservices/WsWriteStartCData, wsw.wswritestartcdata
 ms.topic: function
+f1_keywords: ["webservices/WsWriteStartCData"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

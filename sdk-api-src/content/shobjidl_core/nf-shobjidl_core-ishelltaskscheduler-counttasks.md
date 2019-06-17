@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CountTasks, CountTasks method [Windows Shell], CountTasks method [Windows Shell],IShellTaskScheduler interface, IShellTaskScheduler interface [Windows Shell],CountTasks method, IShellTaskScheduler.CountTasks, IShellTaskScheduler::CountTasks, _win32_IShellTaskScheduler_CountTasks, shell.IShellTaskScheduler_CountTasks, shobjidl_core/IShellTaskScheduler::CountTasks
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellTaskScheduler.CountTasks"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

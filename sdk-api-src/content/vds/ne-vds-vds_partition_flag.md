@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_PARTITION_FLAG, VDS_PARTITION_FLAG enumeration [VDS], VDS_PTF_SYSTEM, base.vds_partition_flag, vds/VDS_PARTITION_FLAG, vds/VDS_PTF_SYSTEM
 ms.topic: enum
+f1_keywords: ["vds/VDS_PARTITION_FLAG"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

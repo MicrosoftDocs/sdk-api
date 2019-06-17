@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMPTaskType, WMPTaskType enumeration [Windows Media Player], contentpartner/WMPTaskType, contentpartner/wmpttBrowse, contentpartner/wmpttBurn, contentpartner/wmpttCurrent, contentpartner/wmpttSync, enumeration [Windows Media Player], wmp.wmptasktype, wmpttBrowse, wmpttBurn, wmpttCurrent, wmpttSync
 ms.topic: enum
+f1_keywords: ["contentpartner/WMPTaskType"]
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnableHorizontalMirrorMode, EnableHorizontalMirrorMode method [Media Foundation], EnableHorizontalMirrorMode method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],EnableHorizontalMirrorMode method, IMFMediaEngineEx.EnableHorizontalMirrorMode, IMFMediaEngineEx::EnableHorizontalMirrorMode, mf.imfmediaengineex_enablehorizontalmirrormode, mfmediaengine/IMFMediaEngineEx::EnableHorizontalMirrorMode
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineEx.EnableHorizontalMirrorMode"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

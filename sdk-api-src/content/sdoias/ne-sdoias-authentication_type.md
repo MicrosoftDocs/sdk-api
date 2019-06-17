@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AUTHENTICATION_TYPE, AUTHENTICATION_TYPE enumeration [Network Policy Server], IAS_AUTH_ARAP, IAS_AUTH_CUSTOM, IAS_AUTH_EAP, IAS_AUTH_INVALID, IAS_AUTH_MD5CHAP, IAS_AUTH_MSCHAP, IAS_AUTH_MSCHAP2, IAS_AUTH_MSCHAP2_CPW, IAS_AUTH_MSCHAP_CPW, IAS_AUTH_NONE, IAS_AUTH_PAP, IAS_AUTH_PEAP, nps.sdo_authentication_type, nps.sdo_authenticationtype, sdo.authenticationtype, sdoias/AUTHENTICATION_TYPE, sdoias/IAS_AUTH_ARAP, sdoias/IAS_AUTH_CUSTOM, sdoias/IAS_AUTH_EAP, sdoias/IAS_AUTH_INVALID, sdoias/IAS_AUTH_MD5CHAP, sdoias/IAS_AUTH_MSCHAP, sdoias/IAS_AUTH_MSCHAP2, sdoias/IAS_AUTH_MSCHAP2_CPW, sdoias/IAS_AUTH_MSCHAP_CPW, sdoias/IAS_AUTH_NONE, sdoias/IAS_AUTH_PAP, sdoias/IAS_AUTH_PEAP
 ms.topic: enum
+f1_keywords: ["sdoias/AUTHENTICATION_TYPE"]
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

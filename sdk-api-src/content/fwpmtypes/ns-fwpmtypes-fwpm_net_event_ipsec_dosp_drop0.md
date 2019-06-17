@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT_IPSEC_DOSP_DROP0, FWPM_NET_EVENT_IPSEC_DOSP_DROP0 structure [Filtering], fwp.fwpm_net_event_ipsec_dosp_drop0, fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0
 ms.topic: struct
+f1_keywords: ["fwpmtypes/FWPM_NET_EVENT_IPSEC_DOSP_DROP0"]
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpSetOptionValue, DhcpSetOptionValue function [DHCP], dhcp.dhcpsetoptionvalue, dhcpsapi/DhcpSetOptionValue
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpSetOptionValue"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

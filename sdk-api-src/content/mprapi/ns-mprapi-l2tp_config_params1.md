@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PL2TP_CONFIG_PARAMS1, L2TP_CONFIG_PARAMS, L2TP_CONFIG_PARAMS structure [RAS], L2TP_CONFIG_PARAMS0, L2TP_CONFIG_PARAMS1, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, _L2TP_CONFIG_PARAMS0, _L2TP_CONFIG_PARAMS1, mprapi/L2TP_CONFIG_PARAMS, rras.l2tp_config_params"
 ms.topic: struct
+f1_keywords: ["mprapi/L2TP_CONFIG_PARAMS"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

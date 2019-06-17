@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetForegroundWindow, GetForegroundWindow function [Windows and Messages], _win32_GetForegroundWindow, _win32_getforegroundwindow_cpp, winmsg.getforegroundwindow, winui._win32_getforegroundwindow, winuser/GetForegroundWindow
 ms.topic: function
+f1_keywords: ["winuser/GetForegroundWindow"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

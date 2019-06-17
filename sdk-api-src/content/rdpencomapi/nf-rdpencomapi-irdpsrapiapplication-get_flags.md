@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIApplication interface, Flags property [RDP],RDPSRAPIApplication object, IRDPSRAPIApplication interface [RDP],Flags property, IRDPSRAPIApplication.Flags, IRDPSRAPIApplication.get_Flags, IRDPSRAPIApplication::Flags, IRDPSRAPIApplication::get_Flags, RDPSRAPIApplication object [RDP],Flags property, get_Flags, rdp.irdpsrapiapplication_flags, rdpencomapi/IRDPSRAPIApplication::Flags, rdpencomapi/IRDPSRAPIApplication::get_Flags
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIApplication.Flags"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

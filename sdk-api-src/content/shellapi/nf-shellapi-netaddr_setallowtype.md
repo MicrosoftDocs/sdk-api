@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAddr_SetAllowType, NetAddr_SetAllowType macro [Windows Shell], _shell_NetAddr_SetAllowType, shell.NetAddr_SetAllowType, shellapi/NetAddr_SetAllowType
 ms.topic: macro
+f1_keywords: ["shellapi/NetAddr_SetAllowType"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

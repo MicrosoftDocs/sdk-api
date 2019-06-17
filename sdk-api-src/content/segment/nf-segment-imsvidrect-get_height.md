@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Height method, IMSVidRect.get_Height, IMSVidRect::get_Height, IMSVidRectget_Height, get_Height, get_Height method [Microsoft TV Technologies], get_Height method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_height, segment/IMSVidRect::get_Height
 ms.topic: method
+f1_keywords: ["segment/IMSVidRect.get_Height"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

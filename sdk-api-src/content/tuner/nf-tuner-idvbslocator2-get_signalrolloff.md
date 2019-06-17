@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2 interface [Microsoft TV Technologies],SignalRollOff property, IDVBSLocator2.SignalRollOff, IDVBSLocator2.get_SignalRollOff, IDVBSLocator2::SignalRollOff, IDVBSLocator2::get_SignalRollOff, IDVBSLocator2::put_SignalRollOff, SignalRollOff property [Microsoft TV Technologies], SignalRollOff property [Microsoft TV Technologies],IDVBSLocator2 interface, get_SignalRollOff, mstv.idvbslocator2_signalrolloff, tuner/IDVBSLocator2::SignalRollOff, tuner/IDVBSLocator2::get_SignalRollOff, tuner/IDVBSLocator2::put_SignalRollOff
 ms.topic: method
+f1_keywords: ["tuner/IDVBSLocator2.SignalRollOff"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

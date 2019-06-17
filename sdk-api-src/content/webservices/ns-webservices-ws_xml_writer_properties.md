@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_PROPERTIES, WS_XML_WRITER_PROPERTIES structure [Web Services for Windows], webservices/WS_XML_WRITER_PROPERTIES, wsw.ws_xml_writer_properties
 ms.topic: struct
+f1_keywords: ["webservices/WS_XML_WRITER_PROPERTIES"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

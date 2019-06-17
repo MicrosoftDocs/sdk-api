@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocation, GetLocation method [Windows Imaging Component], GetLocation method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetLocation method, IWICMetadataQueryReader.GetLocation, IWICMetadataQueryReader::GetLocation, _wic_codec_iwicmetadataqueryreader_getlocation, wic._wic_codec_iwicmetadataqueryreader_getlocation, wincodec/IWICMetadataQueryReader::GetLocation
 ms.topic: method
+f1_keywords: ["wincodec/IWICMetadataQueryReader.GetLocation"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

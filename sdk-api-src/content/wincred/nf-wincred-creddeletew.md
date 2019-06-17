@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredDelete, CredDelete function [Security], CredDeleteA, CredDeleteW, _cred_creddelete, security.creddelete, wincred/CredDelete, wincred/CredDeleteA, wincred/CredDeleteW
 ms.topic: function
+f1_keywords: ["wincred/CredDelete"]
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

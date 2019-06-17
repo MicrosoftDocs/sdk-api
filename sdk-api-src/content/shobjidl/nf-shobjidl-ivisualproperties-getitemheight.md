@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItemHeight, GetItemHeight method [Windows Shell], GetItemHeight method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetItemHeight method, IVisualProperties.GetItemHeight, IVisualProperties::GetItemHeight, _shell_IVisualProperties_GetItemHeight, shell.IVisualProperties_GetItemHeight, shobjidl/IVisualProperties::GetItemHeight
 ms.topic: method
+f1_keywords: ["shobjidl/IVisualProperties.GetItemHeight"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITuner, ITuner interface [Microsoft TV Technologies], ITuner interface [Microsoft TV Technologies],described, ITunerInterface, mstv.ituner, tuner/ITuner
 ms.topic: interface
+f1_keywords: ["tuner/ITuner"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

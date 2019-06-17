@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCompressorInformation, SetCompressorInformation function [Compression API], cmpapi.setcompressorinformation, compressapi/SetCompressorInformation
 ms.topic: function
+f1_keywords: ["compressapi/SetCompressorInformation"]
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows

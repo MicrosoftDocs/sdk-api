@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1f5618d3-63b7-c0fc-9b6e-44b99c39650c, IDirect3DCubeTexture9 interface [Direct3D 9],LockRect method, IDirect3DCubeTexture9.LockRect, IDirect3DCubeTexture9::LockRect, LockRect, LockRect method [Direct3D 9], LockRect method [Direct3D 9],IDirect3DCubeTexture9 interface, d3d9helper/IDirect3DCubeTexture9::LockRect, direct3d9.idirect3dcubetexture9__lockrect
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3DCubeTexture9.LockRect"]
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows

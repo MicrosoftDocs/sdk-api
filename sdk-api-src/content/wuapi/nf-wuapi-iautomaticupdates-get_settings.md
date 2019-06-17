@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],Settings property, IAutomaticUpdates.Settings, IAutomaticUpdates.get_Settings, IAutomaticUpdates::Settings, IAutomaticUpdates::get_Settings, Settings property [Windows Update Agent], Settings property [Windows Update Agent],IAutomaticUpdates interface, get_Settings, wua.iautomaticupdates_settings, wuapi/IAutomaticUpdates::Settings, wuapi/IAutomaticUpdates::get_Settings
 ms.topic: method
+f1_keywords: ["wuapi/IAutomaticUpdates.Settings"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

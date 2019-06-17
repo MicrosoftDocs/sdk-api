@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetInputScopes, SetInputScopes function [Text Services Framework], inputscope/SetInputScopes, tsf.SetInputScopes
 ms.topic: function
+f1_keywords: ["inputscope/SetInputScopes"]
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows

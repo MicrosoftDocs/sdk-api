@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICondition, ICondition interface [search], ICondition interface [search],described, _search_ICondition, search._search_ICondition, structuredquerycondition/ICondition
 ms.topic: interface
+f1_keywords: ["structuredquerycondition/ICondition"]
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

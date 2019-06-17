@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolManager, IWTSProtocolManager interface [Remote Desktop Services], IWTSProtocolManager interface [Remote Desktop Services],described, termserv.iwtsprotocolmanager, wtsprotocol/IWTSProtocolManager
 ms.topic: interface
+f1_keywords: ["wtsprotocol/IWTSProtocolManager"]
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

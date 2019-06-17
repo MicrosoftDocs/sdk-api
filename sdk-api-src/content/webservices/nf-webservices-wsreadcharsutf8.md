@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows], webservices/WsReadCharsUtf8, wsw.wsreadcharsutf8
 ms.topic: function
+f1_keywords: ["webservices/WsReadCharsUtf8"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

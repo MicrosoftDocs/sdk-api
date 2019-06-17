@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMStarterGPOType, GPMStarterGPOType enumeration [GPMC], gpmc.gpmstartergpotype, gpmgmt/GPMStarterGPOType, gpmgmt/typeCustom, gpmgmt/typeSystem, typeCustom, typeSystem
 ms.topic: enum
+f1_keywords: ["gpmgmt/GPMStarterGPOType"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CharacterRange class [GDI+],operator= method, CharacterRange.operator-assign, CharacterRange.operator=, CharacterRange::operator-assign, CharacterRange::operator=, _gdiplus_CLASS_CharacterRange_operator_rhs_, gdiplus._gdiplus_CLASS_CharacterRange_operator_rhs_, operator=, operator= method [GDI+], operator= method [GDI+],CharacterRange class
 ms.topic: method
+f1_keywords: ["gdiplustypes/CharacterRange.operator="]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

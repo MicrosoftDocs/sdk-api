@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckCryptoKeyExchange, CheckCryptoKeyExchange method [Media Foundation], CheckCryptoKeyExchange method [Media Foundation],ID3D11VideoDevice interface, D3D11_CRYPTO_TYPE_AES128_CTR, ID3D11VideoDevice interface [Media Foundation],CheckCryptoKeyExchange method, ID3D11VideoDevice.CheckCryptoKeyExchange, ID3D11VideoDevice::CheckCryptoKeyExchange, d3d11/ID3D11VideoDevice::CheckCryptoKeyExchange, mf.id3d11videodevice_checkcryptokeyexchange
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11VideoDevice.CheckCryptoKeyExchange"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

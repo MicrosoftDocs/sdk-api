@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAuxInTuningSpace, IAuxInTuningSpace interface [Microsoft TV Technologies], IAuxInTuningSpace interface [Microsoft TV Technologies],described, IAuxInTuningSpaceInterface, mstv.iauxintuningspace, tuner/IAuxInTuningSpace
 ms.topic: interface
+f1_keywords: ["tuner/IAuxInTuningSpace"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

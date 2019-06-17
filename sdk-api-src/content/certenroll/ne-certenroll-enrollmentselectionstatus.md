@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnrollmentSelectionStatus, EnrollmentSelectionStatus enumeration [Security], SelectedNo, SelectedYes, certenroll/EnrollmentSelectionStatus, certenroll/SelectedNo, certenroll/SelectedYes, security.enrollmentselectionstatus_enum
 ms.topic: enum
+f1_keywords: ["certenroll/EnrollmentSelectionStatus"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

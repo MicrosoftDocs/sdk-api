@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestResourcesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestResourcesEnumerator.MoveNext, IAppxManifestResourcesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestResourcesEnumerator interface, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxManifestResourcesEnumerator.MoveNext"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

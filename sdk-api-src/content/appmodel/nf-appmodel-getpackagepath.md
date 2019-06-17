@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackagePath, GetPackagePath function [App packaging and management], appmodel/GetPackagePath, appxpkg.getpackagepath
 ms.topic: function
+f1_keywords: ["appmodel/GetPackagePath"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

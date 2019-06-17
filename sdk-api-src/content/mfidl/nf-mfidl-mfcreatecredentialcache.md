@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateCredentialCache, MFCreateCredentialCache function [Media Foundation], ec27f54a-4534-4342-856b-f6f55c5a7fdb, mf.mfcreatecredentialcache, mfidl/MFCreateCredentialCache
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateCredentialCache"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

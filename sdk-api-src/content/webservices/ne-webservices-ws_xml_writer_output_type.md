@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_OUTPUT_TYPE, WS_XML_WRITER_OUTPUT_TYPE enumeration [Web Services for Windows], WS_XML_WRITER_OUTPUT_TYPE_BUFFER, WS_XML_WRITER_OUTPUT_TYPE_STREAM, webservices/WS_XML_WRITER_OUTPUT_TYPE, webservices/WS_XML_WRITER_OUTPUT_TYPE_BUFFER, webservices/WS_XML_WRITER_OUTPUT_TYPE_STREAM, wsw.ws_xml_writer_output_type
 ms.topic: enum
+f1_keywords: ["webservices/WS_XML_WRITER_OUTPUT_TYPE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

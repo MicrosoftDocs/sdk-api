@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClusterKey, GetClusterKey function [Failover Cluster], _wolf_getclusterkey, clusapi/GetClusterKey, mscs.getclusterkey
 ms.topic: function
+f1_keywords: ["clusapi/GetClusterKey"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

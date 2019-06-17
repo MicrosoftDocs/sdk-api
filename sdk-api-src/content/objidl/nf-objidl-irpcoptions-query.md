@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcOptions interface [COM],Query method, IRpcOptions.Query, IRpcOptions::Query, Query, Query method [COM], Query method [COM],IRpcOptions interface, _com_irpcoptions_query, com.irpcoptions_query, objidlbase/IRpcOptions::Query
 ms.topic: method
+f1_keywords: ["objidl/IRpcOptions.Query"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

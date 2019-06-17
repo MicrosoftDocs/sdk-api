@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaceCharacterization, FaceCharacterization structure [Streaming Media Devices], mfapi/FaceCharacterization, stream.facecharacterization
 ms.topic: struct
+f1_keywords: ["mfapi/FaceCharacterization"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

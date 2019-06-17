@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWPCGamesSettings, IWPCGamesSettings interface, IWPCGamesSettings interface,described, parcon.iwpcgamessettings, wpcapi/IWPCGamesSettings
 ms.topic: interface
+f1_keywords: ["wpcapi/IWPCGamesSettings"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

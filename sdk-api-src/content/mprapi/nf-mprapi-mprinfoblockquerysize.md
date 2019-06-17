@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprInfoBlockQuerySize, MprInfoBlockQuerySize function [RAS], _mpr_mprinfoblockquerysize, mprapi/MprInfoBlockQuerySize, rras.mprinfoblockquerysize
 ms.topic: function
+f1_keywords: ["mprapi/MprInfoBlockQuerySize"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

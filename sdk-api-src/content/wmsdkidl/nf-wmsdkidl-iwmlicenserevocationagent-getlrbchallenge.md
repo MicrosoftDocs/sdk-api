@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLRBChallenge, GetLRBChallenge method [windows Media Format], GetLRBChallenge method [windows Media Format],IWMLicenseRevocationAgent interface, IWMLicenseRevocationAgent interface [windows Media Format],GetLRBChallenge method, IWMLicenseRevocationAgent.GetLRBChallenge, IWMLicenseRevocationAgent::GetLRBChallenge, IWMLicenseRevocationAgentGetLRBChallenge, wmformat.iwmlicenserevocationagent_getlrbchallenge, wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMLicenseRevocationAgent.GetLRBChallenge"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

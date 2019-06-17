@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxePacketAllocate, PxePacketAllocate function [Windows Deployment Services], wds.pxepacketallocate, wdspxe/PxePacketAllocate
 ms.topic: function
+f1_keywords: ["wdspxe/PxePacketAllocate"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

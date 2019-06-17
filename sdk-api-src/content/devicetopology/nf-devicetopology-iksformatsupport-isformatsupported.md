@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKsFormatSupport interface [Core Audio],IsFormatSupported method, IKsFormatSupport.IsFormatSupported, IKsFormatSupport::IsFormatSupported, IKsFormatSupportIsFormatSupported, IsFormatSupported, IsFormatSupported method [Core Audio], IsFormatSupported method [Core Audio],IKsFormatSupport interface, coreaudio.iksformatsupport_isformatsupported, devicetopology/IKsFormatSupport::IsFormatSupported
 ms.topic: method
+f1_keywords: ["devicetopology/IKsFormatSupport.IsFormatSupported"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

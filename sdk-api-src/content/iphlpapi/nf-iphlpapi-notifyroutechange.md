@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyRouteChange, NotifyRouteChange function [IP Helper], _iphlp_notifyroutechange, iphlp.notifyroutechange, iphlpapi/NotifyRouteChange
 ms.topic: function
+f1_keywords: ["iphlpapi/NotifyRouteChange"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

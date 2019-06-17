@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoSetProxyBlanket, CoSetProxyBlanket function [COM], _com_CoSetProxyBlanket, com.cosetproxyblanket, combaseapi/CoSetProxyBlanket
 ms.topic: function
+f1_keywords: ["combaseapi/CoSetProxyBlanket"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

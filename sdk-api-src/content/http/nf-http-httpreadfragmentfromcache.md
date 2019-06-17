@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpReadFragmentFromCache, HttpReadFragmentFromCache function [HTTP], _http_httpreadfragmentfromcache, http.httpreadfragmentfromcache, http/HttpReadFragmentFromCache
 ms.topic: function
+f1_keywords: ["http/HttpReadFragmentFromCache"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

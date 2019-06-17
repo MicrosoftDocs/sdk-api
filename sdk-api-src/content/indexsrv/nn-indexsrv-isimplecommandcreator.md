@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimpleCommandCreator, ISimpleCommandCreator interface [search], ISimpleCommandCreator interface [search],described, indexsrv/ISimpleCommandCreator, search.isimplecommandcreator
 ms.topic: interface
+f1_keywords: ["indexsrv/ISimpleCommandCreator"]
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

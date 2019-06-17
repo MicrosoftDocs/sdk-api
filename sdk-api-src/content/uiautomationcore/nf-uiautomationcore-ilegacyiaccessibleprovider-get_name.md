@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Name property, ILegacyIAccessibleProvider.Name, ILegacyIAccessibleProvider.get_Name, ILegacyIAccessibleProvider::Name, ILegacyIAccessibleProvider::get_Name, Name property [Windows Accessibility], Name property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Name, uiauto.uiauto_ILegacyIAccessibleProvider_Name, uiauto_ILegacyIAccessibleProvider_Name, uiautomationcore/ILegacyIAccessibleProvider::Name, uiautomationcore/ILegacyIAccessibleProvider::get_Name, winauto.uiauto_ILegacyIAccessibleProvider_Name
 ms.topic: method
+f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.Name"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

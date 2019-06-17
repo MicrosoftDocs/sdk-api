@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleDocument, IOleDocument interface [COM], IOleDocument interface [COM],described, _ole_ioledocument, com.ioledocument, docobj/IOleDocument
 ms.topic: interface
+f1_keywords: ["docobj/IOleDocument"]
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

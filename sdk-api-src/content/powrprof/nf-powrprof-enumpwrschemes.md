@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, base.enumpwrschemes, powrprof/EnumPwrSchemes
 ms.topic: function
+f1_keywords: ["powrprof/EnumPwrSchemes"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

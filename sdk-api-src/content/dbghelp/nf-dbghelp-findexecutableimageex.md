@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindExecutableImageEx, FindExecutableImageEx function, FindExecutableImageExW, _win32_findexecutableimageex, base.findexecutableimageex, dbghelp/FindExecutableImageEx, dbghelp/FindExecutableImageExW
 ms.topic: function
+f1_keywords: ["dbghelp/FindExecutableImageEx"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

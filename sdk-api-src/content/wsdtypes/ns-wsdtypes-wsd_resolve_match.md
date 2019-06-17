@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_RESOLVE_MATCH, WSD_RESOLVE_MATCH structure, ncd.wsd_resolve_match_struct, wsdtypes/WSD_RESOLVE_MATCH
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_RESOLVE_MATCH"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

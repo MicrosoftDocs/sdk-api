@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IValueMap interface, IValueMap interface [PLA],AddRange method, IValueMap.AddRange, IValueMap::AddRange, base.ivaluemap_addrange, pla.ivaluemap_addrange, pla/IValueMap::AddRange
 ms.topic: method
+f1_keywords: ["pla/IValueMap.AddRange"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

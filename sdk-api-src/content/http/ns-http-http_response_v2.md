@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_RESPONSE, *PHTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2 structure [HTTP], HTTP_RESPONSE, HTTP_RESPONSE_V2, HTTP_RESPONSE_V2 structure [HTTP], http.http_response_v2, http/*PHTTP_RESPONSE_V2, http/HTTP_RESPONSE_V2"
 ms.topic: struct
+f1_keywords: ["http/HTTP_RESPONSE_V2"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

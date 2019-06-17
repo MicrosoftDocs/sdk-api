@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_INIT_AUTH_MODE_INFO, BCRYPT_INIT_AUTH_MODE_INFO macro [Security], bcrypt/BCRYPT_INIT_AUTH_MODE_INFO, security.bcrypt_init_auth_mode_info
 ms.topic: macro
+f1_keywords: ["bcrypt/BCRYPT_INIT_AUTH_MODE_INFO"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundaryBottom property [Windows Touch], BoundaryBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryBottom property, IInertiaProcessor.BoundaryBottom, IInertiaProcessor.put_BoundaryBottom, IInertiaProcessor::BoundaryBottom, IInertiaProcessor::get_BoundaryBottom, IInertiaProcessor::put_BoundaryBottom, manipulations/IInertiaProcessor::BoundaryBottom, manipulations/IInertiaProcessor::get_BoundaryBottom, manipulations/IInertiaProcessor::put_BoundaryBottom, put_BoundaryBottom, wintouch.iinertiaprocessor_bottomboundary
 ms.topic: method
+f1_keywords: ["manipulations/IInertiaProcessor.BoundaryBottom"]
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows

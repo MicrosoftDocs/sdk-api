@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Identity method, IExeServerRegistration.get_Identity, IExeServerRegistration::get_Identity, activationregistration/IExeServerRegistration::get_Identity, get_Identity, get_Identity method [Windows Runtime], get_Identity method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_identity
 ms.topic: method
+f1_keywords: ["activationregistration/IExeServerRegistration.get_Identity"]
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows

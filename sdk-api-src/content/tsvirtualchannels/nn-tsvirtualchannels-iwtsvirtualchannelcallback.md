@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [Remote Desktop Services], IWTSVirtualChannelCallback interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelcallback, tsvirtualchannels/IWTSVirtualChannelCallback
 ms.topic: interface
+f1_keywords: ["tsvirtualchannels/IWTSVirtualChannelCallback"]
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

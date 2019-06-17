@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SECPKG_CRED_INBOUND, SECPKG_CRED_OUTBOUND, SpAcquireCredentialsHandle, SpAcquireCredentialsHandle callback function [Security], SpAcquireCredentialsHandleFn, SpAcquireCredentialsHandleFn callback, _ssp_spacquirecredentialshandle, ntsecpkg/SpAcquireCredentialsHandle, security.spacquirecredentialshandle
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpAcquireCredentialsHandle"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

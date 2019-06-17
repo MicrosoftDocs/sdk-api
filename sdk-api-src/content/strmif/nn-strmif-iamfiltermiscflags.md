@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMFilterMiscFlags interface [DirectShow],described, IAMFilterMiscFlagsInterface, dshow.iamfiltermiscflags, strmif/IAMFilterMiscFlags
 ms.topic: interface
+f1_keywords: ["strmif/IAMFilterMiscFlags"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

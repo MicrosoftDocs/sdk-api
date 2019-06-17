@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_FILE_ON_CSV_VOLUME, FSCTL_IS_FILE_ON_CSV_VOLUME control, FSCTL_IS_FILE_ON_CSV_VOLUME control code [Files], fs.fsctl_is_file_on_csv_volume, winioctl/FSCTL_IS_FILE_ON_CSV_VOLUME
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_IS_FILE_ON_CSV_VOLUME"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

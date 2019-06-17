@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMofCompiler, IMofCompiler interface [Windows Management Instrumentation], IMofCompiler interface [Windows Management Instrumentation],described, MofCompiler, _hmm_imofcompiler, wbemcli/IMofCompiler, wmi.imofcompiler
 ms.topic: interface
+f1_keywords: ["wbemcli/IMofCompiler"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSIsChildSessionsEnabled, WTSIsChildSessionsEnabled function [Remote Desktop Services], termserv.wtsischildsessionsenabled, wtsapi32/WTSIsChildSessionsEnabled
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSIsChildSessionsEnabled"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

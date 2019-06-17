@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], IEnumOLEVERB interface [COM],described, _ole_ienumoleverb, com.ienumoleverb, oleidl/IEnumOLEVERB
 ms.topic: interface
+f1_keywords: ["oleidl/IEnumOLEVERB"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

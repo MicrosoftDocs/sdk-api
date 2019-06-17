@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Context_RefuseUnload, MI_Context_RefuseUnload function [Windows Management Infrastructure (MI)], mi/MI_Context_RefuseUnload, wmi.mi_refuseunload, wmi_v2.mi_context_refuseunload
 ms.topic: function
+f1_keywords: ["mi/MI_Context_RefuseUnload"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

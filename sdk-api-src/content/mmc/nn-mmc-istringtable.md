@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStringTable, IStringTable interface [MMC], IStringTable interface [MMC],described, _slate_istringtable, mmc.istringtable, mmc/IStringTable
 ms.topic: interface
+f1_keywords: ["mmc/IStringTable"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

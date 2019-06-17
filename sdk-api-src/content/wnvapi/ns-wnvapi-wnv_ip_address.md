@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWNV_IP_ADDRESS, PWNV_IP_ADDRESS, PWNV_IP_ADDRESS structure pointer [Windows Network Virtualization], WNV_IP_ADDRESS, WNV_IP_ADDRESS structure [Windows Network Virtualization], wnv.wnv_ip_address, wnvapi/PWNV_IP_ADDRESS, wnvapi/WNV_IP_ADDRESS"
 ms.topic: struct
+f1_keywords: ["wnvapi/WNV_IP_ADDRESS"]
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

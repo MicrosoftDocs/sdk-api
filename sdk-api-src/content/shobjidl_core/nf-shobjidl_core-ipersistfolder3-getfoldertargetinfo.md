@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFolderTargetInfo, GetFolderTargetInfo method [Windows Shell], GetFolderTargetInfo method [Windows Shell],IPersistFolder3 interface, IPersistFolder3 interface [Windows Shell],GetFolderTargetInfo method, IPersistFolder3.GetFolderTargetInfo, IPersistFolder3::GetFolderTargetInfo, _win32_IPersistFolder3_GetFolderTargetInfo, shell.IPersistFolder3_GetFolderTargetInfo, shobjidl_core/IPersistFolder3::GetFolderTargetInfo
 ms.topic: method
+f1_keywords: ["shobjidl_core/IPersistFolder3.GetFolderTargetInfo"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

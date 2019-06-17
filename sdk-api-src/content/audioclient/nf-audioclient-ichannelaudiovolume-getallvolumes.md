@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAllVolumes, GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio],IChannelAudioVolume interface, IChannelAudioVolume interface [Core Audio],GetAllVolumes method, IChannelAudioVolume.GetAllVolumes, IChannelAudioVolume::GetAllVolumes, IChannelAudioVolumeGetAllVolumes, audioclient/IChannelAudioVolume::GetAllVolumes, coreaudio.ichannelaudiovolume_getallvolumes
 ms.topic: method
+f1_keywords: ["audioclient/IChannelAudioVolume.GetAllVolumes"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

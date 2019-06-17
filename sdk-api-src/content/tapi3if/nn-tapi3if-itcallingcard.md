@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard, ITCallingCard interface [TAPI 2.2], ITCallingCard interface [TAPI 2.2],described, _tapi3_itcallingcard, tapi3.itcallingcard, tapi3if/ITCallingCard
 ms.topic: interface
+f1_keywords: ["tapi3if/ITCallingCard"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],serviceEvent method, IWMPSubscriptionService2.serviceEvent, IWMPSubscriptionService2::serviceEvent, IWMPSubscriptionService2serviceEvent, serviceEvent, serviceEvent method [Windows Media Player], serviceEvent method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::serviceEvent, wmp.iwmpsubscriptionservice2_serviceevent
 ms.topic: method
+f1_keywords: ["subscriptionservices/IWMPSubscriptionService2.serviceEvent"]
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
 ms.topic: struct
+f1_keywords: ["fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSessionProvider, IMFHttpDownloadSessionProvider interface [Media Foundation], IMFHttpDownloadSessionProvider interface [Media Foundation],described, mf.imfhttpdownloadsessionprovider, mfidl/IMFHttpDownloadSessionProvider
 ms.topic: interface
+f1_keywords: ["mfidl/IMFHttpDownloadSessionProvider"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

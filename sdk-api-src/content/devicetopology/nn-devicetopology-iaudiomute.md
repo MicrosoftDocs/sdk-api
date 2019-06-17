@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioMute, IAudioMute interface [Core Audio], IAudioMute interface [Core Audio],described, coreaudio.iaudiomute, devicetopology/IAudioMute
 ms.topic: interface
+f1_keywords: ["devicetopology/IAudioMute"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

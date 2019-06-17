@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_EditStart method, IAMExtTransport.put_EditStart, IAMExtTransport::put_EditStart, IAMExtTransportput_EditStart, dshow.iamexttransport_put_editstart, put_EditStart, put_EditStart method [DirectShow], put_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_EditStart
 ms.topic: method
+f1_keywords: ["strmif/IAMExtTransport.put_EditStart"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

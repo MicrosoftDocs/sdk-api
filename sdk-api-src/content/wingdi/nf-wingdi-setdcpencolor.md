@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDCPenColor, SetDCPenColor function [Windows GDI], _win32_SetDCPenColor, gdi.setdcpencolor, wingdi/SetDCPenColor
 ms.topic: function
+f1_keywords: ["wingdi/SetDCPenColor"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

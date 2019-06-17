@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBroadcastViewPropriety, GetBroadcastViewPropriety method [Microsoft TV Technologies], GetBroadcastViewPropriety method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetBroadcastViewPropriety method, IISDB_BIT.GetBroadcastViewPropriety, IISDB_BIT::GetBroadcastViewPropriety, dvbsiparser/IISDB_BIT::GetBroadcastViewPropriety, mstv.iisdb_bit_getbroadcastviewpropriety
 ms.topic: method
+f1_keywords: ["dvbsiparser/IISDB_BIT.GetBroadcastViewPropriety"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

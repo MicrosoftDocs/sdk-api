@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession, IWdsTransportSession interface [Windows Deployment Services], IWdsTransportSession interface [Windows Deployment Services],described, wds.iwdstransportsession, wdstptmgmt/IWdsTransportSession
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportSession"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

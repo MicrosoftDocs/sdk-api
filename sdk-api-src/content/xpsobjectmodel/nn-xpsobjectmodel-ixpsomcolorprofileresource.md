@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMColorProfileResource"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

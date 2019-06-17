@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseCommandSession, CloseCommandSession method [Microsoft Broadband Networks], CloseCommandSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseCommandSession method, IMbnDeviceService.CloseCommandSession, IMbnDeviceService::CloseCommandSession, mbn.imbndeviceservice_closecommandsession, mbnapi/IMbnDeviceService::CloseCommandSession
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnDeviceService.CloseCommandSession"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

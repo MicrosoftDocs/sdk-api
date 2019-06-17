@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEndPoint, GetEndPoint method [Direct2D], GetEndPoint method [Direct2D],ID2D1LinearGradientBrush interface, ID2D1LinearGradientBrush interface [Direct2D],GetEndPoint method, ID2D1LinearGradientBrush.GetEndPoint, ID2D1LinearGradientBrush::GetEndPoint, d2d1/ID2D1LinearGradientBrush::GetEndPoint, direct2d.ID2D1LinearGradientBrush_GetEndPoint
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1LinearGradientBrush.GetEndPoint"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

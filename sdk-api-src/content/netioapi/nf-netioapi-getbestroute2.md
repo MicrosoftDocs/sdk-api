@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2
 ms.topic: function
+f1_keywords: ["netioapi/GetBestRoute2"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

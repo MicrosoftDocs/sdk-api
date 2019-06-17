@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationRollPitchYawFromVector, XMMatrixRotationRollPitchYawFromVector, XMMatrixRotationRollPitchYawFromVector method [DirectX Math Support APIs], dxmath.xmmatrixrotationrollpitchyawfromvector
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixRotationRollPitchYawFromVector"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

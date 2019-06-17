@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecDospStateDestroyEnumHandle0, IPsecDospStateDestroyEnumHandle0 function [Filtering], fwp.ipsecdospstatedestroyenumhandle0, fwpmu/IPsecDospStateDestroyEnumHandle0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecDospStateDestroyEnumHandle0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

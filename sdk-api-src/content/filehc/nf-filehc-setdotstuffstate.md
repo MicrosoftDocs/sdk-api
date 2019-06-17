@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
 ms.topic: function
+f1_keywords: ["filehc/SetDotStuffState"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

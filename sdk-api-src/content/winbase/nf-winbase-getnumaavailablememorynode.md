@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaAvailableMemoryNode, GetNumaAvailableMemoryNode function, _win32_getnumaavailablememorynode, base.getnumaavailablememorynode, winbase/GetNumaAvailableMemoryNode
 ms.topic: function
+f1_keywords: ["winbase/GetNumaAvailableMemoryNode"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

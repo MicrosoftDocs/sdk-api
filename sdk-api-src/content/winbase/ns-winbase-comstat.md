@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
 ms.topic: struct
+f1_keywords: ["winbase/COMSTAT"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

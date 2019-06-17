@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA, WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA callback, WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA callback function [Windows Remote Management], winrm.wsman_plugin_authorize_query_quota, wsman/WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA
 ms.topic: callback
+f1_keywords: ["wsman/WSMAN_PLUGIN_AUTHORIZE_QUERY_QUOTA"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

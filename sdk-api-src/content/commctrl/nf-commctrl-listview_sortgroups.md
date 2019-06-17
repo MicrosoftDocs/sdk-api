@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SortGroups, ListView_SortGroups macro [Windows Controls], _win32_ListView_SortGroups, _win32_ListView_SortGroups_cpp, commctrl/ListView_SortGroups, controls.ListView_SortGroups, controls._win32_ListView_SortGroups
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_SortGroups"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

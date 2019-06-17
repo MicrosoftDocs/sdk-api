@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCallingCard, IEnumCallingCard interface [TAPI 2.2], IEnumCallingCard interface [TAPI 2.2],described, _tapi3_ienumcallingcard, tapi3.ienumcallingcard, tapi3if/IEnumCallingCard
 ms.topic: interface
+f1_keywords: ["tapi3if/IEnumCallingCard"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

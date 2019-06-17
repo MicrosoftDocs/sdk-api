@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_TYPE, DHCP_OPTION_SCOPE_TYPE, DHCP_OPTION_SCOPE_TYPE enumeration [DHCP], DhcpDefaultOptions, DhcpGlobalOptions, DhcpMScopeOptions, DhcpReservedOptions, DhcpSubnetOptions, LPDHCP_OPTION_SCOPE_TYPE, LPDHCP_OPTION_SCOPE_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_scope_type, dhcpsapi/DHCP_OPTION_SCOPE_TYPE, dhcpsapi/DhcpDefaultOptions, dhcpsapi/DhcpGlobalOptions, dhcpsapi/DhcpMScopeOptions, dhcpsapi/DhcpReservedOptions, dhcpsapi/DhcpSubnetOptions, dhcpsapi/LPDHCP_OPTION_SCOPE_TYPE"
 ms.topic: enum
+f1_keywords: ["dhcpsapi/DHCP_OPTION_SCOPE_TYPE"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

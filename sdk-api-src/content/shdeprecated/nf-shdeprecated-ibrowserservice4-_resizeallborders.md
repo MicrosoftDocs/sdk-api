@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService4 interface [Windows Shell],_ResizeAllBorders method, IBrowserService4._ResizeAllBorders, IBrowserService4::_ResizeAllBorders, _ResizeAllBorders, _ResizeAllBorders method [Windows Shell], _ResizeAllBorders method [Windows Shell],IBrowserService4 interface, _shell_IBrowserService4__ResizeAllBorders, shdeprecated/IBrowserService4::_ResizeAllBorders, shell.IBrowserService4__ResizeAllBorders
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService4._ResizeAllBorders"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

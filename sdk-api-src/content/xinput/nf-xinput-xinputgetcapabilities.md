@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game Controller APIs], xinput.xinputgetcapabilities, xinput/XInputGetCapabilities
 ms.topic: function
+f1_keywords: ["xinput/XInputGetCapabilities"]
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

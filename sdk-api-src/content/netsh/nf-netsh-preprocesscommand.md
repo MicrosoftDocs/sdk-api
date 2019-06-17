@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PreprocessCommand, PreprocessCommand function [NetShell], _netsh_preprocesscommand, netsh/PreprocessCommand, netshell.preprocesscommand
 ms.topic: function
+f1_keywords: ["netsh/PreprocessCommand"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

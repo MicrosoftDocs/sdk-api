@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ClassFT, MI_ClassFT structure [Windows Management Infrastructure (MI)], mi/MI_ClassFT, wmi_v2.mi_classft
 ms.topic: struct
+f1_keywords: ["mi/MI_ClassFT"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

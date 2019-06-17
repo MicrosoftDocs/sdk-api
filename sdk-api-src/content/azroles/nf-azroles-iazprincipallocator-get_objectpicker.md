@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator interface [Security],ObjectPicker property, IAzPrincipalLocator.ObjectPicker, IAzPrincipalLocator.get_ObjectPicker, IAzPrincipalLocator::ObjectPicker, IAzPrincipalLocator::get_ObjectPicker, ObjectPicker property [Security], ObjectPicker property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::ObjectPicker, azroles/IAzPrincipalLocator::get_ObjectPicker, get_ObjectPicker, security.iazprincipallocator_objectpicker_method
 ms.topic: method
+f1_keywords: ["azroles/IAzPrincipalLocator.ObjectPicker"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

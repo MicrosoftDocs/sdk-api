@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LM_BROKENFLUTTER, LM_DUMMY, LM_FLASH, LM_FLUTTER, LM_OFF, LM_STEADY, LM_UNKNOWN, LM_WINK, PHONE_LAMP_MODE, PHONE_LAMP_MODE enumeration [TAPI 2.2], _tapi3_phone_lamp_mode, tapi3.phone_lamp_mode, tapi3if/LM_BROKENFLUTTER, tapi3if/LM_DUMMY, tapi3if/LM_FLASH, tapi3if/LM_FLUTTER, tapi3if/LM_OFF, tapi3if/LM_STEADY, tapi3if/LM_UNKNOWN, tapi3if/LM_WINK, tapi3if/PHONE_LAMP_MODE
 ms.topic: enum
+f1_keywords: ["tapi3if/PHONE_LAMP_MODE"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

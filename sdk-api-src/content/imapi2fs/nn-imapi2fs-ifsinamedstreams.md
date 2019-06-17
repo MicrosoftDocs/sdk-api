@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams, IFsiNamedStreams interface [IMAPI], IFsiNamedStreams interface [IMAPI],described, imapi.ifsinamedstreams, imapi2fs/IFsiNamedStreams
 ms.topic: interface
+f1_keywords: ["imapi2fs/IFsiNamedStreams"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SysStringByteLen, SysStringByteLen function [Automation], _oa96_SysStringByteLen, automat.sysstringbytelen, oleauto/SysStringByteLen
 ms.topic: function
+f1_keywords: ["oleauto/SysStringByteLen"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

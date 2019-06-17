@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],Advise method, IOverlay.Advise, IOverlay::Advise, IOverlayAdvise, dshow.ioverlay_advise, strmif/IOverlay::Advise
 ms.topic: method
+f1_keywords: ["strmif/IOverlay.Advise"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

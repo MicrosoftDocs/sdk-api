@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
 ms.topic: callback
+f1_keywords: ["gamingtcui/PlayerPickerUICompletionRoutine"]
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

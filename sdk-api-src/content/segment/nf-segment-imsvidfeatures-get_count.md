@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Count method, IMSVidFeatures.get_Count, IMSVidFeatures::get_Count, IMSVidFeaturesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_count, segment/IMSVidFeatures::get_Count
 ms.topic: method
+f1_keywords: ["segment/IMSVidFeatures.get_Count"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

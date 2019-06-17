@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataObject, IDataObject interface [COM], IDataObject interface [COM],described, _ole_idataobject, com.idataobject, objidl/IDataObject
 ms.topic: interface
+f1_keywords: ["objidl/IDataObject"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer, PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration, _win32_system_power_state, base.system_power_state, winnt/PSYSTEM_POWER_STATE, winnt/PowerSystemHibernate, winnt/PowerSystemMaximum, winnt/PowerSystemShutdown, winnt/PowerSystemSleeping1, winnt/PowerSystemSleeping2, winnt/PowerSystemSleeping3, winnt/PowerSystemUnspecified, winnt/PowerSystemWorking, winnt/SYSTEM_POWER_STATE"
 ms.topic: enum
+f1_keywords: ["winnt/SYSTEM_POWER_STATE"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

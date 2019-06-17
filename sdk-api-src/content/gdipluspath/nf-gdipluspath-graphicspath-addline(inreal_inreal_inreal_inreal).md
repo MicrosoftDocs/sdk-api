@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddLine, AddLine method [GDI+], AddLine method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddLine method, GraphicsPath.AddLine, GraphicsPath.AddLine(IN REAL,IN REAL,IN REAL,IN REAL), GraphicsPath.AddLine(REAL,REAL,REAL,REAL), GraphicsPath::AddLine, GraphicsPath::AddLine(IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_, gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_REAL_x1_REAL_y1_REAL_x2_REAL_y2_
 ms.topic: method
+f1_keywords: ["gdipluspath/GraphicsPath.AddLine"]
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Process32First, Process32First function [ToolHelp], Process32FirstW, _win32_process32first, base.process32first, tlhelp32/Process32First, tlhelp32/Process32FirstW, toolhelp.process32first
 ms.topic: function
+f1_keywords: ["tlhelp32/Process32First"]
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

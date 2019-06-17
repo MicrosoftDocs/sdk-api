@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Id property, IRDPSRAPIApplication.Id, IRDPSRAPIApplication.get_Id, IRDPSRAPIApplication::Id, IRDPSRAPIApplication::get_Id, Id property [RDP], Id property [RDP],IRDPSRAPIApplication interface, Id property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Id property, get_Id, rdp.irdpsrapiapplication_id, rdpencomapi/IRDPSRAPIApplication::Id, rdpencomapi/IRDPSRAPIApplication::get_Id
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIApplication.Id"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

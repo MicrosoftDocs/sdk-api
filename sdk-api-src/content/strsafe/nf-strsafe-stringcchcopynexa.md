@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyNEx, StringCchCopyNEx function [Menus and Other Resources], StringCchCopyNExA, StringCchCopyNExW, _shell_StringCchCopyNEx, _shell_stringcchcopynex_cpp, menurc.stringcchcopynex, strsafe/StringCchCopyNEx, strsafe/StringCchCopyNExA, strsafe/StringCchCopyNExW, winui._shell_stringcchcopynex
 ms.topic: function
+f1_keywords: ["strsafe/StringCchCopyNEx"]
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows

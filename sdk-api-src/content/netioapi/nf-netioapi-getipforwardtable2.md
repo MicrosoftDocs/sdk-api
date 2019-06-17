@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpForwardTable2, GetIpForwardTable2 function [IP Helper], iphlp.getipforwardtable2, netioapi/GetIpForwardTable2
 ms.topic: function
+f1_keywords: ["netioapi/GetIpForwardTable2"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

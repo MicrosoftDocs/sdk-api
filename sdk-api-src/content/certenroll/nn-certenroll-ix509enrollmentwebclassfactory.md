@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentWebClassFactory, IX509EnrollmentWebClassFactory interface [Security], IX509EnrollmentWebClassFactory interface [Security],described, certenroll/IX509EnrollmentWebClassFactory, security.ix509enrollmentwebclassfactory
 ms.topic: interface
+f1_keywords: ["certenroll/IX509EnrollmentWebClassFactory"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

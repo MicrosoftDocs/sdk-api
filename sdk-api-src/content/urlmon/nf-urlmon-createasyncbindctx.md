@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAsyncBindCtx, CreateAsyncBindCtx function [COM], _com_CreateAsyncBindCtx, com.createasyncbindctx, urlmon/CreateAsyncBindCtx
 ms.topic: function
+f1_keywords: ["urlmon/CreateAsyncBindCtx"]
 req.header: urlmon.h
 req.include-header: 
 req.target-type: Windows

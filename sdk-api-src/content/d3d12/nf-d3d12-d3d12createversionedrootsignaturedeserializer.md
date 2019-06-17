@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12CreateVersionedRootSignatureDeserializer, D3D12CreateVersionedRootSignatureDeserializer function, d3d12/D3D12CreateVersionedRootSignatureDeserializer, direct3d12.d3d12createversionedrootsignaturedeserializer
 ms.topic: function
+f1_keywords: ["d3d12/D3D12CreateVersionedRootSignatureDeserializer"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

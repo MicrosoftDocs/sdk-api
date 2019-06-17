@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspace2 interface [Remote Desktop Services],StartRemoteApplicationEx method, IWorkspace2.StartRemoteApplicationEx, IWorkspace2::StartRemoteApplicationEx, IWorkspace3 interface [Remote Desktop Services],StartRemoteApplicationEx method, IWorkspace3::StartRemoteApplicationEx, StartRemoteApplicationEx, StartRemoteApplicationEx method [Remote Desktop Services], StartRemoteApplicationEx method [Remote Desktop Services],IWorkspace2 interface, StartRemoteApplicationEx method [Remote Desktop Services],IWorkspace3 interface, StartRemoteApplicationEx method [Remote Desktop Services],Workspace object, Workspace object [Remote Desktop Services],StartRemoteApplicationEx method, termserv.iworkspace2_startremoteapplicationex, workspaceruntime/IWorkspace2::StartRemoteApplicationEx, workspaceruntime/IWorkspace3::StartRemoteApplicationEx
 ms.topic: method
+f1_keywords: ["workspaceruntime/IWorkspace2.StartRemoteApplicationEx"]
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows

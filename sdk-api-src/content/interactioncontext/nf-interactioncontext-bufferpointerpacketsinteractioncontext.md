@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BufferPointerPacketsInteractionContext, BufferPointerPacketsInteractionContext function, input_intcontext.bufferpointerpacketsinteractioncontext, interactioncontext.bufferpointerpacketsinteractioncontext, interactioncontext/BufferPointerPacketsInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/BufferPointerPacketsInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

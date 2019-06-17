@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolder method, IKnownFolderManager.GetFolder, IKnownFolderManager::GetFolder, _shell_IKnownFolderManager_GetFolder, shell.IKnownFolderManager_GetFolder, shobjidl_core/IKnownFolderManager::GetFolder
 ms.topic: method
+f1_keywords: ["shobjidl_core/IKnownFolderManager.GetFolder"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

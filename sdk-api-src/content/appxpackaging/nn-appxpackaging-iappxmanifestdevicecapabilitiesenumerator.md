@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management], IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator, appxpkg.iappxmanifestdevicecapabilitiesenumerator
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

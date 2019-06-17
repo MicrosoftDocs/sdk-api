@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessWindowStation, GetProcessWindowStation function [Windows Stations and Desktops], _win32_getprocesswindowstation, base.getprocesswindowstation, winstation.getprocesswindowstation, winuser/GetProcessWindowStation
 ms.topic: function
+f1_keywords: ["winuser/GetProcessWindowStation"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

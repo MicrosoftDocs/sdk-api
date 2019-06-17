@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICInstall, ICInstall function [Windows Multimedia], _win32_ICInstall, multimedia.icinstall, vfw/ICInstall
 ms.topic: function
+f1_keywords: ["vfw/ICInstall"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

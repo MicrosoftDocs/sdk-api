@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlayerDockedStateChange method, IWMPEvents.PlayerDockedStateChange, IWMPEvents::PlayerDockedStateChange, IWMPEventsPlayerDockedStateChange, PlayerDockedStateChange, PlayerDockedStateChange method [Windows Media Player], PlayerDockedStateChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playerdockedstatechange, wmp/IWMPEvents::PlayerDockedStateChange
 ms.topic: method
+f1_keywords: ["wmp/IWMPEvents.PlayerDockedStateChange"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

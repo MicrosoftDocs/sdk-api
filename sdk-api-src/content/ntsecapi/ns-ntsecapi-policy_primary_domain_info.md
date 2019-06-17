@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPOLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO, POLICY_PRIMARY_DOMAIN_INFO structure [Security], PPOLICY_PRIMARY_DOMAIN_INFO, PPOLICY_PRIMARY_DOMAIN_INFO structure pointer [Security], _POLICY_PRIMARY_DOMAIN_INFO, _lsa_policy_primary_domain_info, ntsecapi/POLICY_PRIMARY_DOMAIN_INFO, ntsecapi/PPOLICY_PRIMARY_DOMAIN_INFO, security.policy_primary_domain_info"
 ms.topic: struct
+f1_keywords: ["ntsecapi/POLICY_PRIMARY_DOMAIN_INFO"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

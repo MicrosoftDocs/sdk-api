@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
 ms.topic: function
+f1_keywords: ["ncryptprotect/NCryptStreamClose"]
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

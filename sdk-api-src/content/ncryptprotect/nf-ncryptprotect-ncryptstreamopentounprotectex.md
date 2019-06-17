@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx function [Security], ncryptprotect/NCryptStreamOpenToUnprotectEx, security.ncryptstreamopentounprotectex
 ms.topic: function
+f1_keywords: ["ncryptprotect/NCryptStreamOpenToUnprotectEx"]
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

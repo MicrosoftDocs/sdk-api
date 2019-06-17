@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaGetRootNode, UiaGetRootNode function [Windows Accessibility], uiauto.uiauto_UiaGetRootNodeFunction, uiauto_UiaGetRootNodeFunction, uiautomationcoreapi/UiaGetRootNode, winauto.uiauto_UiaGetRootNodeFunction
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaGetRootNode"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

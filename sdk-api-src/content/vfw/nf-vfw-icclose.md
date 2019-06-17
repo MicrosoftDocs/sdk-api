@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICClose, ICClose function [Windows Multimedia], _win32_ICClose, multimedia.icclose, vfw/ICClose
 ms.topic: function
+f1_keywords: ["vfw/ICClose"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

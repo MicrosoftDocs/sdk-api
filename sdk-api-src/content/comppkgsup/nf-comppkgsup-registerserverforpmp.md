@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
 ms.topic: function
+f1_keywords: ["comppkgsup/RegisterServerForPMP"]
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

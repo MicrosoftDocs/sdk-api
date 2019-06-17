@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility],IUIAutomationValuePattern interface, IUIAutomationValuePattern interface [Windows Accessibility],CachedIsReadOnly property, IUIAutomationValuePattern.CachedIsReadOnly, IUIAutomationValuePattern.get_CachedIsReadOnly, IUIAutomationValuePattern::CachedIsReadOnly, IUIAutomationValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiauto_IUIAutomationValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CachedIsReadOnly
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationValuePattern.CachedIsReadOnly"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

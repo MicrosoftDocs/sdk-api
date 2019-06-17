@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrMesProcEncodeDecode2, NdrMesProcEncodeDecode2 function [RPC], midles/NdrMesProcEncodeDecode2, rpc.ndrmesprocencodedecode2
 ms.topic: function
+f1_keywords: ["midles/NdrMesProcEncodeDecode2"]
 req.header: midles.h
 req.include-header: 
 req.target-type: Windows

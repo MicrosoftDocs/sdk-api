@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterRegGetKeySecurity, ClusterRegGetKeySecurity function [Failover Cluster], _wolf_clusterreggetkeysecurity, clusapi/ClusterRegGetKeySecurity, mscs.clusterreggetkeysecurity
 ms.topic: function
+f1_keywords: ["clusapi/ClusterRegGetKeySecurity"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

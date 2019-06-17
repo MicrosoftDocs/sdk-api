@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServiceControl, NetServiceControl function [Network Management], _win32_netservicecontrol, lmsvc/NetServiceControl, netmgmt.netservicecontrol
 ms.topic: function
+f1_keywords: ["lmsvc/NetServiceControl"]
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows

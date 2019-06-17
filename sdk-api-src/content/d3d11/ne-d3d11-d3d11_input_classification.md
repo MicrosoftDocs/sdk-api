@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1ba65aec-2e16-5faf-79f0-b9d032823fb7, D3D11_INPUT_CLASSIFICATION, D3D11_INPUT_CLASSIFICATION enumeration [Direct3D 11], D3D11_INPUT_PER_INSTANCE_DATA, D3D11_INPUT_PER_VERTEX_DATA, d3d11/D3D11_INPUT_CLASSIFICATION, d3d11/D3D11_INPUT_PER_INSTANCE_DATA, d3d11/D3D11_INPUT_PER_VERTEX_DATA, direct3d11.d3d11_input_classification
 ms.topic: enum
+f1_keywords: ["d3d11/D3D11_INPUT_CLASSIFICATION"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

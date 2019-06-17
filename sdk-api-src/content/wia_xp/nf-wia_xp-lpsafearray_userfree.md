@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserFree, LPSAFEARRAY_UserFree function [Automation], _oa96_LPSAFEARRAY_UserFree, automat.lpsafearray_userfree, wia_xp/LPSAFEARRAY_UserFree
 ms.topic: function
+f1_keywords: ["wia_xp/LPSAFEARRAY_UserFree"]
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

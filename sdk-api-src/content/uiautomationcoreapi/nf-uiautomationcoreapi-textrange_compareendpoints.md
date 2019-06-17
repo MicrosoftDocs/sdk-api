@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/TextRange_CompareEndpoints"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddComboBox, AddComboBox method [Windows Shell], AddComboBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddComboBox method, IFileDialogCustomize.AddComboBox, IFileDialogCustomize::AddComboBox, shell.IFileDialogCustomize_AddComboBox, shell_IFileDialogCustomize_AddComboBox, shobjidl_core/IFileDialogCustomize::AddComboBox
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialogCustomize.AddComboBox"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

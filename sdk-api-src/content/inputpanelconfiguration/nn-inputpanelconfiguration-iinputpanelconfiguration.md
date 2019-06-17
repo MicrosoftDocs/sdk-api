@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInputPanelConfiguration, IInputPanelConfiguration interface [Windows Shell], IInputPanelConfiguration interface [Windows Shell],described, inputpanelconfiguration/IInputPanelConfiguration, shell.iinputpanelconfiguration
 ms.topic: interface
+f1_keywords: ["inputpanelconfiguration/IInputPanelConfiguration"]
 req.header: inputpanelconfiguration.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Files], fs.ioctl_storage_query_property, winioctl/IOCTL_STORAGE_QUERY_PROPERTY
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_QUERY_PROPERTY"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWTS_SYSTEMTIME, 0, 1, 10, 11, 12, 2, 3, 4, 5, 6, 7, 8, 9, PWRDS_SYSTEMTIME, PWRDS_SYSTEMTIME structure [Remote Desktop Services], PWTS_SYSTEMTIME, PWTS_SYSTEMTIME structure pointer [Remote Desktop Services], WRDS_SYSTEMTIME, WRDS_SYSTEMTIME structure [Remote Desktop Services], WTS_SYSTEMTIME, WTS_SYSTEMTIME structure [Remote Desktop Services], termserv.wts_systemtime, wtsdefs/PWRDS_SYSTEMTIME, wtsdefs/PWTS_SYSTEMTIME, wtsdefs/WRDS_SYSTEMTIME, wtsdefs/WTS_SYSTEMTIME"
 ms.topic: struct
+f1_keywords: ["wtsdefs/WTS_SYSTEMTIME"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

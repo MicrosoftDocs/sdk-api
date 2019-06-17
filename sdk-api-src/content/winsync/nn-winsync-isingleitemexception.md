@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync],described, winsync.isingleitemexception, winsync/ISingleItemException
 ms.topic: interface
+f1_keywords: ["winsync/ISingleItemException"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

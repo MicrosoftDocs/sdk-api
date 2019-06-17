@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS structure [Direct3D 11], cc86b8e7-d7f6-8b3b-2873-497eec6f351e, d3d11/D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS, direct3d11.d3d11_feature_data_d3d10_x_hardware_options
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_FEATURE_DATA_D3D10_X_HARDWARE_OPTIONS"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

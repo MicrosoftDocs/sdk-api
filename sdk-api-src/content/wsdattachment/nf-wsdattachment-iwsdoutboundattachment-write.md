@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDOutboundAttachment interface,Write method, IWSDOutboundAttachment.Write, IWSDOutboundAttachment::Write, Write, Write method, Write method,IWSDOutboundAttachment interface, ncd.iwsdoutboundattachment_write_method, wsdattachment/IWSDOutboundAttachment::Write
 ms.topic: method
+f1_keywords: ["wsdattachment/IWSDOutboundAttachment.Write"]
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

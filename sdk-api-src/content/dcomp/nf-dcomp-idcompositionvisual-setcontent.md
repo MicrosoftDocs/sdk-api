@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetContent method, IDCompositionVisual.SetContent, IDCompositionVisual::SetContent, SetContent, SetContent method [DirectComposition], SetContent method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetContent, directcomp.idcompositionvisual_setcontent
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionVisual.SetContent"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

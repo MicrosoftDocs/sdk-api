@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],Guid property, ITraceDataCollector.Guid, ITraceDataCollector.put_Guid, ITraceDataCollector::Guid, ITraceDataCollector::get_Guid, ITraceDataCollector::put_Guid, base.itracedatacollector_guid, pla.itracedatacollector_guid, pla/ITraceDataCollector::Guid, pla/ITraceDataCollector::get_Guid, pla/ITraceDataCollector::put_Guid, put_Guid
 ms.topic: method
+f1_keywords: ["pla/ITraceDataCollector.Guid"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer, IX509EnrollmentPolicyServer interface [Security], IX509EnrollmentPolicyServer interface [Security],described, certenroll/IX509EnrollmentPolicyServer, security.ix509enrollmentpolicyserver
 ms.topic: interface
+f1_keywords: ["certenroll/IX509EnrollmentPolicyServer"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

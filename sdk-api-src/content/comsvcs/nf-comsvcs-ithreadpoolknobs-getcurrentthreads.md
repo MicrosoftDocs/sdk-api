@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreads, GetCurrentThreads method [COM+], GetCurrentThreads method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentThreads method, IThreadPoolKnobs.GetCurrentThreads, IThreadPoolKnobs::GetCurrentThreads, _cos_IThreadPoolKnobs_GetCurrentThreads, comsvcs/IThreadPoolKnobs::GetCurrentThreads, cos.ithreadpoolknobs_getcurrentthreads
 ms.topic: method
+f1_keywords: ["comsvcs/IThreadPoolKnobs.GetCurrentThreads"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

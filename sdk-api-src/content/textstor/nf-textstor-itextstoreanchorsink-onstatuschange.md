@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStatusChange method, ITextStoreAnchorSink.OnStatusChange, ITextStoreAnchorSink::OnStatusChange, OnStatusChange, OnStatusChange method [Text Services Framework], OnStatusChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstatuschange_ref, textstor/ITextStoreAnchorSink::OnStatusChange, tsf.itextstoreanchorsink_onstatuschange
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreAnchorSink.OnStatusChange"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

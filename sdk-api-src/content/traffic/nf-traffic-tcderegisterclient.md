@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
 ms.topic: function
+f1_keywords: ["traffic/TcDeregisterClient"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

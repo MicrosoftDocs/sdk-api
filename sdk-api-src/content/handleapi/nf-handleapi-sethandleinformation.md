@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, SetHandleInformation, SetHandleInformation function, _win32_sethandleinformation, base.sethandleinformation, handleapi/SetHandleInformation
 ms.topic: function
+f1_keywords: ["handleapi/SetHandleInformation"]
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

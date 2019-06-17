@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX, PPROCESS_MEMORY_COUNTERS_EX structure pointer [PSAPI], PROCESS_MEMORY_COUNTERS_EX, PROCESS_MEMORY_COUNTERS_EX structure [PSAPI], _win32_process_memory_counters_ex, base.process_memory_counters_ex, psapi.process_memory_counters_ex, psapi/PPROCESS_MEMORY_COUNTERS_EX, psapi/PROCESS_MEMORY_COUNTERS_EX"
 ms.topic: struct
+f1_keywords: ["psapi/PROCESS_MEMORY_COUNTERS_EX"]
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmGetFilterList, RmGetFilterList function [Restart Mgr], restartmanager/RmGetFilterList, rstmgr.rmgetfilterlist
 ms.topic: function
+f1_keywords: ["restartmanager/RmGetFilterList"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

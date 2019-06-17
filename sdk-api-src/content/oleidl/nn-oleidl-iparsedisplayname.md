@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.topic: interface
+f1_keywords: ["oleidl/IParseDisplayName"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionEnumEx, MprAdminConnectionEnumEx function [RAS], mprapi/MprAdminConnectionEnumEx, rras.mpradminconnectionenumex
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminConnectionEnumEx"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

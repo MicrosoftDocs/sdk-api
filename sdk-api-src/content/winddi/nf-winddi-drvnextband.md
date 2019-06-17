@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvNextBand, DrvNextBand function [Display Devices], ddifncs_dc66e17a-f2da-45cc-bc1a-8058006c6922.xml, display.drvnextband, winddi/DrvNextBand
 ms.topic: function
+f1_keywords: ["winddi/DrvNextBand"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

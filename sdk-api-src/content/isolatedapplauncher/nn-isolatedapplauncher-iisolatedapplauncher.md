@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IIsolatedAppLauncher, IIsolatedAppLauncher interface [Windows API], IIsolatedAppLauncher interface [Windows API],described, isolatedapplauncher/IIsolatedAppLauncher, winprog.iisolatedapplauncher
 ms.topic: interface
+f1_keywords: ["isolatedapplauncher/IIsolatedAppLauncher"]
 req.header: isolatedapplauncher.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer interface [COM],described, _com_irpcproxybuffer, com.irpcproxybuffer, objidlbase/IRpcProxyBuffer
 ms.topic: interface
+f1_keywords: ["objidlbase/IRpcProxyBuffer"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

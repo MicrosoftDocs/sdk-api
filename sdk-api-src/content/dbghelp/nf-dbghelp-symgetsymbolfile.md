@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetSymbolFile"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

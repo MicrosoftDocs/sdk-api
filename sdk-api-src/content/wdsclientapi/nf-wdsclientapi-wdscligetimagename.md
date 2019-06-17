@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageName, WdsCliGetImageName function [Windows Deployment Services], wds.wdscligetimagename, wdsclientapi/WdsCliGetImageName
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliGetImageName"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

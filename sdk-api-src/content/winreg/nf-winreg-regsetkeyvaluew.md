@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegSetKeyValue, RegSetKeyValue function, RegSetKeyValueA, RegSetKeyValueW, base.regsetkeyvalue, winreg/RegSetKeyValue, winreg/RegSetKeyValueA, winreg/RegSetKeyValueW
 ms.topic: function
+f1_keywords: ["winreg/RegSetKeyValue"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumLocation interface [TAPI 2.2],Next method, IEnumLocation.Next, IEnumLocation::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumLocation interface, _tapi3_ienumlocation_next, tapi3.ienumlocation_next, tapi3if/IEnumLocation::Next
 ms.topic: method
+f1_keywords: ["tapi3if/IEnumLocation.Next"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

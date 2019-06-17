@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pcOutChars, ScriptString_pcOutChars function [Internationalization for Windows Applications], _win32_ScriptString_pcOutChars, intl.scriptstring_pcoutchars, usp10/ScriptString_pcOutChars
 ms.topic: function
+f1_keywords: ["usp10/ScriptString_pcOutChars"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

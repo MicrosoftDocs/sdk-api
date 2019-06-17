@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TRIMMING, DWRITE_TRIMMING structure [Direct Write], directwrite.dwrite_trimming, dwrite/DWRITE_TRIMMING
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_TRIMMING"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

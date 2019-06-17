@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSSLCertificateManager, IMFSSLCertificateManager interface [Media Foundation], IMFSSLCertificateManager interface [Media Foundation],described, mf.imfsslcertificatemanager, mfidl/IMFSSLCertificateManager
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSSLCertificateManager"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

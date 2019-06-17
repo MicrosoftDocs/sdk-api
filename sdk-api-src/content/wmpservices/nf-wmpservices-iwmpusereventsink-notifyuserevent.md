@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPUserEventSink interface [Windows Media Player],NotifyUserEvent method, IWMPUserEventSink.NotifyUserEvent, IWMPUserEventSink::NotifyUserEvent, IWMPUserEventSinkNotifyUserEvent, NotifyUserEvent, NotifyUserEvent method [Windows Media Player], NotifyUserEvent method [Windows Media Player],IWMPUserEventSink interface, wmp.iwmpusereventsink_notifyuserevent, wmpservices/IWMPUserEventSink::NotifyUserEvent
 ms.topic: method
+f1_keywords: ["wmpservices/IWMPUserEventSink.NotifyUserEvent"]
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

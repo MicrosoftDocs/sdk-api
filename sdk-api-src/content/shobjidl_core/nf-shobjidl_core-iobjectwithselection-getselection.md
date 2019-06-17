@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelection, GetSelection method [Windows Shell], GetSelection method [Windows Shell],IObjectWithSelection interface, IObjectWithSelection interface [Windows Shell],GetSelection method, IObjectWithSelection.GetSelection, IObjectWithSelection::GetSelection, _shell_IObjectWithSelection_GetSelection, shell.IObjectWithSelection_GetSelection, shobjidl_core/IObjectWithSelection::GetSelection
 ms.topic: method
+f1_keywords: ["shobjidl_core/IObjectWithSelection.GetSelection"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

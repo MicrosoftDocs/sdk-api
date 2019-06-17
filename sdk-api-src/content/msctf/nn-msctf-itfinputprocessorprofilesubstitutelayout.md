@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework], ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],described, msctf/ITfInputProcessorProfileSubstituteLayout, tsf.itfinputprocessorprofilesubstitutelayout
 ms.topic: interface
+f1_keywords: ["msctf/ITfInputProcessorProfileSubstituteLayout"]
 req.header: msctf.h
 req.include-header: Textstor.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],ProcessingComplete method, IAudioEndpointRT.ProcessingComplete, IAudioEndpointRT::ProcessingComplete, ProcessingComplete, ProcessingComplete method [Remote Desktop Services], ProcessingComplete method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::ProcessingComplete, termserv.iaudioendpointrt_processingcomplete
 ms.topic: method
+f1_keywords: ["audioengineendpoint/IAudioEndpointRT.ProcessingComplete"]
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

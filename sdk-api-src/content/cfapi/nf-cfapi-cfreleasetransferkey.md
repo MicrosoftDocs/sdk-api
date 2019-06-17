@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleaseTransferKey, cloudApi.cfreleasetransferkey
 ms.topic: function
+f1_keywords: ["cfapi/CfReleaseTransferKey"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

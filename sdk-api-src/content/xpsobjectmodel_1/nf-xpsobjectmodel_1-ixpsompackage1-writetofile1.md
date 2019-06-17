@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage1 interface [XPS Documents and Packaging],WriteToFile1 method, IXpsOMPackage1.WriteToFile1, IXpsOMPackage1::WriteToFile1, WriteToFile1, WriteToFile1 method [XPS Documents and Packaging], WriteToFile1 method [XPS Documents and Packaging],IXpsOMPackage1 interface, xps.ixpsompackage1_writetofile1, xpsobjectmodel_1/IXpsOMPackage1::WriteToFile1
 ms.topic: method
+f1_keywords: ["xpsobjectmodel_1/IXpsOMPackage1.WriteToFile1"]
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows

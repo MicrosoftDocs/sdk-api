@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInt32Array, CreateInt32Array method [Windows Runtime], CreateInt32Array method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt32Array method, IPropertyValueStatics.CreateInt32Array, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt32Array, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt32Array, winrt.ipropertyvaluefactory_createint32array, winrt.ipropertyvaluestatics_createint32array
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateInt32Array"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

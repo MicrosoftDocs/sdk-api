@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupEnumRecords, PeerGroupEnumRecords function [Peer Networking], p2p.peergroupenumrecords, p2p/PeerGroupEnumRecords
 ms.topic: function
+f1_keywords: ["p2p/PeerGroupEnumRecords"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

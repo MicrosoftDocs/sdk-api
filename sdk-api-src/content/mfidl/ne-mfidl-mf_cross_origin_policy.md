@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_CROSS_ORIGIN_POLICY, MF_CROSS_ORIGIN_POLICY_ANONYMOUS, MF_CROSS_ORIGIN_POLICY_NONE, MF_CROSS_ORIGIN_POLICY_USE_CREDENTIALS, _MF_CROSS_ORIGIN_POLICY, _MF_CROSS_ORIGIN_POLICY enumeration [Media Foundation], mf._mf_cross_origin_policy, mfidl/MF_CROSS_ORIGIN_POLICY_ANONYMOUS, mfidl/MF_CROSS_ORIGIN_POLICY_NONE, mfidl/MF_CROSS_ORIGIN_POLICY_USE_CREDENTIALS, mfidl/_MF_CROSS_ORIGIN_POLICY
 ms.topic: enum
+f1_keywords: ["mfidl/_MF_CROSS_ORIGIN_POLICY"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

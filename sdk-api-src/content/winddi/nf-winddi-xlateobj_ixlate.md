@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_iXlate, XLATEOBJ_iXlate function [Display Devices], display.xlateobj_ixlate, gdifncs_c1ca950a-fb95-47ae-936a-857ffc47c027.xml, winddi/XLATEOBJ_iXlate
 ms.topic: function
+f1_keywords: ["winddi/XLATEOBJ_iXlate"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

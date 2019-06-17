@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCurrentView property [Windows Accessibility], CachedCurrentView property [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],CachedCurrentView property, IUIAutomationMultipleViewPattern.CachedCurrentView, IUIAutomationMultipleViewPattern.get_CachedCurrentView, IUIAutomationMultipleViewPattern::CachedCurrentView, IUIAutomationMultipleViewPattern::get_CachedCurrentView, get_CachedCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView, uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CachedCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CachedCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationMultipleViewPattern.CachedCurrentView"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

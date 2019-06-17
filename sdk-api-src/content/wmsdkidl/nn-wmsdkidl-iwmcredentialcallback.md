@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCredentialCallback, IWMCredentialCallback interface [windows Media Format], IWMCredentialCallback interface [windows Media Format],described, IWMCredentialCallbackInterface, wmformat.iwmcredentialcallback, wmsdkidl/IWMCredentialCallback
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMCredentialCallback"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

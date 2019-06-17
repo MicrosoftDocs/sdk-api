@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpcGetSamplesArgs, TpcGetSamplesArgs structure, _win32_tpcgetsamplesargs_str, base.tpcgetsamplesargs_str, timeprov/TpcGetSamplesArgs
 ms.topic: struct
+f1_keywords: ["timeprov/TpcGetSamplesArgs"]
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

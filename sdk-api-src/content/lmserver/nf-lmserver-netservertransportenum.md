@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetServerTransportEnum, NetServerTransportEnum function [Network Management], _win32_netservertransportenum, lmserver/NetServerTransportEnum, netmgmt.netservertransportenum
 ms.topic: function
+f1_keywords: ["lmserver/NetServerTransportEnum"]
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

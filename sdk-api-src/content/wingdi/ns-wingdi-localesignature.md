@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOCALESIGNATURE, *PLOCALESIGNATURE, LOCALESIGNATURE, LOCALESIGNATURE structure [Internationalization for Windows Applications], PLOCALESIGNATURE, PLOCALESIGNATURE structure pointer [Internationalization for Windows Applications], _win32_LOCALESIGNATURE_str, intl.localesignature, wingdi/LOCALESIGNATURE, wingdi/PLOCALESIGNATURE"
 ms.topic: struct
+f1_keywords: ["wingdi/LOCALESIGNATURE"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

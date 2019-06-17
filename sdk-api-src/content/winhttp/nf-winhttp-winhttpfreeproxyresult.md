@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpFreeProxyResult, WinHttpFreeProxyResult function [WinHTTP], http.winhttpfreeproxyresult, winhttp/WinHttpFreeProxyResult
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpFreeProxyResult"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

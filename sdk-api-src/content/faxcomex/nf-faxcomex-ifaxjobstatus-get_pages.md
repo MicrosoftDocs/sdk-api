@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],Pages property, IFaxJobStatus.Pages, IFaxJobStatus.get_Pages, IFaxJobStatus::Pages, IFaxJobStatus::get_Pages, Pages property [Fax Service], Pages property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.pages, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_pages_cpp, fax._mfax_faxjobstatus_pages, faxcomex/IFaxJobStatus::Pages, faxcomex/IFaxJobStatus::get_Pages, get_Pages
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxJobStatus.Pages"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

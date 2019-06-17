@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4e3ca029-17ed-c553-b92b-d01300a4477f, GetIntVectorArray, GetIntVectorArray method [Direct3D 10], GetIntVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetIntVectorArray method, ID3D10EffectVectorVariable.GetIntVectorArray, ID3D10EffectVectorVariable::GetIntVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetIntVectorArray, direct3d10.id3d10effectvectorvariable_getintvectorarray
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectVectorVariable.GetIntVectorArray"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

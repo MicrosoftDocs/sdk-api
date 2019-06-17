@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8b57c261-2c3b-959e-ad7c-dc12c2854d73, GetTextureStageState, GetTextureStageState method [Direct3D 9], GetTextureStageState method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetTextureStageState method, IDirect3DDevice9.GetTextureStageState, IDirect3DDevice9::GetTextureStageState, d3d9helper/IDirect3DDevice9::GetTextureStageState, direct3d9.idirect3ddevice9__gettexturestagestate
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.GetTextureStageState"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreationTime property [File Server Resource Manager], CreationTime property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],CreationTime property, IFsrmPropertyBag.CreationTime, IFsrmPropertyBag.get_CreationTime, IFsrmPropertyBag::CreationTime, IFsrmPropertyBag::get_CreationTime, fs.ifsrmpropertybag_creationtime, fsrm.ifsrmpropertybag_creationtime, fsrmpipeline/IFsrmPropertyBag::CreationTime, fsrmpipeline/IFsrmPropertyBag::get_CreationTime, get_CreationTime
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.CreationTime"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

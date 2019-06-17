@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSetting interface [Offline Files],SetPreference method, IOfflineFilesSetting.SetPreference, IOfflineFilesSetting::SetPreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, SetPreference, SetPreference method [Offline Files], SetPreference method [Offline Files],IOfflineFilesSetting interface, cscobj/IOfflineFilesSetting::SetPreference, of.iofflinefilessetting_setpreference
 ms.topic: method
+f1_keywords: ["cscobj/IOfflineFilesSetting.SetPreference"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

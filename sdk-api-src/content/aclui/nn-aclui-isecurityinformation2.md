@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation2, ISecurityInformation2 interface [Security], ISecurityInformation2 interface [Security],described, _win32_isecurityinformation2, aclui/ISecurityInformation2, security.isecurityinformation2
 ms.topic: interface
+f1_keywords: ["aclui/ISecurityInformation2"]
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

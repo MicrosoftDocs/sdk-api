@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropCreateNotifyObj, ADsPropCreateNotifyObj function [Active Directory], ad.adspropcreatenotifyobj, adsprop/ADsPropCreateNotifyObj
 ms.topic: function
+f1_keywords: ["adsprop/ADsPropCreateNotifyObj"]
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

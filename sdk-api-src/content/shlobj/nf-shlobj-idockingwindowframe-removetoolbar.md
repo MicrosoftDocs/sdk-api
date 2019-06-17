@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWFRF_DELETECONFIGDATA, DWFRF_NORMAL, IDockingWindowFrame interface [Windows Shell],RemoveToolbar method, IDockingWindowFrame.RemoveToolbar, IDockingWindowFrame::RemoveToolbar, RemoveToolbar, RemoveToolbar method [Windows Shell], RemoveToolbar method [Windows Shell],IDockingWindowFrame interface, _win32_IDockingWindowFrame_RemoveToolbar, shell.IDockingWindowFrame_RemoveToolbar, shlobj/IDockingWindowFrame::RemoveToolbar
 ms.topic: method
+f1_keywords: ["shlobj/IDockingWindowFrame.RemoveToolbar"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

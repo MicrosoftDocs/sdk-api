@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreDidAlloc method, IMallocSpy.PreDidAlloc, IMallocSpy::PreDidAlloc, PreDidAlloc, PreDidAlloc method [COM], PreDidAlloc method [COM],IMallocSpy interface, _com_imallocspy_predidalloc, com.imallocspy_predidalloc, objidl/IMallocSpy::PreDidAlloc
 ms.topic: method
+f1_keywords: ["objidl/IMallocSpy.PreDidAlloc"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

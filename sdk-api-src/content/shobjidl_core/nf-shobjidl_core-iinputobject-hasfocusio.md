@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasFocusIO, HasFocusIO method [Windows Shell], HasFocusIO method [Windows Shell],IInputObject interface, IInputObject interface [Windows Shell],HasFocusIO method, IInputObject.HasFocusIO, IInputObject::HasFocusIO, _win32_IInputObject_HasFocusIO, shell.IInputObject_HasFocusIO, shobjidl_core/IInputObject::HasFocusIO
 ms.topic: method
+f1_keywords: ["shobjidl_core/IInputObject.HasFocusIO"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

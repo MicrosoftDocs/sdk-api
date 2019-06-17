@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMsgCollection class [GPMC],Item property, IGPMStatusMsgCollection interface [GPMC],Item property, IGPMStatusMsgCollection.Item, IGPMStatusMsgCollection.get_Item, IGPMStatusMsgCollection::Item, IGPMStatusMsgCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMStatusMsgCollection class, Item property [GPMC],IGPMStatusMsgCollection interface, _win32_igpmstatusmsgcollection_get_item, get_Item, gpmc.igpmstatusmsgcollection_get_item, gpmgmt/IGPMStatusMsgCollection::Item, gpmgmt/IGPMStatusMsgCollection::get_Item
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMStatusMsgCollection.Item"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

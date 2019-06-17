@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgDeserializePropVariant, StgDeserializePropVariant function [Structured Storage], propvarutil/StgDeserializePropVariant, stg.stgdeserializepropvariant
 ms.topic: function
+f1_keywords: ["propvarutil/StgDeserializePropVariant"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

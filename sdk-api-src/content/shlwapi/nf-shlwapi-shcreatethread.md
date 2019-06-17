@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateThread, SHCreateThread function [Windows Shell], _win32_SHCreateThread, shell.SHCreateThread, shlwapi/SHCreateThread
 ms.topic: function
+f1_keywords: ["shlwapi/SHCreateThread"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpLockStatus, IOpLockStatus interface [search], IOpLockStatus interface [search],described, _search_IOpLockStatus, search._search_IOpLockStatus, searchapi/IOpLockStatus
 ms.topic: interface
+f1_keywords: ["searchapi/IOpLockStatus"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

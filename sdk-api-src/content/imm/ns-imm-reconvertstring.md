@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPRECONVERTSTRING, *NPRECONVERTSTRING, *PRECONVERTSTRING, PRECONVERTSTRING, PRECONVERTSTRING structure pointer [Internationalization for Windows Applications], RECONVERTSTRING, RECONVERTSTRING structure [Internationalization for Windows Applications], _win32_RECONVERTSTRING_str, imm/PRECONVERTSTRING, imm/RECONVERTSTRING, intl.reconvertstring, tagRECONVERTSTRING"
 ms.topic: struct
+f1_keywords: ["imm/RECONVERTSTRING"]
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

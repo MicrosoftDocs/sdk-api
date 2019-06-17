@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5f032879-d10b-8a54-5b40-9fa1e178b0d5, D3D10CreateBlob, D3D10CreateBlob function [Direct3D 10], d3d10misc/D3D10CreateBlob, direct3d10.d3d10createblob
 ms.topic: function
+f1_keywords: ["d3d10misc/D3D10CreateBlob"]
 req.header: d3d10misc.h
 req.include-header: 
 req.target-type: Windows

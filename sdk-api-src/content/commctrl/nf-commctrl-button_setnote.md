@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_SetNote, Button_SetNote macro [Windows Controls], _shell_Button_SetNote, _shell_Button_SetNote_cpp, commctrl/Button_SetNote, controls.Button_SetNote, controls._shell_Button_SetNote
 ms.topic: macro
+f1_keywords: ["commctrl/Button_SetNote"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

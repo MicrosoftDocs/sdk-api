@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
 ms.topic: function
+f1_keywords: ["wincrypt/CryptDestroyHash"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

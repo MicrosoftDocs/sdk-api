@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3, IBrowserService3 interface [Windows Shell], IBrowserService3 interface [Windows Shell],described, shdeprecated/IBrowserService3, shell.IBrowserService3, zone_IBrowserService3
 ms.topic: interface
+f1_keywords: ["shdeprecated/IBrowserService3"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

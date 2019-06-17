@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetApplicationPolicy, SLGetApplicationPolicy function [Security], security.slgetapplicationpolicy, slpublic/SLGetApplicationPolicy
 ms.topic: function
+f1_keywords: ["slpublic/SLGetApplicationPolicy"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

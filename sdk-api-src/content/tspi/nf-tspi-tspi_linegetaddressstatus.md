@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetAddressStatus, TSPI_lineGetAddressStatus function [TAPI 2.2], _tspi_tspi_linegetaddressstatus, tspi.tspi_linegetaddressstatus, tspi/TSPI_lineGetAddressStatus
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineGetAddressStatus"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

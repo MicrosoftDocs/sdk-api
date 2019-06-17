@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackColor property [Tablet PC], BackColor property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],BackColor property, IInkEdit.BackColor, IInkEdit.get_BackColor, IInkEdit::BackColor, IInkEdit::get_BackColor, IInkEdit::put_BackColor, InkEdit.get_BackColor, InkEdit.put_BackColor, get_BackColor, inked/IInkEdit::BackColor, inked/IInkEdit::get_BackColor, inked/IInkEdit::put_BackColor, put_BackColor, tablet.inkedit_backcolor
 ms.topic: method
+f1_keywords: ["inked/IInkEdit.BackColor"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

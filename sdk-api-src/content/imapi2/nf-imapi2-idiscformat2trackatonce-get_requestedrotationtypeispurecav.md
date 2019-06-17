@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_RequestedRotationTypeIsPureCAV method, IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV, IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV, get_RequestedRotationTypeIsPureCAV method [IMAPI], get_RequestedRotationTypeIsPureCAV method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_requestedrotationtypeispurecav, imapi2/IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

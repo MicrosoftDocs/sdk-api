@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASetBlockingHook, WSASetBlockingHook function [Winsock], _win32_wsasetblockinghook_2, winsock.wsasetblockinghook_2, winsock2/WSASetBlockingHook
 ms.topic: function
+f1_keywords: ["winsock2/WSASetBlockingHook"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

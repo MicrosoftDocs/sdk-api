@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorMode, GetErrorMode function, base.geterrormode, errhandlingapi/GetErrorMode
 ms.topic: function
+f1_keywords: ["errhandlingapi/GetErrorMode"]
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

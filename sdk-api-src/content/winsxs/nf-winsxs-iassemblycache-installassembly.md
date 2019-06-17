@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IASSEMBLYCACHE_INSTALL_FLAG_FORCE_REFRESH, IASSEMBLYCACHE_INSTALL_FLAG_REFRESH, IAssemblyCache interface [Side-by-side Assemblies],InstallAssembly method, IAssemblyCache.InstallAssembly, IAssemblyCache::InstallAssembly, InstallAssembly, InstallAssembly method [Side-by-side Assemblies], InstallAssembly method [Side-by-side Assemblies],IAssemblyCache interface, setup.iassemblycache_installassembly, winsxs/IAssemblyCache::InstallAssembly
 ms.topic: method
+f1_keywords: ["winsxs/IAssemblyCache.InstallAssembly"]
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

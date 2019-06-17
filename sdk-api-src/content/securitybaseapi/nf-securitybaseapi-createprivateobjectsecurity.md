@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateObjectSecurity, CreatePrivateObjectSecurity function [Security], _win32_createprivateobjectsecurity, security.createprivateobjectsecurity, securitybaseapi/CreatePrivateObjectSecurity
 ms.topic: function
+f1_keywords: ["securitybaseapi/CreatePrivateObjectSecurity"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

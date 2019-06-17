@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_BOOL, EAP_METHOD_PROPERTY_VALUE_BOOL structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_BOOL, PEAP_METHOD_PROPERTY_VALUE_BOOL structure pointer [EAPHost], eaphost.eap_method_property_value_bool, eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL, eaptypes/PEAP_METHOD_PROPERTY_VALUE_BOOL
 ms.topic: struct
+f1_keywords: ["eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL"]
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEM_FAILCRITICALERRORS, SEM_NOGPFAULTERRORBOX, SEM_NOOPENFILEERRORBOX, SetThreadErrorMode, SetThreadErrorMode function, base.setthreaderrormode, errhandlingapi/SetThreadErrorMode
 ms.topic: function
+f1_keywords: ["errhandlingapi/SetThreadErrorMode"]
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows

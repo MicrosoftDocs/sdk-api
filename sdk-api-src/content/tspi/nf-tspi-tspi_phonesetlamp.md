@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetLamp, TSPI_phoneSetLamp function [TAPI 2.2], _tspi_tspi_phonesetlamp, tspi.tspi_phonesetlamp, tspi/TSPI_phoneSetLamp
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneSetLamp"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

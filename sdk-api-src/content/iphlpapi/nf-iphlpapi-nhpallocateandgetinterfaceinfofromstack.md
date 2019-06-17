@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NhpAllocateAndGetInterfaceInfoFromStack, NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper], iphlp.nhpallocateandgetinterfaceinfofromstack, iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack
 ms.topic: function
+f1_keywords: ["iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

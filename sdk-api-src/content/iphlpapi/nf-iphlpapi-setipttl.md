@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.setipttl, iphlpapi/SetIpTTL
 ms.topic: function
+f1_keywords: ["iphlpapi/SetIpTTL"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

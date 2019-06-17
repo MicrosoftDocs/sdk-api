@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure [Side-by-side Assemblies], setup.assembly_info_, winsxs/ASSEMBLY_INFO
 ms.topic: struct
+f1_keywords: ["winsxs/ASSEMBLY_INFO"]
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

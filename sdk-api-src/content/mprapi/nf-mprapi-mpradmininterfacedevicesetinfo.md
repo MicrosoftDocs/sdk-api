@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceDeviceSetInfo, MprAdminInterfaceDeviceSetInfo function [RAS], _mpr_mpradmininterfacedevicesetinfo, mprapi/MprAdminInterfaceDeviceSetInfo, rras.mpradmininterfacedevicesetinfo
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminInterfaceDeviceSetInfo"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

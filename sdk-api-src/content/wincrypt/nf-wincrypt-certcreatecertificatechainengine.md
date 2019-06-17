@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertCreateCertificateChainEngine, CertCreateCertificateChainEngine function [Security], _crypto2_certcreatecertificatechainengine, security.certcreatecertificatechainengine, wincrypt/CertCreateCertificateChainEngine
 ms.topic: function
+f1_keywords: ["wincrypt/CertCreateCertificateChainEngine"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

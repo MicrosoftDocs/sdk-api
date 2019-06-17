@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSelectedObjects, GetSelectedObjects method [Windows Shell], GetSelectedObjects method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetSelectedObjects method, IShellFolderView.GetSelectedObjects, IShellFolderView::GetSelectedObjects, _shell_IShellFolderView_GetSelectedObjects, shell.IShellFolderView_GetSelectedObjects, shlobj_core/IShellFolderView::GetSelectedObjects
 ms.topic: method
+f1_keywords: ["shlobj_core/IShellFolderView.GetSelectedObjects"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnectA, InternetConnectW, _win32_internetconnect, wininet.internetconnect, wininet/InternetConnect, wininet/InternetConnectA, wininet/InternetConnectW
 ms.topic: function
+f1_keywords: ["wininet/InternetConnect"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

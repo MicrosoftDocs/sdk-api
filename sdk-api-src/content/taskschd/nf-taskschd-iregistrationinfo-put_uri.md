@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],URI property, IRegistrationInfo.URI, IRegistrationInfo.put_URI, IRegistrationInfo::URI, IRegistrationInfo::get_URI, IRegistrationInfo::put_URI, URI property [Task Scheduler], URI property [Task Scheduler],IRegistrationInfo interface, put_URI, taskschd.iregistrationinfo_uri, taskschd/IRegistrationInfo::URI, taskschd/IRegistrationInfo::get_URI, taskschd/IRegistrationInfo::put_URI
 ms.topic: method
+f1_keywords: ["taskschd/IRegistrationInfo.URI"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

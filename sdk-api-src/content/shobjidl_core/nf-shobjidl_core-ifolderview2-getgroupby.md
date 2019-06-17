@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGroupBy, GetGroupBy method [Windows Shell], GetGroupBy method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetGroupBy method, IFolderView2.GetGroupBy, IFolderView2::GetGroupBy, _shell_IFolderView2_GetGroupBy, shell.IFolderView2_GetGroupBy, shobjidl_core/IFolderView2::GetGroupBy
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFolderView2.GetGroupBy"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

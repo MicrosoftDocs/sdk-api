@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HWND property [Windows API], HWND property [Windows API],IWebBrowser2 interface, HWND property [Windows API],IWebBrowserApp interface, IWebBrowser2 interface [Windows API],HWND property, IWebBrowser2.HWND, IWebBrowser2.get_HWND, IWebBrowser2::get_HWND, IWebBrowserApp interface [Windows API],HWND property, IWebBrowserApp.HWND, IWebBrowserApp.get_HWND, IWebBrowserApp::HWND, IWebBrowserApp::get_HWND, exdisp/IWebBrowser2::HWND, exdisp/IWebBrowser2::get_HWND, exdisp/IWebBrowserApp::HWND, exdisp/IWebBrowserApp::get_HWND, get_HWND, nHWND, winprog.iwebbrowser2_hwnd
 ms.topic: method
+f1_keywords: ["exdisp/IWebBrowserApp.HWND"]
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.srpgetenterpriseids, SrpGetEnterpriseIds, SrpGetEnterpriseIds function, srpapi/SrpGetEnterpriseIds
 ms.topic: function
+f1_keywords: ["srpapi/SrpGetEnterpriseIds"]
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

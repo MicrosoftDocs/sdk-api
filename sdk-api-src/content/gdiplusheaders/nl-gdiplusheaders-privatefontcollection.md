@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+], PrivateFontCollection class [GDI+],described, _gdiplus_CLASS_PrivateFontCollection_Class, gdiplus._gdiplus_CLASS_PrivateFontCollection_Class, gdiplusheaders/PrivateFontCollection
 ms.topic: class
+f1_keywords: ["gdiplusheaders/PrivateFontCollection"]
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows

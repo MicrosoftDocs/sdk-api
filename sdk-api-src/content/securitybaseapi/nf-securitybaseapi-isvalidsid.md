@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidSid, IsValidSid function [Security], _win32_isvalidsid, security.isvalidsid, securitybaseapi/IsValidSid
 ms.topic: function
+f1_keywords: ["securitybaseapi/IsValidSid"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

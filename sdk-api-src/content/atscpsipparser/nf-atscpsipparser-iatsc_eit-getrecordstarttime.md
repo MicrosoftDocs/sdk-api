@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordStartTime, GetRecordStartTime method [Microsoft TV Technologies], GetRecordStartTime method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordStartTime method, IATSC_EIT.GetRecordStartTime, IATSC_EIT::GetRecordStartTime, IATSC_EITGetRecordStartTime, atscpsipparser/IATSC_EIT::GetRecordStartTime, mstv.iatsc_eit_getrecordstarttime
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_EIT.GetRecordStartTime"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorDacl, GetSecurityDescriptorDacl function [Security], _win32_getsecuritydescriptordacl, security.getsecuritydescriptordacl, securitybaseapi/GetSecurityDescriptorDacl
 ms.topic: function
+f1_keywords: ["securitybaseapi/GetSecurityDescriptorDacl"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

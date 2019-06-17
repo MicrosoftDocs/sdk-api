@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_CharSet_ISO646, DVD_CharSet_ISO8859_1, DVD_CharSet_JIS_Roman_Kanji, DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, DVD_CharSet_Unicode, DVD_TextCharSet, DVD_TextCharSet , DVD_TextCharSet enumeration [DirectShow], DVD_TextCharSetEnumeration, dshow.dvd_textcharset, strmif/DVD_CharSet_ISO646, strmif/DVD_CharSet_ISO8859_1, strmif/DVD_CharSet_JIS_Roman_Kanji, strmif/DVD_CharSet_ShiftJIS_Kanji_Roman_Katakana, strmif/DVD_CharSet_Unicode, strmif/DVD_TextCharSet
 ms.topic: enum
+f1_keywords: ["strmif/DVD_TextCharSet"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

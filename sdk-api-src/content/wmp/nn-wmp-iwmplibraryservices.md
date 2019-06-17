@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player],described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
 ms.topic: interface
+f1_keywords: ["wmp/IWMPLibraryServices"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

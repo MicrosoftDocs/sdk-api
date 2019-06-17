@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter, IVssExpressWriter interface, IVssExpressWriter interface,described, base.ivssexpresswriter, vswriter/IVssExpressWriter
 ms.topic: class
+f1_keywords: ["vswriter/IVssExpressWriter"]
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows

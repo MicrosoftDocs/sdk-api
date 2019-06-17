@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSC_MGT, IATSC_MGT interface [Microsoft TV Technologies], IATSC_MGT interface [Microsoft TV Technologies],described, IATSC_MGTInterface, atscpsipparser/IATSC_MGT, mstv.iatsc_mgt
 ms.topic: interface
+f1_keywords: ["atscpsipparser/IATSC_MGT"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

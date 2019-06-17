@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method, Deserialize method,IWSDAddress interface, IWSDAddress interface,Deserialize method, IWSDAddress.Deserialize, IWSDAddress::Deserialize, ncd.iwsdaddress_deserialize, wsdbase/IWSDAddress::Deserialize
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDAddress.Deserialize"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

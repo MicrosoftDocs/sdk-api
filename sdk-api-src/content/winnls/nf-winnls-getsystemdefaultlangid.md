@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultLangID, GetSystemDefaultLangID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLangID, intl.getsystemdefaultlangid, winnls/GetSystemDefaultLangID
 ms.topic: function
+f1_keywords: ["winnls/GetSystemDefaultLangID"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

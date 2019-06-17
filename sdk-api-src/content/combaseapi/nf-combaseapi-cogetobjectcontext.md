@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetObjectContext, CoGetObjectContext function [COM], _com_CoGetObjectContext, com.cogetobjectcontext, combaseapi/CoGetObjectContext
 ms.topic: function
+f1_keywords: ["combaseapi/CoGetObjectContext"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
 ms.topic: function
+f1_keywords: ["drt/DrtCreateDerivedKey"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

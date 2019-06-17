@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStretchBltMode, GetStretchBltMode function [Windows GDI], _win32_GetStretchBltMode, gdi.getstretchbltmode, wingdi/GetStretchBltMode
 ms.topic: function
+f1_keywords: ["wingdi/GetStretchBltMode"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

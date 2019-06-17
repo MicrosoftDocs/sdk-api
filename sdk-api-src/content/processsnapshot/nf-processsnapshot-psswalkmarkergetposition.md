@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerGetPosition, PssWalkMarkerGetPosition function, proc_snap.psswalkmarkergetposition, processsnapshot/PssWalkMarkerGetPosition
 ms.topic: function
+f1_keywords: ["processsnapshot/PssWalkMarkerGetPosition"]
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

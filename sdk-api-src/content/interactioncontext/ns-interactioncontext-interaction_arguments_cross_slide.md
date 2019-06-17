@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_CROSS_SLIDE, INTERACTION_ARGUMENTS_CROSS_SLIDE structure, input_intcontext.interaction_arguments_cross_slide, interactioncontext.interaction_arguments_cross_slide, interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE
 ms.topic: struct
+f1_keywords: ["interactioncontext/INTERACTION_ARGUMENTS_CROSS_SLIDE"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

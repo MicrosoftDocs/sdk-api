@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWSADATA, LPWSADATA, LPWSADATA structure pointer [Winsock], WSADATA, WSADATA structure [Winsock], _win32_wsadata_2, winsock.wsadata_2, winsock/LPWSADATA, winsock/WSADATA"
 ms.topic: struct
+f1_keywords: ["winsock/WSADATA"]
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

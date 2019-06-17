@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Management], _win32_netwkstauserenum, lmwksta/NetWkstaUserEnum, netmgmt.netwkstauserenum
 ms.topic: function
+f1_keywords: ["lmwksta/NetWkstaUserEnum"]
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

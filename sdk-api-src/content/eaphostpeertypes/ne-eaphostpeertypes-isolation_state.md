@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISOLATION_STATE, ISOLATION_STATE enumeration [EAPHost], ISOLATION_STATE_IN_PROBATION, ISOLATION_STATE_NOT_RESTRICTED, ISOLATION_STATE_RESTRICTED_ACCESS, ISOLATION_STATE_UNKNOWN, eaphost.isolation_state, eaphostpeertypes/ISOLATION_STATE, eaphostpeertypes/ISOLATION_STATE_IN_PROBATION, eaphostpeertypes/ISOLATION_STATE_NOT_RESTRICTED, eaphostpeertypes/ISOLATION_STATE_RESTRICTED_ACCESS, eaphostpeertypes/ISOLATION_STATE_UNKNOWN
 ms.topic: enum
+f1_keywords: ["eaphostpeertypes/ISOLATION_STATE"]
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

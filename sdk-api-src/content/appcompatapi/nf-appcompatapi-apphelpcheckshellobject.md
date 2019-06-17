@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApphelpCheckShellObject, ApphelpCheckShellObject function [Windows API], appcompatapi/ApphelpCheckShellObject, winprog.apphelpcheckshellobject
 ms.topic: function
+f1_keywords: ["appcompatapi/ApphelpCheckShellObject"]
 req.header: appcompatapi.h
 req.include-header: 
 req.target-type: Windows

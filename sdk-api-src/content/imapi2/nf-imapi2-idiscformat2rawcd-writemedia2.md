@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],WriteMedia2 method, IDiscFormat2RawCD.WriteMedia2, IDiscFormat2RawCD::WriteMedia2, WriteMedia2, WriteMedia2 method [IMAPI], WriteMedia2 method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_writemedia2, imapi2/IDiscFormat2RawCD::WriteMedia2
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2RawCD.WriteMedia2"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

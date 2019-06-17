@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat1 interface [Direct Write],SetVerticalGlyphOrientation method, IDWriteTextFormat1.SetVerticalGlyphOrientation, IDWriteTextFormat1::SetVerticalGlyphOrientation, SetVerticalGlyphOrientation, SetVerticalGlyphOrientation method [Direct Write], SetVerticalGlyphOrientation method [Direct Write],IDWriteTextFormat1 interface, directwrite.idwritetextformat1_setverticalglyphorientation, dwrite_2/IDWriteTextFormat1::SetVerticalGlyphOrientation
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteTextFormat1.SetVerticalGlyphOrientation"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

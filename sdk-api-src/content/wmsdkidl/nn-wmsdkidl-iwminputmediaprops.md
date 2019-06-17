@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMInputMediaProps, IWMInputMediaProps interface [windows Media Format], IWMInputMediaProps interface [windows Media Format],described, IWMInputMediaPropsInterface, wmformat.iwminputmediaprops, wmsdkidl/IWMInputMediaProps
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMInputMediaProps"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

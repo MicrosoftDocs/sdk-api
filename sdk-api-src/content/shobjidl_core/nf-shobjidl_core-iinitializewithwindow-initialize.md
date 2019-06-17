@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithWindow interface [Windows Shell],Initialize method, IInitializeWithWindow.Initialize, IInitializeWithWindow::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithWindow interface, shell.IInitializeWithWindow_Initialize, shobjidl_core/IInitializeWithWindow::Initialize
 ms.topic: method
+f1_keywords: ["shobjidl_core/IInitializeWithWindow.Initialize"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManagerSource, IMFDXGIDeviceManagerSource interface [Media Foundation], IMFDXGIDeviceManagerSource interface [Media Foundation],described, mf.imfdxgidevicemanagersource, mfidl/IMFDXGIDeviceManagerSource
 ms.topic: interface
+f1_keywords: ["mfidl/IMFDXGIDeviceManagerSource"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

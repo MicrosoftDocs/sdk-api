@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMMDevice interface [Core Audio],OpenPropertyStore method, IMMDevice.OpenPropertyStore, IMMDevice::OpenPropertyStore, IMMDeviceOpenPropertyStore, OpenPropertyStore, OpenPropertyStore method [Core Audio], OpenPropertyStore method [Core Audio],IMMDevice interface, coreaudio.immdevice_openpropertystore, mmdeviceapi/IMMDevice::OpenPropertyStore
 ms.topic: method
+f1_keywords: ["mmdeviceapi/IMMDevice.OpenPropertyStore"]
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows

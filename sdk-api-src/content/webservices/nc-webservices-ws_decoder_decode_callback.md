@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_DECODER_DECODE_CALLBACK, WS_DECODER_DECODE_CALLBACK callback, WS_DECODER_DECODE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_DECODE_CALLBACK, wsw.ws_decoder_decode_callback
 ms.topic: callback
+f1_keywords: ["webservices/WS_DECODER_DECODE_CALLBACK"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_MIN_PRECISION_10_BIT, D3D11_SHADER_MIN_PRECISION_16_BIT, D3D11_SHADER_MIN_PRECISION_SUPPORT, D3D11_SHADER_MIN_PRECISION_SUPPORT enumeration [Direct3D 11], d3d11/D3D11_SHADER_MIN_PRECISION_10_BIT, d3d11/D3D11_SHADER_MIN_PRECISION_16_BIT, d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT, direct3d11.d3d11_shader_min_precision_support
 ms.topic: enum
+f1_keywords: ["d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

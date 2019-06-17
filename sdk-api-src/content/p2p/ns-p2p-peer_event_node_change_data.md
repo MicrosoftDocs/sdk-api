@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA, PEER_EVENT_NODE_CHANGE_DATA structure [Peer Networking], PEER_NODE_CHANGE_CONNECTED, PEER_NODE_CHANGE_DISCONNECTED, PEER_NODE_CHANGE_UPDATED, PPEER_EVENT_NODE_CHANGE_DATA, PPEER_EVENT_NODE_CHANGE_DATA structure pointer [Peer Networking], p2p.peer_event_node_change_data, p2p/PPEER_EVENT_NODE_CHANGE_DATA, p2p/peer_event_node_change_data_tag"
 ms.topic: struct
+f1_keywords: ["p2p/PEER_EVENT_NODE_CHANGE_DATA"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_OPTION, PWLX_SET_OPTION callback, WlxSetOption, WlxSetOption callback function [Security], _gina_wlxsetoption, security.wlxsetoption, winwlx/WlxSetOption
 ms.topic: callback
+f1_keywords: ["winwlx/WlxSetOption"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

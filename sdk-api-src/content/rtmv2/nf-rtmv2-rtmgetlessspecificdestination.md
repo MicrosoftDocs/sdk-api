@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmGetLessSpecificDestination, RtmGetLessSpecificDestination function [RAS], _rtmv2ref_rtmgetlessspecificdestination, rras.rtmgetlessspecificdestination, rtmv2/RtmGetLessSpecificDestination
 ms.topic: function
+f1_keywords: ["rtmv2/RtmGetLessSpecificDestination"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

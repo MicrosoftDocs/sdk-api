@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromI2, VarUI2FromI2 function [Automation], _oa96_VarUI2FromI2, automat.varui2fromi2, oleauto/VarUI2FromI2
 ms.topic: function
+f1_keywords: ["oleauto/VarUI2FromI2"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

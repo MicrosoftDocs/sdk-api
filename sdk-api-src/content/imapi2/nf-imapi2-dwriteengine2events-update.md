@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWriteEngine2Events interface [IMAPI],Update method, DWriteEngine2Events.Update, DWriteEngine2Events::Update, Update, Update method [IMAPI], Update method [IMAPI],DWriteEngine2Events interface, imapi.dwriteengine2events_update, imapi2/DWriteEngine2Events::Update
 ms.topic: method
+f1_keywords: ["imapi2/DWriteEngine2Events.Update"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

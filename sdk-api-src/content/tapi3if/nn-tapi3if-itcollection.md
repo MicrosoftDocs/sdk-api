@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCollection, ITCollection interface [TAPI 2.2], ITCollection interface [TAPI 2.2],described, _tapi3_itcollection, tapi3.itcollection, tapi3if/ITCollection
 ms.topic: interface
+f1_keywords: ["tapi3if/ITCollection"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

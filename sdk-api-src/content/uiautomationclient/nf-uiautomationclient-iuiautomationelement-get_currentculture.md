@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCulture property [Windows Accessibility], CurrentCulture property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentCulture property, IUIAutomationElement.CurrentCulture, IUIAutomationElement.get_CurrentCulture, IUIAutomationElement::CurrentCulture, IUIAutomationElement::get_CurrentCulture, get_CurrentCulture, uiauto.uiauto_IUIAutomationElement_CurrentCulture, uiauto_IUIAutomationElement_CurrentCulture, uiautomationclient/IUIAutomationElement::CurrentCulture, uiautomationclient/IUIAutomationElement::get_CurrentCulture, winauto.uiauto_IUIAutomationElement_CurrentCulture
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentCulture"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

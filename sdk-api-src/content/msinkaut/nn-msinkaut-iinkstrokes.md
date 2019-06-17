@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes, IInkStrokes interface [Tablet PC], IInkStrokes interface [Tablet PC],described, msinkaut/IInkStrokes, tablet.iinkstrokes
 ms.topic: interface
+f1_keywords: ["msinkaut/IInkStrokes"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AnalyzeScript, AnalyzeScript method [Direct Write], AnalyzeScript method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeScript method, IDWriteTextAnalyzer.AnalyzeScript, IDWriteTextAnalyzer::AnalyzeScript, directwrite.IDWriteTextAnalyzer_AnalyzeScript, dwrite/IDWriteTextAnalyzer::AnalyzeScript
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextAnalyzer.AnalyzeScript"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

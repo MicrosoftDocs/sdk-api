@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnectionPropertySet, ITsSbClientConnectionPropertySet interface [Remote Desktop Services], ITsSbClientConnectionPropertySet interface [Remote Desktop Services],described, sbtsv/ITsSbClientConnectionPropertySet, termserv.itssbclientconnectionpropertyset
 ms.topic: interface
+f1_keywords: ["sbtsv/ITsSbClientConnectionPropertySet"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

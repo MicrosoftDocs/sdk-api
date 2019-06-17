@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsBrowseDomainTree, IDsBrowseDomainTree interface [Active Directory], IDsBrowseDomainTree interface [Active Directory],described, _glines_idsbrowsedomaintree, ad.idsbrowsedomaintree, dsclient/IDsBrowseDomainTree
 ms.topic: interface
+f1_keywords: ["dsclient/IDsBrowseDomainTree"]
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows

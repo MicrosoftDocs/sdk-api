@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMPROCESSES_CALLBACK, SymEnumProcessesProc, SymEnumProcessesProc callback, SymEnumProcessesProc callback function, base.symenumprocessesproc, dbghelp/SymEnumProcessesProc
 ms.topic: callback
+f1_keywords: ["dbghelp/SymEnumProcessesProc"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

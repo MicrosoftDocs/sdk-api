@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDevices interface [Microsoft TV Technologies],get_Item method, IMSVidOutputDevices.get_Item, IMSVidOutputDevices::get_Item, IMSVidOutputDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidOutputDevices interface, mstv.imsvidoutputdevices_get_item, segment/IMSVidOutputDevices::get_Item
 ms.topic: method
+f1_keywords: ["segment/IMSVidOutputDevices.get_Item"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

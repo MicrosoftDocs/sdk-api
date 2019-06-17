@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1d26b9ee-545a-4e47-9a68-b9e567f0dec4, MFT_REGISTER_TYPE_INFO, MFT_REGISTER_TYPE_INFO structure [Media Foundation], _MFT_REGISTER_TYPE_INFO, mf.mft_register_type_info, mfobjects/MFT_REGISTER_TYPE_INFO
 ms.topic: struct
+f1_keywords: ["mfobjects/MFT_REGISTER_TYPE_INFO"]
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows

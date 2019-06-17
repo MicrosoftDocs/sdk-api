@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder, ICaptureGraphBuilder interface [DirectShow], ICaptureGraphBuilder interface [DirectShow],described, ICaptureGraphBuilderInterface, dshow.icapturegraphbuilder, strmif/ICaptureGraphBuilder
 ms.topic: interface
+f1_keywords: ["strmif/ICaptureGraphBuilder"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness],described, netlistmgr/INetworkEvents, nla.inetworkevents
 ms.topic: interface
+f1_keywords: ["netlistmgr/INetworkEvents"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

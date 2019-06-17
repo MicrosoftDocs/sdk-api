@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwService interface [ICS/ICF],Type property, INetFwService.Type, INetFwService.get_Type, INetFwService::Type, INetFwService::get_Type, Type property [ICS/ICF], Type property [ICS/ICF],INetFwService interface, get_Type, ics.inetfwservice_type, netfw/INetFwService::Type, netfw/INetFwService::get_Type
 ms.topic: method
+f1_keywords: ["netfw/INetFwService.Type"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

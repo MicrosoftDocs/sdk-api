@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertificateFailure, CertificateFailure method [Microsoft TV Technologies], CertificateFailure method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent interface, IMSVidStreamBufferSinkEvent interface [Microsoft TV Technologies],CertificateFailure method, IMSVidStreamBufferSinkEvent.CertificateFailure, IMSVidStreamBufferSinkEvent::CertificateFailure, IMSVidStreamBufferSinkEventCertificateFailure, mstv.imsvidstreambuffersinkevent_certificatefailure, segment/IMSVidStreamBufferSinkEvent::CertificateFailure
 ms.topic: method
+f1_keywords: ["segment/IMSVidStreamBufferSinkEvent.CertificateFailure"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

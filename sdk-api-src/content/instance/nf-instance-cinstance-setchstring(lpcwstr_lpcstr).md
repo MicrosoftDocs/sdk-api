@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?SetCHString@CInstance@@QAE_NPBG0@Z, ?SetCHString@CInstance@@QAE_NPBGPBD@Z, ?SetCHString@CInstance@@QEAA_NPEBG0@Z, ?SetCHString@CInstance@@QEAA_NPEBGPEBD@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,LPCSTR), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,LPCSTR), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__lpcstr_"
 ms.topic: method
+f1_keywords: ["instance/CInstance.SetCHString"]
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

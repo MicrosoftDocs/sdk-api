@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminGetErrorString"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

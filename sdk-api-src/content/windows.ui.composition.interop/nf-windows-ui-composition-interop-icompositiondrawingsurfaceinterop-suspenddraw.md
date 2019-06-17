@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,SuspendDraw method, ICompositionDrawingSurfaceInterop.SuspendDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::SuspendDraw, ICompositionDrawingSurfaceInterop::composition, SuspendDraw, SuspendDraw method, SuspendDraw method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_suspenddraw, windows/ICompositionDrawingSurfaceInterop::SuspendDraw
 ms.topic: method
+f1_keywords: ["windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.SuspendDraw"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

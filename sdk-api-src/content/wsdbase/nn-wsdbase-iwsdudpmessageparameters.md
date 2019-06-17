@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpMessageParameters, IWSDUdpMessageParameters interface, IWSDUdpMessageParameters interface,described, ncd.iwsdudpmessageparameters, wsdbase/IWSDUdpMessageParameters
 ms.topic: interface
+f1_keywords: ["wsdbase/IWSDUdpMessageParameters"]
 req.header: wsdbase.h
 req.include-header: 
 req.target-type: Windows

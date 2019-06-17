@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetItem method, IFolderView2.GetItem, IFolderView2::GetItem, _shell_IFolderView2_GetItem, shell.IFolderView2_GetItem, shobjidl_core/IFolderView2::GetItem
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFolderView2.GetItem"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
 ms.topic: function
+f1_keywords: ["slpublic/SLGetWindowsInformation"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

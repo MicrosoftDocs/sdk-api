@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetMaximumLatency, MI_SubscriptionDeliveryOptions_GetMaximumLatency function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetMaximumLatency, wmi_v2.mi_subscriptiondeliveryoptions_getmaximumlatency
 ms.topic: function
+f1_keywords: ["mi/MI_SubscriptionDeliveryOptions_GetMaximumLatency"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

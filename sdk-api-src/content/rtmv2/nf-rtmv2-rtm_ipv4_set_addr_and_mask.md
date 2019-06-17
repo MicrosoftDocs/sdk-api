@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_MASK, RTM_IPV4_SET_ADDR_AND_MASK macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_mask, rras.rtm_ipv4_set_addr_and_mask, rtmv2/RTM_IPV4_SET_ADDR_AND_MASK
 ms.topic: macro
+f1_keywords: ["rtmv2/RTM_IPV4_SET_ADDR_AND_MASK"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

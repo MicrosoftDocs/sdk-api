@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMGradientStop"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

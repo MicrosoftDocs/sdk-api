@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetColor method, ID2D1SvgPaint.SetColor, ID2D1SvgPaint.SetColor(const D2D1_COLOR_F), ID2D1SvgPaint::SetColor, ID2D1SvgPaint::SetColor(const D2D1_COLOR_F), SetColor, SetColor method [Direct2D], SetColor method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetColor, direct2d.id2d1svgpaint_setcolor
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgPaint.SetColor"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

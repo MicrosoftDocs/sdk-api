@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search], ISchemaLocalizerSupport interface [search],described, _search_ISchemaLocalizerSupport, search._search_ISchemaLocalizerSupport, structuredquery/ISchemaLocalizerSupport
 ms.topic: interface
+f1_keywords: ["structuredquery/ISchemaLocalizerSupport"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

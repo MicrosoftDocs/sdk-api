@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_PRESHARED_KEY_AUTHENTICATION0, IKEEXT_PRESHARED_KEY_AUTHENTICATION0 structure [Filtering], fwp.ikeext_preshared_key_authentication0, iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION0
 ms.topic: struct
+f1_keywords: ["iketypes/IKEEXT_PRESHARED_KEY_AUTHENTICATION0"]
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OFASI_EDIT, OFASI_OPENDESKTOP, SHOpenFolderAndSelectItems, SHOpenFolderAndSelectItems function [Windows Shell], shell.SHOpenFolderAndSelectItems, shell_SHOpenFolderAndSelectItems, shlobj_core/SHOpenFolderAndSelectItems
 ms.topic: function
+f1_keywords: ["shlobj_core/SHOpenFolderAndSelectItems"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

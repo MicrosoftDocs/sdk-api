@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_INTERFACE_CAPS, MBN_INTERFACE_CAPS structure [Microsoft Broadband Networks], mbn.mbn_interface_caps, mbnapi/MBN_INTERFACE_CAPS
 ms.topic: struct
+f1_keywords: ["mbnapi/MBN_INTERFACE_CAPS"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

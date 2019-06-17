@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
 ms.topic: function
+f1_keywords: ["cryptuiapi/CryptUIDlgCertMgr"]
 req.header: cryptuiapi.h
 req.include-header: 
 req.target-type: Windows

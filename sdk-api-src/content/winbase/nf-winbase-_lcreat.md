@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_lcreat, _lcreat function [Windows API], winbase/_lcreat, winprog._lcreat"
 ms.topic: function
+f1_keywords: ["winbase/_lcreat"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

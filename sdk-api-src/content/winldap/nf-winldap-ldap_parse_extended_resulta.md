@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ldap_parse_extended_result, ldap.ldap__parse__extended__result, ldap.ldap_parse_extended_result, ldap_parse_extended_result, ldap_parse_extended_result function [LDAP], ldap_parse_extended_resultA, ldap_parse_extended_resultW, winldap/ldap_parse_extended_result, winldap/ldap_parse_extended_resultA, winldap/ldap_parse_extended_resultW"
 ms.topic: function
+f1_keywords: ["winldap/ldap_parse_extended_result"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

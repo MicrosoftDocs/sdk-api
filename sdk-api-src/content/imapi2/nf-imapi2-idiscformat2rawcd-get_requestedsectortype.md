@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_RequestedSectorType method, IDiscFormat2RawCD.get_RequestedSectorType, IDiscFormat2RawCD::get_RequestedSectorType, get_RequestedSectorType, get_RequestedSectorType method [IMAPI], get_RequestedSectorType method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd__get_requestedsectortype_, imapi2/IDiscFormat2RawCD::get_RequestedSectorType
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2RawCD.get_RequestedSectorType"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

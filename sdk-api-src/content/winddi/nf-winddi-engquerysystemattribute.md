@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngQuerySystemAttribute, EngQuerySystemAttribute function [Display Devices], display.engquerysystemattribute, gdifncs_8d196296-10a2-4118-9318-fe0267df4e60.xml, winddi/EngQuerySystemAttribute
 ms.topic: function
+f1_keywords: ["winddi/EngQuerySystemAttribute"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

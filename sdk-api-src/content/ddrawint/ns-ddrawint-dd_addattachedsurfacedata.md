@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA, DD_ADDATTACHEDSURFACEDATA structure [Display Devices], ddrawint/DD_ADDATTACHEDSURFACEDATA, ddstrcts_2697c197-c588-4f30-8f96-db7d835f3929.xml, display.dd_addattachedsurfacedata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_ADDATTACHEDSURFACEDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

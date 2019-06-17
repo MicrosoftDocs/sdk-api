@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LevelSafe, LevelUnsafe, WebSecurityLevel, WebSecurityLevel enumeration [Security], certenroll/LevelSafe, certenroll/LevelUnsafe, certenroll/WebSecurityLevel, security.websecuritylevel_enum
 ms.topic: enum
+f1_keywords: ["certenroll/WebSecurityLevel"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

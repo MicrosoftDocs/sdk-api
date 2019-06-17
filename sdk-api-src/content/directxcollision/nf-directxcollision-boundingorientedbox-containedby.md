@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],ContainedBy method, BoundingOrientedBox.ContainedBy, BoundingOrientedBox::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_containedby
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingOrientedBox.ContainedBy"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

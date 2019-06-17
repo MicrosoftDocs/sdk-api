@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormatCapability, GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],GetFormatCapability method, IMDSPDevice3.GetFormatCapability, IMDSPDevice3::GetFormatCapability, IMDSPDevice3GetFormatCapability, mswmdm/IMDSPDevice3::GetFormatCapability, wmdm.imdspdevice3_getformatcapability
 ms.topic: method
+f1_keywords: ["mswmdm/IMDSPDevice3.GetFormatCapability"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

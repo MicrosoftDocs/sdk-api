@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackFinalizationCallback, TpSetCallbackFinalizationCallback function, base.tpsetcallbackfinalizationcallback, winnt/TpSetCallbackFinalizationCallback
 ms.topic: function
+f1_keywords: ["winnt/TpSetCallbackFinalizationCallback"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

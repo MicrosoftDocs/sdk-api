@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVersionEx, GetVersionEx function, GetVersionExA, GetVersionExW, _win32_getversionex, base.getversionex, sysinfoapi/GetVersionEx, sysinfoapi/GetVersionExA, sysinfoapi/GetVersionExW
 ms.topic: function
+f1_keywords: ["sysinfoapi/GetVersionEx"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

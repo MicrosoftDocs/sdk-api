@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache
 ms.topic: function
+f1_keywords: ["schannel/SslEmptyCache"]
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows

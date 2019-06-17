@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGISurface2, IDXGISurface2 interface [DXGI], IDXGISurface2 interface [DXGI],described, direct3ddxgi.idxgisurface2, dxgi1_2/IDXGISurface2
 ms.topic: interface
+f1_keywords: ["dxgi1_2/IDXGISurface2"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrokeStyleProperties, StrokeStyleProperties function [Direct2D], d2d1helper/StrokeStyleProperties, direct2d.strokestyleproperties
 ms.topic: function
+f1_keywords: ["d2d1helper/StrokeStyleProperties"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

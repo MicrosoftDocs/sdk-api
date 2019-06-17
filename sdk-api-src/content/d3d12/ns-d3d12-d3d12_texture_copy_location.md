@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEXTURE_COPY_LOCATION, D3D12_TEXTURE_COPY_LOCATION structure, d3d12/D3D12_TEXTURE_COPY_LOCATION, direct3d12.d3d12_texture_copy_location
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_TEXTURE_COPY_LOCATION"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9VideoStreamInfo, VMR9VideoStreamInfo structure [DirectShow], VMR9VideoStreamInfoStructure, dshow.vmr9videostreaminfo, vmr9/VMR9VideoStreamInfo
 ms.topic: struct
+f1_keywords: ["vmr9/VMR9VideoStreamInfo"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

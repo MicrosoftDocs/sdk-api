@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],DocumentName property, IFaxOutgoingJob.DocumentName, IFaxOutgoingJob.get_DocumentName, IFaxOutgoingJob::DocumentName, IFaxOutgoingJob::get_DocumentName, _mfax_faxoutgoingjob.documentname, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_documentname_cpp, fax._mfax_faxoutgoingjob_documentname, faxcomex/IFaxOutgoingJob::DocumentName, faxcomex/IFaxOutgoingJob::get_DocumentName, get_DocumentName
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.DocumentName"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

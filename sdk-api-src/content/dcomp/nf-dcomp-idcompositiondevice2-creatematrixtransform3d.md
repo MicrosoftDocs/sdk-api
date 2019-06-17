@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateMatrixTransform3D, CreateMatrixTransform3D method [DirectComposition], CreateMatrixTransform3D method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateMatrixTransform3D method, IDCompositionDevice2.CreateMatrixTransform3D, IDCompositionDevice2::CreateMatrixTransform3D, dcomp/IDCompositionDevice2::CreateMatrixTransform3D, directcomp.idcompositiondevice2_creatematrixtransform3d
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionDevice2.CreateMatrixTransform3D"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

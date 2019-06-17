@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CrmLogRecordRead, CrmLogRecordRead structure [COM+], _cos_CrmLogRecordRead, comsvcs/CrmLogRecordRead, cos.crmlogrecordread
 ms.topic: struct
+f1_keywords: ["comsvcs/CrmLogRecordRead"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

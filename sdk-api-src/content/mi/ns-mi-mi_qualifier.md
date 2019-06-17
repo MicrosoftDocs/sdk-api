@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Qualifier, MI_Qualifier structure [Windows Management Infrastructure (MI)], mi/MI_Qualifier, wmi_v2.mi_qualifier
 ms.topic: struct
+f1_keywords: ["mi/MI_Qualifier"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

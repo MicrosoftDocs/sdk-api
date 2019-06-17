@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Treble method, IAMAudioInputMixer.put_Treble, IAMAudioInputMixer::put_Treble, IAMAudioInputMixerput_Treble, dshow.iamaudioinputmixer_put_treble, put_Treble, put_Treble method [DirectShow], put_Treble method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Treble
 ms.topic: method
+f1_keywords: ["strmif/IAMAudioInputMixer.put_Treble"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WFDStartOpenSession, WFDStartOpenSession function [NativeWIFI], nwifi.wfdstartopensession, wlanapi/WFDStartOpenSession
 ms.topic: function
+f1_keywords: ["wlanapi/WFDStartOpenSession"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

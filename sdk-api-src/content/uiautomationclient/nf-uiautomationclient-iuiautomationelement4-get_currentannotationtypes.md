@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentAnnotationTypes property [Windows Accessibility], CurrentAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationTypes property, IUIAutomationElement4.CurrentAnnotationTypes, IUIAutomationElement4.get_CurrentAnnotationTypes, IUIAutomationElement4::CurrentAnnotationTypes, IUIAutomationElement4::get_CurrentAnnotationTypes, get_CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement4.CurrentAnnotationTypes"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

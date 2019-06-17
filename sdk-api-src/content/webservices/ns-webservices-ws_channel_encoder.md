@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CHANNEL_ENCODER, WS_CHANNEL_ENCODER structure [Web Services for Windows], webservices/WS_CHANNEL_ENCODER, wsw.ws_channel_encoder
 ms.topic: struct
+f1_keywords: ["webservices/WS_CHANNEL_ENCODER"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

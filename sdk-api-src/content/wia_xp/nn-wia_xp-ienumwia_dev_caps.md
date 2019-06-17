@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_CAPS, IEnumWIA_DEV_CAPS interface [WIA], IEnumWIA_DEV_CAPS interface [WIA],described, _wia_IEnumWIA_DEV_CAPS, wia._wia_IEnumWIA_DEV_CAPS, wia_xp/IEnumWIA_DEV_CAPS
 ms.topic: interface
+f1_keywords: ["wia_xp/IEnumWIA_DEV_CAPS"]
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

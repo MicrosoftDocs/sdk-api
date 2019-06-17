@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
 ms.topic: function
+f1_keywords: ["ntmsapi/DeleteNtmsMedia"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

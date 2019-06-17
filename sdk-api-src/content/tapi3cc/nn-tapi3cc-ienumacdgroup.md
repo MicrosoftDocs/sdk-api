@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumACDGroup, IEnumACDGroup interface [TAPI 2.2], IEnumACDGroup interface [TAPI 2.2],described, _tapi3_ienumacdgroup, tapi3.ienumacdgroup, tapi3cc/IEnumACDGroup
 ms.topic: interface
+f1_keywords: ["tapi3cc/IEnumACDGroup"]
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows

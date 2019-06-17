@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviousVersionsInfo, IPreviousVersionsInfo interface [Windows Shell], IPreviousVersionsInfo interface [Windows Shell],described, _shell_IPreviousVersionsInfo, shell.IPreviousVersionsInfo, shobjidl/IPreviousVersionsInfo
 ms.topic: interface
+f1_keywords: ["shobjidl/IPreviousVersionsInfo"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

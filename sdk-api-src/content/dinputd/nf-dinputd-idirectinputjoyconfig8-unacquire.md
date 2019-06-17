@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],Unacquire method, IDirectInputJoyConfig8.Unacquire, IDirectInputJoyConfig8::Unacquire, Unacquire, Unacquire method [Human Input Devices], Unacquire method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_df66f848-ee07-47f7-afc3-3f1d2883c070.xml, dinputd/IDirectInputJoyConfig8::Unacquire, hid.idirectinputjoyconfig8_unacquire
 ms.topic: method
+f1_keywords: ["dinputd/IDirectInputJoyConfig8.Unacquire"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop

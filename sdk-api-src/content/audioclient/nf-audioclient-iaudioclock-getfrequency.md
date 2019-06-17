@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrequency, GetFrequency method [Core Audio], GetFrequency method [Core Audio],IAudioClock interface, IAudioClock interface [Core Audio],GetFrequency method, IAudioClock.GetFrequency, IAudioClock::GetFrequency, IAudioClockGetFrequency, audioclient/IAudioClock::GetFrequency, coreaudio.iaudioclock_getfrequency
 ms.topic: method
+f1_keywords: ["audioclient/IAudioClock.GetFrequency"]
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows

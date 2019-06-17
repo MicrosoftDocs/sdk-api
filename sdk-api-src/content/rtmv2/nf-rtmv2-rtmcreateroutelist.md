@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rtmcreateroutelist, rras.rtmcreateroutelist, rtmv2/RtmCreateRouteList
 ms.topic: function
+f1_keywords: ["rtmv2/RtmCreateRouteList"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

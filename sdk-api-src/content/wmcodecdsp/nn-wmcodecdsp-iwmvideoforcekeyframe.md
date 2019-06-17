@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMVideoForceKeyFrame, IWMVideoForceKeyFrame interface [Media Foundation], IWMVideoForceKeyFrame interface [Media Foundation],described, codecapi.iwmvideoforcekeyframeinterface, mf.iwmvideoforcekeyframe, mf.iwmvideoforcekeyframeinterface, wmcodecdsp/IWMVideoForceKeyFrame
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/IWMVideoForceKeyFrame"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

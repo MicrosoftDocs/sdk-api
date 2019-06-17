@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1AnalysisTransform interface [Direct2D],ProcessAnalysisResults method, ID2D1AnalysisTransform.ProcessAnalysisResults, ID2D1AnalysisTransform::ProcessAnalysisResults, ProcessAnalysisResults, ProcessAnalysisResults method [Direct2D], ProcessAnalysisResults method [Direct2D],ID2D1AnalysisTransform interface, d2d1effectauthor/ID2D1AnalysisTransform::ProcessAnalysisResults, direct2d.id2d1analysistransform_processanalysisresults
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1AnalysisTransform.ProcessAnalysisResults"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualSmartCard, CreateVirtualSmartCard method [Security], CreateVirtualSmartCard method [Security],ITpmVirtualSmartCardManager interface, ITpmVirtualSmartCardManager interface [Security],CreateVirtualSmartCard method, ITpmVirtualSmartCardManager.CreateVirtualSmartCard, ITpmVirtualSmartCardManager::CreateVirtualSmartCard, security.itpmvirtualsmartcardmanager_createvirtualsmartcard, tpmvscmgr/ITpmVirtualSmartCardManager::CreateVirtualSmartCard
 ms.topic: method
+f1_keywords: ["tpmvscmgr/ITpmVirtualSmartCardManager.CreateVirtualSmartCard"]
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

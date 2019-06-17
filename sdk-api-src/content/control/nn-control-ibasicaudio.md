@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicAudio, IBasicAudio interface [DirectShow], IBasicAudio interface [DirectShow],described, IBasicAudioInterface, control/IBasicAudio, dshow.ibasicaudio
 ms.topic: interface
+f1_keywords: ["control/IBasicAudio"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

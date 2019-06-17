@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession interface [Media Foundation],get_SessionId method, IMFMediaKeySession.get_SessionId, IMFMediaKeySession::get_SessionId, get_SessionId, get_SessionId method [Media Foundation], get_SessionId method [Media Foundation],IMFMediaKeySession interface, mf.imfmediakeysession_get_sessionid, mfmediaengine/IMFMediaKeySession::get_SessionId
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaKeySession.get_SessionId"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

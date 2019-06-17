@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntToUInt, IntToUInt function [Windows Shell], _shell_IntToUInt, intsafe/IntToUInt, shell.IntToUInt
 ms.topic: function
+f1_keywords: ["intsafe/IntToUInt"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

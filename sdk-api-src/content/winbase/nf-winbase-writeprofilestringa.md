@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
 ms.topic: function
+f1_keywords: ["winbase/WriteProfileString"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

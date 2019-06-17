@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
 ms.topic: function
+f1_keywords: ["combaseapi/CoDecodeProxy"]
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

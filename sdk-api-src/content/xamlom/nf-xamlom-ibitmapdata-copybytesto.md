@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyBytesTo, CopyBytesTo method, CopyBytesTo method,IBitmapData interface, IBitmapData interface,CopyBytesTo method, IBitmapData.CopyBytesTo, IBitmapData::CopyBytesTo, xaml_diagnostics.ibitmapdata_copybytesto, xamlom/IBitmapData::CopyBytesTo
 ms.topic: method
+f1_keywords: ["xamlom/IBitmapData.CopyBytesTo"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

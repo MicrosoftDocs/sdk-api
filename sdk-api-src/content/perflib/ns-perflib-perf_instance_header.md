@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_INSTANCE_HEADER, PERF_INSTANCE_HEADER, PERF_INSTANCE_HEADER structure [Perf], PPERF_INSTANCE_HEADER, PPERF_INSTANCE_HEADER structure pointer [Perf], perf.perf_instance_header, perflib/PERF_INSTANCE_HEADER, perflib/PPERF_INSTANCE_HEADER"
 ms.topic: struct
+f1_keywords: ["perflib/PERF_INSTANCE_HEADER"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

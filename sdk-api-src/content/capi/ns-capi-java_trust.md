@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust"
 ms.topic: struct
+f1_keywords: ["capi/JAVA_TRUST"]
 req.header: capi.h
 req.include-header: 
 req.target-type: Windows

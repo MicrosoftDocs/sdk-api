@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFIG_CAPS structure [DirectShow], VIDEO_STREAM_CONFIG_CAPSStructure, dshow.video_stream_config_caps, strmif/VIDEO_STREAM_CONFIG_CAPS
 ms.topic: struct
+f1_keywords: ["strmif/VIDEO_STREAM_CONFIG_CAPS"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

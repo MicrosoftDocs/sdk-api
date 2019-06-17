@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback, _mpr_mibget, routprot/MibGet, rras.mibget
 ms.topic: callback
+f1_keywords: ["routprot/MibGet"]
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

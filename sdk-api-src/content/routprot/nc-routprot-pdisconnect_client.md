@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisconnectClient, DisconnectClient callback function [RAS], PDISCONNECT_CLIENT, PDISCONNECT_CLIENT callback, _mpr_disconnectclient, routprot/DisconnectClient, rras.disconnectclient
 ms.topic: callback
+f1_keywords: ["routprot/DisconnectClient"]
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

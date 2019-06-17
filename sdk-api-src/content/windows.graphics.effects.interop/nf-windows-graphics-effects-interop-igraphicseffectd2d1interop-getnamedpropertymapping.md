@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNamedPropertyMapping, GetNamedPropertyMapping method, GetNamedPropertyMapping method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetNamedPropertyMapping method, IGraphicsEffectD2D1Interop.GetNamedPropertyMapping, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetNamedPropertyMapping, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getnamedpropertymapping, windows/IGraphicsEffectD2D1Interop::GetNamedPropertyMapping
 ms.topic: method
+f1_keywords: ["windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetNamedPropertyMapping"]
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

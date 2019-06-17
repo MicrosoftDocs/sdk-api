@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUseSoftwareRenderer, GetUseSoftwareRenderer method [WPF Bitmap Effects], GetUseSoftwareRenderer method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetUseSoftwareRenderer method, IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer, IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, _wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer
 ms.topic: method
+f1_keywords: ["mileffects/IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer"]
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

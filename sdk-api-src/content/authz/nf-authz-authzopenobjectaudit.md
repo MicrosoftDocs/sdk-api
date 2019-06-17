@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
 ms.topic: function
+f1_keywords: ["authz/AuthzOpenObjectAudit"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

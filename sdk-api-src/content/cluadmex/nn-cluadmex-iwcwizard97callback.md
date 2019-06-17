@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluster], IWCWizard97Callback interface [Failover Cluster],described, _wolf_iwcwizard97callback, cluadmex/IWCWizard97Callback, mscs.iwcwizard97callback
 ms.topic: interface
+f1_keywords: ["cluadmex/IWCWizard97Callback"]
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

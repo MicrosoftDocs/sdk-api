@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EBO_ALWAYSNAVIGATE, EBO_HTMLSHAREPOINTVIEW, EBO_NAVIGATEONCE, EBO_NOBORDER, EBO_NONE, EBO_NOPERSISTVIEWSTATE, EBO_NOTRAVELLOG, EBO_NOWRAPPERWINDOW, EBO_SHOWFRAMES, EXPLORER_BROWSER_OPTIONS, EXPLORER_BROWSER_OPTIONS enumeration [Windows Shell], _shell_EXPLORER_BROWSER_OPTIONS, shell.EXPLORER_BROWSER_OPTIONS, shobjidl_core/EBO_ALWAYSNAVIGATE, shobjidl_core/EBO_HTMLSHAREPOINTVIEW, shobjidl_core/EBO_NAVIGATEONCE, shobjidl_core/EBO_NOBORDER, shobjidl_core/EBO_NONE, shobjidl_core/EBO_NOPERSISTVIEWSTATE, shobjidl_core/EBO_NOTRAVELLOG, shobjidl_core/EBO_NOWRAPPERWINDOW, shobjidl_core/EBO_SHOWFRAMES, shobjidl_core/EXPLORER_BROWSER_OPTIONS
 ms.topic: enum
+f1_keywords: ["shobjidl_core/EXPLORER_BROWSER_OPTIONS"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

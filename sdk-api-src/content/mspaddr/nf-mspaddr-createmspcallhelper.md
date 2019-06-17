@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress object [TAPI 2.2],CreateMSPCallHelper method, CMSPAddress.CreateMSPCallHelper, CreateMSPCallHelper, CreateMSPCallHelper method [TAPI 2.2], CreateMSPCallHelper method [TAPI 2.2],CMSPAddress object, _tapi3_cmspaddress_createmspcallhelper, tapi3.cmspaddress_createmspcallhelper
 ms.topic: function
+f1_keywords: ["mspaddr/CMSPAddress.CreateMSPCallHelper"]
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows

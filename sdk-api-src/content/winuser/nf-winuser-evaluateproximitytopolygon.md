@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToPolygon, EvaluateProximityToPolygon function, input_touchhittest.evaluateproximitytopolygon, touch_hittest.evaluateproximitytopolygon, winuser/EvaluateProximityToPolygon
 ms.topic: function
+f1_keywords: ["winuser/EvaluateProximityToPolygon"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

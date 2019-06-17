@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwitchToFiber, SwitchToFiber function, _win32_switchtofiber, base.switchtofiber, winbase/SwitchToFiber
 ms.topic: function
+f1_keywords: ["winbase/SwitchToFiber"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

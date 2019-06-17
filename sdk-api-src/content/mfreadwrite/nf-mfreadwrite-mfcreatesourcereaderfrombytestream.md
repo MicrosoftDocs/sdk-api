@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromByteStream, MFCreateSourceReaderFromByteStream function [Media Foundation], mf.mfcreatesourcereaderfrombytestream, mfreadwrite/MFCreateSourceReaderFromByteStream
 ms.topic: function
+f1_keywords: ["mfreadwrite/MFCreateSourceReaderFromByteStream"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

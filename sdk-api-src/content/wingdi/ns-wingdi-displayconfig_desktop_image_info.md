@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_DESKTOP_IMAGE_INFO, DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure [Display Devices], display.displayconfig_desktop_image_info, wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 ms.topic: struct
+f1_keywords: ["wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_PRESENT_PARAMETERS, DXGI_PRESENT_PARAMETERS structure [DXGI], direct3ddxgi.dxgi_present_parameters, dxgi1_2/DXGI_PRESENT_PARAMETERS
 ms.topic: struct
+f1_keywords: ["dxgi1_2/DXGI_PRESENT_PARAMETERS"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackDDElParam, _win32_packddelparam_cpp, dataxchg.packddelparam, dde/PackDDElParam, winui._win32_packddelparam
 ms.topic: function
+f1_keywords: ["dde/PackDDElParam"]
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

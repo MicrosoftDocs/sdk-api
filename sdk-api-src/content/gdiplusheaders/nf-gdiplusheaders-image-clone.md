@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Image class, Image class [GDI+],Clone method, Image.Clone, Image::Clone, _gdiplus_CLASS_Image_Clone_, gdiplus._gdiplus_CLASS_Image_Clone_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Image.Clone"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

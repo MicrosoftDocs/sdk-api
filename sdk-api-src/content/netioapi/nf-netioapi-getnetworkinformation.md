@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNetworkInformation, GetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_a4a29ea4-0581-4c98-a294-6042db2937c3.xml, netioapi/GetNetworkInformation, netvista.getnetworkinformation
 ms.topic: function
+f1_keywords: ["netioapi/GetNetworkInformation"]
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows

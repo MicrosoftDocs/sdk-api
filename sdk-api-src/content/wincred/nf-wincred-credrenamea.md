@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW
 ms.topic: function
+f1_keywords: ["wincred/CredRename"]
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceRegistrationInfo, GetDeviceRegistrationInfo function [MDM Registration], mdmreg.getdeviceregistrationinfo, mdmregistration/GetDeviceRegistrationInfo
 ms.topic: function
+f1_keywords: ["mdmregistration/GetDeviceRegistrationInfo"]
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

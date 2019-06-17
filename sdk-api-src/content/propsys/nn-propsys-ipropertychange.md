@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IPropertyChange interface [Windows Properties],described, _shell_IPropertyChange, properties.IPropertyChange, propsys/IPropertyChange, shell.IPropertyChange
 ms.topic: interface
+f1_keywords: ["propsys/IPropertyChange"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

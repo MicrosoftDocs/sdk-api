@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Core Audio], GetName method [Core Audio],IPart interface, IPart interface [Core Audio],GetName method, IPart.GetName, IPart::GetName, IPartGetName, coreaudio.ipart_getname, devicetopology/IPart::GetName
 ms.topic: method
+f1_keywords: ["devicetopology/IPart.GetName"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

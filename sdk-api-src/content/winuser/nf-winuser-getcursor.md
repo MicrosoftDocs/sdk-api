@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCursor, GetCursor function [Menus and Other Resources], _win32_GetCursor, _win32_getcursor_cpp, menurc.getcursor, winui._win32_getcursor, winuser/GetCursor
 ms.topic: function
+f1_keywords: ["winuser/GetCursor"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

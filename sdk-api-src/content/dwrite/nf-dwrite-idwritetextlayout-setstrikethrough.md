@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetStrikethrough method, IDWriteTextLayout.SetStrikethrough, IDWriteTextLayout::SetStrikethrough, SetStrikethrough, SetStrikethrough method [Direct Write], SetStrikethrough method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetStrikethrough, dwrite/IDWriteTextLayout::SetStrikethrough
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.SetStrikethrough"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

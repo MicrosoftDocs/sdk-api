@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],Lock method, IWbemObjectAccess.Lock, IWbemObjectAccess::Lock, Lock, Lock method [Windows Management Instrumentation], Lock method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_lock, wbemcli/IWbemObjectAccess::Lock, wmi.iwbemobjectaccess_lock
 ms.topic: method
+f1_keywords: ["wbemcli/IWbemObjectAccess.Lock"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

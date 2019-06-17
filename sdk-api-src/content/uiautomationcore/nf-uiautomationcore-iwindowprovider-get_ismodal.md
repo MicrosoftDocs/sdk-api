@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],IsModal property, IWindowProvider.IsModal, IWindowProvider.get_IsModal, IWindowProvider::IsModal, IWindowProvider::get_IsModal, IsModal property [Windows Accessibility], IsModal property [Windows Accessibility],IWindowProvider interface, get_IsModal, uiauto.uiauto_IWindowProvider_IsModal, uiauto_IWindowProvider_IsModal, uiautomationcore/IWindowProvider::IsModal, uiautomationcore/IWindowProvider::get_IsModal, winauto.uiauto_IWindowProvider_IsModal
 ms.topic: method
+f1_keywords: ["uiautomationcore/IWindowProvider.IsModal"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

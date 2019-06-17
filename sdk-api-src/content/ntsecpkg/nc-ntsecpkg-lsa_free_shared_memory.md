@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeSharedMemory, FreeSharedMemory callback function [Security], LSA_FREE_SHARED_MEMORY, LSA_FREE_SHARED_MEMORY callback, _ssp_freesharedmemory, ntsecpkg/FreeSharedMemory, security.freesharedmemory
 ms.topic: callback
+f1_keywords: ["ntsecpkg/FreeSharedMemory"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

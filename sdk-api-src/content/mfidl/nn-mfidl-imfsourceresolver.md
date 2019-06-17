@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 079c61c5-7a29-4411-840e-9349190726ac, IMFSourceResolver, IMFSourceResolver interface [Media Foundation], IMFSourceResolver interface [Media Foundation],described, mf.imfsourceresolver, mfidl/IMFSourceResolver
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSourceResolver"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

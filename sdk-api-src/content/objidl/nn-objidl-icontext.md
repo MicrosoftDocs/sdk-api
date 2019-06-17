@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 ms.topic: interface
+f1_keywords: ["objidl/IContext"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

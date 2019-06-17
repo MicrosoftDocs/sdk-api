@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OF_CANCEL, OF_CREATE, OF_DELETE, OF_EXIST, OF_PARSE, OF_PROMPT, OF_READ, OF_READWRITE, OF_REOPEN, OF_SHARE_COMPAT, OF_SHARE_DENY_NONE, OF_SHARE_DENY_READ, OF_SHARE_DENY_WRITE, OF_SHARE_EXCLUSIVE, OF_VERIFY, OF_WRITE, OpenFile, OpenFile function [Files], _win32_openfile, base.openfile, fs.openfile, winbase/OpenFile
 ms.topic: function
+f1_keywords: ["winbase/OpenFile"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

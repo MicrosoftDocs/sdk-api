@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourceManager interface [DirectShow],described, IResourceManagerInterface, dshow.iresourcemanager, strmif/IResourceManager
 ms.topic: interface
+f1_keywords: ["strmif/IResourceManager"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

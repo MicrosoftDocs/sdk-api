@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
 ms.topic: function
+f1_keywords: ["winuser/RegisterTouchWindow"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

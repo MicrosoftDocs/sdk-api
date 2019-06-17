@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHANGENOTIFY, CHANGENOTIFY structure [Windows Controls], CN_GENERIC, CN_NEWREDO, CN_NEWUNDO, CN_TEXTCHANGED, controls.changenotify, textserv/CHANGENOTIFY
 ms.topic: struct
+f1_keywords: ["textserv/CHANGENOTIFY"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

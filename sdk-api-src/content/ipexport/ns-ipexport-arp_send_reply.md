@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PARP_SEND_REPLY, *PARP_SEND_REPLY structure [IP Helper], ARP_SEND_REPLY, ARP_SEND_REPLY structure [IP Helper], ipexport/*PARP_SEND_REPLY, ipexport/ARP_SEND_REPLY, iphlp.arp_send_reply"
 ms.topic: struct
+f1_keywords: ["ipexport/ARP_SEND_REPLY"]
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

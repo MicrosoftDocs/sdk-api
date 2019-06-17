@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_FILTER_LIST_TYPE, Allow, DHCP_FILTER_LIST_TYPE, DHCP_FILTER_LIST_TYPE enumeration [DHCP], Deny, dhcp.dhcp_filter_list_type, dhcpsapi/Allow, dhcpsapi/DHCP_FILTER_LIST_TYPE, dhcpsapi/Deny"
 ms.topic: enum
+f1_keywords: ["dhcpsapi/DHCP_FILTER_LIST_TYPE"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

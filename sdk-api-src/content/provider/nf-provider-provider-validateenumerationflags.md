@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?ValidateEnumerationFlags@Provider@@MAEJJ@Z, ?ValidateEnumerationFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateEnumerationFlags method, Provider.ValidateEnumerationFlags, Provider::ValidateEnumerationFlags, ValidateEnumerationFlags, ValidateEnumerationFlags method [Windows Management Instrumentation], ValidateEnumerationFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateenumerationflags, provider/Provider::ValidateEnumerationFlags, wmi.provider_validateenumerationflags"
 ms.topic: method
+f1_keywords: ["provider/Provider.ValidateEnumerationFlags"]
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows

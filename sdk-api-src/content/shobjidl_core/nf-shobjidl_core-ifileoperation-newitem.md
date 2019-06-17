@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileOperation interface [Windows Shell],NewItem method, IFileOperation.NewItem, IFileOperation::NewItem, NewItem, NewItem method [Windows Shell], NewItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_NewItem, shell.IFileOperation_NewItem, shobjidl_core/IFileOperation::NewItem
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileOperation.NewItem"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

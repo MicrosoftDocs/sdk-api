@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShellAbout, ShellAbout function [Windows Shell], ShellAboutA, ShellAboutW, _win32_ShellAbout, shell.ShellAbout, shellapi/ShellAbout, shellapi/ShellAboutA, shellapi/ShellAboutW
 ms.topic: function
+f1_keywords: ["shellapi/ShellAbout"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

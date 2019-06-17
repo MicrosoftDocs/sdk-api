@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RevokeActiveObject, RevokeActiveObject function [Automation], _oa96_RevokeActiveObject, automat.revokeactiveobject, oleauto/RevokeActiveObject
 ms.topic: function
+f1_keywords: ["oleauto/RevokeActiveObject"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

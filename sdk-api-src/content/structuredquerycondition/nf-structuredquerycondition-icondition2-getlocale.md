@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLocale, GetLocale method [search], GetLocale method [search],ICondition2 interface, ICondition2 interface [search],GetLocale method, ICondition2.GetLocale, ICondition2::GetLocale, _search_ICondition2_GetLocale, search._search_ICondition2_GetLocale, structuredquerycondition/ICondition2::GetLocale
 ms.topic: method
+f1_keywords: ["structuredquerycondition/ICondition2.GetLocale"]
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows

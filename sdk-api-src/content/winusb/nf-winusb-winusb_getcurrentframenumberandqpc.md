@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumberAndQpc, WinUsb_GetCurrentFrameNumberAndQpc function [Buses], buses.winusb_getcurrentframenumberandqpc, winusb/WinUsb_GetCurrentFrameNumberAndQpc
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_GetCurrentFrameNumberAndQpc"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdGetScanLine, DdGetScanLine callback function [Display Devices], PDD_GETSCANLINE, PDD_GETSCANLINE callback, ddfncs_640b22a3-e0aa-4e33-a510-36d91e5650cd.xml, ddrawint/DdGetScanLine, display.ddgetscanline
 ms.topic: callback
+f1_keywords: ["ddrawint/DdGetScanLine"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

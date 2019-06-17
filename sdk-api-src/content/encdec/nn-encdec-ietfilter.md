@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], IETFilter interface [Microsoft TV Technologies],described, IETFilterInterface, encdec/IETFilter, mstv.ietfilter
 ms.topic: interface
+f1_keywords: ["encdec/IETFilter"]
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

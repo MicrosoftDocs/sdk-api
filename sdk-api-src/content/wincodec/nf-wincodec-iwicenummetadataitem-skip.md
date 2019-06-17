@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Skip method, IWICEnumMetadataItem.Skip, IWICEnumMetadataItem::Skip, Skip, Skip method [Windows Imaging Component], Skip method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_skip, wic._wic_codec_iwicenummetadataitem_skip, wincodec/IWICEnumMetadataItem::Skip
 ms.topic: method
+f1_keywords: ["wincodec/IWICEnumMetadataItem.Skip"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

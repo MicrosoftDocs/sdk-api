@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGamesSettings, GetGamesSettings method, GetGamesSettings method,IWindowsParentalControls interface, IWindowsParentalControls interface,GetGamesSettings method, IWindowsParentalControls.GetGamesSettings, IWindowsParentalControls::GetGamesSettings, parcon.iwindowsparentalcontrols_getgamessettings, wpcapi/IWindowsParentalControls::GetGamesSettings
 ms.topic: method
+f1_keywords: ["wpcapi/IWindowsParentalControls.GetGamesSettings"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

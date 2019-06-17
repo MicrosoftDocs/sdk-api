@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
 ms.topic: function
+f1_keywords: ["lmaccess/NetQueryServiceAccount"]
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

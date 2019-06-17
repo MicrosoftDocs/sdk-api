@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptFreeObject, NCryptFreeObject function [Security], ncrypt/NCryptFreeObject, security.ncryptfreeobject_func
 ms.topic: function
+f1_keywords: ["ncrypt/NCryptFreeObject"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

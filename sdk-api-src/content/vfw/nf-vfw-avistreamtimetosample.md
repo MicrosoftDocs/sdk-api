@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamTimeToSample, AVIStreamTimeToSample function [Windows Multimedia], _win32_AVIStreamTimeToSample, multimedia.avistreamtimetosample, vfw/AVIStreamTimeToSample
 ms.topic: function
+f1_keywords: ["vfw/AVIStreamTimeToSample"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

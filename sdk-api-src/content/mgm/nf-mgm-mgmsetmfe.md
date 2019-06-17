@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmSetMfe, MgmSetMfe function [RAS], _mpr_mgmsetmfe, mgm/MgmSetMfe, rras.mgmsetmfe
 ms.topic: function
+f1_keywords: ["mgm/MgmSetMfe"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

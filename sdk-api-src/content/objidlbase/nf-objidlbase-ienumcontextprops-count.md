@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM], Count method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Count method, IEnumContextProps.Count, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
 ms.topic: method
+f1_keywords: ["objidlbase/IEnumContextProps.Count"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

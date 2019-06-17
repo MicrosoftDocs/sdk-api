@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmAttachMilContent, DwmAttachMilContent function [Desktop Window Manager], _udwm_dwmattachmilcontent, _udwm_dwmattachmilcontent_cpp, dwm.dwmattachmilcontent, dwmapi/DwmAttachMilContent, winui._udwm_dwmattachmilcontent
 ms.topic: function
+f1_keywords: ["dwmapi/DwmAttachMilContent"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

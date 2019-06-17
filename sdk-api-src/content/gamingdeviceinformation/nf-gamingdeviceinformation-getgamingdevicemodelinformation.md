@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGamingDeviceModelInformation, GetGamingDeviceModelInformation function, gamingdeviceinformation/GetGamingDeviceModelInformation, gamingdvcinfo.getgamingdevicemodelinformation
 ms.topic: function
+f1_keywords: ["gamingdeviceinformation/GetGamingDeviceModelInformation"]
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedContainingGrid property [Windows Accessibility], CachedContainingGrid property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedContainingGrid property, IUIAutomationGridItemPattern.CachedContainingGrid, IUIAutomationGridItemPattern.get_CachedContainingGrid, IUIAutomationGridItemPattern::CachedContainingGrid, IUIAutomationGridItemPattern::get_CachedContainingGrid, get_CachedContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiauto_IUIAutomationGridItemPattern_CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CachedContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CachedContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CachedContainingGrid
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationGridItemPattern.CachedContainingGrid"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

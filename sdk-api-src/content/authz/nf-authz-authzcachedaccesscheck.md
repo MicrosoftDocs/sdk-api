@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
 ms.topic: function
+f1_keywords: ["authz/AuthzCachedAccessCheck"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals, IPreviewHandlerVisuals interface [Windows Shell], IPreviewHandlerVisuals interface [Windows Shell],described, _shell_IPreviewHandlerVisuals, shell.IPreviewHandlerVisuals, shobjidl_core/IPreviewHandlerVisuals
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IPreviewHandlerVisuals"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

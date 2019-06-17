@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], IAMVideoCompression interface [DirectShow],described, IAMVideoCompressionInterface, dshow.iamvideocompression, strmif/IAMVideoCompression
 ms.topic: interface
+f1_keywords: ["strmif/IAMVideoCompression"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

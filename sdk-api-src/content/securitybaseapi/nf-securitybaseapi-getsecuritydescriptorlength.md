@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSecurityDescriptorLength, GetSecurityDescriptorLength function [Security], _win32_getsecuritydescriptorlength, security.getsecuritydescriptorlength, securitybaseapi/GetSecurityDescriptorLength
 ms.topic: function
+f1_keywords: ["securitybaseapi/GetSecurityDescriptorLength"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

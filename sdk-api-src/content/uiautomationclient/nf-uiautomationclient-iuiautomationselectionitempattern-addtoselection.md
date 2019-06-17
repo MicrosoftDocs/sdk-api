@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddToSelection, AddToSelection method [Windows Accessibility], AddToSelection method [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],AddToSelection method, IUIAutomationSelectionItemPattern.AddToSelection, IUIAutomationSelectionItemPattern::AddToSelection, uiauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiauto_IUIAutomationSelectionItemPattern_AddToSelection, uiautomationclient/IUIAutomationSelectionItemPattern::AddToSelection, winauto.uiauto_IUIAutomationSelectionItemPattern_AddToSelection
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationSelectionItemPattern.AddToSelection"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

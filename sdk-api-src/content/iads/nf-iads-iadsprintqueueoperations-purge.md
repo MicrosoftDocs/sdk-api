@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Purge method, IADsPrintQueueOperations.Purge, IADsPrintQueueOperations::Purge, Purge, Purge method [ADSI], Purge method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_purge, adsi.iadsprintqueueoperations__purge, adsi.iadsprintqueueoperations_purge, iads/IADsPrintQueueOperations::Purge
 ms.topic: method
+f1_keywords: ["iads/IADsPrintQueueOperations.Purge"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

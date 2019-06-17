@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPVScanPattern, codecapi/eAVEncMPVScanPattern_AlternateScan, codecapi/eAVEncMPVScanPattern_Auto, codecapi/eAVEncMPVScanPattern_ZigZagScan, dshow.eavencmpvscanpattern, eAVEncMPVScanPattern, eAVEncMPVScanPattern enumeration [DirectShow], eAVEncMPVScanPatternEnumeration, eAVEncMPVScanPattern_AlternateScan, eAVEncMPVScanPattern_Auto, eAVEncMPVScanPattern_ZigZagScan
 ms.topic: enum
+f1_keywords: ["codecapi/eAVEncMPVScanPattern"]
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

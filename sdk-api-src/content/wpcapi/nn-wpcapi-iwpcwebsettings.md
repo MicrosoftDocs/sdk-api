@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWPCWebSettings, IWPCWebSettings interface, IWPCWebSettings interface,described, parcon.iwpcwebsettings, wpcapi/IWPCWebSettings
 ms.topic: interface
+f1_keywords: ["wpcapi/IWPCWebSettings"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

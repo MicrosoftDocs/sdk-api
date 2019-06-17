@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_SINK_WRITER_STATISTICS, MF_SINK_WRITER_STATISTICS structure [Media Foundation], mf.mf_sink_writer_statistics, mfreadwrite/MF_SINK_WRITER_STATISTICS
 ms.topic: struct
+f1_keywords: ["mfreadwrite/MF_SINK_WRITER_STATISTICS"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HtmlHelp, HtmlHelp function [HTML Help Workshop], HtmlHelpA, HtmlHelpW, htmlhelp.htmlhelp, htmlhelp/HtmlHelp, htmlhelp/HtmlHelpA, htmlhelp/HtmlHelpW
 ms.topic: function
+f1_keywords: ["htmlhelp/HtmlHelp"]
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

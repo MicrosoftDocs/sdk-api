@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_SET_POLARITY, IOCTL_PWM_PIN_SET_POLARITY control, IOCTL_PWM_PIN_SET_POLARITY control code, base.ioctl_pwm_pin_set_polarity, pwm/IOCTL_PWM_PIN_SET_POLARITY
 ms.topic: ioctl
+f1_keywords: ["pwm/IOCTL_PWM_PIN_SET_POLARITY"]
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

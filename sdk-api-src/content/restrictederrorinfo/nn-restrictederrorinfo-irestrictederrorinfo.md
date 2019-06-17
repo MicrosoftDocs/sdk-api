@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], IRestrictedErrorInfo interface [Windows Runtime],described, restrictederrorinfo/IRestrictedErrorInfo, winrt.irestrictederrorinfo
 ms.topic: interface
+f1_keywords: ["restrictederrorinfo/IRestrictedErrorInfo"]
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows

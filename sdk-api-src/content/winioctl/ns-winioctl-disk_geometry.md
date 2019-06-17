@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDISK_GEOMETRY, DISK_GEOMETRY, DISK_GEOMETRY structure [Files], _win32_disk_geometry_str, base.disk_geometry_str, fs.disk_geometry_str, winioctl/DISK_GEOMETRY"
 ms.topic: struct
+f1_keywords: ["winioctl/DISK_GEOMETRY"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

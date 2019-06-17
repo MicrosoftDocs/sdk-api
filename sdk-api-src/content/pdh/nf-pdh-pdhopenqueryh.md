@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhOpenQueryH, PdhOpenQueryH function [Perf], _win32_pdhopenqueryh, base.pdhopenqueryh, pdh/PdhOpenQueryH, perf.pdhopenqueryh
 ms.topic: function
+f1_keywords: ["pdh/PdhOpenQueryH"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfContextViews, IEnumTfContextViews interface [Text Services Framework], IEnumTfContextViews interface [Text Services Framework],described, _tsf_ienumtfcontextviews_ref, msctf/IEnumTfContextViews, tsf.ienumtfcontextviews
 ms.topic: interface
+f1_keywords: ["msctf/IEnumTfContextViews"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserFree, VARIANT_UserFree function [Automation], _oa96_VARIANT_UserFree, automat.variant_userfree, oaidl/VARIANT_UserFree
 ms.topic: function
+f1_keywords: ["oaidl/VARIANT_UserFree"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

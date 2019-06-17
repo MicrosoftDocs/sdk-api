@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteStreamParameter method, IWbemObjectSinkEx.WriteStreamParameter, IWbemObjectSinkEx::WriteStreamParameter, WriteStreamParameter, WriteStreamParameter method [Windows Management Instrumentation], WriteStreamParameter method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteStreamParameter, wmi.iwbemobjectsinkex_writestreamparameter
 ms.topic: method
+f1_keywords: ["wbemcli/IWbemObjectSinkEx.WriteStreamParameter"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

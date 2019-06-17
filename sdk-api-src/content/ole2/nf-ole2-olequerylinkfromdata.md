@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleQueryLinkFromData, OleQueryLinkFromData function [COM], _ole_OleQueryLinkFromData, com.olequerylinkfromdata, ole2/OleQueryLinkFromData
 ms.topic: function
+f1_keywords: ["ole2/OleQueryLinkFromData"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Device Access Broker API], ICreateDeviceAccessAsync interface [Device Access Broker API],described, deviceaccess.icreatedeviceaccessasync, deviceaccess/ICreateDeviceAccessAsync
 ms.topic: interface
+f1_keywords: ["deviceaccess/ICreateDeviceAccessAsync"]
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows

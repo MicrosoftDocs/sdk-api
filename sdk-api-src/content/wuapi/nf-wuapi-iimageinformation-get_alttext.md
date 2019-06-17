@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AltText property [Windows Update Agent], AltText property [Windows Update Agent],IImageInformation interface, IImageInformation interface [Windows Update Agent],AltText property, IImageInformation.AltText, IImageInformation.get_AltText, IImageInformation::AltText, IImageInformation::get_AltText, get_AltText, wua.iimageinformation_alttext, wuapi/IImageInformation::AltText, wuapi/IImageInformation::get_AltText
 ms.topic: method
+f1_keywords: ["wuapi/IImageInformation.AltText"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

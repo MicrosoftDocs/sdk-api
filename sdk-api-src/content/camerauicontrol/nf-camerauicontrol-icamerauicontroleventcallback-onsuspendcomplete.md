@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnSuspendComplete method, ICameraUIControlEventCallback.OnSuspendComplete, ICameraUIControlEventCallback::OnSuspendComplete, OnSuspendComplete, OnSuspendComplete method [Windows API], OnSuspendComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnSuspendComplete, winprog.icamerauicontroleventcallback_onsuspendcomplete
 ms.topic: method
+f1_keywords: ["camerauicontrol/ICameraUIControlEventCallback.OnSuspendComplete"]
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows

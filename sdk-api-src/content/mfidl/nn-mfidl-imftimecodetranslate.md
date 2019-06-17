@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimecodeTranslate, IMFTimecodeTranslate interface [Media Foundation], IMFTimecodeTranslate interface [Media Foundation],described, mf.imftimecodetranslate, mfidl/IMFTimecodeTranslate
 ms.topic: interface
+f1_keywords: ["mfidl/IMFTimecodeTranslate"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

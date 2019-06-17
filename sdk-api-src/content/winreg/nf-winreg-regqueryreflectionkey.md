@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
 ms.topic: function
+f1_keywords: ["winreg/RegQueryReflectionKey"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

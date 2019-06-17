@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDateTime, CreateDateTime method [Windows Runtime], CreateDateTime method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDateTime method, IPropertyValueStatics.CreateDateTime, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDateTime, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDateTime, winrt.ipropertyvaluefactory_createdatetime, winrt.ipropertyvaluestatics_createdatetime
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValueStatics.CreateDateTime"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

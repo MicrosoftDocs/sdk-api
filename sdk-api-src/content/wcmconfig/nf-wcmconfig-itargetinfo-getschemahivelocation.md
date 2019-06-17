@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSchemaHiveLocation, GetSchemaHiveLocation method [SMI], GetSchemaHiveLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetSchemaHiveLocation method, ITargetInfo.GetSchemaHiveLocation, ITargetInfo::GetSchemaHiveLocation, smi.itargetinfo_getschemahivelocation, wcmconfig/ITargetInfo::GetSchemaHiveLocation
 ms.topic: method
+f1_keywords: ["wcmconfig/ITargetInfo.GetSchemaHiveLocation"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

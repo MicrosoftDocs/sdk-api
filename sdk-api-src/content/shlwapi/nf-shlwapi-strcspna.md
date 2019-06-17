@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCSpn, StrCSpn function [Windows Shell], StrCSpnA, StrCSpnW, _win32_StrCSpn, shell.StrCSpn, shlwapi/StrCSpn, shlwapi/StrCSpnA, shlwapi/StrCSpnW
 ms.topic: function
+f1_keywords: ["shlwapi/StrCSpn"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

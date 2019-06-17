@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningObjectTable interface [COM],described, _com_irunningobjecttable, com.irunningobjecttable, objidl/IRunningObjectTable
 ms.topic: interface
+f1_keywords: ["objidl/IRunningObjectTable"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

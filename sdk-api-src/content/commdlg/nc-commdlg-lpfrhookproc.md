@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FRHookProc, LPFRHOOKPROC, LPFRHOOKPROC callback, LPFRHOOKPROC callback function [Dialog Boxes], _win32_FRHookProc, _win32_frhookproc_cpp, commdlg/LPFRHOOKPROC, dlgbox.frhookproc, winui._win32_frhookproc
 ms.topic: callback
+f1_keywords: ["commdlg/LPFRHOOKPROC"]
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

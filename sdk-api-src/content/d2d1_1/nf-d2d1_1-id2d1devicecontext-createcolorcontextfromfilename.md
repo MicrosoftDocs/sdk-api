@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateColorContextFromFilename, CreateColorContextFromFilename method [Direct2D], CreateColorContextFromFilename method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContextFromFilename method, ID2D1DeviceContext.CreateColorContextFromFilename, ID2D1DeviceContext::CreateColorContextFromFilename, d2d1_1/ID2D1DeviceContext::CreateColorContextFromFilename, direct2d.id2d1devicecontext_createcolorcontextfromfilename
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1DeviceContext.CreateColorContextFromFilename"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateIpNetEntry2, CreateIpNetEntry2 function [IP Helper], iphlp.createipnetentry2, netioapi/CreateIpNetEntry2
 ms.topic: function
+f1_keywords: ["netioapi/CreateIpNetEntry2"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

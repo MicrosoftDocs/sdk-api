@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],put_TSID method, IATSCLocator.put_TSID, IATSCLocator::put_TSID, IATSCLocatorput_TSID, mstv.iatsclocator_put_tsid, put_TSID, put_TSID method [Microsoft TV Technologies], put_TSID method [Microsoft TV Technologies],IATSCLocator interface, tuner/IATSCLocator::put_TSID
 ms.topic: method
+f1_keywords: ["tuner/IATSCLocator.put_TSID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

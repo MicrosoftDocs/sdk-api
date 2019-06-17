@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute interface [Security],Initialize method, IX509Attribute.Initialize, IX509Attribute::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Attribute interface, certenroll/IX509Attribute::Initialize, security.ix509attribute_initialize_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509Attribute.Initialize"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

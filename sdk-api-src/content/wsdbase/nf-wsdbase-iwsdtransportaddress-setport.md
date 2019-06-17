@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress interface,SetPort method, IWSDTransportAddress.SetPort, IWSDTransportAddress::SetPort, SetPort, SetPort method, SetPort method,IWSDTransportAddress interface, ncd.iwsdtransportaddress_setport, wsdbase/IWSDTransportAddress::SetPort
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDTransportAddress.SetPort"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

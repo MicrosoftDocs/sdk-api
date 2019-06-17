@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetDepthStencilSurface method, IDirect3DDevice9.SetDepthStencilSurface, IDirect3DDevice9::SetDepthStencilSurface, SetDepthStencilSurface, SetDepthStencilSurface method [Direct3D 9], SetDepthStencilSurface method [Direct3D 9],IDirect3DDevice9 interface, c973ddb0-10a2-26b2-bf86-57867238343e, d3d9helper/IDirect3DDevice9::SetDepthStencilSurface, direct3d9.idirect3ddevice9__setdepthstencilsurface
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.SetDepthStencilSurface"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

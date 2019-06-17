@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteDriverObj, EngDeleteDriverObj function [Display Devices], display.engdeletedriverobj, gdifncs_6aada185-b1c4-4b55-9bc0-cc89d0bc67d4.xml, winddi/EngDeleteDriverObj
 ms.topic: function
+f1_keywords: ["winddi/EngDeleteDriverObj"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

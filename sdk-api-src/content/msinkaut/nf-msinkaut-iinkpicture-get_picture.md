@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],Picture property, IInkPicture.Picture, IInkPicture.get_Picture, IInkPicture::Picture, IInkPicture::get_Picture, IInkPicture::put_Picture, InkPicture.get_Picture, InkPicture.put_Picture, Picture property [Tablet PC], Picture property [Tablet PC],IInkPicture interface, get_Picture, msinkaut/IInkPicture::Picture, msinkaut/IInkPicture::get_Picture, msinkaut/IInkPicture::put_Picture, tablet.inkpicture_picture
 ms.topic: method
+f1_keywords: ["msinkaut/IInkPicture.Picture"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

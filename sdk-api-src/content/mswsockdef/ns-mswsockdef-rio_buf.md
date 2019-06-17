@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF, RIO_BUF structure [Winsock], mswsockdef/PRIO_BUF, mswsockdef/RIO_BUF, winsock.rio_buf"
 ms.topic: struct
+f1_keywords: ["mswsockdef/RIO_BUF"]
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
 req.target-type: Windows

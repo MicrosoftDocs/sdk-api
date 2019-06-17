@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetRotation method, IWICDevelopRaw.SetRotation, IWICDevelopRaw::SetRotation, SetRotation, SetRotation method [Windows Imaging Component], SetRotation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setrotation, wic._wic_codec_iwicdevelopraw_setrotation, wincodec/IWICDevelopRaw::SetRotation
 ms.topic: method
+f1_keywords: ["wincodec/IWICDevelopRaw.SetRotation"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

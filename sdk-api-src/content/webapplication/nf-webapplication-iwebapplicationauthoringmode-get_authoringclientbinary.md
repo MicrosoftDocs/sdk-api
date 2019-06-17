@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthoringClientBinary property [Debugging Windows Store apps], AuthoringClientBinary property [Debugging Windows Store apps],IWebApplicationAuthoringMode interface, IWebApplicationAuthoringMode interface [Debugging Windows Store apps],AuthoringClientBinary property, IWebApplicationAuthoringMode.AuthoringClientBinary, IWebApplicationAuthoringMode.get_AuthoringClientBinary, IWebApplicationAuthoringMode::AuthoringClientBinary, IWebApplicationAuthoringMode::get_AuthoringClientBinary, debug.iwebapplicationauthoringmode_authoringclientbinary, get_AuthoringClientBinary, webapplication/IWebApplicationAuthoringMode::AuthoringClientBinary, webapplication/IWebApplicationAuthoringMode::get_AuthoringClientBinary
 ms.topic: method
+f1_keywords: ["webapplication/IWebApplicationAuthoringMode.AuthoringClientBinary"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

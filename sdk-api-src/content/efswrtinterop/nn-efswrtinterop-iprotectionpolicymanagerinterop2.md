@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2, IProtectionPolicyManagerInterop2, IProtectionPolicyManagerInterop2 interface, IProtectionPolicyManagerInterop2 interface,described, efswrtinterop/IProtectionPolicyManagerInterop2 interface
 ms.topic: interface
+f1_keywords: ["efswrtinterop/IProtectionPolicyManagerInterop2"]
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows

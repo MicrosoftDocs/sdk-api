@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
 ms.topic: function
+f1_keywords: ["winbase/GetComputerName"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

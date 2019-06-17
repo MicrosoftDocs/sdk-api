@@ -6,6 +6,7 @@ description: Tests whether the BoundingSphere contains a specified point.
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Contains
 ms.topic: language-reference
+f1_keywords: ["directxcollision/BoundingSphere::Contains"]
 targetos: Windows
 product: Windows
 req.assembly: 

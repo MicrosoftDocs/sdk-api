@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPerChannelDbLevel interface [Core Audio],described, coreaudio.iperchanneldblevel, devicetopology/IPerChannelDbLevel
 ms.topic: interface
+f1_keywords: ["devicetopology/IPerChannelDbLevel"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

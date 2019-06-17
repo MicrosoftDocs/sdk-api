@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3TransformCoord, XMVector3TransformCoord, XMVector3TransformCoord method [DirectX Math Support APIs], dxmath.xmvector3transformcoord
 ms.topic: function
+f1_keywords: ["directxmath/XMVector3TransformCoord"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

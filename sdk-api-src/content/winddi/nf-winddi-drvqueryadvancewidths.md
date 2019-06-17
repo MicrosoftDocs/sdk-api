@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvQueryAdvanceWidths, DrvQueryAdvanceWidths function [Display Devices], ddifncs_f97d4a54-b5e9-45b7-9d42-ece9073640a4.xml, display.drvqueryadvancewidths, winddi/DrvQueryAdvanceWidths
 ms.topic: function
+f1_keywords: ["winddi/DrvQueryAdvanceWidths"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactManager, IContactManager interface [Windows Contacts], IContactManager interface [Windows Contacts],described, _wincontacts_IContactManager, icontact/IContactManager, wincontacts._wincontacts_IContactManager
 ms.topic: interface
+f1_keywords: ["icontact/IContactManager"]
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TABLECELLPARMS, TABLECELLPARMS structure [Windows Controls], controls.tablecellparms, richedit/TABLECELLPARMS
 ms.topic: struct
+f1_keywords: ["richedit/TABLECELLPARMS"]
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

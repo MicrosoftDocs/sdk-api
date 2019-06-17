@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotificationHandler, NotificationHandler callback, NotificationHandler callback function [EAPHost], eaphost.notificationhandler, eappapis/NotificationHandler
 ms.topic: callback
+f1_keywords: ["eappapis/NotificationHandler"]
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

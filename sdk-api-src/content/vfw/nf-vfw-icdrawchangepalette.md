@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawChangePalette, ICDrawChangePalette macro [Windows Multimedia], _win32_ICDrawChangePalette, multimedia.icdrawchangepalette, vfw/ICDrawChangePalette
 ms.topic: macro
+f1_keywords: ["vfw/ICDrawChangePalette"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

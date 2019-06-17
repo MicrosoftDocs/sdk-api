@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace2 interface [Direct Write],IsColorFont method, IDWriteFontFace2.IsColorFont, IDWriteFontFace2::IsColorFont, IsColorFont, IsColorFont method [Direct Write], IsColorFont method [Direct Write],IDWriteFontFace2 interface, directwrite.idwritefontface2_iscolorfont, dwrite_2/IDWriteFontFace2::IsColorFont
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteFontFace2.IsColorFont"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

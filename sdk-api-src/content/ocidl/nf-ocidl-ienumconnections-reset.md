@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections interface [COM],Reset method, IEnumConnections.Reset, IEnumConnections::Reset, Reset, Reset method [COM], Reset method [COM],IEnumConnections interface, _com_ienumconnections_reset, com.ienumconnections_reset, ocidl/IEnumConnections::Reset
 ms.topic: method
+f1_keywords: ["ocidl/IEnumConnections.Reset"]
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

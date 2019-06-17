@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayReleaseData, SafeArrayReleaseData function [Automation], automat.safearrayreleasedata, oleauto/SafeArrayReleaseData
 ms.topic: function
+f1_keywords: ["oleauto/SafeArrayReleaseData"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

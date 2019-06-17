@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeSecurityToken, WsFreeSecurityToken function [Web Services for Windows], webservices/WsFreeSecurityToken, wsw.wsfreesecuritytoken
 ms.topic: function
+f1_keywords: ["webservices/WsFreeSecurityToken"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

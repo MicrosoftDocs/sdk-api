@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Resource_Conflict_Count, CM_Get_Resource_Conflict_Count function [Device and Driver Installation], cfgmgr32/CM_Get_Resource_Conflict_Count, cfgmgrfn_ac18aaca-cd62-4629-a29e-c717b293e8c9.xml, devinst.cm_get_resource_conflict_count
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Get_Resource_Conflict_Count"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

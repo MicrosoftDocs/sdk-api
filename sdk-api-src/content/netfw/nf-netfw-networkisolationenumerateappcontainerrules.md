@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationEnumerateAppContainerRules, NetworkIsolationEnumerateAppContainerRules function [ICS/ICF], ics.networkisolationenumerateappcontainerrules, netfw/NetworkIsolationEnumerateAppContainerRules
 ms.topic: function
+f1_keywords: ["netfw/NetworkIsolationEnumerateAppContainerRules"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

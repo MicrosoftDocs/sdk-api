@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedAnnotationTypes property [Windows Accessibility], CachedAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CachedAnnotationTypes property, IUIAutomationElement4.CachedAnnotationTypes, IUIAutomationElement4.get_CachedAnnotationTypes, IUIAutomationElement4::CachedAnnotationTypes, IUIAutomationElement4::get_CachedAnnotationTypes, get_CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::CachedAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CachedAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CachedAnnotationTypes
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement4.CachedAnnotationTypes"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

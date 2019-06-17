@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRT_SECURE_CONFIDENTIALPAYLOAD, DRT_SECURE_MEMBERSHIP, DRT_SECURE_RESOLVE, DRT_SECURITY_MODE, DRT_SECURITY_MODE enumeration [Distributed Routing Tables], drt/DRT_SECURE_CONFIDENTIALPAYLOAD, drt/DRT_SECURE_MEMBERSHIP, drt/DRT_SECURE_RESOLVE, drt/DRT_SECURITY_MODE, p2p.drt_security_mode
 ms.topic: enum
+f1_keywords: ["drt/DRT_SECURITY_MODE"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10CreateEffectPoolFromMemory, D3D10CreateEffectPoolFromMemory function [Direct3D 10], d3d10effect/D3D10CreateEffectPoolFromMemory, direct3d10.d3d10createeffectpoolfrommemory, fe38c43e-d460-f70d-5972-0c60fb75b532
 ms.topic: function
+f1_keywords: ["d3d10effect/D3D10CreateEffectPoolFromMemory"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

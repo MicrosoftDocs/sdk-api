@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DownloadPriority, DownloadPriority enumeration [Windows Update Agent], dpHigh, dpLow, dpNormal, wua.downloadpriority, wuapi/DownloadPriority, wuapi/dpHigh, wuapi/dpLow, wuapi/dpNormal
 ms.topic: enum
+f1_keywords: ["wuapi/DownloadPriority"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

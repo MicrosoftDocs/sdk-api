@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetErrorLogClear, NetErrorLogClear function [Network Management], _win32_neterrorlogclear, lmerrlog/NetErrorLogClear, netmgmt.neterrorlogclear
 ms.topic: function
+f1_keywords: ["lmerrlog/NetErrorLogClear"]
 req.header: lmerrlog.h
 req.include-header: 
 req.target-type: Windows

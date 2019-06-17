@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumGuideDataProperties interface, IEnumGuideDataProperties interface [Microsoft TV Technologies],Clone method, IEnumGuideDataProperties.Clone, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
 ms.topic: method
+f1_keywords: ["bdatif/IEnumGuideDataProperties.Clone"]
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows

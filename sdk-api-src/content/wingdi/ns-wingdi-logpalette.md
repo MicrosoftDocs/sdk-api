@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE"
 ms.topic: struct
+f1_keywords: ["wingdi/LOGPALETTE"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

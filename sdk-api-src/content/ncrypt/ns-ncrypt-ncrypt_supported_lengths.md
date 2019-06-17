@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SUPPORTED_LENGTHS, NCRYPT_SUPPORTED_LENGTHS structure [Security], ncrypt/NCRYPT_SUPPORTED_LENGTHS, security.ncrypt_supported_lengths
 ms.topic: struct
+f1_keywords: ["ncrypt/NCRYPT_SUPPORTED_LENGTHS"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

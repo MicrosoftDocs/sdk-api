@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISelector, ISelector interface [DirectShow], ISelector interface [DirectShow],described, ISelectorInterface, dshow.iselector, vidcap/ISelector
 ms.topic: interface
+f1_keywords: ["vidcap/ISelector"]
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

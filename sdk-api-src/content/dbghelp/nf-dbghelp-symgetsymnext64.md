@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSymNext, SymGetSymNext function, SymGetSymNext64, SymGetSymNext64 function, _win32_symgetsymnext64, base.symgetsymnext64, dbghelp/SymGetSymNext, dbghelp/SymGetSymNext64
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetSymNext64"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

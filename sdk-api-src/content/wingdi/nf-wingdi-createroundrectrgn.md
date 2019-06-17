@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
 ms.topic: function
+f1_keywords: ["wingdi/CreateRoundRectRgn"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

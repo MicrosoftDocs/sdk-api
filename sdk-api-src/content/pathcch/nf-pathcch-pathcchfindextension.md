@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchFindExtension, PathCchFindExtension function [Windows Shell], pathcch/PathCchFindExtension, shell.PathCchFindExtension
 ms.topic: function
+f1_keywords: ["pathcch/PathCchFindExtension"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

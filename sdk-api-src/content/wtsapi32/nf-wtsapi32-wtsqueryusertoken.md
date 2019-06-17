@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSQueryUserToken, WTSQueryUserToken function [Remote Desktop Services], _win32_wtsqueryusertoken, termserv.wtsqueryusertoken, wtsapi32/WTSQueryUserToken
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSQueryUserToken"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

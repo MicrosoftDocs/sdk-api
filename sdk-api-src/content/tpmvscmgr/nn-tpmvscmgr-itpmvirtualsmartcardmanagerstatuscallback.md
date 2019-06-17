@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback, ITpmVirtualSmartCardManagerStatusCallback interface [Security], ITpmVirtualSmartCardManagerStatusCallback interface [Security],described, security.itpmvirtualsmartcardmanagerstatuscallback, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback
 ms.topic: interface
+f1_keywords: ["tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback"]
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows

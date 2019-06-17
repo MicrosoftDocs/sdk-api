@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE structure, PD3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, PD3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE structure pointer, d3d12/D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, d3d12/PD3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, direct3d12.d3d12_gpu_virtual_address_and_stride
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

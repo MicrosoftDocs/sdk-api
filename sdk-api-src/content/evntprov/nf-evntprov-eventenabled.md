@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventEnabled, EventEnabled function [ETW], base.eventenabled_func, etw.eventenabled_func, evntprov/EventEnabled
 ms.topic: function
+f1_keywords: ["evntprov/EventEnabled"]
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

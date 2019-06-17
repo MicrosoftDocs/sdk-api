@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReferenceTracker interface [Windows Runtime],PegFromTrackerSource method, IReferenceTracker.PegFromTrackerSource, IReferenceTracker.xaml, IReferenceTracker::PegFromTrackerSource, IReferenceTracker::xaml, PegFromTrackerSource, PegFromTrackerSource method [Windows Runtime], PegFromTrackerSource method [Windows Runtime],IReferenceTracker interface, windows/IReferenceTracker::PegFromTrackerSource, winrt.ireferencetracker_pegfromtrackersource
 ms.topic: method
+f1_keywords: ["windows.ui.xaml.hosting.referencetracker/IReferenceTracker.PegFromTrackerSource"]
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 
 req.target-type: Windows

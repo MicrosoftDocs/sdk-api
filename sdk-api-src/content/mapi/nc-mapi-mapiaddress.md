@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPIAddress, MAPIAddress callback, MAPIAddress callback function, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiaddress, mapi/MAPIAddress
 ms.topic: callback
+f1_keywords: ["mapi/MAPIAddress"]
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSelectExtVersion, TSPI_phoneSelectExtVersion function [TAPI 2.2], _tspi_tspi_phoneselectextversion, tspi.tspi_phoneselectextversion, tspi/TSPI_phoneSelectExtVersion
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneSelectExtVersion"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

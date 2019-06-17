@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFP_EVENT_HEADER, MFP_EVENT_HEADER structure [Media Foundation], mf.mfp_event_header, mfplay/MFP_EVENT_HEADER
 ms.topic: struct
+f1_keywords: ["mfplay/MFP_EVENT_HEADER"]
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

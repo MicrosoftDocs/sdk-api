@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExtendPropertySheet2, IExtendPropertySheet2 interface [MMC], IExtendPropertySheet2 interface [MMC],described, _slate_iextendpropertysheet2, mmc.iextendpropertysheet2, mmc/IExtendPropertySheet2
 ms.topic: interface
+f1_keywords: ["mmc/IExtendPropertySheet2"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

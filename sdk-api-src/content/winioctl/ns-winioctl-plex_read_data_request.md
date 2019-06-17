@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST, PLEX_READ_DATA_REQUEST structure [Files], PPLEX_READ_DATA_REQUEST, PPLEX_READ_DATA_REQUEST structure pointer [Files], _win32_plex_read_data_request_str, base.plex_read_data_request_str, fs.plex_read_data_request_str, winioctl/PLEX_READ_DATA_REQUEST, winioctl/PPLEX_READ_DATA_REQUEST"
 ms.topic: struct
+f1_keywords: ["winioctl/PLEX_READ_DATA_REQUEST"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

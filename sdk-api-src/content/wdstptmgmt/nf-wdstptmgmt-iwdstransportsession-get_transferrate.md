@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],TransferRate property, IWdsTransportSession.TransferRate, IWdsTransportSession.get_TransferRate, IWdsTransportSession::TransferRate, IWdsTransportSession::get_TransferRate, TransferRate property [Windows Deployment Services], TransferRate property [Windows Deployment Services],IWdsTransportSession interface, get_TransferRate, wds.iwdstransportsession_transferrate, wdstptmgmt/IWdsTransportSession::TransferRate, wdstptmgmt/IWdsTransportSession::get_TransferRate
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportSession.TransferRate"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

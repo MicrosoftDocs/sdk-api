@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Hardware Counter Profiling], MaxHardwareCounterType, PMCCounter, hcp.hardware_counter_type, winnt/HARDWARE_COUNTER_TYPE, winnt/MaxHardwareCounterType, winnt/PMCCounter"
 ms.topic: enum
+f1_keywords: ["winnt/HARDWARE_COUNTER_TYPE"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

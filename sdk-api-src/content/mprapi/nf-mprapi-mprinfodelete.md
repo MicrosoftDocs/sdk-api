@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprInfoDelete, MprInfoDelete function [RAS], _mpr_mprinfodelete, mprapi/MprInfoDelete, rras.mprinfodelete
 ms.topic: function
+f1_keywords: ["mprapi/MprInfoDelete"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

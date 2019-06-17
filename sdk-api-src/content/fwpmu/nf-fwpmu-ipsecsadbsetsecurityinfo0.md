@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaDbSetSecurityInfo0, IPsecSaDbSetSecurityInfo0 function [Filtering], fwp.ipsecsadbsetsecurityinfo0, fwpmu/IPsecSaDbSetSecurityInfo0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaDbSetSecurityInfo0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaTimeRange, IMFMediaTimeRange interface [Media Foundation], IMFMediaTimeRange interface [Media Foundation],described, mf.imfmediatimerange, mfmediaengine/IMFMediaTimeRange
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFMediaTimeRange"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

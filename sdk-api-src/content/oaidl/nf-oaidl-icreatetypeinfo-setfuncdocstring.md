@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncDocString method, ICreateTypeInfo.SetFuncDocString, ICreateTypeInfo::SetFuncDocString, SetFuncDocString, SetFuncDocString method [Automation], SetFuncDocString method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncDocString, automat.icreatetypeinfo_setfuncdocstring, oaidl/ICreateTypeInfo::SetFuncDocString
 ms.topic: method
+f1_keywords: ["oaidl/ICreateTypeInfo.SetFuncDocString"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

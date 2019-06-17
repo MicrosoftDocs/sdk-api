@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],IsApplicationViewStateSupported method, IApplicationDesignModeSettings.IsApplicationViewStateSupported, IApplicationDesignModeSettings::IsApplicationViewStateSupported, IsApplicationViewStateSupported, IsApplicationViewStateSupported method [Windows Shell], IsApplicationViewStateSupported method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_IsApplicationViewStateSupported, shobjidl_core/IApplicationDesignModeSettings::IsApplicationViewStateSupported
 ms.topic: method
+f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings.IsApplicationViewStateSupported"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
 ms.topic: interface
+f1_keywords: ["wuapi/IUpdateLockdown"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

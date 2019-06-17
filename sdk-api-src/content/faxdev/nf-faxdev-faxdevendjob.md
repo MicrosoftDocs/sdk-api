@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxDevEndJob, FaxDevEndJob function [Fax Service], _mfax_faxdevendjob, fax._mfax_faxdevendjob, faxdev/FaxDevEndJob
 ms.topic: function
+f1_keywords: ["faxdev/FaxDevEndJob"]
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows

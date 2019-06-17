@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState, ISyncSessionState interface [Windows Sync], ISyncSessionState interface [Windows Sync],described, winsync.isyncsessionstate, winsync/ISyncSessionState
 ms.topic: interface
+f1_keywords: ["winsync/ISyncSessionState"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

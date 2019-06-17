@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPacket, EapPacket structure [EAPHost], eaphost.eappacket, eapmethodtypes/EapPacket
 ms.topic: struct
+f1_keywords: ["eapmethodtypes/EapPacket"]
 req.header: eapmethodtypes.h
 req.include-header: 
 req.target-type: Windows

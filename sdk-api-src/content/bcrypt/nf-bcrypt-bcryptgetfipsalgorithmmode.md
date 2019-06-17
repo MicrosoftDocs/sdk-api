@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptGetFipsAlgorithmMode"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

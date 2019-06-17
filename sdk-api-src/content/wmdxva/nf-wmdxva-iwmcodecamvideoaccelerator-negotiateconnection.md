@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecAMVideoAccelerator interface [windows Media Format],NegotiateConnection method, IWMCodecAMVideoAccelerator.NegotiateConnection, IWMCodecAMVideoAccelerator::NegotiateConnection, IWMCodecAMVideoAcceleratorNegotiateConnection, NegotiateConnection, NegotiateConnection method [windows Media Format], NegotiateConnection method [windows Media Format],IWMCodecAMVideoAccelerator interface, wmdxva/IWMCodecAMVideoAccelerator::NegotiateConnection, wmformat.iwmcodecamvideoaccelerator_negotiateconnection
 ms.topic: method
+f1_keywords: ["wmdxva/IWMCodecAMVideoAccelerator.NegotiateConnection"]
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagGetFullscreenColorEffect, MagGetFullscreenColorEffect function [Magnification API], magapi.magapi_maggetfullscreencoloreffect, magnification/MagGetFullscreenColorEffect
 ms.topic: function
+f1_keywords: ["magnification/MagGetFullscreenColorEffect"]
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

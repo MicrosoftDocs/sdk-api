@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterNetInterfaceControl, ClusterNetInterfaceControl function [Failover Cluster], _wolf_clusternetinterfacecontrol, clusapi/ClusterNetInterfaceControl, mscs.clusternetinterfacecontrol
 ms.topic: function
+f1_keywords: ["clusapi/ClusterNetInterfaceControl"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

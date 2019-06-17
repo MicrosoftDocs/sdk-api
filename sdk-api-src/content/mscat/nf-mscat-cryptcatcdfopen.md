@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
 ms.topic: function
+f1_keywords: ["mscat/CryptCATCDFOpen"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

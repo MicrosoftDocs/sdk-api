@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DReflectLibrary, D3DReflectLibrary function [HLSL], d3dcompiler/D3DReflectLibrary, direct3dhlsl.d3dreflectlibrary
 ms.topic: function
+f1_keywords: ["d3dcompiler/D3DReflectLibrary"]
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

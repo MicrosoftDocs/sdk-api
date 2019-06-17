@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCOPE_LEVEL, SCOPE_LEVEL enumeration [IP Helper], ScopeLevelAdmin, ScopeLevelGlobal, ScopeLevelInterface, ScopeLevelLink, ScopeLevelOrganization, ScopeLevelSite, ScopeLevelSubnet, iphlp.scope_level, iptypes/SCOPE_LEVEL, iptypes/ScopeLevelAdmin, iptypes/ScopeLevelGlobal, iptypes/ScopeLevelInterface, iptypes/ScopeLevelLink, iptypes/ScopeLevelOrganization, iptypes/ScopeLevelSite, iptypes/ScopeLevelSubnet, ws2def/SCOPE_LEVEL, ws2def/ScopeLevelAdmin, ws2def/ScopeLevelGlobal, ws2def/ScopeLevelInterface, ws2def/ScopeLevelLink, ws2def/ScopeLevelOrganization, ws2def/ScopeLevelSite, ws2def/ScopeLevelSubnet
 ms.topic: enum
+f1_keywords: ["ws2def/SCOPE_LEVEL"]
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows

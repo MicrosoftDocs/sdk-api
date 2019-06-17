@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantGetStringElem, VariantGetStringElem function [Windows Properties], _shell_VariantGetStringElem, properties.VariantGetStringElem, propvarutil/VariantGetStringElem, shell.VariantGetStringElem
 ms.topic: function
+f1_keywords: ["propvarutil/VariantGetStringElem"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

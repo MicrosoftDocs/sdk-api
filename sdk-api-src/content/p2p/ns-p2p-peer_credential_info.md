@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_CREDENTIAL_INFO, PEER_CREDENTIAL_INFO, PEER_CREDENTIAL_INFO structure [Peer Networking], PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PPEER_CREDENTIAL_INFO, PPEER_CREDENTIAL_INFO structure pointer [Peer Networking], p2p.peer_credential_info, p2p/PEER_CREDENTIAL_INFO, p2p/PPEER_CREDENTIAL_INFO"
 ms.topic: struct
+f1_keywords: ["p2p/PEER_CREDENTIAL_INFO"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

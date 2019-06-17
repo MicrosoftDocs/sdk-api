@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN_TYPE, IPSEC_TOKEN_TYPE enumeration [Filtering], IPSEC_TOKEN_TYPE_IMPERSONATION, IPSEC_TOKEN_TYPE_MACHINE, IPSEC_TOKEN_TYPE_MAX, fwp.ipsec_token_type, ipsectypes/IPSEC_TOKEN_TYPE, ipsectypes/IPSEC_TOKEN_TYPE_IMPERSONATION, ipsectypes/IPSEC_TOKEN_TYPE_MACHINE, ipsectypes/IPSEC_TOKEN_TYPE_MAX
 ms.topic: enum
+f1_keywords: ["ipsectypes/IPSEC_TOKEN_TYPE"]
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows

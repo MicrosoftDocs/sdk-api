@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTHelperCertCheckValidSignature, WTHelperCertCheckValidSignature function [Security], security.wthelpercertcheckvalidsignature, wintrust/WTHelperCertCheckValidSignature
 ms.topic: function
+f1_keywords: ["wintrust/WTHelperCertCheckValidSignature"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

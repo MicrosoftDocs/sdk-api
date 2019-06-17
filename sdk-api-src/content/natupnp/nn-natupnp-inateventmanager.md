@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INATEventManager, INATEventManager interface [ICS/ICF], INATEventManager interface [ICS/ICF],described, _ics_inateventmanager, ics.inateventmanager, natupnp/INATEventManager
 ms.topic: interface
+f1_keywords: ["natupnp/INATEventManager"]
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

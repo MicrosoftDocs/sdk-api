@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_SMS_CDMA_LANG, MBN_SMS_CDMA_LANG enumeration [Microsoft Broadband Networks], MBN_SMS_CDMA_LANG_CHINESE, MBN_SMS_CDMA_LANG_ENGLISH, MBN_SMS_CDMA_LANG_FRENCH, MBN_SMS_CDMA_LANG_HEBREW, MBN_SMS_CDMA_LANG_JAPANESE, MBN_SMS_CDMA_LANG_KOREAN, MBN_SMS_CDMA_LANG_NONE, MBN_SMS_CDMA_LANG_SPANISH, mbn.mbn_sms_cdma_lang, mbnapi/MBN_SMS_CDMA_LANG, mbnapi/MBN_SMS_CDMA_LANG_CHINESE, mbnapi/MBN_SMS_CDMA_LANG_ENGLISH, mbnapi/MBN_SMS_CDMA_LANG_FRENCH, mbnapi/MBN_SMS_CDMA_LANG_HEBREW, mbnapi/MBN_SMS_CDMA_LANG_JAPANESE, mbnapi/MBN_SMS_CDMA_LANG_KOREAN, mbnapi/MBN_SMS_CDMA_LANG_NONE, mbnapi/MBN_SMS_CDMA_LANG_SPANISH
 ms.topic: enum
+f1_keywords: ["mbnapi/MBN_SMS_CDMA_LANG"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

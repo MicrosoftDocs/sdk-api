@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?Commit@CInstance@@QAEJXZ, ?Commit@CInstance@@QEAAJXZ, CInstance interface [Windows Management Instrumentation],Commit method, CInstance.Commit, CInstance::Commit, Commit, Commit method [Windows Management Instrumentation], Commit method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_commit, instance/CInstance::Commit, wmi.cinstance_commit"
 ms.topic: method
+f1_keywords: ["instance/CInstance.Commit"]
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

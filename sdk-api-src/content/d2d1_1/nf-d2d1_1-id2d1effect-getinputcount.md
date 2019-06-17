@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInputCount, GetInputCount method [Direct2D], GetInputCount method [Direct2D],ID2D1Effect interface, ID2D1Effect interface [Direct2D],GetInputCount method, ID2D1Effect.GetInputCount, ID2D1Effect::GetInputCount, d2d1_1/ID2D1Effect::GetInputCount, direct2d.id2d1effect_getinputcount
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Effect.GetInputCount"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

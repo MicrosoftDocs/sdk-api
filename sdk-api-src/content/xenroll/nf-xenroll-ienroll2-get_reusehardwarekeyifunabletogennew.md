@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll2 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, IEnroll2.ReuseHardwareKeyIfUnableToGenNew, IEnroll2.get_ReuseHardwareKeyIfUnableToGenNew, IEnroll2::ReuseHardwareKeyIfUnableToGenNew, IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew, IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew, IEnroll4 interface [Security],ReuseHardwareKeyIfUnableToGenNew property, IEnroll4.ReuseHardwareKeyIfUnableToGenNew, IEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, IEnroll4::put_ReuseHardwareKeyIfUnableToGenNew, ReuseHardwareKeyIfUnableToGenNew property [Security], ReuseHardwareKeyIfUnableToGenNew property [Security],IEnroll2 interface, ReuseHardwareKeyIfUnableToGenNew property [Security],IEnroll4 interface, get_ReuseHardwareKeyIfUnableToGenNew, put_ReuseHardwareKeyIfUnableToGenNew, security.ienroll4_reusehardwarekeyifunabletogennew, xenroll/IEnroll2::ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll2::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll2::put_ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll4::ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll4::get_ReuseHardwareKeyIfUnableToGenNew, xenroll/IEnroll4::put_ReuseHardwareKeyIfUnableToGenNew
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll2.ReuseHardwareKeyIfUnableToGenNew"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

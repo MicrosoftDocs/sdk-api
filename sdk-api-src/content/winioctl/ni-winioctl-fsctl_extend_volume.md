@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_EXTEND_VOLUME, FSCTL_EXTEND_VOLUME control, FSCTL_EXTEND_VOLUME control code [Files], base.fsctl_extend_volume, fs.fsctl_extend_volume, winioctl/FSCTL_EXTEND_VOLUME
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_EXTEND_VOLUME"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

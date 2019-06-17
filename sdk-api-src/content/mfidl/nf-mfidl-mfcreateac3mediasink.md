@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateAC3MediaSink, MFCreateAC3MediaSink function [Media Foundation], mf.mfcreateac3mediasink, mfidl/MFCreateAC3MediaSink
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateAC3MediaSink"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

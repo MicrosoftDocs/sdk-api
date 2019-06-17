@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType
 ms.topic: function
+f1_keywords: ["winuser/GetKeyboardType"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

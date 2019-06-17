@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BindUnorderedAccessView, BindUnorderedAccessView method [Direct3D 11], BindUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindUnorderedAccessView method, ID3D11ModuleInstance.BindUnorderedAccessView, ID3D11ModuleInstance::BindUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessView, direct3d11.id3d11moduleinstance_bindunorderedaccessview
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ModuleInstance.BindUnorderedAccessView"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

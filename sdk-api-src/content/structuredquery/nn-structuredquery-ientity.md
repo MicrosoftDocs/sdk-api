@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEntity, IEntity interface [search], IEntity interface [search],described, _search_IEntity, search._search_IEntity, structuredquery/IEntity
 ms.topic: interface
+f1_keywords: ["structuredquery/IEntity"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

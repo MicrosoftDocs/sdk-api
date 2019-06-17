@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentSequence, IXpsOMDocumentSequence interface [XPS Documents and Packaging], IXpsOMDocumentSequence interface [XPS Documents and Packaging],described, xps.ixpsomdocumentsequence, xpsobjectmodel/IXpsOMDocumentSequence
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMDocumentSequence"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

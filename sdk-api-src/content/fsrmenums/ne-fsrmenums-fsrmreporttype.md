@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmReportType, FsrmReportType enumeration [File Server Resource Manager], FsrmReportType_AutomaticClassification, FsrmReportType_DuplicateFiles, FsrmReportType_Expiration, FsrmReportType_ExportReport, FsrmReportType_FileScreenAudit, FsrmReportType_FilesByOwner, FsrmReportType_FilesByProperty, FsrmReportType_FilesByType, FsrmReportType_FoldersByProperty, FsrmReportType_LargeFiles, FsrmReportType_LeastRecentlyAccessed, FsrmReportType_MostRecentlyAccessed, FsrmReportType_QuotaUsage, FsrmReportType_Unknown, fs.fsrmreporttype, fsrm.fsrmreporttype, fsrmenums/FsrmReportType, fsrmenums/FsrmReportType_AutomaticClassification, fsrmenums/FsrmReportType_DuplicateFiles, fsrmenums/FsrmReportType_Expiration, fsrmenums/FsrmReportType_ExportReport, fsrmenums/FsrmReportType_FileScreenAudit, fsrmenums/FsrmReportType_FilesByOwner, fsrmenums/FsrmReportType_FilesByProperty, fsrmenums/FsrmReportType_FilesByType, fsrmenums/FsrmReportType_FoldersByProperty, fsrmenums/FsrmReportType_LargeFiles, fsrmenums/FsrmReportType_LeastRecentlyAccessed, fsrmenums/FsrmReportType_MostRecentlyAccessed, fsrmenums/FsrmReportType_QuotaUsage, fsrmenums/FsrmReportType_Unknown
 ms.topic: enum
+f1_keywords: ["fsrmenums/FsrmReportType"]
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

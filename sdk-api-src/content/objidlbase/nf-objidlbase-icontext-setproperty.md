@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContext interface [COM],SetProperty method, IContext.SetProperty, IContext::SetProperty, SetProperty, SetProperty method [COM], SetProperty method [COM],IContext interface, _com_icontext_setproperty, com.icontext_setproperty, objidlbase/IContext::SetProperty
 ms.topic: method
+f1_keywords: ["objidlbase/IContext.SetProperty"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

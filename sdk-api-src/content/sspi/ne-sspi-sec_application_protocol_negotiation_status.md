@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS enumeration pointer [Security], SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS enumeration [Security], SecApplicationProtocolNegotiationStatus_None, SecApplicationProtocolNegotiationStatus_SelectedClientOnly, SecApplicationProtocolNegotiationStatus_Success, security.sec_application_protocol_negotiation_status, sspi/PSEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, sspi/SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS, sspi/SecApplicationProtocolNegotiationStatus_None, sspi/SecApplicationProtocolNegotiationStatus_SelectedClientOnly, sspi/SecApplicationProtocolNegotiationStatus_Success"
 ms.topic: enum
+f1_keywords: ["sspi/SEC_APPLICATION_PROTOCOL_NEGOTIATION_STATUS"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

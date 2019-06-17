@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorUpdateInnerMethodParams, EapMethodAuthenticatorUpdateInnerMethodParams function [EAPHost], eaphost.eapmethodauthenticatorupdateinnermethodparams, eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams
 ms.topic: function
+f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorUpdateInnerMethodParams"]
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

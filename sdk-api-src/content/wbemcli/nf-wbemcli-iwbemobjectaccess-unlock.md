@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],Unlock method, IWbemObjectAccess.Unlock, IWbemObjectAccess::Unlock, Unlock, Unlock method [Windows Management Instrumentation], Unlock method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_unlock, wbemcli/IWbemObjectAccess::Unlock, wmi.iwbemobjectaccess_unlock
 ms.topic: method
+f1_keywords: ["wbemcli/IWbemObjectAccess.Unlock"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 06785e69-a7e6-f154-5f99-7c38c12d6958, D3D11_INFO_QUEUE_FILTER_DESC, D3D11_INFO_QUEUE_FILTER_DESC structure [Direct3D 11], d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC, direct3d11.d3d11_info_queue_filter_desc
 ms.topic: struct
+f1_keywords: ["d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

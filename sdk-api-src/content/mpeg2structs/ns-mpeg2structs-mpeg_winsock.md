@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPEG_WINSOCK, MPEG_WINSOCK structure [Microsoft TV Technologies], mpeg2structs/MPEG_WINSOCK, mstv.mpeg_winsock
 ms.topic: struct
+f1_keywords: ["mpeg2structs/MPEG_WINSOCK"]
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows

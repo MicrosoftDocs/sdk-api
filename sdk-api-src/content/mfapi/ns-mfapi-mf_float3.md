@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_FLOAT3, MF_FLOAT3 structure [Media Foundation], PMF_FLOAT3, PMF_FLOAT3 structure pointer [Media Foundation], mf.mf_float3, mfapi/MF_FLOAT3, mfapi/PMF_FLOAT3
 ms.topic: struct
+f1_keywords: ["mfapi/MF_FLOAT3"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

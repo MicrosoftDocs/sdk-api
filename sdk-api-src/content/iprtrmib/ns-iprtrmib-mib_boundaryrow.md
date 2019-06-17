@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_BOUNDARYROW, MIB_BOUNDARYROW, MIB_BOUNDARYROW structure [MIB], PMIB_BOUNDARYROW, PMIB_BOUNDARYROW structure pointer [MIB], iprtrmib/MIB_BOUNDARYROW, iprtrmib/PMIB_BOUNDARYROW, mib.mib_boundaryrow"
 ms.topic: struct
+f1_keywords: ["iprtrmib/MIB_BOUNDARYROW"]
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngGamaGamma, WICPngGamaProperties, WICPngGamaProperties enumeration [Windows Imaging Component], _wic_codec_wicpnggamaproperties, wic._wic_codec_wicpnggamaproperties, wincodec/WICPngGamaGamma, wincodec/WICPngGamaProperties
 ms.topic: enum
+f1_keywords: ["wincodec/WICPngGamaProperties"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

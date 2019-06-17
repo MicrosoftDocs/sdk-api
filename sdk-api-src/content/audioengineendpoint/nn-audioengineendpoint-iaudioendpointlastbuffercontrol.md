@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl, IAudioEndpointLastBufferControl interface [Core Audio], IAudioEndpointLastBufferControl interface [Core Audio],described, audioengineendpoint/IAudioEndpointLastBufferControl, coreaudio.iaudioendpointlastbuffercontrol
 ms.topic: interface
+f1_keywords: ["audioengineendpoint/IAudioEndpointLastBufferControl"]
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows

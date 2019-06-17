@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WBEMTime, WBEMTime class [Windows Management Instrumentation], WBEMTime class [Windows Management Instrumentation],described, _hmm_wbemtime, wbemtime/WBEMTime, wmi.wbemtime
 ms.topic: class
+f1_keywords: ["wbemtime/WBEMTime"]
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

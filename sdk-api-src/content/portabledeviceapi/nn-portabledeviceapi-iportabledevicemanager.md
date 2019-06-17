@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceManager, IPortableDeviceManager interface [Windows Portable Devices SDK], IPortableDeviceManager interface [Windows Portable Devices SDK],described, IPortableDeviceManagerInterface, portabledeviceapi/IPortableDeviceManager, wpdsdk.iportabledevicemanager
 ms.topic: interface
+f1_keywords: ["portabledeviceapi/IPortableDeviceManager"]
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

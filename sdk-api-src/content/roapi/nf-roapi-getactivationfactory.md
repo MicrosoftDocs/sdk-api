@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActivationFactory, GetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/GetActivationFactory, roapi/WinRTGetActivationFactory, winrt.getactivationfactory
 ms.topic: function
+f1_keywords: ["roapi/GetActivationFactory"]
 req.header: roapi.h
 req.include-header: Stdafx.h
 req.target-type: Windows

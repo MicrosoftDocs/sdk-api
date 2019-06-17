@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CQPageProc, CQPageProc callback, CQPageProc callback function [Active Directory], LPCQPAGEPROC, LPCQPAGEPROC callback function pointer [Active Directory], ad.cqpageproc, cmnquery/CQPageProc
 ms.topic: callback
+f1_keywords: ["cmnquery/LPCQPAGEPROC"]
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

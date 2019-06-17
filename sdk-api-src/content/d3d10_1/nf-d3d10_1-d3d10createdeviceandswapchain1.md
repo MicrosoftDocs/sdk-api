@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10CreateDeviceAndSwapChain1, D3D10CreateDeviceAndSwapChain1 function [Direct3D 10], b7c9234e-0746-99a6-b30f-ead0bc077ec3, d3d10_1/D3D10CreateDeviceAndSwapChain1, direct3d10.d3d10createdeviceandswapchain1
 ms.topic: function
+f1_keywords: ["d3d10_1/D3D10CreateDeviceAndSwapChain1"]
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows

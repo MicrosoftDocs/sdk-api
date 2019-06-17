@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSoPResetPolicySettingStatus, RSoPResetPolicySettingStatus function [Group Policy], RsopResetPolicySettingStatus, _win32_rsopresetpolicysettingstatus, policy.rsopresetpolicysettingstatus, userenv/RSoPResetPolicySettingStatus
 ms.topic: function
+f1_keywords: ["userenv/RSoPResetPolicySettingStatus"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpGetContextToken, SpGetContextToken callback function [Security], SpGetContextTokenFn, SpGetContextTokenFn callback, _ssp_spgetcontexttoken, ntsecpkg/SpGetContextToken, security.spgetcontexttoken
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpGetContextToken"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

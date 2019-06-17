@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentContainingGrid property [Windows Accessibility], CurrentContainingGrid property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CurrentContainingGrid property, IUIAutomationGridItemPattern.CurrentContainingGrid, IUIAutomationGridItemPattern.get_CurrentContainingGrid, IUIAutomationGridItemPattern::CurrentContainingGrid, IUIAutomationGridItemPattern::get_CurrentContainingGrid, get_CurrentContainingGrid, uiauto.uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid, uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::CurrentContainingGrid, uiautomationclient/IUIAutomationGridItemPattern::get_CurrentContainingGrid, winauto.uiauto_IUIAutomationGridItemPattern_CurrentContainingGrid
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationGridItemPattern.CurrentContainingGrid"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

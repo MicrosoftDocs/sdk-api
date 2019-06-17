@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlsGetValue, FlsGetValue function, _win32_flsgetvalue, base.flsgetvalue, fibersapi/FlsGetValue, winbase/FlsGetValue
 ms.topic: function
+f1_keywords: ["fibersapi/FlsGetValue"]
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows

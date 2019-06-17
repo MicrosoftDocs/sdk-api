@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMU565.operator uint16_t, DirectX::PackedVector::XMU565::operator uint16_t, XMU565 structure [DirectX Math Support APIs],operator uint16_t method, XMU565.operator uint16_t, XMU565::operator uint16_t, dxmath.xmu565_operator_uint16_t, operator uint16_t, operator uint16_t method [DirectX Math Support APIs], operator uint16_t method [DirectX Math Support APIs],XMU565 structure
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMU565.operator uint16_t"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

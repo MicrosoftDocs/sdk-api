@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],described, IPinInterface, dshow.ipin, strmif/IPin
 ms.topic: interface
+f1_keywords: ["strmif/IPin"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

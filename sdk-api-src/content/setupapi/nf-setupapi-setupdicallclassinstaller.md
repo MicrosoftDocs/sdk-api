@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiCallClassInstaller, SetupDiCallClassInstaller function [Device and Driver Installation], devinst.setupdicallclassinstaller, di-rtns_eff914b0-a2db-4eb5-a9b8-f2990efcf252.xml, setupapi/SetupDiCallClassInstaller
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiCallClassInstaller"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

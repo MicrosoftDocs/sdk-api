@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_METADATA_SECTION, WSD_METADATA_SECTION structure, http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel, ncd.wsd_metadata_section_struct, wsdtypes/WSD_METADATA_SECTION
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_METADATA_SECTION"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

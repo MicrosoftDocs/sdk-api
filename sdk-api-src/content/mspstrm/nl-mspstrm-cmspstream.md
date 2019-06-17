@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMSPStream, CMSPStream class [TAPI 2.2], CMSPStream class [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream
 ms.topic: class
+f1_keywords: ["mspstrm/CMSPStream"]
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows

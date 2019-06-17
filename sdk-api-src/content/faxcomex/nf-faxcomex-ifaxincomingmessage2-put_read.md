@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Read property, IFaxIncomingMessage2.Read, IFaxIncomingMessage2.get_Read, IFaxIncomingMessage2.put_Read, IFaxIncomingMessage2::Read, IFaxIncomingMessage2::get_Read, IFaxIncomingMessage2::put_Read, Read property [Fax Service], Read property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.read, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_read_cpp, fax._mfax_faxincomingmessage_read, faxcomex/IFaxIncomingMessage2::Read, faxcomex/IFaxIncomingMessage2::get_Read, faxcomex/IFaxIncomingMessage2::put_Read, put_Read
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingMessage2.Read"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

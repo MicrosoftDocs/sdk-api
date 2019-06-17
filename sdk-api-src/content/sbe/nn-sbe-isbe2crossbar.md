@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISBE2Crossbar, ISBE2Crossbar interface [Microsoft TV Technologies], ISBE2Crossbar interface [Microsoft TV Technologies],described, mstv.isbe2crossbar, sbe/ISBE2Crossbar
 ms.topic: interface
+f1_keywords: ["sbe/ISBE2Crossbar"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

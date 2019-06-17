@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],MostRestrictiveRating method, IEvalRat.MostRestrictiveRating, IEvalRat::MostRestrictiveRating, IEvalRatMostRestrictiveRating, MostRestrictiveRating, MostRestrictiveRating method [Microsoft TV Technologies], MostRestrictiveRating method [Microsoft TV Technologies],IEvalRat interface, mstv.ievalrat_mostrestrictiverating, tvratings/IEvalRat::MostRestrictiveRating
 ms.topic: method
+f1_keywords: ["tvratings/IEvalRat.MostRestrictiveRating"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLogicalProcessorInformationEx, GetLogicalProcessorInformationEx function, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, base.getlogicalprocessorinformationex, sysinfoapi/GetLogicalProcessorInformationEx
 ms.topic: function
+f1_keywords: ["sysinfoapi/GetLogicalProcessorInformationEx"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

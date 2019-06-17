@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode
 ms.topic: function
+f1_keywords: ["atlthunk/AtlThunk_DataToCode"]
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows

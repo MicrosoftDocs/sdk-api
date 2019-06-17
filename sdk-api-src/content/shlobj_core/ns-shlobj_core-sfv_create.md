@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SFV_CREATE, SFV_CREATE structure [Windows Shell], _SFV_CREATE, _win32_SFV_CREATE, shell.SFV_CREATE, shlobj_core/SFV_CREATE
 ms.topic: struct
+f1_keywords: ["shlobj_core/SFV_CREATE"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

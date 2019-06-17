@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync],described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
 ms.topic: interface
+f1_keywords: ["winsync/ISyncSessionExtendedErrorInfo"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

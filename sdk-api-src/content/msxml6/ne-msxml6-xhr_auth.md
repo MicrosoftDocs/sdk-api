@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XHR_AUTH, XHR_AUTH enumeration [XMLHttpRequest2], XHR_AUTH_ALL, XHR_AUTH_NONE, XHR_AUTH_PROXY, ixhr2.xhr_auth, msxml6/XHR_AUTH, msxml6/XHR_AUTH_ALL, msxml6/XHR_AUTH_NONE, msxml6/XHR_AUTH_PROXY
 ms.topic: enum
+f1_keywords: ["msxml6/XHR_AUTH"]
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

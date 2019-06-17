@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9, IVMRSurface9 interface [DirectShow], IVMRSurface9 interface [DirectShow],described, IVMRSurface9Interface, dshow.ivmrsurface9, vmr9/IVMRSurface9
 ms.topic: interface
+f1_keywords: ["vmr9/IVMRSurface9"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

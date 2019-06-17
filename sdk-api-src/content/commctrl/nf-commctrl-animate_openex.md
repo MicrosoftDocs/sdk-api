@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Animate_OpenEx, Animate_OpenEx macro [Windows Controls], _win32_Animate_OpenEx, _win32_Animate_OpenEx_cpp, commctrl/Animate_OpenEx, controls.Animate_OpenEx, controls._win32_Animate_OpenEx
 ms.topic: macro
+f1_keywords: ["commctrl/Animate_OpenEx"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

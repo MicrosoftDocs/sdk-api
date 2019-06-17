@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], ntsecpkg/CredMarshalTargetInfo, security.credmarshaltargetinfo
 ms.topic: function
+f1_keywords: ["ntsecpkg/CredMarshalTargetInfo"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

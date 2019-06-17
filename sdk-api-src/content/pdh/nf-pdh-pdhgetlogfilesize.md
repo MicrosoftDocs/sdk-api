@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhGetLogFileSize, PdhGetLogFileSize function [Perf], _win32_pdhgetlogfilesize, base.pdhgetlogfilesize, pdh/PdhGetLogFileSize, perf.pdhgetlogfilesize
 ms.topic: function
+f1_keywords: ["pdh/PdhGetLogFileSize"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

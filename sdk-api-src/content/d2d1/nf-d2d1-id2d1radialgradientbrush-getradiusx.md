@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRadiusX, GetRadiusX method [Direct2D], GetRadiusX method [Direct2D],ID2D1RadialGradientBrush interface, ID2D1RadialGradientBrush interface [Direct2D],GetRadiusX method, ID2D1RadialGradientBrush.GetRadiusX, ID2D1RadialGradientBrush::GetRadiusX, d2d1/ID2D1RadialGradientBrush::GetRadiusX, direct2d.ID2D1RadialGradientBrush_GetRadiusX
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RadialGradientBrush.GetRadiusX"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

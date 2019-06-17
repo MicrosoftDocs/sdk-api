@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextDeleteById0, IPsecSaContextDeleteById0 function [Filtering], fwp.ipsecsacontextdeletebyid0, fwpmu/IPsecSaContextDeleteById0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaContextDeleteById0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

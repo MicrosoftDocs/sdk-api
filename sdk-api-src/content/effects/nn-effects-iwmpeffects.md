@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EffectsInterface, IWMPEffects, IWMPEffects interface [Windows Media Player], IWMPEffects interface [Windows Media Player],described, effects/IWMPEffects, wmp.iwmpeffects
 ms.topic: interface
+f1_keywords: ["effects/IWMPEffects"]
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

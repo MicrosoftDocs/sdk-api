@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceManager, IUpdateServiceManager interface [Windows Update Agent], IUpdateServiceManager interface [Windows Update Agent],described, wua.iupdateservicemanager, wuapi/IUpdateServiceManager
 ms.topic: interface
+f1_keywords: ["wuapi/IUpdateServiceManager"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Direct3D 11], GetPresentPerRenderOpDelay method [Direct3D 11],ID3D11Debug interface, ID3D11Debug interface [Direct3D 11],GetPresentPerRenderOpDelay method, ID3D11Debug.GetPresentPerRenderOpDelay, ID3D11Debug::GetPresentPerRenderOpDelay, d3d11sdklayers/ID3D11Debug::GetPresentPerRenderOpDelay, d80fb328-cbcf-b755-35cd-3ac7f39aeff8, direct3d11.id3d11debug_getpresentperrenderopdelay
 ms.topic: method
+f1_keywords: ["d3d11sdklayers/ID3D11Debug.GetPresentPerRenderOpDelay"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinBioMonitorPresence, WinBioMonitorPresence function [Windows Biometric Framework API], secbiomet.winbiomonitorpresence, winbio/WinBioMonitorPresence
 ms.topic: function
+f1_keywords: ["winbio/WinBioMonitorPresence"]
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows

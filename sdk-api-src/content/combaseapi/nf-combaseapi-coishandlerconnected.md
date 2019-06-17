@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoIsHandlerConnected, CoIsHandlerConnected function [COM], _com_CoIsHandlerConnected, com.coishandlerconnected, combaseapi/CoIsHandlerConnected
 ms.topic: function
+f1_keywords: ["combaseapi/CoIsHandlerConnected"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

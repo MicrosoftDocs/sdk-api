@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [Media Foundation], mf.mfratio, mfobjects/MFRatio
 ms.topic: struct
+f1_keywords: ["mfobjects/MFRatio"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

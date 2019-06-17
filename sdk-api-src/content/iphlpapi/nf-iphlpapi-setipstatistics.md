@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetIpStatistics, SetIpStatistics function [IP Helper], _iphlp_setipstatistics, iphlp.setipstatistics, iphlpapi/SetIpStatistics
 ms.topic: function
+f1_keywords: ["iphlpapi/SetIpStatistics"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

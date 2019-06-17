@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Uint8A, MI_Uint8A structure [Windows Management Infrastructure (MI)], mi/MI_Uint8A, wmi._mi_uint8a, wmi_v2.mi_uint8a
 ms.topic: struct
+f1_keywords: ["mi/MI_Uint8A"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

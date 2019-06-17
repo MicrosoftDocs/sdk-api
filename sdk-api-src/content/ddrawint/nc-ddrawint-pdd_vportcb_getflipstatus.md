@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetFlipStatus, DdVideoPortGetFlipStatus callback function [Display Devices], PDD_VPORTCB_GETFLIPSTATUS, PDD_VPORTCB_GETFLIPSTATUS callback, ddfncs_b5004bc9-0486-40b0-9be0-b17b10b0241a.xml, ddrawint/DdVideoPortGetFlipStatus, display.ddvideoportgetflipstatus
 ms.topic: callback
+f1_keywords: ["ddrawint/DdVideoPortGetFlipStatus"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

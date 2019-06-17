@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ, XLATEOBJ structure [Display Devices], display.xlateobj, grstrcts_36b2a277-ceee-4ee5-9dd6-55088df73d85.xml, winddi/XLATEOBJ
 ms.topic: struct
+f1_keywords: ["winddi/XLATEOBJ"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

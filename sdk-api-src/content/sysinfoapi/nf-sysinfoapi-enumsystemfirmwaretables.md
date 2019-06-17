@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSystemFirmwareTables, EnumSystemFirmwareTables function, base.enumsystemfirmwaretables, sysinfoapi/EnumSystemFirmwareTables
 ms.topic: function
+f1_keywords: ["sysinfoapi/EnumSystemFirmwareTables"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_EMAIL, ADS_EMAIL, ADS_EMAIL structure [ADSI], PADS_EMAIL, PADS_EMAIL structure pointer [ADSI], _ds_ads_email, adsi.ads__email, adsi.ads_email, iads/ADS_EMAIL, iads/PADS_EMAIL"
 ms.topic: struct
+f1_keywords: ["iads/ADS_EMAIL"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

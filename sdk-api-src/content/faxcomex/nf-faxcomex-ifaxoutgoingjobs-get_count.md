@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxOutgoingJobs interface, IFaxOutgoingJobs interface [Fax Service],Count property, IFaxOutgoingJobs.Count, IFaxOutgoingJobs.get_Count, IFaxOutgoingJobs::Count, IFaxOutgoingJobs::get_Count, _mfax_faxoutgoingjobs.count, fax._mfax_faxoutgoingjobs_count, fax._mfax_faxoutgoingjobs_cpp_mfax_faxoutgoingjobs_count_cpp, faxcomex/IFaxOutgoingJobs::Count, faxcomex/IFaxOutgoingJobs::get_Count, get_Count
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJobs.Count"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

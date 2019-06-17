@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCmpNIC, StrCmpNIC function [Windows Shell], StrCmpNICA, StrCmpNICW, _shell_StrCmpNIC, shell.StrCmpNIC, shlwapi/StrCmpNIC, shlwapi/StrCmpNICA, shlwapi/StrCmpNICW
 ms.topic: function
+f1_keywords: ["shlwapi/StrCmpNIC"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

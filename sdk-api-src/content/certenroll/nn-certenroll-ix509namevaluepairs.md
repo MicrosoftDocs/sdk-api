@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509NameValuePairs, IX509NameValuePairs interface [Security], IX509NameValuePairs interface [Security],described, certenroll/IX509NameValuePairs, security.ix509namevaluepairs
 ms.topic: interface
+f1_keywords: ["certenroll/IX509NameValuePairs"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

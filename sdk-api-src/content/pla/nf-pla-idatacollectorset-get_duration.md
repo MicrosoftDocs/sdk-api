@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Duration property [PLA], Duration property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Duration property, IDataCollectorSet.Duration, IDataCollectorSet.get_Duration, IDataCollectorSet::Duration, IDataCollectorSet::get_Duration, IDataCollectorSet::put_Duration, base.idatacollectorset_get_duration, get_Duration, pla.idatacollectorset_get_duration, pla/IDataCollectorSet::Duration, pla/IDataCollectorSet::get_Duration, pla/IDataCollectorSet::put_Duration
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.Duration"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

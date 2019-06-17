@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_GetText, Button_GetText macro [Windows Controls], _win32_Button_GetText, _win32_Button_GetText_cpp, controls.Button_GetText, controls._win32_Button_GetText, windowsx/Button_GetText
 ms.topic: macro
+f1_keywords: ["windowsx/Button_GetText"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

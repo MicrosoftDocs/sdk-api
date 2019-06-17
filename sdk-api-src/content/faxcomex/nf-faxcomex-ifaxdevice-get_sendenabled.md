@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],SendEnabled property, IFaxDevice.SendEnabled, IFaxDevice.get_SendEnabled, IFaxDevice.put_SendEnabled, IFaxDevice::SendEnabled, IFaxDevice::get_SendEnabled, IFaxDevice::put_SendEnabled, SendEnabled property [Fax Service], SendEnabled property [Fax Service],IFaxDevice interface, _mfax_faxdevice.sendenabled, fax._mfax_faxdevice_cpp_mfax_faxdevice_sendenabled_cpp, fax._mfax_faxdevice_sendenabled, faxcomex/IFaxDevice::SendEnabled, faxcomex/IFaxDevice::get_SendEnabled, faxcomex/IFaxDevice::put_SendEnabled, get_SendEnabled
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDevice.SendEnabled"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

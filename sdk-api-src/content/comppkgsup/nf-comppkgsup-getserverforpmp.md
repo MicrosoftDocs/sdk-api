@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup/GetServerForPMP, winprog.getserverforpmp
 ms.topic: function
+f1_keywords: ["comppkgsup/GetServerForPMP"]
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows

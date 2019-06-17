@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
 ms.topic: interface
+f1_keywords: ["wcmconfig/ITargetInfo"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

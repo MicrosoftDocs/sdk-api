@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],IsStereo3D method, IMFMediaEngineEx.IsStereo3D, IMFMediaEngineEx::IsStereo3D, IsStereo3D, IsStereo3D method [Media Foundation], IsStereo3D method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_isstereo3d, mfmediaengine/IMFMediaEngineEx::IsStereo3D
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineEx.IsStereo3D"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

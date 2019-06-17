@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get__OutputsAvailable method, IMSVidCtl.get__OutputsAvailable, IMSVidCtl::get__OutputsAvailable, IMSVidCtlget__OutputsAvailable, get__OutputsAvailable, get__OutputsAvailable method [Microsoft TV Technologies], get__OutputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get__outputsavailable, msvidctl/IMSVidCtl::get__OutputsAvailable
 ms.topic: method
+f1_keywords: ["msvidctl/IMSVidCtl.get__OutputsAvailable"]
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows

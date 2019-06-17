@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibStop, DrawDibStop function [Windows Multimedia], _win32_DrawDibStop, multimedia.drawdibstop, vfw/DrawDibStop
 ms.topic: function
+f1_keywords: ["vfw/DrawDibStop"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

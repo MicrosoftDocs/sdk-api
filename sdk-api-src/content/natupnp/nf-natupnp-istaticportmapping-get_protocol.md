@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_Protocol method, IStaticPortMapping.get_Protocol, IStaticPortMapping::get_Protocol, _ics_istaticportmapping_get_protocol, get_Protocol, get_Protocol method [ICS/ICF], get_Protocol method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_protocol, natupnp/IStaticPortMapping::get_Protocol
 ms.topic: method
+f1_keywords: ["natupnp/IStaticPortMapping.get_Protocol"]
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

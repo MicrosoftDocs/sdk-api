@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], IWMStreamPrioritization interface [windows Media Format],described, IWMStreamPrioritizationInterface, wmformat.iwmstreamprioritization, wmsdkidl/IWMStreamPrioritization
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMStreamPrioritization"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

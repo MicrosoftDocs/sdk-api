@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
 ms.topic: interface
+f1_keywords: ["ocidl/ISpecifyPropertyPages"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

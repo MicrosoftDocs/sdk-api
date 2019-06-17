@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_VERTEX_BUFFER_VIEW, D3D12_VERTEX_BUFFER_VIEW structure, d3d12/D3D12_VERTEX_BUFFER_VIEW, direct3d12.d3d12_vertex_buffer_view
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_VERTEX_BUFFER_VIEW"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentStyleName property [Windows Accessibility], CurrentStyleName property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentStyleName property, IUIAutomationStylesPattern.CurrentStyleName, IUIAutomationStylesPattern.get_CurrentStyleName, IUIAutomationStylesPattern::CurrentStyleName, IUIAutomationStylesPattern::get_CurrentStyleName, get_CurrentStyleName, uiautomationclient/IUIAutomationStylesPattern::CurrentStyleName, uiautomationclient/IUIAutomationStylesPattern::get_CurrentStyleName, winauto.uiauto_IUIAutomationStylesPattern_CurrentStyleName
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationStylesPattern.CurrentStyleName"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

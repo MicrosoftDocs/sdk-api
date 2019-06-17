@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetB method, Color.GetB, Color::GetB, GetB, GetB method [GDI+], GetB method [GDI+],Color class, _gdiplus_CLASS_Color_GetB_, gdiplus._gdiplus_CLASS_Color_GetB_
 ms.topic: method
+f1_keywords: ["gdipluscolor/Color.GetB"]
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

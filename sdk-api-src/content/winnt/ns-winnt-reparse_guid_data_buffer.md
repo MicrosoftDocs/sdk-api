@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Files], REPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Files], _REPARSE_GUID_DATA_BUFFER, _win32_reparse_guid_data_buffer_str, base.reparse_guid_data_buffer_str, fs.reparse_guid_data_buffer_str, winnt/PREPARSE_GUID_DATA_BUFFER, winnt/REPARSE_GUID_DATA_BUFFER"
 ms.topic: struct
+f1_keywords: ["winnt/REPARSE_GUID_DATA_BUFFER"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

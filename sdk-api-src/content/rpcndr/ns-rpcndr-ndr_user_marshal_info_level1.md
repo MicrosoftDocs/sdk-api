@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NDR_USER_MARSHAL_INFO_LEVEL1, NDR_USER_MARSHAL_INFO_LEVEL1 structure [RPC], _rpc_ndr_user_marshal_info_level1, rpc.ndr_user_marshal_info_level1, rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1
 ms.topic: struct
+f1_keywords: ["rpcndr/NDR_USER_MARSHAL_INFO_LEVEL1"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

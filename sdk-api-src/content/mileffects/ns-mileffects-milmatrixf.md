@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MILMatrixF, MILMatrixF structure [WPF Bitmap Effects], _wibe_milmatrixf, mileffects/MILMatrixF, wibe._wibe_milmatrixf
 ms.topic: struct
+f1_keywords: ["mileffects/MILMatrixF"]
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

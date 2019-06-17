@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunMpio, IVdsLunMpio interface [VDS], IVdsLunMpio interface [VDS],described, base.ivdslunmpio, vds/IVdsLunMpio, vdshwprv/IVdsLunMpio
 ms.topic: interface
+f1_keywords: ["vdshwprv/IVdsLunMpio"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

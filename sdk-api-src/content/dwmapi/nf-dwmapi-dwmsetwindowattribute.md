@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/30/2019
 ms.keywords: DwmSetWindowAttribute, DwmSetWindowAttribute function [Desktop Window Manager], _udwm_dwmsetwindowattribute, _udwm_dwmsetwindowattribute_cpp, dwm.dwmsetwindowattribute, dwmapi/DwmSetWindowAttribute, winui._udwm_dwmsetwindowattribute
 ms.topic: function
+f1_keywords: ["dwmapi/DwmSetWindowAttribute"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

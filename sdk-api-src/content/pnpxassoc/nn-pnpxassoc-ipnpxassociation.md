@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation interface,described, ncd.ipnpxassociation, pnpxassoc/IPNPXAssociation
 ms.topic: interface
+f1_keywords: ["pnpxassoc/IPNPXAssociation"]
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

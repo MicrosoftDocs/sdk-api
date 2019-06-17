@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RollbackEnlistment, RollbackEnlistment function [Files], fs.rollbackenlistment, ktmw32/RollbackEnlistment
 ms.topic: function
+f1_keywords: ["ktmw32/RollbackEnlistment"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

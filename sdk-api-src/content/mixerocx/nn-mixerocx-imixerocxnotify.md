@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMixerOCXNotify, IMixerOCXNotify interface [DirectShow], IMixerOCXNotify interface [DirectShow],described, IMixerOCXNotifyInterface, dshow.imixerocxnotify, mixerocx/IMixerOCXNotify
 ms.topic: interface
+f1_keywords: ["mixerocx/IMixerOCXNotify"]
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows

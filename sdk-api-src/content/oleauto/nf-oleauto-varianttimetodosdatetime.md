@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantTimeToDosDateTime, VariantTimeToDosDateTime function [Automation], _oa96_VariantTimeToDosDateTime, automat.varianttimetodosdatetime, oleauto/VariantTimeToDosDateTime
 ms.topic: function
+f1_keywords: ["oleauto/VariantTimeToDosDateTime"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

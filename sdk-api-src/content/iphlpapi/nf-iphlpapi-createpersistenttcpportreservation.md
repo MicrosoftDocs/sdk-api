@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
 ms.topic: function
+f1_keywords: ["iphlpapi/CreatePersistentTcpPortReservation"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

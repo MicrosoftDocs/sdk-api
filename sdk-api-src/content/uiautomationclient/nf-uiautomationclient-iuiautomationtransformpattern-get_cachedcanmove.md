@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedCanMove property [Windows Accessibility], CachedCanMove property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanMove property, IUIAutomationTransformPattern.CachedCanMove, IUIAutomationTransformPattern.get_CachedCanMove, IUIAutomationTransformPattern::CachedCanMove, IUIAutomationTransformPattern::get_CachedCanMove, get_CachedCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanMove, uiauto_IUIAutomationTransformPattern_CachedCanMove, uiautomationclient/IUIAutomationTransformPattern::CachedCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanMove, winauto.uiauto_IUIAutomationTransformPattern_CachedCanMove
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.CachedCanMove"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

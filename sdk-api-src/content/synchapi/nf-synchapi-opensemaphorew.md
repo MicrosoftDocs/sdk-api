@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenSemaphore, OpenSemaphore function, OpenSemaphoreA, OpenSemaphoreW, _win32_opensemaphore, base.opensemaphore, synchapi/OpenSemaphore, synchapi/OpenSemaphoreA, synchapi/OpenSemaphoreW
 ms.topic: function
+f1_keywords: ["synchapi/OpenSemaphore"]
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

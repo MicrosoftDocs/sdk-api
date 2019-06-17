@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows, IShellWindows interface [Windows Shell], IShellWindows interface [Windows Shell],described, _win32_IShellWindows, exdisp/IShellWindows, shell.IShellWindows
 ms.topic: interface
+f1_keywords: ["exdisp/IShellWindows"]
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

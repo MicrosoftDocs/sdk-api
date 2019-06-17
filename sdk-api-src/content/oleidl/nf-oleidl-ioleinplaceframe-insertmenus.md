@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],InsertMenus method, IOleInPlaceFrame.InsertMenus, IOleInPlaceFrame::InsertMenus, InsertMenus, InsertMenus method [COM], InsertMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_insertmenus, com.ioleinplaceframe_insertmenus, oleidl/IOleInPlaceFrame::InsertMenus
 ms.topic: method
+f1_keywords: ["oleidl/IOleInPlaceFrame.InsertMenus"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_STRING_USERNAME_CREDENTIAL_TYPE, WS_USERNAME_CREDENTIAL_TYPE, WS_USERNAME_CREDENTIAL_TYPE enumeration [Web Services for Windows], webservices/WS_STRING_USERNAME_CREDENTIAL_TYPE, webservices/WS_USERNAME_CREDENTIAL_TYPE, wsw.ws_username_credential_type
 ms.topic: enum
+f1_keywords: ["webservices/WS_USERNAME_CREDENTIAL_TYPE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

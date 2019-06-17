@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverHardwareID property, IWindowsDriverUpdateEntry.DriverHardwareID, IWindowsDriverUpdateEntry.get_DriverHardwareID, IWindowsDriverUpdateEntry::DriverHardwareID, IWindowsDriverUpdateEntry::get_DriverHardwareID, get_DriverHardwareID, wua.iwindowsdriverupdateentry_driverhardwareid, wuapi/IWindowsDriverUpdateEntry::DriverHardwareID, wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID
 ms.topic: method
+f1_keywords: ["wuapi/IWindowsDriverUpdateEntry.DriverHardwareID"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxDisplayStatusMessage, WlxDisplayStatusMessage function [Security], _gina_wlxdisplaystatusmessage, security.wlxdisplaystatusmessage, winwlx/WlxDisplayStatusMessage
 ms.topic: function
+f1_keywords: ["winwlx/WlxDisplayStatusMessage"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

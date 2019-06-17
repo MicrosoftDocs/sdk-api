@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetDriveMedia, SHGetDriveMedia function [Windows Shell], _shell_SHGetDriveMedia, shell.SHGetDriveMedia, shellapi/SHGetDriveMedia
 ms.topic: function
+f1_keywords: ["shellapi/SHGetDriveMedia"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

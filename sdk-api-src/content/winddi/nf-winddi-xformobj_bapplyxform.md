@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XFORMOBJ_bApplyXform, XFORMOBJ_bApplyXform function [Display Devices], display.xformobj_bapplyxform, gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml, winddi/XFORMOBJ_bApplyXform
 ms.topic: function
+f1_keywords: ["winddi/XFORMOBJ_bApplyXform"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

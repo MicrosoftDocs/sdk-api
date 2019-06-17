@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineIndex, Edit_GetFileLineIndex macro [Windows Controls], commctrl/Edit_GetFileLineIndex, controls.edit_getfilelineindex
 ms.topic: macro
+f1_keywords: ["commctrl/Edit_GetFileLineIndex"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

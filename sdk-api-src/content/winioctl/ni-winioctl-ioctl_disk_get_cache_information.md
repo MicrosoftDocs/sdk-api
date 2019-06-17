@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Files], base.ioctl_disk_get_cache_information, fs.ioctl_disk_get_cache_information, winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_DISK_GET_CACHE_INFORMATION"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

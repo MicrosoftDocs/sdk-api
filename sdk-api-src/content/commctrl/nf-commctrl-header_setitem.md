@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Header_SetItem, Header_SetItem macro [Windows Controls], _win32_Header_SetItem, _win32_Header_SetItem_cpp, commctrl/Header_SetItem, controls.Header_SetItem, controls._win32_Header_SetItem
 ms.topic: macro
+f1_keywords: ["commctrl/Header_SetItem"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

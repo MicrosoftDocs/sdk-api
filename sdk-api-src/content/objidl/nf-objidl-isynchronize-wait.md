@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronize interface [COM],Wait method, ISynchronize.Wait, ISynchronize::Wait, Wait, Wait method [COM], Wait method [COM],ISynchronize interface, _com_isynchronize_wait, com.isynchronize_wait, objidlbase/ISynchronize::Wait
 ms.topic: method
+f1_keywords: ["objidl/ISynchronize.Wait"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

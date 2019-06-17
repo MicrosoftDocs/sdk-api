@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymDeleteSymbol, SymDeleteSymbol function, SymDeleteSymbolW, _win32_symdeletesymbol, base.symdeletesymbol, dbghelp/SymDeleteSymbol, dbghelp/SymDeleteSymbolW
 ms.topic: function
+f1_keywords: ["dbghelp/SymDeleteSymbol"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

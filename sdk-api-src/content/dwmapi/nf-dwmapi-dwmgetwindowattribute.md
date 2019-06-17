@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/30/2019
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
 ms.topic: function
+f1_keywords: ["dwmapi/DwmGetWindowAttribute"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

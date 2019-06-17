@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],IsRoleDefinition property, IAzTask interface [Security],IsRoleDefinition property, IAzTask.IsRoleDefinition, IAzTask.get_IsRoleDefinition, IAzTask::IsRoleDefinition, IAzTask::get_IsRoleDefinition, IAzTask::put_IsRoleDefinition, IsRoleDefinition property [Security], IsRoleDefinition property [Security],AzTask object, IsRoleDefinition property [Security],IAzTask interface, azroles/IAzTask::IsRoleDefinition, azroles/IAzTask::get_IsRoleDefinition, azroles/IAzTask::put_IsRoleDefinition, get_IsRoleDefinition, security.iaztask_isroledefinition
 ms.topic: method
+f1_keywords: ["azroles/IAzTask.IsRoleDefinition"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

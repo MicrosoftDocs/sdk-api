@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindows, winuser/ExitWindows
 ms.topic: macro
+f1_keywords: ["winuser/ExitWindows"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

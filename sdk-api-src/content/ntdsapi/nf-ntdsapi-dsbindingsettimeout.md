@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBindingSetTimeout, DsBindingSetTimeout function [Active Directory], ad.dsbindingsettimeout, ntdsapi/DsBindingSetTimeout
 ms.topic: function
+f1_keywords: ["ntdsapi/DsBindingSetTimeout"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

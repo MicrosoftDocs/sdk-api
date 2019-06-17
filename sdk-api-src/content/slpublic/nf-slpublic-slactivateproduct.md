@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLActivateProduct, SLActivateProduct function [Security], security.slactivateproduct, slpublic/SLActivateProduct
 ms.topic: function
+f1_keywords: ["slpublic/SLActivateProduct"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

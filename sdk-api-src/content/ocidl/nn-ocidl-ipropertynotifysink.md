@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], IPropertyNotifySink interface [COM],described, _ctrl_ipropertynotifysink, com.ipropertynotifysink, ocidl/IPropertyNotifySink
 ms.topic: interface
+f1_keywords: ["ocidl/IPropertyNotifySink"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

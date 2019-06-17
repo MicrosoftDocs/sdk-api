@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_FinalDisposition method, ITQueue.get_FinalDisposition, ITQueue::get_FinalDisposition, _tapi3_itqueue_get_finaldisposition, get_FinalDisposition, get_FinalDisposition method [TAPI 2.2], get_FinalDisposition method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_finaldisposition, tapi3cc/ITQueue::get_FinalDisposition
 ms.topic: method
+f1_keywords: ["tapi3/ITQueue.get_FinalDisposition"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

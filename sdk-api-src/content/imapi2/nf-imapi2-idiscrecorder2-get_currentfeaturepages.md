@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentFeaturePages method, IDiscRecorder2.get_CurrentFeaturePages, IDiscRecorder2::get_CurrentFeaturePages, get_CurrentFeaturePages, get_CurrentFeaturePages method [IMAPI], get_CurrentFeaturePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentfeaturepages, imapi2/IDiscRecorder2::get_CurrentFeaturePages
 ms.topic: method
+f1_keywords: ["imapi2/IDiscRecorder2.get_CurrentFeaturePages"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

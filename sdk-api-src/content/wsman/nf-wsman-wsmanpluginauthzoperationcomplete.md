@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManPluginAuthzOperationComplete, WSManPluginAuthzOperationComplete function [Windows Remote Management], winrm.wsmanpluginauthzoperationcomplete, wsman/WSManPluginAuthzOperationComplete
 ms.topic: function
+f1_keywords: ["wsman/WSManPluginAuthzOperationComplete"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

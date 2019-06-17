@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetPSClsid, CoGetPSClsid function [COM], _com_CoGetPSClsid, com.cogetpsclsid, combaseapi/CoGetPSClsid
 ms.topic: function
+f1_keywords: ["combaseapi/CoGetPSClsid"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

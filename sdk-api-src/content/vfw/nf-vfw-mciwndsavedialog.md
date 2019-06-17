@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndSaveDialog"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

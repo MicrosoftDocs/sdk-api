@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICComponentInfo, IWICComponentInfo interface [Windows Imaging Component], IWICComponentInfo interface [Windows Imaging Component],described, _wic_codec_iwiccomponentinfo, wic._wic_codec_iwiccomponentinfo, wincodec/IWICComponentInfo
 ms.topic: interface
+f1_keywords: ["wincodec/IWICComponentInfo"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

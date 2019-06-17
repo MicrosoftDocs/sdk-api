@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdfCreateRenderer, PdfCreateRenderer function [Windows Runtime], windows/PdfCreateRenderer, winrt.pdfcreaterenderer
 ms.topic: function
+f1_keywords: ["windows.data.pdf.interop/PdfCreateRenderer"]
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows

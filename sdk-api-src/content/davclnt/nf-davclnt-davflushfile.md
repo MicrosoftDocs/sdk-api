@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DavFlushFile, DavFlushFile function [WebDAV], davclnt/DavFlushFile, webdav.davflushfile
 ms.topic: function
+f1_keywords: ["davclnt/DavFlushFile"]
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows

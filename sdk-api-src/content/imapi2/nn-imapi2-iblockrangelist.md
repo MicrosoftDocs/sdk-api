@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBlockRangeList, IBlockRangeList interface [IMAPI], IBlockRangeList interface [IMAPI],described, imapi.iblockrangelist, imapi2/IBlockRangeList
 ms.topic: interface
+f1_keywords: ["imapi2/IBlockRangeList"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

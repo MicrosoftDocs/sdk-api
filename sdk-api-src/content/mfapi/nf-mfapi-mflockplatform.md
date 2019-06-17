@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 040742dc-4ba3-4906-8257-65505b2924d5, MFLockPlatform, MFLockPlatform function [Media Foundation], mf.mflockplatform, mfapi/MFLockPlatform
 ms.topic: function
+f1_keywords: ["mfapi/MFLockPlatform"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

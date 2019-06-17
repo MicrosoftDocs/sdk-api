@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseModule, CloseModule method, CloseModule method,IMsmMerge interface, IMsmMerge interface,CloseModule method, IMsmMerge.CloseModule, IMsmMerge::CloseModule, _msi_closemodule_function, mergemod/IMsmMerge::CloseModule, setup.imsmmerge_closemodule
 ms.topic: method
+f1_keywords: ["mergemod/IMsmMerge.CloseModule"]
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows

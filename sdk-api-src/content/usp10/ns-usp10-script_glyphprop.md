@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_GLYPHPROP, SCRIPT_GLYPHPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_GLYPHPROP, intl.script_glyphprop, usp10/SCRIPT_GLYPHPROP
 ms.topic: struct
+f1_keywords: ["usp10/SCRIPT_GLYPHPROP"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

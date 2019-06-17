@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiConnection, RemoveIscsiConnection, RemoveIscsiConnection function [iSCSI Discovery Library API], iscsidisc.removeiscsiconnection, iscsidsc/RemoveIscsiConnection
 ms.topic: function
+f1_keywords: ["iscsidsc/RemoveIscsiConnection"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

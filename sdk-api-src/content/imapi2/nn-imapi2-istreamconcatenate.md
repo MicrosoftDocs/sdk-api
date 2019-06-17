@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamConcatenate, IStreamConcatenate interface [IMAPI], IStreamConcatenate interface [IMAPI],described, imapi.istreamconcatenate, imapi2/IStreamConcatenate
 ms.topic: interface
+f1_keywords: ["imapi2/IStreamConcatenate"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

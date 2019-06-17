@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_RRSET, *PDNS_RRSET structure [DNS], DNS_RRSET, DNS_RRSET structure [DNS], dns.dns_rrset, windns/*PDNS_RRSET, windns/DNS_RRSET"
 ms.topic: struct
+f1_keywords: ["windns/DNS_RRSET"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

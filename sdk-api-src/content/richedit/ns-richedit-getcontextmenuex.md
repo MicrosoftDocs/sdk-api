@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GCMF_GRIPPER, GCMF_MOUSEMENU, GCMF_SPELLING, GCMF_TOUCHMENU, GETCONTEXTMENUEX, GETCONTEXTMENUEX structure [Windows Controls], controls.getcontextmenuex, richedit/GETCONTEXTMENUEX
 ms.topic: struct
+f1_keywords: ["richedit/GETCONTEXTMENUEX"]
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

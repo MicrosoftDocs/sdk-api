@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddAccessAllowedAce, AddAccessAllowedAce function [Security], _win32_addaccessallowedace, security.addaccessallowedace, securitybaseapi/AddAccessAllowedAce
 ms.topic: function
+f1_keywords: ["securitybaseapi/AddAccessAllowedAce"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

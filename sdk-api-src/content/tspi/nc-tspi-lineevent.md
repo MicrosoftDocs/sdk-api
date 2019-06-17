@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LINEEVENT, LINEEVENT callback, Line_Event, Line_Event callback function [TAPI 2.2], _tspi_lineevent, tspi.line_event, tspi.lineevent, tspi/Line_Event
 ms.topic: callback
+f1_keywords: ["tspi/Line_Event"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

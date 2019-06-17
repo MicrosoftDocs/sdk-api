@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections, IEnumNetworkConnections interface [Network Awareness], IEnumNetworkConnections interface [Network Awareness],described, netlistmgr/IEnumNetworkConnections, nla.ienumnetworkconnections
 ms.topic: interface
+f1_keywords: ["netlistmgr/IEnumNetworkConnections"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

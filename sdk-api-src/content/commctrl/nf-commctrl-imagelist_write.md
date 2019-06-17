@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Write, ImageList_Write function [Windows Controls], _win32_ImageList_Write, _win32_ImageList_Write_cpp, commctrl/ImageList_Write, controls.ImageList_Write, controls._win32_ImageList_Write
 ms.topic: function
+f1_keywords: ["commctrl/ImageList_Write"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALERT_VAR_DATA, ALERT_VAR_DATA macro [Network Management], _win32_alert_var_data, lmalert/ALERT_VAR_DATA, netmgmt.alert_var_data
 ms.topic: macro
+f1_keywords: ["lmalert/ALERT_VAR_DATA"]
 req.header: lmalert.h
 req.include-header: Lm.h
 req.target-type: Windows

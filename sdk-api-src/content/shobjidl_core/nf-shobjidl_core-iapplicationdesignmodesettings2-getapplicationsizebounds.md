@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationSizeBounds, GetApplicationSizeBounds method [Windows Shell], GetApplicationSizeBounds method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationSizeBounds method, IApplicationDesignModeSettings2.GetApplicationSizeBounds, IApplicationDesignModeSettings2::GetApplicationSizeBounds, shell.IApplicationDesignModeSettings2_GetApplicationSizeBounds, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationSizeBounds
 ms.topic: method
+f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings2.GetApplicationSizeBounds"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

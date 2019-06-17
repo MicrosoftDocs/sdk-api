@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformation, PeerDistServerOpenContentInformation function [Peer Networking], p2p.peerdistserveropencontentinformation, peerdist/PeerDistServerOpenContentInformation
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistServerOpenContentInformation"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

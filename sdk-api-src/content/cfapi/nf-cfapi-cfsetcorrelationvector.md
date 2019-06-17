@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfSetCorrelationVector, CfSetCorrelationVector function, cfapi/CfSetCorrelationVector, cloudApi.cfsetcorrelationvector
 ms.topic: function
+f1_keywords: ["cfapi/CfSetCorrelationVector"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

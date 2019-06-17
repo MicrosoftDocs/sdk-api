@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogSend, RasSecurityDialogSend function [RAS], _ras_rassecuritydialogsend, rasshost/RasSecurityDialogSend, rras.rassecuritydialogsend
 ms.topic: function
+f1_keywords: ["rasshost/RasSecurityDialogSend"]
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

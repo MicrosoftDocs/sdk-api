@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ProductRevision method, IDiscRecorder2.get_ProductRevision, IDiscRecorder2::get_ProductRevision, get_ProductRevision, get_ProductRevision method [IMAPI], get_ProductRevision method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_productrevision, imapi2/IDiscRecorder2::get_ProductRevision
 ms.topic: method
+f1_keywords: ["imapi2/IDiscRecorder2.get_ProductRevision"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

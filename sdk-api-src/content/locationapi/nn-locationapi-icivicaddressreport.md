@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
 ms.topic: interface
+f1_keywords: ["locationapi/ICivicAddressReport"]
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

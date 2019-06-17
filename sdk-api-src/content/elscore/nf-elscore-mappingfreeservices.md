@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MappingFreeServices, MappingFreeServices function [Internationalization for Windows Applications], elscore/MappingFreeServices, intl.mappingfreeservices
 ms.topic: function
+f1_keywords: ["elscore/MappingFreeServices"]
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

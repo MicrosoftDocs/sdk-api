@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTDH_CONTEXT, TDH_CONTEXT, TDH_CONTEXT structure [ETW], etw.tdh_context_struct, tdh.tdh_context_struct, tdh/TDH_CONTEXT"
 ms.topic: struct
+f1_keywords: ["tdh/TDH_CONTEXT"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

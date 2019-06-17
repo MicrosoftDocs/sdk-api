@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC], IInkOverlay interface [Tablet PC],described, msinkaut/IInkOverlay, tablet.iinkoverlay
 ms.topic: interface
+f1_keywords: ["msinkaut/IInkOverlay"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

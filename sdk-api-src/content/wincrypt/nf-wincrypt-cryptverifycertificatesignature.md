@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyCertificateSignature, CryptVerifyCertificateSignature function [Security], X509_ASN_ENCODING, _crypto2_cryptverifycertificatesignature, security.cryptverifycertificatesignature, wincrypt/CryptVerifyCertificateSignature
 ms.topic: function
+f1_keywords: ["wincrypt/CryptVerifyCertificateSignature"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink interface [Direct2D],PushLayer method, ID2D1CommandSink.PushLayer, ID2D1CommandSink::PushLayer, PushLayer, PushLayer method [Direct2D], PushLayer method [Direct2D],ID2D1CommandSink interface, d2d1_1/ID2D1CommandSink::PushLayer, direct2d.id2d1commandsink_pushlayer
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1CommandSink.PushLayer"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormat method, IAudioSystemEffectsCustomFormats.GetFormat, IAudioSystemEffectsCustomFormats::GetFormat, audio.iaudiosystemeffectscustomformats_getformat, audio_syseffects_r_6d606a4f-7fce-4ae6-af5b-77a3baf2e41e.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormat
 ms.topic: method
+f1_keywords: ["audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormat"]
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop

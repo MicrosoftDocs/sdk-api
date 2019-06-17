@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE, DHCP_OPTION_DATA_TYPE enumeration [DHCP], DhcpBinaryDataOption, DhcpByteOption, DhcpDWordDWordOption, DhcpDWordOption, DhcpEncapsulatedDataOption, DhcpIpAddressOption, DhcpIpv6AddressOption, DhcpStringDataOption, DhcpWordOption, LPDHCP_OPTION_DATA_TYPE, LPDHCP_OPTION_DATA_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_data_type, dhcpsapi/DHCP_OPTION_DATA_TYPE, dhcpsapi/DhcpBinaryDataOption, dhcpsapi/DhcpByteOption, dhcpsapi/DhcpDWordDWordOption, dhcpsapi/DhcpDWordOption, dhcpsapi/DhcpEncapsulatedDataOption, dhcpsapi/DhcpIpAddressOption, dhcpsapi/DhcpIpv6AddressOption, dhcpsapi/DhcpStringDataOption, dhcpsapi/DhcpWordOption, dhcpsapi/LPDHCP_OPTION_DATA_TYPE"
 ms.topic: enum
+f1_keywords: ["dhcpsapi/DHCP_OPTION_DATA_TYPE"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

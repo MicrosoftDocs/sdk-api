@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NS_HELPER_START_FN, NS_HELPER_START_FN callback, NS_HELPER_START_FN callback function [NetShell], _netsh_ns_helper_start_fn, netsh/NS_HELPER_START_FN, netshell.ns_helper_start_fn
 ms.topic: callback
+f1_keywords: ["netsh/NS_HELPER_START_FN"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

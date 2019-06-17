@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfUIElements interface [Text Services Framework],Reset method, IEnumTfUIElements.Reset, IEnumTfUIElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfUIElements interface, msctf/IEnumTfUIElements::Reset, tsf.ienumtfuielements_reset
 ms.topic: method
+f1_keywords: ["msctf/IEnumTfUIElements.Reset"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

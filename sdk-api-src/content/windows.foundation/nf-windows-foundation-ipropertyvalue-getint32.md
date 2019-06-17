@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInt32, GetInt32 method [Windows Runtime], GetInt32 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt32 method, IPropertyValue.GetInt32, IPropertyValue.IPropertyValue, IPropertyValue::GetInt32, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt32, winrt.ipropertyvalue_getint32
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValue.GetInt32"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

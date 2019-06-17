@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey interface [Security],Opened property, IX509EndorsementKey.Opened, IX509EndorsementKey.get_Opened, IX509EndorsementKey::Opened, IX509EndorsementKey::get_Opened, Opened property [Security], Opened property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Opened, certenroll/IX509EndorsementKey::get_Opened, get_Opened, security.ix509endorsementkey_opened
 ms.topic: method
+f1_keywords: ["certenroll/IX509EndorsementKey.Opened"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoReleaseServerProcess, CoReleaseServerProcess function [COM], _com_CoReleaseServerProcess, com.coreleaseserverprocess, combaseapi/CoReleaseServerProcess
 ms.topic: function
+f1_keywords: ["combaseapi/CoReleaseServerProcess"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

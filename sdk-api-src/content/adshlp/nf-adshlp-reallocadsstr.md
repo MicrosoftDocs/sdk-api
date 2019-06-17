@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReallocADsStr, ReallocADsStr function [ADSI], _ds_reallocadsstr, adshlp/ReallocADsStr, adsi.reallocadsstr
 ms.topic: function
+f1_keywords: ["adshlp/ReallocADsStr"]
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

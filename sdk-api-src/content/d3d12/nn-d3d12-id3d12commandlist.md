@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandList, ID3D12CommandList interface, ID3D12CommandList interface,described, d3d12/ID3D12CommandList, direct3d12.id3d12commandlist
 ms.topic: interface
+f1_keywords: ["d3d12/ID3D12CommandList"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

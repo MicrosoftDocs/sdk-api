@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
 ms.topic: function
+f1_keywords: ["cryptxml/CryptXmlGetReference"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

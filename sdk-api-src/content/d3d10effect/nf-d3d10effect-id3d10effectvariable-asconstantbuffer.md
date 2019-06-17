@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 477c624a-b604-228f-bba0-0e26ed2d49e1, AsConstantBuffer, AsConstantBuffer method [Direct3D 10], AsConstantBuffer method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsConstantBuffer method, ID3D10EffectVariable.AsConstantBuffer, ID3D10EffectVariable::AsConstantBuffer, d3d10effect/ID3D10EffectVariable::AsConstantBuffer, direct3d10.id3d10effectvariable_asconstantbuffer
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectVariable.AsConstantBuffer"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

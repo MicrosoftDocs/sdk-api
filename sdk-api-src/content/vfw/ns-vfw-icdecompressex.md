@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDECOMPRESSEX, ICDECOMPRESSEX structure [Windows Multimedia], ICDECOMPRESS_HURRYUP, ICDECOMPRESS_NOTKEYFRAME, ICDECOMPRESS_NULLFRAME, ICDECOMPRESS_PREROLL, ICDECOMPRESS_UPDATE, multimedia.icdecompressex_COLLISION172, multimedia.icdecompressex_struct, vfw/ICDECOMPRESSEX
 ms.topic: struct
+f1_keywords: ["vfw/ICDECOMPRESSEX"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

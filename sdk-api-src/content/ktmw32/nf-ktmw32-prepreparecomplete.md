@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrePrepareComplete, PrePrepareComplete function [Files], fs.prepreparecomplete, ktmw32/PrePrepareComplete
 ms.topic: function
+f1_keywords: ["ktmw32/PrePrepareComplete"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

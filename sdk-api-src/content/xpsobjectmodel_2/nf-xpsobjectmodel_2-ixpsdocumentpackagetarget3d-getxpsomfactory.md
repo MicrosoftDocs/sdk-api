@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMFactory, GetXpsOMFactory method [XPS Documents and Packaging], GetXpsOMFactory method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMFactory method, IXpsDocumentPackageTarget3D.GetXpsOMFactory, IXpsDocumentPackageTarget3D::GetXpsOMFactory, xps.ixpsdocumentpackagetarget3d_getxpsomfactory, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMFactory
 ms.topic: method
+f1_keywords: ["xpsobjectmodel_2/IXpsDocumentPackageTarget3D.GetXpsOMFactory"]
 req.header: xpsobjectmodel_2.h
 req.include-header: 
 req.target-type: Windows

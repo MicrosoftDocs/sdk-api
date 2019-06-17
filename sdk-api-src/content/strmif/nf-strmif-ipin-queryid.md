@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],QueryId method, IPin.QueryId, IPin::QueryId, IPinQueryId, QueryId, QueryId method [DirectShow], QueryId method [DirectShow],IPin interface, dshow.ipin_queryid, strmif/IPin::QueryId
 ms.topic: method
+f1_keywords: ["strmif/IPin.QueryId"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

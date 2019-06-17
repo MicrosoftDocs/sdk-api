@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithProgID interface [Windows Shell],SetProgID method, IObjectWithProgID.SetProgID, IObjectWithProgID::SetProgID, SetProgID, SetProgID method [Windows Shell], SetProgID method [Windows Shell],IObjectWithProgID interface, _shell_IObjectWithProgID_SetProgID, shell.IObjectWithProgID_SetProgID, shobjidl_core/IObjectWithProgID::SetProgID
 ms.topic: method
+f1_keywords: ["shobjidl_core/IObjectWithProgID.SetProgID"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

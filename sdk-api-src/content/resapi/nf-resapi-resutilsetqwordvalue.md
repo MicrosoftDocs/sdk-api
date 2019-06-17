@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_QWORD_VALUE, PRESUTIL_SET_QWORD_VALUE function [Failover Cluster], ResUtilSetQwordValue, ResUtilSetQwordValue function [Failover Cluster], mscs.resutilsetqwordvalue, resapi/PRESUTIL_SET_QWORD_VALUE, resapi/ResUtilSetQwordValue
 ms.topic: function
+f1_keywords: ["resapi/ResUtilSetQwordValue"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

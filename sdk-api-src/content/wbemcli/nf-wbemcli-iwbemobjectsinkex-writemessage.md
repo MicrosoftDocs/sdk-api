@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx interface [Windows Management Instrumentation],WriteMessage method, IWbemObjectSinkEx.WriteMessage, IWbemObjectSinkEx::WriteMessage, WriteMessage, WriteMessage method [Windows Management Instrumentation], WriteMessage method [Windows Management Instrumentation],IWbemObjectSinkEx interface, wbemcli/IWbemObjectSinkEx::WriteMessage, wmi.iwbemobjectsinkex_writemessage
 ms.topic: method
+f1_keywords: ["wbemcli/IWbemObjectSinkEx.WriteMessage"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

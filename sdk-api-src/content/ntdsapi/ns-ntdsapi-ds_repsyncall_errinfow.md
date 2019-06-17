@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDS_REPSYNCALL_ERRINFOW, DS_REPSYNCALL_ERRINFO, DS_REPSYNCALL_ERRINFO structure [Active Directory], DS_REPSYNCALL_ERRINFOA, DS_REPSYNCALL_ERRINFOW, PDS_REPSYNCALL_ERRINFO, PDS_REPSYNCALL_ERRINFO structure pointer [Active Directory], _glines_ds_repsyncall_errinfo, ad.ds__repsyncall__errinfo, ad.ds_repsyncall_errinfo, ntdsapi/DS_REPSYNCALL_ERRINFO, ntdsapi/DS_REPSYNCALL_ERRINFOA, ntdsapi/DS_REPSYNCALL_ERRINFOW, ntdsapi/PDS_REPSYNCALL_ERRINFO"
 ms.topic: struct
+f1_keywords: ["ntdsapi/DS_REPSYNCALL_ERRINFO"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

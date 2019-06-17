@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBitsTokenOptions, IBitsTokenOptions interface [BITS], IBitsTokenOptions interface [BITS],described, bits.ibitstokenoptions, bits4_0/IBitsTokenOptions
 ms.topic: interface
+f1_keywords: ["bits4_0/IBitsTokenOptions"]
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows

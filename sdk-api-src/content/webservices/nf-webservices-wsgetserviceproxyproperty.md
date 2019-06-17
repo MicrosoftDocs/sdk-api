@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetServiceProxyProperty, WsGetServiceProxyProperty function [Web Services for Windows], webservices/WsGetServiceProxyProperty, wsw.wsgetserviceproxyproperty
 ms.topic: function
+f1_keywords: ["webservices/WsGetServiceProxyProperty"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

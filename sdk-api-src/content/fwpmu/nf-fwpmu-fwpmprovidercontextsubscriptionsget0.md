@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextSubscriptionsGet0, FwpmProviderContextSubscriptionsGet0 function [Filtering], fwp.fwpmprovidercontextsubscriptionsget0_func, fwpmu/FwpmProviderContextSubscriptionsGet0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmProviderContextSubscriptionsGet0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

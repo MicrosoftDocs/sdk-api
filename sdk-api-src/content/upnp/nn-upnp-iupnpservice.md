@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], IUPnPService interface [UPnP APIs],described, _upnp_iupnpservice, upnp.iupnpservice, upnp/IUPnPService
 ms.topic: interface
+f1_keywords: ["upnp/IUPnPService"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

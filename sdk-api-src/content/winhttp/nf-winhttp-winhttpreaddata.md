@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpReadData"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

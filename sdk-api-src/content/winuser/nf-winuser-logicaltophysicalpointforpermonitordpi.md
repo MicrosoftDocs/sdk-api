@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LogicalToPhysicalPointForPerMonitorDPI, LogicalToPhysicalPointForPerMonitorDPI function [High DPI], hidpi.logicaltophysicalpointforpermonitordpi, winuser/LogicalToPhysicalPointForPerMonitorDPI
 ms.topic: function
+f1_keywords: ["winuser/LogicalToPhysicalPointForPerMonitorDPI"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

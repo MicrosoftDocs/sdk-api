@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvGradientFill, DrvGradientFill function [Display Devices], ddifncs_23385260-cc1d-4871-8aad-b6618e3d5f52.xml, display.drvgradientfill, winddi/DrvGradientFill
 ms.topic: function
+f1_keywords: ["winddi/DrvGradientFill"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

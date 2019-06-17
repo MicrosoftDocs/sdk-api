@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], IRDPSRAPIAttendeeDisconnectInfo interface [RDP],described, rdp.irdpsrapiattendeedisconnectinfo, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 constructor [DirectX Math Support APIs], XMFLOAT4X3 constructor [DirectX Math Support APIs],XMFLOAT4X3 structure, XMFLOAT4X3 structure [DirectX Math Support APIs],XMFLOAT4X3 constructor, XMFLOAT4X3.XMFLOAT4X3, XMFLOAT4X3.XMFLOAT4X3(), XMFLOAT4X3::XMFLOAT4X3, dxmath.xmfloat4x3_ctor_1
 ms.topic: method
+f1_keywords: ["directxmath/XMFLOAT4X3.XMFLOAT4X3"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

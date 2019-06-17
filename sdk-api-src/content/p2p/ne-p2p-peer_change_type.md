@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_CHANGE_ADDED, PEER_CHANGE_DELETED, PEER_CHANGE_TYPE, PEER_CHANGE_TYPE enumeration [Peer Networking], PEER_CHANGE_UPDATED, p2p.peer_change_type, p2p/PEER_CHANGE_ADDED, p2p/PEER_CHANGE_DELETED, p2p/PEER_CHANGE_TYPE, p2p/PEER_CHANGE_UPDATED
 ms.topic: enum
+f1_keywords: ["p2p/PEER_CHANGE_TYPE"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

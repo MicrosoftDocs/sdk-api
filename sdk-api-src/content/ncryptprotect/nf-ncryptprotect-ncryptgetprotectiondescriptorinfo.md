@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_PROTECTION_INFO_TYPE_DESCRIPTOR_STRING, NCryptGetProtectionDescriptorInfo, NCryptGetProtectionDescriptorInfo function [Security], ncryptprotect/NCryptGetProtectionDescriptorInfo, security.ncryptgetprotectiondescriptorinfo
 ms.topic: function
+f1_keywords: ["ncryptprotect/NCryptGetProtectionDescriptorInfo"]
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

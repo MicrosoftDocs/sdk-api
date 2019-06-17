@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGroupingRange, GetGroupingRange method [Windows Properties], GetGroupingRange method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetGroupingRange method, IPropertyDescription.GetGroupingRange, IPropertyDescription::GetGroupingRange, PDGR_ALPHANUMERIC, PDGR_DATE, PDGR_DISCRETE, PDGR_DYNAMIC, PDGR_ENUMERATED, PDGR_PERCENT, PDGR_SIZE, properties.IPropertyDescription_GetGroupingRange, propsys/IPropertyDescription::GetGroupingRange, shell.IPropertyDescription_GetGroupingRange, shell_IPropertyDescription_GetGroupingRange
 ms.topic: method
+f1_keywords: ["propsys/IPropertyDescription.GetGroupingRange"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

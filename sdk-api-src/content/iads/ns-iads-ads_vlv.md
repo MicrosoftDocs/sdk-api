@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_VLV, ADS_VLV, ADS_VLV structure [ADSI], _ds_ads_vlv, adsi.ads__vlv, adsi.ads_vlv, iads/ADS_VLV"
 ms.topic: struct
+f1_keywords: ["iads/ADS_VLV"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameNative, IVideoFrameNative interface [Windows Runtime], IVideoFrameNative interface [Windows Runtime],described, windows/IVideoFrameNative, winrt.ivideoframenative
 ms.topic: interface
+f1_keywords: ["windows.media.core.interop/IVideoFrameNative"]
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SetSessionKey method, CSecureChannelServer.SetSessionKey, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
 ms.topic: method
+f1_keywords: ["scserver/CSecureChannelServer.SetSessionKey"]
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

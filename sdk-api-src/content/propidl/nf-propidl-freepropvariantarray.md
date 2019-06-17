@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
 ms.topic: function
+f1_keywords: ["propidl/FreePropVariantArray"]
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows

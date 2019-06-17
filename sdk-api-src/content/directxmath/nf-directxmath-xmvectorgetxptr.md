@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetXPtr, XMVectorGetXPtr, XMVectorGetXPtr method [DirectX Math Support APIs], dxmath.xmvectorgetxptr
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorGetXPtr"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

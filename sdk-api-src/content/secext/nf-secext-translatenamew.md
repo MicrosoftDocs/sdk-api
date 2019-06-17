@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TranslateName, TranslateName function, TranslateNameA, TranslateNameW, _win32_translatename, base.translatename, secext/TranslateName, secext/TranslateNameA, secext/TranslateNameW
 ms.topic: function
+f1_keywords: ["secext/TranslateName"]
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows

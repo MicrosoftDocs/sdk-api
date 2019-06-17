@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmputilasnanyfree, snmp.snmputilasnanyfree, snmp/SnmpUtilAsnAnyFree
 ms.topic: function
+f1_keywords: ["snmp/SnmpUtilAsnAnyFree"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

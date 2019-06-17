@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC interface [COM],Skip method, IEnumFORMATETC.Skip, IEnumFORMATETC::Skip, Skip, Skip method [COM], Skip method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_skip, com.ienumformatetc_skip, objidl/IEnumFORMATETC::Skip
 ms.topic: method
+f1_keywords: ["objidl/IEnumFORMATETC.Skip"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, base.teb, winternl/PTEB, winternl/TEB"
 ms.topic: struct
+f1_keywords: ["winternl/TEB"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

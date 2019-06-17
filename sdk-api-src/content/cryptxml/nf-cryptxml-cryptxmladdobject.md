@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_ADD_OBJECT_CREATE_REFERENCE, CryptXmlAddObject, CryptXmlAddObject function [Security], cryptxml/CryptXmlAddObject, security.cryptxmladdobject
 ms.topic: function
+f1_keywords: ["cryptxml/CryptXmlAddObject"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

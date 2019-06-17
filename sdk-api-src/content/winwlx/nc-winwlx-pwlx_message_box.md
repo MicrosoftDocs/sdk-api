@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MB_ABORTRETRYIGNORE, MB_APPLMODAL, MB_DEFAULT_DESKTOP_ONLY, MB_DEFBUTTON1, MB_DEFBUTTON2, MB_DEFBUTTON3, MB_DEFBUTTON4, MB_ICONASTERISK, MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_ICONSTOP, MB_OK, MB_OKCANCEL, MB_RETRYCANCEL, MB_SERVICE_NOTIFICATION, MB_SETFOREGROUND, MB_SYSTEMMODAL, MB_TASKMODAL, MB_YESNO, MB_YESNOCANCEL, PWLX_MESSAGE_BOX, PWLX_MESSAGE_BOX callback, WlxMessageBox, WlxMessageBox callback function [Security], _gina_wlxmessagebox, security.wlxmessagebox, winwlx/WlxMessageBox
 ms.topic: callback
+f1_keywords: ["winwlx/WlxMessageBox"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

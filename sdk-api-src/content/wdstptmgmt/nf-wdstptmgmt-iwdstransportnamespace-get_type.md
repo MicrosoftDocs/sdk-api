@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Type property, IWdsTransportNamespace.Type, IWdsTransportNamespace.get_Type, IWdsTransportNamespace::Type, IWdsTransportNamespace::get_Type, Type property [Windows Deployment Services], Type property [Windows Deployment Services],IWdsTransportNamespace interface, get_Type, wds.iwdstransportnamespace_type, wdstptmgmt/IWdsTransportNamespace::Type, wdstptmgmt/IWdsTransportNamespace::get_Type
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportNamespace.Type"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

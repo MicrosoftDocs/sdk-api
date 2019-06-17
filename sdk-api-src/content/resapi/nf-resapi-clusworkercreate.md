@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusWorkerCreate, ClusWorkerCreate function [Failover Cluster], PCLUSAPI_CLUS_WORKER_CREATE, PCLUSAPI_CLUS_WORKER_CREATE function [Failover Cluster], _wolf_clusworkercreate, mscs.clusworkercreate, resapi/ClusWorkerCreate, resapi/PCLUSAPI_CLUS_WORKER_CREATE
 ms.topic: function
+f1_keywords: ["resapi/ClusWorkerCreate"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

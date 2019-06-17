@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFreeChannel, WsFreeChannel function [Web Services for Windows], webservices/WsFreeChannel, wsw.wsfreechannel
 ms.topic: function
+f1_keywords: ["webservices/WsFreeChannel"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

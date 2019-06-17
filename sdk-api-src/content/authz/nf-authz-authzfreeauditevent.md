@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win32_authzfreeauditevent, authz/AuthzFreeAuditEvent, security.authzfreeauditevent
 ms.topic: function
+f1_keywords: ["authz/AuthzFreeAuditEvent"]
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows

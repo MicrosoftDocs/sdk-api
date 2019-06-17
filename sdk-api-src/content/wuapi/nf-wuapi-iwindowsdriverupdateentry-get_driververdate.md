@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DriverVerDate property [Windows Update Agent], DriverVerDate property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverVerDate property, IWindowsDriverUpdateEntry.DriverVerDate, IWindowsDriverUpdateEntry.get_DriverVerDate, IWindowsDriverUpdateEntry::DriverVerDate, IWindowsDriverUpdateEntry::get_DriverVerDate, get_DriverVerDate, wua.iwindowsdriverupdateentry_driververdate, wuapi/IWindowsDriverUpdateEntry::DriverVerDate, wuapi/IWindowsDriverUpdateEntry::get_DriverVerDate
 ms.topic: method
+f1_keywords: ["wuapi/IWindowsDriverUpdateEntry.DriverVerDate"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

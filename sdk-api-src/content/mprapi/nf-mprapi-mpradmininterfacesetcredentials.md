@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCredentials, MprAdminInterfaceSetCredentials function [RAS], _mpr_mpradmininterfacesetcredentials, mprapi/MprAdminInterfaceSetCredentials, rras.mpradmininterfacesetcredentials
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminInterfaceSetCredentials"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLine, Edit_GetFileLine macro [Windows Controls], commctrl/Edit_GetFileLine, controls.edit_getfileline
 ms.topic: macro
+f1_keywords: ["commctrl/Edit_GetFileLine"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

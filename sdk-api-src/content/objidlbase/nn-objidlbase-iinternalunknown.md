@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
 ms.topic: interface
+f1_keywords: ["objidlbase/IInternalUnknown"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

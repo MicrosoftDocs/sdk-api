@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], IChangeUnitListFilterInfo interface [Windows Sync],described, winsync.ichangeunitlistfilterinfo, winsync/IChangeUnitListFilterInfo
 ms.topic: interface
+f1_keywords: ["winsync/IChangeUnitListFilterInfo"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

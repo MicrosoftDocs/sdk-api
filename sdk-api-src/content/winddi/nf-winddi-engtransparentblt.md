@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt
 ms.topic: function
+f1_keywords: ["winddi/EngTransparentBlt"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

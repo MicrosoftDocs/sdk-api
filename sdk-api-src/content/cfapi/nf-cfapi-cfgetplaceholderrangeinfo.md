@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderRangeInfo, CfGetPlaceholderRangeInfo function, cfapi/CfGetPlaceholderRangeInfo, cloudApi.cfgetplaceholderrangeinfo
 ms.topic: function
+f1_keywords: ["cfapi/CfGetPlaceholderRangeInfo"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SUBLANGID, SUBLANGID macro [Internationalization for Windows Applications], _win32_SUBLANGID, intl.sublangid, winnt/SUBLANGID
 ms.topic: macro
+f1_keywords: ["winnt/SUBLANGID"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

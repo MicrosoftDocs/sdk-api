@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILFindLastID, ILFindLastID function [Windows Shell], _win32_ILFindLastID, shell.ILFindLastID, shlobj_core/ILFindLastID
 ms.topic: function
+f1_keywords: ["shlobj_core/ILFindLastID"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

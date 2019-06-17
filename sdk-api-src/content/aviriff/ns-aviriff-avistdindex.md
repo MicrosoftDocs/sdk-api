@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVISTDINDEX, AVISTDINDEX structure [DirectShow], PAVISTDINDEX, PAVISTDINDEX structure pointer [DirectShow], aviriff/AVISTDINDEX, aviriff/PAVISTDINDEX, dshow.avistdindex
 ms.topic: struct
+f1_keywords: ["aviriff/AVISTDINDEX"]
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Reset method, IEnumTfRanges.Reset, IEnumTfRanges::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_reset_ref, msctf/IEnumTfRanges::Reset, tsf.ienumtfranges_reset
 ms.topic: method
+f1_keywords: ["msctf/IEnumTfRanges.Reset"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

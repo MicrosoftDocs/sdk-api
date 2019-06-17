@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_TRANSFER_OUT, IOCTL_GENERICUSBFN_TRANSFER_OUT control, IOCTL_GENERICUSBFN_TRANSFER_OUT control code [Buses], buses.ioctl_genericusbfn_transfer_out, genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_OUT
 ms.topic: ioctl
+f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_TRANSFER_OUT"]
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

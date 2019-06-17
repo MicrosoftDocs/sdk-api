@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAuditRead, NetAuditRead function [Network Management], _win32_netauditread, lmaudit/NetAuditRead, netmgmt.netauditread
 ms.topic: function
+f1_keywords: ["lmaudit/NetAuditRead"]
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows

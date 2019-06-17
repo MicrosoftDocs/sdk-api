@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TARGET_CHECKED_OUT, TARGET_DOWN, TARGET_HIBERNATED, TARGET_INITIALIZING, TARGET_RUNNING, TARGET_STATE, TARGET_STATE enumeration [Remote Desktop Services], TARGET_STOPPED, TARGET_UNKNOWN, sessdirpublictypes/TARGET_CHECKED_OUT, sessdirpublictypes/TARGET_DOWN, sessdirpublictypes/TARGET_HIBERNATED, sessdirpublictypes/TARGET_INITIALIZING, sessdirpublictypes/TARGET_RUNNING, sessdirpublictypes/TARGET_STATE, sessdirpublictypes/TARGET_STOPPED, sessdirpublictypes/TARGET_UNKNOWN, termserv.target_state
 ms.topic: enum
+f1_keywords: ["sessdirpublictypes/TARGET_STATE"]
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

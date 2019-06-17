@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPISharingSession interface, ApplicationFilter property [RDP],IRDPSRAPISharingSession2 interface, ApplicationFilter property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],ApplicationFilter property, IRDPSRAPISharingSession.ApplicationFilter, IRDPSRAPISharingSession.get_ApplicationFilter, IRDPSRAPISharingSession2 interface [RDP],ApplicationFilter property, IRDPSRAPISharingSession2.ApplicationFilter, IRDPSRAPISharingSession2::ApplicationFilter, IRDPSRAPISharingSession2::get_ApplicationFilter, IRDPSRAPISharingSession::get_ApplicationFilter, RDPSession object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapisharingsession_applicationfilter, rdpencomapi/IRDPSRAPISharingSession2::ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession2::get_ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession::ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession::get_ApplicationFilter
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPISharingSession2.ApplicationFilter"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

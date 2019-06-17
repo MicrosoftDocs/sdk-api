@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Repair method, INetDiagHelper.Repair, INetDiagHelper::Repair, Repair, Repair method [NDF], Repair method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_repair, ndhelper/INetDiagHelper::Repair
 ms.topic: method
+f1_keywords: ["ndhelper/INetDiagHelper.Repair"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

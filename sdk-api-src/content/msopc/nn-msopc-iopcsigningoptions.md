@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions, IOpcSigningOptions interface [Open Packaging Conventions], IOpcSigningOptions interface [Open Packaging Conventions],described, msopc/IOpcSigningOptions, opc.iopcsigningoptions
 ms.topic: interface
+f1_keywords: ["msopc/IOpcSigningOptions"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

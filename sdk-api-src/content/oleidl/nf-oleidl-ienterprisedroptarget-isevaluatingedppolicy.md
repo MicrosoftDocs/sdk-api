@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],IsEvaluatingEdpPolicy method, IEnterpriseDropTarget.IsEvaluatingEdpPolicy, IEnterpriseDropTarget::IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy, IsEvaluatingEdpPolicy method [COM], IsEvaluatingEdpPolicy method [COM],IEnterpriseDropTarget interface, com.isevaluatingedppolicy_isevaluatingedppolicy, com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync, oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy
 ms.topic: method
+f1_keywords: ["oleidl/IEnterpriseDropTarget.IsEvaluatingEdpPolicy"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

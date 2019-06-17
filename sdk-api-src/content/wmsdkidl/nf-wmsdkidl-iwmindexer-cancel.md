@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [windows Media Format], Cancel method [windows Media Format],IWMIndexer interface, IWMIndexer interface [windows Media Format],Cancel method, IWMIndexer.Cancel, IWMIndexer::Cancel, IWMIndexerCancel, wmformat.iwmindexer_cancel, wmsdkidl/IWMIndexer::Cancel
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMIndexer.Cancel"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

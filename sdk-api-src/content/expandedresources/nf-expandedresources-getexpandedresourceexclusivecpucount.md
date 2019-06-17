@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
 ms.topic: function
+f1_keywords: ["expandedresources/GetExpandedResourceExclusiveCpuCount"]
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows

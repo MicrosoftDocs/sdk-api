@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE, CLUSTER_SHARED_VOLUME_STATE enumeration [Failover Cluster], SharedVolumeStateActive, SharedVolumeStatePaused, SharedVolumeStateUnavailable, clusapi/CLUSTER_SHARED_VOLUME_STATE, clusapi/SharedVolumeStateActive, clusapi/SharedVolumeStatePaused, clusapi/SharedVolumeStateUnavailable, mscs.cluster_shared_volume_state"
 ms.topic: enum
+f1_keywords: ["clusapi/CLUSTER_SHARED_VOLUME_STATE"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

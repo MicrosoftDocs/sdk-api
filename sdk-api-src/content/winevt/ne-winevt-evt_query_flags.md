@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_QUERY_FLAGS, EVT_QUERY_FLAGS enumeration [EventLog], EvtQueryChannelPath, EvtQueryFilePath, EvtQueryForwardDirection, EvtQueryReverseDirection, EvtQueryTolerateQueryErrors, wes.evt_query_flags, winevt/EVT_QUERY_FLAGS, winevt/EvtQueryChannelPath, winevt/EvtQueryFilePath, winevt/EvtQueryForwardDirection, winevt/EvtQueryReverseDirection, winevt/EvtQueryTolerateQueryErrors
 ms.topic: enum
+f1_keywords: ["winevt/EVT_QUERY_FLAGS"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

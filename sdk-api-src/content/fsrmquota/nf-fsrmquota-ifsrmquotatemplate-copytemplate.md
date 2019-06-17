@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyTemplate, CopyTemplate method [File Server Resource Manager], CopyTemplate method [File Server Resource Manager],IFsrmQuotaTemplate interface, IFsrmQuotaTemplate interface [File Server Resource Manager],CopyTemplate method, IFsrmQuotaTemplate.CopyTemplate, IFsrmQuotaTemplate::CopyTemplate, fs.ifsrmquotatemplate_copytemplate, fsrm.ifsrmquotatemplate_copytemplate, fsrmquota/IFsrmQuotaTemplate::CopyTemplate
 ms.topic: method
+f1_keywords: ["fsrmquota/IFsrmQuotaTemplate.CopyTemplate"]
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSCOPEDATAITEM, LPSCOPEDATAITEM, LPSCOPEDATAITEM structure pointer [MMC], SCOPEDATAITEM, SCOPEDATAITEM structure [MMC], SDI_CHILDREN, SDI_FIRST, SDI_IMAGE, SDI_NEXT, SDI_OPENIMAGE, SDI_PARAM, SDI_PARENT, SDI_PREVIOUS, SDI_STATE, SDI_STR, _slate_scopedataitem, mmc.scopedataitem, mmc/LPSCOPEDATAITEM, mmc/SCOPEDATAITEM"
 ms.topic: struct
+f1_keywords: ["mmc/SCOPEDATAITEM"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

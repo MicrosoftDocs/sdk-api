@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem interface [PLA],ValueMapType property, IValueMapItem.ValueMapType, IValueMapItem.get_ValueMapType, IValueMapItem::ValueMapType, IValueMapItem::get_ValueMapType, IValueMapItem::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMapItem interface, base.ivaluemapitem_valuemaptype, get_ValueMapType, pla.ivaluemapitem_valuemaptype, pla/IValueMapItem::ValueMapType, pla/IValueMapItem::get_ValueMapType, pla/IValueMapItem::put_ValueMapType
 ms.topic: method
+f1_keywords: ["pla/IValueMapItem.ValueMapType"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

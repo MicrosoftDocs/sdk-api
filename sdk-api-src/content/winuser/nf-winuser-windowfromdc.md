@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowFromDC, WindowFromDC function [Windows GDI], _win32_WindowFromDC, gdi.windowfromdc, winuser/WindowFromDC
 ms.topic: function
+f1_keywords: ["winuser/WindowFromDC"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

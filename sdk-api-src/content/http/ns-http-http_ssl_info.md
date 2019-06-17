@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_SSL_INFO, HTTP_SSL_INFO, HTTP_SSL_INFO structure [HTTP], PHTTP_SSL_INFO, PHTTP_SSL_INFO structure pointer [HTTP], _http_http_ssl_info, http.http_ssl_info, http/HTTP_SSL_INFO, http/PHTTP_SSL_INFO"
 ms.topic: struct
+f1_keywords: ["http/HTTP_SSL_INFO"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

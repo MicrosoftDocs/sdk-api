@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], IEnumerableView interface [Windows Shell],described, _shell_IEnumerableView, shell.IEnumerableView, shobjidl/IEnumerableView
 ms.topic: interface
+f1_keywords: ["shobjidl/IEnumerableView"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

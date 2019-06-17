@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComTransaction2Events, IComTransaction2Events interface [COM+], IComTransaction2Events interface [COM+],described, _dtc_icomtransaction2events, comsvcs/IComTransaction2Events, cos.icomtransaction2events
 ms.topic: interface
+f1_keywords: ["comsvcs/IComTransaction2Events"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

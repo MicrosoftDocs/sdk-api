@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL_CHANGER_MOVE_MEDIUM control code, _win32_ioctl_changer_move_medium, base.ioctl_changer_move_medium, winioctl/IOCTL_CHANGER_MOVE_MEDIUM
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_CHANGER_MOVE_MEDIUM"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
 ms.topic: interface
+f1_keywords: ["storageprovider/IStorageProviderPropertyHandler"]
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows

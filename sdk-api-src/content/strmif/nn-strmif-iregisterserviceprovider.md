@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], IRegisterServiceProvider interface [DirectShow],described, IRegisterServiceProviderInterface, dshow.iregisterserviceprovider, strmif/IRegisterServiceProvider
 ms.topic: interface
+f1_keywords: ["strmif/IRegisterServiceProvider"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

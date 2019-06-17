@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3183fc89-b12c-d245-312b-a06f19ecd6de, CreateHullShader, CreateHullShader method [Direct3D 11], CreateHullShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateHullShader method, ID3D11Device.CreateHullShader, ID3D11Device::CreateHullShader, d3d11/ID3D11Device::CreateHullShader, direct3d11.id3d11device_createhullshader
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11Device.CreateHullShader"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

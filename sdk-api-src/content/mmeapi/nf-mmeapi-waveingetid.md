@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_waveInGetID, mmeapi/waveInGetID, multimedia.waveingetid, waveInGetID, waveInGetID function [Windows Multimedia]"
 ms.topic: function
+f1_keywords: ["mmeapi/waveInGetID"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

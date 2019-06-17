@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Reset method, IProviderPropertyConstraintCollection.Reset, IProviderPropertyConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset, ncd.iproviderpropertyconstraintcollection_reset
 ms.topic: method
+f1_keywords: ["functiondiscoveryprovider/IProviderPropertyConstraintCollection.Reset"]
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

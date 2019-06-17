@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AMRESCTL_RESERVEFLAGS, AMRESCTL_RESERVEFLAGSEnumeration, AMRESCTL_RESERVEFLAGS_RESERVE, AMRESCTL_RESERVEFLAGS_UNRESERVE, _AMRESCTL_RESERVEFLAGS, _AMRESCTL_RESERVEFLAGS enumeration [DirectShow], dshow.amresctl_reserveflags, strmif/AMRESCTL_RESERVEFLAGS_RESERVE, strmif/AMRESCTL_RESERVEFLAGS_UNRESERVE, strmif/_AMRESCTL_RESERVEFLAGS
 ms.topic: enum
+f1_keywords: ["strmif/_AMRESCTL_RESERVEFLAGS"]
 req.header: strmif.h
 req.include-header: DShow.h
 req.target-type: Windows

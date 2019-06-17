@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpContextToStr, SnmpContextToStr function [SNMP], _snmp_snmpcontexttostr, snmp.snmpcontexttostr, winsnmp/SnmpContextToStr
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpContextToStr"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

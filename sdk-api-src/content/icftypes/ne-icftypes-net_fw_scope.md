@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_FW_SCOPE, NET_FW_SCOPE enumeration [ICS/ICF], NET_FW_SCOPE_ALL, NET_FW_SCOPE_CUSTOM, NET_FW_SCOPE_LOCAL_SUBNET, NET_FW_SCOPE_MAX, icftypes/NET_FW_SCOPE, icftypes/NET_FW_SCOPE_ALL, icftypes/NET_FW_SCOPE_CUSTOM, icftypes/NET_FW_SCOPE_LOCAL_SUBNET, icftypes/NET_FW_SCOPE_MAX, ics.net_fw_scope
 ms.topic: enum
+f1_keywords: ["icftypes/NET_FW_SCOPE"]
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows

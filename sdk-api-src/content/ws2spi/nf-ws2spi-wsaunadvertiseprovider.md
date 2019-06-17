@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAUnadvertiseProvider, WSAUnadvertiseProvider function [Winsock], winsock.wsaunadvertiseprovider, ws2spi/WSAUnadvertiseProvider
 ms.topic: function
+f1_keywords: ["ws2spi/WSAUnadvertiseProvider"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

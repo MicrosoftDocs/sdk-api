@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRichEditUiaInformation, IRichEditUiaInformation interface [Windows Controls], IRichEditUiaInformation interface [Windows Controls],described, controls.irichedituiainformation, textserv/IRichEditUiaInformation
 ms.topic: interface
+f1_keywords: ["textserv/IRichEditUiaInformation"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

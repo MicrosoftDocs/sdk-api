@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SEARCH_INFO_TYPE, DHCP_SEARCH_INFO_TYPE, DHCP_SEARCH_INFO_TYPE enumeration [DHCP], DhcpClientHardwareAddress, DhcpClientIpAddress, DhcpClientName, LPDHCP_SEARCH_INFO_TYPE, LPDHCP_SEARCH_INFO_TYPE enumeration pointer [DHCP], dhcp.dhcp_search_info_type, dhcpsapi/DHCP_SEARCH_INFO_TYPE, dhcpsapi/DhcpClientHardwareAddress, dhcpsapi/DhcpClientIpAddress, dhcpsapi/DhcpClientName, dhcpsapi/LPDHCP_SEARCH_INFO_TYPE"
 ms.topic: enum
+f1_keywords: ["dhcpsapi/DHCP_SEARCH_INFO_TYPE"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

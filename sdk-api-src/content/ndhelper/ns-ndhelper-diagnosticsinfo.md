@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDiagnosticsInfo, DiagnosticsInfo, DiagnosticsInfo structure [NDF], DiagnosticsInfo,*PDiagnosticsInfo, DiagnosticsInfo,*PDiagnosticsInfo structure [NDF], ndf.diagnosticsinfo, ndhelper/DiagnosticsInfo"
 ms.topic: struct
+f1_keywords: ["ndhelper/DiagnosticsInfo, *PDiagnosticsInfo"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

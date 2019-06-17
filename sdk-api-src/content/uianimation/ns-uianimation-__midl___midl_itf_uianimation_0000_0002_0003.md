@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME, UI_ANIMATION_KEYFRAME structure [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0002_0003, uianimation.ui_animation_keyframe, uianimation/UI_ANIMATION_KEYFRAME"
 ms.topic: struct
+f1_keywords: ["uianimation/UI_ANIMATION_KEYFRAME"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

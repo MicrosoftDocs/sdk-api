@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IkeextSaEnum2, IkeextSaEnum2 function [Filtering], fwp.ikeextsaenum2, fwpmu/IkeextSaEnum2
 ms.topic: function
+f1_keywords: ["fwpmu/IkeextSaEnum2"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

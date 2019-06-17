@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSecurityInfo, SetSecurityInfo function [Security], _win32_setsecurityinfo, aclapi/SetSecurityInfo, security.setsecurityinfo
 ms.topic: function
+f1_keywords: ["aclapi/SetSecurityInfo"]
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

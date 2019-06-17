@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
 ms.topic: function
+f1_keywords: ["winsafer/SaferiIsExecutableFileType"]
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvEnableDriver, DrvEnableDriver function [Display Devices], ddifncs_ceb25289-afd3-447e-85e7-d89fa95aebd4.xml, display.drvenabledriver, winddi/DrvEnableDriver
 ms.topic: function
+f1_keywords: ["winddi/DrvEnableDriver"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

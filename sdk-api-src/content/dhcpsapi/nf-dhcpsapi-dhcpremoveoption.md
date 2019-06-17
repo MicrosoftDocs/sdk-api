@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpRemoveOption"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

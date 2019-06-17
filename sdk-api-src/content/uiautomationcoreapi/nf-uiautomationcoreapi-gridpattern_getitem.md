@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GridPattern_GetItem, GridPattern_GetItem function [Windows Accessibility], uiauto.uiauto_GridPattern_GetItemConPat, uiauto_GridPattern_GetItemConPat, uiautomationcoreapi/GridPattern_GetItem, winauto.uiauto_GridPattern_GetItemConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/GridPattern_GetItem"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

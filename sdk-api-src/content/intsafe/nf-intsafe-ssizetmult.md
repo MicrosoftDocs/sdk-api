@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SSIZETMult, SSIZETMult function [Windows Shell], intsafe/SSIZETMult, shell.SSIZETMult
 ms.topic: function
+f1_keywords: ["intsafe/SSIZETMult"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

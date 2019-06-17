@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnSetFocus method, ITfKeyEventSink.OnSetFocus, ITfKeyEventSink::OnSetFocus, OnSetFocus, OnSetFocus method [Text Services Framework], OnSetFocus method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_onsetfocus_ref, msctf/ITfKeyEventSink::OnSetFocus, tsf.itfkeyeventsink_onsetfocus
 ms.topic: method
+f1_keywords: ["msctf/ITfKeyEventSink.OnSetFocus"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
 ms.topic: function
+f1_keywords: ["winsock2/WSAAccept"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

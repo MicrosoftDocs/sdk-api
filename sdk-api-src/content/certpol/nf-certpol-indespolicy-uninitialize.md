@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],Uninitialize method, INDESPolicy.Uninitialize, INDESPolicy::Uninitialize, Uninitialize, Uninitialize method [Security], Uninitialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Uninitialize, security.indespolicy_uninitialize
 ms.topic: method
+f1_keywords: ["certpol/INDESPolicy.Uninitialize"]
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows

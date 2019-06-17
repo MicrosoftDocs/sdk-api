@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeIpForwardEntry, InitializeIpForwardEntry function [IP Helper], iphlp.initializeipforwardentry, netioapi/InitializeIpForwardEntry
 ms.topic: function
+f1_keywords: ["netioapi/InitializeIpForwardEntry"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

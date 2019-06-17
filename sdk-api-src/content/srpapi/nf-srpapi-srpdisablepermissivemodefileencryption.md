@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveModeFileEncryption, SrpDisablePermissiveModeFileEncryption , SrpDisablePermissiveModeFileEncryption function, srpapi/SrpDisablePermissiveModeFileEncryption
 ms.topic: function
+f1_keywords: ["srpapi/SrpDisablePermissiveModeFileEncryption"]
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows

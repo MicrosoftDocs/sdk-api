@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVALENTW, PVALENT, PVALENT structure pointer, VALENT, VALENT structure, VALENTA, VALENTW, _win32_valent_str, base.valent_str, winreg/PVALENT, winreg/VALENT, winreg/VALENTA, winreg/VALENTW"
 ms.topic: struct
+f1_keywords: ["winreg/VALENT"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPNTMS_NOTIFICATIONINFORMATION, LPNTMS_NOTIFICATIONINFORMATION, LPNTMS_NOTIFICATIONINFORMATION structure pointer [Files], NTMS_NOTIFICATIONINFORMATION, NTMS_NOTIFICATIONINFORMATION structure [Files], NTMS_OBJ_DELETE, NTMS_OBJ_INSERT, NTMS_OBJ_UPDATE, _zaw_ntms_notificationinformation, base.ntms_notificationinformation, fs.ntms_notificationinformation, ntmsapi/LPNTMS_NOTIFICATIONINFORMATION, ntmsapi/NTMS_NOTIFICATIONINFORMATION"
 ms.topic: struct
+f1_keywords: ["ntmsapi/NTMS_NOTIFICATIONINFORMATION"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Existing property [Security], Existing property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],Existing property, ICertSrvSetupKeyInformation.Existing, ICertSrvSetupKeyInformation.get_Existing, ICertSrvSetupKeyInformation::Existing, ICertSrvSetupKeyInformation::get_Existing, ICertSrvSetupKeyInformation::put_Existing, casetup/ICertSrvSetupKeyInformation::Existing, casetup/ICertSrvSetupKeyInformation::get_Existing, casetup/ICertSrvSetupKeyInformation::put_Existing, get_Existing, security.icertsrvsetupkeyinformation_existing
 ms.topic: method
+f1_keywords: ["casetup/ICertSrvSetupKeyInformation.Existing"]
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows

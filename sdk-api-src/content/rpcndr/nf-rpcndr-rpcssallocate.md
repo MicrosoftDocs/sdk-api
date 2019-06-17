@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsAllocate, RpcSsAllocate function [RPC], _rpc_rpcssallocate, rpc.rpcssallocate, rpcndr/RpcSsAllocate
 ms.topic: function
+f1_keywords: ["rpcndr/RpcSsAllocate"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

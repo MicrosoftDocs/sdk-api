@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem interface [Windows Shell],described, shell.IInsertItem, shell_IInsertItem, shobjidl/IInsertItem
 ms.topic: interface
+f1_keywords: ["shobjidl/IInsertItem"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

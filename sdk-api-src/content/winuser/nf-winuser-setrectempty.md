@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetRectEmpty, SetRectEmpty function [Windows GDI], _win32_SetRectEmpty, gdi.setrectempty, winuser/SetRectEmpty
 ms.topic: function
+f1_keywords: ["winuser/SetRectEmpty"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

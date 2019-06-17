@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_DEV_BROADCAST_USERDEFINED, _DEV_BROADCAST_USERDEFINED structure, _win32__dev_broadcast_userdefined_str, base._dev_broadcast_userdefined_str, dbt/_DEV_BROADCAST_USERDEFINED"
 ms.topic: struct
+f1_keywords: ["dbt/_DEV_BROADCAST_USERDEFINED"]
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

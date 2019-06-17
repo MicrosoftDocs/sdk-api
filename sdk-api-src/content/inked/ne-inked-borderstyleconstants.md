@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0bb4ff9b-3024-4563-a654-5bc9ed8e0520, BorderStyleConstants, BorderStyleConstants enumeration [Tablet PC], inked/BorderStyleConstants, inked/rtfFixedSingle, inked/rtfNoBorder, rtfFixedSingle, rtfNoBorder, tablet.borderstyleconstants
 ms.topic: enum
+f1_keywords: ["inked/BorderStyleConstants"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

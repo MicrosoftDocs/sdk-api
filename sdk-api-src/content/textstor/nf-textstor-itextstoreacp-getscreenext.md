@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetScreenExt, GetScreenExt method [Text Services Framework], GetScreenExt method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetScreenExt method, ITextStoreACP.GetScreenExt, ITextStoreACP::GetScreenExt, _tsf_itextstoreacp_getscreenext_ref, textstor/ITextStoreACP::GetScreenExt, tsf.itextstoreacp_getscreenext
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreACP.GetScreenExt"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceProperties, GetPointerDeviceProperties function, input_pointerdevice.getpointerdeviceproperties, unifiedinputstack.getpointerdeviceproperties, winuser/GetPointerDeviceProperties
 ms.topic: function
+f1_keywords: ["winuser/GetPointerDeviceProperties"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

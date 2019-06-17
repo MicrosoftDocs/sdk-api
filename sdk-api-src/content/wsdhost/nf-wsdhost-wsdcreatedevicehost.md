@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDeviceHost, WSDCreateDeviceHost function, ncd.wsdcreatedevicehost, wsdhost/WSDCreateDeviceHost
 ms.topic: function
+f1_keywords: ["wsdhost/WSDCreateDeviceHost"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

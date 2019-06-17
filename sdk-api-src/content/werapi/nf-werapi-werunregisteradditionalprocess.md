@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterAdditionalProcess, WerUnregisterAdditionalProcess function [Windows Error Reporting], wer.werunregisteradditionalprocess, werapi/WerUnregisterAdditionalProcess
 ms.topic: function
+f1_keywords: ["werapi/WerUnregisterAdditionalProcess"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

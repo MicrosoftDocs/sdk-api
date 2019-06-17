@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func
 ms.topic: function
+f1_keywords: ["ntsecapi/AuditQueryPerUserPolicy"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

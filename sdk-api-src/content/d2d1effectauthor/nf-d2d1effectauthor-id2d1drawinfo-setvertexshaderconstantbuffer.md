@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1DrawInfo interface [Direct2D],SetVertexShaderConstantBuffer method, ID2D1DrawInfo.SetVertexShaderConstantBuffer, ID2D1DrawInfo::SetVertexShaderConstantBuffer, SetVertexShaderConstantBuffer, SetVertexShaderConstantBuffer method [Direct2D], SetVertexShaderConstantBuffer method [Direct2D],ID2D1DrawInfo interface, d2d1effectauthor/ID2D1DrawInfo::SetVertexShaderConstantBuffer, direct2d.id2d1drawinfo_setvertexshaderconstantbuffer
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1DrawInfo.SetVertexShaderConstantBuffer"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

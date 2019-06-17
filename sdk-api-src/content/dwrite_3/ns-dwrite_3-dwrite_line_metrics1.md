@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
 ms.topic: struct
+f1_keywords: ["dwrite_3/DWRITE_LINE_METRICS1"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

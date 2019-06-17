@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_CONTEXT_CALLBACK0, IPSEC_SA_CONTEXT_CALLBACK0 callback, IPSEC_SA_CONTEXT_CALLBACK0 callback function [Filtering], fwp.ipsec_sa_context_callback0, fwpmu/IPSEC_SA_CONTEXT_CALLBACK0
 ms.topic: callback
+f1_keywords: ["fwpmu/IPSEC_SA_CONTEXT_CALLBACK0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SOAPUDP_URL, WS_SOAPUDP_URL structure [Web Services for Windows], webservices/WS_SOAPUDP_URL, wsw.ws_soapudp_url
 ms.topic: struct
+f1_keywords: ["webservices/WS_SOAPUDP_URL"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

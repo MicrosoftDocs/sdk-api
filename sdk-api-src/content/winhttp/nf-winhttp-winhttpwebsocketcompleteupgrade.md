@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade function [WinHTTP], http.winhttpwebsocketcompleteupgrade, winhttp/WinHttpWebSocketCompleteUpgrade
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpWebSocketCompleteUpgrade"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

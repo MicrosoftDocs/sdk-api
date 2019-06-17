@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcEpUnregister, RpcEpUnregister function [RPC], _rpc_rpcepunregister, rpc.rpcepunregister, rpcdce/RpcEpUnregister
 ms.topic: function
+f1_keywords: ["rpcdce/RpcEpUnregister"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

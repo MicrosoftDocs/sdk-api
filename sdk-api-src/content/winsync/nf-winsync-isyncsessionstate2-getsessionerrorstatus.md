@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSessionErrorStatus, GetSessionErrorStatus method [Windows Sync], GetSessionErrorStatus method [Windows Sync],ISyncSessionState2 interface, ISyncSessionState2 interface [Windows Sync],GetSessionErrorStatus method, ISyncSessionState2.GetSessionErrorStatus, ISyncSessionState2::GetSessionErrorStatus, winsync.isyncsessionstate2_getsessionerrorstatus, winsync/ISyncSessionState2::GetSessionErrorStatus
 ms.topic: method
+f1_keywords: ["winsync/ISyncSessionState2.GetSessionErrorStatus"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferFile, WdsCliTransferFile function [Windows Deployment Services], wds.wdsclitransferfile, wdsclientapi/WdsCliTransferFile
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliTransferFile"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

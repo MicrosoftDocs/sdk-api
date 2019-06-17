@@ -4,6 +4,7 @@ title: CHOOSECOLORW
 ms.date: 01/30/19
 ms.keywords: tagCHOOSECOLORW, CHOOSECOLORW
 ms.topic: language-reference
+f1_keywords: ["commdlg/tagCHOOSECOLORW"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

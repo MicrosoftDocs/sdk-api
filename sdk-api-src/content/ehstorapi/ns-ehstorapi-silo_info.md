@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSILO_INFO, PSILO_INFO structure pointer [Enhanced Storage], SILO_INFO, SILO_INFO structure [Enhanced Storage], ehstorapi/PSILO_INFO, ehstorapi/SILO_INFO, enstor.silo_info
 ms.topic: struct
+f1_keywords: ["ehstorapi/SILO_INFO"]
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

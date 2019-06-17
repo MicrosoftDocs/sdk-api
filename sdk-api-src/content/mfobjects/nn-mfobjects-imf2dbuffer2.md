@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2, IMF2DBuffer2 interface [Media Foundation], IMF2DBuffer2 interface [Media Foundation],described, mf.imf2dbuffer2, mfobjects/IMF2DBuffer2
 ms.topic: interface
+f1_keywords: ["mfobjects/IMF2DBuffer2"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

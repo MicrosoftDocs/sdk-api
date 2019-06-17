@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],IsEnded method, IMFMediaEngine.IsEnded, IMFMediaEngine::IsEnded, IsEnded, IsEnded method [Media Foundation], IsEnded method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_isended, mfmediaengine/IMFMediaEngine::IsEnded
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.IsEnded"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

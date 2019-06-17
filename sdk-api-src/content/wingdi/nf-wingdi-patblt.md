@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BLACKNESS, DSTINVERT, PATCOPY, PATINVERT, PatBlt, PatBlt function [Windows GDI], WHITENESS, _win32_PatBlt, gdi.patblt, wingdi/PatBlt
 ms.topic: function
+f1_keywords: ["wingdi/PatBlt"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCredential, AddCredential callback function [Security], LSA_ADD_CREDENTIAL, LSA_ADD_CREDENTIAL callback, _lsa_addcredential, ntsecpkg/AddCredential, security.addcredential
 ms.topic: callback
+f1_keywords: ["ntsecpkg/AddCredential"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

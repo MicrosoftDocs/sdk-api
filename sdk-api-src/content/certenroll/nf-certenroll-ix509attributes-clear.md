@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Attributes interface, IX509Attributes interface [Security],Clear method, IX509Attributes.Clear, IX509Attributes::Clear, certenroll/IX509Attributes::Clear, security.ix509attributes_clear_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509Attributes.Clear"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

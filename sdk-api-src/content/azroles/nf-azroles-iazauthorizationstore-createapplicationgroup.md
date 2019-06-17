@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],CreateApplicationGroup method, CreateApplicationGroup, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security],AzAuthorizationStore object, CreateApplicationGroup method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],CreateApplicationGroup method, IAzAuthorizationStore.CreateApplicationGroup, IAzAuthorizationStore::CreateApplicationGroup, azroles/IAzAuthorizationStore::CreateApplicationGroup, security.azauthorizationstore_createapplicationgroup
 ms.topic: method
+f1_keywords: ["azroles/AzAuthorizationStore.CreateApplicationGroup"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

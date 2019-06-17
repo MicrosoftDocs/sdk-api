@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingChannel, TraceLoggingChannel macro, tracelogging.traceloggingchannel, traceloggingprovider/TraceLoggingChannel
 ms.topic: macro
+f1_keywords: ["traceloggingprovider/TraceLoggingChannel"]
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

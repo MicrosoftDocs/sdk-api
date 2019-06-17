@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
 ms.topic: function
+f1_keywords: ["winddi/CLIPOBJ_bEnum"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

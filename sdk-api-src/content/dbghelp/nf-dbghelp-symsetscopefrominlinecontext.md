@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromInlineContext, SymSetScopeFromInlineContext function, base.symsetscopefrominlinecontext, dbghelp/SymSetScopeFromInlineContext
 ms.topic: function
+f1_keywords: ["dbghelp/SymSetScopeFromInlineContext"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

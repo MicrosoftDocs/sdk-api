@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumberOfInterfaces, GetNumberOfInterfaces function [IP Helper], _iphlp_getnumberofinterfaces, iphlp.getnumberofinterfaces, iphlpapi/GetNumberOfInterfaces
 ms.topic: function
+f1_keywords: ["iphlpapi/GetNumberOfInterfaces"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

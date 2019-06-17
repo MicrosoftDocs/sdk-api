@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSTerminateProcess, WTSTerminateProcess function [Remote Desktop Services], _win32_wtsterminateprocess, termserv.wtsterminateprocess, wtsapi32/WTSTerminateProcess
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSTerminateProcess"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

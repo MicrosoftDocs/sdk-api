@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContainingGrid property [Windows Accessibility], ContainingGrid property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],ContainingGrid property, IGridItemProvider.ContainingGrid, IGridItemProvider.get_ContainingGrid, IGridItemProvider::ContainingGrid, IGridItemProvider::get_ContainingGrid, get_ContainingGrid, uiauto.uiauto_IGridItemProvider_ContainingGrid, uiauto_IGridItemProvider_ContainingGrid, uiautomationcore/IGridItemProvider::ContainingGrid, uiautomationcore/IGridItemProvider::get_ContainingGrid, winauto.uiauto_IGridItemProvider_ContainingGrid
 ms.topic: method
+f1_keywords: ["uiautomationcore/IGridItemProvider.ContainingGrid"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

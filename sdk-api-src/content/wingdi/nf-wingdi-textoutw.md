@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32_TextOut, gdi.textout, wingdi/TextOut, wingdi/TextOutA, wingdi/TextOutW
 ms.topic: function
+f1_keywords: ["wingdi/TextOut"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

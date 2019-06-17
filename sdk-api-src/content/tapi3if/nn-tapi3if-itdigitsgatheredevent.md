@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], ITDigitsGatheredEvent interface [TAPI 2.2],described, _tapi3_itdigitsgatheredevent, tapi3.itdigitsgatheredevent, tapi3if/ITDigitsGatheredEvent
 ms.topic: interface
+f1_keywords: ["tapi3if/ITDigitsGatheredEvent"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

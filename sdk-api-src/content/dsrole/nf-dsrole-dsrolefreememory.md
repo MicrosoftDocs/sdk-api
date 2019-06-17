@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory
 ms.topic: function
+f1_keywords: ["dsrole/DsRoleFreeMemory"]
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows

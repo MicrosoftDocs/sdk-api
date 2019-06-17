@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpAddUrlToUrlGroup, HttpAddUrlToUrlGroup function [HTTP], http.httpaddurltourlgroup, http/HttpAddUrlToUrlGroup
 ms.topic: function
+f1_keywords: ["http/HttpAddUrlToUrlGroup"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

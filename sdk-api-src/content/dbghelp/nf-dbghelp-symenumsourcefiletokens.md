@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymEnumSourceFileTokens, SymEnumSourceFileTokens function, base.symenumsourcefiletokens, dbghelp/SymEnumSourceFileTokens
 ms.topic: function
+f1_keywords: ["dbghelp/SymEnumSourceFileTokens"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

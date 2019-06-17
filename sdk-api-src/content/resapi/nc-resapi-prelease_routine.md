@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
 ms.topic: callback
+f1_keywords: ["resapi/Release"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

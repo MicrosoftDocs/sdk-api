@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, 4, MakeSignature, MakeSignature function [Security], _ssp_makesignature, security.makesignature, sspi/MakeSignature
 ms.topic: function
+f1_keywords: ["sspi/MakeSignature"]
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

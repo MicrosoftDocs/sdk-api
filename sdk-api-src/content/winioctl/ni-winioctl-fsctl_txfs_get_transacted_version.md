@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_TRANSACTED_VERSION, FSCTL_TXFS_GET_TRANSACTED_VERSION control, FSCTL_TXFS_GET_TRANSACTED_VERSION control code [Files], fs.fsctl_txfs_get_transacted_version, winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_TXFS_GET_TRANSACTED_VERSION"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

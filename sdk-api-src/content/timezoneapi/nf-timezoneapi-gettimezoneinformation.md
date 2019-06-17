@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTimeZoneInformation, GetTimeZoneInformation function, _win32_gettimezoneinformation, base.gettimezoneinformation, timezoneapi/GetTimeZoneInformation
 ms.topic: function
+f1_keywords: ["timezoneapi/GetTimeZoneInformation"]
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], processthreadsapi/GetCurrentThreadToken, security.getcurrentthreadtoken
 ms.topic: function
+f1_keywords: ["processthreadsapi/GetCurrentThreadToken"]
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

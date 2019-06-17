@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPattern, GetPattern method [Legacy Windows Environment Features], GetPattern method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetPattern method, IActiveDesktop.GetPattern, IActiveDesktop::GetPattern, _win32_IActiveDesktop_GetPattern, lwef.iactivedesktop_getpattern, shell.iactivedesktop_getpattern, shlobj_core/IActiveDesktop::GetPattern
 ms.topic: method
+f1_keywords: ["shlobj_core/IActiveDesktop.GetPattern"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

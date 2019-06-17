@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmDisableTextFrameService, ImmDisableTextFrameService function [Internationalization for Windows Applications], _win32_ImmDisableTextFrameService, imm/ImmDisableTextFrameService, intl.immdisabletextframeservice
 ms.topic: function
+f1_keywords: ["imm/ImmDisableTextFrameService"]
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

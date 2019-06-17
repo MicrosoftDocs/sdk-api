@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater
 ms.topic: function
+f1_keywords: ["versionhelpers/IsWindows8Point1OrGreater"]
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows

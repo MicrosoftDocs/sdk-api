@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextSelection interface [Windows Controls],MoveRight method, ITextSelection.MoveRight, ITextSelection::MoveRight, MoveRight, MoveRight method [Windows Controls], MoveRight method [Windows Controls],ITextSelection interface, _win32_ITextSelection_MoveRight, _win32_ITextSelection_MoveRight_cpp, controls.ITextSelection_MoveRight, controls._win32_ITextSelection_MoveRight, tom/ITextSelection::MoveRight
 ms.topic: method
+f1_keywords: ["tom/ITextSelection.MoveRight"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

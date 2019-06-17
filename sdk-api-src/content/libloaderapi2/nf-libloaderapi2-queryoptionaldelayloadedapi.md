@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
 ms.topic: function
+f1_keywords: ["libloaderapi2/QueryOptionalDelayLoadedAPI"]
 req.header: libloaderapi2.h
 req.include-header: 
 req.target-type: Windows

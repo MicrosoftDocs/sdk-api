@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
 ms.topic: interface
+f1_keywords: ["pla/IScheduleCollection"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ldap_ber_free, ber_free, ber_free function [LDAP], ldap.ber__free, ldap.ber_free, winber/ber_free"
 ms.topic: function
+f1_keywords: ["winber/ber_free"]
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows

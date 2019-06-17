@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 39b9f8a0-fb26-4f46-98fd-b4636f8f88c7, GetNextPacket, GetNextPacket method [Media Foundation], GetNextPacket method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetNextPacket method, IMFASFMultiplexer.GetNextPacket, IMFASFMultiplexer::GetNextPacket, mf.imfasfmultiplexer_getnextpacket, wmcontainer/IMFASFMultiplexer::GetNextPacket
 ms.topic: method
+f1_keywords: ["wmcontainer/IMFASFMultiplexer.GetNextPacket"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlUnwind2, RtlUnwind2 function, base.rtlunwind2, winnt/RtlUnwind2
 ms.topic: function
+f1_keywords: ["winnt/RtlUnwind2"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

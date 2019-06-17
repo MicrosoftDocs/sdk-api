@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeNumberFromHandle, GetNumaNodeNumberFromHandle function, base.getnumanodenumberfromhandle, winbase/GetNumaNodeNumberFromHandle
 ms.topic: function
+f1_keywords: ["winbase/GetNumaNodeNumberFromHandle"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolStackInformation, SetThreadpoolStackInformation function, base.setthreadpoolstackinformation, threadpoolapiset/SetThreadpoolStackInformation, winbase/SetThreadpoolStackInformation
 ms.topic: function
+f1_keywords: ["threadpoolapiset/SetThreadpoolStackInformation"]
 req.header: threadpoolapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Reset method, IEnumPins.Reset, IEnumPins::Reset, IEnumPinsReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPins interface, dshow.ienumpins_reset, strmif/IEnumPins::Reset
 ms.topic: method
+f1_keywords: ["strmif/IEnumPins.Reset"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

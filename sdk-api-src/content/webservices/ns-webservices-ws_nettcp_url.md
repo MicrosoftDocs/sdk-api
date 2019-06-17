@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_NETTCP_URL, WS_NETTCP_URL structure [Web Services for Windows], webservices/WS_NETTCP_URL, wsw.ws_nettcp_url
 ms.topic: struct
+f1_keywords: ["webservices/WS_NETTCP_URL"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

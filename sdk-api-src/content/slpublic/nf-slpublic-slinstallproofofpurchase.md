@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLInstallProofOfPurchase, SLInstallProofOfPurchase function [Security], security.slinstallproofofpurchase, slpublic/SLInstallProofOfPurchase
 ms.topic: function
+f1_keywords: ["slpublic/SLInstallProofOfPurchase"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientTouchPointer, termserv.iremotedesktopclienttouchpointer
 ms.topic: interface
+f1_keywords: ["rdpappcontainerclient/IRemoteDesktopClientTouchPointer"]
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows

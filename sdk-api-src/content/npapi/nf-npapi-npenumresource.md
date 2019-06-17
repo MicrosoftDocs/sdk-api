@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPEnumResource, NPEnumResource function [Security], _mnp_npenumresource, npapi/NPEnumResource, security.npenumresource
 ms.topic: function
+f1_keywords: ["npapi/NPEnumResource"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

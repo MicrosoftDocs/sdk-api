@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies, IX509ExtensionMSApplicationPolicies interface [Security], IX509ExtensionMSApplicationPolicies interface [Security],described, certenroll/IX509ExtensionMSApplicationPolicies, security.ix509extensionmsapplicationpolicies
 ms.topic: interface
+f1_keywords: ["certenroll/IX509ExtensionMSApplicationPolicies"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoInitialize, CoInitialize function [COM], _com_CoInitialize, com.coinitialize, objbase/CoInitialize
 ms.topic: function
+f1_keywords: ["objbase/CoInitialize"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

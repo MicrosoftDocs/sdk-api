@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0ab6054e-eb96-2ef2-67bb-a8b5918e7fee, CreateTexture, CreateTexture method [Direct3D 9], CreateTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateTexture method, IDirect3DDevice9.CreateTexture, IDirect3DDevice9::CreateTexture, d3d9helper/IDirect3DDevice9::CreateTexture, direct3d9.idirect3ddevice9__createtexture
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.CreateTexture"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

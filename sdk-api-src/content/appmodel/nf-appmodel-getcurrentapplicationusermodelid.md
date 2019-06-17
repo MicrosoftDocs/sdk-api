@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
 ms.topic: function
+f1_keywords: ["appmodel/GetCurrentApplicationUserModelId"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

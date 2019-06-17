@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMShareable, IXpsOMShareable interface [XPS Documents and Packaging], IXpsOMShareable interface [XPS Documents and Packaging],described, xps.ixpsomshareable, xpsobjectmodel/IXpsOMShareable
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMShareable"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPX_FOOTPRINT_FILE_TYPE, APPX_FOOTPRINT_FILE_TYPE enumeration [App packaging and management], APPX_FOOTPRINT_FILE_TYPE_BLOCKMAP, APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY, APPX_FOOTPRINT_FILE_TYPE_CONTENTGROUPMAP, APPX_FOOTPRINT_FILE_TYPE_MANIFEST, APPX_FOOTPRINT_FILE_TYPE_SIGNATURE, appxpackaging/APPX_FOOTPRINT_FILE_TYPE, appxpackaging/APPX_FOOTPRINT_FILE_TYPE_BLOCKMAP, appxpackaging/APPX_FOOTPRINT_FILE_TYPE_CODEINTEGRITY, appxpackaging/APPX_FOOTPRINT_FILE_TYPE_CONTENTGROUPMAP, appxpackaging/APPX_FOOTPRINT_FILE_TYPE_MANIFEST, appxpackaging/APPX_FOOTPRINT_FILE_TYPE_SIGNATURE, appxpkg.appx_footprint_file_type
 ms.topic: enum
+f1_keywords: ["appxpackaging/APPX_FOOTPRINT_FILE_TYPE"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

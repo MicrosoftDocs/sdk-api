@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INodeProperties, INodeProperties interface [MMC], INodeProperties interface [MMC],described, _slate_inodeproperties, mmc.inodeproperties, mmc/INodeProperties
 ms.topic: interface
+f1_keywords: ["mmc/INodeProperties"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefViewFrame, IDefViewFrame interface [Windows Shell], IDefViewFrame interface [Windows Shell],described, _win32_IDefViewFrame, shell.IDefViewFrame, shlobj/IDefViewFrame
 ms.topic: interface
+f1_keywords: ["shlobj/IDefViewFrame"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

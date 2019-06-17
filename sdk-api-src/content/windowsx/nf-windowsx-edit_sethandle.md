@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetHandle, Edit_SetHandle macro [Windows Controls], _win32_Edit_SetHandle, _win32_Edit_SetHandle_cpp, controls.Edit_SetHandle, controls._win32_Edit_SetHandle, windowsx/Edit_SetHandle
 ms.topic: macro
+f1_keywords: ["windowsx/Edit_SetHandle"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

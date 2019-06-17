@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Count method, IFsiNamedStreams.get_Count, IFsiNamedStreams::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_count, imapi2fs/IFsiNamedStreams::get_Count
 ms.topic: method
+f1_keywords: ["imapi2fs/IFsiNamedStreams.get_Count"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10_MAPPED_TEXTURE2D, D3D10_MAPPED_TEXTURE2D structure [Direct3D 10], a2002d27-1e59-abab-3507-86a1666a3405, d3d10/D3D10_MAPPED_TEXTURE2D, direct3d10.d3d10_mapped_texture2d
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_MAPPED_TEXTURE2D"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

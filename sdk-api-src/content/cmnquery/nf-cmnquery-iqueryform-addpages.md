@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPages, AddPages method [Active Directory], AddPages method [Active Directory],IQueryForm interface, IQueryForm interface [Active Directory],AddPages method, IQueryForm.AddPages, IQueryForm::AddPages, _glines_iqueryform_addpages, ad.iqueryform__addpages, ad.iqueryform_addpages, cmnquery/IQueryForm::AddPages
 ms.topic: method
+f1_keywords: ["cmnquery/IQueryForm.AddPages"]
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusBase, GdiplusBase class [GDI+], GdiplusBase class [GDI+],described, _gdiplus_CLASS_GdiplusBase_Class, gdiplus._gdiplus_CLASS_GdiplusBase_Class, gdiplusbase/GdiplusBase
 ms.topic: class
+f1_keywords: ["gdiplusbase/GdiplusBase"]
 req.header: gdiplusbase.h
 req.include-header: 
 req.target-type: Windows

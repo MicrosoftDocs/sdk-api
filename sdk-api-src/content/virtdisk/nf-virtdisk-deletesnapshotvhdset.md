@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshotVhdSet, DeleteSnapshotVhdSet function [VHD], vdssys/DeleteSnapshotVhdSet, vhd.deletesnapshotvhdset, virtdisk/DeleteSnapshotVhdSet
 ms.topic: function
+f1_keywords: ["virtdisk/DeleteSnapshotVhdSet"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

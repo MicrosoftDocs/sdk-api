@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Legacy Windows Environment Features], Deactivate method [Legacy Windows Environment Features],IEmptyVolumeCache interface, EVCF_REMOVEFROMLIST, IEmptyVolumeCache interface [Legacy Windows Environment Features],Deactivate method, IEmptyVolumeCache.Deactivate, IEmptyVolumeCache::Deactivate, _win32_IEmptyVolumeCache_Deactivate, emptyvc/IEmptyVolumeCache::Deactivate, lwef.iemptyvolumecache_deactivate, shell.iemptyvolumecache_deactivate
 ms.topic: method
+f1_keywords: ["emptyvc/IEmptyVolumeCache.Deactivate"]
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

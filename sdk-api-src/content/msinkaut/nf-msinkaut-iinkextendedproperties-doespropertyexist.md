@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 285d6ce3-f7f9-48b0-aaa2-d9ff8db732eb, DoesPropertyExist, DoesPropertyExist method [Tablet PC], DoesPropertyExist method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],DoesPropertyExist method, IInkExtendedProperties.DoesPropertyExist, IInkExtendedProperties::DoesPropertyExist, msinkaut/IInkExtendedProperties::DoesPropertyExist, tablet.iinkextendedproperties_doespropertyexist
 ms.topic: method
+f1_keywords: ["msinkaut/IInkExtendedProperties.DoesPropertyExist"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

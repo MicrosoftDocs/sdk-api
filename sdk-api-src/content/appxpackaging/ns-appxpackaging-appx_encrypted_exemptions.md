@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPX_ENCRYPTED_EXEMPTIONS, APPX_ENCRYPTED_EXEMPTIONS structure [App packaging and management], PAPPX_ENCRYPTED_EXEMPTIONS, PAPPX_ENCRYPTED_EXEMPTIONS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_EXEMPTIONS, appxpackaging/PAPPX_ENCRYPTED_EXEMPTIONS, appxpkg.appx_encrypted_exemptions
 ms.topic: struct
+f1_keywords: ["appxpackaging/APPX_ENCRYPTED_EXEMPTIONS"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

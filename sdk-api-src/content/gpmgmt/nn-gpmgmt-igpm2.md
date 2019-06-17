@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGPM2, IGPM2 interface [GPMC], IGPM2 interface [GPMC],described, gpmc.igpm2, gpmgmt/IGPM2
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPM2"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

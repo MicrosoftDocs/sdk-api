@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDNS_WINS_DATA, DNS_WINS_DATA, DNS_WINS_DATA structure [DNS], DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINS_DATA, PDNS_WINS_DATA structure pointer [DNS], _dns_dns_wins_data, dns.dns_wins_data, windns/DNS_WINS_DATA, windns/PDNS_WINS_DATA"
 ms.topic: struct
+f1_keywords: ["windns/DNS_WINS_DATA"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

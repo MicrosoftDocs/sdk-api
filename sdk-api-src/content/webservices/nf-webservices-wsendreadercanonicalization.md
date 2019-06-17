@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsEndReaderCanonicalization, WsEndReaderCanonicalization function [Web Services for Windows], webservices/WsEndReaderCanonicalization, wsw.wsendreadercanonicalization
 ms.topic: function
+f1_keywords: ["webservices/WsEndReaderCanonicalization"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

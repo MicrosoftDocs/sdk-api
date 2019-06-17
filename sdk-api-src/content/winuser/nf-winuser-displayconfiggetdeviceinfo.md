@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
 ms.topic: function
+f1_keywords: ["winuser/DisplayConfigGetDeviceInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

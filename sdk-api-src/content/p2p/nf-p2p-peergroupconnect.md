@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupConnect, PeerGroupConnect function [Peer Networking], p2p.peergroupconnect, p2p/PeerGroupConnect
 ms.topic: function
+f1_keywords: ["p2p/PeerGroupConnect"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

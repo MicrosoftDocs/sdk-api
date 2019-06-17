@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HT_Get8BPPMaskPalette, HT_Get8BPPMaskPalette function [Display Devices], display.ht_get8bppmaskpalette, gdifncs_5d4e6366-f721-442d-9666-12cadfef89b9.xml, winddi/HT_Get8BPPMaskPalette
 ms.topic: function
+f1_keywords: ["winddi/HT_Get8BPPMaskPalette"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

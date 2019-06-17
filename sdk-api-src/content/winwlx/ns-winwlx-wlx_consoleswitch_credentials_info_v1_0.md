@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, LOGON_EXTRA_SIDS, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure [Security], _gina_wlx_consoleswitch_credentials_info_v1_0, security.wlx_consoleswitch_credentials_info_v1_0, winwlx/PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0"
 ms.topic: struct
+f1_keywords: ["winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

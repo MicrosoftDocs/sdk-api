@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSignature method, IXblIdpAuthTokenResult.GetSignature, IXblIdpAuthTokenResult::GetSignature, xblidp.ixblidpauthtokenresult_getsignature, xblidpauthmanager/IXblIdpAuthTokenResult::GetSignature
 ms.topic: method
+f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetSignature"]
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MWT_IDENTITY, MWT_LEFTMULTIPLY, MWT_RIGHTMULTIPLY, ModifyWorldTransform, ModifyWorldTransform function [Windows GDI], _win32_ModifyWorldTransform, gdi.modifyworldtransform, wingdi/ModifyWorldTransform
 ms.topic: function
+f1_keywords: ["wingdi/ModifyWorldTransform"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

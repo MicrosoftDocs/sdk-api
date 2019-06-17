@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENGSAFESEMAPHORE, ENGSAFESEMAPHORE structure [Display Devices], display.engsafesemaphore, grstrcts_63b165c2-5032-4dcb-9039-562a38f24cc4.xml, winddi/ENGSAFESEMAPHORE
 ms.topic: struct
+f1_keywords: ["winddi/ENGSAFESEMAPHORE"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

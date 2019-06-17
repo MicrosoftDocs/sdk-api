@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: K32QueryWorkingSet, QueryWorkingSet, QueryWorkingSet function [PSAPI], _win32_queryworkingset, base.queryworkingset, psapi.queryworkingset, psapi/K32QueryWorkingSet, psapi/QueryWorkingSet
 ms.topic: function
+f1_keywords: ["psapi/QueryWorkingSet"]
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

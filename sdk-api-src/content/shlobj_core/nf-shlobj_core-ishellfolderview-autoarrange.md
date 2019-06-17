@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoArrange, AutoArrange method [Windows Shell], AutoArrange method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],AutoArrange method, IShellFolderView.AutoArrange, IShellFolderView::AutoArrange, _shell_IShellFolderView_AutoArrange, shell.IShellFolderView_AutoArrange, shlobj_core/IShellFolderView::AutoArrange
 ms.topic: method
+f1_keywords: ["shlobj_core/IShellFolderView.AutoArrange"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

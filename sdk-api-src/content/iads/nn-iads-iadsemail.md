@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
 ms.topic: interface
+f1_keywords: ["iads/IADsEmail"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

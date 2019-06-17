@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VBS_ENCLAVE_REPORT_MODULE, VBS_ENCLAVE_REPORT_MODULE structure, base.vbs_enclave_report_module, ntenclv/VBS_ENCLAVE_REPORT_MODULE
 ms.topic: struct
+f1_keywords: ["ntenclv/VBS_ENCLAVE_REPORT_MODULE"]
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

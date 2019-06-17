@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 33425e5b-2ba0-4026-ab19-33579e7bb9f5, CustomStrokes property [Tablet PC], CustomStrokes property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CustomStrokes property, IInkDisp.CustomStrokes, IInkDisp.get_CustomStrokes, IInkDisp::CustomStrokes, IInkDisp::get_CustomStrokes, InkDisp.get_CustomStrokes, get_CustomStrokes, msinkaut/IInkDisp::CustomStrokes, msinkaut/IInkDisp::get_CustomStrokes, tablet.inkdisp_customstrokes
 ms.topic: method
+f1_keywords: ["msinkaut/IInkDisp.CustomStrokes"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

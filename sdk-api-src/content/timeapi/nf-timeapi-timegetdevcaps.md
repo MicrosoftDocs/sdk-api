@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_timeGetDevCaps, mmsystem/timeGetDevCaps, multimedia.timegetdevcaps, timeGetDevCaps, timeGetDevCaps function [Windows Multimedia], timeapi/timeGetDevCaps"
 ms.topic: function
+f1_keywords: ["timeapi/timeGetDevCaps"]
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

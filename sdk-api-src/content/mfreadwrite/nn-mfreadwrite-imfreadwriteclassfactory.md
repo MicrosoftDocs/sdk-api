@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFReadWriteClassFactory, IMFReadWriteClassFactory interface [Media Foundation], IMFReadWriteClassFactory interface [Media Foundation],described, mf.imfreadwriteclassfactory, mfreadwrite/IMFReadWriteClassFactory
 ms.topic: interface
+f1_keywords: ["mfreadwrite/IMFReadWriteClassFactory"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

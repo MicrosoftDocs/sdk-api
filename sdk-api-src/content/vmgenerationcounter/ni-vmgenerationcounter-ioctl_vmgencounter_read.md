@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_VMGENCOUNTER_READ, IOCTL_VMGENCOUNTER_READ control, IOCTL_VMGENCOUNTER_READ control code, hyperv.ioctl_vmgencounter_read, vmgenerationcounter/IOCTL_VMGENCOUNTER_READ
 ms.topic: ioctl
+f1_keywords: ["vmgenerationcounter/IOCTL_VMGENCOUNTER_READ"]
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows

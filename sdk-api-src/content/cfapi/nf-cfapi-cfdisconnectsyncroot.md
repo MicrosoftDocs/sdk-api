@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfDisconnectSyncRoot, CfDisconnectSyncRoot function, cfapi/CfDisconnectSyncRoot, cloudApi.cfdisconnectsyncroot
 ms.topic: function
+f1_keywords: ["cfapi/CfDisconnectSyncRoot"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

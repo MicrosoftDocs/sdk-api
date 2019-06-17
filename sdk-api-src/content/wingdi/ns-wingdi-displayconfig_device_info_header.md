@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_b17380bb-3894-4832-bbe6-97c40607d366.xml, DISPLAYCONFIG_DEVICE_INFO_HEADER, DISPLAYCONFIG_DEVICE_INFO_HEADER structure [Display Devices], display.displayconfig_device_info_header, wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER
 ms.topic: struct
+f1_keywords: ["wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PIMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_CHILDREN, IMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_PARAMS structure, IMAGEHLP_GET_TYPE_INFO_UNCACHED, PIMAGEHLP_GET_TYPE_INFO_PARAMS, PIMAGEHLP_GET_TYPE_INFO_PARAMS structure pointer, _IMAGEHLP_GET_TYPE_INFO_PARAMS, base.imagehlp_get_type_info_params_str, dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS, dbghelp/PIMAGEHLP_GET_TYPE_INFO_PARAMS"
 ms.topic: struct
+f1_keywords: ["dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

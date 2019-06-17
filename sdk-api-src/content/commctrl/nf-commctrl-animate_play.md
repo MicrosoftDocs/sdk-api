@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Animate_Play, Animate_Play macro [Windows Controls], _win32_Animate_Play, _win32_Animate_Play_cpp, commctrl/Animate_Play, controls.Animate_Play, controls._win32_Animate_Play
 ms.topic: macro
+f1_keywords: ["commctrl/Animate_Play"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

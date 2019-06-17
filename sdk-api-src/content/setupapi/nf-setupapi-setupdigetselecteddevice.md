@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetSelectedDevice, SetupDiGetSelectedDevice function [Device and Driver Installation], devinst.setupdigetselecteddevice, di-rtns_c28297c0-dcc3-4bfa-9448-46ec7e9ac3a0.xml, setupapi/SetupDiGetSelectedDevice
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiGetSelectedDevice"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateUtilityInstance, CreateUtilityInstance method [NDF], CreateUtilityInstance method [NDF],INetDiagHelperUtilFactory interface, INetDiagHelperUtilFactory interface [NDF],CreateUtilityInstance method, INetDiagHelperUtilFactory.CreateUtilityInstance, INetDiagHelperUtilFactory::CreateUtilityInstance, ndf.inetdiaghelperutilfactory_createutilityinstance, ndhelper/INetDiagHelperUtilFactory::CreateUtilityInstance
 ms.topic: method
+f1_keywords: ["ndhelper/INetDiagHelperUtilFactory.CreateUtilityInstance"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

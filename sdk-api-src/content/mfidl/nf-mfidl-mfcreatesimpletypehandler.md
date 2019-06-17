@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 441bd03d-b314-4f26-ad67-e6997e5edc9d, MFCreateSimpleTypeHandler, MFCreateSimpleTypeHandler function [Media Foundation], mf.mfcreatesimpletypehandler, mfidl/MFCreateSimpleTypeHandler
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateSimpleTypeHandler"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

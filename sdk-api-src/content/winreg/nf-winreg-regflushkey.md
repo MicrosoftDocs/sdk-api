@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflushkey, winreg/RegFlushKey
 ms.topic: function
+f1_keywords: ["winreg/RegFlushKey"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

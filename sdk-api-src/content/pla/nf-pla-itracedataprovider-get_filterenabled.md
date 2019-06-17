@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterEnabled property [PLA], FilterEnabled property [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],FilterEnabled property, ITraceDataProvider.FilterEnabled, ITraceDataProvider.get_FilterEnabled, ITraceDataProvider::FilterEnabled, ITraceDataProvider::get_FilterEnabled, ITraceDataProvider::put_FilterEnabled, get_FilterEnabled, pla.itracedataprovider_filterenabled, pla/ITraceDataProvider::FilterEnabled, pla/ITraceDataProvider::get_FilterEnabled, pla/ITraceDataProvider::put_FilterEnabled
 ms.topic: method
+f1_keywords: ["pla/ITraceDataProvider.FilterEnabled"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

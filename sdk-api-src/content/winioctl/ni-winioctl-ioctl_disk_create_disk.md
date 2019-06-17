@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control, IOCTL_DISK_CREATE_DISK control code [Files], _win32_ioctl_disk_create_disk, base.ioctl_disk_create_disk, fs.ioctl_disk_create_disk, winioctl/IOCTL_DISK_CREATE_DISK
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_DISK_CREATE_DISK"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Skip method, IEnumWbemClassObject.Skip, IEnumWbemClassObject::Skip, Skip, Skip method [Windows Management Instrumentation], Skip method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_skip, wbemcli/IEnumWbemClassObject::Skip, wmi.ienumwbemclassobject_skip
 ms.topic: method
+f1_keywords: ["wbemcli/IEnumWbemClassObject.Skip"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

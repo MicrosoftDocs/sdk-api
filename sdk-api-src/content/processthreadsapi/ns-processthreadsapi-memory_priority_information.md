@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_INFORMATION, MEMORY_PRIORITY_INFORMATION structure, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, PMEMORY_PRIORITY_INFORMATION, PMEMORY_PRIORITY_INFORMATION structure pointer, _MEMORY_PRIORITY_INFORMATION, base.memory_priority_information, processthreadsapi/MEMORY_PRIORITY_INFORMATION, processthreadsapi/PMEMORY_PRIORITY_INFORMATION"
 ms.topic: struct
+f1_keywords: ["processthreadsapi/MEMORY_PRIORITY_INFORMATION"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

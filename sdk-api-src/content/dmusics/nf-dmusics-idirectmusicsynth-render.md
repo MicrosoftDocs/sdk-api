@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],Render method, IDirectMusicSynth.Render, IDirectMusicSynth::Render, Render, Render method [Audio Devices], Render method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_render, audmp-routines_fd2bebe8-7170-4222-b465-b1a9799abf8e.xml, dmusics/IDirectMusicSynth::Render
 ms.topic: method
+f1_keywords: ["dmusics/IDirectMusicSynth.Render"]
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_MPEGSYSTEMTYPE, AM_MPEGSYSTEMTYPE structure [DirectShow], dshow.am_mpegsystemtype, mpegtype/AM_MPEGSYSTEMTYPE
 ms.topic: struct
+f1_keywords: ["mpegtype/AM_MPEGSYSTEMTYPE"]
 req.header: mpegtype.h
 req.include-header: Dshow.h
 req.target-type: Windows

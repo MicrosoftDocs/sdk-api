@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Brush class [GDI+],GetType method, Brush.GetType, Brush::GetType, GetType, GetType method [GDI+], GetType method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetType_, gdiplus._gdiplus_CLASS_Brush_GetType_
 ms.topic: method
+f1_keywords: ["gdiplusbrush/Brush.GetType"]
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

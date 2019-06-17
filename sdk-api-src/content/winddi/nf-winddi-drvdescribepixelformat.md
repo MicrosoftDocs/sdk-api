@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDescribePixelFormat, DrvDescribePixelFormat function [Display Devices], ddifncs_ad08e90b-a4e1-43e3-bbd7-8476d1c5568b.xml, display.drvdescribepixelformat, winddi/DrvDescribePixelFormat
 ms.topic: function
+f1_keywords: ["winddi/DrvDescribePixelFormat"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

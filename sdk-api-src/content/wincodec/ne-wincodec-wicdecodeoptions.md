@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICDecodeMetadataCacheOnDemand, WICDecodeMetadataCacheOnLoad, WICDecodeOptions, WICDecodeOptions enumeration [Windows Imaging Component], _wic_codec_wicdecodeoptions, wic._wic_codec_wicdecodeoptions, wincodec/WICDecodeMetadataCacheOnDemand, wincodec/WICDecodeMetadataCacheOnLoad, wincodec/WICDecodeOptions
 ms.topic: enum
+f1_keywords: ["wincodec/WICDecodeOptions"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

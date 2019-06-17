@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], IWMDRMTranscryptor interface [windows Media Format],described, IWMDRMTranscryptorInterface, wmformat.iwmdrmtranscryptor, wmsdkidl/IWMDRMTranscryptor
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMDRMTranscryptor"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

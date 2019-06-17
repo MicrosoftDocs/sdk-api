@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SetSel, Edit_SetSel macro [Windows Controls], _win32_Edit_SetSel, _win32_Edit_SetSel_cpp, controls.Edit_SetSel, controls._win32_Edit_SetSel, windowsx/Edit_SetSel
 ms.topic: macro
+f1_keywords: ["windowsx/Edit_SetSel"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfPublishedName, SetupGetInfPublishedName function [Device and Driver Installation], SetupGetInfPublishedNameA, SetupGetInfPublishedNameW, devinst.setupgetinfpublishedname, setup-ref_c380d9fc-bc1c-4302-ba2b-b0bb7fde8d87.xml, setupapi/SetupGetInfPublishedName
 ms.topic: function
+f1_keywords: ["setupapi/SetupGetInfPublishedName"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

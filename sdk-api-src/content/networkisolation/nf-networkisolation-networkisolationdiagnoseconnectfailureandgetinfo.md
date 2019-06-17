@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
 ms.topic: function
+f1_keywords: ["networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo"]
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExecutionOption property [File Server Resource Manager], ExecutionOption property [File Server Resource Manager],IFsrmClassificationRule interface, IFsrmClassificationRule interface [File Server Resource Manager],ExecutionOption property, IFsrmClassificationRule.ExecutionOption, IFsrmClassificationRule.put_ExecutionOption, IFsrmClassificationRule::ExecutionOption, IFsrmClassificationRule::get_ExecutionOption, IFsrmClassificationRule::put_ExecutionOption, fs.ifsrmclassificationrule_executionoption, fsrm.ifsrmclassificationrule_executionoption, fsrmpipeline/IFsrmClassificationRule::ExecutionOption, fsrmpipeline/IFsrmClassificationRule::get_ExecutionOption, fsrmpipeline/IFsrmClassificationRule::put_ExecutionOption, put_ExecutionOption
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmClassificationRule.ExecutionOption"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

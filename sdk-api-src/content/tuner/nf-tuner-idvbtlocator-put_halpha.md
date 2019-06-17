@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_HAlpha method, IDVBTLocator.put_HAlpha, IDVBTLocator::put_HAlpha, IDVBTLocatorput_HAlpha, mstv.idvbtlocator_put_halpha, put_HAlpha, put_HAlpha method [Microsoft TV Technologies], put_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_HAlpha
 ms.topic: method
+f1_keywords: ["tuner/IDVBTLocator.put_HAlpha"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

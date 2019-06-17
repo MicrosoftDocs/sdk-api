@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_mixerOpen, mixerOpen, mixerOpen function [Windows Multimedia], mmeapi/mixerOpen, multimedia.mixeropen"
 ms.topic: function
+f1_keywords: ["mmeapi/mixerOpen"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRepairInfoEx, PRepairInfoEx, PRepairInfoEx structure pointer [NDF], RepairInfoEx, RepairInfoEx structure [NDF], ndattrib/PRepairInfoEx, ndattrib/RepairInfoEx, ndf.repairinfoex"
 ms.topic: struct
+f1_keywords: ["ndattrib/RepairInfoEx"]
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

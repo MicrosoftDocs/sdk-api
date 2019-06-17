@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [COM], Description property [COM],IEventPublisher interface, IEventPublisher interface [COM],Description property, IEventPublisher.Description, IEventPublisher.get_Description, IEventPublisher::Description, IEventPublisher::get_Description, IEventPublisher::put_Description, _com_ieventpublisher_description, com.ieventpublisher_description, eventsys/IEventPublisher::Description, eventsys/IEventPublisher::get_Description, eventsys/IEventPublisher::put_Description, get_Description
 ms.topic: method
+f1_keywords: ["eventsys/IEventPublisher.Description"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

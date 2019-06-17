@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
 ms.topic: macro
+f1_keywords: ["wingdi/GetGValue"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

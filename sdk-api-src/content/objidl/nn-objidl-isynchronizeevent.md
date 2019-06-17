@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
 ms.topic: interface
+f1_keywords: ["objidl/ISynchronizeEvent"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

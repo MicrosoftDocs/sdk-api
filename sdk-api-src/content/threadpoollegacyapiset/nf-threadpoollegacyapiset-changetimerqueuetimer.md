@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ChangeTimerQueueTimer, ChangeTimerQueueTimer function, _win32_changetimerqueuetimer, base.changetimerqueuetimer, threadpoollegacyapiset/ChangeTimerQueueTimer, winbase/ChangeTimerQueueTimer
 ms.topic: function
+f1_keywords: ["threadpoollegacyapiset/ChangeTimerQueueTimer"]
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_VOICE_STATE, XAUDIO2_VOICE_STATE structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_state, xaudio2/XAUDIO2_VOICE_STATE
 ms.topic: struct
+f1_keywords: ["xaudio2/XAUDIO2_VOICE_STATE"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

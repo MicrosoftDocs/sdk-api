@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMComparisonAllInBounds, XMComparisonAllInBounds, XMComparisonAllInBounds method [DirectX Math Support APIs], dxmath.xmcomparisonallinbounds
 ms.topic: function
+f1_keywords: ["directxmath/XMComparisonAllInBounds"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

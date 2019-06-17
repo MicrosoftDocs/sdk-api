@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyFromUI8, VarCyFromUI8 function [Automation], _oa96_VarCyFromUI8, automat.varcyfromui8, oleauto/VarCyFromUI8
 ms.topic: function
+f1_keywords: ["oleauto/VarCyFromUI8"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

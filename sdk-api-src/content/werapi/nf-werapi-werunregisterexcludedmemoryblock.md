@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterExcludedMemoryBlock, WerUnregisterExcludedMemoryBlock function [Windows Error Reporting], wer.werunregisterexcludedmemoryblock, werapi/WerUnregisterExcludedMemoryBlock
 ms.topic: function
+f1_keywords: ["werapi/WerUnregisterExcludedMemoryBlock"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

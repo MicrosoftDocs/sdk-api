@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmConnectionEnum0, FwpmConnectionEnum0 function [Filtering], fwp.fwpmconnectionenum0, fwpmu/FwpmConnectionEnum0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmConnectionEnum0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

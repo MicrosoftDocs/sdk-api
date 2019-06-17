@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiShowUpdateDevice, DiShowUpdateDevice function [Device and Driver Installation], devinst.dishowupdatedevice, di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml, newdev/DiShowUpdateDevice
 ms.topic: function
+f1_keywords: ["newdev/DiShowUpdateDevice"]
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

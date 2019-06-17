@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImpersonateLoggedOnUser, ImpersonateLoggedOnUser function [Security], _win32_impersonateloggedonuser, security.impersonateloggedonuser, securitybaseapi/ImpersonateLoggedOnUser
 ms.topic: function
+f1_keywords: ["securitybaseapi/ImpersonateLoggedOnUser"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

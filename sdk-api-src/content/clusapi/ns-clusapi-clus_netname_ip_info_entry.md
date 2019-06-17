@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_ENTRY, PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_ENTRY, clusapi/PCLUS_NETNAME_IP_INFO_ENTRY, mscs.clus_netname_ip_info_entry"
 ms.topic: struct
+f1_keywords: ["clusapi/CLUS_NETNAME_IP_INFO_ENTRY"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

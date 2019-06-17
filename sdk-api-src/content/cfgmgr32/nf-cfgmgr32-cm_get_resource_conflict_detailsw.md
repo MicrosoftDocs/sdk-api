@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Resource_Conflict_Details, CM_Get_Resource_Conflict_Details function [Device and Driver Installation], CM_Get_Resource_Conflict_DetailsW, cfgmgr32/CM_Get_Resource_Conflict_Details, cfgmgr32/CM_Get_Resource_Conflict_DetailsW, cfgmgrfn_c646fbb1-7baa-4429-b3c6-02e2aced8ddc.xml, devinst.cm_get_resource_conflict_details
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Get_Resource_Conflict_Details"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

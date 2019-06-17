@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixRotationZ, XMMatrixRotationZ, XMMatrixRotationZ method [DirectX Math Support APIs], dxmath.xmmatrixrotationz
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixRotationZ"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus, IFaxStatus interface [Fax Service], IFaxStatus interface [Fax Service],described, _mfax_ifaxstatus, fax._mfax_ifaxstatus, faxcom/IFaxStatus
 ms.topic: interface
+f1_keywords: ["faxcom/IFaxStatus"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

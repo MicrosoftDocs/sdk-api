@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterCommitEnrollment, EngineAdapterCommitEnrollment callback function [Windows Biometric Framework API], PIBIO_ENGINE_COMMIT_ENROLLMENT_FN, PIBIO_ENGINE_COMMIT_ENROLLMENT_FN callback, secbiomet.engineadaptercommitenrollment, winbio_adapter/EngineAdapterCommitEnrollment
 ms.topic: callback
+f1_keywords: ["winbio_adapter/EngineAdapterCommitEnrollment"]
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

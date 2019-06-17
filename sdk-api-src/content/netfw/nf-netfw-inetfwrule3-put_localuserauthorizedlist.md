@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwRule3 interface [ICS/ICF],LocalUserAuthorizedList property, INetFwRule3.LocalUserAuthorizedList, INetFwRule3.put_LocalUserAuthorizedList, INetFwRule3::LocalUserAuthorizedList, INetFwRule3::get_LocalUserAuthorizedList, INetFwRule3::put_LocalUserAuthorizedList, LocalUserAuthorizedList property [ICS/ICF], LocalUserAuthorizedList property [ICS/ICF],INetFwRule3 interface, ics.inetfwrule3_localuserauthorizedlist, netfw/INetFwRule3::LocalUserAuthorizedList, netfw/INetFwRule3::get_LocalUserAuthorizedList, netfw/INetFwRule3::put_LocalUserAuthorizedList, put_LocalUserAuthorizedList
 ms.topic: method
+f1_keywords: ["netfw/INetFwRule3.LocalUserAuthorizedList"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

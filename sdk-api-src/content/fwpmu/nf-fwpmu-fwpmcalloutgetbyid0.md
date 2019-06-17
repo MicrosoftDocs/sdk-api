@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutGetById0, FwpmCalloutGetById0 function [Filtering], fwp.fwpmcalloutgetbyid0_func, fwpmu/FwpmCalloutGetById0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmCalloutGetById0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

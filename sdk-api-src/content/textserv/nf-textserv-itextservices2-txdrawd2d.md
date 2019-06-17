@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextServices2 interface [Windows Controls],TxDrawD2D method, ITextServices2.TxDrawD2D, ITextServices2::TxDrawD2D, TXTVIEW_ACTIVE, TXTVIEW_INACTIVE, TxDrawD2D, TxDrawD2D method [Windows Controls], TxDrawD2D method [Windows Controls],ITextServices2 interface, controls.itextservices2_txdrawd2d, textserv/ITextServices2::TxDrawD2D
 ms.topic: method
+f1_keywords: ["textserv/ITextServices2.TxDrawD2D"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

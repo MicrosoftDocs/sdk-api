@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrjFreeAlignedBuffer, PrjFreeAlignedBuffer function, ProjFS.prjfreealignedbuffer, projectedfslib/PrjFreeAlignedBuffer
 ms.topic: function
+f1_keywords: ["projectedfslib/PrjFreeAlignedBuffer"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

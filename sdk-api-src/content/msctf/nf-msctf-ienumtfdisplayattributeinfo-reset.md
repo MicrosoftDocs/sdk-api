@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDisplayAttributeInfo interface [Text Services Framework],Reset method, IEnumTfDisplayAttributeInfo.Reset, IEnumTfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfDisplayAttributeInfo interface, _tsf_ienumtfdisplayattributeinfo_reset_ref, msctf/IEnumTfDisplayAttributeInfo::Reset, tsf.ienumtfdisplayattributeinfo_reset
 ms.topic: method
+f1_keywords: ["msctf/IEnumTfDisplayAttributeInfo.Reset"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

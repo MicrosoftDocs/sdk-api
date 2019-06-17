@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], IMediaEventEx interface [DirectShow],described, IMediaEventExInterface, control/IMediaEventEx, dshow.imediaeventex
 ms.topic: interface
+f1_keywords: ["control/IMediaEventEx"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

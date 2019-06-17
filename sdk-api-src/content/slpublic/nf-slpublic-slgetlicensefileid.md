@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetLicenseFileId, SLGetLicenseFileId function [Security], security.slgetlicensefileid, slpublic/SLGetLicenseFileId
 ms.topic: function
+f1_keywords: ["slpublic/SLGetLicenseFileId"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAGetOverlappedResult, WSAGetOverlappedResult function [Winsock], _win32_wsagetoverlappedresult_2, winsock.wsagetoverlappedresult_2, winsock2/WSAGetOverlappedResult
 ms.topic: function
+f1_keywords: ["winsock2/WSAGetOverlappedResult"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

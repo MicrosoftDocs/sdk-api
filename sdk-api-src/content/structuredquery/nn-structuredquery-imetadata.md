@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMetaData, IMetaData interface [search], IMetaData interface [search],described, _search_IMetaData, search._search_IMetaData, structuredquery/IMetaData
 ms.topic: interface
+f1_keywords: ["structuredquery/IMetaData"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

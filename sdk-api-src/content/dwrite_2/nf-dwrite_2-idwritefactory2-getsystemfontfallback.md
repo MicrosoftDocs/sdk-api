@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemFontFallback, GetSystemFontFallback method [Direct Write], GetSystemFontFallback method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],GetSystemFontFallback method, IDWriteFactory2.GetSystemFontFallback, IDWriteFactory2::GetSystemFontFallback, directwrite.idwritefactory2_getsystemfontfallback, dwrite_2/IDWriteFactory2::GetSystemFontFallback
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteFactory2.GetSystemFontFallback"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorageOnILockBytes, StgOpenStorageOnILockBytes function [Structured Storage], _stg_stgopenstorageonilockbytes, coml2api/StgOpenStorageOnILockBytes, stg.stgopenstorageonilockbytes
 ms.topic: function
+f1_keywords: ["coml2api/StgOpenStorageOnILockBytes"]
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

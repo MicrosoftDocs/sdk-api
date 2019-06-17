@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCancelCreateFile, MFCancelCreateFile function [Media Foundation], b3c0cad8-d578-4752-a2ea-0aa5c35a181a, mf.mfcancelcreatefile, mfapi/MFCancelCreateFile
 ms.topic: function
+f1_keywords: ["mfapi/MFCancelCreateFile"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

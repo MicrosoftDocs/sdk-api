@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Heap32Next, Heap32Next function [ToolHelp], _win32_heap32next, base.heap32next, tlhelp32/Heap32Next, toolhelp.heap32next
 ms.topic: function
+f1_keywords: ["tlhelp32/Heap32Next"]
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows

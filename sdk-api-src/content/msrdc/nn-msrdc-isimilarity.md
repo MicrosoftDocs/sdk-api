@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISimilarity, ISimilarity interface [Remote Differential Compression], ISimilarity interface [Remote Differential Compression],described, fs.isimilarity, msrdc/ISimilarity, rdc.isimilarity
 ms.topic: interface
+f1_keywords: ["msrdc/ISimilarity"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

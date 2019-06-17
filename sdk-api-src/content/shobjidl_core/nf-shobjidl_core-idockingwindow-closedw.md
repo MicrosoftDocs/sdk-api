@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseDW, CloseDW method [Windows Shell], CloseDW method [Windows Shell],IDockingWindow interface, IDockingWindow interface [Windows Shell],CloseDW method, IDockingWindow.CloseDW, IDockingWindow::CloseDW, _win32_IDockingWindow_CloseDW, shell.IDockingWindow_CloseDW, shobjidl_core/IDockingWindow::CloseDW
 ms.topic: method
+f1_keywords: ["shobjidl_core/IDockingWindow.CloseDW"]
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

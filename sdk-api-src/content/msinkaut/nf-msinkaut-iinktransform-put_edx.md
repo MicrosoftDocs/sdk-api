@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],eDx property, IInkTransform.eDx, IInkTransform.put_eDx, IInkTransform::eDx, IInkTransform::get_eDx, IInkTransform::put_eDx, InkTransform.get_eDx, InkTransform.put_eDx, eDx property [Tablet PC], eDx property [Tablet PC],IInkTransform interface, f2e6fabc-4a8a-4225-b518-438e1d0ca196, get_eDx, msinkaut/IInkTransform::eDx, msinkaut/IInkTransform::get_eDx, msinkaut/IInkTransform::put_eDx, put_eDx, tablet.inktransform_edx
 ms.topic: method
+f1_keywords: ["msinkaut/IInkTransform.eDx"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

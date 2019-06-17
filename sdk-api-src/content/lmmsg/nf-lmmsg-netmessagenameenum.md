@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, NetMessageNameEnum, NetMessageNameEnum function [Network Management], _win32_netmessagenameenum, lmmsg/NetMessageNameEnum, netmgmt.netmessagenameenum
 ms.topic: function
+f1_keywords: ["lmmsg/NetMessageNameEnum"]
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

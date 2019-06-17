@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPO_INFO_FLAG_ASYNC_FOREGROUND, GPO_INFO_FLAG_BACKGROUND, GPO_INFO_FLAG_FORCED_REFRESH, GPO_INFO_FLAG_LINKTRANSITION, GPO_INFO_FLAG_LOGRSOP_TRANSITION, GPO_INFO_FLAG_MACHINE, GPO_INFO_FLAG_NOCHANGES, GPO_INFO_FLAG_SAFEMODE_BOOT, GPO_INFO_FLAG_SLOWLINK, GPO_INFO_FLAG_VERBOSE, PFNPROCESSGROUPPOLICY, PFNPROCESSGROUPPOLICY callback, PFNPROCESSGROUPPOLICY callback function [Group Policy], ProcessGroupPolicy, _win32_processgrouppolicy, policy.processgrouppolicy, userenv/PFNPROCESSGROUPPOLICY
 ms.topic: callback
+f1_keywords: ["userenv/PFNPROCESSGROUPPOLICY"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

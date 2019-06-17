@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IPin interface, IPin interface [DirectShow],Disconnect method, IPin.Disconnect, IPin::Disconnect, IPinDisconnect, dshow.ipin_disconnect, strmif/IPin::Disconnect
 ms.topic: method
+f1_keywords: ["strmif/IPin.Disconnect"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

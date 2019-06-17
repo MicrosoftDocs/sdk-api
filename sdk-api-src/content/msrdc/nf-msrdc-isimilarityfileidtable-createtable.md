@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTable, CreateTable method [Remote Differential Compression], CreateTable method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CreateTable method, ISimilarityFileIdTable.CreateTable, ISimilarityFileIdTable::CreateTable, fs.isimilarityfileidtable_createtable, msrdc/ISimilarityFileIdTable::CreateTable, rdc.isimilarityfileidtable_createtable
 ms.topic: method
+f1_keywords: ["msrdc/ISimilarityFileIdTable.CreateTable"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

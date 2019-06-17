@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSerialization, GetSerialization method [Windows Shell], GetSerialization method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetSerialization method, ICredentialProviderCredential.GetSerialization, ICredentialProviderCredential::GetSerialization, credentialprovider/ICredentialProviderCredential::GetSerialization, shell.ICredentialProviderCredential_GetSerialization, shell_ICredentialProviderCredential_GetSerialization
 ms.topic: method
+f1_keywords: ["credentialprovider/ICredentialProviderCredential.GetSerialization"]
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

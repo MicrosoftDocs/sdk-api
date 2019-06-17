@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], IVdsIscsiInitiatorAdapter interface [VDS],described, base.ivdsiscsiinitiatoradapter, vds/IVdsIscsiInitiatorAdapter
 ms.topic: interface
+f1_keywords: ["vds/IVdsIscsiInitiatorAdapter"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

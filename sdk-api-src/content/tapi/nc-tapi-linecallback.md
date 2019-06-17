@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LINECALLBACK, LINECALLBACK callback function [TAPI 2.2], _tapi2_linecallbackfunc, lineCallback callback, tapi/LINECALLBACK, tapi2.linecallbackfunc
 ms.topic: callback
+f1_keywords: ["tapi/LINECALLBACK"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

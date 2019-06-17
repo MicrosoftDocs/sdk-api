@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBroadcastEvent, IBroadcastEvent interface [Microsoft TV Technologies], IBroadcastEvent interface [Microsoft TV Technologies],described, IBroadcastEventInterface, mstv.ibroadcastevent, tuner/IBroadcastEvent
 ms.topic: interface
+f1_keywords: ["tuner/IBroadcastEvent"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

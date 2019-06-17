@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
 ms.topic: interface
+f1_keywords: ["tapi3if/ITBasicAudioTerminal"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

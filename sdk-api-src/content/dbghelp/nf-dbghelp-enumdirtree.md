@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumDirTree, EnumDirTree function, EnumDirTreeW, _win32_enumdirtree, base.enumdirtree, dbghelp/EnumDirTree, dbghelp/EnumDirTreeW
 ms.topic: function
+f1_keywords: ["dbghelp/EnumDirTree"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes
 ms.topic: struct
+f1_keywords: ["strmif/DVD_TitleAttributes"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnIncomingJobRemoved method, IFaxServerNotify2.OnIncomingJobRemoved, IFaxServerNotify2::OnIncomingJobRemoved, OnIncomingJobRemoved, OnIncomingJobRemoved method [Fax Service], OnIncomingJobRemoved method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnIncomingJobRemoved, _IFaxServerNotify2::OnIncomingJobRemoved, _mfax_ifaxservernotify2_onincomingjobremoved, fax._mfax_ifaxservernotify2_onincomingjobremoved, faxcomex/IFaxServerNotify2::OnIncomingJobRemoved
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxServerNotify2.OnIncomingJobRemoved"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

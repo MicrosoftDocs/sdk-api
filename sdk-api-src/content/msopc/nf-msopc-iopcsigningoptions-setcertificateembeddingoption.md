@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetCertificateEmbeddingOption method, IOpcSigningOptions.SetCertificateEmbeddingOption, IOpcSigningOptions::SetCertificateEmbeddingOption, SetCertificateEmbeddingOption, SetCertificateEmbeddingOption method [Open Packaging Conventions], SetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetCertificateEmbeddingOption, opc.iopcsigningoptions_setcertificateembeddingoption
 ms.topic: method
+f1_keywords: ["msopc/IOpcSigningOptions.SetCertificateEmbeddingOption"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

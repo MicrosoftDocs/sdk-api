@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeInstanceFindFirst, FilterVolumeInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_3a784a96-c717-4118-bf97-bba9ac4b7736.xml, fltuser/FilterVolumeInstanceFindFirst, ifsk.filtervolumeinstancefindfirst
 ms.topic: function
+f1_keywords: ["fltuser/FilterVolumeInstanceFindFirst"]
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal

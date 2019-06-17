@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerControl2, IMFVideoMixerControl2 interface [Media Foundation], IMFVideoMixerControl2 interface [Media Foundation],described, evr/IMFVideoMixerControl2, mf.imfvideomixercontrol2
 ms.topic: interface
+f1_keywords: ["evr/IMFVideoMixerControl2"]
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

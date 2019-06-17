@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetOptions"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

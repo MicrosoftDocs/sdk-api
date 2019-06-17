@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip.SetBottomRightRadiusY, IDCompositionRectangleClip::SetBottomRightRadiusY, SetBottomRightRadiusY, SetBottomRightRadiusY methods [DirectComposition], dcomp/SetBottomRightRadiusY, directcomp.idcompositionrectangleclip_setbottomrightradiusy
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionRectangleClip::SetBottomRightRadiusY"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

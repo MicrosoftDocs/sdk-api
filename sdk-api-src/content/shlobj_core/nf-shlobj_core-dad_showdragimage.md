@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
 ms.topic: function
+f1_keywords: ["shlobj_core/DAD_ShowDragImage"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

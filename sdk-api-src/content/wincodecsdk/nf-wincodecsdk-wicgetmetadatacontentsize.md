@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICGetMetadataContentSize, WICGetMetadataContentSize function [Windows Imaging Component], _wic_codec_wicgetmetadatacontentsize, wic._wic_codec_wicgetmetadatacontentsize, wincodecsdk/WICGetMetadataContentSize
 ms.topic: function
+f1_keywords: ["wincodecsdk/WICGetMetadataContentSize"]
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
 req.target-type: Windows

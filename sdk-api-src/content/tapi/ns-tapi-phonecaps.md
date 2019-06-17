@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2], PHONECAPS, PHONECAPS structure [TAPI 2.2], _tapi2_phonecaps_str, tapi/LPPHONECAPS, tapi/PHONECAPS, tapi2.phonecaps_str"
 ms.topic: struct
+f1_keywords: ["tapi/PHONECAPS"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

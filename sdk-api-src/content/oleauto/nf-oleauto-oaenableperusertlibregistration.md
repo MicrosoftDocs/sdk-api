@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OaEnablePerUserTLibRegistration, OaEnablePerUserTLibRegistration function [Automation], _oa96_OaEnablePerUserTlibRegistration, automat.oaenableperusertlibregistration, oleauto/OaEnablePerUserTLibRegistration
 ms.topic: function
+f1_keywords: ["oleauto/OaEnablePerUserTLibRegistration"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

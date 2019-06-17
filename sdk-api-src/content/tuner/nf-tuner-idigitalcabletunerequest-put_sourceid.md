@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest interface [Microsoft TV Technologies],put_SourceID method, IDigitalCableTuneRequest.put_SourceID, IDigitalCableTuneRequest::put_SourceID, IDigitalCableTuneRequestput_SourceID, mstv.idigitalcabletunerequest_put_sourceid, put_SourceID, put_SourceID method [Microsoft TV Technologies], put_SourceID method [Microsoft TV Technologies],IDigitalCableTuneRequest interface, tuner/IDigitalCableTuneRequest::put_SourceID
 ms.topic: method
+f1_keywords: ["tuner/IDigitalCableTuneRequest.put_SourceID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

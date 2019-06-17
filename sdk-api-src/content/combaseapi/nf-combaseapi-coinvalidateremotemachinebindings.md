@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoInvalidateRemoteMachineBindings, CoInvalidateRemoteMachineBindings function [COM], _com_CoInvalidateRemoteMachineBindings, com.coinvalidateremotemachinebindings, combaseapi/CoInvalidateRemoteMachineBindings
 ms.topic: function
+f1_keywords: ["combaseapi/CoInvalidateRemoteMachineBindings"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

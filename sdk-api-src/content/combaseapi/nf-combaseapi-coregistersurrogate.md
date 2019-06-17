@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoRegisterSurrogate, CoRegisterSurrogate function [COM], _com_CoRegisterSurrogate, com.coregistersurrogate, combaseapi/CoRegisterSurrogate
 ms.topic: function
+f1_keywords: ["combaseapi/CoRegisterSurrogate"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

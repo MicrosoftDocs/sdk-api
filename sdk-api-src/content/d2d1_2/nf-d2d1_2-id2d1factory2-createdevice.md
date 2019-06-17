@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct2D], CreateDevice method [Direct2D],ID2D1Factory2 interface, ID2D1Factory2 interface [Direct2D],CreateDevice method, ID2D1Factory2.CreateDevice, ID2D1Factory2::CreateDevice, d2d1_2/ID2D1Factory2::CreateDevice, direct2d.id2d1factory2_createdevice
 ms.topic: method
+f1_keywords: ["d2d1_2/ID2D1Factory2.CreateDevice"]
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

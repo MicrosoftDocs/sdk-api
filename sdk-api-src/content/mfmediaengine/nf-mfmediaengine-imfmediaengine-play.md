@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Play method, IMFMediaEngine.Play, IMFMediaEngine::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_play, mfmediaengine/IMFMediaEngine::Play
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.Play"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

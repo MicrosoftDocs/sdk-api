@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MatchEnumTag, MatchEnumTag function [NetShell], _netsh_matchenumtag, netsh/MatchEnumTag, netshell.matchenumtag
 ms.topic: function
+f1_keywords: ["netsh/MatchEnumTag"]
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

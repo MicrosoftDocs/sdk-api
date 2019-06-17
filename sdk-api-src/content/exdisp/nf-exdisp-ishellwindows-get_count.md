@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],get_Count method, IShellWindows.get_Count, IShellWindows::get_Count, _win32_IShellWindows_get_Count, exdisp/IShellWindows::get_Count, get_Count, get_Count method [Windows Shell], get_Count method [Windows Shell],IShellWindows interface, shell.IShellWindows_get_Count
 ms.topic: method
+f1_keywords: ["exdisp/IShellWindows.get_Count"]
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows

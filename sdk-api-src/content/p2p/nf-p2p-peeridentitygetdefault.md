@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityGetDefault, PeerIdentityGetDefault function [Peer Networking], p2p.peeridentitygetdefault, p2p/PeerIdentityGetDefault
 ms.topic: function
+f1_keywords: ["p2p/PeerIdentityGetDefault"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

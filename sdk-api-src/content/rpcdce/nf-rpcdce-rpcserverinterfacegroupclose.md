@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupClose, RpcServerInterfaceGroupClose function [RPC], rpc.rpcserverinterfacegroupclose, rpcdce/RpcServerInterfaceGroupClose
 ms.topic: function
+f1_keywords: ["rpcdce/RpcServerInterfaceGroupClose"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

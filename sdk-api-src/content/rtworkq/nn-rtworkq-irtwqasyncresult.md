@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRtwqAsyncResult, IRtwqAsyncResult interface, IRtwqAsyncResult interface,described, base.irtwqasyncresult, rtworkq/IRtwqAsyncResult
 ms.topic: interface
+f1_keywords: ["rtworkq/IRtwqAsyncResult"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

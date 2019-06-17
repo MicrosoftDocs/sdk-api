@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],Update method, IOleLink.Update, IOleLink::Update, Update, Update method [COM], Update method [COM],IOleLink interface, _ole_iolelink_update, com.iolelink_update, oleidl/IOleLink::Update
 ms.topic: method
+f1_keywords: ["oleidl/IOleLink.Update"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

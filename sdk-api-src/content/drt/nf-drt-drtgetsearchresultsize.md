@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtGetSearchResultSize, DrtGetSearchResultSize function [Peer Networking], drt/DrtGetSearchResultSize, p2p.drtgetsearchresultsize
 ms.topic: function
+f1_keywords: ["drt/DrtGetSearchResultSize"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],WaitForClassificationCompletion method, IFsrmClassificationManager interface [File Server Resource Manager],WaitForClassificationCompletion method, IFsrmClassificationManager.WaitForClassificationCompletion, IFsrmClassificationManager2 interface [File Server Resource Manager],WaitForClassificationCompletion method, IFsrmClassificationManager2::WaitForClassificationCompletion, IFsrmClassificationManager::WaitForClassificationCompletion, WaitForClassificationCompletion, WaitForClassificationCompletion method [File Server Resource Manager], WaitForClassificationCompletion method [File Server Resource Manager],FsrmClassificationManager class, WaitForClassificationCompletion method [File Server Resource Manager],IFsrmClassificationManager interface, WaitForClassificationCompletion method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_waitforclassificationcompletion, fsrm.ifsrmclassificationmanager_waitforclassificationcompletion, fsrmpipeline/IFsrmClassificationManager2::WaitForClassificationCompletion, fsrmpipeline/IFsrmClassificationManager::WaitForClassificationCompletion
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmClassificationManager.WaitForClassificationCompletion"]
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

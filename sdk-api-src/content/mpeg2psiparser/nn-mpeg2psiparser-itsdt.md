@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSDT, ITSDT interface [Microsoft TV Technologies], ITSDT interface [Microsoft TV Technologies],described, ITSDTInterface, mpeg2psiparser/ITSDT, mstv.itsdt
 ms.topic: interface
+f1_keywords: ["mpeg2psiparser/ITSDT"]
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows

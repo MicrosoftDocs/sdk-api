@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], IComSecurityEvents interface [COM+],described, _dtc_IComSecurityEvents, comsvcs/IComSecurityEvents, cos.icomsecurityevents
 ms.topic: interface
+f1_keywords: ["comsvcs/IComSecurityEvents"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

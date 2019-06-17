@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AlertSamplesAvailFunc, AlertSamplesAvailFunc callback, AlertSamplesAvailFunc callback function, _win32_alertsamplesavail, base.alertsamplesavail, timeprov/AlertSamplesAvailFunc
 ms.topic: callback
+f1_keywords: ["timeprov/AlertSamplesAvailFunc"]
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

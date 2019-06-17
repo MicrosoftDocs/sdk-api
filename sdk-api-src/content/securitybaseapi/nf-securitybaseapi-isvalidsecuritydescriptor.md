@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsValidSecurityDescriptor, IsValidSecurityDescriptor function [Security], _win32_isvalidsecuritydescriptor, security.isvalidsecuritydescriptor, securitybaseapi/IsValidSecurityDescriptor
 ms.topic: function
+f1_keywords: ["securitybaseapi/IsValidSecurityDescriptor"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

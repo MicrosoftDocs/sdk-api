@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddProperty, AddProperty method [Windows Accessibility], AddProperty method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AddProperty method, IUIAutomationCacheRequest.AddProperty, IUIAutomationCacheRequest::AddProperty, uiauto.uiauto_IUIAutomationCacheRequest_AddProperty, uiauto_IUIAutomationCacheRequest_AddProperty, uiautomationclient/IUIAutomationCacheRequest::AddProperty, winauto.uiauto_IUIAutomationCacheRequest_AddProperty
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationCacheRequest.AddProperty"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

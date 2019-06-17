@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtSelectClipRgn, ExtSelectClipRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_ExtSelectClipRgn, gdi.extselectcliprgn, wingdi/ExtSelectClipRgn
 ms.topic: function
+f1_keywords: ["wingdi/ExtSelectClipRgn"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

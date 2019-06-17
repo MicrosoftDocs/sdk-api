@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Microsoft TV Technologies], Cancel method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Cancel method, IStreamBufferRecComp.Cancel, IStreamBufferRecComp::Cancel, IStreamBufferRecCompCancel, mstv.istreambufferreccomp_cancel, sbe/IStreamBufferRecComp::Cancel
 ms.topic: method
+f1_keywords: ["sbe/IStreamBufferRecComp.Cancel"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

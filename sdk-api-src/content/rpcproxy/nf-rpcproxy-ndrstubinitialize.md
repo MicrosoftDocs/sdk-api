@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrStubInitialize, NdrStubInitialize function [RPC], rpc.ndrstubinitialize, rpcproxy/NdrStubInitialize
 ms.topic: function
+f1_keywords: ["rpcproxy/NdrStubInitialize"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

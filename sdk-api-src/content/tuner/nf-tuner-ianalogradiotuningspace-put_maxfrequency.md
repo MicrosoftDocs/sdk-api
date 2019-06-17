@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],put_MaxFrequency method, IAnalogRadioTuningSpace.put_MaxFrequency, IAnalogRadioTuningSpace::put_MaxFrequency, IAnalogRadioTuningSpaceput_MaxFrequency, mstv.ianalogradiotuningspace_put_maxfrequency, put_MaxFrequency, put_MaxFrequency method [Microsoft TV Technologies], put_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, tuner/IAnalogRadioTuningSpace::put_MaxFrequency
 ms.topic: method
+f1_keywords: ["tuner/IAnalogRadioTuningSpace.put_MaxFrequency"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

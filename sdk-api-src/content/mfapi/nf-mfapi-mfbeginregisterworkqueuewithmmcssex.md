@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
 ms.topic: function
+f1_keywords: ["mfapi/MFBeginRegisterWorkQueueWithMMCSSEx"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

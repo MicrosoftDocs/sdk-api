@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDescriptor, GetDeviceDescriptor method [IMAPI], GetDeviceDescriptor method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDeviceDescriptor method, IDiscRecorder2Ex.GetDeviceDescriptor, IDiscRecorder2Ex::GetDeviceDescriptor, imapi.idiscrecorder2ex_getdevicedescriptor, imapi2/IDiscRecorder2Ex::GetDeviceDescriptor
 ms.topic: method
+f1_keywords: ["imapi2/IDiscRecorder2Ex.GetDeviceDescriptor"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.enclave_information, ntenclv/ENCLAVE_INFORMATION
 ms.topic: struct
+f1_keywords: ["ntenclv/ENCLAVE_INFORMATION"]
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows

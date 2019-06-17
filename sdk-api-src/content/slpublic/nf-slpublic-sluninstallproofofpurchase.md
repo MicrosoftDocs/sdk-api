@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
 ms.topic: function
+f1_keywords: ["slpublic/SLUninstallProofOfPurchase"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

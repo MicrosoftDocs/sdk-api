@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngGradientFill, EngGradientFill function [Display Devices], display.enggradientfill, gdifncs_7f0502d6-5e1b-4780-9e59-3bbddf29d7c7.xml, winddi/EngGradientFill
 ms.topic: function
+f1_keywords: ["winddi/EngGradientFill"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

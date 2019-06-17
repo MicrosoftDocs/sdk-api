@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STATUS_NOPREFIX_AVAIL, STATUS_NO_BINDING, STATUS_NO_ERROR, STATUS_UNSPECIFIED_FAILURE, StatusCode, StatusCode enumeration [DHCP], dhcp.statuscode, dhcpv6csdk/STATUS_NOPREFIX_AVAIL, dhcpv6csdk/STATUS_NO_BINDING, dhcpv6csdk/STATUS_NO_ERROR, dhcpv6csdk/STATUS_UNSPECIFIED_FAILURE, dhcpv6csdk/StatusCode
 ms.topic: enum
+f1_keywords: ["dhcpv6csdk/StatusCode"]
 req.header: dhcpv6csdk.h
 req.include-header: 
 req.target-type: Windows

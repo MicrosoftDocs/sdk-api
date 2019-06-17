@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Script method, IShellFolderViewDual.get_Script, IShellFolderViewDual::get_Script, _shell_IShellFolderViewDual_get_Script, get_Script, get_Script method [Windows Shell], get_Script method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Script, shldisp/IShellFolderViewDual::get_Script
 ms.topic: method
+f1_keywords: ["shldisp/IShellFolderViewDual.get_Script"]
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

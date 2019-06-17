@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control, IOCTL_DISK_PERFORMANCE_OFF control code [Files], base.ioctl_disk_performance_off, fs.ioctl_disk_performance_off, winioctl/IOCTL_DISK_PERFORMANCE_OFF
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_DISK_PERFORMANCE_OFF"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

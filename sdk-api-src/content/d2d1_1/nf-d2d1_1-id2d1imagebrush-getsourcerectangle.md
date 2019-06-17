@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSourceRectangle, GetSourceRectangle method [Direct2D], GetSourceRectangle method [Direct2D],ID2D1ImageBrush interface, ID2D1ImageBrush interface [Direct2D],GetSourceRectangle method, ID2D1ImageBrush.GetSourceRectangle, ID2D1ImageBrush::GetSourceRectangle, d2d1_1/ID2D1ImageBrush::GetSourceRectangle, direct2d.id2d1imagebrush_getsourcerectangle
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1ImageBrush.GetSourceRectangle"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

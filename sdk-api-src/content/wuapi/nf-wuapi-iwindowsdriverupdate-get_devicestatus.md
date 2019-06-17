@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeviceStatus property [Windows Update Agent], DeviceStatus property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DeviceStatus property, IWindowsDriverUpdate.DeviceStatus, IWindowsDriverUpdate.get_DeviceStatus, IWindowsDriverUpdate::DeviceStatus, IWindowsDriverUpdate::get_DeviceStatus, get_DeviceStatus, wua.iwindowsdriverupdate_devicestatus, wuapi/IWindowsDriverUpdate::DeviceStatus, wuapi/IWindowsDriverUpdate::get_DeviceStatus
 ms.topic: method
+f1_keywords: ["wuapi/IWindowsDriverUpdate.DeviceStatus"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

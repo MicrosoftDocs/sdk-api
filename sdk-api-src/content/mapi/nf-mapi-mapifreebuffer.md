@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPIFreeBuffer, MAPIFreeBuffer callback, MAPIFreeBuffer callback function, mapi.mapifreebuffer, wabmem/MAPIFreeBuffer
 ms.topic: function
+f1_keywords: ["mapi/MAPIFreeBuffer"]
 req.header: mapi.h
 req.include-header: Mapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServiceInstall, NetServiceInstall function [Network Management], _win32_netserviceinstall, lmsvc/NetServiceInstall, netmgmt.netserviceinstall
 ms.topic: function
+f1_keywords: ["lmsvc/NetServiceInstall"]
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows

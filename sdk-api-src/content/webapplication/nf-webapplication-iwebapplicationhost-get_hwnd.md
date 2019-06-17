@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HWND property [Debugging Windows Store apps], HWND property [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],HWND property, IWebApplicationHost.HWND, IWebApplicationHost.get_HWND, IWebApplicationHost::HWND, IWebApplicationHost::get_HWND, debug.iwebapplicationhost_hwnd, get_HWND, webapplication/IWebApplicationHost::HWND, webapplication/IWebApplicationHost::get_HWND
 ms.topic: method
+f1_keywords: ["webapplication/IWebApplicationHost.HWND"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

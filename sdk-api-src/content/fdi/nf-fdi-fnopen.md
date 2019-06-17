@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
 ms.topic: macro
+f1_keywords: ["fdi/FNOPEN"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

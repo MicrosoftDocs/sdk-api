@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimes, GetSystemTimes function, base.getsystemtimes, processthreadsapi/GetSystemTimes
 ms.topic: function
+f1_keywords: ["processthreadsapi/GetSystemTimes"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

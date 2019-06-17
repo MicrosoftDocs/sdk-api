@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pLogAttr, ScriptString_pLogAttr function [Internationalization for Windows Applications], _win32_ScriptString_pLogAttr, intl.scriptstring_plogattr, usp10/ScriptString_pLogAttr
 ms.topic: function
+f1_keywords: ["usp10/ScriptString_pLogAttr"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

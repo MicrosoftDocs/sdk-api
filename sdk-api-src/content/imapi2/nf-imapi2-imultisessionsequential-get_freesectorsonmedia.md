@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_FreeSectorsOnMedia method, IMultisessionSequential.get_FreeSectorsOnMedia, IMultisessionSequential::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_freesectorsonmedia, imapi2/IMultisessionSequential::get_FreeSectorsOnMedia
 ms.topic: method
+f1_keywords: ["imapi2/IMultisessionSequential.get_FreeSectorsOnMedia"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

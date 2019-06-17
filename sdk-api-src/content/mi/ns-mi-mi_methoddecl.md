@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_METHOD, MI_FLAG_STATIC, MI_MethodDecl, MI_MethodDecl structure [Windows Management Infrastructure (MI)], mi/MI_MethodDecl, wmi_v2.mi_methoddecl
 ms.topic: struct
+f1_keywords: ["mi/MI_MethodDecl"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

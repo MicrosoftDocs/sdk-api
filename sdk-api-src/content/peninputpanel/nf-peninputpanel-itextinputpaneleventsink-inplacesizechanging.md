@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceSizeChanging method, ITextInputPanelEventSink.InPlaceSizeChanging, ITextInputPanelEventSink::InPlaceSizeChanging, InPlaceSizeChanging, InPlaceSizeChanging method [Tablet PC], InPlaceSizeChanging method [Tablet PC],ITextInputPanelEventSink interface, af9998a0-42ab-410d-980e-59a765d44667, peninputpanel/ITextInputPanelEventSink::InPlaceSizeChanging, tablet.itextinputpaneleventsink_inplacesizechanging
 ms.topic: method
+f1_keywords: ["peninputpanel/ITextInputPanelEventSink.InPlaceSizeChanging"]
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

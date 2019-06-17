@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISettingsItem, ISettingsItem interface [SMI], ISettingsItem interface [SMI],described, smi.isettingsitem, wcmconfig/ISettingsItem
 ms.topic: interface
+f1_keywords: ["wcmconfig/ISettingsItem"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

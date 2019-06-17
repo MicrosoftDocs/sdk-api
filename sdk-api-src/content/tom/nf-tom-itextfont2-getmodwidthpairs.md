@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetModWidthPairs, GetModWidthPairs method [Windows Controls], GetModWidthPairs method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetModWidthPairs method, ITextFont2.GetModWidthPairs, ITextFont2::GetModWidthPairs, controls.itextfont2_getmodwidthpairs, tom/ITextFont2::GetModWidthPairs
 ms.topic: method
+f1_keywords: ["tom/ITextFont2.GetModWidthPairs"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Int64ToLong, LongLongToLong, LongLongToLong function [Windows Shell], intsafe/LongLongToLong, shell.LongLongToLong
 ms.topic: function
+f1_keywords: ["intsafe/LongLongToLong"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

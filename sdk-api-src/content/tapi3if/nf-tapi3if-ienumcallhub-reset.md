@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumCallHub interface [TAPI 2.2],Reset method, IEnumCallHub.Reset, IEnumCallHub::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumCallHub interface, _tapi3_ienumcallhub_reset, tapi3.ienumcallhub_reset, tapi3if/IEnumCallHub::Reset
 ms.topic: method
+f1_keywords: ["tapi3if/IEnumCallHub.Reset"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestPackageDependenciesEnumerator interface, IAppxManifestPackageDependenciesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestPackageDependenciesEnumerator.GetHasCurrent, IAppxManifestPackageDependenciesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestPackageDependenciesEnumerator::GetHasCurrent, appxpkg.iappxmanifestpackagedependenciesenumerator_gethascurrent
 ms.topic: method
+f1_keywords: ["appxpackaging/IAppxManifestPackageDependenciesEnumerator.GetHasCurrent"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

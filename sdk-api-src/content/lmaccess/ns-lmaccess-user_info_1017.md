@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUSER_INFO_1017, *PUSER_INFO_1017, LPUSER_INFO_1017, LPUSER_INFO_1017 structure pointer [Network Management], PUSER_INFO_1017, PUSER_INFO_1017 structure pointer [Network Management], USER_INFO_1017, USER_INFO_1017 structure [Network Management], _win32_user_info_1017_str, lmaccess/LPUSER_INFO_1017, lmaccess/PUSER_INFO_1017, lmaccess/USER_INFO_1017, netmgmt.user_info_1017_str"
 ms.topic: struct
+f1_keywords: ["lmaccess/USER_INFO_1017"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

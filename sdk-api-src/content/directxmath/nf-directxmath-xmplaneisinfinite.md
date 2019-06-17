@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneIsInfinite, XMPlaneIsInfinite, XMPlaneIsInfinite method [DirectX Math Support APIs], dxmath.xmplaneisinfinite
 ms.topic: function
+f1_keywords: ["directxmath/XMPlaneIsInfinite"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

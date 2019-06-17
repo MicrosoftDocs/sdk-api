@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12InfoQueue interface,PushRetrievalFilter method, ID3D12InfoQueue.PushRetrievalFilter, ID3D12InfoQueue::PushRetrievalFilter, PushRetrievalFilter, PushRetrievalFilter method, PushRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PushRetrievalFilter, direct3d12.id3d12infoqueue_pushretrievalfilter
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12InfoQueue.PushRetrievalFilter"]
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows

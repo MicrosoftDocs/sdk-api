@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPTIME_OF_DAY_INFO, *PTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO, LPTIME_OF_DAY_INFO structure pointer [Network Management], PTIME_OF_DAY_INFO, PTIME_OF_DAY_INFO structure pointer [Network Management], TIME_OF_DAY_INFO, TIME_OF_DAY_INFO structure [Network Management], _win32_time_of_day_info_str, lmremutl/LPTIME_OF_DAY_INFO, lmremutl/PTIME_OF_DAY_INFO, lmremutl/TIME_OF_DAY_INFO, netmgmt.time_of_day_info_str"
 ms.topic: struct
+f1_keywords: ["lmremutl/TIME_OF_DAY_INFO"]
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows

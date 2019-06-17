@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC interface [COM],Next method, IEnumFORMATETC.Next, IEnumFORMATETC::Next, Next, Next method [COM], Next method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_next, com.ienumformatetc_next, objidl/IEnumFORMATETC::Next
 ms.topic: method
+f1_keywords: ["objidl/IEnumFORMATETC.Next"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

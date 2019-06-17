@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPEER_GRAPH_EVENT_DATA, PEER_GRAPH_EVENT_DATA, PEER_GRAPH_EVENT_DATA structure [Peer Networking], PPEER_GRAPH_EVENT_DATA, PPEER_GRAPH_EVENT_DATA structure pointer [Peer Networking], p2p.peer_graph_event_data, p2p/PPEER_GRAPH_EVENT_DATA, p2p/peer_graph_event_data_tag"
 ms.topic: struct
+f1_keywords: ["p2p/PEER_GRAPH_EVENT_DATA"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

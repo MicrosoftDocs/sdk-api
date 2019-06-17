@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 06fe0072-1fe5-491f-b0b7-fc85ca731fe7, IDirectXVideoMemoryConfiguration interface [Media Foundation],SetSurfaceType method, IDirectXVideoMemoryConfiguration.SetSurfaceType, IDirectXVideoMemoryConfiguration::SetSurfaceType, SetSurfaceType, SetSurfaceType method [Media Foundation], SetSurfaceType method [Media Foundation],IDirectXVideoMemoryConfiguration interface, dxva2api/IDirectXVideoMemoryConfiguration::SetSurfaceType, mf.idirectxvideomemoryconfiguration_setsurfacetype
 ms.topic: method
+f1_keywords: ["dxva2api/IDirectXVideoMemoryConfiguration.SetSurfaceType"]
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

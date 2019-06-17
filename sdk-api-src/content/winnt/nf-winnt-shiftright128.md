@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ShiftRight128, ShiftRight128 function [Windows API], winnt/ShiftRight128, winprog.shiftright128
 ms.topic: function
+f1_keywords: ["winnt/ShiftRight128"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

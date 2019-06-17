@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Runtime], GetColumnInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetColumnInfo method, IMetaDataTables.GetColumnInfo, IMetaDataTables::GetColumnInfo, rometadataapi/IMetaDataTables::GetColumnInfo, winrt.imetadatatables_getcolumninfo
 ms.topic: method
+f1_keywords: ["rometadataapi/IMetaDataTables.GetColumnInfo"]
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThreadEx, CreateRemoteThreadEx function, STACK_SIZE_PARAM_IS_A_RESERVATION, base.createremotethreadex, processthreadsapi/CreateRemoteThreadEx, winbase/CreateRemoteThreadEx
 ms.topic: function
+f1_keywords: ["processthreadsapi/CreateRemoteThreadEx"]
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

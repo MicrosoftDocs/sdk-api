@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 12286442-1fa2-0c8c-14c5-6c9af4348aee, ID3D11Buffer, ID3D11Buffer interface [Direct3D 11], ID3D11Buffer interface [Direct3D 11],described, d3d11/ID3D11Buffer, direct3d11.id3d11buffer
 ms.topic: interface
+f1_keywords: ["d3d11/ID3D11Buffer"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

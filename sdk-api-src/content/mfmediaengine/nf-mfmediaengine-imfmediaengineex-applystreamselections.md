@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplyStreamSelections, ApplyStreamSelections method [Media Foundation], ApplyStreamSelections method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],ApplyStreamSelections method, IMFMediaEngineEx.ApplyStreamSelections, IMFMediaEngineEx::ApplyStreamSelections, mf.imfmediaengineex_applystreamselections, mfmediaengine/IMFMediaEngineEx::ApplyStreamSelections
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineEx.ApplyStreamSelections"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

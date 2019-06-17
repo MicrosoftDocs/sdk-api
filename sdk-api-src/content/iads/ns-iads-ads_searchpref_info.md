@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPADS_SEARCHPREF_INFO, *PADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO, ADS_SEARCHPREF_INFO structure [ADSI], LPADS_SEARCHPREF_INFO, LPADS_SEARCHPREF_INFO structure pointer [ADSI], PADS_SEARCHPREF_INFO, PADS_SEARCHPREF_INFO structure pointer [ADSI], _ds_ads_searchpref_info, adsi.ads__searchpref__info, adsi.ads_searchpref_info, iads/ADS_SEARCHPREF_INFO, iads/LPADS_SEARCHPREF_INFO, iads/PADS_SEARCHPREF_INFO"
 ms.topic: struct
+f1_keywords: ["iads/ADS_SEARCHPREF_INFO"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

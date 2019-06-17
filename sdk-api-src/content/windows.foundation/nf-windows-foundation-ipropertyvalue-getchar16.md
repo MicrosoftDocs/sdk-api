@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetChar16, GetChar16 method [Windows Runtime], GetChar16 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetChar16 method, IPropertyValue.GetChar16, IPropertyValue.IPropertyValue, IPropertyValue::GetChar16, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetChar16, winrt.ipropertyvalue_getchar16
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValue.GetChar16"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

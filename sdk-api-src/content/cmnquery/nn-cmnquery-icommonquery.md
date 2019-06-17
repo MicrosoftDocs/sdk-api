@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQuery interface [Active Directory],described, _glines_icommonquery, ad.icommonquery, cmnquery/ICommonQuery
 ms.topic: interface
+f1_keywords: ["cmnquery/ICommonQuery"]
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

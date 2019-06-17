@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvbHDSimulcastLogicalChannelDescriptor, IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies], IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor, mstv.idvbhdsimulcastlogicalchanneldescriptor
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

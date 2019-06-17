@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bitmap, Bitmap class [GDI+],Bitmap constructor, Bitmap constructor [GDI+], Bitmap constructor [GDI+],Bitmap class, Bitmap.Bitmap, Bitmap.Bitmap(IN INT,IN INT,IN PixelFormat), Bitmap.Bitmap(INT,INT,PixelFormat), Bitmap::Bitmap, Bitmap::Bitmap(IN INT,IN INT,IN PixelFormat), _gdiplus_CLASS_Bitmap_Bitmap_width_height_format_, gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_format_
 ms.topic: method
+f1_keywords: ["gdiplusheaders/Bitmap.Bitmap"]
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

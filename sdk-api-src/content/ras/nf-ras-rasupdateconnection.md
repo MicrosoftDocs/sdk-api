@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection
 ms.topic: function
+f1_keywords: ["ras/RasUpdateConnection"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

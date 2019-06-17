@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUOpenCurrentThread, WPUOpenCurrentThread function [Winsock], _win32_wpuopencurrentthread_2, winsock.wpuopencurrentthread_2, ws2spi/WPUOpenCurrentThread
 ms.topic: function
+f1_keywords: ["ws2spi/WPUOpenCurrentThread"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

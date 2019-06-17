@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 ms.topic: struct
+f1_keywords: ["wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

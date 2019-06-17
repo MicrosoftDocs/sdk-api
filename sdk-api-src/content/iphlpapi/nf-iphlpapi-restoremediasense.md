@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
 ms.topic: function
+f1_keywords: ["iphlpapi/RestoreMediaSense"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

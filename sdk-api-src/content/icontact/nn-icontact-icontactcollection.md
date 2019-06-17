@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], IContactCollection interface [Windows Contacts],described, _wincontacts_IContactCollection, icontact/IContactCollection, wincontacts._wincontacts_IContactCollection
 ms.topic: interface
+f1_keywords: ["icontact/IContactCollection"]
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATStoreFromHandle, CryptCATStoreFromHandle function [Security], mscat/CryptCATStoreFromHandle, security.cryptcatstorefromhandle
 ms.topic: function
+f1_keywords: ["mscat/CryptCATStoreFromHandle"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

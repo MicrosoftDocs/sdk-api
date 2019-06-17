@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachThreadInput, AttachThreadInput function, _win32_attachthreadinput, base.attachthreadinput, winuser/AttachThreadInput
 ms.topic: function
+f1_keywords: ["winuser/AttachThreadInput"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

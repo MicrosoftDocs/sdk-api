@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
 ms.topic: function
+f1_keywords: ["d2d1helper/SizeF"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

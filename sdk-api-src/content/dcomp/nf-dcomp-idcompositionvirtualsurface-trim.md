@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVirtualSurface interface [DirectComposition],Trim method, IDCompositionVirtualSurface.Trim, IDCompositionVirtualSurface::Trim, Trim, Trim method [DirectComposition], Trim method [DirectComposition],IDCompositionVirtualSurface interface, dcomp/IDCompositionVirtualSurface::Trim, directcomp.idcompositionvirtualsurface_trim
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionVirtualSurface.Trim"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

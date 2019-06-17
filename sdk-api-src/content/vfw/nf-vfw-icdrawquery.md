@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDrawQuery, ICDrawQuery macro [Windows Multimedia], _win32_ICDrawQuery, multimedia.icdrawquery, vfw/ICDrawQuery
 ms.topic: macro
+f1_keywords: ["vfw/ICDrawQuery"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISystemInformation interface [Windows Update Agent],RebootRequired property, ISystemInformation.RebootRequired, ISystemInformation.get_RebootRequired, ISystemInformation::RebootRequired, ISystemInformation::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],ISystemInformation interface, get_RebootRequired, wua.isysteminformation_rebootrequired, wuapi/ISystemInformation::RebootRequired, wuapi/ISystemInformation::get_RebootRequired
 ms.topic: method
+f1_keywords: ["wuapi/ISystemInformation.RebootRequired"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

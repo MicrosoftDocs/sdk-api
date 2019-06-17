@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IESOpenMmiEvent, IESOpenMmiEvent interface [Microsoft TV Technologies], IESOpenMmiEvent interface [Microsoft TV Technologies],described, mstv.iesopenmmievent, tuner/IESOpenMmiEvent
 ms.topic: interface
+f1_keywords: ["tuner/IESOpenMmiEvent"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

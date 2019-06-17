@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentData, IComponentData interface [MMC], IComponentData interface [MMC],described, _slate_icomponentdata, mmc.icomponentdata, mmc/IComponentData
 ms.topic: interface
+f1_keywords: ["mmc/IComponentData"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation],OnLoopIterationChanged method, IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged, IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged, OnLoopIterationChanged, OnLoopIterationChanged method [Windows Animation], OnLoopIterationChanged method [Windows Animation],IUIAnimationLoopIterationChangeHandler2 interface, uianimation.iuianimationloopiterationchangehandler2_onloopiterationchanged, uianimation/IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged
 ms.topic: method
+f1_keywords: ["uianimation/IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

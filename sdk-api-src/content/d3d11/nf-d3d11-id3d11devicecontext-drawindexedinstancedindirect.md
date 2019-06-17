@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 490eea55-c4b9-bcfb-1fd8-021b92e7979d, DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect method [Direct3D 11], DrawIndexedInstancedIndirect method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexedInstancedIndirect method, ID3D11DeviceContext.DrawIndexedInstancedIndirect, ID3D11DeviceContext::DrawIndexedInstancedIndirect, d3d11/ID3D11DeviceContext::DrawIndexedInstancedIndirect, direct3d11.id3d11devicecontext_drawindexedinstancedindirect
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.DrawIndexedInstancedIndirect"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

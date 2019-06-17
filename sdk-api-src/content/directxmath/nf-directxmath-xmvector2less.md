@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2Less, XMVector2Less, XMVector2Less method [DirectX Math Support APIs], dxmath.xmvector2less
 ms.topic: function
+f1_keywords: ["directxmath/XMVector2Less"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

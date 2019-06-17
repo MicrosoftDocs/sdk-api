@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaTemplateImported, IFsrmQuotaTemplateImported interface [File Server Resource Manager], IFsrmQuotaTemplateImported interface [File Server Resource Manager],described, fs.ifsrmquotatemplateimported, fsrm.ifsrmquotatemplateimported, fsrm/IFsrmQuotaTemplateImported
 ms.topic: interface
+f1_keywords: ["fsrmquota/IFsrmQuotaTemplateImported"]
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

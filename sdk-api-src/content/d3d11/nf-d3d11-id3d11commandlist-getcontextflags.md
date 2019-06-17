@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 64bf9914-05c2-c831-c3c4-d1181d8ca907, GetContextFlags, GetContextFlags method [Direct3D 11], GetContextFlags method [Direct3D 11],ID3D11CommandList interface, ID3D11CommandList interface [Direct3D 11],GetContextFlags method, ID3D11CommandList.GetContextFlags, ID3D11CommandList::GetContextFlags, d3d11/ID3D11CommandList::GetContextFlags, direct3d11.id3d11commandlist_getcontextflags
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11CommandList.GetContextFlags"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

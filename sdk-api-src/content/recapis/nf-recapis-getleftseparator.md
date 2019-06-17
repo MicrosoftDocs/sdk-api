@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLeftSeparator, GetLeftSeparator function [Tablet PC], recapis/GetLeftSeparator, tablet.getleftseparator
 ms.topic: function
+f1_keywords: ["recapis/GetLeftSeparator"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

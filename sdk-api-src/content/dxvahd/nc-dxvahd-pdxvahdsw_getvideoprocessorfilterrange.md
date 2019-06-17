@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_GetVideoProcessorFilterRange, PDXVAHDSW_GetVideoProcessorFilterRange callback, PDXVAHDSW_GetVideoProcessorFilterRange callback function [Media Foundation], dxvahd/PDXVAHDSW_GetVideoProcessorFilterRange, mf.pdxvahdsw_getvideoprocessorfilterrange
 ms.topic: callback
+f1_keywords: ["dxvahd/PDXVAHDSW_GetVideoProcessorFilterRange"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

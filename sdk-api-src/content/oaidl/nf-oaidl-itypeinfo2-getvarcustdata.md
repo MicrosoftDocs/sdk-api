@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVarCustData, GetVarCustData method [Automation], GetVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetVarCustData method, ITypeInfo2.GetVarCustData, ITypeInfo2::GetVarCustData, _oa96_ITypeInfo2_GetVarCustData, automat.itypeinfo2_getvarcustdata, oaidl/ITypeInfo2::GetVarCustData
 ms.topic: method
+f1_keywords: ["oaidl/ITypeInfo2.GetVarCustData"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

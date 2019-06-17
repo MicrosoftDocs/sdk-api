@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_PropertySetFT, MI_PropertySetFT structure [Windows Management Infrastructure (MI)], mi/MI_PropertySetFT, wmi_v2.mi_propertysetft
 ms.topic: struct
+f1_keywords: ["mi/MI_PropertySetFT"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

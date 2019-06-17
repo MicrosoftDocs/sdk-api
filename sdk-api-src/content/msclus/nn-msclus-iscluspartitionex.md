@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusPartitionEx, ClusPartitionEx object [Failover Cluster], ClusPartitionEx object [Failover Cluster],described, ISClusPartitionEx, msclus/ClusPartitionEx, mscs.cluspartitionex
 ms.topic: interface
+f1_keywords: ["msclus/ClusPartitionEx"]
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItemText, ListView_GetItemText macro [Windows Controls], _win32_ListView_GetItemText, _win32_ListView_GetItemText_cpp, commctrl/ListView_GetItemText, controls.ListView_GetItemText, controls._win32_ListView_GetItemText
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_GetItemText"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

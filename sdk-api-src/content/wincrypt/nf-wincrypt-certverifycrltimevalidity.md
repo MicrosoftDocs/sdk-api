@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertVerifyCRLTimeValidity, CertVerifyCRLTimeValidity function [Security], _crypto2_certverifycrltimevalidity, security.certverifycrltimevalidity, wincrypt/CertVerifyCRLTimeValidity
 ms.topic: function
+f1_keywords: ["wincrypt/CertVerifyCRLTimeValidity"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

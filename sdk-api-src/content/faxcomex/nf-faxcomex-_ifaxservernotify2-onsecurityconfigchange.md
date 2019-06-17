@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnSecurityConfigChange method, IFaxServerNotify2.OnSecurityConfigChange, IFaxServerNotify2::OnSecurityConfigChange, OnSecurityConfigChange, OnSecurityConfigChange method [Fax Service], OnSecurityConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnSecurityConfigChange, _IFaxServerNotify2::OnSecurityConfigChange, _mfax_ifaxservernotify2_onsecurityconfigchange, fax._mfax_ifaxservernotify2_onsecurityconfigchange, faxcomex/IFaxServerNotify2::OnSecurityConfigChange
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxServerNotify2.OnSecurityConfigChange"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

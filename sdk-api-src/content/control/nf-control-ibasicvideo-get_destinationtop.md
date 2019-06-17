@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationTop method, IBasicVideo.get_DestinationTop, IBasicVideo::get_DestinationTop, IBasicVideoget_DestinationTop, control/IBasicVideo::get_DestinationTop, dshow.ibasicvideo_get_destinationtop, get_DestinationTop, get_DestinationTop method [DirectShow], get_DestinationTop method [DirectShow],IBasicVideo interface
 ms.topic: method
+f1_keywords: ["control/IBasicVideo.get_DestinationTop"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

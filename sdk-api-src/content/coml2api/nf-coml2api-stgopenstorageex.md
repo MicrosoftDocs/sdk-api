@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgOpenStorageEx, StgOpenStorageEx function [Structured Storage], _stg_stgopenstorageex, coml2api/StgOpenStorageEx, stg.stgopenstorageex
 ms.topic: function
+f1_keywords: ["coml2api/StgOpenStorageEx"]
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

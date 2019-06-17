@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumber, WinUsb_GetCurrentFrameNumber function [Buses], buses.winusb_getcurrentframenumber, winusb/WinUsb_GetCurrentFrameNumber
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_GetCurrentFrameNumber"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

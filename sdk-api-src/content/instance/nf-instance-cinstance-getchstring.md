@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z, ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z, CInstance interface [Windows Management Instrumentation],GetCHString method, CInstance.GetCHString, CInstance::GetCHString, GetCHString, GetCHString method [Windows Management Instrumentation], GetCHString method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getchstring, instance/CInstance::GetCHString, wmi.cinstance_getchstring"
 ms.topic: method
+f1_keywords: ["instance/CInstance.GetCHString"]
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

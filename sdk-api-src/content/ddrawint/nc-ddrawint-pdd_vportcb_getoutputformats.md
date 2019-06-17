@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdVideoPortGetOutputFormats, DdVideoPortGetOutputFormats callback function [Display Devices], PDD_VPORTCB_GETOUTPUTFORMATS, PDD_VPORTCB_GETOUTPUTFORMATS callback, ddfncs_24c5f4e8-c9ee-4104-80e5-7f6ef21a1f22.xml, ddrawint/DdVideoPortGetOutputFormats, display.ddvideoportgetoutputformats
 ms.topic: callback
+f1_keywords: ["ddrawint/DdVideoPortGetOutputFormats"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

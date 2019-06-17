@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PINIT_ONCE_FN, PINIT_ONCE_FN callback, PINIT_ONCE_FN callback function, base.initoncecallback, synchapi/PINIT_ONCE_FN
 ms.topic: callback
+f1_keywords: ["synchapi/PINIT_ONCE_FN"]
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

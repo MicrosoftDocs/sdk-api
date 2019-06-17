@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_BUFFER_UAV, D3D11_BUFFER_UAV structure [Direct3D 11], c8071050-410d-09ba-35f3-6d7c40e44eb6, d3d11/D3D11_BUFFER_UAV, direct3d11.d3d11_buffer_uav
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_BUFFER_UAV"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

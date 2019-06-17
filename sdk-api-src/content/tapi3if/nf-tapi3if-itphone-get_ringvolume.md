@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_RingVolume method, ITPhone.get_RingVolume, ITPhone::get_RingVolume, _tapi3_itphone_get_ringvolume, get_RingVolume, get_RingVolume method [TAPI 2.2], get_RingVolume method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_ringvolume, tapi3if/ITPhone::get_RingVolume
 ms.topic: method
+f1_keywords: ["tapi3if/ITPhone.get_RingVolume"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

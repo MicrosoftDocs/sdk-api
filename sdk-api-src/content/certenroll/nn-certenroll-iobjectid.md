@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectId, IObjectId interface [Security], IObjectId interface [Security],described, certenroll/IObjectId, security.iobjectid
 ms.topic: interface
+f1_keywords: ["certenroll/IObjectId"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

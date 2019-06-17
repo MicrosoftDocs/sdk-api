@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIL_2DPOINTD, MIL_2DPOINTD structure [WPF Bitmap Effects], MilPoint2D, _wibe_mil_2dpointd, mileffects/MIL_2DPOINTD, wibe._wibe_mil_2dpointd
 ms.topic: struct
+f1_keywords: ["mileffects/MIL_2DPOINTD"]
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows

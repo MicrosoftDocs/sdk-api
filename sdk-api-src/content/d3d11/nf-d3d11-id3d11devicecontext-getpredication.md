@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPredication, GetPredication method [Direct3D 11], GetPredication method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetPredication method, ID3D11DeviceContext.GetPredication, ID3D11DeviceContext::GetPredication, ae323354-9c3a-634f-4e86-882e408d29d5, d3d11/ID3D11DeviceContext::GetPredication, direct3d11.id3d11devicecontext_getpredication
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.GetPredication"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

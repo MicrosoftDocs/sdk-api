@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveAllBuffers method, IMFSample.RemoveAllBuffers, IMFSample::RemoveAllBuffers, RemoveAllBuffers, RemoveAllBuffers method [Media Foundation], RemoveAllBuffers method [Media Foundation],IMFSample interface, c7ce734f-64da-4d45-905e-54a8898aa710, mf.imfsample_removeallbuffers, mfobjects/IMFSample::RemoveAllBuffers
 ms.topic: method
+f1_keywords: ["mfobjects/IMFSample.RemoveAllBuffers"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

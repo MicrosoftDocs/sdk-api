@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumUnknown interface [COM],Reset method, IEnumUnknown.Reset, IEnumUnknown::Reset, Reset, Reset method [COM], Reset method [COM],IEnumUnknown interface, _com_ienumunknown_reset, com.ienumunknown_reset, objidlbase/IEnumUnknown::Reset
 ms.topic: method
+f1_keywords: ["objidl/IEnumUnknown.Reset"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

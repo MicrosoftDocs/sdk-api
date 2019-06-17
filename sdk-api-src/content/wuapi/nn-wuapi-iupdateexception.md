@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateException, IUpdateException interface [Windows Update Agent], IUpdateException interface [Windows Update Agent],described, wua.iupdateexception, wuapi/IUpdateException
 ms.topic: interface
+f1_keywords: ["wuapi/IUpdateException"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMenuContextHelpId, SetMenuContextHelpId function [Windows Shell], _win32_SetMenuContextHelpId, shell.SetMenuContextHelpId, winuser/SetMenuContextHelpId
 ms.topic: function
+f1_keywords: ["winuser/SetMenuContextHelpId"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

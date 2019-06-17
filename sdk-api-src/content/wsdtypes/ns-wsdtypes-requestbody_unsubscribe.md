@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.requestbody_unsubscribe_struct, wsdtypes/REQUESTBODY_Unsubscribe
 ms.topic: struct
+f1_keywords: ["wsdtypes/REQUESTBODY_Unsubscribe"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

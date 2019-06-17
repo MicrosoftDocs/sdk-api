@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncCallback, IWSDAsyncCallback interface, IWSDAsyncCallback interface,described, ncd.iwsdasynccallback, wsdclient/IWSDAsyncCallback
 ms.topic: interface
+f1_keywords: ["wsdclient/IWSDAsyncCallback"]
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

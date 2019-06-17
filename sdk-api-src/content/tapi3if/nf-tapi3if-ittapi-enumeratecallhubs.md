@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumerateCallHubs, EnumerateCallHubs method [TAPI 2.2], EnumerateCallHubs method [TAPI 2.2],ITTAPI interface, ITTAPI interface [TAPI 2.2],EnumerateCallHubs method, ITTAPI.EnumerateCallHubs, ITTAPI::EnumerateCallHubs, _tapi3_ittapi_enumeratecallhubs, tapi3.ittapi_enumeratecallhubs, tapi3if/ITTAPI::EnumerateCallHubs
 ms.topic: method
+f1_keywords: ["tapi3if/ITTAPI.EnumerateCallHubs"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

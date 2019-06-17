@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyCaret, DestroyCaret function [Menus and Other Resources], _win32_DestroyCaret, _win32_destroycaret_cpp, menurc.destroycaret, winui._win32_destroycaret, winuser/DestroyCaret
 ms.topic: function
+f1_keywords: ["winuser/DestroyCaret"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

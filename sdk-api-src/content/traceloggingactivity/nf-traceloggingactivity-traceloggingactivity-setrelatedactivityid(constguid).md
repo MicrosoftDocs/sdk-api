@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetRelatedActivityId, SetRelatedActivityId method, SetRelatedActivityId method,TraceLoggingActivity interface, TraceLoggingActivity interface,SetRelatedActivityId method, TraceLoggingActivity.SetRelatedActivityId, TraceLoggingActivity.SetRelatedActivityId(const GUID), TraceLoggingActivity::SetRelatedActivityId, TraceLoggingActivity::SetRelatedActivityId(const GUID), tracelogging.traceloggingactivity_setrelatedactivityid, traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId
 ms.topic: method
+f1_keywords: ["traceloggingactivity/TraceLoggingActivity.SetRelatedActivityId"]
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows

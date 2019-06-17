@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptionBodyLocation, GetRecordDescriptionBodyLocation method [Microsoft TV Technologies], GetRecordDescriptionBodyLocation method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordDescriptionBodyLocation method, IISDB_NBIT.GetRecordDescriptionBodyLocation, IISDB_NBIT::GetRecordDescriptionBodyLocation, dvbsiparser/IISDB_NBIT::GetRecordDescriptionBodyLocation, mstv.iisdb_nbit_getrecorddescriptionbodylocation
 ms.topic: method
+f1_keywords: ["dvbsiparser/IISDB_NBIT.GetRecordDescriptionBodyLocation"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

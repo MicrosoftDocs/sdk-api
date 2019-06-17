@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia
 ms.topic: function
+f1_keywords: ["ntmsapi/SwapNtmsMedia"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

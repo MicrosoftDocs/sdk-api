@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerRemoveExcludedApplication, WerRemoveExcludedApplication function [Windows Error Reporting], base.werremoveexcludedapplication, wer.werremoveexcludedapplication, werapi/WerRemoveExcludedApplication
 ms.topic: function
+f1_keywords: ["werapi/WerRemoveExcludedApplication"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

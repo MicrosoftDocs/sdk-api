@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/FDITruncateCabinet, winprog.fditruncatecabinet
 ms.topic: function
+f1_keywords: ["fdi/FDITruncateCabinet"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

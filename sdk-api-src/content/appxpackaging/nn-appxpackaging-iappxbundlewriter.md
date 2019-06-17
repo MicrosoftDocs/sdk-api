@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], IAppxBundleWriter interface [App packaging and management],described, appxpackaging/IAppxBundleWriter, appxpkg.iappxbundlewriter
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxBundleWriter"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

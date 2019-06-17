@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeploymentAction property [Windows Update Agent], DeploymentAction property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],DeploymentAction property, IUpdate.DeploymentAction, IUpdate.get_DeploymentAction, IUpdate::DeploymentAction, IUpdate::get_DeploymentAction, get_DeploymentAction, wua.iupdate_deploymentaction, wuapi/IUpdate::DeploymentAction, wuapi/IUpdate::get_DeploymentAction
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate.DeploymentAction"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

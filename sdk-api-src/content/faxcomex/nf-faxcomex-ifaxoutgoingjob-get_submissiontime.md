@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],SubmissionTime property, IFaxOutgoingJob.SubmissionTime, IFaxOutgoingJob.get_SubmissionTime, IFaxOutgoingJob::SubmissionTime, IFaxOutgoingJob::get_SubmissionTime, SubmissionTime property [Fax Service], SubmissionTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.submissiontime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_submissiontime_cpp, fax._mfax_faxoutgoingjob_submissiontime, faxcomex/IFaxOutgoingJob::SubmissionTime, faxcomex/IFaxOutgoingJob::get_SubmissionTime, get_SubmissionTime
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.SubmissionTime"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDS_SITE_COST_INFO, DS_SITE_COST_INFO, DS_SITE_COST_INFO structure [Active Directory], ERROR_DS_OBJ_NOT_FOUND, ERROR_SUCCESS, ad.ds_site_cost_info, ntdsapi/DS_SITE_COST_INFO"
 ms.topic: struct
+f1_keywords: ["ntdsapi/DS_SITE_COST_INFO"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

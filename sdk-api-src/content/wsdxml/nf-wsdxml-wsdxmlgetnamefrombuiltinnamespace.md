@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXMLGetNameFromBuiltinNamespace, WSDXMLGetNameFromBuiltinNamespace function, ncd.wsdxmlgetnamefrombuiltinnamespace, wsdxml/WSDXMLGetNameFromBuiltinNamespace
 ms.topic: function
+f1_keywords: ["wsdxml/WSDXMLGetNameFromBuiltinNamespace"]
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows

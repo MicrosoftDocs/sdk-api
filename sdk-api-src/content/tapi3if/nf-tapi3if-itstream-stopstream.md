@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],StopStream method, ITStream.StopStream, ITStream::StopStream, StopStream, StopStream method [TAPI 2.2], StopStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_stopstream, tapi3.itstream_stopstream, tapi3if/ITStream::StopStream
 ms.topic: method
+f1_keywords: ["tapi3if/ITStream.StopStream"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

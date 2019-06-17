@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjectWithPropertyKey, IObjectWithPropertyKey interface [Windows Shell], IObjectWithPropertyKey interface [Windows Shell],described, _shell_IObjectWithPropertyKey, propsys/IObjectWithPropertyKey, shell.IObjectWithPropertyKey
 ms.topic: interface
+f1_keywords: ["propsys/IObjectWithPropertyKey"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

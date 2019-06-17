@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8af2bbce-d370-576f-a879-e996430d3295, IDirect3DDevice9Ex interface [Direct3D 9],PresentEx method, IDirect3DDevice9Ex.PresentEx, IDirect3DDevice9Ex::PresentEx, PresentEx, PresentEx method [Direct3D 9], PresentEx method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::PresentEx, direct3d9.idirect3ddevice9ex_presentex
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3DDevice9Ex.PresentEx"]
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

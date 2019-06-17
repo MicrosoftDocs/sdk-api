@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ImageName property, IUIAutomationProxyFactoryEntry.ImageName, IUIAutomationProxyFactoryEntry.put_ImageName, IUIAutomationProxyFactoryEntry::ImageName, IUIAutomationProxyFactoryEntry::get_ImageName, IUIAutomationProxyFactoryEntry::put_ImageName, ImageName property [Windows Accessibility], ImageName property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, put_ImageName, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName, uiauto_IUIAutomationProxyFactoryEntry_ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::put_ImageName, winauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationProxyFactoryEntry.ImageName"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

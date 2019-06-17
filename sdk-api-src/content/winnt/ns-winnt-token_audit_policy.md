@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY, PTOKEN_AUDIT_POLICY structure pointer [Security], TOKEN_AUDIT_POLICY, TOKEN_AUDIT_POLICY structure [Security], _TOKEN_AUDIT_POLICY, security.token_audit_policy, winnt/PTOKEN_AUDIT_POLICY, winnt/TOKEN_AUDIT_POLICY"
 ms.topic: struct
+f1_keywords: ["winnt/TOKEN_AUDIT_POLICY"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

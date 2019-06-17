@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvTextOut, DrvTextOut function [Display Devices], ddifncs_e78c3647-65af-427c-8153-0046e031e345.xml, display.drvtextout, winddi/DrvTextOut
 ms.topic: function
+f1_keywords: ["winddi/DrvTextOut"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

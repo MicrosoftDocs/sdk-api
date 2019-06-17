@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDGETSURFACESTATEIN, DDGETSURFACESTATEIN, DDGETSURFACESTATEIN structure [Display Devices], LPDDGETSURFACESTATEIN, LPDDGETSURFACESTATEIN structure pointer [Display Devices], ddkmapi/DDGETSURFACESTATEIN, ddkmapi/LPDDGETSURFACESTATEIN, ddstrcts_af2430eb-e7b8-4b9a-aa51-e1765608eb0b.xml, display.ddgetsurfacestatein"
 ms.topic: struct
+f1_keywords: ["ddkmapi/DDGETSURFACESTATEIN"]
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows

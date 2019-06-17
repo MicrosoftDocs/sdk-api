@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 ms.topic: function
+f1_keywords: ["dbghelp/SymSrvStoreSupplement"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

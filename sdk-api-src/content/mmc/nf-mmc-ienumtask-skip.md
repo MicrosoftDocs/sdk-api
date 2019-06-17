@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTASK interface [MMC],Skip method, IEnumTASK.Skip, IEnumTASK::Skip, Skip, Skip method [MMC], Skip method [MMC],IEnumTASK interface, _slate_ienumtask_skip, mmc.ienumtask_skip, mmc/IEnumTASK::Skip
 ms.topic: method
+f1_keywords: ["mmc/IEnumTASK.Skip"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

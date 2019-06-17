@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawTextLayout, DrawTextLayout method [Direct2D], DrawTextLayout method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawTextLayout method, ID2D1DeviceContext4.DrawTextLayout, ID2D1DeviceContext4::DrawTextLayout, d2d1_3/ID2D1DeviceContext4::DrawTextLayout, direct2d.id2d1devicecontext4_drawtextlayout
 ms.topic: method
+f1_keywords: ["d2d1_3/ID2D1DeviceContext4.DrawTextLayout"]
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows

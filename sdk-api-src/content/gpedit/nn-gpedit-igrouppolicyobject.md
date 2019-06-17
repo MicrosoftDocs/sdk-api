@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGroupPolicyObject, IGroupPolicyObject interface [Group Policy], IGroupPolicyObject interface [Group Policy],described, _win32_igrouppolicyobject, gpedit/IGroupPolicyObject, policy.igrouppolicyobject
 ms.topic: interface
+f1_keywords: ["gpedit/IGroupPolicyObject"]
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows

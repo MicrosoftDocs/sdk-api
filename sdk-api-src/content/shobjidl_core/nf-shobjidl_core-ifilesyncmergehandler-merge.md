@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSyncMergeHandler interface [Windows Shell],Merge method, IFileSyncMergeHandler.Merge, IFileSyncMergeHandler::Merge, MUS_COMPLETE, MUS_FAILED, MUS_USERINPUTNEEDED, Merge, Merge method [Windows Shell], Merge method [Windows Shell],IFileSyncMergeHandler interface, shell.IFileSyncMergeHandler_Merge, shobjidl_core/IFileSyncMergeHandler::Merge
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileSyncMergeHandler.Merge"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

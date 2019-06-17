@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICPngItxtCompressionFlag, WICPngItxtKeyword, WICPngItxtLanguageTag, WICPngItxtProperties, WICPngItxtProperties enumeration [Windows Imaging Component], WICPngItxtText, WICPngItxtTranslatedKeyword, _wic_codec_wicpngitxtproperties, wic._wic_codec_wicpngitxtproperties, wincodec/WICPngItxtCompressionFlag, wincodec/WICPngItxtKeyword, wincodec/WICPngItxtLanguageTag, wincodec/WICPngItxtProperties, wincodec/WICPngItxtText, wincodec/WICPngItxtTranslatedKeyword
 ms.topic: enum
+f1_keywords: ["wincodec/WICPngItxtProperties"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

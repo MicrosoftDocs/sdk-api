@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
 ms.topic: method
+f1_keywords: ["wsdhost/IWSDDeviceHost.Stop"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

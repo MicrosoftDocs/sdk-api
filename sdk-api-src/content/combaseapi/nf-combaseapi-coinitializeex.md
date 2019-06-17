@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
 ms.topic: function
+f1_keywords: ["combaseapi/CoInitializeEx"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_SENSOR_CLEAR_CONTEXT_FN, PIBIO_SENSOR_CLEAR_CONTEXT_FN callback, SensorAdapterClearContext, SensorAdapterClearContext callback function [Windows Biometric Framework API], secbiomet.sensoradapterclearcontext, winbio_adapter/SensorAdapterClearContext
 ms.topic: callback
+f1_keywords: ["winbio_adapter/SensorAdapterClearContext"]
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

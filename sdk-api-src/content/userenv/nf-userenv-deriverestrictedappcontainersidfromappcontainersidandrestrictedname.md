@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 ms.topic: function
+f1_keywords: ["userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

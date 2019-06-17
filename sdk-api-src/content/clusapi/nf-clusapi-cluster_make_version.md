@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_MAKE_VERSION, CLUSTER_MAKE_VERSION macro [Failover Cluster], _wolf_cluster_make_version, clusapi/CLUSTER_MAKE_VERSION, mscs.cluster_make_version
 ms.topic: macro
+f1_keywords: ["clusapi/CLUSTER_MAKE_VERSION"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback, IUnbufferedFileHandleOplockCallback interface [Windows Runtime], IUnbufferedFileHandleOplockCallback interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleOplockCallback, winrt.iunbufferedfilehandleoplockcallback
 ms.topic: interface
+f1_keywords: ["windowsstoragecom/IUnbufferedFileHandleOplockCallback"]
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows

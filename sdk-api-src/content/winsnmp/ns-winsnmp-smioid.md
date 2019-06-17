@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*smiLPOID, _snmp_smioid_str, smiLPOID, smiLPOID structure pointer [SNMP], smiOID, smiOID structure [SNMP], snmp.smioid_str, winsnmp/smiLPOID, winsnmp/smiOID"
 ms.topic: struct
+f1_keywords: ["winsnmp/smiOID"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

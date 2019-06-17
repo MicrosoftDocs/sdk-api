@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method [Direct2D], Deserialize method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],Deserialize method, ID2D1SvgDocument.Deserialize, ID2D1SvgDocument::Deserialize, d2d1svg/ID2D1SvgDocument::Deserialize, direct2d.id2d1svgdocument_deserialize
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgDocument.Deserialize"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

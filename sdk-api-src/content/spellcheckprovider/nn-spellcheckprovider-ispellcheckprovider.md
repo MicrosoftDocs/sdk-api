@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider, ISpellCheckProvider interface [Internationalization for Windows Applications], ISpellCheckProvider interface [Internationalization for Windows Applications],described, intl.ispellcheckprovider, spellcheckprovider/ISpellCheckProvider
 ms.topic: interface
+f1_keywords: ["spellcheckprovider/ISpellCheckProvider"]
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows

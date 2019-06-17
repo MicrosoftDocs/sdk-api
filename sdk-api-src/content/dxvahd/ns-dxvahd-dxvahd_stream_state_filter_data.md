@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_FILTER_DATA, DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation], dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA, mf.dxvahd_stream_state_filter_data
 ms.topic: struct
+f1_keywords: ["dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: ICopyHookA
 ms.topic: language-reference
+f1_keywords: ["shlobj/ICopyHookA"]
 targetos: Windows
 product: Windows
 req.assembly: 

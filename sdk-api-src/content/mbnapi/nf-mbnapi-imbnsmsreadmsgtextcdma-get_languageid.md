@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],LanguageID property, IMbnSmsReadMsgTextCdma.LanguageID, IMbnSmsReadMsgTextCdma.get_LanguageID, IMbnSmsReadMsgTextCdma::LanguageID, IMbnSmsReadMsgTextCdma::get_LanguageID, LanguageID property [Microsoft Broadband Networks], LanguageID property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_LanguageID, mbn.imbnsmsreadmsgtextcdma_languageid, mbnapi/IMbnSmsReadMsgTextCdma::LanguageID, mbnapi/IMbnSmsReadMsgTextCdma::get_LanguageID
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnSmsReadMsgTextCdma.LanguageID"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

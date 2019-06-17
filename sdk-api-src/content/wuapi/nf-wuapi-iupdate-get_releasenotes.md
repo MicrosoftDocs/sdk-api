@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],ReleaseNotes property, IUpdate.ReleaseNotes, IUpdate.get_ReleaseNotes, IUpdate::ReleaseNotes, IUpdate::get_ReleaseNotes, ReleaseNotes property [Windows Update Agent], ReleaseNotes property [Windows Update Agent],IUpdate interface, get_ReleaseNotes, wua.iupdate_releasenotes, wuapi/IUpdate::ReleaseNotes, wuapi/IUpdate::get_ReleaseNotes
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate.ReleaseNotes"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

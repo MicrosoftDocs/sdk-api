@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_VERSION_INFO, PTRACE_VERSION_INFO, PTRACE_VERSION_INFO structure pointer [ETW], TRACE_VERSION_INFO, TRACE_VERSION_INFO structure [ETW], etw.trace_version_info, evntrace/PTRACE_VERSION_INFO, evntrace/TRACE_VERSION_INFO"
 ms.topic: struct
+f1_keywords: ["evntrace/TRACE_VERSION_INFO"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

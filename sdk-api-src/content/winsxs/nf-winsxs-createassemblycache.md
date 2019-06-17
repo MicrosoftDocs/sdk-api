@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyCache, CreateAssemblyCache function [Side-by-side Assemblies], setup.createassemblycache, winsxs/CreateAssemblyCache
 ms.topic: function
+f1_keywords: ["winsxs/CreateAssemblyCache"]
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

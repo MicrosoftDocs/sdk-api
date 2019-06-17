@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivate, IVdsHwProviderPrivate interface [VDS], IVdsHwProviderPrivate interface [VDS],described, base.ivdshwproviderprivate, vdshwprv/IVdsHwProviderPrivate
 ms.topic: interface
+f1_keywords: ["vdshwprv/IVdsHwProviderPrivate"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

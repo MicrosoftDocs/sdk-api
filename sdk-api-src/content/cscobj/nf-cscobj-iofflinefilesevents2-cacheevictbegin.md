@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CacheEvictBegin, CacheEvictBegin method [Offline Files], CacheEvictBegin method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictBegin method, IOfflineFilesEvents2.CacheEvictBegin, IOfflineFilesEvents2::CacheEvictBegin, cscobj/IOfflineFilesEvents2::CacheEvictBegin, of.iofflinefilesevents2_cacheevictbegin
 ms.topic: method
+f1_keywords: ["cscobj/IOfflineFilesEvents2.CacheEvictBegin"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

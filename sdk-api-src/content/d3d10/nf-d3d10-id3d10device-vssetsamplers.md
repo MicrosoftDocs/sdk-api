@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],VSSetSamplers method, ID3D10Device.VSSetSamplers, ID3D10Device::VSSetSamplers, VSSetSamplers, VSSetSamplers method [Direct3D 10], VSSetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetSamplers, direct3d10.id3d10device_vssetsamplers, f52bec26-138b-dd22-78d6-1674e519b377
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.VSSetSamplers"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

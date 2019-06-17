@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Email property [Fax Service], Email property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Email property, IFaxSender.Email, IFaxSender.get_Email, IFaxSender.put_Email, IFaxSender::Email, IFaxSender::get_Email, IFaxSender::put_Email, _mfax_faxsender.email, fax._mfax_faxsender_cpp_mfax_faxsender_email_cpp, fax._mfax_faxsender_email, faxcomex/IFaxSender::Email, faxcomex/IFaxSender::get_Email, faxcomex/IFaxSender::put_Email, get_Email
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxSender.Email"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

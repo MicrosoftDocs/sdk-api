@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformGraph interface [Direct2D],SetOutputNode method, ID2D1TransformGraph.SetOutputNode, ID2D1TransformGraph::SetOutputNode, SetOutputNode, SetOutputNode method [Direct2D], SetOutputNode method [Direct2D],ID2D1TransformGraph interface, d2d1effectauthor/ID2D1TransformGraph::SetOutputNode, direct2d.id2d1transformgraph_setoutputnode
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1TransformGraph.SetOutputNode"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

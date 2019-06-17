@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],RectF class, RectF class [GDI+],Clone method, RectF.Clone, RectF::Clone, _gdiplus_CLASS_RectF_Clone_, gdiplus._gdiplus_CLASS_RectF_Clone_
 ms.topic: method
+f1_keywords: ["gdiplustypes/RectF.Clone"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

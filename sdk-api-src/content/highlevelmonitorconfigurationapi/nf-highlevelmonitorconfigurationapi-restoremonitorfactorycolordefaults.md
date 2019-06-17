@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults, monitor.restoremonitorfactorycolordefaults
 ms.topic: function
+f1_keywords: ["highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults"]
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

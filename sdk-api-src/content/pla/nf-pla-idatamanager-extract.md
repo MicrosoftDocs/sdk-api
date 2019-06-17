@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Extract, Extract method [PLA], Extract method [PLA],IDataManager interface, IDataManager interface [PLA],Extract method, IDataManager.Extract, IDataManager::Extract, pla.idatamanager_extract, pla/IDataManager::Extract
 ms.topic: method
+f1_keywords: ["pla/IDataManager.Extract"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetCountOfRecords method, IPBDA_Services.GetCountOfRecords, IPBDA_Services::GetCountOfRecords, dvbsiparser/IPBDA_Services::GetCountOfRecords, mstv.ipbda_services_getcountofrecords
 ms.topic: method
+f1_keywords: ["dvbsiparser/IPBDA_Services.GetCountOfRecords"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

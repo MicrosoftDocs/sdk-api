@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [Media Foundation], GetError method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetError method, IMFMediaEngine.GetError, IMFMediaEngine::GetError, mf.imfmediaengine_geterror, mfmediaengine/IMFMediaEngine::GetError
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngine.GetError"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

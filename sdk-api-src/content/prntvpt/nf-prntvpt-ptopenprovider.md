@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTOpenProvider, PTOpenProvider function [Windows GDI], _win32_PTOpenProvider, gdi.ptopenprovider, prntvpt/PTOpenProvider
 ms.topic: function
+f1_keywords: ["prntvpt/PTOpenProvider"]
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

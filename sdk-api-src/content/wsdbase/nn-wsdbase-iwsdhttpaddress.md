@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress, IWSDHttpAddress interface, IWSDHttpAddress interface,described, ncd.iwsdhttpaddress, wsdbase/IWSDHttpAddress
 ms.topic: interface
+f1_keywords: ["wsdbase/IWSDHttpAddress"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

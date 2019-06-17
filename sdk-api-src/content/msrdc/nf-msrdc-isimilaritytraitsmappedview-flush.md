@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [Remote Differential Compression], Flush method [Remote Differential Compression],ISimilarityTraitsMappedView interface, ISimilarityTraitsMappedView interface [Remote Differential Compression],Flush method, ISimilarityTraitsMappedView.Flush, ISimilarityTraitsMappedView::Flush, fs.isimilaritytraitsmappedview_flush, msrdc/ISimilarityTraitsMappedView::Flush, rdc.isimilaritytraitsmappedview_flush
 ms.topic: method
+f1_keywords: ["msrdc/ISimilarityTraitsMappedView.Flush"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

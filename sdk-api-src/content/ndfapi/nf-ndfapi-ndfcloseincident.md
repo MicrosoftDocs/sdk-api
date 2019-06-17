@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
 ms.topic: function
+f1_keywords: ["ndfapi/NdfCloseIncident"]
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

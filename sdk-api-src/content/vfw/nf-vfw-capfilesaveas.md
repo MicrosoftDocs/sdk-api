@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capFileSaveAs, capFileSaveAs, capFileSaveAs macro [Windows Multimedia], multimedia.capfilesaveas, vfw/capFileSaveAs"
 ms.topic: macro
+f1_keywords: ["vfw/capFileSaveAs"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

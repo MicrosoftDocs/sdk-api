@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmDeRegisterMProtocol, MgmDeRegisterMProtocol function [RAS], _mpr_mgmderegistermprotocol, mgm/MgmDeRegisterMProtocol, rras.mgmderegistermprotocol
 ms.topic: function
+f1_keywords: ["mgm/MgmDeRegisterMProtocol"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

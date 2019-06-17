@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FatalExit, FatalExit function, _win32_fatalexit, base.fatalexit, winbase/FatalExit
 ms.topic: function
+f1_keywords: ["winbase/FatalExit"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

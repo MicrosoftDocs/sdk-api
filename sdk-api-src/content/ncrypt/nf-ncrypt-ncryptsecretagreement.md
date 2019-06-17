@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptSecretAgreement, NCryptSecretAgreement function [Security], ncrypt/NCryptSecretAgreement, security.ncryptsecretagreement
 ms.topic: function
+f1_keywords: ["ncrypt/NCryptSecretAgreement"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

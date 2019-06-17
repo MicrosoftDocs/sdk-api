@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedChildId property [Windows Accessibility], CachedChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedChildId property, IUIAutomationLegacyIAccessiblePattern.CachedChildId, IUIAutomationLegacyIAccessiblePattern.get_CachedChildId, IUIAutomationLegacyIAccessiblePattern::CachedChildId, IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, get_CachedChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedChildId"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetRemoveServiceAccount, NetRemoveServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_UNLINK_FROM_HOST_ONLY, lmaccess/NetRemoveServiceAccount, security.netremoveserviceaccount
 ms.topic: function
+f1_keywords: ["lmaccess/NetRemoveServiceAccount"]
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

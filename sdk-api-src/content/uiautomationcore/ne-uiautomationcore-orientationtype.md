@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OrientationType, OrientationType enumeration [Windows Accessibility], OrientationType_Horizontal, OrientationType_None, OrientationType_Vertical, uiauto.uiauto_orientationtype, uiauto_orientationtype, uiautomationcore/OrientationType, uiautomationcore/OrientationType_Horizontal, uiautomationcore/OrientationType_None, uiautomationcore/OrientationType_Vertical, winauto.uiauto_orientationtype
 ms.topic: enum
+f1_keywords: ["uiautomationcore/OrientationType"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

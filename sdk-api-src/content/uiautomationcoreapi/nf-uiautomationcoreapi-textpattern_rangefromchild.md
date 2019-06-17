@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TextPattern_RangeFromChild, TextPattern_RangeFromChild function [Windows Accessibility], uiauto.uiauto_TextPattern_RangeFromChildConPat, uiauto_TextPattern_RangeFromChildConPat, uiautomationcoreapi/TextPattern_RangeFromChild, winauto.uiauto_TextPattern_RangeFromChildConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/TextPattern_RangeFromChild"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

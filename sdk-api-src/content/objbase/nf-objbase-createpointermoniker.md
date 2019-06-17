@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePointerMoniker, CreatePointerMoniker function [COM], _com_CreatePointerMoniker, com.createpointermoniker, objbase/CreatePointerMoniker
 ms.topic: function
+f1_keywords: ["objbase/CreatePointerMoniker"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

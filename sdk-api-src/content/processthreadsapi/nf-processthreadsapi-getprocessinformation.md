@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessInformation, GetProcessInformation function, base.getprocessinformation, processthreadsapi/GetProcessInformation
 ms.topic: function
+f1_keywords: ["processthreadsapi/GetProcessInformation"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

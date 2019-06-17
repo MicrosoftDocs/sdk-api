@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMethodCalls interface [COM],described, _com_icancelmethodcalls, com.icancelmethodcalls, objidlbase/ICancelMethodCalls
 ms.topic: interface
+f1_keywords: ["objidlbase/ICancelMethodCalls"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

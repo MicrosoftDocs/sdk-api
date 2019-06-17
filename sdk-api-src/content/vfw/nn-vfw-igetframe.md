@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IGetFrame, IGetFrame interface [Windows Multimedia], IGetFrame interface [Windows Multimedia],described, _win32_IGetFrame, multimedia.igetframe, vfw/IGetFrame
 ms.topic: interface
+f1_keywords: ["vfw/IGetFrame"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

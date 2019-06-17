@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_RESOLVE, WSD_RESOLVE structure, ncd.wsd_resolve_struct, wsdtypes/WSD_RESOLVE
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_RESOLVE"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

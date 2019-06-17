@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMC_ADD_EXTENSIONS_INFO, CMC_ADD_EXTENSIONS_INFO, CMC_ADD_EXTENSIONS_INFO structure [Security], PCMC_ADD_EXTENSIONS_INFO, PCMC_ADD_EXTENSIONS_INFO structure pointer [Security], _crypto2_cmc_add_extensions_info, security.cmc_add_extensions_info, wincrypt/CMC_ADD_EXTENSIONS_INFO, wincrypt/PCMC_ADD_EXTENSIONS_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CMC_ADD_EXTENSIONS_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

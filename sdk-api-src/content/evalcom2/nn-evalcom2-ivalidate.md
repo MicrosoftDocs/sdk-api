@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValidate, IValidate interface, IValidate interface,described, evalcom2/IValidate, setup.ivalidate
 ms.topic: interface
+f1_keywords: ["evalcom2/IValidate"]
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows

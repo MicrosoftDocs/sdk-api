@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTaskCollection, IRegisteredTaskCollection interface [Task Scheduler], IRegisteredTaskCollection interface [Task Scheduler],described, taskschd.iregisteredtaskcollection, taskschd/IRegisteredTaskCollection
 ms.topic: interface
+f1_keywords: ["taskschd/IRegisteredTaskCollection"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

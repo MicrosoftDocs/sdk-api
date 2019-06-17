@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC],described, _win32_igpmsom, gpmc.igpmsom, gpmgmt/IGPMSOM
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMSOM"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

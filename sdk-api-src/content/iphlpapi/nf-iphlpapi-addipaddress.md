@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddIPAddress, AddIPAddress function [IP Helper], _iphlp_addipaddress, iphlp.addipaddress, iphlpapi/AddIPAddress
 ms.topic: function
+f1_keywords: ["iphlpapi/AddIPAddress"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetScaling method, ITextFont2.SetScaling, ITextFont2::SetScaling, SetScaling, SetScaling method [Windows Controls], SetScaling method [Windows Controls],ITextFont2 interface, controls.itextfont2_setscaling, tom/ITextFont2::SetScaling
 ms.topic: method
+f1_keywords: ["tom/ITextFont2.SetScaling"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

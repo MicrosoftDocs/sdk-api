@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorCallbackTemp, IMemAllocatorCallbackTemp interface [DirectShow], IMemAllocatorCallbackTemp interface [DirectShow],described, IMemAllocatorCallbackTempInterface, dshow.imemallocatorcallbacktemp, strmif/IMemAllocatorCallbackTemp
 ms.topic: interface
+f1_keywords: ["strmif/IMemAllocatorCallbackTemp"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

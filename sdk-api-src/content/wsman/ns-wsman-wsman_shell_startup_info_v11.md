@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_SHELL_STARTUP_INFO, WSMAN_SHELL_STARTUP_INFO structure [Windows Remote Management], WSMAN_SHELL_STARTUP_INFO_V11, winrm.wsman_shell_startup_info, wsman/WSMAN_SHELL_STARTUP_INFO
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_SHELL_STARTUP_INFO"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

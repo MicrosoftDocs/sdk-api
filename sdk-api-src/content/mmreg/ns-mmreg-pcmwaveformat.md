@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag"
 ms.topic: struct
+f1_keywords: ["mmreg/PCMWAVEFORMAT"]
 req.header: mmreg.h
 req.include-header: Mmreg.h, Windows.h
 req.target-type: Windows

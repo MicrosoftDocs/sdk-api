@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capPaletteOpen, capPaletteOpen, capPaletteOpen macro [Windows Multimedia], multimedia.cappaletteopen, vfw/capPaletteOpen"
 ms.topic: macro
+f1_keywords: ["vfw/capPaletteOpen"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMSA_INFO_LEVEL, MSA_INFO_LEVEL, MSA_INFO_LEVEL enumeration [Security], MsaInfoLevel0, MsaInfoLevelMax, lmaccess/MSA_INFO_LEVEL, lmaccess/MsaInfoLevel0, lmaccess/MsaInfoLevelMax, security.msa_info_level"
 ms.topic: enum
+f1_keywords: ["lmaccess/MSA_INFO_LEVEL"]
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

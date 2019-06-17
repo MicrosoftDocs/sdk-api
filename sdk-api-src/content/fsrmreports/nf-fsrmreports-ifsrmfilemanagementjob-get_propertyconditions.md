@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],PropertyConditions property, IFsrmFileManagementJob.PropertyConditions, IFsrmFileManagementJob.get_PropertyConditions, IFsrmFileManagementJob::PropertyConditions, IFsrmFileManagementJob::get_PropertyConditions, PropertyConditions property [File Server Resource Manager], PropertyConditions property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_propertyconditions, fsrm.ifsrmfilemanagementjob_propertyconditions, fsrmreports/IFsrmFileManagementJob::PropertyConditions, fsrmreports/IFsrmFileManagementJob::get_PropertyConditions, get_PropertyConditions
 ms.topic: method
+f1_keywords: ["fsrmreports/IFsrmFileManagementJob.PropertyConditions"]
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

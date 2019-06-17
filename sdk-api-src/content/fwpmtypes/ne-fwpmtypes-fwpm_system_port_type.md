@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_SYSTEM_PORT_IPHTTPS_IN, FWPM_SYSTEM_PORT_IPHTTPS_OUT, FWPM_SYSTEM_PORT_RPC_EPMAP, FWPM_SYSTEM_PORT_TEREDO, FWPM_SYSTEM_PORT_TYPE, FWPM_SYSTEM_PORT_TYPE enumeration [Filtering], FWPM_SYSTEM_PORT_TYPE_MAX, fwp.fwpm_system_port_type, fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_IN, fwpmtypes/FWPM_SYSTEM_PORT_IPHTTPS_OUT, fwpmtypes/FWPM_SYSTEM_PORT_RPC_EPMAP, fwpmtypes/FWPM_SYSTEM_PORT_TEREDO, fwpmtypes/FWPM_SYSTEM_PORT_TYPE, fwpmtypes/FWPM_SYSTEM_PORT_TYPE_MAX
 ms.topic: enum
+f1_keywords: ["fwpmtypes/FWPM_SYSTEM_PORT_TYPE"]
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

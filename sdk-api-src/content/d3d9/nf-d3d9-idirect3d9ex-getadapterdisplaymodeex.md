@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAdapterDisplayModeEx, GetAdapterDisplayModeEx method [Direct3D 9], GetAdapterDisplayModeEx method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterDisplayModeEx method, IDirect3D9Ex.GetAdapterDisplayModeEx, IDirect3D9Ex::GetAdapterDisplayModeEx, a9a9a87a-36fb-8647-d001-d83d9020a82e, d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx, direct3d9.idirect3d9ex_getadapterdisplaymodeex
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3D9Ex.GetAdapterDisplayModeEx"]
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

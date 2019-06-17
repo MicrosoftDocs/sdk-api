@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ULongPtrToInt8, ULongPtrToInt8 function [Windows Shell], intsafe/ULongPtrToInt8, shell.ULongPtrToInt8
 ms.topic: function
+f1_keywords: ["intsafe/ULongPtrToInt8"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], IRealTimeStylus3 interface [Tablet PC],described, rtscom/IRealTimeStylus3, tablet.irealtimestylus3
 ms.topic: interface
+f1_keywords: ["rtscom/IRealTimeStylus3"]
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows

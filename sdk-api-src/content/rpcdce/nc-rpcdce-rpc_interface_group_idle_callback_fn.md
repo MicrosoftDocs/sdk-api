@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback, RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN callback function [RPC], rpc.rpc_interface_group_idle_callback_fn, rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
 ms.topic: callback
+f1_keywords: ["rpcdce/RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

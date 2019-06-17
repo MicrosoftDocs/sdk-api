@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
 ms.topic: function
+f1_keywords: ["netcon/NcIsValidConnectionName"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

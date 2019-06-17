@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPresenterChoice, GetPresenterChoice method [Windows Shell], GetPresenterChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetPresenterChoice method, ISyncMgrConflictResolveInfo.GetPresenterChoice, ISyncMgrConflictResolveInfo::GetPresenterChoice, _shell_ISyncMgrConflictResolveInfo_GetPresenterChoice, shell.ISyncMgrConflictResolveInfo_GetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::GetPresenterChoice
 ms.topic: method
+f1_keywords: ["syncmgr/ISyncMgrConflictResolveInfo.GetPresenterChoice"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

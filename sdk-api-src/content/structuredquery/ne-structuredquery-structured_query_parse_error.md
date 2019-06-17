@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SQPE_EXTRA_CLOSING_PARENTHESIS, SQPE_EXTRA_OPENING_PARENTHESIS, SQPE_IGNORED_CONNECTOR, SQPE_IGNORED_KEYWORD, SQPE_IGNORED_MODIFIER, SQPE_NONE, SQPE_UNHANDLED, STRUCTURED_QUERY_PARSE_ERROR, STRUCTURED_QUERY_PARSE_ERROR enumeration [search], _search_STRUCTURED_QUERY_PARSE_ERROR, search._search_STRUCTURED_QUERY_PARSE_ERROR, structuredquery/SQPE_EXTRA_CLOSING_PARENTHESIS, structuredquery/SQPE_EXTRA_OPENING_PARENTHESIS, structuredquery/SQPE_IGNORED_CONNECTOR, structuredquery/SQPE_IGNORED_KEYWORD, structuredquery/SQPE_IGNORED_MODIFIER, structuredquery/SQPE_NONE, structuredquery/SQPE_UNHANDLED, structuredquery/STRUCTURED_QUERY_PARSE_ERROR
 ms.topic: enum
+f1_keywords: ["structuredquery/STRUCTURED_QUERY_PARSE_ERROR"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

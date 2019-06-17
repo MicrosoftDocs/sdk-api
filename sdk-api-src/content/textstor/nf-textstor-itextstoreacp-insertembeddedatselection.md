@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, ITextStoreACP interface [Text Services Framework],InsertEmbeddedAtSelection method, ITextStoreACP.InsertEmbeddedAtSelection, ITextStoreACP::InsertEmbeddedAtSelection, InsertEmbeddedAtSelection, InsertEmbeddedAtSelection method [Text Services Framework], InsertEmbeddedAtSelection method [Text Services Framework],ITextStoreACP interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, _tsf_itextstoreacp_insertembeddedatselection_ref, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP::InsertEmbeddedAtSelection, tsf.itextstoreacp_insertembeddedatselection
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreACP.InsertEmbeddedAtSelection"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

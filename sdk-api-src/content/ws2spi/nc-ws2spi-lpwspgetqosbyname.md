@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPWSPGETQOSBYNAME, WSPGetQOSByName, WSPGetQOSByName function [Winsock], _win32_wspgetqosbyname_2, winsock.wspgetqosbyname_2, ws2spi/WSPGetQOSByName
 ms.topic: callback
+f1_keywords: ["ws2spi/WSPGetQOSByName"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

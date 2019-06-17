@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_POINT, XPS_POINT structure [XPS Documents and Packaging], xps.xps_point, xpsobjectmodel/XPS_POINT
 ms.topic: struct
+f1_keywords: ["xpsobjectmodel/XPS_POINT"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

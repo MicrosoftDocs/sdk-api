@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps, IWMResizerProps interface [Media Foundation], IWMResizerProps interface [Media Foundation],described, codecapi.iwmresizerpropsinterface, mf.iwmresizerprops, mf.iwmresizerpropsinterface, wmcodecdsp/IWMResizerProps
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/IWMResizerProps"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICDBurn, ICDBurn interface [Windows Shell], ICDBurn interface [Windows Shell],described, _shell_ICDBurn, shell.ICDBurn, shobjidl/ICDBurn
 ms.topic: interface
+f1_keywords: ["shobjidl/ICDBurn"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

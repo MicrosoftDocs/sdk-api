@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowPattern_Close, WindowPattern_Close function [Windows Accessibility], uiauto.uiauto_WindowPattern_CloseConPat, uiauto_WindowPattern_CloseConPat, uiautomationcoreapi/WindowPattern_Close, winauto.uiauto_WindowPattern_CloseConPat
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/WindowPattern_Close"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

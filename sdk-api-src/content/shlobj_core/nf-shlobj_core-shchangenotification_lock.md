@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotification_Lock, SHChangeNotification_Lock function [Windows Shell], _win32_SHChangeNotification_Lock, shell.SHChangeNotification_Lock, shlobj_core/SHChangeNotification_Lock
 ms.topic: function
+f1_keywords: ["shlobj_core/SHChangeNotification_Lock"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

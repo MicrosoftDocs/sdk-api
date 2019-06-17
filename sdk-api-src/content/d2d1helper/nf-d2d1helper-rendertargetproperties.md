@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RenderTargetProperties, RenderTargetProperties function [Direct2D], d2d1helper/RenderTargetProperties, direct2d.rendertargetproperties
 ms.topic: function
+f1_keywords: ["d2d1helper/RenderTargetProperties"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

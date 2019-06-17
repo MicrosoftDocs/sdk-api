@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Stop method, IADsServiceOperations.Stop, IADsServiceOperations::Stop, Stop, Stop method [ADSI], Stop method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_stop, adsi.iadsserviceoperations__stop, adsi.iadsserviceoperations_stop, iads/IADsServiceOperations::Stop
 ms.topic: method
+f1_keywords: ["iads/IADsServiceOperations.Stop"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

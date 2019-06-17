@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE, WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_capi_asymmetric_security_key_handle
 ms.topic: struct
+f1_keywords: ["webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

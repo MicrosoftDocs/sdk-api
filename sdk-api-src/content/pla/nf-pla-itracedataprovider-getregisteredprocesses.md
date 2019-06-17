@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredProcesses, GetRegisteredProcesses method [PLA], GetRegisteredProcesses method [PLA],ITraceDataProvider interface, ITraceDataProvider interface [PLA],GetRegisteredProcesses method, ITraceDataProvider.GetRegisteredProcesses, ITraceDataProvider::GetRegisteredProcesses, pla.itracedataprovider_getregisteredprocesses, pla/ITraceDataProvider::GetRegisteredProcesses
 ms.topic: method
+f1_keywords: ["pla/ITraceDataProvider.GetRegisteredProcesses"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

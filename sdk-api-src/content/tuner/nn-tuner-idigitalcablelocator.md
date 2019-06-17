@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableLocator, IDigitalCableLocator interface [Microsoft TV Technologies], IDigitalCableLocator interface [Microsoft TV Technologies],described, IDigitalCableLocatorInterface, mstv.idigitalcablelocator, tuner/IDigitalCableLocator
 ms.topic: interface
+f1_keywords: ["tuner/IDigitalCableLocator"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

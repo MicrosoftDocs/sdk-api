@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasExpandedResources, HasExpandedResources function, expandedresources/HasExpandedResources, gamemode.hasexpandedresources
 ms.topic: function
+f1_keywords: ["expandedresources/HasExpandedResources"]
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows

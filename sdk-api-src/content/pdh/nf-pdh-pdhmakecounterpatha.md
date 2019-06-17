@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_PATH_WBEM_INPUT, PDH_PATH_WBEM_RESULT, PdhMakeCounterPath, PdhMakeCounterPath function [Perf], PdhMakeCounterPathA, PdhMakeCounterPathW, _win32_pdhmakecounterpath, base.pdhmakecounterpath, pdh/PdhMakeCounterPath, pdh/PdhMakeCounterPathA, pdh/PdhMakeCounterPathW, perf.pdhmakecounterpath
 ms.topic: function
+f1_keywords: ["pdh/PdhMakeCounterPath"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

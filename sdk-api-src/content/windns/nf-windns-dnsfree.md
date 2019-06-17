@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsFree, DnsFree function [DNS], dns.dnsfree, windns/DnsFree
 ms.topic: function
+f1_keywords: ["windns/DnsFree"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

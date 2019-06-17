@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetIfStackTable, GetIfStackTable function [IP Helper], iphlp.getifstacktable, netioapi/GetIfStackTable
 ms.topic: function
+f1_keywords: ["netioapi/GetIfStackTable"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

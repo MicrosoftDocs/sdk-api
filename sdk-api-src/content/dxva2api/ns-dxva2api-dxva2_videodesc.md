@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
 ms.topic: struct
+f1_keywords: ["dxva2api/DXVA2_VideoDesc"]
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

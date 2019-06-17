@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory
 ms.topic: interface
+f1_keywords: ["documenttarget/IPrintDocumentPackageTargetFactory"]
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows

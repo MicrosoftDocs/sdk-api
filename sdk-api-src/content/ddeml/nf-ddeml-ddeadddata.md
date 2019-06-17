@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeAddData, DdeAddData function [Data Exchange], _win32_DdeAddData, _win32_ddeadddata_cpp, dataxchg.ddeadddata, ddeml/DdeAddData, winui._win32_ddeadddata
 ms.topic: function
+f1_keywords: ["ddeml/DdeAddData"]
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

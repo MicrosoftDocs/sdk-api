@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SetNextSourceFromUriAsync method, IMediaRenderer.SetNextSourceFromUriAsync, IMediaRenderer.streaming, IMediaRenderer::SetNextSourceFromUriAsync, IMediaRenderer::streaming, SetNextSourceFromUriAsync, SetNextSourceFromUriAsync method [Media Streaming API], SetNextSourceFromUriAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_setnextsourcefromuriasync, windows/IMediaRenderer::SetNextSourceFromUriAsync
 ms.topic: method
+f1_keywords: ["windows.media.streaming/IMediaRenderer.SetNextSourceFromUriAsync"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

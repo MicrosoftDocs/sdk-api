@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WnvOpen, WnvOpen function [Windows Network Virtualization], wnv.wnvopen, wnvapi/WnvOpen
 ms.topic: function
+f1_keywords: ["wnvapi/WnvOpen"]
 req.header: wnvapi.h
 req.include-header: 
 req.target-type: Windows

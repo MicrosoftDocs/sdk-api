@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_CRYPTO_TYPE_AES128_CTR, GetContentProtectionCaps, GetContentProtectionCaps method [Media Foundation], GetContentProtectionCaps method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],GetContentProtectionCaps method, ID3D11VideoDevice.GetContentProtectionCaps, ID3D11VideoDevice::GetContentProtectionCaps, d3d11/ID3D11VideoDevice::GetContentProtectionCaps, mf.id3d11videodevice_getcontentprotectioncaps
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11VideoDevice.GetContentProtectionCaps"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

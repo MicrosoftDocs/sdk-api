@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCopyError, WsCopyError function [Web Services for Windows], webservices/WsCopyError, wsw.wscopyerror
 ms.topic: function
+f1_keywords: ["webservices/WsCopyError"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

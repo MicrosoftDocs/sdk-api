@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, 3, NetGroupAdd, NetGroupAdd function [Network Management], _win32_netgroupadd, lmaccess/NetGroupAdd, netmgmt.netgroupadd
 ms.topic: function
+f1_keywords: ["lmaccess/NetGroupAdd"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

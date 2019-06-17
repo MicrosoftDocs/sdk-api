@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventSubscriptionsGet0, FwpmNetEventSubscriptionsGet0 function [Filtering], fwp.fwpmneteventsubscriptionsget0, fwpmu/FwpmNetEventSubscriptionsGet0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmNetEventSubscriptionsGet0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

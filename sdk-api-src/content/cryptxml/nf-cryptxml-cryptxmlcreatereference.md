@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT, CryptXmlCreateReference, CryptXmlCreateReference function [Security], cryptxml/CryptXmlCreateReference, security.cryptxmlcreatereference
 ms.topic: function
+f1_keywords: ["cryptxml/CryptXmlCreateReference"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCursor, SetCursor function [Menus and Other Resources], _win32_SetCursor, _win32_setcursor_cpp, menurc.setcursor, winui._win32_setcursor, winuser/SetCursor
 ms.topic: function
+f1_keywords: ["winuser/SetCursor"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

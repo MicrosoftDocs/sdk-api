@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateRange, CreateRange method [Text Services Framework], CreateRange method [Text Services Framework],ITfContextOwnerServices interface, ITfContextOwnerServices interface [Text Services Framework],CreateRange method, ITfContextOwnerServices.CreateRange, ITfContextOwnerServices::CreateRange, _tsf_itfcontextownerservices_createrange_ref, msctf/ITfContextOwnerServices::CreateRange, tsf.itfcontextownerservices_createrange
 ms.topic: method
+f1_keywords: ["msctf/ITfContextOwnerServices.CreateRange"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], wcs.xyzcolorf, wcsplugin/XYZColorF
 ms.topic: struct
+f1_keywords: ["wcsplugin/XYZColorF"]
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

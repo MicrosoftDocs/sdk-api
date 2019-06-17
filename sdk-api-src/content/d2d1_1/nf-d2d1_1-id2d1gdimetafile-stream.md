@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiMetafile interface [Direct2D],Stream method, ID2D1GdiMetafile.Stream, ID2D1GdiMetafile::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1GdiMetafile interface, d2d1_1/ID2D1GdiMetafile::Stream, direct2d.id2d1gdimetafile_stream
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1GdiMetafile.Stream"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

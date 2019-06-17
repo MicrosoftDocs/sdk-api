@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_OMAC, D3D11_OMAC structure [Media Foundation], d3d11/D3D11_OMAC, mf.d3d11_omac
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_OMAC"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

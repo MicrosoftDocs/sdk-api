@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Adapters, Adapters structure [Display Devices], TMM_Ref_5b0d959d-9d91-4166-8555-633b0690de8a.xml, cloneviewhelper/Adapters, display.adapters
 ms.topic: struct
+f1_keywords: ["cloneviewhelper/Adapters"]
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows

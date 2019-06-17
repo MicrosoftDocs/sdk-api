@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TRANSLATEURL_FL_GUESS_PROTOCOL, TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL, TranslateURL, TranslateURL function [Windows Shell], TranslateURLA, TranslateURLW, _win32_TranslateURL, intshcut/TranslateURL, intshcut/TranslateURLA, intshcut/TranslateURLW, shell.TranslateURL
 ms.topic: function
+f1_keywords: ["intshcut/TranslateURL"]
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

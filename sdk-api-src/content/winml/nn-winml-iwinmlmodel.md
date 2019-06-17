@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWinMLModel, IWinMLModel interface, IWinMLModel interface,described, MachineLearning.iwinmlmodel, winml/IWinMLModel
 ms.topic: interface
+f1_keywords: ["winml/IWinMLModel"]
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows

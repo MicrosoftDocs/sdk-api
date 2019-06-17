@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandSignature, ID3D12CommandSignature interface, ID3D12CommandSignature interface,described, d3d12/ID3D12CommandSignature, direct3d12.id3d12commandsignature
 ms.topic: interface
+f1_keywords: ["d3d12/ID3D12CommandSignature"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

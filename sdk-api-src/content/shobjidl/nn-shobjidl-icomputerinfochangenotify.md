@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComputerInfoChangeNotify, IComputerInfoChangeNotify interface [Windows Shell], IComputerInfoChangeNotify interface [Windows Shell],described, _shell_IComputerInfoChangeNotify, shell.IComputerInfoChangeNotify, shobjidl/IComputerInfoChangeNotify
 ms.topic: interface
+f1_keywords: ["shobjidl/IComputerInfoChangeNotify"]
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

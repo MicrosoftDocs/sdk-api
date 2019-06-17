@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_ImpersonationType, MI_DestinationOptions_ImpersonationType enumeration [Windows Management Infrastructure (MI)], MI_DestinationOptions_ImpersonationType_Default, MI_DestinationOptions_ImpersonationType_Delegate, MI_DestinationOptions_ImpersonationType_Identify, MI_DestinationOptions_ImpersonationType_Impersonate, MI_DestinationOptions_ImpersonationType_None, mi/MI_DestinationOptions_ImpersonationType, mi/MI_DestinationOptions_ImpersonationType_Default, mi/MI_DestinationOptions_ImpersonationType_Delegate, mi/MI_DestinationOptions_ImpersonationType_Identify, mi/MI_DestinationOptions_ImpersonationType_Impersonate, mi/MI_DestinationOptions_ImpersonationType_None, wmi._mi_destinationoptions_impersonationtype, wmi_v2.mi_destinationoptions_impersonationtype
 ms.topic: enum
+f1_keywords: ["mi/MI_DestinationOptions_ImpersonationType"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

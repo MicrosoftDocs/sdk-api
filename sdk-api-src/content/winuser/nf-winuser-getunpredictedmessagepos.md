@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnpredictedMessagePos, GetUnpredictedMessagePos function [Input Messages and Notifications], inputmsg.getunpredictedmessagepos, winuser/GetUnpredictedMessagePos
 ms.topic: function
+f1_keywords: ["winuser/GetUnpredictedMessagePos"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

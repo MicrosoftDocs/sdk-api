@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetSystemTime, SetSystemTime function, _win32_setsystemtime, base.setsystemtime, sysinfoapi/SetSystemTime
 ms.topic: function
+f1_keywords: ["sysinfoapi/SetSystemTime"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

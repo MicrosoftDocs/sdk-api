@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Wow64GetThreadSelectorEntry, Wow64GetThreadSelectorEntry function, base.wow64getthreadselectorentry, winbase/Wow64GetThreadSelectorEntry
 ms.topic: function
+f1_keywords: ["winbase/Wow64GetThreadSelectorEntry"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

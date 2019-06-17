@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RevokeScaleChangeNotifications, RevokeScaleChangeNotifications function [Windows Shell], shell.RevokeScaleChangeNotifications, shellscalingapi/RevokeScaleChangeNotifications
 ms.topic: function
+f1_keywords: ["shellscalingapi/RevokeScaleChangeNotifications"]
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows

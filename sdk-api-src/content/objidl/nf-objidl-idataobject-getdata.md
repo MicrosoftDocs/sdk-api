@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [COM], GetData method [COM],IDataObject interface, IDataObject interface [COM],GetData method, IDataObject.GetData, IDataObject::GetData, _ole_idataobject_getdata, com.idataobject_getdata, objidl/IDataObject::GetData
 ms.topic: method
+f1_keywords: ["objidl/IDataObject.GetData"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

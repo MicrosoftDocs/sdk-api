@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIDEVICESTATE, DIDEVICESTATE, DIDEVICESTATE structure [Human Input Devices], di_ref_53204ab2-7d3d-4a59-8359-ef3fd114147d.xml, dinputd/DIDEVICESTATE, hid.didevicestate"
 ms.topic: struct
+f1_keywords: ["dinputd/DIDEVICESTATE"]
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows

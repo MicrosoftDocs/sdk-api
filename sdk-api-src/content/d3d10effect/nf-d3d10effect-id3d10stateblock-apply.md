@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8047c555-4a3e-a6b4-9733-42350b374f15, Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],Apply method, ID3D10StateBlock.Apply, ID3D10StateBlock::Apply, d3d10effect/ID3D10StateBlock::Apply, direct3d10.id3d10stateblock_apply
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10StateBlock.Apply"]
 req.header: d3d10effect.h
 req.include-header: D3D10.h
 req.target-type: Windows

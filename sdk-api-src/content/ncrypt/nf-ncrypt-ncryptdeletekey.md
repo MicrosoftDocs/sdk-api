@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptDeleteKey, NCryptDeleteKey function [Security], ncrypt/NCryptDeleteKey, security.ncryptdeletekey_func
 ms.topic: function
+f1_keywords: ["ncrypt/NCryptDeleteKey"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

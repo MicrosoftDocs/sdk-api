@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWordWrapping, GetWordWrapping method [Direct Write], GetWordWrapping method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetWordWrapping method, IDWriteTextFormat.GetWordWrapping, IDWriteTextFormat::GetWordWrapping, directwrite.IDWriteTextFormat_GetWordWrapping, dwrite/IDWriteTextFormat::GetWordWrapping
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextFormat.GetWordWrapping"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

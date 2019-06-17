@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [Direct Write], GetFontFaceIndex method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFontFaceIndex method, IDWriteFontFaceReference.GetFontFaceIndex, IDWriteFontFaceReference::GetFontFaceIndex, directwrite.idwritefontfacereference_getfontfaceindex, dwrite_3/IDWriteFontFaceReference::GetFontFaceIndex
 ms.topic: method
+f1_keywords: ["dwrite_3/IDWriteFontFaceReference.GetFontFaceIndex"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

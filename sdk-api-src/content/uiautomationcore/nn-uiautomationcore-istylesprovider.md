@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], IStylesProvider interface [Windows Accessibility],described, uiautomationcore/IStylesProvider, winauto.uiauto_IStylesProvider
 ms.topic: interface
+f1_keywords: ["uiautomationcore/IStylesProvider"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

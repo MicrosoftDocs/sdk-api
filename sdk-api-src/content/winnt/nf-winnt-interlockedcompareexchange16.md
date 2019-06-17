@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedCompareExchange16, InterlockedCompareExchange16 function, base.interlockedcompareexchange16, winnt/InterlockedCompareExchange16
 ms.topic: function
+f1_keywords: ["winnt/InterlockedCompareExchange16"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

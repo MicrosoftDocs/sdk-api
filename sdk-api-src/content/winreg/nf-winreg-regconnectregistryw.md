@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
 ms.topic: function
+f1_keywords: ["winreg/RegConnectRegistry"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

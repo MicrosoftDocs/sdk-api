@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ToUnicode, ToUnicode function [Keyboard and Mouse Input], _win32_ToUnicode, _win32_tounicode_cpp, inputdev.tounicode, winui._win32_tounicode, winuser/ToUnicode
 ms.topic: function
+f1_keywords: ["winuser/ToUnicode"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

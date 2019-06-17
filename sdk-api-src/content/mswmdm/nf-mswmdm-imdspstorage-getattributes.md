@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [windows Media Device Manager], GetAttributes method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetAttributes method, IMDSPStorage.GetAttributes, IMDSPStorage::GetAttributes, IMDSPStorageGetAttributes, mswmdm/IMDSPStorage::GetAttributes, wmdm.imdspstorage_getattributes
 ms.topic: method
+f1_keywords: ["mswmdm/IMDSPStorage.GetAttributes"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

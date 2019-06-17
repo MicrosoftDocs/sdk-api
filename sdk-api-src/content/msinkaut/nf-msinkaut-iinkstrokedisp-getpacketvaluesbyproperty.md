@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 135dcd06-f533-4470-b5b0-ea559c20e3c4, GetPacketValuesByProperty, GetPacketValuesByProperty method [Tablet PC], GetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetPacketValuesByProperty method, IInkStrokeDisp.GetPacketValuesByProperty, IInkStrokeDisp::GetPacketValuesByProperty, msinkaut/IInkStrokeDisp::GetPacketValuesByProperty, tablet.iinkstrokedisp_getpacketvaluesbyproperty
 ms.topic: method
+f1_keywords: ["msinkaut/IInkStrokeDisp.GetPacketValuesByProperty"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

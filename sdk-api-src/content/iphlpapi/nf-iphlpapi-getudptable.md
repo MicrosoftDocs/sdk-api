@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
 ms.topic: function
+f1_keywords: ["iphlpapi/GetUdpTable"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

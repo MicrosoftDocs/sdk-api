@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSimpleProgress interface [Offline Files],ItemResult method, IOfflineFilesSimpleProgress.ItemResult, IOfflineFilesSimpleProgress::ItemResult, ItemResult, ItemResult method [Offline Files], ItemResult method [Offline Files],IOfflineFilesSimpleProgress interface, cscobj/IOfflineFilesSimpleProgress::ItemResult, of.iofflinefilessimpleprogress_itemresult
 ms.topic: method
+f1_keywords: ["cscobj/IOfflineFilesSimpleProgress.ItemResult"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

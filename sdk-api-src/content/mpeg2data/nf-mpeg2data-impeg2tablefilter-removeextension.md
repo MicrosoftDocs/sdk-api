@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMpeg2TableFilter interface [Microsoft TV Technologies],RemoveExtension method, IMpeg2TableFilter.RemoveExtension, IMpeg2TableFilter::RemoveExtension, IMpeg2TableFilterRemoveExtension, RemoveExtension, RemoveExtension method [Microsoft TV Technologies], RemoveExtension method [Microsoft TV Technologies],IMpeg2TableFilter interface, mpeg2data/IMpeg2TableFilter::RemoveExtension, mstv.impeg2tablefilter_removeextension
 ms.topic: method
+f1_keywords: ["mpeg2data/IMpeg2TableFilter.RemoveExtension"]
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

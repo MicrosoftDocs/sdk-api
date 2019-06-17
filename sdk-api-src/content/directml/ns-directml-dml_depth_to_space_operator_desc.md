@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_DEPTH_TO_SPACE_OPERATOR_DESC, DML_DEPTH_TO_SPACE_OPERATOR_DESC structure, direct3d12.dml_depth_to_space_operator_desc, directml/DML_DEPTH_TO_SPACE_OPERATOR_DESC
 ms.topic: struct
+f1_keywords: ["directml/DML_DEPTH_TO_SPACE_OPERATOR_DESC"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

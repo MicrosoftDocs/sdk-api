@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICameraControl, ICameraControl interface [DirectShow], ICameraControl interface [DirectShow],described, ICameraControlInterface, dshow.icameracontrol, vidcap/ICameraControl
 ms.topic: interface
+f1_keywords: ["vidcap/ICameraControl"]
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows

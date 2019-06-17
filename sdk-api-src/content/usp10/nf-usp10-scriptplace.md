@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptPlace, ScriptPlace function [Internationalization for Windows Applications], _win32_ScriptPlace, intl.scriptplace, usp10/ScriptPlace
 ms.topic: function
+f1_keywords: ["usp10/ScriptPlace"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

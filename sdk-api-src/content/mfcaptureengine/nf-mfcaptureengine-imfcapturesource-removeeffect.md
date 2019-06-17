@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],RemoveEffect method, IMFCaptureSource.RemoveEffect, IMFCaptureSource::RemoveEffect, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, RemoveEffect, RemoveEffect method [Media Foundation], RemoveEffect method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_removeeffect, mfcaptureengine/IMFCaptureSource::RemoveEffect
 ms.topic: method
+f1_keywords: ["mfcaptureengine/IMFCaptureSource.RemoveEffect"]
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

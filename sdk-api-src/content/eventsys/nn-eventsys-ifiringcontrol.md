@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFiringControl, IFiringControl interface [COM+], IFiringControl interface [COM+],described, _cos_IFiringControl, cos.ifiringcontrol, eventsys/IFiringControl
 ms.topic: interface
+f1_keywords: ["eventsys/IFiringControl"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

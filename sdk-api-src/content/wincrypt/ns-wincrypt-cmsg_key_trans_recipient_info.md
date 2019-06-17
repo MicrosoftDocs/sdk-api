@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO, CMSG_KEY_TRANS_RECIPIENT_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_INFO, PCMSG_KEY_TRANS_RECIPIENT_INFO structure pointer [Security], _crypto2_cmsg_key_trans_recipient_info, security.cmsg_key_trans_recipient_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CMSG_KEY_TRANS_RECIPIENT_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateFiberEx, CreateFiberEx function, _win32_createfiberex, base.createfiberex, winbase/CreateFiberEx
 ms.topic: function
+f1_keywords: ["winbase/CreateFiberEx"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 52fdee2c-7566-954c-edad-a7d91948caac, GetInstanceName, GetInstanceName method [Direct3D 11], GetInstanceName method [Direct3D 11],ID3D11ClassInstance interface, ID3D11ClassInstance interface [Direct3D 11],GetInstanceName method, ID3D11ClassInstance.GetInstanceName, ID3D11ClassInstance::GetInstanceName, d3d11/ID3D11ClassInstance::GetInstanceName, direct3d11.id3d11classinstance_getinstancename
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11ClassInstance.GetInstanceName"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

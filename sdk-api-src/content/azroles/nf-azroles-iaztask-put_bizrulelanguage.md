@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: JScript, VBScript, AzTask object [Security],BizRuleLanguage property, BizRuleLanguage property [Security], BizRuleLanguage property [Security],AzTask object, BizRuleLanguage property [Security],IAzTask interface, IAzTask interface [Security],BizRuleLanguage property, IAzTask.BizRuleLanguage, IAzTask.put_BizRuleLanguage, IAzTask::BizRuleLanguage, IAzTask::get_BizRuleLanguage, IAzTask::put_BizRuleLanguage, azroles/IAzTask::BizRuleLanguage, azroles/IAzTask::get_BizRuleLanguage, azroles/IAzTask::put_BizRuleLanguage, put_BizRuleLanguage, security.iaztask_bizrulelanguage
 ms.topic: method
+f1_keywords: ["azroles/IAzTask.BizRuleLanguage"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

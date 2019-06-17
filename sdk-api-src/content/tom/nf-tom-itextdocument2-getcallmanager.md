@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCallManager, GetCallManager method [Windows Controls], GetCallManager method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetCallManager method, ITextDocument2.GetCallManager, ITextDocument2::GetCallManager, controls.itextdocument2_getcallmanager, tom/ITextDocument2::GetCallManager
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.GetCallManager"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

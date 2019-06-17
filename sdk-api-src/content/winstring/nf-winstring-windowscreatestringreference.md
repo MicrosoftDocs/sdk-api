@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
 ms.topic: function
+f1_keywords: ["winstring/WindowsCreateStringReference"]
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallUnmarshal, ICallUnmarshal interface [COM], ICallUnmarshal interface [COM],described, _com_icallunmarshal_interface, callobj/ICallUnmarshal, com.icallunmarshal
 ms.topic: interface
+f1_keywords: ["callobj/ICallUnmarshal"]
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

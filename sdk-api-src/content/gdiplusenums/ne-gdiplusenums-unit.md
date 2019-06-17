@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Unit, Unit enumeration [GDI+], UnitDisplay, UnitDocument, UnitInch, UnitMillimeter, UnitPixel, UnitPoint, UnitWorld, _gdiplus_ENUM_Unit, gdiplus._gdiplus_ENUM_Unit, gdiplusenums/Unit, gdiplusenums/UnitDisplay, gdiplusenums/UnitDocument, gdiplusenums/UnitInch, gdiplusenums/UnitMillimeter, gdiplusenums/UnitPixel, gdiplusenums/UnitPoint, gdiplusenums/UnitWorld
 ms.topic: enum
+f1_keywords: ["gdiplusenums/Unit"]
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

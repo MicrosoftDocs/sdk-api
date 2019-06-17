@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdMapMemory, DdMapMemory callback function [Display Devices], PDD_MAPMEMORY, PDD_MAPMEMORY callback, ddfncs_565a064a-cd87-4f20-8478-05176ce57ad8.xml, ddrawint/DdMapMemory, display.ddmapmemory
 ms.topic: callback
+f1_keywords: ["ddrawint/DdMapMemory"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES, DIFFDEVICEATTRIBUTES structure [Human Input Devices], di_ref_64e91043-878c-49d2-9e1a-b16bb5ed22b6.xml, dinputd/DIFFDEVICEATTRIBUTES, hid.diffdeviceattributes"
 ms.topic: struct
+f1_keywords: ["dinputd/DIFFDEVICEATTRIBUTES"]
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Windows

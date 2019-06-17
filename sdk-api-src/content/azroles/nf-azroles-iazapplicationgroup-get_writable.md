@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],Writable property, IAzApplicationGroup interface [Security],Writable property, IAzApplicationGroup.Writable, IAzApplicationGroup.get_Writable, IAzApplicationGroup::Writable, IAzApplicationGroup::get_Writable, Writable property [Security], Writable property [Security],AzApplicationGroup object, Writable property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Writable, azroles/IAzApplicationGroup::get_Writable, get_Writable, security.iazapplicationgroup_writable
 ms.topic: method
+f1_keywords: ["azroles/IAzApplicationGroup.Writable"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control, IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION control code [Human Input Devices], hid.ioctl_keyboard_query_indicator_translation2, i8042ref_e1b419fa-c16e-4fe4-9534-5ae074cbb238.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION
 ms.topic: ioctl
+f1_keywords: ["ntddkbd/IOCTL_KEYBOARD_QUERY_INDICATOR_TRANSLATION"]
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

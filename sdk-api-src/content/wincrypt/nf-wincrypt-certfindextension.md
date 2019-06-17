@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
 ms.topic: function
+f1_keywords: ["wincrypt/CertFindExtension"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

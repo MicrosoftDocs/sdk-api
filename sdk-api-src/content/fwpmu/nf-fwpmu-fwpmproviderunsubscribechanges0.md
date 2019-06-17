@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderUnsubscribeChanges0, FwpmProviderUnsubscribeChanges0 function [Filtering], fwp.fwpmproviderunsubscribechanges0_func, fwpmu/FwpmProviderUnsubscribeChanges0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmProviderUnsubscribeChanges0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_ARGUMENTS_MANIPULATION, INTERACTION_ARGUMENTS_MANIPULATION structure, input_intcontext.interaction_arguments_manipulation, interactioncontext.interaction_arguments_manipulation, interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION
 ms.topic: struct
+f1_keywords: ["interactioncontext/INTERACTION_ARGUMENTS_MANIPULATION"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

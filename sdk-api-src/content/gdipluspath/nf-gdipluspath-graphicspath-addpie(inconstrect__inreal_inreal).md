@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddPie, AddPie method [GDI+], AddPie method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddPie method, GraphicsPath.AddPie, GraphicsPath.AddPie(IN const Rect &,IN REAL,IN REAL), GraphicsPath.AddPie(const Rect&,REAL,REAL), GraphicsPath::AddPie, GraphicsPath::AddPie(IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_GraphicsPath_AddPie_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_Rect_rect_REAL_startAngle_REAL_sweepAngle_
 ms.topic: method
+f1_keywords: ["gdipluspath/GraphicsPath.AddPie"]
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TerminateEnclave, TerminateEnclave function, base.terminateenclave, enclaveapi/TerminateEnclave
 ms.topic: function
+f1_keywords: ["enclaveapi/TerminateEnclave"]
 req.header: enclaveapi.h
 req.include-header: 
 req.target-type: Windows

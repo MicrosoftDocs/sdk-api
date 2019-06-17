@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrRegister, ISyncMgrRegister interface [Windows Shell], ISyncMgrRegister interface [Windows Shell],described, mobsync/ISyncMgrRegister, shell.syncmgr_isyncmgrregister, syncmgr.isyncmgrregister
 ms.topic: interface
+f1_keywords: ["mobsync/ISyncMgrRegister"]
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

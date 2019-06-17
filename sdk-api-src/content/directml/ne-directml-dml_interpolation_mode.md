@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_INTERPOLATION_MODE, DML_INTERPOLATION_MODE enumeration, DML_INTERPOLATION_MODE_LINEAR, DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct3d12.dml_interpolation_mode, directml/DML_INTERPOLATION_MODE, directml/DML_INTERPOLATION_MODE_LINEAR, directml/DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR
 ms.topic: enum
+f1_keywords: ["directml/DML_INTERPOLATION_MODE"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

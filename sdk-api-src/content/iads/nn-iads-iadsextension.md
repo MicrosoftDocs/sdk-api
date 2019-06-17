@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsExtension, IADsExtension interface [ADSI], IADsExtension interface [ADSI],described, _ds_iadsextension, adsi.iadsextension, iads/IADsExtension
 ms.topic: interface
+f1_keywords: ["iads/IADsExtension"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

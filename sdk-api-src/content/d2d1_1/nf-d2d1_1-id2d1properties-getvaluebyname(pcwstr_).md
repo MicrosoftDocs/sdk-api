@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetValueByName, GetValueByName method [Direct2D], GetValueByName method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValueByName method, ID2D1Properties.GetValueByName, ID2D1Properties.GetValueByName(PCWSTR,), ID2D1Properties::GetValueByName, ID2D1Properties::GetValueByName(PCWSTR), ID2D1Properties::GetValueByName(PCWSTR,), d2d1_1/ID2D1Properties::GetValueByName, direct2d.id2d1properties_getvaluebyname4
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Properties.GetValueByName"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetToken, GetToken method, GetToken method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetToken method, IXblIdpAuthTokenResult.GetToken, IXblIdpAuthTokenResult::GetToken, xblidp.ixblidpauthtokenresult_gettoken, xblidpauthmanager/IXblIdpAuthTokenResult::GetToken
 ms.topic: method
+f1_keywords: ["xblidpauthmanager/IXblIdpAuthTokenResult.GetToken"]
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

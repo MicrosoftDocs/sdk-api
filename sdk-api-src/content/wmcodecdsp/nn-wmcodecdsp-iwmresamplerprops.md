@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMResamplerProps, IWMResamplerProps interface [Media Foundation], IWMResamplerProps interface [Media Foundation],described, codecapi.iwmresamplerpropsinterface, mf.iwmresamplerprops, mf.iwmresamplerpropsinterface, wmcodecdsp/IWMResamplerProps
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/IWMResamplerProps"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

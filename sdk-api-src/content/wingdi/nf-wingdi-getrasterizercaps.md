@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRasterizerCaps, GetRasterizerCaps function [Windows GDI], _win32_GetRasterizerCaps, gdi.getrasterizercaps, wingdi/GetRasterizerCaps
 ms.topic: function
+f1_keywords: ["wingdi/GetRasterizerCaps"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

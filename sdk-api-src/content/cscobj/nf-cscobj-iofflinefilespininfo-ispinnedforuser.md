@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinnedForUser method, IOfflineFilesPinInfo.IsPinnedForUser, IOfflineFilesPinInfo::IsPinnedForUser, IsPinnedForUser, IsPinnedForUser method [Offline Files], IsPinnedForUser method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinnedForUser, of.iofflinefilespininfo_ispinnedforuser
 ms.topic: method
+f1_keywords: ["cscobj/IOfflineFilesPinInfo.IsPinnedForUser"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

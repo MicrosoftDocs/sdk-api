@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT, LOOKUP_STREAM_FROM_CLUSTER_OUTPUT, LOOKUP_STREAM_FROM_CLUSTER_OUTPUT structure [Files], PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT, PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT structure pointer [Files], fs.lookup_stream_from_cluster_output, winioctl/LOOKUP_STREAM_FROM_CLUSTER_OUTPUT, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT"
 ms.topic: struct
+f1_keywords: ["winioctl/LOOKUP_STREAM_FROM_CLUSTER_OUTPUT"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

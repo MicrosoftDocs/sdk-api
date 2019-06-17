@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcDeleteFlow, TcDeleteFlow function [QOS], _gqos_tcdeleteflow, qos.tcdeleteflow, traffic/TcDeleteFlow
 ms.topic: function
+f1_keywords: ["traffic/TcDeleteFlow"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

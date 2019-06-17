@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method, GetPropertyCount method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetPropertyCount method, IGraphicsEffectD2D1Interop.GetPropertyCount, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetPropertyCount, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getpropertycount, windows/IGraphicsEffectD2D1Interop::GetPropertyCount
 ms.topic: method
+f1_keywords: ["windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetPropertyCount"]
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows

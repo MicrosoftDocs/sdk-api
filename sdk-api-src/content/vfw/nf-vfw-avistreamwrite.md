@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIStreamWrite, AVIStreamWrite function [Windows Multimedia], _win32_AVIStreamWrite, multimedia.avistreamwrite, vfw/AVIStreamWrite
 ms.topic: function
+f1_keywords: ["vfw/AVIStreamWrite"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

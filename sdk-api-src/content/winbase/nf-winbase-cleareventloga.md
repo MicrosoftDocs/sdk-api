@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
 ms.topic: function
+f1_keywords: ["winbase/ClearEventLog"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

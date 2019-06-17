@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumAudioCapability, EnumAudioCapability method [Microsoft TV Technologies], EnumAudioCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumAudioCapability method, IBDA_Encoder.EnumAudioCapability, IBDA_Encoder::EnumAudioCapability, PBDA_Encoder_Audio_AlgorithmType_AC3, PBDA_Encoder_Audio_AlgorithmType_MPEG1LayerII, bdaiface/IBDA_Encoder::EnumAudioCapability, mstv.ibda_encoder_enumaudiocapability
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_Encoder.EnumAudioCapability"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

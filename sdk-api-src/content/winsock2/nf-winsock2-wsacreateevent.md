@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSACreateEvent, WSACreateEvent function [Winsock], _win32_wsacreateevent_2, winsock.wsacreateevent_2, winsock2/WSACreateEvent
 ms.topic: function
+f1_keywords: ["winsock2/WSACreateEvent"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

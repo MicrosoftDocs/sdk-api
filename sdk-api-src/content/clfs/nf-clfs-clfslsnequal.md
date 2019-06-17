@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsLsnEqual, LsnEqual, LsnEqual function [Files], clfs/LsnEqual, fs.lsnequal
 ms.topic: function
+f1_keywords: ["clfs/LsnEqual"]
 req.header: clfs.h
 req.include-header: 
 req.target-type: Windows

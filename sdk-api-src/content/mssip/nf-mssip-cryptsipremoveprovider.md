@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPRemoveProvider, CryptSIPRemoveProvider function [Security], mssip/CryptSIPRemoveProvider, security.cryptsipremoveprovider
 ms.topic: function
+f1_keywords: ["mssip/CryptSIPRemoveProvider"]
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

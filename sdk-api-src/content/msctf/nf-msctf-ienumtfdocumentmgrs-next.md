@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Next method, IEnumTfDocumentMgrs.Next, IEnumTfDocumentMgrs::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_next_ref, msctf/IEnumTfDocumentMgrs::Next, tsf.ienumtfdocumentmgrs_next
 ms.topic: method
+f1_keywords: ["msctf/IEnumTfDocumentMgrs.Next"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateSourceReaderFromURL, MFCreateSourceReaderFromURL function [Media Foundation], mf.mfcreatesourcereaderfromurl, mfreadwrite/MFCreateSourceReaderFromURL
 ms.topic: function
+f1_keywords: ["mfreadwrite/MFCreateSourceReaderFromURL"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

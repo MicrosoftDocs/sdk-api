@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FDEOR_ACCEPT, FDEOR_DEFAULT, FDEOR_REFUSE, FDE_OVERWRITE_RESPONSE, FDE_OVERWRITE_RESPONSE enumeration [Windows Shell], shell.FDE_OVERWRITE_RESPONSE, shell_FDE_OVERWRITE_RESPONSE, shobjidl_core/FDEOR_ACCEPT, shobjidl_core/FDEOR_DEFAULT, shobjidl_core/FDEOR_REFUSE, shobjidl_core/FDE_OVERWRITE_RESPONSE
 ms.topic: enum
+f1_keywords: ["shobjidl_core/FDE_OVERWRITE_RESPONSE"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

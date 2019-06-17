@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPinID, GetPinID method [Microsoft TV Technologies], GetPinID method [Microsoft TV Technologies],IBDA_PinControl interface, IBDA_PinControl interface [Microsoft TV Technologies],GetPinID method, IBDA_PinControl.GetPinID, IBDA_PinControl::GetPinID, IBDA_PinControlGetPinID, bdaiface/IBDA_PinControl::GetPinID, mstv.ibda_pincontrol_getpinid
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_PinControl.GetPinID"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

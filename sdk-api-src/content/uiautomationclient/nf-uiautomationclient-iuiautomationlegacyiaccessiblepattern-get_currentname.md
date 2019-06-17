@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentName property [Windows Accessibility], CurrentName property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentName property, IUIAutomationLegacyIAccessiblePattern.CurrentName, IUIAutomationLegacyIAccessiblePattern.get_CurrentName, IUIAutomationLegacyIAccessiblePattern::CurrentName, IUIAutomationLegacyIAccessiblePattern::get_CurrentName, get_CurrentName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentName
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentName"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

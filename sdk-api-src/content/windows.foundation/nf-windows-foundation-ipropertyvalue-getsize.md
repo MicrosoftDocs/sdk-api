@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Windows Runtime], GetSize method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetSize method, IPropertyValue.GetSize, IPropertyValue.IPropertyValue, IPropertyValue::GetSize, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetSize, winrt.ipropertyvalue_getsize
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValue.GetSize"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

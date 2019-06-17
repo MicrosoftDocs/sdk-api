@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents, IWMPEvents interface [Windows Media Player], IWMPEvents interface [Windows Media Player],described, IWMPEventsInterface, wmp.iwmpevents_interface, wmp/IWMPEvents
 ms.topic: interface
+f1_keywords: ["wmp/IWMPEvents"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

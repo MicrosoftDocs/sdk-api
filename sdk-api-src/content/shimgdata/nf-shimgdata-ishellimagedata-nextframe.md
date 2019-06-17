@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextFrame method, IShellImageData.NextFrame, IShellImageData::NextFrame, NextFrame, NextFrame method [Windows Shell], NextFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextFrame, shell.IShellImageData_NextFrame, shimgdata/IShellImageData::NextFrame
 ms.topic: method
+f1_keywords: ["shimgdata/IShellImageData.NextFrame"]
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows

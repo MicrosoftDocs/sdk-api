@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEADVISE, DDEADVISE structure [Data Exchange], _win32_DDEADVISE_str, _win32_ddeadvise_str_cpp, dataxchg.ddeadvise, dde/DDEADVISE, winui._win32_ddeadvise_str
 ms.topic: struct
+f1_keywords: ["dde/DDEADVISE"]
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

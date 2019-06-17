@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,QuerySnapshotDeltaBitmap method, IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap, IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap method, QuerySnapshotDeltaBitmap method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap
 ms.topic: method
+f1_keywords: ["vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap"]
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

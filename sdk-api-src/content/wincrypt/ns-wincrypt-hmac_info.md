@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHMAC_INFO, HMAC_INFO, HMAC_INFO structure [Security], PHMAC_INFO, PHMAC_INFO structure pointer [Security], _crypto2_hmac_info, security.hmac_info, wincrypt/HMAC_INFO, wincrypt/PHMAC_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/HMAC_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

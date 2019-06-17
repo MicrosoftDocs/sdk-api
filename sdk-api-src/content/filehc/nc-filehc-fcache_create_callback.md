@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCACHE_CREATE_CALLBACK, FCACHE_CREATE_CALLBACK callback, FCACHE_CREATE_CALLBACK callback function [Windows API], filehc/FCACHE_CREATE_CALLBACK, winprog.fcache_create_callback
 ms.topic: callback
+f1_keywords: ["filehc/FCACHE_CREATE_CALLBACK"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

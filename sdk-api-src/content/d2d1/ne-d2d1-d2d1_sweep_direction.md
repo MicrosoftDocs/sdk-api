@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_SWEEP_DIRECTION, D2D1_SWEEP_DIRECTION enumeration [Direct2D], D2D1_SWEEP_DIRECTION_CLOCKWISE, D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE, d2d1/D2D1_SWEEP_DIRECTION, d2d1/D2D1_SWEEP_DIRECTION_CLOCKWISE, d2d1/D2D1_SWEEP_DIRECTION_COUNTER_CLOCKWISE, direct2d.D2D1_SWEEP_DIRECTION
 ms.topic: enum
+f1_keywords: ["d2d1/D2D1_SWEEP_DIRECTION"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

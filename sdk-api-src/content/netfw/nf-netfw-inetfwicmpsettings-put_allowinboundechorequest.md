@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowInboundEchoRequest property [ICS/ICF], AllowInboundEchoRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundEchoRequest property, INetFwIcmpSettings.AllowInboundEchoRequest, INetFwIcmpSettings.put_AllowInboundEchoRequest, INetFwIcmpSettings::AllowInboundEchoRequest, INetFwIcmpSettings::get_AllowInboundEchoRequest, INetFwIcmpSettings::put_AllowInboundEchoRequest, ics.inetfwicmpsettings_allowinboundechorequest, netfw/INetFwIcmpSettings::AllowInboundEchoRequest, netfw/INetFwIcmpSettings::get_AllowInboundEchoRequest, netfw/INetFwIcmpSettings::put_AllowInboundEchoRequest, put_AllowInboundEchoRequest
 ms.topic: method
+f1_keywords: ["netfw/INetFwIcmpSettings.AllowInboundEchoRequest"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanGetProfileCustomUserData, WlanGetProfileCustomUserData function [NativeWIFI], nwifi.wlangetprofilecustomuserdata, wlanapi/WlanGetProfileCustomUserData
 ms.topic: function
+f1_keywords: ["wlanapi/WlanGetProfileCustomUserData"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

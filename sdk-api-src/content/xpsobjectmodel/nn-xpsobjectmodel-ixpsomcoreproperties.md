@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties, IXpsOMCoreProperties interface [XPS Documents and Packaging], IXpsOMCoreProperties interface [XPS Documents and Packaging],described, xps.ixpsomcoreproperties, xpsobjectmodel/IXpsOMCoreProperties
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMCoreProperties"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

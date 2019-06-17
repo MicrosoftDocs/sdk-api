@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCRemoveQOSTemplate, WSCRemoveQOSTemplate function [Winsock], winsock.wscremoveqostemplate, ws2spi/WSCRemoveQOSTemplate
 ms.topic: function
+f1_keywords: ["ws2spi/WSCRemoveQOSTemplate"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

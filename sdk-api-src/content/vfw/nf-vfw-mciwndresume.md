@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndResume"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

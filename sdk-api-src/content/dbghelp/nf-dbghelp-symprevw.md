@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymPrev, SymPrev function, SymPrevW, base.symprev, dbghelp/SymPrev, dbghelp/SymPrevW
 ms.topic: function
+f1_keywords: ["dbghelp/SymPrev"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

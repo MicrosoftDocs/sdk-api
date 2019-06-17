@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ReportFileName property, IDataManager.ReportFileName, IDataManager.get_ReportFileName, IDataManager::ReportFileName, IDataManager::get_ReportFileName, IDataManager::put_ReportFileName, ReportFileName property [PLA], ReportFileName property [PLA],IDataManager interface, base.idatamanager_reportfilename, get_ReportFileName, pla.idatamanager_reportfilename, pla/IDataManager::ReportFileName, pla/IDataManager::get_ReportFileName, pla/IDataManager::put_ReportFileName
 ms.topic: method
+f1_keywords: ["pla/IDataManager.ReportFileName"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

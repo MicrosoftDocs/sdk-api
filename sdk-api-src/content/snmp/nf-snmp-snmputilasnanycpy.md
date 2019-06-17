@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilAsnAnyCpy, SnmpUtilAsnAnyCpy function [SNMP], _snmp_snmputilasnanycpy, snmp.snmputilasnanycpy, snmp/SnmpUtilAsnAnyCpy
 ms.topic: function
+f1_keywords: ["snmp/SnmpUtilAsnAnyCpy"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

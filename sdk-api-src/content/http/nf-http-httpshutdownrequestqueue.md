@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
 ms.topic: function
+f1_keywords: ["http/HttpShutdownRequestQueue"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

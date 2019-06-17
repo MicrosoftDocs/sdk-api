@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TCOMPfromLZXWindow, TCOMPfromLZXWindow macro [Windows API], fdi_fci_types/TCOMPfromLZXWindow, winprog.tcompfromlzxwindow
 ms.topic: macro
+f1_keywords: ["fdi_fci_types/TCOMPfromLZXWindow"]
 req.header: fdi_fci_types.h
 req.include-header: Fci.h
 req.target-type: Windows

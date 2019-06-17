@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadJob interface [Windows Update Agent],Updates property, IDownloadJob.Updates, IDownloadJob.get_Updates, IDownloadJob::Updates, IDownloadJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IDownloadJob interface, get_Updates, wua.idownloadjob_updates, wuapi/IDownloadJob::Updates, wuapi/IDownloadJob::get_Updates
 ms.topic: method
+f1_keywords: ["wuapi/IDownloadJob.Updates"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PROXY_TYPE_AUTO, MI_DESTINATIONOPTIONS_PROXY_TYPE_IE, MI_DESTINATIONOPTIONS_PROXY_TYPE_NONE, MI_DESTINATIONOPTIONS_PROXY_TYPE_WINHTTP, MI_DestinationOptions_SetProxyType, MI_DestinationOptions_SetProxyType function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetProxyType, wmi_v2.mi_destinationoptions_setproxytype
 ms.topic: function
+f1_keywords: ["mi/MI_DestinationOptions_SetProxyType"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

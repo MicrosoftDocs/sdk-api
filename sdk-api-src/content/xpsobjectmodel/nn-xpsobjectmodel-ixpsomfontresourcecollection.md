@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection, IXpsOMFontResourceCollection interface [XPS Documents and Packaging], IXpsOMFontResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomfontresourcecollection, xpsobjectmodel/IXpsOMFontResourceCollection
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMFontResourceCollection"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

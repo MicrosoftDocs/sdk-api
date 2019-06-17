@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetBandInfo, GetBandInfo method [Windows Shell], GetBandInfo method [Windows Shell],IDeskBand interface, IDeskBand interface [Windows Shell],GetBandInfo method, IDeskBand.GetBandInfo, IDeskBand::GetBandInfo, _win32_IDeskBand_GetBandInfo, shell.IDeskBand_GetBandInfo, shobjidl_core/IDeskBand::GetBandInfo
 ms.topic: method
+f1_keywords: ["shobjidl_core/IDeskBand.GetBandInfo"]
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DefaultDrawingAttributes property, IInkPicture.DefaultDrawingAttributes, IInkPicture.get_DefaultDrawingAttributes, IInkPicture::DefaultDrawingAttributes, IInkPicture::get_DefaultDrawingAttributes, IInkPicture::put_DefaultDrawingAttributes, InkPicture.get_DefaultDrawingAttributes, InkPicture.put_DefaultDrawingAttributes, get_DefaultDrawingAttributes, msinkaut/IInkPicture::DefaultDrawingAttributes, msinkaut/IInkPicture::get_DefaultDrawingAttributes, msinkaut/IInkPicture::put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkpicture_defaultdrawingattributes
 ms.topic: method
+f1_keywords: ["msinkaut/IInkPicture.DefaultDrawingAttributes"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

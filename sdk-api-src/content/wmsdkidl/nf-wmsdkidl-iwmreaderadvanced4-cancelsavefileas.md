@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelSaveFileAs, CancelSaveFileAs method [windows Media Format], CancelSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CancelSaveFileAs method, IWMReaderAdvanced4.CancelSaveFileAs, IWMReaderAdvanced4::CancelSaveFileAs, IWMReaderAdvanced4CancelSaveFileAs, wmformat.iwmreaderadvanced4_cancelsavefileas, wmsdkidl/IWMReaderAdvanced4::CancelSaveFileAs
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMReaderAdvanced4.CancelSaveFileAs"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

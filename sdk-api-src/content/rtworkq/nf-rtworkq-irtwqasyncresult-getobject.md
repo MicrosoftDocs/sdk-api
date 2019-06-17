@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject
 ms.topic: method
+f1_keywords: ["rtworkq/IRtwqAsyncResult.GetObject"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

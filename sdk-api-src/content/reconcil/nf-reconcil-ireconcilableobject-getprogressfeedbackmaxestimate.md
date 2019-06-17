@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProgressFeedbackMaxEstimate, GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features], GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features],IReconcilableObject interface, IReconcilableObject interface [Legacy Windows Environment Features],GetProgressFeedbackMaxEstimate method, IReconcilableObject.GetProgressFeedbackMaxEstimate, IReconcilableObject::GetProgressFeedbackMaxEstimate, _win32_IReconcilableObject_GetProgressFeedbackMaxEstimate, lwef.ireconcilableobject_getprogressfeedbackmaxestimate, reconcil/IReconcilableObject::GetProgressFeedbackMaxEstimate, shell.ireconcilableobject_getprogressfeedbackmaxestimate
 ms.topic: method
+f1_keywords: ["reconcil/IReconcilableObject.GetProgressFeedbackMaxEstimate"]
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

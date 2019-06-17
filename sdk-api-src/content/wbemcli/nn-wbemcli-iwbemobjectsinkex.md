@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectSinkEx, IWbemObjectSinkEx interface [Windows Management Instrumentation], IWbemObjectSinkEx interface [Windows Management Instrumentation],described, wbemcli/IWbemObjectSinkEx, wmi.iwbemobjectsinkex
 ms.topic: interface
+f1_keywords: ["wbemcli/IWbemObjectSinkEx"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

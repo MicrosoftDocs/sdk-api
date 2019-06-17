@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement interface [Windows Accessibility],SetFocus method, IUIAutomationElement.SetFocus, IUIAutomationElement::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IUIAutomationElement interface, uiauto.uiauto_IUIAutomationElement_SetFocus, uiauto_IUIAutomationElement_SetFocus, uiautomationclient/IUIAutomationElement::SetFocus, winauto.uiauto_IUIAutomationElement_SetFocus
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.SetFocus"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

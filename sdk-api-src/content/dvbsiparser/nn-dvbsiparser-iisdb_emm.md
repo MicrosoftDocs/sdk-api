@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IISDB_EMM, IISDB_EMM interface [Microsoft TV Technologies], IISDB_EMM interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_EMM, mstv.iisdb_emm
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IISDB_EMM"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

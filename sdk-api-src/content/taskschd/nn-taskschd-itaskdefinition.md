@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition, ITaskDefinition interface [Task Scheduler], ITaskDefinition interface [Task Scheduler],described, taskschd.itaskdefinition, taskschd/ITaskDefinition
 ms.topic: interface
+f1_keywords: ["taskschd/ITaskDefinition"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

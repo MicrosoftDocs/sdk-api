@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsPropSendErrorMessage, ADsPropSendErrorMessage function [Active Directory], ad.adspropsenderrormessage, adsprop/ADsPropSendErrorMessage
 ms.topic: function
+f1_keywords: ["adsprop/ADsPropSendErrorMessage"]
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows

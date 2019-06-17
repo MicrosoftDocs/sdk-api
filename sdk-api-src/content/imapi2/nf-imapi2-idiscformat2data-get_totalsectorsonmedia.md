@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_TotalSectorsOnMedia method, IDiscFormat2Data.get_TotalSectorsOnMedia, IDiscFormat2Data::get_TotalSectorsOnMedia, get_TotalSectorsOnMedia, get_TotalSectorsOnMedia method [IMAPI], get_TotalSectorsOnMedia method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_totalsectorsonmedia, imapi2/IDiscFormat2Data::get_TotalSectorsOnMedia
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2Data.get_TotalSectorsOnMedia"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

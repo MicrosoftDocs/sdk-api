@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRawPointerDeviceData, GetRawPointerDeviceData function, input_pointerdevice.getrawpointerdevicedata, unifiedinputstack.getrawpointerdevicedata, winuser/GetRawPointerDeviceData
 ms.topic: function
+f1_keywords: ["winuser/GetRawPointerDeviceData"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

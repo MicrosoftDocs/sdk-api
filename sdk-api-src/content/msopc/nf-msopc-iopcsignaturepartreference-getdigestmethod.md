@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignaturePartReference.GetDigestMethod, IOpcSignaturePartReference::GetDigestMethod, msopc/IOpcSignaturePartReference::GetDigestMethod, opc.iopcsignaturepartreference_getdigestmethod
 ms.topic: method
+f1_keywords: ["msopc/IOpcSignaturePartReference.GetDigestMethod"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

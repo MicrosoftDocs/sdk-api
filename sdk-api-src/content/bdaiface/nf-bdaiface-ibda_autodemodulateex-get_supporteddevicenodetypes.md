@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],get_SupportedDeviceNodeTypes method, IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes, IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes, IBDA_AutoDemodulateExget_SupportedDeviceNodeTypes, bdaiface/IBDA_AutoDemodulateEx::get_SupportedDeviceNodeTypes, get_SupportedDeviceNodeTypes, get_SupportedDeviceNodeTypes method [Microsoft TV Technologies], get_SupportedDeviceNodeTypes method [Microsoft TV Technologies],IBDA_AutoDemodulateEx interface, mstv.ibda_autodemodulateex_get_supporteddevicenodetypes
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_AutoDemodulateEx.get_SupportedDeviceNodeTypes"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

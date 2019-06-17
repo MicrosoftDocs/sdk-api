@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteSurface, EngDeleteSurface function [Display Devices], display.engdeletesurface, gdifncs_7ffbac74-6789-4f81-a4eb-4f6f1c41a444.xml, winddi/EngDeleteSurface
 ms.topic: function
+f1_keywords: ["winddi/EngDeleteSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

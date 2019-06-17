@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interface [COM+], IServiceSynchronizationConfig interface [COM+],described, _cos_IServiceSynchronizationConfig, comsvcs/IServiceSynchronizationConfig, cos.iservicesynchronizationconfig
 ms.topic: interface
+f1_keywords: ["comsvcs/IServiceSynchronizationConfig"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

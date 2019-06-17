@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
 ms.topic: interface
+f1_keywords: ["ocidl/IPicture"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

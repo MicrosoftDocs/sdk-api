@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMNameCollection interface, IXpsOMNameCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMNameCollection.GetCount, IXpsOMNameCollection::GetCount, xps.ixpsomnamecollection_getcount, xpsobjectmodel/IXpsOMNameCollection::GetCount
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMNameCollection.GetCount"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

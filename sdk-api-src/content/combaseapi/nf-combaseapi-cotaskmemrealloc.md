@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoTaskMemRealloc, CoTaskMemRealloc function [COM], _com_CoTaskMemRealloc, com.cotaskmemrealloc, combaseapi/CoTaskMemRealloc
 ms.topic: function
+f1_keywords: ["combaseapi/CoTaskMemRealloc"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

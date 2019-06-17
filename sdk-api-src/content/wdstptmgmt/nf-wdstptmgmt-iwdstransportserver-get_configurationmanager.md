@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConfigurationManager property [Windows Deployment Services], ConfigurationManager property [Windows Deployment Services],IWdsTransportServer interface, IWdsTransportServer interface [Windows Deployment Services],ConfigurationManager property, IWdsTransportServer.ConfigurationManager, IWdsTransportServer.get_ConfigurationManager, IWdsTransportServer::ConfigurationManager, IWdsTransportServer::get_ConfigurationManager, get_ConfigurationManager, wds.iwdstransportserver_configurationmanager, wdstptmgmt/IWdsTransportServer::ConfigurationManager, wdstptmgmt/IWdsTransportServer::get_ConfigurationManager
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportServer.ConfigurationManager"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

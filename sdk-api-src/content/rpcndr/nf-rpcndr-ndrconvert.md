@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrConvert, NdrConvert, NdrConvert function [RPC], rpc.ndrconvert, rpcndr/NdrConvert
 ms.topic: function
+f1_keywords: ["rpcndr/NdrConvert"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

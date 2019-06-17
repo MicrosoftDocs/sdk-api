@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WeekDays, WeekDays enumeration [PLA], base.weekdays, pla.weekdays, pla/WeekDays, pla/plaEveryday, pla/plaFriday, pla/plaMonday, pla/plaRunOnce, pla/plaSaturday, pla/plaSunday, pla/plaThursday, pla/plaTuesday, pla/plaWednesday, plaEveryday, plaFriday, plaMonday, plaRunOnce, plaSaturday, plaSunday, plaThursday, plaTuesday, plaWednesday
 ms.topic: enum
+f1_keywords: ["pla/WeekDays"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

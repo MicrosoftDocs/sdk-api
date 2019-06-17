@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsFillBody, WsFillBody function [Web Services for Windows], webservices/WsFillBody, wsw.wsfillbody
 ms.topic: function
+f1_keywords: ["webservices/WsFillBody"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlsCallback, FlsCallback callback function, PFLS_CALLBACK_FUNCTION, PFLS_CALLBACK_FUNCTION callback, _win32_flscallback, base.flscallback, winnt/FlsCallback
 ms.topic: callback
+f1_keywords: ["winnt/FlsCallback"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [Windows API],described, fhcfg/IFhTarget, winprog.ifhtarget
 ms.topic: interface
+f1_keywords: ["fhcfg/IFhTarget"]
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

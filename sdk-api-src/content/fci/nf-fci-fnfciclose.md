@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
 ms.topic: macro
+f1_keywords: ["fci/FNFCICLOSE"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

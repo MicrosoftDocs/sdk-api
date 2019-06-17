@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetServiceHost, WsResetServiceHost function [Web Services for Windows], webservices/WsResetServiceHost, wsw.wsresetservicehost
 ms.topic: function
+f1_keywords: ["webservices/WsResetServiceHost"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

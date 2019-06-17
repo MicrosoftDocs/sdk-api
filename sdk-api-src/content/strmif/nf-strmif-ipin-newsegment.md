@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPin interface [DirectShow],NewSegment method, IPin.NewSegment, IPin::NewSegment, IPinNewSegment, NewSegment, NewSegment method [DirectShow], NewSegment method [DirectShow],IPin interface, dshow.ipin_newsegment, strmif/IPin::NewSegment
 ms.topic: method
+f1_keywords: ["strmif/IPin.NewSegment"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

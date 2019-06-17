@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable, IGPMMigrationTable, IGPMMigrationTable interface [GPMC], IGPMMigrationTable interface [GPMC],described, gpmc.igpmmigrationtable, gpmgmt/IGPMMigrationTable
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMMigrationTable"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

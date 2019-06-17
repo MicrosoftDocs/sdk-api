@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ROTATION, MF_VIDEO_PROCESSOR_ROTATION enumeration [Media Foundation], ROTATION_NONE, ROTATION_NORMAL, mf.mf_video_processor_rotation, mfidl/MF_VIDEO_PROCESSOR_ROTATION, mfidl/ROTATION_NONE, mfidl/ROTATION_NORMAL
 ms.topic: enum
+f1_keywords: ["mfidl/MF_VIDEO_PROCESSOR_ROTATION"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

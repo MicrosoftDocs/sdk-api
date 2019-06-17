@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineReceiveMSPData, TSPI_lineReceiveMSPData function [TAPI 2.2], _tspi_tspi_linereceivemspdata, tspi.tspi_linereceivemspdata, tspi/TSPI_lineReceiveMSPData
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineReceiveMSPData"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

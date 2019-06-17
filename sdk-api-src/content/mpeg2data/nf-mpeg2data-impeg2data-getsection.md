@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSection, GetSection method [Microsoft TV Technologies], GetSection method [Microsoft TV Technologies],IMpeg2Data interface, IMpeg2Data interface [Microsoft TV Technologies],GetSection method, IMpeg2Data.GetSection, IMpeg2Data::GetSection, IMpeg2DataGetSection, mpeg2data/IMpeg2Data::GetSection, mstv.impeg2data_getsection
 ms.topic: method
+f1_keywords: ["mpeg2data/IMpeg2Data.GetSection"]
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows

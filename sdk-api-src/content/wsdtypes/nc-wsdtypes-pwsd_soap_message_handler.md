@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWSD_SOAP_MESSAGE_HANDLER, PWSD_SOAP_MESSAGE_HANDLER callback, PWSD_SOAP_MESSAGE_HANDLER callback function, callback function pointer, ncd.pwsd_soap_message_handler_func, wsdtypes/PWSD_SOAP_MESSAGE_HANDLER
 ms.topic: callback
+f1_keywords: ["wsdtypes/PWSD_SOAP_MESSAGE_HANDLER"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

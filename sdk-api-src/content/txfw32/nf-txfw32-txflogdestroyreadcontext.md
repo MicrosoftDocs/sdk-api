@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TxfLogDestroyReadContext, TxfLogDestroyReadContext function [Files], fs.txflogdestroyreadcontext, txfw32/TxfLogDestroyReadContext
 ms.topic: function
+f1_keywords: ["txfw32/TxfLogDestroyReadContext"]
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7cc09321-049c-23b4-3867-f1b76d332515, CopyResource, CopyResource method [Direct3D 10], CopyResource method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopyResource method, ID3D10Device.CopyResource, ID3D10Device::CopyResource, d3d10/ID3D10Device::CopyResource, direct3d10.id3d10device_copyresource
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Device.CopyResource"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

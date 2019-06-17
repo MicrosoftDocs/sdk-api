@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CalcInputFrames, CalcInputFrames method [Audio Devices], CalcInputFrames method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],CalcInputFrames method, IAudioProcessingObjectRT.CalcInputFrames, IAudioProcessingObjectRT::CalcInputFrames, audio.iaudioprocessingobjectrt_calcinputframes, audio_syseffects_r_e44e803b-e1cf-40d1-b4d1-39e765a5a694.xml, audioenginebaseapo/IAudioProcessingObjectRT::CalcInputFrames
 ms.topic: method
+f1_keywords: ["audioenginebaseapo/IAudioProcessingObjectRT.CalcInputFrames"]
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Universal

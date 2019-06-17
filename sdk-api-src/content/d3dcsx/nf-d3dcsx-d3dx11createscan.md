@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 084772c2-3360-63d5-fb00-82f536323a9d, D3DX11CreateScan, D3DX11CreateScan function [Direct3D 11], d3dcsx/D3DX11CreateScan, direct3d11.d3dx11createscan
 ms.topic: function
+f1_keywords: ["d3dcsx/D3DX11CreateScan"]
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

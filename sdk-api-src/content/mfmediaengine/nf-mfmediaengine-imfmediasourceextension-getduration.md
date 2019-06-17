@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFMediaSourceExtension interface, IMFMediaSourceExtension interface [Media Foundation],GetDuration method, IMFMediaSourceExtension.GetDuration, IMFMediaSourceExtension::GetDuration, mf.imfmediasourceextension_getduration, mfmediaengine/IMFMediaSourceExtension::GetDuration
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaSourceExtension.GetDuration"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

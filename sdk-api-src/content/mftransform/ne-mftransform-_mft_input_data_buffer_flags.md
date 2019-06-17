@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 17405ee2-6513-4308-b29f-060211301918, MFT_INPUT_DATA_BUFFER_PLACEHOLDER, _MFT_INPUT_DATA_BUFFER_FLAGS, _MFT_INPUT_DATA_BUFFER_FLAGS enumeration [Media Foundation], mf._mft_input_data_buffer_flags, mftransform/MFT_INPUT_DATA_BUFFER_PLACEHOLDER, mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS
 ms.topic: enum
+f1_keywords: ["mftransform/_MFT_INPUT_DATA_BUFFER_FLAGS"]
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog2 interface [Windows Shell],SetNavigationRoot method, IFileDialog2.SetNavigationRoot, IFileDialog2::SetNavigationRoot, SetNavigationRoot, SetNavigationRoot method [Windows Shell], SetNavigationRoot method [Windows Shell],IFileDialog2 interface, _shell_IFileDialog2_SetNavigationRoot, shell.IFileDialog2_SetNavigationRoot, shobjidl/IFileDialog2::SetNavigationRoot
 ms.topic: method
+f1_keywords: ["shobjidl/IFileDialog2.SetNavigationRoot"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

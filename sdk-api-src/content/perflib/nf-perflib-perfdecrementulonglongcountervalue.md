@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PerfDecrementULongLongCounterValue, PerfDecrementULongLongCounterValue function [Perf], perf.perfdecrementulonglongcountervalue, perflib/PerfDecrementULongLongCounterValue
 ms.topic: function
+f1_keywords: ["perflib/PerfDecrementULongLongCounterValue"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

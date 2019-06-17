@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetAuthorizationFn, RpcMgmtSetAuthorizationFn function [RPC], _rpc_rpcmgmtsetauthorizationfn, rpc.rpcmgmtsetauthorizationfn, rpcdce/RpcMgmtSetAuthorizationFn
 ms.topic: function
+f1_keywords: ["rpcdce/RpcMgmtSetAuthorizationFn"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

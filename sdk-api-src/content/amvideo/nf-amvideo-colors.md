@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COLORS, COLORS function [DirectShow], amvideo/COLORS, dshow.colors
 ms.topic: macro
+f1_keywords: ["amvideo/COLORS"]
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

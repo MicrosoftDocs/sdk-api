@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerHook, IWMPlayerHook interface [windows Media Format], IWMPlayerHook interface [windows Media Format],described, IWMPlayerHookInterface, wmformat.iwmplayerhook, wmsdkidl/IWMPlayerHook
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMPlayerHook"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

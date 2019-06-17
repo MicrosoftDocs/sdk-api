@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble, IPipeDouble interface [COM], IPipeDouble interface [COM],described, _com_ipipedouble, com.ipipedouble, objidlbase/IPipeDouble
 ms.topic: interface
+f1_keywords: ["objidlbase/IPipeDouble"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetErrorCode, GetErrorCode method [Media Foundation], GetErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetErrorCode method, IMFTimedTextTrack.GetErrorCode, IMFTimedTextTrack::GetErrorCode, mf.imftimedtexttrack_geterrorcode, mfmediaengine/IMFTimedTextTrack::GetErrorCode
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFTimedTextTrack.GetErrorCode"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

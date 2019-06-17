@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFSerializePresentationDescriptor, MFSerializePresentationDescriptor function [Media Foundation], f39a0dc8-438e-4723-94e4-a194a0a460e3, mf.mfserializepresentationdescriptor, mfidl/MFSerializePresentationDescriptor
 ms.topic: function
+f1_keywords: ["mfidl/MFSerializePresentationDescriptor"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

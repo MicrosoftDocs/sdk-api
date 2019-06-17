@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PIBIO_STORAGE_CONTROL_UNIT_FN, PIBIO_STORAGE_CONTROL_UNIT_FN callback, StorageAdapterControlUnit, StorageAdapterControlUnit callback function [Windows Biometric Framework API], secbiomet.storageadaptercontrolunit, winbio_adapter/StorageAdapterControlUnit
 ms.topic: callback
+f1_keywords: ["winbio_adapter/StorageAdapterControlUnit"]
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

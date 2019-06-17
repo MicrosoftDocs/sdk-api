@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectDepthStencilVariable interface, ID3D10EffectDepthStencilVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectDepthStencilVariable.GetBackingStore, ID3D10EffectDepthStencilVariable::GetBackingStore, d3d10effect/ID3D10EffectDepthStencilVariable::GetBackingStore, direct3d10.id3d10effectdepthstencilvariable_getbackingstore, f9003aa5-ba35-95d6-f8c4-b56aa73c1f4e
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectDepthStencilVariable.GetBackingStore"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

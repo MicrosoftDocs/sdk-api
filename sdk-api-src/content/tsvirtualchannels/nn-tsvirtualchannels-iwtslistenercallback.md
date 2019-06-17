@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSListenerCallback, IWTSListenerCallback interface [Remote Desktop Services], IWTSListenerCallback interface [Remote Desktop Services],described, termserv.iwtslistenercallback, tsvirtualchannels/IWTSListenerCallback
 ms.topic: interface
+f1_keywords: ["tsvirtualchannels/IWTSListenerCallback"]
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

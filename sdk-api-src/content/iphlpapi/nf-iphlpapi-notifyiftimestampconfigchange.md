@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NotifyIfTimestampConfigChange, NotifyIfTimestampConfigChange function [IP Helper], iphlp.notifyiftimestampconfigchange, iphlpapi/NotifyIfTimestampConfigChange
 ms.topic: function
+f1_keywords: ["iphlpapi/NotifyIfTimestampConfigChange"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

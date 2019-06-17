@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordRatingValue, GetRecordRatingValue method [Microsoft TV Technologies], GetRecordRatingValue method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRecordRatingValue method, IAtscContentAdvisoryDescriptor.GetRecordRatingValue, IAtscContentAdvisoryDescriptor::GetRecordRatingValue, IAtscContentAdvisoryDescriptorGetRecordRatingValue, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRecordRatingValue, mstv.iatsccontentadvisorydescriptor_getrecordratingvalue
 ms.topic: method
+f1_keywords: ["atscpsipparser/IAtscContentAdvisoryDescriptor.GetRecordRatingValue"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

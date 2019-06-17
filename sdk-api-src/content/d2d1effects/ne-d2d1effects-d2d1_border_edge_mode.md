@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_BORDER_EDGE_MODE, D2D1_BORDER_EDGE_MODE enumeration [Direct2D], D2D1_BORDER_EDGE_MODE_CLAMP, D2D1_BORDER_EDGE_MODE_MIRROR, D2D1_BORDER_EDGE_MODE_WRAP, d2d1effects/D2D1_BORDER_EDGE_MODE, d2d1effects/D2D1_BORDER_EDGE_MODE_CLAMP, d2d1effects/D2D1_BORDER_EDGE_MODE_MIRROR, d2d1effects/D2D1_BORDER_EDGE_MODE_WRAP, direct2d.d2d1_border_edge_mode
 ms.topic: enum
+f1_keywords: ["d2d1effects/D2D1_BORDER_EDGE_MODE"]
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: CHString::CHString
 ms.topic: language-reference
+f1_keywords: ["chstring/CHString::CHString"]
 targetos: Windows
 product: Windows
 req.assembly: 

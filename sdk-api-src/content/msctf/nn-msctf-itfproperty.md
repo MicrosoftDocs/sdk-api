@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfProperty, ITfProperty interface [Text Services Framework], ITfProperty interface [Text Services Framework],described, _tsf_itfproperty_ref, msctf/ITfProperty, tsf.itfproperty
 ms.topic: interface
+f1_keywords: ["msctf/ITfProperty"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

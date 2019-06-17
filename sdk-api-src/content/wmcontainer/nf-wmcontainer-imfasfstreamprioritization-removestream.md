@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFASFStreamPrioritization interface [Media Foundation],RemoveStream method, IMFASFStreamPrioritization.RemoveStream, IMFASFStreamPrioritization::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFStreamPrioritization interface, a6139042-9c78-4fe7-8549-655e35be2862, mf.imfasfstreamprioritization_removestream, wmcontainer/IMFASFStreamPrioritization::RemoveStream
 ms.topic: method
+f1_keywords: ["wmcontainer/IMFASFStreamPrioritization.RemoveStream"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

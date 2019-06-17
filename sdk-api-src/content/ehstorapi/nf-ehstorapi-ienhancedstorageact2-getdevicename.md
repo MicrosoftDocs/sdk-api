@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDeviceName, GetDeviceName method [Enhanced Storage], GetDeviceName method [Enhanced Storage],IEnhancedStorageACT2 interface, IEnhancedStorageACT2 interface [Enhanced Storage],GetDeviceName method, IEnhancedStorageACT2.GetDeviceName, IEnhancedStorageACT2::GetDeviceName, ehstorapi/IEnhancedStorageACT2::GetDeviceName, enstor.ienhancedstorageact2_getdevicename
 ms.topic: method
+f1_keywords: ["ehstorapi/IEnhancedStorageACT2.GetDeviceName"]
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

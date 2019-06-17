@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetButtonInfo, TSPI_phoneSetButtonInfo function [TAPI 2.2], _tspi_tspi_phonesetbuttoninfo, tspi.tspi_phonesetbuttoninfo, tspi/TSPI_phoneSetButtonInfo
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneSetButtonInfo"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

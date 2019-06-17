@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleObject, IOleObject interface [COM], IOleObject interface [COM],described, _ole_ioleobject, com.ioleobject, oleidl/IOleObject
 ms.topic: interface
+f1_keywords: ["oleidl/IOleObject"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

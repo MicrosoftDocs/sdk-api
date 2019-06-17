@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
 ms.topic: function
+f1_keywords: ["rpcdce/RpcObjectInqType"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

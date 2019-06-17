@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddBehavior, AddBehavior method [Direct Manipulation], AddBehavior method [Direct Manipulation],IDirectManipulationViewport2 interface, IDirectManipulationViewport2 interface [Direct Manipulation],AddBehavior method, IDirectManipulationViewport2.AddBehavior, IDirectManipulationViewport2::AddBehavior, directmanipulation.idirectmanipulationviewport2_addbehavior, directmanipulation/IDirectManipulationViewport2::AddBehavior
 ms.topic: method
+f1_keywords: ["directmanipulation/IDirectManipulationViewport2.AddBehavior"]
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows

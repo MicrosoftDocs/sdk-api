@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MMC_SCOPE_ITEM_STATE, MMC_SCOPE_ITEM_STATE enumeration [MMC], MMC_SCOPE_ITEM_STATE_BOLD, MMC_SCOPE_ITEM_STATE_EXPANDEDONCE, MMC_SCOPE_ITEM_STATE_NORMAL, _slate_mmc_scope_item_state, mmc.mmc_scope_item_state, mmc/MMC_SCOPE_ITEM_STATE, mmc/MMC_SCOPE_ITEM_STATE_BOLD, mmc/MMC_SCOPE_ITEM_STATE_EXPANDEDONCE, mmc/MMC_SCOPE_ITEM_STATE_NORMAL
 ms.topic: enum
+f1_keywords: ["mmc/MMC_SCOPE_ITEM_STATE"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

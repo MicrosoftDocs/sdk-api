@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Files], CLS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Files], PPCLFS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER structure pointer [Files], PPCLS_IO_STATISTICS_HEADER, clfs/PCLFS_IO_STATISTICS_HEADER, clfs/PPCLFS_IO_STATISTICS_HEADER, clfs/_CLFS_IO_STATISTICS_HEADER, fs.clfs_io_statistics_header"
 ms.topic: struct
+f1_keywords: ["clfs/CLFS_IO_STATISTICS_HEADER"]
 req.header: clfs.h
 req.include-header: Clfsw32.h
 req.target-type: Windows

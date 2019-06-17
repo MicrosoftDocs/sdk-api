@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDial, TSPI_lineDial function [TAPI 2.2], _tspi_tspi_linedial, tspi.tspi_linedial, tspi/TSPI_lineDial
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineDial"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

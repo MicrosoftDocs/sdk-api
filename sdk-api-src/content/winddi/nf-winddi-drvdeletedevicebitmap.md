@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvDeleteDeviceBitmap, DrvDeleteDeviceBitmap function [Display Devices], ddifncs_3c8f9ccd-c145-481c-9d31-6a951557527d.xml, display.drvdeletedevicebitmap, winddi/DrvDeleteDeviceBitmap
 ms.topic: function
+f1_keywords: ["winddi/DrvDeleteDeviceBitmap"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilMemReAlloc, SnmpUtilMemReAlloc function [SNMP], _snmp_snmputilmemrealloc, snmp.snmputilmemrealloc, snmp/SnmpUtilMemReAlloc
 ms.topic: function
+f1_keywords: ["snmp/SnmpUtilMemReAlloc"]
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows

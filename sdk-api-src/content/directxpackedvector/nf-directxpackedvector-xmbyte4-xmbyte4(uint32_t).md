@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMBYTE4, XMBYTE4 constructor [DirectX Math Support APIs], XMBYTE4 constructor [DirectX Math Support APIs],XMBYTE4 structure, XMBYTE4 structure [DirectX Math Support APIs],XMBYTE4 constructor, XMBYTE4.XMBYTE4, XMBYTE4.XMBYTE4(uint32_t), XMBYTE4::XMBYTE4, XMBYTE4::XMBYTE4(uint32_t), dxmath.xmbyte4_ctor_6
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMBYTE4.XMBYTE4"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadSInt3, XMLoadSInt3, XMLoadSInt3 method [DirectX Math Support APIs], dxmath.xmloadsint3
 ms.topic: function
+f1_keywords: ["directxmath/XMLoadSInt3"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

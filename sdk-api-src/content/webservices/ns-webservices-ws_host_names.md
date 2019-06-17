@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_HOST_NAMES, WS_HOST_NAMES structure [Web Services for Windows], webservices/WS_HOST_NAMES, wsw.ws_host_names
 ms.topic: struct
+f1_keywords: ["webservices/WS_HOST_NAMES"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],described, wds.iwdstransportdiagnosticspolicy, wdstptmgmt/IWdsTransportDiagnosticsPolicy
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportDiagnosticsPolicy"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

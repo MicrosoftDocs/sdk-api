@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumMoniker, IEnumMoniker interface [COM], IEnumMoniker interface [COM],described, _ole_ienummoniker, com.ienummoniker, objidl/IEnumMoniker
 ms.topic: interface
+f1_keywords: ["objidl/IEnumMoniker"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

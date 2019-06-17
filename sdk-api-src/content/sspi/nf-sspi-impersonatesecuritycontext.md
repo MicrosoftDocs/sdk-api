@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
 ms.topic: function
+f1_keywords: ["sspi/ImpersonateSecurityContext"]
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

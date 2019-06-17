@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK, AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK callback, AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK, base.avrf_handleoperation_enumerate_callback, winprog.avrf_handleoperation_enumerate_callback
 ms.topic: callback
+f1_keywords: ["avrfsdk/AVRF_HANDLEOPERATION_ENUMERATE_CALLBACK"]
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows

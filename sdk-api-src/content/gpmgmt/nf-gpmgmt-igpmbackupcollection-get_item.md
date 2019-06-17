@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMBackupCollection object [GPMC],Item property, IGPMBackupCollection interface [GPMC],Item property, IGPMBackupCollection.Item, IGPMBackupCollection.get_Item, IGPMBackupCollection::Item, IGPMBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMBackupCollection object, Item property [GPMC],IGPMBackupCollection interface, get_Item, gpmc.igpmbackupcollection_get_item, gpmgmt/IGPMBackupCollection::Item, gpmgmt/IGPMBackupCollection::get_Item
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMBackupCollection.Item"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

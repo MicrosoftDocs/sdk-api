@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPCANDIDATELIST, *NPCANDIDATELIST, *PCANDIDATELIST, CANDIDATELIST, CANDIDATELIST structure [Internationalization for Windows Applications], PCANDIDATELIST, PCANDIDATELIST structure pointer [Internationalization for Windows Applications], _win32_CANDIDATELIST_str, imm/CANDIDATELIST, imm/PCANDIDATELIST, intl.candidatelist, tagCANDIDATELIST"
 ms.topic: struct
+f1_keywords: ["immdev/CANDIDATELIST"]
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

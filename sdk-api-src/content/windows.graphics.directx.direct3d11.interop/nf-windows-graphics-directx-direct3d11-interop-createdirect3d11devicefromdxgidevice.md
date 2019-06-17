@@ -9,6 +9,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: DF768592-3A0D-4FEA-AE30-CDD5406CAC9D, CreateDirect3D11DeviceFromDXGIDevice, CreateDirect3D11DeviceFromDXGIDevice function [Direct3D 11], windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice, direct3d11.createdirect3d11devicefromdxgidevice
 ms.topic: function
+f1_keywords: ["windows.graphics.directx.direct3d11.interop/CreateDirect3D11DeviceFromDXGIDevice"]
 req.header: windows.graphics.directx.direct3d11.interop.h
 req.include-header: 
 req.target-type: Windows

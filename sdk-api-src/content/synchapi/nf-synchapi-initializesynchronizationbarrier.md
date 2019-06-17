@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeSynchronizationBarrier, InitializeSynchronizationBarrier function, base.initializesynchronizationbarrier, synchapi/InitializeSynchronizationBarrier
 ms.topic: function
+f1_keywords: ["synchapi/InitializeSynchronizationBarrier"]
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows

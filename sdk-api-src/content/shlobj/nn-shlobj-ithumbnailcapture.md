@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCapture, IThumbnailCapture interface [Windows Shell], IThumbnailCapture interface [Windows Shell],described, _shell_IThumbnailCapture, shell.IThumbnailCapture, shlobj/IThumbnailCapture
 ms.topic: interface
+f1_keywords: ["shlobj/IThumbnailCapture"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

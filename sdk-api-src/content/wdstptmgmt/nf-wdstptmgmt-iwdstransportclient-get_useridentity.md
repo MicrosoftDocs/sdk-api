@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],UserIdentity property, IWdsTransportClient.UserIdentity, IWdsTransportClient.get_UserIdentity, IWdsTransportClient::UserIdentity, IWdsTransportClient::get_UserIdentity, UserIdentity property [Windows Deployment Services], UserIdentity property [Windows Deployment Services],IWdsTransportClient interface, get_UserIdentity, wds.iwdstransportclient_useridentity, wdstptmgmt/IWdsTransportClient::UserIdentity, wdstptmgmt/IWdsTransportClient::get_UserIdentity
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportClient.UserIdentity"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

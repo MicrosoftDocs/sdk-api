@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertificatePolicies.Remove, ICertificatePolicies::Remove, Remove, Remove method [Security], Remove method [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
 ms.topic: method
+f1_keywords: ["certenroll/ICertificatePolicies.Remove"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

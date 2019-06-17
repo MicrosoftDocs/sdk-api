@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontFamily, GetFontFamily method [Direct Write], GetFontFamily method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetFontFamily method, IDWriteFont.GetFontFamily, IDWriteFont::GetFontFamily, directwrite.IDWriteFont_GetFontFamily, dwrite/IDWriteFont::GetFontFamily
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteFont.GetFontFamily"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

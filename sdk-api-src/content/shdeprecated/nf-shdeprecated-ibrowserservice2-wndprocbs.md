@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],WndProcBS method, IBrowserService2.WndProcBS, IBrowserService2::WndProcBS, WndProcBS, WndProcBS method [Windows Shell], WndProcBS method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::WndProcBS, shell.IBrowserService2_WndProcBS, zone_IBrowserService2_WndProcBS
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService2.WndProcBS"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

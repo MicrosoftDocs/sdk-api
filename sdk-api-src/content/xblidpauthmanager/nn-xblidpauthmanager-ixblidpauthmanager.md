@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXblIdpAuthManager, IXblIdpAuthManager interface, IXblIdpAuthManager interface,described, xblidp.ixblidpauthmanager, xblidpauthmanager/IXblIdpAuthManager
 ms.topic: interface
+f1_keywords: ["xblidpauthmanager/IXblIdpAuthManager"]
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows

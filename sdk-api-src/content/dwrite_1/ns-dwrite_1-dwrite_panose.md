@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE, DWRITE_PANOSE union [Direct Write], directwrite.dwrite_panose, dwrite_1/DWRITE_PANOSE
 ms.topic: struct
+f1_keywords: ["dwrite_1/DWRITE_PANOSE"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

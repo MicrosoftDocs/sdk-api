@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
 ms.topic: method
+f1_keywords: ["objidlbase/IPipeDouble.Pull"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

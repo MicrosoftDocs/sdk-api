@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsRestartRecord, ReadNextLogRecord, ReadNextLogRecord function [Files], clfsw32/ReadNextLogRecord, fs.readnextlogrecord
 ms.topic: function
+f1_keywords: ["clfsw32/ReadNextLogRecord"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromI2, VarBstrFromI2 function [Automation], _oa96_VarBstrFromI2, automat.varbstrfromi2, oleauto/VarBstrFromI2
 ms.topic: function
+f1_keywords: ["oleauto/VarBstrFromI2"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

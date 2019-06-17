@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsGetObject, ADsGetObject function [ADSI], _ds_adsgetobject, adshlp/ADsGetObject, adsi.adsgetobject
 ms.topic: function
+f1_keywords: ["adshlp/ADsGetObject"]
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

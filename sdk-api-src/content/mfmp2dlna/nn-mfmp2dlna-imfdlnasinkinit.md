@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDLNASinkInit, IMFDLNASinkInit interface [Media Foundation], IMFDLNASinkInit interface [Media Foundation],described, mf.imfdlnasinkinit, mfmp2dlna/IMFDLNASinkInit
 ms.topic: interface
+f1_keywords: ["mfmp2dlna/IMFDLNASinkInit"]
 req.header: mfmp2dlna.h
 req.include-header: 
 req.target-type: Windows

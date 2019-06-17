@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
 ms.topic: macro
+f1_keywords: ["winbase/GlobalDiscard"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, LPFORMATETC structure pointer [COM], _ole_FORMATETC, com.formatetc, objidl/FORMATETC, objidl/LPFORMATETC"
 ms.topic: struct
+f1_keywords: ["objidl/FORMATETC"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],ValueType property, IFsrmFileConditionProperty.ValueType, IFsrmFileConditionProperty.get_ValueType, IFsrmFileConditionProperty::ValueType, IFsrmFileConditionProperty::get_ValueType, IFsrmFileConditionProperty::put_ValueType, ValueType property [File Server Resource Manager], ValueType property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_valuetype, fsrm.ifsrmfileconditionproperty_valuetype, fsrmreports/IFsrmFileConditionProperty::ValueType, fsrmreports/IFsrmFileConditionProperty::get_ValueType, fsrmreports/IFsrmFileConditionProperty::put_ValueType, get_ValueType
 ms.topic: method
+f1_keywords: ["fsrmreports/IFsrmFileConditionProperty.ValueType"]
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

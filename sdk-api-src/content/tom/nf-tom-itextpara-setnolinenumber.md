@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetNoLineNumber method, ITextPara.SetNoLineNumber, ITextPara::SetNoLineNumber, SetNoLineNumber, SetNoLineNumber method [Windows Controls], SetNoLineNumber method [Windows Controls],ITextPara interface, _win32_ITextPara_SetNoLineNumber, _win32_ITextPara_SetNoLineNumber_cpp, controls.ITextPara_SetNoLineNumber, controls._win32_ITextPara_SetNoLineNumber, tom/ITextPara::SetNoLineNumber
 ms.topic: method
+f1_keywords: ["tom/ITextPara.SetNoLineNumber"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

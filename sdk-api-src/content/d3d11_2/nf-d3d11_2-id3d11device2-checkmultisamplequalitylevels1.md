@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckMultisampleQualityLevels1, CheckMultisampleQualityLevels1 method [Direct3D 11], CheckMultisampleQualityLevels1 method [Direct3D 11],ID3D11Device2 interface, ID3D11Device2 interface [Direct3D 11],CheckMultisampleQualityLevels1 method, ID3D11Device2.CheckMultisampleQualityLevels1, ID3D11Device2::CheckMultisampleQualityLevels1, d3d11_2/ID3D11Device2::CheckMultisampleQualityLevels1, direct3d11.id3d11device2_checkmultisamplequalitylevels1
 ms.topic: method
+f1_keywords: ["d3d11_2/ID3D11Device2.CheckMultisampleQualityLevels1"]
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows

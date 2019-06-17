@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetLocalTime, SetLocalTime function, _win32_setlocaltime, base.setlocaltime, sysinfoapi/SetLocalTime
 ms.topic: function
+f1_keywords: ["sysinfoapi/SetLocalTime"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

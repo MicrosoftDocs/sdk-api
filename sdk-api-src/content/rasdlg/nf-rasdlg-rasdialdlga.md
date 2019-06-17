@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
 ms.topic: function
+f1_keywords: ["rasdlg/RasDialDlg"]
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows

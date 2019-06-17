@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedFullDescription property [Windows Accessibility], CachedFullDescription property [Windows Accessibility],IUIAutomationElement6 interface, IUIAutomationElement6 interface [Windows Accessibility],CachedFullDescription property, IUIAutomationElement6.CachedFullDescription, IUIAutomationElement6.get_CachedFullDescription, IUIAutomationElement6::CachedFullDescription, IUIAutomationElement6::get_CachedFullDescription, get_CachedFullDescription, uiautomationclient/IUIAutomationElement6::CachedFullDescription, uiautomationclient/IUIAutomationElement6::get_CachedFullDescription, winauto.uiauto_IUIAutomationElement6_CachedFullDescription
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement6.CachedFullDescription"]
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

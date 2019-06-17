@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/20/2019
 ms.keywords: XMUSHORT4::operator=
 ms.topic: language-reference
+f1_keywords: ["directxpackedvector/XMUSHORT4::operator="]
 targetos: Windows
 product: Windows
 req.assembly: 

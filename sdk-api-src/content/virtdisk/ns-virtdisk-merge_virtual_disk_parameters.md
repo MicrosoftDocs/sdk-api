@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS structure [VHD], PMERGE_VIRTUAL_DISK_PARAMETERS, PMERGE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/PMERGE_VIRTUAL_DISK_PARAMETERS, vhd.merge_virtual_disk_parameters, virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS, virtdisk/PMERGE_VIRTUAL_DISK_PARAMETERS"
 ms.topic: struct
+f1_keywords: ["virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetValidateAuthentication, NetValidatePasswordChange, NetValidatePasswordPolicy, NetValidatePasswordPolicy function [Network Management], NetValidatePasswordReset, lmaccess/NetValidatePasswordPolicy, netmgmt.netvalidatepasswordpolicy
 ms.topic: function
+f1_keywords: ["lmaccess/NetValidatePasswordPolicy"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

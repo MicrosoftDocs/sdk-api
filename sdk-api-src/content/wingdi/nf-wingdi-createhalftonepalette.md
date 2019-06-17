@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateHalftonePalette, CreateHalftonePalette function [Windows GDI], _win32_CreateHalftonePalette, gdi.createhalftonepalette, wingdi/CreateHalftonePalette
 ms.topic: function
+f1_keywords: ["wingdi/CreateHalftonePalette"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManagementAppHyperlink, GetManagementAppHyperlink function [MDM Registration], mdmreg.getmanagementapphyperlink, mdmregistration/GetManagementAppHyperlink
 ms.topic: function
+f1_keywords: ["mdmregistration/GetManagementAppHyperlink"]
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

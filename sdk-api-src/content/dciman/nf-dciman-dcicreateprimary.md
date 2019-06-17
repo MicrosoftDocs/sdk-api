@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DCICreatePrimary, DCICreatePrimary function [Windows API], _dciman_dcicreateprimary, dciman/DCICreatePrimary, winprog._dciman_dcicreateprimary, winui._dciman_dcicreateprimary
 ms.topic: function
+f1_keywords: ["dciman/DCICreatePrimary"]
 req.header: dciman.h
 req.include-header: 
 req.target-type: Windows

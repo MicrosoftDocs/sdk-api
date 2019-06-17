@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNextUrlCacheGroup, FindNextUrlCacheGroup function [WinINet], _inet_findnexturlcachegroup_function, wininet.findnexturlcachegroup, wininet/FindNextUrlCacheGroup
 ms.topic: function
+f1_keywords: ["wininet/FindNextUrlCacheGroup"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CaretBidiMode, CaretBidiMode enumeration [Windows Accessibility], CaretBidiMode_LTR, CaretBidiMode_RTL, uiautomationcore/CaretBidiMode, uiautomationcore/CaretBidiMode_LTR, uiautomationcore/CaretBidiMode_RTL, winauto.uiauto_CaretBidiMode
 ms.topic: enum
+f1_keywords: ["uiautomationcore/CaretBidiMode"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

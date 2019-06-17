@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrComformantArrayBufferSize, NdrConformantArrayBufferSize, NdrConformantArrayBufferSize function [Windows API], rpcndr/NdrConformantArrayBufferSize, winprog.ndrcomformantarraybuffersize
 ms.topic: function
+f1_keywords: ["rpcndr/NdrConformantArrayBufferSize"]
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

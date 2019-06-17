@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 42a56eab-a68f-232a-b21e-cc24c0b7b58d, CreateVertexShader, CreateVertexShader method [Direct3D 9], CreateVertexShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateVertexShader method, IDirect3DDevice9.CreateVertexShader, IDirect3DDevice9::CreateVertexShader, d3d9helper/IDirect3DDevice9::CreateVertexShader, direct3d9.idirect3ddevice9__createvertexshader
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.CreateVertexShader"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

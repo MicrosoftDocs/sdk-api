@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, NetStatisticsGet, NetStatisticsGet function [Files], _win32_netstatisticsget, fs.netstatisticsget, lmstats/NetStatisticsGet, netmgmt.netstatisticsget
 ms.topic: function
+f1_keywords: ["lmstats/NetStatisticsGet"]
 req.header: lmstats.h
 req.include-header: Lm.h
 req.target-type: Windows

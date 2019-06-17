@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineWebSupport interface [Media Foundation],ShouldDelayTheLoadEvent method, IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent, IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent, ShouldDelayTheLoadEvent, ShouldDelayTheLoadEvent method [Media Foundation], ShouldDelayTheLoadEvent method [Media Foundation],IMFMediaEngineWebSupport interface, mf.imfmediaenginewebsupport_shoulddelaytheloadevent, mfmediaengine/IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

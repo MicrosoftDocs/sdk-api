@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaRect, UiaRect structure [Windows Accessibility], uiauto.uiauto_UiaRectStruct, uiauto_UiaRectStruct, uiautomationcore/UiaRect, winauto.uiauto_UiaRectStruct
 ms.topic: struct
+f1_keywords: ["uiautomationcore/UiaRect"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

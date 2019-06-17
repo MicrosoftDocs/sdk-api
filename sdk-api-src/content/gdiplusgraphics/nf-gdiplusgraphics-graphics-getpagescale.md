@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPageScale, GetPageScale method [GDI+], GetPageScale method [GDI+],Graphics class, Graphics class [GDI+],GetPageScale method, Graphics.GetPageScale, Graphics::GetPageScale, _gdiplus_CLASS_Graphics_GetPageScale_, gdiplus._gdiplus_CLASS_Graphics_GetPageScale_
 ms.topic: method
+f1_keywords: ["gdiplusgraphics/Graphics.GetPageScale"]
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

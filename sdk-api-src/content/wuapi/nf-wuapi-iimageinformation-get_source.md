@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageInformation interface [Windows Update Agent],Source property, IImageInformation.Source, IImageInformation.get_Source, IImageInformation::Source, IImageInformation::get_Source, Source property [Windows Update Agent], Source property [Windows Update Agent],IImageInformation interface, get_Source, wua.iimageinformation_source, wuapi/IImageInformation::Source, wuapi/IImageInformation::get_Source
 ms.topic: method
+f1_keywords: ["wuapi/IImageInformation.Source"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

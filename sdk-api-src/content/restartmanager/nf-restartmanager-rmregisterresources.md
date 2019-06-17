@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmRegisterResources, RmRegisterResources function [Restart Mgr], restartmanager/RmRegisterResources, rstmgr.rmregisterresources
 ms.topic: function
+f1_keywords: ["restartmanager/RmRegisterResources"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

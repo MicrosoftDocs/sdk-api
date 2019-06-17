@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 13e85229-5904-0e99-1227-17faf8fb17e1, GetBoolVector, GetBoolVector method [Direct3D 10], GetBoolVector method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetBoolVector method, ID3D10EffectVectorVariable.GetBoolVector, ID3D10EffectVectorVariable::GetBoolVector, d3d10effect/ID3D10EffectVectorVariable::GetBoolVector, direct3d10.id3d10effectvectorvariable_getboolvector
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectVectorVariable.GetBoolVector"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

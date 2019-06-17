@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase"
 ms.topic: class
+f1_keywords: ["thrdbase/CThreadBase"]
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows

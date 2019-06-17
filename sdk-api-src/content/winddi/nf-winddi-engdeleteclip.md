@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDeleteClip, EngDeleteClip function [Display Devices], display.engdeleteclip, gdifncs_0ca10e14-e720-49f3-8c56-9c9dd646f04f.xml, winddi/EngDeleteClip
 ms.topic: function
+f1_keywords: ["winddi/EngDeleteClip"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

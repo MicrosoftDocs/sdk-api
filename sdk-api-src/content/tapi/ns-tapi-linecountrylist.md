@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPLINECOUNTRYLIST, LINECOUNTRYLIST, LINECOUNTRYLIST structure [TAPI 2.2], LPLINECOUNTRYLIST, LPLINECOUNTRYLIST structure pointer [TAPI 2.2], _tapi2_linecountrylist_str, tapi/LINECOUNTRYLIST, tapi/LPLINECOUNTRYLIST, tapi2.linecountrylist_str"
 ms.topic: struct
+f1_keywords: ["tapi/LINECOUNTRYLIST"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

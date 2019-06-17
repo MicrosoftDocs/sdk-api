@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryUmsThreadInformation, QueryUmsThreadInformation function, base.queryumsthreadinformation, winbase/QueryUmsThreadInformation
 ms.topic: function
+f1_keywords: ["winbase/QueryUmsThreadInformation"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

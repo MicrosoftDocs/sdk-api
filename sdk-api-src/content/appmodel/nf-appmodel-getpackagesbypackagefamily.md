@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackagesByPackageFamily, GetPackagesByPackageFamily function [App packaging and management], appmodel/GetPackagesByPackageFamily, appxpkg.getpackagesbypackagefamily
 ms.topic: function
+f1_keywords: ["appmodel/GetPackagesByPackageFamily"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

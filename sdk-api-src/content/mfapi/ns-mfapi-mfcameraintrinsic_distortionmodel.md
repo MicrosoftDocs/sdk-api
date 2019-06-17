@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCameraIntrinsic_DistortionModel, MFCameraIntrinsic_DistortionModel structure [Media Foundation], PMFCameraIntrinsic_DistortionModel, PMFCameraIntrinsic_DistortionModel structure pointer [Media Foundation], mf.mfcameraintrinsic_distortionmodel, mfapi/MFCameraIntrinsic_DistortionModel, mfapi/PMFCameraIntrinsic_DistortionModel
 ms.topic: struct
+f1_keywords: ["mfapi/MFCameraIntrinsic_DistortionModel"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

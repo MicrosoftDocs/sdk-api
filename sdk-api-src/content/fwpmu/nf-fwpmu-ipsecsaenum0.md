@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaEnum0, IPsecSaEnum0 function [Filtering], fwp.ipsecsaenum0_func, fwpmu/IPsecSaEnum0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaEnum0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

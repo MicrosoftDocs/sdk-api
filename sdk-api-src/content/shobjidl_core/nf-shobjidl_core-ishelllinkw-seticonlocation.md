@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetIconLocation method, IShellLink::SetIconLocation, IShellLinkA interface [Windows Shell],SetIconLocation method, IShellLinkA::SetIconLocation, IShellLinkW interface [Windows Shell],SetIconLocation method, IShellLinkW.SetIconLocation, IShellLinkW::SetIconLocation, SetIconLocation, SetIconLocation method [Windows Shell], SetIconLocation method [Windows Shell],IShellLink interface, SetIconLocation method [Windows Shell],IShellLinkA interface, SetIconLocation method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetIconLocation, shell.IShellLink_SetIconLocation, shobjidl_core/IShellLink::SetIconLocation, shobjidl_core/IShellLinkA::SetIconLocation, shobjidl_core/IShellLinkW::SetIconLocation
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.SetIconLocation"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVA2_AES_CTR_IV, DXVA2_AES_CTR_IV structure [Media Foundation], dxva2api/DXVA2_AES_CTR_IV, mf.dxva2_aes_ctr_iv
 ms.topic: struct
+f1_keywords: ["dxva2api/DXVA2_AES_CTR_IV"]
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetTimeouts, WinHttpSetTimeouts function [WinHTTP], http.winhttpsettimeouts, winhttp.winhttpsettimeouts_function, winhttp/WinHttpSetTimeouts
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpSetTimeouts"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

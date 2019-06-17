@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginName property, ItsPubPlugin.get_pluginName, ItsPubPlugin.pluginName, ItsPubPlugin::get_pluginName, ItsPubPlugin::pluginName, get_pluginName, pluginName property [Remote Desktop Services], pluginName property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginname, tspubplugincom/ItsPubPlugin::get_pluginName, tspubplugincom/ItsPubPlugin::pluginName
 ms.topic: method
+f1_keywords: ["tspubplugincom/ItsPubPlugin.pluginName"]
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows

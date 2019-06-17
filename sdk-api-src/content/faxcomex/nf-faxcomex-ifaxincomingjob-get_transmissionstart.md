@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],TransmissionStart property, IFaxIncomingJob.TransmissionStart, IFaxIncomingJob.get_TransmissionStart, IFaxIncomingJob::TransmissionStart, IFaxIncomingJob::get_TransmissionStart, TransmissionStart property [Fax Service], TransmissionStart property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.transmissionstart, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_transmissionstart_cpp, fax._mfax_faxincomingjob_transmissionstart, faxcomex/IFaxIncomingJob::TransmissionStart, faxcomex/IFaxIncomingJob::get_TransmissionStart, get_TransmissionStart
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingJob.TransmissionStart"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1002, 1005, 2, 3, NetGroupSetInfo, NetGroupSetInfo function [Network Management], _win32_netgroupsetinfo, lmaccess/NetGroupSetInfo, netmgmt.netgroupsetinfo
 ms.topic: function
+f1_keywords: ["lmaccess/NetGroupSetInfo"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

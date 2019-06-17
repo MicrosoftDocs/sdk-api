@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2, ICreateTypeInfo2 interface [Automation], ICreateTypeInfo2 interface [Automation],described, _oa96_ICreateTypeInfo2_Interface, automat.icreatetypeinfo2, oaidl/ICreateTypeInfo2
 ms.topic: interface
+f1_keywords: ["oaidl/ICreateTypeInfo2"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

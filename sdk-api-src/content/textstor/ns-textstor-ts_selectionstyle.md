@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_SELECTIONSTYLE, TS_SELECTIONSTYLE structure [Text Services Framework], _tsf_ts_selectionstyle_ref, textstor/TS_SELECTIONSTYLE, tsf.ts_selectionstyle
 ms.topic: struct
+f1_keywords: ["textstor/TS_SELECTIONSTYLE"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationItemContainerPattern, IUIAutomationItemContainerPattern interface [Windows Accessibility], IUIAutomationItemContainerPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationItemContainerPattern, uiauto_IUIAutomationItemContainerPattern, uiautomationclient/IUIAutomationItemContainerPattern, winauto.uiauto_IUIAutomationItemContainerPattern
 ms.topic: interface
+f1_keywords: ["uiautomationclient/IUIAutomationItemContainerPattern"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

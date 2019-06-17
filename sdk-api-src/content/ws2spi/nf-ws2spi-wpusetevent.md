@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUSetEvent, WPUSetEvent function [Winsock], _win32_wpusetevent_2, winsock.wpusetevent_2, ws2spi/WPUSetEvent
 ms.topic: function
+f1_keywords: ["ws2spi/WPUSetEvent"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

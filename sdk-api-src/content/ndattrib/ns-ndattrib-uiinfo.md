@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo"
 ms.topic: struct
+f1_keywords: ["ndattrib/UiInfo, *PUiInfo"]
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

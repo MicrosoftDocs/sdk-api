@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROXY_STATE, WS_SERVICE_PROXY_STATE enumeration [Web Services for Windows], WS_SERVICE_PROXY_STATE_CLOSED, WS_SERVICE_PROXY_STATE_CLOSING, WS_SERVICE_PROXY_STATE_CREATED, WS_SERVICE_PROXY_STATE_FAULTED, WS_SERVICE_PROXY_STATE_OPEN, WS_SERVICE_PROXY_STATE_OPENING, webservices/WS_SERVICE_PROXY_STATE, webservices/WS_SERVICE_PROXY_STATE_CLOSED, webservices/WS_SERVICE_PROXY_STATE_CLOSING, webservices/WS_SERVICE_PROXY_STATE_CREATED, webservices/WS_SERVICE_PROXY_STATE_FAULTED, webservices/WS_SERVICE_PROXY_STATE_OPEN, webservices/WS_SERVICE_PROXY_STATE_OPENING, wsw.ws_service_proxy_state
 ms.topic: enum
+f1_keywords: ["webservices/WS_SERVICE_PROXY_STATE"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

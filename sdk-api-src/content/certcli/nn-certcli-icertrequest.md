@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertRequest, ICertRequest interface [Security], ICertRequest interface [Security],described, _certsrv_icertrequest, certcli/ICertRequest, security.icertrequest
 ms.topic: interface
+f1_keywords: ["certcli/ICertRequest"]
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],Submit2 method, IFaxDocument2.Submit2, IFaxDocument2::Submit2, Submit2, Submit2 method [Fax Service], Submit2 method [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submit2_cpp, fax._mfax_faxdocument2_submit2, faxcomex/IFaxDocument2::Submit2
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxDocument2.Submit2"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

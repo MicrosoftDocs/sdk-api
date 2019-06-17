@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HH_FTS_QUERY, HH_FTS_QUERY structure [HTML Help Workshop], htmlhelp.hh_fts_query_structure, htmlhelp/HH_FTS_QUERY, vsconStrhhftsquery
 ms.topic: struct
+f1_keywords: ["htmlhelp/HH_FTS_QUERY"]
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

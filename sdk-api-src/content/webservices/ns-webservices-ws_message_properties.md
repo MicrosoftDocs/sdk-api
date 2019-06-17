@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_PROPERTIES, WS_MESSAGE_PROPERTIES structure [Web Services for Windows], webservices/WS_MESSAGE_PROPERTIES, wsw.ws_message_properties
 ms.topic: struct
+f1_keywords: ["webservices/WS_MESSAGE_PROPERTIES"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

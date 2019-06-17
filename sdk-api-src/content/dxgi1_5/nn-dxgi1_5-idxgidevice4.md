@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGIDevice4, IDXGIDevice4 interface [DXGI], IDXGIDevice4 interface [DXGI],described, direct3ddxgi.idxgidevice4, dxgi1_5/IDXGIDevice4
 ms.topic: interface
+f1_keywords: ["dxgi1_5/IDXGIDevice4"]
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows

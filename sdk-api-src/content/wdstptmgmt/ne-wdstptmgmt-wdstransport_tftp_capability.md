@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services], WDSTRANSPORT_TFTP_CAPABILITY,*PWDSTRANSPORT_TFTP_CAPABILITY, WDSTRANSPORT_TFTP_CAPABILITY,*PWDSTRANSPORT_TFTP_CAPABILITY enumeration [Windows Deployment Services], WdsTptTftpCapMaximumBlockSize, WdsTptTftpCapVariableWindow, wds.wdstransport_tftp_capability, wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY, wdstptmgmt/WdsTptTftpCapMaximumBlockSize, wdstptmgmt/WdsTptTftpCapVariableWindow"
 ms.topic: enum
+f1_keywords: ["wdstptmgmt/WDSTRANSPORT_TFTP_CAPABILITY, *PWDSTRANSPORT_TFTP_CAPABILITY"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

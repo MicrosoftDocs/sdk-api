@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSystemId, IMFSystemId interface [Media Foundation], IMFSystemId interface [Media Foundation],described, mf.imfsystemid, mfidl/IMFSystemId
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSystemId"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

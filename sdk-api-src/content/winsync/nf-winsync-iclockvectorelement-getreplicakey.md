@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetReplicaKey, GetReplicaKey method [Windows Sync], GetReplicaKey method [Windows Sync],IClockVectorElement interface, IClockVectorElement interface [Windows Sync],GetReplicaKey method, IClockVectorElement.GetReplicaKey, IClockVectorElement::GetReplicaKey, winsync.iclockvectorelement_getreplicakey, winsync/IClockVectorElement::GetReplicaKey
 ms.topic: method
+f1_keywords: ["winsync/IClockVectorElement.GetReplicaKey"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

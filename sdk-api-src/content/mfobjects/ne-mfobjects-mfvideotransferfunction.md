@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoTransFunc_10, MFVideoTransFunc_18, MFVideoTransFunc_20, MFVideoTransFunc_2020, MFVideoTransFunc_2020_const, MFVideoTransFunc_2084, MFVideoTransFunc_22, MFVideoTransFunc_240M, MFVideoTransFunc_26, MFVideoTransFunc_28, MFVideoTransFunc_709, MFVideoTransFunc_709_sym, MFVideoTransFunc_ForceDWORD, MFVideoTransFunc_HLG, MFVideoTransFunc_Last, MFVideoTransFunc_Log_100, MFVideoTransFunc_Log_316, MFVideoTransFunc_Unknown, MFVideoTransFunc_sRGB, MFVideoTransferFunction, MFVideoTransferFunction enumeration [Media Foundation], f9aff1d5-e9f7-48fd-9c86-8dc597d37dfa, mf.mfvideotransferfunction, mfobjects/MFVideoTransFunc_10, mfobjects/MFVideoTransFunc_18, mfobjects/MFVideoTransFunc_20, mfobjects/MFVideoTransFunc_2020, mfobjects/MFVideoTransFunc_2020_const, mfobjects/MFVideoTransFunc_2084, mfobjects/MFVideoTransFunc_22, mfobjects/MFVideoTransFunc_240M, mfobjects/MFVideoTransFunc_26, mfobjects/MFVideoTransFunc_28, mfobjects/MFVideoTransFunc_709, mfobjects/MFVideoTransFunc_709_sym, mfobjects/MFVideoTransFunc_ForceDWORD, mfobjects/MFVideoTransFunc_HLG, mfobjects/MFVideoTransFunc_Last, mfobjects/MFVideoTransFunc_Log_100, mfobjects/MFVideoTransFunc_Log_316, mfobjects/MFVideoTransFunc_Unknown, mfobjects/MFVideoTransFunc_sRGB, mfobjects/MFVideoTransferFunction
 ms.topic: enum
+f1_keywords: ["mfobjects/MFVideoTransferFunction"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

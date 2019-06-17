@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelPendingActivation, CancelPendingActivation method [Debugging Windows Store apps], CancelPendingActivation method [Debugging Windows Store apps],IWebApplicationActivation interface, IWebApplicationActivation interface [Debugging Windows Store apps],CancelPendingActivation method, IWebApplicationActivation.CancelPendingActivation, IWebApplicationActivation::CancelPendingActivation, debug.iwebapplicationactivation_cancelpendingactivation, webapplication/IWebApplicationActivation::CancelPendingActivation
 ms.topic: method
+f1_keywords: ["webapplication/IWebApplicationActivation.CancelPendingActivation"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

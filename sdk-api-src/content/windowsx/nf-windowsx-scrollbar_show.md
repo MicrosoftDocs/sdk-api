@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScrollBar_Show, ScrollBar_Show macro [Windows Controls], _win32_ScrollBar_Show, _win32_ScrollBar_Show_cpp, controls.ScrollBar_Show, controls._win32_ScrollBar_Show, windowsx/ScrollBar_Show
 ms.topic: macro
+f1_keywords: ["windowsx/ScrollBar_Show"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

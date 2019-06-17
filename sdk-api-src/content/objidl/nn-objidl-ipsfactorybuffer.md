@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffer interface [COM],described, _com_ipsfactorybuffer, com.ipsfactorybuffer, objidlbase/IPSFactoryBuffer
 ms.topic: interface
+f1_keywords: ["objidl/IPSFactoryBuffer"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

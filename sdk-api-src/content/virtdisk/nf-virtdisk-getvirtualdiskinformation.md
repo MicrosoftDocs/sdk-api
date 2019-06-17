@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskInformation, GetVirtualDiskInformation function [VHD], vdssys/GetVirtualDiskInformation, vhd.getvirtualdiskinformation, virtdisk/GetVirtualDiskInformation
 ms.topic: function
+f1_keywords: ["virtdisk/GetVirtualDiskInformation"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

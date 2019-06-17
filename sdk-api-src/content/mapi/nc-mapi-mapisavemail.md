@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAPISaveMail, MAPISaveMail callback, MAPISaveMail callback function, MAPI_LOGON_UI, MAPI_LONG_MSGID, MAPI_NEW_SESSION, mapi.mapisavemail, mapi/MAPISaveMail
 ms.topic: callback
+f1_keywords: ["mapi/MAPISaveMail"]
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6b302453-ec9e-474b-b9ee-5776d464f4f8, IInkRecognizer interface [Tablet PC],Vendor property, IInkRecognizer.Vendor, IInkRecognizer.get_Vendor, IInkRecognizer::Vendor, IInkRecognizer::get_Vendor, Vendor property [Tablet PC], Vendor property [Tablet PC],IInkRecognizer interface, get_Vendor, msinkaut/IInkRecognizer::Vendor, msinkaut/IInkRecognizer::get_Vendor, tablet.iinkrecognizer_vendor
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognizer.Vendor"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

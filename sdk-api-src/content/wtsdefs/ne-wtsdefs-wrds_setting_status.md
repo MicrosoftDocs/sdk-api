@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS, PWRDS_SETTING_STATUS enumeration pointer [Remote Desktop Services], WRDS_SETTING_STATUS, WRDS_SETTING_STATUS enumeration [Remote Desktop Services], WRDS_SETTING_STATUS_DISABLED, WRDS_SETTING_STATUS_ENABLED, WRDS_SETTING_STATUS_NOTAPPLICABLE, WRDS_SETTING_STATUS_NOTCONFIGURED, termserv.wrds_setting_status, wtsdefs/PWRDS_SETTING_STATUS, wtsdefs/WRDS_SETTING_STATUS, wtsdefs/WRDS_SETTING_STATUS_DISABLED, wtsdefs/WRDS_SETTING_STATUS_ENABLED, wtsdefs/WRDS_SETTING_STATUS_NOTAPPLICABLE, wtsdefs/WRDS_SETTING_STATUS_NOTCONFIGURED"
 ms.topic: enum
+f1_keywords: ["wtsdefs/WRDS_SETTING_STATUS"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

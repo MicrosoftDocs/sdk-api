@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPUSE_INFO_1, *PUSE_INFO_1, LPUSE_INFO_1, LPUSE_INFO_1 structure pointer [Network Management], PUSE_INFO_1, PUSE_INFO_1 structure pointer [Network Management], USE_CONN, USE_DISCONN, USE_DISKDEV, USE_INFO_1, USE_INFO_1 structure [Network Management], USE_IPC, USE_NETERR, USE_OK, USE_PAUSED, USE_RECONN, USE_SESSLOST, USE_SPOOLDEV, USE_WILDCARD, _win32_use_info_1_str, lmuse/LPUSE_INFO_1, lmuse/PUSE_INFO_1, lmuse/USE_INFO_1, netmgmt.use_info_1_str"
 ms.topic: struct
+f1_keywords: ["lmuse/USE_INFO_1"]
 req.header: lmuse.h
 req.include-header: Lm.h
 req.target-type: Windows

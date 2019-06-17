@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICRawCapabilities, WICRawCapabilities enumeration [Windows Imaging Component], WICRawCapabilityFullySupported, WICRawCapabilityGetSupported, WICRawCapabilityNotSupported, _wic_codec_wicrawcapabilities, wic._wic_codec_wicrawcapabilities, wincodec/WICRawCapabilities, wincodec/WICRawCapabilityFullySupported, wincodec/WICRawCapabilityGetSupported, wincodec/WICRawCapabilityNotSupported
 ms.topic: enum
+f1_keywords: ["wincodec/WICRawCapabilities"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

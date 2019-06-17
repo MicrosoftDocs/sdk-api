@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID"
 ms.topic: struct
+f1_keywords: ["shtypes/SHITEMID"]
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows

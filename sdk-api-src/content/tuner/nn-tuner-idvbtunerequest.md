@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest, IDVBTuneRequest interface [Microsoft TV Technologies], IDVBTuneRequest interface [Microsoft TV Technologies],described, IDVBTuneRequestInterface, mstv.idvbtunerequest, tuner/IDVBTuneRequest
 ms.topic: interface
+f1_keywords: ["tuner/IDVBTuneRequest"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

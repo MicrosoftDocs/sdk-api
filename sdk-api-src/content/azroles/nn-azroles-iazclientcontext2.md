@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], IAzClientContext2 interface [Security],described, azroles/IAzClientContext2, security.iazclientcontext2
 ms.topic: interface
+f1_keywords: ["azroles/IAzClientContext2"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

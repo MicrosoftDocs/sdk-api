@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventProperty interface [COM],Value property, IEventProperty.Value, IEventProperty.get_Value, IEventProperty::Value, IEventProperty::get_Value, IEventProperty::put_Value, Value property [COM], Value property [COM],IEventProperty interface, _com_ieventproperty_value, com.ieventproperty_value, eventsys/IEventProperty::Value, eventsys/IEventProperty::get_Value, eventsys/IEventProperty::put_Value, get_Value
 ms.topic: method
+f1_keywords: ["eventsys/IEventProperty.Value"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

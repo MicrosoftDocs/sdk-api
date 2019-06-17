@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],RealTimeBuffersLost property, ITraceDataCollector.RealTimeBuffersLost, ITraceDataCollector.get_RealTimeBuffersLost, ITraceDataCollector::RealTimeBuffersLost, ITraceDataCollector::get_RealTimeBuffersLost, RealTimeBuffersLost property [PLA], RealTimeBuffersLost property [PLA],ITraceDataCollector interface, base.itracedatacollector_realtimebufferslost, get_RealTimeBuffersLost, pla.itracedatacollector_realtimebufferslost, pla/ITraceDataCollector::RealTimeBuffersLost, pla/ITraceDataCollector::get_RealTimeBuffersLost
 ms.topic: method
+f1_keywords: ["pla/ITraceDataCollector.RealTimeBuffersLost"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMSCRIPTFORMAT, WMSCRIPTFORMAT structure [windows Media Format], wmformat.wmscriptformat, wmsdkidl/WMSCRIPTFORMAT
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WMSCRIPTFORMAT"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

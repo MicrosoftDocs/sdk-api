@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeviceController interface [Media Streaming API],add_DeviceDeparture method, IDeviceController.add_DeviceDeparture, IDeviceController.streaming, IDeviceController::add_DeviceDeparture, IDeviceController::streaming, add_DeviceDeparture, add_DeviceDeparture method [Media Streaming API], add_DeviceDeparture method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_add_devicedeparture, windows/IDeviceController::add_DeviceDeparture
 ms.topic: method
+f1_keywords: ["windows.media.streaming/IDeviceController.add_DeviceDeparture"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

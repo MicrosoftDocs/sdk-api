@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KEY_BLOB, BCRYPT_KEY_BLOB structure [Security], bcrypt/BCRYPT_KEY_BLOB, security.bcrypt_key_blob
 ms.topic: struct
+f1_keywords: ["bcrypt/BCRYPT_KEY_BLOB"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

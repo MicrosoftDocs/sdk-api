@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BuildUpMath, BuildUpMath method [Windows Controls], BuildUpMath method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],BuildUpMath method, ITextRange2.BuildUpMath, ITextRange2::BuildUpMath, controls.itextrange2_buildupmath, tom/ITextRange2::BuildUpMath, tomChemicalFormula, tomHaveDelimiter, tomMathAlphabetics, tomMathApplyTemplate, tomMathArabicAlphabetics, tomMathAutoCorrect, tomMathAutoCorrectExt, tomMathAutoCorrectOpPairs, tomMathBackspace, tomMathBuildDown, tomMathBuildDownOutermost, tomMathBuildUpArgOrZone, tomMathBuildUpRecurse, tomMathChangeMask, tomMathCollapseSel, tomMathDeleteArg, tomMathDeleteArg1, tomMathDeleteArg2, tomMathDeleteCol, tomMathDeleteRow, tomMathEnter, tomMathInsColAfter, tomMathInsColBefore, tomMathInsRowAfter, tomMathInsRowBefore, tomMathMakeFracLinear, tomMathMakeFracSlashed, tomMathMakeFracStacked, tomMathMakeLeftSubSup, tomMathMakeSubSup, tomMathRemoveOutermost, tomMathRichEdit, tomMathShiftTab, tomMathSingleChar, tomMathSubscript, tomMathSuperscript, tomMathTab, tomNeedTermOp, tomPlain, tomShowEmptyArgPlaceholders, tomTeX
 ms.topic: method
+f1_keywords: ["tom/ITextRange2.BuildUpMath"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

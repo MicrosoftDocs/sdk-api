@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen, Pen class [GDI+], Pen class [GDI+],described, _gdiplus_CLASS_Pen_Class, gdiplus._gdiplus_CLASS_Pen_Class, gdipluspen/Pen
 ms.topic: class
+f1_keywords: ["gdipluspen/Pen"]
 req.header: gdipluspen.h
 req.include-header: 
 req.target-type: Windows

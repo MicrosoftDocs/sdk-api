@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],IsRecorderSupported method, IDiscFormat2.IsRecorderSupported, IDiscFormat2::IsRecorderSupported, IsRecorderSupported, IsRecorderSupported method [IMAPI], IsRecorderSupported method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_isrecordersupported, imapi2/IDiscFormat2::IsRecorderSupported
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2.IsRecorderSupported"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

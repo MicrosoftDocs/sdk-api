@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPSRAPIInvitation"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

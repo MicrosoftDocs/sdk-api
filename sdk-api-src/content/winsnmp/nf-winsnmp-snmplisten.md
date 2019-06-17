@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpListen, SnmpListen function [SNMP], _snmp_snmplisten, snmp.snmplisten, winsnmp/SnmpListen
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpListen"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

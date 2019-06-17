@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessShutdownParameters, GetProcessShutdownParameters function, SHUTDOWN_NORETRY, _win32_getprocessshutdownparameters, base.getprocessshutdownparameters, processthreadsapi/GetProcessShutdownParameters
 ms.topic: function
+f1_keywords: ["processthreadsapi/GetProcessShutdownParameters"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

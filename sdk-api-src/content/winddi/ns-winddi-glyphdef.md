@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GLYPHDEF, GLYPHDEF union [Display Devices], display.glyphdef, grstrcts_d3283f02-3635-482d-a65a-b92f0a91aa54.xml, winddi/GLYPHDEF
 ms.topic: struct
+f1_keywords: ["winddi/GLYPHDEF"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

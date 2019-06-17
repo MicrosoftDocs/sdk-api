@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellCount method, ITextRow.SetCellCount, ITextRow::SetCellCount, SetCellCount, SetCellCount method [Windows Controls], SetCellCount method [Windows Controls],ITextRow interface, controls.itextrow_setcellcount, tom/ITextRow::SetCellCount
 ms.topic: method
+f1_keywords: ["tom/ITextRow.SetCellCount"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

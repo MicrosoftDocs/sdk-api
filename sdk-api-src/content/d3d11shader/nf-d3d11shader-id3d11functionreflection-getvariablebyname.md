@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVariableByName, GetVariableByName method [Direct3D 11], GetVariableByName method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetVariableByName method, ID3D11FunctionReflection.GetVariableByName, ID3D11FunctionReflection::GetVariableByName, d3d11shader/ID3D11FunctionReflection::GetVariableByName, direct3d11.id3d11functionreflection_getvariablebyname
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11FunctionReflection.GetVariableByName"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6e2b4acb-42c7-1258-4812-425166fea83e, D3D11_BUFFEREX_SRV, D3D11_BUFFEREX_SRV structure [Direct3D 11], d3d11/D3D11_BUFFEREX_SRV, direct3d11.d3d11_bufferex_srv
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_BUFFEREX_SRV"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

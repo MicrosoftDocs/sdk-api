@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Context_GetLocalSession, MI_Context_GetLocalSession function [Windows Management Infrastructure (MI)], mi/MI_Context_GetLocalSession, wmi.mi_getlocalsession, wmi_v2.mi_context_getlocalsession
 ms.topic: function
+f1_keywords: ["mi/MI_Context_GetLocalSession"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

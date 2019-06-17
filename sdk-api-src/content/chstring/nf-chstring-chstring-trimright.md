@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "?TrimRight@CHString@@QAEXXZ, ?TrimRight@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],TrimRight method, CHString.TrimRight, CHString::TrimRight, TrimRight, TrimRight method [Windows Management Instrumentation], TrimRight method [Windows Management Instrumentation],CHString interface, _hmm_chstring_trimright, chstring/CHString::TrimRight, wmi.chstring_trimright"
 ms.topic: method
+f1_keywords: ["chstring/CHString.TrimRight"]
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows

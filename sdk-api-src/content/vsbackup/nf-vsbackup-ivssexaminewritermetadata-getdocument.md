@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetDocument method, IVssExamineWriterMetadata.GetDocument, IVssExamineWriterMetadata::GetDocument, _win32_ivssexaminewritermetadata_getdocument, base.ivssexaminewritermetadata_getdocument, vsbackup/IVssExamineWriterMetadata::GetDocument
 ms.topic: method
+f1_keywords: ["vsbackup/IVssExamineWriterMetadata.GetDocument"]
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows

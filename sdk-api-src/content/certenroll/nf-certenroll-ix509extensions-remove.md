@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509Extensions interface [Security],Remove method, IX509Extensions.Remove, IX509Extensions::Remove, Remove, Remove method [Security], Remove method [Security],IX509Extensions interface, certenroll/IX509Extensions::Remove, security.ix509extensions_remove_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509Extensions.Remove"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], IPropertyValueStatics interface [Windows Runtime],described, windows/IPropertyValueStatics, winrt.ipropertyvaluefactory, winrt.ipropertyvaluestatics
 ms.topic: interface
+f1_keywords: ["windows.foundation/IPropertyValueStatics"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

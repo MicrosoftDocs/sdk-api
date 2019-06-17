@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout
 ms.topic: function
+f1_keywords: ["p2p/PeerCollabSignout"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

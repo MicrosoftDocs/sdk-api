@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslationInfo interface [TAPI 2.2],get_CurrentCountryCode method, ITAddressTranslationInfo.get_CurrentCountryCode, ITAddressTranslationInfo::get_CurrentCountryCode, _tapi3_itaddresstranslationinfo_get_currentcountrycode, get_CurrentCountryCode, get_CurrentCountryCode method [TAPI 2.2], get_CurrentCountryCode method [TAPI 2.2],ITAddressTranslationInfo interface, tapi3.itaddresstranslationinfo_get_currentcountrycode, tapi3if/ITAddressTranslationInfo::get_CurrentCountryCode
 ms.topic: method
+f1_keywords: ["tapi3if/ITAddressTranslationInfo.get_CurrentCountryCode"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

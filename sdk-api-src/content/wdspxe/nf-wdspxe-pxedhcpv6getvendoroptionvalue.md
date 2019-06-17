@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
 ms.topic: function
+f1_keywords: ["wdspxe/PxeDhcpv6GetVendorOptionValue"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

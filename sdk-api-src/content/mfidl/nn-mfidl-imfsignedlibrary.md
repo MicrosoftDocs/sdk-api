@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSignedLibrary, IMFSignedLibrary interface [Media Foundation], IMFSignedLibrary interface [Media Foundation],described, mf.imfsignedlibrary, mfidl/IMFSignedLibrary
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSignedLibrary"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

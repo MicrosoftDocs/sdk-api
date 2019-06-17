@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCreateHttpHandle, HttpCreateHttpHandle function [HTTP], _http_httpcreatehttphandle, http.httpcreatehttphandle, http/HttpCreateHttpHandle
 ms.topic: function
+f1_keywords: ["http/HttpCreateHttpHandle"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

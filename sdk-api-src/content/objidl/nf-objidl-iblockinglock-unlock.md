@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBlockingLock interface [COM],Unlock method, IBlockingLock.Unlock, IBlockingLock::Unlock, Unlock, Unlock method [COM], Unlock method [COM],IBlockingLock interface, _com_iblockinglock_unlock, com.iblockinglock_unlock, objidl/IBlockingLock::Unlock
 ms.topic: method
+f1_keywords: ["objidl/IBlockingLock.Unlock"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

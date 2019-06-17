@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Read, ImageList_Read function [Windows Controls], _win32_ImageList_Read, _win32_ImageList_Read_cpp, commctrl/ImageList_Read, controls.ImageList_Read, controls._win32_ImageList_Read
 ms.topic: function
+f1_keywords: ["commctrl/ImageList_Read"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

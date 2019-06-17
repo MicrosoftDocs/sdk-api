@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMCertifiedOutputProtection, IAMCertifiedOutputProtection interface [DirectShow], IAMCertifiedOutputProtection interface [DirectShow],described, IAMCertifiedOutputProtectionInterface, dshow.iamcertifiedoutputprotection, strmif/IAMCertifiedOutputProtection
 ms.topic: interface
+f1_keywords: ["strmif/IAMCertifiedOutputProtection"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

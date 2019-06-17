@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTLOADINFO, TTLOADINFO structure [Windows GDI], _win32_TTLOADINFO, gdi.ttloadinfo, t2embapi/TTLOADINFO
 ms.topic: struct
+f1_keywords: ["t2embapi/TTLOADINFO"]
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

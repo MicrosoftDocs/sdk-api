@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CAE_TV_14, CAE_TV_18, CAE_TV_C, CAE_TV_C8, CAE_TV_Exempt, CAE_TV_G, CAE_TV_PG, CAE_TV_Reserved, EnTvRat_CAE_TV, EnTvRat_CAE_TV enumeration [Microsoft TV Technologies], mstv.entvrat_cae_tv, tvratings/CAE_TV_14, tvratings/CAE_TV_18, tvratings/CAE_TV_C, tvratings/CAE_TV_C8, tvratings/CAE_TV_Exempt, tvratings/CAE_TV_G, tvratings/CAE_TV_PG, tvratings/CAE_TV_Reserved, tvratings/EnTvRat_CAE_TV
 ms.topic: enum
+f1_keywords: ["tvratings/EnTvRat_CAE_TV"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

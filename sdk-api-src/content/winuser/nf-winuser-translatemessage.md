@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TranslateMessage, TranslateMessage function [Windows and Messages], _win32_TranslateMessage, _win32_translatemessage_cpp, winmsg.translatemessage, winui._win32_translatemessage, winuser/TranslateMessage
 ms.topic: function
+f1_keywords: ["winuser/TranslateMessage"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

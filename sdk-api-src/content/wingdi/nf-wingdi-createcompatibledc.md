@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleDC, CreateCompatibleDC function [Windows GDI], _win32_CreateCompatibleDC, gdi.createcompatibledc, wingdi/CreateCompatibleDC
 ms.topic: function
+f1_keywords: ["wingdi/CreateCompatibleDC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

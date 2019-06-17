@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LdapMapErrorToWin32, LdapMapErrorToWin32 function [LDAP], _ldap_ldapmaperrortowin32, ldap.ldapmaperrortowin32, winldap/LdapMapErrorToWin32
 ms.topic: function
+f1_keywords: ["winldap/LdapMapErrorToWin32"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

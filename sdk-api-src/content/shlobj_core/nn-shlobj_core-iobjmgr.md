@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IObjMgr, IObjMgr interface [Windows Shell], IObjMgr interface [Windows Shell],described, _win32_IObjMgr, shell.IObjMgr, shlobj_core/IObjMgr
 ms.topic: interface
+f1_keywords: ["shlobj_core/IObjMgr"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

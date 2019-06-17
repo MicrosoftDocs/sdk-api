@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvtRender, EvtRender function [EventLog], wes.evtrender, winevt/EvtRender
 ms.topic: function
+f1_keywords: ["winevt/EvtRender"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

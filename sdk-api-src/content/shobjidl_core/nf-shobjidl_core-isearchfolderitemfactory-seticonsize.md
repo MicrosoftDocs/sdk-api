@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetIconSize method, ISearchFolderItemFactory.SetIconSize, ISearchFolderItemFactory::SetIconSize, SetIconSize, SetIconSize method [Windows Shell], SetIconSize method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetIconSize, shell.ISearchFolderItemFactory_SetIconSize, shobjidl_core/ISearchFolderItemFactory::SetIconSize
 ms.topic: method
+f1_keywords: ["shobjidl_core/ISearchFolderItemFactory.SetIconSize"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

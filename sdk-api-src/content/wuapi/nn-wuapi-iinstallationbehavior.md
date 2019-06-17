@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior, IInstallationBehavior interface [Windows Update Agent], IInstallationBehavior interface [Windows Update Agent],described, wua.iinstallationbehavior, wuapi/IInstallationBehavior
 ms.topic: interface
+f1_keywords: ["wuapi/IInstallationBehavior"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

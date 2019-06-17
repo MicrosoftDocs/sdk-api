@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFStreamingMediaSink, MFCreateASFStreamingMediaSink function [Media Foundation], mf.mfcreateasfstreamingmediasink, wmcontainer/MFCreateASFStreamingMediaSink
 ms.topic: function
+f1_keywords: ["wmcontainer/MFCreateASFStreamingMediaSink"]
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows

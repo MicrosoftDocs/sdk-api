@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MultinetGetConnectionPerformance, MultinetGetConnectionPerformance function [Windows Networking (WNet)], MultinetGetConnectionPerformanceA, MultinetGetConnectionPerformanceW, _win32_multinetgetconnectionperformance, lpLocalName, lpProvider, lpRemoteName, winnetwk/MultinetGetConnectionPerformance, winnetwk/MultinetGetConnectionPerformanceA, winnetwk/MultinetGetConnectionPerformanceW, wnet.multinetgetconnectionperformance
 ms.topic: function
+f1_keywords: ["winnetwk/MultinetGetConnectionPerformance"]
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows

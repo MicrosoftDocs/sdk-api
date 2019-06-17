@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [HTTP], http.http_version_info, winhttp/HTTP_VERSION_INFO, winhttp_http_version_info_structure"
 ms.topic: struct
+f1_keywords: ["winhttp/HTTP_VERSION_INFO"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

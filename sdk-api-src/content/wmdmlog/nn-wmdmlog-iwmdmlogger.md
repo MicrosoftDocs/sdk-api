@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger, IWMDMLogger interface [windows Media Device Manager], IWMDMLogger interface [windows Media Device Manager],described, IWMDMLoggerInterface, wmdm.iwmdmlogger, wmdmlog/IWMDMLogger
 ms.topic: interface
+f1_keywords: ["wmdmlog/IWMDMLogger"]
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateBlendEffect, CreateBlendEffect method [DirectComposition], CreateBlendEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateBlendEffect method, IDCompositionDevice3.CreateBlendEffect, IDCompositionDevice3::CreateBlendEffect, dcomp/IDCompositionDevice3::CreateBlendEffect, directcomp.idcompositiondevice3_createblendeffect
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionDevice3.CreateBlendEffect"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

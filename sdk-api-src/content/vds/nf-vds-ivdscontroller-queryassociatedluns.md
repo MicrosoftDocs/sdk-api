@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsController interface [VDS],QueryAssociatedLuns method, IVdsController.QueryAssociatedLuns, IVdsController::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsController interface, base.ivdscontroller_queryassociatedluns, vds/IVdsController::QueryAssociatedLuns, vdshwprv/IVdsController::QueryAssociatedLuns
 ms.topic: method
+f1_keywords: ["vds/IVdsController.QueryAssociatedLuns"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

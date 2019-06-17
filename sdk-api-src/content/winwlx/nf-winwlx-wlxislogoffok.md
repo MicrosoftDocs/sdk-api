@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxIsLogoffOk, WlxIsLogoffOk function [Security], _gina_wlxislogoffok, security.wlxislogoffok, winwlx/WlxIsLogoffOk
 ms.topic: function
+f1_keywords: ["winwlx/WlxIsLogoffOk"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

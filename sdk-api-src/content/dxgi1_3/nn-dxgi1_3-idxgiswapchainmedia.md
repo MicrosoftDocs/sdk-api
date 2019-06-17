@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChainMedia, IDXGISwapChainMedia interface [DXGI], IDXGISwapChainMedia interface [DXGI],described, direct3ddxgi.idxgiswapchainmedia, dxgi1_3/IDXGISwapChainMedia
 ms.topic: interface
+f1_keywords: ["dxgi1_3/IDXGISwapChainMedia"]
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows

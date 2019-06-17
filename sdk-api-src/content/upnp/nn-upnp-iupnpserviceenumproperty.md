@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPServiceEnumProperty, IUPnPServiceEnumProperty interface [UPnP APIs], IUPnPServiceEnumProperty interface [UPnP APIs],described, upnp.iupnpserviceenumproperty, upnp/IUPnPServiceEnumProperty
 ms.topic: interface
+f1_keywords: ["upnp/IUPnPServiceEnumProperty"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

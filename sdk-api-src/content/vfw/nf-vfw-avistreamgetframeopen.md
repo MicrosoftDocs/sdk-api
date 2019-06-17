@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamGetFrameOpen, AVIStreamGetFrameOpen function [Windows Multimedia], _win32_AVIStreamGetFrameOpen, multimedia.avistreamgetframeopen, vfw/AVIStreamGetFrameOpen
 ms.topic: function
+f1_keywords: ["vfw/AVIStreamGetFrameOpen"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

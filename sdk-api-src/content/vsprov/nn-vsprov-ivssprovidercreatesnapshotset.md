@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssProviderCreateSnapshotSet, IVssProviderCreateSnapshotSet interface [VSS], IVssProviderCreateSnapshotSet interface [VSS],described, base.ivssprovidercreatesnapshotset, vsprov/IVssProviderCreateSnapshotSet
 ms.topic: interface
+f1_keywords: ["vsprov/IVssProviderCreateSnapshotSet"]
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

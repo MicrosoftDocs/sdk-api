@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminal, ITTerminal interface [TAPI 2.2], ITTerminal interface [TAPI 2.2],described, _tapi3_itterminal, tapi3.itterminal, tapi3if/ITTerminal
 ms.topic: interface
+f1_keywords: ["tapi3if/ITTerminal"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

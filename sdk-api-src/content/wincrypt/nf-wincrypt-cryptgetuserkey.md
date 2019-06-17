@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
 ms.topic: function
+f1_keywords: ["wincrypt/CryptGetUserKey"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

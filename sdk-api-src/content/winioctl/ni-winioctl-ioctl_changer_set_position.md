@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code, _win32_ioctl_changer_set_position, base.ioctl_changer_set_position, winioctl/IOCTL_CHANGER_SET_POSITION
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_CHANGER_SET_POSITION"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

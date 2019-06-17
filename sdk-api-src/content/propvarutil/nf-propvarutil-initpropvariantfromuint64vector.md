@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromUInt64Vector, InitPropVariantFromUInt64Vector function [Windows Properties], properties.InitPropVariantFromUInt64Vector, propvarutil/InitPropVariantFromUInt64Vector, shell.InitPropVariantFromUInt64Vector, shell_InitPropVariantFromUInt64Vector
 ms.topic: function
+f1_keywords: ["propvarutil/InitPropVariantFromUInt64Vector"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

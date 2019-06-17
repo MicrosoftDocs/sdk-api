@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform3D, IDCompositionMatrixTransform3D interface [DirectComposition], IDCompositionMatrixTransform3D interface [DirectComposition],described, dcomp/IDCompositionMatrixTransform3D, directcomp.idcompositionmatrixtransform3d
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionMatrixTransform3D"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

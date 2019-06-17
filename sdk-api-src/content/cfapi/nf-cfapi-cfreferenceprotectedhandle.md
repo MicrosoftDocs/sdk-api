@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfReferenceProtectedHandle, CfReferenceProtectedHandle function, cfapi/CfReferenceProtectedHandle, cloudApi.cfreferenceprotectedhandle
 ms.topic: function
+f1_keywords: ["cfapi/CfReferenceProtectedHandle"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

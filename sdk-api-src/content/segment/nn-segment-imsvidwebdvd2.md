@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidWebDVD2, IMSVidWebDVD2 interface [Microsoft TV Technologies], IMSVidWebDVD2 interface [Microsoft TV Technologies],described, mstv.imsvidwebdvd2, segment/IMSVidWebDVD2
 ms.topic: interface
+f1_keywords: ["segment/IMSVidWebDVD2"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

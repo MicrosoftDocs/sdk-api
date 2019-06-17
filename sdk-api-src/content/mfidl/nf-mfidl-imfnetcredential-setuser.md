@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 026a822a-4e48-4fc8-9781-5e427528a4d2, IMFNetCredential interface [Media Foundation],SetUser method, IMFNetCredential.SetUser, IMFNetCredential::SetUser, SetUser, SetUser method [Media Foundation], SetUser method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_setuser, mfidl/IMFNetCredential::SetUser
 ms.topic: method
+f1_keywords: ["mfidl/IMFNetCredential.SetUser"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

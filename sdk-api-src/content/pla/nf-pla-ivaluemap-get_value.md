@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValueMap interface [PLA],Value property, IValueMap.Value, IValueMap.get_Value, IValueMap::Value, IValueMap::get_Value, IValueMap::put_Value, Value property [PLA], Value property [PLA],IValueMap interface, base.ivaluemap_value, get_Value, pla.ivaluemap_value, pla/IValueMap::Value, pla/IValueMap::get_Value, pla/IValueMap::put_Value
 ms.topic: method
+f1_keywords: ["pla/IValueMap.Value"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

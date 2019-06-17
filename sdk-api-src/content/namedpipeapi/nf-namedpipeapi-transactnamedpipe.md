@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TransactNamedPipe, TransactNamedPipe function, _win32_transactnamedpipe, base.transactnamedpipe, namedpipeapi/TransactNamedPipe
 ms.topic: function
+f1_keywords: ["namedpipeapi/TransactNamedPipe"]
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows

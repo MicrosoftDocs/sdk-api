@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUpdateEvents interface [Debugging Windows Store apps],OnPaint method, IWebApplicationUpdateEvents.OnPaint, IWebApplicationUpdateEvents::OnPaint, OnPaint, OnPaint method [Debugging Windows Store apps], OnPaint method [Debugging Windows Store apps],IWebApplicationUpdateEvents interface, debug.iwebapplicationupdateevents_onpaint, webapplication/IWebApplicationUpdateEvents::OnPaint
 ms.topic: method
+f1_keywords: ["webapplication/IWebApplicationUpdateEvents.OnPaint"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

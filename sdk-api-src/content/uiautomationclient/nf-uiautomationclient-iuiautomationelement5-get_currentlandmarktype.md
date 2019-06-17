@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentLandmarkType property [Windows Accessibility], CurrentLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CurrentLandmarkType property, IUIAutomationElement5.CurrentLandmarkType, IUIAutomationElement5.get_CurrentLandmarkType, IUIAutomationElement5::CurrentLandmarkType, IUIAutomationElement5::get_CurrentLandmarkType, get_CurrentLandmarkType, uiautomationclient/IUIAutomationElement5::CurrentLandmarkType, uiautomationclient/IUIAutomationElement5::get_CurrentLandmarkType, winauto.uiauto_IUIAutomationElement5_CurrentLandmarkType
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement5.CurrentLandmarkType"]
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

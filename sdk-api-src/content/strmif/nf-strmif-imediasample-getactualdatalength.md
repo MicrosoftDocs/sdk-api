@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetActualDataLength method, IMediaSample.GetActualDataLength, IMediaSample::GetActualDataLength, IMediaSampleGetActualDataLength, dshow.imediasample_getactualdatalength, strmif/IMediaSample::GetActualDataLength
 ms.topic: method
+f1_keywords: ["strmif/IMediaSample.GetActualDataLength"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

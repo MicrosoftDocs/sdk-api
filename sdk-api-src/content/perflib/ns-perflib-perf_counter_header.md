@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPERF_COUNTER_HEADER, PERF_COUNTERSET, PERF_COUNTER_HEADER, PERF_COUNTER_HEADER structure [Perf], PERF_ERROR_RETURN, PERF_MULTIPLE_COUNTERS, PERF_MULTIPLE_INSTANCES, PERF_SINGLE_COUNTER, PPERF_COUNTER_HEADER, PPERF_COUNTER_HEADER structure pointer [Perf], perf.perf_counter_header, perflib/PERF_COUNTER_HEADER, perflib/PPERF_COUNTER_HEADER"
 ms.topic: struct
+f1_keywords: ["perflib/PERF_COUNTER_HEADER"]
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

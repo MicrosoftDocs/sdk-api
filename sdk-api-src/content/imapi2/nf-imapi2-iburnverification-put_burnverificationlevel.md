@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBurnVerification interface [IMAPI],put_BurnVerificationLevel method, IBurnVerification.put_BurnVerificationLevel, IBurnVerification::put_BurnVerificationLevel, imapi.iburnverification_put_burnverificationlevel, imapi2/IBurnVerification::put_BurnVerificationLevel, put_BurnVerificationLevel, put_BurnVerificationLevel method [IMAPI], put_BurnVerificationLevel method [IMAPI],IBurnVerification interface
 ms.topic: method
+f1_keywords: ["imapi2/IBurnVerification.put_BurnVerificationLevel"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

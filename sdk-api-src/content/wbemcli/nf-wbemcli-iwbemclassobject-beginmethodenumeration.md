@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginMethodEnumeration, BeginMethodEnumeration method [Windows Management Instrumentation], BeginMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],BeginMethodEnumeration method, IWbemClassObject.BeginMethodEnumeration, IWbemClassObject::BeginMethodEnumeration, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemclassobject_beginmethodenumeration, wbemcli/IWbemClassObject::BeginMethodEnumeration, wmi.iwbemclassobject_beginmethodenumeration
 ms.topic: method
+f1_keywords: ["wbemcli/IWbemClassObject.BeginMethodEnumeration"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

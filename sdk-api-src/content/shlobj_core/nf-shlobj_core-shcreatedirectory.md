@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
 ms.topic: function
+f1_keywords: ["shlobj_core/SHCreateDirectory"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

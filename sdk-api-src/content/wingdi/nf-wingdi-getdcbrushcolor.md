@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDCBrushColor, GetDCBrushColor function [Windows GDI], _win32_GetDCBrushColor, gdi.getdcbrushcolor, wingdi/GetDCBrushColor
 ms.topic: function
+f1_keywords: ["wingdi/GetDCBrushColor"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

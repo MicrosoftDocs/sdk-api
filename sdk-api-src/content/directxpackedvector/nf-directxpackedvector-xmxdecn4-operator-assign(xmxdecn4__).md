@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMXDECN4 structure [DirectX Math Support APIs],operator = method, XMXDECN4.operator =(const XMXDECN4&), XMXDECN4.operator-assign(XMXDECN4 &&), XMXDECN4.operator=, XMXDECN4::operator-assign(XMXDECN4 &&), XMXDECN4::operator=, dxmath.xmxdecn4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMXDECN4 structure, operator=
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMXDECN4.operator ="]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

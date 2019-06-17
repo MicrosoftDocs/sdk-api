@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SoundSentry, SoundSentry function [Windows and Messages], _win32_SoundSentry, _win32_soundsentry_cpp, winmsg.soundsentry, winui._win32_soundsentry, winuser/SoundSentry
 ms.topic: function
+f1_keywords: ["winuser/SoundSentry"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

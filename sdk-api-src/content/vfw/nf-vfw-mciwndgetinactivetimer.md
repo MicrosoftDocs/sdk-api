@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetInactiveTimer, MCIWndGetInactiveTimer macro [Windows Multimedia], _win32_MCIWndGetInactiveTimer, multimedia.mciwndgetinactivetimer, vfw/MCIWndGetInactiveTimer
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndGetInactiveTimer"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Tint, Tint class [GDI+], Tint class [GDI+],described, _gdiplus_CLASS_Tint_Class, gdiplus._gdiplus_CLASS_Tint_Class, gdipluseffects/Tint
 ms.topic: class
+f1_keywords: ["gdipluseffects/Tint"]
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

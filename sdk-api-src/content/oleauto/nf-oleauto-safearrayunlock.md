@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayUnlock, SafeArrayUnlock function [Automation], _oa96_SafeArrayUnlock, automat.safearrayunlock, oleauto/SafeArrayUnlock
 ms.topic: function
+f1_keywords: ["oleauto/SafeArrayUnlock"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

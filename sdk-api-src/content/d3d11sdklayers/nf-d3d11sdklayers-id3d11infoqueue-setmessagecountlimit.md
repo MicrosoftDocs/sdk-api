@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 56bf62b4-6ca7-b852-eada-d18cbf109706, ID3D11InfoQueue interface [Direct3D 11],SetMessageCountLimit method, ID3D11InfoQueue.SetMessageCountLimit, ID3D11InfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [Direct3D 11], SetMessageCountLimit method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetMessageCountLimit, direct3d11.id3d11infoqueue_setmessagecountlimit
 ms.topic: method
+f1_keywords: ["d3d11sdklayers/ID3D11InfoQueue.SetMessageCountLimit"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

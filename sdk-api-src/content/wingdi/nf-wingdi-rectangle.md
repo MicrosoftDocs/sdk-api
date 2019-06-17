@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Rectangle, Rectangle function [Windows GDI], _win32_Rectangle, gdi.rectangle, wingdi/Rectangle
 ms.topic: function
+f1_keywords: ["wingdi/Rectangle"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

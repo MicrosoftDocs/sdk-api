@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterPreprocess, IWMWriterPreprocess interface [windows Media Format], IWMWriterPreprocess interface [windows Media Format],described, IWMWriterPreprocessInterface, wmformat.iwmwriterpreprocess, wmsdkidl/IWMWriterPreprocess
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMWriterPreprocess"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

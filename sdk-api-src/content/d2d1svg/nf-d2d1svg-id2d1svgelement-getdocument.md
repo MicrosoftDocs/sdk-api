@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [Direct2D], GetDocument method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetDocument method, ID2D1SvgElement.GetDocument, ID2D1SvgElement::GetDocument, d2d1svg/ID2D1SvgElement::GetDocument, direct2d.id2d1svgelement_getdocument
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgElement.GetDocument"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

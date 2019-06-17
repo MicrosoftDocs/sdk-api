@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MATRIX, DWRITE_MATRIX structure [Direct Write], directwrite.dwrite_matrix, dwrite/DWRITE_MATRIX
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_MATRIX"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

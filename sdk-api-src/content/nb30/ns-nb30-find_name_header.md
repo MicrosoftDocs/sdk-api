@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PFIND_NAME_HEADER, FIND_NAME_HEADER, FIND_NAME_HEADER structure [NetBIOS], PFIND_NAME_HEADER, PFIND_NAME_HEADER structure pointer [NetBIOS], nb30/FIND_NAME_HEADER, nb30/PFIND_NAME_HEADER, netbios.find_name_header"
 ms.topic: struct
+f1_keywords: ["nb30/FIND_NAME_HEADER"]
 req.header: nb30.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITMultiTrackTerminal interface [TAPI 2.2],get_DirectionsInUse method, ITMultiTrackTerminal.get_DirectionsInUse, ITMultiTrackTerminal::get_DirectionsInUse, _tapi3_itmultitrackterminal_get_directionsinuse, get_DirectionsInUse, get_DirectionsInUse method [TAPI 2.2], get_DirectionsInUse method [TAPI 2.2],ITMultiTrackTerminal interface, tapi3.itmultitrackterminal_get_directionsinuse, tapi3if/ITMultiTrackTerminal::get_DirectionsInUse
 ms.topic: method
+f1_keywords: ["tapi3if/ITMultiTrackTerminal.get_DirectionsInUse"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

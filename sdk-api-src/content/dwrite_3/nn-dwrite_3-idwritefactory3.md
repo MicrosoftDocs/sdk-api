@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory3, IDWriteFactory3 interface [Direct Write], IDWriteFactory3 interface [Direct Write],described, directwrite.idwritefactory3, dwrite_3/IDWriteFactory3
 ms.topic: interface
+f1_keywords: ["dwrite_3/IDWriteFactory3"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

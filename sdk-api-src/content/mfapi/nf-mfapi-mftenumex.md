@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
 ms.topic: function
+f1_keywords: ["mfapi/MFTEnumEx"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

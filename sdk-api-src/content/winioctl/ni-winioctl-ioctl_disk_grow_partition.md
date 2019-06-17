@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL_DISK_GROW_PARTITION control code [Files], base.ioctl_disk_grow_partition, fs.ioctl_disk_grow_partition, winioctl/IOCTL_DISK_GROW_PARTITION
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_DISK_GROW_PARTITION"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

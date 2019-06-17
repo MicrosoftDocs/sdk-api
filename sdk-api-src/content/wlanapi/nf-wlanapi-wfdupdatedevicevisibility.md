@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WFDUpdateDeviceVisibility, WFDUpdateDeviceVisibility function [NativeWIFI], nwifi.wfdupdatedevicevisibility, wlanapi/WFDUpdateDeviceVisibility
 ms.topic: function
+f1_keywords: ["wlanapi/WFDUpdateDeviceVisibility"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

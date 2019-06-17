@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpMarshallSupplementalCreds, SpMarshallSupplementalCreds callback function [Security], SpMarshallSupplementalCredsFn, SpMarshallSupplementalCredsFn callback, _ssp_spmarshallsupplementalcreds, ntsecpkg/SpMarshallSupplementalCreds, security.spmarshallsupplementalcreds
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpMarshallSupplementalCreds"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

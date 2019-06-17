@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
 ms.topic: function
+f1_keywords: ["mgm/MgmTakeInterfaceOwnership"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

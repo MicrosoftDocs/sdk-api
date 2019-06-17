@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsController, IVdsController interface [VDS], IVdsController interface [VDS],described, base.ivdscontroller, vds/IVdsController, vdshwprv/IVdsController
 ms.topic: interface
+f1_keywords: ["vdshwprv/IVdsController"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

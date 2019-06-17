@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListView_SetColumn, ListView_SetColumn macro [Windows Controls], _win32_ListView_SetColumn, _win32_ListView_SetColumn_cpp, commctrl/ListView_SetColumn, controls.ListView_SetColumn, controls._win32_ListView_SetColumn
 ms.topic: macro
+f1_keywords: ["commctrl/ListView_SetColumn"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

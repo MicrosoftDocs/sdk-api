@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 2.2], tapi/phoneShutdown, tapi2.phoneshutdown"
 ms.topic: function
+f1_keywords: ["tapi/phoneShutdown"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

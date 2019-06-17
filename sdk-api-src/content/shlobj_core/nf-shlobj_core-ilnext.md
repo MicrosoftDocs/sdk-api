@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILNext, ILNext function [Windows Shell], ILNext(PCUIDLIST_RELATIVE), _shell_ILNext_PCUIDLIST_RELATIVE, shell.ILNext_PCUIDLIST_RELATIVE, shlobj_core/ILNext
 ms.topic: function
+f1_keywords: ["shlobj_core/ILNext"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

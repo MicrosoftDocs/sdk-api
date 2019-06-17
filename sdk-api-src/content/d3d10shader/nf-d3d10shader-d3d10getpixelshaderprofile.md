@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8d581e0e-4553-6a9c-455b-9ef399e0d29f, D3D10GetPixelShaderProfile, D3D10GetPixelShaderProfile function [Direct3D 10], d3d10shader/D3D10GetPixelShaderProfile, direct3d10.d3d10getpixelshaderprofile
 ms.topic: function
+f1_keywords: ["d3d10shader/D3D10GetPixelShaderProfile"]
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PREGISTRATION_INFORMATION_CLASS, DeviceRegistrationBasicInfo, REGISTRATION_INFORMATION_CLASS, REGISTRATION_INFORMATION_CLASS enumeration [MDM Registration], mdmreg.registration_information_class, mdmregistration/DeviceRegistrationBasicInfo, mdmregistration/REGISTRATION_INFORMATION_CLASS"
 ms.topic: enum
+f1_keywords: ["mdmregistration/REGISTRATION_INFORMATION_CLASS"]
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows

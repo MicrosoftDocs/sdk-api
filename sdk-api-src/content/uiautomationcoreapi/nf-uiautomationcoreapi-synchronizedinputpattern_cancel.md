@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SynchronizedInputPattern_Cancel, SynchronizedInputPattern_Cancel function [Windows Accessibility], uiauto.uiauto_SynchronizedInputPattern_Cancel, uiauto_SynchronizedInputPattern_Cancel, uiautomationcoreapi/SynchronizedInputPattern_Cancel, winauto.uiauto_SynchronizedInputPattern_Cancel
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/SynchronizedInputPattern_Cancel"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

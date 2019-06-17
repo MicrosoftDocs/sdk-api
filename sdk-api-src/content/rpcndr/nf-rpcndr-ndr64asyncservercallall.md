@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Ndr64AsyncServerCallAll, Ndr64AsyncServerCallAll function [RPC], rpc.ndr64asyncservercallall, rpcndr/Ndr64AsyncServerCallAll
 ms.topic: function
+f1_keywords: ["rpcndr/Ndr64AsyncServerCallAll"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NAPPROPERTIES, NAPPROPERTIES enumeration [Network Policy Server], PROPERTY_NAP_POLICIES_COLLECTION, PROPERTY_SHV_TEMPLATES_COLLECTION, _sdo_napproperties, nps.SDO_napproperties, sdo.napproperties, sdoias/NAPPROPERTIES, sdoias/PROPERTY_NAP_POLICIES_COLLECTION, sdoias/PROPERTY_SHV_TEMPLATES_COLLECTION
 ms.topic: enum
+f1_keywords: ["sdoias/NAPPROPERTIES"]
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

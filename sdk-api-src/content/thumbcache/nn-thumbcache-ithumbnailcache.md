@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbnailCache interface [Windows Shell],described, _shell_IThumbnailCache, shell.IThumbnailCache, thumbcache/IThumbnailCache
 ms.topic: interface
+f1_keywords: ["thumbcache/IThumbnailCache"]
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

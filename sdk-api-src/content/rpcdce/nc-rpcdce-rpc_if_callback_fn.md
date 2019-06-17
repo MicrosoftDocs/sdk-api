@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_CALLBACK_FN, RPC_IF_CALLBACK_FN callback, RPC_IF_CALLBACK_FN callback function [RPC], _rpc_rpc_if_callback_fn, rpc.rpc_if_callback_fn, rpcdce/RPC_IF_CALLBACK_FN
 ms.topic: callback
+f1_keywords: ["rpcdce/RPC_IF_CALLBACK_FN"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

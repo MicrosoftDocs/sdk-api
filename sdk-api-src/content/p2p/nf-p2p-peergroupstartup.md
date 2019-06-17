@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
 ms.topic: function
+f1_keywords: ["p2p/PeerGroupStartup"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

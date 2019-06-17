@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
 ms.topic: function
+f1_keywords: ["mmddk/mmTaskBlock"]
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows

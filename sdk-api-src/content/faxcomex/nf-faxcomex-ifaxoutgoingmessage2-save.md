@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],Save method, IFaxOutgoingMessage2.Save, IFaxOutgoingMessage2::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.save, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_save_cpp, fax._mfax_faxoutgoingmessage_save, faxcomex/IFaxOutgoingMessage2::Save
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingMessage2.Save"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

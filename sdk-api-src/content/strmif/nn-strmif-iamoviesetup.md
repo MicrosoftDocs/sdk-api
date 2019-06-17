@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup, IAMovieSetup interface [DirectShow], IAMovieSetup interface [DirectShow],described, IAMovieSetupInterface, dshow.iamoviesetup, strmif/IAMovieSetup
 ms.topic: interface
+f1_keywords: ["strmif/IAMovieSetup"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

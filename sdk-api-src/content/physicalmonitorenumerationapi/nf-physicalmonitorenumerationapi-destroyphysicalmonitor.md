@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyPhysicalMonitor, DestroyPhysicalMonitor function [Monitor Configuration], monitor.destroyphysicalmonitor, physicalmonitorenumerationapi/DestroyPhysicalMonitor
 ms.topic: function
+f1_keywords: ["physicalmonitorenumerationapi/DestroyPhysicalMonitor"]
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows

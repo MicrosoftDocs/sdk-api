@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DoCallback, DoCallback method [COM+], DoCallback method [COM+],IAppDomainHelper interface, IAppDomainHelper interface [COM+],DoCallback method, IAppDomainHelper.DoCallback, IAppDomainHelper::DoCallback, _cos_IAppDomainHelper_DoCallback, comsvcs/IAppDomainHelper::DoCallback, cos.iappdomainhelper_docallback
 ms.topic: method
+f1_keywords: ["comsvcs/IAppDomainHelper.DoCallback"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

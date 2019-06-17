@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO, HTTP_QOS_SETTING_INFO structure [HTTP], PHTTP_QOS_SETTING_INFO, PHTTP_QOS_SETTING_INFO structure pointer [HTTP], http.http_qos_setting_info, http/HTTP_QOS_SETTING_INFO, http/PHTTP_QOS_SETTING_INFO"
 ms.topic: struct
+f1_keywords: ["http/HTTP_QOS_SETTING_INFO"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

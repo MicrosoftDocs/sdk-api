@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetLineCount, GetLineCount method [Media Foundation], GetLineCount method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetLineCount method, IMFTimedTextCue.GetLineCount, IMFTimedTextCue::GetLineCount, mf.imftimedtextcue_getlinecount, mfmediaengine/IMFTimedTextCue::GetLineCount
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFTimedTextCue.GetLineCount"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

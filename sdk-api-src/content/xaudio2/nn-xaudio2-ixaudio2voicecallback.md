@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback, IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs], IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2voicecallback, xaudio2/IXAudio2VoiceCallback
 ms.topic: interface
+f1_keywords: ["xaudio2/IXAudio2VoiceCallback"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

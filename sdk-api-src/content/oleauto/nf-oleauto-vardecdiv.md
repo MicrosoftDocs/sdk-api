@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarDecDiv, VarDecDiv function [Automation], _oa96_VarDecDiv, automat.vardecdiv, oleauto/VarDecDiv
 ms.topic: function
+f1_keywords: ["oleauto/VarDecDiv"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

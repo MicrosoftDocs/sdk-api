@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IBandSite"]
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

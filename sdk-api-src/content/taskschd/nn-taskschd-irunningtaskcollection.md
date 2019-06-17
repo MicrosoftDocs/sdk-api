@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRunningTaskCollection, IRunningTaskCollection interface [Task Scheduler], IRunningTaskCollection interface [Task Scheduler],described, taskschd.irunningtaskcollection, taskschd/IRunningTaskCollection
 ms.topic: interface
+f1_keywords: ["taskschd/IRunningTaskCollection"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery, CFrameworkQuery class [Windows Management Instrumentation], CFrameworkQuery class [Windows Management Instrumentation],described, _hmm_cframeworkquery, frquery/CFrameworkQuery, wmi.cframeworkquery
 ms.topic: class
+f1_keywords: ["frquery/CFrameworkQuery"]
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows

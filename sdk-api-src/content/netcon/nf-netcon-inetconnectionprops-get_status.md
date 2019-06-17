@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Status method, INetConnectionProps.get_Status, INetConnectionProps::get_Status, _ics_inetconnectionprops_get_status, get_Status, get_Status method [ICS/ICF], get_Status method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_status, netcon/INetConnectionProps::get_Status
 ms.topic: method
+f1_keywords: ["netcon/INetConnectionProps.get_Status"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

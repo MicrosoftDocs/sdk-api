@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeADsStr, FreeADsStr function [ADSI], _ds_freeadsstr, adshlp/FreeADsStr, adsi.freeadsstr
 ms.topic: function
+f1_keywords: ["adshlp/FreeADsStr"]
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVER_INFO_1539, *PSERVER_INFO_1539, LPSERVER_INFO_1539, LPSERVER_INFO_1539 structure pointer [Network Management], PSERVER_INFO_1539, PSERVER_INFO_1539 structure pointer [Network Management], SERVER_INFO_1539, SERVER_INFO_1539 structure [Network Management], _win32_server_info_1539_str, lmserver/LPSERVER_INFO_1539, lmserver/PSERVER_INFO_1539, lmserver/SERVER_INFO_1539, netmgmt.server_info_1539_str"
 ms.topic: struct
+f1_keywords: ["lmserver/SERVER_INFO_1539"]
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

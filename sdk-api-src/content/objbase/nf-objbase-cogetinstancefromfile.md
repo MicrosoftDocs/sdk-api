@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
 ms.topic: function
+f1_keywords: ["objbase/CoGetInstanceFromFile"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TS_STATUS, TS_STATUS structure [Text Services Framework], _tsf_ts_status_ref, textstor/TS_STATUS, tsf.ts_status
 ms.topic: struct
+f1_keywords: ["textstor/TS_STATUS"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

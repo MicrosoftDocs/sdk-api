@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGreaterR, XMVectorGreaterR, XMVectorGreaterR method [DirectX Math Support APIs], dxmath.xmvectorgreaterr
 ms.topic: function
+f1_keywords: ["directxmath/XMVectorGreaterR"]
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

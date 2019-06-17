@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
 ms.topic: macro
+f1_keywords: ["amvideo/SIZE_MPEG1VIDEOINFO"]
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

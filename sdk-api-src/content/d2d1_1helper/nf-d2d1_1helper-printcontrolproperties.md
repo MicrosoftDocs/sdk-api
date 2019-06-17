@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PrintControlProperties, PrintControlProperties function [Direct2D], d2d1_1helper/PrintControlProperties, direct2d.printcontrolproperties
 ms.topic: function
+f1_keywords: ["d2d1_1helper/PrintControlProperties"]
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows

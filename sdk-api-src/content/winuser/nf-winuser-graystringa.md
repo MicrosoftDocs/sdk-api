@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW
 ms.topic: function
+f1_keywords: ["winuser/GrayString"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

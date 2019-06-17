@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CALL_PROPERTY_CALL_ID, WS_CALL_PROPERTY_CHECK_MUST_UNDERSTAND, WS_CALL_PROPERTY_ID, WS_CALL_PROPERTY_ID enumeration [Web Services for Windows], WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT, WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT, webservices/WS_CALL_PROPERTY_CALL_ID, webservices/WS_CALL_PROPERTY_CHECK_MUST_UNDERSTAND, webservices/WS_CALL_PROPERTY_ID, webservices/WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT, webservices/WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT, wsw.ws_call_property_id
 ms.topic: enum
+f1_keywords: ["webservices/WS_CALL_PROPERTY_ID"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

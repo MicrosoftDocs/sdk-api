@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddIncludeFiles, AddIncludeFiles method [VSS], AddIncludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddIncludeFiles method, IVssCreateWriterMetadata.AddIncludeFiles, IVssCreateWriterMetadata::AddIncludeFiles, _win32_ivsscreatewritermetadata_addincludefiles, base.ivsscreatewritermetadata_addincludefiles, vswriter/IVssCreateWriterMetadata::AddIncludeFiles
 ms.topic: method
+f1_keywords: ["vswriter/IVssCreateWriterMetadata.AddIncludeFiles"]
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows

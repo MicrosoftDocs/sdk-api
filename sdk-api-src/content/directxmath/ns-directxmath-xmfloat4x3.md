@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 structure [DirectX Math Support APIs], directxmath/XMFLOAT4X3, dxmath.xmfloat4x3
 ms.topic: struct
+f1_keywords: ["directxmath/XMFLOAT4X3"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

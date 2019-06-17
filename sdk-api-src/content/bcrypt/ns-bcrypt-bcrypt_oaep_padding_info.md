@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OAEP_PADDING_INFO, BCRYPT_OAEP_PADDING_INFO structure [Security], bcrypt/BCRYPT_OAEP_PADDING_INFO, security.bcrypt_oaep_padding_info
 ms.topic: struct
+f1_keywords: ["bcrypt/BCRYPT_OAEP_PADDING_INFO"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

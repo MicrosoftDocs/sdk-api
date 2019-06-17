@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_SETTINGS, WDS_TRANSPORTPROVIDER_SETTINGS structure [Windows Deployment Services], wds.wds_transportprovider_settings, wdstpdi/PWDS_TRANSPORTPROVIDER_SETTINGS, wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"
 ms.topic: struct
+f1_keywords: ["wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

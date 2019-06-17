@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],RandomDelay property, IMonthlyDOWTrigger.RandomDelay, IMonthlyDOWTrigger.put_RandomDelay, IMonthlyDOWTrigger::RandomDelay, IMonthlyDOWTrigger::get_RandomDelay, IMonthlyDOWTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyDOWTrigger interface, put_RandomDelay, taskschd.imonthlydowtrigger_randomdelay, taskschd/IMonthlyDOWTrigger::RandomDelay, taskschd/IMonthlyDOWTrigger::get_RandomDelay, taskschd/IMonthlyDOWTrigger::put_RandomDelay
 ms.topic: method
+f1_keywords: ["taskschd/IMonthlyDOWTrigger.RandomDelay"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

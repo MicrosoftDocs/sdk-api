@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_MODE_DESC1, DXGI_MODE_DESC1 structure [DXGI], direct3ddxgi.dxgi_mode_desc1, dxgi1_2/DXGI_MODE_DESC1
 ms.topic: struct
+f1_keywords: ["dxgi1_2/DXGI_MODE_DESC1"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

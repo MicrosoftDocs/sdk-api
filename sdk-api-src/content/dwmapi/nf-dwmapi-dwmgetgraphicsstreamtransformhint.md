@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DwmGetGraphicsStreamTransformHint, DwmGetGraphicsStreamTransformHint function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamtransformhint, _udwm_dwmgetgraphicsstreamtransformhint_cpp, dwm.dwmgetgraphicsstreamtransformhint, dwmapi/DwmGetGraphicsStreamTransformHint, winui._udwm_dwmgetgraphicsstreamtransformhint
 ms.topic: function
+f1_keywords: ["dwmapi/DwmGetGraphicsStreamTransformHint"]
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows

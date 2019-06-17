@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Effect interface [Direct2D],SetInputEffect method, ID2D1Effect.SetInputEffect, ID2D1Effect::SetInputEffect, SetInputEffect, SetInputEffect method [Direct2D], SetInputEffect method [Direct2D],ID2D1Effect interface, d2d1_1/ID2D1Effect::SetInputEffect, direct2d.id2d1effect_setinputeffect
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Effect.SetInputEffect"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

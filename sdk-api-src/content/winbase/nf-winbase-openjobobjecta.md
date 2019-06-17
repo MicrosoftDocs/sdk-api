@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenJobObject, OpenJobObject function, OpenJobObjectA, OpenJobObjectW, _win32_openjobobject, base.openjobobject, winbase/OpenJobObject, winbase/OpenJobObjectA, winbase/OpenJobObjectW
 ms.topic: function
+f1_keywords: ["winbase/OpenJobObject"]
 req.header: winbase.h
 req.include-header: Windows.h, Jobapi2.h
 req.target-type: Windows

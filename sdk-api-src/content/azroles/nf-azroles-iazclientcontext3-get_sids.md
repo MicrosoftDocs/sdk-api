@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzClientContext3 interface [Security],Sids property, IAzClientContext3.Sids, IAzClientContext3.get_Sids, IAzClientContext3::Sids, IAzClientContext3::get_Sids, Sids property [Security], Sids property [Security],IAzClientContext3 interface, azroles/IAzClientContext3::Sids, azroles/IAzClientContext3::get_Sids, get_Sids, security.iazclientcontext3_sids
 ms.topic: method
+f1_keywords: ["azroles/IAzClientContext3.Sids"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

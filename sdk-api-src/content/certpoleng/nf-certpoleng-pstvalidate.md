@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
 ms.topic: function
+f1_keywords: ["certpoleng/PstValidate"]
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

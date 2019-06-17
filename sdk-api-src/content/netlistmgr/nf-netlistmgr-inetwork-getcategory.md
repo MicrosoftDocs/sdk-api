@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [Network Awareness], GetCategory method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetCategory method, INetwork.GetCategory, INetwork::GetCategory, netlistmgr/INetwork::GetCategory, nla.inetwork_getcategory
 ms.topic: method
+f1_keywords: ["netlistmgr/INetwork.GetCategory"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

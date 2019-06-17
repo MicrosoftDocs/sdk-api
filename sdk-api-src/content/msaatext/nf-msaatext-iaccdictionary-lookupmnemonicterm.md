@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccDictionary interface [Windows Accessibility],LookupMnemonicTerm method, IAccDictionary.LookupMnemonicTerm, IAccDictionary::LookupMnemonicTerm, LookupMnemonicTerm, LookupMnemonicTerm method [Windows Accessibility], LookupMnemonicTerm method [Windows Accessibility],IAccDictionary interface, _msaa_IAccDictionary_LookupMnemonicTerm, msaa.iaccdictionary_iaccdictionary__lookupmnemonicterm, msaatext/IAccDictionary::LookupMnemonicTerm, winauto.iaccdictionary_iaccdictionary__lookupmnemonicterm
 ms.topic: method
+f1_keywords: ["msaatext/IAccDictionary.LookupMnemonicTerm"]
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

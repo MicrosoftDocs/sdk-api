@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BatteryClassIoctl, BatteryClassIoctl function [Battery Devices], bat-rtn_bb0fcbcf-a26f-4f06-9f28-40bdc55b9d61.xml, batclass/BatteryClassIoctl, battery.batteryclassioctl
 ms.topic: function
+f1_keywords: ["batclass/BatteryClassIoctl"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

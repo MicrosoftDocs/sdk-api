@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckGamingPrivilegeSilently, CheckGamingPrivilegeSilently function, gamingtcui/CheckGamingPrivilegeSilently, tcui.CheckGamingPrivilegeSilently
 ms.topic: function
+f1_keywords: ["gamingtcui/CheckGamingPrivilegeSilently"]
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows

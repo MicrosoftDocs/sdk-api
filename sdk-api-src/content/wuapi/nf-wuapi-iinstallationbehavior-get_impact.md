@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],Impact property, IInstallationBehavior.Impact, IInstallationBehavior.get_Impact, IInstallationBehavior::Impact, IInstallationBehavior::get_Impact, Impact property [Windows Update Agent], Impact property [Windows Update Agent],IInstallationBehavior interface, get_Impact, wua.iinstallationbehavior_impact, wuapi/IInstallationBehavior::Impact, wuapi/IInstallationBehavior::get_Impact
 ms.topic: method
+f1_keywords: ["wuapi/IInstallationBehavior.Impact"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

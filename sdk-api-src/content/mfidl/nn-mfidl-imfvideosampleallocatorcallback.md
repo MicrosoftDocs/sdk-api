@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
 ms.topic: interface
+f1_keywords: ["mfidl/IMFVideoSampleAllocatorCallback"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

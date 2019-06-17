@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPM_CommitResv, LPM_CommitResv callback, LPM_CommitResv callback function [QOS], RESOURCES_ALLOCATED, RESOURCES_MODIFIED, _gqos_lpm_commitresv, lpmapi/LPM_CommitResv, qos.lpm_commitresv
 ms.topic: function
+f1_keywords: ["lpmapi/LPM_CommitResv"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

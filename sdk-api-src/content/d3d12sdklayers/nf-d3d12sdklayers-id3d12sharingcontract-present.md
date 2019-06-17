@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract interface,Present method, ID3D12SharingContract.Present, ID3D12SharingContract::Present, Present, Present method, Present method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::Present, direct3d12.id3d12sharingcontract_present
 ms.topic: method
+f1_keywords: ["d3d12sdklayers/ID3D12SharingContract.Present"]
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows

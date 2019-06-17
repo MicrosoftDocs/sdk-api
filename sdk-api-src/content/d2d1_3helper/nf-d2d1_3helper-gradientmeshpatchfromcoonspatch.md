@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GradientMeshPatchFromCoonsPatch, GradientMeshPatchFromCoonsPatch function [Direct2D], d2d1_3helper/GradientMeshPatchFromCoonsPatch, direct2d.gradientmeshpatchfromcoonspatch
 ms.topic: function
+f1_keywords: ["d2d1_3helper/GradientMeshPatchFromCoonsPatch"]
 req.header: d2d1_3helper.h
 req.include-header: 
 req.target-type: Windows

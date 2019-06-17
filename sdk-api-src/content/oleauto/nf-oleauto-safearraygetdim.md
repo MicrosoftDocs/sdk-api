@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SafeArrayGetDim, SafeArrayGetDim function [Automation], _oa96_SafeArrayGetDim, automat.safearraygetdim, oleauto/SafeArrayGetDim
 ms.topic: function
+f1_keywords: ["oleauto/SafeArrayGetDim"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

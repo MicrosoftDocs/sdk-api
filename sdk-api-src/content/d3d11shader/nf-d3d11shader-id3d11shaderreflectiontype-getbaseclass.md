@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBaseClass, GetBaseClass method [Direct3D 11], GetBaseClass method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetBaseClass method, ID3D11ShaderReflectionType.GetBaseClass, ID3D11ShaderReflectionType::GetBaseClass, c4667670-6e30-71f1-a36b-acb187487fdc, d3d11shader/ID3D11ShaderReflectionType::GetBaseClass, direct3d11.id3d11shaderreflectiontype_getbaseclass
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ShaderReflectionType.GetBaseClass"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

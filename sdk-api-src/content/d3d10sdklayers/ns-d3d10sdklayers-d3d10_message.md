@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3d6907d3-259d-0e6a-db64-2a00690f975d, D3D10_MESSAGE, D3D10_MESSAGE structure [Direct3D 10], d3d10sdklayers/D3D10_MESSAGE, direct3d10.d3d10_message
 ms.topic: struct
+f1_keywords: ["d3d10sdklayers/D3D10_MESSAGE"]
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OffsetWindowOrgEx, OffsetWindowOrgEx function [Windows GDI], _win32_OffsetWindowOrgEx, gdi.offsetwindoworgex, wingdi/OffsetWindowOrgEx
 ms.topic: function
+f1_keywords: ["wingdi/OffsetWindowOrgEx"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

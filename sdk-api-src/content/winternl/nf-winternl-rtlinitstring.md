@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlInitString, RtlInitString function [Windows API], winprog.rtlinitstring, winternl/RtlInitString, winui.rtlinitstring
 ms.topic: function
+f1_keywords: ["winternl/RtlInitString"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

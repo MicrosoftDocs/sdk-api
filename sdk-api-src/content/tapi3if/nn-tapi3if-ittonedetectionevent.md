@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], ITToneDetectionEvent interface [TAPI 2.2],described, _tapi3_ittonedetectionevent, tapi3.ittonedetectionevent, tapi3if/ITToneDetectionEvent
 ms.topic: interface
+f1_keywords: ["tapi3if/ITToneDetectionEvent"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

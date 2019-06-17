@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionMultiply, XMQuaternionMultiply, XMQuaternionMultiply method [DirectX Math Support APIs], dxmath.xmquaternionmultiply
 ms.topic: function
+f1_keywords: ["directxmath/XMQuaternionMultiply"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

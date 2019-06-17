@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterEventSource, RegisterEventSource function, RegisterEventSourceA, RegisterEventSourceW, _win32_registereventsource, base.registereventsource, winbase/RegisterEventSource, winbase/RegisterEventSourceA, winbase/RegisterEventSourceW
 ms.topic: function
+f1_keywords: ["winbase/RegisterEventSource"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

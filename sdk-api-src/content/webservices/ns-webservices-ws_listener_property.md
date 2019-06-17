@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_LISTENER_PROPERTY, WS_LISTENER_PROPERTY structure [Web Services for Windows], webservices/WS_LISTENER_PROPERTY, wsw.ws_listener_property
 ms.topic: struct
+f1_keywords: ["webservices/WS_LISTENER_PROPERTY"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeMUILibrary, FreeMUILibrary function [Internationalization for Windows Applications], _win32_FreeMUILibrary, intl.freemuilibrary, muiload/FreeMUILibrary
 ms.topic: function
+f1_keywords: ["muiload/FreeMUILibrary"]
 req.header: muiload.h
 req.include-header: 
 req.target-type: Windows

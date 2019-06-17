@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WebSocketBeginServerHandshake, WebSocketBeginServerHandshake function [Websocket Protocol Component API], websock.websocketbeginserverhandshake, websocket/WebSocketBeginServerHandshake
 ms.topic: function
+f1_keywords: ["websocket/WebSocketBeginServerHandshake"]
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

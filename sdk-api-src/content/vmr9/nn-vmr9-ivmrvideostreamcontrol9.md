@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl9, IVMRVideoStreamControl9 interface [DirectShow], IVMRVideoStreamControl9 interface [DirectShow],described, IVMRVideoStreamControl9Interface, dshow.ivmrvideostreamcontrol9, vmr9/IVMRVideoStreamControl9
 ms.topic: interface
+f1_keywords: ["vmr9/IVMRVideoStreamControl9"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

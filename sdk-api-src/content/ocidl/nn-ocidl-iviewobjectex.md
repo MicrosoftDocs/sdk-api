@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IViewObjectEx, IViewObjectEx interface [COM], IViewObjectEx interface [COM],described, _ole_iviewobjectex, com.iviewobjectex, ocidl/IViewObjectEx
 ms.topic: interface
+f1_keywords: ["ocidl/IViewObjectEx"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IResultDataCompare, IResultDataCompare interface [MMC], IResultDataCompare interface [MMC],described, _slate_iresultdatacompare, mmc.iresultdatacompare, mmc/IResultDataCompare
 ms.topic: interface
+f1_keywords: ["mmc/IResultDataCompare"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

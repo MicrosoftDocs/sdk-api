@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method [DXGI], ClearRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearRetrievalFilter method, IDXGIInfoQueue.ClearRetrievalFilter, IDXGIInfoQueue::ClearRetrievalFilter, direct3ddxgi.idxgiinfoqueue_clearretrievalfilter, dxgidebug/IDXGIInfoQueue::ClearRetrievalFilter
 ms.topic: method
+f1_keywords: ["dxgidebug/IDXGIInfoQueue.ClearRetrievalFilter"]
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

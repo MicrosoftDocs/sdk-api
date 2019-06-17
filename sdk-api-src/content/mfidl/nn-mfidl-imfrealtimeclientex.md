@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx, IMFRealTimeClientEx interface [Media Foundation], IMFRealTimeClientEx interface [Media Foundation],described, mf.imfrealtimeclientex, mfidl/IMFRealTimeClientEx
 ms.topic: interface
+f1_keywords: ["mfidl/IMFRealTimeClientEx"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

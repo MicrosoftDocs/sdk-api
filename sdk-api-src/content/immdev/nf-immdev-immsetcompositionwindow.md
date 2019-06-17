@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionWindow, ImmSetCompositionWindow function [Internationalization for Windows Applications], _win32_ImmSetCompositionWindow, imm/ImmSetCompositionWindow, intl.immsetcompositionwindow
 ms.topic: function
+f1_keywords: ["immdev/ImmSetCompositionWindow"]
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

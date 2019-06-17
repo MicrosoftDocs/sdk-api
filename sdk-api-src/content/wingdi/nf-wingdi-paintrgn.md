@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PaintRgn, PaintRgn function [Windows GDI], _win32_PaintRgn, gdi.paintrgn, wingdi/PaintRgn
 ms.topic: function
+f1_keywords: ["wingdi/PaintRgn"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

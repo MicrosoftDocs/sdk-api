@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RealizePalette, RealizePalette function [Windows GDI], _win32_RealizePalette, gdi.realizepalette, wingdi/RealizePalette
 ms.topic: function
+f1_keywords: ["wingdi/RealizePalette"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

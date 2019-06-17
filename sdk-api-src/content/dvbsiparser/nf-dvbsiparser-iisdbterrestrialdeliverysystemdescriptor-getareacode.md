@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAreaCode, GetAreaCode method [Microsoft TV Technologies], GetAreaCode method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetAreaCode method, IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode, IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetAreaCode, mstv.iisdbterrestrialdeliverysystemdescriptor_getareacode
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetAreaCode"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

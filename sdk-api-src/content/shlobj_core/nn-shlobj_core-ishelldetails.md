@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellDetails, IShellDetails interface [Windows Shell], IShellDetails interface [Windows Shell],described, _win32_IShellDetails, shell.IShellDetails, shlobj_core/IShellDetails
 ms.topic: interface
+f1_keywords: ["shlobj_core/IShellDetails"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

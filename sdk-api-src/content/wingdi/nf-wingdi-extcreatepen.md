@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtCreatePen, ExtCreatePen function [Windows GDI], PS_ALTERNATE, PS_COSMETIC, PS_DASH, PS_DASHDOT, PS_DASHDOTDOT, PS_DOT, PS_ENDCAP_FLAT, PS_ENDCAP_ROUND, PS_ENDCAP_SQUARE, PS_GEOMETRIC, PS_INSIDEFRAME, PS_JOIN_BEVEL, PS_JOIN_MITER, PS_JOIN_ROUND, PS_NULL, PS_SOLID, PS_USERSTYLE, _win32_ExtCreatePen, gdi.extcreatepen, wingdi/ExtCreatePen
 ms.topic: function
+f1_keywords: ["wingdi/ExtCreatePen"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromGUIDAsString, InitVariantFromGUIDAsString function [Windows Shell], _shell_InitVariantFromGUIDAsString, properties.InitVariantFromGUIDAsString, propvarutil/InitVariantFromGUIDAsString
 ms.topic: function
+f1_keywords: ["propvarutil/InitVariantFromGUIDAsString"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

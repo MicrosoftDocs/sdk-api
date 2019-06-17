@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportCacheable"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

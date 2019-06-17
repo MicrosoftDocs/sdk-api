@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateEffect, CreateEffect method [Direct2D], CreateEffect method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateEffect method, ID2D1EffectContext.CreateEffect, ID2D1EffectContext::CreateEffect, d2d1effectauthor/ID2D1EffectContext::CreateEffect, direct2d.id2d1contextinternal_createeffect
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.CreateEffect"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2c26e906-e428-4a76-b10a-10a18f300ebe, MT_CUSTOM_VIDEO_PRIMARIES, MT_CUSTOM_VIDEO_PRIMARIES structure [Media Foundation], mf.mt_custom_video_primaries, mfapi/MT_CUSTOM_VIDEO_PRIMARIES
 ms.topic: struct
+f1_keywords: ["mfapi/MT_CUSTOM_VIDEO_PRIMARIES"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

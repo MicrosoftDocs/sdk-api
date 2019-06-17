@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptFreeBuffer, NCryptFreeBuffer function [Security], ncrypt/NCryptFreeBuffer, security.ncryptfreebuffer_func
 ms.topic: function
+f1_keywords: ["ncrypt/NCryptFreeBuffer"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

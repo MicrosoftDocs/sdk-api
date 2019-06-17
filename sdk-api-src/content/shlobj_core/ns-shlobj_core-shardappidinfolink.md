@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHARDAPPIDINFOLINK, SHARDAPPIDINFOLINK structure [Windows Shell], _shell_SHARDAPPIDINFOLINK, shell.SHARDAPPIDINFOLINK, shlobj_core/SHARDAPPIDINFOLINK
 ms.topic: struct
+f1_keywords: ["shlobj_core/SHARDAPPIDINFOLINK"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

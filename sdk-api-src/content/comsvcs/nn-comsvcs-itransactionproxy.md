@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], ITransactionProxy interface [COM+],described, comsvcs/ITransactionProxy, cos.itransactionproxy
 ms.topic: interface
+f1_keywords: ["comsvcs/ITransactionProxy"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

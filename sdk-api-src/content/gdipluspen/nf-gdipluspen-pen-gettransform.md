@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Pen class, Pen class [GDI+],GetTransform method, Pen.GetTransform, Pen::GetTransform, _gdiplus_CLASS_Pen_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Pen_GetTransform_matrix_
 ms.topic: method
+f1_keywords: ["gdipluspen/Pen.GetTransform"]
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

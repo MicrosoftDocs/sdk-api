@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdrClientErrorType, AdrClientErrorType enumeration [File Server Resource Manager], AdrClientErrorType_AccessDenied, AdrClientErrorType_Unknown, fs.adrclienterrortype, fsrm.adrclienterrortype, fsrmenums/AdrClientErrorType, fsrmenums/AdrClientErrorType_AccessDenied, fsrmenums/AdrClientErrorType_Unknown
 ms.topic: enum
+f1_keywords: ["fsrmenums/AdrClientErrorType"]
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

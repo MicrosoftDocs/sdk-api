@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtSetExpAge, RpcNsMgmtSetExpAge function [RPC], _rpc_rpcnsmgmtsetexpage, rpc.rpcnsmgmtsetexpage, rpcnsi/RpcNsMgmtSetExpAge
 ms.topic: function
+f1_keywords: ["rpcnsi/RpcNsMgmtSetExpAge"]
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows

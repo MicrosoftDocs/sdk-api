@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
 ms.topic: function
+f1_keywords: ["cryptdlg/CertViewProperties"]
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows

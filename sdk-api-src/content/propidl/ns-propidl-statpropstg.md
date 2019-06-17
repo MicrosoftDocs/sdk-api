@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Structured Storage], _stg_statpropstg, propidlbase/STATPROPSTG, stg.statpropstg, tagSTATPROPSTG
 ms.topic: struct
+f1_keywords: ["propidl/STATPROPSTG"]
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

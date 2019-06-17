@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDeskBand2, IDeskBand2 interface [Windows Shell], IDeskBand2 interface [Windows Shell],described, _shell_IDeskBand2, shell.IDeskBand2, shobjidl/IDeskBand2
 ms.topic: interface
+f1_keywords: ["shobjidl/IDeskBand2"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

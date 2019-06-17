@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsProcessCritical, IsProcessCritical function, base.isprocesscritical, processthreadsapi/IsProcessCritical
 ms.topic: function
+f1_keywords: ["processthreadsapi/IsProcessCritical"]
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows

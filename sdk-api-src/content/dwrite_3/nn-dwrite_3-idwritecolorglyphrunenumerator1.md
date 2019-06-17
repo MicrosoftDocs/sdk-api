@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator1, IDWriteColorGlyphRunEnumerator1 interface [Direct Write], IDWriteColorGlyphRunEnumerator1 interface [Direct Write],described, directwrite.idwritecolorglyphrunenumerator1, dwrite_3/IDWriteColorGlyphRunEnumerator1
 ms.topic: interface
+f1_keywords: ["dwrite_3/IDWriteColorGlyphRunEnumerator1"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_AddressCount method, IMcastLeaseInfo.get_AddressCount, IMcastLeaseInfo::get_AddressCount, _tapi3_imcastleaseinfo_get_addresscount, get_AddressCount, get_AddressCount method [TAPI 2.2], get_AddressCount method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_AddressCount, tapi3.imcastleaseinfo_get_addresscount
 ms.topic: method
+f1_keywords: ["mdhcp/IMcastLeaseInfo.get_AddressCount"]
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

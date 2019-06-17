@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_deleteipaddress, iphlp.deleteipaddress, iphlpapi/DeleteIPAddress
 ms.topic: function
+f1_keywords: ["iphlpapi/DeleteIPAddress"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

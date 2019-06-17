@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPositionSubSuper, GetPositionSubSuper method [Windows Controls], GetPositionSubSuper method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetPositionSubSuper method, ITextFont2.GetPositionSubSuper, ITextFont2::GetPositionSubSuper, controls.itextfont2_getpositionsubsuper, tom/ITextFont2::GetPositionSubSuper
 ms.topic: method
+f1_keywords: ["tom/ITextFont2.GetPositionSubSuper"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

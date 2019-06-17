@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_regopenkey, base.regopenkey, winreg/RegOpenKey, winreg/RegOpenKeyA, winreg/RegOpenKeyW
 ms.topic: function
+f1_keywords: ["winreg/RegOpenKey"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

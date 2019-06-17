@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StreamMode, StreamMode enumeration [PLA], base.streammode, pla.streammode, pla/StreamMode, pla/plaBoth, pla/plaBuffering, pla/plaFile, pla/plaRealTime, plaBoth, plaBuffering, plaFile, plaRealTime
 ms.topic: enum
+f1_keywords: ["pla/StreamMode"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

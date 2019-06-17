@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress function [Recovery], recovery.applicationrecoveryinprogress, winbase/ApplicationRecoveryInProgress
 ms.topic: function
+f1_keywords: ["winbase/ApplicationRecoveryInProgress"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

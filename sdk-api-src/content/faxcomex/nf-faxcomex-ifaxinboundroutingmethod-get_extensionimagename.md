@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtensionImageName property [Fax Service], ExtensionImageName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionImageName property, IFaxInboundRoutingMethod.ExtensionImageName, IFaxInboundRoutingMethod.get_ExtensionImageName, IFaxInboundRoutingMethod::ExtensionImageName, IFaxInboundRoutingMethod::get_ExtensionImageName, _mfax_faxinboundroutingmethod.extensionimagename, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionimagename_cpp, fax._mfax_faxinboundroutingmethod_extensionimagename, faxcomex/IFaxInboundRoutingMethod::ExtensionImageName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionImageName, get_ExtensionImageName
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxInboundRoutingMethod.ExtensionImageName"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

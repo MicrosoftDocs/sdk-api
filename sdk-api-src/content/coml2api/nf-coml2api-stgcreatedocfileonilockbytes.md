@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
 ms.topic: function
+f1_keywords: ["coml2api/StgCreateDocfileOnILockBytes"]
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows

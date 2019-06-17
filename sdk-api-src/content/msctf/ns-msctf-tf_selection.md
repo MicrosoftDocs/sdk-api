@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_SELECTION, TF_SELECTION structure [Text Services Framework], _tsf_tf_selection_ref, msctf/TF_SELECTION, tsf.tf_selection
 ms.topic: struct
+f1_keywords: ["msctf/TF_SELECTION"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

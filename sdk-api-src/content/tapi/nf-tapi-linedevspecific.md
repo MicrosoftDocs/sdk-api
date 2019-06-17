@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linedevspecific, lineDevSpecific, lineDevSpecific function [TAPI 2.2], tapi/lineDevSpecific, tapi2.linedevspecific"
 ms.topic: function
+f1_keywords: ["tapi/lineDevSpecific"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

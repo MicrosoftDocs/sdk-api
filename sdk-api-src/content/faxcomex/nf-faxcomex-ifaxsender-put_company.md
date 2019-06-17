@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Company property, IFaxSender.Company, IFaxSender.put_Company, IFaxSender::Company, IFaxSender::get_Company, IFaxSender::put_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_cpp_mfax_faxsender_company_cpp, faxcomex/IFaxSender::Company, faxcomex/IFaxSender::get_Company, faxcomex/IFaxSender::put_Company, put_Company
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxSender.Company"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

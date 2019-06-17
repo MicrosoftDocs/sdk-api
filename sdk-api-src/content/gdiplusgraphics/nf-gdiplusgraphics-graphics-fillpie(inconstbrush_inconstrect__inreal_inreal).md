@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillPie, FillPie method [GDI+], FillPie method [GDI+],Graphics class, Graphics class [GDI+],FillPie method, Graphics.FillPie, Graphics.FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), Graphics.FillPie(const Brush*,const Rect&,REAL,REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN const Rect &,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_, gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_Rect_rect_REAL_startAngle_REAL_sweepAngle_
 ms.topic: method
+f1_keywords: ["gdiplusgraphics/Graphics.FillPie"]
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

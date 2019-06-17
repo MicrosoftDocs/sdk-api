@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1ConvertColorSpace, D2D1ConvertColorSpace function [Direct2D], d2d1_1/D2D1ConvertColorSpace, direct2d.d2d1convertcolorspace
 ms.topic: function
+f1_keywords: ["d2d1_1/D2D1ConvertColorSpace"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

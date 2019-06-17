@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetConnection3, NPGetConnection3 function [Security], WNGETCON_CONNECTED, WNGETCON_DISCONNECTED, _mnp_npgetconnection3, npapi/NPGetConnection3, security.npgetconnection3
 ms.topic: function
+f1_keywords: ["npapi/NPGetConnection3"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

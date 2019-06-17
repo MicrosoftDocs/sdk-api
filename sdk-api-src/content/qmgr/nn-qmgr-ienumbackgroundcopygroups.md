@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], IEnumBackgroundCopyGroups interface [BITS],described, bits.ienumbackgroundcopygroups, qmgr/IEnumBackgroundCopyGroups
 ms.topic: interface
+f1_keywords: ["qmgr/IEnumBackgroundCopyGroups"]
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

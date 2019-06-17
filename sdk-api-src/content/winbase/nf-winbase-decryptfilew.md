@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DecryptFile, DecryptFile function [Files], DecryptFileA, DecryptFileW, _win32_decryptfile, base.decryptfile, fs.decryptfile, winbase/DecryptFile, winbase/DecryptFileA, winbase/DecryptFileW
 ms.topic: function
+f1_keywords: ["winbase/DecryptFile"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

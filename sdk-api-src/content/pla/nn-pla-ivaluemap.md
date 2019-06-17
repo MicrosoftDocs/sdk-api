@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IValueMap, IValueMap interface [PLA], IValueMap interface [PLA],described, base.ivaluemap, pla.ivaluemap, pla/IValueMap
 ms.topic: interface
+f1_keywords: ["pla/IValueMap"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

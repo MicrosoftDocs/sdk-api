@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommTimeouts, GetCommTimeouts function, _win32_getcommtimeouts, base.getcommtimeouts, winbase/GetCommTimeouts
 ms.topic: function
+f1_keywords: ["winbase/GetCommTimeouts"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

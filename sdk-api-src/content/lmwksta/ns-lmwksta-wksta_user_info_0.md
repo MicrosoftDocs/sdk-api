@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWKSTA_USER_INFO_0, *PWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0 structure pointer [Network Management], PWKSTA_USER_INFO_0, PWKSTA_USER_INFO_0 structure pointer [Network Management], WKSTA_USER_INFO_0, WKSTA_USER_INFO_0 structure [Network Management], _win32_wksta_user_info_0_str, lmwksta/LPWKSTA_USER_INFO_0, lmwksta/PWKSTA_USER_INFO_0, lmwksta/WKSTA_USER_INFO_0, netmgmt.wksta_user_info_0_str"
 ms.topic: struct
+f1_keywords: ["lmwksta/WKSTA_USER_INFO_0"]
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

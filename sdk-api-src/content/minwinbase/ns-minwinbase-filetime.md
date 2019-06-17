@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPFILETIME, *PFILETIME, FILETIME, FILETIME structure, PFILETIME, PFILETIME structure pointer, _FILETIME, _win32_filetime_str, base.filetime_str, minwinbase/FILETIME, minwinbase/PFILETIME"
 ms.topic: struct
+f1_keywords: ["minwinbase/FILETIME"]
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

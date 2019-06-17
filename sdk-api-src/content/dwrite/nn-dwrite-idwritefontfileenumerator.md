@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileEnumerator, IDWriteFontFileEnumerator interface [Direct Write], IDWriteFontFileEnumerator interface [Direct Write],described, directwrite.IDWriteFontFileEnumerator, dwrite/IDWriteFontFileEnumerator
 ms.topic: interface
+f1_keywords: ["dwrite/IDWriteFontFileEnumerator"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
 ms.topic: function
+f1_keywords: ["ntquery/CIShutdown"]
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

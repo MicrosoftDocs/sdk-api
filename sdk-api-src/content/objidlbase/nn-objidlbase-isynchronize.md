@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISynchronize, ISynchronize interface [COM], ISynchronize interface [COM],described, _com_isynchronize, com.isynchronize, objidlbase/ISynchronize
 ms.topic: interface
+f1_keywords: ["objidlbase/ISynchronize"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

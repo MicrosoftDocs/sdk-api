@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsGetNamespaceFromPrefix, WsGetNamespaceFromPrefix function [Web Services for Windows], webservices/WsGetNamespaceFromPrefix, wsw.wsgetnamespacefromprefix
 ms.topic: function
+f1_keywords: ["webservices/WsGetNamespaceFromPrefix"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

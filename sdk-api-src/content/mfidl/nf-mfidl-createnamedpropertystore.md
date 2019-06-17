@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46, CreateNamedPropertyStore, CreateNamedPropertyStore function [Media Foundation], mf.createnamedpropertystore, mfidl/CreateNamedPropertyStore
 ms.topic: function
+f1_keywords: ["mfidl/CreateNamedPropertyStore"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

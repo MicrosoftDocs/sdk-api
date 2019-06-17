@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNDOBJ_cEnumStart, WNDOBJ_cEnumStart function [Display Devices], display.wndobj_cenumstart, gdifncs_25b715da-7083-4602-b503-0f3a36a2dc1f.xml, winddi/WNDOBJ_cEnumStart
 ms.topic: function
+f1_keywords: ["winddi/WNDOBJ_cEnumStart"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

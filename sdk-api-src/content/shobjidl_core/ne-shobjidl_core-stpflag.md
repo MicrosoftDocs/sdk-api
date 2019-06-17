@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STPFLAG, STPFLAG enumeration [Windows Shell], STPF_NONE, STPF_USEAPPPEEKALWAYS, STPF_USEAPPPEEKWHENACTIVE, STPF_USEAPPTHUMBNAILALWAYS, STPF_USEAPPTHUMBNAILWHENACTIVE, _shell_STPFLAG, shell.STPFLAG, shobjidl_core/STPFLAG, shobjidl_core/STPF_NONE, shobjidl_core/STPF_USEAPPPEEKALWAYS, shobjidl_core/STPF_USEAPPPEEKWHENACTIVE, shobjidl_core/STPF_USEAPPTHUMBNAILALWAYS, shobjidl_core/STPF_USEAPPTHUMBNAILWHENACTIVE
 ms.topic: enum
+f1_keywords: ["shobjidl_core/STPFLAG"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

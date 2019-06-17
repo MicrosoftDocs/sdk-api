@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAt method, CHStringArray.SetAt, CHStringArray.SetAt(int,LPCWSTR), CHStringArray::SetAt, CHStringArray::SetAt(int,LPCWSTR), SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
 ms.topic: method
+f1_keywords: ["chstrarr/CHStringArray.SetAt"]
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

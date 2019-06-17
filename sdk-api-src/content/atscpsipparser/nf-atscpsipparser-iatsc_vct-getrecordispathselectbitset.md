@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsPathSelectBitSet, GetRecordIsPathSelectBitSet method [Microsoft TV Technologies], GetRecordIsPathSelectBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsPathSelectBitSet method, IATSC_VCT.GetRecordIsPathSelectBitSet, IATSC_VCT::GetRecordIsPathSelectBitSet, IATSC_VCTGetRecordIsPathSelectBitSet, atscpsipparser/IATSC_VCT::GetRecordIsPathSelectBitSet, mstv.iatsc_vct_getrecordispathselectbitset
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordIsPathSelectBitSet"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMultithreadProtected, GetMultithreadProtected method [Direct2D], GetMultithreadProtected method [Direct2D],ID2D1Multithread interface, ID2D1Multithread interface [Direct2D],GetMultithreadProtected method, ID2D1Multithread.GetMultithreadProtected, ID2D1Multithread::GetMultithreadProtected, d2d1_1/ID2D1Multithread::GetMultithreadProtected, direct2d.id2d1multithread_getmultithreadprotected
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Multithread.GetMultithreadProtected"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

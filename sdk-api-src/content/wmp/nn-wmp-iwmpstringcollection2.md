@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], IWMPStringCollection2 interface [Windows Media Player],described, IWMPStringCollection2Interface, wmp.iwmpstringcollection2, wmp/IWMPStringCollection2
 ms.topic: interface
+f1_keywords: ["wmp/IWMPStringCollection2"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

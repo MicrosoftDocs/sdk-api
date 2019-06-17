@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_REPEATING_HEADER, WS_REPEATING_HEADER_OPTION, WS_REPEATING_HEADER_OPTION enumeration [Web Services for Windows], WS_SINGLETON_HEADER, webservices/WS_REPEATING_HEADER, webservices/WS_REPEATING_HEADER_OPTION, webservices/WS_SINGLETON_HEADER, wsw.ws_repeating_header_option
 ms.topic: enum
+f1_keywords: ["webservices/WS_REPEATING_HEADER_OPTION"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

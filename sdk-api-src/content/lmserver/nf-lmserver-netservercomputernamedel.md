@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetServerComputerNameDel, NetServerComputerNameDel function [Network Management], _win32_netservercomputernamedel, lmserver/NetServerComputerNameDel, netmgmt.netservercomputernamedel
 ms.topic: function
+f1_keywords: ["lmserver/NetServerComputerNameDel"]
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows

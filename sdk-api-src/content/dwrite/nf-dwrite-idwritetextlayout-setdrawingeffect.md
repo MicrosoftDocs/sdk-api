@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetDrawingEffect method, IDWriteTextLayout.SetDrawingEffect, IDWriteTextLayout::SetDrawingEffect, SetDrawingEffect, SetDrawingEffect method [Direct Write], SetDrawingEffect method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetDrawingEffect, dwrite/IDWriteTextLayout::SetDrawingEffect
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextLayout.SetDrawingEffect"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

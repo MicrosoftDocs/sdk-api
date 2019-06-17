@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Description property, IEventSubscription.Description, IEventSubscription.put_Description, IEventSubscription::Description, IEventSubscription::get_Description, IEventSubscription::put_Description, cos.ieventsubscription_description, eventsys/IEventSubscription::Description, eventsys/IEventSubscription::get_Description, eventsys/IEventSubscription::put_Description, put_Description
 ms.topic: method
+f1_keywords: ["eventsys/IEventSubscription.Description"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

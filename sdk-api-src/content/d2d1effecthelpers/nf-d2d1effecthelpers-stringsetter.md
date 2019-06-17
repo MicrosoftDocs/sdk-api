@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringSetter, StringSetter function [Direct2D], d2d1effecthelpers/StringSetter, direct2d.stringsetter
 ms.topic: function
+f1_keywords: ["d2d1effecthelpers/StringSetter"]
 req.header: d2d1effecthelpers.h
 req.include-header: 
 req.target-type: Windows

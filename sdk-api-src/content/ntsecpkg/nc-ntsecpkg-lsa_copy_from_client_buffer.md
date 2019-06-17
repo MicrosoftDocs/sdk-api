@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyFromClientBuffer, CopyFromClientBuffer callback function [Security], LSA_COPY_FROM_CLIENT_BUFFER, LSA_COPY_FROM_CLIENT_BUFFER callback, _lsa_copyfromclientbuffer, ntsecpkg/CopyFromClientBuffer, security.copyfromclientbuffer
 ms.topic: callback
+f1_keywords: ["ntsecpkg/CopyFromClientBuffer"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

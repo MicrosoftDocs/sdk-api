@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTokenInformation, GetTokenInformation function [Security], _win32_gettokeninformation, security.gettokeninformation, securitybaseapi/GetTokenInformation
 ms.topic: function
+f1_keywords: ["securitybaseapi/GetTokenInformation"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

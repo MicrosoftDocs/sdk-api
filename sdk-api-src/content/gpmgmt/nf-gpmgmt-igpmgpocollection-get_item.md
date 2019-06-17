@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMGPOCollection class [GPMC],Item property, IGPMGPOCollection interface [GPMC],Item property, IGPMGPOCollection.Item, IGPMGPOCollection.get_Item, IGPMGPOCollection::Item, IGPMGPOCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMGPOCollection class, Item property [GPMC],IGPMGPOCollection interface, _win32_igpmgpocollection_get_item, get_Item, gpmc.igpmgpocollection_get_item, gpmgmt/IGPMGPOCollection::Item, gpmgmt/IGPMGPOCollection::get_Item
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMGPOCollection.Item"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

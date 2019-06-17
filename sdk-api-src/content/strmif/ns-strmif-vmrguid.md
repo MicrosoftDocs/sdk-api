@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMRGUID, VMRGUID structure [DirectShow], VMRGUIDStructure, dshow.vmrguid, strmif/VMRGUID
 ms.topic: struct
+f1_keywords: ["strmif/VMRGUID"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

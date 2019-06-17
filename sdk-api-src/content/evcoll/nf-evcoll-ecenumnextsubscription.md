@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcEnumNextSubscription, EcEnumNextSubscription function, evcoll/EcEnumNextSubscription, wec.ecenumnextsubscription, wes.ecenumnextsubscription
 ms.topic: function
+f1_keywords: ["evcoll/EcEnumNextSubscription"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

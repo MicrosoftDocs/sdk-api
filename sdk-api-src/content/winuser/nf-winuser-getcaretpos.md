@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCaretPos, GetCaretPos function [Menus and Other Resources], _win32_GetCaretPos, _win32_getcaretpos_cpp, menurc.getcaretpos, winui._win32_getcaretpos, winuser/GetCaretPos
 ms.topic: function
+f1_keywords: ["winuser/GetCaretPos"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

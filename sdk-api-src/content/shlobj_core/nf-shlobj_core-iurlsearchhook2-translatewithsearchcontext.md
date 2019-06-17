@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook2 interface [Windows Shell],TranslateWithSearchContext method, IURLSearchHook2.TranslateWithSearchContext, IURLSearchHook2::TranslateWithSearchContext, TranslateWithSearchContext, TranslateWithSearchContext method [Windows Shell], TranslateWithSearchContext method [Windows Shell],IURLSearchHook2 interface, _shell_IURLSearchHook2_TranslateWithSearchContext, shell.IURLSearchHook2_TranslateWithSearchContext, shlobj_core/IURLSearchHook2::TranslateWithSearchContext
 ms.topic: method
+f1_keywords: ["shlobj_core/IURLSearchHook2.TranslateWithSearchContext"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

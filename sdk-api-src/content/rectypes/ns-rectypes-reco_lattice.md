@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0fab8928-1632-4011-9d1d-2be5f6c5f22d, RECO_LATTICE, RECO_LATTICE structure [Tablet PC], rectypes/RECO_LATTICE, tablet.reco_lattice
 ms.topic: struct
+f1_keywords: ["rectypes/RECO_LATTICE"]
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Properties interface [Direct2D],SetValue method, ID2D1Properties.SetValue, ID2D1Properties.SetValue(U,const T &,), ID2D1Properties::SetValue, ID2D1Properties::SetValue(U,const T &,), ID2D1Properties::SetValue(U,const T&), SetValue, SetValue method [Direct2D], SetValue method [Direct2D],ID2D1Properties interface, d2d1_1/ID2D1Properties::SetValue, direct2d.id2d1properties_setvalue2
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Properties.SetValue"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

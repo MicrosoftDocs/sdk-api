@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM_VIDEO_OUTPUT_PROTECTION_IDS, DRM_VIDEO_OUTPUT_PROTECTION_IDS structure [windows Media Format], structure [windows Media Format], wmformat.drm_video_output_protection_ids, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS
 ms.topic: struct
+f1_keywords: ["wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION_IDS"]
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

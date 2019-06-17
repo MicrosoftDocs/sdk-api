@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnregisterPointerInputTargetEx, UnregisterPointerInputTargetEx function [Windows Accessibility], winauto.unregisterpointerinputtargetex, winuser/UnregisterPointerInputTargetEx
 ms.topic: function
+f1_keywords: ["winuser/UnregisterPointerInputTargetEx"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

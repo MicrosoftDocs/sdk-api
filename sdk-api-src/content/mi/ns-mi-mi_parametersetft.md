@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSetFT, MI_ParameterSetFT structure [Windows Management Infrastructure (MI)], mi/MI_ParameterSetFT, wmi_v2.mi_parametersetft
 ms.topic: struct
+f1_keywords: ["mi/MI_ParameterSetFT"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

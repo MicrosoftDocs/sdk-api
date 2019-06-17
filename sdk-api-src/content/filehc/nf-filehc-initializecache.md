@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache
 ms.topic: function
+f1_keywords: ["filehc/InitializeCache"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

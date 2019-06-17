@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchResult interface [Windows Update Agent],Warnings property, ISearchResult.Warnings, ISearchResult.get_Warnings, ISearchResult::Warnings, ISearchResult::get_Warnings, Warnings property [Windows Update Agent], Warnings property [Windows Update Agent],ISearchResult interface, get_Warnings, wua.isearchresult_warnings, wuapi/ISearchResult::Warnings, wuapi/ISearchResult::get_Warnings
 ms.topic: method
+f1_keywords: ["wuapi/ISearchResult.Warnings"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

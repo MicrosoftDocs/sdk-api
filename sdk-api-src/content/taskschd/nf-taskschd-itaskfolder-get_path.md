@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder interface [Task Scheduler],Path property, ITaskFolder.Path, ITaskFolder.get_Path, ITaskFolder::Path, ITaskFolder::get_Path, Path property [Task Scheduler], Path property [Task Scheduler],ITaskFolder interface, get_Path, taskschd.itaskfolder_path, taskschd/ITaskFolder::Path, taskschd/ITaskFolder::get_Path
 ms.topic: method
+f1_keywords: ["taskschd/ITaskFolder.Path"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

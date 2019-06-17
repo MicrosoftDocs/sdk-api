@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextRenderer1, IDWriteTextRenderer1 interface [Direct Write], IDWriteTextRenderer1 interface [Direct Write],described, directwrite.idwritetextrenderer1, dwrite_2/IDWriteTextRenderer1
 ms.topic: interface
+f1_keywords: ["dwrite_2/IDWriteTextRenderer1"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

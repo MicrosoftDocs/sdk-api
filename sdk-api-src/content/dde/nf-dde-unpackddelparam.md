@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnpackDDElParam, UnpackDDElParam function [Data Exchange], _win32_UnpackDDElParam, _win32_unpackddelparam_cpp, dataxchg.unpackddelparam, dde/UnpackDDElParam, winui._win32_unpackddelparam
 ms.topic: function
+f1_keywords: ["dde/UnpackDDElParam"]
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows

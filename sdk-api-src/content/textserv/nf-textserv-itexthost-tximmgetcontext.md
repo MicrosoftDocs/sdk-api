@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxImmGetContext method, ITextHost.TxImmGetContext, ITextHost::TxImmGetContext, TxImmGetContext, TxImmGetContext method [Windows Controls], TxImmGetContext method [Windows Controls],ITextHost interface, _win32_ITextHost_TxImmGetContext, _win32_ITextHost_TxImmGetContext_cpp, controls.ITextHost_TxImmGetContext, controls._win32_ITextHost_TxImmGetContext, textserv/ITextHost::TxImmGetContext
 ms.topic: method
+f1_keywords: ["textserv/ITextHost.TxImmGetContext"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

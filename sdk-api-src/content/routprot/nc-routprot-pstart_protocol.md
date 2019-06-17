@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSTART_PROTOCOL, PSTART_PROTOCOL callback, StartProtocol, StartProtocol callback function [RAS], _mpr_startprotocol, routprot/StartProtocol, rras.startprotocol
 ms.topic: callback
+f1_keywords: ["routprot/StartProtocol"]
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

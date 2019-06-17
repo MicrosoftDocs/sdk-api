@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_LoadStream, DPA_LoadStream function [Windows Controls], _win32_DPA_LoadStream, _win32_DPA_LoadStream_cpp, controls.DPA_LoadStream, controls._win32_DPA_LoadStream, dpa_dsa/DPA_LoadStream
 ms.topic: function
+f1_keywords: ["dpa_dsa/DPA_LoadStream"]
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

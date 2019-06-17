@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMSVCSEVENTINFO, COMSVCSEVENTINFO structure [COM+], _dtc_Event_Structure, comsvcs/COMSVCSEVENTINFO, cos.comsvcseventinfo
 ms.topic: struct
+f1_keywords: ["comsvcs/COMSVCSEVENTINFO"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

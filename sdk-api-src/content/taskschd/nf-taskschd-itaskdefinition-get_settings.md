@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Settings property, ITaskDefinition.Settings, ITaskDefinition.get_Settings, ITaskDefinition::Settings, ITaskDefinition::get_Settings, ITaskDefinition::put_Settings, Settings property [Task Scheduler], Settings property [Task Scheduler],ITaskDefinition interface, get_Settings, taskschd.itaskdefinition_settings, taskschd/ITaskDefinition::Settings, taskschd/ITaskDefinition::get_Settings, taskschd/ITaskDefinition::put_Settings
 ms.topic: method
+f1_keywords: ["taskschd/ITaskDefinition.Settings"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

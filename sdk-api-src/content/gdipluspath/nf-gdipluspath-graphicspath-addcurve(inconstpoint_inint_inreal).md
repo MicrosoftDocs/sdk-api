@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddCurve, AddCurve method [GDI+], AddCurve method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],AddCurve method, GraphicsPath.AddCurve, GraphicsPath.AddCurve(IN const Point,IN INT,IN REAL), GraphicsPath.AddCurve(const Point*,INT,REAL), GraphicsPath::AddCurve, GraphicsPath::AddCurve(IN const Point,IN INT,IN REAL), _gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_REAL_tension_, gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_REAL_tension_
 ms.topic: method
+f1_keywords: ["gdipluspath/GraphicsPath.AddCurve"]
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

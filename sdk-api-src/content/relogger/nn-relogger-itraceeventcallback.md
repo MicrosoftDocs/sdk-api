@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventCallback, IEventCallback interface [ETW], IEventCallback interface [ETW],described, ITraceEventCallback, etw.ieventcallback, relogger/ITraceEventCallback
 ms.topic: interface
+f1_keywords: ["relogger/IEventCallback"]
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

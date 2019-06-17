@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Value property, IRangeValueProvider.Value, IRangeValueProvider.get_Value, IRangeValueProvider::Value, IRangeValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],IRangeValueProvider interface, get_Value, uiauto.uiauto_IRangeValueProvider_Value, uiauto_IRangeValueProvider_Value, uiautomationcore/IRangeValueProvider::Value, uiautomationcore/IRangeValueProvider::get_Value, winauto.uiauto_IRangeValueProvider_Value
 ms.topic: method
+f1_keywords: ["uiautomationcore/IRangeValueProvider.Value"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

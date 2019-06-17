@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Files], STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Files], fs.storage_protocol_specific_data, winioctl/PSTORAGE_PROTOCOL_SPECIFIC_DATA, winioctl/STORAGE_PROTOCOL_SPECIFIC_DATA"
 ms.topic: struct
+f1_keywords: ["winioctl/STORAGE_PROTOCOL_SPECIFIC_DATA"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

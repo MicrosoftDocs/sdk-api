@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprInfoDuplicate, MprInfoDuplicate function [RAS], _mpr_mprinfoduplicate, mprapi/MprInfoDuplicate, rras.mprinfoduplicate
 ms.topic: function
+f1_keywords: ["mprapi/MprInfoDuplicate"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

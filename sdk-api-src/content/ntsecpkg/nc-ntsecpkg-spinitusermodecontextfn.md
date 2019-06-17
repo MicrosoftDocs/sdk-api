@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpInitUserModeContext, SpInitUserModeContext callback function [Security], SpInitUserModeContextFn, SpInitUserModeContextFn callback, _ssp_spinitusermodecontext, ntsecpkg/SpInitUserModeContext, security.spinitusermodecontext
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpInitUserModeContext"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

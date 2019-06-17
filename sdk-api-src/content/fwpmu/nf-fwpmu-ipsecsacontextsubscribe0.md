@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextSubscribe0, IPsecSaContextSubscribe0 function [Filtering], fwp.ipsecsacontextsubscribe0, fwpmu/IPsecSaContextSubscribe0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaContextSubscribe0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

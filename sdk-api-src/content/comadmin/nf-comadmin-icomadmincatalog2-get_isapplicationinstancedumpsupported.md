@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],IsApplicationInstanceDumpSupported property, ICOMAdminCatalog2.IsApplicationInstanceDumpSupported, ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, IsApplicationInstanceDumpSupported property [COM+], IsApplicationInstanceDumpSupported property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, cos.icomadmincatalog2_isapplicationinstancedumpsupported, get_IsApplicationInstanceDumpSupported
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog2.IsApplicationInstanceDumpSupported"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

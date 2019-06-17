@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interface [DirectShow],described, IEnumPIDMapInterface, bdaiface/IEnumPIDMap, dshow.ienumpidmap
 ms.topic: interface
+f1_keywords: ["bdaiface/IEnumPIDMap"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

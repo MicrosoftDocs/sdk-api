@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster, IDiscMaster interface [IMAPI], IDiscMaster interface [IMAPI],described, _win32_idiscmaster, base.idiscmaster, imapi.idiscmaster, imapi/IDiscMaster
 ms.topic: interface
+f1_keywords: ["imapi/IDiscMaster"]
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: GetBindingProperties, GetBindingProperties method, GetBindingProperties method,IDMLDispatchable interface, IDMLDispatchable interface,GetBindingProperties method, IDMLDispatchable.GetBindingProperties, IDMLDispatchable::GetBindingProperties, direct3d12.idmldispatchable_getbindingproperties, directml/IDMLDispatchable::GetBindingProperties
 ms.topic: method
+f1_keywords: ["directml/IDMLDispatchable.GetBindingProperties"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

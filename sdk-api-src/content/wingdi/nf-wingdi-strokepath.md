@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrokePath, StrokePath function [Windows GDI], _win32_StrokePath, gdi.strokepath, wingdi/StrokePath
 ms.topic: function
+f1_keywords: ["wingdi/StrokePath"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

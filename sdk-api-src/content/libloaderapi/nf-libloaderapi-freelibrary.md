@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeLibrary, FreeLibrary function, _win32_freelibrary, base.freelibrary, libloaderapi/FreeLibrary, winbase/FreeLibrary
 ms.topic: function
+f1_keywords: ["libloaderapi/FreeLibrary"]
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

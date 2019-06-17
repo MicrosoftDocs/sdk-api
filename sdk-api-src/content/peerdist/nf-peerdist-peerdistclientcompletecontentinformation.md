@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCompleteContentInformation, PeerDistClientCompleteContentInformation function [Peer Networking], p2p.peerdistclientcompletecontentinformation, peerdist/PeerDistClientCompleteContentInformation
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistClientCompleteContentInformation"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

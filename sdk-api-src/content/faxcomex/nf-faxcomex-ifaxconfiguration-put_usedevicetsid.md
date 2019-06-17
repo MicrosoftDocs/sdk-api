@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],UseDeviceTSID property, IFaxConfiguration.UseDeviceTSID, IFaxConfiguration.put_UseDeviceTSID, IFaxConfiguration::UseDeviceTSID, IFaxConfiguration::get_UseDeviceTSID, IFaxConfiguration::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_UseDeviceTSID, fax._mfax_IFaxConfiguration_UseDeviceTSID, faxcomex/IFaxConfiguration::UseDeviceTSID, faxcomex/IFaxConfiguration::get_UseDeviceTSID, faxcomex/IFaxConfiguration::put_UseDeviceTSID, put_UseDeviceTSID
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxConfiguration.UseDeviceTSID"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

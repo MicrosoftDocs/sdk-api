@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 2f53ee75-643c-3909-1e4f-aa32b40994c3, ID3D10Texture2D interface [Direct3D 10],Map method, ID3D10Texture2D.Map, ID3D10Texture2D::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Texture2D interface, d3d10/ID3D10Texture2D::Map, direct3d10.id3d10texture2d_map
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Texture2D.Map"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

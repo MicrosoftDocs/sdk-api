@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpGetVendorInfo, SnmpGetVendorInfo function [SNMP], _snmp_snmpgetvendorinfo, snmp.snmpgetvendorinfo, winsnmp/SnmpGetVendorInfo
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpGetVendorInfo"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

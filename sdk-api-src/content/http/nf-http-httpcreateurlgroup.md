@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCreateUrlGroup, HttpCreateUrlGroup function [HTTP], http.httpcreateurlgroup, http/HttpCreateUrlGroup
 ms.topic: function
+f1_keywords: ["http/HttpCreateUrlGroup"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

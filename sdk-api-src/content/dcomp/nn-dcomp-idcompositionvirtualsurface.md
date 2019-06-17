@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVirtualSurface, IDCompositionVirtualSurface interface [DirectComposition], IDCompositionVirtualSurface interface [DirectComposition],described, dcomp/IDCompositionVirtualSurface, directcomp.idcompositionvirtualsurface
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionVirtualSurface"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

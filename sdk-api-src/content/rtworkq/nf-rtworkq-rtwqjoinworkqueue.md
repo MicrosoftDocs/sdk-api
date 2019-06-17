@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkqueue, rtworkq/RtwqJoinWorkQueue
 ms.topic: function
+f1_keywords: ["rtworkq/RtwqJoinWorkQueue"]
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows

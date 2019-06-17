@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToRect, EvaluateProximityToRect function, input_touchhittest.evaluateproximitytorect, touch_hittest.evaluateproximitytorect, winuser/EvaluateProximityToRect
 ms.topic: function
+f1_keywords: ["winuser/EvaluateProximityToRect"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

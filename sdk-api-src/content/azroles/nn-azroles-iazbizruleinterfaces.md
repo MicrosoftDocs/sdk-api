@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleInterfaces, IAzBizRuleInterfaces interface [Security], IAzBizRuleInterfaces interface [Security],described, azroles/IAzBizRuleInterfaces, security.iazbizruleinterfaces
 ms.topic: interface
+f1_keywords: ["azroles/IAzBizRuleInterfaces"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

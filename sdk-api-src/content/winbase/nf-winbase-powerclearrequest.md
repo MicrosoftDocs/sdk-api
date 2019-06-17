@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerClearRequest, PowerClearRequest function, PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, base.powerclearrequest, winbase/PowerClearRequest
 ms.topic: function
+f1_keywords: ["winbase/PowerClearRequest"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

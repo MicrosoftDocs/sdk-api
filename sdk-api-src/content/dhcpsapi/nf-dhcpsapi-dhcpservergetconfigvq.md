@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerGetConfigVQ, DhcpServerGetConfigVQ function [DHCP], dhcp.dhcpservergetconfigvq, dhcpsapi/DhcpServerGetConfigVQ
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerGetConfigVQ"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

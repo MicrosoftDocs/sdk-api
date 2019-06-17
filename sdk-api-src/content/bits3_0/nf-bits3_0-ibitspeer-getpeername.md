@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPeerName, GetPeerName method [BITS], GetPeerName method [BITS],IBitsPeer interface, IBitsPeer interface [BITS],GetPeerName method, IBitsPeer.GetPeerName, IBitsPeer::GetPeerName, bits.ibitspeer_getpeername, bits3_0/IBitsPeer::GetPeerName
 ms.topic: method
+f1_keywords: ["bits3_0/IBitsPeer.GetPeerName"]
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows

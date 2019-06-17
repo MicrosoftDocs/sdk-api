@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC, IEnumFORMATETC interface [COM], IEnumFORMATETC interface [COM],described, _ole_ienumformatetc, com.ienumformatetc, objidl/IEnumFORMATETC
 ms.topic: interface
+f1_keywords: ["objidl/IEnumFORMATETC"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

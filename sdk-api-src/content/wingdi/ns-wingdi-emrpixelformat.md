@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRPIXELFORMAT, EMRPIXELFORMAT, EMRPIXELFORMAT structure [Windows GDI], PEMRPIXELFORMAT, PEMRPIXELFORMAT structure pointer [Windows GDI], _win32_EMRPIXELFORMAT_str, gdi.emrpixelformat, wingdi/EMRPIXELFORMAT, wingdi/PEMRPIXELFORMAT"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRPIXELFORMAT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

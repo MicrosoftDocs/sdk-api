@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PssWalkMarkerFree, PssWalkMarkerFree function, proc_snap.psswalkmarkerfree, processsnapshot/PssWalkMarkerFree
 ms.topic: function
+f1_keywords: ["processsnapshot/PssWalkMarkerFree"]
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

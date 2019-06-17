@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSmSwapClientAllocFree, RpcSmSwapClientAllocFree function [RPC], _rpc_rpcsmswapclientallocfree, rpc.rpcsmswapclientallocfree, rpcndr/RpcSmSwapClientAllocFree
 ms.topic: function
+f1_keywords: ["rpcndr/RpcSmSwapClientAllocFree"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

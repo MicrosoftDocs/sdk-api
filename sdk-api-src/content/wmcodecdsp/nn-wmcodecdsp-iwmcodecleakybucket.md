@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecLeakyBucket, IWMCodecLeakyBucket interface [Media Foundation], IWMCodecLeakyBucket interface [Media Foundation],described, codecapi.iwmcodecleakybucketinterface, mf.iwmcodecleakybucketinterface, wmcodecdsp/IWMCodecLeakyBucket
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/IWMCodecLeakyBucket"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

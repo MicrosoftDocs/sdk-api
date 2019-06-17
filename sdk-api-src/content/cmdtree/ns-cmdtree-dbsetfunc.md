@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DBSETFUNC, DBSETFUNC structure [Indexing Service], _idxs_DBSETFUNC, cmdtree/DBSETFUNC, indexsrv.dbsetfunc, tagDBSETFUNC
 ms.topic: struct
+f1_keywords: ["cmdtree/DBSETFUNC"]
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows

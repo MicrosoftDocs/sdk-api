@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceReportMessage, IWorkspaceReportMessage interface [Remote Desktop Services], IWorkspaceReportMessage interface [Remote Desktop Services],described, termserv.iworkspacereportmessage, workspaceruntime/IWorkspaceReportMessage
 ms.topic: interface
+f1_keywords: ["workspaceruntime/IWorkspaceReportMessage"]
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows

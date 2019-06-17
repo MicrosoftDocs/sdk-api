@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQualProp, IQualProp interface [DirectShow], IQualProp interface [DirectShow],described, IQualPropInterface, amvideo/IQualProp, dshow.iqualprop
 ms.topic: interface
+f1_keywords: ["amvideo/IQualProp"]
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

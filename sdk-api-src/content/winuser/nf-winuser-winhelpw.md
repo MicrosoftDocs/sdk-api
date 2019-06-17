@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHelp, WinHelp function [Windows Shell], WinHelpA, WinHelpW, _win32_WinHelp, shell.WinHelp, winuser/WinHelp, winuser/WinHelpA, winuser/WinHelpW
 ms.topic: function
+f1_keywords: ["winuser/WinHelp"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

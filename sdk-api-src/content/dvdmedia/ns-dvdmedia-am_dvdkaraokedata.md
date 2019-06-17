@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData
 ms.topic: struct
+f1_keywords: ["dvdmedia/AM_DvdKaraokeData"]
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows

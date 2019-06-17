@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSharedResourceAdapterLuid, GetSharedResourceAdapterLuid method [DXGI], GetSharedResourceAdapterLuid method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],GetSharedResourceAdapterLuid method, IDXGIFactory2.GetSharedResourceAdapterLuid, IDXGIFactory2::GetSharedResourceAdapterLuid, direct3ddxgi.idxgifactory2_getsharedresourceadapterluid, dxgi1_2/IDXGIFactory2::GetSharedResourceAdapterLuid
 ms.topic: method
+f1_keywords: ["dxgi1_2/IDXGIFactory2.GetSharedResourceAdapterLuid"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

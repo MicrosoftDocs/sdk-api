@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrStubCall3, NdrStubCall3 function [RPC], rpc.ndrstubcall3, rpcndr/NdrStubCall3
 ms.topic: function
+f1_keywords: ["rpcndr/NdrStubCall3"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

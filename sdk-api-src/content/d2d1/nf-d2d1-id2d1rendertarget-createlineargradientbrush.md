@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush methods [Direct2D], ID2D1RenderTarget.CreateLinearGradientBrush, ID2D1RenderTarget::CreateLinearGradientBrush, d2d1/CreateLinearGradientBrush, direct2d.id2d1rendertarget_createlineargradientbrush
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RenderTarget::CreateLinearGradientBrush"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],Cancel method, IFsrmCollection.Cancel, IFsrmCollection::Cancel, fs.ifsrmcollection_cancel, fsrm.ifsrmcollection_cancel, fsrm/IFsrmCollection::Cancel
 ms.topic: method
+f1_keywords: ["fsrm/IFsrmCollection.Cancel"]
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

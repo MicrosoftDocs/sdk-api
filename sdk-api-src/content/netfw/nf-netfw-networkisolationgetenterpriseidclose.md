@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdClose, NetworkIsolationGetEnterpriseIdClose function [ICS/ICF], ics.networkisolationgetenterpriseidclose, netfw/NetworkIsolationGetEnterpriseIdClose
 ms.topic: function
+f1_keywords: ["netfw/NetworkIsolationGetEnterpriseIdClose"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

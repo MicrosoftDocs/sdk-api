@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadRegTypeLib, LoadRegTypeLib function [Automation], _oa96_LoadRegTypeLib, automat.loadregtypelib, oleauto/LoadRegTypeLib
 ms.topic: function
+f1_keywords: ["oleauto/LoadRegTypeLib"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

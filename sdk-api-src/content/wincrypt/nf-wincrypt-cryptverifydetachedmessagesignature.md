@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyDetachedMessageSignature, CryptVerifyDetachedMessageSignature function [Security], _crypto2_cryptverifydetachedmessagesignature, security.cryptverifydetachedmessagesignature, wincrypt/CryptVerifyDetachedMessageSignature
 ms.topic: function
+f1_keywords: ["wincrypt/CryptVerifyDetachedMessageSignature"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

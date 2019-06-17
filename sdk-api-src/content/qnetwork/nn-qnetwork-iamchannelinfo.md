@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo, IAMChannelInfo interface [DirectShow], IAMChannelInfo interface [DirectShow],described, IAMChannelInfoInterface, dshow.iamchannelinfo, qnetwork/IAMChannelInfo
 ms.topic: interface
+f1_keywords: ["qnetwork/IAMChannelInfo"]
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows

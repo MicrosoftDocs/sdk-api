@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImpersonateSelf, ImpersonateSelf function [Security], _win32_impersonateself, security.impersonateself, securitybaseapi/ImpersonateSelf
 ms.topic: function
+f1_keywords: ["securitybaseapi/ImpersonateSelf"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

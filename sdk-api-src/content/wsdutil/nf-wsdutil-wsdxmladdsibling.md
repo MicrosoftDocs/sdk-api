@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXMLAddSibling, WSDXMLAddSibling function, ncd.wsdxmladdsibling, wsdutil/WSDXMLAddSibling
 ms.topic: function
+f1_keywords: ["wsdutil/WSDXMLAddSibling"]
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

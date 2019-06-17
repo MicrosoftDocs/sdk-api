@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],StartTime property, ITsSbTaskInfo.StartTime, ITsSbTaskInfo.get_StartTime, ITsSbTaskInfo::StartTime, ITsSbTaskInfo::get_StartTime, StartTime property [Remote Desktop Services], StartTime property [Remote Desktop Services],ITsSbTaskInfo interface, get_StartTime, sbtsv/ITsSbTaskInfo::StartTime, sbtsv/ITsSbTaskInfo::get_StartTime, termserv.itssbtaskinfo_starttime
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbTaskInfo.StartTime"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

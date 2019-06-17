@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_IP_ADDRESS, WTSSBX_IP_ADDRESS structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0004, termserv.wtssbx_ip_address, tssbx/WTSSBX_IP_ADDRESS
 ms.topic: struct
+f1_keywords: ["tssbx/WTSSBX_IP_ADDRESS"]
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows

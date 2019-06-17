@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_SUBNET_STATE, DHCP_SUBNET_STATE, DHCP_SUBNET_STATE enumeration [DHCP], DhcpSubnetDisabled, DhcpSubnetDisabledSwitched, DhcpSubnetEnabled, DhcpSubnetEnabledSwitched, DhcpSubnetInvalidState, LPDHCP_SUBNET_STATE, LPDHCP_SUBNET_STATE enumeration pointer [DHCP], dhcp.dhcp_subnet_state, dhcpsapi/DHCP_SUBNET_STATE, dhcpsapi/DhcpSubnetDisabled, dhcpsapi/DhcpSubnetDisabledSwitched, dhcpsapi/DhcpSubnetEnabled, dhcpsapi/DhcpSubnetEnabledSwitched, dhcpsapi/DhcpSubnetInvalidState, dhcpsapi/LPDHCP_SUBNET_STATE"
 ms.topic: enum
+f1_keywords: ["dhcpsapi/DHCP_SUBNET_STATE"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

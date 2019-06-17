@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateQueryWriter, CreateQueryWriter method [Windows Imaging Component], CreateQueryWriter method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateQueryWriter method, IWICImagingFactory.CreateQueryWriter, IWICImagingFactory::CreateQueryWriter, _wic_codec_iwicimagingfactory_createquerywriter, wic._wic_codec_iwicimagingfactory_createquerywriter, wincodec/IWICImagingFactory::CreateQueryWriter
 ms.topic: method
+f1_keywords: ["wincodec/IWICImagingFactory.CreateQueryWriter"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

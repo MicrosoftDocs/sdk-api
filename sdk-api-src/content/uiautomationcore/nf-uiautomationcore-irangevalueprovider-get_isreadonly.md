@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],IsReadOnly property, IRangeValueProvider.IsReadOnly, IRangeValueProvider.get_IsReadOnly, IRangeValueProvider::IsReadOnly, IRangeValueProvider::get_IsReadOnly, IsReadOnly property [Windows Accessibility], IsReadOnly property [Windows Accessibility],IRangeValueProvider interface, get_IsReadOnly, uiauto.uiauto_IRangeValueProvider_IsReadOnly, uiauto_IRangeValueProvider_IsReadOnly, uiautomationcore/IRangeValueProvider::IsReadOnly, uiautomationcore/IRangeValueProvider::get_IsReadOnly, winauto.uiauto_IRangeValueProvider_IsReadOnly
 ms.topic: method
+f1_keywords: ["uiautomationcore/IRangeValueProvider.IsReadOnly"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

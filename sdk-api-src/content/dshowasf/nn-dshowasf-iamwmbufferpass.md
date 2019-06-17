@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPass, IAMWMBufferPass interface [windows Media Format], IAMWMBufferPass interface [windows Media Format],described, IAMWMBufferPassInterface, dshowasf/IAMWMBufferPass, wmformat.iamwmbufferpass
 ms.topic: interface
+f1_keywords: ["dshowasf/IAMWMBufferPass"]
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows

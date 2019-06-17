@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [SMI], GetPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetPath method, ISettingsItem.GetPath, ISettingsItem::GetPath, smi.isettingsitem_getpath, wcmconfig/ISettingsItem::GetPath
 ms.topic: method
+f1_keywords: ["wcmconfig/ISettingsItem.GetPath"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

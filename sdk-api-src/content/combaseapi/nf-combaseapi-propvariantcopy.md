@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Structured Storage], _stg_propvariantcopy, combaseapi/PropVariantCopy, stg.propvariantcopy
 ms.topic: function
+f1_keywords: ["combaseapi/PropVariantCopy"]
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

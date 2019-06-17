@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvNotify, DrvNotify function [Display Devices], ddifncs_24141fb1-e368-47f8-b123-eb1e1789b568.xml, display.drvnotify, winddi/DrvNotify
 ms.topic: function
+f1_keywords: ["winddi/DrvNotify"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

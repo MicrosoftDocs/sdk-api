@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
 ms.topic: function
+f1_keywords: ["filehc/InvalidateName"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

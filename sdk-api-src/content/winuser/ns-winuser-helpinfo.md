@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPHELPINFO, HELPINFO, HELPINFO structure [Windows Shell], HELPINFO_MENUITEM, HELPINFO_WINDOW, LPHELPINFO, LPHELPINFO structure pointer [Windows Shell], _win32_HELPINFO_str, _win32_helpinfo_str_cpp, shell.HELPINFO_str, tagHELPINFO, winuser/HELPINFO, winuser/LPHELPINFO"
 ms.topic: struct
+f1_keywords: ["winuser/HELPINFO"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

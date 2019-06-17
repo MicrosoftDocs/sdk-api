@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetFlags method, IBrowserService.GetFlags, IBrowserService::GetFlags, shdeprecated/IBrowserService::GetFlags, shell.IBrowserService_GetFlags, zone_IBrowserService_GetFlags
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService.GetFlags"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

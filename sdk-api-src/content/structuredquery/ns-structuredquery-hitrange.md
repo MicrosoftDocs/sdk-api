@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE
 ms.topic: struct
+f1_keywords: ["structuredquery/HITRANGE"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

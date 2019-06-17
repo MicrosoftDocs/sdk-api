@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvCreateDeviceBitmap, DrvCreateDeviceBitmap function [Display Devices], ddifncs_b3a739da-4a9d-4e84-a4e8-8b1e790a06af.xml, display.drvcreatedevicebitmap, winddi/DrvCreateDeviceBitmap
 ms.topic: function
+f1_keywords: ["winddi/DrvCreateDeviceBitmap"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

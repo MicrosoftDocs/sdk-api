@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoDosDateTimeToFileTime, CoDosDateTimeToFileTime function [COM], _com_CoDosDateTimeToFileTime, com.codosdatetimetofiletime, objbase/CoDosDateTimeToFileTime
 ms.topic: function
+f1_keywords: ["objbase/CoDosDateTimeToFileTime"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

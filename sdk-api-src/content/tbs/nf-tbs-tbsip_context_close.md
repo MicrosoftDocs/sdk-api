@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Tbsip_Context_Close, Tbsip_Context_Close function [TBS], tbs._tbsip_context_close, tbs/Tbsip_Context_Close
 ms.topic: function
+f1_keywords: ["tbs/Tbsip_Context_Close"]
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MPEG1_SEQUENCE_INFO, MPEG1_SEQUENCE_INFO macro [DirectShow], amvideo/MPEG1_SEQUENCE_INFO, dshow.mpeg1_sequence_info
 ms.topic: macro
+f1_keywords: ["amvideo/MPEG1_SEQUENCE_INFO"]
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

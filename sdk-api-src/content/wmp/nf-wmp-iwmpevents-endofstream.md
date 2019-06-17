@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EndOfStream, EndOfStream method [Windows Media Player], EndOfStream method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],EndOfStream method, IWMPEvents.EndOfStream, IWMPEvents::EndOfStream, IWMPEventsEndOfStream, wmp.iwmpevents_iwmpevents__endofstream, wmp/IWMPEvents::EndOfStream
 ms.topic: method
+f1_keywords: ["wmp/IWMPEvents.EndOfStream"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

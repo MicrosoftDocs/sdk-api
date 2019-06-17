@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTSGetChildSessionId, WTSGetChildSessionId function [Remote Desktop Services], termserv.wtsgetchildsessionid, wtsapi32/WTSGetChildSessionId
 ms.topic: function
+f1_keywords: ["wtsapi32/WTSGetChildSessionId"]
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

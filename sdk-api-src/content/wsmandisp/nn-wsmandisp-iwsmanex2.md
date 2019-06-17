@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSManEx2, IWSManEx2 interface [Windows Remote Management], IWSManEx2 interface [Windows Remote Management],described, winrm.iwsmanex2, wsmandisp/IWSManEx2
 ms.topic: interface
+f1_keywords: ["wsmandisp/IWSManEx2"]
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

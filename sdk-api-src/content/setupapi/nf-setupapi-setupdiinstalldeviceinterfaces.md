@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiInstallDeviceInterfaces, SetupDiInstallDeviceInterfaces function [Device and Driver Installation], devinst.setupdiinstalldeviceinterfaces, di-rtns_8bb9c70f-c1be-45f6-af6c-243a750babb9.xml, setupapi/SetupDiInstallDeviceInterfaces
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiInstallDeviceInterfaces"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

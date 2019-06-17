@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cryptenumoidinfo, security.cryptenumoidinfo, wincrypt/CryptEnumOIDInfo
 ms.topic: function
+f1_keywords: ["wincrypt/CryptEnumOIDInfo"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

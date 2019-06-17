@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetName method, INewShortcutHook::GetName, INewShortcutHookA, INewShortcutHookA.GetName, INewShortcutHookA::GetName, INewShortcutHookW, INewShortcutHookW::GetName, _win32_INewShortcutHook_GetName, shell.INewShortcutHook_GetName, shlobj/INewShortcutHook::GetName
 ms.topic: method
+f1_keywords: ["shlobj/INewShortcutHook.GetName"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

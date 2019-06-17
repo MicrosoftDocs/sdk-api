@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], IDVB_NIT interface [Microsoft TV Technologies],described, IDVB_NITInterface, dvbsiparser/IDVB_NIT, mstv.idvb_nit
 ms.topic: interface
+f1_keywords: ["dvbsiparser/IDVB_NIT"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

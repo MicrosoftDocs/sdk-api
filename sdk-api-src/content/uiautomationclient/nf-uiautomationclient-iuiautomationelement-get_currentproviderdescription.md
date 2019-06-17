@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentProviderDescription property [Windows Accessibility], CurrentProviderDescription property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentProviderDescription property, IUIAutomationElement.CurrentProviderDescription, IUIAutomationElement.get_CurrentProviderDescription, IUIAutomationElement::CurrentProviderDescription, IUIAutomationElement::get_CurrentProviderDescription, get_CurrentProviderDescription, uiauto.uiauto_IUIAutomationElement_CurrentProviderDescription, uiauto_IUIAutomationElement_CurrentProviderDescription, uiautomationclient/IUIAutomationElement::CurrentProviderDescription, uiautomationclient/IUIAutomationElement::get_CurrentProviderDescription, winauto.uiauto_IUIAutomationElement_CurrentProviderDescription
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CurrentProviderDescription"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

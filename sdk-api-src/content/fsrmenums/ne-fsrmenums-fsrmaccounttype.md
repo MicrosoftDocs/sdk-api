@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FsrmAccountType, FsrmAccountType enumeration [File Server Resource Manager], FsrmAccountType_Automatic, FsrmAccountType_External, FsrmAccountType_InProc, FsrmAccountType_LocalService, FsrmAccountType_LocalSystem, FsrmAccountType_NetworkService, FsrmAccountType_Unknown, fs.fsrmaccounttype, fsrm.fsrmaccounttype, fsrmenums/FsrmAccountType, fsrmenums/FsrmAccountType_Automatic, fsrmenums/FsrmAccountType_External, fsrmenums/FsrmAccountType_InProc, fsrmenums/FsrmAccountType_LocalService, fsrmenums/FsrmAccountType_LocalSystem, fsrmenums/FsrmAccountType_NetworkService, fsrmenums/FsrmAccountType_Unknown
 ms.topic: enum
+f1_keywords: ["fsrmenums/FsrmAccountType"]
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetMapperFlags, SetMapperFlags function [Windows GDI], _win32_SetMapperFlags, gdi.setmapperflags, wingdi/SetMapperFlags
 ms.topic: function
+f1_keywords: ["wingdi/SetMapperFlags"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

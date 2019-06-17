@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_GetCheck, Button_GetCheck macro [Windows Controls], _win32_Button_GetCheck, _win32_Button_GetCheck_cpp, controls.Button_GetCheck, controls._win32_Button_GetCheck, windowsx/Button_GetCheck
 ms.topic: macro
+f1_keywords: ["windowsx/Button_GetCheck"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyArrayElementID, GetPropertyArrayElementID method [Windows Contacts], GetPropertyArrayElementID method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyArrayElementID method, IContactPropertyCollection.GetPropertyArrayElementID, IContactPropertyCollection::GetPropertyArrayElementID, _wincontacts_IContactPropertyCollection_GetPropertyArrayElementID, icontact/IContactPropertyCollection::GetPropertyArrayElementID, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyArrayElementID
 ms.topic: method
+f1_keywords: ["icontact/IContactPropertyCollection.GetPropertyArrayElementID"]
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

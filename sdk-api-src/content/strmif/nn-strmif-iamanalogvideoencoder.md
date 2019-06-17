@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoEncoder, IAMAnalogVideoEncoder interface [DirectShow], IAMAnalogVideoEncoder interface [DirectShow],described, IAMAnalogVideoEncoderInterface, dshow.iamanalogvideoencoder, strmif/IAMAnalogVideoEncoder
 ms.topic: interface
+f1_keywords: ["strmif/IAMAnalogVideoEncoder"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

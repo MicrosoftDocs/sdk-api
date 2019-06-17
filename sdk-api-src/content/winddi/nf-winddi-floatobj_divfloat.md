@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
 ms.topic: function
+f1_keywords: ["winddi/FLOATOBJ_DivFloat"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
 ms.topic: interface
+f1_keywords: ["msaatext/IAccDictionary"]
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

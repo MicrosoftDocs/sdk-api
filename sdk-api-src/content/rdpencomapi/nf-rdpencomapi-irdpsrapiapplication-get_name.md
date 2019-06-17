@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Name property, IRDPSRAPIApplication.Name, IRDPSRAPIApplication.get_Name, IRDPSRAPIApplication::Name, IRDPSRAPIApplication::get_Name, Name property [RDP], Name property [RDP],IRDPSRAPIApplication interface, Name property [RDP],RDPSRAPIApplication object, RDPSRAPIApplication object [RDP],Name property, get_Name, rdp.irdpsrapiapplication_name, rdpencomapi/IRDPSRAPIApplication::Name, rdpencomapi/IRDPSRAPIApplication::get_Name
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIApplication.Name"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

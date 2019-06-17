@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamRotation method, ID3D11VideoContext.VideoProcessorSetStreamRotation, ID3D11VideoContext::VideoProcessorSetStreamRotation, VideoProcessorSetStreamRotation, VideoProcessorSetStreamRotation method [Media Foundation], VideoProcessorSetStreamRotation method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamRotation, mf.id3d11videocontext_videoprocessorsetstreamrotation
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11VideoContext.VideoProcessorSetStreamRotation"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

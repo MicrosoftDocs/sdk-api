@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelector, IOpcRelationshipSelector interface [Open Packaging Conventions], IOpcRelationshipSelector interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelector, opc.iopcrelationshipselector
 ms.topic: interface
+f1_keywords: ["msopc/IOpcRelationshipSelector"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

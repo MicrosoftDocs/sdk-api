@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetType method, IDeviceSpecificProperty.GetType, IDeviceSpecificProperty::GetType, IDeviceSpecificPropertyGetType, coreaudio.idevicespecificproperty_gettype, devicetopology/IDeviceSpecificProperty::GetType
 ms.topic: method
+f1_keywords: ["devicetopology/IDeviceSpecificProperty.GetType"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

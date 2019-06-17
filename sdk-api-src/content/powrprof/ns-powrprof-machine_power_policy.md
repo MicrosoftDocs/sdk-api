@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMACHINE_POWER_POLICY, MACHINE_POWER_POLICY, MACHINE_POWER_POLICY structure, PMACHINE_POWER_POLICY, PMACHINE_POWER_POLICY structure pointer, _win32_machine_power_policy_str, base.machine_power_policy_str, powrprof/MACHINE_POWER_POLICY, powrprof/PMACHINE_POWER_POLICY"
 ms.topic: struct
+f1_keywords: ["powrprof/MACHINE_POWER_POLICY"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

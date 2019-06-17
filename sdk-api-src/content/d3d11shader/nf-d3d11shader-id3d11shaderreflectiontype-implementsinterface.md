@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 806550ed-6d2f-16a0-b48b-9510e852ab3b, ID3D11ShaderReflectionType interface [Direct3D 11],ImplementsInterface method, ID3D11ShaderReflectionType.ImplementsInterface, ID3D11ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method [Direct3D 11], ImplementsInterface method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::ImplementsInterface, direct3d11.id3d11shaderreflectiontype_implementsinterface
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ShaderReflectionType.ImplementsInterface"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

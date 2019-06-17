@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSpellingError, IEnumSpellingError interface [Internationalization for Windows Applications], IEnumSpellingError interface [Internationalization for Windows Applications],described, intl.ienumspellingerror, spellcheck/IEnumSpellingError
 ms.topic: interface
+f1_keywords: ["spellcheck/IEnumSpellingError"]
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

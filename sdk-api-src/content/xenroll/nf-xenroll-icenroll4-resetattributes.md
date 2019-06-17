@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],resetAttributes method, ICEnroll4 interface [Security],resetAttributes method, ICEnroll4.resetAttributes, ICEnroll4::resetAttributes, _xen_icenroll4_resetattributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],CEnroll object, resetAttributes method [Security],ICEnroll4 interface, security.icenroll4_resetattributes, xenroll/ICEnroll4::resetAttributes
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.resetAttributes"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/PathCchCombine, shell.PathCchCombine
 ms.topic: function
+f1_keywords: ["pathcch/PathCchCombine"]
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows

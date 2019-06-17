@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddTid, AddTid method [Microsoft TV Technologies], AddTid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddTid method, IBDA_FDC.AddTid, IBDA_FDC::AddTid, bdaiface/IBDA_FDC::AddTid, mstv.ibda_fdc_addtid
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_FDC.AddTid"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

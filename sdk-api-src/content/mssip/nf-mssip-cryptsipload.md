@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad, security.cryptsipload
 ms.topic: function
+f1_keywords: ["mssip/CryptSIPLoad"]
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

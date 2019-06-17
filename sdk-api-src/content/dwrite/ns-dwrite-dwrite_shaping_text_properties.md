@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SHAPING_TEXT_PROPERTIES, DWRITE_SHAPING_TEXT_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_text_properties, dwrite/DWRITE_SHAPING_TEXT_PROPERTIES
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_SHAPING_TEXT_PROPERTIES"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

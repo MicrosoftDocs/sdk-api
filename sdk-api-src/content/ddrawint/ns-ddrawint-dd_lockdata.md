@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_LOCKDATA, DD_LOCKDATA, DD_LOCKDATA structure [Display Devices], ddrawint/DD_LOCKDATA, ddstrcts_8de05e54-e1e1-4773-982d-e48f7e051f7e.xml, display.dd_lockdata"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_LOCKDATA"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMNotification, IWMDMNotification interface [windows Media Device Manager], IWMDMNotification interface [windows Media Device Manager],described, IWMDMNotificationInterface, mswmdm/IWMDMNotification, wmdm.iwmdmnotification
 ms.topic: interface
+f1_keywords: ["mswmdm/IWMDMNotification"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

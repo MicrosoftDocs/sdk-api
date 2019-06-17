@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiCreateRecord, MsiCreateRecord function, _msi_msicreaterecord, msiquery/MsiCreateRecord, setup.msicreaterecord
 ms.topic: function
+f1_keywords: ["msiquery/MsiCreateRecord"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

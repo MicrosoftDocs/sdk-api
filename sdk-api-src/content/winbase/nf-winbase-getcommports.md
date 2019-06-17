@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCommPorts, GetCommPorts function, base.getcommports, winbase/GetCommPorts
 ms.topic: function
+f1_keywords: ["winbase/GetCommPorts"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

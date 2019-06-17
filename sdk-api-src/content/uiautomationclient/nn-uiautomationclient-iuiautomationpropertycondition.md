@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], IUIAutomationPropertyCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPropertyCondition, uiauto_IUIAutomationPropertyCondition, uiautomationclient/IUIAutomationPropertyCondition, winauto.uiauto_IUIAutomationPropertyCondition
 ms.topic: interface
+f1_keywords: ["uiautomationclient/IUIAutomationPropertyCondition"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

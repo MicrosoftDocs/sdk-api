@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgPropertyLengthAsVariant, StgPropertyLengthAsVariant function [Structured Storage], propapi/StgPropertyLengthAsVariant, stg.stgpropertylengthasvariant
 ms.topic: function
+f1_keywords: ["propapi/StgPropertyLengthAsVariant"]
 req.header: propapi.h
 req.include-header: 
 req.target-type: Windows

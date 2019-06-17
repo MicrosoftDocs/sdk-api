@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_BINDING_INFO, *PHTTP_BINDING_INFO structure [HTTP], HTTP_BINDING_INFO, HTTP_BINDING_INFO structure [HTTP], http.http_binding_info, http/*PHTTP_BINDING_INFO, http/HTTP_BINDING_INFO"
 ms.topic: struct
+f1_keywords: ["http/HTTP_BINDING_INFO"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

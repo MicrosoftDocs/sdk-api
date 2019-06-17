@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MIMEASSOCDLG_FL_REGISTER_ASSOC, MIMEASSOCIATIONDIALOG_IN_FLAGS, MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_MIMEASSOCIATIONDIALOG_IN_FLAGS, intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC, intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS, shell.MIMEASSOCIATIONDIALOG_IN_FLAGS
 ms.topic: enum
+f1_keywords: ["intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS"]
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows

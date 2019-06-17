@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ContainsKnowledgeForItem, ContainsKnowledgeForItem method [Windows Sync], ContainsKnowledgeForItem method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],ContainsKnowledgeForItem method, ISyncKnowledge2.ContainsKnowledgeForItem, ISyncKnowledge2::ContainsKnowledgeForItem, winsync.isyncknowledge2_containsknowledgeforitem, winsync/ISyncKnowledge2::ContainsKnowledgeForItem
 ms.topic: method
+f1_keywords: ["winsync/ISyncKnowledge2.ContainsKnowledgeForItem"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWEExtendWizard97, IWEExtendWizard97 interface [Failover Cluster], IWEExtendWizard97 interface [Failover Cluster],described, _wolf_iweextendwizard97, cluadmex/IWEExtendWizard97, mscs.iweextendwizard97
 ms.topic: interface
+f1_keywords: ["cluadmex/IWEExtendWizard97"]
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

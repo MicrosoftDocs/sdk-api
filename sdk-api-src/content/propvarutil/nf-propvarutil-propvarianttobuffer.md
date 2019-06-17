@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBuffer, PropVariantToBuffer function [Windows Properties], properties.PropVariantToBuffer, propvarutil/PropVariantToBuffer, shell.PropVariantToBuffer, shell_PropVariantToBuffer
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToBuffer"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

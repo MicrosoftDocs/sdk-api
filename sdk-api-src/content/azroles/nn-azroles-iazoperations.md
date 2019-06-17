@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAzOperations, IAzOperations interface [Security], IAzOperations interface [Security],described, azroles/IAzOperations, security.iazoperations
 ms.topic: interface
+f1_keywords: ["azroles/IAzOperations"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

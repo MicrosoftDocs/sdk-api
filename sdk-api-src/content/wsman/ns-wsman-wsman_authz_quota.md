@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_AUTHZ_QUOTA, WSMAN_AUTHZ_QUOTA structure [Windows Remote Management], winrm.wsman_authz_quota, wsman/WSMAN_AUTHZ_QUOTA
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_AUTHZ_QUOTA"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

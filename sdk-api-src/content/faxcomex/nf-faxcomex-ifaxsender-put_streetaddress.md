@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],StreetAddress property, IFaxSender.StreetAddress, IFaxSender.get_StreetAddress, IFaxSender.put_StreetAddress, IFaxSender::StreetAddress, IFaxSender::get_StreetAddress, IFaxSender::put_StreetAddress, StreetAddress property [Fax Service], StreetAddress property [Fax Service],IFaxSender interface, _mfax_faxsender.streetaddress, fax._mfax_faxsender_cpp_mfax_faxsender_streetaddress_cpp, fax._mfax_faxsender_streetaddress, faxcomex/IFaxSender::StreetAddress, faxcomex/IFaxSender::get_StreetAddress, faxcomex/IFaxSender::put_StreetAddress, put_StreetAddress
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxSender.StreetAddress"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

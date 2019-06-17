@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleIsCurrentClipboard, OleIsCurrentClipboard function [COM], _ole_OleIsCurrentClipboard, com.oleiscurrentclipboard, ole2/OleIsCurrentClipboard
 ms.topic: function
+f1_keywords: ["ole2/OleIsCurrentClipboard"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

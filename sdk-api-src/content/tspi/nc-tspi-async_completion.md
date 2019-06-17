@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ASYNC_COMPLETION, ASYNC_COMPLETION callback, CompletionProc, CompletionProc callback function [TAPI 2.2], _tspi_async_completion, tspi.async_completion, tspi.completion_proc, tspi/CompletionProc
 ms.topic: callback
+f1_keywords: ["tspi/CompletionProc"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

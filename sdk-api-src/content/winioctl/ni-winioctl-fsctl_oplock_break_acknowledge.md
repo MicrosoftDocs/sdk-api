@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_OPLOCK_BREAK_ACKNOWLEDGE, FSCTL_OPLOCK_BREAK_ACKNOWLEDGE control, FSCTL_OPLOCK_BREAK_ACKNOWLEDGE control code [Files], _win32_fsctl_oplock_break_acknowledge, base.fsctl_oplock_break_acknowledge, fs.fsctl_oplock_break_acknowledge, winioctl/FSCTL_OPLOCK_BREAK_ACKNOWLEDGE
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_OPLOCK_BREAK_ACKNOWLEDGE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

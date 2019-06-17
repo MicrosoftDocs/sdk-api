@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFTUnregisterLocalByCLSID, MFTUnregisterLocalByCLSID function [Media Foundation], mf.mftunregisterlocalbyclsid, mfapi/MFTUnregisterLocalByCLSID
 ms.topic: function
+f1_keywords: ["mfapi/MFTUnregisterLocalByCLSID"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

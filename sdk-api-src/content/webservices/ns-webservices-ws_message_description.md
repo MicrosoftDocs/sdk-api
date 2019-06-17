@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_DESCRIPTION, WS_MESSAGE_DESCRIPTION structure [Web Services for Windows], webservices/WS_MESSAGE_DESCRIPTION, wsw.ws_message_description
 ms.topic: struct
+f1_keywords: ["webservices/WS_MESSAGE_DESCRIPTION"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

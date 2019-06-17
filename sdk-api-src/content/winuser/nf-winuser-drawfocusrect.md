@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
 ms.topic: function
+f1_keywords: ["winuser/DrawFocusRect"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

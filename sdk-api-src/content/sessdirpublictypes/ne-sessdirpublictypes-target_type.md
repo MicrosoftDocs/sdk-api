@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FARM, NONFARM, TARGET_TYPE, TARGET_TYPE enumeration [Remote Desktop Services], UNKNOWN, sessdirpublictypes/FARM, sessdirpublictypes/NONFARM, sessdirpublictypes/TARGET_TYPE, sessdirpublictypes/UNKNOWN, termserv.target_type
 ms.topic: enum
+f1_keywords: ["sessdirpublictypes/TARGET_TYPE"]
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows

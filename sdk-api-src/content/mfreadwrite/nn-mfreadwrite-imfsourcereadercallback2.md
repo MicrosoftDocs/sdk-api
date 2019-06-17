@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], IMFSourceReaderCallback2 interface [Media Foundation],described, mf.imfsourcereadercallback2, mfreadwrite/IMFSourceReaderCallback2
 ms.topic: interface
+f1_keywords: ["mfreadwrite/IMFSourceReaderCallback2"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

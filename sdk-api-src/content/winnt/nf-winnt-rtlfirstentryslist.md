@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList
 ms.topic: function
+f1_keywords: ["winnt/RtlFirstEntrySList"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

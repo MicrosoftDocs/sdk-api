@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxExtConfigChange, FaxExtConfigChange function [Fax Service], _mfax_faxextconfigchange, fax._mfax_faxextconfigchange, faxext/FaxExtConfigChange
 ms.topic: function
+f1_keywords: ["faxext/FaxExtConfigChange"]
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

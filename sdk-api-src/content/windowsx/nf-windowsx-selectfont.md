@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelectFont, SelectFont macro [Windows GDI], _win32_SelectFont, gdi.selectfont, windowsx/SelectFont
 ms.topic: macro
+f1_keywords: ["windowsx/SelectFont"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

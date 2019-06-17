@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_GetImageList, Button_GetImageList macro [Windows Controls], _win32_Button_GetImageList, _win32_Button_GetImageList_cpp, commctrl/Button_GetImageList, controls.Button_GetImageList, controls._win32_Button_GetImageList
 ms.topic: macro
+f1_keywords: ["commctrl/Button_GetImageList"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

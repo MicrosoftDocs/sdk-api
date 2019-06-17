@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextAddOutbound0, IPsecSaContextAddOutbound0 function [Filtering], fwp.ipsecsacontextaddoutbound0, fwpmu/IPsecSaContextAddOutbound0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaContextAddOutbound0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

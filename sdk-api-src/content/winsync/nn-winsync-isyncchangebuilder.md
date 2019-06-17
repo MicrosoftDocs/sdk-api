@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBuilder, ISyncChangeBuilder interface [Windows Sync], ISyncChangeBuilder interface [Windows Sync],described, winsync.isyncchangebuilder, winsync/ISyncChangeBuilder
 ms.topic: interface
+f1_keywords: ["winsync/ISyncChangeBuilder"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

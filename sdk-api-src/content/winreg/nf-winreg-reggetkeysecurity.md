@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegGetKeySecurity, RegGetKeySecurity function [Security], _win32_reggetkeysecurity, security.reggetkeysecurity, winreg/RegGetKeySecurity
 ms.topic: function
+f1_keywords: ["winreg/RegGetKeySecurity"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

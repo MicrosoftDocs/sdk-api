@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDigestMethod, GetDefaultDigestMethod method [Open Packaging Conventions], GetDefaultDigestMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetDefaultDigestMethod method, IOpcSigningOptions.GetDefaultDigestMethod, IOpcSigningOptions::GetDefaultDigestMethod, msopc/IOpcSigningOptions::GetDefaultDigestMethod, opc.iopcsigningoptions_getdefaultdigestmethod
 ms.topic: method
+f1_keywords: ["msopc/IOpcSigningOptions.GetDefaultDigestMethod"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

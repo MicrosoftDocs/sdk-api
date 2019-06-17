@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget, d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

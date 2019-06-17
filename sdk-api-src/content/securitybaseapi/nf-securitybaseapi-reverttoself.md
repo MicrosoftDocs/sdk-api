@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
 ms.topic: function
+f1_keywords: ["securitybaseapi/RevertToSelf"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

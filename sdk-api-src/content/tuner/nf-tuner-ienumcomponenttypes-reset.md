@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumComponentTypes interface [Microsoft TV Technologies],Reset method, IEnumComponentTypes.Reset, IEnumComponentTypes::Reset, IEnumComponentTypesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumComponentTypes interface, mstv.ienumcomponenttypes_reset, tuner/IEnumComponentTypes::Reset
 ms.topic: method
+f1_keywords: ["tuner/IEnumComponentTypes.Reset"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

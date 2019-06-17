@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyAdd, VarCyAdd function [Automation], _oa96_VarCyAdd, automat.varcyadd, oleauto/VarCyAdd
 ms.topic: function
+f1_keywords: ["oleauto/VarCyAdd"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

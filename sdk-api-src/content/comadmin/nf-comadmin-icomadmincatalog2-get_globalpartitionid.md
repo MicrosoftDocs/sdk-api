@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalPartitionID property [COM+], GlobalPartitionID property [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GlobalPartitionID property, ICOMAdminCatalog2.GlobalPartitionID, ICOMAdminCatalog2.get_GlobalPartitionID, ICOMAdminCatalog2::GlobalPartitionID, ICOMAdminCatalog2::get_GlobalPartitionID, _cos_IComAdminCatalog2_get_GlobalPartitionID, comadmin/ICOMAdminCatalog2::GlobalPartitionID, comadmin/ICOMAdminCatalog2::get_GlobalPartitionID, cos.icomadmincatalog2_globalpartitionid, get_GlobalPartitionID
 ms.topic: method
+f1_keywords: ["comadmin/ICOMAdminCatalog2.GlobalPartitionID"]
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows

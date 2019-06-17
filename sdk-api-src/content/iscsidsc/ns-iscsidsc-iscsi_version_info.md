@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PISCSI_VERSION_INFO, ISCSI_VERSION_INFO, ISCSI_VERSION_INFO structure [iSCSI Discovery Library API], PISCSI_VERSION_INFO, PISCSI_VERSION_INFO structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_version_info, iscsidsc/ISCSI_VERSION_INFO, iscsidsc/PISCSI_VERSION_INFO"
 ms.topic: struct
+f1_keywords: ["iscsidsc/ISCSI_VERSION_INFO"]
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

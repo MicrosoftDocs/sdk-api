@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel
 ms.topic: function
+f1_keywords: ["msiquery/MsiSetInstallLevel"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

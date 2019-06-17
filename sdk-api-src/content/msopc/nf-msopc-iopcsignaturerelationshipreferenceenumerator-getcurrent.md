@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureRelationshipReferenceEnumerator.GetCurrent, IOpcSignatureRelationshipReferenceEnumerator::GetCurrent, msopc/IOpcSignatureRelationshipReferenceEnumerator::GetCurrent, opc.iopcsignaturerelationshipreferenceenumerator_getcurrent
 ms.topic: method
+f1_keywords: ["msopc/IOpcSignatureRelationshipReferenceEnumerator.GetCurrent"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

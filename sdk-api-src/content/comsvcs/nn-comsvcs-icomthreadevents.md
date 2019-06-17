@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], IComThreadEvents interface [COM+],described, _dtc_IComThreadEvents, comsvcs/IComThreadEvents, cos.icomthreadevents
 ms.topic: interface
+f1_keywords: ["comsvcs/IComThreadEvents"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

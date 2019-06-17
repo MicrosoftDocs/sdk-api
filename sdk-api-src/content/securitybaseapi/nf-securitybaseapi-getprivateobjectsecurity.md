@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPrivateObjectSecurity, GetPrivateObjectSecurity function [Security], _win32_getprivateobjectsecurity, security.getprivateobjectsecurity, securitybaseapi/GetPrivateObjectSecurity
 ms.topic: function
+f1_keywords: ["securitybaseapi/GetPrivateObjectSecurity"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
 ms.topic: function
+f1_keywords: ["adshlp/ADsBuildVarArrayStr"]
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

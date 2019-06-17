@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup interface [COM+],get_Property method, ISharedPropertyGroup.get_Property, ISharedPropertyGroup::get_Property, _cos_ISharedPropertyGroup_get_Property, comsvcs/ISharedPropertyGroup::get_Property, cos.isharedpropertygroup_get_property, get_Property, get_Property method [COM+], get_Property method [COM+],ISharedPropertyGroup interface
 ms.topic: method
+f1_keywords: ["comsvcs/ISharedPropertyGroup.get_Property"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

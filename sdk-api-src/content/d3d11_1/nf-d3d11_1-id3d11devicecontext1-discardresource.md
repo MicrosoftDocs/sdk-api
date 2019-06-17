@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiscardResource, DiscardResource method [Direct3D 11], DiscardResource method [Direct3D 11],ID3D11DeviceContext1 interface, ID3D11DeviceContext1 interface [Direct3D 11],DiscardResource method, ID3D11DeviceContext1.DiscardResource, ID3D11DeviceContext1::DiscardResource, d3d11_1/ID3D11DeviceContext1::DiscardResource, direct3d11.id3d11devicecontext1_discardresource
 ms.topic: method
+f1_keywords: ["d3d11_1/ID3D11DeviceContext1.DiscardResource"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

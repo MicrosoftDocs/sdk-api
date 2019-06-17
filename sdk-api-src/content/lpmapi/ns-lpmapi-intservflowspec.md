@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
 ms.topic: struct
+f1_keywords: ["lpmapi/IntServFlowSpec"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

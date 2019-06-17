@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfacePropertySet, SwDeviceInterfacePropertySet function, swdevice.swdeviceinterfacepropertyset, swdevice/SwDeviceInterfacePropertySet
 ms.topic: function
+f1_keywords: ["swdevice/SwDeviceInterfacePropertySet"]
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageAddCertificate, ImageAddCertificate function, _win32_imageaddcertificate, base.imageaddcertificate, imagehlp/ImageAddCertificate
 ms.topic: function
+f1_keywords: ["imagehlp/ImageAddCertificate"]
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

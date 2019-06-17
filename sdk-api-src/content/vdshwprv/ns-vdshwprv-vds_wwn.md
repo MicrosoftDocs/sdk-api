@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VDS_WWN, VDS_WWN structure [VDS], base.vds_wwn, vds/VDS_WWN, vdshwprv/VDS_WWN
 ms.topic: struct
+f1_keywords: ["vdshwprv/VDS_WWN"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

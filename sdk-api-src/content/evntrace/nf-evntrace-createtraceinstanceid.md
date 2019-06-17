@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTraceInstanceId, CreateTraceInstanceId function [ETW], _evt_createtraceinstanceid, base.createtraceinstanceid, etw.createtraceinstanceid, evntrace/CreateTraceInstanceId
 ms.topic: function
+f1_keywords: ["evntrace/CreateTraceInstanceId"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

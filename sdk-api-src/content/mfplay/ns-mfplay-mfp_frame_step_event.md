@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFP_FRAME_STEP_EVENT, MFP_FRAME_STEP_EVENT structure [Media Foundation], mf.mfp_frame_step_event, mfplay/MFP_FRAME_STEP_EVENT
 ms.topic: struct
+f1_keywords: ["mfplay/MFP_FRAME_STEP_EVENT"]
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows

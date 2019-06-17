@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
 ms.topic: function
+f1_keywords: ["commdlg/CommDlgExtendedError"]
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows

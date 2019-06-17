@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectDrawCreateClipper, DirectDrawCreateClipper function [DirectDraw], ddraw/DirectDrawCreateClipper, directdraw.directdrawcreateclipper
 ms.topic: function
+f1_keywords: ["ddraw/DirectDrawCreateClipper"]
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

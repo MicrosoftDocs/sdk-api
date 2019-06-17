@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSOCKADDR_BTH, PSOCKADDR_BTH, PSOCKADDR_BTH structure pointer [Bluetooth], SOCKADDR_BTH, SOCKADDR_BTH structure [Bluetooth], _bth_sockaddr_bth, bluetooth.sockaddr_bth, ws2bth/PSOCKADDR_BTH, ws2bth/SOCKADDR_BTH"
 ms.topic: struct
+f1_keywords: ["ws2bth/SOCKADDR_BTH"]
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows

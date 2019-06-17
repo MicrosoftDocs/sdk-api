@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: COMBOBOXBAR, MENUBUTTON, MMC_CONTROL_TYPE, MMC_CONTROL_TYPE enumeration [MMC], TOOLBAR, _slate_mmc_control_type, mmc.mmc_control_type, mmc/COMBOBOXBAR, mmc/MENUBUTTON, mmc/MMC_CONTROL_TYPE, mmc/TOOLBAR
 ms.topic: enum
+f1_keywords: ["mmc/MMC_CONTROL_TYPE"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_THUMBNAIL_SIZE, XPS_THUMBNAIL_SIZE enumeration [XPS Documents and Packaging], XPS_THUMBNAIL_SIZE_LARGE, XPS_THUMBNAIL_SIZE_MEDIUM, XPS_THUMBNAIL_SIZE_SMALL, XPS_THUMBNAIL_SIZE_VERYSMALL, xps.xps_thumbnail_size, xpsobjectmodel/XPS_THUMBNAIL_SIZE, xpsobjectmodel/XPS_THUMBNAIL_SIZE_LARGE, xpsobjectmodel/XPS_THUMBNAIL_SIZE_MEDIUM, xpsobjectmodel/XPS_THUMBNAIL_SIZE_SMALL, xpsobjectmodel/XPS_THUMBNAIL_SIZE_VERYSMALL
 ms.topic: enum
+f1_keywords: ["xpsobjectmodel/XPS_THUMBNAIL_SIZE"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

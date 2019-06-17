@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],RemoveBand method, IBandSite.RemoveBand, IBandSite::RemoveBand, RemoveBand, RemoveBand method [Windows Shell], RemoveBand method [Windows Shell],IBandSite interface, _win32_IBandSite_RemoveBand, shell.IBandSite_RemoveBand, shobjidl_core/IBandSite::RemoveBand
 ms.topic: method
+f1_keywords: ["shobjidl_core/IBandSite.RemoveBand"]
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows

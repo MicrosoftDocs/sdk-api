@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_GAMMA, D2D1_GAMMA enumeration [Direct2D], D2D1_GAMMA_1_0, D2D1_GAMMA_2_2, d2d1/D2D1_GAMMA, d2d1/D2D1_GAMMA_1_0, d2d1/D2D1_GAMMA_2_2, direct2d.D2D1_GAMMA
 ms.topic: enum
+f1_keywords: ["d2d1/D2D1_GAMMA"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

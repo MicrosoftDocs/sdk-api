@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisableCommandLine property [File Server Resource Manager], DisableCommandLine property [File Server Resource Manager],FsrmSetting class, DisableCommandLine property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],DisableCommandLine property, IFsrmSetting interface [File Server Resource Manager],DisableCommandLine property, IFsrmSetting.DisableCommandLine, IFsrmSetting.put_DisableCommandLine, IFsrmSetting::DisableCommandLine, IFsrmSetting::get_DisableCommandLine, IFsrmSetting::put_DisableCommandLine, fs.ifsrmsetting_disablecommandline, fsrm.ifsrmsetting_disablecommandline, fsrm/IFsrmSetting::DisableCommandLine, fsrm/IFsrmSetting::get_DisableCommandLine, fsrm/IFsrmSetting::put_DisableCommandLine, put_DisableCommandLine
 ms.topic: method
+f1_keywords: ["fsrm/IFsrmSetting.DisableCommandLine"]
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

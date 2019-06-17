@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTransformNodeFromEffect, CreateTransformNodeFromEffect method [Direct2D], CreateTransformNodeFromEffect method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateTransformNodeFromEffect method, ID2D1EffectContext.CreateTransformNodeFromEffect, ID2D1EffectContext::CreateTransformNodeFromEffect, d2d1effectauthor/ID2D1EffectContext::CreateTransformNodeFromEffect, direct2d.id2d1contextinternal_createtransformnodefromeffect
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1EffectContext.CreateTransformNodeFromEffect"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

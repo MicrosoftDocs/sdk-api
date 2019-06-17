@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_RESET_ALL, WINHTTP_RESET_NOTIFY_NETWORK_CHANGED, WINHTTP_RESET_OUT_OF_PROC, WINHTTP_RESET_SCRIPT_CACHE, WINHTTP_RESET_STATE, WINHTTP_RESET_SWPAD_ALL, WINHTTP_RESET_SWPAD_CURRENT_NETWORK, WinHttpResetAutoProxy, WinHttpResetAutoProxy function [WinHTTP], http.winhttpresetautoproxy, winhttp/WinHttpResetAutoProxy
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpResetAutoProxy"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

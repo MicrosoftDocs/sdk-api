@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_NameValueService, IBDA_NameValueService interface [Microsoft TV Technologies], IBDA_NameValueService interface [Microsoft TV Technologies],described, bdaiface/IBDA_NameValueService, mstv.ibda_namevalueservice
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_NameValueService"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Reset method, IEnumITfCompositionView.Reset, IEnumITfCompositionView::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_reset_ref, msctf/IEnumITfCompositionView::Reset, tsf.ienumitfcompositionview_reset
 ms.topic: method
+f1_keywords: ["msctf/IEnumITfCompositionView.Reset"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

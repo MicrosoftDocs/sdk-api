@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], wininet.internetcookiehistory, wininet/InternetCookieHistory
 ms.topic: struct
+f1_keywords: ["wininet/InternetCookieHistory"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FarmName property [Remote Desktop Services], FarmName property [Remote Desktop Services],ITsSbTarget interface, FarmName property [Remote Desktop Services],ITsSbTargetEx interface, ITsSbTarget interface [Remote Desktop Services],FarmName property, ITsSbTarget.FarmName, ITsSbTarget.get_FarmName, ITsSbTarget::FarmName, ITsSbTarget::get_FarmName, ITsSbTarget::put_FarmName, ITsSbTargetEx interface [Remote Desktop Services],FarmName property, ITsSbTargetEx.FarmName, ITsSbTargetEx::get_FarmName, ITsSbTargetEx::put_FarmName, get_FarmName, sbtsv/ITsSbTarget::FarmName, sbtsv/ITsSbTarget::get_FarmName, sbtsv/ITsSbTarget::put_FarmName, sbtsv/ITsSbTargetEx::FarmName, sbtsv/ITsSbTargetEx::get_FarmName, sbtsv/ITsSbTargetEx::put_FarmName, termserv.itssbtarget_farmname
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbTarget.FarmName"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

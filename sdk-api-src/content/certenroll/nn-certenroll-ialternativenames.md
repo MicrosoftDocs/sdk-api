@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
 ms.topic: interface
+f1_keywords: ["certenroll/IAlternativeNames"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

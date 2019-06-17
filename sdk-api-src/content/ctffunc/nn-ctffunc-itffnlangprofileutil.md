@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], ITfFnLangProfileUtil interface [Text Services Framework],described, _tsf_itffnlangprofileutil_ref, ctffunc/ITfFnLangProfileUtil, tsf.itffnlangprofileutil
 ms.topic: interface
+f1_keywords: ["ctffunc/ITfFnLangProfileUtil"]
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

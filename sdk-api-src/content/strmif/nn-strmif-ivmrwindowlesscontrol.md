@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl, IVMRWindowlessControl interface [DirectShow], IVMRWindowlessControl interface [DirectShow],described, IVMRWindowlessControlInterface, dshow.ivmrwindowlesscontrol, strmif/IVMRWindowlessControl
 ms.topic: interface
+f1_keywords: ["strmif/IVMRWindowlessControl"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

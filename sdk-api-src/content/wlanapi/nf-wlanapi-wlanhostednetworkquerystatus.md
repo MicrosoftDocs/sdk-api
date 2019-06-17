@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkQueryStatus, WlanHostedNetworkQueryStatus function [NativeWIFI], nwifi.wlanhostednetworkquerystatus, wlanapi/WlanHostedNetworkQueryStatus
 ms.topic: function
+f1_keywords: ["wlanapi/WlanHostedNetworkQueryStatus"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

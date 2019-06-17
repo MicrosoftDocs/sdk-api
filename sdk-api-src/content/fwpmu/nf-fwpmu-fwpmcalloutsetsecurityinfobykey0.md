@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSetSecurityInfoByKey0, FwpmCalloutSetSecurityInfoByKey0 function [Filtering], fwp.fwpmcalloutsetsecurityinfobykey0_func, fwpmu/FwpmCalloutSetSecurityInfoByKey0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmCalloutSetSecurityInfoByKey0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 91a201a6-06cf-4445-ad62-fdabb3848d51, MFInitMediaTypeFromWaveFormatEx, MFInitMediaTypeFromWaveFormatEx function [Media Foundation], mf.mfinitmediatypefromwaveformatex, mfapi/MFInitMediaTypeFromWaveFormatEx
 ms.topic: function
+f1_keywords: ["mfapi/MFInitMediaTypeFromWaveFormatEx"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

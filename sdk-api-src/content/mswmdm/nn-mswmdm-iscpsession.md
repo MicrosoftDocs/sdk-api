@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISCPSession, ISCPSession interface [windows Media Device Manager], ISCPSession interface [windows Media Device Manager],described, ISCPSessionInterface, mswmdm/ISCPSession, wmdm.iscpsession
 ms.topic: interface
+f1_keywords: ["mswmdm/ISCPSession"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

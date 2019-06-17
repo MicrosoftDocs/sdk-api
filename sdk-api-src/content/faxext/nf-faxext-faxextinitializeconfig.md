@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
 ms.topic: function
+f1_keywords: ["faxext/FaxExtInitializeConfig"]
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows

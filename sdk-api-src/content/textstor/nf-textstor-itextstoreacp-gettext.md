@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetText method, ITextStoreACP.GetText, ITextStoreACP::GetText, _tsf_itextstoreacp_gettext_ref, textstor/ITextStoreACP::GetText, tsf.itextstoreacp_gettext
 ms.topic: method
+f1_keywords: ["textstor/ITextStoreACP.GetText"]
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows

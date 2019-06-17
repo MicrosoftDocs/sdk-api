@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_PROPERTY, DWRITE_FONT_PROPERTY structure [Direct Write], directwrite.dwrite_font_property, dwrite_3/DWRITE_FONT_PROPERTY
 ms.topic: struct
+f1_keywords: ["dwrite_3/DWRITE_FONT_PROPERTY"]
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows

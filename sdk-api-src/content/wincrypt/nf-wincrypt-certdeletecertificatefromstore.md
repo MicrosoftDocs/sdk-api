@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
 ms.topic: function
+f1_keywords: ["wincrypt/CertDeleteCertificateFromStore"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

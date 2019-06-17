@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],Type property, IX509CertificateRequest.Type, IX509CertificateRequest.get_Type, IX509CertificateRequest::Type, IX509CertificateRequest::get_Type, Type property [Security], Type property [Security],IX509CertificateRequest interface, TypeCertificate, TypeCmc, TypePkcs10, TypePkcs7, certenroll/IX509CertificateRequest::Type, certenroll/IX509CertificateRequest::get_Type, get_Type, security.ix509certificaterequest_type_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequest.Type"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

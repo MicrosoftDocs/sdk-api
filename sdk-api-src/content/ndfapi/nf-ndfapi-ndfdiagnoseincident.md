@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
 ms.topic: function
+f1_keywords: ["ndfapi/NdfDiagnoseIncident"]
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows

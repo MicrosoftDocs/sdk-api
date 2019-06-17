@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MonikerCommonPrefixWith, MonikerCommonPrefixWith function [COM], _com_MonikerCommonPrefixWith, com.monikercommonprefixwith, objbase/MonikerCommonPrefixWith
 ms.topic: function
+f1_keywords: ["objbase/MonikerCommonPrefixWith"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL structure, _win32_prevent_media_removal_str, base.prevent_media_removal_str, winioctl/PREVENT_MEDIA_REMOVAL"
 ms.topic: struct
+f1_keywords: ["winioctl/PREVENT_MEDIA_REMOVAL"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

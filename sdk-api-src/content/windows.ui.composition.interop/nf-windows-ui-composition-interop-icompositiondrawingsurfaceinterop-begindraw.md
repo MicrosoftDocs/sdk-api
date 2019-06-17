@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BeginDraw, BeginDraw method, BeginDraw method,ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,BeginDraw method, ICompositionDrawingSurfaceInterop.BeginDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::BeginDraw, ICompositionDrawingSurfaceInterop::composition, w_ui_comp.icompositiondrawingsurfaceinterop_begindraw, windows/ICompositionDrawingSurfaceInterop::BeginDraw
 ms.topic: method
+f1_keywords: ["windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.BeginDraw"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

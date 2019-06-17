@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetComputeShader method, ID2D1ComputeInfo.SetComputeShader, ID2D1ComputeInfo::SetComputeShader, SetComputeShader, SetComputeShader method [Direct2D], SetComputeShader method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetComputeShader, direct2d.id2d1computeinfo_setcomputeshader
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1ComputeInfo.SetComputeShader"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

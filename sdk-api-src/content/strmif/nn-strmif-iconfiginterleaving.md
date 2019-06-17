@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], IConfigInterleaving interface [DirectShow],described, IConfigInterleavingInterface, dshow.iconfiginterleaving, strmif/IConfigInterleaving
 ms.topic: interface
+f1_keywords: ["strmif/IConfigInterleaving"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

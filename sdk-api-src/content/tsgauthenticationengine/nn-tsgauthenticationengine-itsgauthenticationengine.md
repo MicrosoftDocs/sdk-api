@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], ITSGAuthenticationEngine interface [Remote Desktop Services],described, termserv.itsgauthenticationengine, tsgauthenticationengine/ITSGAuthenticationEngine
 ms.topic: interface
+f1_keywords: ["tsgauthenticationengine/ITSGAuthenticationEngine"]
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows

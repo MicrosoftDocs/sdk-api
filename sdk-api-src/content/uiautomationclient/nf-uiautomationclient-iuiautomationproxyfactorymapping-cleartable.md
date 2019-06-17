@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearTable, ClearTable method [Windows Accessibility], ClearTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],ClearTable method, IUIAutomationProxyFactoryMapping.ClearTable, IUIAutomationProxyFactoryMapping::ClearTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationProxyFactoryMapping.ClearTable"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitializeIpInterfaceEntry, InitializeIpInterfaceEntry function [IP Helper], iphlp.initializeipinterfaceentry, netioapi/InitializeIpInterfaceEntry
 ms.topic: function
+f1_keywords: ["netioapi/InitializeIpInterfaceEntry"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

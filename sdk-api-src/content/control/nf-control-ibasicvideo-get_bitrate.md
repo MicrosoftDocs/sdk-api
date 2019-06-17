@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_BitRate method, IBasicVideo.get_BitRate, IBasicVideo::get_BitRate, IBasicVideoget_BitRate, control/IBasicVideo::get_BitRate, dshow.ibasicvideo_get_bitrate, get_BitRate, get_BitRate method [DirectShow], get_BitRate method [DirectShow],IBasicVideo interface
 ms.topic: method
+f1_keywords: ["control/IBasicVideo.get_BitRate"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

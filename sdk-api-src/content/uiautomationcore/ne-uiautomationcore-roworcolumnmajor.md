@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RowOrColumnMajor, RowOrColumnMajor enumeration [Windows Accessibility], RowOrColumnMajor_ColumnMajor, RowOrColumnMajor_Indeterminate, RowOrColumnMajor_RowMajor, uiauto.uiauto_RowOrColumnMajorEnum, uiauto_RowOrColumnMajorEnum, uiautomationcore/RowOrColumnMajor, uiautomationcore/RowOrColumnMajor_ColumnMajor, uiautomationcore/RowOrColumnMajor_Indeterminate, uiautomationcore/RowOrColumnMajor_RowMajor, winauto.uiauto_RowOrColumnMajorEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcore/RowOrColumnMajor"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

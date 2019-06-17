@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordMinorChannelNumber, GetRecordMinorChannelNumber method [Microsoft TV Technologies], GetRecordMinorChannelNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordMinorChannelNumber method, IATSC_VCT.GetRecordMinorChannelNumber, IATSC_VCT::GetRecordMinorChannelNumber, IATSC_VCTGetRecordMinorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMinorChannelNumber, mstv.iatsc_vct_getrecordminorchannelnumber
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordMinorChannelNumber"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

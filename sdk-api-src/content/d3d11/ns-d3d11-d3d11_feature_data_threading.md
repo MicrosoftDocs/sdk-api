@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_THREADING, D3D11_FEATURE_DATA_THREADING structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_THREADING, direct3d11.d3d11_feature_data_threading, ef972430-170a-436c-cbf4-65409cc60040
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_FEATURE_DATA_THREADING"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

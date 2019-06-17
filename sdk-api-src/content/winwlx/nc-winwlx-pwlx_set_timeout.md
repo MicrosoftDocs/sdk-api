@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_TIMEOUT, PWLX_SET_TIMEOUT callback, WlxSetTimeout, WlxSetTimeout callback function [Security], _gina_wlxsettimeout, security.wlxsettimeout, winwlx/WlxSetTimeout
 ms.topic: callback
+f1_keywords: ["winwlx/WlxSetTimeout"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

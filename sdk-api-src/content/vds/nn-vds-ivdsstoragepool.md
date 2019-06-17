@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
 ms.topic: interface
+f1_keywords: ["vds/IVdsStoragePool"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

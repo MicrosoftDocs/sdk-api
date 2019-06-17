@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProcessReference, GetProcessReference function [Windows Shell], shell.GetProcessReference, shlwapi/GetProcessReference
 ms.topic: function
+f1_keywords: ["shlwapi/GetProcessReference"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

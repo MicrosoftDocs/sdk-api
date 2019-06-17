@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_macro, wtypesbase/OLESTR
 ms.topic: macro
+f1_keywords: ["wtypesbase/OLESTR"]
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows

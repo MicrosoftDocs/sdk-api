@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSequencerSource, IMFSequencerSource interface [Media Foundation], IMFSequencerSource interface [Media Foundation],described, ba5e8e7b-5b0e-4807-a459-75bd5727d1e2, mf.imfsequencersource, mfidl/IMFSequencerSource
 ms.topic: interface
+f1_keywords: ["mfidl/IMFSequencerSource"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
 ms.topic: function
+f1_keywords: ["slpublic/SLGetGenuineInformationEx"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

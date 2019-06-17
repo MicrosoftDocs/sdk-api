@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceInitialization, IVdsServiceInitialization interface, IVdsServiceInitialization interface,described, base.ivdsserviceinitialization, vds/IVdsServiceInitialization
 ms.topic: interface
+f1_keywords: ["vds/IVdsServiceInitialization"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

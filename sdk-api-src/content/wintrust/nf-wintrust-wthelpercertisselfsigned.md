@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
 ms.topic: function
+f1_keywords: ["wintrust/WTHelperCertIsSelfSigned"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

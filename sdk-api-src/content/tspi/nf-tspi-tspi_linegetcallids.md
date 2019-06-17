@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetCallIDs, TSPI_lineGetCallIDs function [TAPI 2.2], _tspi_tspi_linegetcallids, tspi.tspi_linegetcallids, tspi/TSPI_lineGetCallIDs
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineGetCallIDs"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

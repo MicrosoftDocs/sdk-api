@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPARAM, _win32_makelparam_cpp, winmsg.makelparam, winui._win32_makelparam, winuser/MAKELPARAM
 ms.topic: macro
+f1_keywords: ["winuser/MAKELPARAM"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

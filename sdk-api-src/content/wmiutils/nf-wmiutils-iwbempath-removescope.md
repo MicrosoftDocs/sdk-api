@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],RemoveScope method, IWbemPath.RemoveScope, IWbemPath::RemoveScope, RemoveScope, RemoveScope method [Windows Management Instrumentation], RemoveScope method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_removescope, wmi.iwbempath_removescope, wmiutils/IWbemPath::RemoveScope
 ms.topic: method
+f1_keywords: ["wmiutils/IWbemPath.RemoveScope"]
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows

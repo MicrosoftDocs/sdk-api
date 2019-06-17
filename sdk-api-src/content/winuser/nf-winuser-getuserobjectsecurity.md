@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity
 ms.topic: function
+f1_keywords: ["winuser/GetUserObjectSecurity"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

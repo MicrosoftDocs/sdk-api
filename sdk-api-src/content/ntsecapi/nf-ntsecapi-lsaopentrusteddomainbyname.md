@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsaOpenTrustedDomainByName, LsaOpenTrustedDomainByName function [Security], _lsa_lsaopentrusteddomainbyname, ntsecapi/LsaOpenTrustedDomainByName, security.lsaopentrusteddomainbyname
 ms.topic: function
+f1_keywords: ["ntsecapi/LsaOpenTrustedDomainByName"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

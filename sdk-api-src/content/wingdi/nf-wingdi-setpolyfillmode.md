@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, SetPolyFillMode, SetPolyFillMode function [Windows GDI], WINDING, _win32_SetPolyFillMode, gdi.setpolyfillmode, wingdi/SetPolyFillMode
 ms.topic: function
+f1_keywords: ["wingdi/SetPolyFillMode"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

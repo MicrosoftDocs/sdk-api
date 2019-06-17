@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetMenuRestrictions method, IDefaultFolderMenuInitialize.SetMenuRestrictions, IDefaultFolderMenuInitialize::SetMenuRestrictions, SetMenuRestrictions, SetMenuRestrictions method [Windows Shell], SetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::SetMenuRestrictions
 ms.topic: method
+f1_keywords: ["shobjidl_core/IDefaultFolderMenuInitialize.SetMenuRestrictions"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

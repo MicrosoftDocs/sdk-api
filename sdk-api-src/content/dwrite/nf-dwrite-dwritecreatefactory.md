@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory
 ms.topic: function
+f1_keywords: ["dwrite/DWriteCreateFactory"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

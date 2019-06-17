@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
 ms.topic: interface
+f1_keywords: ["certadm/IOCSPPropertyCollection"]
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

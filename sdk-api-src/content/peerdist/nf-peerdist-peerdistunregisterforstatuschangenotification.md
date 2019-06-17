@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistUnregisterForStatusChangeNotification, PeerDistUnregisterForStatusChangeNotification function [Peer Networking], p2p.peerdistunregisterforstatuschangenotification, peerdist/PeerDistUnregisterForStatusChangeNotification
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistUnregisterForStatusChangeNotification"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

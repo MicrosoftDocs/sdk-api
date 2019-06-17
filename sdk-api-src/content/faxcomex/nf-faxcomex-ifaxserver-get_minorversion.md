@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],MinorVersion property, IFaxServer.MinorVersion, IFaxServer.get_MinorVersion, IFaxServer::MinorVersion, IFaxServer::get_MinorVersion, MinorVersion property [Fax Service], MinorVersion property [Fax Service],IFaxServer interface, _mfax_faxserver.minorversion, fax._mfax_faxserver_cpp_mfax_faxserver_minorversion_cpp, fax._mfax_faxserver_minorversion, faxcomex/IFaxServer::MinorVersion, faxcomex/IFaxServer::get_MinorVersion, get_MinorVersion
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxServer.MinorVersion"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

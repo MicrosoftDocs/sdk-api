@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeforeContextMenu method, INameSpaceTreeControlEvents.OnBeforeContextMenu, INameSpaceTreeControlEvents::OnBeforeContextMenu, OnBeforeContextMenu, OnBeforeContextMenu method [Windows Shell], OnBeforeContextMenu method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeforeContextMenu, shell.INameSpaceTreeControlEvents_OnBeforeContextMenu, shobjidl/INameSpaceTreeControlEvents::OnBeforeContextMenu
 ms.topic: method
+f1_keywords: ["shobjidl/INameSpaceTreeControlEvents.OnBeforeContextMenu"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

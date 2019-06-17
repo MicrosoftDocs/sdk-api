@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddClosedCurve
 ms.topic: language-reference
+f1_keywords: ["gdipluspath/GraphicsPath::AddClosedCurve"]
 targetos: Windows
 product: Windows
 req.assembly: 

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterDeleteByKey0, FwpmFilterDeleteByKey0 function [Filtering], fwp.fwpmfilterdeletebykey0_func, fwpmu/FwpmFilterDeleteByKey0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmFilterDeleteByKey0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info
 ms.topic: struct
+f1_keywords: ["cfapi/CF_PLATFORM_INFO"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

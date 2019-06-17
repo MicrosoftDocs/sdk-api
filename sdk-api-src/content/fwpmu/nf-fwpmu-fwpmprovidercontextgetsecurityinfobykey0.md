@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetSecurityInfoByKey0, FwpmProviderContextGetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextgetsecurityinfobykey0_func, fwpmu/FwpmProviderContextGetSecurityInfoByKey0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmProviderContextGetSecurityInfoByKey0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

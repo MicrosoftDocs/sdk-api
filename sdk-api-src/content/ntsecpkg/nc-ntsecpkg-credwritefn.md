@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredWriteFn, CredWriteFn callback, CrediWrite, CrediWrite callback function [Security], ntsecpkg/CrediWrite, security.crediwrite
 ms.topic: callback
+f1_keywords: ["ntsecpkg/CrediWrite"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

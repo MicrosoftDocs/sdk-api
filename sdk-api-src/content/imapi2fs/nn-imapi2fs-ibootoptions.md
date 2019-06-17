@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBootOptions, IBootOptions interface [IMAPI], IBootOptions interface [IMAPI],described, imapi.ibootoptions, imapi2fs/IBootOptions
 ms.topic: interface
+f1_keywords: ["imapi2fs/IBootOptions"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

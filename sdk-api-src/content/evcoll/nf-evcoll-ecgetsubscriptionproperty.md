@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcGetSubscriptionProperty, EcGetSubscriptionProperty function, evcoll/EcGetSubscriptionProperty, wec.ecgetsubscriptionproperty, wes.ecgetsubscriptionproperty
 ms.topic: function
+f1_keywords: ["evcoll/EcGetSubscriptionProperty"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

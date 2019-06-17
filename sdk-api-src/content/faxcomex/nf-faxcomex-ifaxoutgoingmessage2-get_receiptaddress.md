@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],ReceiptAddress property, IFaxOutgoingMessage2.ReceiptAddress, IFaxOutgoingMessage2.get_ReceiptAddress, IFaxOutgoingMessage2::ReceiptAddress, IFaxOutgoingMessage2::get_ReceiptAddress, ReceiptAddress property [Fax Service], ReceiptAddress property [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.receiptaddress, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_receiptaddress_cpp, fax._mfax_faxoutgoingmessage_receiptaddress, faxcomex/IFaxOutgoingMessage2::ReceiptAddress, faxcomex/IFaxOutgoingMessage2::get_ReceiptAddress, get_ReceiptAddress
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingMessage2.ReceiptAddress"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

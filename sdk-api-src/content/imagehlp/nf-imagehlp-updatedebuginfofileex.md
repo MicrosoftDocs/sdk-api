@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateDebugInfoFileEx, UpdateDebugInfoFileEx function, _win32_updatedebuginfofileex, base.updatedebuginfofileex, imagehlp/UpdateDebugInfoFileEx
 ms.topic: function
+f1_keywords: ["imagehlp/UpdateDebugInfoFileEx"]
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],get_SinkStreams method, IMSVidGenericSink.get_SinkStreams, IMSVidGenericSink::get_SinkStreams, IMSVidGenericSinkget_SinkStreams, get_SinkStreams, get_SinkStreams method [Microsoft TV Technologies], get_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, mstv.imsvidgenericsink_get_sinkstreams, segment/IMSVidGenericSink::get_SinkStreams
 ms.topic: method
+f1_keywords: ["segment/IMSVidGenericSink.get_SinkStreams"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

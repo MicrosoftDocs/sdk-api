@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE, MIDL_STUB_MESSAGE structure [RPC], PMIDL_STUB_MESSAGE, PMIDL_STUB_MESSAGE structure pointer [RPC], rpc.midl_stub_message, rpcndr/MIDL_STUB_MESSAGE, rpcndr/PMIDL_STUB_MESSAGE"
 ms.topic: struct
+f1_keywords: ["rpcndr/MIDL_STUB_MESSAGE"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

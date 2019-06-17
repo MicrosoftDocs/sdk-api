@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_WRITER_PAYLOAD_STREAM, APPX_PACKAGE_WRITER_PAYLOAD_STREAM structure [App packaging and management], appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM, appxpkg.appx_package_writer_payload_stream
 ms.topic: struct
+f1_keywords: ["appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IControlChangeNotify, IControlChangeNotify interface [Core Audio], IControlChangeNotify interface [Core Audio],described, coreaudio.icontrolchangenotify, devicetopology/IControlChangeNotify
 ms.topic: interface
+f1_keywords: ["devicetopology/IControlChangeNotify"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

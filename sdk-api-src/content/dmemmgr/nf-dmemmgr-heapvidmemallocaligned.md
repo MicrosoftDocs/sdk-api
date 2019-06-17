@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapVidMemAllocAligned, HeapVidMemAllocAligned function [Display Devices], display.heapvidmemallocaligned, dmemmgr/HeapVidMemAllocAligned, gdifncs_07c83436-71a7-4b41-91b9-5b24b6390474.xml
 ms.topic: function
+f1_keywords: ["dmemmgr/HeapVidMemAllocAligned"]
 req.header: dmemmgr.h
 req.include-header: Winddi.h
 req.target-type: Universal

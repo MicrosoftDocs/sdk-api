@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown
 ms.topic: function
+f1_keywords: ["restartmanager/RmShutdown"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_Bandwidth method, IDVBTLocator.get_Bandwidth, IDVBTLocator::get_Bandwidth, IDVBTLocatorget_Bandwidth, get_Bandwidth, get_Bandwidth method [Microsoft TV Technologies], get_Bandwidth method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_bandwidth, tuner/IDVBTLocator::get_Bandwidth
 ms.topic: method
+f1_keywords: ["tuner/IDVBTLocator.get_Bandwidth"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

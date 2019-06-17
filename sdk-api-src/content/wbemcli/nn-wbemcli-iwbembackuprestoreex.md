@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemBackupRestoreEx, IWbemBackupRestoreEx interface [Windows Management Instrumentation], IWbemBackupRestoreEx interface [Windows Management Instrumentation],described, wbemcli/IWbemBackupRestoreEx, wmi.iwbembackuprestoreex
 ms.topic: interface
+f1_keywords: ["wbemcli/IWbemBackupRestoreEx"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

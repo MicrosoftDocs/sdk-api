@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
 ms.topic: function
+f1_keywords: ["shlobj_core/SHMapPIDLToSystemImageListIndex"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

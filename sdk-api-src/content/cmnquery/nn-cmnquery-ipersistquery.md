@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery, IPersistQuery interface [Active Directory], IPersistQuery interface [Active Directory],described, _glines_ipersistquery, ad.ipersistquery, cmnquery/IPersistQuery
 ms.topic: interface
+f1_keywords: ["cmnquery/IPersistQuery"]
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

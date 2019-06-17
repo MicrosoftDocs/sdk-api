@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateHwndRenderTarget, CreateHwndRenderTarget methods [Direct2D], ID2D1Factory.CreateHwndRenderTarget, ID2D1Factory::CreateHwndRenderTarget, d2d1/CreateHwndRenderTarget, direct2d.id2d1factory_createhwndrendertarget
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1Factory::CreateHwndRenderTarget"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

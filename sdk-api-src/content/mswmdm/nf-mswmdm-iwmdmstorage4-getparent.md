@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetParent method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],GetParent method, IWMDMStorage4.GetParent, IWMDMStorage4::GetParent, IWMDMStorage4GetParent, mswmdm/IWMDMStorage4::GetParent, wmdm.iwmdmstorage4_getparent
 ms.topic: method
+f1_keywords: ["mswmdm/IWMDMStorage4.GetParent"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STREAM_SEEK, STREAM_SEEK enumeration [Structured Storage], STREAM_SEEK_CUR, STREAM_SEEK_END, STREAM_SEEK_SET, _stg_stream_seek, objidl/STREAM_SEEK, objidl/STREAM_SEEK_CUR, objidl/STREAM_SEEK_END, objidl/STREAM_SEEK_SET, stg.stream_seek
 ms.topic: enum
+f1_keywords: ["objidl/STREAM_SEEK"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

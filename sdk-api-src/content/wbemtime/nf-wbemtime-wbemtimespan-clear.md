@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Management Instrumentation], Clear method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],Clear method, WBEMTimeSpan.Clear, WBEMTimeSpan::Clear, _hmm_wbemtimespan_clear, wbemtime/WBEMTimeSpan::Clear, wmi.wbemtimespan_clear
 ms.topic: method
+f1_keywords: ["wbemtime/WBEMTimeSpan.Clear"]
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows

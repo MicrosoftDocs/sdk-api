@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],put_DataAnalysisFilter method, IMSVidStreamBufferSink3.put_DataAnalysisFilter, IMSVidStreamBufferSink3::put_DataAnalysisFilter, IMSVidStreamBufferSink3put_DataAnalysisFilter, mstv.imsvidstreambuffersink3_put_dataanalysisfilter, put_DataAnalysisFilter, put_DataAnalysisFilter method [Microsoft TV Technologies], put_DataAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, segment/IMSVidStreamBufferSink3::put_DataAnalysisFilter
 ms.topic: method
+f1_keywords: ["segment/IMSVidStreamBufferSink3.put_DataAnalysisFilter"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC1, D3D11_VIDEO_DECODER_BUFFER_DESC1 structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BUFFER_DESC1, mf.d3d11_video_decoder_buffer_desc1
 ms.topic: struct
+f1_keywords: ["d3d11_1/D3D11_VIDEO_DECODER_BUFFER_DESC1"]
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows

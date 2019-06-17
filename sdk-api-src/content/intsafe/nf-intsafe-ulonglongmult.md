@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SizeTMult, SizeTMult function [Windows Shell], ULongLongMult, _shell_SizeTMult, intsafe/SizeTMult, shell.SizeTMult
 ms.topic: function
+f1_keywords: ["intsafe/SizeTMult"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

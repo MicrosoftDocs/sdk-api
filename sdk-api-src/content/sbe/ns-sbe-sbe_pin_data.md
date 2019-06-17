@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SBE_PIN_DATA, SBE_PIN_DATA structure [Microsoft TV Technologies], SBE_PIN_DATAStructure, mstv.sbe_pin_data, sbe/SBE_PIN_DATA
 ms.topic: struct
+f1_keywords: ["sbe/SBE_PIN_DATA"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

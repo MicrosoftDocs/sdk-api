@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],SamUserAccount property, ITsSbClientConnection.SamUserAccount, ITsSbClientConnection.get_SamUserAccount, ITsSbClientConnection::SamUserAccount, ITsSbClientConnection::get_SamUserAccount, SamUserAccount property [Remote Desktop Services], SamUserAccount property [Remote Desktop Services],ITsSbClientConnection interface, get_SamUserAccount, sbtsv/ITsSbClientConnection::SamUserAccount, sbtsv/ITsSbClientConnection::get_SamUserAccount, termserv.itssbclientconnection_samuseraccount
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbClientConnection.SamUserAccount"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

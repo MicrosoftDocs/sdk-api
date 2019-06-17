@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetRedraw method, IFolderView2.SetRedraw, IFolderView2::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetRedraw, shell.IFolderView2_SetRedraw, shobjidl_core/IFolderView2::SetRedraw
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFolderView2.SetRedraw"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

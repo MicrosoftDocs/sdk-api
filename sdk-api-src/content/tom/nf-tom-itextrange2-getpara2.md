@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPara2, GetPara2 method [Windows Controls], GetPara2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetPara2 method, ITextRange2.GetPara2, ITextRange2::GetPara2, controls.itextrange2_getpara2, tom/ITextRange2::GetPara2
 ms.topic: method
+f1_keywords: ["tom/ITextRange2.GetPara2"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

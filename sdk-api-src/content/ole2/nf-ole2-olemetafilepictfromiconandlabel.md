@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleMetafilePictFromIconAndLabel, OleMetafilePictFromIconAndLabel function [COM], _ole_OleMetafilePictFromIconAndLabel, com.olemetafilepictfromiconandlabel, ole2/OleMetafilePictFromIconAndLabel
 ms.topic: function
+f1_keywords: ["ole2/OleMetafilePictFromIconAndLabel"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

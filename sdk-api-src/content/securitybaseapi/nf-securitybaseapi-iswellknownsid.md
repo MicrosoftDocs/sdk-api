@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsWellKnownSid, IsWellKnownSid function [Security], _win32_iswellknownsid, security.iswellknownsid, securitybaseapi/IsWellKnownSid
 ms.topic: function
+f1_keywords: ["securitybaseapi/IsWellKnownSid"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

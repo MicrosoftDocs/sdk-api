@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmapPositionRect method, IMSVidVideoRenderer.get_MixerBitmapPositionRect, IMSVidVideoRenderer::get_MixerBitmapPositionRect, IMSVidVideoRendererget_MixerBitmapPositionRect, get_MixerBitmapPositionRect, get_MixerBitmapPositionRect method [Microsoft TV Technologies], get_MixerBitmapPositionRect method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmappositionrect, segment/IMSVidVideoRenderer::get_MixerBitmapPositionRect
 ms.topic: method
+f1_keywords: ["segment/IMSVidVideoRenderer.get_MixerBitmapPositionRect"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

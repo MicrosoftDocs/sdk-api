@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOverRandomAccessStream, CreateStreamOverRandomAccessStream function [Windows Runtime], shcore/CreateStreamOverRandomAccessStream, winrt.createstreamoverrandomaccessstream
 ms.topic: function
+f1_keywords: ["shcore/CreateStreamOverRandomAccessStream"]
 req.header: shcore.h
 req.include-header: 
 req.target-type: Windows

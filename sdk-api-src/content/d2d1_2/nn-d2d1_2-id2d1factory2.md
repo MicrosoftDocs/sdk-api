@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory2, ID2D1Factory2 interface [Direct2D], ID2D1Factory2 interface [Direct2D],described, d2d1_2/ID2D1Factory2, direct2d.id2d1factory2
 ms.topic: interface
+f1_keywords: ["d2d1_2/ID2D1Factory2"]
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows

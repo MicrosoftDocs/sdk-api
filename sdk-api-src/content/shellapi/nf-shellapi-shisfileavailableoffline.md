@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OFFLINE_STATUS_INCOMPLETE, OFFLINE_STATUS_LOCAL, OFFLINE_STATUS_REMOTE, SHIsFileAvailableOffline, SHIsFileAvailableOffline function [Windows Shell], shell.SHIsFileAvailableOffline, shell_shisfileavailableoffline, shellapi/SHIsFileAvailableOffline
 ms.topic: function
+f1_keywords: ["shellapi/SHIsFileAvailableOffline"]
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

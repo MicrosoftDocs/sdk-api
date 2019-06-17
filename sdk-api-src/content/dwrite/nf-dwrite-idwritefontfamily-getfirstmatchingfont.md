@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFirstMatchingFont, GetFirstMatchingFont method [Direct Write], GetFirstMatchingFont method [Direct Write],IDWriteFontFamily interface, IDWriteFontFamily interface [Direct Write],GetFirstMatchingFont method, IDWriteFontFamily.GetFirstMatchingFont, IDWriteFontFamily::GetFirstMatchingFont, directwrite.IDWriteFontFamily_GetFirstMatchingFont, dwrite/IDWriteFontFamily::GetFirstMatchingFont
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteFontFamily.GetFirstMatchingFont"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

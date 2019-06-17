@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl2, INameSpaceTreeControl2 interface [Windows Shell], INameSpaceTreeControl2 interface [Windows Shell],described, _shell_INameSpaceTreeControl2, shell.INameSpaceTreeControl2, shobjidl/INameSpaceTreeControl2
 ms.topic: interface
+f1_keywords: ["shobjidl/INameSpaceTreeControl2"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],SetDefaultLanguageProfile method, ITfInputProcessorProfiles.SetDefaultLanguageProfile, ITfInputProcessorProfiles::SetDefaultLanguageProfile, SetDefaultLanguageProfile, SetDefaultLanguageProfile method [Text Services Framework], SetDefaultLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_setdefaultlanguageprofile_ref, msctf/ITfInputProcessorProfiles::SetDefaultLanguageProfile, tsf.itfinputprocessorprofiles_setdefaultlanguageprofile
 ms.topic: method
+f1_keywords: ["msctf/ITfInputProcessorProfiles.SetDefaultLanguageProfile"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

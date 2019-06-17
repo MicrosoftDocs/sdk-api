@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TOKENBINDING_TYPE, TOKENBINDING_TYPE enumeration [Security], TOKENBINDING_TYPE_PROVIDED, TOKENBINDING_TYPE_REFERRED, security.tokenbinding_type, tokenbinding/TOKENBINDING_TYPE, tokenbinding/TOKENBINDING_TYPE_PROVIDED, tokenbinding/TOKENBINDING_TYPE_REFERRED
 ms.topic: enum
+f1_keywords: ["tokenbinding/TOKENBINDING_TYPE"]
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows

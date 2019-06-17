@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILTERING_TYPE, FILTERING_TYPE enumeration [Windows Sync], FT_CURRENT_ITEMS_ONLY, winsync.filtering_type, winsync/FILTERING_TYPE, winsync/FT_CURRENT_ITEMS_ONLY
 ms.topic: enum
+f1_keywords: ["winsync/FILTERING_TYPE"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

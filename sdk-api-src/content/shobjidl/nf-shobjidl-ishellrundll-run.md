@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellRunDll interface [Windows Shell],Run method, IShellRunDll.Run, IShellRunDll::Run, Run, Run method [Windows Shell], Run method [Windows Shell],IShellRunDll interface, _shell_IShellRunDll_Run, shell.IShellRunDll_Run, shobjidl/IShellRunDll::Run
 ms.topic: method
+f1_keywords: ["shobjidl/IShellRunDll.Run"]
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

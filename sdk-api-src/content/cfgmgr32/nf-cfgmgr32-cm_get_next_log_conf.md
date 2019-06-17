@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Next_Log_Conf, CM_Get_Next_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Log_Conf, cfgmgrfn_e8834764-27d4-4e23-bff0-99364b13967f.xml, devinst.cm_get_next_log_conf
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Get_Next_Log_Conf"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

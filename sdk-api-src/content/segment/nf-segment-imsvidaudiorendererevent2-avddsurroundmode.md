@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVDDSurroundMode, AVDDSurroundMode method [Microsoft TV Technologies], AVDDSurroundMode method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDDSurroundMode method, IMSVidAudioRendererEvent2.AVDDSurroundMode, IMSVidAudioRendererEvent2::AVDDSurroundMode, mstv.imsvidaudiorendererevent2_avddsurroundmode, segment/IMSVidAudioRendererEvent2::AVDDSurroundMode
 ms.topic: method
+f1_keywords: ["segment/IMSVidAudioRendererEvent2.AVDDSurroundMode"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

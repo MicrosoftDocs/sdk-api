@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzTask object [Security],Tasks property, IAzTask interface [Security],Tasks property, IAzTask.Tasks, IAzTask.get_Tasks, IAzTask::Tasks, IAzTask::get_Tasks, Tasks property [Security], Tasks property [Security],AzTask object, Tasks property [Security],IAzTask interface, azroles/IAzTask::Tasks, azroles/IAzTask::get_Tasks, get_Tasks, security.iaztask_tasks
 ms.topic: method
+f1_keywords: ["azroles/IAzTask.Tasks"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

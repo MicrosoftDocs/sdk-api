@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/2019
 ms.keywords: D2D1_EXPOSURE_PROP, D2D1_EXPOSURE_PROP enumeration [Direct2D], D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, d2d1effects_2/D2D1_EXPOSURE_PROP, d2d1effects_2/D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, direct2d.d2d1_exposure_prop
 ms.topic: enum
+f1_keywords: ["d2d1effects_2/D2D1_EXPOSURE_PROP"]
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

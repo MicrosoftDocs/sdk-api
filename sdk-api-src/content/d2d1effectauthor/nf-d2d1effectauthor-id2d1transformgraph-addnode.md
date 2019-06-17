@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddNode, AddNode method [Direct2D], AddNode method [Direct2D],ID2D1TransformGraph interface, ID2D1TransformGraph interface [Direct2D],AddNode method, ID2D1TransformGraph.AddNode, ID2D1TransformGraph::AddNode, d2d1effectauthor/ID2D1TransformGraph::AddNode, direct2d.id2d1transformgraph_addnode
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1TransformGraph.AddNode"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

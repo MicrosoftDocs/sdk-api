@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextAdd2, FwpmProviderContextAdd2 function [Filtering], fwp.fwpmprovidercontextadd2, fwpmu/FwpmProviderContextAdd2
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmProviderContextAdd2"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

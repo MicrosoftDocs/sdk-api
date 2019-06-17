@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
 ms.topic: function
+f1_keywords: ["vfw/EditStreamCut"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

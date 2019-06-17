@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsReadEnvelopeEnd, WsReadEnvelopeEnd function [Web Services for Windows], webservices/WsReadEnvelopeEnd, wsw.wsreadenvelopeend
 ms.topic: function
+f1_keywords: ["webservices/WsReadEnvelopeEnd"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

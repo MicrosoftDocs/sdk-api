@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserSize, LPSAFEARRAY_UserSize function [Automation], _oa96_LPSAFEARRAY_UserSize, automat.lpsafearray_usersize, wia_xp/LPSAFEARRAY_UserSize
 ms.topic: function
+f1_keywords: ["wia_xp/LPSAFEARRAY_UserSize"]
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows

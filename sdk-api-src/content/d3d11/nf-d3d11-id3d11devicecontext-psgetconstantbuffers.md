@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 6479b006-77df-3e3c-5a60-5276334d58a6, ID3D11DeviceContext interface [Direct3D 11],PSGetConstantBuffers method, ID3D11DeviceContext.PSGetConstantBuffers, ID3D11DeviceContext::PSGetConstantBuffers, PSGetConstantBuffers, PSGetConstantBuffers method [Direct3D 11], PSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetConstantBuffers, direct3d11.id3d11devicecontext_psgetconstantbuffers
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.PSGetConstantBuffers"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

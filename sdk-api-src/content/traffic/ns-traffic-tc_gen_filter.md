@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER"
 ms.topic: struct
+f1_keywords: ["traffic/TC_GEN_FILTER)"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

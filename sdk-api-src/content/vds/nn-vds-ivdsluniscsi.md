@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsLunIscsi, IVdsLunIscsi interface [VDS], IVdsLunIscsi interface [VDS],described, base.ivdsluniscsi, vds/IVdsLunIscsi, vdshwprv/IVdsLunIscsi
 ms.topic: interface
+f1_keywords: ["vds/IVdsLunIscsi"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

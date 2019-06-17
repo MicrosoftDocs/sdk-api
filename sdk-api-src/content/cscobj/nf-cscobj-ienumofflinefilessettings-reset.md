@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesSettings interface [Offline Files],Reset method, IEnumOfflineFilesSettings.Reset, IEnumOfflineFilesSettings::Reset, Reset, Reset method [Offline Files], Reset method [Offline Files],IEnumOfflineFilesSettings interface, cscobj/IEnumOfflineFilesSettings::Reset, of.ienumofflinefilessettings_reset
 ms.topic: method
+f1_keywords: ["cscobj/IEnumOfflineFilesSettings.Reset"]
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FreeResource, FreeResource function [Menus and Other Resources], _win32_FreeResource, _win32_freeresource_cpp, libloaderapi/FreeResource, menurc.freeresource, winui._win32_freeresource
 ms.topic: function
+f1_keywords: ["libloaderapi/FreeResource"]
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows

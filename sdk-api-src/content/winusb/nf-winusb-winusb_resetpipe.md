@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_ResetPipe, WinUsb_ResetPipe function [Buses], buses.winusb_resetpipe, winusb/WinUsb_ResetPipe, winusbfunc_6d4baf88-4b6f-46fb-802b-67ac51ddaf8d.xml
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_ResetPipe"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

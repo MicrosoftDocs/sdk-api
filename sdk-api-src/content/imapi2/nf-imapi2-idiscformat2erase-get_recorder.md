@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_Recorder method, IDiscFormat2Erase.get_Recorder, IDiscFormat2Erase::get_Recorder, get_Recorder, get_Recorder method [IMAPI], get_Recorder method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_recorder, imapi2/IDiscFormat2Erase::get_Recorder
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2Erase.get_Recorder"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

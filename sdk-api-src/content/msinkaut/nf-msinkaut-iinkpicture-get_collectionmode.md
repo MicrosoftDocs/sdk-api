@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CollectionMode property [Tablet PC], CollectionMode property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],CollectionMode property, IInkPicture.CollectionMode, IInkPicture.get_CollectionMode, IInkPicture::CollectionMode, IInkPicture::get_CollectionMode, IInkPicture::put_CollectionMode, InkPicture.get_CollectionMode, InkPicture.put_CollectionMode, fe3d1158-b99b-4ae1-a509-c6f34b42615f, get_CollectionMode, msinkaut/IInkPicture::CollectionMode, msinkaut/IInkPicture::get_CollectionMode, msinkaut/IInkPicture::put_CollectionMode, tablet.inkpicture_collectionmode
 ms.topic: method
+f1_keywords: ["msinkaut/IInkPicture.CollectionMode"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

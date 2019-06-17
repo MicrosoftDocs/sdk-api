@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.topic: function
+f1_keywords: ["msiquery/MsiSummaryInfoPersist"]
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows

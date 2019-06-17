@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TOC_DESCRIPTOR, TOC_DESCRIPTOR structure [Media Foundation], codecapi.toc_descriptor, mf.toc_descriptor, wmcodecdsp/TOC_DESCRIPTOR
 ms.topic: struct
+f1_keywords: ["wmcodecdsp/TOC_DESCRIPTOR"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

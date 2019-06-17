@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaGetRuntimeId, UiaGetRuntimeId function [Windows Accessibility], uiauto.uiauto_UiaGetRuntimeIdAutoMeth, uiauto_UiaGetRuntimeIdAutoMeth, uiautomationcoreapi/UiaGetRuntimeId, winauto.uiauto_UiaGetRuntimeIdAutoMeth
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaGetRuntimeId"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],RemoveAllRoots method, INameSpaceTreeControl.RemoveAllRoots, INameSpaceTreeControl::RemoveAllRoots, RemoveAllRoots, RemoveAllRoots method [Windows Shell], RemoveAllRoots method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_RemoveAllRoots, shell.INameSpaceTreeControl_RemoveAllRoots, shobjidl_core/INameSpaceTreeControl::RemoveAllRoots
 ms.topic: method
+f1_keywords: ["shobjidl_core/INameSpaceTreeControl.RemoveAllRoots"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

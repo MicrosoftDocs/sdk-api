@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMaintenanceSettings, IMaintenanceSettings interface [Task Scheduler], IMaintenanceSettings interface [Task Scheduler],described, taskschd.imaintenancesettings, taskschd/IMaintenanceSettings
 ms.topic: interface
+f1_keywords: ["taskschd/IMaintenanceSettings"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

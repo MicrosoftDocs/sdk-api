@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],KeySpec property, IEnroll.KeySpec, IEnroll.put_KeySpec, IEnroll::KeySpec, IEnroll::get_KeySpec, IEnroll::put_KeySpec, KeySpec property [Security], KeySpec property [Security],IEnroll interface, put_KeySpec, security.ienroll4_keyspec, xenroll/IEnroll::KeySpec, xenroll/IEnroll::get_KeySpec, xenroll/IEnroll::put_KeySpec
 ms.topic: method
+f1_keywords: ["xenroll/IEnroll.KeySpec"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

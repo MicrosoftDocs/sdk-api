@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RTM_CHANGE_TYPE_ALL, RTM_CHANGE_TYPE_BEST, RTM_CHANGE_TYPE_FORWARDING, RTM_NOTIFY_ONLY_MARKED_DESTS, RtmRegisterForChangeNotification, RtmRegisterForChangeNotification function [RAS], _rtmv2ref_rtmregisterforchangenotification, rras.rtmregisterforchangenotification, rtmv2/RtmRegisterForChangeNotification
 ms.topic: function
+f1_keywords: ["rtmv2/RtmRegisterForChangeNotification"]
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

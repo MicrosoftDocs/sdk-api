@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], INetSharingManager interface [ICS/ICF],described, _ics_inetsharingmanager, ics.inetsharingmanager, netcon/INetSharingManager
 ms.topic: interface
+f1_keywords: ["netcon/INetSharingManager"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

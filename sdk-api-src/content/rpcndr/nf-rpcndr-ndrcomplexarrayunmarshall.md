@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrComplexArrayUnmarshall, NdrComplexArrayUnmarshall function [Windows API], rpcndr/NdrComplexArrayUnmarshall, winprog.ndrcomplexarrayunmarshall
 ms.topic: function
+f1_keywords: ["rpcndr/NdrComplexArrayUnmarshall"]
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

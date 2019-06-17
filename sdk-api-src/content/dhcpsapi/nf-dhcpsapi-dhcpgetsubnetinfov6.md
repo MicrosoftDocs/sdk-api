@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetInfoV6, DhcpGetSubnetInfoV6 function [DHCP], dhcp.dhcpgetsubnetinfov6, dhcpsapi/DhcpGetSubnetInfoV6
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpGetSubnetInfoV6"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromPalette method, IWICPalette.InitializeFromPalette, IWICPalette::InitializeFromPalette, InitializeFromPalette, InitializeFromPalette method [Windows Imaging Component], InitializeFromPalette method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrompalette, wic._wic_codec_iwicpalette_initializefrompalette, wincodec/IWICPalette::InitializeFromPalette
 ms.topic: method
+f1_keywords: ["wincodec/IWICPalette.InitializeFromPalette"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_GET_METADATA_INFO, FSCTL_TXFS_GET_METADATA_INFO control, FSCTL_TXFS_GET_METADATA_INFO control code [Files], fs.fsctl_txfs_get_metadata_info, winioctl/FSCTL_TXFS_GET_METADATA_INFO
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_TXFS_GET_METADATA_INFO"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

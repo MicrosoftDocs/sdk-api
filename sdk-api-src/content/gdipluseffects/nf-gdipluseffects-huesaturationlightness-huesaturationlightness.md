@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+],HueSaturationLightness constructor, HueSaturationLightness constructor [GDI+], HueSaturationLightness constructor [GDI+],HueSaturationLightness class, HueSaturationLightness.HueSaturationLightness, HueSaturationLightness::HueSaturationLightness, _gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_, gdiplus._gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_
 ms.topic: method
+f1_keywords: ["gdipluseffects/HueSaturationLightness.HueSaturationLightness"]
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

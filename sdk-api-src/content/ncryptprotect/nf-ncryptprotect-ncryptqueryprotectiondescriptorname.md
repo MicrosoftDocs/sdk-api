@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
 ms.topic: function
+f1_keywords: ["ncryptprotect/NCryptQueryProtectionDescriptorName"]
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows

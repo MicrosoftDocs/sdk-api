@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsUserAnAdmin, IsUserAnAdmin function [Windows Shell], _win32_IsUserAnAdmin, shell.IsUserAnAdmin, shlobj_core/IsUserAnAdmin
 ms.topic: function
+f1_keywords: ["shlobj_core/IsUserAnAdmin"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

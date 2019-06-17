@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], ICOMLBArguments interface [COM+],described, _cos_icomlbarguments, comsvcs/ICOMLBArguments, cos.icomlbarguments
 ms.topic: interface
+f1_keywords: ["comsvcs/ICOMLBArguments"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

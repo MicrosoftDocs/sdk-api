@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_SHADER_CONFIG, D3D12_RAYTRACING_SHADER_CONFIG structure, PD3D12_RAYTRACING_SHADER_CONFIG, PD3D12_RAYTRACING_SHADER_CONFIG structure pointer, d3d12/D3D12_RAYTRACING_SHADER_CONFIG, d3d12/PD3D12_RAYTRACING_SHADER_CONFIG, direct3d12.d3d12_raytracing_shader_config
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_RAYTRACING_SHADER_CONFIG"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_GFTI_UPDATE_TDO, DsGetForestTrustInformationW, DsGetForestTrustInformationW function [Active Directory], ad.dsgetforesttrustinformationw, dsgetdc/DsGetForestTrustInformationW
 ms.topic: function
+f1_keywords: ["dsgetdc/DsGetForestTrustInformationW"]
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows

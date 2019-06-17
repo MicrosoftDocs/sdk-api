@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSet_GetParameterCount, MI_ParameterSet_GetParameterCount function [Windows Management Infrastructure (MI)], mi/MI_ParameterSet_GetParameterCount, wmi_v2.mi_parameterset_getparametercount
 ms.topic: function
+f1_keywords: ["mi/MI_ParameterSet_GetParameterCount"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

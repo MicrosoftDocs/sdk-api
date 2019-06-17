@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter"
 ms.topic: struct
+f1_keywords: ["mmreg/WAVEFILTER"]
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GAMING_DEVICE_MODEL_INFORMATION, GAMING_DEVICE_MODEL_INFORMATION structure, gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION, gamingdvcinfo.gaming_device_model_information
 ms.topic: struct
+f1_keywords: ["gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION"]
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows

@@ -12,6 +12,7 @@ ms.keywords: RoOriginateErrorW, RoOriginateErrorW function [Windows Runtime], Wi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
+f1_keywords: ["roerrorapi/RoOriginateErrorW"]
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows

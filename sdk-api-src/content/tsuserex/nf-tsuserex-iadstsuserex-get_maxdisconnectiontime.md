@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxDisconnectionTime property, IADsTSUserEx.MaxDisconnectionTime, IADsTSUserEx.get_MaxDisconnectionTime, IADsTSUserEx::MaxDisconnectionTime, IADsTSUserEx::get_MaxDisconnectionTime, IADsTSUserEx::put_MaxDisconnectionTime, MaxDisconnectionTime property [Remote Desktop Services], MaxDisconnectionTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxDisconnectionTime, termserv.iadstsuserex_maxdisconnectiontime, tsuserex/IADsTSUserEx::MaxDisconnectionTime, tsuserex/IADsTSUserEx::get_MaxDisconnectionTime, tsuserex/IADsTSUserEx::put_MaxDisconnectionTime
 ms.topic: method
+f1_keywords: ["tsuserex/IADsTSUserEx.MaxDisconnectionTime"]
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

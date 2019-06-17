@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidTuner interface [Microsoft TV Technologies],get_TuningSpace method, IMSVidTuner.get_TuningSpace, IMSVidTuner::get_TuningSpace, IMSVidTunerget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],IMSVidTuner interface, mstv.imsvidtuner_get_tuningspace, segment/IMSVidTuner::get_TuningSpace
 ms.topic: method
+f1_keywords: ["segment/IMSVidTuner.get_TuningSpace"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

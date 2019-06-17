@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindNLSString, FindNLSString function [Internationalization for Windows Applications], _win32_FindNLSString, intl.findnlsstring, winnls/FindNLSString
 ms.topic: function
+f1_keywords: ["winnls/FindNLSString"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

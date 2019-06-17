@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt16WithDefault, VariantToUInt16WithDefault function [Windows Properties], _shell_VariantToUInt16WithDefault, properties.VariantToUInt16WithDefault, propvarutil/VariantToUInt16WithDefault, shell.VariantToUInt16WithDefault
 ms.topic: function
+f1_keywords: ["propvarutil/VariantToUInt16WithDefault"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

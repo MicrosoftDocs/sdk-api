@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 22473605-637e-4783-a8cb-98248b0a0327, IMFAsyncCallback interface [Media Foundation],Invoke method, IMFAsyncCallback.Invoke, IMFAsyncCallback::Invoke, Invoke, Invoke method [Media Foundation], Invoke method [Media Foundation],IMFAsyncCallback interface, mf.imfasynccallback_invoke, mfobjects/IMFAsyncCallback::Invoke
 ms.topic: method
+f1_keywords: ["mfobjects/IMFAsyncCallback.Invoke"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

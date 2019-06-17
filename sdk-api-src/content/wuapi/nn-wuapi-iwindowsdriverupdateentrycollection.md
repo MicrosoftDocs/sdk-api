@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent], IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],described, wua.iwindowsdriverupdateentrycollection, wuapi/IWindowsDriverUpdateEntryCollection
 ms.topic: interface
+f1_keywords: ["wuapi/IWindowsDriverUpdateEntryCollection"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

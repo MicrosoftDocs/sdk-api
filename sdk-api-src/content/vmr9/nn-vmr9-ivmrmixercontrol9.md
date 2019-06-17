@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9, IVMRMixerControl9 interface [DirectShow], IVMRMixerControl9 interface [DirectShow],described, IVMRMixerControl9Interface, dshow.ivmrmixercontrol9, vmr9/IVMRMixerControl9
 ms.topic: interface
+f1_keywords: ["vmr9/IVMRMixerControl9"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

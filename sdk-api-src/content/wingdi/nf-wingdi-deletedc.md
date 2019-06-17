@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteDC, DeleteDC function [Windows GDI], _win32_DeleteDC, gdi.deletedc, wingdi/DeleteDC
 ms.topic: function
+f1_keywords: ["wingdi/DeleteDC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_CT_ESS, WCN_VALUE_CT_IBSS, WCN_VALUE_TYPE_CONNECTION_TYPE, WCN_VALUE_TYPE_CONNECTION_TYPE enumeration [Windows Connect Now], wcn.wcn_value_type_connection_type, wcntypes/WCN_VALUE_CT_ESS, wcntypes/WCN_VALUE_CT_IBSS, wcntypes/WCN_VALUE_TYPE_CONNECTION_TYPE
 ms.topic: enum
+f1_keywords: ["wcntypes/WCN_VALUE_TYPE_CONNECTION_TYPE"]
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows

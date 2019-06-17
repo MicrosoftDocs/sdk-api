@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_IMathInputControlEvents, _IMathInputControlEvents interface [Tablet PC], _IMathInputControlEvents interface [Tablet PC],described, micaut/_IMathInputControlEvents, tablet._imathinputcontrolevents"
 ms.topic: interface
+f1_keywords: ["micaut/_IMathInputControlEvents"]
 req.header: micaut.h
 req.include-header: 
 req.target-type: Windows

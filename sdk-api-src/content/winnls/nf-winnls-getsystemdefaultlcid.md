@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultLCID, GetSystemDefaultLCID function [Internationalization for Windows Applications], _win32_GetSystemDefaultLCID, intl.getsystemdefaultlcid, winnls/GetSystemDefaultLCID
 ms.topic: function
+f1_keywords: ["winnls/GetSystemDefaultLCID"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

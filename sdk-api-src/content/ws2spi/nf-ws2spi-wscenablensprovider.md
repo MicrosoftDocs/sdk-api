@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCEnableNSProvider, WSCEnableNSProvider function [Winsock], _win32_wscenablensprovider_2, winsock.wscenablensprovider_2, ws2spi/WSCEnableNSProvider
 ms.topic: function
+f1_keywords: ["ws2spi/WSCEnableNSProvider"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

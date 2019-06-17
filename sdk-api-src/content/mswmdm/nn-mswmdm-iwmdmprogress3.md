@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress3, IWMDMProgress3 interface [windows Media Device Manager], IWMDMProgress3 interface [windows Media Device Manager],described, IWMDMProgress3Interface, mswmdm/IWMDMProgress3, wmdm.iwmdmprogress3
 ms.topic: interface
+f1_keywords: ["mswmdm/IWMDMProgress3"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

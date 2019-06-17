@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotificationEx, PeerDistRegisterForStatusChangeNotificationEx function [Peer Networking], p2p.peerdistregisterforstatuschangenotificationex, peerdist/PeerDistRegisterForStatusChangeNotificationEx
 ms.topic: function
+f1_keywords: ["peerdist/PeerDistRegisterForStatusChangeNotificationEx"]
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum
 ms.topic: function
+f1_keywords: ["dmoreg/DMOEnum"]
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

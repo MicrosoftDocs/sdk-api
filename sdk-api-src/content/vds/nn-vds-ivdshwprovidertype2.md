@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
 ms.topic: interface
+f1_keywords: ["vds/IVdsHwProviderType2"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateStreamOnHGlobal, CreateStreamOnHGlobal function [Structured Storage], _stg_createstreamonhglobal, combaseapi/CreateStreamOnHGlobal, stg.createstreamonhglobal
 ms.topic: function
+f1_keywords: ["combaseapi/CreateStreamOnHGlobal"]
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

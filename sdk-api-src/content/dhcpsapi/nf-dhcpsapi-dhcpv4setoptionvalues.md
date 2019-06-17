@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4SetOptionValues, DhcpV4SetOptionValues function [DHCP], dhcp.dhcpv4setoptionvalues, dhcpsapi/DhcpV4SetOptionValues
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpV4SetOptionValues"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

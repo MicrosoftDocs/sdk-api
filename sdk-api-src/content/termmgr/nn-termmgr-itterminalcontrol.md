@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl, ITTerminalControl interface [TAPI 2.2], ITTerminalControl interface [TAPI 2.2],described, _tapi3_itterminalcontrol, tapi3.itterminalcontrol, termmgr/ITTerminalControl
 ms.topic: interface
+f1_keywords: ["termmgr/ITTerminalControl"]
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

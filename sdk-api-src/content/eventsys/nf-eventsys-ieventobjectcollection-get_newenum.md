@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection interface [COM+],NewEnum property, IEventObjectCollection.NewEnum, IEventObjectCollection.get_NewEnum, IEventObjectCollection::NewEnum, IEventObjectCollection::get_NewEnum, NewEnum property [COM+], NewEnum property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_newenum, eventsys/IEventObjectCollection::NewEnum, eventsys/IEventObjectCollection::get_NewEnum, get_NewEnum
 ms.topic: method
+f1_keywords: ["eventsys/IEventObjectCollection.NewEnum"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWP_DIRECTION, FWP_DIRECTION enumeration [Filtering], FWP_DIRECTION_INBOUND, FWP_DIRECTION_MAX, FWP_DIRECTION_OUTBOUND, fwp.fwp_direction_enum, fwptypes/FWP_DIRECTION, fwptypes/FWP_DIRECTION_INBOUND, fwptypes/FWP_DIRECTION_MAX, fwptypes/FWP_DIRECTION_OUTBOUND
 ms.topic: enum
+f1_keywords: ["fwptypes/FWP_DIRECTION"]
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

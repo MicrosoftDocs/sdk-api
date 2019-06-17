@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagGetFullscreenTransform, MagGetFullscreenTransform function [Magnification API], magapi.magapi_maggetfullscreentransform, magnification/MagGetFullscreenTransform
 ms.topic: function
+f1_keywords: ["magnification/MagGetFullscreenTransform"]
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

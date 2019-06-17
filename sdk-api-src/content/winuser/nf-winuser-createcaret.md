@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCaret, CreateCaret function [Menus and Other Resources], _win32_CreateCaret, _win32_createcaret_cpp, menurc.createcaret, winui._win32_createcaret, winuser/CreateCaret
 ms.topic: function
+f1_keywords: ["winuser/CreateCaret"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

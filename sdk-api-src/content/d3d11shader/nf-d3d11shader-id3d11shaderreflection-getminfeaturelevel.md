@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMinFeatureLevel, GetMinFeatureLevel method [Direct3D 11], GetMinFeatureLevel method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetMinFeatureLevel method, ID3D11ShaderReflection.GetMinFeatureLevel, ID3D11ShaderReflection::GetMinFeatureLevel, b8d12499-79aa-f3e6-bdd4-5ce99f2fe7d3, d3d11shader/ID3D11ShaderReflection::GetMinFeatureLevel, direct3d11.id3d11shaderreflection_getminfeaturelevel
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ShaderReflection.GetMinFeatureLevel"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, AVIStreamHeader, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
 ms.topic: struct
+f1_keywords: ["avifmt/AVISTREAMHEADER"]
 req.header: avifmt.h
 req.include-header: Aviriff.h
 req.target-type: Windows

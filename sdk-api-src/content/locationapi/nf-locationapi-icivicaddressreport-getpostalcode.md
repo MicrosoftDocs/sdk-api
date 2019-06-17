@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPostalCode, GetPostalCode method [WinLocation], GetPostalCode method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetPostalCode method, ICivicAddressReport.GetPostalCode, ICivicAddressReport::GetPostalCode, WinLocation_COM_Ref.icivicaddressreport_getpostalcode, locationapi/ICivicAddressReport::GetPostalCode
 ms.topic: method
+f1_keywords: ["locationapi/ICivicAddressReport.GetPostalCode"]
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

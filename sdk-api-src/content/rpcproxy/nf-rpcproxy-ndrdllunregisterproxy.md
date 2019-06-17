@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrDllUnregisterProxy, NdrDllUnregisterProxy function [RPC], rpc.ndrdllunregisterproxy, rpcproxy/NdrDllUnregisterProxy
 ms.topic: function
+f1_keywords: ["rpcproxy/NdrDllUnregisterProxy"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegInstallA, RegInstallA function [Windows API], advpub/RegInstallA, winprog.reginstalla
 ms.topic: function
+f1_keywords: ["advpub/RegInstallA"]
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows

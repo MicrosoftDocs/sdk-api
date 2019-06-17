@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteInlineObject, IDWriteInlineObject interface [Direct Write], IDWriteInlineObject interface [Direct Write],described, directwrite.IDWriteInlineObject, dwrite/IDWriteInlineObject
 ms.topic: interface
+f1_keywords: ["dwrite/IDWriteInlineObject"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

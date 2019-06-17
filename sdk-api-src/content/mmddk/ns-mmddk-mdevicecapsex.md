@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MDEVICECAPSEX, MDEVICECAPSEX structure [Audio Devices], aud-prop_12e0eeb8-beac-4b01-8a5c-6e78f58f703b.xml, audio.mdevicecapsex, mmddk/MDEVICECAPSEX
 ms.topic: struct
+f1_keywords: ["mmddk/MDEVICECAPSEX"]
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectShow], DDCOLORKEYStructure, dshow.ddcolorkey, strmif/DDCOLORKEY"
 ms.topic: struct
+f1_keywords: ["strmif/DDCOLORKEY"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

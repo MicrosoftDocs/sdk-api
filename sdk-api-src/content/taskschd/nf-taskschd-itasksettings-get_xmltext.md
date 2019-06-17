@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],XmlText property, ITaskSettings.XmlText, ITaskSettings.get_XmlText, ITaskSettings::XmlText, ITaskSettings::get_XmlText, ITaskSettings::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],ITaskSettings interface, get_XmlText, taskschd.itasksettings_xmltext, taskschd/ITaskSettings::XmlText, taskschd/ITaskSettings::get_XmlText, taskschd/ITaskSettings::put_XmlText
 ms.topic: method
+f1_keywords: ["taskschd/ITaskSettings.XmlText"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

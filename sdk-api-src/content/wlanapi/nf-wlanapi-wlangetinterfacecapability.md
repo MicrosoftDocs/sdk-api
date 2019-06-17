@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanGetInterfaceCapability, WlanGetInterfaceCapability function [NativeWIFI], nwifi.wlangetinterfacecapability, wlanapi/WlanGetInterfaceCapability
 ms.topic: function
+f1_keywords: ["wlanapi/WlanGetInterfaceCapability"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

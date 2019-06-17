@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 ms.topic: interface
+f1_keywords: ["spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata"]
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows

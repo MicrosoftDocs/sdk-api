@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
 ms.topic: function
+f1_keywords: ["coml2api/GetConvertStg"]
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows

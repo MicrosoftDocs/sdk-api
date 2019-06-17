@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TdhGetEventMapInformation, TdhGetEventMapInformation function [ETW], etw.tdhgeteventmapinformation_func, tdh.tdhgeteventmapinformation_func, tdh/TdhGetEventMapInformation
 ms.topic: function
+f1_keywords: ["tdh/TdhGetEventMapInformation"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

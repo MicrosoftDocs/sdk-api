@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoSetMessageDispatcher, CoSetMessageDispatcher function [COM], com.cosetmessagedispatcher, messagedispatcherapi/CoSetMessageDispatcher
 ms.topic: function
+f1_keywords: ["messagedispatcherapi/CoSetMessageDispatcher"]
 req.header: messagedispatcherapi.h
 req.include-header: 
 req.target-type: Windows

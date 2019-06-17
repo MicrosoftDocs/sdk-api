@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetUIContext, EapPeerGetUIContext function [EAPHost], eaphost.eappeergetuicontext, eapmethodpeerapis/EapPeerGetUIContext
 ms.topic: function
+f1_keywords: ["eapmethodpeerapis/EapPeerGetUIContext"]
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

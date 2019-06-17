@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_PIN_FORMAT, MBN_PIN_FORMAT enumeration [Microsoft Broadband Networks], MBN_PIN_FORMAT_ALPHANUMERIC, MBN_PIN_FORMAT_NONE, MBN_PIN_FORMAT_NUMERIC, mbn.mbn_pin_format, mbnapi/MBN_PIN_FORMAT, mbnapi/MBN_PIN_FORMAT_ALPHANUMERIC, mbnapi/MBN_PIN_FORMAT_NONE, mbnapi/MBN_PIN_FORMAT_NUMERIC
 ms.topic: enum
+f1_keywords: ["mbnapi/MBN_PIN_FORMAT"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

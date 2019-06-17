@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TypeTraits, TypeTraits structure [Direct2D], TypeTraits<Type>, d2d1helper/TypeTraits, direct2d.typetraits_t_
 ms.topic: struct
+f1_keywords: ["d2d1_1helper/TypeTraits"]
 req.header: d2d1_1helper.h
 req.include-header: D2d1_1helper.h
 req.target-type: Windows

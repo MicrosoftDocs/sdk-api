@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotify, IMFVideoSampleAllocatorNotify interface [Media Foundation], IMFVideoSampleAllocatorNotify interface [Media Foundation],described, mf.imfvideosampleallocatornotify, mfidl/IMFVideoSampleAllocatorNotify
 ms.topic: interface
+f1_keywords: ["mfidl/IMFVideoSampleAllocatorNotify"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

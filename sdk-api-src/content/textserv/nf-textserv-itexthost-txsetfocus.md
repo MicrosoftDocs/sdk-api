@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetFocus method, ITextHost.TxSetFocus, ITextHost::TxSetFocus, TxSetFocus, TxSetFocus method [Windows Controls], TxSetFocus method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetFocus, _win32_ITextHost_TxSetFocus_cpp, controls.ITextHost_TxSetFocus, controls._win32_ITextHost_TxSetFocus, textserv/ITextHost::TxSetFocus
 ms.topic: method
+f1_keywords: ["textserv/ITextHost.TxSetFocus"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

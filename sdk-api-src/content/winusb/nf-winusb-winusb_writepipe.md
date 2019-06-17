@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WritePipe, WinUsb_WritePipe function [Buses], buses.winusb_writepipe, winusb/WinUsb_WritePipe, winusbfunc_6fbed2b9-a65e-4802-8ba4-369a3200bffd.xml
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_WritePipe"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

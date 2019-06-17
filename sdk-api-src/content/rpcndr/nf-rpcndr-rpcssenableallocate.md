@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsEnableAllocate, RpcSsEnableAllocate function [RPC], _rpc_rpcssenableallocate, rpc.rpcssenableallocate, rpcndr/RpcSsEnableAllocate
 ms.topic: function
+f1_keywords: ["rpcndr/RpcSsEnableAllocate"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

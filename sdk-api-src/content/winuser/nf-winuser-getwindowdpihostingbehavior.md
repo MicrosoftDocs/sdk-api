@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindowDpiHostingBehavior, GetWindowDpiHostingBehavior function [High DPI], hidpi.getwindowdpihostingbehavior, winuser/GetWindowDpiHostingBehavior
 ms.topic: function
+f1_keywords: ["winuser/GetWindowDpiHostingBehavior"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

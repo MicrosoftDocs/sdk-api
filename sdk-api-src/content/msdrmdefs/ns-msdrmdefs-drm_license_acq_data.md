@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM_LICENSE_ACQ_DATA, DRM_LICENSE_ACQ_DATA structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_LICENSE_ACQ_DATA, rm.drm_license_acq_data
 ms.topic: struct
+f1_keywords: ["msdrmdefs/DRM_LICENSE_ACQ_DATA"]
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DllGetClassObject, DllGetClassObject function [COM], _com_DllGetClassObject, com.dllgetclassobject, combaseapi/DllGetClassObject
 ms.topic: function
+f1_keywords: ["combaseapi/DllGetClassObject"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_MEASURING_MODE, DWRITE_MEASURING_MODE enumeration [Direct Write], DWRITE_MEASURING_MODE_GDI_CLASSIC, DWRITE_MEASURING_MODE_GDI_NATURAL, DWRITE_MEASURING_MODE_NATURAL, dcommon/DWRITE_MEASURING_MODE, dcommon/DWRITE_MEASURING_MODE_GDI_CLASSIC, dcommon/DWRITE_MEASURING_MODE_GDI_NATURAL, dcommon/DWRITE_MEASURING_MODE_NATURAL, directwrite.dwrite_text_measuring_method
 ms.topic: enum
+f1_keywords: ["dcommon/DWRITE_MEASURING_MODE"]
 req.header: dcommon.h
 req.include-header: Dwrite.h
 req.target-type: Windows

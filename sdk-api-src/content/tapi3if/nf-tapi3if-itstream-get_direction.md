@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Direction method, ITStream.get_Direction, ITStream::get_Direction, _tapi3_itstream_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITStream interface, tapi3.itstream_get_direction, tapi3if/ITStream::get_Direction
 ms.topic: method
+f1_keywords: ["tapi3if/ITStream.get_Direction"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

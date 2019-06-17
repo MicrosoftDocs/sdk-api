@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ExclusiveAccessOwner method, IDiscRecorder2.get_ExclusiveAccessOwner, IDiscRecorder2::get_ExclusiveAccessOwner, get_ExclusiveAccessOwner, get_ExclusiveAccessOwner method [IMAPI], get_ExclusiveAccessOwner method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_exclusiveaccessowner, imapi2/IDiscRecorder2::get_ExclusiveAccessOwner
 ms.topic: method
+f1_keywords: ["imapi2/IDiscRecorder2.get_ExclusiveAccessOwner"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

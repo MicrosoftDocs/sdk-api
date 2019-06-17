@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PathStripPath, PathStripPath function [Windows Shell], PathStripPathA, PathStripPathW, _win32_PathStripPath, shell.PathStripPath, shlwapi/PathStripPath, shlwapi/PathStripPathA, shlwapi/PathStripPathW
 ms.topic: function
+f1_keywords: ["shlwapi/PathStripPath"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

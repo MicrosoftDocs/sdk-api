@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasSecurityDialogGetInfo, RasSecurityDialogGetInfo function [RAS], _ras_rassecuritydialoggetinfo, rasshost/RasSecurityDialogGetInfo, rras.rassecuritydialoggetinfo
 ms.topic: function
+f1_keywords: ["rasshost/RasSecurityDialogGetInfo"]
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows

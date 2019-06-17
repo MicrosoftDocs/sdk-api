@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PolicyServerUrlPropertyID, PolicyServerUrlPropertyID enumeration [Security], PsFriendlyName, PsPolicyID, certenroll/PolicyServerUrlPropertyID, certenroll/PsFriendlyName, certenroll/PsPolicyID, security.policyserverurlpropertyid
 ms.topic: enum
+f1_keywords: ["certenroll/PolicyServerUrlPropertyID"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

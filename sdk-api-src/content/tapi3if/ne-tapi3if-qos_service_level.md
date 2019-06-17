@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QOS_SERVICE_LEVEL, QOS_SERVICE_LEVEL enumeration [TAPI 2.2], QSL_BEST_EFFORT, QSL_IF_AVAILABLE, QSL_NEEDED, _tapi3_qos_service_level, tapi3.qos_service_level, tapi3if/QOS_SERVICE_LEVEL, tapi3if/QSL_BEST_EFFORT, tapi3if/QSL_IF_AVAILABLE, tapi3if/QSL_NEEDED
 ms.topic: enum
+f1_keywords: ["tapi3if/QOS_SERVICE_LEVEL"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
 ms.topic: function
+f1_keywords: ["certpoleng/PstAcquirePrivateKey"]
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

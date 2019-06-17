@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], security.slisgenuinelocalex, slpublic/SLIsGenuineLocalEx
 ms.topic: function
+f1_keywords: ["slpublic/SLIsGenuineLocalEx"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSIP_CAP_SET_V2, PSIP_CAP_SET, PSIP_CAP_SET structure pointer [Security], SIP_CAP_SET, SIP_CAP_SET structure [Security], SIP_CAP_SET_V2, mssip/PSIP_CAP_SET, mssip/SIP_CAP_SET, security.sip_cap_set"
 ms.topic: struct
+f1_keywords: ["mssip/SIP_CAP_SET"]
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

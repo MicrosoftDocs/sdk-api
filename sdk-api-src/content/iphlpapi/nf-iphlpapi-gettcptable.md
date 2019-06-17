@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTcpTable, GetTcpTable function [IP Helper], _iphlp_gettcptable, iphlp.gettcptable, iphlpapi/GetTcpTable
 ms.topic: function
+f1_keywords: ["iphlpapi/GetTcpTable"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

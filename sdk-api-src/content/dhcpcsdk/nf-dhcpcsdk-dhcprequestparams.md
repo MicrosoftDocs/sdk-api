@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCPCAPI_REQUEST_PERSISTENT, DHCPCAPI_REQUEST_SYNCHRONOUS, DhcpRequestParams, DhcpRequestParams function [DHCP], _dhcp_dhcprequestparams, dhcp.dhcprequestparams, dhcpcsdk/DhcpRequestParams
 ms.topic: function
+f1_keywords: ["dhcpcsdk/DhcpRequestParams"]
 req.header: dhcpcsdk.h
 req.include-header: 
 req.target-type: Windows

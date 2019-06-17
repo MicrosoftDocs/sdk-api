@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VMR9ProcAmpControlRange, VMR9ProcAmpControlRange structure [DirectShow], VMR9ProcAmpControlRangeStructure, dshow.vmr9procampcontrolrange, vmr9/VMR9ProcAmpControlRange
 ms.topic: struct
+f1_keywords: ["vmr9/VMR9ProcAmpControlRange"]
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows

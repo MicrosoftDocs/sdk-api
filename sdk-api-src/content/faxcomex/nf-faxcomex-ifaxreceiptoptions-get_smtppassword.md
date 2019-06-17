@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],SMTPPassword property, IFaxReceiptOptions.SMTPPassword, IFaxReceiptOptions.get_SMTPPassword, IFaxReceiptOptions.put_SMTPPassword, IFaxReceiptOptions::SMTPPassword, IFaxReceiptOptions::get_SMTPPassword, IFaxReceiptOptions::put_SMTPPassword, SMTPPassword property [Fax Service], SMTPPassword property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.smtppassword, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtppassword_cpp, fax._mfax_faxreceiptoptions_smtppassword, faxcomex/IFaxReceiptOptions::SMTPPassword, faxcomex/IFaxReceiptOptions::get_SMTPPassword, faxcomex/IFaxReceiptOptions::put_SMTPPassword, get_SMTPPassword
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxReceiptOptions.SMTPPassword"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

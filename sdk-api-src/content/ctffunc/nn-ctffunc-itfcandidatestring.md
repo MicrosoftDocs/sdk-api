@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateString, ITfCandidateString interface [Text Services Framework], ITfCandidateString interface [Text Services Framework],described, _tsf_itfcandidatestring_ref, ctffunc/ITfCandidateString, tsf.itfcandidatestring
 ms.topic: interface
+f1_keywords: ["ctffunc/ITfCandidateString"]
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

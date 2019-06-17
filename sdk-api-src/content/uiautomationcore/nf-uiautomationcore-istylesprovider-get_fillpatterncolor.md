@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillPatternColor property [Windows Accessibility], FillPatternColor property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillPatternColor property, IStylesProvider.FillPatternColor, IStylesProvider.get_FillPatternColor, IStylesProvider::FillPatternColor, IStylesProvider::get_FillPatternColor, get_FillPatternColor, uiautomationcore/IStylesProvider::FillPatternColor, uiautomationcore/IStylesProvider::get_FillPatternColor, winauto.uiauto_istylesprovider_fillpatterncolor
 ms.topic: method
+f1_keywords: ["uiautomationcore/IStylesProvider.FillPatternColor"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

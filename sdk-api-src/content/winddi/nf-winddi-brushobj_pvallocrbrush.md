@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BRUSHOBJ_pvAllocRbrush, BRUSHOBJ_pvAllocRbrush function [Display Devices], display.brushobj_pvallocrbrush, gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml, winddi/BRUSHOBJ_pvAllocRbrush
 ms.topic: function
+f1_keywords: ["winddi/BRUSHOBJ_pvAllocRbrush"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesResults interface [Windows Update Agent],LastInstallationSuccessDate property, IAutomaticUpdatesResults.LastInstallationSuccessDate, IAutomaticUpdatesResults.get_LastInstallationSuccessDate, IAutomaticUpdatesResults::LastInstallationSuccessDate, IAutomaticUpdatesResults::get_LastInstallationSuccessDate, LastInstallationSuccessDate property [Windows Update Agent], LastInstallationSuccessDate property [Windows Update Agent],IAutomaticUpdatesResults interface, get_LastInstallationSuccessDate, wua.iautomaticupdatesresults_lastinstallationsuccessdate, wuapi/IAutomaticUpdatesResults::LastInstallationSuccessDate, wuapi/IAutomaticUpdatesResults::get_LastInstallationSuccessDate
 ms.topic: method
+f1_keywords: ["wuapi/IAutomaticUpdatesResults.LastInstallationSuccessDate"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

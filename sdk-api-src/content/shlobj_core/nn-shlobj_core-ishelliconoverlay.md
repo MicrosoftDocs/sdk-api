@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlay, IShellIconOverlay interface [Windows Shell], IShellIconOverlay interface [Windows Shell],described, _win32_IShellIconOverlay, shell.IShellIconOverlay, shlobj_core/IShellIconOverlay
 ms.topic: interface
+f1_keywords: ["shlobj_core/IShellIconOverlay"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

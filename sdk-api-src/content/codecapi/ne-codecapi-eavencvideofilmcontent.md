@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoFilmContent, codecapi/eAVEncVideoFilmContent_FilmOnly, codecapi/eAVEncVideoFilmContent_Mixed, codecapi/eAVEncVideoFilmContent_VideoOnly, dshow.eavencvideofilmcontent, eAVEncVideoFilmContent, eAVEncVideoFilmContent enumeration [DirectShow], eAVEncVideoFilmContentEnumeration, eAVEncVideoFilmContent_FilmOnly, eAVEncVideoFilmContent_Mixed, eAVEncVideoFilmContent_VideoOnly
 ms.topic: enum
+f1_keywords: ["codecapi/eAVEncVideoFilmContent"]
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows

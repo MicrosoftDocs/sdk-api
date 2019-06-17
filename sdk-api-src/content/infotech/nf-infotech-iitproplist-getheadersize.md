@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [HTML Help Workshop], GetHeaderSize method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetHeaderSize method, IITPropList.GetHeaderSize, IITPropList::GetHeaderSize, htmlhelp.iitproplist_getheadersize, infotech/IITPropList::GetHeaderSize
 ms.topic: method
+f1_keywords: ["infotech/IITPropList.GetHeaderSize"]
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

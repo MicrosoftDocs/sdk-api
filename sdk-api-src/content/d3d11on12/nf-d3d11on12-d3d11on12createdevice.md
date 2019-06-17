@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11On12CreateDevice, D3D11On12CreateDevice function, d3d11on12/D3D11On12CreateDevice, direct3d12.d3d11on12createdevice
 ms.topic: function
+f1_keywords: ["d3d11on12/D3D11On12CreateDevice"]
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows

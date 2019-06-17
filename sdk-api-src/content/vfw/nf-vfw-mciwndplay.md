@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlay, MCIWndPlay macro [Windows Multimedia], _win32_MCIWndPlay, multimedia.mciwndplay, vfw/MCIWndPlay
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndPlay"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

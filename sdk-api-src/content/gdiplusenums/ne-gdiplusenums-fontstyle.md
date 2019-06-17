@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FontStyle, FontStyle enumeration [GDI+], FontStyleBold, FontStyleBoldItalic, FontStyleItalic, FontStyleRegular, FontStyleStrikeout, FontStyleUnderline, _gdiplus_ENUM_FontStyle, gdiplus._gdiplus_ENUM_FontStyle, gdiplusenums/FontStyle, gdiplusenums/FontStyleBold, gdiplusenums/FontStyleBoldItalic, gdiplusenums/FontStyleItalic, gdiplusenums/FontStyleRegular, gdiplusenums/FontStyleStrikeout, gdiplusenums/FontStyleUnderline
 ms.topic: enum
+f1_keywords: ["gdiplusenums/FontStyle"]
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

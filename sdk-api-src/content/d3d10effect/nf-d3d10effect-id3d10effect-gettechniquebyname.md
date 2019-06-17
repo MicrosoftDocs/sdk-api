@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 85db30ea-1e49-0b62-caca-5e0cf8959361, GetTechniqueByName, GetTechniqueByName method [Direct3D 10], GetTechniqueByName method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetTechniqueByName method, ID3D10Effect.GetTechniqueByName, ID3D10Effect::GetTechniqueByName, d3d10effect/ID3D10Effect::GetTechniqueByName, direct3d10.id3d10effect_gettechniquebyname
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10Effect.GetTechniqueByName"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

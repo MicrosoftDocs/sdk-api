@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypeIndex method, IFileDialog.SetFileTypeIndex, IFileDialog::SetFileTypeIndex, SetFileTypeIndex, SetFileTypeIndex method [Windows Shell], SetFileTypeIndex method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypeIndex, shell_IFileDialog_SetFileTypeIndex, shobjidl_core/IFileDialog::SetFileTypeIndex
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileDialog.SetFileTypeIndex"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

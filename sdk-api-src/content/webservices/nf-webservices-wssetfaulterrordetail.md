@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetFaultErrorDetail, WsSetFaultErrorDetail function [Web Services for Windows], webservices/WsSetFaultErrorDetail, wsw.wssetfaulterrordetail
 ms.topic: function
+f1_keywords: ["webservices/WsSetFaultErrorDetail"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

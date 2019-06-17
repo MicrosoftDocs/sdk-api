@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Heading property [Internationalization for Windows Applications], Heading property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Heading property, IOptionDescription.Heading, IOptionDescription.get_Heading, IOptionDescription::Heading, IOptionDescription::get_Heading, get_Heading, intl.ioptiondescription_heading, spellcheck/IOptionDescription::Heading, spellcheck/IOptionDescription::get_Heading
 ms.topic: method
+f1_keywords: ["spellcheck/IOptionDescription.Heading"]
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows

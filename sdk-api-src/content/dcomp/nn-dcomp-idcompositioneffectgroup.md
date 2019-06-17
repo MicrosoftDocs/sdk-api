@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionEffectGroup, IDCompositionEffectGroup interface [DirectComposition], IDCompositionEffectGroup interface [DirectComposition],described, dcomp/IDCompositionEffectGroup, directcomp.idcompositioneffectgroup
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionEffectGroup"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SFVM_PROPPAGE_DATA, SFVM_PROPPAGE_DATA structure [Windows Shell], _SFVM_PROPPAGE_DATA, _win32_SFVM_PROPPAGE_DATA, shell.SFVM_PROPPAGE_DATA, shlobj_core/SFVM_PROPPAGE_DATA
 ms.topic: struct
+f1_keywords: ["shlobj_core/SFVM_PROPPAGE_DATA"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

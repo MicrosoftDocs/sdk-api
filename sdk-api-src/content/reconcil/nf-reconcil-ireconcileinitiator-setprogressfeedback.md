@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetProgressFeedback method, IReconcileInitiator.SetProgressFeedback, IReconcileInitiator::SetProgressFeedback, SetProgressFeedback, SetProgressFeedback method [Legacy Windows Environment Features], SetProgressFeedback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetProgressFeedback, lwef.ireconcileinitiator_setprogressfeedback, reconcil/IReconcileInitiator::SetProgressFeedback, shell.ireconcileinitiator_setprogressfeedback
 ms.topic: method
+f1_keywords: ["reconcil/IReconcileInitiator.SetProgressFeedback"]
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows

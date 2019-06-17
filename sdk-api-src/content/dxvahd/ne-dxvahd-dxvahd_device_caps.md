@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_DEVICE_CAPS, DXVAHD_DEVICE_CAPS enumeration [Media Foundation], DXVAHD_DEVICE_CAPS_LINEAR_SPACE, DXVAHD_DEVICE_CAPS_RGB_RANGE_CONVERSION, DXVAHD_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION, DXVAHD_DEVICE_CAPS_xvYCC, dxvahd/DXVAHD_DEVICE_CAPS, dxvahd/DXVAHD_DEVICE_CAPS_LINEAR_SPACE, dxvahd/DXVAHD_DEVICE_CAPS_RGB_RANGE_CONVERSION, dxvahd/DXVAHD_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION, dxvahd/DXVAHD_DEVICE_CAPS_xvYCC, mf.dxvahd_device_caps
 ms.topic: enum
+f1_keywords: ["dxvahd/DXVAHD_DEVICE_CAPS"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

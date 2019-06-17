@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWiaNotifyDevMgr interface [WIA],NewDeviceArrival method, IWiaNotifyDevMgr.NewDeviceArrival, IWiaNotifyDevMgr::NewDeviceArrival, NewDeviceArrival, NewDeviceArrival method [WIA], NewDeviceArrival method [WIA],IWiaNotifyDevMgr interface, _wia_IWiaNotifyDevMgr_NewDeviceArrival, wia._wia_IWiaNotifyDevMgr_NewDeviceArrival, wia_xp/IWiaNotifyDevMgr::NewDeviceArrival
 ms.topic: method
+f1_keywords: ["wia_xp/IWiaNotifyDevMgr.NewDeviceArrival"]
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

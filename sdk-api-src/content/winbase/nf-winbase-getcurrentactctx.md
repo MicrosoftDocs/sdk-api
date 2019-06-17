@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCurrentActCtx, GetCurrentActCtx function [Side-by-side Assemblies], _win32_getcurrentactctx, setup.getcurrentactctx, winbase/GetCurrentActCtx
 ms.topic: function
+f1_keywords: ["winbase/GetCurrentActCtx"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

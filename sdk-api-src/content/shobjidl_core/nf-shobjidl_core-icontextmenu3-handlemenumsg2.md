@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HandleMenuMsg2, HandleMenuMsg2 method [Windows Shell], HandleMenuMsg2 method [Windows Shell],IContextMenu3 interface, IContextMenu3 interface [Windows Shell],HandleMenuMsg2 method, IContextMenu3.HandleMenuMsg2, IContextMenu3::HandleMenuMsg2, _win32_IContextMenu3_HandleMenuMsg2, shell.IContextMenu3_HandleMenuMsg2, shobjidl_core/IContextMenu3::HandleMenuMsg2
 ms.topic: method
+f1_keywords: ["shobjidl_core/IContextMenu3.HandleMenuMsg2"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

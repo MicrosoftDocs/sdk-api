@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMFT_OUTPUT_DATA_BUFFER, 57623c8f-f7b6-4cb3-8d54-4ee516c706c3, MFT_OUTPUT_DATA_BUFFER, MFT_OUTPUT_DATA_BUFFER structure [Media Foundation], mf.mft_output_data_buffer, mftransform/MFT_OUTPUT_DATA_BUFFER"
 ms.topic: struct
+f1_keywords: ["mftransform/MFT_OUTPUT_DATA_BUFFER"]
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

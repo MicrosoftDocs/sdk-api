@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, shell.ILIsChild, shlobj_core/ILIsChild
 ms.topic: function
+f1_keywords: ["shlobj_core/ILIsChild"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetFlowDirection method, IDWriteTextFormat.SetFlowDirection, IDWriteTextFormat::SetFlowDirection, SetFlowDirection, SetFlowDirection method [Direct Write], SetFlowDirection method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetFlowDirection, dwrite/IDWriteTextFormat::SetFlowDirection
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextFormat.SetFlowDirection"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RebootRequiredBeforeInstallation property, IUpdateInstaller.RebootRequiredBeforeInstallation, IUpdateInstaller.get_RebootRequiredBeforeInstallation, IUpdateInstaller::RebootRequiredBeforeInstallation, IUpdateInstaller::get_RebootRequiredBeforeInstallation, RebootRequiredBeforeInstallation property [Windows Update Agent], RebootRequiredBeforeInstallation property [Windows Update Agent],IUpdateInstaller interface, get_RebootRequiredBeforeInstallation, wua.iupdateinstaller_rebootrequiredbeforeinstallation, wuapi/IUpdateInstaller::RebootRequiredBeforeInstallation, wuapi/IUpdateInstaller::get_RebootRequiredBeforeInstallation
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateInstaller.RebootRequiredBeforeInstallation"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

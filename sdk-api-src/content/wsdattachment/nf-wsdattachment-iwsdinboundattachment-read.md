@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDInboundAttachment interface,Read method, IWSDInboundAttachment.Read, IWSDInboundAttachment::Read, Read, Read method, Read method,IWSDInboundAttachment interface, ncd.iwsdinboundattachment_read_method, wsdattachment/IWSDInboundAttachment::Read
 ms.topic: method
+f1_keywords: ["wsdattachment/IWSDInboundAttachment.Read"]
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

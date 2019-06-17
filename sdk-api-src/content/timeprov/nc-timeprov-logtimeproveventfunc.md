@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Error, Information, LogTimeProvEventFunc, LogTimeProvEventFunc callback, LogTimeProvEventFunc callback function, Warning, _win32_logtimeprovevent, base.logtimeprovevent, timeprov/LogTimeProvEventFunc
 ms.topic: callback
+f1_keywords: ["timeprov/LogTimeProvEventFunc"]
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows

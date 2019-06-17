@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceLuidToGuid, ConvertInterfaceLuidToGuid function [IP Helper], iphlp.convertinterfaceluidtoguid, netioapi/ConvertInterfaceLuidToGuid
 ms.topic: function
+f1_keywords: ["netioapi/ConvertInterfaceLuidToGuid"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

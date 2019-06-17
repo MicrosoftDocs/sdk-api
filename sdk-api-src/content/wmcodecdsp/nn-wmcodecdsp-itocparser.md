@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITocParser, ITocParser interface [Media Foundation], ITocParser interface [Media Foundation],described, codecapi.itocparser, mf.itocparser, wmcodecdsp/ITocParser
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/ITocParser"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

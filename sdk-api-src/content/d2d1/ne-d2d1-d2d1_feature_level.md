@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_FEATURE_LEVEL, D2D1_FEATURE_LEVEL enumeration [Direct2D], D2D1_FEATURE_LEVEL_10, D2D1_FEATURE_LEVEL_9, D2D1_FEATURE_LEVEL_DEFAULT, d2d1/D2D1_FEATURE_LEVEL, d2d1/D2D1_FEATURE_LEVEL_10, d2d1/D2D1_FEATURE_LEVEL_9, d2d1/D2D1_FEATURE_LEVEL_DEFAULT, direct2d.D2D1_FEATURE_LEVEL
 ms.topic: enum
+f1_keywords: ["d2d1/D2D1_FEATURE_LEVEL"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

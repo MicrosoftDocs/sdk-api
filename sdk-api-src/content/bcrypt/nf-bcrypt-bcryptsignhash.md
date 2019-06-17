@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, BCryptSignHash, BCryptSignHash function [Security], bcrypt/BCryptSignHash, security.bcryptsignhash_func
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptSignHash"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

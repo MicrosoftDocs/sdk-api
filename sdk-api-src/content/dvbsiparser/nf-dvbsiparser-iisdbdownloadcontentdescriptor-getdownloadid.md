@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDownloadId, GetDownloadId method [Microsoft TV Technologies], GetDownloadId method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetDownloadId method, IIsdbDownloadContentDescriptor.GetDownloadId, IIsdbDownloadContentDescriptor::GetDownloadId, dvbsiparser/IIsdbDownloadContentDescriptor::GetDownloadId, mstv.iisdbdownloadcontentdescriptor_getdownloadid
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbDownloadContentDescriptor.GetDownloadId"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

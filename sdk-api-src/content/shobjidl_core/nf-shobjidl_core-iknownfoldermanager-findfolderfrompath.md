@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FFFP_EXACTMATCH, FFFP_NEARESTPARENTMATCH, FindFolderFromPath, FindFolderFromPath method [Windows Shell], FindFolderFromPath method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],FindFolderFromPath method, IKnownFolderManager.FindFolderFromPath, IKnownFolderManager::FindFolderFromPath, _shell_IKnownFolderManager_FindFolderFromPath, shell.IKnownFolderManager_FindFolderFromPath, shobjidl_core/IKnownFolderManager::FindFolderFromPath
 ms.topic: method
+f1_keywords: ["shobjidl_core/IKnownFolderManager.FindFolderFromPath"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

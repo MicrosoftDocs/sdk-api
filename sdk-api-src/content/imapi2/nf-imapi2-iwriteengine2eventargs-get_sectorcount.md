@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_SectorCount method, IWriteEngine2EventArgs.get_SectorCount, IWriteEngine2EventArgs::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_sectorcount, imapi2/IWriteEngine2EventArgs::get_SectorCount
 ms.topic: method
+f1_keywords: ["imapi2/IWriteEngine2EventArgs.get_SectorCount"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

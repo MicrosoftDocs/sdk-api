@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
 ms.topic: function
+f1_keywords: ["featurestagingapi/RecordFeatureError"]
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

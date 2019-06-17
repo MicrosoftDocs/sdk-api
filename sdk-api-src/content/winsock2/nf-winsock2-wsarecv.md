@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSARecv, WSARecv function [Winsock], _win32_wsarecv_2, winsock.wsarecv_2, winsock2/WSARecv
 ms.topic: function
+f1_keywords: ["winsock2/WSARecv"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

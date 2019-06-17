@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATDATA, IEnumSTATDATA interface [COM], IEnumSTATDATA interface [COM],described, _ole_ienumstatdata, com.ienumstatdata, objidl/IEnumSTATDATA
 ms.topic: interface
+f1_keywords: ["objidl/IEnumSTATDATA"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

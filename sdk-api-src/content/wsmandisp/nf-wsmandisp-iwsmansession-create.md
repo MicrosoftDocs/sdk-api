@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Remote Management], Create method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Create method, IWSManSession.Create, IWSManSession::Create, winrm.iwsmansession_create, wsmandisp/IWSManSession::Create
 ms.topic: method
+f1_keywords: ["wsmandisp/IWSManSession.Create"]
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows

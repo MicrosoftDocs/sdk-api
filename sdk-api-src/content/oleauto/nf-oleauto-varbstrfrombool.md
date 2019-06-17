@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBstrFromBool, VarBstrFromBool function [Automation], _oa96_VarBstrFromBool, automat.varbstrfrombool, oleauto/VarBstrFromBool
 ms.topic: function
+f1_keywords: ["oleauto/VarBstrFromBool"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

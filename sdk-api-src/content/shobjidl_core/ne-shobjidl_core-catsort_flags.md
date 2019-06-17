@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CATSORT_DEFAULT, CATSORT_FLAGS, CATSORT_FLAGS enumeration [Windows Shell], CATSORT_NAME, inet_CATSORT_FLAGS, shell.CATSORT_FLAGS, shobjidl_core/CATSORT_DEFAULT, shobjidl_core/CATSORT_FLAGS, shobjidl_core/CATSORT_NAME
 ms.topic: enum
+f1_keywords: ["shobjidl_core/CATSORT_FLAGS"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BatteryClassUnload, BatteryClassUnload function [Battery Devices], bat-rtn_d99ad46b-2f22-4e88-9f26-f86fb6b09bee.xml, batclass/BatteryClassUnload, battery.batteryclassunload
 ms.topic: function
+f1_keywords: ["batclass/BatteryClassUnload"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

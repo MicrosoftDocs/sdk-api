@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],EncryptParam method, CSecureChannelClient.EncryptParam, CSecureChannelClient::EncryptParam, CSecureChannelClientEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::EncryptParam, wmdm.csecurechannelclient_encryptparam
 ms.topic: method
+f1_keywords: ["scclient/CSecureChannelClient.EncryptParam"]
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows

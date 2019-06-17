@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getPlaylistByQuery method, IWMPMediaCollection2.getPlaylistByQuery, IWMPMediaCollection2::getPlaylistByQuery, IWMPMediaCollection2getPlaylistByQuery, getPlaylistByQuery, getPlaylistByQuery method [Windows Media Player], getPlaylistByQuery method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getplaylistbyquery, wmp/IWMPMediaCollection2::getPlaylistByQuery
 ms.topic: method
+f1_keywords: ["wmp/IWMPMediaCollection2.getPlaylistByQuery"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

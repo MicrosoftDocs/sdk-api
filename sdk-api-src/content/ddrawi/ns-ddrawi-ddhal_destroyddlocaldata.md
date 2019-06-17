@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA, DDHAL_DESTROYDDLOCALDATA structure [Display Devices], d3dstrct_1c587282-0c7f-4a8a-90ce-199cca0e86b9.xml, ddrawi/DDHAL_DESTROYDDLOCALDATA, display.ddhal_destroyddlocaldata"
 ms.topic: struct
+f1_keywords: ["ddrawi/DDHAL_DESTROYDDLOCALDATA"]
 req.header: ddrawi.h
 req.include-header: D3dhal.h
 req.target-type: Windows

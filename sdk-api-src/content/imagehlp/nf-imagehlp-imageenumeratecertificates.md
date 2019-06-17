@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageEnumerateCertificates, ImageEnumerateCertificates function, _win32_imageenumeratecertificates, base.imageenumeratecertificates, imagehlp/ImageEnumerateCertificates
 ms.topic: function
+f1_keywords: ["imagehlp/ImageEnumerateCertificates"]
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

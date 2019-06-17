@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
 ms.topic: interface
+f1_keywords: ["vds/IVdsVolumePlex"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

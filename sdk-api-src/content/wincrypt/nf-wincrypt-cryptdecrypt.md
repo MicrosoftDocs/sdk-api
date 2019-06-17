@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DECRYPT_RSA_NO_PADDING_CHECK, CRYPT_OAEP, CryptDecrypt, CryptDecrypt function [Security], _crypto2_cryptdecrypt, security.cryptdecrypt, wincrypt/CryptDecrypt
 ms.topic: function
+f1_keywords: ["wincrypt/CryptDecrypt"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

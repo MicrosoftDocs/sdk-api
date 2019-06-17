@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE, MF_VIDEO_PROCESSOR_ALGORITHM_TYPE enumeration [Media Foundation], mf.mf_video_processor_algorithm_type, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_DEFAULT, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_MRF_CRF_444, mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 ms.topic: enum
+f1_keywords: ["mfidl/MF_VIDEO_PROCESSOR_ALGORITHM_TYPE"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

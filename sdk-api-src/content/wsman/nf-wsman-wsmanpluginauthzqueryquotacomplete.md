@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManPluginAuthzQueryQuotaComplete, WSManPluginAuthzQueryQuotaComplete function [Windows Remote Management], winrm.wsmanpluginauthzqueryquotacomplete, wsman/WSManPluginAuthzQueryQuotaComplete
 ms.topic: function
+f1_keywords: ["wsman/WSManPluginAuthzQueryQuotaComplete"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

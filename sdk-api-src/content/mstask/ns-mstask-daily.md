@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAILY, DAILY structure [Task Scheduler], _msb_daily, mstask/DAILY, taskschd.daily, triggers [Task Scheduler],structures,DAILY
 ms.topic: struct
+f1_keywords: ["mstask/DAILY"]
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows

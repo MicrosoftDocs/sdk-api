@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2, ID3D11VideoContext2 interface [Media Foundation], ID3D11VideoContext2 interface [Media Foundation],described, d3d11_4/ID3D11VideoContext2, mf.id3d11videocontext2, mf.id3dvideocontext2
 ms.topic: interface
+f1_keywords: ["d3d11_4/ID3D11VideoContext2"]
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

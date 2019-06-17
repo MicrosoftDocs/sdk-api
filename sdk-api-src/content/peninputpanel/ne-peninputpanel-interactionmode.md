@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8e01c1fd-3351-47f1-beae-c84d9f7969a8, InteractionMode, InteractionMode enumeration [Tablet PC], InteractionMode_DockedBottom, InteractionMode_DockedTop, InteractionMode_Floating, InteractionMode_InPlace, peninputpanel/InteractionMode, peninputpanel/InteractionMode_DockedBottom, peninputpanel/InteractionMode_DockedTop, peninputpanel/InteractionMode_Floating, peninputpanel/InteractionMode_InPlace, tablet.interactionmode
 ms.topic: enum
+f1_keywords: ["peninputpanel/InteractionMode"]
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows

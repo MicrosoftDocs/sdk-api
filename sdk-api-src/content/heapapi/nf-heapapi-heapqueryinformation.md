@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInformation function, _win32_heapqueryinformation, base.heapqueryinformation, heapapi/HeapQueryInformation, winbase/HeapQueryInformation
 ms.topic: function
+f1_keywords: ["heapapi/HeapQueryInformation"]
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

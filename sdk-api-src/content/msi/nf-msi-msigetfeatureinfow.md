@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLFEATUREATTRIBUTE_DISALLOWADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORADVERTISE, INSTALLFEATUREATTRIBUTE_FAVORLOCAL, INSTALLFEATUREATTRIBUTE_FAVORSOURCE, INSTALLFEATUREATTRIBUTE_FOLLOWPARENT, INSTALLFEATUREATTRIBUTE_NOUNSUPPORTEDADVERTISE, MsiGetFeatureInfo, MsiGetFeatureInfo function, MsiGetFeatureInfoA, MsiGetFeatureInfoW, _msi_msigetfeatureinfo, msi/MsiGetFeatureInfo, msi/MsiGetFeatureInfoA, msi/MsiGetFeatureInfoW, setup.msigetfeatureinfo
 ms.topic: function
+f1_keywords: ["msi/MsiGetFeatureInfo"]
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

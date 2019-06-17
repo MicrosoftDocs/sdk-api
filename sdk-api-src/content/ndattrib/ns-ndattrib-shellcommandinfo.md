@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PShellCommandInfo, ShellCommandInfo, ShellCommandInfo structure [NDF], ShellCommandInfo,*PShellCommandInfo, ShellCommandInfo,*PShellCommandInfo structure [NDF], ndattrib/ShellCommandInfo, ndf.shellcommandinfo"
 ms.topic: struct
+f1_keywords: ["ndattrib/ShellCommandInfo, *PShellCommandInfo"]
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

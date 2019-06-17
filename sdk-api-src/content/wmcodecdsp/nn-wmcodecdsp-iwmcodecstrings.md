@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMCodecStrings, IWMCodecStrings interface [Media Foundation], IWMCodecStrings interface [Media Foundation],described, codecapi.iwmcodecstringsinterface, mf.iwmcodecstringsinterface, wmcodecdsp/IWMCodecStrings
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/IWMCodecStrings"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

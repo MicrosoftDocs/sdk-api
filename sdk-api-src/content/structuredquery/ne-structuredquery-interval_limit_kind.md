@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILK_EXPLICIT_EXCLUDED, ILK_EXPLICIT_INCLUDED, ILK_NEGATIVE_INFINITY, ILK_POSITIVE_INFINITY, INTERVAL_LIMIT_KIND, INTERVAL_LIMIT_KIND enumeration [search], _search_INTERVAL_LIMIT_KIND, search._search_INTERVAL_LIMIT_KIND, structuredquery/ILK_EXPLICIT_EXCLUDED, structuredquery/ILK_EXPLICIT_INCLUDED, structuredquery/ILK_NEGATIVE_INFINITY, structuredquery/ILK_POSITIVE_INFINITY, structuredquery/INTERVAL_LIMIT_KIND
 ms.topic: enum
+f1_keywords: ["structuredquery/INTERVAL_LIMIT_KIND"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

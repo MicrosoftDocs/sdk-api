@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3DCompressShaders, D3DCompressShaders function [HLSL], d3dcompiler/D3DCompressShaders, direct3dhlsl.d3dcompressshaders
 ms.topic: function
+f1_keywords: ["d3dcompiler/D3DCompressShaders"]
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

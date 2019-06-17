@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptReleaseContext, CryptReleaseContext function [Security], _crypto2_cryptreleasecontext, security.cryptreleasecontext, wincrypt/CryptReleaseContext
 ms.topic: function
+f1_keywords: ["wincrypt/CryptReleaseContext"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

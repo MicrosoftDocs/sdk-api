@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
 ms.topic: enum
+f1_keywords: ["xamlom/ResourceType"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

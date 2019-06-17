@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetGPUDescriptorHandleForHeapStart, GetGPUDescriptorHandleForHeapStart method, GetGPUDescriptorHandleForHeapStart method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetGPUDescriptorHandleForHeapStart method, ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart, ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart, d3d12/ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart, direct3d12.id3d12descriptorheap_getgpudescriptorhandleforheapstart
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

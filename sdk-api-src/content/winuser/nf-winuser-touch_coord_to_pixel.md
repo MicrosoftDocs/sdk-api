@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TOUCH_COORD_TO_PIXEL, TOUCH_COORD_TO_PIXEL macro [Windows Touch], wintouch.touch_coord_to_pixel, winuser/TOUCH_COORD_TO_PIXEL
 ms.topic: macro
+f1_keywords: ["winuser/TOUCH_COORD_TO_PIXEL"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderIdentity, IWbemProviderIdentity interface [Windows Management Instrumentation], IWbemProviderIdentity interface [Windows Management Instrumentation],described, _hmm_iwbemprovideridentity, wbemprov/IWbemProviderIdentity, wmi.iwbemprovideridentity
 ms.topic: interface
+f1_keywords: ["wbemprov/IWbemProviderIdentity"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

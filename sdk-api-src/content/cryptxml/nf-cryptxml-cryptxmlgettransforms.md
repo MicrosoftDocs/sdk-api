@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
 ms.topic: function
+f1_keywords: ["cryptxml/CryptXmlGetTransforms"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

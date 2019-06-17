@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarParseNumFromStr, VarParseNumFromStr function [Automation], _oa96_VarParseNumFromStr, automat.varparsenumfromstr, oleauto/VarParseNumFromStr
 ms.topic: function
+f1_keywords: ["oleauto/VarParseNumFromStr"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 75eac96a-c0df-0efd-d403-6788e3cb6937, GetDesc1, GetDesc1 method [Direct3D 10], GetDesc1 method [Direct3D 10],ID3D10ShaderResourceView1 interface, ID3D10ShaderResourceView1 interface [Direct3D 10],GetDesc1 method, ID3D10ShaderResourceView1.GetDesc1, ID3D10ShaderResourceView1::GetDesc1, d3d10_1/ID3D10ShaderResourceView1::GetDesc1, direct3d10.id3d10shaderresourceview1_getdesc1
 ms.topic: method
+f1_keywords: ["d3d10_1/ID3D10ShaderResourceView1.GetDesc1"]
 req.header: d3d10_1.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows

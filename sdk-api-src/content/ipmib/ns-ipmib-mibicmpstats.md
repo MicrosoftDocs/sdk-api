@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIBICMPSTATS, MIBICMPSTATS, MIBICMPSTATS structure [MIB], _mpr_mibicmpstats, ipmib/MIBICMPSTATS, iprtrmib/MIBICMPSTATS, mib.mibicmpstats, rras.mibicmpstats"
 ms.topic: struct
+f1_keywords: ["ipmib/MIBICMPSTATS"]
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

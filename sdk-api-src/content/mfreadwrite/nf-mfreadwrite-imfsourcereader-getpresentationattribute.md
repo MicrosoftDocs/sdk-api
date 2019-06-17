@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetPresentationAttribute method, IMFSourceReader.GetPresentationAttribute, IMFSourceReader::GetPresentationAttribute, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getpresentationattribute, mfreadwrite/IMFSourceReader::GetPresentationAttribute
 ms.topic: method
+f1_keywords: ["mfreadwrite/IMFSourceReader.GetPresentationAttribute"]
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [SMI], smi.wcmtargetmode, wcmconfig/OfflineMode, wcmconfig/OnlineMode, wcmconfig/WcmTargetMode
 ms.topic: enum
+f1_keywords: ["wcmconfig/WcmTargetMode"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

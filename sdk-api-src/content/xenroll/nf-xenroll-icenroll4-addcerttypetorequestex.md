@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],addCertTypeToRequestEx method, ICEnroll4 interface [Security],addCertTypeToRequestEx method, ICEnroll4.addCertTypeToRequestEx, ICEnroll4::addCertTypeToRequestEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, _xen_icenroll4_addcerttypetorequestex, addCertTypeToRequestEx, addCertTypeToRequestEx method [Security], addCertTypeToRequestEx method [Security],CEnroll object, addCertTypeToRequestEx method [Security],ICEnroll4 interface, security.icenroll4_addcerttypetorequestex, xenroll/ICEnroll4::addCertTypeToRequestEx
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.addCertTypeToRequestEx"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

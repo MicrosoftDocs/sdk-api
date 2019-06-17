@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindCloseUrlCache, FindCloseUrlCache function [WinINet], _inet_findcloseurlcache_function, wininet.findcloseurlcache, wininet/FindCloseUrlCache
 ms.topic: function
+f1_keywords: ["wininet/FindCloseUrlCache"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

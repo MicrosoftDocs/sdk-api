@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MC_BLUE_DRIVE, MC_DRIVE_TYPE, MC_DRIVE_TYPE , MC_DRIVE_TYPE enumeration [Monitor Configuration], MC_GREEN_DRIVE, MC_RED_DRIVE, highlevelmonitorconfigurationapi/MC_BLUE_DRIVE, highlevelmonitorconfigurationapi/MC_DRIVE_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_DRIVE, highlevelmonitorconfigurationapi/MC_RED_DRIVE, monitor.mc_drive_type
 ms.topic: enum
+f1_keywords: ["highlevelmonitorconfigurationapi/MC_DRIVE_TYPE"]
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows

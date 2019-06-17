@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRestrictedSink, GetRestrictedSink method [Windows Management Instrumentation], GetRestrictedSink method [Windows Management Instrumentation],IWbemEventSink interface, IWbemEventSink interface [Windows Management Instrumentation],GetRestrictedSink method, IWbemEventSink.GetRestrictedSink, IWbemEventSink::GetRestrictedSink, _hmm_iwbemeventsink_getrestrictedsink, wbemprov/IWbemEventSink::GetRestrictedSink, wmi.iwbemeventsink_getrestrictedsink
 ms.topic: method
+f1_keywords: ["wbemprov/IWbemEventSink.GetRestrictedSink"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

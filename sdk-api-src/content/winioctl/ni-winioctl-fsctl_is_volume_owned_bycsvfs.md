@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_VOLUME_OWNED_BYCSVFS, FSCTL_IS_VOLUME_OWNED_BYCSVFS control, FSCTL_IS_VOLUME_OWNED_BYCSVFS control code [Files], fs.fsctl_is_volume_owned_bycsvfs, winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_IS_VOLUME_OWNED_BYCSVFS"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_Undo, Edit_Undo macro [Windows Controls], _win32_Edit_Undo, _win32_Edit_Undo_cpp, controls.Edit_Undo, controls._win32_Edit_Undo, windowsx/Edit_Undo
 ms.topic: macro
+f1_keywords: ["windowsx/Edit_Undo"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

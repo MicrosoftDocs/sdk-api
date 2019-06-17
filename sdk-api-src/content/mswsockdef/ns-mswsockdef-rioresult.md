@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult"
 ms.topic: struct
+f1_keywords: ["mswsockdef/RIORESULT"]
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
 req.target-type: Windows

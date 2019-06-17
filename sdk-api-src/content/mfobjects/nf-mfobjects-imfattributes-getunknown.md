@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUnknown, GetUnknown method [Media Foundation], GetUnknown method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUnknown method, IMFAttributes.GetUnknown, IMFAttributes::GetUnknown, a5f645a1-b7d2-47d3-b77e-ad94815b1c25, mf.imfattributes_getunknown, mfobjects/IMFAttributes::GetUnknown
 ms.topic: method
+f1_keywords: ["mfobjects/IMFAttributes.GetUnknown"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

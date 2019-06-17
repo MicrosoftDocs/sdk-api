@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSB_OB_STATUS_ENTRY, WSB_OB_STATUS_ENTRY structure [Windows Server Backup], wsb.wsb_ob_status_entry, wsbonline/WSB_OB_STATUS_ENTRY
 ms.topic: struct
+f1_keywords: ["wsbonline/WSB_OB_STATUS_ENTRY"]
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows

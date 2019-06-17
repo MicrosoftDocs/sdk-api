@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NLM_ENUM_NETWORK, NLM_ENUM_NETWORK enumeration [Network Awareness], NLM_ENUM_NETWORK_ALL, NLM_ENUM_NETWORK_CONNECTED, NLM_ENUM_NETWORK_DISCONNECTED, netlistmgr/NLM_ENUM_NETWORK, netlistmgr/NLM_ENUM_NETWORK_ALL, netlistmgr/NLM_ENUM_NETWORK_CONNECTED, netlistmgr/NLM_ENUM_NETWORK_DISCONNECTED, nla.nlm_enum_network
 ms.topic: enum
+f1_keywords: ["netlistmgr/NLM_ENUM_NETWORK"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

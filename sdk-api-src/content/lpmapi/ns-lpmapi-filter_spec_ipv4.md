@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Filter_Spec_IPv4, Filter_Spec_IPv4 structure [QOS], lpmapi/Filter_Spec_IPv4, qos.filter_spec_ipv4
 ms.topic: struct
+f1_keywords: ["lpmapi/Filter_Spec_IPv4"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

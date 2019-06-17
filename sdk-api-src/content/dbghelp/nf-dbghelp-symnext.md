@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 ms.topic: function
+f1_keywords: ["dbghelp/SymNext"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

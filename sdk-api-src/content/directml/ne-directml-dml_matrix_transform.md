@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: DML_MATRIX_TRANSFORM, DML_MATRIX_TRANSFORM enumeration, DML_MATRIX_TRANSFORM_NONE, DML_MATRIX_TRANSFORM_TRANSPOSE, direct3d12.dml_matrix_transform, directml/DML_MATRIX_TRANSFORM, directml/DML_MATRIX_TRANSFORM_NONE, directml/DML_MATRIX_TRANSFORM_TRANSPOSE
 ms.topic: enum
+f1_keywords: ["directml/DML_MATRIX_TRANSFORM"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

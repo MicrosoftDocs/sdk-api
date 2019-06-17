@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64, PropVariantToInt64 function [Windows Properties], properties.PropVariantToInt64, propvarutil/PropVariantToInt64, shell.PropVariantToInt64, shell_PropVariantToInt64
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToInt64"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

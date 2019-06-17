@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteObject, DeleteObject function [Windows GDI], DeleteObjectW, _win32_DeleteObject, gdi.deleteobject, wingdi/DeleteObject, wingdi/DeleteObjectW
 ms.topic: function
+f1_keywords: ["wingdi/DeleteObject"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

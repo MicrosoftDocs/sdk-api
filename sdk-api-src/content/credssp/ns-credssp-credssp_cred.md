@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred"
 ms.topic: struct
+f1_keywords: ["credssp/CREDSSP_CRED"]
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows

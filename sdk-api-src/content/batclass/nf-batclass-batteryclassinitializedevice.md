@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BatteryClassInitializeDevice, BatteryClassInitializeDevice routine [Battery Devices], bat-rtn_19921d6e-cd86-40ad-86e3-acfc01fd8a56.xml, batclass/BatteryClassInitializeDevice, battery.batteryclassinitializedevice
 ms.topic: function
+f1_keywords: ["batclass/BatteryClassInitializeDevice"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxActivity interface [Fax Service],RoutingMessages property, IFaxActivity.RoutingMessages, IFaxActivity.get_RoutingMessages, IFaxActivity::RoutingMessages, IFaxActivity::get_RoutingMessages, RoutingMessages property [Fax Service], RoutingMessages property [Fax Service],IFaxActivity interface, _mfax_faxactivity.routingmessages, fax._mfax_faxactivity_cpp_mfax_faxactivity_routingmessages_cpp, fax._mfax_faxactivity_routingmessages, faxcomex/IFaxActivity::RoutingMessages, faxcomex/IFaxActivity::get_RoutingMessages, get_RoutingMessages
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxActivity.RoutingMessages"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

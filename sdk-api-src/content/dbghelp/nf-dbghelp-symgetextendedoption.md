@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymGetExtendedOption, SymGetExtendedOption function, base.symgetextendedoption, dbghelp/SymGetExtendedOption
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetExtendedOption"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

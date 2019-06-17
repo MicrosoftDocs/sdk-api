@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D_MATRIX_4X4_F, D2D_MATRIX_4X4_F structure [Direct2D], dcommon/D2D_MATRIX_4X4_F, direct2d.d2d_matrix_4x4_f
 ms.topic: struct
+f1_keywords: ["dcommon/D2D_MATRIX_4X4_F"]
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows

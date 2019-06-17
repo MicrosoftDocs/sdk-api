@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_indexed_instanced_indirect_args
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

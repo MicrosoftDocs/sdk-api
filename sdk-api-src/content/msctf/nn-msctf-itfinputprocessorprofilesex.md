@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfInputProcessorProfilesEx, ITfInputProcessorProfilesEx interface [Text Services Framework], ITfInputProcessorProfilesEx interface [Text Services Framework],described, msctf/ITfInputProcessorProfilesEx, tsf.itfinputprocessorprofilesex
 ms.topic: interface
+f1_keywords: ["msctf/ITfInputProcessorProfilesEx"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW
 ms.topic: function
+f1_keywords: ["ntdsapi/DsBind"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

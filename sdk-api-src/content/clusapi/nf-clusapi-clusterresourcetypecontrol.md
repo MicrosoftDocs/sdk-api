@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceTypeControl, ClusterResourceTypeControl function [Failover Cluster], _wolf_clusterresourcetypecontrol, clusapi/ClusterResourceTypeControl, mscs.clusterresourcetypecontrol
 ms.topic: function
+f1_keywords: ["clusapi/ClusterResourceTypeControl"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

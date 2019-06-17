@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Next method, IEnumConnectionPoints.Next, IEnumConnectionPoints::Next, Next, Next method [COM], Next method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_next, com.ienumconnectionpoints_next, ocidl/IEnumConnectionPoints::Next
 ms.topic: method
+f1_keywords: ["ocidl/IEnumConnectionPoints.Next"]
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Serialize method, ITfPropertyStore.Serialize, ITfPropertyStore::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_serialize_ref, msctf/ITfPropertyStore::Serialize, tsf.itfpropertystore_serialize
 ms.topic: method
+f1_keywords: ["msctf/ITfPropertyStore.Serialize"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

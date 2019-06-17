@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfRangeACP, ITfRangeACP interface [Text Services Framework], ITfRangeACP interface [Text Services Framework],described, _tsf_itfrangeacp_ref, msctf/ITfRangeACP, tsf.itfrangeacp
 ms.topic: interface
+f1_keywords: ["msctf/ITfRangeACP"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

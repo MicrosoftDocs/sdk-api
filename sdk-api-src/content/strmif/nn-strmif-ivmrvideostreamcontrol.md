@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl, IVMRVideoStreamControl interface [DirectShow], IVMRVideoStreamControl interface [DirectShow],described, IVMRVideoStreamControlInterface, dshow.ivmrvideostreamcontrol, strmif/IVMRVideoStreamControl
 ms.topic: interface
+f1_keywords: ["strmif/IVMRVideoStreamControl"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

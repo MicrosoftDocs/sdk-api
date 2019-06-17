@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RAW_SCSI_VIRTUAL_DISK_VERSION, RAW_SCSI_VIRTUAL_DISK_VERSION enumeration [VHD], RAW_SCSI_VIRTUAL_DISK_VERSION_1, RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, vdssys/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/RAW_SCSI_VIRTUAL_DISK_VERSION, vhd.raw_scsi_virtual_disk_version, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_1, virtdisk/ RAW_SCSI_VIRTUAL_DISK_VERSION_UNSPECIFIED, virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION
 ms.topic: enum
+f1_keywords: ["virtdisk/RAW_SCSI_VIRTUAL_DISK_VERSION"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

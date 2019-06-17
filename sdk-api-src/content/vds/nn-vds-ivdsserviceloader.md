@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceLoader, IVdsServiceLoader interface [VDS], IVdsServiceLoader interface [VDS],described, base.ivdsserviceloader, vds/IVdsServiceLoader
 ms.topic: interface
+f1_keywords: ["vds/IVdsServiceLoader"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

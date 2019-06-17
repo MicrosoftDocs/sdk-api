@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],FindStorage method, IWMDMDevice3.FindStorage, IWMDMDevice3::FindStorage, IWMDMDevice3FindStorage, mswmdm/IWMDMDevice3::FindStorage, wmdm.iwmdmdevice3_findstorage
 ms.topic: method
+f1_keywords: ["mswmdm/IWMDMDevice3.FindStorage"]
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapCompact, HeapCompact function, _win32_heapcompact, base.heapcompact, heapapi/HeapCompact, winbase/HeapCompact
 ms.topic: function
+f1_keywords: ["heapapi/HeapCompact"]
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows

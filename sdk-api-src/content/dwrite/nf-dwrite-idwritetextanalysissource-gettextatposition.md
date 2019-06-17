@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTextAtPosition, GetTextAtPosition method [Direct Write], GetTextAtPosition method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetTextAtPosition method, IDWriteTextAnalysisSource.GetTextAtPosition, IDWriteTextAnalysisSource::GetTextAtPosition, directwrite.idwritetextanalysissource_gettextatposition, dwrite/IDWriteTextAnalysisSource::GetTextAtPosition
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteTextAnalysisSource.GetTextAtPosition"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

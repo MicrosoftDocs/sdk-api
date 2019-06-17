@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphOpenDirectConnection, PeerGraphOpenDirectConnection function [Peer Networking], p2p.peergraphopendirectconnection, p2p/PeerGraphOpenDirectConnection
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphOpenDirectConnection"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

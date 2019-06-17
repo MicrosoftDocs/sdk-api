@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
 ms.topic: function
+f1_keywords: ["coml2api/StgCreatePropSetStg"]
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows

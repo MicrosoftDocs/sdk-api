@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFMediaEngineProtectedContent"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

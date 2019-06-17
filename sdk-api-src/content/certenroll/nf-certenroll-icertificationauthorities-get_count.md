@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Count property, ICertificationAuthorities.Count, ICertificationAuthorities.get_Count, ICertificationAuthorities::Count, ICertificationAuthorities::get_Count, certenroll/ICertificationAuthorities::Count, certenroll/ICertificationAuthorities::get_Count, get_Count, security.icertificationauthorities_count
 ms.topic: method
+f1_keywords: ["certenroll/ICertificationAuthorities.Count"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

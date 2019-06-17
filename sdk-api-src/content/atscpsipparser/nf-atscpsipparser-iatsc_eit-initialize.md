@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSC_EIT interface [Microsoft TV Technologies],Initialize method, IATSC_EIT.Initialize, IATSC_EIT::Initialize, IATSC_EITInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IATSC_EIT interface, atscpsipparser/IATSC_EIT::Initialize, mstv.iatsc_eit_initialize
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_EIT.Initialize"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

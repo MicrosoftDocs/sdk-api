@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_OPERATION_FREE_STATE_CALLBACK, WS_OPERATION_FREE_STATE_CALLBACK callback, WS_OPERATION_FREE_STATE_CALLBACK callback function [Web Services for Windows], webservices/WS_OPERATION_FREE_STATE_CALLBACK, wsw.ws_operation_free_state_callback
 ms.topic: callback
+f1_keywords: ["webservices/WS_OPERATION_FREE_STATE_CALLBACK"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

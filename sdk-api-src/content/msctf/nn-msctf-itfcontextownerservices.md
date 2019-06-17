@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], ITfContextOwnerServices interface [Text Services Framework],described, _tsf_itfcontextownerservices_ref, msctf/ITfContextOwnerServices, tsf.itfcontextownerservices
 ms.topic: interface
+f1_keywords: ["msctf/ITfContextOwnerServices"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

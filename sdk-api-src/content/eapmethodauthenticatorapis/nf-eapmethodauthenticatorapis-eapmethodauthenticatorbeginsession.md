@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorBeginSession, EapMethodAuthenticatorBeginSession function [EAPHost], eaphost.eapmethodauthenticatorbeginsession, eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession
 ms.topic: function
+f1_keywords: ["eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession"]
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

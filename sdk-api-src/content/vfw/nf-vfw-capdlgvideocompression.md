@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_capDlgVideoCompression, capDlgVideoCompression, capDlgVideoCompression macro [Windows Multimedia], multimedia.capdlgvideocompression, vfw/capDlgVideoCompression"
 ms.topic: macro
+f1_keywords: ["vfw/capDlgVideoCompression"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

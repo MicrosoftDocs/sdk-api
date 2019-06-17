@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetDialogBoxMode method, IDirect3DDevice9.SetDialogBoxMode, IDirect3DDevice9::SetDialogBoxMode, SetDialogBoxMode, SetDialogBoxMode method [Direct3D 9], SetDialogBoxMode method [Direct3D 9],IDirect3DDevice9 interface, a69d309f-e5c7-493a-e434-7700251e99ec, d3d9helper/IDirect3DDevice9::SetDialogBoxMode, direct3d9.idirect3ddevice9__setdialogboxmode
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DDevice9.SetDialogBoxMode"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

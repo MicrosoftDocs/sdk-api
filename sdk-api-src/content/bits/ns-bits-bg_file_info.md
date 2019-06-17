@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
 ms.topic: struct
+f1_keywords: ["bits/BG_FILE_INFO"]
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

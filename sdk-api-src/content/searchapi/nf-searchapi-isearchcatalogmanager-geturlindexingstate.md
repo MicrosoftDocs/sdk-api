@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetURLIndexingState, GetURLIndexingState method [search], GetURLIndexingState method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetURLIndexingState method, ISearchCatalogManager.GetURLIndexingState, ISearchCatalogManager::GetURLIndexingState, _search_ISearchCatalogManager_GetURLIndexingState, search._search_ISearchCatalogManager_GetURLIndexingState, searchapi/ISearchCatalogManager::GetURLIndexingState
 ms.topic: method
+f1_keywords: ["searchapi/ISearchCatalogManager.GetURLIndexingState"]
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

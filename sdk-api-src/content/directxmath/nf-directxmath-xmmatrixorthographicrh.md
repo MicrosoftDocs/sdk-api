@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixOrthographicRH, XMMatrixOrthographicRH, XMMatrixOrthographicRH method [DirectX Math Support APIs], dxmath.xmmatrixorthographicrh
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixOrthographicRH"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

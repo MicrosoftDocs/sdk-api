@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HashTable_CoTaskMemFreeCB, ILFree, ILFree function [Windows Shell], _win32_ILFree, shell.ILFree, shlobj_core/HashTable_CoTaskMemFreeCB, shlobj_core/ILFree
 ms.topic: function
+f1_keywords: ["shlobj_core/ILFree"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

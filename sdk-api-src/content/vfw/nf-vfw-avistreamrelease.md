@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamRelease, AVIStreamRelease function [Windows Multimedia], _win32_AVIStreamRelease, multimedia.avistreamrelease, vfw/AVIStreamRelease
 ms.topic: function
+f1_keywords: ["vfw/AVIStreamRelease"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF],described, ics.inetfwservices, netfw/INetFwServices
 ms.topic: interface
+f1_keywords: ["netfw/INetFwServices"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WLAN_NOTIFICATION_SOURCE_ACM, WLAN_NOTIFICATION_SOURCE_ALL, WLAN_NOTIFICATION_SOURCE_HNWK, WLAN_NOTIFICATION_SOURCE_IHV, WLAN_NOTIFICATION_SOURCE_MSM, WLAN_NOTIFICATION_SOURCE_NONE, WLAN_NOTIFICATION_SOURCE_ONEX, WLAN_NOTIFICATION_SOURCE_SECURITY, WlanRegisterNotification, WlanRegisterNotification function [NativeWIFI], nwifi.wlanregisternotification, wlanapi/WlanRegisterNotification
 ms.topic: function
+f1_keywords: ["wlanapi/WlanRegisterNotification"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

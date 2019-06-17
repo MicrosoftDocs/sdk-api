@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordEtmLocation, GetRecordEtmLocation method [Microsoft TV Technologies], GetRecordEtmLocation method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordEtmLocation method, IATSC_EIT.GetRecordEtmLocation, IATSC_EIT::GetRecordEtmLocation, IATSC_EITGetRecordEtmLocation, atscpsipparser/IATSC_EIT::GetRecordEtmLocation, mstv.iatsc_eit_getrecordetmlocation
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_EIT.GetRecordEtmLocation"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

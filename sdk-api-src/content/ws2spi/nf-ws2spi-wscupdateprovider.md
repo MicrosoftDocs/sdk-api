@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSCUpdateProvider, WSCUpdateProvider function [Winsock], _win32_wscupdateprovider_2, winsock.wscupdateprovider_2, ws2spi/WSCUpdateProvider
 ms.topic: function
+f1_keywords: ["ws2spi/WSCUpdateProvider"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsnCreate, LsnCreate function [Files], clfsw32/LsnCreate, fs.lsncreate
 ms.topic: function
+f1_keywords: ["clfsw32/LsnCreate"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

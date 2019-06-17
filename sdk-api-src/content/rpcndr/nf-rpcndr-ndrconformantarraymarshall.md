@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrComformantArrayMarshall, NdrConformantArrayMarshall, NdrConformantArrayMarshall function [Windows API], rpcndr/NdrConformantArrayMarshall, winprog.ndrcomformantarraymarshall
 ms.topic: function
+f1_keywords: ["rpcndr/NdrConformantArrayMarshall"]
 req.header: rpcndr.h
 req.include-header: 
 req.target-type: Windows

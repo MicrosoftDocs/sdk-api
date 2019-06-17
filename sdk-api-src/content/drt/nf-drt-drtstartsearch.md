@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrtStartSearch, DrtStartSearch function [Peer Networking], drt/DrtStartSearch, p2p.drtstartsearch
 ms.topic: function
+f1_keywords: ["drt/DrtStartSearch"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

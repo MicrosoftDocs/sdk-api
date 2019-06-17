@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhcp.dhcpdeletesuperscopev4, dhcpsapi/DhcpDeleteSuperScopeV4
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpDeleteSuperScopeV4"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

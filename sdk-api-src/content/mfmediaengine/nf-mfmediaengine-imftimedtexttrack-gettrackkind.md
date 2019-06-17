@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTrackKind, GetTrackKind method [Media Foundation], GetTrackKind method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetTrackKind method, IMFTimedTextTrack.GetTrackKind, IMFTimedTextTrack::GetTrackKind, mf.imftimedtexttrack_gettrackkind, mfmediaengine/IMFTimedTextTrack::GetTrackKind
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFTimedTextTrack.GetTrackKind"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

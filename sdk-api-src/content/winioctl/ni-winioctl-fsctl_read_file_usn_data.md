@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_READ_FILE_USN_DATA, FSCTL_READ_FILE_USN_DATA control, FSCTL_READ_FILE_USN_DATA control code [Files], base.fsctl_read_file_usn_data, fs.fsctl_read_file_usn_data, winioctl/FSCTL_READ_FILE_USN_DATA
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_READ_FILE_USN_DATA"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSManReconnectShell, WSManReconnectShell function [Windows Remote Management], winrm.wsmanreconnectshell, wsman/WSManReconnectShell
 ms.topic: function
+f1_keywords: ["wsman/WSManReconnectShell"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcserverregisterif3, rpcdce/RpcServerRegisterIf3
 ms.topic: function
+f1_keywords: ["rpcdce/RpcServerRegisterIf3"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

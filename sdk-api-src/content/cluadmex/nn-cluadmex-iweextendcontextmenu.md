@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Cluster], IWEExtendContextMenu interface [Failover Cluster],described, _wolf_iweextendcontextmenu, cluadmex/IWEExtendContextMenu, mscs.iweextendcontextmenu
 ms.topic: interface
+f1_keywords: ["cluadmex/IWEExtendContextMenu"]
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows

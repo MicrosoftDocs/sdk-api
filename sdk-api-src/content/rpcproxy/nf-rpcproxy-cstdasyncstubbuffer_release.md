@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_Release, CStdAsyncStubBuffer_Release function [RPC], rpc.cstdasyncstubbuffer_release, rpcproxy/CStdAsyncStubBuffer_Release
 ms.topic: function
+f1_keywords: ["rpcproxy/CStdAsyncStubBuffer_Release"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanReasonCodeToString, WlanReasonCodeToString function [NativeWIFI], nwifi.wlanreasoncodetostring, wlanapi/WlanReasonCodeToString
 ms.topic: function
+f1_keywords: ["wlanapi/WlanReasonCodeToString"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

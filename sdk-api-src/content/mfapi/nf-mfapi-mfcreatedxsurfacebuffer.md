@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateDXSurfaceBuffer, MFCreateDXSurfaceBuffer function [Media Foundation], d1ee158e-5d70-41a4-b746-2ecaea2db92c, mf.mfcreatedxsurfacebuffer, mfapi/MFCreateDXSurfaceBuffer
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateDXSurfaceBuffer"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

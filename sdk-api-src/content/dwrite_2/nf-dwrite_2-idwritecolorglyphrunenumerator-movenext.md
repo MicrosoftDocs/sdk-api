@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator interface [Direct Write],MoveNext method, IDWriteColorGlyphRunEnumerator.MoveNext, IDWriteColorGlyphRunEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteColorGlyphRunEnumerator interface, directwrite.idwritecolorglyphrunenumerator_movenext, dwrite_2/IDWriteColorGlyphRunEnumerator::MoveNext
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteColorGlyphRunEnumerator.MoveNext"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

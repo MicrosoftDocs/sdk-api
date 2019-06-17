@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vdssys/EXPAND_VIRTUAL_DISK_VERSION, vdssys/EXPAND_VIRTUAL_DISK_VERSION_1, vdssys/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
 ms.topic: enum
+f1_keywords: ["virtdisk/EXPAND_VIRTUAL_DISK_VERSION"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

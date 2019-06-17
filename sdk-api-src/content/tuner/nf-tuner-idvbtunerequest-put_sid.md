@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],put_SID method, IDVBTuneRequest.put_SID, IDVBTuneRequest::put_SID, IDVBTuneRequestput_SID, mstv.idvbtunerequest_put_sid, put_SID, put_SID method [Microsoft TV Technologies], put_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, tuner/IDVBTuneRequest::put_SID
 ms.topic: method
+f1_keywords: ["tuner/IDVBTuneRequest.put_SID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], _win32_SHHandleUpdateImage, shell.SHHandleUpdateImage, shlobj_core/SHHandleUpdateImage
 ms.topic: function
+f1_keywords: ["shlobj_core/SHHandleUpdateImage"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

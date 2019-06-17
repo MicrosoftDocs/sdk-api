@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumericRepresentation, GetNumericRepresentation method [Windows Imaging Component], GetNumericRepresentation method [Windows Imaging Component],IWICPixelFormatInfo2 interface, IWICPixelFormatInfo2 interface [Windows Imaging Component],GetNumericRepresentation method, IWICPixelFormatInfo2.GetNumericRepresentation, IWICPixelFormatInfo2::GetNumericRepresentation, _wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wic._wic_codec_iwicpixelformatinfo2_getnumericrepresentation, wincodec/IWICPixelFormatInfo2::GetNumericRepresentation
 ms.topic: method
+f1_keywords: ["wincodec/IWICPixelFormatInfo2.GetNumericRepresentation"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

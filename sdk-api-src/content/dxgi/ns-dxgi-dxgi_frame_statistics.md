@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 97415a25-57a3-0530-e47d-4459bac66c73, DXGI_FRAME_STATISTICS, DXGI_FRAME_STATISTICS structure [DXGI], direct3ddxgi.dxgi_frame_statistics, dxgi/DXGI_FRAME_STATISTICS
 ms.topic: struct
+f1_keywords: ["dxgi/DXGI_FRAME_STATISTICS"]
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows

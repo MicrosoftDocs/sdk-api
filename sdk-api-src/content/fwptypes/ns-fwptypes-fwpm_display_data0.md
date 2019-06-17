@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
 ms.topic: struct
+f1_keywords: ["fwptypes/FWPM_DISPLAY_DATA0"]
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

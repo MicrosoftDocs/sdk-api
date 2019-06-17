@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Windows Shell], GetMaxLength method [Windows Shell],IItemNameLimits interface, IItemNameLimits interface [Windows Shell],GetMaxLength method, IItemNameLimits.GetMaxLength, IItemNameLimits::GetMaxLength, _shell_IItemNameLimits_GetMaxLength, shell.IItemNameLimits_GetMaxLength, shobjidl_core/IItemNameLimits::GetMaxLength
 ms.topic: method
+f1_keywords: ["shobjidl_core/IItemNameLimits.GetMaxLength"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

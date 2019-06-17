@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
 ms.topic: function
+f1_keywords: ["rpcproxy/NdrStubForwardingFunction"]
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows

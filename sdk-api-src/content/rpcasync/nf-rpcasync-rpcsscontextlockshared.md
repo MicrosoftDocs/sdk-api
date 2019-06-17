@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcSsContextLockShared, RpcSsContextLockShared function [RPC], _rpc_rpcsscontextlockshared, rpc.rpcsscontextlockshared, rpcasync/RpcSsContextLockShared
 ms.topic: function
+f1_keywords: ["rpcasync/RpcSsContextLockShared"]
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetPixelFormat method, IWICBitmapLock.GetPixelFormat, IWICBitmapLock::GetPixelFormat, _wic_codec_iwicbitmaplock_getpixelformat, wic._wic_codec_iwicbitmaplock_getpixelformat, wincodec/IWICBitmapLock::GetPixelFormat
 ms.topic: method
+f1_keywords: ["wincodec/IWICBitmapLock.GetPixelFormat"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

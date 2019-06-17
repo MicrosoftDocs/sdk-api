@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetIconPath method, IAudioSessionControl.SetIconPath, IAudioSessionControl::SetIconPath, IAudioSessionControlSetIconPath, SetIconPath, SetIconPath method [Core Audio], SetIconPath method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetIconPath, coreaudio.iaudiosessioncontrol_seticonpath
 ms.topic: method
+f1_keywords: ["audiopolicy/IAudioSessionControl.SetIconPath"]
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows

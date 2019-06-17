@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetIpAddressForUser, MprAdminGetIpAddressForUser callback, MprAdminGetIpAddressForUser callback function [RAS], _mpr_mpradmingetipaddressforuser, mprapi/MprAdminGetIpAddressForUser, rras.mpradmingetipaddressforuser
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminGetIpAddressForUser"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

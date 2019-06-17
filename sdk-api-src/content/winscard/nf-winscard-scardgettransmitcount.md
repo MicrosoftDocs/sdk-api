@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardGetTransmitCount, SCardGetTransmitCount function [Security], security.scardgettransmitcount, winscard/SCardGetTransmitCount
 ms.topic: function
+f1_keywords: ["winscard/SCardGetTransmitCount"]
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

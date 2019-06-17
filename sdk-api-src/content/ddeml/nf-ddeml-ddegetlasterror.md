@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DdeGetLastError, DdeGetLastError function [Data Exchange], _win32_DdeGetLastError, _win32_ddegetlasterror_cpp, dataxchg.ddegetlasterror, ddeml/DdeGetLastError, winui._win32_ddegetlasterror
 ms.topic: function
+f1_keywords: ["ddeml/DdeGetLastError"]
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

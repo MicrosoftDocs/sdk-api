@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
 ms.topic: function
+f1_keywords: ["winuser/FlashWindowEx"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

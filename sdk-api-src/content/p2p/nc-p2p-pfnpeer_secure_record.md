@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFNPEER_SECURE_RECORD, PFNPEER_SECURE_RECORD callback, PFNPEER_SECURE_RECORD callback function [Peer Networking], p2p.pfnpeer_secure_record, p2p/PFNPEER_SECURE_RECORD
 ms.topic: callback
+f1_keywords: ["p2p/PFNPEER_SECURE_RECORD"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

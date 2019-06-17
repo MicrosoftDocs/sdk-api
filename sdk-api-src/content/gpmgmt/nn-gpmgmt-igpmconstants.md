@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMConstants, IGPMConstants, IGPMConstants interface [GPMC], IGPMConstants interface [GPMC],described, _win32_igpmconstants, gpmc.igpmconstants, gpmgmt/IGPMConstants
 ms.topic: interface
+f1_keywords: ["gpmgmt/IGPMConstants"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

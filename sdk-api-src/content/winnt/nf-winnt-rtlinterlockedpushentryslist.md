@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
 ms.topic: function
+f1_keywords: ["winnt/RtlInterlockedPushEntrySList"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

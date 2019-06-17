@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpSetSuperScopeV4"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

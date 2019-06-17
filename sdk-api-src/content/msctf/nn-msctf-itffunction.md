@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfFunction, ITfFunction interface [Text Services Framework], ITfFunction interface [Text Services Framework],described, _tsf_itffunction_ref, msctf/ITfFunction, tsf.itffunction
 ms.topic: interface
+f1_keywords: ["msctf/ITfFunction"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

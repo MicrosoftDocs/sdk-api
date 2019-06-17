@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TTEMBEDINFO, TTEMBEDINFO structure [Windows GDI], _win32_TTEMBEDINFO, gdi.ttembedinfo, t2embapi/TTEMBEDINFO
 ms.topic: struct
+f1_keywords: ["t2embapi/TTEMBEDINFO"]
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows

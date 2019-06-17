@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],RoutingInformation property, IFaxIncomingMessage.RoutingInformation, IFaxIncomingMessage.get_RoutingInformation, IFaxIncomingMessage::RoutingInformation, IFaxIncomingMessage::get_RoutingInformation, RoutingInformation property [Fax Service], RoutingInformation property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.routinginformation, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_routinginformation_cpp, fax._mfax_faxincomingmessage_routinginformation, faxcomex/IFaxIncomingMessage::RoutingInformation, faxcomex/IFaxIncomingMessage::get_RoutingInformation, get_RoutingInformation
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingMessage.RoutingInformation"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

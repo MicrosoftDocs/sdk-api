@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PBG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS, BG_AUTH_CREDENTIALS structure [BITS], _drz_bg_auth_credentials, bits.bg_auth_credentials, bits1_5/BG_AUTH_CREDENTIALS"
 ms.topic: struct
+f1_keywords: ["bits1_5/BG_AUTH_CREDENTIALS"]
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows

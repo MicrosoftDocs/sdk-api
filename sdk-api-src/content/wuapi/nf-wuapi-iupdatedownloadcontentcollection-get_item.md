@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContentCollection interface [Windows Update Agent],Item property, IUpdateDownloadContentCollection.Item, IUpdateDownloadContentCollection.get_Item, IUpdateDownloadContentCollection::Item, IUpdateDownloadContentCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateDownloadContentCollection interface, get_Item, wua.iupdatedownloadcontentcollection_item, wuapi/IUpdateDownloadContentCollection::Item, wuapi/IUpdateDownloadContentCollection::get_Item
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateDownloadContentCollection.Item"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

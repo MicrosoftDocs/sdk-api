@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PADS_CLASS_DEF, ADS_CLASS_DEF, ADS_CLASS_DEF structure [ADSI], PADS_CLASS_DEF, PADS_CLASS_DEF structure pointer [ADSI], _ds_ads_class_def, adsi.ads__class__def, adsi.ads_class_def, iads/ADS_CLASS_DEF, iads/PADS_CLASS_DEF"
 ms.topic: struct
+f1_keywords: ["iads/ADS_CLASS_DEF"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

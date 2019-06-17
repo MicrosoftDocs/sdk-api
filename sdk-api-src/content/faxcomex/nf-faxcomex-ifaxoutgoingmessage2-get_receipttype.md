@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2 interface [Fax Service],ReceiptType property, IFaxOutgoingMessage2.ReceiptType, IFaxOutgoingMessage2.get_ReceiptType, IFaxOutgoingMessage2::ReceiptType, IFaxOutgoingMessage2::get_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxOutgoingMessage2 interface, _mfax_faxoutgoingmessage.receipttype, fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_receipttype_cpp, fax._mfax_faxoutgoingmessage_receipttype, faxcomex/IFaxOutgoingMessage2::ReceiptType, faxcomex/IFaxOutgoingMessage2::get_ReceiptType, get_ReceiptType
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingMessage2.ReceiptType"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

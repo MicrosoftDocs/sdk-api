@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 198d836f-e656-5c8d-ac4c-cd5c594a32bd, D3DX11CreateFFT1DComplex, D3DX11CreateFFT1DComplex function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DComplex, direct3d11.d3dx11createfft1dcomplex
 ms.topic: function
+f1_keywords: ["d3dcsx/D3DX11CreateFFT1DComplex"]
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows

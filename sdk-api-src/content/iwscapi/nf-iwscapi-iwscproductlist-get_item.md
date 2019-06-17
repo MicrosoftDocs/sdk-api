@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Item method, IWSCProductList.get_Item, IWSCProductList::get_Item, get_Item, get_Item method [Windows API], get_Item method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Item, winprog.iwscproductlist_item
 ms.topic: method
+f1_keywords: ["iwscapi/IWSCProductList.get_Item"]
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows

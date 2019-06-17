@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorSetOutputHDRMetaData method, ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData, ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData, VideoProcessorSetOutputHDRMetaData method [Media Foundation], VideoProcessorSetOutputHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData, mf.id3d11videocontext2_videoprocessorsetoutputhdrmetadata
 ms.topic: method
+f1_keywords: ["d3d11_4/ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData"]
 req.header: d3d11_4.h
 req.include-header: 
 req.target-type: Windows

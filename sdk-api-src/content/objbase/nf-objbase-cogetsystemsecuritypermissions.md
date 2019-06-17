@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetSystemSecurityPermissions, CoGetSystemSecurityPermissions function [COM], com.cogetsystemsecuritypermissions, objbase/CoGetSystemSecurityPermissions
 ms.topic: function
+f1_keywords: ["objbase/CoGetSystemSecurityPermissions"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

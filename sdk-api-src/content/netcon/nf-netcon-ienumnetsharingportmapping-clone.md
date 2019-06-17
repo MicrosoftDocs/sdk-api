@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ICS/ICF], Clone method [ICS/ICF],IEnumNetSharingPortMapping interface, IEnumNetSharingPortMapping interface [ICS/ICF],Clone method, IEnumNetSharingPortMapping.Clone, IEnumNetSharingPortMapping::Clone, _ics_ienumnetsharingportmapping_clone, ics.ienumnetsharingportmapping_clone, netcon/IEnumNetSharingPortMapping::Clone
 ms.topic: method
+f1_keywords: ["netcon/IEnumNetSharingPortMapping.Clone"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

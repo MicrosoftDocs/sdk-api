@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FileScreenFlags property [File Server Resource Manager], FileScreenFlags property [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],FileScreenFlags property, IFsrmFileScreenBase.FileScreenFlags, IFsrmFileScreenBase.get_FileScreenFlags, IFsrmFileScreenBase::FileScreenFlags, IFsrmFileScreenBase::get_FileScreenFlags, IFsrmFileScreenBase::put_FileScreenFlags, fs.ifsrmfilescreenbase_filescreenflags, fsrm.ifsrmfilescreenbase_filescreenflags, fsrmscreen/IFsrmFileScreenBase::FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::get_FileScreenFlags, fsrmscreen/IFsrmFileScreenBase::put_FileScreenFlags, get_FileScreenFlags
 ms.topic: method
+f1_keywords: ["fsrmscreen/IFsrmFileScreenBase.FileScreenFlags"]
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows

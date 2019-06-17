@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method, Abort method,IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,Abort method, IWSDOutboundAttachment.Abort, IWSDOutboundAttachment::Abort, ncd.iwsdoutboundattachment_abort, wsdattachment/IWSDOutboundAttachment::Abort
 ms.topic: method
+f1_keywords: ["wsdattachment/IWSDOutboundAttachment.Abort"]
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

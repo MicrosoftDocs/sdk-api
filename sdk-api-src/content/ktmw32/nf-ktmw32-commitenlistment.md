@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
 ms.topic: function
+f1_keywords: ["ktmw32/CommitEnlistment"]
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows

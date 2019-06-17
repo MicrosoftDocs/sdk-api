@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
 ms.topic: function
+f1_keywords: ["virtdisk/CreateVirtualDisk"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

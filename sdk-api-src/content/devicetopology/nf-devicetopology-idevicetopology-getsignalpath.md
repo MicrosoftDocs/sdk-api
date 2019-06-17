@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignalPath, GetSignalPath method [Core Audio], GetSignalPath method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSignalPath method, IDeviceTopology.GetSignalPath, IDeviceTopology::GetSignalPath, IDeviceTopologyGetSignalPath, coreaudio.idevicetopology_getsignalpath, devicetopology/IDeviceTopology::GetSignalPath
 ms.topic: method
+f1_keywords: ["devicetopology/IDeviceTopology.GetSignalPath"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

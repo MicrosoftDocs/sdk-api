@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_BitsPerSample method, ITScriptableAudioFormat.get_BitsPerSample, ITScriptableAudioFormat::get_BitsPerSample, _tapi3_itscriptableaudioformat_get_bitspersample, get_BitsPerSample, get_BitsPerSample method [TAPI 2.2], get_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_bitspersample, tapi3if/ITScriptableAudioFormat::get_BitsPerSample
 ms.topic: method
+f1_keywords: ["tapi3if/ITScriptableAudioFormat.get_BitsPerSample"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

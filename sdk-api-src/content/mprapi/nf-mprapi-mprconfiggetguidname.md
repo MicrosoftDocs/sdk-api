@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetGuidName, MprConfigGetGuidName function [RAS], _mpr_mprconfiggetguidname, mprapi/MprConfigGetGuidName, rras.mprconfiggetguidname
 ms.topic: function
+f1_keywords: ["mprapi/MprConfigGetGuidName"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

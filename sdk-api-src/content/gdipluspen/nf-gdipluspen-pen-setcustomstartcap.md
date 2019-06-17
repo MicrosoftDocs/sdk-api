@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetCustomStartCap method, Pen.SetCustomStartCap, Pen::SetCustomStartCap, SetCustomStartCap, SetCustomStartCap method [GDI+], SetCustomStartCap method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetCustomStartCap_customCap_, gdiplus._gdiplus_CLASS_Pen_SetCustomStartCap_customCap_
 ms.topic: method
+f1_keywords: ["gdipluspen/Pen.SetCustomStartCap"]
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

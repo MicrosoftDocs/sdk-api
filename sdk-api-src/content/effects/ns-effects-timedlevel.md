@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TimedLevel, TimedLevel structure [Windows Media Player], effects/TimedLevel, typedefstructtagTimedLevel, wmp.timedlevel
 ms.topic: struct
+f1_keywords: ["effects/TimedLevel"]
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION, MINIDUMP_HANDLE_OBJECT_INFORMATION structure, _MINIDUMP_HANDLE_OBJECT_INFORMATION, base.minidump_handle_object_information, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
 ms.topic: struct
+f1_keywords: ["minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION"]
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

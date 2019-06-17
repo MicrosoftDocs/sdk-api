@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
 ms.topic: function
+f1_keywords: ["imm/ImmReleaseContext"]
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows

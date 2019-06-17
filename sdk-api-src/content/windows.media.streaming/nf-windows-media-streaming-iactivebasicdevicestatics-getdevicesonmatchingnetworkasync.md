@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDevicesOnMatchingNetworkAsync, GetDevicesOnMatchingNetworkAsync method [Media Streaming API], GetDevicesOnMatchingNetworkAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],GetDevicesOnMatchingNetworkAsync method, IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_getdevicesonmatchingnetworkasync, windows/IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync
 ms.topic: method
+f1_keywords: ["windows.media.streaming/IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync"]
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows

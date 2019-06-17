@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetNodeAttributes, PeerGraphSetNodeAttributes function [Peer Networking], p2p.peergraphsetnodeattributes, p2p/PeerGraphSetNodeAttributes
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphSetNodeAttributes"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

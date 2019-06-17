@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SLREFERRALTYPE, SLREFERRALTYPE enumeration [Security], SL_REFERRALTYPE_APPID, SL_REFERRALTYPE_BEST_MATCH, SL_REFERRALTYPE_OVERRIDE_APPID, SL_REFERRALTYPE_OVERRIDE_SKUID, SL_REFERRALTYPE_SKUID, security.slreferraltype, slpublic/SLREFERRALTYPE, slpublic/SL_REFERRALTYPE_APPID, slpublic/SL_REFERRALTYPE_BEST_MATCH, slpublic/SL_REFERRALTYPE_OVERRIDE_APPID, slpublic/SL_REFERRALTYPE_OVERRIDE_SKUID, slpublic/SL_REFERRALTYPE_SKUID
 ms.topic: enum
+f1_keywords: ["slpublic/SLREFERRALTYPE"]
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

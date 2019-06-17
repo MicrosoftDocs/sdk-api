@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetListAlignment, GetListAlignment method [Windows Controls], GetListAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListAlignment method, ITextPara.GetListAlignment, ITextPara::GetListAlignment, _win32_ITextPara_GetListAlignment, _win32_ITextPara_GetListAlignment_cpp, controls.ITextPara_GetListAlignment, controls._win32_ITextPara_GetListAlignment, tom/ITextPara::GetListAlignment
 ms.topic: method
+f1_keywords: ["tom/ITextPara.GetListAlignment"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

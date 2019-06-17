@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CRYPT_GET_INSTALLED_OID_FUNC_FLAG, CryptGetOIDFunctionAddress, CryptGetOIDFunctionAddress function [Security], _crypto2_cryptgetoidfunctionaddress, security.cryptgetoidfunctionaddress, wincrypt/CryptGetOIDFunctionAddress
 ms.topic: function
+f1_keywords: ["wincrypt/CryptGetOIDFunctionAddress"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

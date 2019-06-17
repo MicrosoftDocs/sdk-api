@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_MediaState method, IAMExtTransport.get_MediaState, IAMExtTransport::get_MediaState, IAMExtTransportget_MediaState, dshow.iamexttransport_get_mediastate, get_MediaState, get_MediaState method [DirectShow], get_MediaState method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_MediaState
 ms.topic: method
+f1_keywords: ["strmif/IAMExtTransport.get_MediaState"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

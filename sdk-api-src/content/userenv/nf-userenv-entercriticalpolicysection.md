@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnterCriticalPolicySection, EnterCriticalPolicySection function [Group Policy], _win32_entercriticalpolicysection, policy.entercriticalpolicysection, userenv/EnterCriticalPolicySection
 ms.topic: function
+f1_keywords: ["userenv/EnterCriticalPolicySection"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetType method, IDirect3DResource9.GetType, IDirect3DResource9::GetType, d3d9helper/IDirect3DResource9::GetType, direct3d9.idirect3dresource9__gettype, fedd6b5b-487e-c6e4-6122-21f132ce241b
 ms.topic: method
+f1_keywords: ["d3d9helper/IDirect3DResource9.GetType"]
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows

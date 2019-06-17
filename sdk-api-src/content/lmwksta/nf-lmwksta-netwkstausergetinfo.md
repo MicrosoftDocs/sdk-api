@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
 ms.topic: function
+f1_keywords: ["lmwksta/NetWkstaUserGetInfo"]
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

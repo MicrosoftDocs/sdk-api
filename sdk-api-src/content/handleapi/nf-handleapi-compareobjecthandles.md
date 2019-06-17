@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompareObjectHandles, CompareObjectHandles function, base.compareobjecthandles, handleapi/CompareObjectHandles
 ms.topic: function
+f1_keywords: ["handleapi/CompareObjectHandles"]
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows

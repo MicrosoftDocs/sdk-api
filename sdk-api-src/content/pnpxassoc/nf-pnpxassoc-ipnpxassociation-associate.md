@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXAssociation interface, IPNPXAssociation interface,Associate method, IPNPXAssociation.Associate, IPNPXAssociation::Associate, ncd.ipnpxassociation_associate, pnpxassoc/IPNPXAssociation::Associate
 ms.topic: method
+f1_keywords: ["pnpxassoc/IPNPXAssociation.Associate"]
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows

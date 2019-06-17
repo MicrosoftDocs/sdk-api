@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_EIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_EIT.RegisterForNextTable, IDVB_EIT::RegisterForNextTable, IDVB_EITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_EIT interface, dvbsiparser/IDVB_EIT::RegisterForNextTable, mstv.idvb_eit_registerfornexttable
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_EIT.RegisterForNextTable"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

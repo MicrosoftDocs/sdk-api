@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuxUlibSetSystemFileCacheSize, AuxUlibSetSystemFileCacheSize function [Windows API], aux_ulib/AuxUlibSetSystemFileCacheSize, winprog.auxulibsetsystemfilecachesize_func
 ms.topic: function
+f1_keywords: ["aux_ulib/AuxUlibSetSystemFileCacheSize"]
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows

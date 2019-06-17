@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetMetadata method, IWSDDeviceHost.SetMetadata, IWSDDeviceHost::SetMetadata, SetMetadata, SetMetadata method, SetMetadata method,IWSDDeviceHost interface, ncd.iwsddevicehost_setmetadata_method, wsdhost/IWSDDeviceHost::SetMetadata
 ms.topic: method
+f1_keywords: ["wsdhost/IWSDDeviceHost.SetMetadata"]
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

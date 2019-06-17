@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Stop method, IActionProgressDialog.Stop, IActionProgressDialog::Stop, Stop, Stop method [Windows Shell], Stop method [Windows Shell],IActionProgressDialog interface, _shell_IActionProgressDialog_Stop, shell.IActionProgressDialog_Stop, shobjidl_core/IActionProgressDialog::Stop
 ms.topic: method
+f1_keywords: ["shobjidl_core/IActionProgressDialog.Stop"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

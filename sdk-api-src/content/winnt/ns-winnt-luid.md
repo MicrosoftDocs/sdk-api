@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, winnt/LUID"
 ms.topic: struct
+f1_keywords: ["winnt/LUID"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

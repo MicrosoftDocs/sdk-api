@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponentData interface [MMC],Initialize method, IComponentData.Initialize, IComponentData::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponentData interface, _slate_icomponentdata_initialize, mmc.icomponentdata_initialize, mmc/IComponentData::Initialize
 ms.topic: method
+f1_keywords: ["mmc/IComponentData.Initialize"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [ICS/ICF], Connect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Connect method, INetConnection.Connect, INetConnection::Connect, _ics_inetconnection_connect, ics.inetconnection_connect, netcon/INetConnection::Connect
 ms.topic: method
+f1_keywords: ["netcon/INetConnection.Connect"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WPUQueryBlockingCallback, WPUQueryBlockingCallback function [Winsock], _win32_wpuqueryblockingcallback_2, winsock.wpuqueryblockingcallback_2, ws2spi/WPUQueryBlockingCallback
 ms.topic: function
+f1_keywords: ["ws2spi/WPUQueryBlockingCallback"]
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

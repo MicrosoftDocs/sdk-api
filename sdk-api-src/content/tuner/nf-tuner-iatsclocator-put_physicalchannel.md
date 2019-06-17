@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],put_PhysicalChannel method, IATSCLocator.put_PhysicalChannel, IATSCLocator::put_PhysicalChannel, IATSCLocatorput_PhysicalChannel, mstv.iatsclocator_put_physicalchannel, put_PhysicalChannel, put_PhysicalChannel method [Microsoft TV Technologies], put_PhysicalChannel method [Microsoft TV Technologies],IATSCLocator interface, tuner/IATSCLocator::put_PhysicalChannel
 ms.topic: method
+f1_keywords: ["tuner/IATSCLocator.put_PhysicalChannel"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

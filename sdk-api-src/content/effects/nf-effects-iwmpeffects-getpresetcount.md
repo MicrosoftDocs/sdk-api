@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EffectsGetPresetCount, GetPresetCount, GetPresetCount method [Windows Media Player], GetPresetCount method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetPresetCount method, IWMPEffects.GetPresetCount, IWMPEffects::GetPresetCount, effects/IWMPEffects::GetPresetCount, wmp.iwmpeffects_getpresetcount
 ms.topic: method
+f1_keywords: ["effects/IWMPEffects.GetPresetCount"]
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows

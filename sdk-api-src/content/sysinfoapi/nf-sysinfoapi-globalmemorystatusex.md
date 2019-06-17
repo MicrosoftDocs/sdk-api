@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalMemoryStatusEx, GlobalMemoryStatusEx function, _win32_globalmemorystatusex, base.globalmemorystatusex, sysinfoapi/GlobalMemoryStatusEx
 ms.topic: function
+f1_keywords: ["sysinfoapi/GlobalMemoryStatusEx"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

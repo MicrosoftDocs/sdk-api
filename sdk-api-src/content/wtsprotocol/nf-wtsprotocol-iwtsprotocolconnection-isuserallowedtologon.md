@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],IsUserAllowedToLogon method, IWTSProtocolConnection.IsUserAllowedToLogon, IWTSProtocolConnection::IsUserAllowedToLogon, IsUserAllowedToLogon, IsUserAllowedToLogon method [Remote Desktop Services], IsUserAllowedToLogon method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_isuserallowedtologon, wtsprotocol/IWTSProtocolConnection::IsUserAllowedToLogon
 ms.topic: method
+f1_keywords: ["wtsprotocol/IWTSProtocolConnection.IsUserAllowedToLogon"]
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

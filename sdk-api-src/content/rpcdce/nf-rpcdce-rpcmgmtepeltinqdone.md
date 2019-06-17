@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtEpEltInqDone, RpcMgmtEpEltInqDone function [RPC], _rpc_rpcmgmtepeltinqdone, rpc.rpcmgmtepeltinqdone, rpcdce/RpcMgmtEpEltInqDone
 ms.topic: function
+f1_keywords: ["rpcdce/RpcMgmtEpEltInqDone"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

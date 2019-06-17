@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContextState, IContextState interface [COM+], IContextState interface [COM+],described, _cos_IContextState, comsvcs/IContextState, cos.icontextstate
 ms.topic: interface
+f1_keywords: ["comsvcs/IContextState"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

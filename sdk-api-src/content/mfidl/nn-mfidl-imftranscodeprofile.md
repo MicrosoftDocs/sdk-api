@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
 ms.topic: interface
+f1_keywords: ["mfidl/IMFTranscodeProfile"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

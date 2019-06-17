@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientReleaseBuffer, WdsTransportClientReleaseBuffer function [Windows Deployment Services], wds.wdstransportclientreleasebuffer, wdstci/WdsTransportClientReleaseBuffer
 ms.topic: function
+f1_keywords: ["wdstci/WdsTransportClientReleaseBuffer"]
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows

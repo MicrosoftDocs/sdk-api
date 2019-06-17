@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Opened property, IX509PrivateKey.Opened, IX509PrivateKey.get_Opened, IX509PrivateKey::Opened, IX509PrivateKey::get_Opened, Opened property [Security], Opened property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Opened, certenroll/IX509PrivateKey::get_Opened, get_Opened, security.ix509privatekey_opened_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509PrivateKey.Opened"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

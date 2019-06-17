@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRaytracingAccelerationStructurePrebuildInfo, GetRaytracingAccelerationStructurePrebuildInfo method, GetRaytracingAccelerationStructurePrebuildInfo method,ID3D12Device5 interface, ID3D12Device5 interface,GetRaytracingAccelerationStructurePrebuildInfo method, ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo, ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo, d3d12/ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo, direct3d12.id3d12device5_getraytracingaccelerationstructureprebuildinfo
 ms.topic: method
+f1_keywords: ["d3d12/ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseSamUser, CloseSamUser callback function [Security], LSA_CLOSE_SAM_USER, LSA_CLOSE_SAM_USER callback, _ssp_closesamuser, ntsecpkg/CloseSamUser, security.closesamuser
 ms.topic: callback
+f1_keywords: ["ntsecpkg/CloseSamUser"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

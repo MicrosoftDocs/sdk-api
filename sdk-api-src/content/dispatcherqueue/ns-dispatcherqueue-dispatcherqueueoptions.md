@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions
 ms.topic: struct
+f1_keywords: ["dispatcherqueue/DispatcherQueueOptions"]
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

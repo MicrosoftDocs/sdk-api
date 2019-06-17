@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Context property [Windows Update Agent], Context property [Windows Update Agent],IUpdateException interface, IUpdateException interface [Windows Update Agent],Context property, IUpdateException.Context, IUpdateException.get_Context, IUpdateException::Context, IUpdateException::get_Context, get_Context, wua.iupdateexception_context, wuapi/IUpdateException::Context, wuapi/IUpdateException::get_Context
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateException.Context"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

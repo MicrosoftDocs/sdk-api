@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
 ms.topic: macro
+f1_keywords: ["wingdi/MAKEPOINTS"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

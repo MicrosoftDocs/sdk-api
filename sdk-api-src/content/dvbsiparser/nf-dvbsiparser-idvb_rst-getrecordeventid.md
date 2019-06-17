@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordEventId method, IDVB_RST.GetRecordEventId, IDVB_RST::GetRecordEventId, IDVB_RSTGetRecordEventId, dvbsiparser/IDVB_RST::GetRecordEventId, mstv.idvb_rst_getrecordeventid
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_RST.GetRecordEventId"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

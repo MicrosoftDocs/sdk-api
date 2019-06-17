@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop, ICompositionDrawingSurfaceInterop interface, ICompositionDrawingSurfaceInterop interface,described, w_ui_comp.icompositiondrawingsurfaceinterop, windows/ICompositionDrawingSurfaceInterop
 ms.topic: interface
+f1_keywords: ["windows.ui.composition.interop/ICompositionDrawingSurfaceInterop"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

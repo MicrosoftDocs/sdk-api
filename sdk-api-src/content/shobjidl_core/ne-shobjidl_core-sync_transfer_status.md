@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STS_FETCHING_METADATA, STS_HASERROR, STS_NEEDSDOWNLOAD, STS_NEEDSUPLOAD, STS_NONE, STS_PAUSED, STS_TRANSFERRING, SYNC_TRANSFER_STATUS, SYNC_TRANSFER_STATUS enumeration [Windows Properties], properties.SYNC_TRANSFER_STATUS, shobjidl_core/STS_FETCHING_METADATA, shobjidl_core/STS_HASERROR, shobjidl_core/STS_NEEDSDOWNLOAD, shobjidl_core/STS_NEEDSUPLOAD, shobjidl_core/STS_NONE, shobjidl_core/STS_PAUSED, shobjidl_core/STS_TRANSFERRING, shobjidl_core/SYNC_TRANSFER_STATUS
 ms.topic: enum
+f1_keywords: ["shobjidl_core/SYNC_TRANSFER_STATUS"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

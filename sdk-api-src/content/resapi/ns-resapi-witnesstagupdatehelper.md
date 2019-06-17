@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WitnessTagUpdateHelper, WitnessTagUpdateHelper structure [Failover Cluster], mscs.witnesstagupdatehelper, resapi/WitnessTagUpdateHelper
 ms.topic: struct
+f1_keywords: ["resapi/WitnessTagUpdateHelper"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

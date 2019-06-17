@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetHwnd, GetHwnd method [Direct2D], GetHwnd method [Direct2D],ID2D1HwndRenderTarget interface, ID2D1HwndRenderTarget interface [Direct2D],GetHwnd method, ID2D1HwndRenderTarget.GetHwnd, ID2D1HwndRenderTarget::GetHwnd, d2d1/ID2D1HwndRenderTarget::GetHwnd, direct2d.ID2D1HwndRenderTarget_GetHwnd
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1HwndRenderTarget.GetHwnd"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FD_KERNINGPAIR, FD_KERNINGPAIR structure [Display Devices], display.fd_kerningpair, grstrcts_5e6126d0-b3c2-4964-ab7a-f3ec90162b7e.xml, winddi/FD_KERNINGPAIR
 ms.topic: struct
+f1_keywords: ["winddi/FD_KERNINGPAIR"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

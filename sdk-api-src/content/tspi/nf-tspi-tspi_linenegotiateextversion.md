@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineNegotiateExtVersion, TSPI_lineNegotiateExtVersion function [TAPI 2.2], _tspi_tspi_linenegotiateextversion, tspi.tspi_linenegotiateextversion, tspi/TSPI_lineNegotiateExtVersion
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineNegotiateExtVersion"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

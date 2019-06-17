@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDRT_DATA, DRT_DATA, DRT_DATA structure [Peer Networking], PDRT_DATA, PDRT_DATA structure pointer [Peer Networking], drt/DRT_DATA, drt/PDRT_DATA, p2p.drt_data"
 ms.topic: struct
+f1_keywords: ["drt/DRT_DATA"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

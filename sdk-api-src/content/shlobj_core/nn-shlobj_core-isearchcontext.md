@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchContext, ISearchContext interface [Windows Shell], ISearchContext interface [Windows Shell],described, _shell_ISearchContext, shell.ISearchContext, shlobj_core/ISearchContext
 ms.topic: interface
+f1_keywords: ["shlobj_core/ISearchContext"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1RenderInfo interface [Direct2D],SetInputDescription method, ID2D1RenderInfo.SetInputDescription, ID2D1RenderInfo::SetInputDescription, SetInputDescription, SetInputDescription method [Direct2D], SetInputDescription method [Direct2D],ID2D1RenderInfo interface, d2d1effectauthor/ID2D1RenderInfo::SetInputDescription, direct2d.id2d1renderinfo_setinputdescription
 ms.topic: method
+f1_keywords: ["d2d1effectauthor/ID2D1RenderInfo.SetInputDescription"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnsubscribeFeatureStateChangeNotification, UnsubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/UnsubscribeFeatureStateChangeNotification, winprog.unsubscribefeaturestatechangenotification
 ms.topic: function
+f1_keywords: ["featurestagingapi/UnsubscribeFeatureStateChangeNotification"]
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

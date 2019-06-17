@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, CLUSCTL_USER_CODE, CLUSCTL_USER_CODE macro [Failover Cluster], _wolf_clusctl_user_code, clusapi/CLUSCTL_USER_CODE, mscs.clusctl_user_code
 ms.topic: macro
+f1_keywords: ["clusapi/CLUSCTL_USER_CODE"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

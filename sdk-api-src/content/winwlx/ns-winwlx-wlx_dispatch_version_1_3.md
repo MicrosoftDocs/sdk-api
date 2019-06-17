@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3 structure pointer [Security], WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_3 structure [Security], _gina_wlx_dispatch_version_1_3, security.wlx_dispatch_version_1_3, winwlx/PWLX_DISPATCH_VERSION_1_3, winwlx/WLX_DISPATCH_VERSION_1_3"
 ms.topic: struct
+f1_keywords: ["winwlx/WLX_DISPATCH_VERSION_1_3"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

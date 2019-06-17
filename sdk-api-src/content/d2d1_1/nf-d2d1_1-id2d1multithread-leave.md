@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1Multithread interface [Direct2D],Leave method, ID2D1Multithread.Leave, ID2D1Multithread::Leave, Leave, Leave method [Direct2D], Leave method [Direct2D],ID2D1Multithread interface, d2d1_1/ID2D1Multithread::Leave, direct2d.id2d1multithread_leave
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1Multithread.Leave"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.httpaddurl, http/HttpAddUrl
 ms.topic: function
+f1_keywords: ["http/HttpAddUrl"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

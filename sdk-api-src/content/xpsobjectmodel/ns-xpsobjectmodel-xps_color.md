@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_COLOR, XPS_COLOR structure [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_CONTEXT structure [XPS Documents and Packaging], xps.xps_color_type_context, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT
 ms.topic: struct
+f1_keywords: ["xpsobjectmodel/XPS_COLOR"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

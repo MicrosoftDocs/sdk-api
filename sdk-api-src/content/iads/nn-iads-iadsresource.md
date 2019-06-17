@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.topic: interface
+f1_keywords: ["iads/IADsResource"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

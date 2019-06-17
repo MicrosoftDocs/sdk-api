@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetwork interface [Network Awareness],SetCategory method, INetwork.SetCategory, INetwork::SetCategory, SetCategory, SetCategory method [Network Awareness], SetCategory method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetCategory, nla.inetwork_setcategory
 ms.topic: method
+f1_keywords: ["netlistmgr/INetwork.SetCategory"]
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows

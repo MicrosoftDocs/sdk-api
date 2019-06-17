@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 4a354073-e971-43ba-93c9-84fa2e8c59aa, GetUnicodeRanges, GetUnicodeRanges function [Tablet PC], recapis/GetUnicodeRanges, tablet.getunicoderanges
 ms.topic: function
+f1_keywords: ["recapis/GetUnicodeRanges"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageList2 interface [Windows Controls],Resize method, IImageList2.Resize, IImageList2::Resize, Resize, Resize method [Windows Controls], Resize method [Windows Controls],IImageList2 interface, _shell_IImageList2_Resize, _shell_IImageList2_Resize_cpp, commoncontrols/IImageList2::Resize, controls.IImageList2_Resize, controls._shell_IImageList2_Resize
 ms.topic: method
+f1_keywords: ["commoncontrols/IImageList2.Resize"]
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows

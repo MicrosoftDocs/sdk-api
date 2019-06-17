@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
 ms.topic: function
+f1_keywords: ["mssip/CryptSIPCreateIndirectData"]
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

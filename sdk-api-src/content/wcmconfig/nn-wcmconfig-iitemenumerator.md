@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], IItemEnumerator interface [SMI],described, smi.iitemenumerator, wcmconfig/IItemEnumerator
 ms.topic: interface
+f1_keywords: ["wcmconfig/IItemEnumerator"]
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows

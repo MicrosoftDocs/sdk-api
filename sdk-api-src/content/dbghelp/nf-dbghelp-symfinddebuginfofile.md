@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymFindDebugInfoFile, SymFindDebugInfoFile function, SymFindDebugInfoFileW, base.symfinddebuginfofile, dbghelp/SymFindDebugInfoFile, dbghelp/SymFindDebugInfoFileW
 ms.topic: function
+f1_keywords: ["dbghelp/SymFindDebugInfoFile"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

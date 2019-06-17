@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_TCPTABLE_OWNER_MODULE, MIB_TCPTABLE_OWNER_MODULE, MIB_TCPTABLE_OWNER_MODULE structure [MIB], PMIB_TCPTABLE_OWNER_MODULE, PMIB_TCPTABLE_OWNER_MODULE structure pointer [MIB], iprtrmib/MIB_TCPTABLE_OWNER_MODULE, iprtrmib/PMIB_TCPTABLE_OWNER_MODULE, mib.mib_tcptable_owner_module, tcpmib/MIB_TCPTABLE_OWNER_MODULE, tcpmib/PMIB_TCPTABLE_OWNER_MODULE"
 ms.topic: struct
+f1_keywords: ["tcpmib/MIB_TCPTABLE_OWNER_MODULE"]
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

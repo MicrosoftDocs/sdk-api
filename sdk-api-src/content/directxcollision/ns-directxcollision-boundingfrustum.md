@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum, BoundingFrustum structure [DirectX Math Support APIs], directxcollision/BoundingFrustum, dxmath.boundingfrustum
 ms.topic: struct
+f1_keywords: ["directxcollision/BoundingFrustum"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

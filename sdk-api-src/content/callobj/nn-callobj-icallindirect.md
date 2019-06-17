@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICallIndirect, ICallIndirect interface [COM], ICallIndirect interface [COM],described, _com_icallindirect_interface, callobj/ICallIndirect, com.icallindirect
 ms.topic: interface
+f1_keywords: ["callobj/ICallIndirect"]
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows

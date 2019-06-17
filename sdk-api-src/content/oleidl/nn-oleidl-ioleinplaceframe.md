@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame, IOleInPlaceFrame interface [COM], IOleInPlaceFrame interface [COM],described, _ole_ioleinplaceframe, com.ioleinplaceframe, oleidl/IOleInPlaceFrame
 ms.topic: interface
+f1_keywords: ["oleidl/IOleInPlaceFrame"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

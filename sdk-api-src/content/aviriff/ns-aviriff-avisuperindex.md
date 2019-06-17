@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], aviriff/AVISUPERINDEX, dshow.avisuperindex
 ms.topic: struct
+f1_keywords: ["aviriff/AVISUPERINDEX"]
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

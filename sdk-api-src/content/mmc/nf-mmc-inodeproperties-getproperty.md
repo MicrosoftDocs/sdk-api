@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [MMC], GetProperty method [MMC],INodeProperties interface, INodeProperties interface [MMC],GetProperty method, INodeProperties.GetProperty, INodeProperties::GetProperty, _slate_inodeproperties_getproperty, mmc.inodeproperties_getproperty, mmc/INodeProperties::GetProperty
 ms.topic: method
+f1_keywords: ["mmc/INodeProperties.GetProperty"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

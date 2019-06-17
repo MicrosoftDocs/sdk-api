@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMRSOP class [GPMC],ReleaseQueryResults method, IGPMRSOP interface [GPMC],ReleaseQueryResults method, IGPMRSOP.ReleaseQueryResults, IGPMRSOP::ReleaseQueryResults, ReleaseQueryResults, ReleaseQueryResults method [GPMC], ReleaseQueryResults method [GPMC],GPMRSOP class, ReleaseQueryResults method [GPMC],IGPMRSOP interface, _win32_igpmrsop_releasequeryresults, gpmc.igpmrsop_releasequeryresults, gpmgmt/IGPMRSOP::ReleaseQueryResults
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPMRSOP.ReleaseQueryResults"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID, WS_UNIQUE_ID structure [Web Services for Windows], webservices/WS_UNIQUE_ID, wsw.ws_unique_id
 ms.topic: struct
+f1_keywords: ["webservices/WS_UNIQUE_ID"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews, IEnumOleDocumentViews interface [COM], IEnumOleDocumentViews interface [COM],described, _ole_ienumoledocumentviews, com.ienumoledocumentviews, docobj/IEnumOleDocumentViews
 ms.topic: interface
+f1_keywords: ["docobj/IEnumOleDocumentViews"]
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

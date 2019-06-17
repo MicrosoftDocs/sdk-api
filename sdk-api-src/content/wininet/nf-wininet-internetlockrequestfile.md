@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetLockRequestFile, InternetLockRequestFile function [WinINet], _inet_internetlockrequestfile_function, wininet.internetlockrequestfile, wininet/InternetLockRequestFile
 ms.topic: function
+f1_keywords: ["wininet/InternetLockRequestFile"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

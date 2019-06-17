@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, wingdi/CMYK
 ms.topic: macro
+f1_keywords: ["wingdi/CMYK"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

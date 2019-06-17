@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory],described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
 ms.topic: interface
+f1_keywords: ["objsel/IDsObjectPicker"]
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows

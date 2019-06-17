@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMDRMReader3"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvSynchronizeSurface, DrvSynchronizeSurface function [Display Devices], ddifncs_ab69a2cb-5b19-4a94-a78e-2c21d2950ff8.xml, display.drvsynchronizesurface, winddi/DrvSynchronizeSurface
 ms.topic: function
+f1_keywords: ["winddi/DrvSynchronizeSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

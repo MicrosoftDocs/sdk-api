@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0,1,2,or 502, 503, NetShareDelEx, NetShareDelEx function [Files], fs.netsharedelex, lmshare/NetShareDelEx
 ms.topic: function
+f1_keywords: ["lmshare/NetShareDelEx"]
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows

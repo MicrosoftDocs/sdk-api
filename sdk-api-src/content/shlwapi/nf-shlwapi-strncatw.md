@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrNCat, StrNCat function [Windows Shell], StrNCatA, StrNCatW, _win32_StrNCat, shell.StrNCat, shlwapi/StrNCat, shlwapi/StrNCatA, shlwapi/StrNCatW
 ms.topic: function
+f1_keywords: ["shlwapi/StrNCat"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

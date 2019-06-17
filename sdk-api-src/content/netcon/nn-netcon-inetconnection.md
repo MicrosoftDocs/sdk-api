@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetConnection, INetConnection interface [ICS/ICF], INetConnection interface [ICS/ICF],described, _ics_inetconnection, ics.inetconnection, netcon/INetConnection
 ms.topic: interface
+f1_keywords: ["netcon/INetConnection"]
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows

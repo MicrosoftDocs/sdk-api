@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],PlaySound method, IUserNotification2.PlaySound, IUserNotification2::PlaySound, PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_PlaySound, shell.IUserNotification2_PlaySound, shobjidl/IUserNotification2::PlaySound
 ms.topic: method
+f1_keywords: ["shobjidl/IUserNotification2.PlaySound"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AbortProc, AbortProc callback, AbortProc callback function [Windows GDI], _win32_AbortProc, gdi.abortproc, wingdi/AbortProc
 ms.topic: callback
+f1_keywords: ["wingdi/AbortProc"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

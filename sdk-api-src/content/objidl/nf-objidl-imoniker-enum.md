@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMoniker interface [COM],Enum method, IMoniker.Enum, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
 ms.topic: method
+f1_keywords: ["objidl/IMoniker.Enum"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

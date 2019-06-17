@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DMOUnregister, DMOUnregister function [DirectShow], dmoreg/DMOUnregister, dshow.dmounregister
 ms.topic: function
+f1_keywords: ["dmoreg/DMOUnregister"]
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows

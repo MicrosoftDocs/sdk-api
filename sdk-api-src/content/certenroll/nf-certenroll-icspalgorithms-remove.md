@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithms interface [Security],Remove method, ICspAlgorithms.Remove, ICspAlgorithms::Remove, Remove, Remove method [Security], Remove method [Security],ICspAlgorithms interface, certenroll/ICspAlgorithms::Remove, security.icspalgorithms_remove_method
 ms.topic: method
+f1_keywords: ["certenroll/ICspAlgorithms.Remove"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

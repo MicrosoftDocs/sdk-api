@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Blur, Blur class [GDI+], Blur class [GDI+],described, _gdiplus_CLASS_Blur_Class, gdiplus._gdiplus_CLASS_Blur_Class, gdipluseffects/Blur
 ms.topic: class
+f1_keywords: ["gdipluseffects/Blur"]
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows

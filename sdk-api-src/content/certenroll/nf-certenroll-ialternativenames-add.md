@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Add method, IAlternativeNames.Add, IAlternativeNames::Add, certenroll/IAlternativeNames::Add, security.ialternativenames_add_method
 ms.topic: method
+f1_keywords: ["certenroll/IAlternativeNames.Add"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

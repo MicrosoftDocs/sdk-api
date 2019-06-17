@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumUnknown::Next, Next, Next method [COM], Next method [COM],IEnumUnknown interface, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
 ms.topic: method
+f1_keywords: ["objidlbase/IEnumUnknown.Next"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

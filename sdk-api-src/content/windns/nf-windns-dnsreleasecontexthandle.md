@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _dns_dnsreleasecontexthandle, dns.dnsreleasecontexthandle, windns/DnsReleaseContextHandle
 ms.topic: function
+f1_keywords: ["windns/DnsReleaseContextHandle"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

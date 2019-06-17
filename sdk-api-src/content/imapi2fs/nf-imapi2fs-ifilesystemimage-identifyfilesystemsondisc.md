@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],IdentifyFileSystemsOnDisc method, IFileSystemImage.IdentifyFileSystemsOnDisc, IFileSystemImage::IdentifyFileSystemsOnDisc, IdentifyFileSystemsOnDisc, IdentifyFileSystemsOnDisc method [IMAPI], IdentifyFileSystemsOnDisc method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_identifyfilesystemsondisc, imapi2fs/IFileSystemImage::IdentifyFileSystemsOnDisc
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.IdentifyFileSystemsOnDisc"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

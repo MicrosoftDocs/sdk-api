@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiRegisterDeviceInfo, SetupDiRegisterDeviceInfo function [Device and Driver Installation], devinst.setupdiregisterdeviceinfo, di-rtns_ab9a56a2-3256-472f-a818-32918efd5673.xml, setupapi/SetupDiRegisterDeviceInfo
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiRegisterDeviceInfo"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

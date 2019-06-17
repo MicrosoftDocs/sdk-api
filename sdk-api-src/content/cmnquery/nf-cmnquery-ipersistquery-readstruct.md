@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],ReadStruct method, IPersistQuery.ReadStruct, IPersistQuery::ReadStruct, ReadStruct, ReadStruct method [Active Directory], ReadStruct method [Active Directory],IPersistQuery interface, _glines_ipersistquery_readstruct, ad.ipersistquery__readstruct, ad.ipersistquery_readstruct, cmnquery/IPersistQuery::ReadStruct
 ms.topic: method
+f1_keywords: ["cmnquery/IPersistQuery.ReadStruct"]
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows

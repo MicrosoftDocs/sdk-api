@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl, IDiskQuotaControl interface [Files], IDiskQuotaControl interface [Files],described, _win32_idiskquotacontrol, base.idiskquotacontrol, dskquota/IDiskQuotaControl, fs.idiskquotacontrol
 ms.topic: interface
+f1_keywords: ["dskquota/IDiskQuotaControl"]
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

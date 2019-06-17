@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PONEX_STATUS, ONEX_STATUS, ONEX_STATUS structure [NativeWIFI], PONEX_STATUS, PONEX_STATUS structure pointer [NativeWIFI], dot1x/ONEX_STATUS, dot1x/PONEX_STATUS, nwifi.onex_status"
 ms.topic: struct
+f1_keywords: ["dot1x/ONEX_STATUS"]
 req.header: dot1x.h
 req.include-header: 
 req.target-type: Windows

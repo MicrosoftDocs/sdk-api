@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationProperty, GetThemeAnimationProperty function [Windows Controls], controls.getthemeanimationproperty, uxtheme/GetThemeAnimationProperty
 ms.topic: function
+f1_keywords: ["uxtheme/GetThemeAnimationProperty"]
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

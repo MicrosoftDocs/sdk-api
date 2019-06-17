@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9c3d009a-7018-dfd4-2e89-34daef69b3b7, D3D11_DEPTH_WRITE_MASK, D3D11_DEPTH_WRITE_MASK enumeration [Direct3D 11], D3D11_DEPTH_WRITE_MASK_ALL, D3D11_DEPTH_WRITE_MASK_ZERO, d3d11/D3D11_DEPTH_WRITE_MASK, d3d11/D3D11_DEPTH_WRITE_MASK_ALL, d3d11/D3D11_DEPTH_WRITE_MASK_ZERO, direct3d11.d3d11_depth_write_mask
 ms.topic: enum
+f1_keywords: ["d3d11/D3D11_DEPTH_WRITE_MASK"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

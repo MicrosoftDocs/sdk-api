@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_func, etw.eventregister_func, evntprov/EventRegister
 ms.topic: function
+f1_keywords: ["evntprov/EventRegister"]
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

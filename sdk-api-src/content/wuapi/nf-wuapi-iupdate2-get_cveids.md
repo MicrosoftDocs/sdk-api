@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CveIDs property [Windows Update Agent], CveIDs property [Windows Update Agent],IUpdate2 interface, IUpdate2 interface [Windows Update Agent],CveIDs property, IUpdate2.CveIDs, IUpdate2.get_CveIDs, IUpdate2::CveIDs, IUpdate2::get_CveIDs, get_CveIDs, wua.iupdate2_cveids, wuapi/IUpdate2::CveIDs, wuapi/IUpdate2::get_CveIDs
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate2.CveIDs"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

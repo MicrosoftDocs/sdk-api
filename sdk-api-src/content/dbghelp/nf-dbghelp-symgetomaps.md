@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetOmaps, SymGetOmaps function, base.symgetomaps, dbghelp/SymGetOmaps
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetOmaps"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

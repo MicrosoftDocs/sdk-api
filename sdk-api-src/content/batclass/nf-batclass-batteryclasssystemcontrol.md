@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BatteryClassSystemControl, BatteryClassSystemControl routine [Battery Devices], bat-rtn_4e2bda63-ff7a-420f-96af-fa0d5041479b.xml, batclass/BatteryClassSystemControl, battery.batteryclasssystemcontrol
 ms.topic: function
+f1_keywords: ["batclass/BatteryClassSystemControl"]
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop

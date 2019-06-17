@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],IpAddresses property, ITsSbTarget.IpAddresses, ITsSbTarget.TargetExternalIpAddresses, ITsSbTarget.put_IpAddresses, ITsSbTarget::IpAddresses, ITsSbTarget::get_IpAddresses, ITsSbTarget::get_TargetExternalIpAddresses, ITsSbTarget::put_IpAddresses, ITsSbTarget::put_TargetExternalIpAddresses, ITsSbTargetEx interface [Remote Desktop Services],IpAddresses property, ITsSbTargetEx.IpAddresses, ITsSbTargetEx::get_IpAddresses, ITsSbTargetEx::put_IpAddresses, IpAddresses property [Remote Desktop Services], IpAddresses property [Remote Desktop Services],ITsSbTarget interface, IpAddresses property [Remote Desktop Services],ITsSbTargetEx interface, TargetExternalIpAddresses, TargetExternalIpAddresses property [Remote Desktop Services], TargetExternalIpAddresses property [Remote Desktop Services],ITsSbTarget interface, put_IpAddresses, sbtsv/ITsSbTarget::IpAddresses, sbtsv/ITsSbTarget::get_IpAddresses, sbtsv/ITsSbTarget::put_IpAddresses, sbtsv/ITsSbTargetEx::IpAddresses, sbtsv/ITsSbTargetEx::get_IpAddresses, sbtsv/ITsSbTargetEx::put_IpAddresses, termserv.itssbtarget_ipaddresses
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbTarget.IpAddresses"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

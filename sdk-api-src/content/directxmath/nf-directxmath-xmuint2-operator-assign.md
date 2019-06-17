@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: Use DirectX..XMUINT2.operator =, Use DirectX::::XMUINT2::operator =, XMUINT2 structure [DirectX Math Support APIs],operator = method, XMUINT2.operator =, XMUINT2.operator-assign, XMUINT2.operator=, XMUINT2::operator-assign, XMUINT2::operator=, dxmath.xmuint2_operator_eq, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUINT2 structure, operator=
 ms.topic: method
+f1_keywords: ["directxmath/XMUINT2.operator ="]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Files], STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Files], fs.storage_access_alignment_descriptor, winioctl/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, winioctl/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR"
 ms.topic: struct
+f1_keywords: ["winioctl/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

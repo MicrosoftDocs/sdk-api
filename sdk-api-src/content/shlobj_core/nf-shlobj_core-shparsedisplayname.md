@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHParseDisplayName, SHParseDisplayName function [Windows Shell], _shell_SHParseDisplayName, shell.SHParseDisplayName, shlobj_core/SHParseDisplayName
 ms.topic: function
+f1_keywords: ["shlobj_core/SHParseDisplayName"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

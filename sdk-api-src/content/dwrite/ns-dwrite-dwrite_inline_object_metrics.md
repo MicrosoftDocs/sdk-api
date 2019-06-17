@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWRITE_INLINE_OBJECT_METRICS, DWRITE_INLINE_OBJECT_METRICS structure [Direct Write], directwrite.dwrite_inline_object_metrics, dwrite/DWRITE_INLINE_OBJECT_METRICS
 ms.topic: struct
+f1_keywords: ["dwrite/DWRITE_INLINE_OBJECT_METRICS"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetNumChannels, GetNumChannels method [Windows Color System], GetNumChannels method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetNumChannels method, IDeviceModelPlugIn.GetNumChannels, IDeviceModelPlugIn::GetNumChannels, _color_IDeviceModelPlugIn::GetNumChannels, wcs.IDeviceModelPlugIn_GetNumChannels, wcsplugin/IDeviceModelPlugIn::GetNumChannels
 ms.topic: method
+f1_keywords: ["wcsplugin/IDeviceModelPlugIn.GetNumChannels"]
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

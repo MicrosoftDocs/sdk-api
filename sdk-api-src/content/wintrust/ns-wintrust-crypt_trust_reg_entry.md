@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY, CRYPT_TRUST_REG_ENTRY structure [Security], PCRYPT_TRUST_REG_ENTRY, PCRYPT_TRUST_REG_ENTRY structure pointer [Security], security.crypt_trust_reg_entry, wintrust/CRYPT_TRUST_REG_ENTRY, wintrust/PCRYPT_TRUST_REG_ENTRY"
 ms.topic: struct
+f1_keywords: ["wintrust/CRYPT_TRUST_REG_ENTRY"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

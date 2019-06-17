@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.topic: function
+f1_keywords: ["imagehlp/ImageGetCertificateHeader"]
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

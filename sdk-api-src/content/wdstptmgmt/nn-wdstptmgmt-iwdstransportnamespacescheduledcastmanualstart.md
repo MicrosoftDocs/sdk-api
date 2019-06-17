@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastManualStart, IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastmanualstart, wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart
 ms.topic: interface
+f1_keywords: ["wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

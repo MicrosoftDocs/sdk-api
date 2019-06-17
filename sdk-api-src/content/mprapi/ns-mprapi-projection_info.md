@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROJECTION_INFO, MPRAPI_IKEV2_PROJECTION_INFO_TYPE, MPRAPI_PPP_PROJECTION_INFO_TYPE, PPROJECTION_INFO, PPROJECTION_INFO structure pointer [RAS], PROJECTION_INFO, PROJECTION_INFO structure [RAS], mprapi/PPROJECTION_INFO, mprapi/PROJECTION_INFO, rras.projection_info"
 ms.topic: struct
+f1_keywords: ["mprapi/PROJECTION_INFO"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

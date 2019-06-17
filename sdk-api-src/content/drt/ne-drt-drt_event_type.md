@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRT_EVENT_LEAFSET_KEY_CHANGED, DRT_EVENT_REGISTRATION_STATE_CHANGED, DRT_EVENT_STATUS_CHANGED, DRT_EVENT_TYPE, DRT_EVENT_TYPE enumeration [Peer Networking], drt/DRT_EVENT_LEAFSET_KEY_CHANGED, drt/DRT_EVENT_REGISTRATION_STATE_CHANGED, drt/DRT_EVENT_STATUS_CHANGED, drt/DRT_EVENT_TYPE, p2p.drt_event_type
 ms.topic: enum
+f1_keywords: ["drt/DRT_EVENT_TYPE"]
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows

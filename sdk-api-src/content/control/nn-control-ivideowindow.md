@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
 ms.topic: interface
+f1_keywords: ["control/IVideoWindow"]
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows

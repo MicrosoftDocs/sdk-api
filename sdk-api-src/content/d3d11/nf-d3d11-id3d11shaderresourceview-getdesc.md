@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 079df25a-69e1-b3d9-2c55-6e1eee17b40f, GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11ShaderResourceView interface, ID3D11ShaderResourceView interface [Direct3D 11],GetDesc method, ID3D11ShaderResourceView.GetDesc, ID3D11ShaderResourceView::GetDesc, d3d11/ID3D11ShaderResourceView::GetDesc, direct3d11.id3d11shaderresourceview_getdesc
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11ShaderResourceView.GetDesc"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

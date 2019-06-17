@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IMFDXGIDeviceManager interface, IMFDXGIDeviceManager interface [Media Foundation],GetVideoService method, IMFDXGIDeviceManager.GetVideoService, IMFDXGIDeviceManager::GetVideoService, mf.imfdxgidevicemanager_getvideoservice, mfobjects/IMFDXGIDeviceManager::GetVideoService
 ms.topic: method
+f1_keywords: ["mfobjects/IMFDXGIDeviceManager.GetVideoService"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

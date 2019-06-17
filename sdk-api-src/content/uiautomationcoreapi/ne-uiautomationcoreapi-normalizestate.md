@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NormalizeState, NormalizeState enumeration [Windows Accessibility], NormalizeState_Custom, NormalizeState_None, NormalizeState_View, uiauto.uiauto_NormalizeStateEnum, uiauto_NormalizeStateEnum, uiautomationcoreapi/NormalizeState, uiautomationcoreapi/NormalizeState_Custom, uiautomationcoreapi/NormalizeState_None, uiautomationcoreapi/NormalizeState_View, winauto.uiauto_NormalizeStateEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcoreapi/NormalizeState"]
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

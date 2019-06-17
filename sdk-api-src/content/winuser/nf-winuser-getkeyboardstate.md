@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardState, GetKeyboardState function [Keyboard and Mouse Input], _win32_GetKeyboardState, _win32_getkeyboardstate_cpp, inputdev.getkeyboardstate, winui._win32_getkeyboardstate, winuser/GetKeyboardState
 ms.topic: function
+f1_keywords: ["winuser/GetKeyboardState"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

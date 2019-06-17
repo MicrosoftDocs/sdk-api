@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdviseWMPServices, AdviseWMPServices method [Windows Media Player], AdviseWMPServices method [Windows Media Player],IWMPPlugin interface, IWMPPlugin interface [Windows Media Player],AdviseWMPServices method, IWMPPlugin.AdviseWMPServices, IWMPPlugin::AdviseWMPServices, IWMPPluginAdviseWMPServicesDSP, wmp.iwmpplugin_advisewmpservices, wmpservices/IWMPPlugin::AdviseWMPServices
 ms.topic: method
+f1_keywords: ["wmpservices/IWMPPlugin.AdviseWMPServices"]
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceData, SetupDiDeleteDeviceInterfaceData function [Device and Driver Installation], devinst.setupdideletedeviceinterfacedata, di-rtns_6694af3a-5716-4ee6-b10e-2603dc341781.xml, setupapi/SetupDiDeleteDeviceInterfaceData
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiDeleteDeviceInterfaceData"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

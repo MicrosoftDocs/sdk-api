@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddString
 ms.topic: language-reference
+f1_keywords: ["gdipluspath/GraphicsPath::AddString"]
 targetos: Windows
 product: Windows
 req.assembly: 

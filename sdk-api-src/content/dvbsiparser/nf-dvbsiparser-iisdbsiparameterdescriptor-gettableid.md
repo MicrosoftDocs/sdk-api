@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTableId, GetTableId method [Microsoft TV Technologies], GetTableId method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableId method, IIsdbSIParameterDescriptor.GetTableId, IIsdbSIParameterDescriptor::GetTableId, dvbsiparser/IIsdbSIParameterDescriptor::GetTableId, mstv.iisdbsiparameterdescriptor_gettableid
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbSIParameterDescriptor.GetTableId"]
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows

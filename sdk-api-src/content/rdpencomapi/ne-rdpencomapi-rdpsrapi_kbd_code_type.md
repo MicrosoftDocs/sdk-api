@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RDPSRAPI_KBD_CODE_SCANCODE, RDPSRAPI_KBD_CODE_TYPE, RDPSRAPI_KBD_CODE_TYPE enumeration [RDP], RDPSRAPI_KBD_CODE_UNICODE, rdp.rdpsrapi_kbd_code_type, rdpencomapi/RDPSRAPI_KBD_CODE_SCANCODE, rdpencomapi/RDPSRAPI_KBD_CODE_TYPE, rdpencomapi/RDPSRAPI_KBD_CODE_UNICODE
 ms.topic: enum
+f1_keywords: ["rdpencomapi/RDPSRAPI_KBD_CODE_TYPE"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

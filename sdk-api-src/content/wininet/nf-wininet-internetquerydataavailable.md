@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InternetQueryDataAvailable, InternetQueryDataAvailable function [WinINet], _inet_internetquerydataavailable_function, wininet.internetquerydataavailable, wininet/InternetQueryDataAvailable
 ms.topic: function
+f1_keywords: ["wininet/InternetQueryDataAvailable"]
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows

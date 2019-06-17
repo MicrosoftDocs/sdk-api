@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9Video, IDirect3DDevice9Video interface [Media Foundation], IDirect3DDevice9Video interface [Media Foundation],described, d3d9/IDirect3DDevice9Video, mf.idirect3ddevice9video
 ms.topic: interface
+f1_keywords: ["d3d9/IDirect3DDevice9Video"]
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

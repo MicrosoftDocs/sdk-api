@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameDel, NetMessageNameDel function [Network Management], _win32_netmessagenamedel, lmmsg/NetMessageNameDel, netmgmt.netmessagenamedel
 ms.topic: function
+f1_keywords: ["lmmsg/NetMessageNameDel"]
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

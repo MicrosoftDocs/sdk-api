@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ClearStoredMessages, ClearStoredMessages method [DXGI], ClearStoredMessages method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearStoredMessages method, IDXGIInfoQueue.ClearStoredMessages, IDXGIInfoQueue::ClearStoredMessages, direct3ddxgi.idxgiinfoqueue_clearstoredmessages, dxgidebug/IDXGIInfoQueue::ClearStoredMessages
 ms.topic: method
+f1_keywords: ["dxgidebug/IDXGIInfoQueue.ClearStoredMessages"]
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

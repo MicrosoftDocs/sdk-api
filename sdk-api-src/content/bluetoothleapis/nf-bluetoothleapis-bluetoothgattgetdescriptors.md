@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTGetDescriptors, BluetoothGATTGetDescriptors function [Bluetooth Devices], bltooth.bluetoothgattgetdescriptors, bluetoothleapis/BluetoothGATTGetDescriptors
 ms.topic: function
+f1_keywords: ["bluetoothleapis/BluetoothGATTGetDescriptors"]
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

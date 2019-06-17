@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PQUOTA_LIMITS, PQUOTA_LIMITS, PQUOTA_LIMITS structure pointer [Security], QUOTA_LIMITS, QUOTA_LIMITS structure [Security], _QUOTA_LIMITS, _lsa_quota_limits, security.quota_limits, winnt/PQUOTA_LIMITS, winnt/QUOTA_LIMITS"
 ms.topic: struct
+f1_keywords: ["winnt/QUOTA_LIMITS"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

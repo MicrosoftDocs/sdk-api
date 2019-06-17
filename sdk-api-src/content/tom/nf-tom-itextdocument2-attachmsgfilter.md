@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachMsgFilter, AttachMsgFilter method [Windows Controls], AttachMsgFilter method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],AttachMsgFilter method, ITextDocument2.AttachMsgFilter, ITextDocument2::AttachMsgFilter, controls.itextdocument2_attachmsgfilter, tom/ITextDocument2::AttachMsgFilter
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.AttachMsgFilter"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

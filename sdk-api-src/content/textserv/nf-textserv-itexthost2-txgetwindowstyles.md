@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindowStyles method, ITextHost2.TxGetWindowStyles, ITextHost2::TxGetWindowStyles, TxGetWindowStyles, TxGetWindowStyles method [Windows Controls], TxGetWindowStyles method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindowstyles, textserv/ITextHost2::TxGetWindowStyles
 ms.topic: method
+f1_keywords: ["textserv/ITextHost2.TxGetWindowStyles"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Static_Enable, Static_Enable macro [Windows Controls], _win32_Static_Enable, _win32_Static_Enable_cpp, controls.Static_Enable, controls._win32_Static_Enable, windowsx/Static_Enable
 ms.topic: macro
+f1_keywords: ["windowsx/Static_Enable"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

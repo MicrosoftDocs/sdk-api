@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ElapsedTime property [Fax Service], ElapsedTime property [Fax Service],IFaxStatus interface, IFaxStatus interface [Fax Service],ElapsedTime property, IFaxStatus.ElapsedTime, IFaxStatus.get_ElapsedTime, IFaxStatus::ElapsedTime, IFaxStatus::get_ElapsedTime, _mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_get_elapsedtime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_elapsedtime_cpp, faxcom/IFaxStatus::ElapsedTime, faxcom/IFaxStatus::get_ElapsedTime, get_ElapsedTime
 ms.topic: method
+f1_keywords: ["faxcom/IFaxStatus.ElapsedTime"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

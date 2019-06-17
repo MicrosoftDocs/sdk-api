@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINNLSEnableIME, WINNLSEnableIME function [Windows API], _win32_WINNLSEnableIME, winnls32/WINNLSEnableIME, winprog._win32_winnlsenableime, winui._win32_winnlsenableime
 ms.topic: function
+f1_keywords: ["winnls32/WINNLSEnableIME"]
 req.header: winnls32.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDisconnectedSession, GetDisconnectedSession method [Remote Desktop Services], GetDisconnectedSession method [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],GetDisconnectedSession method, ITsSbClientConnection.GetDisconnectedSession, ITsSbClientConnection::GetDisconnectedSession, sbtsv/ITsSbClientConnection::GetDisconnectedSession, termserv.itssbclientconnection_getdisconnectedsession
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbClientConnection.GetDisconnectedSession"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

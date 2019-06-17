@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsAccelerator, IsAccelerator function [COM], _com_IsAccelerator, com.isaccelerator, ole2/IsAccelerator
 ms.topic: function
+f1_keywords: ["ole2/IsAccelerator"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Name method, IFont.put_Name, IFont::put_Name, _ctrl_ifont_put_name, com.ifont_put_name, ocidl/IFont::put_Name, put_Name, put_Name method [COM], put_Name method [COM],IFont interface
 ms.topic: method
+f1_keywords: ["ocidl/IFont.put_Name"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

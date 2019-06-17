@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
 ms.topic: function
+f1_keywords: ["ws2tcpip/WSADeleteSocketPeerTargetName"]
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

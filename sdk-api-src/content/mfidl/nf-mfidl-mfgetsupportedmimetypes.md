@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes
 ms.topic: function
+f1_keywords: ["mfidl/MFGetSupportedMimeTypes"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

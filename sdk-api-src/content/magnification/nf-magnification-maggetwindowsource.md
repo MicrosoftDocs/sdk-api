@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowSource, MagGetWindowSource function [Magnification API], magapi.magapi_MagGetWindowSource, magapi_MagGetWindowSource, magnification/MagGetWindowSource
 ms.topic: function
+f1_keywords: ["magnification/MagGetWindowSource"]
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

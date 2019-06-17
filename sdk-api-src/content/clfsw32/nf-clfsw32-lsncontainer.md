@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LsnContainer, LsnContainer function [Files], clfsw32/LsnContainer, fs.lsncontainer
 ms.topic: function
+f1_keywords: ["clfsw32/LsnContainer"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
 ms.topic: function
+f1_keywords: ["winnt/MultiplyHigh"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

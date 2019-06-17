@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiDestroyDeviceInfoList, SetupDiDestroyDeviceInfoList function [Device and Driver Installation], devinst.setupdidestroydeviceinfolist, di-rtns_f8a4a633-46fd-4d3f-81dc-68920ccebfd9.xml, setupapi/SetupDiDestroyDeviceInfoList
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiDestroyDeviceInfoList"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UpdateType, UpdateType enumeration [Windows Update Agent], utDriver, utSoftware, wua.updatetype, wuapi/UpdateType, wuapi/utDriver, wuapi/utSoftware
 ms.topic: enum
+f1_keywords: ["wuapi/UpdateType"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

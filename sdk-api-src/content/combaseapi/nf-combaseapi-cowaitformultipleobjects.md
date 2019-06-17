@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoWaitForMultipleObjects, CoWaitForMultipleObjects function [COM], com.cowaitformultipleobjects, combaseapi/CoWaitForMultipleObjects
 ms.topic: function
+f1_keywords: ["combaseapi/CoWaitForMultipleObjects"]
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows

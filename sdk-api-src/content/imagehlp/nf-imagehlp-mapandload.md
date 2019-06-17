@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MapAndLoad, MapAndLoad function, _win32_mapandload, base.mapandload, imagehlp/MapAndLoad
 ms.topic: function
+f1_keywords: ["imagehlp/MapAndLoad"]
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

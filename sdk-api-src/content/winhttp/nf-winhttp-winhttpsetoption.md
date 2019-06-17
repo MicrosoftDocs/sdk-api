@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinHttpSetOption, WinHttpSetOption function [WinHTTP], http.winhttpsetoption, winhttp.winhttpsetoption_function, winhttp/WinHttpSetOption
 ms.topic: function
+f1_keywords: ["winhttp/WinHttpSetOption"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

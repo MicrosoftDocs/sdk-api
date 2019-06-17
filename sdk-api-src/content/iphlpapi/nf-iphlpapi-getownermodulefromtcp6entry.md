@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetOwnerModuleFromTcp6Entry, GetOwnerModuleFromTcp6Entry function [IP Helper], iphlp.getownermodulefromtcp6entry, iphlpapi/GetOwnerModuleFromTcp6Entry
 ms.topic: function
+f1_keywords: ["iphlpapi/GetOwnerModuleFromTcp6Entry"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

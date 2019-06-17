@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_GetSel, ListBox_GetSel macro [Windows Controls], _win32_ListBox_GetSel, _win32_ListBox_GetSel_cpp, controls.ListBox_GetSel, controls._win32_ListBox_GetSel, windowsx/ListBox_GetSel
 ms.topic: macro
+f1_keywords: ["windowsx/ListBox_GetSel"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DXGI_INFO_QUEUE_MESSAGE, DXGI_INFO_QUEUE_MESSAGE structure [DXGI], direct3ddxgi.dxgi_info_queue_message, dxgidebug/DXGI_INFO_QUEUE_MESSAGE
 ms.topic: struct
+f1_keywords: ["dxgidebug/DXGI_INFO_QUEUE_MESSAGE"]
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows

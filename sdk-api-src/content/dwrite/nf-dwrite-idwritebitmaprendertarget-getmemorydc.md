@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMemoryDC, GetMemoryDC method [Direct Write], GetMemoryDC method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetMemoryDC method, IDWriteBitmapRenderTarget.GetMemoryDC, IDWriteBitmapRenderTarget::GetMemoryDC, directwrite.IDWriteBitmapRenderTarget_GetMemoryDC, dwrite/IDWriteBitmapRenderTarget::GetMemoryDC
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteBitmapRenderTarget.GetMemoryDC"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

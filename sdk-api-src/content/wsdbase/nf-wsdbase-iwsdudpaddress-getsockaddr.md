@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSockaddr, GetSockaddr method, GetSockaddr method,IWSDUdpAddress interface, IWSDUdpAddress interface,GetSockaddr method, IWSDUdpAddress.GetSockaddr, IWSDUdpAddress::GetSockaddr, ncd.iwsdudpaddress_getsockaddr, wsdbase/IWSDUdpAddress::GetSockaddr
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDUdpAddress.GetSockaddr"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

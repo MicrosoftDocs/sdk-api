@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RM_SEND_WINDOW, RM_SEND_WINDOW structure [Winsock], winsock.rm_send_window, wsrm/RM_SEND_WINDOW
 ms.topic: struct
+f1_keywords: ["wsrm/RM_SEND_WINDOW"]
 req.header: wsrm.h
 req.include-header: 
 req.target-type: Windows

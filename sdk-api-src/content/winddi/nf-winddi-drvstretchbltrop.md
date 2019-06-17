@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvStretchBltROP, DrvStretchBltROP function [Display Devices], ddifncs_c25f3aa6-9564-4189-b956-51cd2729576c.xml, display.drvstretchbltrop, winddi/DrvStretchBltROP
 ms.topic: function
+f1_keywords: ["winddi/DrvStretchBltROP"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

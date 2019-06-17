@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.ReleaseVarDesc, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
 ms.topic: method
+f1_keywords: ["oaidl/ITypeInfo.ReleaseVarDesc"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

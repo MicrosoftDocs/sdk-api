@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ES_AWAYMODE_REQUIRED, ES_CONTINUOUS, ES_DISPLAY_REQUIRED, ES_SYSTEM_REQUIRED, ES_USER_PRESENT, SetThreadExecutionState, SetThreadExecutionState function, _win32_setthreadexecutionstate, base.setthreadexecutionstate, winbase/SetThreadExecutionState
 ms.topic: function
+f1_keywords: ["winbase/SetThreadExecutionState"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

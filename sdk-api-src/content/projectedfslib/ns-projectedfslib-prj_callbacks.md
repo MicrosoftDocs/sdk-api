@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_CALLBACKS, PRJ_CALLBACKS structure, ProjFS.prj_callbacks, projectedfslib/PRJ_CALLBACKS
 ms.topic: struct
+f1_keywords: ["projectedfslib/PRJ_CALLBACKS"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

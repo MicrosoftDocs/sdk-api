@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanHostedNetworkStartUsing, WlanHostedNetworkStartUsing function [NativeWIFI], nwifi.wlanhostednetworkstartusing, wlanapi/WlanHostedNetworkStartUsing
 ms.topic: function
+f1_keywords: ["wlanapi/WlanHostedNetworkStartUsing"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

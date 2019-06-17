@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertEncodeAltName interface [Security],described, _certsrv_icertencodealtname, certenc/ICertEncodeAltName, security.icertencodealtname
 ms.topic: interface
+f1_keywords: ["certenc/ICertEncodeAltName"]
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

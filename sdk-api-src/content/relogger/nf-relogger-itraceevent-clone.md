@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [ETW], Clone method [ETW],ITraceEvent interface, ITraceEvent interface [ETW],Clone method, ITraceEvent.Clone, ITraceEvent::Clone, etw.ievent_clone, relogger/ITraceEvent::Clone
 ms.topic: method
+f1_keywords: ["relogger/ITraceEvent.Clone"]
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows

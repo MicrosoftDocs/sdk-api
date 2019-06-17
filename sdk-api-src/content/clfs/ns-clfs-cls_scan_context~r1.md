@@ -4,6 +4,7 @@ title: CLS_SCAN_CONTEXT
 ms.date: 01/30/19
 ms.keywords: _CLS_SCAN_CONTEXT, CLS_SCAN_CONTEXT
 ms.topic: language-reference
+f1_keywords: ["clfs/_CLS_SCAN_CONTEXT"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

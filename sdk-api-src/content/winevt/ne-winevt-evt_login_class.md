@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_LOGIN_CLASS, EvtRpcLogin, _EVT_LOGIN_CLASS, _EVT_LOGIN_CLASS enumeration [EventLog], wes.evt_login_class, winevt/EvtRpcLogin, winevt/_EVT_LOGIN_CLASS
 ms.topic: enum
+f1_keywords: ["winevt/EVT_LOGIN_CLASS"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

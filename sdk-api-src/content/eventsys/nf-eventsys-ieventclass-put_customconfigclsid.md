@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CustomConfigCLSID property [COM+], CustomConfigCLSID property [COM+],IEventClass interface, IEventClass interface [COM+],CustomConfigCLSID property, IEventClass.CustomConfigCLSID, IEventClass.put_CustomConfigCLSID, IEventClass::CustomConfigCLSID, IEventClass::get_CustomConfigCLSID, IEventClass::put_CustomConfigCLSID, cos.ieventclass_customconfigclsid, eventsys/IEventClass::CustomConfigCLSID, eventsys/IEventClass::get_CustomConfigCLSID, eventsys/IEventClass::put_CustomConfigCLSID, put_CustomConfigCLSID
 ms.topic: method
+f1_keywords: ["eventsys/IEventClass.CustomConfigCLSID"]
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

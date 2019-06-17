@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpFreePdu, SnmpFreePdu function [SNMP], _snmp_snmpfreepdu, snmp.snmpfreepdu, winsnmp/SnmpFreePdu
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpFreePdu"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

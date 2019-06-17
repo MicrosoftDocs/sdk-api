@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpRpcFreeMemory, DhcpRpcFreeMemory function [DHCP], dhcp.dhcprpcfreememory, dhcpsapi/DhcpRpcFreeMemory
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpRpcFreeMemory"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

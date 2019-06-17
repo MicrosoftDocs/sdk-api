@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryTrace, QueryTrace function [ETW], QueryTraceA, QueryTraceW, _evt_querytrace, base.querytrace, etw.querytrace, evntrace/QueryTrace, evntrace/QueryTraceA, evntrace/QueryTraceW
 ms.topic: macro
+f1_keywords: ["evntrace/QueryTrace"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

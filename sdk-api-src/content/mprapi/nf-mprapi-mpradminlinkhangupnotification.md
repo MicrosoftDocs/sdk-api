@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminLinkHangupNotification, MprAdminLinkHangupNotification callback, MprAdminLinkHangupNotification callback function [RAS], _mpr_mpradminlinkhangupnotification, mprapi/MprAdminLinkHangupNotification, rras.mpradminlinkhangupnotification
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminLinkHangupNotification"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXHR_COOKIE, PXHR_COOKIE structure pointer [XMLHttpRequest2], XHR_COOKIE, XHR_COOKIE structure [XMLHttpRequest2], XHR_COOKIE_APPLY_P3P, XHR_COOKIE_EVALUATE_P3P, XHR_COOKIE_HTTPONLY, XHR_COOKIE_IE6, XHR_COOKIE_IS_LEGACY, XHR_COOKIE_IS_RESTRICTED, XHR_COOKIE_IS_SECURE, XHR_COOKIE_IS_SESSION, XHR_COOKIE_NON_SCRIPT, XHR_COOKIE_PROMPT_REQUIRED, XHR_COOKIE_THIRD_PARTY, ixhr2.xhr_cookie, msxml6/PXHR_COOKIE, msxml6/XHR_COOKIE, tagXHR_COOKIE
 ms.topic: struct
+f1_keywords: ["msxml6/XHR_COOKIE"]
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTP_CLEANUP_GROUP_CANCEL_CALLBACK, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback function, base.cleanupgroupcancelcallback, winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 ms.topic: callback
+f1_keywords: ["winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

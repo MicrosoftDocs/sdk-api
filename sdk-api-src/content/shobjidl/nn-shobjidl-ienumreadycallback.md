@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], IEnumReadyCallback interface [Windows Shell],described, _shell_IEnumReadyCallback, shell.IEnumReadyCallback, shobjidl/IEnumReadyCallback
 ms.topic: interface
+f1_keywords: ["shobjidl/IEnumReadyCallback"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

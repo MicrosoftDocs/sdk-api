@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelIo, CancelIo method [Windows Shell], CancelIo method [Windows Shell],IStreamAsync interface, IStreamAsync interface [Windows Shell],CancelIo method, IStreamAsync.CancelIo, IStreamAsync::CancelIo, _shell_IStreamAsync_CancelIo, shell.IStreamAsync_CancelIo, shobjidl/IStreamAsync::CancelIo
 ms.topic: method
+f1_keywords: ["shobjidl/IStreamAsync.CancelIo"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

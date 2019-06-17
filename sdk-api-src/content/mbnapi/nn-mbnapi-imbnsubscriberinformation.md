@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Microsoft Broadband Networks], IMbnSubscriberInformation interface [Microsoft Broadband Networks],described, mbn.imbnsubscriberinformation, mbnapi/IMbnSubscriberInformation
 ms.topic: interface
+f1_keywords: ["mbnapi/IMbnSubscriberInformation"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

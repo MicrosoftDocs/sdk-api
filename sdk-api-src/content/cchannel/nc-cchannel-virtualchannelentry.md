@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualChannelEntry, VirtualChannelEntry callback, VirtualChannelEntry callback function [Remote Desktop Services], _win32_virtualchannelentry, cchannel/VirtualChannelEntry, termserv.virtualchannelentry
 ms.topic: callback
+f1_keywords: ["cchannel/VirtualChannelEntry"]
 req.header: cchannel.h
 req.include-header: 
 req.target-type: Windows

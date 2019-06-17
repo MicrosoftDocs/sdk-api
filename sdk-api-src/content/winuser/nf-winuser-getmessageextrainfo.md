@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMessageExtraInfo, GetMessageExtraInfo function [Windows and Messages], _win32_GetMessageExtraInfo, _win32_getmessageextrainfo_cpp, winmsg.getmessageextrainfo, winui._win32_getmessageextrainfo, winuser/GetMessageExtraInfo
 ms.topic: function
+f1_keywords: ["winuser/GetMessageExtraInfo"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

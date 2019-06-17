@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreUInt2, XMStoreUInt2, XMStoreUInt2 method [DirectX Math Support APIs], dxmath.xmstoreuint2
 ms.topic: function
+f1_keywords: ["directxmath/XMStoreUInt2"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

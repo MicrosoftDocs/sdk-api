@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFHeapFree, MFHeapFree function [Media Foundation], c4a03a20-5398-4fe0-9a1f-3bc162c624cd, mf.mfheapfree, mfapi/MFHeapFree
 ms.topic: function
+f1_keywords: ["mfapi/MFHeapFree"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

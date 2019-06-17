@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedStoragePools method, IVdsStoragePool.QueryAllocatedStoragePools, IVdsStoragePool::QueryAllocatedStoragePools, QueryAllocatedStoragePools, QueryAllocatedStoragePools method, QueryAllocatedStoragePools method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedstoragepools, vds/IVdsStoragePool::QueryAllocatedStoragePools, vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools
 ms.topic: method
+f1_keywords: ["vds/IVdsStoragePool.QueryAllocatedStoragePools"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

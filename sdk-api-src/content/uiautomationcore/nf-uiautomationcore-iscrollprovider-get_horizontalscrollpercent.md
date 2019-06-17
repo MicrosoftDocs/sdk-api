@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HorizontalScrollPercent property [Windows Accessibility], HorizontalScrollPercent property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontalScrollPercent property, IScrollProvider.HorizontalScrollPercent, IScrollProvider.get_HorizontalScrollPercent, IScrollProvider::HorizontalScrollPercent, IScrollProvider::get_HorizontalScrollPercent, get_HorizontalScrollPercent, uiauto.uiauto_IScrollProvider_HorizontalScrollPercent, uiauto_IScrollProvider_HorizontalScrollPercent, uiautomationcore/IScrollProvider::HorizontalScrollPercent, uiautomationcore/IScrollProvider::get_HorizontalScrollPercent, winauto.uiauto_IScrollProvider_HorizontalScrollPercent
 ms.topic: method
+f1_keywords: ["uiautomationcore/IScrollProvider.HorizontalScrollPercent"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

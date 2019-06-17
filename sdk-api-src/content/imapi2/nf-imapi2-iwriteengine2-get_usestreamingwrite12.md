@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_UseStreamingWrite12 method, IWriteEngine2.get_UseStreamingWrite12, IWriteEngine2::get_UseStreamingWrite12, get_UseStreamingWrite12, get_UseStreamingWrite12 method [IMAPI], get_UseStreamingWrite12 method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_usestreamingwrite12, imapi2/IWriteEngine2::get_UseStreamingWrite12
 ms.topic: method
+f1_keywords: ["imapi2/IWriteEngine2.get_UseStreamingWrite12"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

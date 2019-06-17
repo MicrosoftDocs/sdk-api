@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminAcceptReauthenticationEx, MprAdminAcceptReauthenticationEx callback, MprAdminAcceptReauthenticationEx callback function [RAS], mprapi/MprAdminAcceptReauthenticationEx, rras.mpradminacceptreauthenticationex
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminAcceptReauthenticationEx"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

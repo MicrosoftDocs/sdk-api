@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection interface [COM+],Item property, IEventObjectCollection.Item, IEventObjectCollection.get_Item, IEventObjectCollection::Item, IEventObjectCollection::get_Item, Item property [COM+], Item property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_item, eventsys/IEventObjectCollection::Item, eventsys/IEventObjectCollection::get_Item, get_Item
 ms.topic: method
+f1_keywords: ["eventsys/IEventObjectCollection.Item"]
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows

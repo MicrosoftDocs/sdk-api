@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ReceiptType property, IFaxOutgoingJob.ReceiptType, IFaxOutgoingJob.get_ReceiptType, IFaxOutgoingJob::ReceiptType, IFaxOutgoingJob::get_ReceiptType, ReceiptType property [Fax Service], ReceiptType property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.receipttype, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_receipttype_cpp, fax._mfax_faxoutgoingjob_receipttype, faxcomex/IFaxOutgoingJob::ReceiptType, faxcomex/IFaxOutgoingJob::get_ReceiptType, get_ReceiptType
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.ReceiptType"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

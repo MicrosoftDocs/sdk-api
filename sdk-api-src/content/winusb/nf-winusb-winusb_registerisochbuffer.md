@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinUsb_RegisterIsochBuffer, WinUsb_RegisterIsochBuffer function [Buses], buses.winusb_registerisochbuffer, winusb/WinUsb_RegisterIsochBuffer
 ms.topic: function
+f1_keywords: ["winusb/WinUsb_RegisterIsochBuffer"]
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

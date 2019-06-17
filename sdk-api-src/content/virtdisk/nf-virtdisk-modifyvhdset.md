@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
 ms.topic: function
+f1_keywords: ["virtdisk/ModifyVhdSet"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

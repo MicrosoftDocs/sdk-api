@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayNameUnresolved property [PLA], DisplayNameUnresolved property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DisplayNameUnresolved property, IDataCollectorSet.DisplayNameUnresolved, IDataCollectorSet.get_DisplayNameUnresolved, IDataCollectorSet::DisplayNameUnresolved, IDataCollectorSet::get_DisplayNameUnresolved, get_DisplayNameUnresolved, pla.idatacollectorset_displaynameunresolved, pla/IDataCollectorSet::DisplayNameUnresolved, pla/IDataCollectorSet::get_DisplayNameUnresolved
 ms.topic: method
+f1_keywords: ["pla/IDataCollectorSet.DisplayNameUnresolved"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

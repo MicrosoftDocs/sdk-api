@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 79a5c13b-e6bb-ddae-ebd4-aa756cc5a746, D3D11_TEX1D_ARRAY_DSV, D3D11_TEX1D_ARRAY_DSV structure [Direct3D 11], d3d11/D3D11_TEX1D_ARRAY_DSV, direct3d11.d3d11_tex1d_array_dsv
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_TEX1D_ARRAY_DSV"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

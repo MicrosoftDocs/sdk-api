@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIALLOC, FNFCIALLOC macro [Windows API], fci/FNFCIALLOC, winprog.fnfcialloc
 ms.topic: macro
+f1_keywords: ["fci/FNFCIALLOC"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

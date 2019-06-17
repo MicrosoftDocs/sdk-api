@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetUInt32Array, GetUInt32Array method [Windows Runtime], GetUInt32Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt32Array method, IPropertyValue.GetUInt32Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt32Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt32Array, winrt.ipropertyvalue_getuint32array
 ms.topic: method
+f1_keywords: ["windows.foundation/IPropertyValue.GetUInt32Array"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

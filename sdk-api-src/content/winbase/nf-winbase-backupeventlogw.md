@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BackupEventLog, BackupEventLog function, BackupEventLogA, BackupEventLogW, _win32_backupeventlog, base.backupeventlog, winbase/BackupEventLog, winbase/BackupEventLogA, winbase/BackupEventLogW
 ms.topic: function
+f1_keywords: ["winbase/BackupEventLog"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

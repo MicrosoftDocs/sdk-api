@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetObjectIDsFromPersistentUniqueIDs, GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK], GetObjectIDsFromPersistentUniqueIDs method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],GetObjectIDsFromPersistentUniqueIDs method, IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, IPortableDeviceContentGetObjectIDsFromPersistentUniqueIDs, portabledeviceapi/IPortableDeviceContent::GetObjectIDsFromPersistentUniqueIDs, wpdsdk.iportabledevicecontent_getobjectidsfrompersistentuniqueids
 ms.topic: method
+f1_keywords: ["portabledeviceapi/IPortableDeviceContent.GetObjectIDsFromPersistentUniqueIDs"]
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

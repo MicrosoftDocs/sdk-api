@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarCyMulI8, VarCyMulI8 function [Automation], _oa96_VarCyMulI8, automat.varcymuli8, oleauto/VarCyMulI8
 ms.topic: function
+f1_keywords: ["oleauto/VarCyMulI8"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

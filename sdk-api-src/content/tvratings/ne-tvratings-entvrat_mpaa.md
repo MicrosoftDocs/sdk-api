@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnTvRat_MPAA, EnTvRat_MPAA enumeration [Microsoft TV Technologies], MPAA_G, MPAA_NC17, MPAA_NotApplicable, MPAA_NotRated, MPAA_PG, MPAA_PG13, MPAA_R, MPAA_X, mstv.entvrat_mpaa, tvratings/EnTvRat_MPAA, tvratings/MPAA_G, tvratings/MPAA_NC17, tvratings/MPAA_NotApplicable, tvratings/MPAA_NotRated, tvratings/MPAA_PG, tvratings/MPAA_PG13, tvratings/MPAA_R, tvratings/MPAA_X
 ms.topic: enum
+f1_keywords: ["tvratings/EnTvRat_MPAA"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgSyncOffset method, IQualProp.get_AvgSyncOffset, IQualProp::get_AvgSyncOffset, IQualPropget_AvgSyncOffset, amvideo/IQualProp::get_AvgSyncOffset, dshow.iqualprop_get_avgsyncoffset, get_AvgSyncOffset, get_AvgSyncOffset method [DirectShow], get_AvgSyncOffset method [DirectShow],IQualProp interface
 ms.topic: method
+f1_keywords: ["amvideo/IQualProp.get_AvgSyncOffset"]
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows

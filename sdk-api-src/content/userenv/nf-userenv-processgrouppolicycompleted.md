@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessGroupPolicyCompleted, ProcessGroupPolicyCompleted function [Group Policy], _win32_processgrouppolicycompleted, policy.processgrouppolicycompleted, userenv/ProcessGroupPolicyCompleted
 ms.topic: function
+f1_keywords: ["userenv/ProcessGroupPolicyCompleted"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
 ms.topic: function
+f1_keywords: ["wofapi/WofWimUpdateEntry"]
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

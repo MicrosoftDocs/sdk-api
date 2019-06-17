@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillRectangle, FillRectangle method [Direct2D], FillRectangle method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],FillRectangle method, ID2D1CommandSink.FillRectangle, ID2D1CommandSink::FillRectangle, d2d1_1/ID2D1CommandSink::FillRectangle, direct2d.id2d1commandsink_fillrectangle
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1CommandSink.FillRectangle"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOleContainer, IOleContainer interface [COM], IOleContainer interface [COM],described, _ole_iolecontainer, com.iolecontainer, oleidl/IOleContainer
 ms.topic: interface
+f1_keywords: ["oleidl/IOleContainer"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

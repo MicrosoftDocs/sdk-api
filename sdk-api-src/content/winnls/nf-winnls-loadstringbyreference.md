@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LoadStringByReference, LoadStringByReference function [Internationalization for Windows Applications], intl.loadstringbyreference, winnls/LoadStringByReference
 ms.topic: function
+f1_keywords: ["winnls/LoadStringByReference"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

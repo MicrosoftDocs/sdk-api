@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresource, xpsobjectmodel/IXpsOMSignatureBlockResource
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMSignatureBlockResource"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

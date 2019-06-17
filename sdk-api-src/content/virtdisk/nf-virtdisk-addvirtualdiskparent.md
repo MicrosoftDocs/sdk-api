@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddVirtualDiskParent, AddVirtualDiskParent function [Virtual Storage], virtdisk/AddVirtualDiskParent, vstor.addvirtualdiskparent
 ms.topic: function
+f1_keywords: ["virtdisk/AddVirtualDiskParent"]
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

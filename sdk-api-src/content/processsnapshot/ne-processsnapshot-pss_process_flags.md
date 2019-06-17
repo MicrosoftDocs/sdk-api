@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_PROCESS_FLAGS, PSS_PROCESS_FLAGS enumeration, PSS_PROCESS_FLAGS_FROZEN, PSS_PROCESS_FLAGS_NONE, PSS_PROCESS_FLAGS_PROTECTED, PSS_PROCESS_FLAGS_RESERVED_03, PSS_PROCESS_FLAGS_RESERVED_04, PSS_PROCESS_FLAGS_WOW64, proc_snap.pss_process_flags, processsnapshot/PSS_PROCESS_FLAGS, processsnapshot/PSS_PROCESS_FLAGS_FROZEN, processsnapshot/PSS_PROCESS_FLAGS_NONE, processsnapshot/PSS_PROCESS_FLAGS_PROTECTED, processsnapshot/PSS_PROCESS_FLAGS_RESERVED_03, processsnapshot/PSS_PROCESS_FLAGS_RESERVED_04, processsnapshot/PSS_PROCESS_FLAGS_WOW64
 ms.topic: enum
+f1_keywords: ["processsnapshot/PSS_PROCESS_FLAGS"]
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

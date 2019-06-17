@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UnRegisterTypeLibForUser, UnRegisterTypeLibForUser function [Automation], _oa96_UnRegisterTypeLibForUser, automat.unregistertypelibforuser, oleauto/UnRegisterTypeLibForUser
 ms.topic: function
+f1_keywords: ["oleauto/UnRegisterTypeLibForUser"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFNetCrossOriginSupport, IMFNetCrossOriginSupport interface [Media Foundation], IMFNetCrossOriginSupport interface [Media Foundation],described, mf.imfnetcrossoriginsupport, mfidl/IMFNetCrossOriginSupport
 ms.topic: interface
+f1_keywords: ["mfidl/IMFNetCrossOriginSupport"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

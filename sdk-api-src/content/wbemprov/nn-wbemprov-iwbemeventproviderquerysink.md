@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderQuerySink, IWbemEventProviderQuerySink interface [Windows Management Instrumentation], IWbemEventProviderQuerySink interface [Windows Management Instrumentation],described, _hmm_iwbemeventproviderquerysink, wbemprov/IWbemEventProviderQuerySink, wmi.iwbemeventproviderquerysink
 ms.topic: interface
+f1_keywords: ["wbemprov/IWbemEventProviderQuerySink"]
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioInitialize, xaudio2.x3daudioinitialize
 ms.topic: function
+f1_keywords: ["x3daudio/X3DAudioInitialize"]
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows

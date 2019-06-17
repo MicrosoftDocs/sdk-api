@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],IsMoveInSameFolder method, IFolderView2.IsMoveInSameFolder, IFolderView2::IsMoveInSameFolder, IsMoveInSameFolder, IsMoveInSameFolder method [Windows Shell], IsMoveInSameFolder method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_IsMoveInSameFolder, shell.IFolderView2_IsMoveInSameFolder, shobjidl_core/IFolderView2::IsMoveInSameFolder
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFolderView2.IsMoveInSameFolder"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterGPNotification, RegisterGPNotification function [Group Policy], _win32_registergpnotification, policy.registergpnotification, userenv/RegisterGPNotification
 ms.topic: function
+f1_keywords: ["userenv/RegisterGPNotification"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

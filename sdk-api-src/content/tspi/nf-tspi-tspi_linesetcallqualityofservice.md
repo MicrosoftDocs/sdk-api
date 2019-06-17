@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallQualityOfService, TSPI_lineSetCallQualityOfService function [TAPI 2.2], _tspi_tspi_linesetcallqualityofservice, tspi.tspi_linesetcallqualityofservice, tspi/TSPI_lineSetCallQualityOfService
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineSetCallQualityOfService"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

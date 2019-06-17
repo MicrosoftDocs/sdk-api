@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 42b1857d-92ee-456f-aafc-b8780526a137, SetContextPropertyValue, SetContextPropertyValue function [Tablet PC], recapis/SetContextPropertyValue, tablet.setcontextpropertyvalue
 ms.topic: function
+f1_keywords: ["recapis/SetContextPropertyValue"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

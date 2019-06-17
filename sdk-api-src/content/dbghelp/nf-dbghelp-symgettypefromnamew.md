@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetTypeFromName, SymGetTypeFromName function, SymGetTypeFromNameW, _win32_symgettypefromname, base.symgettypefromname, dbghelp/SymGetTypeFromName, dbghelp/SymGetTypeFromNameW
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetTypeFromName"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

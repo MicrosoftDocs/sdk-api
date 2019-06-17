@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSYNCMGR_CONFLICT_ID_INFO, PSYNCMGR_CONFLICT_ID_INFO, PSYNCMGR_CONFLICT_ID_INFO structure pointer [Windows Shell], SYNCMGR_CONFLICT_ID_INFO, SYNCMGR_CONFLICT_ID_INFO structure [Windows Shell], _shell_SYNCMGR_CONFLICT_ID_INFO, shell.SYNCMGR_CONFLICT_ID_INFO, syncmgr/PSYNCMGR_CONFLICT_ID_INFO, syncmgr/SYNCMGR_CONFLICT_ID_INFO"
 ms.topic: struct
+f1_keywords: ["syncmgr/SYNCMGR_CONFLICT_ID_INFO"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

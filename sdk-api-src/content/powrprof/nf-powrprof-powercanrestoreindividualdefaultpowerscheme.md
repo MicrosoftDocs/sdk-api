@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerCanRestoreIndividualDefaultPowerScheme, PowerCanRestoreIndividualDefaultPowerScheme function, base.powercanrestoreindividualdefaultpowerscheme, powrprof/PowerCanRestoreIndividualDefaultPowerScheme
 ms.topic: function
+f1_keywords: ["powrprof/PowerCanRestoreIndividualDefaultPowerScheme"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig, IVPBaseConfig interface [DirectShow], IVPBaseConfig interface [DirectShow],described, IVPBaseConfigInterface, dshow.ivpbaseconfig, vpconfig/IVPBaseConfig
 ms.topic: interface
+f1_keywords: ["vpconfig/IVPBaseConfig"]
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows

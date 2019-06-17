@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GPMBackupType, GPMBackupType enumeration [GPMC], gpmc.gpmbackuptype, gpmgmt/GPMBackupType, gpmgmt/typeGPO, gpmgmt/typeStarterGPO, typeGPO, typeStarterGPO
 ms.topic: enum
+f1_keywords: ["gpmgmt/GPMBackupType"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

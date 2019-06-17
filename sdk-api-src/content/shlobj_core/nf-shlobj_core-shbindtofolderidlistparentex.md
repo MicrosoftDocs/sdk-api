@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHBindToFolderIDListParentEx, SHBindToFolderIDListParentEx function [Windows Shell], _shell_SHBindToFolderIDListParentEx, shell.SHBindToFolderIDListParentEx, shlobj_core/SHBindToFolderIDListParentEx
 ms.topic: function
+f1_keywords: ["shlobj_core/SHBindToFolderIDListParentEx"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

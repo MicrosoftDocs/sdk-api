@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLObject interface,SetName method, IDMLObject.SetName, IDMLObject::SetName, SetName, SetName method, SetName method,IDMLObject interface, direct3d12.idmlobject_setname, directml/IDMLObject::SetName
 ms.topic: method
+f1_keywords: ["directml/IDMLObject.SetName"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

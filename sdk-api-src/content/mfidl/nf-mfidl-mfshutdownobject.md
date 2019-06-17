@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
 ms.topic: function
+f1_keywords: ["mfidl/MFShutdownObject"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

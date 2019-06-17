@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENPROTECTED, ENPROTECTED structure [Windows Controls], _win32_ENPROTECTED_str, _win32_ENPROTECTED_str_cpp, controls.ENPROTECTED, controls._win32_ENPROTECTED_str, richedit/ENPROTECTED
 ms.topic: struct
+f1_keywords: ["richedit/ENPROTECTED"]
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows

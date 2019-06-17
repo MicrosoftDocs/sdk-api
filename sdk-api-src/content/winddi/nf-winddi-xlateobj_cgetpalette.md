@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XLATEOBJ_cGetPalette, XLATEOBJ_cGetPalette function [Display Devices], display.xlateobj_cgetpalette, gdifncs_739e9529-598b-4489-85ff-0057e244617e.xml, winddi/XLATEOBJ_cGetPalette
 ms.topic: function
+f1_keywords: ["winddi/XLATEOBJ_cGetPalette"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

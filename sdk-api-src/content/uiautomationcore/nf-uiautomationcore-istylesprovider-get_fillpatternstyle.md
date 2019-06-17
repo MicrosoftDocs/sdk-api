@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillPatternStyle property [Windows Accessibility], FillPatternStyle property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillPatternStyle property, IStylesProvider.FillPatternStyle, IStylesProvider.get_FillPatternStyle, IStylesProvider::FillPatternStyle, IStylesProvider::get_FillPatternStyle, get_FillPatternStyle, uiautomationcore/IStylesProvider::FillPatternStyle, uiautomationcore/IStylesProvider::get_FillPatternStyle, winauto.uiauto_istylesprovider_fillpatternstyle
 ms.topic: method
+f1_keywords: ["uiautomationcore/IStylesProvider.FillPatternStyle"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

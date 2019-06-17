@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Next method, IProviderPropertyConstraintCollection.Next, IProviderPropertyConstraintCollection::Next, Next, Next method, Next method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Next, ncd.iproviderpropertyconstraintcollection_next
 ms.topic: method
+f1_keywords: ["functiondiscoveryprovider/IProviderPropertyConstraintCollection.Next"]
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

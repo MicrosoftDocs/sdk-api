@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method [windows Media Format], GetPropertyCount method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyCount method, INSSBuffer4.GetPropertyCount, INSSBuffer4::GetPropertyCount, INSSBuffer4GetPropertyCount, wmformat.inssbuffer4_getpropertycount, wmsbuffer/INSSBuffer4::GetPropertyCount
 ms.topic: method
+f1_keywords: ["wmsbuffer/INSSBuffer4.GetPropertyCount"]
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

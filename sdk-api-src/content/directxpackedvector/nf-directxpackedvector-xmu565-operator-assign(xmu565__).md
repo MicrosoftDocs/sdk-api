@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMU565 structure [DirectX Math Support APIs],operator = method, XMU565.operator =(const XMU565&), XMU565.operator-assign(XMU565 &&), XMU565.operator=, XMU565::operator-assign(XMU565 &&), XMU565::operator=, dxmath.xmu565_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMU565 structure, operator=
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMU565.operator ="]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

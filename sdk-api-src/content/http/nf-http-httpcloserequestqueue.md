@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCloseRequestQueue, HttpCloseRequestQueue function [HTTP], http.httpcloserequestqueue, http/HttpCloseRequestQueue
 ms.topic: function
+f1_keywords: ["http/HttpCloseRequestQueue"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

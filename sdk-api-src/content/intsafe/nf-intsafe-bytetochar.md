@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ByteToChar, ByteToChar function [Windows Shell], intsafe/ByteToChar, shell.ByteToChar
 ms.topic: function
+f1_keywords: ["intsafe/ByteToChar"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

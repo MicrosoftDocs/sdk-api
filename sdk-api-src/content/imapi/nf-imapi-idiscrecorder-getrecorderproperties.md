@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecorderProperties, GetRecorderProperties method [IMAPI], GetRecorderProperties method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderProperties method, IDiscRecorder.GetRecorderProperties, IDiscRecorder::GetRecorderProperties, _win32_idiscrecorder_getrecorderproperties, base.idiscrecorder_getrecorderproperties, imapi.idiscrecorder_getrecorderproperties, imapi/IDiscRecorder::GetRecorderProperties
 ms.topic: method
+f1_keywords: ["imapi/IDiscRecorder.GetRecorderProperties"]
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows

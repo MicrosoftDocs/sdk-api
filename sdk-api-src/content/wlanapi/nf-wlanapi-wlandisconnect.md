@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlanDisconnect, WlanDisconnect function [NativeWIFI], nwifi.wlandisconnect, wlanapi/WlanDisconnect
 ms.topic: function
+f1_keywords: ["wlanapi/WlanDisconnect"]
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

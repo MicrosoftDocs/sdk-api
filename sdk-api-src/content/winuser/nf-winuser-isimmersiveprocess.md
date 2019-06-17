@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsImmersiveProcess, IsImmersiveProcess function, base.isimmersiveprocess, winuser/IsImmersiveProcess
 ms.topic: function
+f1_keywords: ["winuser/IsImmersiveProcess"]
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows

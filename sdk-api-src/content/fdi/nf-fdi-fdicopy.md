@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FDICopy, FDICopy function [Windows API], fdi/FDICopy, winprog.fdicopy
 ms.topic: function
+f1_keywords: ["fdi/FDICopy"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

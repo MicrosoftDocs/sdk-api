@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMarshalSizeMax, GetMarshalSizeMax method [COM], GetMarshalSizeMax method [COM],IMarshal interface, IMarshal interface [COM],GetMarshalSizeMax method, IMarshal.GetMarshalSizeMax, IMarshal::GetMarshalSizeMax, _com_imarshal_getmarshalsizemax, com.imarshal_getmarshalsizemax, objidl/IMarshal::GetMarshalSizeMax
 ms.topic: method
+f1_keywords: ["objidl/IMarshal.GetMarshalSizeMax"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

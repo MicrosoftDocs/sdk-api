@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_VA_SPACE_ENTRY, PSS_VA_SPACE_ENTRY structure, proc_snap.pss_va_space_entry, processsnapshot/PSS_VA_SPACE_ENTRY
 ms.topic: struct
+f1_keywords: ["processsnapshot/PSS_VA_SPACE_ENTRY"]
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

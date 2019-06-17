@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDesktopWindow, GetDesktopWindow function [Windows and Messages], _win32_GetDesktopWindow, _win32_getdesktopwindow_cpp, winmsg.getdesktopwindow, winui._win32_getdesktopwindow, winuser/GetDesktopWindow
 ms.topic: function
+f1_keywords: ["winuser/GetDesktopWindow"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

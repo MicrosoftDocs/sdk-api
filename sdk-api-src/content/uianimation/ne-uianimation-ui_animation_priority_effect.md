@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_PRIORITY_EFFECT, UI_ANIMATION_PRIORITY_EFFECT enumeration [Windows Animation], UI_ANIMATION_PRIORITY_EFFECT_DELAY, UI_ANIMATION_PRIORITY_EFFECT_FAILURE, uianimation.ui_animation_priority_effect, uianimation/UI_ANIMATION_PRIORITY_EFFECT, uianimation/UI_ANIMATION_PRIORITY_EFFECT_DELAY, uianimation/UI_ANIMATION_PRIORITY_EFFECT_FAILURE
 ms.topic: enum
+f1_keywords: ["uianimation/UI_ANIMATION_PRIORITY_EFFECT"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

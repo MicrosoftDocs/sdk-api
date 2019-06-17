@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 70dc37c0-572d-e667-f7c1-fa365386d214, GetMemberTypeByIndex, GetMemberTypeByIndex method [Direct3D 11], GetMemberTypeByIndex method [Direct3D 11],ID3D11ShaderReflectionType interface, ID3D11ShaderReflectionType interface [Direct3D 11],GetMemberTypeByIndex method, ID3D11ShaderReflectionType.GetMemberTypeByIndex, ID3D11ShaderReflectionType::GetMemberTypeByIndex, d3d11shader/ID3D11ShaderReflectionType::GetMemberTypeByIndex, direct3d11.id3d11shaderreflectiontype_getmembertypebyindex
 ms.topic: method
+f1_keywords: ["d3d11shader/ID3D11ShaderReflectionType.GetMemberTypeByIndex"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

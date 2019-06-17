@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEventClass interface [COM+],TypeLib property, IEventClass.TypeLib, IEventClass.get_TypeLib, IEventClass::TypeLib, IEventClass::get_TypeLib, IEventClass::put_TypeLib, TypeLib property [COM+], TypeLib property [COM+],IEventClass interface, cos.ieventclass_typelib, eventsys/IEventClass::TypeLib, eventsys/IEventClass::get_TypeLib, eventsys/IEventClass::put_TypeLib, get_TypeLib
 ms.topic: method
+f1_keywords: ["eventsys/IEventClass.TypeLib"]
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

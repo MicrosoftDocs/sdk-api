@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRROUNDRECT, EMRROUNDRECT, EMRROUNDRECT structure [Windows GDI], PEMRROUNDRECT, PEMRROUNDRECT structure pointer [Windows GDI], _win32_EMRROUNDRECT_str, gdi.emrroundrect, wingdi/EMRROUNDRECT, wingdi/PEMRROUNDRECT"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRROUNDRECT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

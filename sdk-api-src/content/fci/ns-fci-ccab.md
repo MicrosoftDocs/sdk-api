@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure pointer [Windows API], fci/CCAB, fci/PCCAB, winprog.ccab"
 ms.topic: struct
+f1_keywords: ["fci/CCAB"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

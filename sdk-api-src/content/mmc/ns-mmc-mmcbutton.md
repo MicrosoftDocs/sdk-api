@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMMCBUTTON, LPMMCBUTTON, LPMMCBUTTON structure pointer [MMC], MMCBUTTON, MMCBUTTON structure [MMC], TBSTATE_CHECKED, TBSTATE_ENABLED, TBSTATE_HIDDEN, TBSTATE_INDETERMINATE, TBSTATE_PRESSED, TBSTYLE_BUTTON, TBSTYLE_CHECK, TBSTYLE_CHECKGROUP, TBSTYLE_GROUP, TBSTYLE_SEP, _slate_mmcbutton, mmc.mmcbutton, mmc/LPMMCBUTTON, mmc/MMCBUTTON"
 ms.topic: struct
+f1_keywords: ["mmc/MMCBUTTON"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

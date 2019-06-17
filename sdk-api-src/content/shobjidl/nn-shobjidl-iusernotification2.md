@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUserNotification2, IUserNotification2 interface [Windows Shell], IUserNotification2 interface [Windows Shell],described, _shell_IUserNotification2, shell.IUserNotification2, shobjidl/IUserNotification2
 ms.topic: interface
+f1_keywords: ["shobjidl/IUserNotification2"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfReportProviderProgress, CfReportProviderProgress function, cfapi/CfReportProviderProgress, cloudApi.cfreportproviderprogress
 ms.topic: function
+f1_keywords: ["cfapi/CfReportProviderProgress"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

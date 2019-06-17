@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedIsSelected property [Windows Accessibility], CachedIsSelected property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CachedIsSelected property, IUIAutomationSelectionItemPattern.CachedIsSelected, IUIAutomationSelectionItemPattern.get_CachedIsSelected, IUIAutomationSelectionItemPattern::CachedIsSelected, IUIAutomationSelectionItemPattern::get_CachedIsSelected, get_CachedIsSelected, uiauto.uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected, uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::CachedIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::get_CachedIsSelected, winauto.uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationSelectionItemPattern.CachedIsSelected"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

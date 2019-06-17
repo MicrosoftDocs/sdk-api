@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser, IShellBrowser interface [Windows Shell], IShellBrowser interface [Windows Shell],described, _win32_IShellBrowser, shell.IShellBrowser, shobjidl_core/IShellBrowser
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IShellBrowser"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

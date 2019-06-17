@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_CreateInstance, MI_Session_CreateInstance function [Windows Management Infrastructure (MI)], mi/MI_Session_CreateInstance, wmi_v2.mi_session_createinstance
 ms.topic: function
+f1_keywords: ["mi/MI_Session_CreateInstance"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

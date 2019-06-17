@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
 ms.topic: callback
+f1_keywords: ["pdh/CounterPathCallBack"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

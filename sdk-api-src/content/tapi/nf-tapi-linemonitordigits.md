@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_tapi2_linemonitordigits, lineMonitorDigits, lineMonitorDigits function [TAPI 2.2], tapi/lineMonitorDigits, tapi2.linemonitordigits"
 ms.topic: function
+f1_keywords: ["tapi/lineMonitorDigits"]
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows

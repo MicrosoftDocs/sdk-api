@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, GetDIBits, GetDIBits function [Windows GDI], _win32_GetDIBits, gdi.getdibits, wingdi/GetDIBits
 ms.topic: function
+f1_keywords: ["wingdi/GetDIBits"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

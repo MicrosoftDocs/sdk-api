@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_V5, CLIENT_TYPE_BOOTP, CLIENT_TYPE_BOTH, CLIENT_TYPE_DHCP, CLIENT_TYPE_NONE, CLIENT_TYPE_UNSPECIFIED, DHCP_CLIENT_INFO_V5, DHCP_CLIENT_INFO_V5 structure [DHCP], LPDHCP_CLIENT_INFO_V5, LPDHCP_CLIENT_INFO_V5 structure pointer [DHCP], V5_ADDRESS_STATE_ACTIVE, V5_ADDRESS_STATE_DECLINED, V5_ADDRESS_STATE_DOOM, V5_ADDRESS_STATE_OFFERED, dhcp.dhcp_client_info_v5, dhcpsapi/LPDHCP_CLIENT_INFO_V5, dhcpsapi/_DHCP_CLIENT_INFO_V5"
 ms.topic: struct
+f1_keywords: ["dhcpsapi/DHCP_CLIENT_INFO_V5"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

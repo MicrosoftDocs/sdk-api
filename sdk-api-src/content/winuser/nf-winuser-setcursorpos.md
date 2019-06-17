@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetCursorPos, SetCursorPos function [Menus and Other Resources], _win32_SetCursorPos, _win32_setcursorpos_cpp, menurc.setcursorpos, winui._win32_setcursorpos, winuser/SetCursorPos
 ms.topic: function
+f1_keywords: ["winuser/SetCursorPos"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

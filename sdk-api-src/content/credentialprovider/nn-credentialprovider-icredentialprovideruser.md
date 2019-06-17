@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], ICredentialProviderUser interface [Windows Shell],described, credentialprovider/ICredentialProviderUser, shell.ICredentialProviderUser
 ms.topic: interface
+f1_keywords: ["credentialprovider/ICredentialProviderUser"]
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DataCollectorSet property [PLA], DataCollectorSet property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorSet property, IDataCollector.DataCollectorSet, IDataCollector.get_DataCollectorSet, IDataCollector::DataCollectorSet, IDataCollector::get_DataCollectorSet, base.idatacollector_datacollectorset, get_DataCollectorSet, pla.idatacollector_datacollectorset, pla/IDataCollector::DataCollectorSet, pla/IDataCollector::get_DataCollectorSet
 ms.topic: method
+f1_keywords: ["pla/IDataCollector.DataCollectorSet"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

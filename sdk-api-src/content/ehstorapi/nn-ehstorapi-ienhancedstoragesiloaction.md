@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], IEnhancedStorageSiloAction interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSiloAction, enstor.ienhancedstoragesiloaction
 ms.topic: interface
+f1_keywords: ["ehstorapi/IEnhancedStorageSiloAction"]
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows

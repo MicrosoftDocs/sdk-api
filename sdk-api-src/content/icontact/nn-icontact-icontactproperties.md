@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], IContactProperties interface [Windows Contacts],described, _wincontacts_IContactProperties, icontact/IContactProperties, wincontacts._wincontacts_IContactProperties
 ms.topic: interface
+f1_keywords: ["icontact/IContactProperties"]
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows

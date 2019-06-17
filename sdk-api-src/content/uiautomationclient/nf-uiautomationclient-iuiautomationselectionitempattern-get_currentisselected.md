@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentIsSelected property [Windows Accessibility], CurrentIsSelected property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CurrentIsSelected property, IUIAutomationSelectionItemPattern.CurrentIsSelected, IUIAutomationSelectionItemPattern.get_CurrentIsSelected, IUIAutomationSelectionItemPattern::CurrentIsSelected, IUIAutomationSelectionItemPattern::get_CurrentIsSelected, get_CurrentIsSelected, uiauto.uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected, uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::CurrentIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::get_CurrentIsSelected, winauto.uiauto_IUIAutomationSelectionItemPattern_CurrentIsSelected
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationSelectionItemPattern.CurrentIsSelected"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

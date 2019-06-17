@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx, IEVRFilterConfigEx interface [Media Foundation], IEVRFilterConfigEx interface [Media Foundation],described, evr/IEVRFilterConfigEx, mf.ievrfilterconfigex
 ms.topic: interface
+f1_keywords: ["evr/IEVRFilterConfigEx"]
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 8384b4a1-a5bd-59ab-0b4d-d909f359d489, GetMemberSemantic, GetMemberSemantic method [Direct3D 10], GetMemberSemantic method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberSemantic method, ID3D10EffectType.GetMemberSemantic, ID3D10EffectType::GetMemberSemantic, d3d10effect/ID3D10EffectType::GetMemberSemantic, direct3d10.id3d10effecttype_getmembersemantic
 ms.topic: method
+f1_keywords: ["d3d10effect/ID3D10EffectType.GetMemberSemantic"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

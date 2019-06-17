@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeUnit, ISyncChangeUnit interface [Windows Sync], ISyncChangeUnit interface [Windows Sync],described, winsync.isyncchangeunit, winsync/ISyncChangeUnit
 ms.topic: interface
+f1_keywords: ["winsync/ISyncChangeUnit"]
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

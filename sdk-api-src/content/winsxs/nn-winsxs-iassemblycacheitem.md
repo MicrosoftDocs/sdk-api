@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAssemblyCacheItem, IAssemblyCacheItem interface [Side-by-side Assemblies], IAssemblyCacheItem interface [Side-by-side Assemblies],described, setup.iassemblycacheitem, winsxs/IAssemblyCacheItem
 ms.topic: interface
+f1_keywords: ["winsxs/IAssemblyCacheItem"]
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows

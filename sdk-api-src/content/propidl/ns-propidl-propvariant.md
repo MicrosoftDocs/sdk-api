@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPPROPVARIANT, PROPVARIANT, PROPVARIANT structure [Structured Storage], _stg_propvariant, propidlbase/PROPVARIANT, stg.propvariant, tagPROPVARIANT"
 ms.topic: struct
+f1_keywords: ["propidl/PROPVARIANT"]
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows

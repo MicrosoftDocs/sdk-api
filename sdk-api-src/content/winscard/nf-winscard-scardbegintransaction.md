@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardBeginTransaction, SCardBeginTransaction function [Security], _smart_scardbegintransaction, security.scardbegintransaction, winscard/SCardBeginTransaction
 ms.topic: function
+f1_keywords: ["winscard/SCardBeginTransaction"]
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

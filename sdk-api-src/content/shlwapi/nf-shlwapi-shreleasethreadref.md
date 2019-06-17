@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHReleaseThreadRef, SHReleaseThreadRef function [Windows Shell], _shell_SHReleaseThreadRef, shell.SHReleaseThreadRef, shlwapi/SHReleaseThreadRef
 ms.topic: function
+f1_keywords: ["shlwapi/SHReleaseThreadRef"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

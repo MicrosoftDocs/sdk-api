@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SecurityDescriptorToBinarySD, SecurityDescriptorToBinarySD function [ADSI], adshlp/SecurityDescriptorToBinarySD, adsi.securitydescriptortobinarysd
 ms.topic: function
+f1_keywords: ["adshlp/SecurityDescriptorToBinarySD"]
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows

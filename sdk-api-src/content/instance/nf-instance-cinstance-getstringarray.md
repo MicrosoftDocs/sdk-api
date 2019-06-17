@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStringArray method, CInstance.GetStringArray, CInstance::GetStringArray, GetStringArray, GetStringArray method [Windows Management Instrumentation], GetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstringarray, instance/CInstance::GetStringArray, wmi.cinstance_getstringarray
 ms.topic: method
+f1_keywords: ["instance/CInstance.GetStringArray"]
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows

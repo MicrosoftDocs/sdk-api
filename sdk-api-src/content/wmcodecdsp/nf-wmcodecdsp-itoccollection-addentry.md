@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [Media Foundation], AddEntry method [Media Foundation],ITocCollection interface, ITocCollection interface [Media Foundation],AddEntry method, ITocCollection.AddEntry, ITocCollection::AddEntry, codecapi.itoccollection_addentry, mf.itoccollection_addentry, wmcodecdsp/ITocCollection::AddEntry
 ms.topic: method
+f1_keywords: ["wmcodecdsp/ITocCollection.AddEntry"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

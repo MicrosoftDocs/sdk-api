@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstance, IFunctionInstance interface, IFunctionInstance interface,described, functiondiscoveryapi/IFunctionInstance, ncd.ifunctioninstance
 ms.topic: interface
+f1_keywords: ["functiondiscoveryapi/IFunctionInstance"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

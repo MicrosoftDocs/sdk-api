@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createreverb, xaudio2fx/XAudio2CreateReverb
 ms.topic: function
+f1_keywords: ["xaudio2fx/XAudio2CreateReverb"]
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
 ms.topic: function
+f1_keywords: ["ntsecapi/AuditEnumeratePerUserPolicy"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

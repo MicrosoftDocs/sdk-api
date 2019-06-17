@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EcSetObjectArrayProperty, EcSetObjectArrayProperty function, evcoll/EcSetObjectArrayProperty, wec.ecsetobjectarrayproperty, wes.ecsetobjectarrayproperty
 ms.topic: function
+f1_keywords: ["evcoll/EcSetObjectArrayProperty"]
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows

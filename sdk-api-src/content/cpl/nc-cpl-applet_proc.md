@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: APPLET_PROC, APPLET_PROC callback, CPlApplet, CPlApplet callback function [Windows Shell], _win32_CPlApplet, cpl/CPlApplet, shell.CPlApplet
 ms.topic: callback
+f1_keywords: ["cpl/CPlApplet"]
 req.header: cpl.h
 req.include-header: 
 req.target-type: Windows

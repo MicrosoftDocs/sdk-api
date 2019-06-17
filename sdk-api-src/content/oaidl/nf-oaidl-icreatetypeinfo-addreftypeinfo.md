@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRefTypeInfo, AddRefTypeInfo method [Automation], AddRefTypeInfo method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddRefTypeInfo method, ICreateTypeInfo.AddRefTypeInfo, ICreateTypeInfo::AddRefTypeInfo, _oa96_ICreateTypeInfo_AddRefTypeInfo, automat.icreatetypeinfo_addreftypeinfo, oaidl/ICreateTypeInfo::AddRefTypeInfo
 ms.topic: method
+f1_keywords: ["oaidl/ICreateTypeInfo.AddRefTypeInfo"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

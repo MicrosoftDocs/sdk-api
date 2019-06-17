@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_PERSISTENT_PROPERTY_HEADER_ACP, TF_PERSISTENT_PROPERTY_HEADER_ACP structure [Text Services Framework], _tsf_tf_persistent_property_header_acp_ref, msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP, tsf.tf_persistent_property_header_acp
 ms.topic: struct
+f1_keywords: ["msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

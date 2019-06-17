@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClientAccessToken, GetClientAccessToken method, GetClientAccessToken method,IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,GetClientAccessToken method, IWSDHttpAuthParameters.GetClientAccessToken, IWSDHttpAuthParameters::GetClientAccessToken, ncd.iwsdhttpauthparameters_getclientaccesstoken, wsdbase/IWSDHttpAuthParameters::GetClientAccessToken
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDHttpAuthParameters.GetClientAccessToken"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.topic: function
+f1_keywords: ["ntsecapi/AuditSetSecurity"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

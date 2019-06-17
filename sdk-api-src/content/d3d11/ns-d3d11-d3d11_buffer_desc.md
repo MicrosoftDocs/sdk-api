@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_BUFFER_DESC, D3D11_BUFFER_DESC structure [Direct3D 11], d2dd6908-ed59-4009-c1dc-5afae3472d02, d3d11/D3D11_BUFFER_DESC, direct3d11.d3d11_buffer_desc
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_BUFFER_DESC"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaEventAddWindow, UiaEventAddWindow function [Windows Accessibility], uiauto.uiauto_UiaEventAddWindowFunction, uiauto_UiaEventAddWindowFunction, uiautomationcoreapi/UiaEventAddWindow, winauto.uiauto_UiaEventAddWindowFunction
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaEventAddWindow"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

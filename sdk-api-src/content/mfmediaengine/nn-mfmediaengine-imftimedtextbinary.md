@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation],described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFTimedTextBinary"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

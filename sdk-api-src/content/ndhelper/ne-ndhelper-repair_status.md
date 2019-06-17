@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: REPAIR_STATUS, REPAIR_STATUS enumeration [NDF], RS_DEFERRED, RS_NOT_IMPLEMENTED, RS_REPAIRED, RS_UNREPAIRED, RS_USER_ACTION, ndf.repair_status, ndhelper/REPAIR_STATUS, ndhelper/RS_DEFERRED, ndhelper/RS_NOT_IMPLEMENTED, ndhelper/RS_REPAIRED, ndhelper/RS_UNREPAIRED, ndhelper/RS_USER_ACTION
 ms.topic: enum
+f1_keywords: ["ndhelper/REPAIR_STATUS"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

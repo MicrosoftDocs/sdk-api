@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVT_RPC_LOGIN, EVT_RPC_LOGIN structure [EventLog], wes.evt_rpc_login, winevt/_EVT_RPC_LOGIN
 ms.topic: struct
+f1_keywords: ["winevt/EVT_RPC_LOGIN"]
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

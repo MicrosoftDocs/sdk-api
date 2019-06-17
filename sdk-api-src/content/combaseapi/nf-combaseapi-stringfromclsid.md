@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StringFromCLSID, StringFromCLSID function [COM], _com_StringFromCLSID, com.stringfromclsid, combaseapi/StringFromCLSID
 ms.topic: function
+f1_keywords: ["combaseapi/StringFromCLSID"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

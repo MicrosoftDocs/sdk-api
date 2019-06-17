@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTOBJ_pjOpenTypeTablePointer, FONTOBJ_pjOpenTypeTablePointer function [Display Devices], display.fontobj_pjopentypetablepointer, gdifncs_c8a7074e-3a62-426b-a1d2-57b04441f7f8.xml, winddi/FONTOBJ_pjOpenTypeTablePointer
 ms.topic: function
+f1_keywords: ["winddi/FONTOBJ_pjOpenTypeTablePointer"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

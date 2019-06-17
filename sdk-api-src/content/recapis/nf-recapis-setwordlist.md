@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9e067c22-772d-48d2-baae-abc8067efb09, SetWordList, SetWordList function [Tablet PC], recapis/SetWordList, tablet.setwordlist
 ms.topic: function
+f1_keywords: ["recapis/SetWordList"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

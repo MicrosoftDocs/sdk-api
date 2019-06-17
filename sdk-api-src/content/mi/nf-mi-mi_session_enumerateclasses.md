@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_Session_EnumerateClasses, MI_Session_EnumerateClasses function [Windows Management Infrastructure (MI)], mi/MI_Session_EnumerateClasses, wmi_v2.mi_session_enumerateclasses
 ms.topic: function
+f1_keywords: ["mi/MI_Session_EnumerateClasses"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

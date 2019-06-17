@@ -7,6 +7,7 @@ ms.author: windowssdkdev
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ALLOCATION_TYPE, D3D12_DRED_ALLOCATION_TYPE enumeration, d3d12/D3D12_DRED_ALLOCATION_TYPE, d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration, direct3d12.d3d12_dred_allocation_type
 ms.topic: enum
+f1_keywords: ["d3d12/D3D12_DRED_ALLOCATION_TYPE"]
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

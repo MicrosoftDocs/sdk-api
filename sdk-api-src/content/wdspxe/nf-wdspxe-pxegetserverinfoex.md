@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PXE_GSI_SERVER_DUID, PXE_GSI_TRACE_ENABLED, PxeGetServerInfoEx, PxeGetServerInfoEx function [Windows Deployment Services], wds.pxegetserverinfoex, wdspxe/PxeGetServerInfoEx
 ms.topic: function
+f1_keywords: ["wdspxe/PxeGetServerInfoEx"]
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows

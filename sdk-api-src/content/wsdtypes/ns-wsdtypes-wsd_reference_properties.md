@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_REFERENCE_PROPERTIES, WSD_REFERENCE_PROPERTIES structure, ncd.wsd_reference_properties_struct, wsdtypes/WSD_REFERENCE_PROPERTIES
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_REFERENCE_PROPERTIES"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

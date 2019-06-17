@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DWordPtrAdd, DWordPtrAdd function [Windows Shell], _shell_DWordPtrAdd, intsafe/DWordPtrAdd, shell.DWordPtrAdd
 ms.topic: function
+f1_keywords: ["intsafe/DWordPtrAdd"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

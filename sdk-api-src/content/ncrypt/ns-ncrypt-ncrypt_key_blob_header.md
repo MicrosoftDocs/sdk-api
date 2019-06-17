@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PNCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER, NCRYPT_KEY_BLOB_HEADER structure [Security], PNCRYPT_KEY_BLOB_HEADER, PNCRYPT_KEY_BLOB_HEADER structure pointer [Security], ncrypt/NCRYPT_KEY_BLOB_HEADER, ncrypt/PNCRYPT_KEY_BLOB_HEADER, security.ncrypt_key_blob_header"
 ms.topic: struct
+f1_keywords: ["ncrypt/NCRYPT_KEY_BLOB_HEADER"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

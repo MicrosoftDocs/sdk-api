@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnOutgoingJobAdded method, IFaxServerNotify2.OnOutgoingJobAdded, IFaxServerNotify2::OnOutgoingJobAdded, OnOutgoingJobAdded, OnOutgoingJobAdded method [Fax Service], OnOutgoingJobAdded method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnOutgoingJobAdded, _IFaxServerNotify2::OnOutgoingJobAdded, _mfax_ifaxservernotify2_onoutgoingjobadded, fax._mfax_ifaxservernotify2_onoutgoingjobadded, faxcomex/IFaxServerNotify2::OnOutgoingJobAdded
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxServerNotify2.OnOutgoingJobAdded"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

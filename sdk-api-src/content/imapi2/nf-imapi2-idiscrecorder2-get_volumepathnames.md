@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_VolumePathNames method, IDiscRecorder2.get_VolumePathNames, IDiscRecorder2::get_VolumePathNames, get_VolumePathNames, get_VolumePathNames method [IMAPI], get_VolumePathNames method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_volumepathnames, imapi2/IDiscRecorder2::get_VolumePathNames
 ms.topic: method
+f1_keywords: ["imapi2/IDiscRecorder2.get_VolumePathNames"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

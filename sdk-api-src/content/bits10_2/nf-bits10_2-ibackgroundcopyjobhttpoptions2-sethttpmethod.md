@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions2 interface [BITS],SetHttpMethod method, IBackgroundCopyJobHttpOptions2.SetHttpMethod, IBackgroundCopyJobHttpOptions2::SetHttpMethod, SetHttpMethod, SetHttpMethod method [BITS], SetHttpMethod method [BITS],IBackgroundCopyJobHttpOptions2 interface, bits.ibackgroundcopyjobhttpoptions2_sethttpmethod, bits10_2/IBackgroundCopyJobHttpOptions2::SetHttpMethod
 ms.topic: method
+f1_keywords: ["bits10_2/IBackgroundCopyJobHttpOptions2.SetHttpMethod"]
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows

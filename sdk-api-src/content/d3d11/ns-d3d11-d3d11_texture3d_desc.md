@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 64540f29-b4c0-93ff-f17c-15c6a0d7da4b, D3D11_TEXTURE3D_DESC, D3D11_TEXTURE3D_DESC structure [Direct3D 11], d3d11/D3D11_TEXTURE3D_DESC, direct3d11.d3d11_texture3d_desc
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_TEXTURE3D_DESC"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

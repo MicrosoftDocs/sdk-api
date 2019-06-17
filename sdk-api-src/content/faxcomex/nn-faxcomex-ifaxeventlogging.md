@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxEventLogging, IFaxEventLogging interface [Fax Service], IFaxEventLogging interface [Fax Service],described, _mfax_faxeventlogging_cpp, fax._mfax_faxeventlogging_cpp, faxcomex/IFaxEventLogging
 ms.topic: interface
+f1_keywords: ["faxcomex/IFaxEventLogging"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

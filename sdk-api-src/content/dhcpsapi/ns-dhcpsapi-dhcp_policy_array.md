@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPDHCP_POLICY_ARRAY, *PDHCP_POLICY_ARRAY, DHCP_POLICY_ARRAY, DHCP_POLICY_ARRAY structure [DHCP], LPDHCP_POLICY_ARRAY, LPDHCP_POLICY_ARRAY structure pointer [DHCP], PDHCP_POLICY_ARRAY, PDHCP_POLICY_ARRAY structure pointer [DHCP], dhcp.dhcp_policy_array, dhcpsapi/DHCP_POLICY_ARRAY, dhcpsapi/LPDHCP_POLICY_ARRAY, dhcpsapi/PDHCP_POLICY_ARRAY"
 ms.topic: struct
+f1_keywords: ["dhcpsapi/DHCP_POLICY_ARRAY"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

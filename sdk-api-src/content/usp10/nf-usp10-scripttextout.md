@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ScriptTextOut, ScriptTextOut function [Internationalization for Windows Applications], _win32_ScriptTextOut, intl.scripttextout, usp10/ScriptTextOut
 ms.topic: function
+f1_keywords: ["usp10/ScriptTextOut"]
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows

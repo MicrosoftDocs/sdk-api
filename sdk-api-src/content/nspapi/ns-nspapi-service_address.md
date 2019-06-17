@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSERVICE_ADDRESS, *PSERVICE_ADDRESS, SERVICE_ADDRESS, SERVICE_ADDRESS structure [Winsock], SERVICE_ADDRESS_FLAG_RPC_CN, SERVICE_ADDRESS_FLAG_RPC_DG, SERVICE_ADDRESS_FLAG_RPC_NB, _win32_service_address_2, nspapi/SERVICE_ADDRESS, winsock.service_address_2"
 ms.topic: struct
+f1_keywords: ["nspapi/SERVICE_ADDRESS"]
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

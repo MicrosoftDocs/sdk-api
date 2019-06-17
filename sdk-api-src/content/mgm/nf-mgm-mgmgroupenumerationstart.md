@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ALL_SOURCES, ANY_SOURCE, MgmGroupEnumerationStart, MgmGroupEnumerationStart function [RAS], _mpr_mgmgroupenumerationstart, mgm/MgmGroupEnumerationStart, rras.mgmgroupenumerationstart
 ms.topic: function
+f1_keywords: ["mgm/MgmGroupEnumerationStart"]
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

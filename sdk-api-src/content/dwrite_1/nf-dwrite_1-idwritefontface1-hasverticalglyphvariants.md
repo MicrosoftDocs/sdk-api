@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HasVerticalGlyphVariants, HasVerticalGlyphVariants method [Direct Write], HasVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],HasVerticalGlyphVariants method, IDWriteFontFace1.HasVerticalGlyphVariants, IDWriteFontFace1::HasVerticalGlyphVariants, directwrite.idwritefontface1_hasverticalglyphvariants, dwrite_1/IDWriteFontFace1::HasVerticalGlyphVariants
 ms.topic: method
+f1_keywords: ["dwrite_1/IDWriteFontFace1.HasVerticalGlyphVariants"]
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows

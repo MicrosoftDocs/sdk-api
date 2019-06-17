@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], IFsiFileItem2 interface [IMAPI],described, imapi.ifsifileitem2, imapi2fs/IFsiFileItem2
 ms.topic: interface
+f1_keywords: ["imapi2fs/IFsiFileItem2"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

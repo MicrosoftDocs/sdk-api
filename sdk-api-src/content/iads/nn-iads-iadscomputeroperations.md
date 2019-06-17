@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsComputerOperations, IADsComputerOperations interface [ADSI], IADsComputerOperations interface [ADSI],described, _ds_iadscomputeroperations, adsi.iadscomputeroperations, iads/IADsComputerOperations
 ms.topic: interface
+f1_keywords: ["iads/IADsComputerOperations"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRM_OPL_OUTPUT_IDS, DRM_OPL_OUTPUT_IDS structure [windows Media Format], structure [windows Media Format], wmformat.drm_opl_output_ids, wmsdkidl/DRM_OPL_OUTPUT_IDS
 ms.topic: struct
+f1_keywords: ["wmsdkidl/DRM_OPL_OUTPUT_IDS"]
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows

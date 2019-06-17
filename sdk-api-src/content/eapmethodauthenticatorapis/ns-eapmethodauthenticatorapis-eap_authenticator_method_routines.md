@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"
 ms.topic: struct
+f1_keywords: ["eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"]
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

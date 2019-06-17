@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupWriteTextLog, SetupWriteTextLog function [Device and Driver Installation], devinst.setupwritetextlog, setupapi/SetupWriteTextLog, setupapilog-ref_42860a5c-0ea7-4185-81eb-76996286cafc.xml
 ms.topic: function
+f1_keywords: ["setupapi/SetupWriteTextLog"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

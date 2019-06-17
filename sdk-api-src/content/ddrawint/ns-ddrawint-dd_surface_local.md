@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_SURFACE_LOCAL, DD_SURFACE_LOCAL, DD_SURFACE_LOCAL structure [Display Devices], ddrawint/DD_SURFACE_LOCAL, ddstrcts_07a504fc-c8bb-4b48-b825-4da3012e4f95.xml, display.dd_surface_local"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_SURFACE_LOCAL"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

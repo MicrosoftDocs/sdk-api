@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IServiceCall, IServiceCall interface [COM+], IServiceCall interface [COM+],described, _cos_IServiceCall, comsvcs/IServiceCall, cos.iservicecall
 ms.topic: interface
+f1_keywords: ["comsvcs/IServiceCall"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

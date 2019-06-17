@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiEnumDeviceInfo, SetupDiEnumDeviceInfo function [Device and Driver Installation], devinst.setupdienumdeviceinfo, di-rtns_db6730f9-381a-4da6-91b1-046fec51f270.xml, setupapi/SetupDiEnumDeviceInfo
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiEnumDeviceInfo"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

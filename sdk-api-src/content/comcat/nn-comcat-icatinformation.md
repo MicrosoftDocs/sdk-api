@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICatInformation, ICatInformation interface [COM], ICatInformation interface [COM],described, _com_icatinformation, com.icatinformation, comcat/ICatInformation
 ms.topic: interface
+f1_keywords: ["comcat/ICatInformation"]
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows

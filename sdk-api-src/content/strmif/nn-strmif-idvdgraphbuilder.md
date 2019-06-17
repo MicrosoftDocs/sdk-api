@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDvdGraphBuilder, IDvdGraphBuilder interface [DirectShow], IDvdGraphBuilder interface [DirectShow],described, IDvdGraphBuilderInterface, dshow.idvdgraphbuilder, strmif/IDvdGraphBuilder
 ms.topic: interface
+f1_keywords: ["strmif/IDvdGraphBuilder"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

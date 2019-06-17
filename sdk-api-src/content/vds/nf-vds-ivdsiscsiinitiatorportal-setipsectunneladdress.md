@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal interface [VDS],SetIpsecTunnelAddress method, IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress, IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress, SetIpsecTunnelAddress, SetIpsecTunnelAddress method [VDS], SetIpsecTunnelAddress method [VDS],IVdsIscsiInitiatorPortal interface, base.ivdsiscsiinitiatorportal_setipsectunneladdress, vds/IVdsIscsiInitiatorPortal::SetIpsecTunnelAddress
 ms.topic: method
+f1_keywords: ["vds/IVdsIscsiInitiatorPortal.SetIpsecTunnelAddress"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_CERT_CREDENTIAL, WS_CUSTOM_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_CUSTOM_CERT_CREDENTIAL, wsw.ws_custom_cert_credential
 ms.topic: struct
+f1_keywords: ["webservices/WS_CUSTOM_CERT_CREDENTIAL"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

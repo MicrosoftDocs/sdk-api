@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QuerySecurityAccessMask, QuerySecurityAccessMask function [Security], security.querysecurityaccessmask, securitybaseapi/QuerySecurityAccessMask, winbase/QuerySecurityAccessMask
 ms.topic: function
+f1_keywords: ["securitybaseapi/QuerySecurityAccessMask"]
 req.header: securitybaseapi.h
 req.include-header: WinBase.h
 req.target-type: Windows

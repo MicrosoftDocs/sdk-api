@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxCommandSize property, IMbnDeviceServicesContext.MaxCommandSize, IMbnDeviceServicesContext.get_MaxCommandSize, IMbnDeviceServicesContext::MaxCommandSize, IMbnDeviceServicesContext::get_MaxCommandSize, MaxCommandSize property [Microsoft Broadband Networks], MaxCommandSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxCommandSize, mbn.imbndeviceservicescontext_maxcommandsize, mbnapi/IMbnDeviceServicesContext::MaxCommandSize, mbnapi/IMbnDeviceServicesContext::get_MaxCommandSize
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnDeviceServicesContext.MaxCommandSize"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddUserSid, AddUserSid method [Files], AddUserSid method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],AddUserSid method, IDiskQuotaControl.AddUserSid, IDiskQuotaControl::AddUserSid, _win32_idiskquotacontrol_addusersid, base.idiskquotacontrol_addusersid, dskquota/IDiskQuotaControl::AddUserSid, fs.idiskquotacontrol_addusersid
 ms.topic: method
+f1_keywords: ["dskquota/IDiskQuotaControl.AddUserSid"]
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows

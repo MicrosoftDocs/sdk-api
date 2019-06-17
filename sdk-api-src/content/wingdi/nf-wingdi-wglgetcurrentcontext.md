@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext"
 ms.topic: function
+f1_keywords: ["wingdi/wglGetCurrentContext"]
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows

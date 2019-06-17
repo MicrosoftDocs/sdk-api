@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPS_INCOMING_VALUES0, FWPS_INCOMING_VALUES0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_INCOMING_VALUES0, netvista.fwps_incoming_values0, wfp_ref_3_struct_3_fwps_F-O_8a5ec685-98ff-49f2-9e78-72d409fece93.xml
 ms.topic: struct
+f1_keywords: ["fwpstypes/FWPS_INCOMING_VALUES0"]
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

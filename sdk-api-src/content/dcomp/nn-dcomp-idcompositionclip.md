@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionClip, IDCompositionClip interface [DirectComposition], IDCompositionClip interface [DirectComposition],described, dcomp/IDCompositionClip, directcomp.idcompositionclip
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionClip"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

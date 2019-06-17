@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMIDIINCAPSA, *NPMIDIINCAPSA, *PMIDIINCAPSA, MIDIINCAPS, MIDIINCAPS structure [Windows Multimedia], MIDIINCAPSA, _win32_MIDIINCAPS_str, midiincaps_tag, mmeapi/MIDIINCAPS, multimedia.midiincaps, tagMIDIINCAPSA, tagMIDIINCAPSW"
 ms.topic: struct
+f1_keywords: ["mmeapi/MIDIINCAPS"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetHotkey method, IShellLink::SetHotkey, IShellLinkA interface [Windows Shell],SetHotkey method, IShellLinkA::SetHotkey, IShellLinkW interface [Windows Shell],SetHotkey method, IShellLinkW.SetHotkey, IShellLinkW::SetHotkey, SetHotkey, SetHotkey method [Windows Shell], SetHotkey method [Windows Shell],IShellLink interface, SetHotkey method [Windows Shell],IShellLinkA interface, SetHotkey method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetHotkey, shell.IShellLink_SetHotkey, shobjidl_core/IShellLink::SetHotkey, shobjidl_core/IShellLinkA::SetHotkey, shobjidl_core/IShellLinkW::SetHotkey
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.SetHotkey"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

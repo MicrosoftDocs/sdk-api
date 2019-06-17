@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinMode property, IMbnPin.PinMode, IMbnPin.get_PinMode, IMbnPin::PinMode, IMbnPin::get_PinMode, PinMode property [Microsoft Broadband Networks], PinMode property [Microsoft Broadband Networks],IMbnPin interface, get_PinMode, mbn.imbnpin_pinmode, mbnapi/IMbnPin::PinMode, mbnapi/IMbnPin::get_PinMode
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnPin.PinMode"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
 ms.topic: function
+f1_keywords: ["webservices/WsSetOutputToBuffer"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFFieldOfUseMFTUnlock, IMFFieldOfUseMFTUnlock interface [Media Foundation], IMFFieldOfUseMFTUnlock interface [Media Foundation],described, mf.imffieldofusemftunlock, mfidl/IMFFieldOfUseMFTUnlock
 ms.topic: interface
+f1_keywords: ["mfidl/IMFFieldOfUseMFTUnlock"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

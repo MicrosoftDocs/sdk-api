@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
 ms.topic: interface
+f1_keywords: ["wmp/IWMPSettings2"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

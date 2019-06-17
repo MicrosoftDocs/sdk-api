@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SpSaveCredentials, SpSaveCredentials callback function [Security], SpSaveCredentialsFn, SpSaveCredentialsFn callback, _ssp_spsavecredentials, ntsecpkg/SpSaveCredentials, security.spsavecredentials
 ms.topic: callback
+f1_keywords: ["ntsecpkg/SpSaveCredentials"]
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D10Resource, ID3D10Resource interface [Direct3D 10], ID3D10Resource interface [Direct3D 10],described, a827797e-b4b8-c82b-c567-463061c6d963, d3d10/ID3D10Resource, direct3d10.id3d10resource
 ms.topic: interface
+f1_keywords: ["d3d10/ID3D10Resource"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashes method, ID2D1StrokeStyle.GetDashes, ID2D1StrokeStyle::GetDashes, d2d1/ID2D1StrokeStyle::GetDashes, direct2d.ID2D1StrokeStyle_GetDashes
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1StrokeStyle.GetDashes"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

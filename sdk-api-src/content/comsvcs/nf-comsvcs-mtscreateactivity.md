@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MTSCreateActivity, MTSCreateActivity function [COM+], _cos_MTSCreateActivity, comsvcs/MTSCreateActivity, cos.mtscreateactivity
 ms.topic: function
+f1_keywords: ["comsvcs/MTSCreateActivity"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

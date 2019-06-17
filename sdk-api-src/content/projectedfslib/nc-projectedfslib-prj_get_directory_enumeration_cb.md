@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_GET_DIRECTORY_ENUMERATION_CB, PRJ_GET_DIRECTORY_ENUMERATION_CB callback, PRJ_GET_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_get_directory_enumeration_cb, projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB
 ms.topic: callback
+f1_keywords: ["projectedfslib/PRJ_GET_DIRECTORY_ENUMERATION_CB"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

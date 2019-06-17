@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IX509Attributes interface, IX509Attributes interface [Security],Count property, IX509Attributes.Count, IX509Attributes.get_Count, IX509Attributes::Count, IX509Attributes::get_Count, certenroll/IX509Attributes::Count, certenroll/IX509Attributes::get_Count, get_Count, security.ix509attributes_count_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509Attributes.Count"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

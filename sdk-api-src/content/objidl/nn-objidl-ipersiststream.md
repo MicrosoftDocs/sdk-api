@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPersistStream, IPersistStream interface [COM], IPersistStream interface [COM],described, _com_ipersiststream, com.ipersiststream, objidl/IPersistStream
 ms.topic: interface
+f1_keywords: ["objidl/IPersistStream"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

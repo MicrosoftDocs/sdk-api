@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: JChColorF, JChColorF structure [Windows Color System], wcs.jchcolorf, wcsplugin/JChColorF
 ms.topic: struct
+f1_keywords: ["wcsplugin/JChColorF"]
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows

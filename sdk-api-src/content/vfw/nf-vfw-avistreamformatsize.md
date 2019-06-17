@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamFormatSize, AVIStreamFormatSize macro [Windows Multimedia], _win32_AVIStreamFormatSize, multimedia.avistreamformatsize, vfw/AVIStreamFormatSize
 ms.topic: macro
+f1_keywords: ["vfw/AVIStreamFormatSize"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

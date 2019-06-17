@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFEndCreateFile, MFEndCreateFile function [Media Foundation], daa92660-5d0d-4c7c-985a-ad621eca4bfc, mf.mfendcreatefile, mfapi/MFEndCreateFile
 ms.topic: function
+f1_keywords: ["mfapi/MFEndCreateFile"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

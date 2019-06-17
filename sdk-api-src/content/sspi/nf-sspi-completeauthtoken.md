@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
 ms.topic: function
+f1_keywords: ["sspi/CompleteAuthToken"]
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

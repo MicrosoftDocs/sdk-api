@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCRYPT_PKCS8_IMPORT_PARAMS, *PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, CRYPT_PKCS8_IMPORT_PARAMS, CRYPT_PKCS8_IMPORT_PARAMS structure [Security], CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure [Security], PCRYPT_PKCS8_IMPORT_PARAMS, PCRYPT_PKCS8_IMPORT_PARAMS structure pointer [Security], PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS structure pointer [Security], security.crypt_pkcs8_import_params, wincrypt/CRYPT_PKCS8_IMPORT_PARAMS, wincrypt/CRYPT_PRIVATE_KEY_BLOB_AND_PARAMS, wincrypt/PCRYPT_PKCS8_IMPORT_PARAMS, wincrypt/PCRYPT_PRIVATE_KEY_BLOB_AND_PARAMS"
 ms.topic: struct
+f1_keywords: ["wincrypt/CRYPT_PKCS8_IMPORT_PARAMS"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

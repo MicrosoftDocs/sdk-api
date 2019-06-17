@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadFloat4, XMLoadFloat4, XMLoadFloat4 method [DirectX Math Support APIs], dxmath.xmloadfloat4
 ms.topic: function
+f1_keywords: ["directxmath/XMLoadFloat4"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

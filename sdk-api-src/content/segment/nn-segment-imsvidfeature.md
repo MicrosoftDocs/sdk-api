@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeature, IMSVidFeature interface [Microsoft TV Technologies], IMSVidFeature interface [Microsoft TV Technologies],described, IMSVidFeatureInterface, mstv.imsvidfeature, segment/IMSVidFeature
 ms.topic: interface
+f1_keywords: ["segment/IMSVidFeature"]
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSource, IPhotoAcquireSource interface [Picture Acquisition], IPhotoAcquireSource interface [Picture Acquisition],described, IPhotoAcquireSourceInterface, photoacquire/IPhotoAcquireSource, picacq.iphotoacquiresource
 ms.topic: interface
+f1_keywords: ["photoacquire/IPhotoAcquireSource"]
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MEM_LARGE_PAGES, MEM_REPLACE_PLACEHOLDER, MEM_RESERVE, MapViewOfFile3FromApp, MapViewOfFile3FromApp function, base.mapviewoffile3fromapp, memoryapi/MapViewOfFile3FromApp
 ms.topic: function
+f1_keywords: ["memoryapi/MapViewOfFile3FromApp"]
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

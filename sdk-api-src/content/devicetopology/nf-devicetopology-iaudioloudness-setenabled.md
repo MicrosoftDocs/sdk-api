@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioLoudness interface [Core Audio],SetEnabled method, IAudioLoudness.SetEnabled, IAudioLoudness::SetEnabled, IAudioLoudnessSetEnabled, SetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio],IAudioLoudness interface, coreaudio.iaudioloudness_setenabled, devicetopology/IAudioLoudness::SetEnabled
 ms.topic: method
+f1_keywords: ["devicetopology/IAudioLoudness.SetEnabled"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

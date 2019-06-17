@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AmsiScanBuffer, AmsiScanBuffer function [Antimalware Scan Interface], amsi.amsiscanbuffer, amsi/AmsiScanBuffer
 ms.topic: function
+f1_keywords: ["amsi/AmsiScanBuffer"]
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

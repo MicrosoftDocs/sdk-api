@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineLength, Edit_GetFileLineLength macro [Windows Controls], commctrl/Edit_GetFileLineLength, controls.edit_getfilelinelength
 ms.topic: macro
+f1_keywords: ["commctrl/Edit_GetFileLineLength"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

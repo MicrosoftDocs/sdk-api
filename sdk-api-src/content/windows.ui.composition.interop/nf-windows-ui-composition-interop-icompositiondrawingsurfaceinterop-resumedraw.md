@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICompositionDrawingSurfaceInterop interface,ResumeDraw method, ICompositionDrawingSurfaceInterop.ResumeDraw, ICompositionDrawingSurfaceInterop.composition, ICompositionDrawingSurfaceInterop::ResumeDraw, ICompositionDrawingSurfaceInterop::composition, ResumeDraw, ResumeDraw method, ResumeDraw method,ICompositionDrawingSurfaceInterop interface, w_ui_comp.icompositiondrawingsurfaceinterop_resumedraw, windows/ICompositionDrawingSurfaceInterop::ResumeDraw
 ms.topic: method
+f1_keywords: ["windows.ui.composition.interop/ICompositionDrawingSurfaceInterop.ResumeDraw"]
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows

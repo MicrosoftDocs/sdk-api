@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_OPTION_PROXY_AUTO_DETECT, WSMAN_OPTION_PROXY_IE_PROXY_CONFIG, WSMAN_OPTION_PROXY_NO_PROXY_SERVER, WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG, WSManProxyAccessType, WSManProxyAccessType enumeration [Windows Remote Management], winrm.wsmanproxyaccesstype, wsman/WSMAN_OPTION_PROXY_AUTO_DETECT, wsman/WSMAN_OPTION_PROXY_IE_PROXY_CONFIG, wsman/WSMAN_OPTION_PROXY_NO_PROXY_SERVER, wsman/WSMAN_OPTION_PROXY_WINHTTP_PROXY_CONFIG, wsman/WSManProxyAccessType
 ms.topic: enum
+f1_keywords: ["wsman/WSManProxyAccessType"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

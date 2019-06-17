@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], IWMProximityDetection interface [windows Media Format],described, IWMProximityDetectionInterface, wmformat.iwmproximitydetection, wmsdkidl/IWMProximityDetection
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMProximityDetection"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

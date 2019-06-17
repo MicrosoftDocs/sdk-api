@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskMetadata, GetVirtualDiskMetadata function [Virtual Storage], virtdisk/GetVirtualDiskMetadata, vstor.getvirtualdiskmetadata
 ms.topic: function
+f1_keywords: ["virtdisk/GetVirtualDiskMetadata"]
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows

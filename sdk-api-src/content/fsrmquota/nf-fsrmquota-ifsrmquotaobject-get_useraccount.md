@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaObject interface [File Server Resource Manager],UserAccount property, IFsrmQuotaObject.UserAccount, IFsrmQuotaObject.get_UserAccount, IFsrmQuotaObject::UserAccount, IFsrmQuotaObject::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmQuotaObject interface, fs.ifsrmquotaobject_useraccount, fsrm.ifsrmquotaobject_useraccount, fsrmquota/IFsrmQuotaObject::UserAccount, fsrmquota/IFsrmQuotaObject::get_UserAccount, get_UserAccount
 ms.topic: method
+f1_keywords: ["fsrmquota/IFsrmQuotaObject.UserAccount"]
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows

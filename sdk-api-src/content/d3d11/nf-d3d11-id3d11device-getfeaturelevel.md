@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 956236c4-681b-5005-2e10-fa583bce3b30, GetFeatureLevel, GetFeatureLevel method [Direct3D 11], GetFeatureLevel method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetFeatureLevel method, ID3D11Device.GetFeatureLevel, ID3D11Device::GetFeatureLevel, d3d11/ID3D11Device::GetFeatureLevel, direct3d11.id3d11device_getfeaturelevel
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11Device.GetFeatureLevel"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

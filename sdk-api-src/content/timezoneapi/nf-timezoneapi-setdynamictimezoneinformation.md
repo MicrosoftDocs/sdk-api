@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetDynamicTimeZoneInformation, SetDynamicTimeZoneInformation function, base.setdynamictimezoneinformation, timezoneapi/SetDynamicTimeZoneInformation
 ms.topic: function
+f1_keywords: ["timezoneapi/SetDynamicTimeZoneInformation"]
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows

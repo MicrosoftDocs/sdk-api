@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [Windows Controls], GetWindow method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetWindow method, ITextDocument2.GetWindow, ITextDocument2::GetWindow, controls.itextdocument2_getwindow, tom/ITextDocument2::GetWindow
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.GetWindow"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

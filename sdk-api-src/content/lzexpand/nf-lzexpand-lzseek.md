@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LZSeek, LZSeek function [Files], _win32_lzseek, base.lzseek, fs.lzseek, lzexpand/LZSeek
 ms.topic: function
+f1_keywords: ["lzexpand/LZSeek"]
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows

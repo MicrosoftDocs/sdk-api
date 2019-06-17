@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HTTPAPI_LESS_VERSION, HTTPAPI_LESS_VERSION macro [HTTP], http.httpapi_less_version, http/HTTPAPI_LESS_VERSION
 ms.topic: macro
+f1_keywords: ["http/HTTP_LESS_VERSION"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

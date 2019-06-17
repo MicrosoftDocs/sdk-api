@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced, IWMWriterAdvanced interface [windows Media Format], IWMWriterAdvanced interface [windows Media Format],described, IWMWriterAdvancedInterface, wmformat.iwmwriteradvanced, wmsdkidl/IWMWriterAdvanced
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMWriterAdvanced"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

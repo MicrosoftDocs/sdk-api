@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISessionProperties, IRDPSRAPISessionProperties interface [RDP], IRDPSRAPISessionProperties interface [RDP],described, rdp.irdpsrapisessionproperties, rdpencomapi/IRDPSRAPISessionProperties
 ms.topic: interface
+f1_keywords: ["rdpencomapi/IRDPSRAPISessionProperties"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

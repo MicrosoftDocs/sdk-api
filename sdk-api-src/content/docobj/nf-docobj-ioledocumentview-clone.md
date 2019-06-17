@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],Clone method, IOleDocumentView.Clone, IOleDocumentView::Clone, _ole_ioledocumentview_clone, com.ioledocumentview_clone, docobj/IOleDocumentView::Clone
 ms.topic: method
+f1_keywords: ["docobj/IOleDocumentView.Clone"]
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows

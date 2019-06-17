@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPP_IPCP_INFO2, PPP_IPCP_INFO2 structure [RAS], _mpr_ppp_ipcp_info2, mprapi/PPP_IPCP_INFO2, rras.ppp_ipcp_info2
 ms.topic: struct
+f1_keywords: ["mprapi/PPP_IPCP_INFO2"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

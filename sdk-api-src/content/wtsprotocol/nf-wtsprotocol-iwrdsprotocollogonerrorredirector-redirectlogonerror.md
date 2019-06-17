@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],RedirectLogonError method, IWRdsProtocolLogonErrorRedirector.RedirectLogonError, IWRdsProtocolLogonErrorRedirector::RedirectLogonError, RedirectLogonError, RedirectLogonError method [Remote Desktop Services], RedirectLogonError method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, STATUS_ACCOUNT_DISABLED, STATUS_ACCOUNT_RESTRICTION, STATUS_BAD_VALIDATION_CLASS, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_LOGON_FAILURE, STATUS_NO_LOGON_SERVERS, STATUS_NO_SUCH_PACKAGE, STATUS_PASSWORD_EXPIRED, STATUS_QUOTA_EXCEEDED, termserv.iwrdsprotocollogonerrorredirector_redirectlogonerror, wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectLogonError
 ms.topic: method
+f1_keywords: ["wtsprotocol/IWRdsProtocolLogonErrorRedirector.RedirectLogonError"]
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

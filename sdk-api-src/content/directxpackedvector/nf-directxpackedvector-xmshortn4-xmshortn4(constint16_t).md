@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMSHORTN4, XMSHORTN4 constructor [DirectX Math Support APIs], XMSHORTN4 constructor [DirectX Math Support APIs],XMSHORTN4 structure, XMSHORTN4 structure [DirectX Math Support APIs],XMSHORTN4 constructor, XMSHORTN4.XMSHORTN4, XMSHORTN4.XMSHORTN4(), XMSHORTN4.XMSHORTN4(const int16_t), XMSHORTN4::XMSHORTN4, XMSHORTN4::XMSHORTN4(const int16_t), dxmath.xmshortn4_ctor_1
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMSHORTN4.XMSHORTN4"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

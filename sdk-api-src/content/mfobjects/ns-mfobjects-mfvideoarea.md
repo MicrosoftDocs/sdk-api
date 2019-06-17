@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFVideoArea, MFVideoArea structure [Media Foundation], d22b8b9c-399b-4fce-a173-833005b5bf03, mf.mfvideoarea, mfobjects/MFVideoArea
 ms.topic: struct
+f1_keywords: ["mfobjects/MFVideoArea"]
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

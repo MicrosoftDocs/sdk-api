@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Accessibility], Description property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],Description property, ILegacyIAccessibleProvider.Description, ILegacyIAccessibleProvider.get_Description, ILegacyIAccessibleProvider::Description, ILegacyIAccessibleProvider::get_Description, get_Description, uiauto.uiauto_ILegacyIAccessibleProvider_Description, uiauto_ILegacyIAccessibleProvider_Description, uiautomationcore/ILegacyIAccessibleProvider::Description, uiautomationcore/ILegacyIAccessibleProvider::get_Description, winauto.uiauto_ILegacyIAccessibleProvider_Description
 ms.topic: method
+f1_keywords: ["uiautomationcore/ILegacyIAccessibleProvider.Description"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

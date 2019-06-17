@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS, TBS_CONTEXT_PARAMS structure [TBS], tbs.tbs_context_params, tbs/TBS_CONTEXT_PARAMS"
 ms.topic: struct
+f1_keywords: ["tbs/TBS_CONTEXT_PARAMS"]
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

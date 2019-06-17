@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPlayToManagerInterop, IPlayToManagerInterop interface [Windows Runtime], IPlayToManagerInterop interface [Windows Runtime],described, playtomanagerinterop/IPlayToManagerInterop, winrt.iplaytomanagerinterop
 ms.topic: interface
+f1_keywords: ["playtomanagerinterop/IPlayToManagerInterop"]
 req.header: playtomanagerinterop.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],TSID property, IFaxIncomingMessage.TSID, IFaxIncomingMessage.get_TSID, IFaxIncomingMessage::TSID, IFaxIncomingMessage::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.tsid, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_tsid_cpp, fax._mfax_faxincomingmessage_tsid, faxcomex/IFaxIncomingMessage::TSID, faxcomex/IFaxIncomingMessage::get_TSID, get_TSID
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxIncomingMessage.TSID"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

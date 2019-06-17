@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhcp.dhcpv4getfreeipaddress, dhcpsapi/DhcpV4GetFreeIPAddress
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpV4GetFreeIPAddress"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_TSID method, IDVBTuneRequest.get_TSID, IDVBTuneRequest::get_TSID, IDVBTuneRequestget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_tsid, tuner/IDVBTuneRequest::get_TSID
 ms.topic: method
+f1_keywords: ["tuner/IDVBTuneRequest.get_TSID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

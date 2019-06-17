@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaLookupId, UiaLookupId function [Windows Accessibility], uiauto.uiauto_UiaLookupIdAutoMeth, uiauto_UiaLookupIdAutoMeth, uiautomationcoreapi/UiaLookupId, winauto.uiauto_UiaLookupIdAutoMeth
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaLookupId"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

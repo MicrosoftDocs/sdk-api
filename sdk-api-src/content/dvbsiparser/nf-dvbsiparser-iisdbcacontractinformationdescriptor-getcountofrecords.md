@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbCAContractInformationDescriptor.GetCountOfRecords, IIsdbCAContractInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCountOfRecords, mstv.iisdbcacontractinformationdescriptor_getcountofrecords
 ms.topic: method
+f1_keywords: ["dvbsiparser/IIsdbCAContractInformationDescriptor.GetCountOfRecords"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

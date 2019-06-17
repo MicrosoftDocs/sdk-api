@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCT_RESULT, CCT_SCOPE, CCT_SNAPIN_MANAGER, CCT_UNINITIALIZED, DATA_OBJECT_TYPES, DATA_OBJECT_TYPES enumeration [MMC], _slate_data_object_types, mmc.data_object_types, mmc/CCT_RESULT, mmc/CCT_SCOPE, mmc/CCT_SNAPIN_MANAGER, mmc/CCT_UNINITIALIZED, mmc/DATA_OBJECT_TYPES
 ms.topic: enum
+f1_keywords: ["mmc/DATA_OBJECT_TYPES"]
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SelectPalette, SelectPalette function [Windows GDI], _win32_SelectPalette, gdi.selectpalette, wingdi/SelectPalette
 ms.topic: function
+f1_keywords: ["wingdi/SelectPalette"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

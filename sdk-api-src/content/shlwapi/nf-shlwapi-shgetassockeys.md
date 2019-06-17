@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetAssocKeys, SHGetAssocKeys function [Windows Shell], shell.shgetassockeys, shlwapi/SHGetAssocKeys
 ms.topic: function
+f1_keywords: ["shlwapi/SHGetAssocKeys"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Filtering], fwp.fwpmcalloutadd0_func, fwpmu/FwpmCalloutAdd0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmCalloutAdd0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

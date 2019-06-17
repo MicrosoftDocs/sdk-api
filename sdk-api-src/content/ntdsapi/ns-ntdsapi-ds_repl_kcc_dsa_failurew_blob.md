@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILUREW_BLOB, DS_REPL_KCC_DSA_FAILUREW_BLOB structure [Active Directory], ad.ds_repl_kcc_dsa_failurew_blob, msDS-ReplConnectionFailures, msDS-ReplLinkFailures, ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
 ms.topic: struct
+f1_keywords: ["ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB"]
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows

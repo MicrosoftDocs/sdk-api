@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPHARDWAREINPUT, *PHARDWAREINPUT, HARDWAREINPUT, HARDWAREINPUT structure [Keyboard and Mouse Input], PHARDWAREINPUT, PHARDWAREINPUT structure pointer [Keyboard and Mouse Input], _win32_HARDWAREINPUT_str, _win32_hardwareinput_str_cpp, inputdev.hardwareinput, winui._win32_hardwareinput_str, winuser/HARDWAREINPUT, winuser/PHARDWAREINPUT"
 ms.topic: struct
+f1_keywords: ["winuser/HARDWAREINPUT"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

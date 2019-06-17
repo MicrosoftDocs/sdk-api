@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], IDTFilter2 interface [Microsoft TV Technologies],described, IDTFilter2Interface, encdec/IDTFilter2, mstv.idtfilter2
 ms.topic: interface
+f1_keywords: ["encdec/IDTFilter2"]
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows

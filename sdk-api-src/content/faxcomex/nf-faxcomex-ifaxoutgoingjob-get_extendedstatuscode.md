@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExtendedStatusCode property [Fax Service], ExtendedStatusCode property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],ExtendedStatusCode property, IFaxOutgoingJob.ExtendedStatusCode, IFaxOutgoingJob.get_ExtendedStatusCode, IFaxOutgoingJob::ExtendedStatusCode, IFaxOutgoingJob::get_ExtendedStatusCode, _mfax_faxoutgoingjob.extendedstatuscode, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatuscode_cpp, fax._mfax_faxoutgoingjob_extendedstatuscode, faxcomex/IFaxOutgoingJob::ExtendedStatusCode, faxcomex/IFaxOutgoingJob::get_ExtendedStatusCode, get_ExtendedStatusCode
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.ExtendedStatusCode"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

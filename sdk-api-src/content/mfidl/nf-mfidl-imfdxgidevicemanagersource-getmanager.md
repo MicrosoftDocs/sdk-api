@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetManager, GetManager method [Media Foundation], GetManager method [Media Foundation],IMFDXGIDeviceManagerSource interface, IMFDXGIDeviceManagerSource interface [Media Foundation],GetManager method, IMFDXGIDeviceManagerSource.GetManager, IMFDXGIDeviceManagerSource::GetManager, mf.imfdxgidevicemanagersource_getmanager, mfidl/IMFDXGIDeviceManagerSource::GetManager
 ms.topic: method
+f1_keywords: ["mfidl/IMFDXGIDeviceManagerSource.GetManager"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

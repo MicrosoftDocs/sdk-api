@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCanMove property [Windows Accessibility], CurrentCanMove property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanMove property, IUIAutomationTransformPattern.CurrentCanMove, IUIAutomationTransformPattern.get_CurrentCanMove, IUIAutomationTransformPattern::CurrentCanMove, IUIAutomationTransformPattern::get_CurrentCanMove, get_CurrentCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiauto_IUIAutomationTransformPattern_CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::CurrentCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanMove, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanMove
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern.CurrentCanMove"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

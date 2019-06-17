@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX, gdi.paletteindex, wingdi/PALETTEINDEX
 ms.topic: macro
+f1_keywords: ["wingdi/PALETTEINDEX"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

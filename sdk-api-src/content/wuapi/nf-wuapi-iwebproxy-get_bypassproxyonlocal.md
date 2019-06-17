@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BypassProxyOnLocal property [Windows Update Agent], BypassProxyOnLocal property [Windows Update Agent],IWebProxy interface, IWebProxy interface [Windows Update Agent],BypassProxyOnLocal property, IWebProxy.BypassProxyOnLocal, IWebProxy.get_BypassProxyOnLocal, IWebProxy::BypassProxyOnLocal, IWebProxy::get_BypassProxyOnLocal, IWebProxy::put_BypassProxyOnLocal, get_BypassProxyOnLocal, wua.iwebproxy_bypassproxyonlocal, wuapi/IWebProxy::BypassProxyOnLocal, wuapi/IWebProxy::get_BypassProxyOnLocal, wuapi/IWebProxy::put_BypassProxyOnLocal
 ms.topic: method
+f1_keywords: ["wuapi/IWebProxy.BypassProxyOnLocal"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

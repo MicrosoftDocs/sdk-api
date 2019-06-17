@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, NetWkstaTransportEnum, NetWkstaTransportEnum function [Network Management], _win32_netwkstatransportenum, lmwksta/NetWkstaTransportEnum, netmgmt.netwkstatransportenum
 ms.topic: function
+f1_keywords: ["lmwksta/NetWkstaTransportEnum"]
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows

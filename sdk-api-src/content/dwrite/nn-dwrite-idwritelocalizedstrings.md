@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteLocalizedStrings, IDWriteLocalizedStrings interface [Direct Write], IDWriteLocalizedStrings interface [Direct Write],described, directwrite.IDWriteLocalizedStrings, dwrite/IDWriteLocalizedStrings
 ms.topic: interface
+f1_keywords: ["dwrite/IDWriteLocalizedStrings"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseWindowStation, CloseWindowStation function [Windows Stations and Desktops], _win32_closewindowstation, base.closewindowstation, winstation.closewindowstation, winuser/CloseWindowStation
 ms.topic: function
+f1_keywords: ["winuser/CloseWindowStation"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

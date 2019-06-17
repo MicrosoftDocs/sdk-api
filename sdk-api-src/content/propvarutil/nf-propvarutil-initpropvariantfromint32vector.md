@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromInt32Vector, InitPropVariantFromInt32Vector function [Windows Properties], properties.InitPropVariantFromInt32Vector, propvarutil/InitPropVariantFromInt32Vector, shell.InitPropVariantFromInt32Vector, shell_InitPropVariantFromInt32Vector
 ms.topic: function
+f1_keywords: ["propvarutil/InitPropVariantFromInt32Vector"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

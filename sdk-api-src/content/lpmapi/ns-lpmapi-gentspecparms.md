@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms, qos.gentspecparms
 ms.topic: struct
+f1_keywords: ["lpmapi/GenTspecParms"]
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows

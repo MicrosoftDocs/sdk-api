@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
 ms.topic: struct
+f1_keywords: ["shappmgr/PUBAPPINFO"]
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows

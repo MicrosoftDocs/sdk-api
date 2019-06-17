@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_CHANGE, WRITE_CACHE_CHANGE enumeration [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheNotChangeable, fs.write_cache_change, winioctl/WRITE_CACHE_CHANGE, winioctl/WriteCacheChangeUnknown, winioctl/WriteCacheChangeable, winioctl/WriteCacheNotChangeable
 ms.topic: enum
+f1_keywords: ["winioctl/WRITE_CACHE_CHANGE"]
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

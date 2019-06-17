@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification
 ms.topic: function
+f1_keywords: ["featurestagingapi/SubscribeFeatureStateChangeNotification"]
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

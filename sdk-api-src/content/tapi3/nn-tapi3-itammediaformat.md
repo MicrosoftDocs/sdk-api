@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITAMMediaFormat, ITAMMediaFormat interface [TAPI 2.2], ITAMMediaFormat interface [TAPI 2.2],described, _tapi3_itammediaformat, tapi3.itammediaformat, tapi3ds/ITAMMediaFormat
 ms.topic: interface
+f1_keywords: ["tapi3/ITAMMediaFormat"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

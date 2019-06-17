@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FwpmNetEventsSetSecurityInfo0, FwpmNetEventsSetSecurityInfo0 function [Filtering], fwp.fwpmneteventssetsecurityinfo0, fwpmu/FwpmNetEventsSetSecurityInfo0
 ms.topic: function
+f1_keywords: ["fwpmu/FwpmNetEventsSetSecurityInfo0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

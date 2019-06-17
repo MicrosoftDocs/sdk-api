@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FONTDIFF, FONTDIFF structure [Display Devices], display.fontdiff, grstrcts_f0aab188-5a92-48b3-be9d-464e22f4b260.xml, winddi/FONTDIFF
 ms.topic: struct
+f1_keywords: ["winddi/FONTDIFF"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

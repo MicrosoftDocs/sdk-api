@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrDup, StrDup function [Windows Shell], StrDupA, StrDupW, _win32_StrDup, shell.StrDup, shlwapi/StrDup, shlwapi/StrDupA, shlwapi/StrDupW
 ms.topic: function
+f1_keywords: ["shlwapi/StrDup"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

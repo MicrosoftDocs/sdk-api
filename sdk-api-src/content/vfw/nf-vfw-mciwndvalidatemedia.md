@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndValidateMedia, MCIWndValidateMedia macro [Windows Multimedia], _win32_MCIWndValidateMedia, multimedia.mciwndvalidatemedia, vfw/MCIWndValidateMedia
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndValidateMedia"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

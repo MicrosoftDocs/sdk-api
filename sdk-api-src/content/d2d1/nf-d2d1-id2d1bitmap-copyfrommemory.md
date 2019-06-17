@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyFromMemory, CopyFromMemory method [Direct2D], CopyFromMemory method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],CopyFromMemory method, ID2D1Bitmap.CopyFromMemory, ID2D1Bitmap::CopyFromMemory, d2d1/ID2D1Bitmap::CopyFromMemory, direct2d.ID2D1Bitmap_CopyFromMemory
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1Bitmap.CopyFromMemory"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

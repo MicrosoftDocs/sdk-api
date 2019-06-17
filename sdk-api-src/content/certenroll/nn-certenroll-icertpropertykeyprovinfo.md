@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyKeyProvInfo, ICertPropertyKeyProvInfo interface [Security], ICertPropertyKeyProvInfo interface [Security],described, certenroll/ICertPropertyKeyProvInfo, security.icertpropertykeyprovinfo
 ms.topic: interface
+f1_keywords: ["certenroll/ICertPropertyKeyProvInfo"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

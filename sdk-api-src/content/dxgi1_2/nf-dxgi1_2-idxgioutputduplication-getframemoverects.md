@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFrameMoveRects, GetFrameMoveRects method [DXGI], GetFrameMoveRects method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFrameMoveRects method, IDXGIOutputDuplication.GetFrameMoveRects, IDXGIOutputDuplication::GetFrameMoveRects, direct3ddxgi.idxgioutputduplication_getframemoverects, dxgi1_2/IDXGIOutputDuplication::GetFrameMoveRects
 ms.topic: method
+f1_keywords: ["dxgi1_2/IDXGIOutputDuplication.GetFrameMoveRects"]
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows

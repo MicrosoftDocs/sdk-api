@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MsiJoinTransaction, MsiJoinTransaction function [Setup API], msi/MsiJoinTransaction, setup.msijointransaction
 ms.topic: function
+f1_keywords: ["msi/MsiJoinTransaction"]
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows

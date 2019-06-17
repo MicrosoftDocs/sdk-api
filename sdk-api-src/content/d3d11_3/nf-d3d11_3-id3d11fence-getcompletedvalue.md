@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCompletedValue, GetCompletedValue method [Direct3D 11], GetCompletedValue method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],GetCompletedValue method, ID3D11Fence.GetCompletedValue, ID3D11Fence::GetCompletedValue, d3d11_3/ID3D11Fence::GetCompletedValue, direct3d11.id3d11fence_getcompletedvalue
 ms.topic: method
+f1_keywords: ["d3d11_3/ID3D11Fence.GetCompletedValue"]
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

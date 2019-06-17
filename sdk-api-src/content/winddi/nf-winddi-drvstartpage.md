@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvStartPage, DrvStartPage function [Display Devices], ddifncs_eef4f1da-1923-4282-82d2-ac1ab5386ab9.xml, display.drvstartpage, winddi/DrvStartPage
 ms.topic: function
+f1_keywords: ["winddi/DrvStartPage"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

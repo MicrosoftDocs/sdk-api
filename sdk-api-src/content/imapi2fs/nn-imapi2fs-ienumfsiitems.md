@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems interface [IMAPI],described, imapi.ienumfsiitems, imapi2fs/IEnumFsiItems
 ms.topic: interface
+f1_keywords: ["imapi2fs/IEnumFsiItems"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

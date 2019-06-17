@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinSourceID method, IDigitalCableTuningSpace.get_MinSourceID, IDigitalCableTuningSpace::get_MinSourceID, IDigitalCableTuningSpaceget_MinSourceID, get_MinSourceID, get_MinSourceID method [Microsoft TV Technologies], get_MinSourceID method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minsourceid, tuner/IDigitalCableTuningSpace::get_MinSourceID
 ms.topic: method
+f1_keywords: ["tuner/IDigitalCableTuningSpace.get_MinSourceID"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

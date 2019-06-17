@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Attributes interface, IX509Attributes interface [Security],Add method, IX509Attributes.Add, IX509Attributes::Add, certenroll/IX509Attributes::Add, security.ix509attributes_add_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509Attributes.Add"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

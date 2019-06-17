@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Attributes property [File Server Resource Manager], Attributes property [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],Attributes property, IFsrmPropertyBag.Attributes, IFsrmPropertyBag.get_Attributes, IFsrmPropertyBag::Attributes, IFsrmPropertyBag::get_Attributes, fs.ifsrmpropertybag_attributes, fsrm.ifsrmpropertybag_attributes, fsrmpipeline/IFsrmPropertyBag::Attributes, fsrmpipeline/IFsrmPropertyBag::get_Attributes, get_Attributes
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyBag.Attributes"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

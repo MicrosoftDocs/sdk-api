@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_INDEX, XPS_GLYPH_INDEX structure [XPS Documents and Packaging], xps.xps_glyph_index, xpsobjectmodel/XPS_GLYPH_INDEX
 ms.topic: struct
+f1_keywords: ["xpsobjectmodel/XPS_GLYPH_INDEX"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

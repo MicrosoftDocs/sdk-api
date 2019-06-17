@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation],described, locationapi/ILocationEvents, winlocation.ilocationevents
 ms.topic: interface
+f1_keywords: ["locationapi/ILocationEvents"]
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows

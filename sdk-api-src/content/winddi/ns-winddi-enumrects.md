@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENUMRECTS, ENUMRECTS structure [Display Devices], display.enumrects, grstrcts_8ea2422f-1b57-4a7a-be86-adca8b830a36.xml, winddi/ENUMRECTS
 ms.topic: struct
+f1_keywords: ["winddi/ENUMRECTS"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

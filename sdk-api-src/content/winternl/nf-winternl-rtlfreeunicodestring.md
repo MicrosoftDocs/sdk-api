@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString function [Windows API], winprog.rtlfreeunicodestring, winternl/RtlFreeUnicodeString, winui.rtlfreeunicodestring
 ms.topic: function
+f1_keywords: ["winternl/RtlFreeUnicodeString"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

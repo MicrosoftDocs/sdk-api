@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncRegistrationChange, ISyncRegistrationChange interface [Windows Sync], ISyncRegistrationChange interface [Windows Sync],described, syncregistration/ISyncRegistrationChange, winsync.isyncregistrationchange
 ms.topic: interface
+f1_keywords: ["syncregistration/ISyncRegistrationChange"]
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows

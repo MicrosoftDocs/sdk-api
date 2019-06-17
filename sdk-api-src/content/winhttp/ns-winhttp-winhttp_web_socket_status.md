@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_STATUS, WINHTTP_WEB_SOCKET_STATUS structure [HTTP], http.winhttp_web_socket_status, winhttp/WINHTTP_WEB_SOCKET_STATUS
 ms.topic: struct
+f1_keywords: ["winhttp/WINHTTP_WEB_SOCKET_STATUS"]
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_EventInterface method, ITPrivateEvent.get_EventInterface, ITPrivateEvent::get_EventInterface, _tapi3_itprivateevent_get_eventinterface, get_EventInterface, get_EventInterface method [TAPI 2.2], get_EventInterface method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_eventinterface, tapi3if/ITPrivateEvent::get_EventInterface
 ms.topic: method
+f1_keywords: ["tapi3if/ITPrivateEvent.get_EventInterface"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

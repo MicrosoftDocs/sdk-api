@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RSoPFileAccessCheck, RSoPFileAccessCheck function [Group Policy], RsopFileAccessCheck, _win32_rsopfileaccesscheck, policy.rsopfileaccesscheck, userenv/RSoPFileAccessCheck
 ms.topic: function
+f1_keywords: ["userenv/RSoPFileAccessCheck"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

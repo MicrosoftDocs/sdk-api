@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST, PWLAN_COUNTRY_OR_REGION_STRING_LIST structure pointer [NativeWIFI], WLAN_COUNTRY_OR_REGION_STRING_LIST, WLAN_COUNTRY_OR_REGION_STRING_LIST structure [NativeWIFI], nwifi.wlan_country_or_region_string_list, wlanapi/PWLAN_COUNTRY_OR_REGION_STRING_LIST, wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST"
 ms.topic: struct
+f1_keywords: ["wlanapi/WLAN_COUNTRY_OR_REGION_STRING_LIST"]
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

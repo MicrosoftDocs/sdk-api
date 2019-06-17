@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_XML_QNAME_TEXT, WS_XML_QNAME_TEXT structure [Web Services for Windows], webservices/WS_XML_QNAME_TEXT, wsw.ws_xml_qname_text
 ms.topic: struct
+f1_keywords: ["webservices/WS_XML_QNAME_TEXT"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

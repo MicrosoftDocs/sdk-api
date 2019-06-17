@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BlockSize property [Windows Deployment Services], BlockSize property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],BlockSize property, IWdsTransportTftpClient.BlockSize, IWdsTransportTftpClient.get_BlockSize, IWdsTransportTftpClient::BlockSize, IWdsTransportTftpClient::get_BlockSize, get_BlockSize, wds.iwdstransporttftpclient_blocksize, wdstptmgmt/IWdsTransportTftpClient::BlockSize, wdstptmgmt/IWdsTransportTftpClient::get_BlockSize
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportTftpClient.BlockSize"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

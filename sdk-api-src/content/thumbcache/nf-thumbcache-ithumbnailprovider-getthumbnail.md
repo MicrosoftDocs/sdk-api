@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Windows Shell], GetThumbnail method [Windows Shell],IThumbnailProvider interface, IThumbnailProvider interface [Windows Shell],GetThumbnail method, IThumbnailProvider.GetThumbnail, IThumbnailProvider::GetThumbnail, WTSAT_ARGB, WTSAT_RGB, WTSAT_UNKNOWN, _shell_IThumbnailProvider_GetThumbnail, shell.IThumbnailProvider_GetThumbnail, thumbcache/IThumbnailProvider::GetThumbnail
 ms.topic: method
+f1_keywords: ["thumbcache/IThumbnailProvider.GetThumbnail"]
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows

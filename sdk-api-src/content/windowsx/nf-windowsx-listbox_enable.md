@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ListBox_Enable, ListBox_Enable macro [Windows Controls], _win32_ListBox_Enable, _win32_ListBox_Enable_cpp, controls.ListBox_Enable, controls._win32_ListBox_Enable, windowsx/ListBox_Enable
 ms.topic: macro
+f1_keywords: ["windowsx/ListBox_Enable"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

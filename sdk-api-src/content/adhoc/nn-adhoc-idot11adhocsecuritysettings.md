@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocSecuritySettings, IDot11AdHocSecuritySettings interface [NativeWIFI], IDot11AdHocSecuritySettings interface [NativeWIFI],described, adhoc/IDot11AdHocSecuritySettings, nwifi.idot11adhocsecuritysettings
 ms.topic: interface
+f1_keywords: ["adhoc/IDot11AdHocSecuritySettings"]
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows

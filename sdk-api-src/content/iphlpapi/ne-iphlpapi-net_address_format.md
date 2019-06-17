@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NET_ADDRESS_DNS_NAME, NET_ADDRESS_FORMAT, NET_ADDRESS_FORMAT enumeration [IP Helper], NET_ADDRESS_FORMAT_UNSPECIFIED, NET_ADDRESS_IPV4, NET_ADDRESS_IPV6, iphlp.net_address_format, iphlpapi/NET_ADDRESS_DNS_NAME, iphlpapi/NET_ADDRESS_FORMAT, iphlpapi/NET_ADDRESS_FORMAT_UNSPECIFIED, iphlpapi/NET_ADDRESS_IPV4, iphlpapi/NET_ADDRESS_IPV6
 ms.topic: enum
+f1_keywords: ["iphlpapi/NET_ADDRESS_FORMAT"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

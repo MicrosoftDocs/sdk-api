@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSolidColorBrush, IXpsOMSolidColorBrush interface [XPS Documents and Packaging], IXpsOMSolidColorBrush interface [XPS Documents and Packaging],described, xps.ixpsomsolidcolorbrush, xpsobjectmodel/IXpsOMSolidColorBrush
 ms.topic: interface
+f1_keywords: ["xpsobjectmodel/IXpsOMSolidColorBrush"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

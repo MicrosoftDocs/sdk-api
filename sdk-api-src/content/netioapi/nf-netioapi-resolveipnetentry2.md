@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ResolveIpNetEntry2, ResolveIpNetEntry2 function [IP Helper], iphlp.resolveipnetentry2, netioapi/ResolveIpNetEntry2
 ms.topic: function
+f1_keywords: ["netioapi/ResolveIpNetEntry2"]
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog
 ms.topic: function
+f1_keywords: ["clfsw32/TruncateLog"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Services method, IUPnPDevice.get_Services, IUPnPDevice::get_Services, _upnp_iupnpdevice_services, get_Services, get_Services method [UPnP APIs], get_Services method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_services, upnp/IUPnPDevice::get_Services
 ms.topic: method
+f1_keywords: ["upnp/IUPnPDevice.get_Services"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], ITfMouseSink interface [Text Services Framework],described, _tsf_itfmousesink_ref, msctf/ITfMouseSink, tsf.itfmousesink
 ms.topic: interface
+f1_keywords: ["msctf/ITfMouseSink"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

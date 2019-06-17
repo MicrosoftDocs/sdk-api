@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType function [Media Foundation], mf.mfcreatemediabufferfrommediatype, mfapi/MFCreateMediaBufferFromMediaType
 ms.topic: function
+f1_keywords: ["mfapi/MFCreateMediaBufferFromMediaType"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

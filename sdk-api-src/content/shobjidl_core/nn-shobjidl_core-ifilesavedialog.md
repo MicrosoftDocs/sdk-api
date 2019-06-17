@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IFileSaveDialog"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

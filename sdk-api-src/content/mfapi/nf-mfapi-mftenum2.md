@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFTEnum2, MFTEnum2 function [Media Foundation], mf.mftenum2, mfapi/MFTEnum2
 ms.topic: function
+f1_keywords: ["mfapi/MFTEnum2"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

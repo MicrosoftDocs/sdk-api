@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleIconToCursor, OleIconToCursor function [COM], _com_OleIconToCursor, com.oleicontocursor, olectl/OleIconToCursor
 ms.topic: function
+f1_keywords: ["olectl/OleIconToCursor"]
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

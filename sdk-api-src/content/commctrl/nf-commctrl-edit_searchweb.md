@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_SearchWeb, Edit_SearchWeb macro [Windows Controls], commctrl/Edit_SearchWeb, controls.edit_searchweb
 ms.topic: macro
+f1_keywords: ["commctrl/Edit_SearchWeb"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

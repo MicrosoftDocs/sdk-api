@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SIZETToInt64, SIZETToInt64 function [Windows Shell], ULongPtrToLongLong, _shell_SIZETToInt64, intsafe/SIZETToInt64, shell.SIZETToInt64, shell.SIZETToInt64_1
 ms.topic: function
+f1_keywords: ["intsafe/SIZETToInt64"]
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows

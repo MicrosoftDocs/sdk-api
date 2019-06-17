@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DAD_DragLeave, DAD_DragLeave function [Windows Shell], shell.DAD_DragLeave, shell_DAD_DragLeave, shlobj_core/DAD_DragLeave
 ms.topic: function
+f1_keywords: ["shlobj_core/DAD_DragLeave"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

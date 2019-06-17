@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakprocess, base.debugbreakprocess, winbase/DebugBreakProcess
 ms.topic: function
+f1_keywords: ["winbase/DebugBreakProcess"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

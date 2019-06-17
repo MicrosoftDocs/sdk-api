@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Date property [Windows Update Agent], Date property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Date property, IUpdateHistoryEntry.Date, IUpdateHistoryEntry.get_Date, IUpdateHistoryEntry::Date, IUpdateHistoryEntry::get_Date, get_Date, wua.iupdatehistoryentry_date, wuapi/IUpdateHistoryEntry::Date, wuapi/IUpdateHistoryEntry::get_Date
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateHistoryEntry.Date"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

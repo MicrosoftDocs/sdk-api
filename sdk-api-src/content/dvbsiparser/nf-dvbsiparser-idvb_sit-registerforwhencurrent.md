@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVB_SIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_SIT.RegisterForWhenCurrent, IDVB_SIT::RegisterForWhenCurrent, IDVB_SITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_SIT interface, dvbsiparser/IDVB_SIT::RegisterForWhenCurrent, mstv.idvb_sit_registerforwhencurrent
 ms.topic: method
+f1_keywords: ["dvbsiparser/IDVB_SIT.RegisterForWhenCurrent"]
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows

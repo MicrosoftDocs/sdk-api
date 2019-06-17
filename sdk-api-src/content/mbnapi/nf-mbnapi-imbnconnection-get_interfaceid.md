@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnConnection interface [Microsoft Broadband Networks],InterfaceID property, IMbnConnection.InterfaceID, IMbnConnection.get_InterfaceID, IMbnConnection::InterfaceID, IMbnConnection::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnConnection interface, get_InterfaceID, mbn.imbnconnection_interfaceid, mbnapi/IMbnConnection::InterfaceID, mbnapi/IMbnConnection::get_InterfaceID
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnConnection.InterfaceID"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

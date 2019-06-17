@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OpenPersonalTrustDBDialog, OpenPersonalTrustDBDialog function [Security], security.openpersonaltrustdbdialog, wintrust/OpenPersonalTrustDBDialog
 ms.topic: function
+f1_keywords: ["wintrust/OpenPersonalTrustDBDialog"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

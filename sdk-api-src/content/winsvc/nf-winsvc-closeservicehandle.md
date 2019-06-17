@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservicehandle, base.closeservicehandle, winsvc/CloseServiceHandle
 ms.topic: function
+f1_keywords: ["winsvc/CloseServiceHandle"]
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows

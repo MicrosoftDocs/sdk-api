@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
 ms.topic: struct
+f1_keywords: ["xamlom/BitmapDescription"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

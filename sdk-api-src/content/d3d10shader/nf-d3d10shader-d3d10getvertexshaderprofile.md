@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D10GetVertexShaderProfile, D3D10GetVertexShaderProfile function [Direct3D 10], d3d10shader/D3D10GetVertexShaderProfile, direct3d10.d3d10getvertexshaderprofile, ed448170-9ae1-2f57-6e8e-b9cf7adec9c1
 ms.topic: function
+f1_keywords: ["d3d10shader/D3D10GetVertexShaderProfile"]
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows

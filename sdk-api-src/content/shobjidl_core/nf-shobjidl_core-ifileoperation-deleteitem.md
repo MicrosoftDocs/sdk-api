@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [Windows Shell], DeleteItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],DeleteItem method, IFileOperation.DeleteItem, IFileOperation::DeleteItem, _shell_IFileOperation_DeleteItem, shell.IFileOperation_DeleteItem, shobjidl_core/IFileOperation::DeleteItem
 ms.topic: method
+f1_keywords: ["shobjidl_core/IFileOperation.DeleteItem"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

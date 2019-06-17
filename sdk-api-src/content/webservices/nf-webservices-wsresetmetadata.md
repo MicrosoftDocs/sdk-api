@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsResetMetadata, WsResetMetadata function [Web Services for Windows], webservices/WsResetMetadata, wsw.wsresetmetadata
 ms.topic: function
+f1_keywords: ["webservices/WsResetMetadata"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzScopes object [Security],Item property, IAzScopes interface [Security],Item property, IAzScopes.Item, IAzScopes.get_Item, IAzScopes::Item, IAzScopes::get_Item, Item property [Security], Item property [Security],AzScopes object, Item property [Security],IAzScopes interface, azroles/IAzScopes::Item, azroles/IAzScopes::get_Item, get_Item, security.iazscopes_item
 ms.topic: method
+f1_keywords: ["azroles/IAzScopes.Item"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

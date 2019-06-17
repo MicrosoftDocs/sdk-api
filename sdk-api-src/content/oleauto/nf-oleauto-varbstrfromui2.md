@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI2, VarBstrFromUI2 function [Automation], _oa96_VarBstrFromUI2, automat.varbstrfromui2, oleauto/VarBstrFromUI2
 ms.topic: function
+f1_keywords: ["oleauto/VarBstrFromUI2"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

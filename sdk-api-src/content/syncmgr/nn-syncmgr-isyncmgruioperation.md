@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrUIOperation, ISyncMgrUIOperation interface [Windows Shell], ISyncMgrUIOperation interface [Windows Shell],described, _shell_ISyncMgrUIOperation, shell.ISyncMgrUIOperation, syncmgr/ISyncMgrUIOperation
 ms.topic: interface
+f1_keywords: ["syncmgr/ISyncMgrUIOperation"]
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows

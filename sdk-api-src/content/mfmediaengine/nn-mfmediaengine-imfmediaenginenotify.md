@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineNotify, IMFMediaEngineNotify interface [Media Foundation], IMFMediaEngineNotify interface [Media Foundation],described, mf.imfmediaenginenotify, mfmediaengine/IMFMediaEngineNotify
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFMediaEngineNotify"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

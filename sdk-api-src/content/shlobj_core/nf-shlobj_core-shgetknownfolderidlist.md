@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGetKnownFolderIDList, SHGetKnownFolderIDList function [Windows Shell], _shell_SHGetKnownFolderIDList, shell.SHGetKnownFolderIDList, shlobj_core/SHGetKnownFolderIDList
 ms.topic: function
+f1_keywords: ["shlobj_core/SHGetKnownFolderIDList"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

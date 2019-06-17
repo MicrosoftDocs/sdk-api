@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICJpegFrameEncode, IWICJpegFrameEncode interface [Windows Imaging Component], IWICJpegFrameEncode interface [Windows Imaging Component],described, wic.iwicjpegframeencode, wincodec/IWICJpegFrameEncode
 ms.topic: interface
+f1_keywords: ["wincodec/IWICJpegFrameEncode"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

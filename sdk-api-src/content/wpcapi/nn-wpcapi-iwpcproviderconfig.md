@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
 ms.topic: interface
+f1_keywords: ["wpcapi/IWPCProviderConfig"]
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows

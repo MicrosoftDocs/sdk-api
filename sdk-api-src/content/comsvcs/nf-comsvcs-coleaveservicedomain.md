@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
 ms.topic: function
+f1_keywords: ["comsvcs/CoLeaveServiceDomain"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

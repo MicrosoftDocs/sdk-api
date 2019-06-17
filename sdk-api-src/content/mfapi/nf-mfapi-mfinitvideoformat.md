@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
 ms.topic: function
+f1_keywords: ["mfapi/MFInitVideoFormat"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

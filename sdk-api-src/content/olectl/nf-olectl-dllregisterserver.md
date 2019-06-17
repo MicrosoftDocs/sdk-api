@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DllRegisterServer, DllRegisterServer function [COM], _com_DllRegisterServer, com.dllregisterserver, olectl/DllRegisterServer
 ms.topic: function
+f1_keywords: ["olectl/DllRegisterServer"]
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WaitForNtmsOperatorRequest, WaitForNtmsOperatorRequest function [Files], _zaw_waitforntmsoperatorrequest, base.waitforntmsoperatorrequest, fs.waitforntmsoperatorrequest, ntmsapi/WaitForNtmsOperatorRequest
 ms.topic: function
+f1_keywords: ["ntmsapi/WaitForNtmsOperatorRequest"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GET_X_LPARAM, GET_X_LPARAM macro [Windows and Messages], _win32_GET_X_LPARAM, _win32_get_x_lparam_cpp, windowsx/GET_X_LPARAM, winmsg.get_x_lparam, winui._win32_get_x_lparam
 ms.topic: macro
+f1_keywords: ["windowsx/GET_X_LPARAM"]
 req.header: windowsx.h
 req.include-header: Windowsx.h
 req.target-type: Windows

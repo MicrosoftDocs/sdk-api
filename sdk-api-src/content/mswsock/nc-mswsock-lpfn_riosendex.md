@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOSENDEX
 ms.topic: language-reference
+f1_keywords: ["mswsock/LPFN_RIOSENDEX"]
 targetos: Windows
 product: Windows
 req.assembly: 

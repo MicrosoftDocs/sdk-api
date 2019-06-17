@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_BUFFER_DESC, D3D11_SHADER_BUFFER_DESC structure [Direct3D 11], d3d11shader/D3D11_SHADER_BUFFER_DESC, direct3d11.d3d11_shader_buffer_desc, f067255d-ad70-0513-b346-8e4194271884
 ms.topic: struct
+f1_keywords: ["d3d11shader/D3D11_SHADER_BUFFER_DESC"]
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

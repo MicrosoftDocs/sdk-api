@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFileFromToken, SymGetSourceFileFromToken function, SymGetSourceFileFromTokenW, base.symgetsourcefilefromtoken, dbghelp/SymGetSourceFileFromToken, dbghelp/SymGetSourceFileFromTokenW
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetSourceFileFromToken"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

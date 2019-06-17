@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_SPARSE, FSCTL_SET_SPARSE control, FSCTL_SET_SPARSE control code [Files], _win32_fsctl_set_sparse, base.fsctl_set_sparse, fs.fsctl_set_sparse, winioctl/FSCTL_SET_SPARSE
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_SET_SPARSE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

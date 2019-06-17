@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumComponents, IEnumComponents interface [Microsoft TV Technologies], IEnumComponents interface [Microsoft TV Technologies],described, IEnumComponentsInterface, mstv.ienumcomponents, tuner/IEnumComponents
 ms.topic: interface
+f1_keywords: ["tuner/IEnumComponents"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

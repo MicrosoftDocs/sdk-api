@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndSetPalette, MCIWndSetPalette macro [Windows Multimedia], _win32_MCIWndSetPalette, multimedia.mciwndsetpalette, vfw/MCIWndSetPalette
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndSetPalette"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsBpQueryOption, WdsBpQueryOption function [Windows Deployment Services], wds.wdsbpqueryoption, wdsbp/WdsBpQueryOption
 ms.topic: function
+f1_keywords: ["wdsbp/WdsBpQueryOption"]
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextGetById0, IPsecSaContextGetById0 function [Filtering], fwp.ipsecsacontextgetbyid0, fwpmu/IPsecSaContextGetById0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaContextGetById0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

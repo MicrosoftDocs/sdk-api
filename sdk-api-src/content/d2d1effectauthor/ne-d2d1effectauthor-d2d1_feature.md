@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_FEATURE, D2D1_FEATURE enumeration [Direct2D], D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS, D2D1_FEATURE_DOUBLES, d2d1effectauthor/D2D1_FEATURE, d2d1effectauthor/D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS, d2d1effectauthor/D2D1_FEATURE_DOUBLES, direct2d.d2d1_feature
 ms.topic: enum
+f1_keywords: ["d2d1effectauthor/D2D1_FEATURE"]
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows

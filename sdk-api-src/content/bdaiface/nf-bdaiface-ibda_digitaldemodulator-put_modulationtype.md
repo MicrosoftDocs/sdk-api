@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],put_ModulationType method, IBDA_DigitalDemodulator.put_ModulationType, IBDA_DigitalDemodulator::put_ModulationType, IBDA_DigitalDemodulatorput_ModulationType, bdaiface/IBDA_DigitalDemodulator::put_ModulationType, mstv.ibda_digitaldemodulator_put_modulationtype, put_ModulationType, put_ModulationType method [Microsoft TV Technologies], put_ModulationType method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_DigitalDemodulator.put_ModulationType"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

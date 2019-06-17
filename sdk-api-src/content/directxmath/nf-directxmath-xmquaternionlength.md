@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionLength, XMQuaternionLength, XMQuaternionLength method [DirectX Math Support APIs], dxmath.xmquaternionlength
 ms.topic: function
+f1_keywords: ["directxmath/XMQuaternionLength"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

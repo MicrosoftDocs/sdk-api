@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetPDCServer, MprAdminGetPDCServer function [RAS], _mpr_mpradmingetpdcserver, mprapi/MprAdminGetPDCServer, rras.mpradmingetpdcserver
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminGetPDCServer"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

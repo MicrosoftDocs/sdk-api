@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CodecAPIEventData, CodecAPIEventData structure [DirectShow], CodecAPIEventDataStructure, dshow.codecapieventdata, strmif/CodecAPIEventData
 ms.topic: struct
+f1_keywords: ["strmif/CodecAPIEventData"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

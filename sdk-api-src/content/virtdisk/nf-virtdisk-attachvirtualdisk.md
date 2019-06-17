@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AttachVirtualDisk, AttachVirtualDisk function [VHD], vdssys/AttachVirtualDisk, vhd.attachvirtualdisk, vhd.surfacevirtualdisk, virtdisk/AttachVirtualDisk
 ms.topic: function
+f1_keywords: ["virtdisk/AttachVirtualDisk"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

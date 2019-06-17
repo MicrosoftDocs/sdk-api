@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],Name property, IDataCollector.Name, IDataCollector.put_Name, IDataCollector::Name, IDataCollector::get_Name, IDataCollector::put_Name, Name property [PLA], Name property [PLA],IDataCollector interface, base.idatacollector_name, pla.idatacollector_name, pla/IDataCollector::Name, pla/IDataCollector::get_Name, pla/IDataCollector::put_Name, put_Name
 ms.topic: method
+f1_keywords: ["pla/IDataCollector.Name"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

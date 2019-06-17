@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet, IImePadApplet interface [Internationalization for Windows Applications], IImePadApplet interface [Internationalization for Windows Applications],described, imepad/IImePadApplet, intl.iimepadapplet
 ms.topic: interface
+f1_keywords: ["imepad/IImePadApplet"]
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

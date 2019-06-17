@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], IWICBitmapSource interface [Windows Imaging Component],described, _wic_codec_iwicbitmapsource, wic._wic_codec_iwicbitmapsource, wincodec/IWICBitmapSource
 ms.topic: interface
+f1_keywords: ["wincodec/IWICBitmapSource"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

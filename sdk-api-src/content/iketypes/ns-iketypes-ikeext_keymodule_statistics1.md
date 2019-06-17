@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS1, IKEEXT_KEYMODULE_STATISTICS1 structure [Filtering], fwp.ikeext_keymodule_statistics1, iketypes/IKEEXT_KEYMODULE_STATISTICS1
 ms.topic: struct
+f1_keywords: ["iketypes/IKEEXT_KEYMODULE_STATISTICS1"]
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows

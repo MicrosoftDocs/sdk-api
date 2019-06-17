@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateProcessAsUser, CreateProcessAsUser function, CreateProcessAsUserA, CreateProcessAsUserW, _win32_createprocessasuser, base.createprocessasuser, processthreadsapi/CreateProcessAsUser, processthreadsapi/CreateProcessAsUserA, processthreadsapi/CreateProcessAsUserW
 ms.topic: function
+f1_keywords: ["processthreadsapi/CreateProcessAsUser"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

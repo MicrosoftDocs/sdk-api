@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetMediaType method, IMediaSample.SetMediaType, IMediaSample::SetMediaType, IMediaSampleSetMediaType, SetMediaType, SetMediaType method [DirectShow], SetMediaType method [DirectShow],IMediaSample interface, dshow.imediasample_setmediatype, strmif/IMediaSample::SetMediaType
 ms.topic: method
+f1_keywords: ["strmif/IMediaSample.SetMediaType"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

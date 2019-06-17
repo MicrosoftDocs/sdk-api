@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SspiUnmarshalAuthIdentity, SspiUnmarshalAuthIdentity function [Security], security.sspiunmarshalauthidentity, sspi/SspiUnmarshalAuthIdentity
 ms.topic: function
+f1_keywords: ["sspi/SspiUnmarshalAuthIdentity"]
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

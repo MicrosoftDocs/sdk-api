@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOpcPackage, IOpcPackage interface [Open Packaging Conventions], IOpcPackage interface [Open Packaging Conventions],described, msopc/IOpcPackage, opc.iopcpackage
 ms.topic: interface
+f1_keywords: ["msopc/IOpcPackage"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

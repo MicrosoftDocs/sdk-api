@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferReallocate, NetApiBufferReallocate function [Network Management], _win32_netapibufferreallocate, lmapibuf/NetApiBufferReallocate, netmgmt.netapibufferreallocate
 ms.topic: function
+f1_keywords: ["lmapibuf/NetApiBufferReallocate"]
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows

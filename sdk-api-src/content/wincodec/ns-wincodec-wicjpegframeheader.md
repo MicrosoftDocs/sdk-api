@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging Component], wic.wicjpegframeheader, wincodec/WICJpegFrameHeader
 ms.topic: struct
+f1_keywords: ["wincodec/WICJpegFrameHeader"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

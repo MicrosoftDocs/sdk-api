@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDTransportAddress, IWSDTransportAddress interface, IWSDTransportAddress interface,described, ncd.iwsdtransportaddress, wsdbase/IWSDTransportAddress
 ms.topic: interface
+f1_keywords: ["wsdbase/IWSDTransportAddress"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

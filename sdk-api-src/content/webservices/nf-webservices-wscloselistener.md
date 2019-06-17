@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCloseListener, WsCloseListener function [Web Services for Windows], webservices/WsCloseListener, wsw.wscloselistener
 ms.topic: function
+f1_keywords: ["webservices/WsCloseListener"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

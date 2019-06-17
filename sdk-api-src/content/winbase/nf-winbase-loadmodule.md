@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, base.loadmodule, winbase/LoadModule
 ms.topic: function
+f1_keywords: ["winbase/LoadModule"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

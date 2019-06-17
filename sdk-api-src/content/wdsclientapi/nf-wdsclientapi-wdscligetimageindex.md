@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageIndex, WdsCliGetImageIndex function [Windows Deployment Services], wds.wdscligetimageindex, wdsclientapi/WdsCliGetImageIndex
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliGetImageIndex"]
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_midiStreamPause, midiStreamPause, midiStreamPause function [Windows Multimedia], mmeapi/midiStreamPause, multimedia.midistreampause"
 ms.topic: function
+f1_keywords: ["mmeapi/midiStreamPause"]
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows

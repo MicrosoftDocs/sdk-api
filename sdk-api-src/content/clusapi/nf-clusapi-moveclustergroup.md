@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MoveClusterGroup, MoveClusterGroup function [Failover Cluster], PCLUSAPI_MOVE_CLUSTER_GROUP, PCLUSAPI_MOVE_CLUSTER_GROUP function [Failover Cluster], _wolf_moveclustergroup, clusapi/MoveClusterGroup, clusapi/PCLUSAPI_MOVE_CLUSTER_GROUP, mscs.moveclustergroup
 ms.topic: function
+f1_keywords: ["clusapi/MoveClusterGroup"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

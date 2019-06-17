@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsTokenRestricted, IsTokenRestricted function [Security], _win32_istokenrestricted, security.istokenrestricted, securitybaseapi/IsTokenRestricted
 ms.topic: function
+f1_keywords: ["securitybaseapi/IsTokenRestricted"]
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

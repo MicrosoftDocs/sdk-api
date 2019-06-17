@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyStore, INamedPropertyStore interface [Windows Shell], INamedPropertyStore interface [Windows Shell],described, _shell_INamedPropertyStore, propsys/INamedPropertyStore, shell.INamedPropertyStore
 ms.topic: interface
+f1_keywords: ["propsys/INamedPropertyStore"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

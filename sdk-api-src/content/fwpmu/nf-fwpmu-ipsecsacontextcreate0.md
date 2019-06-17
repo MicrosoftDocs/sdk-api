@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextCreate0, IPsecSaContextCreate0 function [Filtering], fwp.ipsecsacontextcreate0, fwpmu/IPsecSaContextCreate0
 ms.topic: function
+f1_keywords: ["fwpmu/IPsecSaContextCreate0"]
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

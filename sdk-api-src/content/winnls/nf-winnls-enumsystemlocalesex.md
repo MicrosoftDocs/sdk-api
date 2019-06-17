@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLocalesEx, EnumSystemLocalesEx function [Internationalization for Windows Applications], _win32_EnumSystemLocalesEx, intl.enumsystemlocalesex, winnls/EnumSystemLocalesEx
 ms.topic: function
+f1_keywords: ["winnls/EnumSystemLocalesEx"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

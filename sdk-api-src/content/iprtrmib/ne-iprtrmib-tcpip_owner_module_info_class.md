@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS, PTCPIP_OWNER_MODULE_INFO_CLASS enumeration pointer [IP Helper], TCPIP_OWNER_MODULE_INFO_BASIC, TCPIP_OWNER_MODULE_INFO_CLASS, TCPIP_OWNER_MODULE_INFO_CLASS enumeration [IP Helper], iphlp.tcpip_owner_module_info_class, iprtrmib/PTCPIP_OWNER_MODULE_INFO_CLASS, iprtrmib/TCPIP_OWNER_MODULE_INFO_BASIC, iprtrmib/TCPIP_OWNER_MODULE_INFO_CLASS"
 ms.topic: enum
+f1_keywords: ["iprtrmib/TCPIP_OWNER_MODULE_INFO_CLASS"]
 req.header: iprtrmib.h
 req.include-header: 
 req.target-type: Windows

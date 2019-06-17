@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_RGBTOHUE_PROP, D2D1_RGBTOHUE_PROP enumeration [Direct2D], D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE, d2d1effects_2/D2D1_RGBTOHUE_PROP, d2d1effects_2/D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE, direct2d.d2d1_rgbtohue_prop
 ms.topic: enum
+f1_keywords: ["d2d1effects_2/D2D1_RGBTOHUE_PROP"]
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows

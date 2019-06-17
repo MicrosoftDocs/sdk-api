@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetErrorInfo, SetErrorInfo function [Automation], _oa96_SetErrorInfo, automat.seterrorinfo, oleauto/SetErrorInfo
 ms.topic: function
+f1_keywords: ["oleauto/SetErrorInfo"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

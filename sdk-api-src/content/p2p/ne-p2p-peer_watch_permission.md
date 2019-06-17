@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PEER_WATCH_ALLOWED, PEER_WATCH_BLOCKED, PEER_WATCH_PERMISSION, PEER_WATCH_PERMISSION enumeration [Peer Networking], p2p.peer_watch_permission, p2p/PEER_WATCH_ALLOWED, p2p/PEER_WATCH_BLOCKED, p2p/PEER_WATCH_PERMISSION
 ms.topic: enum
+f1_keywords: ["p2p/PEER_WATCH_PERMISSION"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

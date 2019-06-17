@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO structure [ETW], etw.provider_enumeration_info_struct, tdh.provider_enumeration_info_struct, tdh/PROVIDER_ENUMERATION_INFO"
 ms.topic: struct
+f1_keywords: ["tdh/PROVIDER_ENUMERATION_INFO"]
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DisplayConfigureDialog, DisplayConfigureDialog method [Picture Acquisition], DisplayConfigureDialog method [Picture Acquisition],IPhotoAcquirePlugin interface, IPhotoAcquirePlugin interface [Picture Acquisition],DisplayConfigureDialog method, IPhotoAcquirePlugin.DisplayConfigureDialog, IPhotoAcquirePlugin::DisplayConfigureDialog, IPhotoAcquirePluginDisplayConfigureDialog, photoacquire/IPhotoAcquirePlugin::DisplayConfigureDialog, picacq.iphotoacquireplugin_displayconfiguredialog
 ms.topic: method
+f1_keywords: ["photoacquire/IPhotoAcquirePlugin.DisplayConfigureDialog"]
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_FLAG, EXPAND_VIRTUAL_DISK_FLAG enumeration [VHD], EXPAND_VIRTUAL_DISK_FLAG_NONE, vdssys/EXPAND_VIRTUAL_DISK_FLAG, vdssys/EXPAND_VIRTUAL_DISK_FLAG_NONE, vhd.expand_virtual_disk_flag, virtdisk/EXPAND_VIRTUAL_DISK_FLAG, virtdisk/EXPAND_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
+f1_keywords: ["virtdisk/EXPAND_VIRTUAL_DISK_FLAG"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

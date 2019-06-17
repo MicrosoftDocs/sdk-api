@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupSetDirectoryId, SetupSetDirectoryId function [Setup API], SetupSetDirectoryIdA, SetupSetDirectoryIdW, _setupapi_setupsetdirectoryid, setup.setupsetdirectoryid, setupapi/SetupSetDirectoryId, setupapi/SetupSetDirectoryIdA, setupapi/SetupSetDirectoryIdW
 ms.topic: function
+f1_keywords: ["setupapi/SetupSetDirectoryId"]
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

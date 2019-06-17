@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAudio2CutoffFrequencyToRadians, XAudio2CutoffFrequencyToRadians function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoradians, xaudio2/XAudio2CutoffFrequencyToRadians
 ms.topic: function
+f1_keywords: ["xaudio2/XAudio2CutoffFrequencyToRadians"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

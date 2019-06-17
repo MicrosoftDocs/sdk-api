@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Identity, D2D1::Matrix3x2F::Identity, Identity, Identity method [Direct2D], Identity method [Direct2D],Matrix3x2F class, Matrix3x2F class [Direct2D],Identity method, Matrix3x2F.Identity, Matrix3x2F::Identity, d2d1helper/Matrix3x2F::Identity, direct2d.colorf_identity, direct2d.matrix3x2f_identity
 ms.topic: method
+f1_keywords: ["d2d1helper/Matrix3x2F.Identity"]
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows

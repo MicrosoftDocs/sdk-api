@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCOMPARTMENT_ID, COMPARTMENT_ID, COMPARTMENT_ID enumeration [Kernel-Mode Driver Architecture], DEFAULT_COMPARTMENT_ID, PCOMPARTMENT_ID, PCOMPARTMENT_ID enumeration pointer [Kernel-Mode Driver Architecture], UNSPECIFIED_COMPARTMENT_ID, kernel.compartment_id, sysenum_7c4df3d5-f14a-4650-be6d-82b8bcc421ee.xml, winnt/COMPARTMENT_ID, winnt/DEFAULT_COMPARTMENT_ID, winnt/PCOMPARTMENT_ID, winnt/UNSPECIFIED_COMPARTMENT_ID"
 ms.topic: enum
+f1_keywords: ["winnt/COMPARTMENT_ID"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

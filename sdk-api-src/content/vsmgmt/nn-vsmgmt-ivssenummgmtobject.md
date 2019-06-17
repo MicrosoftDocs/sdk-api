@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
 ms.topic: interface
+f1_keywords: ["vsmgmt/IVssEnumMgmtObject"]
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WTHelperGetProvPrivateDataFromChain, WTHelperGetProvPrivateDataFromChain function [Security], security.wthelpergetprovprivatedatafromchain, wintrust/WTHelperGetProvPrivateDataFromChain
 ms.topic: function
+f1_keywords: ["wintrust/WTHelperGetProvPrivateDataFromChain"]
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

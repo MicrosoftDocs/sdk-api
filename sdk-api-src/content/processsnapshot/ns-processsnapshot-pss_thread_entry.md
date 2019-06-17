@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_entry, processsnapshot/PSS_THREAD_ENTRY
 ms.topic: struct
+f1_keywords: ["processsnapshot/PSS_THREAD_ENTRY"]
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows

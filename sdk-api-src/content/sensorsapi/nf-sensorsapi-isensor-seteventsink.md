@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetEventSink method, ISensor.SetEventSink, ISensor::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensor interface, sensorsapi/ISensor::SetEventSink, winsensors_com_ref.isensor_seteventsink
 ms.topic: method
+f1_keywords: ["sensorsapi/ISensor.SetEventSink"]
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

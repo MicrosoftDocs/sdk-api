@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_Volume method, ITCustomTone.put_Volume, ITCustomTone::put_Volume, _tapi3_itcustomtone_put_volume, put_Volume, put_Volume method [TAPI 2.2], put_Volume method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_volume, tapi3if/ITCustomTone::put_Volume
 ms.topic: method
+f1_keywords: ["tapi3if/ITCustomTone.put_Volume"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

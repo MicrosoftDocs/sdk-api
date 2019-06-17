@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadGlobalPwrPolicy, ReadGlobalPwrPolicy function, _win32_readglobalpwrpolicy, base.readglobalpwrpolicy, powrprof/ReadGlobalPwrPolicy
 ms.topic: function
+f1_keywords: ["powrprof/ReadGlobalPwrPolicy"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

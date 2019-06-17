@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
 ms.topic: function
+f1_keywords: ["networkisolation/NetworkIsolationSetupAppContainerBinaries"]
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows

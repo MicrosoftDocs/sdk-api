@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],Reset method, ICEnroll3 interface [Security],Reset method, ICEnroll3.Reset, ICEnroll3::Reset, ICEnroll4 interface [Security],Reset method, ICEnroll4::Reset, Reset, Reset method [Security], Reset method [Security],CEnroll object, Reset method [Security],ICEnroll3 interface, Reset method [Security],ICEnroll4 interface, security.icenroll4_reset, xenroll/ICEnroll3::Reset, xenroll/ICEnroll4::Reset
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.Reset"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

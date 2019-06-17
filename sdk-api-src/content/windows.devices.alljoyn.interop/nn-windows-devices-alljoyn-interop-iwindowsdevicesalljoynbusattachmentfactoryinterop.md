@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 ms.topic: interface
+f1_keywords: ["windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop"]
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows

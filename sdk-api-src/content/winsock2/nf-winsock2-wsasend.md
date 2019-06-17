@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASend, WSASend function [Winsock], _win32_wsasend_2, winsock.wsasend_2, winsock2/WSASend
 ms.topic: function
+f1_keywords: ["winsock2/WSASend"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

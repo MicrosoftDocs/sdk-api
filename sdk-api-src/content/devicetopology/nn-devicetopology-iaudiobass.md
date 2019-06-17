@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAudioBass, IAudioBass interface [Core Audio], IAudioBass interface [Core Audio],described, coreaudio.iaudiobass, devicetopology/IAudioBass
 ms.topic: interface
+f1_keywords: ["devicetopology/IAudioBass"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

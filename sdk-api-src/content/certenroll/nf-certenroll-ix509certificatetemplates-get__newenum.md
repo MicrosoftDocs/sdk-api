@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplates interface [Security],_NewEnum property, IX509CertificateTemplates._NewEnum, IX509CertificateTemplates.get__NewEnum, IX509CertificateTemplates::_NewEnum, IX509CertificateTemplates::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IX509CertificateTemplates interface, certenroll/IX509CertificateTemplates::_NewEnum, certenroll/IX509CertificateTemplates::get__NewEnum, get__NewEnum, security.ix509certificatetemplates__newenum
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateTemplates._NewEnum"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

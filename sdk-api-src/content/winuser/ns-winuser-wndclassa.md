@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPWNDCLASSA, *NPWNDCLASSA, *PWNDCLASSA, PWNDCLASS, PWNDCLASS structure pointer [Windows and Messages], WNDCLASS, WNDCLASS structure [Windows and Messages], WNDCLASSA, WNDCLASSW, _win32_WNDCLASS_str, _win32_wndclass_str_cpp, winmsg.wndclass, winui._win32_wndclass_str, winuser/PWNDCLASS, winuser/WNDCLASS, winuser/WNDCLASSA, winuser/WNDCLASSW"
 ms.topic: struct
+f1_keywords: ["winuser/WNDCLASS"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

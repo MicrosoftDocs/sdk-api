@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMCOLOR structure [DirectX Math Support APIs],operator = method, XMCOLOR.operator =(const XMCOLOR&), XMCOLOR.operator-assign(XMCOLOR &&), XMCOLOR.operator=, XMCOLOR::operator-assign(XMCOLOR &&), XMCOLOR::operator=, dxmath.xmcolor_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMCOLOR structure, operator=
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMCOLOR.operator ="]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

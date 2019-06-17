@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TF_LMLATTELEMENT, TF_LMLATTELEMENT structure [Text Services Framework], _tsf_tf_lmlattelement_ref, ctffunc/TF_LMLATTELEMENT, tsf.tf_lmlattelement
 ms.topic: struct
+f1_keywords: ["ctffunc/TF_LMLATTELEMENT"]
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows

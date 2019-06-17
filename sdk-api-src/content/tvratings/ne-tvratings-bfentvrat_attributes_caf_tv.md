@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BfEnTvRat_Attributes_CAF_TV, BfEnTvRat_Attributes_CAF_TV enumeration [Microsoft TV Technologies], CAF_IsBlocked, CAF_ValidAttrSubmask, mstv.bfentvrat_attributes_caf_tv, tvratings/BfEnTvRat_Attributes_CAF_TV, tvratings/CAF_IsBlocked, tvratings/CAF_ValidAttrSubmask
 ms.topic: enum
+f1_keywords: ["tvratings/BfEnTvRat_Attributes_CAF_TV"]
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows

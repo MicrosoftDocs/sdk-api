@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 02/20/2019
 ms.keywords: BG_JOB_PRIORITY, BG_JOB_PRIORITY enumeration [BITS], BG_JOB_PRIORITY_FOREGROUND, BG_JOB_PRIORITY_HIGH, BG_JOB_PRIORITY_LOW, BG_JOB_PRIORITY_NORMAL, _drz_bg_job_priority, bits.bg_job_priority, bits/BG_JOB_PRIORITY, bits/BG_JOB_PRIORITY_FOREGROUND, bits/BG_JOB_PRIORITY_HIGH, bits/BG_JOB_PRIORITY_LOW, bits/BG_JOB_PRIORITY_NORMAL
 ms.topic: enum
+f1_keywords: ["bits/BG_JOB_PRIORITY"]
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows

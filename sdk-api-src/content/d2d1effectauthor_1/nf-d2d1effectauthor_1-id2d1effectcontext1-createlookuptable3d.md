@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateLookupTable3D, CreateLookupTable3D method [Direct2D], CreateLookupTable3D method [Direct2D],ID2D1EffectContext1 interface, ID2D1EffectContext1 interface [Direct2D],CreateLookupTable3D method, ID2D1EffectContext1.CreateLookupTable3D, ID2D1EffectContext1::CreateLookupTable3D, d2d1effectauthor_1/ID2D1EffectContext1::CreateLookupTable3D, direct2d.id2d1effectcontext1_createlookuptable3d
 ms.topic: method
+f1_keywords: ["d2d1effectauthor_1/ID2D1EffectContext1.CreateLookupTable3D"]
 req.header: d2d1effectauthor_1.h
 req.include-header: 
 req.target-type: Windows

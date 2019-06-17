@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeyEventSink interface [Text Services Framework],OnTestKeyUp method, ITfKeyEventSink.OnTestKeyUp, ITfKeyEventSink::OnTestKeyUp, OnTestKeyUp, OnTestKeyUp method [Text Services Framework], OnTestKeyUp method [Text Services Framework],ITfKeyEventSink interface, _tsf_itfkeyeventsink_ontestkeyup_ref, msctf/ITfKeyEventSink::OnTestKeyUp, tsf.itfkeyeventsink_ontestkeyup
 ms.topic: method
+f1_keywords: ["msctf/ITfKeyEventSink.OnTestKeyUp"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

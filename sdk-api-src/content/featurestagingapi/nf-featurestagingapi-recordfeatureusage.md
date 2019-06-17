@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
 ms.topic: function
+f1_keywords: ["featurestagingapi/RecordFeatureUsage"]
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows

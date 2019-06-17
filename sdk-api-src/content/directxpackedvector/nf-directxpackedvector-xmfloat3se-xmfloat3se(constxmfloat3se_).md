@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3SE, XMFLOAT3SE constructor [DirectX Math Support APIs], XMFLOAT3SE constructor [DirectX Math Support APIs],XMFLOAT3SE structure, XMFLOAT3SE structure [DirectX Math Support APIs],XMFLOAT3SE constructor, XMFLOAT3SE.XMFLOAT3SE, XMFLOAT3SE.XMFLOAT3SE(), XMFLOAT3SE.XMFLOAT3SE(const XMFLOAT3SE &), XMFLOAT3SE::XMFLOAT3SE, XMFLOAT3SE::XMFLOAT3SE(const XMFLOAT3SE &), dxmath.xmfloat3se_ctor_1
 ms.topic: method
+f1_keywords: ["directxpackedvector/XMFLOAT3SE.XMFLOAT3SE"]
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows

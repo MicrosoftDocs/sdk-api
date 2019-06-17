@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackCleanupGroup, TpSetCallbackCleanupGroup function, base.tpsetcallbackcleanupgroup, winnt/TpSetCallbackCleanupGroup
 ms.topic: function
+f1_keywords: ["winnt/TpSetCallbackCleanupGroup"]
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows

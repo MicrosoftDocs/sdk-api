@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNewObjPrimarySite, IDsAdminNewObjPrimarySite interface [Active Directory], IDsAdminNewObjPrimarySite interface [Active Directory],described, _glines_idsadminnewobjprimarysite, ad.idsadminnewobjprimarysite, dsadmin/IDsAdminNewObjPrimarySite
 ms.topic: interface
+f1_keywords: ["dsadmin/IDsAdminNewObjPrimarySite"]
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows

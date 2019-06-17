@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFSCE_FREE_INFO, PFSCE_FREE_INFO callback, PFSCE_FREE_INFO callback function [Security], _config_pfsce_free_info, scesvc/PFSCE_FREE_INFO, security.pfsce_free_info
 ms.topic: callback
+f1_keywords: ["scesvc/PFSCE_FREE_INFO"]
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows

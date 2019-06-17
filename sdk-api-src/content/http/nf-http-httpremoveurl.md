@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpRemoveUrl, HttpRemoveUrl function [HTTP], _http_httpremoveurl, http.httpremoveurl, http/HttpRemoveUrl
 ms.topic: function
+f1_keywords: ["http/HttpRemoveUrl"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

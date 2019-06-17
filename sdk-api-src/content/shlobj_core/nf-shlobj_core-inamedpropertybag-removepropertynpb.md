@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamedPropertyBag interface [Windows Shell],RemovePropertyNPB method, INamedPropertyBag.RemovePropertyNPB, INamedPropertyBag::RemovePropertyNPB, RemovePropertyNPB, RemovePropertyNPB method [Windows Shell], RemovePropertyNPB method [Windows Shell],INamedPropertyBag interface, _shell_INamedPropertyBag_RemovePropertyNPB, shell.INamedPropertyBag_RemovePropertyNPB, shlobj_core/INamedPropertyBag::RemovePropertyNPB
 ms.topic: method
+f1_keywords: ["shlobj_core/INamedPropertyBag.RemovePropertyNPB"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

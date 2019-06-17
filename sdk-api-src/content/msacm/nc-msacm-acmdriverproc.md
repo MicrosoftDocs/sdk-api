@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmDriverProc, acmDriverProc, acmDriverProc callback, acmDriverProc callback function [Windows Multimedia], msacm/acmDriverProc, multimedia.acmdriverproc"
 ms.topic: callback
+f1_keywords: ["msacm/acmDriverProc"]
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectorySearch, IDirectorySearch interface [ADSI], IDirectorySearch interface [ADSI],described, _ds_idirectorysearch, adsi.idirectorysearch, iads/IDirectorySearch
 ms.topic: interface
+f1_keywords: ["iads/IDirectorySearch"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

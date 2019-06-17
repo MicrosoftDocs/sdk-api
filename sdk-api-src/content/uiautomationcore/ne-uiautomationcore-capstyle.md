@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CapStyle, CapStyle enumeration [Windows Accessibility], CapStyle_AllCap, CapStyle_AllPetiteCaps, CapStyle_None, CapStyle_PetiteCaps, CapStyle_SmallCap, CapStyle_Titling, CapStyle_Unicase, Other, uiauto.uiauto_CapStyleEnum, uiauto_CapStyleEnum, uiautomationcore/CapStyle, uiautomationcore/CapStyle_AllCap, uiautomationcore/CapStyle_AllPetiteCaps, uiautomationcore/CapStyle_None, uiautomationcore/CapStyle_PetiteCaps, uiautomationcore/CapStyle_SmallCap, uiautomationcore/CapStyle_Titling, uiautomationcore/CapStyle_Unicase, uiautomationcore/Other, winauto.uiauto_CapStyleEnum
 ms.topic: enum
+f1_keywords: ["uiautomationcore/CapStyle"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

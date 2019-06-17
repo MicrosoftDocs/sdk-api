@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],put_LeaseStartTime method, IMcastLeaseInfo.put_LeaseStartTime, IMcastLeaseInfo::put_LeaseStartTime, _tapi3_imcastleaseinfo_put_leasestarttime, mdhcp/IMcastLeaseInfo::put_LeaseStartTime, put_LeaseStartTime, put_LeaseStartTime method [TAPI 2.2], put_LeaseStartTime method [TAPI 2.2],IMcastLeaseInfo interface, tapi3.imcastleaseinfo_put_leasestarttime
 ms.topic: method
+f1_keywords: ["mdhcp/IMcastLeaseInfo.put_LeaseStartTime"]
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows

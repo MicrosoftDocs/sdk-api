@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_CombineRgn, gdi.combinergn, wingdi/CombineRgn
 ms.topic: function
+f1_keywords: ["wingdi/CombineRgn"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzOperations object [Security],_NewEnum property, IAzOperations interface [Security],_NewEnum property, IAzOperations._NewEnum, IAzOperations.get__NewEnum, IAzOperations::_NewEnum, IAzOperations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzOperations object, _NewEnum property [Security],IAzOperations interface, azroles/IAzOperations::_NewEnum, azroles/IAzOperations::get__NewEnum, get__NewEnum, security.iazoperations_newenum
 ms.topic: method
+f1_keywords: ["azroles/IAzOperations._NewEnum"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

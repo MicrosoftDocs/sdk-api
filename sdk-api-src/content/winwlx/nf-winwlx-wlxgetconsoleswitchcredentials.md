@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WlxGetConsoleSwitchCredentials, WlxGetConsoleSwitchCredentials function [Security], _gina_wlxgetconsoleswitchcredentials, security.wlxgetconsoleswitchcredentials, winwlx/WlxGetConsoleSwitchCredentials
 ms.topic: function
+f1_keywords: ["winwlx/WlxGetConsoleSwitchCredentials"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

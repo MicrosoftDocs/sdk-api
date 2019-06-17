@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedHelpText property [Windows Accessibility], CachedHelpText property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedHelpText property, IUIAutomationElement.CachedHelpText, IUIAutomationElement.get_CachedHelpText, IUIAutomationElement::CachedHelpText, IUIAutomationElement::get_CachedHelpText, get_CachedHelpText, uiauto.uiauto_IUIAutomationElement_CachedHelpText, uiauto_IUIAutomationElement_CachedHelpText, uiautomationclient/IUIAutomationElement::CachedHelpText, uiautomationclient/IUIAutomationElement::get_CachedHelpText, winauto.uiauto_IUIAutomationElement_CachedHelpText
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedHelpText"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

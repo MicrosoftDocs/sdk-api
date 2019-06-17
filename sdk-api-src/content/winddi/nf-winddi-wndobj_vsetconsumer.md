@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WNDOBJ_vSetConsumer, WNDOBJ_vSetConsumer function [Display Devices], display.wndobj_vsetconsumer, gdifncs_759188da-41cc-45c8-845f-80d23e60e88b.xml, winddi/WNDOBJ_vSetConsumer
 ms.topic: function
+f1_keywords: ["winddi/WNDOBJ_vSetConsumer"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory, CItemIDFactory class [Windows Shell], CItemIDFactory class [Windows Shell],described, shell.citemidfactory, shidfact/CItemIDFactory
 ms.topic: class
+f1_keywords: ["shidfact/CItemIDFactory"]
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

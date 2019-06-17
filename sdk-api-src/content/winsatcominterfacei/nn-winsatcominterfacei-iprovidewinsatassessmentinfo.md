@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATAssessmentInfo, IProvideWinSATAssessmentInfo interface [WinSAT], IProvideWinSATAssessmentInfo interface [WinSAT],described, winsat.iprovidewinsatassessmentinfo, winsatcominterfacei/IProvideWinSATAssessmentInfo
 ms.topic: interface
+f1_keywords: ["winsatcominterfacei/IProvideWinSATAssessmentInfo"]
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows

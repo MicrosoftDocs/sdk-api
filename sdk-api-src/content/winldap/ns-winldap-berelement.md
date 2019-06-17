@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BerElement, BerElement structure [LDAP], _ldap_berelement, ldap.berelement, winldap/BerElement
 ms.topic: struct
+f1_keywords: ["winldap/BerElement"]
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows

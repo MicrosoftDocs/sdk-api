@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PENUMSOURCEFILETOKENSCALLBACK, PENUMSOURCEFILETOKENSCALLBACK callback, SymEnumSourceFileTokensProc, SymEnumSourceFileTokensProc callback function, base.symenumsourcefiletokensproc, dbghelp/SymEnumSourceFileTokensProc
 ms.topic: callback
+f1_keywords: ["dbghelp/SymEnumSourceFileTokensProc"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

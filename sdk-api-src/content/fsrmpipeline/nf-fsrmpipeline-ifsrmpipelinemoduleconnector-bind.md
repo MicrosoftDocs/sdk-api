@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Bind, Bind method [File Server Resource Manager], Bind method [File Server Resource Manager],FsrmPipelineModuleConnector class, Bind method [File Server Resource Manager],IFsrmPipelineModuleConnector interface, FsrmPipelineModuleConnector class [File Server Resource Manager],Bind method, IFsrmPipelineModuleConnector interface [File Server Resource Manager],Bind method, IFsrmPipelineModuleConnector.Bind, IFsrmPipelineModuleConnector::Bind, fs.ifsrmpipelinemoduleconnector_bind, fsrm.ifsrmpipelinemoduleconnector_bind, fsrmpipeline/IFsrmPipelineModuleConnector::Bind
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleConnector.Bind"]
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows

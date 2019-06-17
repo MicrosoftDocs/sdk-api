@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MBN_DEVICE_SERVICE, MBN_DEVICE_SERVICE structure [Microsoft Broadband Networks], PMBN_DEVICE_SERVICE, PMBN_DEVICE_SERVICE structure pointer [Microsoft Broadband Networks], mbn.mbn_device_service, mbnapi/MBN_DEVICE_SERVICE, mbnapi/PMBN_DEVICE_SERVICE
 ms.topic: struct
+f1_keywords: ["mbnapi/MBN_DEVICE_SERVICE"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

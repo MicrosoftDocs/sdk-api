@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
 ms.topic: function
+f1_keywords: ["memoryapi/VirtualProtectFromApp"]
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows

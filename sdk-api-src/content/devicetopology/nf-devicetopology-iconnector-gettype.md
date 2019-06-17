@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetType method, IConnector.GetType, IConnector::GetType, IConnectorGetType, coreaudio.iconnector_gettype, devicetopology/IConnector::GetType
 ms.topic: method
+f1_keywords: ["devicetopology/IConnector.GetType"]
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows

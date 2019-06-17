@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTextCharacterExtra, SetTextCharacterExtra function [Windows GDI], _win32_SetTextCharacterExtra, gdi.settextcharacterextra, wingdi/SetTextCharacterExtra
 ms.topic: function
+f1_keywords: ["wingdi/SetTextCharacterExtra"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_ENVELOPE_VERSION, WS_ENVELOPE_VERSION enumeration [Web Services for Windows], WS_ENVELOPE_VERSION_SOAP_1_1, WS_ENVELOPE_VERSION_SOAP_1_2, webservices/WS_ENVELOPE_VERSION, webservices/WS_ENVELOPE_VERSION_SOAP_1_1, webservices/WS_ENVELOPE_VERSION_SOAP_1_2, wsw.ws_envelope_version
 ms.topic: enum
+f1_keywords: ["webservices/WS_ENVELOPE_VERSION"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

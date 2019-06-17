@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MagGetInputTransform, MagGetInputTransform function [Magnification API], magapi.magapi_maggetinputtransform, magnification/MagGetInputTransform
 ms.topic: function
+f1_keywords: ["magnification/MagGetInputTransform"]
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows

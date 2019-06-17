@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Static_GetIcon, Static_GetIcon macro [Windows Controls], _win32_Static_GetIcon, _win32_Static_GetIcon_cpp, controls.Static_GetIcon, controls._win32_Static_GetIcon, windowsx/Static_GetIcon
 ms.topic: macro
+f1_keywords: ["windowsx/Static_GetIcon"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

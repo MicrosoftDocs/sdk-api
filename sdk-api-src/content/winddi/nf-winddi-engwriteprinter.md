@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngWritePrinter, EngWritePrinter function [Display Devices], display.engwriteprinter, gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml, winddi/EngWritePrinter
 ms.topic: function
+f1_keywords: ["winddi/EngWritePrinter"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

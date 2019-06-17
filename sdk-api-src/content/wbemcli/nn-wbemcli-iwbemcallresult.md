@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWbemCallResult, IWbemCallResult interface [Windows Management Instrumentation], IWbemCallResult interface [Windows Management Instrumentation],described, _hmm_iwbemcallresult, wbemcli/IWbemCallResult, wmi.iwbemcallresult
 ms.topic: interface
+f1_keywords: ["wbemcli/IWbemCallResult"]
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows

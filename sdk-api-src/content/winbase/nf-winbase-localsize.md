@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
 ms.topic: function
+f1_keywords: ["winbase/LocalSize"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INamespaceWalkCB2 interface [Windows Shell],WalkComplete method, INamespaceWalkCB2.WalkComplete, INamespaceWalkCB2::WalkComplete, WalkComplete, WalkComplete method [Windows Shell], WalkComplete method [Windows Shell],INamespaceWalkCB2 interface, _shell_INamespaceWalkCB2_WalkComplete, shell.INamespaceWalkCB2_WalkComplete, shobjidl_core/INamespaceWalkCB2::WalkComplete
 ms.topic: method
+f1_keywords: ["shobjidl_core/INamespaceWalkCB2.WalkComplete"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

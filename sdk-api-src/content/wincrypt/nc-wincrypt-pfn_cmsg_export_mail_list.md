@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PFN_CMSG_EXPORT_MAIL_LIST, PFN_CMSG_EXPORT_MAIL_LIST callback, PFN_CMSG_EXPORT_MAIL_LIST callback function [Security], security.pfn_cmsg_export_mail_list, wincrypt/PFN_CMSG_EXPORT_MAIL_LIST
 ms.topic: callback
+f1_keywords: ["wincrypt/PFN_CMSG_EXPORT_MAIL_LIST"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

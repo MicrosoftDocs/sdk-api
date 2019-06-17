@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_USB_USER_REQUEST, IOCTL_USB_USER_REQUEST control, IOCTL_USB_USER_REQUEST control code [Buses], buses.ioctl_usb_user_request, usbirp_7409a5c0-756e-45ea-b2f5-0b73d91c9225.xml, usbuser/IOCTL_USB_USER_REQUEST
 ms.topic: ioctl
+f1_keywords: ["usbuser/IOCTL_USB_USER_REQUEST"]
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows

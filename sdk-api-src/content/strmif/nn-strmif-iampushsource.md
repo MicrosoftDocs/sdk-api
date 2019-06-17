@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
 ms.topic: interface
+f1_keywords: ["strmif/IAMPushSource"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

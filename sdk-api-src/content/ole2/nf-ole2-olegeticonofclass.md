@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OleGetIconOfClass, OleGetIconOfClass function [COM], _com_OleGetIconOfClass, com.olegeticonofclass, ole2/OleGetIconOfClass
 ms.topic: function
+f1_keywords: ["ole2/OleGetIconOfClass"]
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows

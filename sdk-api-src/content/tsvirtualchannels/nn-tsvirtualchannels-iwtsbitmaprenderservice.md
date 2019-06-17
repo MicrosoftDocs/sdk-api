@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWTSBitmapRenderService, IWTSBitmapRenderService interface [Remote Desktop Services], IWTSBitmapRenderService interface [Remote Desktop Services],described, termserv.iwtsbitmaprenderservice, tsvirtualchannels/IWTSBitmapRenderService
 ms.topic: interface
+f1_keywords: ["tsvirtualchannels/IWTSBitmapRenderService"]
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows

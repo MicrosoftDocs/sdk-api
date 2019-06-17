@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSASetSocketPeerTargetName, WSASetSocketPeerTargetName function [Winsock], winsock.wsasetsocketpeertargetname, ws2tcpip/WSASetSocketPeerTargetName
 ms.topic: function
+f1_keywords: ["ws2tcpip/WSASetSocketPeerTargetName"]
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

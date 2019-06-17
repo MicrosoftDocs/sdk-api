@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringVectorAlloc, PropVariantToStringVectorAlloc function [Windows Properties], _shell_PropVariantToStringVectorAlloc, properties.PropVariantToStringVectorAlloc, propvarutil/PropVariantToStringVectorAlloc, shell.PropVariantToStringVectorAlloc
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToStringVectorAlloc"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

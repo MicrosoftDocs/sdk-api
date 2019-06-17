@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WM_PICTURE, WM_PICTURE structure [windows Media Format], wmformat.wm_picture, wmsdkidl/WM_PICTURE
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WM_PICTURE"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing APIs], IXAPOParameters interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPOParameters, xaudio2.ixapoparameters
 ms.topic: interface
+f1_keywords: ["xapo/IXAPOParameters"]
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

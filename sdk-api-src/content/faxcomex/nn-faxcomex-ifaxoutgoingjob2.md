@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob2, IFaxOutgoingJob2 interface [Fax Service], IFaxOutgoingJob2 interface [Fax Service],described, _mfax_faxoutgoingjob2_cpp, fax._mfax_faxoutgoingjob2_cpp, faxcomex/IFaxOutgoingJob2
 ms.topic: interface
+f1_keywords: ["faxcomex/IFaxOutgoingJob2"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

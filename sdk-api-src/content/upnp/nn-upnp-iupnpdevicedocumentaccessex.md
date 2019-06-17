@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceDocumentAccessEx, IUPnPDeviceDocumentAccessEx interface [UPnP APIs], IUPnPDeviceDocumentAccessEx interface [UPnP APIs],described, upnp.iupnpdevicedocumentaccessex, upnp/IUPnPDeviceDocumentAccessEx
 ms.topic: interface
+f1_keywords: ["upnp/IUPnPDeviceDocumentAccessEx"]
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows

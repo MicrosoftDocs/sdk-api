@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DVD_PLAYBACK_LOCATION, DVD_PLAYBACK_LOCATION structure [DirectShow], DVD_PLAYBACK_LOCATIONStructure, dshow.dvd_playback_location, strmif/DVD_PLAYBACK_LOCATION
 ms.topic: struct
+f1_keywords: ["strmif/DVD_PLAYBACK_LOCATION"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

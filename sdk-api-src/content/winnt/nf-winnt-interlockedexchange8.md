@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchange8, InterlockedExchange8 function, base.interlockedexchange8, winnt/InterlockedExchange8
 ms.topic: function
+f1_keywords: ["winnt/InterlockedExchange8"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

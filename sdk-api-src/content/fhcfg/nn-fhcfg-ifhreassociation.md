@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFhReassociation, IFhReassociation interface [Windows API], IFhReassociation interface [Windows API],described, fhcfg/IFhReassociation, winprog.ifhreassociation
 ms.topic: interface
+f1_keywords: ["fhcfg/IFhReassociation"]
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows

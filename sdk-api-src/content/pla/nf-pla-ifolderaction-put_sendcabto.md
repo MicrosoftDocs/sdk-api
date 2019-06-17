@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFolderAction interface [PLA],SendCabTo property, IFolderAction.SendCabTo, IFolderAction.put_SendCabTo, IFolderAction::SendCabTo, IFolderAction::get_SendCabTo, IFolderAction::put_SendCabTo, SendCabTo property [PLA], SendCabTo property [PLA],IFolderAction interface, base.ifolderaction_sendcabto, pla.ifolderaction_sendcabto, pla/IFolderAction::SendCabTo, pla/IFolderAction::get_SendCabTo, pla/IFolderAction::put_SendCabTo, put_SendCabTo
 ms.topic: method
+f1_keywords: ["pla/IFolderAction.SendCabTo"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

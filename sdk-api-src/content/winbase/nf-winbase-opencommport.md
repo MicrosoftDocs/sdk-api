@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FILE_FLAG_OVERLAPPED, OpenCommPort, OpenCommPort function, base.opencommport, winbase/OpenCommPort
 ms.topic: function
+f1_keywords: ["winbase/OpenCommPort"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INSTALLSPEC, INSTALLSPEC union [Group Policy], appmgmt/INSTALLSPEC, policy.installspec_union
 ms.topic: struct
+f1_keywords: ["appmgmt/INSTALLSPEC"]
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

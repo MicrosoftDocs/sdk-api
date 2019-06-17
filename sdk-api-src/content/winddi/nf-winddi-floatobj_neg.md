@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FLOATOBJ_Neg, FLOATOBJ_Neg function [Display Devices], display.floatobj_neg, gdifncs_7fe9b86a-abdd-44d6-b815-1ac5f37203db.xml, winddi/FLOATOBJ_Neg
 ms.topic: function
+f1_keywords: ["winddi/FLOATOBJ_Neg"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

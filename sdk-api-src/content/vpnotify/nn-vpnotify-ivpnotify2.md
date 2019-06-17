@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVPNotify2, IVPNotify2 interface [DirectShow], IVPNotify2 interface [DirectShow],described, IVPNotify2Interface, dshow.ivpnotify2, vpnotify/IVPNotify2
 ms.topic: interface
+f1_keywords: ["vpnotify/IVPNotify2"]
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows

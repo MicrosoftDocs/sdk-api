@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
 ms.topic: function
+f1_keywords: ["bcrypt/BCryptQueryContextConfiguration"]
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

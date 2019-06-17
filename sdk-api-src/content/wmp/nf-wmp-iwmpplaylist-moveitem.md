@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],moveItem method, IWMPPlaylist.moveItem, IWMPPlaylist::moveItem, IWMPPlaylistmoveItem, moveItem, moveItem method [Windows Media Player], moveItem method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_moveitem, wmp/IWMPPlaylist::moveItem
 ms.topic: method
+f1_keywords: ["wmp/IWMPPlaylist.moveItem"]
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows

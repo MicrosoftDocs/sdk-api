@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentmssession, base.closentmssession, fs.closentmssession, ntmsapi/CloseNtmsSession
 ms.topic: function
+f1_keywords: ["ntmsapi/CloseNtmsSession"]
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

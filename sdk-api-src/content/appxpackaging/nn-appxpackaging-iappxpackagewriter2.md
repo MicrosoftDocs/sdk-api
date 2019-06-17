@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageWriter2, IAppxPackageWriter2 interface [App packaging and management], IAppxPackageWriter2 interface [App packaging and management],described, appxpackaging/IAppxPackageWriter2, appxpkg.iappxpackagewriter2
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxPackageWriter2"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

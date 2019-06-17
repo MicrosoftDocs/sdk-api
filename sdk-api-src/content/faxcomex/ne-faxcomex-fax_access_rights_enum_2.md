@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FAX_ACCESS_RIGHTS_ENUM_2, FAX_ACCESS_RIGHTS_ENUM_2 enumeration [Fax Service], _mfax_fax_access_rights_enum_2, far2MANAGE_ARCHIVES, far2MANAGE_CONFIG, far2MANAGE_OUT_JOBS, far2MANAGE_RECEIVE_FOLDER, far2QUERY_ARCHIVES, far2QUERY_CONFIG, far2QUERY_OUT_JOBS, far2SUBMIT_HIGH, far2SUBMIT_LOW, far2SUBMIT_NORMAL, fax._mfax_fax_access_rights_enum_2, faxcomex/FAX_ACCESS_RIGHTS_ENUM_2, faxcomex/far2MANAGE_ARCHIVES, faxcomex/far2MANAGE_CONFIG, faxcomex/far2MANAGE_OUT_JOBS, faxcomex/far2MANAGE_RECEIVE_FOLDER, faxcomex/far2QUERY_ARCHIVES, faxcomex/far2QUERY_CONFIG, faxcomex/far2QUERY_OUT_JOBS, faxcomex/far2SUBMIT_HIGH, faxcomex/far2SUBMIT_LOW, faxcomex/far2SUBMIT_NORMAL
 ms.topic: enum
+f1_keywords: ["faxcomex/FAX_ACCESS_RIGHTS_ENUM_2"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

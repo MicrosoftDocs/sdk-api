@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmObject interface [File Server Resource Manager],Id property, IFsrmObject.Id, IFsrmObject.get_Id, IFsrmObject::Id, IFsrmObject::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager],IFsrmObject interface, fs.ifsrmobject_id, fsrm.ifsrmobject_id, fsrm/IFsrmObject::Id, fsrm/IFsrmObject::get_Id, get_Id
 ms.topic: method
+f1_keywords: ["fsrm/IFsrmObject.Id"]
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

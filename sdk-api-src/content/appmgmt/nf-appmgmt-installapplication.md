@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InstallApplication, InstallApplication function [Group Policy], appmgmt/InstallApplication, policy.installapplication
 ms.topic: function
+f1_keywords: ["appmgmt/InstallApplication"]
 req.header: appmgmt.h
 req.include-header: 
 req.target-type: Windows

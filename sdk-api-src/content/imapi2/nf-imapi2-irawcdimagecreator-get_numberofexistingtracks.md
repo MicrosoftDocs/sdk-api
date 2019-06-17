@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_NumberOfExistingTracks method, IRawCDImageCreator.get_NumberOfExistingTracks, IRawCDImageCreator::get_NumberOfExistingTracks, get_NumberOfExistingTracks, get_NumberOfExistingTracks method [IMAPI], get_NumberOfExistingTracks method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_numberofexistingtracks, imapi2/IRawCDImageCreator::get_NumberOfExistingTracks
 ms.topic: method
+f1_keywords: ["imapi2/IRawCDImageCreator.get_NumberOfExistingTracks"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

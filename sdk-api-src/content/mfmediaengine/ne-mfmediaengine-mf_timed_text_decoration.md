@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_DECORATION, MF_TIMED_TEXT_DECORATION enumeration [Media Foundation], MF_TIMED_TEXT_DECORATION_LINE_THROUGH, MF_TIMED_TEXT_DECORATION_NONE, MF_TIMED_TEXT_DECORATION_OVERLINE, MF_TIMED_TEXT_DECORATION_UNDERLINE, mf.mf_timed_text_decoration, mfmediaengine/MF_TIMED_TEXT_DECORATION, mfmediaengine/MF_TIMED_TEXT_DECORATION_LINE_THROUGH, mfmediaengine/MF_TIMED_TEXT_DECORATION_NONE, mfmediaengine/MF_TIMED_TEXT_DECORATION_OVERLINE, mfmediaengine/MF_TIMED_TEXT_DECORATION_UNDERLINE
 ms.topic: enum
+f1_keywords: ["mfmediaengine/MF_TIMED_TEXT_DECORATION"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

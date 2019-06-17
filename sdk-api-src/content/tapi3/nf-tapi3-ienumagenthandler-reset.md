@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentHandler interface [TAPI 2.2],Reset method, IEnumAgentHandler.Reset, IEnumAgentHandler::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumAgentHandler interface, _tapi3_ienumagenthandler_reset, tapi3.ienumagenthandler_reset, tapi3cc/IEnumAgentHandler::Reset
 ms.topic: method
+f1_keywords: ["tapi3/IEnumAgentHandler.Reset"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

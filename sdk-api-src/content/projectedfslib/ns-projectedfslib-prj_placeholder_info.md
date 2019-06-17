@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_PLACEHOLDER_INFO, PRJ_PLACEHOLDER_INFO structure, ProjFS.prj_placeholder_info, projectedfslib/PRJ_PLACEHOLDER_INFO
 ms.topic: struct
+f1_keywords: ["projectedfslib/PRJ_PLACEHOLDER_INFO"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

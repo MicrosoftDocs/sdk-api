@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryTarget method, ITsSbResourcePluginStore.QueryTarget, ITsSbResourcePluginStore::QueryTarget, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QueryTarget method, ITsSbResourcePluginStoreEx::QueryTarget, QueryTarget, QueryTarget method [Remote Desktop Services], QueryTarget method [Remote Desktop Services],ITsSbResourcePluginStore interface, QueryTarget method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QueryTarget, sbtsv/ITsSbResourcePluginStoreEx::QueryTarget, termserv.itssbresourcepluginstore_querytarget
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbResourcePluginStore.QueryTarget"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

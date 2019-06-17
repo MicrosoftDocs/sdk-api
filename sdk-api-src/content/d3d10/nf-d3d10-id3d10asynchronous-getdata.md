@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Direct3D 10], GetData method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],GetData method, ID3D10Asynchronous.GetData, ID3D10Asynchronous::GetData, c544fd10-336c-a120-6147-34aee4afeb45, d3d10/ID3D10Asynchronous::GetData, direct3d10.id3d10asynchronous_getdata
 ms.topic: method
+f1_keywords: ["d3d10/ID3D10Asynchronous.GetData"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

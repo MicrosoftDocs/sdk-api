@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ADS_SD_REVISION_DS, ADS_SD_REVISION_ENUM, ADS_SD_REVISION_ENUM enumeration [ADSI], _ds_ads_sd_revision_enum, adsi.ads__sd__revision__enum, adsi.ads_sd_revision_enum, iads/ADS_SD_REVISION_DS, iads/ADS_SD_REVISION_ENUM
 ms.topic: enum
+f1_keywords: ["iads/ADS_SD_REVISION_ENUM"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

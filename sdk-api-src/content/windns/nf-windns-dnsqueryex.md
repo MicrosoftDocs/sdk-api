@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsQueryEx, DnsQueryEx function [DNS], dns.dnsqueryex, windns/DnsQueryEx
 ms.topic: function
+f1_keywords: ["windns/DnsQueryEx"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

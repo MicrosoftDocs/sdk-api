@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanRegisterWithAU property [Windows Update Agent], CanRegisterWithAU property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],CanRegisterWithAU property, IUpdateService.CanRegisterWithAU, IUpdateService.get_CanRegisterWithAU, IUpdateService::CanRegisterWithAU, IUpdateService::get_CanRegisterWithAU, get_CanRegisterWithAU, wua.iupdateservice_canregisterwithau, wuapi/IUpdateService::CanRegisterWithAU, wuapi/IUpdateService::get_CanRegisterWithAU
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateService.CanRegisterWithAU"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

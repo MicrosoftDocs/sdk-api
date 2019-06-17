@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Direction property [ICS/ICF], Direction property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Direction property, INetFwRule.Direction, INetFwRule.get_Direction, INetFwRule::Direction, INetFwRule::get_Direction, INetFwRule::put_Direction, get_Direction, ics.inetfwrule_direction, netfw/INetFwRule::Direction, netfw/INetFwRule::get_Direction, netfw/INetFwRule::put_Direction
 ms.topic: method
+f1_keywords: ["netfw/INetFwRule.Direction"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

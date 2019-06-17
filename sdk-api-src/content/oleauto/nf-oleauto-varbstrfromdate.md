@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_GREGORIAN, VAR_CALENDAR_HIJRI, VAR_CALENDAR_THAI, VAR_DATEVALUEONLY, VAR_FOURDIGITYEARS, VAR_TIMEVALUEONLY, VarBstrFromDate, VarBstrFromDate function [Automation], _oa96_VarBstrFromDate, automat.varbstrfromdate, oleauto/VarBstrFromDate
 ms.topic: function
+f1_keywords: ["oleauto/VarBstrFromDate"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

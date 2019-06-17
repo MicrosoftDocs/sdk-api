@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DiInstallDriver, DiInstallDriver function [Device and Driver Installation], DiInstallDriverA, DiInstallDriverW, devinst.diinstalldriver, di-rtns_acf16c10-0aba-472a-8e3d-9c7dcc136449.xml, newdev/DiInstallDriver
 ms.topic: function
+f1_keywords: ["newdev/DiInstallDriver"]
 req.header: newdev.h
 req.include-header: Newdev.h
 req.target-type: Desktop

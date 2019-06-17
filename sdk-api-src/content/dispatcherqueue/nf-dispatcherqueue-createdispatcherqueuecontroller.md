@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateDispatcherQueueController, CreateDispatcherQueueController function, base.createdispatcherqueuecontroller, dispatcherqueue/CreateDispatcherQueueController
 ms.topic: function
+f1_keywords: ["dispatcherqueue/CreateDispatcherQueueController"]
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Status property, ITsSbTaskInfo.Status, ITsSbTaskInfo.get_Status, ITsSbTaskInfo::Status, ITsSbTaskInfo::get_Status, Status property [Remote Desktop Services], Status property [Remote Desktop Services],ITsSbTaskInfo interface, get_Status, sbtsv/ITsSbTaskInfo::Status, sbtsv/ITsSbTaskInfo::get_Status, termserv.itssbtaskinfo_status
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbTaskInfo.Status"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

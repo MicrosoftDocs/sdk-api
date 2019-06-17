@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRLINETO, *PEMRMOVETOEX, EMRLINETO, EMRLINETO structure [Windows GDI], EMRLINETO,EMRMOVETOEX, EMRLINETO,EMRMOVETOEX structure [Windows GDI], EMRMOVETOEX, EMRMOVETOEX structure [Windows GDI], PEMRLINETO, PEMRLINETO structure pointer [Windows GDI], PEMRMOVETOEX, PEMRMOVETOEX structure pointer [Windows GDI], _win32_EMRLINETO_str, gdi.emrlineto__emrmovetoex, wingdi/EMRLINETO,EMRMOVETOEX, wingdi/EMRMOVETOEX, wingdi/PEMRLINETO, wingdi/PEMRMOVETOEX"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRLINETO"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

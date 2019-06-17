@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentSizeOfSet property [Windows Accessibility], CurrentSizeOfSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentSizeOfSet property, IUIAutomationElement4.CurrentSizeOfSet, IUIAutomationElement4.get_CurrentSizeOfSet, IUIAutomationElement4::CurrentSizeOfSet, IUIAutomationElement4::get_CurrentSizeOfSet, get_CurrentSizeOfSet, uiautomationclient/IUIAutomationElement4::CurrentSizeOfSet, uiautomationclient/IUIAutomationElement4::get_CurrentSizeOfSet, winauto.uiauto_IUIAutomationElement4_CurrentSizeOfSet
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement4.CurrentSizeOfSet"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

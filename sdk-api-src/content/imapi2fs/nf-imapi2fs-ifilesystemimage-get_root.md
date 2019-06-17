@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_Root method, IFileSystemImage.get_Root, IFileSystemImage::get_Root, get_Root, get_Root method [IMAPI], get_Root method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_root, imapi2fs/IFileSystemImage::get_Root
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.get_Root"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

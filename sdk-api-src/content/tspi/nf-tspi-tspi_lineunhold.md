@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUnhold, TSPI_lineUnhold function [TAPI 2.2], _tspi_tspi_lineunhold, tspi.tspi_lineunhold, tspi/TSPI_lineUnhold
 ms.topic: function
+f1_keywords: ["tspi/TSPI_lineUnhold"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

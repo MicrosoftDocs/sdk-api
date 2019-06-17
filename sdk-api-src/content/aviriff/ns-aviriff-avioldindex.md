@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX structure [DirectShow], AVIOLDINDEXStructure, aviriff/AVIOLDINDEX, db, dc, dshow.avioldindex, pc, wb
 ms.topic: struct
+f1_keywords: ["aviriff/AVIOLDINDEX"]
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows

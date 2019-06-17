@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WofWimSuspendEntry, WofWimSuspendEntry function [Files], fs.wofwimsuspendentry, wofapi/WofWimSuspendEntry
 ms.topic: function
+f1_keywords: ["wofapi/WofWimSuspendEntry"]
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StgGetIFillLockBytesOnFile, StgGetIFillLockBytesOnFile function [Structured Storage], _stg_stggetifilllockbytesonfile, objbase/StgGetIFillLockBytesOnFile, stg.stggetifilllockbytesonfile
 ms.topic: function
+f1_keywords: ["objbase/StgGetIFillLockBytesOnFile"]
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows

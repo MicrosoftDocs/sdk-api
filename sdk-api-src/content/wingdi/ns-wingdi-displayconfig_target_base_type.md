@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DISPLAYCONFIG_TARGET_BASE_TYPE, DISPLAYCONFIG_TARGET_BASE_TYPE structure [Display Devices], display.displayconfig_target_base_type, wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE
 ms.topic: struct
+f1_keywords: ["wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

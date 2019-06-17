@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingOpcode, TraceLoggingOpcode macro, tracelogging.traceloggingopcode, traceloggingprovider/TraceLoggingOpcode
 ms.topic: macro
+f1_keywords: ["traceloggingprovider/TraceLoggingOpcode"]
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows

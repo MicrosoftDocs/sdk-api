@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],SetTimeStampOffset method, IMFSourceBuffer.SetTimeStampOffset, IMFSourceBuffer::SetTimeStampOffset, SetTimeStampOffset, SetTimeStampOffset method [Media Foundation], SetTimeStampOffset method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_settimestampoffset, mfmediaengine/IMFSourceBuffer::SetTimeStampOffset
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFSourceBuffer.SetTimeStampOffset"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

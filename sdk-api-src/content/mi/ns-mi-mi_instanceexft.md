@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MI_InstanceExFT, MI_InstanceExFT structure [Windows Management Infrastructure (MI)], mi/MI_Instance_ExFT, wmi_v2.mi_instanceexft
 ms.topic: struct
+f1_keywords: ["mi/MI_InstanceExFT"]
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

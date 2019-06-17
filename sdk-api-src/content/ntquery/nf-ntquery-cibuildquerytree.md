@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIBuildQueryTree, CIBuildQueryTree function [Indexing Service], _idxs_CIBuildQueryTree, indexsrv.cibuildquerytree, ntquery/CIBuildQueryTree
 ms.topic: function
+f1_keywords: ["ntquery/CIBuildQueryTree"]
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

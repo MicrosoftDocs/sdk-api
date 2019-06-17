@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO"
 ms.topic: struct
+f1_keywords: ["strmif/DVINFO"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

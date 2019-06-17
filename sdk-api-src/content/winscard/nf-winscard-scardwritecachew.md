@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SCardWriteCache, SCardWriteCache function [Security], SCardWriteCacheA, SCardWriteCacheW, security.scardwritecache, winscard/SCardWriteCache, winscard/SCardWriteCacheA, winscard/SCardWriteCacheW
 ms.topic: function
+f1_keywords: ["winscard/SCardWriteCache"]
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows

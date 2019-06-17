@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelperUtilFactory, INetDiagHelperUtilFactory interface [NDF], INetDiagHelperUtilFactory interface [NDF],described, ndf.inetdiaghelperutilfactory, ndhelper/INetDiagHelperUtilFactory
 ms.topic: interface
+f1_keywords: ["ndhelper/INetDiagHelperUtilFactory"]
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows

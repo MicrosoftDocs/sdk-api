@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification
 ms.topic: function
+f1_keywords: ["winuser/RegisterPowerSettingNotification"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

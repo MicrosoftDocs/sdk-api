@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIMakeICommand, CIMakeICommand function [Indexing Service], _idxs_CIMakeICommand, indexsrv.cimakeicommand, ntquery/CIMakeICommand
 ms.topic: function
+f1_keywords: ["ntquery/CIMakeICommand"]
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator2 interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator2.InterpolateValue, IUIAnimationInterpolator2::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator2 interface, uianimation.iuianimationinterpolator2_interpolatevalue, uianimation/IUIAnimationInterpolator2::InterpolateValue
 ms.topic: method
+f1_keywords: ["uianimation/IUIAnimationInterpolator2.InterpolateValue"]
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows

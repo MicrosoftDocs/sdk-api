@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DIB_PAL_COLORS, DIB_RGB_COLORS, StretchDIBits, StretchDIBits function [Windows GDI], _win32_StretchDIBits, gdi.stretchdibits, wingdi/StretchDIBits
 ms.topic: function
+f1_keywords: ["wingdi/StretchDIBits"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

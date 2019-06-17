@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout
 ms.topic: struct
+f1_keywords: ["objidl/StorageLayout"]
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows

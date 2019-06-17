@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanModify property [Fax Service], CanModify property [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],CanModify property, IFaxPort.CanModify, IFaxPort.get_CanModify, IFaxPort::CanModify, IFaxPort::get_CanModify, _mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_get_canmodify, fax._mfax_ifaxport_mfax_ifaxport_get_canmodify_cpp, faxcom/IFaxPort::CanModify, faxcom/IFaxPort::get_CanModify, get_CanModify
 ms.topic: method
+f1_keywords: ["faxcom/IFaxPort.CanModify"]
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows

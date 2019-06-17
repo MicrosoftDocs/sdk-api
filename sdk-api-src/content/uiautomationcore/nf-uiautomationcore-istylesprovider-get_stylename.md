@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],StyleName property, IStylesProvider.StyleName, IStylesProvider.get_StyleName, IStylesProvider::StyleName, IStylesProvider::get_StyleName, StyleName property [Windows Accessibility], StyleName property [Windows Accessibility],IStylesProvider interface, get_StyleName, uiautomationcore/IStylesProvider::StyleName, uiautomationcore/IStylesProvider::get_StyleName, winauto.iuiauto_stylesprovider_stylename
 ms.topic: method
+f1_keywords: ["uiautomationcore/IStylesProvider.StyleName"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

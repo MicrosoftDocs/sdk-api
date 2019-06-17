@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebuginformation, base.mapdebuginformation, dbghelp/MapDebugInformation
 ms.topic: function
+f1_keywords: ["dbghelp/MapDebugInformation"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

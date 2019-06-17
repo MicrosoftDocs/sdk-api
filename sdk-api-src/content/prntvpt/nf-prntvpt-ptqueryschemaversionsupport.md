@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PTQuerySchemaVersionSupport, PTQuerySchemaVersionSupport function [Windows GDI], _win32_PTQuerySchemaVersionSupport, gdi.ptqueryschemaversionsupport, prntvpt/PTQuerySchemaVersionSupport
 ms.topic: function
+f1_keywords: ["prntvpt/PTQuerySchemaVersionSupport"]
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows

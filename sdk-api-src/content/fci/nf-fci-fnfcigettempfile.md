@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGETTEMPFILE, winprog.fnfcigettempfile
 ms.topic: macro
+f1_keywords: ["fci/FNFCIGETTEMPFILE"]
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows

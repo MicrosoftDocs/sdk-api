@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Properties property, ITraceDataProvider.Properties, ITraceDataProvider.get_Properties, ITraceDataProvider::Properties, ITraceDataProvider::get_Properties, Properties property [PLA], Properties property [PLA],ITraceDataProvider interface, base.itracedataprovider_properties, get_Properties, pla.itracedataprovider_properties, pla/ITraceDataProvider::Properties, pla/ITraceDataProvider::get_Properties
 ms.topic: method
+f1_keywords: ["pla/ITraceDataProvider.Properties"]
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows

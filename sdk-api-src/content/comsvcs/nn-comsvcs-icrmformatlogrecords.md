@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFormatLogRecords interface [COM+],described, _dtc_ICrmFormatLogRecords_Interface, comsvcs/ICrmFormatLogRecords, cos.icrmformatlogrecords
 ms.topic: interface
+f1_keywords: ["comsvcs/ICrmFormatLogRecords"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

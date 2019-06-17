@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAllComputerNames, NetAlternateComputerNames, NetComputerNameTypeMax, NetEnumerateComputerNames, NetEnumerateComputerNames function [Network Management], NetPrimaryComputerName, lmjoin/NetEnumerateComputerNames, netmgmt.netenumeratecomputernames
 ms.topic: function
+f1_keywords: ["lmjoin/NetEnumerateComputerNames"]
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows

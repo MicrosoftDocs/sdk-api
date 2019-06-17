@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Windows Shell], shell.deleteappcontainerprofile, userenv/DeleteAppContainerProfile
 ms.topic: function
+f1_keywords: ["userenv/DeleteAppContainerProfile"]
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows

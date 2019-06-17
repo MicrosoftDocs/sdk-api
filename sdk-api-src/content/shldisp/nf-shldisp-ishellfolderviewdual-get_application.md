@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Application method, IShellFolderViewDual.get_Application, IShellFolderViewDual::get_Application, _shell_IShellFolderViewDual_get_Application, get_Application, get_Application method [Windows Shell], get_Application method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Application, shldisp/IShellFolderViewDual::get_Application
 ms.topic: method
+f1_keywords: ["shldisp/IShellFolderViewDual.get_Application"]
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows

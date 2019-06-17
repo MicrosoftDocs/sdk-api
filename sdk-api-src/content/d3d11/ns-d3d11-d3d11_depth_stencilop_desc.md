@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_DEPTH_STENCILOP_DESC, D3D11_DEPTH_STENCILOP_DESC structure [Direct3D 11], b5c19838-9f15-a711-8c15-008fbca8d2a1, d3d11/D3D11_DEPTH_STENCILOP_DESC, direct3d11.d3d11_depth_stencilop_desc
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_DEPTH_STENCILOP_DESC"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

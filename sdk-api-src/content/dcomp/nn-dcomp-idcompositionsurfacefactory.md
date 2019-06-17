@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurfaceFactory, IDCompositionSurfaceFactory interface [DirectComposition], IDCompositionSurfaceFactory interface [DirectComposition],described, dcomp/IDCompositionSurfaceFactory, directcomp.idcompositionsurfacefactory
 ms.topic: interface
+f1_keywords: ["dcomp/IDCompositionSurfaceFactory"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

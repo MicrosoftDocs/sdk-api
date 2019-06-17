@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Forward, Forward method [TAPI 2.2], Forward method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],Forward method, ITAddress.Forward, ITAddress::Forward, _tapi3_itaddress_forward, tapi3.itaddress_forward, tapi3if/ITAddress::Forward
 ms.topic: method
+f1_keywords: ["tapi3if/ITAddress.Forward"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

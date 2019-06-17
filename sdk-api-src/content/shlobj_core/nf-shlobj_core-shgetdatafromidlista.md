@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHGDFIL_DESCRIPTIONID, SHGDFIL_FINDDATA, SHGDFIL_NETRESOURCE, SHGetDataFromIDList, SHGetDataFromIDList function [Windows Shell], SHGetDataFromIDListA, SHGetDataFromIDListW, _win32_SHGetDataFromIDList, shell.SHGetDataFromIDList, shlobj_core/SHGetDataFromIDList, shlobj_core/SHGetDataFromIDListA, shlobj_core/SHGetDataFromIDListW
 ms.topic: function
+f1_keywords: ["shlobj_core/SHGetDataFromIDList"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows

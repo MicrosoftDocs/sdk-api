@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],KeyDown method, ITfKeystrokeMgr.KeyDown, ITfKeystrokeMgr::KeyDown, KeyDown, KeyDown method [Text Services Framework], KeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_keydown_ref, msctf/ITfKeystrokeMgr::KeyDown, tsf.itfkeystrokemgr_keydown
 ms.topic: method
+f1_keywords: ["msctf/ITfKeystrokeMgr.KeyDown"]
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows

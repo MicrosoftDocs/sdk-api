@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WMT_PAYLOAD_FRAGMENT, WMT_PAYLOAD_FRAGMENT structure [windows Media Format], wmformat.wmt_payload_fragment, wmsdkidl/WMT_PAYLOAD_FRAGMENT
 ms.topic: struct
+f1_keywords: ["wmsdkidl/WMT_PAYLOAD_FRAGMENT"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

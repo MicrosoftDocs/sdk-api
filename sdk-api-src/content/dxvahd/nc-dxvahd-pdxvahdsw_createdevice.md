@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_CreateDevice, PDXVAHDSW_CreateDevice callback, PDXVAHDSW_CreateDevice callback function [Media Foundation], dxvahd/PDXVAHDSW_CreateDevice, mf.pdxvahdsw_createdevice
 ms.topic: callback
+f1_keywords: ["dxvahd/PDXVAHDSW_CreateDevice"]
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

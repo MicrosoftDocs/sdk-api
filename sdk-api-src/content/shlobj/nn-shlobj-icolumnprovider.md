@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IColumnProvider, IColumnProvider interface [Windows Shell], IColumnProvider interface [Windows Shell],described, _win32_IColumnProvider, shell.IColumnProvider, shlobj/IColumnProvider
 ms.topic: interface
+f1_keywords: ["shlobj/IColumnProvider"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

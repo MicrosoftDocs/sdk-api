@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetLifecycleManagement, AppPolicyGetLifecycleManagement function [App packaging and management], appmodel/AppPolicyGetLifecycleManagement, appxpkg.apppolicygetlifecyclemanagement_function
 ms.topic: function
+f1_keywords: ["appmodel/AppPolicyGetLifecycleManagement"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

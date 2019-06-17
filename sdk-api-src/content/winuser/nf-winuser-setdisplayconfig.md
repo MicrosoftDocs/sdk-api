@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
 ms.topic: function
+f1_keywords: ["winuser/SetDisplayConfig"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal

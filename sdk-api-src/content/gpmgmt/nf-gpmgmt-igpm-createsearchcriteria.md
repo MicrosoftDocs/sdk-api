@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateSearchCriteria, CreateSearchCriteria method [GPMC], CreateSearchCriteria method [GPMC],GPM class, CreateSearchCriteria method [GPMC],IGPM interface, GPM class [GPMC],CreateSearchCriteria method, IGPM interface [GPMC],CreateSearchCriteria method, IGPM.CreateSearchCriteria, IGPM::CreateSearchCriteria, _win32_igpm_createsearchcriteria, gpmc.igpm_createsearchcriteria, gpmgmt/IGPM::CreateSearchCriteria
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPM.CreateSearchCriteria"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

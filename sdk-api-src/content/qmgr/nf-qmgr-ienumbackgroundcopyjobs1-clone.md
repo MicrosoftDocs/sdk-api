@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyJobs1 interface, IEnumBackgroundCopyJobs1 interface [BITS],Clone method, IEnumBackgroundCopyJobs1.Clone, IEnumBackgroundCopyJobs1::Clone, bits.ienumbackgroundcopyjobs1_clone, qmgr/IEnumBackgroundCopyJobs1::Clone
 ms.topic: method
+f1_keywords: ["qmgr/IEnumBackgroundCopyJobs1.Clone"]
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows

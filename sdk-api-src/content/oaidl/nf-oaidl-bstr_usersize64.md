@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BSTR_UserSize64, BSTR_UserSize64 function [Automation], automat.bstr_usersize64, oaidl/BSTR_UserSize64
 ms.topic: function
+f1_keywords: ["oaidl/BSTR_UserSize64"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

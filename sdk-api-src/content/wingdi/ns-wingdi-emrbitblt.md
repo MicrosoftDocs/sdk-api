@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEMRBITBLT, EMRBITBLT, EMRBITBLT structure [Windows GDI], PEMRBITBLT, PEMRBITBLT structure pointer [Windows GDI], _win32_EMRBITBLT_str, gdi.emrbitblt, wingdi/EMRBITBLT, wingdi/PEMRBITBLT"
 ms.topic: struct
+f1_keywords: ["wingdi/EMRBITBLT"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

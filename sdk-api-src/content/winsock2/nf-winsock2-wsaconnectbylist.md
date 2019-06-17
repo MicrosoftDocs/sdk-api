@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByList, WSAConnectByList function [Winsock], winsock.wsaconnectbylist, winsock2/WSAConnectByList
 ms.topic: function
+f1_keywords: ["winsock2/WSAConnectByList"]
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

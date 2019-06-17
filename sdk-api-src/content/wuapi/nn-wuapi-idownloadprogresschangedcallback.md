@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDownloadProgressChangedCallback, IDownloadProgressChangedCallback interface [Windows Update Agent], IDownloadProgressChangedCallback interface [Windows Update Agent],described, wua.idownloadprogresschangedcallback, wuapi/IDownloadProgressChangedCallback
 ms.topic: interface
+f1_keywords: ["wuapi/IDownloadProgressChangedCallback"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

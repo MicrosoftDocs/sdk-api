@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VS_ALLOW_LATIN, VerifyScripts, VerifyScripts function [Internationalization for Windows Applications], _win32_VerifyScripts, intl.verifyscripts, winnls/VerifyScripts
 ms.topic: function
+f1_keywords: ["winnls/VerifyScripts"]
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

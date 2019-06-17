@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetKeyboardState, SetKeyboardState function [Keyboard and Mouse Input], _win32_SetKeyboardState, _win32_setkeyboardstate_cpp, inputdev.setkeyboardstate, winui._win32_setkeyboardstate, winuser/SetKeyboardState
 ms.topic: function
+f1_keywords: ["winuser/SetKeyboardState"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

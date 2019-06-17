@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsPack, IVdsPack interface [VDS], IVdsPack interface [VDS],described, base.ivdspack, vds/IVdsPack
 ms.topic: interface
+f1_keywords: ["vds/IVdsPack"]
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

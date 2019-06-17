@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PPropertyChainSource, PPropertyChainSource structure pointer, PropertyChainSource, PropertyChainSource structure, xaml_diagnostics.propertychainsource, xamlom/PPropertyChainSource, xamlom/PropertyChainSource
 ms.topic: struct
+f1_keywords: ["xamlom/PropertyChainSource"]
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows

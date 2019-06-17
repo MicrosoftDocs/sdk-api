@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetProtoByName, WSAAsyncGetProtoByName function [Winsock], _win32_wsaasyncgetprotobyname_2, winsock.wsaasyncgetprotobyname_2, winsock/WSAAsyncGetProtoByName
 ms.topic: function
+f1_keywords: ["winsock/WSAAsyncGetProtoByName"]
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

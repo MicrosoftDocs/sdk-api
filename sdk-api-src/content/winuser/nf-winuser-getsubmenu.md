@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubMenu, GetSubMenu function [Menus and Other Resources], _win32_GetSubMenu, _win32_getsubmenu_cpp, menurc.getsubmenu, winui._win32_getsubmenu, winuser/GetSubMenu
 ms.topic: function
+f1_keywords: ["winuser/GetSubMenu"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

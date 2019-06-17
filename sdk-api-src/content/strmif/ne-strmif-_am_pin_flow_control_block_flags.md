@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AM_PIN_CONNECTION_BLOCK_FLAGSEnumeration, AM_PIN_FLOW_CONTROL_BLOCK, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS, _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS , _AM_PIN_FLOW_CONTROL_BLOCK_FLAGS enumeration [DirectShow], dshow.am_pin_connection_block_flags, strmif/AM_PIN_FLOW_CONTROL_BLOCK, strmif/_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS
 ms.topic: enum
+f1_keywords: ["strmif/_AM_PIN_FLOW_CONTROL_BLOCK_FLAGS"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

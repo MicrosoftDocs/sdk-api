@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetWidth method, AdjustableArrowCap.GetWidth, AdjustableArrowCap::GetWidth, GetWidth, GetWidth method [GDI+], GetWidth method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetWidth_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetWidth_
 ms.topic: method
+f1_keywords: ["gdipluslinecaps/AdjustableArrowCap.GetWidth"]
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

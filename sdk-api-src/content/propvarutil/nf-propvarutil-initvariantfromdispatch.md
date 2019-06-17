@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromDispatch, InitVariantFromDispatch function [Windows Properties], _shell_InitVariantFromDispatch, properties.InitVariantFromDispatch, propvarutil/InitVariantFromDispatch, shell.InitVariantFromDispatch
 ms.topic: function
+f1_keywords: ["propvarutil/InitVariantFromDispatch"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

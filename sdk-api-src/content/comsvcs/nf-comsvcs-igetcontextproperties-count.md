@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IGetContextProperties interface, IGetContextProperties interface [COM+],Count method, IGetContextProperties.Count, IGetContextProperties::Count, _cos_IGetContextProperties_Count, comsvcs/IGetContextProperties::Count, cos.igetcontextproperties_count
 ms.topic: method
+f1_keywords: ["comsvcs/IGetContextProperties.Count"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

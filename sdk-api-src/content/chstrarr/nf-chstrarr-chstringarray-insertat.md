@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CHStringArray.InsertAt, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
 ms.topic: method
+f1_keywords: ["chstrarr/CHStringArray::InsertAt"]
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows

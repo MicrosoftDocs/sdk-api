@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CertFreeCTLContext, CertFreeCTLContext function [Security], _crypto2_certfreectlcontext, security.certfreectlcontext, wincrypt/CertFreeCTLContext
 ms.topic: function
+f1_keywords: ["wincrypt/CertFreeCTLContext"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

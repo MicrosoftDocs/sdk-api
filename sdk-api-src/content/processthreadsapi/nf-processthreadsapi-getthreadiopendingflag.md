@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetThreadIOPendingFlag, GetThreadIOPendingFlag function, base.getthreadiopendingflag, processthreadsapi/GetThreadIOPendingFlag
 ms.topic: function
+f1_keywords: ["processthreadsapi/GetThreadIOPendingFlag"]
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows

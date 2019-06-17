@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgDocument interface [Direct2D],SetViewportSize method, ID2D1SvgDocument.SetViewportSize, ID2D1SvgDocument::SetViewportSize, SetViewportSize, SetViewportSize method [Direct2D], SetViewportSize method [Direct2D],ID2D1SvgDocument interface, d2d1svg/ID2D1SvgDocument::SetViewportSize, direct2d.id2d1svgdocument_setviewportsize
 ms.topic: method
+f1_keywords: ["d2d1svg/ID2D1SvgDocument.SetViewportSize"]
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows

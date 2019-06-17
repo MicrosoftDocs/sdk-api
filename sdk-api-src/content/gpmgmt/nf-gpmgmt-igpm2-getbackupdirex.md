@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetBackupDirEx, GetBackupDirEx method [GPMC], GetBackupDirEx method [GPMC],IGPM2 interface, IGPM2 interface [GPMC],GetBackupDirEx method, IGPM2.GetBackupDirEx, IGPM2::GetBackupDirEx, gpmc.igpm2_getbackupdirex, gpmgmt/IGPM2::GetBackupDirEx
 ms.topic: method
+f1_keywords: ["gpmgmt/IGPM2.GetBackupDirEx"]
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows

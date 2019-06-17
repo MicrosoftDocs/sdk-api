@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_PinControl, IBDA_PinControl interface [Microsoft TV Technologies], IBDA_PinControl interface [Microsoft TV Technologies],described, IBDA_PinControlInterface, bdaiface/IBDA_PinControl, mstv.ibda_pincontrol
 ms.topic: interface
+f1_keywords: ["bdaiface/IBDA_PinControl"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

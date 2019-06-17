@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EqualRect, EqualRect function [Windows GDI], _win32_EqualRect, gdi.equalrect, winuser/EqualRect
 ms.topic: function
+f1_keywords: ["winuser/EqualRect"]
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

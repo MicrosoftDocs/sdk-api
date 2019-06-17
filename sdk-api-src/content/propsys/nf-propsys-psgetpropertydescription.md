@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescription, PSGetPropertyDescription function [Windows Properties], properties.PSGetPropertyDescription, propsys/PSGetPropertyDescription, shell.PSGetPropertyDescription, shell_PSGetPropertyDescription
 ms.topic: function
+f1_keywords: ["propsys/PSGetPropertyDescription"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

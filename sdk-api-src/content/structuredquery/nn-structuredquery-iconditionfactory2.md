@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory2, IConditionFactory2 interface [search], IConditionFactory2 interface [search],described, _search_IConditionFactory2, search._search_IConditionFactory2, structuredquery/IConditionFactory2
 ms.topic: interface
+f1_keywords: ["structuredquery/IConditionFactory2"]
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows

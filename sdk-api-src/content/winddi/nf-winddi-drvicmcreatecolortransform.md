@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvIcmCreateColorTransform, DrvIcmCreateColorTransform function [Display Devices], ddifncs_eec39816-8aa5-44a8-8fed-b800db94d315.xml, display.drvicmcreatecolortransform, winddi/DrvIcmCreateColorTransform
 ms.topic: function
+f1_keywords: ["winddi/DrvIcmCreateColorTransform"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

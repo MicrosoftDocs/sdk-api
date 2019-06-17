@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, CheckSignature, CheckSignature method [Security], CheckSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckSignature method, IX509CertificateRequestCmc2.CheckSignature, IX509CertificateRequestCmc2::CheckSignature, certenroll/IX509CertificateRequestCmc2::CheckSignature, security.ix509certificaterequestcmc2_checksignature
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequestCmc2.CheckSignature"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

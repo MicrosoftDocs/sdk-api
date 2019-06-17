@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
 ms.topic: function
+f1_keywords: ["iphlpapi/SetTcpEntry"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

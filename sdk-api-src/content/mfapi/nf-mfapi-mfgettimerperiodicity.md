@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 19d7ae7e-7ae3-474d-8111-3b60b9adb918, MFGetTimerPeriodicity, MFGetTimerPeriodicity function [Media Foundation], mf.mfgettimerperiodicity, mfapi/MFGetTimerPeriodicity
 ms.topic: function
+f1_keywords: ["mfapi/MFGetTimerPeriodicity"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EventClassID property [COM+], EventClassID property [COM+],IEventClass interface, IEventClass interface [COM+],EventClassID property, IEventClass.EventClassID, IEventClass.put_EventClassID, IEventClass::EventClassID, IEventClass::get_EventClassID, IEventClass::put_EventClassID, cos.ieventclass_eventclassid, eventsys/IEventClass::EventClassID, eventsys/IEventClass::get_EventClassID, eventsys/IEventClass::put_EventClassID, put_EventClassID
 ms.topic: method
+f1_keywords: ["eventsys/IEventClass.EventClassID"]
 req.header: eventsys.h
 req.include-header: Eventsys.h
 req.target-type: Windows

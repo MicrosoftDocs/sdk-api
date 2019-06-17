@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET, HTTP_SERVICE_CONFIG_SSL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SET, PHTTP_SERVICE_CONFIG_SSL_SET structure pointer [HTTP], _http_http_service_config_ssl_set, http.http_service_config_ssl_set, http/HTTP_SERVICE_CONFIG_SSL_SET, http/PHTTP_SERVICE_CONFIG_SSL_SET"
 ms.topic: struct
+f1_keywords: ["http/HTTP_SERVICE_CONFIG_SSL_SET"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

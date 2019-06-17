@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetExtension, GetExtension method [Windows Shell], GetExtension method [Windows Shell],INewShortcutHook interface, INewShortcutHook interface [Windows Shell],GetExtension method, INewShortcutHook::GetExtension, INewShortcutHookA, INewShortcutHookA.GetExtension, INewShortcutHookA::GetExtension, INewShortcutHookW, INewShortcutHookW::GetExtension, _win32_INewShortcutHook_GetExtension, shell.INewShortcutHook_GetExtension, shlobj/INewShortcutHook::GetExtension
 ms.topic: method
+f1_keywords: ["shlobj/INewShortcutHook.GetExtension"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

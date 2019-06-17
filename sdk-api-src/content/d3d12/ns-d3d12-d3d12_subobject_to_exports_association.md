@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure, PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer, d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, d3d12/PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION, direct3d12.d3d12_subobject_to_exports_association
 ms.topic: struct
+f1_keywords: ["d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PAM_LINE21_CCLEVEL, AM_L21_CCLEVEL_TC2, AM_LINE21_CCLEVEL, AM_LINE21_CCLEVEL , AM_LINE21_CCLEVEL enumeration [DirectShow], AM_LINE21_CCLEVELEnumeration, PAM_LINE21_CCLEVEL, PAM_LINE21_CCLEVEL enumeration pointer [DirectShow], dshow.am_line21_cclevel, il21dec/AM_L21_CCLEVEL_TC2, il21dec/AM_LINE21_CCLEVEL, il21dec/PAM_LINE21_CCLEVEL"
 ms.topic: enum
+f1_keywords: ["il21dec/AM_LINE21_CCLEVEL"]
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows

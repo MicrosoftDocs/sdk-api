@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ArrangeGrid, ArrangeGrid method [Windows Shell], ArrangeGrid method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],ArrangeGrid method, IShellFolderView.ArrangeGrid, IShellFolderView::ArrangeGrid, _shell_IShellFolderView_ArrangeGrid, shell.IShellFolderView_ArrangeGrid, shlobj_core/IShellFolderView::ArrangeGrid
 ms.topic: method
+f1_keywords: ["shlobj_core/IShellFolderView.ArrangeGrid"]
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

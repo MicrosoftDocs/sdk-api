@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
 ms.topic: method
+f1_keywords: ["certenroll/ICspStatus.Initialize"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

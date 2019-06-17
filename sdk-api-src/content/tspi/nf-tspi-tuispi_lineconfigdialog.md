@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TUISPI_lineConfigDialog, TUISPI_lineConfigDialog function [TAPI 2.2], _tspi_tuispi_lineconfigdialog, tspi.tuispi_lineconfigdialog, tspi/TUISPI_lineConfigDialog
 ms.topic: function
+f1_keywords: ["tspi/TUISPI_lineConfigDialog"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

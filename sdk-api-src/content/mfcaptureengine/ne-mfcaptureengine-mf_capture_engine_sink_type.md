@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_CAPTURE_ENGINE_SINK_TYPE, MF_CAPTURE_ENGINE_SINK_TYPE enumeration [Media Foundation], MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO, MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW, MF_CAPTURE_ENGINE_SINK_TYPE_RECORD, mf.mf_capture_engine_sink_type, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_PHOTO, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_PREVIEW, mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE_RECORD
 ms.topic: enum
+f1_keywords: ["mfcaptureengine/MF_CAPTURE_ENGINE_SINK_TYPE"]
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows

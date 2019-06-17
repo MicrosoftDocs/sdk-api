@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceHardwareTimestampCapabilities, GetInterfaceHardwareTimestampCapabilities function [IP Helper], iphlp.getinterfacehardwaretimestampcapabilities, iphlpapi/GetInterfaceHardwareTimestampCapabilities
 ms.topic: function
+f1_keywords: ["iphlpapi/GetInterfaceHardwareTimestampCapabilities"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

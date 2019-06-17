@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls],described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
 ms.topic: interface
+f1_keywords: ["textserv/IRicheditUiaOverrides"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

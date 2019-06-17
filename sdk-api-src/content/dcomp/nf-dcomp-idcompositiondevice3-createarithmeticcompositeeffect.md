@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateArithmeticCompositeEffect, CreateArithmeticCompositeEffect method [DirectComposition], CreateArithmeticCompositeEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateArithmeticCompositeEffect method, IDCompositionDevice3.CreateArithmeticCompositeEffect, IDCompositionDevice3::CreateArithmeticCompositeEffect, dcomp/IDCompositionDevice3::CreateArithmeticCompositeEffect, directcomp.idcompositiondevice3_createarithmeticcompositeeffect
 ms.topic: method
+f1_keywords: ["dcomp/IDCompositionDevice3.CreateArithmeticCompositeEffect"]
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows

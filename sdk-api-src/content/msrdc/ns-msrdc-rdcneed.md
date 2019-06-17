@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RdcNeed, RdcNeed structure [Remote Differential Compression], fs.rdcneed, msrdc/RdcNeed, rdc.rdcneed
 ms.topic: struct
+f1_keywords: ["msrdc/RdcNeed"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetStart, MCIWndGetStart macro [Windows Multimedia], _win32_MCIWndGetStart, multimedia.mciwndgetstart, vfw/MCIWndGetStart
 ms.topic: macro
+f1_keywords: ["vfw/MCIWndGetStart"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Count property, ISignerCertificates.Count, ISignerCertificates.get_Count, ISignerCertificates::Count, ISignerCertificates::get_Count, certenroll/ISignerCertificates::Count, certenroll/ISignerCertificates::get_Count, get_Count, security.isignercertificates_count_property
 ms.topic: method
+f1_keywords: ["certenroll/ISignerCertificates.Count"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

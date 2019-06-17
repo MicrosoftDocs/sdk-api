@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamProxyClassFactory, IMFByteStreamProxyClassFactory interface [Media Foundation], IMFByteStreamProxyClassFactory interface [Media Foundation],described, mf.imfbytestreamproxyclassfactory, mfobjects/IMFByteStreamProxyClassFactory
 ms.topic: interface
+f1_keywords: ["mfobjects/IMFByteStreamProxyClassFactory"]
 req.header: mfobjects.h
 req.include-header: Mfidl.idl
 req.target-type: Windows

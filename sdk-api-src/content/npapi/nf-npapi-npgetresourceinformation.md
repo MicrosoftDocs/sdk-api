@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetResourceInformation, NPGetResourceInformation function [Security], _mnp_npgetresourceinformation, npapi/NPGetResourceInformation, security.npgetresourceinformation
 ms.topic: function
+f1_keywords: ["npapi/NPGetResourceInformation"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

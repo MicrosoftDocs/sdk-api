@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedLocalizedLandmarkType property [Windows Accessibility], CachedLocalizedLandmarkType property [Windows Accessibility],IUIAutomationElement5 interface, IUIAutomationElement5 interface [Windows Accessibility],CachedLocalizedLandmarkType property, IUIAutomationElement5.CachedLocalizedLandmarkType, IUIAutomationElement5.get_CachedLocalizedLandmarkType, IUIAutomationElement5::CachedLocalizedLandmarkType, IUIAutomationElement5::get_CachedLocalizedLandmarkType, get_CachedLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::CachedLocalizedLandmarkType, uiautomationclient/IUIAutomationElement5::get_CachedLocalizedLandmarkType, winauto.uiauto_IUIAutomationElement5_CachedLocalizedLandmarkType
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement5.CachedLocalizedLandmarkType"]
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows

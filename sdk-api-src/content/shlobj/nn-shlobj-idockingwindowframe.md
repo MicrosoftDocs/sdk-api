@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDockingWindowFrame, IDockingWindowFrame interface [Windows Shell], IDockingWindowFrame interface [Windows Shell],described, _win32_IDockingWindowFrame, shell.IDockingWindowFrame, shlobj/IDockingWindowFrame
 ms.topic: interface
+f1_keywords: ["shlobj/IDockingWindowFrame"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

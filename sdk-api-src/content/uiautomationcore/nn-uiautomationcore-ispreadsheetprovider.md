@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISpreadsheetProvider, ISpreadsheetProvider interface [Windows Accessibility], ISpreadsheetProvider interface [Windows Accessibility],described, uiautomationcore/ISpreadsheetProvider, winauto.uiauto_ISpreadsheetProvider
 ms.topic: interface
+f1_keywords: ["uiautomationcore/ISpreadsheetProvider"]
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

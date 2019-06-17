@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPenType, GetPenType method [GDI+], GetPenType method [GDI+],Pen class, Pen class [GDI+],GetPenType method, Pen.GetPenType, Pen::GetPenType, _gdiplus_CLASS_Pen_GetPenType_, gdiplus._gdiplus_CLASS_Pen_GetPenType_
 ms.topic: method
+f1_keywords: ["gdipluspen/Pen.GetPenType"]
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

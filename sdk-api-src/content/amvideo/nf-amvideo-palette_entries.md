@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PALETTE_ENTRIES, PALETTE_ENTRIES macro [DirectShow], amvideo/PALETTE_ENTRIES, dshow.palette_entries
 ms.topic: macro
+f1_keywords: ["amvideo/PALETTE_ENTRIES"]
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows

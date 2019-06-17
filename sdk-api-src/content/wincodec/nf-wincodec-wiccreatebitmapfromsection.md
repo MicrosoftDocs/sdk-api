@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICCreateBitmapFromSection, WICCreateBitmapFromSection function [Windows Imaging Component], _wic_codec_wiccreatebitmapfromsection, wic._wic_codec_wiccreatebitmapfromsection, wincodec/WICCreateBitmapFromSection
 ms.topic: function
+f1_keywords: ["wincodec/WICCreateBitmapFromSection"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

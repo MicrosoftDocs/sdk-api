@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFileViewerSite, IFileViewerSite interface [Windows Shell], IFileViewerSite interface [Windows Shell],described, _win32_IFileViewerSite, shell.IFileViewerSite, shlobj/IFileViewerSite
 ms.topic: interface
+f1_keywords: ["shlobj/IFileViewerSite"]
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows

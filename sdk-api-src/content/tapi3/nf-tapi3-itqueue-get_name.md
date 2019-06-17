@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_Name method, ITQueue.get_Name, ITQueue::get_Name, _tapi3_itqueue_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_name, tapi3cc/ITQueue::get_Name
 ms.topic: method
+f1_keywords: ["tapi3/ITQueue.get_Name"]
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows

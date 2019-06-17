@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QUERYCONTEXT, QUERYCONTEXT structure [COM], _com_QUERYCONTEXT, com.querycontext, wtypes/tagQUERYCONTEXT
 ms.topic: struct
+f1_keywords: ["wtypes/QUERYCONTEXT"]
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

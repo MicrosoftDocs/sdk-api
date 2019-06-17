@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerMethodResult, EapHostPeerMethodResult structure [EAPHost], eaphost.eaphostpeermethodresult, eaphostpeertypes/EapHostPeerMethodResult
 ms.topic: struct
+f1_keywords: ["eaphostpeertypes/EapHostPeerMethodResult"]
 req.header: eaphostpeertypes.h
 req.include-header: 
 req.target-type: Windows

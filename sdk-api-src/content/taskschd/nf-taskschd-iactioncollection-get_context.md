@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Context property [Task Scheduler], Context property [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Context property, IActionCollection.Context, IActionCollection.get_Context, IActionCollection::Context, IActionCollection::get_Context, IActionCollection::put_Context, get_Context, taskschd.iactioncollection_context, taskschd/IActionCollection::Context, taskschd/IActionCollection::get_Context, taskschd/IActionCollection::put_Context
 ms.topic: method
+f1_keywords: ["taskschd/IActionCollection.Context"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

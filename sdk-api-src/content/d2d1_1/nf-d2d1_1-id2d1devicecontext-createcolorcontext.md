@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateColorContext, CreateColorContext method [Direct2D], CreateColorContext method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateColorContext method, ID2D1DeviceContext.CreateColorContext, ID2D1DeviceContext::CreateColorContext, d2d1_1/ID2D1DeviceContext::CreateColorContext, direct2d.id2d1devicecontext_createcolorcontext
 ms.topic: method
+f1_keywords: ["d2d1_1/ID2D1DeviceContext.CreateColorContext"]
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows

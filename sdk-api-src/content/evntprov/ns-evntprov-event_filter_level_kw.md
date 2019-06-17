@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PEVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW, EVENT_FILTER_LEVEL_KW structure [ETW], PEVENT_FILTER_LEVEL_KW, PEVENT_FILTER_LEVEL_KW structure pointer [ETW], etw.event_filter_level_kw, evntprov/EVENT_FILTER_LEVEL_KW, evntprov/PEVENT_FILTER_LEVEL_KW"
 ms.topic: struct
+f1_keywords: ["evntprov/EVENT_FILTER_LEVEL_KW"]
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

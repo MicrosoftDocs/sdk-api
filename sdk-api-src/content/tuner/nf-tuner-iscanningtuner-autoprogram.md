@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AutoProgram, AutoProgram method [Microsoft TV Technologies], AutoProgram method [Microsoft TV Technologies],IScanningTuner interface, IScanningTuner interface [Microsoft TV Technologies],AutoProgram method, IScanningTuner.AutoProgram, IScanningTuner::AutoProgram, IScanningTunerAutoProgram, mstv.iscanningtuner_autoprogram, tuner/IScanningTuner::AutoProgram
 ms.topic: method
+f1_keywords: ["tuner/IScanningTuner.AutoProgram"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

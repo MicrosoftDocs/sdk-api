@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PeerGraphUniversalTimeToPeerTime, PeerGraphUniversalTimeToPeerTime function [Peer Networking], p2p.peergraphuniversaltimetopeertime, p2p/PeerGraphUniversalTimeToPeerTime
 ms.topic: function
+f1_keywords: ["p2p/PeerGraphUniversalTimeToPeerTime"]
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows

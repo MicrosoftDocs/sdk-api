@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3c4865e5-4958-111b-ced6-75e2e367d986, ID3D10EffectPool, ID3D10EffectPool interface [Direct3D 10], ID3D10EffectPool interface [Direct3D 10],described, d3d10effect/ID3D10EffectPool, direct3d10.id3d10effectpool
 ms.topic: interface
+f1_keywords: ["d3d10effect/ID3D10EffectPool"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

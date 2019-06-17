@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
 ms.topic: function
+f1_keywords: ["http/HttpCreateServerSession"]
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderProperties interface, IProviderProperties interface,GetCount method, IProviderProperties.GetCount, IProviderProperties::GetCount, functiondiscoveryprovider/IProviderProperties::GetCount, ncd.iproviderproperties_getcount_method
 ms.topic: method
+f1_keywords: ["functiondiscoveryprovider/IProviderProperties.GetCount"]
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows

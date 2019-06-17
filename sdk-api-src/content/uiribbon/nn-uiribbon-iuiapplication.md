@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIApplication interface [Windows Ribbon],described, scenicintent_IUIApplication, uiribbon/IUIApplication, windowsribbon.windowsribbon_iuiapplication
 ms.topic: interface
+f1_keywords: ["uiribbon/IUIApplication"]
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows

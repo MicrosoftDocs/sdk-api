@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsTransportProviderInitialize, WdsTransportProviderInitialize callback, WdsTransportProviderInitialize callback function [Windows Deployment Services], wds.wdstransportproviderinitialize, wdstpdi/WdsTransportProviderInitialize
 ms.topic: function
+f1_keywords: ["wdstpdi/WdsTransportProviderInitialize"]
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows

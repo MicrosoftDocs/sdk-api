@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WinRTPropertyValueToPropVariant, WinRTPropertyValueToPropVariant function [Windows Properties], properties.winrtpropertyvaluetopropvariant, propsys/WinRTPropertyValueToPropVariant
 ms.topic: function
+f1_keywords: ["propsys/WinRTPropertyValueToPropVariant"]
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

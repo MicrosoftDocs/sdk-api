@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 616dd4e2-841d-9b31-8251-b729947c2c0f, D3D10StateBlockMaskEnableAll, D3D10StateBlockMaskEnableAll function [Direct3D 10], d3d10effect/D3D10StateBlockMaskEnableAll, direct3d10.d3d10stateblockmaskenableall
 ms.topic: function
+f1_keywords: ["d3d10effect/D3D10StateBlockMaskEnableAll"]
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

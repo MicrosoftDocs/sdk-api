@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegisterTypeLib, RegisterTypeLib function [Automation], _oa96_RegisterTypeLib, automat.registertypelib, oleauto/RegisterTypeLib
 ms.topic: function
+f1_keywords: ["oleauto/RegisterTypeLib"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Management], _win32_netmessagebuffersend, lmmsg/NetMessageBufferSend, netmgmt.netmessagebuffersend
 ms.topic: function
+f1_keywords: ["lmmsg/NetMessageBufferSend"]
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows

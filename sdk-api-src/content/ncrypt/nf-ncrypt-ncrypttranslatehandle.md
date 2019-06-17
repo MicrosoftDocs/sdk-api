@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
 ms.topic: function
+f1_keywords: ["ncrypt/NCryptTranslateHandle"]
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

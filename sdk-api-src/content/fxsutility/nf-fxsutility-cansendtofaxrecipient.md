@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CanSendToFaxRecipient, CanSendToFaxRecipient function [Fax Service], _mfax_cansendtofaxrecipient, fax._mfax_cansendtofaxrecipient, fxsutility/CanSendToFaxRecipient
 ms.topic: function
+f1_keywords: ["fxsutility/CanSendToFaxRecipient"]
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows

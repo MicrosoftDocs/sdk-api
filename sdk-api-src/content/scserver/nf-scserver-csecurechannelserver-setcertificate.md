@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SetCertificate method, CSecureChannelServer.SetCertificate, CSecureChannelServer::SetCertificate, CSecureChannelServerSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SetCertificate, wmdm.csecurechannelserver_setcertificate
 ms.topic: method
+f1_keywords: ["scserver/CSecureChannelServer.SetCertificate"]
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows

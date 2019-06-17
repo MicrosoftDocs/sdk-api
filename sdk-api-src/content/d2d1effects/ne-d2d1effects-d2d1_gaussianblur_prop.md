@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D2D1_GAUSSIANBLUR_PROP, D2D1_GAUSSIANBLUR_PROP enumeration [Direct2D], D2D1_GAUSSIANBLUR_PROP_BORDER_MODE, D2D1_GAUSSIANBLUR_PROP_OPTIMIZATION, D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, d2d1effects/D2D1_GAUSSIANBLUR_PROP, d2d1effects/D2D1_GAUSSIANBLUR_PROP_BORDER_MODE, d2d1effects/D2D1_GAUSSIANBLUR_PROP_OPTIMIZATION, d2d1effects/D2D1_GAUSSIANBLUR_PROP_STANDARD_DEVIATION, direct2d.d2d1_gaussianblur_prop
 ms.topic: enum
+f1_keywords: ["d2d1effects/D2D1_GAUSSIANBLUR_PROP"]
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows

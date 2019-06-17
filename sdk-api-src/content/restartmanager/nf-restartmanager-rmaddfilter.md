@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmAddFilter, rstmgr.rmaddfilter
 ms.topic: function
+f1_keywords: ["restartmanager/RmAddFilter"]
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows

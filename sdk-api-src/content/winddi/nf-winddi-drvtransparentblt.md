@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvTransparentBlt, DrvTransparentBlt function [Display Devices], ddifncs_962c398c-767b-44de-a1ee-d2b8bf257ec6.xml, display.drvtransparentblt, winddi/DrvTransparentBlt
 ms.topic: function
+f1_keywords: ["winddi/DrvTransparentBlt"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

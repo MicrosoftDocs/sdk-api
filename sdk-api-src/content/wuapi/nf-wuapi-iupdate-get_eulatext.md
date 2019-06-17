@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EulaText property [Windows Update Agent], EulaText property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],EulaText property, IUpdate.EulaText, IUpdate.get_EulaText, IUpdate::EulaText, IUpdate::get_EulaText, get_EulaText, wua.iupdate_eulatext, wuapi/IUpdate::EulaText, wuapi/IUpdate::get_EulaText
 ms.topic: method
+f1_keywords: ["wuapi/IUpdate.EulaText"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

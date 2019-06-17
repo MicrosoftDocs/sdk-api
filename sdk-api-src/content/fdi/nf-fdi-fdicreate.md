@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FDICreate, FDICreate function [Windows API], cpu80286, cpu80386, cpuUNKNOWN, fdi/FDICreate, winprog.fdicreate
 ms.topic: function
+f1_keywords: ["fdi/FDICreate"]
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows

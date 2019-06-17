@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItemArray, SHCreateShellItemArray function [Windows Shell], _shell_SHCreateShellItemArray, shell.SHCreateShellItemArray, shobjidl_core/SHCreateShellItemArray
 ms.topic: function
+f1_keywords: ["shobjidl_core/SHCreateShellItemArray"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

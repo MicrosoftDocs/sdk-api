@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFieldNoCopy, GetFieldNoCopy method [Automation], GetFieldNoCopy method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNoCopy method, IRecordInfo.GetFieldNoCopy, IRecordInfo::GetFieldNoCopy, _oa96_IRecordInfo_GetFieldNoCopy, automat.irecordinfo_getfieldnocopy, oaidl/IRecordInfo::GetFieldNoCopy
 ms.topic: method
+f1_keywords: ["oaidl/IRecordInfo.GetFieldNoCopy"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

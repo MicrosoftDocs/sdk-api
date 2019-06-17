@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetClosestSize, GetClosestSize method [Windows Imaging Component], GetClosestSize method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],GetClosestSize method, IWICBitmapSourceTransform.GetClosestSize, IWICBitmapSourceTransform::GetClosestSize, _wic_codec_iwicbitmapsourcetransform_getclosestsize, wic._wic_codec_iwicbitmapsourcetransform_getclosestsize, wincodec/IWICBitmapSourceTransform::GetClosestSize
 ms.topic: method
+f1_keywords: ["wincodec/IWICBitmapSourceTransform.GetClosestSize"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterMemoryBlock, WerUnregisterMemoryBlock function [Windows Error Reporting], base.werunregistermemoryblock, wer.werunregistermemoryblock, werapi/WerUnregisterMemoryBlock
 ms.topic: function
+f1_keywords: ["werapi/WerUnregisterMemoryBlock"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

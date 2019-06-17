@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsCloseChannel, WsCloseChannel function [Web Services for Windows], webservices/WsCloseChannel, wsw.wsclosechannel
 ms.topic: function
+f1_keywords: ["webservices/WsCloseChannel"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

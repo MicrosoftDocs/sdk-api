@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroups object [Security],_NewEnum property, IAzApplicationGroups interface [Security],_NewEnum property, IAzApplicationGroups._NewEnum, IAzApplicationGroups.get__NewEnum, IAzApplicationGroups::_NewEnum, IAzApplicationGroups::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplicationGroups object, _NewEnum property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::_NewEnum, azroles/IAzApplicationGroups::get__NewEnum, get__NewEnum, security.iazapplicationgroups_newenum
 ms.topic: method
+f1_keywords: ["azroles/IAzApplicationGroups._NewEnum"]
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows

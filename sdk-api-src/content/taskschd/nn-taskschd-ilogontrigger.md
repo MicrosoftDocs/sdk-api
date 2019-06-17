@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ILogonTrigger, ILogonTrigger interface [Task Scheduler], ILogonTrigger interface [Task Scheduler],described, logon trigger [Task Scheduler],interface, taskschd.ilogontrigger, taskschd/ILogonTrigger
 ms.topic: interface
+f1_keywords: ["taskschd/ILogonTrigger"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

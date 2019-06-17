@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpCreateSubnetVQ, DhcpCreateSubnetVQ function [DHCP], dhcp.dhcpcreatesubnetvq, dhcpsapi/DhcpCreateSubnetVQ
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpCreateSubnetVQ"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

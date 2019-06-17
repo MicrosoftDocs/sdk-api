@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/5/2018
 ms.keywords: IDMLBindingTable, IDMLBindingTable interface, IDMLBindingTable interface,described, direct3d12.idmlbindingtable, directml/IDMLBindingTable
 ms.topic: interface
+f1_keywords: ["directml/IDMLBindingTable"]
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows

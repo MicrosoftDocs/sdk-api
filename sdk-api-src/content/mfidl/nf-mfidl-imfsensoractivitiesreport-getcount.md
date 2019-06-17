@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Media Foundation], GetCount method [Media Foundation],IMFSensorActivitiesReport interface, IMFSensorActivitiesReport interface [Media Foundation],GetCount method, IMFSensorActivitiesReport.GetCount, IMFSensorActivitiesReport::GetCount, mf.imfsensoractivityreport_getcount, mfidl/IMFSensorActivitiesReport::GetCount
 ms.topic: method
+f1_keywords: ["mfidl/IMFSensorActivitiesReport.GetCount"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

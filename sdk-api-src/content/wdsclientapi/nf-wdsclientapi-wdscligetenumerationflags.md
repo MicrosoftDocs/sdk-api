@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WdsCliFlagEnumFilterVersion, WdsCliGetEnumerationFlags, WdsCliGetEnumerationFlags function [Windows Deployment Services], wds.wdscligetenumerationflags, wdsclientapi/WdsCliGetEnumerationFlags
 ms.topic: function
+f1_keywords: ["wdsclientapi/WdsCliGetEnumerationFlags"]
 req.header: wdsclientapi.h
 req.include-header: WdsClientAPI.h
 req.target-type: Windows

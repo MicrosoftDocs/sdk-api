@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetCAPropertyDisplayName method, GetCAPropertyDisplayName, GetCAPropertyDisplayName method [Security], GetCAPropertyDisplayName method [Security],CCertRequest object, GetCAPropertyDisplayName method [Security],ICertRequest interface, GetCAPropertyDisplayName method [Security],ICertRequest2 interface, GetCAPropertyDisplayName method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetCAPropertyDisplayName method, ICertRequest2 interface [Security],GetCAPropertyDisplayName method, ICertRequest2.GetCAPropertyDisplayName, ICertRequest2::GetCAPropertyDisplayName, ICertRequest3 interface [Security],GetCAPropertyDisplayName method, ICertRequest3::GetCAPropertyDisplayName, ICertRequest::GetCAPropertyDisplayName, _certsrv_icertrequest2_getcapropertydisplayname, certcli/ICertRequest2::GetCAPropertyDisplayName, certcli/ICertRequest3::GetCAPropertyDisplayName, certcli/ICertRequest::GetCAPropertyDisplayName, security.icertrequest2_getcapropertydisplayname
 ms.topic: method
+f1_keywords: ["certcli/ICertRequest3.GetCAPropertyDisplayName"]
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows

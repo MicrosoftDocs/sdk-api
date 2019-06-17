@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PdhIsRealTimeQuery, PdhIsRealTimeQuery function [Perf], _win32_pdhisrealtimequery, base.pdhisrealtimequery, pdh/PdhIsRealTimeQuery, perf.pdhisrealtimequery
 ms.topic: function
+f1_keywords: ["pdh/PdhIsRealTimeQuery"]
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

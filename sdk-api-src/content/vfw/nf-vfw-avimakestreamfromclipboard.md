@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIMakeStreamFromClipboard, AVIMakeStreamFromClipboard function [Windows Multimedia], _win32_AVIMakeStreamFromClipboard, multimedia.avimakestreamfromclipboard, vfw/AVIMakeStreamFromClipboard
 ms.topic: function
+f1_keywords: ["vfw/AVIMakeStreamFromClipboard"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

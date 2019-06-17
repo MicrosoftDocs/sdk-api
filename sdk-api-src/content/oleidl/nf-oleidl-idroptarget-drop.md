@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
 ms.topic: method
+f1_keywords: ["oleidl/IDropTarget.Drop"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_STUB_FUNCTION, WSD_STUB_FUNCTION callback, WSD_STUB_FUNCTION callback function, ncd.wsd_stub_function_func, wsdtypes/WSD_STUB_FUNCTION
 ms.topic: callback
+f1_keywords: ["wsdtypes/WSD_STUB_FUNCTION"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], IWICMetadataBlockReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockreader, wic._wic_codec_iwicmetadatablockreader, wincodecsdk/IWICMetadataBlockReader
 ms.topic: interface
+f1_keywords: ["wincodecsdk/IWICMetadataBlockReader"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

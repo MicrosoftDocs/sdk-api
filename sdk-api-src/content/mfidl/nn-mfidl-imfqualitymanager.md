@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager
 ms.topic: interface
+f1_keywords: ["mfidl/IMFQualityManager"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

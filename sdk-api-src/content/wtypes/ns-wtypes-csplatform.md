@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CSPLATFORM, CSPLATFORM structure [COM], _com_CSPLATFORM, com.csplatform, wtypes/tagCSPLATFORM
 ms.topic: struct
+f1_keywords: ["wtypes/CSPLATFORM"]
 req.header: wtypes.h
 req.include-header: 
 req.target-type: Windows

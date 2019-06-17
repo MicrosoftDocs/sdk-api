@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID2D1BitmapBrush interface [Direct2D],SetExtendModeY method, ID2D1BitmapBrush.SetExtendModeY, ID2D1BitmapBrush::SetExtendModeY, SetExtendModeY, SetExtendModeY method [Direct2D], SetExtendModeY method [Direct2D],ID2D1BitmapBrush interface, d2d1/ID2D1BitmapBrush::SetExtendModeY, direct2d.ID2D1BitmapBrush_SetExtendModeY
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1BitmapBrush.SetExtendModeY"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],SetDropSourceEnterpriseId method, IEnterpriseDropTarget.SetDropSourceEnterpriseId, IEnterpriseDropTarget::SetDropSourceEnterpriseId, SetDropSourceEnterpriseId, SetDropSourceEnterpriseId method [COM], SetDropSourceEnterpriseId method [COM],IEnterpriseDropTarget interface, com.setdropsourceenterpriseid_requestaccessforappwithmessageforwindowasync, com.setdropsourceenterpriseid_setdropsourceenterpriseId, oleidl/IEnterpriseDropTarget::SetDropSourceEnterpriseId
 ms.topic: method
+f1_keywords: ["oleidl/IEnterpriseDropTarget.SetDropSourceEnterpriseId"]
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows

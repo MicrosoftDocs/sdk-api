@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdatesSettings interface [Windows Update Agent],Required property, IAutomaticUpdatesSettings.Required, IAutomaticUpdatesSettings.get_Required, IAutomaticUpdatesSettings::Required, IAutomaticUpdatesSettings::get_Required, Required property [Windows Update Agent], Required property [Windows Update Agent],IAutomaticUpdatesSettings interface, get_Required, wua.iautomaticupdatessettings_required, wuapi/IAutomaticUpdatesSettings::Required, wuapi/IAutomaticUpdatesSettings::get_Required
 ms.topic: method
+f1_keywords: ["wuapi/IAutomaticUpdatesSettings.Required"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

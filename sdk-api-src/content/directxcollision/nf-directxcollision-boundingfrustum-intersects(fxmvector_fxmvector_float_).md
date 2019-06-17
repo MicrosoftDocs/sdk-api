@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Intersects method, BoundingFrustum.Intersects, BoundingFrustum.Intersects(FXMVECTOR,FXMVECTOR,float &), BoundingFrustum.Intersects(XMVECTOR,XMVECTOR,float&), BoundingFrustum::Intersects, BoundingFrustum::Intersects(FXMVECTOR,FXMVECTOR,float &), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_intersects_2
 ms.topic: method
+f1_keywords: ["directxcollision/BoundingFrustum.Intersects"]
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_PROVIDER_INFO, CF_SYNC_ROOT_PROVIDER_INFO structure, cfapi/CF_SYNC_ROOT_PROVIDER_INFO, cloudApi.cf_sync_root_provider_info
 ms.topic: struct
+f1_keywords: ["cfapi/CF_SYNC_ROOT_PROVIDER_INFO"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

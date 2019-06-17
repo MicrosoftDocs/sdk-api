@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],ImportCertificate method, CR_IN_BASE64, CR_IN_BASE64HEADER, CR_IN_BINARY, ICertAdmin interface [Security],ImportCertificate method, ICertAdmin.ImportCertificate, ICertAdmin2 interface [Security],ImportCertificate method, ICertAdmin2::ImportCertificate, ICertAdmin::ImportCertificate, ImportCertificate, ImportCertificate method [Security], ImportCertificate method [Security],CCertAdmin object, ImportCertificate method [Security],ICertAdmin interface, ImportCertificate method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::ImportCertificate, certadm/ICertAdmin::ImportCertificate, security.icertadmin2_importcertificate
 ms.topic: method
+f1_keywords: ["certadm/ICertAdmin2.ImportCertificate"]
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows

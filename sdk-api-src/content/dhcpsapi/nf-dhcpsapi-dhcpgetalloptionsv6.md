@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionsV6, DhcpGetAllOptionsV6 function [DHCP], dhcp.dhcpgetalloptionsv6, dhcpsapi/DhcpGetAllOptionsV6
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpGetAllOptionsV6"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

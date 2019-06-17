@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IITWordWheel, IITWordWheel interface [HTML Help Workshop], IITWordWheel interface [HTML Help Workshop],described, htmlhelp.iitwordwheel, infotech/IITWordWheel, refIITWordWheelInterface
 ms.topic: interface
+f1_keywords: ["infotech/IITWordWheel"]
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows

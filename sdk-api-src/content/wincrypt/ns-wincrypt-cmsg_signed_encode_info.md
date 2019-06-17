@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PCMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO, CMSG_SIGNED_ENCODE_INFO structure [Security], _crypto2_cmsg_signed_encode_info, security.cmsg_signed_encode_info, wincrypt/CMSG_SIGNED_ENCODE_INFO"
 ms.topic: struct
+f1_keywords: ["wincrypt/CMSG_SIGNED_ENCODE_INFO"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

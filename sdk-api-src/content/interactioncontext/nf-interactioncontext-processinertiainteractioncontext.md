@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ProcessInertiaInteractionContext, ProcessInertiaInteractionContext function, input_intcontext.processinertiainteractioncontext, interactioncontext.processinertiainteractioncontext, interactioncontext/ProcessInertiaInteractionContext
 ms.topic: function
+f1_keywords: ["interactioncontext/ProcessInertiaInteractionContext"]
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows

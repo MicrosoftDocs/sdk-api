@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetPackageInfo, GetPackageInfo function [App packaging and management], appmodel/GetPackageInfo, appxpkg.getpackageinfo
 ms.topic: function
+f1_keywords: ["appmodel/GetPackageInfo"]
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows

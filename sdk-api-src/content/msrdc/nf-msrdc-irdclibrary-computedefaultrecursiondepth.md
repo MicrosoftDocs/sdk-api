@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComputeDefaultRecursionDepth, ComputeDefaultRecursionDepth method [Remote Differential Compression], ComputeDefaultRecursionDepth method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],ComputeDefaultRecursionDepth method, IRdcLibrary.ComputeDefaultRecursionDepth, IRdcLibrary::ComputeDefaultRecursionDepth, fs.irdclibrary_computedefaultrecursiondepth, msrdc/IRdcLibrary::ComputeDefaultRecursionDepth, rdc.irdclibrary_computedefaultrecursiondepth
 ms.topic: method
+f1_keywords: ["msrdc/IRdcLibrary.ComputeDefaultRecursionDepth"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

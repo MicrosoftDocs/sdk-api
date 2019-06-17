@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationActivation, IWebApplicationActivation interface [Debugging Windows Store apps], IWebApplicationActivation interface [Debugging Windows Store apps],described, debug.iwebapplicationactivation, webapplication/IWebApplicationActivation
 ms.topic: interface
+f1_keywords: ["webapplication/IWebApplicationActivation"]
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows

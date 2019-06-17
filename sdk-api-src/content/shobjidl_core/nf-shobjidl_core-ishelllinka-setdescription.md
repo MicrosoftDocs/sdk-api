@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellLink interface [Windows Shell],SetDescription method, IShellLink::SetDescription, IShellLinkA interface [Windows Shell],SetDescription method, IShellLinkA.SetDescription, IShellLinkA::SetDescription, IShellLinkW interface [Windows Shell],SetDescription method, IShellLinkW::SetDescription, SetDescription, SetDescription method [Windows Shell], SetDescription method [Windows Shell],IShellLink interface, SetDescription method [Windows Shell],IShellLinkA interface, SetDescription method [Windows Shell],IShellLinkW interface, _win32_IShellLink_SetDescription, shell.IShellLink_SetDescription, shobjidl_core/IShellLink::SetDescription, shobjidl_core/IShellLinkA::SetDescription, shobjidl_core/IShellLinkW::SetDescription
 ms.topic: method
+f1_keywords: ["shobjidl_core/IShellLink.SetDescription"]
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFAudioConstriction, MFAudioConstriction enumeration [Media Foundation], MFaudioConstriction14_14, MFaudioConstriction44_16, MFaudioConstriction48_16, MFaudioConstrictionMute, MFaudioConstrictionOff, mf.mfaudioconstriction, mfidl/MFAudioConstriction, mfidl/MFaudioConstriction14_14, mfidl/MFaudioConstriction44_16, mfidl/MFaudioConstriction48_16, mfidl/MFaudioConstrictionMute, mfidl/MFaudioConstrictionOff
 ms.topic: enum
+f1_keywords: ["mfidl/MFAudioConstriction"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

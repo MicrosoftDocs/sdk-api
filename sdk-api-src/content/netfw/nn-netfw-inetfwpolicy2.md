@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF],described, ics.inetfwpolicy2, netfw/INetFwPolicy2
 ms.topic: interface
+f1_keywords: ["netfw/INetFwPolicy2"]
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows

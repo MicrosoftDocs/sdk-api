@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPSAFEARRAY, FADF_AUTO, FADF_BSTR, FADF_DISPATCH, FADF_EMBEDDED, FADF_FIXEDSIZE, FADF_HAVEIID, FADF_HAVEVARTYPE, FADF_RECORD, FADF_RESERVED, FADF_STATIC, FADF_UNKNOWN, FADF_VARIANT, LPSAFEARRAY, LPSAFEARRAY structure pointer [Automation], SAFEARRAY, SAFEARRAY structure [Automation], automat.safearray, oaidl/LPSAFEARRAY, oaidl/SAFEARRAY"
 ms.topic: struct
+f1_keywords: ["oaidl/SAFEARRAY"]
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows

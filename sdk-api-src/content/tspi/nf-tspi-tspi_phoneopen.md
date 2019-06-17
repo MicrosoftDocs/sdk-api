@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneOpen, TSPI_phoneOpen function [TAPI 2.2], _tspi_tspi_phoneopen, tspi.tspi_phoneopen, tspi/TSPI_phoneOpen
 ms.topic: function
+f1_keywords: ["tspi/TSPI_phoneOpen"]
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_ENUM_PROPERTIES, PRESUTIL_ENUM_PROPERTIES function [Failover Cluster], ResUtilEnumProperties, ResUtilEnumProperties function [Failover Cluster], _wolf_resutilenumproperties, mscs.resutilenumproperties, resapi/PRESUTIL_ENUM_PROPERTIES, resapi/ResUtilEnumProperties
 ms.topic: function
+f1_keywords: ["resapi/ResUtilEnumProperties"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

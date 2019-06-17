@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent
 ms.topic: function
+f1_keywords: ["winddi/EngReadStateEvent"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

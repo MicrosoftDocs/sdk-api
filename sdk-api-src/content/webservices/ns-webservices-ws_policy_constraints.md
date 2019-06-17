@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_CONSTRAINTS, WS_POLICY_CONSTRAINTS structure [Web Services for Windows], webservices/WS_POLICY_CONSTRAINTS, wsw.ws_policy_constraints
 ms.topic: struct
+f1_keywords: ["webservices/WS_POLICY_CONSTRAINTS"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

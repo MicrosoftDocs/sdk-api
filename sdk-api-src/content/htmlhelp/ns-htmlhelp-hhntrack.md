@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrack_structure, htmlhelp/HHNTRACK, vsconStrhhntrack
 ms.topic: struct
+f1_keywords: ["htmlhelp/HHNTRACK"]
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows

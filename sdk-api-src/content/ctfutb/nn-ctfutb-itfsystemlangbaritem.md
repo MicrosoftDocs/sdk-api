@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItem, ITfSystemLangBarItem interface [Text Services Framework], ITfSystemLangBarItem interface [Text Services Framework],described, _tsf_itfsystemlangbaritem_ref, ctfutb/ITfSystemLangBarItem, tsf.itfsystemlangbaritem
 ms.topic: interface
+f1_keywords: ["ctfutb/ITfSystemLangBarItem"]
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows

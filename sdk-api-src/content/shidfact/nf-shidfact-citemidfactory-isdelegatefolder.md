@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],IsDelegateFolder method, CItemIDFactory.IsDelegateFolder, CItemIDFactory::IsDelegateFolder, IsDelegateFolder, IsDelegateFolder method [Windows Shell], IsDelegateFolder method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_isdelegatefolder, shidfact/CItemIDFactory::IsDelegateFolder
 ms.topic: method
+f1_keywords: ["shidfact/CItemIDFactory.IsDelegateFolder"]
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows

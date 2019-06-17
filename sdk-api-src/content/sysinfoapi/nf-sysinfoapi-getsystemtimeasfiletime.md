@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAsFileTime, GetSystemTimeAsFileTime function, _win32_getsystemtimeasfiletime, base.getsystemtimeasfiletime, sysinfoapi/GetSystemTimeAsFileTime
 ms.topic: function
+f1_keywords: ["sysinfoapi/GetSystemTimeAsFileTime"]
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

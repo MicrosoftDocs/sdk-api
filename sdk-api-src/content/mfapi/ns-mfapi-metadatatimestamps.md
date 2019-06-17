@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MetadataTimeStamps, MetadataTimeStamps structure [Streaming Media Devices], mfapi/MetadataTimeStamps, stream.metadatatimestamps
 ms.topic: struct
+f1_keywords: ["mfapi/MetadataTimeStamps"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

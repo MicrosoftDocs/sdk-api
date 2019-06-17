@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 039ee3cd-2221-4405-ba7f-233a93a0271b, MFCalculateImageSize, MFCalculateImageSize function [Media Foundation], mf.mfcalculateimagesize, mfapi/MFCalculateImageSize
 ms.topic: function
+f1_keywords: ["mfapi/MFCalculateImageSize"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrvStartBanding, DrvStartBanding function [Display Devices], ddifncs_d0cd5c63-cf46-472a-be6c-8d9dd124a2b2.xml, display.drvstartbanding, winddi/DrvStartBanding
 ms.topic: function
+f1_keywords: ["winddi/DrvStartBanding"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

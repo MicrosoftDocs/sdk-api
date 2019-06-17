@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,ISensor interface, ISensor interface,GetID method, ISensor.GetID, ISensor::GetID, sensorsapi/ISensor::GetID, winsensors_com_ref.isensor_getid
 ms.topic: method
+f1_keywords: ["sensorsapi/ISensor.GetID"]
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows

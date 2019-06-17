@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate, IX509CertificateRequestCertificate interface [Security], IX509CertificateRequestCertificate interface [Security],described, certenroll/IX509CertificateRequestCertificate, security.ix509certificaterequestcertificate
 ms.topic: interface
+f1_keywords: ["certenroll/IX509CertificateRequestCertificate"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

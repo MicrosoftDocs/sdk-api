@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Enabled property, IFsrmPipelineModuleDefinition.Enabled, IFsrmPipelineModuleDefinition.put_Enabled, IFsrmPipelineModuleDefinition::Enabled, IFsrmPipelineModuleDefinition::get_Enabled, IFsrmPipelineModuleDefinition::put_Enabled, fs.ifsrmpipelinemoduledefinition_enabled, fsrm.ifsrmpipelinemoduledefinition_enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Enabled, put_Enabled
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPipelineModuleDefinition.Enabled"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

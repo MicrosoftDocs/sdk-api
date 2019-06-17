@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FCW_INTERNETBAR, FCW_PROGRESS, FCW_STATUS, FCW_TOOLBAR, FCW_TREE, IBrowserService interface [Windows Shell],IsControlWindowShown method, IBrowserService.IsControlWindowShown, IBrowserService::IsControlWindowShown, IsControlWindowShown, IsControlWindowShown method [Windows Shell], IsControlWindowShown method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::IsControlWindowShown, shell.IBrowserService_IsControlWindowShown, zone_IBrowserService_IsControlWindowShown
 ms.topic: method
+f1_keywords: ["shdeprecated/IBrowserService.IsControlWindowShown"]
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows

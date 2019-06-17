@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcessStop, DebugActiveProcessStop function, _win32_debugactiveprocessstop, base.debugactiveprocessstop, debugapi/DebugActiveProcessStop
 ms.topic: function
+f1_keywords: ["debugapi/DebugActiveProcessStop"]
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows

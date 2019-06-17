@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SE_DS_OBJECT, SE_DS_OBJECT_ALL, SE_FILE_OBJECT, SE_KERNEL_OBJECT, SE_LMSHARE, SE_OBJECT_TYPE, SE_OBJECT_TYPE enumeration [Security], SE_PRINTER, SE_PROVIDER_DEFINED_OBJECT, SE_REGISTRY_KEY, SE_REGISTRY_WOW64_32KEY, SE_SERVICE, SE_UNKNOWN_OBJECT_TYPE, SE_WINDOW_OBJECT, SE_WMIGUID_OBJECT, _win32_se_object_type_str, accctrl/SE_DS_OBJECT, accctrl/SE_DS_OBJECT_ALL, accctrl/SE_FILE_OBJECT, accctrl/SE_KERNEL_OBJECT, accctrl/SE_LMSHARE, accctrl/SE_OBJECT_TYPE, accctrl/SE_PRINTER, accctrl/SE_PROVIDER_DEFINED_OBJECT, accctrl/SE_REGISTRY_KEY, accctrl/SE_REGISTRY_WOW64_32KEY, accctrl/SE_SERVICE, accctrl/SE_UNKNOWN_OBJECT_TYPE, accctrl/SE_WINDOW_OBJECT, accctrl/SE_WMIGUID_OBJECT, security.se_object_type
 ms.topic: enum
+f1_keywords: ["accctrl/SE_OBJECT_TYPE"]
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PropVariantToBSTR, PropVariantToBSTR function [Windows Properties], _shell_PropVariantToBSTR, properties.PropVariantToBSTR, propvarutil/PropVariantToBSTR, shell.PropVariantToBSTR
 ms.topic: function
+f1_keywords: ["propvarutil/PropVariantToBSTR"]
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows

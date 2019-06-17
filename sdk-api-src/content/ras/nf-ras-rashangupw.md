@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RasHangUp, RasHangUp function [RAS], RasHangUpA, RasHangUpW, _ras_rashangup, ras/RasHangUp, ras/RasHangUpA, ras/RasHangUpW, rras.rashangup
 ms.topic: function
+f1_keywords: ["ras/RasHangUp"]
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

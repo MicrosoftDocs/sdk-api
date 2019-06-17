@@ -4,6 +4,7 @@ title: ELEMDESC
 ms.date: 01/30/19
 ms.keywords: tagELEMDESC, ELEMDESC
 ms.topic: language-reference
+f1_keywords: ["oaidl/tagELEMDESC"]
 targetos: Windows
 product: Windows
 req.construct-type: structure

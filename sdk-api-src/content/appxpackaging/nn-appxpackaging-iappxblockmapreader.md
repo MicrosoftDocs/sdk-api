@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapReader, IAppxBlockMapReader interface [App packaging and management], IAppxBlockMapReader interface [App packaging and management],described, appxpackaging/IAppxBlockMapReader, appxpkg.iappxblockmapreader
 ms.topic: interface
+f1_keywords: ["appxpackaging/IAppxBlockMapReader"]
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows

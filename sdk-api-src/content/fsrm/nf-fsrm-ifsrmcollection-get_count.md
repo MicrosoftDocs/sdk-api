@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Count property [File Server Resource Manager], Count property [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],Count property, IFsrmCollection.Count, IFsrmCollection.get_Count, IFsrmCollection::Count, IFsrmCollection::get_Count, fs.ifsrmcollection_count, fsrm.ifsrmcollection_count, fsrm/IFsrmCollection::Count, fsrm/IFsrmCollection::get_Count, get_Count
 ms.topic: method
+f1_keywords: ["fsrm/IFsrmCollection.Count"]
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows

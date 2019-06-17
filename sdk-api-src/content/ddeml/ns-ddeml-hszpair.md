@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PHSZPAIR, HSZPAIR, HSZPAIR structure [Data Exchange], PHSZPAIR, PHSZPAIR structure pointer [Data Exchange], _win32_HSZPAIR_str, _win32_hszpair_str_cpp, dataxchg.hszpair, ddeml/HSZPAIR, ddeml/PHSZPAIR, winui._win32_hszpair_str"
 ms.topic: struct
+f1_keywords: ["ddeml/HSZPAIR"]
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows

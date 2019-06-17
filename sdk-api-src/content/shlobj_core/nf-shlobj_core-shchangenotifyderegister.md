@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
 ms.topic: function
+f1_keywords: ["shlobj_core/SHChangeNotifyDeregister"]
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

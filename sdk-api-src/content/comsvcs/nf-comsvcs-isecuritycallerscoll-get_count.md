@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get_Count method, ISecurityCallersColl.get_Count, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallersColl interface
 ms.topic: method
+f1_keywords: ["comsvcs/ISecurityCallersColl.get_Count"]
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows

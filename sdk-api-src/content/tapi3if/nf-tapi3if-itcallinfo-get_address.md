@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_Address method, ITCallInfo.get_Address, ITCallInfo::get_Address, _tapi3_itcallinfo_get_address, get_Address, get_Address method [TAPI 2.2], get_Address method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_address, tapi3if/ITCallInfo::get_Address
 ms.topic: method
+f1_keywords: ["tapi3if/ITCallInfo.get_Address"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

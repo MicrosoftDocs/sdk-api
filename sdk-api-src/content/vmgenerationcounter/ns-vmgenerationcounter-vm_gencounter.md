@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER"
 ms.topic: struct
+f1_keywords: ["vmgenerationcounter/VM_GENCOUNTER"]
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows

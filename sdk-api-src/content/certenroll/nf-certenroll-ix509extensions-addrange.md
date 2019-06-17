@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],IX509Extensions interface, IX509Extensions interface [Security],AddRange method, IX509Extensions.AddRange, IX509Extensions::AddRange, certenroll/IX509Extensions::AddRange, security.ix509extensions_addrange_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509Extensions.AddRange"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreatePMPMediaSession, MFCreatePMPMediaSession function [Media Foundation], cb492e68-3d8a-49b2-8c0b-bee8065b53a8, mf.mfcreatepmpmediasession, mfidl/MFCreatePMPMediaSession
 ms.topic: function
+f1_keywords: ["mfidl/MFCreatePMPMediaSession"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

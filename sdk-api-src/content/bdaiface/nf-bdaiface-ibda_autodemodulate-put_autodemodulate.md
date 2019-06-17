@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulate interface [Microsoft TV Technologies],put_AutoDemodulate method, IBDA_AutoDemodulate.put_AutoDemodulate, IBDA_AutoDemodulate::put_AutoDemodulate, IBDA_AutoDemodulateput_AutoDemodulate, bdaiface/IBDA_AutoDemodulate::put_AutoDemodulate, mstv.ibda_autodemodulate_put_autodemodulate, put_AutoDemodulate, put_AutoDemodulate method [Microsoft TV Technologies], put_AutoDemodulate method [Microsoft TV Technologies],IBDA_AutoDemodulate interface
 ms.topic: method
+f1_keywords: ["bdaiface/IBDA_AutoDemodulate.put_AutoDemodulate"]
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows

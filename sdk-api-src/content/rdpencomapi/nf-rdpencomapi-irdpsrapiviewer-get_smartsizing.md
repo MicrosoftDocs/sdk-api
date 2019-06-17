@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],SmartSizing property, IRDPSRAPIViewer.SmartSizing, IRDPSRAPIViewer.get_SmartSizing, IRDPSRAPIViewer::SmartSizing, IRDPSRAPIViewer::get_SmartSizing, IRDPSRAPIViewer::put_SmartSizing, RDPViewer object [RDP],SmartSizing property, SmartSizing property [RDP], SmartSizing property [RDP],IRDPSRAPIViewer interface, SmartSizing property [RDP],RDPViewer object, get_SmartSizing, rdp.irdpsrapiviewer_smartsizing, rdpencomapi/IRDPSRAPIViewer::SmartSizing, rdpencomapi/IRDPSRAPIViewer::get_SmartSizing, rdpencomapi/IRDPSRAPIViewer::put_SmartSizing
 ms.topic: method
+f1_keywords: ["rdpencomapi/IRDPSRAPIViewer.SmartSizing"]
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows

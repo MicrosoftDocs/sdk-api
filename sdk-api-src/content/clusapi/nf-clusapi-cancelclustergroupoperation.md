@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CancelClusterGroupOperation, CancelClusterGroupOperation function [Failover Cluster], clusapi/CancelClusterGroupOperation, mscs.cancelclustergroupoperation
 ms.topic: function
+f1_keywords: ["clusapi/CancelClusterGroupOperation"]
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

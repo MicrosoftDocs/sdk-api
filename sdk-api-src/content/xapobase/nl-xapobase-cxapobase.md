@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase, CXAPOBase class [XAudio2 Audio Mixing APIs], CXAPOBase class [XAudio2 Audio Mixing APIs],described, xapobase/CXAPOBase, xaudio2.cxapobase
 ms.topic: class
+f1_keywords: ["xapobase/CXAPOBase"]
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows

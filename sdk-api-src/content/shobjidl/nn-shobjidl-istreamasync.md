@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStreamAsync, IStreamAsync interface [Windows Shell], IStreamAsync interface [Windows Shell],described, _shell_IStreamAsync, shell.IStreamAsync, shobjidl/IStreamAsync
 ms.topic: interface
+f1_keywords: ["shobjidl/IStreamAsync"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

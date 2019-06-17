@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GlobalLock, GlobalLock function, _win32_globallock, base.globallock, winbase/GlobalLock
 ms.topic: function
+f1_keywords: ["winbase/GlobalLock"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

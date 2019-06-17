@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: VarMod, VarMod function [Automation], _oa96_VarMod, automat.varmod, oleauto/VarMod
 ms.topic: function
+f1_keywords: ["oleauto/VarMod"]
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows

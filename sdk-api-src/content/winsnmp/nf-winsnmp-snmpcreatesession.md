@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcreatesession, snmp.snmpcreatesession, winsnmp/SnmpCreateSession
 ms.topic: function
+f1_keywords: ["winsnmp/SnmpCreateSession"]
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows

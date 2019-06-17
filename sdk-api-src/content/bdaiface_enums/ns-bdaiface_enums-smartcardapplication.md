@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV Technologies], SmartCardApplicationStructure, bdaiface_enums/SmartCardApplication, mstv.smartcardapplication
 ms.topic: struct
+f1_keywords: ["bdaiface_enums/SmartCardApplication"]
 req.header: bdaiface_enums.h
 req.include-header: Bdaiface.h
 req.target-type: Windows

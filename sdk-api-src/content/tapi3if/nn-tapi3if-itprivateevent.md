@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPrivateEvent, ITPrivateEvent interface [TAPI 2.2], ITPrivateEvent interface [TAPI 2.2],described, _tapi3_itprivateevent, tapi3.itprivateevent, tapi3if/ITPrivateEvent
 ms.topic: interface
+f1_keywords: ["tapi3if/ITPrivateEvent"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

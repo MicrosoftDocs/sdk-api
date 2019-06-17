@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetEmptyText method, IExplorerBrowser.SetEmptyText, IExplorerBrowser::SetEmptyText, SetEmptyText, SetEmptyText method [Windows Shell], SetEmptyText method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetEmptyText, shell.IExplorerBrowser_SetEmptyText, shobjidl_core/IExplorerBrowser::SetEmptyText
 ms.topic: method
+f1_keywords: ["shobjidl_core/IExplorerBrowser.SetEmptyText"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

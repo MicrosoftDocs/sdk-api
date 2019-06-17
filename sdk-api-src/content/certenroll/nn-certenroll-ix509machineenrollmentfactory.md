@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
 ms.topic: interface
+f1_keywords: ["certenroll/IX509MachineEnrollmentFactory"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

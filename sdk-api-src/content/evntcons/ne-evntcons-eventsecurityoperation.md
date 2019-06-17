@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVENTSECURITYOPERATION, EVENTSECURITYOPERATION enumeration [ETW], EventSecurityAddDACL, EventSecurityAddSACL, EventSecurityMax, EventSecuritySetDACL, EventSecuritySetSACL, base.eventsecurityoperation, etw.eventsecurityoperation, evntcons/EVENTSECURITYOPERATION, evntcons/EventSecurityAddDACL, evntcons/EventSecurityAddSACL, evntcons/EventSecurityMax, evntcons/EventSecuritySetDACL, evntcons/EventSecuritySetSACL
 ms.topic: enum
+f1_keywords: ["evntcons/EVENTSECURITYOPERATION"]
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], IWMColorConvProps interface [Media Foundation],described, codecapi.iwmcolorconvpropsinterface, mf.iwmcolorconvprops, mf.iwmcolorconvpropsinterface, wmcodecdsp/IWMColorConvProps
 ms.topic: interface
+f1_keywords: ["wmcodecdsp/IWMColorConvProps"]
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows

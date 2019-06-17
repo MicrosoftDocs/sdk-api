@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
 ms.topic: function
+f1_keywords: ["lmaccess/NetAddServiceAccount"]
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows

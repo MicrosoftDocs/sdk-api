@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudioNotification, IAMTVAudioNotification interface [DirectShow], IAMTVAudioNotification interface [DirectShow],described, IAMTVAudioNotificationInterface, dshow.iamtvaudionotification, strmif/IAMTVAudioNotification
 ms.topic: interface
+f1_keywords: ["strmif/IAMTVAudioNotification"]
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows

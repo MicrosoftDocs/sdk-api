@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnReadyStateChange method, IMbnInterfaceEvents.OnReadyStateChange, IMbnInterfaceEvents::OnReadyStateChange, OnReadyStateChange, OnReadyStateChange method [Microsoft Broadband Networks], OnReadyStateChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onreadystatechange, mbnapi/IMbnInterfaceEvents::OnReadyStateChange
 ms.topic: method
+f1_keywords: ["mbnapi/IMbnInterfaceEvents.OnReadyStateChange"]
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows

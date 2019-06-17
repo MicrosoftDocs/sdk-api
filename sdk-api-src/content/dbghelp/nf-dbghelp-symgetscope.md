@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
 ms.topic: function
+f1_keywords: ["dbghelp/SymGetScope"]
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

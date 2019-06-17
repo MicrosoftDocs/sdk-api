@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY, PWIN32_MEMORY_RANGE_ENTRY structure pointer, WIN32_MEMORY_RANGE_ENTRY, WIN32_MEMORY_RANGE_ENTRY structure, _WIN32_MEMORY_RANGE_ENTRY, base.win32_memory_range_entry, winbase/PWIN32_MEMORY_RANGE_ENTRY, winbase/WIN32_MEMORY_RANGE_ENTRY"
 ms.topic: struct
+f1_keywords: ["memoryapi/WIN32_MEMORY_RANGE_ENTRY"]
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPBITMAPCOREINFO, *PBITMAPCOREINFO, BITMAPCOREINFO, BITMAPCOREINFO structure [Windows GDI], PBITMAPCOREINFO, PBITMAPCOREINFO structure pointer [Windows GDI], _win32_BITMAPCOREINFO_str, gdi.bitmapcoreinfo, wingdi/BITMAPCOREINFO, wingdi/PBITMAPCOREINFO"
 ms.topic: struct
+f1_keywords: ["wingdi/BITMAPCOREINFO"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

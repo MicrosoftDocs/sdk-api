@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSDXMLCreateContext, WSDXMLCreateContext function, ncd.wsdxmlcreatecontext, wsdxml/WSDXMLCreateContext
 ms.topic: function
+f1_keywords: ["wsdxml/WSDXMLCreateContext"]
 req.header: wsdxml.h
 req.include-header: 
 req.target-type: Windows

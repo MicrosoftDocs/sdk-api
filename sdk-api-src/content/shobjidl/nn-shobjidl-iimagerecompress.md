@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImageRecompress, IImageRecompress interface [Windows Shell], IImageRecompress interface [Windows Shell],described, _win32_IImageRecompress, shell.IImageRecompress, shobjidl/IImageRecompress
 ms.topic: interface
+f1_keywords: ["shobjidl/IImageRecompress"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

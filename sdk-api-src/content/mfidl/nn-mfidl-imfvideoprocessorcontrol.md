@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation],described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
 ms.topic: interface
+f1_keywords: ["mfidl/IMFVideoProcessorControl"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

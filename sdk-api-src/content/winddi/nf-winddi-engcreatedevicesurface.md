@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngCreateDeviceSurface, EngCreateDeviceSurface function [Display Devices], display.engcreatedevicesurface, gdifncs_0a48d849-3e93-4310-87e1-cd0b6882b4a4.xml, winddi/EngCreateDeviceSurface
 ms.topic: function
+f1_keywords: ["winddi/EngCreateDeviceSurface"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

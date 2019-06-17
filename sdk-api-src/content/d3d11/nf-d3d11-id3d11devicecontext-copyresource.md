@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CopyResource, CopyResource method [Direct3D 11], CopyResource method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CopyResource method, ID3D11DeviceContext.CopyResource, ID3D11DeviceContext::CopyResource, b389573e-412e-6a72-6e59-396d4bd62341, d3d11/ID3D11DeviceContext::CopyResource, direct3d11.id3d11devicecontext_copyresource
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.CopyResource"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

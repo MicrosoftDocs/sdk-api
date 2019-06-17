@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],GetAlgName method, GetAlgName, GetAlgName method [Security], GetAlgName method [Security],CEnroll object, GetAlgName method [Security],ICEnroll3 interface, GetAlgName method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],GetAlgName method, ICEnroll3.GetAlgName, ICEnroll3::GetAlgName, ICEnroll4 interface [Security],GetAlgName method, ICEnroll4::GetAlgName, security.icenroll4_getalgname, xenroll/ICEnroll3::GetAlgName, xenroll/ICEnroll4::GetAlgName
 ms.topic: method
+f1_keywords: ["xenroll/ICEnroll4.GetAlgName"]
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],IsFirstAssignment property, ITsSbClientConnection.IsFirstAssignment, ITsSbClientConnection.get_IsFirstAssignment, ITsSbClientConnection::IsFirstAssignment, ITsSbClientConnection::get_IsFirstAssignment, IsFirstAssignment property [Remote Desktop Services], IsFirstAssignment property [Remote Desktop Services],ITsSbClientConnection interface, get_IsFirstAssignment, sbtsv/ITsSbClientConnection::IsFirstAssignment, sbtsv/ITsSbClientConnection::get_IsFirstAssignment, termserv.itssbclientconnection_isfirstassignment
 ms.topic: method
+f1_keywords: ["sbtsv/ITsSbClientConnection.IsFirstAssignment"]
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows

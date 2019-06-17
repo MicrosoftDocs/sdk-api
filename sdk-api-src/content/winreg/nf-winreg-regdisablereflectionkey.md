@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RegDisableReflectionKey, RegDisableReflectionKey function, base.regdisablereflectionkey, winreg/RegDisableReflectionKey
 ms.topic: function
+f1_keywords: ["winreg/RegDisableReflectionKey"]
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMConvertHalfToFloat, XMConvertHalfToFloat, XMConvertHalfToFloat method [DirectX Math Support APIs], dxmath.xmconverthalftofloat
 ms.topic: function
+f1_keywords: ["directxpackedvector/XMConvertHalfToFloat"]
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows

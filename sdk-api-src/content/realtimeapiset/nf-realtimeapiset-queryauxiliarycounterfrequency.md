@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
 ms.topic: function
+f1_keywords: ["realtimeapiset/QueryAuxiliaryCounterFrequency"]
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows

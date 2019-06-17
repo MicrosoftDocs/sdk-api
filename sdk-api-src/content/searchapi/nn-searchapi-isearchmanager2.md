@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager2 interface [search],described, search.isearchmanager2, searchapi/ISearchManager2
 ms.topic: interface
+f1_keywords: ["searchapi/ISearchManager2"]
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

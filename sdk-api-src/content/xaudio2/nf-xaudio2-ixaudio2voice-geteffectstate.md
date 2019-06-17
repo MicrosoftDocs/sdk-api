@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetEffectState, GetEffectState method [XAudio2 Audio Mixing APIs], GetEffectState method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetEffectState method, IXAudio2Voice.GetEffectState, IXAudio2Voice::GetEffectState, xaudio2.ixaudio2voice_interface_geteffectstate, xaudio2/IXAudio2Voice::GetEffectState
 ms.topic: method
+f1_keywords: ["xaudio2/IXAudio2Voice.GetEffectState"]
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
 ms.topic: interface
+f1_keywords: ["shobjidl_core/IShellIconOverlayIdentifier"]
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Accessibility], uiauto.uiauto_UiaEventRemoveWindowFunction, uiauto_UiaEventRemoveWindowFunction, uiautomationcoreapi/UiaEventRemoveWindow, winauto.uiauto_UiaEventRemoveWindowFunction
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaEventRemoveWindow"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

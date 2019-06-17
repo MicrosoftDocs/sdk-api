@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ApplySnapshotVhdSet, ApplySnapshotVhdSet function [VHD], vdssys/ApplySnapshotVhdSet, vhd.applysnapshotvhdset, virtdisk/ApplySnapshotVhdSet
 ms.topic: function
+f1_keywords: ["virtdisk/ApplySnapshotVhdSet"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

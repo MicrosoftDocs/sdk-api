@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreatePalette, CreatePalette function [Windows GDI], _win32_CreatePalette, gdi.createpalette, wingdi/CreatePalette
 ms.topic: function
+f1_keywords: ["wingdi/CreatePalette"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

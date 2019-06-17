@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CloseAndResetLogFile, CloseAndResetLogFile function [Files], clfsw32/CloseAndResetLogFile, fs.closeandresetlogfile
 ms.topic: function
+f1_keywords: ["clfsw32/CloseAndResetLogFile"]
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

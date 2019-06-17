@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
 ms.topic: function
+f1_keywords: ["ntsecapi/AuditSetSystemPolicy"]
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

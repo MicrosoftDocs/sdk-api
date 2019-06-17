@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWSDUdpAddress interface,SetSockaddr method, IWSDUdpAddress.SetSockaddr, IWSDUdpAddress::SetSockaddr, SetSockaddr, SetSockaddr method, SetSockaddr method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setsockaddr, wsdbase/IWSDUdpAddress::SetSockaddr
 ms.topic: method
+f1_keywords: ["wsdbase/IWSDUdpAddress.SetSockaddr"]
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixScalingFromVector, XMMatrixScalingFromVector, XMMatrixScalingFromVector method [DirectX Math Support APIs], dxmath.xmmatrixscalingfromvector
 ms.topic: function
+f1_keywords: ["directxmath/XMMatrixScalingFromVector"]
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows

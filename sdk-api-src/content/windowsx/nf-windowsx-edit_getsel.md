@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Edit_GetSel, Edit_GetSel macro [Windows Controls], _win32_Edit_GetSel, _win32_Edit_GetSel_cpp, controls.Edit_GetSel, controls._win32_Edit_GetSel, windowsx/Edit_GetSel
 ms.topic: macro
+f1_keywords: ["windowsx/Edit_GetSel"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

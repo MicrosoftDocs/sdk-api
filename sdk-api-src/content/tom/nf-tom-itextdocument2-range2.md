@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],Range2 method, ITextDocument2.Range2, ITextDocument2::Range2, Range2, Range2 method [Windows Controls], Range2 method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_range2, tom/ITextDocument2::Range2
 ms.topic: method
+f1_keywords: ["tom/ITextDocument2.Range2"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

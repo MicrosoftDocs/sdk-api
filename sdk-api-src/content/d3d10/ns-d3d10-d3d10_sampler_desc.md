@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 3a645765-f6d2-d3f9-5cfb-b48ca43f620b, D3D10_SAMPLER_DESC, D3D10_SAMPLER_DESC structure [Direct3D 10], d3d10/D3D10_SAMPLER_DESC, direct3d10.d3d10_sampler_desc
 ms.topic: struct
+f1_keywords: ["d3d10/D3D10_SAMPLER_DESC"]
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows

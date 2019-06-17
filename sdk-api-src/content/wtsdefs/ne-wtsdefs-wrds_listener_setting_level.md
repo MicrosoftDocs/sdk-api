@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL, PWRDS_LISTENER_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL, WRDS_LISTENER_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_LISTENER_SETTING_LEVEL_1, WRDS_LISTENER_SETTING_LEVEL_INVALID, termserv.wrds_listener_setting_level, wtsdefs/PWRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_1, wtsdefs/WRDS_LISTENER_SETTING_LEVEL_INVALID"
 ms.topic: enum
+f1_keywords: ["wtsdefs/WRDS_LISTENER_SETTING_LEVEL"]
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

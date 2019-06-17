@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow, ISensOnNow interface [SENS], ISensOnNow interface [SENS],described, _zaw_isensonnow, sens.isensonnow, sensevts/ISensOnNow, syncmgr.isensonnow
 ms.topic: interface
+f1_keywords: ["sensevts/ISensOnNow"]
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows

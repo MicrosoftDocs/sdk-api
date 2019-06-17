@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IATSC_VCT.GetRecordProgramNumber, IATSC_VCT::GetRecordProgramNumber, IATSC_VCTGetRecordProgramNumber, atscpsipparser/IATSC_VCT::GetRecordProgramNumber, mstv.iatsc_vct_getrecordprogramnumber
 ms.topic: method
+f1_keywords: ["atscpsipparser/IATSC_VCT.GetRecordProgramNumber"]
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows

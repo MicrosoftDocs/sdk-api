@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], ITextPara2 interface [Windows Controls],described, controls.itextpara2, tom/ITextPara2
 ms.topic: interface
+f1_keywords: ["tom/ITextPara2"]
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows

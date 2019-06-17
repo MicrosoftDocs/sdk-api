@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_CHANGE0, FWPM_PROVIDER_CONTEXT_CHANGE0 structure [Filtering], fwp.fwpm_provider_context_change0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0
 ms.topic: struct
+f1_keywords: ["fwpmtypes/FWPM_PROVIDER_CONTEXT_CHANGE0"]
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows

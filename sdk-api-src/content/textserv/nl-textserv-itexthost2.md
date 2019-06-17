@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 interface [Windows Controls],described, controls.itexthost2, textserv/ITextHost2
 ms.topic: class
+f1_keywords: ["textserv/ITextHost2"]
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows

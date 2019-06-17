@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetDnsRegCredentialsV5, DhcpServerSetDnsRegCredentialsV5 function [DHCP], dhcp.dhcpserversetdnsregcredentialsv5, dhcpsapi/DhcpServerSetDnsRegCredentialsV5
 ms.topic: function
+f1_keywords: ["dhcpsapi/DhcpServerSetDnsRegCredentialsV5"]
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PDD_MORESURFACECAPS, DD_MORESURFACECAPS, DD_MORESURFACECAPS structure [Display Devices], ddrawint/DD_MORESURFACECAPS, ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml, display.dd_moresurfacecaps"
 ms.topic: struct
+f1_keywords: ["ddrawint/DD_MORESURFACECAPS"]
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

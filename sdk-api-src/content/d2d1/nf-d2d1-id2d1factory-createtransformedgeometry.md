@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry methods [Direct2D], ID2D1Factory.CreateTransformedGeometry, ID2D1Factory::CreateTransformedGeometry, d2d1/CreateTransformedGeometry, direct2d.id2d1factory_createtransformedgeometry
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1Factory::CreateTransformedGeometry"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

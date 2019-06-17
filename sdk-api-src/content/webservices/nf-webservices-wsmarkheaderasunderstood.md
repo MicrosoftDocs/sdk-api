@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WsMarkHeaderAsUnderstood, WsMarkHeaderAsUnderstood function [Web Services for Windows], webservices/WsMarkHeaderAsUnderstood, wsw.wsmarkheaderasunderstood
 ms.topic: function
+f1_keywords: ["webservices/WsMarkHeaderAsUnderstood"]
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

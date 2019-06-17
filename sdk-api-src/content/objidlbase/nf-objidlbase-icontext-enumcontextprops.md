@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumContextProps, EnumContextProps method [COM], EnumContextProps method [COM],IContext interface, IContext interface [COM],EnumContextProps method, IContext.EnumContextProps, IContext::EnumContextProps, _com_icontext_enumcontextprops, com.icontext_enumcontextprops, objidlbase/IContext::EnumContextProps
 ms.topic: method
+f1_keywords: ["objidlbase/IContext.EnumContextProps"]
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

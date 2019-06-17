@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetApplicationRecoveryCallback, GetApplicationRecoveryCallback function [Recovery], base.getapplicationrecoverycallback, recovery.getapplicationrecoverycallback, winbase/GetApplicationRecoveryCallback
 ms.topic: function
+f1_keywords: ["winbase/GetApplicationRecoveryCallback"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

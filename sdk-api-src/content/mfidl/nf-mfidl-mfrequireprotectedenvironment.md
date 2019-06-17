@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5129d8c0-4049-4b90-ade8-b4cd32277664, MFRequireProtectedEnvironment, MFRequireProtectedEnvironment function [Media Foundation], mf.mfrequireprotectedenvironment, mfidl/MFRequireProtectedEnvironment
 ms.topic: function
+f1_keywords: ["mfidl/MFRequireProtectedEnvironment"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

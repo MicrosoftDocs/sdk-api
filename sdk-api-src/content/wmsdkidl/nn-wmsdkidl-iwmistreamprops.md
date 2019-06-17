@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
 ms.topic: interface
+f1_keywords: ["wmsdkidl/IWMIStreamProps"]
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows

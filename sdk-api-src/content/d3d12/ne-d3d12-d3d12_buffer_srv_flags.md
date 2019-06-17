@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D12_BUFFER_SRV_FLAGS, D3D12_BUFFER_SRV_FLAGS enumeration, D3D12_BUFFER_SRV_FLAG_NONE, D3D12_BUFFER_SRV_FLAG_RAW, d3d12/D3D12_BUFFER_SRV_FLAGS, d3d12/D3D12_BUFFER_SRV_FLAG_NONE, d3d12/D3D12_BUFFER_SRV_FLAG_RAW, direct3d12.d3d12_buffer_srv_flags
 ms.topic: enum
+f1_keywords: ["d3d12/D3D12_BUFFER_SRV_FLAGS"]
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

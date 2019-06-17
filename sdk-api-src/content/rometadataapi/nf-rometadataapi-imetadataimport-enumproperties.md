@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EnumProperties, EnumProperties method [Windows Runtime], EnumProperties method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumProperties method, IMetaDataImport.EnumProperties, IMetaDataImport::EnumProperties, rometadataapi/IMetaDataImport::EnumProperties, winrt.imetadataimport_enumproperties
 ms.topic: method
+f1_keywords: ["rometadataapi/IMetaDataImport.EnumProperties"]
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows

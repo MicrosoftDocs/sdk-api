@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderSetUserArray, ICredentialProviderSetUserArray interface [Windows Shell], ICredentialProviderSetUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderSetUserArray, shell.ICredentialProviderSetUserArray
 ms.topic: interface
+f1_keywords: ["credentialprovider/ICredentialProviderSetUserArray"]
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 01/30/19
 ms.keywords: LPFN_RIODEREGISTERBUFFER
 ms.topic: language-reference
+f1_keywords: ["mswsock/LPFN_RIODEREGISTERBUFFER"]
 targetos: Windows
 product: Windows
 req.assembly: 

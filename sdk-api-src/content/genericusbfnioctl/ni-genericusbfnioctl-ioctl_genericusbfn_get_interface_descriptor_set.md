@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET control, IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_genericusbfn_get_interface_descriptor_set, genericusbfnioctl/IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET
 ms.topic: ioctl
+f1_keywords: ["genericusbfnioctl/IOCTL_GENERICUSBFN_GET_INTERFACE_DESCRIPTOR_SET"]
 req.header: genericusbfnioctl.h
 req.include-header: GenericUsbFnIoctl.h
 req.target-type: Windows

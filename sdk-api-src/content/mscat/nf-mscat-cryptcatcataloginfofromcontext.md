@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptCATCatalogInfoFromContext, CryptCATCatalogInfoFromContext function [Security], mscat/CryptCATCatalogInfoFromContext, security.cryptcatcataloginfofromcontext
 ms.topic: function
+f1_keywords: ["mscat/CryptCATCatalogInfoFromContext"]
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

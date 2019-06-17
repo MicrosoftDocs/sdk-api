@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
 ms.topic: function
+f1_keywords: ["rpcdce/RpcEpRegister"]
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows

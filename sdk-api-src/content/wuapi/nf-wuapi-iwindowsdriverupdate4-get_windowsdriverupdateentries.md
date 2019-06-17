@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate4 interface [Windows Update Agent],WindowsDriverUpdateEntries property, IWindowsDriverUpdate4.WindowsDriverUpdateEntries, IWindowsDriverUpdate4.get_WindowsDriverUpdateEntries, IWindowsDriverUpdate4::WindowsDriverUpdateEntries, IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries, WindowsDriverUpdateEntries property [Windows Update Agent], WindowsDriverUpdateEntries property [Windows Update Agent],IWindowsDriverUpdate4 interface, get_WindowsDriverUpdateEntries, wua.iwindowsdriverupdate4_windowsdriverupdateentries, wuapi/IWindowsDriverUpdate4::WindowsDriverUpdateEntries, wuapi/IWindowsDriverUpdate4::get_WindowsDriverUpdateEntries
 ms.topic: method
+f1_keywords: ["wuapi/IWindowsDriverUpdate4.WindowsDriverUpdateEntries"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

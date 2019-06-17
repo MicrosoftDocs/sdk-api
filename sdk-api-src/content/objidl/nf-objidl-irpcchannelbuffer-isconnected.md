@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRpcChannelBuffer interface [COM],IsConnected method, IRpcChannelBuffer.IsConnected, IRpcChannelBuffer::IsConnected, IsConnected, IsConnected method [COM], IsConnected method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_isconnected, com.irpcchannelbuffer_isconnected, objidlbase/IRpcChannelBuffer::IsConnected
 ms.topic: method
+f1_keywords: ["objidl/IRpcChannelBuffer.IsConnected"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

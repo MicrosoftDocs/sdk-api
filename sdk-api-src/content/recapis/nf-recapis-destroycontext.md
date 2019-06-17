@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DestroyContext, DestroyContext function [Tablet PC], b0d90728-6934-4727-b553-c6058acfa0ec, recapis/DestroyContext, tablet.destroycontext
 ms.topic: function
+f1_keywords: ["recapis/DestroyContext"]
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

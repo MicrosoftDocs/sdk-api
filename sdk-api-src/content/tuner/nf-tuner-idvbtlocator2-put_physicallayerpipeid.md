@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator2 interface [Microsoft TV Technologies],PhysicalLayerPipeId property, IDVBTLocator2.PhysicalLayerPipeId, IDVBTLocator2.put_PhysicalLayerPipeId, IDVBTLocator2::PhysicalLayerPipeId, IDVBTLocator2::get_PhysicalLayerPipeId, IDVBTLocator2::put_PhysicalLayerPipeId, PhysicalLayerPipeId property [Microsoft TV Technologies], PhysicalLayerPipeId property [Microsoft TV Technologies],IDVBTLocator2 interface, mstv.idvbtlocator2_physicallayerpipeid, put_PhysicalLayerPipeId, tuner/IDVBTLocator2::PhysicalLayerPipeId, tuner/IDVBTLocator2::get_PhysicalLayerPipeId, tuner/IDVBTLocator2::put_PhysicalLayerPipeId
 ms.topic: method
+f1_keywords: ["tuner/IDVBTLocator2.PhysicalLayerPipeId"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

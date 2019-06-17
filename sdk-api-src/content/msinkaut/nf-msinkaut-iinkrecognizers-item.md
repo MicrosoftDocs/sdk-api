@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 65c169f0-fe61-4609-809c-52c53cfcba7f, IInkRecognizers interface [Tablet PC],Item method, IInkRecognizers.Item, IInkRecognizers::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognizers interface, msinkaut/IInkRecognizers::Item, tablet.inkrecognizers_item
 ms.topic: method
+f1_keywords: ["msinkaut/IInkRecognizers.Item"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

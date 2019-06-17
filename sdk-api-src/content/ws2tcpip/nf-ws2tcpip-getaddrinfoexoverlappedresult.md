@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult function [Winsock], winsock.getaddrinfoexoverlappedresult, ws2tcpip/GetAddrInfoExOverlappedResult
 ms.topic: function
+f1_keywords: ["ws2tcpip/GetAddrInfoExOverlappedResult"]
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows

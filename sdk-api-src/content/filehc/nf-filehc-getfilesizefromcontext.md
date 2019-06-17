@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFileSizeFromContext, GetFileSizeFromContext function [Windows API], filehc/GetFileSizeFromContext, winprog._getfilesizefromcontext
 ms.topic: function
+f1_keywords: ["filehc/GetFileSizeFromContext"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

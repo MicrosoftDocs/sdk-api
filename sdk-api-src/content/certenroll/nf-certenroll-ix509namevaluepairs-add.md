@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509NameValuePairs interface, IX509NameValuePairs interface [Security],Add method, IX509NameValuePairs.Add, IX509NameValuePairs::Add, certenroll/IX509NameValuePairs::Add, security.ix509namevaluepairs_add_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509NameValuePairs.Add"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

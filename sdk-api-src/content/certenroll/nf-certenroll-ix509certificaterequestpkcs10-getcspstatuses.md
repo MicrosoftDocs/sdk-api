@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCspStatuses, GetCspStatuses method [Security], GetCspStatuses method [Security],IX509CertificateRequestPkcs10 interface, IX509CertificateRequestPkcs10 interface [Security],GetCspStatuses method, IX509CertificateRequestPkcs10.GetCspStatuses, IX509CertificateRequestPkcs10::GetCspStatuses, XCN_AT_KEYEXCHANGE, XCN_AT_NONE, XCN_AT_SIGNATURE, certenroll/IX509CertificateRequestPkcs10::GetCspStatuses, security.ix509certificaterequestpkcs10_getcspstatuses_method
 ms.topic: method
+f1_keywords: ["certenroll/IX509CertificateRequestPkcs10.GetCspStatuses"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

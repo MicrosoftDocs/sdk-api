@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AvRtLeaveThreadOrderingGroup, AvRtLeaveThreadOrderingGroup function, avrt/AvRtLeaveThreadOrderingGroup, base.avrtleavethreadorderinggroup
 ms.topic: function
+f1_keywords: ["avrt/AvRtLeaveThreadOrderingGroup"]
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows

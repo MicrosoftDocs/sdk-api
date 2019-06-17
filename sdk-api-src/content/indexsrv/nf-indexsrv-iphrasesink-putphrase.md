@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink interface [search],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [search], PutPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutPhrase, search.iphrasesink_putphrase
 ms.topic: method
+f1_keywords: ["indexsrv/IPhraseSink.PutPhrase"]
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows

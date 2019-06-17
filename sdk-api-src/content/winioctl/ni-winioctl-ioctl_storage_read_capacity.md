@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code, base.ioctl_storage_read_capacity, winioctl/IOCTL_STORAGE_READ_CAPACITY
 ms.topic: ioctl
+f1_keywords: ["winioctl/IOCTL_STORAGE_READ_CAPACITY"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

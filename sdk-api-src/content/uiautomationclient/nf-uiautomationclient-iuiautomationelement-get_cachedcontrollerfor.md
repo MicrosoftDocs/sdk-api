@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CachedControllerFor property [Windows Accessibility], CachedControllerFor property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedControllerFor property, IUIAutomationElement.CachedControllerFor, IUIAutomationElement.get_CachedControllerFor, IUIAutomationElement::CachedControllerFor, IUIAutomationElement::get_CachedControllerFor, get_CachedControllerFor, uiauto.uiauto_IUIAutomationElement_CachedControllerFor, uiauto_IUIAutomationElement_CachedControllerFor, uiautomationclient/IUIAutomationElement::CachedControllerFor, uiautomationclient/IUIAutomationElement::get_CachedControllerFor, winauto.uiauto_IUIAutomationElement_CachedControllerFor
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationElement.CachedControllerFor"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

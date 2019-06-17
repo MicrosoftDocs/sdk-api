@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMStoreShort4, XMStoreShort4, XMStoreShort4 method [DirectX Math Support APIs], dxmath.xmstoreshort4
 ms.topic: function
+f1_keywords: ["directxpackedvector/XMStoreShort4"]
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows

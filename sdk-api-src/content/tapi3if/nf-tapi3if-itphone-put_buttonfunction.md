@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonFunction method, ITPhone.put_ButtonFunction, ITPhone::put_ButtonFunction, _tapi3_itphone_put_buttonfunction, put_ButtonFunction, put_ButtonFunction method [TAPI 2.2], put_ButtonFunction method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttonfunction, tapi3if/ITPhone::put_ButtonFunction
 ms.topic: method
+f1_keywords: ["tapi3if/ITPhone.put_ButtonFunction"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

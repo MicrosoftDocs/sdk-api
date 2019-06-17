@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AuthorityKeyIdentifier property [Security], AuthorityKeyIdentifier property [Security],IX509ExtensionAuthorityKeyIdentifier interface, IX509ExtensionAuthorityKeyIdentifier interface [Security],AuthorityKeyIdentifier property, IX509ExtensionAuthorityKeyIdentifier.AuthorityKeyIdentifier, IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier, IX509ExtensionAuthorityKeyIdentifier::AuthorityKeyIdentifier, IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier, certenroll/IX509ExtensionAuthorityKeyIdentifier::AuthorityKeyIdentifier, certenroll/IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier, get_AuthorityKeyIdentifier, security.ix509extensionauthoritykeyidentifier_authoritykeyidentifier_property
 ms.topic: method
+f1_keywords: ["certenroll/IX509ExtensionAuthorityKeyIdentifier.AuthorityKeyIdentifier"]
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows

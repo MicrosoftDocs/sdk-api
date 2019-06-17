@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RpcServerSubscribeForNotification, RpcServerSubscribeForNotification function [RPC], rpc.rpcserversubscribefornotification, rpcasync/RpcServerSubscribeForNotification
 ms.topic: function
+f1_keywords: ["rpcasync/RpcServerSubscribeForNotification"]
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

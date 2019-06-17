@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],Rect class, Rect class [GDI+],Offset method, Rect.Offset, Rect.Offset(IN INT,IN INT), Rect.Offset(INT,INT), Rect::Offset, Rect::Offset(IN INT,IN INT), _gdiplus_CLASS_Rect_Offset_dx_dy_, gdiplus._gdiplus_CLASS_Rect_Offset_dx_dy_
 ms.topic: method
+f1_keywords: ["gdiplustypes/Rect.Offset"]
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

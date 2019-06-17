@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_StartAddressOfPreviousSession method, IDiscFormat2Data.get_StartAddressOfPreviousSession, IDiscFormat2Data::get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession, get_StartAddressOfPreviousSession method [IMAPI], get_StartAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_startaddressofprevioussession, imapi2/IDiscFormat2Data::get_StartAddressOfPreviousSession
 ms.topic: method
+f1_keywords: ["imapi2/IDiscFormat2Data.get_StartAddressOfPreviousSession"]
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_TRANSACTION_ACTIVE, FSCTL_TXFS_TRANSACTION_ACTIVE control, FSCTL_TXFS_TRANSACTION_ACTIVE control code [Files], fs.fsctl_txfs_transaction_active, winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

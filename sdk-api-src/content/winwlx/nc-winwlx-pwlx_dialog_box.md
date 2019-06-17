@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX, PWLX_DIALOG_BOX callback, WlxDialogBox, WlxDialogBox callback function [Security], _gina_wlxdialogbox, security.wlxdialogbox, winwlx/WlxDialogBox
 ms.topic: callback
+f1_keywords: ["winwlx/WlxDialogBox"]
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

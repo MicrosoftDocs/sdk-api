@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Value, IOCSPProperty.put_Value, IOCSPProperty::Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, put_Value, security.iocspproperty_value_method
 ms.topic: method
+f1_keywords: ["certadm/IOCSPProperty.Value"]
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows

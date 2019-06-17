@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SimilarityFileId, SimilarityFileId structure [Remote Differential Compression], fs.similarityfileid, msrdc/SimilarityFileId, rdc.similarityfileid
 ms.topic: struct
+f1_keywords: ["msrdc/SimilarityFileId"]
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows

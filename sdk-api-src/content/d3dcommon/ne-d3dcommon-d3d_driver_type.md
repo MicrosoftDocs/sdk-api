@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5f2e6561-a389-e8e8-0b80-96db66f58139, D3D_DRIVER_TYPE, D3D_DRIVER_TYPE enumeration [Direct3D 11], D3D_DRIVER_TYPE_HARDWARE, D3D_DRIVER_TYPE_NULL, D3D_DRIVER_TYPE_REFERENCE, D3D_DRIVER_TYPE_SOFTWARE, D3D_DRIVER_TYPE_UNKNOWN, D3D_DRIVER_TYPE_WARP, d3dcommon/D3D_DRIVER_TYPE, d3dcommon/D3D_DRIVER_TYPE_HARDWARE, d3dcommon/D3D_DRIVER_TYPE_NULL, d3dcommon/D3D_DRIVER_TYPE_REFERENCE, d3dcommon/D3D_DRIVER_TYPE_SOFTWARE, d3dcommon/D3D_DRIVER_TYPE_UNKNOWN, d3dcommon/D3D_DRIVER_TYPE_WARP, direct3d11.d3d_driver_type
 ms.topic: enum
+f1_keywords: ["d3dcommon/D3D_DRIVER_TYPE"]
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
 ms.topic: function
+f1_keywords: ["mswsock/GetAcceptExSockaddrs"]
 req.header: mswsock.h
 req.include-header: Mswsock.h
 req.target-type: Windows

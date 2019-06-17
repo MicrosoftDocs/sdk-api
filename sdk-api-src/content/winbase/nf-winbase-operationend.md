@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: OperationEnd, OperationEnd function [Operation Recorder], oprec.operationend, winbase/OperationEnd
 ms.topic: function
+f1_keywords: ["winbase/OperationEnd"]
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

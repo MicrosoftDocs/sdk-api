@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFWrapMediaType, MFWrapMediaType function [Media Foundation], a3dd74bc-1f1c-40b9-a43e-d45ff621248f, mf.mfwrapmediatype, mfapi/MFWrapMediaType
 ms.topic: function
+f1_keywords: ["mfapi/MFWrapMediaType"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

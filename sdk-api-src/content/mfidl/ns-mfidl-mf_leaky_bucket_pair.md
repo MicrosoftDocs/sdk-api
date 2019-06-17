@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MF_LEAKY_BUCKET_PAIR, MF_LEAKY_BUCKET_PAIR structure [Media Foundation], aa95a8f0-2f4c-4d7e-81c3-8a14a6ffa54e, mf.mf_leaky_bucket_pair, mfidl/MF_LEAKY_BUCKET_PAIR
 ms.topic: struct
+f1_keywords: ["mfidl/MF_LEAKY_BUCKET_PAIR"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

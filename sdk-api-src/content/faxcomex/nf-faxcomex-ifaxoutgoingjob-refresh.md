@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Refresh method, IFaxOutgoingJob.Refresh, IFaxOutgoingJob::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.refresh, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_refresh_cpp, fax._mfax_faxoutgoingjob_refresh, faxcomex/IFaxOutgoingJob::Refresh
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxOutgoingJob.Refresh"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

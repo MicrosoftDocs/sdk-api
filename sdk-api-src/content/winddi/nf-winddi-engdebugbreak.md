@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngDebugBreak, EngDebugBreak function [Display Devices], display.engdebugbreak, gdifncs_d6a74791-c6aa-4bf0-9f8b-8a52587a660f.xml, winddi/EngDebugBreak
 ms.topic: function
+f1_keywords: ["winddi/EngDebugBreak"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSubcomponentCount, GetSubcomponentCount method [Windows Accessibility], GetSubcomponentCount method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetSubcomponentCount method, IVersionInfo.GetSubcomponentCount, IVersionInfo::GetSubcomponentCount, _msaa_IVersionInfo_GetSubcomponentCount, msaa.iversioninfo_iversioninfo__getsubcomponentcount, msaatext/IVersionInfo::GetSubcomponentCount, winauto.iversioninfo_iversioninfo__getsubcomponentcount
 ms.topic: method
+f1_keywords: ["msaatext/IVersionInfo.GetSubcomponentCount"]
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
 ms.topic: function
+f1_keywords: ["shlwapi/IsOS"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

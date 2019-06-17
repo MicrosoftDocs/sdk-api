@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Button_SetStyle, Button_SetStyle macro [Windows Controls], _win32_Button_SetStyle, _win32_Button_SetStyle_cpp, controls.Button_SetStyle, controls._win32_Button_SetStyle, windowsx/Button_SetStyle
 ms.topic: macro
+f1_keywords: ["windowsx/Button_SetStyle"]
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows

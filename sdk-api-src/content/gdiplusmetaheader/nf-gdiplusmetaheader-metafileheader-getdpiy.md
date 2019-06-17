@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetDpiY, GetDpiY method [GDI+], GetDpiY method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiY method, MetafileHeader.GetDpiY, MetafileHeader::GetDpiY, _gdiplus_CLASS_MetafileHeader_GetDpiY_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiY_
 ms.topic: method
+f1_keywords: ["gdiplusmetaheader/MetafileHeader.GetDpiY"]
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

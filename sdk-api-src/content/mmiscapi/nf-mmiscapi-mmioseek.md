@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SEEK_CUR, SEEK_END, SEEK_SET, _win32_mmioSeek, mmioSeek, mmioSeek function [Windows Multimedia], mmsystem/mmioSeek, multimedia.mmioseek
 ms.topic: function
+f1_keywords: ["mmiscapi/mmioSeek"]
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows

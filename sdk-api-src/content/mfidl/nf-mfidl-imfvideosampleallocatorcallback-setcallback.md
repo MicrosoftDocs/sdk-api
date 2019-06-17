@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorCallback interface [Media Foundation],SetCallback method, IMFVideoSampleAllocatorCallback.SetCallback, IMFVideoSampleAllocatorCallback::SetCallback, SetCallback, SetCallback method [Media Foundation], SetCallback method [Media Foundation],IMFVideoSampleAllocatorCallback interface, mf.imfvideosampleallocatorcallback_setcallback, mfidl/IMFVideoSampleAllocatorCallback::SetCallback
 ms.topic: method
+f1_keywords: ["mfidl/IMFVideoSampleAllocatorCallback.SetCallback"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: INATExternalIPAddressCallback, INATExternalIPAddressCallback interface [ICS/ICF], INATExternalIPAddressCallback interface [ICS/ICF],described, _ics_inatexternalipaddresscallback, ics.inatexternalipaddresscallback, natupnp/INATExternalIPAddressCallback
 ms.topic: interface
+f1_keywords: ["natupnp/INATExternalIPAddressCallback"]
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows

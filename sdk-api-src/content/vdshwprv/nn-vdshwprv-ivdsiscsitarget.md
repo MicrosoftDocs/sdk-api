@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
 ms.topic: interface
+f1_keywords: ["vdshwprv/IVdsIscsiTarget"]
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

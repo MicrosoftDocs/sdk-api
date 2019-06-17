@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],NumberOfMissedRuns property, IRegisteredTask.NumberOfMissedRuns, IRegisteredTask.get_NumberOfMissedRuns, IRegisteredTask::NumberOfMissedRuns, IRegisteredTask::get_NumberOfMissedRuns, NumberOfMissedRuns property [Task Scheduler], NumberOfMissedRuns property [Task Scheduler],IRegisteredTask interface, get_NumberOfMissedRuns, taskschd.iregisteredtask_numberofmissedruns, taskschd/IRegisteredTask::NumberOfMissedRuns, taskschd/IRegisteredTask::get_NumberOfMissedRuns
 ms.topic: method
+f1_keywords: ["taskschd/IRegisteredTask.NumberOfMissedRuns"]
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows

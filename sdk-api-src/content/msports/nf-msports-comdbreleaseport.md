@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ComDBReleasePort, ComDBReleasePort function [Serial Ports], comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml, msports/ComDBReleasePort, serports.comdbreleaseport
 ms.topic: function
+f1_keywords: ["msports/ComDBReleasePort"]
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop

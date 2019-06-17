@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CACHE_READ_CALLBACK, CACHE_READ_CALLBACK callback, CACHE_READ_CALLBACK callback function [Windows API], filehc/CACHE_READ_CALLBACK, winprog.fcache_read_callback
 ms.topic: callback
+f1_keywords: ["filehc/CACHE_READ_CALLBACK"]
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows

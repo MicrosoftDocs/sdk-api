@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NPGetConnectionPerformance, NPGetConnectionPerformance function [Security], _mnp_npgetconnectionperformance, npapi/NPGetConnectionPerformance, security.npgetconnectionperformance
 ms.topic: function
+f1_keywords: ["npapi/NPGetConnectionPerformance"]
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows

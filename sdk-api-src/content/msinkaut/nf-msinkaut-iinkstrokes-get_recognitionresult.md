@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 5d6e7147-b312-4989-8d8f-88cb2221f6f0, IInkStrokes interface [Tablet PC],RecognitionResult property, IInkStrokes.RecognitionResult, IInkStrokes.get_RecognitionResult, IInkStrokes::RecognitionResult, IInkStrokes::get_RecognitionResult, InkStrokes.get_RecognitionResult, RecognitionResult property [Tablet PC], RecognitionResult property [Tablet PC],IInkStrokes interface, get_RecognitionResult, msinkaut/IInkStrokes::RecognitionResult, msinkaut/IInkStrokes::get_RecognitionResult, put_RecognitionResult, tablet.inkstrokes_recognitionresult
 ms.topic: method
+f1_keywords: ["msinkaut/IInkStrokes.RecognitionResult"]
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows

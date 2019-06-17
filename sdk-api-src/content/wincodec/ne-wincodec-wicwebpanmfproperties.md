@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICWebpAnmfFrameDuration, WICWebpAnmfProperties, WICWebpAnmfProperties enumeration [Windows Imaging Component], wic.wicwebpanmfproperties, wincodec/WICWebpAnmfFrameDuration, wincodec/WICWebpAnmfProperties
 ms.topic: enum
+f1_keywords: ["wincodec/WICWebpAnmfProperties"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

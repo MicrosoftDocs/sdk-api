@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ImageList_Create, ImageList_Create function [Windows Controls], _win32_ImageList_Create, _win32_ImageList_Create_cpp, commctrl/ImageList_Create, controls.ImageList_Create, controls._win32_ImageList_Create
 ms.topic: function
+f1_keywords: ["commctrl/ImageList_Create"]
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

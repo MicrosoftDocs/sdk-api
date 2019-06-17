@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateCustomFontCollection, CreateCustomFontCollection method [Direct Write], CreateCustomFontCollection method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomFontCollection method, IDWriteFactory.CreateCustomFontCollection, IDWriteFactory::CreateCustomFontCollection, directwrite.IDWriteFactory_CreateCustomFontCollection, dwrite/IDWriteFactory::CreateCustomFontCollection
 ms.topic: method
+f1_keywords: ["dwrite/IDWriteFactory.CreateCustomFontCollection"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

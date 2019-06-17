@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSMAN_RECEIVE_DATA_RESULT, WSMAN_RECEIVE_DATA_RESULT structure [Windows Remote Management], winrm.wsman_receive_data_result, wsman/WSMAN_RECEIVE_DATA_RESULT
 ms.topic: struct
+f1_keywords: ["wsman/WSMAN_RECEIVE_DATA_RESULT"]
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DPA_SaveStream, DPA_SaveStream function [Windows Controls], _win32_DPA_SaveStream, _win32_DPA_SaveStream_cpp, controls.DPA_SaveStream, controls._win32_DPA_SaveStream, dpa_dsa/DPA_SaveStream
 ms.topic: function
+f1_keywords: ["dpa_dsa/DPA_SaveStream"]
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows

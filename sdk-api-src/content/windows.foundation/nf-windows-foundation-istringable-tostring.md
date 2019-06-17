@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IStringable interface [Windows Runtime],ToString method, IStringable.IStringable, IStringable.ToString, IStringable::IStringable, IStringable::ToString, ToString, ToString method [Windows Runtime], ToString method [Windows Runtime],IStringable interface, windows/IStringable::ToString, winrt.istringable_tostring
 ms.topic: method
+f1_keywords: ["windows.foundation/IStringable.ToString"]
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows

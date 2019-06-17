@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ReadFile, ReadFile function [Files], _win32_readfile, base.readfile, fileapi/ReadFile, fs.readfile, winbase/ReadFile
 ms.topic: function
+f1_keywords: ["fileapi/ReadFile"]
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

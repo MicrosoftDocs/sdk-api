@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetAbortProc, SetAbortProc function [Windows GDI], _win32_SetAbortProc, gdi.setabortproc, wingdi/SetAbortProc
 ms.topic: function
+f1_keywords: ["wingdi/SetAbortProc"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

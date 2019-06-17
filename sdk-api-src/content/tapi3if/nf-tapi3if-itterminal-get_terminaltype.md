@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITTerminal interface [TAPI 2.2],get_TerminalType method, ITTerminal.get_TerminalType, ITTerminal::get_TerminalType, _tapi3_itterminal_get_terminaltype, get_TerminalType, get_TerminalType method [TAPI 2.2], get_TerminalType method [TAPI 2.2],ITTerminal interface, tapi3.itterminal_get_terminaltype, tapi3if/ITTerminal::get_TerminalType
 ms.topic: method
+f1_keywords: ["tapi3if/ITTerminal.get_TerminalType"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

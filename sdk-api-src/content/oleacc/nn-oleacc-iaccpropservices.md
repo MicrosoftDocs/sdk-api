@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices, IAccPropServices interface [Windows Accessibility], IAccPropServices interface [Windows Accessibility],described, msaa.iaccpropservices, oleacc/IAccPropServices, winauto.iaccpropservices
 ms.topic: interface
+f1_keywords: ["oleacc/IAccPropServices"]
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows

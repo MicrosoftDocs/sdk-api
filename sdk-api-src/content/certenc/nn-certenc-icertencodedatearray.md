@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeDateArray, ICertEncodeDateArray interface [Security], ICertEncodeDateArray interface [Security],described, _certsrv_icertencodedatearray, certenc/ICertEncodeDateArray, security.icertencodedatearray
 ms.topic: interface
+f1_keywords: ["certenc/ICertEncodeDateArray"]
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows

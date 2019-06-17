@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignatureMethod method, IOpcSigningOptions.GetSignatureMethod, IOpcSigningOptions::GetSignatureMethod, msopc/IOpcSigningOptions::GetSignatureMethod, opc.iopcsigningoptions_getsignaturemethod
 ms.topic: method
+f1_keywords: ["msopc/IOpcSigningOptions.GetSignatureMethod"]
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows

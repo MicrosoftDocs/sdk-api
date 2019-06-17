@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WICSectionAccessLevel, WICSectionAccessLevel enumeration [Windows Imaging Component], WICSectionAccessLevelRead, WICSectionAccessLevelReadWrite, _wic_codec_wicsectionaccesslevel, wic._wic_codec_wicsectionaccesslevel, wincodec/WICSectionAccessLevel, wincodec/WICSectionAccessLevelRead, wincodec/WICSectionAccessLevelReadWrite
 ms.topic: enum
+f1_keywords: ["wincodec/WICSectionAccessLevel"]
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows

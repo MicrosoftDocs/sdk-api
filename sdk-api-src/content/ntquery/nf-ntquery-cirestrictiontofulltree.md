@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CIRestrictionToFullTree, CIRestrictionToFullTree function [Indexing Service], _idxs_CIRestrictionToFullTree, indexsrv.cirestrictiontofulltree, ntquery/CIRestrictionToFullTree
 ms.topic: function
+f1_keywords: ["ntquery/CIRestrictionToFullTree"]
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows

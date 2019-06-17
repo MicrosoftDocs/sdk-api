@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XPS_MATRIX, XPS_MATRIX structure [XPS Documents and Packaging], xps.xps_matrix, xpsobjectmodel/XPS_MATRIX
 ms.topic: struct
+f1_keywords: ["xpsobjectmodel/XPS_MATRIX"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

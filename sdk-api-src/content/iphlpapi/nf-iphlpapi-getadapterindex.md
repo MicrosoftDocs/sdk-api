@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetAdapterIndex, GetAdapterIndex function [IP Helper], _iphlp_getadapterindex, iphlp.getadapterindex, iphlpapi/GetAdapterIndex
 ms.topic: function
+f1_keywords: ["iphlpapi/GetAdapterIndex"]
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

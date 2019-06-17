@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: XAPOAlloc, XAPOAlloc macro [XAudio2 Audio Mixing APIs], xapo/XAPOAlloc, xaudio2.xapoalloc
 ms.topic: macro
+f1_keywords: ["xapo/XAPOAlloc"]
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager interface [Windows Deployment Services],NotifyWdsTransportServices method, IWdsTransportConfigurationManager.NotifyWdsTransportServices, IWdsTransportConfigurationManager::NotifyWdsTransportServices, NotifyWdsTransportServices, NotifyWdsTransportServices method [Windows Deployment Services], NotifyWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, wds.iwdstransportconfigurationmanager_notifywdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::NotifyWdsTransportServices
 ms.topic: method
+f1_keywords: ["wdstptmgmt/IWdsTransportConfigurationManager.NotifyWdsTransportServices"]
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows

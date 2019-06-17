@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMultiTypeInfoCount, GetMultiTypeInfoCount method [COM], GetMultiTypeInfoCount method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetMultiTypeInfoCount method, IProvideMultipleClassInfo.GetMultiTypeInfoCount, IProvideMultipleClassInfo::GetMultiTypeInfoCount, _com_iprovidemultipleclassinfo_getmultitypeinfocount, com.iprovidemultipleclassinfo_getmultitypeinfocount, ocidl/IProvideMultipleClassInfo::GetMultiTypeInfoCount
 ms.topic: method
+f1_keywords: ["ocidl/IProvideMultipleClassInfo.GetMultiTypeInfoCount"]
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows

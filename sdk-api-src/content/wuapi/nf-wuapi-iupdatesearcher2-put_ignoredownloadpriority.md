@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher2 interface [Windows Update Agent],IgnoreDownloadPriority property, IUpdateSearcher2.IgnoreDownloadPriority, IUpdateSearcher2.put_IgnoreDownloadPriority, IUpdateSearcher2::IgnoreDownloadPriority, IUpdateSearcher2::get_IgnoreDownloadPriority, IUpdateSearcher2::put_IgnoreDownloadPriority, IgnoreDownloadPriority property [Windows Update Agent], IgnoreDownloadPriority property [Windows Update Agent],IUpdateSearcher2 interface, put_IgnoreDownloadPriority, wua.iupdatesearcher2_ignoredownloadpriority, wuapi/IUpdateSearcher2::IgnoreDownloadPriority, wuapi/IUpdateSearcher2::get_IgnoreDownloadPriority, wuapi/IUpdateSearcher2::put_IgnoreDownloadPriority
 ms.topic: method
+f1_keywords: ["wuapi/IUpdateSearcher2.IgnoreDownloadPriority"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

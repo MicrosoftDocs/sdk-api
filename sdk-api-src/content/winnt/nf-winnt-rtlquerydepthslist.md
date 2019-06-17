@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList
 ms.topic: function
+f1_keywords: ["winnt/RtlQueryDepthSList"]
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSSTP_CERT_INFO, SSTP_CERT_INFO, SSTP_CERT_INFO structure [RAS], mprapi/SSTP_CERT_INFO, rras.sstp_cert_info"
 ms.topic: struct
+f1_keywords: ["mprapi/SSTP_CERT_INFO"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

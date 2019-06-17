@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: D3D11_ENCRYPTED_BLOCK_INFO, D3D11_ENCRYPTED_BLOCK_INFO structure [Media Foundation], d3d11/D3D11_ENCRYPTED_BLOCK_INFO, mf.d3d11_encrypted_block_info
 ms.topic: struct
+f1_keywords: ["d3d11/D3D11_ENCRYPTED_BLOCK_INFO"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

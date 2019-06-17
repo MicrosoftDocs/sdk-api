@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b26-9385-4df7bf19c2d8, mf.mfstartup, mfapi/MFStartup
 ms.topic: function
+f1_keywords: ["mfapi/MFStartup"]
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

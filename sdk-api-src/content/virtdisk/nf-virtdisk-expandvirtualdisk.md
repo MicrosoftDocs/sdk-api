@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ExpandVirtualDisk, ExpandVirtualDisk function [VHD], vdssys/ExpandVirtualDisk, vhd.expandvirtualdisk, virtdisk/ExpandVirtualDisk
 ms.topic: function
+f1_keywords: ["virtdisk/ExpandVirtualDisk"]
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows

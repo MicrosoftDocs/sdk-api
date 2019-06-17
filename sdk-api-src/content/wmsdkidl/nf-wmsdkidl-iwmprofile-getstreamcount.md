@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [windows Media Format], GetStreamCount method [windows Media Format],IWMProfile interface, GetStreamCount method [windows Media Format],IWMProfile2 interface, GetStreamCount method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetStreamCount method, IWMProfile.GetStreamCount, IWMProfile2 interface [windows Media Format],GetStreamCount method, IWMProfile2::GetStreamCount, IWMProfile3 interface [windows Media Format],GetStreamCount method, IWMProfile3::GetStreamCount, IWMProfile::GetStreamCount, IWMProfileGetStreamCount, wmformat.iwmprofile_getstreamcount, wmsdkidl/IWMProfile2::GetStreamCount, wmsdkidl/IWMProfile3::GetStreamCount, wmsdkidl/IWMProfile::GetStreamCount
 ms.topic: method
+f1_keywords: ["wmsdkidl/IWMProfile.GetStreamCount"]
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

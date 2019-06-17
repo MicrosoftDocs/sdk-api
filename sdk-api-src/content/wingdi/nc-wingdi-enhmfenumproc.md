@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ENHMFENUMPROC, ENHMFENUMPROC callback, ENHMFENUMPROC callback function [Windows GDI], _win32_EnhMetaFileProc, gdi.enhmetafileproc, wingdi/ENHMFENUMPROC
 ms.topic: callback
+f1_keywords: ["wingdi/ENHMFENUMPROC"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

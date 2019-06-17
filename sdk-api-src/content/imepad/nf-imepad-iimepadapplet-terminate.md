@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Terminate method, IImePadApplet.Terminate, IImePadApplet::Terminate, Terminate, Terminate method [Internationalization for Windows Applications], Terminate method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Terminate, intl.iimepadapplet_terminate
 ms.topic: method
+f1_keywords: ["imepad/IImePadApplet.Terminate"]
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows

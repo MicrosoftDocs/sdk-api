@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GdiplusShutdown, GdiplusShutdown function [GDI+], _gdiplus_FUNC_GdiplusShutdown_, gdiplus._gdiplus_FUNC_GdiplusShutdown_, gdiplusinit/GdiplusShutdown
 ms.topic: function
+f1_keywords: ["gdiplusinit/GdiplusShutdown"]
 req.header: gdiplusinit.h
 req.include-header: Gdiplus.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern interface [Windows Accessibility],SupportedTextSelection property, IUIAutomationTextPattern.SupportedTextSelection, IUIAutomationTextPattern.get_SupportedTextSelection, IUIAutomationTextPattern::SupportedTextSelection, IUIAutomationTextPattern::get_SupportedTextSelection, SupportedTextSelection property [Windows Accessibility], SupportedTextSelection property [Windows Accessibility],IUIAutomationTextPattern interface, get_SupportedTextSelection, uiauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection, uiauto_IUIAutomationTextPattern_SupportedTextSelection, uiautomationclient/IUIAutomationTextPattern::SupportedTextSelection, uiautomationclient/IUIAutomationTextPattern::get_SupportedTextSelection, winauto.uiauto_IUIAutomationTextPattern_SupportedTextSelection
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTextPattern.SupportedTextSelection"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

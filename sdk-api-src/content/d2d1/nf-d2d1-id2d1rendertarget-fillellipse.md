@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FillEllipse, FillEllipse methods [Direct2D], ID2D1RenderTarget.FillEllipse, ID2D1RenderTarget::FillEllipse, d2d1/FillEllipse, direct2d.id2d1rendertarget_fillellipse
 ms.topic: method
+f1_keywords: ["d2d1/ID2D1RenderTarget::FillEllipse"]
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows

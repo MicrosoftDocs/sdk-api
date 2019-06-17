@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CurrentCanZoom property [Windows Accessibility], CurrentCanZoom property [Windows Accessibility],IUIAutomationTransformPattern2 interface, IUIAutomationTransformPattern2 interface [Windows Accessibility],CurrentCanZoom property, IUIAutomationTransformPattern2.CurrentCanZoom, IUIAutomationTransformPattern2.get_CurrentCanZoom, IUIAutomationTransformPattern2::CurrentCanZoom, IUIAutomationTransformPattern2::get_CurrentCanZoom, get_CurrentCanZoom, uiautomationclient/IUIAutomationTransformPattern2::CurrentCanZoom, uiautomationclient/IUIAutomationTransformPattern2::get_CurrentCanZoom, winauto.uiauto_IUIAutomationTransformPattern2_CurrentCanZoom
 ms.topic: method
+f1_keywords: ["uiautomationclient/IUIAutomationTransformPattern2.CurrentCanZoom"]
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_writeprocessorpwrscheme, base.writeprocessorpwrscheme, powrprof/WriteProcessorPwrScheme
 ms.topic: function
+f1_keywords: ["powrprof/WriteProcessorPwrScheme"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

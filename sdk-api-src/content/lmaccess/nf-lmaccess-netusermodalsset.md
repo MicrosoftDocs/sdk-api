@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
 ms.topic: function
+f1_keywords: ["lmaccess/NetUserModalsSet"]
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

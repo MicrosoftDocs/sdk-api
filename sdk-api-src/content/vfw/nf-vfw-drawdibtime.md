@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DrawDibTime, DrawDibTime function [Windows Multimedia], _win32_DrawDibTime, multimedia.drawdibtime, vfw/DrawDibTime
 ms.topic: function
+f1_keywords: ["vfw/DrawDibTime"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

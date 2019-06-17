@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MFCreateStreamOnMFByteStream, MFCreateStreamOnMFByteStream function [Media Foundation], mf.mfcreatestreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStream
 ms.topic: function
+f1_keywords: ["mfidl/MFCreateStreamOnMFByteStream"]
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

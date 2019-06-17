@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_APPLICATION_STATE, CLUSTER_RESOURCE_APPLICATION_STATE enumeration [Failover Cluster], ClusterResourceApplicationOSHeartBeat, ClusterResourceApplicationReady, ClusterResourceApplicationStateUnknown, mscs.cluster_resource_application_state, resapi/CLUSTER_RESOURCE_APPLICATION_STATE, resapi/ClusterResourceApplicationOSHeartBeat, resapi/ClusterResourceApplicationReady, resapi/ClusterResourceApplicationStateUnknown
 ms.topic: enum
+f1_keywords: ["resapi/CLUSTER_RESOURCE_APPLICATION_STATE"]
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows

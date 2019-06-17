@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassBitmapIndex, SetupDiGetClassBitmapIndex function [Device and Driver Installation], devinst.setupdigetclassbitmapindex, di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml, setupapi/SetupDiGetClassBitmapIndex
 ms.topic: function
+f1_keywords: ["setupapi/SetupDiGetClassBitmapIndex"]
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

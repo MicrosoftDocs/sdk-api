@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngSetPointerShape, EngSetPointerShape function [Display Devices], display.engsetpointershape, gdifncs_468e4611-6696-4535-af00-014999695d6e.xml, winddi/EngSetPointerShape
 ms.topic: function
+f1_keywords: ["winddi/EngSetPointerShape"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

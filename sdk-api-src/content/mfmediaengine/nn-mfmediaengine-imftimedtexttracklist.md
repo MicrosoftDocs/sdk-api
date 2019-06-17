@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrackList, IMFTimedTextTrackList interface [Media Foundation], IMFTimedTextTrackList interface [Media Foundation],described, mf.imftimedtexttracklist, mfmediaengine/IMFTimedTextTrackList
 ms.topic: interface
+f1_keywords: ["mfmediaengine/IMFTimedTextTrackList"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

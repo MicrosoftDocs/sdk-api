@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Get, Get method, Get method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Get method, IFunctionInstanceCollection.Get, IFunctionInstanceCollection::Get, functiondiscoveryapi/IFunctionInstanceCollection::Get, ncd.ifunctioninstancecollection_get
 ms.topic: method
+f1_keywords: ["functiondiscoveryapi/IFunctionInstanceCollection.Get"]
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows

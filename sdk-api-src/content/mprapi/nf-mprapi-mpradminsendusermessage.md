@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
 ms.topic: function
+f1_keywords: ["mprapi/MprAdminSendUserMessage"]
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

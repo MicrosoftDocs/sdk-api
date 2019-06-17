@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO interface [DirectShow],Next method, IEnumDMO.Next, IEnumDMO::Next, IEnumDMONext, Next, Next method [DirectShow], Next method [DirectShow],IEnumDMO interface, dshow.ienumdmo_next, mediaobj/IEnumDMO::Next
 ms.topic: method
+f1_keywords: ["mediaobj/IEnumDMO.Next"]
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

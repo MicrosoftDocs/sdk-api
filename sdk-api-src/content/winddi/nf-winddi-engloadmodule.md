@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EngLoadModule, EngLoadModule function [Display Devices], display.engloadmodule, gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml, winddi/EngLoadModule
 ms.topic: function
+f1_keywords: ["winddi/EngLoadModule"]
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

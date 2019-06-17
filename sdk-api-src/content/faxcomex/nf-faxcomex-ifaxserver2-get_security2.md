@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFaxServer2 interface [Fax Service],Security2 property, IFaxServer2.Security2, IFaxServer2.get_Security2, IFaxServer2::Security2, IFaxServer2::get_Security2, Security2 property [Fax Service], Security2 property [Fax Service],IFaxServer2 interface, _mfax_faxserver2.security2, fax._mfax_faxserver2_cpp_mfax_faxserver2_security2_cpp, fax._mfax_faxserver2_security2, faxcomex/IFaxServer2::Security2, faxcomex/IFaxServer2::get_Security2, get_Security2
 ms.topic: method
+f1_keywords: ["faxcomex/IFaxServer2.Security2"]
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows

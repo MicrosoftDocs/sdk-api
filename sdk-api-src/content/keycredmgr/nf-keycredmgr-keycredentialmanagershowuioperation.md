@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOperation function [Security], keycredmgr/KeyCredentialManagerShowUIOperation, security.keycredentialmanagershowuioperation
 ms.topic: function
+f1_keywords: ["keycredmgr/KeyCredentialManagerShowUIOperation"]
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows

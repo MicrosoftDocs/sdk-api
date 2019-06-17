@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CheckTypographicFeature, CheckTypographicFeature method [Direct Write], CheckTypographicFeature method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],CheckTypographicFeature method, IDWriteTextAnalyzer2.CheckTypographicFeature, IDWriteTextAnalyzer2::CheckTypographicFeature, directwrite.idwritetextanalyzer2_checktypographicfeature, dwrite_2/IDWriteTextAnalyzer2::CheckTypographicFeature
 ms.topic: method
+f1_keywords: ["dwrite_2/IDWriteTextAnalyzer2.CheckTypographicFeature"]
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,7 @@ description: Defines constants that specify heap serialization support.
 ms.date: 05/20/2019
 ms.keywords: D3D12_HEAP_SERIALIZATION_TIER
 ms.topic: language-reference
+f1_keywords: ["d3d12/D3D12_HEAP_SERIALIZATION_TIER"]
 targetos: Windows
 product: Windows
 req.construct-type: enumeration

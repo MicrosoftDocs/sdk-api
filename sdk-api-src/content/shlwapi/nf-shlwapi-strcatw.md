@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: StrCat, StrCat function [Windows Shell], StrCatW, _win32_StrCat, shell.StrCat, shlwapi/StrCat, shlwapi/StrCatW
 ms.topic: function
+f1_keywords: ["shlwapi/StrCat"]
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

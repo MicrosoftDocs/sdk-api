@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
 ms.topic: function
+f1_keywords: ["combaseapi/CoGetMalloc"]
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows

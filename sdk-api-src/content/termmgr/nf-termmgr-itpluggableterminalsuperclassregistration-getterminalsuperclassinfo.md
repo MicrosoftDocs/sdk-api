@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetTerminalSuperclassInfo, GetTerminalSuperclassInfo method [TAPI 2.2], GetTerminalSuperclassInfo method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],GetTerminalSuperclassInfo method, ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo, ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo, _tapi3_itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassregistration_getterminalsuperclassinfo, termmgr/ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
 ms.topic: method
+f1_keywords: ["termmgr/ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo"]
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 9c94d10b-2b6f-b70e-75d1-72a61687e2b9, D3D10_INFO_QUEUE_FILTER, D3D10_INFO_QUEUE_FILTER structure [Direct3D 10], d3d10sdklayers/D3D10_INFO_QUEUE_FILTER, direct3d10.d3d10_info_queue_filter
 ms.topic: struct
+f1_keywords: ["d3d10sdklayers/D3D10_INFO_QUEUE_FILTER"]
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows

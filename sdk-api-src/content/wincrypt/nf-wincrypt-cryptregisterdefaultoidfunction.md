@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptRegisterDefaultOIDFunction, CryptRegisterDefaultOIDFunction function [Security], _crypto2_cryptregisterdefaultoidfunction, security.cryptregisterdefaultoidfunction, wincrypt/CryptRegisterDefaultOIDFunction
 ms.topic: function
+f1_keywords: ["wincrypt/CryptRegisterDefaultOIDFunction"]
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],get_Count method, IComponents.get_Count, IComponents::get_Count, IComponentsget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_get_count, tuner/IComponents::get_Count
 ms.topic: method
+f1_keywords: ["tuner/IComponents.get_Count"]
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows

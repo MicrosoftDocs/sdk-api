@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Famine, Flood, QualityMessageType, QualityMessageType enumeration [DirectShow], QualityMessageTypeEnumeration, dshow.qualitymessagetype, strmif/Famine, strmif/Flood, strmif/QualityMessageType
 ms.topic: enum
+f1_keywords: ["strmif/QualityMessageType"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

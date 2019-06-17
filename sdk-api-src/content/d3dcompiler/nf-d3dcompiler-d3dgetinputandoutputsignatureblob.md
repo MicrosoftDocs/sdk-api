@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 12cc3e6c-b766-e3b2-191f-39df167573bd, D3DGetInputAndOutputSignatureBlob, D3DGetInputAndOutputSignatureBlob function [HLSL], d3dcompiler/D3DGetInputAndOutputSignatureBlob, direct3dhlsl.d3dgetinputandoutputsignatureblob
 ms.topic: function
+f1_keywords: ["d3dcompiler/D3DGetInputAndOutputSignatureBlob"]
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

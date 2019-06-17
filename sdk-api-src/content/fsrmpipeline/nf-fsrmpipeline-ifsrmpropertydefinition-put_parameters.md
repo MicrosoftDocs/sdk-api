@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],Parameters property, IFsrmPropertyDefinition.Parameters, IFsrmPropertyDefinition.put_Parameters, IFsrmPropertyDefinition::Parameters, IFsrmPropertyDefinition::get_Parameters, IFsrmPropertyDefinition::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_parameters, fsrm.ifsrmpropertydefinition_parameters, fsrmpipeline/IFsrmPropertyDefinition::Parameters, fsrmpipeline/IFsrmPropertyDefinition::get_Parameters, fsrmpipeline/IFsrmPropertyDefinition::put_Parameters, put_Parameters
 ms.topic: method
+f1_keywords: ["fsrmpipeline/IFsrmPropertyDefinition.Parameters"]
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows

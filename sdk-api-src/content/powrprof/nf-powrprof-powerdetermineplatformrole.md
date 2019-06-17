@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PowerDeterminePlatformRole, PowerDeterminePlatformRole function, base.powerdetermineplatformrole, powrprof/PowerDeterminePlatformRole
 ms.topic: function
+f1_keywords: ["powrprof/PowerDeterminePlatformRole"]
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

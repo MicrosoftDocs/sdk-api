@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IQueryContinueWithStatus, IQueryContinueWithStatus interface [Windows Shell], IQueryContinueWithStatus interface [Windows Shell],described, _shell_IQueryContinueWithStatus, credentialprovider/IQueryContinueWithStatus, shell.IQueryContinueWithStatus
 ms.topic: interface
+f1_keywords: ["credentialprovider/IQueryContinueWithStatus"]
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows

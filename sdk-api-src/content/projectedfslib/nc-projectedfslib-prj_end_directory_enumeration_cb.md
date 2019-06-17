@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: PRJ_END_DIRECTORY_ENUMERATION_CB, PRJ_END_DIRECTORY_ENUMERATION_CB callback, PRJ_END_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_end_directory_enumeration_cb, projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB
 ms.topic: callback
+f1_keywords: ["projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB"]
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows

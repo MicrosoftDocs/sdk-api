@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: NdrClearOutParameters, NdrClearOutParameters, NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
 ms.topic: function
+f1_keywords: ["rpcndr/NdrClearOutParameters"]
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CfCloseHandle, CfCloseHandle function, cfapi/CfCloseHandle, cloudApi.cfclosehandle
 ms.topic: function
+f1_keywords: ["cfapi/CfCloseHandle"]
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows

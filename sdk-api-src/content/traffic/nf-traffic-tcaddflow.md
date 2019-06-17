@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
 ms.topic: function
+f1_keywords: ["traffic/TcAddFlow"]
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

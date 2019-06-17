@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: RESPONSEBODY_GetMetadata, RESPONSEBODY_GetMetadata structure, ncd.responsebody_getmetadata_struct, wsdtypes/RESPONSEBODY_GetMetadata
 ms.topic: struct
+f1_keywords: ["wsdtypes/RESPONSEBODY_GetMetadata"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

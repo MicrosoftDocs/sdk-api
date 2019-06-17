@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetCertificateSize, GetCertificateSize method [Media Foundation], GetCertificateSize method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetCertificateSize method, IDirect3DCryptoSession9.GetCertificateSize, IDirect3DCryptoSession9::GetCertificateSize, d3d9/IDirect3DCryptoSession9::GetCertificateSize, mf.idirect3dcryptosession9_getcertificatesize
 ms.topic: method
+f1_keywords: ["d3d9/IDirect3DCryptoSession9.GetCertificateSize"]
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows

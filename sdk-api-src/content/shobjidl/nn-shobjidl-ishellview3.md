@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 interface [Windows Shell],described, _shell_IShellView3, shell.IShellView3, shobjidl/IShellView3
 ms.topic: interface
+f1_keywords: ["shobjidl/IShellView3"]
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows

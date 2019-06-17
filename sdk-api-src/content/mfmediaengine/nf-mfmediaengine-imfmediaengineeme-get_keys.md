@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],get_Keys method, IMFMediaEngineEME.get_Keys, IMFMediaEngineEME::get_Keys, get_Keys, get_Keys method [Media Foundation], get_Keys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_get_keys, mfmediaengine/IMFMediaEngineEME::get_Keys
 ms.topic: method
+f1_keywords: ["mfmediaengine/IMFMediaEngineEME.get_Keys"]
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows

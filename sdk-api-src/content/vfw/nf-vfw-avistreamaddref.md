@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AVIStreamAddRef, AVIStreamAddRef function [Windows Multimedia], _win32_AVIStreamAddRef, multimedia.avistreamaddref, vfw/AVIStreamAddRef
 ms.topic: function
+f1_keywords: ["vfw/AVIStreamAddRef"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

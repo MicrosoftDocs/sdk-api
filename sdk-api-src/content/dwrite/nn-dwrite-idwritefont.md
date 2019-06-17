@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont, IDWriteFont interface [Direct Write], IDWriteFont interface [Direct Write],described, directwrite.IDWriteFont, dwrite/IDWriteFont
 ms.topic: interface
+f1_keywords: ["dwrite/IDWriteFont"]
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITSubStream, ITSubStream interface [TAPI 2.2], ITSubStream interface [TAPI 2.2],described, _tapi3_itsubstream, tapi3.itsubstream, tapi3if/ITSubStream
 ms.topic: interface
+f1_keywords: ["tapi3if/ITSubStream"]
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows

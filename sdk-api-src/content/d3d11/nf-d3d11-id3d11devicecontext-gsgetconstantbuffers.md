@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: 90cf0266-e4b2-8106-f337-5c65752dd7d8, GSGetConstantBuffers, GSGetConstantBuffers method [Direct3D 11], GSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSGetConstantBuffers method, ID3D11DeviceContext.GSGetConstantBuffers, ID3D11DeviceContext::GSGetConstantBuffers, d3d11/ID3D11DeviceContext::GSGetConstantBuffers, direct3d11.id3d11devicecontext_gsgetconstantbuffers
 ms.topic: method
+f1_keywords: ["d3d11/ID3D11DeviceContext.GSGetConstantBuffers"]
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows

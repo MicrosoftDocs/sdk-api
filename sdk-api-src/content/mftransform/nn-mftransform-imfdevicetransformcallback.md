@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransformCallback, IMFDeviceTransformCallback interface [Streaming Media Devices], IMFDeviceTransformCallback interface [Streaming Media Devices],described, mftransform/IMFDeviceTransformCallback, stream.imfdevicetransformcallback
 ms.topic: interface
+f1_keywords: ["mftransform/IMFDeviceTransformCallback"]
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

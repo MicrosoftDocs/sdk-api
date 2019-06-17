@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, IXpsOMFontResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMFontResourceCollection.Append, IXpsOMFontResourceCollection::Append, xps.ixpsomfontresourcecollection_append, xpsobjectmodel/IXpsOMFontResourceCollection::Append
 ms.topic: method
+f1_keywords: ["xpsobjectmodel/IXpsOMFontResourceCollection.Append"]
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows

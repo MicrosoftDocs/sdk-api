@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],CreateInstance method, IWICMetadataWriterInfo.CreateInstance, IWICMetadataWriterInfo::CreateInstance, _wic_codec_iwicmetadatawriterinfo_createinstance, wic._wic_codec_iwicmetadatawriterinfo_createinstance, wincodecsdk/IWICMetadataWriterInfo::CreateInstance
 ms.topic: method
+f1_keywords: ["wincodecsdk/IWICMetadataWriterInfo.CreateInstance"]
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows

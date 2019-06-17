@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsTSUserEx interface [Remote Desktop Services],MaxConnectionTime property, IADsTSUserEx.MaxConnectionTime, IADsTSUserEx.get_MaxConnectionTime, IADsTSUserEx::MaxConnectionTime, IADsTSUserEx::get_MaxConnectionTime, IADsTSUserEx::put_MaxConnectionTime, MaxConnectionTime property [Remote Desktop Services], MaxConnectionTime property [Remote Desktop Services],IADsTSUserEx interface, get_MaxConnectionTime, termserv.iadstsuserex_maxconnectiontime, tsuserex/IADsTSUserEx::MaxConnectionTime, tsuserex/IADsTSUserEx::get_MaxConnectionTime, tsuserex/IADsTSUserEx::put_MaxConnectionTime
 ms.topic: method
+f1_keywords: ["tsuserex/IADsTSUserEx.MaxConnectionTime"]
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows

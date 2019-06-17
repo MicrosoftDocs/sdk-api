@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
 ms.topic: interface
+f1_keywords: ["iads/IADsPostalAddress"]
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

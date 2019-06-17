@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.werstoreopen, werapi/WerStoreOpen
 ms.topic: function
+f1_keywords: ["werapi/WerStoreOpen"]
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows

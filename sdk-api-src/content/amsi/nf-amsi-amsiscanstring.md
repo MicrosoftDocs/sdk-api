@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: AmsiScanString, AmsiScanString function [Antimalware Scan Interface], amsi.amsiscanstring, amsi/AmsiScanString
 ms.topic: function
+f1_keywords: ["amsi/AmsiScanString"]
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows

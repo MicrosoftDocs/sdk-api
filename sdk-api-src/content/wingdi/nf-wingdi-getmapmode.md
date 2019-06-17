@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetMapMode, GetMapMode function [Windows GDI], _win32_GetMapMode, gdi.getmapmode, wingdi/GetMapMode
 ms.topic: function
+f1_keywords: ["wingdi/GetMapMode"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], IDirectDrawMediaSample interface [DirectShow],described, IDirectDrawMediaSampleInterface, amstream/IDirectDrawMediaSample, dshow.idirectdrawmediasample
 ms.topic: interface
+f1_keywords: ["amstream/IDirectDrawMediaSample"]
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows

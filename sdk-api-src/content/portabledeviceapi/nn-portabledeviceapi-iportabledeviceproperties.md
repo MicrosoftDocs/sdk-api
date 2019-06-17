@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], IPortableDeviceProperties interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesInterface, portabledeviceapi/IPortableDeviceProperties, wpdsdk.iportabledeviceproperties
 ms.topic: interface
+f1_keywords: ["portabledeviceapi/IPortableDeviceProperties"]
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows

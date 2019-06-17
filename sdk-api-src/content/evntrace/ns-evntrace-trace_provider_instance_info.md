@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PTRACE_PROVIDER_INSTANCE_INFO, PTRACE_PROVIDER_INSTANCE_INFO, PTRACE_PROVIDER_INSTANCE_INFO structure pointer [ETW], TRACE_PROVIDER_FLAG_LEGACY, TRACE_PROVIDER_FLAG_PRE_ENABLE, TRACE_PROVIDER_INSTANCE_INFO, TRACE_PROVIDER_INSTANCE_INFO structure [ETW], _TRACE_PROVIDER_INSTANCE_INFO, etw.trace_provider_instance_info, evntrace/PTRACE_PROVIDER_INSTANCE_INFO, evntrace/TRACE_PROVIDER_INSTANCE_INFO"
 ms.topic: struct
+f1_keywords: ["evntrace/TRACE_PROVIDER_INSTANCE_INFO"]
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

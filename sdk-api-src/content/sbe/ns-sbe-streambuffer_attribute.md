@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: STREAMBUFFER_ATTRIBUTE, STREAMBUFFER_ATTRIBUTE structure [Microsoft TV Technologies], STREAMBUFFER_ATTRIBUTEStructure, mstv.streambuffer_attribute, sbe/STREAMBUFFER_ATTRIBUTE
 ms.topic: struct
+f1_keywords: ["sbe/STREAMBUFFER_ATTRIBUTE"]
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_NumberOfDigits method, ITCallingCard.get_NumberOfDigits, ITCallingCard::get_NumberOfDigits, _tapi3_itcallingcard_get_numberofdigits, get_NumberOfDigits, get_NumberOfDigits method [TAPI 2.2], get_NumberOfDigits method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_numberofdigits, tapi3if/ITCallingCard::get_NumberOfDigits
 ms.topic: method
+f1_keywords: ["tapi3if/ITCallingCard.get_NumberOfDigits"]
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],PivotPointX property, IManipulationProcessor.PivotPointX, IManipulationProcessor.put_PivotPointX, IManipulationProcessor::PivotPointX, IManipulationProcessor::get_PivotPointX, IManipulationProcessor::put_PivotPointX, PivotPointX property [Windows Touch], PivotPointX property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::PivotPointX, manipulations/IManipulationProcessor::get_PivotPointX, manipulations/IManipulationProcessor::put_PivotPointX, put_PivotPointX, wintouch.imanipulationprocessor_pivotpointx
 ms.topic: method
+f1_keywords: ["manipulations/IManipulationProcessor.PivotPointX"]
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows

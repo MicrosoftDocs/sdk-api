@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ICGetStateSize, ICGetStateSize macro [Windows Multimedia], _win32_ICGetStateSize, multimedia.icgetstatesize, vfw/ICGetStateSize
 ms.topic: macro
+f1_keywords: ["vfw/ICGetStateSize"]
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

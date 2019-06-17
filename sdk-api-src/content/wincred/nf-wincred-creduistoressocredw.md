@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CredUIStoreSSOCredW, CredUIStoreSSOCredW function [Security], security.creduistoressocredw, wincred/CredUIStoreSSOCredW
 ms.topic: function
+f1_keywords: ["wincred/CredUIStoreSSOCredW"]
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

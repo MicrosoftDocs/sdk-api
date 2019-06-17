@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PMIB_TCP6TABLE2, MIB_TCP6TABLE2, MIB_TCP6TABLE2 structure [MIB], PMIB_TCP6TABLE2, PMIB_TCP6TABLE2 structure pointer [MIB], mib.mib_tcp6table2, tcpmib/MIB_TCP6TABLE2, tcpmib/PMIB_TCP6TABLE2"
 ms.topic: struct
+f1_keywords: ["tcpmib/MIB_TCP6TABLE2"]
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

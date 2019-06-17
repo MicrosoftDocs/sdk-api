@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllEncodeKeyValue, CryptXmlDllEncodeKeyValue callback, CryptXmlDllEncodeKeyValue callback function [Security], cryptxml/CryptXmlDllEncodeKeyValue, security.cryptxmldllencodekeyvalue
 ms.topic: callback
+f1_keywords: ["cryptxml/CryptXmlDllEncodeKeyValue"]
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

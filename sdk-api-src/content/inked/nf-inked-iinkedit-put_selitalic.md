@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelItalic property, IInkEdit.SelItalic, IInkEdit.put_SelItalic, IInkEdit::SelItalic, IInkEdit::get_SelItalic, IInkEdit::put_SelItalic, InkEdit.get_SelItalic, InkEdit.put_SelItalic, SelItalic property [Tablet PC], SelItalic property [Tablet PC],IInkEdit interface, get_SelItalic, inked/IInkEdit::SelItalic, inked/IInkEdit::get_SelItalic, inked/IInkEdit::put_SelItalic, put_SelItalic, tablet.inkedit_selitalic
 ms.topic: method
+f1_keywords: ["inked/IInkEdit.SelItalic"]
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows

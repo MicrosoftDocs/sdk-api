@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: GetFontData, GetFontData function [Windows GDI], _win32_GetFontData, gdi.getfontdata, wingdi/GetFontData
 ms.topic: function
+f1_keywords: ["wingdi/GetFontData"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

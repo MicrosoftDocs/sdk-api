@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*LPMETAHEADER, *PMETAHEADER, METAHEADER, METAHEADER structure [Windows GDI], PMETAHEADER, PMETAHEADER structure pointer [Windows GDI], _win32_METAHEADER_str, gdi.metaheader, wingdi/METAHEADER, wingdi/PMETAHEADER"
 ms.topic: struct
+f1_keywords: ["wingdi/METAHEADER"]
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: UiaGetPatternProvider, UiaGetPatternProvider function [Windows Accessibility], uiauto.uiauto_UiaGetPatternProviderAutoMeth, uiauto_UiaGetPatternProviderAutoMeth, uiautomationcoreapi/UiaGetPatternProvider, winauto.uiauto_UiaGetPatternProviderAutoMeth
 ms.topic: function
+f1_keywords: ["uiautomationcoreapi/UiaGetPatternProvider"]
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows

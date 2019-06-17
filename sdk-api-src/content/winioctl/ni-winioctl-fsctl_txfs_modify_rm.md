@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_MODIFY_RM, FSCTL_TXFS_MODIFY_RM control, FSCTL_TXFS_MODIFY_RM control code [Files], base.fsctl_txfs_set_rm_information, fs.fsctl_txfs_modify_rm, fs.fsctl_txfs_set_rm_information, winioctl/FSCTL_TXFS_MODIFY_RM
 ms.topic: ioctl
+f1_keywords: ["winioctl/FSCTL_TXFS_MODIFY_RM"]
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

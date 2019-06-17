@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeDisplay, IAMTimecodeDisplay interface [DirectShow], IAMTimecodeDisplay interface [DirectShow],described, IAMTimecodeDisplayInterface, dshow.iamtimecodedisplay, strmif/IAMTimecodeDisplay
 ms.topic: interface
+f1_keywords: ["strmif/IAMTimecodeDisplay"]
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

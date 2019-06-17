@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ID3D11TracingDevice, ID3D11TracingDevice interface [Direct3D 11], ID3D11TracingDevice interface [Direct3D 11],described, d3d11sdklayers/ID3D11TracingDevice, direct3d11.id3d11tracingdevice
 ms.topic: interface
+f1_keywords: ["d3d11sdklayers/ID3D11TracingDevice"]
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows

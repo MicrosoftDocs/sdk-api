@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO interface [DirectShow],Skip method, IEnumDMO.Skip, IEnumDMO::Skip, IEnumDMOSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumDMO interface, dshow.ienumdmo_skip, mediaobj/IEnumDMO::Skip
 ms.topic: method
+f1_keywords: ["mediaobj/IEnumDMO.Skip"]
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows

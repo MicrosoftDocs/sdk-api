@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],IsPresent property, IWindowsDriverUpdate2.IsPresent, IWindowsDriverUpdate2.get_IsPresent, IWindowsDriverUpdate2::IsPresent, IWindowsDriverUpdate2::get_IsPresent, IsPresent property [Windows Update Agent], IsPresent property [Windows Update Agent],IWindowsDriverUpdate2 interface, get_IsPresent, wua.iwindowsdriverupdate2_ispresent, wuapi/IWindowsDriverUpdate2::IsPresent, wuapi/IWindowsDriverUpdate2::get_IsPresent
 ms.topic: method
+f1_keywords: ["wuapi/IWindowsDriverUpdate2.IsPresent"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

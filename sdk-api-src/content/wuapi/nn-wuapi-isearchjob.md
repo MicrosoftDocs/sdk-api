@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], ISearchJob interface [Windows Update Agent],described, wua.isearchjob, wuapi/ISearchJob
 ms.topic: interface
+f1_keywords: ["wuapi/ISearchJob"]
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows

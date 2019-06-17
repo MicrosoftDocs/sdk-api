@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: WSD_PORT_TYPE, WSD_PORT_TYPE structure, ncd.wsd_port_type_struct, wsdtypes/WSD_PORT_TYPE
 ms.topic: struct
+f1_keywords: ["wsdtypes/WSD_PORT_TYPE"]
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

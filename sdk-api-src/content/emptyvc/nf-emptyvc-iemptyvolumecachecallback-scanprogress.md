@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],ScanProgress method, IEmptyVolumeCacheCallBack.ScanProgress, IEmptyVolumeCacheCallBack::ScanProgress, ScanProgress, ScanProgress method [Legacy Windows Environment Features], ScanProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_ScanProgress, emptyvc/IEmptyVolumeCacheCallBack::ScanProgress, lwef.iemptyvolumecachecallback_scanprogress, shell.iemptyvolumecachecallback_scanprogress
 ms.topic: method
+f1_keywords: ["emptyvc/IEmptyVolumeCacheCallBack.ScanProgress"]
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows

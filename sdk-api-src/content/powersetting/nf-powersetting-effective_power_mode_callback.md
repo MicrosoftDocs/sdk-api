@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: EFFECTIVE_POWER_MODE_CALLBACK, EFFECTIVE_POWER_MODE_CALLBACK function, base.effective_power_mode_callback, powersetting/EFFECTIVE_POWER_MODE_CALLBACK
 ms.topic: function
+f1_keywords: ["powersetting/EFFECTIVE_POWER_MODE_CALLBACK"]
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows

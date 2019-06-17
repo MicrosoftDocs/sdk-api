@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "_win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilterChooseHookProc callback, acmFilterChooseHookProc callback function [Windows Multimedia], msacm/acmFilterChooseHookProc, multimedia.acmfilterchoosehookproc"
 ms.topic: callback
+f1_keywords: ["msacm/acmFilterChooseHookProc"]
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows

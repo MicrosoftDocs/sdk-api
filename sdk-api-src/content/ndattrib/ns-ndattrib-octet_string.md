@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*POCTET_STRING, OCTET_STRING, OCTET_STRING structure [NDF], OCTET_STRING,*POCTET_STRING, OCTET_STRING,*POCTET_STRING structure [NDF], ndattrib/OCTET_STRING, ndf.octet_string"
 ms.topic: struct
+f1_keywords: ["ndattrib/OCTET_STRING, *POCTET_STRING"]
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows

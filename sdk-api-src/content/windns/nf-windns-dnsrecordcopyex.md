@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DnsRecordCopyEx, DnsRecordCopyEx function [DNS], _dns_dnsrecordcopyex, dns.dnsrecordcopyex, windns/DnsRecordCopyEx
 ms.topic: function
+f1_keywords: ["windns/DnsRecordCopyEx"]
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

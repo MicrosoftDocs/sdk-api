@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Resource_Conflict_Handle, CM_Free_Resource_Conflict_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Resource_Conflict_Handle, cfgmgrfn_e6d2dc8a-4aa5-4271-808f-f16a885f9ad2.xml, devinst.cm_free_resource_conflict_handle
 ms.topic: function
+f1_keywords: ["cfgmgr32/CM_Free_Resource_Conflict_Handle"]
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop

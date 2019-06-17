@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],UnregisterViewForNotification method, ISearchCatalogManager.UnregisterViewForNotification, ISearchCatalogManager::UnregisterViewForNotification, UnregisterViewForNotification, UnregisterViewForNotification method [search], UnregisterViewForNotification method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_UnregisterViewForNotification, search._search_ISearchCatalogManager_UnregisterViewForNotification, searchapi/ISearchCatalogManager::UnregisterViewForNotification
 ms.topic: method
+f1_keywords: ["searchapi/ISearchCatalogManager.UnregisterViewForNotification"]
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

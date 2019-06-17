@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: CalculateDiscIdentifier, CalculateDiscIdentifier method [IMAPI], CalculateDiscIdentifier method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CalculateDiscIdentifier method, IFileSystemImage.CalculateDiscIdentifier, IFileSystemImage::CalculateDiscIdentifier, imapi.ifilesystemimage_calculatediscidentifier, imapi2fs/IFileSystemImage::CalculateDiscIdentifier
 ms.topic: method
+f1_keywords: ["imapi2fs/IFileSystemImage.CalculateDiscIdentifier"]
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows

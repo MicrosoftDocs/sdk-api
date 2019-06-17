@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: "*PSECURITY_INTEGER, *PTimeStamp, SECURITY_INTEGER, SECURITY_INTEGER structure [Security], TimeStamp, _ssp_security_integer, security.security_integer, sspi/SECURITY_INTEGER"
 ms.topic: struct
+f1_keywords: ["sspi/SECURITY_INTEGER"]
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

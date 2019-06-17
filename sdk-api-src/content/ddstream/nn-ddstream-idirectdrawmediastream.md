@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaStream, IDirectDrawMediaStream interface [DirectShow], IDirectDrawMediaStream interface [DirectShow],described, IDirectDrawMediaStreamInterface, ddstream/IDirectDrawMediaStream, dshow.idirectdrawmediastream
 ms.topic: interface
+f1_keywords: ["ddstream/IDirectDrawMediaStream"]
 req.header: ddstream.h
 req.include-header: 
 req.target-type: Windows

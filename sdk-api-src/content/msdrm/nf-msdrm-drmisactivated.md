@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: DRMIsActivated, DRMIsActivated function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, msdrm/DRMIsActivated, rm.drmisactivated
 ms.topic: function
+f1_keywords: ["msdrm/DRMIsActivated"]
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows

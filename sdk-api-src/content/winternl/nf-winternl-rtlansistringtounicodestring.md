@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: FALSE, RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Windows API], TRUE, winprog.rtlansistringtounicodestring, winternl/RtlAnsiStringToUnicodeString, winui.rtlansistringtounicodestring
 ms.topic: function
+f1_keywords: ["winternl/RtlAnsiStringToUnicodeString"]
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows

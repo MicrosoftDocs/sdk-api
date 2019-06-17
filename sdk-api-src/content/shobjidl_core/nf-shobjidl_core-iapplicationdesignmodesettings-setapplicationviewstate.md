@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],SetApplicationViewState method, IApplicationDesignModeSettings.SetApplicationViewState, IApplicationDesignModeSettings::SetApplicationViewState, SetApplicationViewState, SetApplicationViewState method [Windows Shell], SetApplicationViewState method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_SetApplicationViewState, shobjidl_core/IApplicationDesignModeSettings::SetApplicationViewState
 ms.topic: method
+f1_keywords: ["shobjidl_core/IApplicationDesignModeSettings.SetApplicationViewState"]
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

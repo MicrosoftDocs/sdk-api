@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreadingInfo interface [COM],described, _com_icomthreadinginfo_interface, com.icomthreadinginfo, objidlbase/IComThreadingInfo
 ms.topic: interface
+f1_keywords: ["objidl/IComThreadingInfo"]
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

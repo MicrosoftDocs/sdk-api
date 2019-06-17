@@ -10,6 +10,7 @@ ms.author: windowssdkdev
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyBlockProgress method, IDiscMasterProgressEvents.NotifyBlockProgress, IDiscMasterProgressEvents::NotifyBlockProgress, NotifyBlockProgress, NotifyBlockProgress method [IMAPI], NotifyBlockProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyblockprogress, base.idiscmasterprogressevents_notifyblockprogress, imapi.idiscmasterprogressevents_notifyblockprogress, imapi/IDiscMasterProgressEvents::NotifyBlockProgress
 ms.topic: method
+f1_keywords: ["imapi/IDiscMasterProgressEvents.NotifyBlockProgress"]
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
