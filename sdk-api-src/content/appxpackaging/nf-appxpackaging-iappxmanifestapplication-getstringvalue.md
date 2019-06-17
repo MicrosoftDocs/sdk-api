@@ -46,105 +46,71 @@ ms.custom: 19H1
 
 # IAppxManifestApplication::GetStringValue
 
-
 ## -description
 
-
-Gets the value of a string element in the application metadata section of the manifest.
-
+Gets the string value of an element or attribute in the application metadata section of the manifest.
 
 ## -parameters
-
-
-
 
 ### -param name [in]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPCWSTR</a></b>
 
-The name of the string element to get from the application metadata. Valid values include:
+The name of the element or attribute value to get from the application metadata. Supported names include:
 
-<p class="indent">"Description"
+* AppListEntry
+* BackgroundColor
+* DefaultSize
+* Description
+* DisplayName
+* EntryPoint
+* Executable
+* ForegroundText
+* ID
+* LockScreenLogo
+* LockScreenNotification
+* Logo
+* MinWidth
+* ShortName
+* SmallLogo
+* Square150x150Logo
+* Square30x30Logo
+* Square310x310Logo
+* Square44x44Logo
+* Square70x70Logo
+* Square71x71Logo
+* StartPage
+* Tall150x310Logo
+* VisualGroup
+* WideLogo
+* Wide310x150Logo
 
-<p class="indent">"DisplayName"
-
-<p class="indent">"EntryPoint"
-
-<p class="indent">"Executable"
-
-<p class="indent">"Id"
-
-<p class="indent">"Logo"
-
-<p class="indent">"SmallLogo"
-
-<p class="indent">"StartPage"
-
-<p class="indent">"Square150x150Logo" for Windows 8.1 and later
-
-<p class="indent">"Square30x30Logo" for Windows 8.1 and later
-
-<p class="indent">"BackgroundColor" for Windows 8.1 and later
-
-<p class="indent">"ForegroundText" for Windows 8.1 and later
-
-<p class="indent">"WideLogo" for Windows 8.1 and later
-
-<p class="indent">"Wide310x310Logo" for Windows 8.1 and later
-
-<p class="indent">"ShortName" for Windows 8.1 and later
-
-<p class="indent">"Square310x310Logo" for Windows 8.1 and later
-
-<p class="indent">"Square70x70Logo" for Windows 8.1 and later
-
-<p class="indent">"MinWidth" for Windows 8.1 and later
-
-Refer to the schema to determine where these values are being read from.
-
+Refer to the [schema](https://docs.microsoft.com/uwp/schemas/appxpackage/uapmanifestschema/schema-root) to determine where these values are being read from in the manifest.
 
 ### -param value [out, retval]
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPWSTR</a>*</b>
 
-The value of the requested element.
-
+The value of the requested element or attribute.
 
 ## -returns
 
-
-
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
+If the *name* parameter is not a supported name of an element or attribute in the manifest, this method returns **E_INVALIDARG**. If the *name* parameter is supported but the element or attribute is not found in the manifest, this method returns **S_OK** and the return value of the *value* parameter is **NULL**.
 
+The caller must free the memory allocated for *value* using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
 
-If the optional string value is not defined, this method returns <b>E_INVALIDARG</b> and <i>value</i> is <b>NULL</b>.
-
-The caller must free the memory allocated for <i>value</i> using the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a> function.
-
-
-#### Examples
+## Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/appxpkg/how-to-query-package-identity-information">Quickstart: Read app package manifest info</a>.
 
 <div class="code"></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestapplication">IAppxManifestApplication</a>
- 
-
- 
-
