@@ -21,5 +21,5 @@ To develop Software Device API, you need these headers:
  * [swdevicedef.h](../swdevicedef/index.md)
 
 For programming guidance for this technology, see:
-* [Software Device API](https://msdn.microsoft.com/en-us/library/windows/hardware/dn315034(v=vs.85).aspx)
+* [Software Device API](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn315034(v=vs.85))
 
