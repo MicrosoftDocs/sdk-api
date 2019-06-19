@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 This method re-establishes relationship between the current user and the configuration selected previously via the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-selectconfiguration">IFhReassociation::SelectConfiguration</a> method and prepares the target device for accepting backup data from the current computer.
 
+> [!NOTE] 
+> **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

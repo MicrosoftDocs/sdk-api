@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Opens a communication channel to the File History Service.
 
+> [!NOTE] 
+> **FhServiceOpenPipe** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

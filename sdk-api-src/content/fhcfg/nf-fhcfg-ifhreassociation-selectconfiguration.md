@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Selects one of the File History configurations discovered on a storage device or network share by the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a> method for subsequent reassociation. Actual reassociation is performed by the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-performreassociation">IFhReassociation::PerformReassociation</a> method.
 
+> [!NOTE] 
+> **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

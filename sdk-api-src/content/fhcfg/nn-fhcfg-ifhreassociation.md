@@ -55,7 +55,8 @@ This interface allows client applications to reassociate a File History configur
 <li>It allows the user to continue to back up data to the target, possibly on a new computer or under a new account name.</li>
 </ul>
 
-
+> [!NOTE] 
+> **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
 
 ## -inheritance
 

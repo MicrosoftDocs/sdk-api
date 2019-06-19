@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Provisions a certain storage device or network share as a File History backup target and assigns it as the default backup target for the current user.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

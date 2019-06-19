@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 This function stops an ongoing backup cycle for the current user.
 
+> [!NOTE] 
+> **FhServiceStopBackup** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

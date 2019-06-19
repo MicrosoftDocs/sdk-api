@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Retrieves the numeric parameter for a local policy for the File History feature.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

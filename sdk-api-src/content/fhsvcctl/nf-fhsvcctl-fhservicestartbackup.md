@@ -53,6 +53,9 @@ ms.custom: 19H1
 
 This function starts an immediate backup for the current user.
 
+> [!NOTE] 
+> **FhServiceStartBackup** is deprecated and may be altered or unavailable in future releases.
+
 
 ## -parameters
 

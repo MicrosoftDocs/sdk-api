@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 This function temporarily blocks backups for the current user.
 
+> [!NOTE] 
+> **FhServiceBlockBackup** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

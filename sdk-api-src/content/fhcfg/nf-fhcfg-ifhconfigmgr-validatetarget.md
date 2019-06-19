@@ -53,6 +53,8 @@ ms.custom: 19H1
 
  Checks whether a certain storage device or network share can be used as a File History backup target.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 
