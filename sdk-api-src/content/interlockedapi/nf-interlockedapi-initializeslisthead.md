@@ -41,6 +41,7 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
  - Ntoskrnl.exe
+ - vertdll.dll
 api_name:
  - InitializeSListHead
 product: Windows
