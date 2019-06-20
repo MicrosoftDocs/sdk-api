@@ -1,0 +1,184 @@
+---
+UID: NF:ntdef.InitializeObjectAttributes
+title: InitializeObjectAttributes macro (ntdef.h)
+description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.
+old-location: kernel\initializeobjectattributes.htm
+tech.root: kernel
+ms.assetid: ee89a9af-0bdf-476e-b4e3-eb60662e160d
+ms.date: 04/30/2018
+ms.keywords: InitializeObjectAttributes, InitializeObjectAttributes macro [Kernel-Mode Driver Architecture], k107_f7e00cf9-9598-4835-b51a-3df9e003587e.xml, kernel.initializeobjectattributes, ntdef/InitializeObjectAttributes
+ms.topic: macro
+req.header: ntdef.h
+req.include-header: Wdm.h, Ntddk.h, Ntdef.h
+req.target-type: Desktop
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- ntdef.h
+api_name:
+- InitializeObjectAttributes
+product:
+- Windows
+targetos: Windows
+req.typenames: 
+---
+
+# InitializeObjectAttributes macro
+
+
+## -description
+
+
+The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure, which specifies the properties of an object handle to routines that open handles.
+
+## -syntax
+
+```cpp
+VOID InitializeObjectAttributes(
+  [out]          POBJECT_ATTRIBUTES   InitializedAttributes,
+  [in]           PUNICODE_STRING      ObjectName,
+  [in]           ULONG                Attributes,
+  [in]           HANDLE               RootDirectory,
+  [in, optional] PSECURITY_DESCRIPTOR SecurityDescriptor
+);
+```
+
+
+## -parameters
+
+
+
+
+### -param p
+
+A pointer to the [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdef/ns-ntdef-_object_attributes) structure to initialize.
+
+
+### -param n
+
+A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
+
+
+### -param a
+
+
+Specifies one or more of the following flags:
+
+|Flag|Description|
+|---|---|
+|OBJ_INHERIT |This handle can be inherited by child processes of the current process.|
+|OBJ_PERMANENT|This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use ZwMakeTemporaryObject to delete permanent objects.|
+|OBJ_EXCLUSIVE|Only a single handle can be open for this object.|
+|OBJ_CASE_INSENSITIVE|If this flag is specified, a case-insensitive comparison is used when matching the ObjectName parameter against the names of existing objects. Otherwise, object names are compared using the default system settings.|
+|OBJ_OPENIF|If this flag is specified to a routine that creates objects, and that object already exists then the routine should open that object. Otherwise, the routine creating the object returns an NTSTATUS code of STATUS_OBJECT_NAME_COLLISION.|
+|OBJ_KERNEL_HANDLE|Specifies that the handle can only be accessed in kernel mode.|
+|OBJ_FORCE_ACCESS_CHECK | The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.|
+
+
+### -param r
+
+A handle to the root object directory for the path name specified in the ObjectName parameter. If ObjectName is a fully qualified object name, RootDirectory is NULL. Use [**ZwCreateDirectoryObject**](../wdm/nf-wdm-zwcreatedirectoryobject.md) to obtain a handle to an object directory.
+
+
+### -param s
+
+Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify NULL to accept the default security for the object. For more information, see the following Remarks section.
+
+## -returns
+
+None
+
+## -remarks
+
+
+
+<b>InitializeObjectAttributes</b> initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the properties of an object handle to be opened. The caller can then pass a pointer to this structure to a routine that actually opens the handle. 
+
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag for the <i>Attributes</i> parameter. This flag restricts the use of a handle opened for that object to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running.
+
+Note that <b>InitializeObjectAttributes</b> always sets the <b>SecurityQualityOfService</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> to <b>NULL</b>. Drivers that require a non-<b>NULL</b> value can set <b>SecurityQualityOfService</b> directly.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544560">ExCreateCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559932">PsCreateSystemThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567029">ZwOpenSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567030">ZwOpenSymbolicLinkObject</a>
+ 
+
+ 
+
+
+
