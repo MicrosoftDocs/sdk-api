@@ -52,6 +52,8 @@ ms.custom: 19H1
 
 The <b>IFhConfigMgr</b> interface allows client applications to read and modify the File History configuration for the user account under which the methods of this interface are called.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -inheritance
 

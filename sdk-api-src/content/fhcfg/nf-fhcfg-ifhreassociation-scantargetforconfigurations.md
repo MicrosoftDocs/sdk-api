@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Scans the namespace on a specified storage device or network share for File History configurations that can be reassociated with and continued to be used on the current computer.
 
+> [!NOTE] 
+> **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

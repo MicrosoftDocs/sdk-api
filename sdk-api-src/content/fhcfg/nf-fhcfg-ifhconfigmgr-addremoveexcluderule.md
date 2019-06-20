@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Adds an exclusion rule to the exclusion list or removes a  rule from the list.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

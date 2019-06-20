@@ -52,6 +52,9 @@ ms.custom: 19H1
 
 The <b>IFhTarget</b> interface allows client applications to read numeric and string properties of a File History backup target.
 
+> [!NOTE] 
+> **IFhTarget** is deprecated and may be altered or unavailable in future releases.
+
 
 ## -inheritance
 

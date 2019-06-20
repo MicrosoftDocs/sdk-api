@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 This function causes the File History Service to reload the current user’s File History configuration files.
 
+> [!NOTE] 
+> **FhServiceReloadConfiguration** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

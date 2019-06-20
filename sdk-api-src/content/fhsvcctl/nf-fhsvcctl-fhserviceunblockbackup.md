@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 This function unblocks backups blocked via <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceblockbackup">FhServiceBlockBackup</a>.
 
+> [!NOTE] 
+> **FhServiceUnblockBackup** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

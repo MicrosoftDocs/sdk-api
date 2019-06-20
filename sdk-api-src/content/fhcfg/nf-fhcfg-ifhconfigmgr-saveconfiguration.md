@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Saves to disk all the changes that were made in an <a href="https://docs.microsoft.com/windows/desktop/DevNotes/fhconfigmgr">FhConfigMgr</a> object since the last time that the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-loadconfiguration">LoadConfiguration</a>, <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-createdefaultconfiguration">CreateDefaultConfiguration</a> or <b>SaveConfiguration</b> method was called  for the File History configuration files of the current user.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

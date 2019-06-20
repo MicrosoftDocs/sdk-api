@@ -52,6 +52,8 @@ ms.custom: 19H1
 
 Moves to the next item in the inclusion or exclusion list.
 
+> [!NOTE] 
+> **IFhScopeIterator** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

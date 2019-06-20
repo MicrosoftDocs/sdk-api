@@ -52,6 +52,8 @@ ms.custom: 19H1
 
 The <b>IFhScopeIterator</b> interface allows client applications to enumerate individual items in an inclusion or exclusion list. To retrieve inclusion and exclusion lists, call  the <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a> method.
 
+> [!NOTE] 
+> **IFhScopeIterator** is deprecated and may be altered or unavailable in future releases.
 
 ## -inheritance
 

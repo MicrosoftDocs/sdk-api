@@ -52,6 +52,8 @@ ms.custom: 19H1
 
 Retrieves a string property of the File History backup target that is represented by an <a href="https://docs.microsoft.com/windows/desktop/api/fhcfg/nn-fhcfg-ifhtarget">IFhTarget</a> interface.
 
+> [!NOTE] 
+> **IFhTarget** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

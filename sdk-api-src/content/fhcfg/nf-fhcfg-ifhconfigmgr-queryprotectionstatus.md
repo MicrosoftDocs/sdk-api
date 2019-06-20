@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Retrieves the current File History protection state.
 
+> [!NOTE] 
+> **IFhConfigMgr** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

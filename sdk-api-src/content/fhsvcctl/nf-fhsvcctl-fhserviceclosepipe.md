@@ -53,6 +53,8 @@ ms.custom: 19H1
 
 Closes a communication channel to the File History Service opened with <a href="https://docs.microsoft.com/windows/desktop/api/fhsvcctl/nf-fhsvcctl-fhserviceopenpipe">FhServiceOpenPipe</a>.
 
+> [!NOTE] 
+> **FhServiceClosePipe** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

@@ -53,6 +53,8 @@ ms.custom: 19H1
 
  This method checks whether a certain storage device or network share can be used as a File History default target and, thus, whether reassociation is possible at all or not.
 
+> [!NOTE] 
+> **IFhReassociation** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 

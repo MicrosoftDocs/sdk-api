@@ -52,6 +52,8 @@ ms.custom: 19H1
 
 Retrieves the current item in an inclusion or exclusion list.
 
+> [!NOTE] 
+> **IFhScopeIterator** is deprecated and may be altered or unavailable in future releases.
 
 ## -parameters
 
