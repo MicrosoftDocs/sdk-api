@@ -41,8 +41,10 @@ api_location:
  - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
  - api-ms-win-downlevel-kernel32-l1-1-0.dll
  - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+ - ntdll.dll
 api_name:
  - GetCurrentProcessorNumber
+ - RtlGetCurrentProcessorNumber
 product: Windows
 targetos: Windows
 req.typenames: 
