@@ -41,8 +41,10 @@ api_location:
  - API-MS-Win-Core-Synch-l1-2-1.dll
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
+ - ntdll.dll
 api_name:
  - ReleaseSRWLockShared
+ - RtlReleaseSRWLockShared
 product: Windows
 targetos: Windows
 req.typenames: 

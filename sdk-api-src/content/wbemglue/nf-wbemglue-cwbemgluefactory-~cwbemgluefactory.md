@@ -1,0 +1,47 @@
+---
+UID: NF:wbemglue.CWbemGlueFactory.~CWbemGlueFactory
+title: CWbemGlueFactory::~CWbemGlueFactory
+ms.date: 4/26/2019
+ms.keywords: CWbemGlueFactory::~CWbemGlueFactory
+ms.topic: language-reference
+targetos: Windows
+product: Windows
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: wbemglue.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - FrameDynOS.dll
+ - FrameDyn.dll
+ - sqlmgmprovider.dll
+api_name:
+ - CWbemGlueFactory::~CWbemGlueFactory
+---
+
+## -description
+
+Destructor for the [CWbemGlueFactory](nf-wbemglue-cwbemgluefactory-cwbemgluefactory) class.
+
+## -remarks
+
+## -see-also
+

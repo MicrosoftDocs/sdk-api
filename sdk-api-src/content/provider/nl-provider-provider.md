@@ -36,6 +36,7 @@ api_type:
 api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
+ - sqlmgmprovider.dll
 api_name:
  - Provider
  - ??1Provider@@UAE@XZ
