@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure.
+The <b>MAKEPOINTS</b> macro converts a value that contains the x- and y-coordinates of a point into a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
 
 
 

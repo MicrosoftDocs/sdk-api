@@ -112,7 +112,7 @@ Possible values include, but are not limited to, those in the following table.
 This method specifies which protocol method is to be used. That method is then called. In this version of Windows Media Device Manager, SAC_PROTOCOL_V1 must be used.
 
 
-<a href="/previous-versions/ms868504(v=msdn.10)">CSecureChannelClient::SetCertificate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231595(v%3dvs.85)">CSecureChannelClient::SetInterface</a> must be called before <b>Authenticate</b>.
+<a href="/previous-versions/ms868504(v=msdn.10)">CSecureChannelClient::SetCertificate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a> must be called before <b>Authenticate</b>.
 
 
 #### Examples

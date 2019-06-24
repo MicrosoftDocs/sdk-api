@@ -69,7 +69,7 @@ A handle to the device context.
 
 ### -param lppt [in, out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures. The x- and y-coordinates contained in each <b>POINT</b> structure will be transformed.
 
 
 ### -param c [in]
@@ -120,7 +120,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
  
 
  

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies flags for raytracing geometry in a <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc">D3D12_RAYTRACING_GEOMETRY_DESC</a> structure.
+Specifies flags for raytracing geometry in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc">D3D12_RAYTRACING_GEOMETRY_DESC</a> structure.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ No options specified.
 
 ### -field D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE
 
-When rays encounter this geometry, the geometry acts as if no any hit shader is present.  It is recommended that apps use this flag liberally, as it can enable important ray-processing optimizations.  Note that this behavior can be overridden on a per-instance basis with <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_instance_flags">D3D12_RAYTRACING_INSTANCE_FLAGS</a> and on a per-ray basis using ray flags in <b>TraceRay</b>.
+When rays encounter this geometry, the geometry acts as if no any hit shader is present.  It is recommended that apps use this flag liberally, as it can enable important ray-processing optimizations.  Note that this behavior can be overridden on a per-instance basis with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_instance_flags">D3D12_RAYTRACING_INSTANCE_FLAGS</a> and on a per-ray basis using ray flags in <b>TraceRay</b>.
 
 
 ### -field D3D12_RAYTRACING_GEOMETRY_FLAG_NO_DUPLICATE_ANYHIT_INVOCATION

@@ -60,7 +60,7 @@ Outputs a single page of a Portable Document Format (PDF) file as a bitmap image
 
 ### -param pdfPage [in]
 
-The <b>IPdfPage</b> interface as an instance of the <a href="https://docs.microsoft.com/en-us/dotnet/api/pdfkit.pdfpage">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
+The <b>IPdfPage</b> interface as an instance of the <a href="https://docs.microsoft.com/dotnet/api/pdfkit.pdfpage?view=xamarin-ios-sdk-12">PdfPage</a> class,  type-casted to the <b>IUnknown</b> interface, representing the page to be output.
 
 
 ### -param pD2DDeviceContext [in]

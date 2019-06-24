@@ -102,7 +102,7 @@ If the function fails, the return value is CLR_INVALID.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd144903(v=vs.85)">GetNearestPaletteIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd144903(v=vs.85)">GetNearestPaletteIndex</a>
 
 
 

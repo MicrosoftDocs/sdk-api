@@ -165,7 +165,7 @@ If the item is a folder, gets an <a href="https://docs.microsoft.com/windows/des
 
 #### BHID_RandomAccessStream
 
-<b>Introduced in Windows 8</b>: Gets an <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> object for the item.
+<b>Introduced in Windows 8</b>: Gets an <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> object for the item.
 
 
 

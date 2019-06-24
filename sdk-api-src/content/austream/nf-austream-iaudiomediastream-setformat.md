@@ -65,7 +65,7 @@ Sets the format for the stream.
 
 ### -param lpWaveFormat [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that contains stream format information.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains stream format information.
 
 
 ## -returns

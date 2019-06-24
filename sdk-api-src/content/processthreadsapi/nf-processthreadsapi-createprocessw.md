@@ -311,7 +311,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
 
 
 

@@ -137,7 +137,7 @@ The routine could not access the database. To get extended error information, ca
 
 <b>ComDBReleasePort</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 
 

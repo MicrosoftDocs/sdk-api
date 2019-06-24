@@ -102,7 +102,7 @@ When the color space is no longer needed, use <b>DeleteColorSpace</b> to delete 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
  
 
  

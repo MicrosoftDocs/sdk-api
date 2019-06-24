@@ -260,7 +260,7 @@ Details can only be shown for resolved address list entries. An entry is resolve
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

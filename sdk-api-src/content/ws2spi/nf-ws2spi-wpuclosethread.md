@@ -120,7 +120,7 @@ The
 Every call to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpuopencurrentthread">WPUOpenCurrentThread</a> must have a call to 
 <b>WPUCloseThread</b>. These two functions are used when the overlapped functions, such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>, are called in a lower layer of the service provider than the current thread.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>, are called in a lower layer of the service provider than the current thread.
 
 
 

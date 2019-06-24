@@ -77,7 +77,7 @@ A handle to the parent window.
 
 ### -param Point [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A structure that defines the client 
 				coordinates, relative to <i>hWndParent</i>, 
@@ -144,7 +144,7 @@ For an example, see "Creating a Combo Box Toolbar" in <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

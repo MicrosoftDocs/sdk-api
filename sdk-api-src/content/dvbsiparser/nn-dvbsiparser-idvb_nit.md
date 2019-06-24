@@ -172,7 +172,7 @@ Returns the transport stream identifier (TSID) for a record in the NIT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389827(v%3dvs.85)">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389827(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table-wide descriptor for the NIT.

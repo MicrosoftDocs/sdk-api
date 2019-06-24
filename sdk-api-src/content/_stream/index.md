@@ -18,5 +18,5 @@ Overview of the Streaming media DDI reference technology.
 The Streaming media DDI reference technology is not associated with any headers.
 
 For programming guidance for this technology, see:
-* [Streaming media DDI reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream)
+* [Streaming media DDI reference](https://docs.microsoft.com/windows-hardware/drivers/stream/)
 

@@ -66,7 +66,7 @@ Specifies the size of the structure.
 
 ### -field Add
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688246(v%3dvs.85)">Add</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688246(v=vs.85)">Add</a> function provided by NPS. NPS sets the value of the member.
 
 
 
@@ -76,8 +76,8 @@ Pointer to the
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes to which to append the specified attribute.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> functions return pointers to 
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> functions return pointers to 
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
 
 
@@ -90,11 +90,11 @@ Pointer to a
 
 ### -field AttributeAt
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688253(v%3dvs.85)">AttributeAt</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688253(v=vs.85)">AttributeAt</a> function provided by NPS. NPS sets the value of the member.
    
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688253(v%3dvs.85)">AttributeAt</a> function returns a const pointer to the specified attribute within the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688253(v=vs.85)">AttributeAt</a> function returns a const pointer to the specified attribute within the array.
 
 
 
@@ -104,8 +104,8 @@ Pointer to the
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes from which to retrieve the specified attribute.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> functions return pointers to 
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> functions return pointers to 
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
 
 
@@ -115,18 +115,18 @@ The
 Specifies the index of the attribute to retrieve. The function returns <b>NULL</b> if this index is out of range.
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
 
 
 ### -field GetSize
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function provided by NPS. NPS sets the value of the member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function returns the size of the attribute array.
+<a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function returns the size of the attribute array.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function returns the size of the attribute array, not the largest index. Because attribute arrays use zero-based indexes, the size of the array is one greater than the largest index.
+<a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function returns the size of the attribute array, not the largest index. Because attribute arrays use zero-based indexes, the size of the array is one greater than the largest index.
 
 
 
@@ -136,23 +136,23 @@ Pointer to the
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes for which to retrieve the size.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> functions return pointers to 
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> functions return pointers to 
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
 
 
 ### -field InsertAt
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688296(v%3dvs.85)">InsertAt</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688296(v=vs.85)">InsertAt</a> function provided by NPS. NPS sets the value of the member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688296(v%3dvs.85)">InsertAt</a> function inserts the specified attribute at the specified index in the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688296(v=vs.85)">InsertAt</a> function inserts the specified attribute at the specified index in the array.
 
 When the 
-<a href="https://docs.microsoft.com/previous-versions/ms688296(v%3dvs.85)">InsertAt</a> function inserts a new attribute into the array, it increments the index of the pre-existing attribute at this index. Similarly, it increments the index of any pre-existing attributes at higher indexes.
+<a href="https://docs.microsoft.com/previous-versions/ms688296(v=vs.85)">InsertAt</a> function inserts a new attribute into the array, it increments the index of the pre-existing attribute at this index. Similarly, it increments the index of any pre-existing attributes at higher indexes.
 
 To append an attribute to the end of the attribute array, use the 
-<a href="https://docs.microsoft.com/previous-versions/ms688246(v%3dvs.85)">Add</a> function.
+<a href="https://docs.microsoft.com/previous-versions/ms688246(v=vs.85)">Add</a> function.
 
 
 
@@ -162,8 +162,8 @@ Pointer to the
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes in which to insert the specified attribute.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> functions return pointers to 
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> functions return pointers to 
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
 
 
@@ -173,7 +173,7 @@ The
 Specifies the index at which to insert the specified attribute.
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
 
 
 
@@ -185,12 +185,12 @@ Pointer to a
 
 ### -field RemoveAt
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688452(v%3dvs.85)">RemoveAt</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688452(v=vs.85)">RemoveAt</a> function provided by NPS. NPS sets the value of the member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688452(v%3dvs.85)">RemoveAt</a> function removes the attribute at the specified index in the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688452(v=vs.85)">RemoveAt</a> function removes the attribute at the specified index in the array.
 
-When the <a href="https://docs.microsoft.com/previous-versions/ms688452(v%3dvs.85)">RemoveAt</a> function removes an attribute from the array, it decrements the index of any pre-existing attributes at higher indexes.
+When the <a href="https://docs.microsoft.com/previous-versions/ms688452(v=vs.85)">RemoveAt</a> function removes an attribute from the array, it decrements the index of any pre-existing attributes at higher indexes.
 
 
 
@@ -200,8 +200,8 @@ Pointer to the
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes from which to remove the specified attribute.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> functions return pointers to 
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> functions return pointers to 
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
 
 
@@ -211,15 +211,15 @@ The
 Specifies the index of the attribute to remove.
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
 
 
 ### -field SetAt
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688456(v%3dvs.85)">SetAt</a> function provided by NPS. NPS sets the value of the member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688456(v=vs.85)">SetAt</a> function provided by NPS. NPS sets the value of the member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688456(v%3dvs.85)">SetAt</a> function replaces the attribute at the specified index with the specified attribute.
+<a href="https://docs.microsoft.com/previous-versions/ms688456(v=vs.85)">SetAt</a> function replaces the attribute at the specified index with the specified attribute.
 
 
 
@@ -229,8 +229,8 @@ Pointer to the
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structure that represents the array of attributes that contains the attribute to replace.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> functions return pointers to 
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> functions return pointers to 
 <b>RADIUS_ATTRIBUTE_ARRAY</b> structures.
 
 
@@ -240,7 +240,7 @@ The
 Specifies the index of the attribute to replace.
 
 Use the 
-<a href="https://docs.microsoft.com/previous-versions/ms688277(v%3dvs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
+<a href="https://docs.microsoft.com/previous-versions/ms688277(v=vs.85)">GetSize</a> function to determine the size of the array. The largest index is one less than the size of the array.
 
 
 
@@ -259,16 +259,16 @@ The Extension DLL must not modify this structure. Changes to the array of attrib
 This structure is used by Extension DLLs that export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>. The functions that add attributes to the array:
 
-<a href="https://docs.microsoft.com/previous-versions/ms688246(v%3dvs.85)">Add</a>
-<a href="https://docs.microsoft.com/previous-versions/ms688296(v%3dvs.85)">InsertAt</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688246(v=vs.85)">Add</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688296(v=vs.85)">InsertAt</a>
 copy the contents of the caller-supplied 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute">RADIUS_ATTRIBUTE</a> structure. Therefore, Extension DLLs that export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a> need not export 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/nc-authif-pradius_extension_free_attributes">RadiusExtensionFreeAttributes</a>.
 
 This structure is returned by the functions 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> and 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a>.
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> and 
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a>.
 
 
 

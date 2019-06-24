@@ -64,7 +64,7 @@ You must call <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_c
 
 ### -param nativeDisplaySizePixels [in]
 
-The native size of the display to spoof, as a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">SetApplicationViewState</a>.
+The native size of the display to spoof, as a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure. The specified size will be normalized to a landscape orientation. To spoof orientation, see <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iapplicationdesignmodesettings-setapplicationviewstate">SetApplicationViewState</a>.
 
 
 ## -returns

@@ -67,7 +67,7 @@ A handle to the window receiving mouse input.
 
 ### -param pt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Initial position of the mouse, in screen coordinates. The function determines the coordinates of the drag rectangle by using this point. 
 
@@ -111,7 +111,7 @@ The system metrics for the drag rectangle are configurable, allowing for larger 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

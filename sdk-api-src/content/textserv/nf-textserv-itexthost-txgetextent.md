@@ -127,7 +127,7 @@ If the vertical and horizontal zoom factors are not the same, the text services 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
 
 
 

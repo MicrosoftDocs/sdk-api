@@ -100,7 +100,7 @@ The Web Help pages always contain the latest and most detailed information about
 To access the Web Help pages directly, use the following error code and support center links.
 
 <ul>
-<li><a href="http://support.microsoft.com/kb/886273">Windows Media Player Error Code Information</a></li>
+<li><a href="https://support.microsoft.com/help/886273">Windows Media Player Error Code Information</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=10187">Windows Media Player Solution Center</a></li>
 </ul>
 <b>Windows Media Player 10 Mobile: </b>This method always returns S_OK, but does not launch the Windows Media Player Web Help page.

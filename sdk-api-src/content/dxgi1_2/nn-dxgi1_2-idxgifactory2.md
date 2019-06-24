@@ -74,7 +74,7 @@ The <b>IDXGIFactory2</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition">CreateSwapChainForComposition</a>
 </td>
 <td align="left" width="63%">
-Creates a swap chain that you can use to send Direct3D content into the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> API or the <a href="https://docs.microsoft.com/en-us/dotnet/api/windows.ui.xaml">Windows.UI.Xaml</a> framework to compose in a window.
+Creates a swap chain that you can use to send Direct3D content into the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> API or the <a href="https://docs.microsoft.com/dotnet/api/windows.ui.xaml?view=dotnet-uwp-10.0">Windows.UI.Xaml</a> framework to compose in a window.
 
 </td>
 </tr>

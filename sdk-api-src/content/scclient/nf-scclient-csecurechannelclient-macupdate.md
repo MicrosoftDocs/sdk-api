@@ -64,7 +64,7 @@ The <b>MACUpdate</b> method adds a value to a message authentication code (MAC).
 
 ### -param hMAC [in]
 
-Handle to the array specifying the MAC for the current parameter data. This handle is returned from the <a href="https://docs.microsoft.com/previous-versions/bb231592(v%3dvs.85)">MACInit</a> method. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
+Handle to the array specifying the MAC for the current parameter data. This handle is returned from the <a href="https://docs.microsoft.com/previous-versions/bb231592(v=vs.85)">MACInit</a> method. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
 
 
 ### -param pbData [in]
@@ -119,7 +119,7 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-An application calls <b>MACUpdate</b> repeatedly with each piece of data to add to the MAC. <b>MACInit</b> must always be called before <b>MACUpdate</b>, and <a href="https://docs.microsoft.com/previous-versions/bb231591(v%3dvs.85)">MACFinal</a> must always be called after <b>MACUpdate</b>. <b>MACInit</b> acquires the MAC handle, <b>phMAC</b>, to be used by the <b>MACUpdate</b> and <b>MACFinal</b> methods.
+An application calls <b>MACUpdate</b> repeatedly with each piece of data to add to the MAC. <b>MACInit</b> must always be called before <b>MACUpdate</b>, and <a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">MACFinal</a> must always be called after <b>MACUpdate</b>. <b>MACInit</b> acquires the MAC handle, <b>phMAC</b>, to be used by the <b>MACUpdate</b> and <b>MACFinal</b> methods.
 
 
 #### Examples

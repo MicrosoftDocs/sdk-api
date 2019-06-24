@@ -61,10 +61,10 @@ The <b>Bitmap::UnlockBits</b> method unlocks a portion of this bitmap that was p
 
 ### -param lockedBitmapData [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534421(v=vs.85)">BitmapData</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534421(v=vs.85)">BitmapData</a>*</b>
 
 Pointer to a 
-					<a href="https://docs.microsoft.com/previous-versions//ms534421(v=vs.85)">BitmapData</a> object that was previously passed to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a>. 
+					<a href="https://docs.microsoft.com/previous-versions/ms534421(v=vs.85)">BitmapData</a> object that was previously passed to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-lockbits">Bitmap::LockBits</a>. 
 
 
 ## -returns

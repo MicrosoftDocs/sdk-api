@@ -84,7 +84,7 @@ Enumerates the existing attributes of the stream buffer file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd377126(v%3dvs.85)">GetAttributeByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd377126(v=vs.85)">GetAttributeByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an attribute, specified by index number.

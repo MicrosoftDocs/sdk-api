@@ -79,15 +79,15 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)"> WSPIoctl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)"> WSPIoctl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
  
 
  

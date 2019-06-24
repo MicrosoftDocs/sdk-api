@@ -126,7 +126,7 @@ Set to indicate that the buffer is a stream buffer.
 </dl>
 </td>
 <td width="60%">
-Set by Windows to indicate that the buffer has been prepared by using the <a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a> function.
+Set by Windows to indicate that the buffer has been prepared by using the <a href="https://docs.microsoft.com/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a> or <a href="https://docs.microsoft.com/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a> function.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Reserved; do not use.
 
 ### -field dwOffset
 
-Offset into the buffer when a callback is performed. (This callback is generated because the MEVT_F_CALLBACK flag is set in the <b>dwEvent</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> structure.) This offset enables an application to determine which event caused the callback.
+Offset into the buffer when a callback is performed. (This callback is generated because the MEVT_F_CALLBACK flag is set in the <b>dwEvent</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.) This offset enables an application to determine which event caused the callback.
 
 
 ### -field dwReserved
@@ -163,7 +163,7 @@ MIDI Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a>
 
 
 
@@ -171,11 +171,11 @@ MIDI Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a>
  
 
  

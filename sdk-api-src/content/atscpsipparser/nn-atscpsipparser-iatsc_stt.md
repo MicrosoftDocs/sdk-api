@@ -121,7 +121,7 @@ Returns the current system time.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389477(v%3dvs.85)">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389477(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for the STT.

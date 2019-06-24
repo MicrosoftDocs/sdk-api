@@ -71,7 +71,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/inst
 
 ### -param PropertyType [in]
 
-A <a href="https://docs.microsoft.com/previous-versions//ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
+A <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed value that represents the property-data-type identifier for the class property. For more information about the property-data-type identifier, see the <b>Remarks</b> section later in this topic.
 
 
 ### -param PropertyBuffer [in, optional]

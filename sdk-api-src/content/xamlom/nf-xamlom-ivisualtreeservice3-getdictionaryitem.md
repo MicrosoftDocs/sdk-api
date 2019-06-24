@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>.
+Gets an item from a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
 
 
 ## -parameters

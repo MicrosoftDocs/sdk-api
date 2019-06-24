@@ -50,7 +50,7 @@ Use this method to save selected frames from a multiple-frame image to another m
 
 ### -param encoderParams
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object that holds parameters required by the image encoder used by the save-add operation.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that holds parameters required by the image encoder used by the save-add operation.
 
 ## -returns
 
@@ -125,9 +125,9 @@ VOID Example_SaveAdd(HDC hdc)
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
 
-<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
-<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a>
 

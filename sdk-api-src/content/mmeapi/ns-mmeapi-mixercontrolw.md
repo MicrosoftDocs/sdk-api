@@ -299,7 +299,7 @@ Audio Mixers
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757302(v=vs.85)">mixerGetLineControls</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
  
 
  

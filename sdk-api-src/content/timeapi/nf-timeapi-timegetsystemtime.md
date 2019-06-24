@@ -66,13 +66,13 @@ The <b>timeGetSystemTime</b> function retrieves the system time, in milliseconds
 
 ### -param pmmt
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
 ### -param cbmmt
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
@@ -89,7 +89,7 @@ If successful, returns <b>TIMERR_NOERROR</b>. Otherwise, returns an error code.
 
 
 
-The system time is returned in the <b>ms</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+The system time is returned in the <b>ms</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 
 

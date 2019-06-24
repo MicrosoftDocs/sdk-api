@@ -66,7 +66,7 @@ Pointer to the full (absolute) path of a .gadget folder. A gadget that is not pa
 
                     
 
-<div class="alert"><b>Note</b>  This path should not contain environment variables; the fully expanded path must be provided. <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> can be used to expand the path to the form required in this parameter.</div>
+<div class="alert"><b>Note</b>  This path should not contain environment variables; the fully expanded path must be provided. <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> can be used to expand the path to the form required in this parameter.</div>
 <div> </div>
 
 

@@ -117,7 +117,7 @@ Point point3 = point1 + point2;
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535009(v=vs.85)">Point::operator-</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">Point::operator-</a>
 
 
 

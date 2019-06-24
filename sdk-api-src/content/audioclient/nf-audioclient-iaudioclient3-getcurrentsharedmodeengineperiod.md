@@ -60,7 +60,7 @@ Returns the current format and periodicity of the audio engine. This method enab
 
 ### -param ppFormat [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>**</b>
 
 The current device format that is being used by the audio engine.
 

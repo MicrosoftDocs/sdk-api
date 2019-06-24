@@ -24,5 +24,5 @@ To develop XPS Documents, you need these headers:
  * [xpsobjectmodel_2.h](../xpsobjectmodel_2/index.md)
 
 For programming guidance for this technology, see:
-* [Documents and Printing](https://msdn.microsoft.com/en-us/library/windows/desktop/ff686798(v=vs.85).aspx)
+* [Documents and Printing](https://docs.microsoft.com/windows/desktop/printdocs/documents-and-printing)
 

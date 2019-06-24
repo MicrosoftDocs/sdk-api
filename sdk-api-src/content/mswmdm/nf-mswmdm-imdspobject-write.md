@@ -64,7 +64,7 @@ The <b>Write</b> method writes data to the object at the current position within
 
 ### -param pData [in]
 
-Pointer to the buffer containing the data to write to the object. This parameter is encrypted and must be decrypted using <a href="https://docs.microsoft.com/previous-versions/bb231598(v%3dvs.85)">CSecureChannelServer::DecryptParam</a> with the MAC in <i>abMac</i>. See Remarks.
+Pointer to the buffer containing the data to write to the object. This parameter is encrypted and must be decrypted using <a href="https://docs.microsoft.com/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a> with the MAC in <i>abMac</i>. See Remarks.
 
 
 ### -param pdwSize [in, out]

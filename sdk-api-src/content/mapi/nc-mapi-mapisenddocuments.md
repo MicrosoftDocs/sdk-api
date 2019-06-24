@@ -209,7 +209,7 @@ Message attachments can include the active document or all the currently open do
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

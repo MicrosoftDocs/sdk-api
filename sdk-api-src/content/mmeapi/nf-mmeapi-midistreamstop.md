@@ -65,7 +65,7 @@ The <b>midiStreamStop</b> function turns off all notes on all MIDI channels for 
 
 ### -param hms
 
-Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions//dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
 
 
 ## -returns
@@ -100,9 +100,9 @@ The specified device handle is invalid.
 
 
 
-When you call this function, any pending system-exclusive or stream output buffers are returned to the callback mechanism and the MHDR_DONE bit is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
+When you call this function, any pending system-exclusive or stream output buffers are returned to the callback mechanism and the MHDR_DONE bit is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
-While the <a href="https://docs.microsoft.com/previous-versions//dd798479(v=vs.85)">midiOutReset</a> function turns off all notes, <b>midiStreamStop</b> turns off only those notes that have been turned on by a MIDI note-on message.
+While the <a href="https://docs.microsoft.com/previous-versions/dd798479(v=vs.85)">midiOutReset</a> function turns off all notes, <b>midiStreamStop</b> turns off only those notes that have been turned on by a MIDI note-on message.
 
 
 

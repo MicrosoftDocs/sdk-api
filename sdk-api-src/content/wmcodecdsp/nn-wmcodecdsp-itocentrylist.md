@@ -79,7 +79,7 @@ Adds an individual entry to the list and assigns an index to the entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264259(v%3dvs.85)">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an individual entry to the list and associates a caller-supplied index with the entry.
@@ -106,7 +106,7 @@ Retrieves the number of entries in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264262(v%3dvs.85)">RemoveEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264262(v=vs.85)">RemoveEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes an entry, specified by an index, from the list.

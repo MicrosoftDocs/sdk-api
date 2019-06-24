@@ -60,32 +60,32 @@ The type of a state subobject. Use with <a href="https://msdn.microsoft.com/en-u
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_STATE_OBJECT_CONFIG
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_GLOBAL_ROOT_SIGNATURE
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_global_root_signature">D3D12_GLOBAL_ROOT_SIGNATURE</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_global_root_signature">D3D12_GLOBAL_ROOT_SIGNATURE</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_LOCAL_ROOT_SIGNATURE
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_local_root_signature">D3D12_LOCAL_ROOT_SIGNATURE</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_local_root_signature">D3D12_LOCAL_ROOT_SIGNATURE</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_NODE_MASK
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_node_mask">D3D12_NODE_MASK</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_node_mask">D3D12_NODE_MASK</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_LIBRARY
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_library_desc">D3D12_DXIL_LIBRARY_DESC</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_library_desc">D3D12_DXIL_LIBRARY_DESC</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_EXISTING_COLLECTION
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_existing_collection_desc">D3D12_EXISTING_COLLECTION_DESC</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_existing_collection_desc">D3D12_EXISTING_COLLECTION_DESC</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_SUBOBJECT_TO_EXPORTS_ASSOCIATION
@@ -95,22 +95,22 @@ Subobject type is <a href="https://msdn.microsoft.com/en-us/library/Mt830409(v=V
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association">D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_dxil_subobject_to_exports_association">D3D12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_SHADER_CONFIG
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config">D3D12_RAYTRACING_SHADER_CONFIG</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config">D3D12_RAYTRACING_SHADER_CONFIG</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_RAYTRACING_PIPELINE_CONFIG
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config">D3D12_RAYTRACING_PIPELINE_CONFIG</a>.
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config">D3D12_RAYTRACING_PIPELINE_CONFIG</a>.
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_HIT_GROUP
 
-Subobject type is <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a>
+Subobject type is <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a>
 
 
 ### -field D3D12_STATE_SUBOBJECT_TYPE_MAX_VALID

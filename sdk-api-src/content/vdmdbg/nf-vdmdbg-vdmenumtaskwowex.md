@@ -67,7 +67,7 @@ The process identifier of the VDM. This should be the process identifier that th
 
 ### -param fp [in]
 
-A pointer to a callback function. The function is called for each enumerated task. For details, see the <a href="https://docs.microsoft.com/previous-versions//bb963828(v=vs.85)">ProcessTask</a> callback function.
+A pointer to a callback function. The function is called for each enumerated task. For details, see the <a href="https://docs.microsoft.com/previous-versions/bb963828(v=vs.85)">ProcessTask</a> callback function.
 
 
 ### -param lparam [in]

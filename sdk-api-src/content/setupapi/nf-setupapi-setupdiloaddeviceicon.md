@@ -107,7 +107,7 @@ A pointer to a handle to an icon that receives a handle to the icon that this fu
 <li>
 If the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devpkey-drvpkg-icon">DEVPKEY_DrvPkg_Icon</a> device property of the device includes a list of resource-identifier strings, the function attempts to retrieve the icon that is specified by the first resource-identifier string in the list. 
 
-The <a href="https://docs.microsoft.com/previous-versions//ff541476(v=vs.85)">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>. 
+The <a href="https://docs.microsoft.com/previous-versions/ff541476(v=vs.85)">device property data type</a> of the DEVPKEY_DrvPkg_Icon device property is <a href="https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-string-list">DEVPROP_TYPE_STRING_LIST</a>. 
 
 The format of a resource-identifier string is
 

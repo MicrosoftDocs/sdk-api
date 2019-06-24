@@ -79,7 +79,7 @@ Index location for the insertion of the DLL in the list of DLLs. If <i>dwIndex</
 
 ### -param pwszDll [in]
 
-Optional environment-variable string to be expanded using <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
+Optional environment-variable string to be expanded using <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
 
 
 ## -returns

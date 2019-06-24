@@ -60,7 +60,7 @@ Retrieves a point on the element that can be clicked.
 
 ### -param clickable [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 Receives the physical screen coordinates of a point that can be used by a client to click this element.
 

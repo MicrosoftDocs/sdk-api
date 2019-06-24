@@ -79,10 +79,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534956(v=vs.85)">Contains(REAL,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534956(v=vs.85)">Contains(REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534956(v=vs.85)">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
+The <a href="https://docs.microsoft.com/previous-versions/ms534956(v=vs.85)">RectF::Contains</a> method determines whether the point (<i>x</i>, <i>y</i>) is inside this rectangle.
 
 </td>
 </tr>

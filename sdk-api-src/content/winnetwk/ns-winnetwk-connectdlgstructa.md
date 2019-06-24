@@ -82,7 +82,7 @@ The handle to the owner window for the dialog box.
 Type: <b>LPNETRESOURCE</b>
 
 A pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. 
 
 
 
@@ -130,7 +130,7 @@ Display a read-only path instead of allowing the user to type in a path.
 
 
 This flag should be set only if the <b>lpRemoteName</b> member of the 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by <b>lpConnRes</b> member is not <b>NULL</b> (or an empty string), and the <b>CONNDLG_USE_MRU</b> flag is not set.
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure pointed to by <b>lpConnRes</b> member is not <b>NULL</b> (or an empty string), and the <b>CONNDLG_USE_MRU</b> flag is not set.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ The CONNDLG_PERSIST and CONNDLG_NOT_PERSIST values cannot both be set. If neithe
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 

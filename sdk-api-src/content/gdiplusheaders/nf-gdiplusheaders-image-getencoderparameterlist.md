@@ -77,10 +77,10 @@ Integer that specifies the size, in bytes, of the
 
 ### -param buffer [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>*</b>
 
 Pointer to an 
-					<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object that receives the list of supported parameters. 
+					<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that receives the list of supported parameters. 
 
 
 ## -returns
@@ -104,8 +104,8 @@ If the method fails, it returns one of the other elements of the
 
 
 The <b>Image::GetEncoderParameterList</b> method returns an array of 
-				<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
-				<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize">Image::GetEncoderParameterListSize</a> method to get the size, in bytes, of the required 
+				<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
+				<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlistsize">Image::GetEncoderParameterListSize</a> method to get the size, in bytes, of the required 
 				<b>EncoderParameters</b> object. 
 
 

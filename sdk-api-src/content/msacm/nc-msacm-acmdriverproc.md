@@ -120,7 +120,7 @@ Returns zero if successful or an error otherwise.
 
 
 
-Applications should not call any system-defined functions from inside a callback function, except for <b>PostMessage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a>, <a href="https://docs.microsoft.com/previous-versions//dd757634(v=vs.85)">timeSetEvent</a>, <a href="https://docs.microsoft.com/previous-versions//dd757630(v=vs.85)">timeKillEvent</a>, <a href="https://docs.microsoft.com/previous-versions//dd798481(v=vs.85)">midiOutShortMsg</a>, <a href="https://docs.microsoft.com/previous-versions//dd798474(v=vs.85)">midiOutLongMsg</a>, and <b>OutputDebugStr</b>.
+Applications should not call any system-defined functions from inside a callback function, except for <b>PostMessage</b>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a>, <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegettime">timeGetTime</a>, <a href="https://docs.microsoft.com/previous-versions/dd757634(v=vs.85)">timeSetEvent</a>, <a href="https://docs.microsoft.com/previous-versions/dd757630(v=vs.85)">timeKillEvent</a>, <a href="https://docs.microsoft.com/previous-versions/dd798481(v=vs.85)">midiOutShortMsg</a>, <a href="https://docs.microsoft.com/previous-versions/dd798474(v=vs.85)">midiOutLongMsg</a>, and <b>OutputDebugStr</b>.
 
 
 

@@ -60,7 +60,7 @@ Defines general properties of a state object.
 
 ### -field Flags
 
-A value from the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_flags">D3D12_STATE_OBJECT_FLAGS</a> flags enumeration that specifies the requirements for the state object.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_state_object_flags">D3D12_STATE_OBJECT_FLAGS</a> flags enumeration that specifies the requirements for the state object.
 
 
 ## -remarks

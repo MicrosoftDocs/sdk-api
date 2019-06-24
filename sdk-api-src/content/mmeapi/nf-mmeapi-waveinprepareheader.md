@@ -70,7 +70,7 @@ Handle to the waveform-audio input device.
 
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer to be prepared.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the buffer to be prepared.
 
 
 ### -param cbwh

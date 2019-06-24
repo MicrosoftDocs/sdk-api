@@ -59,19 +59,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535285(v=vs.85)">Metafile(WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535285(v=vs.85)">Metafile(WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535285(v=vs.85)">Metafile::Metafile</a> object for playback.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535285(v=vs.85)">Metafile::Metafile</a> object for playback.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535294(v=vs.85)">Metafile(IStream*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535294(v=vs.85)">Metafile(IStream*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535294(v=vs.85)">Metafile::Metafile</a> object from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface for playback.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535294(v=vs.85)">Metafile::Metafile</a> object from an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface for playback.
 
 </td>
 </tr>
@@ -86,91 +86,91 @@ Creates a GDI+ <a href="https://docs.microsoft.com/windows/desktop/api/gdiplush
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535284(v=vs.85)">Metafile(HDC,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535284(v=vs.85)">Metafile(HDC,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535284(v=vs.85)">Metafile::Metafile</a> object for recording.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535284(v=vs.85)">Metafile::Metafile</a> object for recording.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535293(v=vs.85)">Metafile(WCHAR*,HDC,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535293(v=vs.85)">Metafile(WCHAR*,HDC,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535293(v=vs.85)">Metafile::Metafile</a> object for recording.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535293(v=vs.85)">Metafile::Metafile</a> object for recording.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535290(v=vs.85)">Metafile(IStream*,HDC,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535290(v=vs.85)">Metafile(IStream*,HDC,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535290(v=vs.85)">Metafile::Metafile</a> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535290(v=vs.85)">Metafile::Metafile</a> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535287(v=vs.85)">Metafile(HMETAFILE,WmfPlaceableFileHeader*,BOOL)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535287(v=vs.85)">Metafile(HMETAFILE,WmfPlaceableFileHeader*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates a GDI+<a href="https://docs.microsoft.com/previous-versions//ms535287(v=vs.85)">Metafile::Metafile</a> object for recording. The format will be placeable metafile.
+Creates a GDI+<a href="https://docs.microsoft.com/previous-versions/ms535287(v=vs.85)">Metafile::Metafile</a> object for recording. The format will be placeable metafile.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535296(v=vs.85)">Metafile(HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535296(v=vs.85)">Metafile(HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535296(v=vs.85)">Metafile::Metafile</a> object for recording.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535296(v=vs.85)">Metafile::Metafile</a> object for recording.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535286(v=vs.85)">Metafile(HDC,RectF&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535286(v=vs.85)">Metafile(HDC,RectF&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535286(v=vs.85)">Metafile::Metafile</a> object for recording.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535286(v=vs.85)">Metafile::Metafile</a> object for recording.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535288(v=vs.85)">Metafile(WCHAR*,HDC,Rect&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535288(v=vs.85)">Metafile(WCHAR*,HDC,Rect&,MetaFileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535288(v=vs.85)">Metafile::Metafile</a> object for recording.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535288(v=vs.85)">Metafile::Metafile</a> object for recording.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535292(v=vs.85)">Metafile(WCHAR*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535292(v=vs.85)">Metafile(WCHAR*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535292(v=vs.85)">Metafile::Metafile</a> object for recording.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535292(v=vs.85)">Metafile::Metafile</a> object for recording.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535291(v=vs.85)">Metafile(IStream*,HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535291(v=vs.85)">Metafile(IStream*,HDC,Rect&,MetafileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535291(v=vs.85)">Metafile::Metafile</a> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535291(v=vs.85)">Metafile::Metafile</a> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535289(v=vs.85)">Metafile(IStream*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535289(v=vs.85)">Metafile(IStream*,HDC,RectF&,MetafileFrameUnit,EmfType,WCHAR*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535289(v=vs.85)">Metafile::Metafile</a> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535289(v=vs.85)">Metafile::Metafile</a> object for recording to an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> interface.
 
 </td>
 </tr>

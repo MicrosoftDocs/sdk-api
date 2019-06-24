@@ -182,7 +182,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 </td>

@@ -111,7 +111,7 @@ The following example creates a
 						<b>PathGradientBrush</b>object to multiply the brush's existing transformation matrix by a matrix that represents a translation (10 right, 30 down). The MatrixOrderAppend argument indicates that the multiplication is performed with the translation matrix on the right.
 
 After the multiplication, the brush's transformation matrix represents a composite transformation: first scale, then translate. That composite transformation is applied to the brush's boundary path during the call to 
-						<a href="https://docs.microsoft.com/previous-versions//ms535957(v=vs.85)">FillRectangle</a>, so it is the area inside the transformed path that gets painted.
+						<a href="https://docs.microsoft.com/previous-versions/ms535957(v=vs.85)">FillRectangle</a>, so it is the area inside the transformed path that gets painted.
 
 
 ```cpp

@@ -101,7 +101,7 @@ You can use the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusi
 <li>Pass the path name of a color profile file to the <b>ImageAttributes::SetOutputChannelColorProfile</b> method of the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object. </li>
 <li>Pass the addresses of the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> and 
-						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> objects to the <a href="https://docs.microsoft.com/previous-versions//ms536030(v=vs.85)">DrawImage</a> method. </li>
+						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> objects to the <a href="https://docs.microsoft.com/previous-versions/ms536030(v=vs.85)">DrawImage</a> method. </li>
 </ol>
 Windows GDI+ will use the color-profile file to calculate the cyan component of each pixel in the image, and each pixel in the rendered image will be a shade of gray that indicates the intensity of its cyan channel.
 
@@ -117,7 +117,7 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 
 
-The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object and calls the <a href="https://docs.microsoft.com/previous-versions//ms536030(v=vs.85)">DrawImage</a> method to draw the image. Then the code creates an 
+The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object and calls the <a href="https://docs.microsoft.com/previous-versions/ms536030(v=vs.85)">DrawImage</a> method to draw the image. Then the code creates an 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nl-gdiplusimageattributes-imageattributes">ImageAttributes</a> object and calls its <b>ImageAttributes::SetOutputChannelColorProfile</b> method to specify a profile file for the bitmap category. The call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannel">ImageAttributes::SetOutputChannel</a> sets the output channel (for the bitmap category) to cyan. The code calls <b>DrawImage</b> a second time, passing the address of the <b>Image</b> object and the address of the <b>ImageAttributes</b> object. The cyan channel of each pixel is calculated, and the rendered image shows the intensities of the cyan channel as shades of gray. The code calls <b>DrawImage</b> three more times to show the intensities of the magenta, yellow, and black channels.
 
 

@@ -79,7 +79,7 @@ Pointer to a variable that receives the number of entries returned in <i>pPallet
 
 ### -param pPalette [out]
 
-Pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures of size <i>Entries</i>. Cast the pointer to a long pointer type. The method fills the array.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures of size <i>Entries</i>. Cast the pointer to a long pointer type. The method fills the array.
 
 
 ## -returns

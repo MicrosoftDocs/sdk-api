@@ -59,19 +59,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535411(v=vs.85)">Image(WCHAR*,BOOL)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535411(v=vs.85)">Image(WCHAR*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/previous-versions//ms535411(v=vs.85)">Image::Image</a> object based on a file.
+Creates an <a href="https://docs.microsoft.com/previous-versions/ms535411(v=vs.85)">Image::Image</a> object based on a file.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535410(v=vs.85)">Image(IStream*,BOOL)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535410(v=vs.85)">Image(IStream*,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/previous-versions//ms535410(v=vs.85)">Image::Image</a> object based on a stream.
+Creates an <a href="https://docs.microsoft.com/previous-versions/ms535410(v=vs.85)">Image::Image</a> object based on a stream.
 
 </td>
 </tr>

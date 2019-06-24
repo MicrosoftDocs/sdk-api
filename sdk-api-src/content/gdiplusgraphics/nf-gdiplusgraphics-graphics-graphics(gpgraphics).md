@@ -59,19 +59,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536160(v=vs.85)">Graphics(HDC)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536160(v=vs.85)">Graphics(HDC)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536160(v=vs.85)">Graphics::Graphics</a> object that is associated with a specified device context.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536160(v=vs.85)">Graphics::Graphics</a> object that is associated with a specified device context.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536159(v=vs.85)">Graphics(Image*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536159(v=vs.85)">Graphics(Image*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536159(v=vs.85)">Graphics::Graphics</a> object that is associated with an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536159(v=vs.85)">Graphics::Graphics</a> object that is associated with an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.
 
 </td>
 </tr>

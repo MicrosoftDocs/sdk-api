@@ -78,7 +78,7 @@ This method returns a <b>UINT</b> that specifies the size, in bytes, of the meta
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 

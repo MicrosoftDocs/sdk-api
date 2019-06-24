@@ -73,7 +73,7 @@ Four-character code identifying the I/O procedure to install, remove, or locate.
 
 ### -param pIOProc
 
-Pointer to the I/O procedure to install. To remove or locate an I/O procedure, set this parameter to <b>NULL</b>. For more information about the I/O procedure, see <a href="https://docs.microsoft.com/previous-versions//dd757332(v=vs.85)">MMIOProc</a>.
+Pointer to the I/O procedure to install. To remove or locate an I/O procedure, set this parameter to <b>NULL</b>. For more information about the I/O procedure, see <a href="https://docs.microsoft.com/previous-versions/dd757332(v=vs.85)">MMIOProc</a>.
 
 
 ### -param dwFlags

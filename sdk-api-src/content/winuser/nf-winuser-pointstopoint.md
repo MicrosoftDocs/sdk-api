@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure into a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure.
+The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure into a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure.
 
 
 
@@ -63,12 +63,12 @@ The <b>POINTSTOPOINT</b> macro copies the contents of a <a href="https://docs.mi
 
 ### -param pt
 
-The <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure to receive the contents of the <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure.
+The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure to receive the contents of the <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure.
 
 
 ### -param pts
 
-The <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure to copy.
+The <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure to copy.
 
 
 ## -see-also

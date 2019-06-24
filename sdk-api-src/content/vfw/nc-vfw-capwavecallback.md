@@ -70,7 +70,7 @@ Handle to the capture window associated with the callback function.
 
 ### -param lpWHdr
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure containing information about the captured audio data.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure containing information about the captured audio data.
 
 
 ## -remarks

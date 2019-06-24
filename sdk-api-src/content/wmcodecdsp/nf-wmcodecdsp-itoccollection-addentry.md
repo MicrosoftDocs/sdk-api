@@ -110,7 +110,7 @@ In the context of an <a href="https://docs.microsoft.com/windows/desktop/api/wmc
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264253(v%3dvs.85)">GetEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264253(v=vs.85)">GetEntryByIndex</a>
 
 
 

@@ -77,7 +77,7 @@ The number of logical-palette entries to be set.
 
 ### -param pPalEntries [in]
 
-A pointer to the first member of an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures containing the RGB values and flags.
+A pointer to the first member of an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures containing the RGB values and flags.
 
 
 ## -returns
@@ -123,7 +123,7 @@ Even if a logical palette has been selected and realized, changes to the palette
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
 
 
 

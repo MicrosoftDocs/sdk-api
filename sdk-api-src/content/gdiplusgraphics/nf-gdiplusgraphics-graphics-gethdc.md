@@ -95,7 +95,7 @@ Any state changes you make to the device context between <b>Graphics::GetHDC</b>
 
 The following function uses GDI+ to draw an ellipse, then uses GDI to draw a rectangle, and finally uses GDI+ to draw a line. The function's one parameter is a pointer to a GDI+ 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object. The code calls the
-<a href="https://docs.microsoft.com/previous-versions//ms536067(v=vs.85)">Graphics::DrawEllipse</a> method of that 
+<a href="https://docs.microsoft.com/previous-versions/ms536067(v=vs.85)">Graphics::DrawEllipse</a> method of that 
 						<b>Graphics</b> object to draw an ellipse. Next, the code calls the <b>Graphics::GetHDC</b> method to obtain a handle to the device context associated with the 
 						<b>Graphics</b> object. The code draws a rectangle by passing the device context handle to the GDI<b>Rectangle</b> function. The code calls the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-releasehdc">Graphics::ReleaseHDC</a> method of the 
 						<b>Graphics</b> object and then uses the 

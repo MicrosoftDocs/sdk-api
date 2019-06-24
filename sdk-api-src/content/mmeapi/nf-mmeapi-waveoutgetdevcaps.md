@@ -68,7 +68,7 @@ Identifier of the waveform-audio output device. It can be either a device identi
 
 ### -param pwoc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743855(v=vs.85)">WAVEOUTCAPS</a> structure to be filled with information about the capabilities of the device.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743855(v=vs.85)">WAVEOUTCAPS</a> structure to be filled with information about the capabilities of the device.
 
 
 ### -param cbwoc

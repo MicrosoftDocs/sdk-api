@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A geometry-shader interface manages an executable program (a geometry shader) that controls the <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">geometry-shader stage</a>.
+A geometry-shader interface manages an executable program (a geometry shader) that controls the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">geometry-shader stage</a>.
 
 
 ## -remarks

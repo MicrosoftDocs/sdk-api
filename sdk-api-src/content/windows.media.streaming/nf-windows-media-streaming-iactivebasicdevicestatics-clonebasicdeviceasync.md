@@ -65,7 +65,7 @@ The basic device object to clone.
 
 ### -param value [out, retval]
 
-The asynchronous operation. Upon completion, <a href="https://docs.microsoft.com/previous-versions//br205815(v=vs.85)">IAsyncOperation.GetResults</a> returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> object.
+The asynchronous operation. Upon completion, <a href="https://docs.microsoft.com/previous-versions/br205815(v=vs.85)">IAsyncOperation.GetResults</a> returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385755(v=vs.85)">ActiveBasicDevice</a> object.
 
 
 ## -returns

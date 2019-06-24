@@ -106,7 +106,7 @@ A pointer to a variable that receives a pointer to the <a href="https://docs.mic
 </ul>
 
 
-<b>Platform Update for Windows 7:  </b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_scaling">DXGI_SCALING_NONE</a> is not supported on Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed and causes <b>CreateSwapChainForHwnd</b> to return DXGI_ERROR_INVALID_CALL when called. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
+<b>Platform Update for Windows 7:  </b><a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_2/ne-dxgi1_2-dxgi_scaling">DXGI_SCALING_NONE</a> is not supported on Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed and causes <b>CreateSwapChainForHwnd</b> to return DXGI_ERROR_INVALID_CALL when called. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
 
 
 

@@ -124,7 +124,7 @@ Retrieves the number of tables of contents, of a specified <a href="https://docs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264278(v%3dvs.85)">RemoveTocByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264278(v=vs.85)">RemoveTocByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes a table of contents, specified by an index, from the TOC Parser object.

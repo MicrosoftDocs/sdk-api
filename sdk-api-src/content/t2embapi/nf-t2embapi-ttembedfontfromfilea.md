@@ -221,7 +221,7 @@ Pointer to a bitfield containing status information about the embedding request.
 
 ### -param lpfnWriteToStream
 
-Pointer to the client-defined callback function that writes the font structure to the document stream.  See <a href="https://docs.microsoft.com/previous-versions//dd145225(v=vs.85)">WRITEEMBEDPROC</a>.
+Pointer to the client-defined callback function that writes the font structure to the document stream.  See <a href="https://docs.microsoft.com/previous-versions/dd145225(v=vs.85)">WRITEEMBEDPROC</a>.
 
 
 ### -param lpvWriteStream [in]

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A vertex-shader interface manages an executable program (a vertex shader) that controls the <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">vertex-shader stage</a>.
+A vertex-shader interface manages an executable program (a vertex shader) that controls the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">vertex-shader stage</a>.
 
 
 ## -remarks

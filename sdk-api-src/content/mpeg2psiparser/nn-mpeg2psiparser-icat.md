@@ -103,7 +103,7 @@ Retrieves the <i>next</i> table that follows the current table.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd311939(v%3dvs.85)">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd311939(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table descriptor for the CAT.

@@ -71,11 +71,11 @@ An array of handles.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a>
 
 
 

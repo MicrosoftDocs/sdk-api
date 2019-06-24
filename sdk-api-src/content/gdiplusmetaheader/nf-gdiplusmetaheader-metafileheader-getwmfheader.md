@@ -78,7 +78,7 @@ If the associated metafile is in the WMF format, this method returns a pointer t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 

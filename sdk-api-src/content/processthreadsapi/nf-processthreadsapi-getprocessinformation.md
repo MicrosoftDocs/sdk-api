@@ -150,7 +150,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
 
 
 

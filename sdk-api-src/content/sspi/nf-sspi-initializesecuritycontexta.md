@@ -95,7 +95,7 @@ For information about using this function with a specific <a href="https://docs.
 </tr>
 <tr>
 <td>
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a>
 </td>
 <td>Initiates the client side, outbound security context from a credential handle by using the Schannel security package.</td>
 </tr>

@@ -134,11 +134,11 @@ One or more parameters are invalid.
 
 
 
-Use the <a href="https://docs.microsoft.com/previous-versions//dd757304(v=vs.85)">mixerGetNumDevs</a> function to determine the number of mixer devices present in the system. The device identifier specified by <i>uMxId</i> varies from zero to one less than the number of mixer devices present.
+Use the <a href="https://docs.microsoft.com/previous-versions/dd757304(v=vs.85)">mixerGetNumDevs</a> function to determine the number of mixer devices present in the system. The device identifier specified by <i>uMxId</i> varies from zero to one less than the number of mixer devices present.
 
 Only the number of bytes (or less) of information specified in <i>cbmxcaps</i> is copied to the location pointed to by <i>pmxcaps</i>. If <i>cbmxcaps</i> is zero, nothing is copied, and the function returns successfully.
 
-This function also accepts a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)">mixerOpen</a> function as the <i>uMxId</i> parameter. The application should cast the <b>HMIXER</b> handle to a <b>UINT</b>.
+This function also accepts a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd757308(v=vs.85)">mixerOpen</a> function as the <i>uMxId</i> parameter. The application should cast the <b>HMIXER</b> handle to a <b>UINT</b>.
 
 
 

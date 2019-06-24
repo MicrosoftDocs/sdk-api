@@ -153,7 +153,7 @@ If the next layer in the protocol chain is another layer, then, when the next la
 
 This same propagation policy applies when propagating a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">WSPStringToAddress</a>.
@@ -170,7 +170,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDucplicateSocket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDucplicateSocket</a>
 
 
 

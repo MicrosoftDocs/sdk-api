@@ -64,7 +64,7 @@ The <b>Image::SetPropertyItem</b> method sets a property item (piece of metadata
 
 Type: <b>const PropertyItem*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a> object that specifies the property item to be set. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a> object that specifies the property item to be set. 
 
 
 ## -returns
@@ -176,7 +176,7 @@ INT main()
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a>
 
 
 

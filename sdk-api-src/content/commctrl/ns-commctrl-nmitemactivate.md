@@ -104,10 +104,10 @@ Set of flags that indicate the item attributes that have changed. This member is
 
 ### -field ptAction
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that indicates the location at which the event occurred, in client coordinates. This member is undefined for notification codes that do not use it. 
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that indicates the location at which the event occurred, in client coordinates. This member is undefined for notification codes that do not use it. 
 
 
 ### -field lParam

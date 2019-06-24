@@ -161,7 +161,7 @@ Applications frequently use the
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions//aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
 
 <div class="code"></div>
 

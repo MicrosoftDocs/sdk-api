@@ -78,7 +78,7 @@ This method returns the version of the metafile. The metafile version indicates 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 

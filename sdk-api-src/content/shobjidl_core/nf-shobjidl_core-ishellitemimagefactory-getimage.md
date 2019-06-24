@@ -60,7 +60,7 @@ Gets an <b>HBITMAP</b> that represents an <a href="https://docs.microsoft.com/wi
 
 ### -param size [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
 
 A structure that specifies the size of the image to be received.
 

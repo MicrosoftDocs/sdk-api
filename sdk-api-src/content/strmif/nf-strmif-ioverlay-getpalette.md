@@ -69,7 +69,7 @@ Pointer to a variable that receives the number of colors present.
 
 ### -param ppPalette [out]
 
-Receives a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structure describing the palette.
+Receives a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure describing the palette.
 
 
 ## -returns

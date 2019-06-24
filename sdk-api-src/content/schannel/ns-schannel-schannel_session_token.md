@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies whether reconnections are enabled for an authentication session created by calling either the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
+Specifies whether reconnections are enabled for an authentication session created by calling either the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
 
 
 ## -struct-fields

@@ -214,7 +214,7 @@ Supports separate left and right volume control.
 </dl>
 </td>
 <td width="60%">
-Provides direct support for the <a href="https://docs.microsoft.com/previous-versions//dd798487(v=vs.85)">midiStreamOut</a> function.
+Provides direct support for the <a href="https://docs.microsoft.com/previous-versions/dd798487(v=vs.85)">midiStreamOut</a> function.
 
 </td>
 </tr>
@@ -247,7 +247,7 @@ If a device supports volume changes, the MIDICAPS_VOLUME flag will be set for th
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798487(v=vs.85)">midiStreamOut</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798487(v=vs.85)">midiStreamOut</a>
  
 
  

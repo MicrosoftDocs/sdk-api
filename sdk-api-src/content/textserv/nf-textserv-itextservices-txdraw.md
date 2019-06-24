@@ -269,7 +269,7 @@ Also, take great care when the control is in-place active. This problem is even 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>
 
 
 

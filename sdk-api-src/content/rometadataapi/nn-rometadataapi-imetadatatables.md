@@ -207,7 +207,7 @@ Gets the size, in bytes, of the string heap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//hh870662(v=vs.85)">GetTableIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/hh870662(v=vs.85)">GetTableIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the index for the table referenced by the specified token.

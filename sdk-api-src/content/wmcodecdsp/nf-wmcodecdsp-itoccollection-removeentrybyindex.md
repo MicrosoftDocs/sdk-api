@@ -105,7 +105,7 @@ In the context of an <a href="https://docs.microsoft.com/windows/desktop/api/wmc
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264252(v%3dvs.85)">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264252(v=vs.85)">AddEntryByIndex</a>
 
 
 

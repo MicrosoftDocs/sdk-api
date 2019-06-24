@@ -20,5 +20,5 @@ To develop Kernel-Mode Driver Reference, you need these headers:
  * [ntdef.h](../ntdef/index.md)
 
 For programming guidance for this technology, see:
-* [Kernel-Mode Driver Reference](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel)
+* [Kernel-Mode Driver Reference](https://docs.microsoft.com/windows-hardware/drivers/kernel/)
 

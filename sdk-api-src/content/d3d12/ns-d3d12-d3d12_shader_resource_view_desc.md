@@ -141,7 +141,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_t
 
 ### -field RaytracingAccelerationStructure
 
-A <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_srv">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV</a> structure that views the resource as a raytracing acceleration structure.
+A <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_srv">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV</a> structure that views the resource as a raytracing acceleration structure.
             
 
 

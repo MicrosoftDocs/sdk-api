@@ -65,7 +65,7 @@ The current state of the keyboard modifier keys on the keyboard. Valid values ca
 
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
+A <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structure containing the current cursor coordinates in screen coordinates.
 
 
 ### -param pdwEffect [in, out]

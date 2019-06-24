@@ -65,7 +65,7 @@ GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the 
 
 ### -field ProviderGuid
 
-GUID that uniquely identifies the provider that supports the counter set. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element contains the GUID.
+GUID that uniquely identifies the provider that supports the counter set. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element contains the GUID.
 
 
 ### -field NumCounters

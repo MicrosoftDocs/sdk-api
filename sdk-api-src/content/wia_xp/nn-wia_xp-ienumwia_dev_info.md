@@ -123,7 +123,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ien
 
 
 
-The <b>IEnumWIA_DEV_INFO</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions//ms680089(v=vs.85)">IEnumXXXX</a>.
+The <b>IEnumWIA_DEV_INFO</b> interface is a specific implementation for WIA of the standard OLE enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
 
 Applications obtain a pointer to the <b>IEnumWIA_DEV_INFO</b> interface by invoking the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-enumdeviceinfo">IWiaDevMgr::EnumDeviceInfo</a> method.
 
@@ -175,7 +175,7 @@ The <b>IEnumWIA_DEV_INFO</b> interface, like all Component Object Model (COM) in
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms680089(v=vs.85)">IEnumXXXX</a>
+<a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>
 
 
 

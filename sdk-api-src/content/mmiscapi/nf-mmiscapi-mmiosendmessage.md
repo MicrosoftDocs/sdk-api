@@ -66,7 +66,7 @@ The <b>mmioSendMessage</b> function sends a message to the I/O procedure associa
 
 ### -param hmmio
 
-File handle for a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
+File handle for a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 ### -param uMsg

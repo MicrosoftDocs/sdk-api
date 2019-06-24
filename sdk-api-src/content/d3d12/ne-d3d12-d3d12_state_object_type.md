@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of a state object. Use with <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
+Specifies the type of a state object. Use with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
 
 
 ## -enum-fields

@@ -305,7 +305,7 @@ Retrieves a list of supported paper sizes. The <i>pOutput</i> buffer receives an
 </dl>
 </td>
 <td width="60%">
-Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
+Retrieves the dimensions, in tenths of a millimeter, of each supported paper size. The <i>pOutput</i> buffer receives an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures. Each structure contains the width (x-dimension) and length (y-dimension) of a paper size as if the paper were in the <b>DMORIENT_PORTRAIT</b> orientation. The return value indicates the number of entries in the array.
 
 </td>
 </tr>
@@ -514,7 +514,7 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

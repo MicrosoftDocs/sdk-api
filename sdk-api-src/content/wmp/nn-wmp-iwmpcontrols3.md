@@ -145,7 +145,7 @@ Specifies the LCID of the audio language for playback.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/aa388723(v%3dvs.85)">put_currentAudioLanguageIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/aa388723(v=vs.85)">put_currentAudioLanguageIndex</a>
 </td>
 <td align="left" width="63%">
 Specifies the one-based index that corresponds to the audio language for playback.

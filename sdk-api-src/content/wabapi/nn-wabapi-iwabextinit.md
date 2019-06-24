@@ -71,7 +71,7 @@ The <b>IWABExtInit</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629473(v=vs.85)">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629473(v=vs.85)">Initialize</a>
 </td>
 <td align="left" width="63%">
 Provides a WAB module with information about the object being displayed.

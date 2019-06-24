@@ -74,7 +74,7 @@ The following topics contain tasks defined using XML.<ul>
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/time-trigger-example--xml-">Time Trigger Example (XML)</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions//aa446889(v=vs.85)">Event Trigger Example (XML)</a>
+<a href="https://docs.microsoft.com/previous-versions/aa446889(v=vs.85)">Event Trigger Example (XML)</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/TaskSchd/daily-trigger-example--xml-">Daily Trigger Example (XML)</a>

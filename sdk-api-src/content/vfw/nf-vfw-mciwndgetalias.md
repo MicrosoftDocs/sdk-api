@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>MCIWndGetAlias</b> macro retrieves the alias used to open an MCI device or file with the <a href="https://docs.microsoft.com/previous-versions//dd757161(v=vs.85)">mciSendString</a> function. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getalias">MCIWNDM_GETALIAS</a> message.
+The <b>MCIWndGetAlias</b> macro retrieves the alias used to open an MCI device or file with the <a href="https://docs.microsoft.com/previous-versions/dd757161(v=vs.85)">mciSendString</a> function. You can use this macro or explicitly send the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mciwndm-getalias">MCIWNDM_GETALIAS</a> message.
 
 
 

@@ -62,7 +62,7 @@ The
 ### -param s [in]
 
 Descriptor identifying a socket that is listening for connections after a 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a>.
 
 
 ### -param *addr [out]
@@ -178,7 +178,7 @@ A blocking Windows Sockets call is in progress.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a> was not invoked prior to 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a> was not invoked prior to 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaccept">WSPAccept</a>, parameter <i>g</i> specified in the condition function is not a valid value, the return value of the condition function is not a valid one, or any case where the specified socket is in an invalid state.
 
 </td>
@@ -281,7 +281,7 @@ The
 
 Newly created sockets have the same properties as the socket <i>s</i>, including network events registered with 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)">WSPAsyncSelect</a> or with 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a>. As described in 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>. As described in 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/descriptor-allocation-2">DescriptorAllocation</a>, when new socket descriptors are allocated, IFS providers must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> and non-IFS providers must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>.
@@ -344,23 +344,23 @@ The <i>dwCallbackData</i> parameter value passed to the condition function is th
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)">WSPBind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">WSPBind</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)">WSPGetSockOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v=vs.85)">WSPGetSockOpt</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a>
 
 
 

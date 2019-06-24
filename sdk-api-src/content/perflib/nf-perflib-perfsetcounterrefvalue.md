@@ -62,7 +62,7 @@ Updates the value of a counter whose value is a pointer to the actual data. Prov
 
 ### -param Provider [in]
 
-The handle of the provider. Use the handle variable that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element.
+The handle of the provider. Use the handle variable that the <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a> tool generated for you. For the name of the variable, see the <b>symbol</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element.
 
 <b>Windows Vista:  </b>The <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> function returns the handle.
 
@@ -85,7 +85,7 @@ Pointer to the actual counter data.
 
 If <b>NULL</b>, the consumer receives ERROR_NO_DATA.
 
-To indicate that the counter data is accessed by reference, the counter declaration in the manifest must include a <a href="https://docs.microsoft.com/previous-versions//aa371909(v=vs.85)">counterAttribute</a> element whose <b>name</b> attribute is set to "reference". 
+To indicate that the counter data is accessed by reference, the counter declaration in the manifest must include a <a href="https://docs.microsoft.com/previous-versions/aa371909(v=vs.85)">counterAttribute</a> element whose <b>name</b> attribute is set to "reference". 
 
 
 ## -returns

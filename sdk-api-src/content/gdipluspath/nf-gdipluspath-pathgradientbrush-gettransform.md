@@ -98,7 +98,7 @@ The following example creates a
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on an array of three points. The 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-scaletransform">PathGradientBrush::ScaleTransform</a> and 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-translatetransform">PathGradientBrush::TranslateTransform</a> methods set the elements of the brush's transformation matrix so that the matrix represents a composite transformation (first scale, then translate). That composite transformation applies to the brush's boundary path, so the call to 
-						<a href="https://docs.microsoft.com/previous-versions//ms535957(v=vs.85)">FillRectangle</a> fills the interior of a triangle that is the result of scaling and translating the boundary path. The code calls the <b>PathGradientBrush::GetTransform</b> method of the 
+						<a href="https://docs.microsoft.com/previous-versions/ms535957(v=vs.85)">FillRectangle</a> fills the interior of a triangle that is the result of scaling and translating the boundary path. The code calls the <b>PathGradientBrush::GetTransform</b> method of the 
 						<b>PathGradientBrush</b>object to obtain the brush's transformation matrix and then calls the 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-getelements">GetElements</a> method of the retrieved <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object to fill an array with the matrix elements.
 

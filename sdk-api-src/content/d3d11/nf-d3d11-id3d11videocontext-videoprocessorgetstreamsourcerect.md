@@ -77,7 +77,7 @@ Receives the value <b>TRUE</b> if the source rectangle is enabled, or <b>FALSE</
 
 ### -param pRect [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)">RECT</a> structure that receives the source rectangle.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162897(v=vs.85)">RECT</a> structure that receives the source rectangle.
 
 
 ## -returns

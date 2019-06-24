@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-Provides default processing for any messages not processed by an installable driver. This function is intended to be used only within the <a href="https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)">DriverProc</a> function of an installable driver.
+Provides default processing for any messages not processed by an installable driver. This function is intended to be used only within the <a href="https://docs.microsoft.com/previous-versions/dd797918(v=vs.85)">DriverProc</a> function of an installable driver.
 
 
 

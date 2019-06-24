@@ -99,7 +99,7 @@ This function is called by the <a href="https://docs.microsoft.com/previous-vers
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 

@@ -78,7 +78,7 @@ A pointer to a null-terminated string that specifies the family name of the desi
 
 ### -param lpProc [in]
 
-A pointer to the application defined callback function. For information, see <a href="https://docs.microsoft.com/previous-versions//dd162621(v=vs.85)">EnumFontFamProc</a>.
+A pointer to the application defined callback function. For information, see <a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>.
 
 
 ### -param lParam [in]
@@ -119,7 +119,7 @@ For examples, see <a href="https://docs.microsoft.com/windows/desktop/gdi/enumer
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162621(v=vs.85)">EnumFontFamProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>
 
 
 

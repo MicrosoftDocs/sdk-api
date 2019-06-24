@@ -114,7 +114,7 @@ Returns the number of descriptors for a record in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ms784533(v%3dvs.85)">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ms784533(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record in the MGT.
@@ -159,7 +159,7 @@ Returns the version number for the table type described by a record in the MGT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389467(v%3dvs.85)">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389467(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a table-wide descriptor for the MGT.

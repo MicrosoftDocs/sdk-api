@@ -211,7 +211,7 @@ Binds to a specific member based on a known DISPID, where the member name is not
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
  
 
  

@@ -102,7 +102,7 @@ An application can use the <b>CopySid</b> function to make a copy of a SID in an
 
 #### Examples
 
-For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions//aa446670(v=vs.85)">Getting the Logon SID</a>.
+For an example that uses this function, see <a href="https://docs.microsoft.com/previous-versions/aa446670(v=vs.85)">Getting the Logon SID</a>.
 
 <div class="code"></div>
 

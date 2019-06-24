@@ -83,7 +83,7 @@ The value of the specified bit.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions//646k06sz(v=vs.85)">_interlockedbittestandset</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://docs.microsoft.com/previous-versions/646k06sz(v=vs.85)">_interlockedbittestandset</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

@@ -90,7 +90,7 @@ If this function fails, the return value is <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
  
 
  

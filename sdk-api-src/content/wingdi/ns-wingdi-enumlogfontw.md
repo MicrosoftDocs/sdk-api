@@ -83,7 +83,7 @@ The style of the font. For example, Bold Italic.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162621(v=vs.85)">EnumFontFamProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162621(v=vs.85)">EnumFontFamProc</a>
 
 
 

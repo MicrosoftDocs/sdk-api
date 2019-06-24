@@ -76,7 +76,7 @@ A reference to the IID of the interface to retrieve through <i>ppv</i>, typicall
 
 ### -param ppv [out]
 
-When this method returns successfully, contains the interface pointer requested in <i>riid</i>, typically the <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> that encapsulates the file.
+When this method returns successfully, contains the interface pointer requested in <i>riid</i>, typically the <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> that encapsulates the file.
 
 
 ## -returns

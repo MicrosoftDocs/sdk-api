@@ -89,7 +89,7 @@ Before calling <b>PowerReportThermalEvent</b>, the thermal manager sets the memb
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dn915117(v=vs.85)">Thermal management in Windows</a>
+<a href="https://docs.microsoft.com/previous-versions/dn915117(v=vs.85)">Thermal management in Windows</a>
  
 
  

@@ -243,7 +243,7 @@ The preceding output shows the hexadecimal value of each property identifier. Yo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a>
 
 
 

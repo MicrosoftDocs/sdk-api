@@ -92,7 +92,7 @@ Format used for file system objects. The <i>pv</i> parameter is the address of a
 
 #### SHGDFIL_NETRESOURCE
 
-Format used for network resources. The <i>pv</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+Format used for network resources. The <i>pv</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
 
 
 
@@ -131,7 +131,7 @@ Format used for file system objects. The <i>pv</i> parameter is the address of a
 
 ##### - nFormat.SHGDFIL_NETRESOURCE
 
-Format used for network resources. The <i>pv</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
+Format used for network resources. The <i>pv</i> parameter is the address of a <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure.
 
 
 ## -returns

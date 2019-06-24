@@ -288,7 +288,7 @@ Before calling <b>MAPIReadMail</b>, use the <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

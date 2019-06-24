@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="https://docs.microsoft.com/previous-versions//sfw6660x(v=vs.85)">MsgBox function</a> to show a message in the user session.]
+<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="https://docs.microsoft.com/previous-versions/sfw6660x(v=vs.85)">MsgBox function</a> to show a message in the user session.]
 
 Represents an action that shows a message  box when a task is activated.
 
@@ -66,7 +66,7 @@ When reading or writing your own XML for a task, a message box action is specifi
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://docs.microsoft.com/previous-versions//aa381915(v=vs.85)">Message Box Example (C++)</a>.
+For more information and example code for this interface, see <a href="https://docs.microsoft.com/previous-versions/aa381915(v=vs.85)">Message Box Example (C++)</a>.
 
 
 

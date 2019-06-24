@@ -105,7 +105,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264287(v%3dvs.85)">RemoveEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264287(v=vs.85)">RemoveEntryListByIndex</a>
  
 
  

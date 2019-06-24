@@ -80,7 +80,7 @@ Parameter that contains a constant to pass to the status procedure.
 
 #### - fpfnStatus
 
-Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions//dd743620(v=vs.85)">MyStatusProc</a> function.
+Pointer to the status function. Specify <b>NULL</b> if status messages should not be sent. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions/dd743620(v=vs.85)">MyStatusProc</a> function.
 
 
 ## -see-also
@@ -92,7 +92,7 @@ Pointer to the status function. Specify <b>NULL</b> if status messages should no
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd743620(v=vs.85)">MyStatusProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd743620(v=vs.85)">MyStatusProc</a>
 
 
 

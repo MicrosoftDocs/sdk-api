@@ -189,7 +189,7 @@ Some synthesizers are not capable of keeping all patches loaded simultaneously a
 
 Each element of the <a href="https://docs.microsoft.com/windows/desktop/Multimedia/patcharray">PATCHARRAY</a> array represents one of the 128 patches and has bits set for each of the 16 MIDI channels that use the particular patch. The least-significant bit represents physical channel 0, and the most-significant bit represents physical channel 15 (0x0F). For example, if patch 0 is used by physical channels 0 and 8, element 0 would be set to 0x0101.
 
-This function applies only to internal MIDI synthesizer devices. Not all internal synthesizers support patch caching. To see if a device supports patch caching, use the MIDICAPS_CACHE flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd798467(v=vs.85)">MIDIOUTCAPS</a> structure filled by the <a href="https://docs.microsoft.com/previous-versions//dd798469(v=vs.85)">midiOutGetDevCaps</a> function.
+This function applies only to internal MIDI synthesizer devices. Not all internal synthesizers support patch caching. To see if a device supports patch caching, use the MIDICAPS_CACHE flag to test the <b>dwSupport</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798467(v=vs.85)">MIDIOUTCAPS</a> structure filled by the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function.
 
 
 

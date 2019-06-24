@@ -85,7 +85,7 @@ OID of the function to be registered. If the high-order word of the OID is nonze
 
 ### -param pwszDll [in]
 
-Name of the DLL file to be registered. It can contain environment-variable strings to be expanded by using the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
+Name of the DLL file to be registered. It can contain environment-variable strings to be expanded by using the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> function before loading the DLL.
 
 
 ### -param pszOverrideFuncName [in]

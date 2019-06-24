@@ -104,7 +104,7 @@ This function must return a positive value to continue enumeration, or zero to s
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
  
 
  

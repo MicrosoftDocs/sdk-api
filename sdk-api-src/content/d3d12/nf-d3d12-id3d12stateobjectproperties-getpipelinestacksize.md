@@ -73,7 +73,7 @@ The current pipeline stack size in bytes. When called on non-executable state ob
 
 
 
-This method and <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-setpipelinestacksize">SetPipelineStackSize</a> are not re-entrant.  This means if calling either or both from separate threads, the app must synchronize on its own.
+This method and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12stateobjectproperties-setpipelinestacksize">SetPipelineStackSize</a> are not re-entrant.  This means if calling either or both from separate threads, the app must synchronize on its own.
 
 
 

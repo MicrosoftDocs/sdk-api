@@ -71,7 +71,7 @@ Retrieves the position of the mouse cursor, in screen coordinates.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that receives the screen coordinates of the cursor.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the screen coordinates of the cursor.
 
 
 ## -returns
@@ -133,7 +133,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

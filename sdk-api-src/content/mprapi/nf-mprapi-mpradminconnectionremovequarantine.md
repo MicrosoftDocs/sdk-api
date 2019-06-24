@@ -138,7 +138,7 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 
 
-If <a href="https://docs.microsoft.com/previous-versions//ms688288(v=vs.85)">Internet Authentication Service (IAS)</a> policies configure regular filters, then these filters are added to the RAS client interface as a result of calling 
+If <a href="https://docs.microsoft.com/previous-versions/ms688288(v=vs.85)">Internet Authentication Service (IAS)</a> policies configure regular filters, then these filters are added to the RAS client interface as a result of calling 
 <b>MprAdminConnectionRemoveQuarantine</b>.
 
 

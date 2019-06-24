@@ -236,7 +236,7 @@ Handle = SetupDiGetClassDevs(NULL, NULL, NULL, DIGCF_ALLCLASSES | DIGCF_PRESENT)
 ```
 
 
-<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="https://docs.microsoft.com/previous-versions//ff553419(v=vs.85)">device setup class</a>.
+<b>Example 3: </b> Build a list of all devices that are present in the system that are from the network adapter <a href="https://docs.microsoft.com/previous-versions/ff553419(v=vs.85)">device setup class</a>.
 
 
 ```
@@ -244,7 +244,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVCLASS_NET, NULL, NULL, DIGCF_PRESENT);
 ```
 
 
-<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="https://docs.microsoft.com/previous-versions//ff553412(v=vs.85)">device interface class</a>.
+<b>Example 4: </b> Build a list of all devices that are present in the system that have enabled an interface from the storage volume <a href="https://docs.microsoft.com/previous-versions/ff553412(v=vs.85)">device interface class</a>.
 
 
 ```
@@ -252,7 +252,7 @@ Handle = SetupDiGetClassDevs(&GUID_DEVINTERFACE_VOLUME, NULL, NULL, DIGCF_PRESEN
 ```
 
 
-<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="https://docs.microsoft.com/previous-versions//ff553419(v=vs.85)">device setup class</a> (Windows Vista and later versions of Windows).
+<b>Example 5: </b> Build a list of all devices that are present in the system but do not belong to any known <a href="https://docs.microsoft.com/previous-versions/ff553419(v=vs.85)">device setup class</a> (Windows Vista and later versions of Windows).
 
 <div class="alert"><b>Note</b>  You cannot set the <i>ClassGuid</i> parameter to GUID_DEVCLASS_UNKNOWN to detect devices with an unknown setup class. Instead, you must follow this example.</div>
 <div> </div>

@@ -66,7 +66,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contains the endpoints for each line segment and the endpoints and control points for each Bézier curve, in logical units.
 
 
 ### -param aj [in]
@@ -196,7 +196,7 @@ This function updates the current position.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

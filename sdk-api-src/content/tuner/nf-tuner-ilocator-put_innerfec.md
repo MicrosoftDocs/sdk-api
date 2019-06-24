@@ -84,15 +84,15 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd693580(v=vs.85)">get_InnerFEC</a>
+<a href="https://docs.microsoft.com/previous-versions/dd693580(v=vs.85)">get_InnerFEC</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd693586(v=vs.85)">put_InnerFECRate</a>
+<a href="https://docs.microsoft.com/previous-versions/dd693586(v=vs.85)">put_InnerFECRate</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd693587(v=vs.85)">put_OuterFEC</a>
+<a href="https://docs.microsoft.com/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>
  
 
  

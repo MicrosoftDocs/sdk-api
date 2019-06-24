@@ -96,7 +96,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ee264259(v%3dvs.85)">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264259(v=vs.85)">AddEntryByIndex</a>
 
 
 

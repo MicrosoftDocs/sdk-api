@@ -59,7 +59,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534554(v=vs.85)">TextureBrush(Image*,WrapMode)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534554(v=vs.85)">TextureBrush(Image*,WrapMode)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image and a wrap mode. The size of the brush defaults to the size of the image, so the entire image is used by the brush.
@@ -68,7 +68,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534558(v=vs.85)">TextureBrush(Image*,WrapMode,Rect&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534558(v=vs.85)">TextureBrush(Image*,WrapMode,Rect&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
@@ -77,7 +77,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534544(v=vs.85)">TextureBrush(Image*,wrapMode,RectF&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534544(v=vs.85)">TextureBrush(Image*,wrapMode,RectF&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining rectangle.
@@ -86,7 +86,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534546(v=vs.85)">TextureBrush(Image*,Rect&,ImageAttributes*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534546(v=vs.85)">TextureBrush(Image*,Rect&,ImageAttributes*)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
@@ -95,7 +95,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534552(v=vs.85)">TextureBrush(Image*,RectF&,ImageAttributes*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534552(v=vs.85)">TextureBrush(Image*,RectF&,ImageAttributes*)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a defining rectangle, and a set of image properties.
@@ -104,7 +104,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534548(v=vs.85)">TextureBrush(Image*,WrapMode,INT,INT,INT,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534548(v=vs.85)">TextureBrush(Image*,WrapMode,INT,INT,INT,INT)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.
@@ -113,7 +113,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/n
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534550(v=vs.85)">TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534550(v=vs.85)">TextureBrush(Image*,WrapMode,REAL,REAL,REAL,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a> object based on an image, a wrap mode, and a defining set of coordinates.

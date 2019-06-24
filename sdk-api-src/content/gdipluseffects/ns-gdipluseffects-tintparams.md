@@ -57,7 +57,7 @@ You can adjust the tint of a bitmap by following these steps.
 <ol>
 <li>Create and initialize a <b>TintParams</b> structure.</li>
 <li>Pass the address of the <b>TintParams</b> structure to the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nf-gdipluseffects-tint-setparameters">Tint::SetParameters</a> method of a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object to the <a href="https://docs.microsoft.com/previous-versions//ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
+<li>Pass the address of the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">Tint</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms536058(v=vs.85)">Graphics::DrawImage</a> method or to the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-bitmap-applyeffect(inbitmap_inint_ineffect_inrect_outrect_outbitmap)">Bitmap::ApplyEffect</a> method.</li>
 </ol>
 
 ## -struct-fields

@@ -85,7 +85,7 @@ Receives an interface pointer of the type specified in the <i>iid</i> parameter.
 
 ### -param updateOffset [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 The offset into the surface where the application should draw updated content. This offset will reference the upper left corner of the update rectangle.
 

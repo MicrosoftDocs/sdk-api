@@ -63,7 +63,7 @@ The <b>StretchDIB</b> function copies a device independent bitmap from one memor
 
 ### -param biDst
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that describes the destination bitmap.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that describes the destination bitmap.
 
 
 ### -param lpDst
@@ -93,7 +93,7 @@ Height, in pixels, of the destination rectangle.
 
 ### -param biSrc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that describes the source bitmap.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that describes the source bitmap.
 
 
 ### -param lpSrc

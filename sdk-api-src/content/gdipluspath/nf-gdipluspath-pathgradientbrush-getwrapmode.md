@@ -91,7 +91,7 @@ The following example creates a
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush">PathGradientBrush</a>object based on a triangular path. The code calls the <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setwrapmode">PathGradientBrush::SetWrapMode</a> method of the 
 						<b>PathGradientBrush</b>object to set the wrap mode to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapModeTileFlipX</a>. Next, the code calls the <b>PathGradientBrush::GetWrapMode</b> method of the 
 						<b>PathGradientBrush</b>object to obtain the brush's wrap mode. If the obtained wrap mode is WrapModeTileFlipX, the code calls 
-						<a href="https://docs.microsoft.com/previous-versions//ms535957(v=vs.85)">FillRectangle</a> to tile a large area with the path gradient brush. 
+						<a href="https://docs.microsoft.com/previous-versions/ms535957(v=vs.85)">FillRectangle</a> to tile a large area with the path gradient brush. 
 
 
 ```cpp

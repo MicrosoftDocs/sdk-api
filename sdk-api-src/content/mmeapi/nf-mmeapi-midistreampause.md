@@ -65,7 +65,7 @@ The <b>midiStreamPause</b> function pauses playback of a specified MIDI stream.
 
 ### -param hms
 
-Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> function. This handle identifies the output device.
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> function. This handle identifies the output device.
 
 
 ## -returns
@@ -100,7 +100,7 @@ The specified device handle is invalid.
 
 
 
-The current playback position is saved when playback is paused. To resume playback from the current position, use the <a href="https://docs.microsoft.com/previous-versions//dd798491(v=vs.85)">midiStreamRestart</a> function.
+The current playback position is saved when playback is paused. To resume playback from the current position, use the <a href="https://docs.microsoft.com/previous-versions/dd798491(v=vs.85)">midiStreamRestart</a> function.
 
 Calling this function when the output is already paused has no effect, and the function returns MMSYSERR_NOERROR.
 

@@ -98,7 +98,7 @@ This method returns the number of data points in the group. If there are no more
 
 A path has an array of data points that define its lines and curves. All curves in the path are represented as Bézier splines, so a given point in the array has one of two types: PathPointTypeLine or PathPointTypeBezier.
 
-The first time you call the <a href="https://docs.microsoft.com/previous-versions//ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a> method of an iterator, it gets the starting and ending indices of the first group of points that all have the same type. The second time, it gets the second group, and so on. Each time you call <b>GraphicsPathIterator::NextSubpath</b>, it returns the number of data points in the obtained group. When there are no groups remaining, it returns 0.
+The first time you call the <a href="https://docs.microsoft.com/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a> method of an iterator, it gets the starting and ending indices of the first group of points that all have the same type. The second time, it gets the second group, and so on. Each time you call <b>GraphicsPathIterator::NextSubpath</b>, it returns the number of data points in the obtained group. When there are no groups remaining, it returns 0.
 
 
 

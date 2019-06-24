@@ -295,7 +295,7 @@ Specifies device-specific information.
 
 
 
-In response to <a href="https://docs.microsoft.com/previous-versions//ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a> requests, Mouclass transfers zero or more <b>MOUSE_INPUT_DATA</b> structures from its internal data queue to the Microsoft Win32 subsystem buffer.
+In response to <a href="https://docs.microsoft.com/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a> requests, Mouclass transfers zero or more <b>MOUSE_INPUT_DATA</b> structures from its internal data queue to the Microsoft Win32 subsystem buffer.
 
 
 
@@ -305,11 +305,11 @@ In response to <a href="https://docs.microsoft.com/previous-versions//ff542215(v
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542215(v=vs.85)">IRP_MJ_READ (Mouclass)</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ff542394(v=vs.85)">MouseClassServiceCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>
  
 
  

@@ -132,7 +132,7 @@ For example code, see <a href="https://docs.microsoft.com/windows/desktop/api/ms
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231587(v%3dvs.85)">CSecureChannelClient::EncryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
 
 
 

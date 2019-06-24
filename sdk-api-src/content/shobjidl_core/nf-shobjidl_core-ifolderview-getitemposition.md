@@ -67,7 +67,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/
 
 ### -param ppt [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that receives the position of the item's upper-left corner.
 

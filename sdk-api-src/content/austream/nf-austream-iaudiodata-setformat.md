@@ -65,7 +65,7 @@ The <code>SetFormat</code> method sets the current data format.
 
 ### -param lpWaveFormat [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that will contain the current data format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will contain the current data format.
 
 
 ## -returns

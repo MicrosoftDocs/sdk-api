@@ -56,7 +56,7 @@ The <b>OBJECT_ATTRIBUTES</b> structure specifies attributes that can be applied 
 
 ### -field Length
 
-The number of bytes of data contained in this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
+The number of bytes of data contained in this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes">InitializeObjectAttributes</a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
 
 
 ### -field RootDirectory
@@ -66,7 +66,7 @@ Optional handle to the root object directory for the path name specified by the 
 
 ### -field ObjectName
 
-Pointer to a <a href="https://msdn.microsoft.com/b02f29a9-1049-4e29-aac3-72bf0c70a21e">Unicode string</a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_unicode_string">Unicode string</a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
 
 
 ### -field Attributes
@@ -94,7 +94,7 @@ OBJ_PERMANENT
 
 </td>
 <td>
-This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a> routine to make a permanent object non-permanent.
+This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwmaketemporaryobject">ZwMakeTemporaryObject</a> routine to make a permanent object non-permanent.
 
 </td>
 </tr>
@@ -176,21 +176,21 @@ Reserved.
 
 ### -field SecurityDescriptor
 
-Specifies a security descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
+Specifies a security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
 
 
 ### -field SecurityQualityOfService
 
-Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro sets this member to <b>NULL</b>.
+Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes">InitializeObjectAttributes</a> macro sets this member to <b>NULL</b>.
 
 
 ## -remarks
 
 
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
+Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes">InitializeObjectAttributes</a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
 
-To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a>.
+To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>.
 
 All members of this structure are read-only. If a member of this structure is a pointer, the object that this member points to is read-only as well. Read-only members and objects can be used to acquire relevant information but must not be modified. To set the members of this structure, use the <b>InitializeObjectAttributes</b> macro.
 
@@ -204,43 +204,43 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatecommunicationport">FltCreateCommunicationPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes">InitializeObjectAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548289">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint">IoCreateFileSpecifyDeviceObjectHint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
  
 
  

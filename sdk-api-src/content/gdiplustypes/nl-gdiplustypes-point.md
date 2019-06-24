@@ -126,19 +126,19 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535009(v=vs.85)">Point::operator-(Point&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">Point::operator-(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms535009(v=vs.85)">Point::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
+The <a href="https://docs.microsoft.com/previous-versions/ms535009(v=vs.85)">Point::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535008(v=vs.85)">Point::operator+(Point&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">Point::operator+(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms535008(v=vs.85)">Point::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
+The <a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">Point::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
 
 </td>
 </tr>

@@ -156,7 +156,7 @@ Prefer to place the contact card to the right of the rectangular area of user se
 Type: <b>HRESULT</b>
 
 
-<a href="https://docs.microsoft.com/previous-versions//dn302110(v=vs.85)">ShowContactCardForWindow</a> returns:
+<a href="https://docs.microsoft.com/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a> returns:
             
           
 
@@ -179,7 +179,7 @@ Other <a href="https://docs.microsoft.com/previous-versions/windows/desktop/lega
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dn302110(v=vs.85)">ShowContactCardForWindow</a>
+<a href="https://docs.microsoft.com/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a>
  
 
  

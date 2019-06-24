@@ -182,7 +182,7 @@ In order to support future versions of the Windows Sockets SPI and the Ws2_32.dl
 <b>WSPStartup</b> (either the Ws2_32.dll or a layered protocol) and the Windows Sockets service provider indicate to each other the highest version of Windows Sockets that they can support, and each confirms that the other's highest version is acceptable. Upon entry to 
 <b>WSPStartup</b>, the Windows Sockets service provider examines the version requested by the client. If this version is equal to or higher than the lowest version supported by the service provider, the call succeeds and the service provider returns in the <b>wHighVersion</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspdata">WSPDATA</a> structure the highest version it supports and in the <b>wVersion</b> member the minimum of its high version and version specified in the <i>wVersionRequested</i> parameter. The Windows Sockets service provider then assumes that the Windows Sockets SPI client will use the version of Windows Sockets specified in the <b>wVersion</b> member. If the <b>wVersion</b> member of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspdata">WSPDATA</a> structure is unacceptable to the caller, it should call 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a> and either search for another Windows Sockets service provider or fail to initialize.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a> and either search for another Windows Sockets service provider or fail to initialize.
 
 This negotiation allows both a Windows Sockets service provider and a Windows Sockets SPI client to support a range of Windows Sockets versions. A client can successfully utilize a Windows Sockets service provider if there is any overlap in the version ranges.
 
@@ -383,9 +383,9 @@ lpWSPData->wHighVersion = MAKEWORD( 2, 2 );
 
 Once the Windows Sockets SPI client has made a successful 
 <b>WSPStartup</b> call, it can proceed to make other Windows Sockets SPI calls as needed. When it has finished using the services of the Windows Sockets service provider, the client must call 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a> in order to allow the Windows Sockets service provider to free any resources allocated for the client.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a> in order to allow the Windows Sockets service provider to free any resources allocated for the client.
 
-The <b>WSPStartup</b> function must be called at least once by each client process, and may be called multiple times by the Winsock 2 DLL or other entities. A matching <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a> function must be called for each successful <b>WSPStartup</b> call.  The service provider should maintain a reference count on a per-process basis.  On each <b>WSPStartup</b> call, the caller may specify any version number supported by the service provider DLL.
+The <b>WSPStartup</b> function must be called at least once by each client process, and may be called multiple times by the Winsock 2 DLL or other entities. A matching <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a> function must be called for each successful <b>WSPStartup</b> call.  The service provider should maintain a reference count on a per-process basis.  On each <b>WSPStartup</b> call, the caller may specify any version number supported by the service provider DLL.
 
 A service provider must store the pointer to the client's upcall dispatch table that is received as the <i>UpcallTable</i> parameter by the  <b>WSPStartup</b> function on a per-process basis.  If a given process calls <b>WSPStartup</b> multiple times, the service provider must use only the most recently supplied upcall dispatch table pointer.
 
@@ -395,7 +395,7 @@ A Windows Sockets SPI client can call
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-wspdata">WSPDATA</a> structure information more than once. On each such call the client can specify any version number supported by the provider.
 
 There must be one 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a> call corresponding to every successful 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a> call corresponding to every successful 
 <b>WSPStartup</b> call to allow third-party DLLs to make use of a Windows Sockets provider. This means, for example, that if 
 <b>WSPStartup</b> is called three times, the corresponding call to 
 <b>WSPCleanup</b> must occur three times. The first two calls to 
@@ -410,7 +410,7 @@ Fortunately, there are usually only two areas where the conditions for a service
 <ul>
 <li>In the implementation of overlapped I/O completion.</li>
 <li>In the implementation of 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a>.</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>.</li>
 </ul>
 
 
@@ -445,7 +445,7 @@ One vital benefit of this policy is that base service providers do not have to b
 This same propagation policy applies when propagating a 
 <b>WSAPROTOCOL_INFO</b> structure through a layered sequence of other functions such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaddresstostring">WSPAddressToString</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">WSPStringToAddress</a>.
 
@@ -465,15 +465,15 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>
 
 
 
@@ -481,7 +481,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
 
 
 

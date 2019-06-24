@@ -104,7 +104,7 @@ The following example creates a
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object that represents a composite transformation (rotate, then translate) and passes the address of that 
 						<b>Matrix</b> object to the <b>PathGradientBrush::SetTransform</b> method of the 
 						<b>PathGradientBrush</b>object. The code calls 
-						<a href="https://docs.microsoft.com/previous-versions//ms535957(v=vs.85)">FillRectangle</a> a second time to paint the same rectangle using the transformed path gradient brush.
+						<a href="https://docs.microsoft.com/previous-versions/ms535957(v=vs.85)">FillRectangle</a> a second time to paint the same rectangle using the transformed path gradient brush.
 
 
 ```cpp

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Get an array of sampler states from the <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">vertex shader</a> pipeline stage.
+Get an array of sampler states from the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">vertex shader</a> pipeline stage.
 
 
 ## -parameters

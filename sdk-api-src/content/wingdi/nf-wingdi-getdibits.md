@@ -190,13 +190,13 @@ If the requested format for the DIB matches its internal format, the RGB values 
 </table>
  
 
-If the <i>lpvBits</i> parameter is a valid pointer, the first six members of the <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure must be initialized to specify the size and format of the DIB. The scan lines must be aligned on a <b>DWORD</b> except for RLE compressed bitmaps.
+If the <i>lpvBits</i> parameter is a valid pointer, the first six members of the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure must be initialized to specify the size and format of the DIB. The scan lines must be aligned on a <b>DWORD</b> except for RLE compressed bitmaps.
 
 A bottom-up DIB is specified by setting the height to a positive number, while a top-down DIB is specified by setting the height to a negative number. The bitmap color table will be appended to the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> structure.
 
-If <i>lpvBits</i> is <b>NULL</b>, <b>GetDIBits</b> examines the first member of the first structure pointed to by <i>lpbi</i>. This member must specify the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a> or a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure. The function uses the specified size to determine how the remaining members should be initialized.
+If <i>lpvBits</i> is <b>NULL</b>, <b>GetDIBits</b> examines the first member of the first structure pointed to by <i>lpbi</i>. This member must specify the size, in bytes, of a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a> or a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure. The function uses the specified size to determine how the remaining members should be initialized.
 
-If <i>lpvBits</i> is <b>NULL</b> and the bit count member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> is initialized to zero, <b>GetDIBits</b> fills in a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a> without the color table. This technique can be used to query bitmap attributes.
+If <i>lpvBits</i> is <b>NULL</b> and the bit count member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapinfo">BITMAPINFO</a> is initialized to zero, <b>GetDIBits</b> fills in a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-tagbitmapcoreheader">BITMAPCOREHEADER</a> without the color table. This technique can be used to query bitmap attributes.
 
 The bitmap identified by the <i>hbmp</i> parameter must not be selected into a device context when the application calls this function.
 
@@ -224,7 +224,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/capt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 

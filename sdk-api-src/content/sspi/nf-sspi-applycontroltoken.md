@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>ApplyControlToken</b> function provides a way to apply a control token to a <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security context</a>. A token can be received when the security context is being established by a call to 
-the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or with a per-message security service, such as verify or unseal.
+the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or with a per-message security service, such as verify or unseal.
 
 This function is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 

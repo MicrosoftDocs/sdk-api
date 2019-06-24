@@ -269,7 +269,7 @@ The briefcase reconciler does not support the generation of residues, so the req
 </dl>
 </td>
 <td width="60%">
-The briefcase reconciler stopped reconciliation in response to a termination request from the initiator (see <a href="https://docs.microsoft.com/previous-versions//bb761345(v=vs.85)">SetAbortCallback</a> for more information). The state of the object is unspecified.
+The briefcase reconciler stopped reconciliation in response to a termination request from the initiator (see <a href="https://docs.microsoft.com/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a> for more information). The state of the object is unspecified.
 
 </td>
 </tr>

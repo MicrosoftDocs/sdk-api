@@ -441,7 +441,7 @@ Gets the TypeDef token for the parent Type of the specified nested type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//hh870628(v=vs.85)">GetParamForMethodIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/hh870628(v=vs.85)">GetParamForMethodIndex</a>
 </td>
 <td align="left" width="63%">
 Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.

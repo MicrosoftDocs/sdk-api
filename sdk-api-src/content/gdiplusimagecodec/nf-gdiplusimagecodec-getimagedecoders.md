@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>GetImageDecoders</b> function gets an array of <a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects that contain information about the available image decoders.
+The <b>GetImageDecoders</b> function gets an array of <a href="https://docs.microsoft.com/previous-versions/ms534466(v=vs.85)">ImageCodecInfo</a> objects that contain information about the available image decoders.
 
 
 ## -parameters
@@ -72,15 +72,15 @@ Integer that specifies the number of available image decoders. Call <a href="htt
 Type: <b>UINT</b>
 
 Integer that specifies the size, in bytes, of the array of 
-					<a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine this number. 
+					<a href="https://docs.microsoft.com/previous-versions/ms534466(v=vs.85)">ImageCodecInfo</a> objects. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine this number. 
 
 
 ### -param decoders [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534466(v=vs.85)">ImageCodecInfo</a>*</b>
 
 Pointer to a buffer that receives the array of 
-					<a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects. You must allocate memory for this buffer. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine the size of the required buffer. 
+					<a href="https://docs.microsoft.com/previous-versions/ms534466(v=vs.85)">ImageCodecInfo</a> objects. You must allocate memory for this buffer. Call <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimagedecoderssize">GetImageDecodersSize</a> to determine the size of the required buffer. 
 
 
 ## -returns

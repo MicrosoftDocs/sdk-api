@@ -260,7 +260,7 @@ Tells the receiver to display the script error message.
 
 ### -field OLECMDID_SHOWMESSAGE
 
-This command takes an <a href="https://docs.microsoft.com/previous-versions//hh773930(v=vs.85)">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
+This command takes an <a href="https://docs.microsoft.com/previous-versions/hh773930(v=vs.85)">IHTMLEventObj</a> input parameter that  contains a  message that the receiver shows.
 
 
 ### -field OLECMDID_SHOWFIND
@@ -270,12 +270,12 @@ Tells the receiver to show the Find dialog box. It takes a <b>VT_DISPATCH</b> in
 
 ### -field OLECMDID_SHOWPAGESETUP
 
-Tells the receiver to show the Page Setup dialog box. It takes an <a href="https://docs.microsoft.com/previous-versions//hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Page Setup dialog box. It takes an <a href="https://docs.microsoft.com/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
 
 
 ### -field OLECMDID_SHOWPRINT
 
-Tells the receiver to show the Print dialog box. It takes an <a href="https://docs.microsoft.com/previous-versions//hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
+Tells the receiver to show the Print dialog box. It takes an <a href="https://docs.microsoft.com/previous-versions/hh773930(v=vs.85)">IHTMLEventObj2</a>  input parameter.
 
 
 ### -field OLECMDID_CLOSE

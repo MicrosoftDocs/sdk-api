@@ -229,7 +229,7 @@ SetProcessInformation(GetCurrentProcess(),
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
 
 
 

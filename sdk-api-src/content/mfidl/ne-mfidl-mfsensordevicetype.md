@@ -65,7 +65,7 @@ The sensor device type is unknown.
 
 ### -field MFSensorDeviceType_Device
 
-The sensor device is a physical device. Physical cameras may register as <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a>  or both.
+The sensor device is a physical device. Physical cameras may register as <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a>  or both.
 
 
 ### -field MFSensorDeviceType_MediaSource

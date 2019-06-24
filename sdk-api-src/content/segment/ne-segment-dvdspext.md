@@ -132,7 +132,7 @@ Director's comments for children.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd695197(v=vs.85)">DefaultSubpictureLanguageExt</a>
+<a href="https://docs.microsoft.com/previous-versions/dd695197(v=vs.85)">DefaultSubpictureLanguageExt</a>
 
 
 

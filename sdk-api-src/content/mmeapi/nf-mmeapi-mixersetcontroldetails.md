@@ -86,47 +86,47 @@ Flags for setting properties for a control. The following values are defined.
 </tr>
 <tr>
 <td>MIXER_OBJECTF_AUX</td>
-<td>The <i>hmxobj</i> parameter is an auxiliary device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd756713(v=vs.85)">auxGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is an auxiliary device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd756713(v=vs.85)">auxGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HMIDIIN</td>
-<td>The <i>hmxobj</i> parameter is the handle of a MIDI input device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions//dd798458(v=vs.85)">midiInOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the handle of a MIDI input device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions/dd798458(v=vs.85)">midiInOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HMIDIOUT</td>
-<td>The <i>hmxobj</i> parameter is the handle of a MIDI output device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions//dd798476(v=vs.85)">midiOutOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the handle of a MIDI output device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions/dd798476(v=vs.85)">midiOutOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HMIXER</td>
-<td>The <i>hmxobj</i> parameter is a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)">mixerOpen</a> function. This flag is optional.</td>
+<td>The <i>hmxobj</i> parameter is a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd757308(v=vs.85)">mixerOpen</a> function. This flag is optional.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HWAVEIN</td>
-<td>The <i>hmxobj</i> parameter is a waveform-audio input handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd743847(v=vs.85)">waveInOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is a waveform-audio input handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd743847(v=vs.85)">waveInOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HWAVEOUT</td>
-<td>The <i>hmxobj</i> parameter is a waveform-audio output handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd743866(v=vs.85)">waveOutOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is a waveform-audio output handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd743866(v=vs.85)">waveOutOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_MIDIIN</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a MIDI input device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd798456(v=vs.85)">midiInGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a MIDI input device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd798456(v=vs.85)">midiInGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_MIDIOUT</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a MIDI output device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd798472(v=vs.85)">midiOutGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a MIDI output device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd798472(v=vs.85)">midiOutGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_MIXER</td>
-<td>The <i>hmxobj</i> parameter is a mixer device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd757304(v=vs.85)">mixerGetNumDevs</a> function. This flag is optional.</td>
+<td>The <i>hmxobj</i> parameter is a mixer device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd757304(v=vs.85)">mixerGetNumDevs</a> function. This flag is optional.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_WAVEIN</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio input device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd743844(v=vs.85)">waveInGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio input device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd743844(v=vs.85)">waveInGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_WAVEOUT</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_SETCONTROLDETAILSF_CUSTOM</td>
@@ -229,7 +229,7 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
 
 All members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontroldetails_listtexta">MIXERCONTROLDETAILS</a> structure must be initialized before calling <b>mixerSetControlDetails</b>.
 
-If an application needs to retrieve only the current state of a custom mixer control and not display a dialog box, then <a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a> can be used with the MIXER_GETCONTROLDETAILSF_VALUE flag.
+If an application needs to retrieve only the current state of a custom mixer control and not display a dialog box, then <a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a> can be used with the MIXER_GETCONTROLDETAILSF_VALUE flag.
 
 
 

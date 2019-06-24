@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-A <a href="https://docs.microsoft.com/previous-versions//ms536266(v=vs.85)">CharacterRange</a> object specifies a range of character positions within a string.
+A <a href="https://docs.microsoft.com/previous-versions/ms536266(v=vs.85)">CharacterRange</a> object specifies a range of character positions within a string.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CharacterRange</b> has these types of members:
 <ul>

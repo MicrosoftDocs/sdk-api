@@ -133,7 +133,7 @@ Specified device is synchronous and does not support pausing.
 
 
 
-After this function returns, the application can send new playback buffers to the device by calling <a href="https://docs.microsoft.com/previous-versions//dd743876(v=vs.85)">waveOutWrite</a>, or close the device by calling <a href="https://docs.microsoft.com/previous-versions//dd743856(v=vs.85)">waveOutClose</a>.
+After this function returns, the application can send new playback buffers to the device by calling <a href="https://docs.microsoft.com/previous-versions/dd743876(v=vs.85)">waveOutWrite</a>, or close the device by calling <a href="https://docs.microsoft.com/previous-versions/dd743856(v=vs.85)">waveOutClose</a>.
 
 
 

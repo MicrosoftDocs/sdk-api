@@ -270,14 +270,14 @@ Activates and displays a window. If the window is minimized or maximized, the sy
 
 ### -field ptMinPosition
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is minimized. 
 
 
 ### -field ptMaxPosition
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates of the window's upper-left corner when the window is maximized. 
 
@@ -322,7 +322,7 @@ The coordinates used in a <b>WINDOWPLACEMENT</b> structure should be used only b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

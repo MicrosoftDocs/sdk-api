@@ -77,7 +77,7 @@ XAudio2 supports PCM and ADPCM voice types.
 <tr>
 <td>WAVE_FORMAT_PCM (0x0001) </td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a>
 </td>
 <td>16</td>
 </tr>
@@ -91,14 +91,14 @@ XAudio2 supports PCM and ADPCM voice types.
 <tr>
 <td>WAVE_FORMAT_IEEE_FLOAT (0x0003) [32-bit]</td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a>
 </td>
 <td>18</td>
 </tr>
 <tr>
 <td>WAVE_FORMAT_ADPCM (0x0002) [MS-ADPCM]</td>
 <td>
-<a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">ADPCMWAVEFORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">ADPCMWAVEFORMAT</a>
 </td>
 <td>50</td>
 </tr>
@@ -136,7 +136,7 @@ XAudio2 supports the following PCM formats.
 </ul>
 The number of channels in a source voice must be less than or equal to XAUDIO2_MAX_AUDIO_CHANNELS. The sample rate of a source voice must be between XAUDIO2_MIN_SAMPLE_RATE and XAUDIO2_MAX_SAMPLE_RATE.
 
-<div class="alert"><b>Note</b>  PCM data formats such as <a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a> and  <b>ADPCMWAVEFORMAT</b> that require more information than provided by <b>WAVEFORMATEX</b> have a <b>WAVEFORMATEX</b> structure as the first member in their format structures. When you create a source voice with one of those formats, cast the format's structure as a <b>WAVEFORMATEX</b> structure and use it as the value for <i>pSourceFormat</i>.</div>
+<div class="alert"><b>Note</b>  PCM data formats such as <a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> and  <b>ADPCMWAVEFORMAT</b> that require more information than provided by <b>WAVEFORMATEX</b> have a <b>WAVEFORMATEX</b> structure as the first member in their format structures. When you create a source voice with one of those formats, cast the format's structure as a <b>WAVEFORMATEX</b> structure and use it as the value for <i>pSourceFormat</i>.</div>
 <div> </div>
 
 ### -param X2DEFAULT

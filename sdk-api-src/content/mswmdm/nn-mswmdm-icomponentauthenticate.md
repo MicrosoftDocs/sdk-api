@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 The <b>IComponentAuthenticate</b> interface provides secure, encrypted communication between modules of Windows Media Device Manager. It is implemented by a service provider and created and used by an application or plug-in. To get this interface, the application calls <b>CoCreateInstance</b> (__uuidof(MediaDevMgr)).
 
-The application creates and passes this interface to <a href="https://docs.microsoft.com/previous-versions/bb231595(v%3dvs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
+The application creates and passes this interface to <a href="https://docs.microsoft.com/previous-versions/bb231595(v=vs.85)">CSecureChannelClient::SetInterface</a>, but never calls any methods on this interface.
 
 The service provider implements the methods in this interface, and calls them on a private <a href="https://docs.microsoft.com/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer</a> member.
 

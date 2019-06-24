@@ -84,7 +84,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nl-gdiplus
 
 
 
-The following example creates a path that has one ellipse and one line. The code calls the <b>GraphicsPath::GetPointCount</b> method to determine the number of data points stored in the path. Then the code calls the <a href="https://docs.microsoft.com/previous-versions//ms535581(v=vs.85)">GraphicsPath::GetPathPoints</a> method to retrieve those data points. Finally, the code fills a small ellipse at each of the data points.
+The following example creates a path that has one ellipse and one line. The code calls the <b>GraphicsPath::GetPointCount</b> method to determine the number of data points stored in the path. Then the code calls the <a href="https://docs.microsoft.com/previous-versions/ms535581(v=vs.85)">GraphicsPath::GetPathPoints</a> method to retrieve those data points. Finally, the code fills a small ellipse at each of the data points.
 
 
 ```cpp

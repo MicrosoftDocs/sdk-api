@@ -70,10 +70,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534982(v=vs.85)">Inflate(INT,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534982(v=vs.85)">Inflate(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534982(v=vs.85)">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
+The <a href="https://docs.microsoft.com/previous-versions/ms534982(v=vs.85)">Rect::Inflate</a><i>dx</i><i>dy</i> on the top and bottom edges.
 
 </td>
 </tr>

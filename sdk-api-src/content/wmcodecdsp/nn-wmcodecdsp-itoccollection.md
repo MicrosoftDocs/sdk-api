@@ -79,7 +79,7 @@ Adds an individual table of contents  to the collection, and assigns an index to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264252(v%3dvs.85)">AddEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264252(v=vs.85)">AddEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an individual table of contents to the collection, and associates a caller-supplied index with that table of contents.
@@ -88,7 +88,7 @@ Adds an individual table of contents to the collection, and associates a caller-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264253(v%3dvs.85)">GetEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264253(v=vs.85)">GetEntryByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a table of contents, specified by an index, from the collection.
@@ -106,7 +106,7 @@ Retrieves the number of tables of contents in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264255(v%3dvs.85)">RemoveEntryByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264255(v=vs.85)">RemoveEntryByIndex</a>
 </td>
 <td align="left" width="63%">
  Removes a table of contents, specified by an index, from  the collection.

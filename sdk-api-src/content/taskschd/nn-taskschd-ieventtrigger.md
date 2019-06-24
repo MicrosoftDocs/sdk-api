@@ -64,7 +64,7 @@ When reading or writing your own XML for a task, an event trigger is specified u
 
 #### Examples
 
-For more information and example code for this interface, see <a href="https://docs.microsoft.com/previous-versions//aa446886(v=vs.85)">Event Trigger Example (C++)</a>.
+For more information and example code for this interface, see <a href="https://docs.microsoft.com/previous-versions/aa446886(v=vs.85)">Event Trigger Example (C++)</a>.
 
 <div class="code"></div>
 

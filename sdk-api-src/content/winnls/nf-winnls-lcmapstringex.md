@@ -108,7 +108,7 @@ Use byte reversal. For example, if the application passes in 0x3450 0x4822, the 
 </dl>
 </td>
 <td width="60%">
-Use Unicode (wide) characters where applicable. This flag and LCMAP_HALFWIDTH are mutually exclusive. With this flag, the mapping may use Normalization Form C even if an input character is already full-width. For example, the string "は゛" (which is already full-width) is normalized to "ば". See <a href="http://unicode.org/reports/tr15">Unicode normalization forms</a>.
+Use Unicode (wide) characters where applicable. This flag and LCMAP_HALFWIDTH are mutually exclusive. With this flag, the mapping may use Normalization Form C even if an input character is already full-width. For example, the string "は゛" (which is already full-width) is normalized to "ば". See <a href="http://www.unicode.org/reports/tr15/">Unicode normalization forms</a>.
 
 </td>
 </tr>

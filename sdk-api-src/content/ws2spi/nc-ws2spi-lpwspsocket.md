@@ -241,11 +241,11 @@ The <i>dwFlags</i> parameter can be used to specify the attributes of the socket
 <tr>
 <td>WSA_FLAG_OVERLAPPED</td>
 <td>This flag causes an overlapped socket to be created. Overlapped sockets can utilize 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>, 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)">WSPSendTo</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>, 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)">WSPRecvFrom</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a> for overlapped I/O operations, which allow multiple operations to be initiated and in process simultaneously. All functions that allow overlapped operations also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operation are null.</td>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a> for overlapped I/O operations, which allow multiple operations to be initiated and in process simultaneously. All functions that allow overlapped operations also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operation are null.</td>
 </tr>
 <tr>
 <td>WSA_FLAG_MULTIPOINT_C_ROOT</td>
@@ -278,19 +278,19 @@ The <i>dwFlags</i> parameter can be used to specify the attributes of the socket
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/protocol-independent-multicast-and-multipoint-in-the-spi-2">Protocol-Independent Multicast and Multipoint in the SPI</a> for additional information.</div>
 <div> </div>
 Connection-oriented sockets such as SOCK_STREAM provide full-duplex connections, and must be in a connected state before any data can be sent or received on them. A connection to another socket is created with a 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a> call. Once connected, data can be transferred using 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a> calls. When a session has been completed, a 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v%3dvs.85)">WSPCloseSocket</a> must be performed.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a> call. Once connected, data can be transferred using 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> calls. When a session has been completed, a 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v=vs.85)">WSPCloseSocket</a> must be performed.
 
 The communications protocols used to implement a reliable, connection-oriented socket ensure that data is not lost or duplicated. If data for which the peer protocol has buffer space cannot be successfully transmitted within a reasonable length of time, the connection is considered broken and subsequent calls will fail with the error code set to <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAETIMEDOUT</a>.
 
 Connectionless, message-oriented sockets allow sending and receiving of datagrams to and from arbitrary peers using 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)">WSPSendTo</a> and 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)">WSPRecvFrom</a>. If such a socket is connected by using 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a> to a specific peer, datagrams can be sent to that peer using 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> and can be received from (only) this peer using 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a> to a specific peer, datagrams can be sent to that peer using 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> and can be received from (only) this peer using 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>.
 
 Support for sockets with type <b>SOCK RAW</b> is not required but service providers are encouraged to support raw sockets whenever it makes sense to do so.
 
@@ -310,7 +310,7 @@ One vital benefit of this policy is that base service providers do not have to b
 This same propagation policy applies when propagating a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaddresstostring">WSPAddressToString</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspstringtoaddress">WSPStringToAddress</a>.
 
@@ -330,11 +330,11 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)">WSPBind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">WSPBind</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a>
 
 
 
@@ -342,19 +342,19 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)">WSPGetSockOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v=vs.85)">WSPGetSockOpt</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
 
 
 
@@ -362,7 +362,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
 
 
 
@@ -370,7 +370,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)">WSPSetSockOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a>
 
 
 

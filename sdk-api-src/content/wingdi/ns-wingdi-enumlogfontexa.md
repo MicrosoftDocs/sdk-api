@@ -88,7 +88,7 @@ The script, that is, the character set, of the font. For example, Cyrillic.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)">EnumFontFamExProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162618(v=vs.85)">EnumFontFamExProc</a>
 
 
 

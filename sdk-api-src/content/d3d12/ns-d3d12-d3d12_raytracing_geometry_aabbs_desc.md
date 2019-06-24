@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes a set of Axis-aligned bounding boxes that are used in the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure to provide input data to a raytracing acceleration structure build operation.
+Describes a set of Axis-aligned bounding boxes that are used in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_build_raytracing_acceleration_structure_inputs">D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS</a> structure to provide input data to a raytracing acceleration structure build operation.
 
 
 ## -struct-fields

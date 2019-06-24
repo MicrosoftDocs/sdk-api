@@ -94,11 +94,11 @@ Flags that specify the action to perform and identify the appropriate property o
 </tr>
 <tr>
 <td>MIDIPROP_TEMPO</td>
-<td>Retrieves the tempo property. The <i>lppropdata</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions//dd798483(v=vs.85)">MIDIPROPTEMPO</a> structure. The current tempo value can be retrieved at any time. Output devices set the tempo by inserting MEVT_TEMPO events into the MIDI data.</td>
+<td>Retrieves the tempo property. The <i>lppropdata</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/dd798483(v=vs.85)">MIDIPROPTEMPO</a> structure. The current tempo value can be retrieved at any time. Output devices set the tempo by inserting MEVT_TEMPO events into the MIDI data.</td>
 </tr>
 <tr>
 <td>MIDIPROP_TIMEDIV</td>
-<td>Specifies the time division property. You can get or set this property. The <i>lppropdata</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions//dd798484(v=vs.85)">MIDIPROPTIMEDIV</a> structure. This property can be set only when the device is stopped.</td>
+<td>Specifies the time division property. You can get or set this property. The <i>lppropdata</i> parameter points to a <a href="https://docs.microsoft.com/previous-versions/dd798484(v=vs.85)">MIDIPROPTIMEDIV</a> structure. This property can be set only when the device is stopped.</td>
 </tr>
 </table>
  

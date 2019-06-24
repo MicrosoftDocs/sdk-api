@@ -1019,7 +1019,7 @@ Identifies the end of a multiple-format block.
 ### -field EmfPlusRecordTypeSetClipPath
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535824(v=vs.85)">Graphics::SetClip</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535824(v=vs.85)">Graphics::SetClip</a>
 
 
 

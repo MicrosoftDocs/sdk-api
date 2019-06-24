@@ -69,7 +69,7 @@ An array of class identifiers that are associated with activatable runtime class
 
 ### -param activationFactoryCallbacks [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//br205771(v=vs.85)">PFNGETACTIVATIONFACTORY</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/br205771(v=vs.85)">PFNGETACTIVATIONFACTORY</a>*</b>
 
 An array of callback functions that you can use to retrieve the activation factories that correspond with  <i>activatableClassIds</i>.
 

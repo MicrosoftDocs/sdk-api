@@ -83,7 +83,7 @@ Number of entries.
 
 ### -field aPalEntries
 
-Array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures. Note that <b>peFlags</b> members in the structures do not contain any flags.
+Array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures. Note that <b>peFlags</b> members in the structures do not contain any flags.
 
 
 ## -see-also
@@ -99,7 +99,7 @@ Array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
 
 
 

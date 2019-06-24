@@ -137,7 +137,7 @@ The number of valid entries in the <b>adwIndex</b> array.
 
 ### -field dwChunkId
 
-A <b>FOURCC</b> that identifies the object that is indexed. If the indexed object is a stream, this member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://docs.microsoft.com/previous-versions/ms779634(v%3dvs.85)">AVIOLDINDEX</a> structure.
+A <b>FOURCC</b> that identifies the object that is indexed. If the indexed object is a stream, this member has the same meaning as the <b>dwChunkId</b>  member of the <a href="https://docs.microsoft.com/previous-versions/ms779634(v=vs.85)">AVIOLDINDEX</a> structure.
 
 
 ### -field dwReserved

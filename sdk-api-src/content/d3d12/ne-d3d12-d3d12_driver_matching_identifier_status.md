@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the result of a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> which queries whether serialized data is compatible with the current device and driver version.
+Specifies the result of a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> which queries whether serialized data is compatible with the current device and driver version.
 
 
 ## -enum-fields
@@ -65,12 +65,12 @@ Serialized data is compatible with the current device/driver.
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_UNSUPPORTED_TYPE
 
-The specified <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specified is unknown or unsupported.
+The specified <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specified is unknown or unsupported.
 
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_UNRECOGNIZED
 
-Format of the data in <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_serialized_data_driver_matching_identifier">D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER</a> is unrecognized.  This could indicate either corrupt data or the identifier was produced by a different hardware vendor.
+Format of the data in <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_serialized_data_driver_matching_identifier">D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER</a> is unrecognized.  This could indicate either corrupt data or the identifier was produced by a different hardware vendor.
 
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_VERSION
@@ -80,5 +80,5 @@ Serialized data is recognized, but its version is not compatible with the curren
 
 ### -field D3D12_DRIVER_MATCHING_IDENTIFIER_INCOMPATIBLE_TYPE
 
-<a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specifies a data type that is not compatible with the type of serialized data.  As long as there is only a single defined serialized data type this error cannot not be produced.
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a> specifies a data type that is not compatible with the type of serialized data.  As long as there is only a single defined serialized data type this error cannot not be produced.
 

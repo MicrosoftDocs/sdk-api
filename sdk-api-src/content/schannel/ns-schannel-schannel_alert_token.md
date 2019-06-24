@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Generates a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/secure-sockets-layer-protocol">Secure Sockets Layer Protocol</a> (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
+Generates a <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/secure-sockets-layer-protocol">Secure Sockets Layer Protocol</a> (SSL) or Transport Layer Security Protocol (TLS) alert to be sent to the target of a call to either the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function or the <a href="https://docs.microsoft.com/windows/desktop/api/sspi/nf-sspi-acceptsecuritycontext">AcceptSecurityContext (Schannel)</a>  function.
 
 
 ## -struct-fields

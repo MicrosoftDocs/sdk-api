@@ -96,7 +96,7 @@ The intensity value is in the range 0 through 255.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 

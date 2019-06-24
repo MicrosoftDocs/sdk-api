@@ -147,7 +147,7 @@ Some control codes should be handled by the <a href="https://docs.microsoft.com/
 
 #### Examples
 
-See <a href="https://docs.microsoft.com/previous-versions//aa372246(v=vs.85)">Resource DLL Examples</a>.
+See <a href="https://docs.microsoft.com/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 <div class="code"></div>
 

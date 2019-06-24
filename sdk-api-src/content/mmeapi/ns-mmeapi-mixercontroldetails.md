@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, retrieving or setting state information of an audio mixer control. All members of this structure must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a> and <a href="https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)">mixerSetControlDetails</a> functions.
+The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, retrieving or setting state information of an audio mixer control. All members of this structure must be initialized before calling the <a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a> and <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a> functions.
 
 
 
@@ -63,7 +63,7 @@ The <b>MIXERCONTROLDETAILS</b> structure refers to control-detail structures, re
 
 ### -field cbStruct
 
-Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
+Size, in bytes, of the <b>MIXERCONTROLDETAILS</b> structure. The size must be large enough to contain the base <b>MIXERCONTROLDETAILS</b> structure. When <a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a> returns, this member contains the actual size of the information returned. The returned information will not exceed the requested size, nor will it be smaller than the base <b>MIXERCONTROLDETAILS</b> structure.
 
 
 ### -field dwControlID
@@ -126,7 +126,7 @@ This member cannot be 0 for noncustom control types.
 
 ### -field DUMMYUNIONNAME.hwndOwner
 
-Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)">mixerSetControlDetails</a> function.
+Handle to the window that owns a custom dialog box for a mixer control. This member is used when the MIXER_SETCONTROLDETAILSF_CUSTOM flag is specified in the <a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a> function.
 
 
 ### -field DUMMYUNIONNAME.cMultipleItems
@@ -264,11 +264,11 @@ If the control is a MIXERCONTROL_CONTROLTYPE_CUSTOM control, this member must po
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757299(v=vs.85)">mixerGetControlDetails</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757299(v=vs.85)">mixerGetControlDetails</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757309(v=vs.85)">mixerSetControlDetails</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
  
 
  

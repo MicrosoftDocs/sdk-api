@@ -78,7 +78,7 @@ The number of points.
 
 ### -field aptl
 
-An array of <a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a> structures, representing the data points in logical units.
+An array of <a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a> structures, representing the data points in logical units.
 
 
 ### -field abTypes
@@ -103,7 +103,7 @@ An array of values that specifies how each point in the <b>aptl</b> array is use
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a>
 
 
 
@@ -111,7 +111,7 @@ An array of values that specifies how each point in the <b>aptl</b> array is use
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>
  
 
  

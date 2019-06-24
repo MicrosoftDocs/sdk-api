@@ -63,7 +63,7 @@ Sends the specified message to the installable driver.
 
 ### -param hDriver [in]
 
-Handle of the installable driver instance. The handle must been previously created by using the <a href="https://docs.microsoft.com/previous-versions//dd743639(v=vs.85)">OpenDriver</a> function.
+Handle of the installable driver instance. The handle must been previously created by using the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
 
 
 ### -param message [in]

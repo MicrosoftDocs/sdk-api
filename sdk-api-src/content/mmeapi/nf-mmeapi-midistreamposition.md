@@ -65,17 +65,17 @@ The <b>midiStreamPosition</b> function retrieves the current position in a MIDI 
 
 ### -param hms
 
-Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions//dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
 
 
 ### -param lpmmt
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 
 ### -param cbmmt
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 
 ## -returns
@@ -121,7 +121,7 @@ Specified pointer or structure is invalid.
 
 
 
-Before calling <b>midiStreamPosition</b>, set the <b>wType</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure to indicate the time format you desire. After calling <b>midiStreamPosition</b>, check the <b>wType</b> member to determine if the desired time format is supported. If the desired format is not supported, <b>wType</b> will specify an alternative format.
+Before calling <b>midiStreamPosition</b>, set the <b>wType</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure to indicate the time format you desire. After calling <b>midiStreamPosition</b>, check the <b>wType</b> member to determine if the desired time format is supported. If the desired format is not supported, <b>wType</b> will specify an alternative format.
 
 The position is set to zero when the device is opened or reset.
 

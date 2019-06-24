@@ -67,9 +67,9 @@ To retrieve custom metadata from an image file, call <a href="https://docs.micro
 
 <ol>
 <li>Create and initialize an <b>ImageItemData</b> object.</li>
-<li>Create an <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object that has an array of one or more <a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a> objects.</li>
-<li>For one of the <a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a> objects in the array, set the Value member to the address of your <b>ImageItemData</b> object. Set the other members as follows: Guid = EncoderImageItems, Type = EncoderParameterValueTypePointer,  NumberOfValues = 1.</li>
-<li>Pass the address of the <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object to the <a href="https://docs.microsoft.com/previous-versions//ms535407(v=vs.85)">Image::Save</a> method of an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.</li>
+<li>Create an <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that has an array of one or more <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects.</li>
+<li>For one of the <a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects in the array, set the Value member to the address of your <b>ImageItemData</b> object. Set the other members as follows: Guid = EncoderImageItems, Type = EncoderParameterValueTypePointer,  NumberOfValues = 1.</li>
+<li>Pass the address of the <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object to the <a href="https://docs.microsoft.com/previous-versions/ms535407(v=vs.85)">Image::Save</a> method of an <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object.</li>
 </ol>
 
 #### Examples

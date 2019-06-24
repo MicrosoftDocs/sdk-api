@@ -86,12 +86,12 @@ Identifier of the auxiliary output device to be queried. Specify a valid device 
 
 ### -param pac
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)">AUXCAPS</a> structure to be filled with information about the capabilities of the device.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure to be filled with information about the capabilities of the device.
 
 
 ### -param cbac
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd756711(v=vs.85)">AUXCAPS</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd756711(v=vs.85)">AUXCAPS</a> structure.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Specified device identifier is out of range.
 
 
 
-The device identifier in <i>uDeviceID</i> varies from zero to one less than the number of devices present. AUX_MAPPER may also be used. Use the <a href="https://docs.microsoft.com/previous-versions//dd756713(v=vs.85)">auxGetNumDevs</a> function to determine the number of auxiliary output devices present in the system.
+The device identifier in <i>uDeviceID</i> varies from zero to one less than the number of devices present. AUX_MAPPER may also be used. Use the <a href="https://docs.microsoft.com/previous-versions/dd756713(v=vs.85)">auxGetNumDevs</a> function to determine the number of auxiliary output devices present in the system.
 
 
 

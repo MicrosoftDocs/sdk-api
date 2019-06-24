@@ -172,11 +172,11 @@ Alternatively, the client may use
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)">WSPGetSockOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v=vs.85)">WSPGetSockOpt</a>
  
 
  

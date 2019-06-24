@@ -88,7 +88,7 @@ Implement the <b>IActivationFactory</b> interface when you create a class that y
 
 You can get an <b>IActivationFactory</b> pointer by calling the <a href="https://docs.microsoft.com/windows/desktop/api/roapi/nf-roapi-rogetactivationfactory">RoGetActivationFactory</a> function.  
 
-During activation of a class, the Windows Runtime calls the <a href="https://docs.microsoft.com/previous-versions//br205771(v=vs.85)">DllGetActivationFactory</a> function to get an <b>IActivationFactory</b> pointer that corresponds to the requested class. 
+During activation of a class, the Windows Runtime calls the <a href="https://docs.microsoft.com/previous-versions/br205771(v=vs.85)">DllGetActivationFactory</a> function to get an <b>IActivationFactory</b> pointer that corresponds to the requested class. 
 
 
 
@@ -98,7 +98,7 @@ During activation of a class, the Windows Runtime calls the <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//br205771(v=vs.85)">DllGetActivationFactory</a>
+<a href="https://docs.microsoft.com/previous-versions/br205771(v=vs.85)">DllGetActivationFactory</a>
 
 
 

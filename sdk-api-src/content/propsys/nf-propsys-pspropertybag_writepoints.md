@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
- Stores the property coordinates in a<a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
+ Stores the property coordinates in a<a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
 
 
 ## -parameters
@@ -74,9 +74,9 @@ A null-terminated property name string.
 
 ### -param value [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure that specifies the coordinates to store in the property.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure that specifies the coordinates to store in the property.
 
 
 ## -returns

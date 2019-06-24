@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>MEVT_EVENTPARM</b> macro retrieves the event parameters or length from the value specified in the <b>dwEvent</b> member of a <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> structure.
+The <b>MEVT_EVENTPARM</b> macro retrieves the event parameters or length from the value specified in the <b>dwEvent</b> member of a <a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.
 
 
 

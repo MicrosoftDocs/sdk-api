@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Describes the properties of a ray dispatch operation initiated with a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays">ID3D12GraphicsCommandList4::DispatchRays</a>.
+Describes the properties of a ray dispatch operation initiated with a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-dispatchrays">ID3D12GraphicsCommandList4::DispatchRays</a>.
 
 
 ## -struct-fields

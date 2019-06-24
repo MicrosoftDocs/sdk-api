@@ -92,7 +92,7 @@ The call succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="http://support.microsoft.com/kb/981080">KB article 981080</a>.
+The <a href="https://docs.microsoft.com/previous-versions/aa379358(v=vs.80)">UUID</a> is guaranteed to be unique to this computer only. For more information please see: <a href="https://support.microsoft.com/help/981080">KB article 981080</a>.
 
 </td>
 </tr>

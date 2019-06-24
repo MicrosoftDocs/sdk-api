@@ -165,7 +165,7 @@ The Media Foundation platform is disabled because the system was started in "Saf
 </dl>
 </td>
 <td width="60%">
-Media Foundation is not implemented on the system.  This error can occur if the media components are not present (See <a href="http://support.microsoft.com/kb/2703761">KB2703761</a> for more info). 
+Media Foundation is not implemented on the system.  This error can occur if the media components are not present (See <a href="https://support.microsoft.com/help/2703761">KB2703761</a> for more info). 
 
 </td>
 </tr>

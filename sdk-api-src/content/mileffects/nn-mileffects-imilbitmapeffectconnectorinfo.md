@@ -79,7 +79,7 @@ Retrieves the pixel format for the given pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms735300(v=vs.85)">GetIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ms735300(v=vs.85)">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the zero based index value for the pin.

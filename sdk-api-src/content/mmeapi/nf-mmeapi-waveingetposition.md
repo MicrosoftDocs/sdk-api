@@ -70,13 +70,13 @@ Handle to the waveform-audio input device.
 
 ### -param pmmt
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
 ### -param cbmmt
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
           
 
 
@@ -135,7 +135,7 @@ Unable to allocate or lock memory.
 
 
 
-Before calling this function, set the <b>wType</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure to indicate the time format you want. After calling this function, check <b>wType</b> to determine whether the desired time format is supported. If the format is not supported, the member will specify an alternative format.
+Before calling this function, set the <b>wType</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure to indicate the time format you want. After calling this function, check <b>wType</b> to determine whether the desired time format is supported. If the format is not supported, the member will specify an alternative format.
 
 The position is set to zero when the device is opened or reset.
 

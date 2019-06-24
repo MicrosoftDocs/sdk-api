@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 Gets information from an  <b>OpenMMI</b> event. A Protected Broadcast Driver Architecture (PBDA) Media Transform Device (MTD) fires an  <b>OpenMMI</b> event when the device user tries to open an on-screen display, such as a dialog box. 
 
-For more information about PBDA, download the specification from <a href="http://www.microsoft.com/whdc/device/broadcast/PBDA/pbda_spec.mspx">this document</a>.
+For more information about PBDA, download the specification from <a href="https://developer.microsoft.com/windows/hardware">this document</a>.
 
 
 ## -inheritance

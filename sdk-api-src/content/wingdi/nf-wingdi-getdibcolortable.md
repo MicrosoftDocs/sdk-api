@@ -96,7 +96,7 @@ If the function fails, the return value is zero.
 
 
 
-The <b>GetDIBColorTable</b> function should be called to retrieve the color table for DIB section bitmaps that use 1, 4, or 8 bpp. The <b>biBitCount</b> member of a bitmap associated <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure specifies the number of bits-per-pixel. DIB section bitmaps with a <b>biBitCount</b> value greater than eight do not have a color table, but they do have associated color masks. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to retrieve those color masks.
+The <b>GetDIBColorTable</b> function should be called to retrieve the color table for DIB section bitmaps that use 1, 4, or 8 bpp. The <b>biBitCount</b> member of a bitmap associated <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure specifies the number of bits-per-pixel. DIB section bitmaps with a <b>biBitCount</b> value greater than eight do not have a color table, but they do have associated color masks. Call the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getobject">GetObject</a> function to retrieve those color masks.
 
 
 
@@ -106,7 +106,7 @@ The <b>GetDIBColorTable</b> function should be called to retrieve the color tabl
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 

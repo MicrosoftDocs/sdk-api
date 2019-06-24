@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://docs.microsoft.com/previous-versions//6xa169sk(v=vs.85)">__fastcall</a> calling convention.
+Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://docs.microsoft.com/previous-versions/6xa169sk(v=vs.85)">__fastcall</a> calling convention.
 
 
 ## -parameters

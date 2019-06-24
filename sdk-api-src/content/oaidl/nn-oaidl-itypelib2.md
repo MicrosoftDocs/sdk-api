@@ -114,7 +114,7 @@ Returns statistics about a type library that are required for efficient sizing o
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
  
 
  

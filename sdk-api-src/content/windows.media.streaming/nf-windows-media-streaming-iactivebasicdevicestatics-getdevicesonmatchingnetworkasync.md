@@ -80,7 +80,7 @@ Specifies whether or not the renderer network can be changed.
 
 ### -param operation [out, retval]
 
-The asynchronous operation. Upon completion, <a href="https://docs.microsoft.com/previous-versions//br205815(v=vs.85)">IAsyncOperation.GetResults</a> returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> object.
+The asynchronous operation. Upon completion, <a href="https://docs.microsoft.com/previous-versions/br205815(v=vs.85)">IAsyncOperation.GetResults</a> returns a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/dn385771(v=vs.85)">DevicePair</a> object.
 
 
 ## -returns

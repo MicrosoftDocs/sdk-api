@@ -198,11 +198,11 @@ Error:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231586(v%3dvs.85)">CSecureChannelClient::DecryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">CSecureChannelClient::DecryptParam</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231587(v%3dvs.85)">CSecureChannelClient::EncryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">CSecureChannelClient::EncryptParam</a>
 
 
 

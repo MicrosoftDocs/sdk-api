@@ -80,7 +80,7 @@ Pointer to the <b>DDPIXELFORMAT</b> structure associated with the surface.
 
 ### -field szAspectRatio
 
-A <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that specifies the aspect ratio of the new surface.
+A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the aspect ratio of the new surface.
 
 
 ### -field dwMinBuffers

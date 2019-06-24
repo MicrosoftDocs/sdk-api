@@ -82,7 +82,7 @@ Retrieves the acquisition time of the current session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//dd370746(v=vs.85)">GetDateTakenDelta</a>
+<a href="https://docs.microsoft.com/previous-versions/dd370746(v=vs.85)">GetDateTakenDelta</a>
 </td>
 <td align="left" width="63%">
 Retrieves a length of time to add to or subtract from the acquisition time. Not implemented in this release.
@@ -91,7 +91,7 @@ Retrieves a length of time to add to or subtract from the acquisition time. Not 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//dd370747(v=vs.85)">GetDeleteAcquiredItems</a>
+<a href="https://docs.microsoft.com/previous-versions/dd370747(v=vs.85)">GetDeleteAcquiredItems</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value indicating whether items are to be deleted from the device after transfer.
@@ -163,7 +163,7 @@ Sets the acquisition time explicitly.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//dd370755(v=vs.85)">SetDateTakenDelta</a>
+<a href="https://docs.microsoft.com/previous-versions/dd370755(v=vs.85)">SetDateTakenDelta</a>
 </td>
 <td align="left" width="63%">
 Sets the time interval to add to or subtract from the "Date Taken" property of each acquired file.
@@ -172,7 +172,7 @@ Sets the time interval to add to or subtract from the "Date Taken" property of e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//dd370756(v=vs.85)">SetDeleteAcquiredItems</a>
+<a href="https://docs.microsoft.com/previous-versions/dd370756(v=vs.85)">SetDeleteAcquiredItems</a>
 </td>
 <td align="left" width="63%">
 Sets a value indicating whether acquired items are to be deleted from the device after transfer.

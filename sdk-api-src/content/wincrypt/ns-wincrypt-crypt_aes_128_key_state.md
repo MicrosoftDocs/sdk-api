@@ -87,7 +87,7 @@ An array of hexadecimal values that specify the feedback vector for a stage in t
 
 
 
-The <b>CRYPT_AES_128_KEY_STATE</b> structure is used by the <a href="https://docs.microsoft.com/previous-versions//aa379853(v=vs.85)">CPImportKey</a> and <a href="https://docs.microsoft.com/previous-versions//aa378203(v=vs.85)">CPExportKey</a> functions when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> was created by using the <i>dwBlobType</i>  parameter set to the <b>KEYSTATEBLOB</b> value.
+The <b>CRYPT_AES_128_KEY_STATE</b> structure is used by the <a href="https://docs.microsoft.com/previous-versions/aa379853(v=vs.85)">CPImportKey</a> and <a href="https://docs.microsoft.com/previous-versions/aa378203(v=vs.85)">CPExportKey</a> functions when the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/k-gly">key BLOB</a> was created by using the <i>dwBlobType</i>  parameter set to the <b>KEYSTATEBLOB</b> value.
 
    The Microsoft AES Cryptographic Provider only supports this structure in the context of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">Secure Sockets Layer protocol</a> (SSL), where the caller specified <b>PROV_DH_SCHANNEL</b> as the value for the <i>dwProvType</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a> function.
 

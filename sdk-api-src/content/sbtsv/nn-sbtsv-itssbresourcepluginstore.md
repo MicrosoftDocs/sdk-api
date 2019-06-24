@@ -78,7 +78,7 @@ Locks a target.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This method is unavailable prior to Windows Server 2016. This method is available on 
         Windows Server 2012 R2 with 
-        <a href="https://support.microsoft.com/en-us/kb/3091411">KB3091411</a> installed in the 
+        <a href="https://support.microsoft.com/help/3091411/user-connection-fails-when-many-connections-are-made-to-windows-server">KB3091411</a> installed in the 
         <a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a> 
         interface.
 
@@ -212,7 +212,7 @@ Releases a lock on a target.
 
 <b>Windows Server 2012 R2 and Windows Server 2012:  </b>This method is unavailable prior to Windows Server 2016. This method is available on 
         Windows Server 2012 R2 with 
-        <a href="https://support.microsoft.com/en-us/kb/3091411">KB3091411</a> installed in the 
+        <a href="https://support.microsoft.com/help/3091411/user-connection-fails-when-many-connections-are-made-to-windows-server">KB3091411</a> installed in the 
         <a href="https://docs.microsoft.com/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a> 
         interface.
 

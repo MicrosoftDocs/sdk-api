@@ -70,7 +70,7 @@ Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range f
 
 ### -param pji
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757112(v=vs.85)">JOYINFOEX</a> structure that contains extended position information and button status of the joystick. You must set the <b>dwSize</b> and <b>dwFlags</b> members or <b>joyGetPosEx</b> will fail. The information returned from <b>joyGetPosEx</b> depends on the flags you specify in <b>dwFlags</b>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757112(v=vs.85)">JOYINFOEX</a> structure that contains extended position information and button status of the joystick. You must set the <b>dwSize</b> and <b>dwFlags</b> members or <b>joyGetPosEx</b> will fail. The information returned from <b>joyGetPosEx</b> depends on the flags you specify in <b>dwFlags</b>.
 
 
 ## -returns
@@ -149,7 +149,7 @@ The specified joystick identifier is invalid.
 
 
 
-This function provides access to extended devices such as rudder pedals, point-of-view hats, devices with a large number of buttons, and coordinate systems using up to six axes. For joystick devices that use three axes or fewer and have fewer than four buttons, use the <a href="https://docs.microsoft.com/previous-versions//dd757107(v=vs.85)">joyGetPos</a> function.
+This function provides access to extended devices such as rudder pedals, point-of-view hats, devices with a large number of buttons, and coordinate systems using up to six axes. For joystick devices that use three axes or fewer and have fewer than four buttons, use the <a href="https://docs.microsoft.com/previous-versions/dd757107(v=vs.85)">joyGetPos</a> function.
 
 
 

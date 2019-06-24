@@ -90,7 +90,7 @@ Identifier of the waveform-audio output device to open. It can be either a devic
 
 ### -param pwfx
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the format of the waveform-audio data to be sent to the device. You can free this structure immediately after passing it to <b>waveOutOpen</b>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the format of the waveform-audio data to be sent to the device. You can free this structure immediately after passing it to <b>waveOutOpen</b>.
           
 
 
@@ -99,7 +99,7 @@ Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=v
 Specifies the callback mechanism. The value must be one of the following:
 
 <ul>
-<li>A pointer to a callback function. For the function signature, see <a href="https://docs.microsoft.com/previous-versions//dd743869(v=vs.85)">waveOutProc</a>.</li>
+<li>A pointer to a callback function. For the function signature, see <a href="https://docs.microsoft.com/previous-versions/dd743869(v=vs.85)">waveOutProc</a>.</li>
 <li>A handle to a window.</li>
 <li>A thread identifier.</li>
 <li>A handle to an event.</li>
@@ -250,7 +250,7 @@ Attempted to open with an unsupported waveform-audio format.
 </dl>
 </td>
 <td width="60%">
-The device is synchronous but <a href="https://docs.microsoft.com/previous-versions//dd743866(v=vs.85)">waveOutOpen</a> was called without using the <b>WAVE_ALLOWSYNC</b> flag.
+The device is synchronous but <a href="https://docs.microsoft.com/previous-versions/dd743866(v=vs.85)">waveOutOpen</a> was called without using the <b>WAVE_ALLOWSYNC</b> flag.
 
 </td>
 </tr>
@@ -264,10 +264,10 @@ The device is synchronous but <a href="https://docs.microsoft.com/previous-versi
 
 
 
-Use the <a href="https://docs.microsoft.com/previous-versions//dd743860(v=vs.85)">waveOutGetNumDevs</a> function to determine the number of waveform-audio output devices present in the system. If the value specified by the <i>uDeviceID</i> parameter is a device identifier, it can vary from zero to one less than the number of devices present. The <b>WAVE_MAPPER</b> constant can also be used as a device identifier.
+Use the <a href="https://docs.microsoft.com/previous-versions/dd743860(v=vs.85)">waveOutGetNumDevs</a> function to determine the number of waveform-audio output devices present in the system. If the value specified by the <i>uDeviceID</i> parameter is a device identifier, it can vary from zero to one less than the number of devices present. The <b>WAVE_MAPPER</b> constant can also be used as a device identifier.
       
 
-The structure pointed to by <i>pwfx</i> can be extended to include type-specific information for certain data formats. For example, for PCM data, an extra <b>UINT</b> is added to specify the number of bits per sample. Use the <a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure in this case. For all other waveform-audio formats, use the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure to specify the length of the additional data.
+The structure pointed to by <i>pwfx</i> can be extended to include type-specific information for certain data formats. For example, for PCM data, an extra <b>UINT</b> is added to specify the number of bits per sample. Use the <a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure in this case. For all other waveform-audio formats, use the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure to specify the length of the additional data.
 
 If you choose to have a window or thread receive callback information, the following messages are sent to the window procedure function to indicate the progress of waveform-audio output: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wom-open">MM_WOM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wom-close">MM_WOM_CLOSE</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-wom-done">MM_WOM_DONE</a>.
       
@@ -275,7 +275,7 @@ If you choose to have a window or thread receive callback information, the follo
 <h3><a id="Callback_Mechanism"></a><a id="callback_mechanism"></a><a id="CALLBACK_MECHANISM"></a>Callback Mechanism</h3>
 The <i>dwCallback</i> and <i>fdwOpen</i> parameters specify how the application is notified about  the progress of waveform-audio output.
 
-If <i>fdwOpen</i> contains the <b>CALLBACK_FUNCTION</b> flag, <i>dwCallback</i> is a pointer to a callback function. For the function signature, see <a href="https://docs.microsoft.com/previous-versions//dd743869(v=vs.85)">waveOutProc</a>. The <i>uMsg</i> parameter of the callback indicates the progress of the audio output:
+If <i>fdwOpen</i> contains the <b>CALLBACK_FUNCTION</b> flag, <i>dwCallback</i> is a pointer to a callback function. For the function signature, see <a href="https://docs.microsoft.com/previous-versions/dd743869(v=vs.85)">waveOutProc</a>. The <i>uMsg</i> parameter of the callback indicates the progress of the audio output:
 
 <ul>
 <li>
@@ -303,7 +303,7 @@ If <i>fdwOpen</i> contains the <b>CALLBACK_WINDOW</b> flag, <i>dwCallback</i> is
 </ul>
  If <i>fdwOpen</i> contains the <b>CALLBACK_THREAD</b> flag, <i>dwCallback</i> is a thread identifier. The thread receives the messages listed previously for <b>CALLBACK_WINDOW</b>.
 
-If <i>fdwOpen</i> contains the <b>CALLBACK_EVENT</b> flag, <i>dwCallback</i> is a handle to an event. The event is signaled whenever the state of the waveform buffer changes. The application can use <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a> to wait for the event. When the event is signaled, you can get the current state of the waveform buffer by checking the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure. (See <a href="https://docs.microsoft.com/previous-versions//dd743868(v=vs.85)">waveOutPrepareHeader</a>.)
+If <i>fdwOpen</i> contains the <b>CALLBACK_EVENT</b> flag, <i>dwCallback</i> is a handle to an event. The event is signaled whenever the state of the waveform buffer changes. The application can use <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject">WaitForSingleObject</a> or <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects">WaitForMultipleObjects</a> to wait for the event. When the event is signaled, you can get the current state of the waveform buffer by checking the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure. (See <a href="https://docs.microsoft.com/previous-versions/dd743868(v=vs.85)">waveOutPrepareHeader</a>.)
 
 If <i>fdwOpen</i> contains the <b>CALLBACK_NULL</b> flag, <i>dwCallback</i> must be <b>NULL</b>. In that case, no callback mechanism is used.
 

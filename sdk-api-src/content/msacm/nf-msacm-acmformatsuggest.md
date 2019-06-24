@@ -69,12 +69,12 @@ Handle to an open instance of a driver to query for a suggested destination form
 
 ### -param pwfxSrc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the source format for which a destination format will be suggested by the ACM or specified driver.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the source format for which a destination format will be suggested by the ACM or specified driver.
 
 
 ### -param pwfxDst
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will receive the suggested destination format for the <i>pwfxSrc</i> format. Depending on the <i>fdwSuggest</i> parameter, some members of the structure pointed to by <i>pwfxDst</i> may require initialization.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will receive the suggested destination format for the <i>pwfxSrc</i> format. Depending on the <i>fdwSuggest</i> parameter, some members of the structure pointed to by <i>pwfxDst</i> may require initialization.
 
 
 ### -param cbwfxDst

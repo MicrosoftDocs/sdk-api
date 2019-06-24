@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-A pixel-shader interface manages an executable program (a pixel shader) that controls the <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">pixel-shader stage</a>.
+A pixel-shader interface manages an executable program (a pixel shader) that controls the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">pixel-shader stage</a>.
 
 
 ## -remarks

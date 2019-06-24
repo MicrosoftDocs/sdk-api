@@ -122,19 +122,19 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534752(v=vs.85)">Size::operator-(Size&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534752(v=vs.85)">Size::operator-(Size&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534752(v=vs.85)">Size::operator-</a> method subtracts the <b>Width</b> and <b>Height</b> data members of two <b>Size</b> objects.
+The <a href="https://docs.microsoft.com/previous-versions/ms534752(v=vs.85)">Size::operator-</a> method subtracts the <b>Width</b> and <b>Height</b> data members of two <b>Size</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534751(v=vs.85)">Size::operator+(Size&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534751(v=vs.85)">Size::operator+(Size&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534751(v=vs.85)">Size::operator+</a> method adds the <b>Width</b> and <b>Height</b> data members of two <b>Size</b> objects.
+The <a href="https://docs.microsoft.com/previous-versions/ms534751(v=vs.85)">Size::operator+</a> method adds the <b>Width</b> and <b>Height</b> data members of two <b>Size</b> objects.
 
 </td>
 </tr>

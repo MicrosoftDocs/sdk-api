@@ -21,5 +21,5 @@ To develop Network Access Protection, you need these headers:
 
 For programming guidance for this technology, see:
 * [Network Access Protection](/windows/desktop/nap)
-* [Network Access Protection WMI Provider](https://msdn.microsoft.com/en-us/library/windows/desktop/aa369712(v=vs.85).aspx)
+* [Network Access Protection WMI Provider](https://docs.microsoft.com/windows/desktop/NAP/network-access-protection-start-page)
 

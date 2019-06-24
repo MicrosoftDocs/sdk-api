@@ -73,7 +73,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a>
 
-<a href="https://docs.microsoft.com/previous-versions//ms535294(v=vs.85)">Metafile::Metafile</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535294(v=vs.85)">Metafile::Metafile</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheader-metafileheader">MetafileHeader</a>
 

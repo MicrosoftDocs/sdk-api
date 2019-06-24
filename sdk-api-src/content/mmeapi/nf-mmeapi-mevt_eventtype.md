@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>MEVT_EVENTTYPE</b> macro retrieves the event type from the value specified in the <b>dwEvent</b> member of a <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> structure.
+The <b>MEVT_EVENTTYPE</b> macro retrieves the event type from the value specified in the <b>dwEvent</b> member of a <a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.
 
 
 

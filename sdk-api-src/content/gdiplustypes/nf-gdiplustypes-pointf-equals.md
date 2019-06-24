@@ -97,11 +97,11 @@ If the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534997(v=vs.85)">PointF::operator+</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534997(v=vs.85)">PointF::operator+</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534998(v=vs.85)">PointF::operator-</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534998(v=vs.85)">PointF::operator-</a>
  
 
  

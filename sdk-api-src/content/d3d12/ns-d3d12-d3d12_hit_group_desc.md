@@ -65,7 +65,7 @@ The name of the hit group.
 
 ### -field Type
 
-A value from the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_hit_group_type">D3D12_HIT_GROUP_TYPE</a> enumeration specifying the type of the hit group.
+A value from the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_hit_group_type">D3D12_HIT_GROUP_TYPE</a> enumeration specifying the type of the hit group.
 
 
 ### -field AnyHitShaderImport

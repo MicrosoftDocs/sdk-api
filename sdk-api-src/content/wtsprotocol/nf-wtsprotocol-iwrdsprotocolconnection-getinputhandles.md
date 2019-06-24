@@ -65,7 +65,7 @@ A pointer to a handle that receives the handle of the keyboard device. This is a
 
 ### -param pMouseHandle [out]
 
-A pointer to a handle that receives the handle of the mouse device. This is a handle to a <a href="https://docs.microsoft.com/previous-versions//ff542367(v=vs.85)">Mouclass driver</a>.
+A pointer to a handle that receives the handle of the mouse device. This is a handle to a <a href="https://docs.microsoft.com/previous-versions/ff542367(v=vs.85)">Mouclass driver</a>.
 
 
 ### -param pBeepHandle [out]

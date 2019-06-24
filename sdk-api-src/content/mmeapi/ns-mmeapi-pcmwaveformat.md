@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 
-The <b>PCMWAVEFORMAT</b> structure describes the data format for PCM waveform-audio data. This structure has been superseded by the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+The <b>PCMWAVEFORMAT</b> structure describes the data format for PCM waveform-audio data. This structure has been superseded by the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 
@@ -80,7 +80,7 @@ Number of bits per sample.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 

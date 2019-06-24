@@ -85,7 +85,7 @@ Retrieves the file access mode that was used when the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>
+<a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 

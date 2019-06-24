@@ -98,7 +98,7 @@ The index refers to an 8-bit color index. This flag is valid only when used with
 
 #### DDPCAPS_ALPHA
 
-The <b>peFlags</b> member of the associated <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structure must be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
+The <b>peFlags</b> member of the associated <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure must be interpreted as a single 8-bit alpha value (in addition to the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture: a surface created with the DDSCAPS_TEXTURE capability flag.
 
 
 

@@ -125,7 +125,7 @@ If the enumeration has not completed, the call waits for objects to be available
 
 #### Examples
 
-For an extended discussion and example of making queries in C++ and WMI, see Making <a href="http://www.codeproject.com/Articles/10539/Making-WMI-Queries-In-C">WMI Queries In C++</a> on CodeProject.
+For an extended discussion and example of making queries in C++ and WMI, see Making <a href="https://www.codeproject.com/Articles/10539/Making-WMI-Queries-In-C">WMI Queries In C++</a> on CodeProject.
 
 <div class="code"></div>
 In the following code, more than one object is requested:

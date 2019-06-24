@@ -100,7 +100,7 @@ The specified device handle is invalid.
 
 
 
-This function returns all pending input buffers to the callback function and sets the MHDR_DONE flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
+This function returns all pending input buffers to the callback function and sets the MHDR_DONE flag in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 
 

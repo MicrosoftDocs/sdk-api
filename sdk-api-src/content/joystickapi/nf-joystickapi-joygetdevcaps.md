@@ -67,17 +67,17 @@ The <b>joyGetDevCaps</b> function queries a joystick to determine its capabiliti
 
 ### -param uJoyID
 
-Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range from -1 to 15. A value of -1 enables retrieval of the <b>szRegKey</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)">JOYCAPS</a> structure whether a device is present or not. 
+Identifier of the joystick to be queried. Valid values for <i>uJoyID</i> range from -1 to 15. A value of -1 enables retrieval of the <b>szRegKey</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure whether a device is present or not. 
 
 
 ### -param pjc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)">JOYCAPS</a> structure to contain the capabilities of the joystick.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure to contain the capabilities of the joystick.
 
 
 ### -param cbjc
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd757103(v=vs.85)">JOYCAPS</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd757103(v=vs.85)">JOYCAPS</a> structure.
 
 
 ## -returns
@@ -123,7 +123,7 @@ An invalid parameter was passed.
 
 
 
-Use the <a href="https://docs.microsoft.com/previous-versions//dd757106(v=vs.85)">joyGetNumDevs</a> function to determine the number of joystick devices supported by the driver.
+Use the <a href="https://docs.microsoft.com/previous-versions/dd757106(v=vs.85)">joyGetNumDevs</a> function to determine the number of joystick devices supported by the driver.
       
 
 This method fails when passed an invalid value for the <i>cbjc</i> parameter. 

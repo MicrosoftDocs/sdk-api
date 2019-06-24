@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioAdvance</b> function advances the I/O buffer of a file set up for direct I/O buffer access with the <a href="https://docs.microsoft.com/previous-versions//dd757321(v=vs.85)">mmioGetInfo</a> function.
+The <b>mmioAdvance</b> function advances the I/O buffer of a file set up for direct I/O buffer access with the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function.
 
 
 
@@ -66,12 +66,12 @@ The <b>mmioAdvance</b> function advances the I/O buffer of a file set up for dir
 
 ### -param hmmio
 
-File handle of a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
+File handle of a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 ### -param pmmioinfo
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure obtained by using the <a href="https://docs.microsoft.com/previous-versions//dd757321(v=vs.85)">mmioGetInfo</a> function. This structure is used to set the current file information, and then it is updated after the buffer is advanced. This parameter is optional.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure obtained by using the <a href="https://docs.microsoft.com/previous-versions/dd757321(v=vs.85)">mmioGetInfo</a> function. This structure is used to set the current file information, and then it is updated after the buffer is advanced. This parameter is optional.
 
 
 ### -param fuAdvance
@@ -115,7 +115,7 @@ Returns MMSYSERR_NOERROR if successful or an error otherwise. Possible error val
 </dl>
 </td>
 <td width="60%">
-The specified memory file cannot be expanded, probably because the <b>adwInfo</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure was set to zero in the initial call to the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
+The specified memory file cannot be expanded, probably because the <b>adwInfo</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure was set to zero in the initial call to the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 </td>
 </tr>
@@ -173,7 +173,7 @@ The specified file is not opened for buffered I/O.
 
 
 
-If the file is opened for reading, the I/O buffer is filled from the disk. If the file is opened for writing and the MMIO_DIRTY flag is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757322(v=vs.85)">MMIOINFO</a> structure, the buffer is written to disk. The <b>pchNext,</b><b>pchEndRead</b>, and <b>pchEndWrite</b> members of the <b>MMIOINFO</b> structure are updated to reflect the new state of the I/O buffer.
+If the file is opened for reading, the I/O buffer is filled from the disk. If the file is opened for writing and the MMIO_DIRTY flag is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757322(v=vs.85)">MMIOINFO</a> structure, the buffer is written to disk. The <b>pchNext,</b><b>pchEndRead</b>, and <b>pchEndWrite</b> members of the <b>MMIOINFO</b> structure are updated to reflect the new state of the I/O buffer.
 
 If the specified file is opened for writing or for both reading and writing, the I/O buffer is flushed to disk before the next buffer is read. If the I/O buffer cannot be written to disk because the disk is full, <b>mmioAdvance</b> returns MMIOERR_CANNOTWRITE.
 

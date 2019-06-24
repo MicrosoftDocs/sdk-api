@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Set the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">pixel shader</a> pipeline stage.
+Set the <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffers</a> used by the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">pixel shader</a> pipeline stage.
 
 
 ## -parameters

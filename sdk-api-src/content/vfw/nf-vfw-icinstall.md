@@ -98,7 +98,7 @@ Flags defining the contents of <i>lParam</i>. The following values are defined.
 </tr>
 <tr>
 <td>ICINSTALL_FUNCTION</td>
-<td>The <i>lParam</i> parameter contains the address of a compressor function. This function should be structured like the <a href="https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)">DriverProc</a> entry point function used by compressors.</td>
+<td>The <i>lParam</i> parameter contains the address of a compressor function. This function should be structured like the <a href="https://docs.microsoft.com/previous-versions/dd797918(v=vs.85)">DriverProc</a> entry point function used by compressors.</td>
 </tr>
 </table>
  

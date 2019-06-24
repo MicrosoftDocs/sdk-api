@@ -103,7 +103,7 @@ Allows a transform to state how it would map a rectangle requested on its output
 
 
 
-Transforms are aggregated by effect authors. This interface  provides a common interface for implementing the Shantzis rectangle calculations which is the basis for all the transform processing in Direct2D imaging extensions.  These  calculations are described in the paper <a href="http://dl.acm.org/citation.cfm?id=192191">A model for efficient and flexible image computing</a>.
+Transforms are aggregated by effect authors. This interface  provides a common interface for implementing the Shantzis rectangle calculations which is the basis for all the transform processing in Direct2D imaging extensions.  These  calculations are described in the paper <a href="https://dl.acm.org/citation.cfm?id=192191">A model for efficient and flexible image computing</a>.
 
 
 

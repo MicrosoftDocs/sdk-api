@@ -76,9 +76,9 @@ Integer that specifies the size, in bytes, of the property item to be retrieved.
 
 ### -param buffer [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a> object that receives the property item. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a> object that receives the property item. 
 
 
 ## -returns
@@ -101,7 +101,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-The <b>Image::GetPropertyItem</b> method returns a <a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a> object. Before you call 
+The <b>Image::GetPropertyItem</b> method returns a <a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a> object. Before you call 
 				<b>Image::GetPropertyItem</b>, you must allocate a buffer large enough to receive that object — the size varies according to data type and value of the property item. You can call the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getpropertyitemsize">Image::GetPropertyItemSize</a> method of an 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object to get the size, in bytes, of the required buffer.
 
@@ -206,7 +206,7 @@ The value of the property item is Northwind Traders.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a>
 
 
 
