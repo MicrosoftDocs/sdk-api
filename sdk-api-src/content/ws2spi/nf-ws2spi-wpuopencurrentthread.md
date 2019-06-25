@@ -113,14 +113,14 @@ A successful
 The 
 <b>WPUOpenCurrentThread</b> function provides a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/ns-ws2spi-_wsathreadid">WSATHREADID</a> structure that can then be passed to an overlapped function such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> or 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>. Layered service providers using a private thread in one of the upper layers will use 
 <b>WPUOpenCurrentThread</b> to pass a 
 <b>WSATHREADID</b> pointer to the lower layer that is administering overlapped functions.
 
 Overlapped functions such as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a> can then be used in the same way as a regular service provider.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> can then be used in the same way as a regular service provider.
 
 Every call to 
 <b>WPUOpenCurrentThread</b> must have a corresponding call to 
@@ -138,11 +138,11 @@ Every call to
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
  
 
  

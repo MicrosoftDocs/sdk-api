@@ -67,9 +67,9 @@ A handle to the list box to check.
 
 ### -param pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates to check. 
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the screen coordinates to check. 
 
 
 ### -param bAutoScroll

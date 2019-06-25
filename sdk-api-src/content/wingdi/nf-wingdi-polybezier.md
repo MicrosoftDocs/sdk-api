@@ -67,7 +67,7 @@ A handle to a device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that contain the endpoints and control points of the curve(s), in logical units.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that contain the endpoints and control points of the curve(s), in logical units.
 
 
 ### -param cpt [in]
@@ -122,7 +122,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/redr
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

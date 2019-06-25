@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of geometry used for raytracing. Use a value from this enumeration to specify the geometry type in a <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc">D3D12_RAYTRACING_GEOMETRY_DESC</a>.
+Specifies the type of geometry used for raytracing. Use a value from this enumeration to specify the geometry type in a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_desc">D3D12_RAYTRACING_GEOMETRY_DESC</a>.
 
 
 ## -enum-fields
@@ -65,5 +65,5 @@ The geometry consists of triangles.
 
 ### -field D3D12_RAYTRACING_GEOMETRY_TYPE_PROCEDURAL_PRIMITIVE_AABBS
 
-The geometry procedurally is defined during raytracing by intersection shaders.  For the purpose of acceleration structure builds, the geometry’s bounds are described with axis-aligned bounding boxes using the  <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_aabbs_desc">D3D12_RAYTRACING_GEOMETRY_AABBS_DESC</a> structure.
+The geometry procedurally is defined during raytracing by intersection shaders.  For the purpose of acceleration structure builds, the geometry’s bounds are described with axis-aligned bounding boxes using the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_raytracing_geometry_aabbs_desc">D3D12_RAYTRACING_GEOMETRY_AABBS_DESC</a> structure.
 

@@ -112,7 +112,7 @@ This method returns the number of properties stored in this
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a>
 
 
 

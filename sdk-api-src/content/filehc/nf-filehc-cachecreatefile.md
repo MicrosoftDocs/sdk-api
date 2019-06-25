@@ -65,7 +65,7 @@ A pointer to the name of the file to be created in the cache.
 
 ### -param pfnCallBack [in]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions//bb432261(v=vs.85)">FCACHE_CREATE_CALLBACK</a> function that was used to create the file.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/bb432261(v=vs.85)">FCACHE_CREATE_CALLBACK</a> function that was used to create the file.
 
 
 ### -param lpv [in]
@@ -96,7 +96,7 @@ Returns a pointer to the <a href="Http://go.microsoft.com/fwlink/p/?linkid=85304
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//bb432261(v=vs.85)">FCACHE_CREATE_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/bb432261(v=vs.85)">FCACHE_CREATE_CALLBACK</a>
 
 
 

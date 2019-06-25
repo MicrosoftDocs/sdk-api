@@ -60,7 +60,7 @@ Retrieves the size of the bitmap contained in an <a href="https://docs.microsoft
 
 ### -param pSize [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
 When this method returns, contains a pointer to a value that specifies the size, in pixels, of the contained bitmap.
 

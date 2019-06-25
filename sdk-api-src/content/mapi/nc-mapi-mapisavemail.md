@@ -296,7 +296,7 @@ Because message identifiers are system-specific and opaque and can be invalidate
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

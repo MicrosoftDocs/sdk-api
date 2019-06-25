@@ -94,7 +94,7 @@ Allocates a memory buffer that is linked to another buffer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629461(v=vs.85)">Backup</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629461(v=vs.85)">Backup</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -123,7 +123,7 @@ Frees memory allocated with
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629464(v=vs.85)">GetLastError</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629464(v=vs.85)">GetLastError</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

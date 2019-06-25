@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioSetBuffer</b> function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioSetBuffer</b> function enables or disables buffered I/O, or changes the buffer or buffer size for a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 

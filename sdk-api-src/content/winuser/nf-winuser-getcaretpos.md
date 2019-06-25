@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Copies the caret's position to the specified <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure. 
+Copies the caret's position to the specified <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure. 
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Copies the caret's position to the specified <a href="https://docs.microsoft.com
 
 Type: <b>LPPOINT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that is to receive the client coordinates of the caret. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that is to receive the client coordinates of the caret. 
 
 
 ## -returns
@@ -111,7 +111,7 @@ This API does not participate in DPI virtualization. The returned values are int
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

@@ -109,10 +109,10 @@ Handle to a region that can be used to specify the bounds of a hit test area. Th
 
 ### -param ptTest [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the coordinates of the point.
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the coordinates of the point.
 
 
 ### -param pwHitTestCode [out]

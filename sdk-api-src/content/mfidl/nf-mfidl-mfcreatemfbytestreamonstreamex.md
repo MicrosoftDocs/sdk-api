@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> object.
+Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> object.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Creates a Microsoft Media Foundation byte stream that wraps an <a href="https://
 
 ### -param punkStream [in]
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> interface.
 
 
 ### -param ppByteStream [out]

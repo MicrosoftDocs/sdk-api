@@ -68,19 +68,19 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535629(v=vs.85)">GraphicsPath(Point*,BYTE*,INT,FillMode)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535629(v=vs.85)">GraphicsPath(Point*,BYTE*,INT,FillMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535629(v=vs.85)">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535629(v=vs.85)">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535631(v=vs.85)">GraphicsPath(PointF*,BYTE*,INT,FillMode)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535631(v=vs.85)">GraphicsPath(PointF*,BYTE*,INT,FillMode)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms535631(v=vs.85)">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms535631(v=vs.85)">GraphicsPath::GraphicsPath</a> object based on an array of points, an array of types, and a fill mode.
 
 </td>
 </tr>

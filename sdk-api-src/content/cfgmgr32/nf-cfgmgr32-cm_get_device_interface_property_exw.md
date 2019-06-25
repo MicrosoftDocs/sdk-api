@@ -74,7 +74,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/instal
 
 ### -param PropertyType [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff543546(v=vs.85)">DEVPROPTYPE</a>-typed variable that receives the property-data-type identifier of the requested device interface property. The property-data-type identifier is a bitwise OR between a base-data-type identifier and, if the base-data type is modified, a property-data-type modifier.
 
 
 ### -param PropertyBuffer [out]

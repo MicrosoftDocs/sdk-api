@@ -77,7 +77,7 @@ The number of entries to be replaced.
 
 ### -param ppe [in]
 
-A pointer to the first member in an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures used to replace the current entries.
+A pointer to the first member in an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures used to replace the current entries.
 
 
 ## -returns
@@ -129,7 +129,7 @@ If the given palette is associated with the active window, the colors in the pal
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
  
 
  

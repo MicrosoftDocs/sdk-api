@@ -79,7 +79,7 @@ The window's vertical extent in logical units.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the previous window extents, in logical units. If <i>lpSize</i> is <b>NULL</b>, this parameter is not used.
 
 
 ## -returns
@@ -137,7 +137,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/inva
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
 
 
 

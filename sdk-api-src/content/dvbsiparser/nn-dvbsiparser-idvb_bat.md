@@ -134,7 +134,7 @@ Returns the number of descriptors for a record in the BAT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389781(v%3dvs.85)">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389781(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves a descriptor for a specified record in the BAT.

@@ -62,7 +62,7 @@ Gets the point at which the current drag-and-drop operation was terminated.
 
 ### -param ppt [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that, when this method returns successfully, receives the coordinates at which the current drag-and-drop operation was terminated.
 

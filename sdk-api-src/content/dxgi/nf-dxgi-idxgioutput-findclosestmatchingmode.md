@@ -99,7 +99,7 @@ A pointer to the Direct3D device interface. If this parameter is <b>NULL</b>, on
 <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/format-support-for-direct3d-11-0-feature-level-hardware">DXGI Format  Support for Direct3D Feature Level 11.0 Hardware</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/previous-versions//ff471324(v=vs.85)">Hardware Support for Direct3D 10Level9 Formats</a>
+<a href="https://docs.microsoft.com/previous-versions/ff471324(v=vs.85)">Hardware Support for Direct3D 10Level9 Formats</a>
 </li>
 <li>
 <a href="https://docs.microsoft.com/en-us/windows/desktop/direct3ddxgi/format-support-for-direct3d-feature-level-10-1-hardware">Hardware Support for Direct3D 10.1 Formats</a>

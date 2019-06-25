@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Set an array of sampler states to the <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">pixel shader</a> pipeline stage.
+Set an array of sampler states to the <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">pixel shader</a> pipeline stage.
 
 
 ## -parameters

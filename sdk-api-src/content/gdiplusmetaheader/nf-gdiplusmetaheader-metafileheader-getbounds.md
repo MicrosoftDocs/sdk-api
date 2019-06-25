@@ -80,7 +80,7 @@ This method does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 

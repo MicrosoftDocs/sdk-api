@@ -84,7 +84,7 @@ The display type of the network resource this data source will represent. This i
 
 Type: <b>LPCWSTR</b>
 
-The network resource name. for example, \\server or \\server\share. this is passed to the WNet in the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpRemoteName</i> field. 
+The network resource name. for example, \\server or \\server\share. this is passed to the WNet in the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpRemoteName</i> field. 
 
 
 
@@ -92,7 +92,7 @@ The network resource name. for example, \\server or \\server\share. this is pass
 
 Type: <b>LPCWSTR</b>
 
-Optional network provider, as in the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpProvider</i> field.
+Optional network provider, as in the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>.<i>lpProvider</i> field.
 
 
 
@@ -120,7 +120,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>
 
 
 

@@ -78,7 +78,7 @@ This method returns an element of the <a href="https://docs.microsoft.com/window
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535280(v=vs.85)">GetMetafileHeader</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535280(v=vs.85)">GetMetafileHeader</a>
 
 
 

@@ -127,7 +127,7 @@ The authenticode policy return code.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//bb432350(v=vs.85)">JAVA_POLICY_PROVIDER</a>
+<a href="https://docs.microsoft.com/previous-versions/bb432350(v=vs.85)">JAVA_POLICY_PROVIDER</a>
  
 
  

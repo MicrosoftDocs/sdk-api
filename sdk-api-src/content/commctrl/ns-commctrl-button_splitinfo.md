@@ -177,9 +177,9 @@ Stretch glyph, but try to retain aspect ratio.
 
 ### -field size
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>. 
+A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the size of the glyph in <b>himlGlyph</b>. 
 
 
 ## -remarks

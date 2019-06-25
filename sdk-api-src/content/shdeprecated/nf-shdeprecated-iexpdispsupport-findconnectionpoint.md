@@ -69,13 +69,13 @@ The IID of the interface on the connection point container whose connection poin
 
 #### DIID_DWebBrowserEvents
 
-Value that indicates a member of the <a href="https://docs.microsoft.com/en-us/dotnet/api/shdocvw.dwebbrowserevents">DWebBrowserEvents</a> interface.
+Value that indicates a member of the <a href="https://docs.microsoft.com/dotnet/api/shdocvw.dwebbrowserevents?view=dynamics-usd-3">DWebBrowserEvents</a> interface.
 
 
 
 #### DIID_DWebBrowserEvents2
 
-Value that indicates a member of the <a href="https://docs.microsoft.com/en-us/dotnet/api/shdocvw.dwebbrowserevents2">DWebBrowserEvents2</a> interface.
+Value that indicates a member of the <a href="https://docs.microsoft.com/dotnet/api/shdocvw.dwebbrowserevents2?view=dynamics-usd-3">DWebBrowserEvents2</a> interface.
 
 
 

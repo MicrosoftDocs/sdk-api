@@ -69,9 +69,9 @@ A handle to the window whose child is to be retrieved.
 
 ### -param ptParentClientCoords [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that defines the client coordinates of the point to be checked. 
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that defines the client coordinates of the point to be checked. 
 
 
 ## -returns
@@ -112,7 +112,7 @@ The return value is a handle to the child window that contains the specified poi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

@@ -174,7 +174,7 @@ The call succeeded and the message was deleted.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd296734(v=vs.85)">Simple MAPI</a>
+<a href="https://docs.microsoft.com/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
  
 
  

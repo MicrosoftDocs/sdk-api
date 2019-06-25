@@ -65,7 +65,7 @@ The <b>mixerClose</b> function closes the specified mixer device.
 
 ### -param hmx
 
-Handle to the mixer device. This handle must have been returned successfully by the <a href="https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)">mixerOpen</a> function. If <b>mixerClose</b> is successful, <i>hmx</i> is no longer valid.
+Handle to the mixer device. This handle must have been returned successfully by the <a href="https://docs.microsoft.com/previous-versions/dd757308(v=vs.85)">mixerOpen</a> function. If <b>mixerClose</b> is successful, <i>hmx</i> is no longer valid.
 
 
 ## -returns

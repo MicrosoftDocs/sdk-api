@@ -67,7 +67,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure indicating the position of the item.
 

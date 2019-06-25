@@ -159,7 +159,7 @@ An internal error occurred; call <b>GetLastError</b> to get extended error infor
 
 <b>ComDBClaimNextFreePort</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Obtaining and Releasing a COM Port Number</a>.
 
 
 

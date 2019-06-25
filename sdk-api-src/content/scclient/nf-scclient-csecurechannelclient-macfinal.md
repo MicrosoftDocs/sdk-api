@@ -158,7 +158,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231593(v%3dvs.85)">CSecureChannelClient::MACUpdate</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">CSecureChannelClient::MACUpdate</a>
 
 
 

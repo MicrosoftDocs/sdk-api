@@ -80,7 +80,7 @@ Size of reserved disk space.
 
 
 
-When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
+When assigning data to the members of this structure, set the corresponding flags in the <i>fdwCommand</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a> function to validate the members.
 
 
 
@@ -102,7 +102,7 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757160(v=vs.85)">mciSendCommand</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
  
 
  

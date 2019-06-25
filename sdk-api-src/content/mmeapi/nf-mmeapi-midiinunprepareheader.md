@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>midiInUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a> function.
+The <b>midiInUnprepareHeader</b> function cleans up the preparation performed by the <a href="https://docs.microsoft.com/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a> function.
 
 
 
@@ -70,12 +70,12 @@ Handle to the MIDI input device.
 
 ### -param pmh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure identifying the buffer to be cleaned up.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure identifying the buffer to be cleaned up.
 
 
 ### -param cbmh
 
-Size of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
+Size of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
 
 
 ## -returns
@@ -132,7 +132,7 @@ The specified device handle is invalid.
 
 
 
-This function is complementary to <a href="https://docs.microsoft.com/previous-versions//dd798459(v=vs.85)">midiInPrepareHeader</a>. You must use this function before freeing the buffer. After passing a buffer to the device driver by using the <a href="https://docs.microsoft.com/previous-versions//dd798450(v=vs.85)">midiInAddBuffer</a> function, you must wait until the driver is finished with the buffer before using <b>midiInUnprepareHeader</b>. Unpreparing a buffer that has not been prepared has no effect, and the function returns MMSYSERR_NOERROR.
+This function is complementary to <a href="https://docs.microsoft.com/previous-versions/dd798459(v=vs.85)">midiInPrepareHeader</a>. You must use this function before freeing the buffer. After passing a buffer to the device driver by using the <a href="https://docs.microsoft.com/previous-versions/dd798450(v=vs.85)">midiInAddBuffer</a> function, you must wait until the driver is finished with the buffer before using <b>midiInUnprepareHeader</b>. Unpreparing a buffer that has not been prepared has no effect, and the function returns MMSYSERR_NOERROR.
 
 
 

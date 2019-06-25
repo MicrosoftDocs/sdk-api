@@ -93,7 +93,7 @@ The intensity of the blue color field.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 

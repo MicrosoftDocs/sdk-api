@@ -66,7 +66,7 @@ An <b>EncoderParameter</b> object holds a parameter that can be passed to an ima
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
 
 
 

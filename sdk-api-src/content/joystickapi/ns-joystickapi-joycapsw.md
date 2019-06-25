@@ -115,7 +115,7 @@ Number of joystick buttons.
 
 ### -field wPeriodMin
 
-Smallest polling frequency supported when captured by the <a href="https://docs.microsoft.com/previous-versions//dd757114(v=vs.85)">joySetCapture</a> function.
+Smallest polling frequency supported when captured by the <a href="https://docs.microsoft.com/previous-versions/dd757114(v=vs.85)">joySetCapture</a> function.
 
 
 ### -field wPeriodMax
@@ -232,7 +232,7 @@ Multimedia Joystick Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757114(v=vs.85)">joySetCapture</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757114(v=vs.85)">joySetCapture</a>
  
 
  

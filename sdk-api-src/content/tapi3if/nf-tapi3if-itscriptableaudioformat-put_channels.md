@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>put_Channels</b> method sets the <b>nChannels</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param nNewVal [in]
 
 New value for the <b>nChannels</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -returns

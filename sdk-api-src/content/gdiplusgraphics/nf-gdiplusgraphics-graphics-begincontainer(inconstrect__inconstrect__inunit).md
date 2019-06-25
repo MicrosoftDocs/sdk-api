@@ -128,7 +128,7 @@ For more information about graphics containers, see <a href="https://docs.micros
 #### Examples
 
 The following example calls the <b>Graphics::BeginContainer</b> method to create a graphics container. The code specifies a transformation for the container by passing two rectangles to the <b>Graphics::BeginContainer</b> method. The code calls 
-						<a href="https://docs.microsoft.com/previous-versions//ms535966(v=vs.85)">Graphics::FillEllipse</a> twice: once inside the container and once outside the container (after the call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>).
+						<a href="https://docs.microsoft.com/previous-versions/ms535966(v=vs.85)">Graphics::FillEllipse</a> twice: once inside the container and once outside the container (after the call to <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer">Graphics::EndContainer</a>).
 
 
 ```cpp

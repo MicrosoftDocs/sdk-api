@@ -84,8 +84,8 @@ This method returns the size, in bytes, of the parameter list.
 
 
 The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getencoderparameterlist">Image::GetEncoderParameterList</a> method returns an array of 
-				<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
-				<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object. You can call the <b>Image::GetEncoderParameterListSize</b> method to get the size, in bytes, of the required 
+				<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a> objects. Before you call <b>Image::GetEncoderParameterList</b>, you must allocate a buffer large enough to receive that array, which is part of an 
+				<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object. You can call the <b>Image::GetEncoderParameterListSize</b> method to get the size, in bytes, of the required 
 				<b>EncoderParameters</b> object. 
 
 

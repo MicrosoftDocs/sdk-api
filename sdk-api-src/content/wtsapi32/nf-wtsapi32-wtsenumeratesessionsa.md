@@ -115,7 +115,7 @@ To get extended error information, call
 
 
 
-For more information, and an extended example on how to use this function, see the following <a href="https://support.microsoft.com/en-us/kb/291789">kb article</a>.
+For more information, and an extended example on how to use this function, see the following <a href="https://support.microsoft.com/help/291789">kb article</a>.
 
 
 

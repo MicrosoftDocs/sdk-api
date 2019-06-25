@@ -99,7 +99,7 @@ This is an enhanced-metafile function.
 
 An application typically uses <b>PlayEnhMetaFileRecord</b> in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function to process and play an enhanced-format metafile one record at a time.
 
-The <i>hdc</i>, <i>lpHandletable</i>, and <i>nHandles</i> parameters must be exactly those passed to the <a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a> callback procedure by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
+The <i>hdc</i>, <i>lpHandletable</i>, and <i>nHandles</i> parameters must be exactly those passed to the <a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a> callback procedure by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enumenhmetafile">EnumEnhMetaFile</a> function.
 
 If <b>PlayEnhMetaFileRecord</b> does not recognize a record, it ignores the record and returns <b>TRUE</b>.
 

@@ -74,12 +74,12 @@ Handle to an ACM driver. If this handle is specified, it identifies a specific d
 
 ### -param pwfxSrc
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired source format for the conversion.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired source format for the conversion.
 
 
 ### -param pwfxDst
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired destination format for the conversion.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that identifies the desired destination format for the conversion.
 
 
 ### -param pwfltr
@@ -126,7 +126,7 @@ Flags for opening the conversion stream. The following values are defined.
 </tr>
 <tr>
 <td>CALLBACK_FUNCTION</td>
-<td>The <i>dwCallback</i> parameter is a callback procedure address. The function prototype must conform to the <a href="https://docs.microsoft.com/previous-versions//dd742925(v=vs.85)">acmStreamConvertCallback</a> prototype.</td>
+<td>The <i>dwCallback</i> parameter is a callback procedure address. The function prototype must conform to the <a href="https://docs.microsoft.com/previous-versions/dd742925(v=vs.85)">acmStreamConvertCallback</a> prototype.</td>
 </tr>
 <tr>
 <td>CALLBACK_WINDOW</td>

@@ -81,7 +81,7 @@ Adds an entry list to the table of contents and assigns an index to the entry li
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264281(v%3dvs.85)">AddEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264281(v=vs.85)">AddEntryListByIndex</a>
 </td>
 <td align="left" width="63%">
 Adds an entry list to the table of contents and associates a caller-supplied index with the entry list.
@@ -117,7 +117,7 @@ Retrieves the descriptor, previously set by <a href="https://docs.microsoft.com/
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264285(v%3dvs.85)">GetEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264285(v=vs.85)">GetEntryListByIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves an entry list, specified by an index, from the table of contents.
@@ -135,7 +135,7 @@ Retrieves the number of entry lists in the table of contents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ee264287(v%3dvs.85)">RemoveEntryListByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/ee264287(v=vs.85)">RemoveEntryListByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes an entry list, specified by an index, from the table of contents.

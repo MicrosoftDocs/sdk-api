@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the property coordinates stored in a <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
+Retrieves the property coordinates stored in a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure of a specified property bag.
 
 
 ## -parameters
@@ -74,9 +74,9 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a>*</b>
 
-When this function returns successfully, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162808(v=vs.85)">POINTS</a> structure that contains the property coordinates.
+When this function returns successfully, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162808(v=vs.85)">POINTS</a> structure that contains the property coordinates.
 
 
 ## -returns

@@ -105,7 +105,7 @@ Vectors are similar to points in many ways. Like points, they are represented by
 
 The following example creates a vector and a point. The tip of the vector and the point are at the same location: (100, 50). The code creates a 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix">Matrix</a> object and initializes its elements so that it represents a clockwise rotation followed by a translation 100 units to the right. The code calls the 
-						<a href="https://docs.microsoft.com/previous-versions//ms535321(v=vs.85)">Matrix::TransformPoints</a> method of the matrix to transform the point and calls the <b>Matrix::TransformVectors</b> method of the matrix to transform the vector. The entire transformation (rotation followed by translation) is performed on the point, but only the rotation part of the transformation is performed on the vector. The elements of the matrix that represent translation are ignored by the <b>Matrix::TransformVectors</b> method.
+						<a href="https://docs.microsoft.com/previous-versions/ms535321(v=vs.85)">Matrix::TransformPoints</a> method of the matrix to transform the point and calls the <b>Matrix::TransformVectors</b> method of the matrix to transform the vector. The entire transformation (rotation followed by translation) is performed on the point, but only the rotation part of the transformation is performed on the vector. The elements of the matrix that represent translation are ignored by the <b>Matrix::TransformVectors</b> method.
 
 
 ```cpp

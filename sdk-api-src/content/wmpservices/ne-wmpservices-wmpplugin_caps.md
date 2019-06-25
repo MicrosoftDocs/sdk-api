@@ -84,7 +84,7 @@ When <b>IWMPPlugin::GetCaps</b> returns <b>WMPPlugin_Caps_CannotConvertFormats</
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa391071(v%3dvs.85)">IWMPPlugin::GetCaps</a>
+<a href="https://docs.microsoft.com/previous-versions/aa391071(v=vs.85)">IWMPPlugin::GetCaps</a>
  
 
  

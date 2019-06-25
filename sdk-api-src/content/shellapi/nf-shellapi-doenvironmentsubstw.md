@@ -52,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
+<p class="CCE_Message">[This function is retained only for backward compatibility. Use <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a> instead.]
 
 Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
         

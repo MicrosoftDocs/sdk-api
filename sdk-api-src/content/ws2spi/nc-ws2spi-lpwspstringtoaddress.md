@@ -155,7 +155,7 @@ One vital benefit of this policy is that base service providers do not have to b
 This same propagation policy applies when propagating a 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaprotocol_infoa">WSAPROTOCOL_INFO</a> structure through a layered sequence of other functions such as 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaddresstostring">WSPAddressToString</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>, 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a>, or 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a>.
 
@@ -171,7 +171,7 @@ This same propagation policy applies when propagating a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>
 
 
 

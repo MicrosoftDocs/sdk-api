@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> around a Windows Runtime <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> object.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> around a Windows Runtime <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-obj
 
 ### -param randomAccessStream [in]
 
-The source <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>.
+The source <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a>.
 
 
 ### -param riid [in]

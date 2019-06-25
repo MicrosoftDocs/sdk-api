@@ -84,7 +84,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd693584(v=vs.85)">get_SymbolRate</a>
+<a href="https://docs.microsoft.com/previous-versions/dd693584(v=vs.85)">get_SymbolRate</a>
  
 
  

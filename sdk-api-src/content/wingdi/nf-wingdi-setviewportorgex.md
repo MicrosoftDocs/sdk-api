@@ -78,7 +78,7 @@ The y-coordinate, in device units, of the new viewport origin.
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that receives the previous viewport origin, in device coordinates. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous viewport origin, in device coordinates. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
 
 
 ## -returns
@@ -135,7 +135,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/redr
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

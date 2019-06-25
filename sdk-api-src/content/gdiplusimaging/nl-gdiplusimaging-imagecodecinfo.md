@@ -64,11 +64,11 @@ An <b>ImageCodecInfo</b> object stores information about an image codec (encoder
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
 
 
 

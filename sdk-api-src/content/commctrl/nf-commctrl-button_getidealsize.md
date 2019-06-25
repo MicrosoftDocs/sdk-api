@@ -67,9 +67,9 @@ A handle to the button control.
 
 ### -param psize
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the desired size of the button including the text and image list if present. 
 
 
 ## -remarks
@@ -102,7 +102,7 @@ When sent to a button of any other type, the size of the control's window rectan
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
  
 
  

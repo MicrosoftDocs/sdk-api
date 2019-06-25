@@ -144,7 +144,7 @@ Metric index to be returned in <i>pMetric</i>.
 </tr>
 <tr>
 <td>ACM_METRIC_MAX_SIZE_FORMAT</td>
-<td>Returned value is the size of the largest <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure. If <i>hao</i> is <b>NULL</b>, the return value is the largest <b>WAVEFORMATEX</b> structure in the system. If <i>hao</i> identifies an open instance of an ACM driver of the <b>HACMDRIVER</b> data type or an ACM driver identifier of the <b>HACMDRIVERID</b> data type, the largest <b>WAVEFORMATEX</b> structure for that driver is returned. The <i>pMetric</i> parameter must point to a buffer of a size equal to a <b>DWORD</b> value. This metric is not allowed for an ACM stream handle of the <b>HACMSTREAM</b> data type.</td>
+<td>Returned value is the size of the largest <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure. If <i>hao</i> is <b>NULL</b>, the return value is the largest <b>WAVEFORMATEX</b> structure in the system. If <i>hao</i> identifies an open instance of an ACM driver of the <b>HACMDRIVER</b> data type or an ACM driver identifier of the <b>HACMDRIVERID</b> data type, the largest <b>WAVEFORMATEX</b> structure for that driver is returned. The <i>pMetric</i> parameter must point to a buffer of a size equal to a <b>DWORD</b> value. This metric is not allowed for an ACM stream handle of the <b>HACMSTREAM</b> data type.</td>
 </tr>
 </table>
  

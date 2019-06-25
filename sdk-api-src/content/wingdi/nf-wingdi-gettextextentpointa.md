@@ -86,7 +86,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/gdi/specifying-length-of
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that receives the dimensions of the string, in logical units.
 
 
 ## -returns
@@ -130,7 +130,7 @@ The calculated string width takes into account the intercharacter spacing set by
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
 
 
 

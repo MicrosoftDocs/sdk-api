@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a subobject with in a state object description. Use with <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
+Represents a subobject with in a state object description. Use with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_desc">D3D12_STATE_OBJECT_DESC</a>.
 
 
 ## -struct-fields

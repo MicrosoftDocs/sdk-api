@@ -70,7 +70,7 @@ Creates a <b>Color::Color</b> object and initializes it to opaque black. This is
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms536243(v=vs.85)">Color Constructors</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536243(v=vs.85)">Color Constructors</a>
  
 
  

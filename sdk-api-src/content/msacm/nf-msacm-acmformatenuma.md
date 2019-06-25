@@ -101,7 +101,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_CONVERT</td>
-<td>The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+<td>The <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will only enumerate destination formats that can be converted from the given <b>pwfx</b> format.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NCHANNELS</td>
-<td>The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
+<td>The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate only a format that conforms to this attribute.</td>
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_NSAMPLESPERSEC</td>
@@ -127,7 +127,7 @@ Flags for enumerating the formats for a given format tag. The following values a
 </tr>
 <tr>
 <td>ACM_FORMATENUMF_SUGGEST</td>
-<td>The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
+<td>The <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfx</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/ns-msacm-tacmformatdetails">ACMFORMATDETAILS</a> structure is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfx</b> format. This mechanism can be used instead of the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatsuggest">acmFormatSuggest</a> function to allow an application to choose the best suggested format for conversion. The <b>dwFormatIndex</b> member will always be set to zero on return.If this flag is used, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure cannot be WAVE_FORMAT_UNKNOWN.
 
 </td>
 </tr>

@@ -75,7 +75,7 @@ Specifies whether to apply the source rectangle.
 
 ### -param pRect [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)">RECT</a> structure that specifies the source rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162897(v=vs.85)">RECT</a> structure that specifies the source rectangle. If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
 
 
 ## -returns

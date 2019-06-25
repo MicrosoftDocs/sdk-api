@@ -67,7 +67,7 @@ A handle to the device context.
 
 ### -param apt [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that specify the vertices of the polygon, in logical coordinates.
 
 
 ### -param cpt [in]
@@ -117,7 +117,7 @@ Any extra points are ignored. To draw a line with more points, divide your data 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT
       </a>
 
 

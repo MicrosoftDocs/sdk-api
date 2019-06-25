@@ -80,7 +80,7 @@ Specifies the y-coordinate, in logical units, of the new position, in logical un
 
 ### -param lppt [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that receives the previous current position. If this parameter is a <b>NULL</b> pointer, the previous position is not returned.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous current position. If this parameter is a <b>NULL</b> pointer, the previous position is not returned.
 
 
 ## -returns
@@ -130,7 +130,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

@@ -75,7 +75,7 @@ The size, in bytes, of the value in <i>lpbName</i>.
 
 ### -param pfnCallback [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a> function.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a> function.
 
 <div class="alert"><b>Note</b>  If this parameter is <b>NULL</b>, no callback function is called.</div>
 <div> </div>
@@ -124,7 +124,7 @@ Returns <b>TRUE</b> if the name is found in the cache; otherwise, it returns <b>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/bb432262(v=vs.85)">FCACHE_READ_CALLBACK</a>
 
 
 

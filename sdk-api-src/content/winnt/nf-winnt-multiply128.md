@@ -87,7 +87,7 @@ The low 64 bits of the product.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//82cxdw50(v=vs.85)">__mul128</a>
+<a href="https://docs.microsoft.com/previous-versions/82cxdw50(v=vs.85)">__mul128</a>
  
 
  

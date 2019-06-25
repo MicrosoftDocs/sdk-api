@@ -62,9 +62,9 @@ Retrieves a thumbnail representation of an <a href="https://docs.microsoft.com/e
 
 ### -param pMaxSize [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that specifies the maximum size of the bitmap, in pixels.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that specifies the maximum size of the bitmap, in pixels.
 
 
 ### -param pHTMLDoc2 [in]

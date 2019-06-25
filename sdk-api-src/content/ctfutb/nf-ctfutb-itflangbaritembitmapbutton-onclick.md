@@ -65,7 +65,7 @@ Contains a <a href="https://docs.microsoft.com/windows/desktop/api/ctfutb/ne-ctf
 
 ### -param pt [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the position, in screen coordinates, of the mouse cursor at the time of the click event.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the position, in screen coordinates, of the mouse cursor at the time of the click event.
 
 
 ### -param prcArea [in]
@@ -121,7 +121,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

@@ -62,7 +62,7 @@ The <b>MPEGLAYER3WAVEFORMAT</b> structure describes an MPEG Audio Layer-3 (MP3) 
 ### -field wfx
 
 
-<a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that specifies the basic audio format. The <b>wFormatTag</b> member must be <b>WAVE_FORMAT_MPEGLAYER3</b>. The <b>cbSize</b> member must be at least 12. (For <b>cbSize</b>, you can use the constant <b>MPEGLAYER3_WFX_EXTRA_BYTES</b>, defined in the Mmreg.h.)
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that specifies the basic audio format. The <b>wFormatTag</b> member must be <b>WAVE_FORMAT_MPEGLAYER3</b>. The <b>cbSize</b> member must be at least 12. (For <b>cbSize</b>, you can use the constant <b>MPEGLAYER3_WFX_EXTRA_BYTES</b>, defined in the Mmreg.h.)
 
 
 ### -field wID

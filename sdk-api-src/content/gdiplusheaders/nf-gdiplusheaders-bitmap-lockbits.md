@@ -85,9 +85,9 @@ Integer that specifies the format of the pixel data in the temporary buffer. The
 
 ### -param lockedBitmapData [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534421(v=vs.85)">BitmapData</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534421(v=vs.85)">BitmapData</a>*</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//ms534421(v=vs.85)">BitmapData</a> object. If the ImageLockModeUserInputBuf flag of the 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/ms534421(v=vs.85)">BitmapData</a> object. If the ImageLockModeUserInputBuf flag of the 
 					<i>flags</i> parameter is cleared, then 
 					<i>lockedBitmapData</i> serves only as an output parameter. In that case, the 
 					<b>Scan0</b> data member of the <b>BitmapData</b> object receives a pointer to a temporary buffer, which is filled with the values of the requested pixels. The other data members of the <b>BitmapData</b> object receive attributes (width, height, format, and stride) of the pixel data in the temporary buffer. If the pixel data is stored bottom-up, the 
@@ -127,7 +127,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534421(v=vs.85)">BitmapData</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534421(v=vs.85)">BitmapData</a>
 
 
 

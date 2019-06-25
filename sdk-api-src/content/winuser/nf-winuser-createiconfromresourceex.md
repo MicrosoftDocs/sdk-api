@@ -200,7 +200,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 

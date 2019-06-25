@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <p class="CCE_Message">[<b>GetAudioFormat</b> is no longer available for use as of Windows 7. Instead, use the media type attributes to get the properties of the audio format.]
 
-Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that describes the audio format.
+Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that describes the audio format.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd7
 
 
 
-This method returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure.
+This method returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 
@@ -76,7 +76,7 @@ This method returns a pointer to a <a href="https://docs.microsoft.com/previous-
 
 
 
-If you need to convert the media type into a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype">MFCreateWaveFormatExFromMFMediaType</a>.
+If you need to convert the media type into a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure, call <a href="https://docs.microsoft.com/windows/desktop/api/mfapi/nf-mfapi-mfcreatewaveformatexfrommfmediatype">MFCreateWaveFormatExFromMFMediaType</a>.
 
 There are no guarantees about how long the returned pointer is valid.
 

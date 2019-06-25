@@ -73,7 +73,7 @@ Handle to a Windows-format metafile.
 
 ### -param proc [in]
 
-Pointer to an application-supplied callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a>.
+Pointer to an application-supplied callback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a>.
 
 
 ### -param param [in]
@@ -112,7 +112,7 @@ You can use the <b>EnumMetaFile</b> function to embed one Windows-format metafil
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a>
 
 
 

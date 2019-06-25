@@ -97,7 +97,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-Windows GDI+ stores an individual piece of metadata in a <a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a> object. The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems">Image::GetAllPropertyItems</a> method returns an array of <b>PropertyItem</b> objects. Before you call <b>Image::GetAllPropertyItems</b>, you must allocate a buffer large enough to receive that array. You can call the <b>Image::GetPropertySize</b> method of an 
+Windows GDI+ stores an individual piece of metadata in a <a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a> object. The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getallpropertyitems">Image::GetAllPropertyItems</a> method returns an array of <b>PropertyItem</b> objects. Before you call <b>Image::GetAllPropertyItems</b>, you must allocate a buffer large enough to receive that array. You can call the <b>Image::GetPropertySize</b> method of an 
 				<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a> object to get the size, in bytes, of the required buffer. The <b>Image::GetPropertySize</b> method also gives you the number of properties (pieces of metadata) in the image.
 
 
@@ -245,7 +245,7 @@ The preceding output shows the hexadecimal value of each property identifier. Yo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534493(v=vs.85)">PropertyItem</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534493(v=vs.85)">PropertyItem</a>
 
 
 

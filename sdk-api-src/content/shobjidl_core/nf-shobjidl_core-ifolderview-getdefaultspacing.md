@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
+Gets a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure containing the default width (x) and height (y) measurements of an item, including the surrounding white space.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ Gets a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162
 
 ### -param ppt [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 Pointer to an existing structure to be filled with the default sizing dimensions of the items in the folder's view.
 

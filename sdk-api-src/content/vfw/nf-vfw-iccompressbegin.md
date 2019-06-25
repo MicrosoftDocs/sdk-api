@@ -65,12 +65,12 @@ Handle to a compressor.
 
 ### -param lpbiInput
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFO</a> structure containing the input format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFO</a> structure containing the input format.
 
 
 ### -param lpbiOutput
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFO</a> structure containing the output format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFO</a> structure containing the output format.
 
 
 ## -remarks

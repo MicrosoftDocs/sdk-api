@@ -99,7 +99,7 @@ TBD
 
 
 
-The definition of the <code>HALF</code> type used under DirectXMath is consistent with the <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4610935">IEEE
+The definition of the <code>HALF</code> type used under DirectXMath is consistent with the <a href="https://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4610935">IEEE
 	    standard</a>, and consists of a sign bit, a 5 bit biased exponent, and a 10 bit
 	    mantissa:
 	

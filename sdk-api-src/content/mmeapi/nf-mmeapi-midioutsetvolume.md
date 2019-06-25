@@ -131,11 +131,11 @@ The function is not supported.
 
 If a device identifier is used, then the result of the <b>midiOutSetVolume</b> call applies to all instances of the device. If a device handle is used, then the result applies only to the instance of the device referenced by the device handle.
 
-Not all devices support volume changes. You can determine whether a device supports it by querying the device using the <a href="https://docs.microsoft.com/previous-versions//dd798469(v=vs.85)">midiOutGetDevCaps</a> function and the MIDICAPS_VOLUME flag.
+Not all devices support volume changes. You can determine whether a device supports it by querying the device using the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function and the MIDICAPS_VOLUME flag.
 
-You can also determine whether the device supports volume control on both the left and right channels by querying the device using the <a href="https://docs.microsoft.com/previous-versions//dd798469(v=vs.85)">midiOutGetDevCaps</a> function and the MIDICAPS_LRVOLUME flag.
+You can also determine whether the device supports volume control on both the left and right channels by querying the device using the <a href="https://docs.microsoft.com/previous-versions/dd798469(v=vs.85)">midiOutGetDevCaps</a> function and the MIDICAPS_LRVOLUME flag.
 
-Devices that do not support a full 16 bits of volume-level control use the high-order bits of the requested volume setting. For example, a device that supports 4 bits of volume control produces the same volume setting for the following volume-level values: 0x4000, 0x43be, and 0x4fff. The <a href="https://docs.microsoft.com/previous-versions//dd798473(v=vs.85)">midiOutGetVolume</a> function returns the full 16-bit value, as set by <b>midiOutSetVolume</b>, irrespective of the device's capabilities.
+Devices that do not support a full 16 bits of volume-level control use the high-order bits of the requested volume setting. For example, a device that supports 4 bits of volume control produces the same volume setting for the following volume-level values: 0x4000, 0x43be, and 0x4fff. The <a href="https://docs.microsoft.com/previous-versions/dd798473(v=vs.85)">midiOutGetVolume</a> function returns the full 16-bit value, as set by <b>midiOutSetVolume</b>, irrespective of the device's capabilities.
 
 Volume settings are interpreted logarithmically. This means that the perceived increase in volume is the same when increasing the volume level from 0x5000 to 0x6000 as it is from 0x4000 to 0x5000.
 

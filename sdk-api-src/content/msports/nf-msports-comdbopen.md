@@ -110,7 +110,7 @@ To close the COM port database, call <a href="https://docs.microsoft.com/windows
 
 <b>ComDBOpen</b> is called from user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Opening and Closing the COM Port Database</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Opening and Closing the COM Port Database</a>.
 
 
 

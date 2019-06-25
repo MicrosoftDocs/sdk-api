@@ -77,7 +77,7 @@ Indicates that each server participating in the failover relationship can probe 
 
 ### -field NORMAL
 
-Indicates that each server in the failover relationship can service <i>DHCPDISCOVER</i> messages and all other DHCP requests as defined in <a href="http://www.ietf.org/rfc/rfc2131.txt">RFC2131</a>. DHCPv4 servers in the <b>NORMAL</b> state can not service <i>DHCPREQUEST/RENEWAL</i> or <i>DHCPREQUEST/REBINDING</i> requests from the client set defined according to  the load balancing algorithm in <a href="http://tools.ietf.org/html/rfc3074">RFC3074</a>. However, each server can service <i>DHCPREQUEST/RENEWAL</i> or <i>DHCPDISCOVER/REBINDING</i> requests from any client.
+Indicates that each server in the failover relationship can service <i>DHCPDISCOVER</i> messages and all other DHCP requests as defined in <a href="http://www.ietf.org/rfc/rfc2131.txt">RFC2131</a>. DHCPv4 servers in the <b>NORMAL</b> state can not service <i>DHCPREQUEST/RENEWAL</i> or <i>DHCPREQUEST/REBINDING</i> requests from the client set defined according to  the load balancing algorithm in <a href="https://tools.ietf.org/html/rfc3074">RFC3074</a>. However, each server can service <i>DHCPREQUEST/RENEWAL</i> or <i>DHCPDISCOVER/REBINDING</i> requests from any client.
 
 
 ### -field COMMUNICATION_INT
@@ -134,7 +134,7 @@ Reserved. Do not use.
 
 
 
-These states are in conformance with the states described in the IETF Failover Protocol draft: <a href="http://tools.ietf.org/html/draft-ietf-dhc-failover-12">http://tools.ietf.org/html/draft-ietf-dhc-failover-12</a>
+These states are in conformance with the states described in the IETF Failover Protocol draft: <a href="https://tools.ietf.org/html/draft-ietf-dhc-failover-12">http://tools.ietf.org/html/draft-ietf-dhc-failover-12</a>
 
 
 

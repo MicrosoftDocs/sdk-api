@@ -60,9 +60,9 @@ Notifies the drag-image manager that the drop target's <a href="https://docs.mic
 
 ### -param ppt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
-The <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure pointer that was received in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method's 
+The <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure pointer that was received in the <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-idroptarget-dragover">IDropTarget::DragOver</a> method's 
 					<i>pt</i> parameter.
 
 

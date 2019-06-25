@@ -73,7 +73,7 @@ Reserved; must be zero.
 
 ### -field dwEvent
 
-Event code and event parameters or length. To parse this information, use the <a href="https://docs.microsoft.com/previous-versions//dd798442(v=vs.85)">MEVT_EVENTTYPE</a> and <a href="https://docs.microsoft.com/previous-versions//dd798441(v=vs.85)">MEVT_EVENTPARM</a> macros. See Remarks.
+Event code and event parameters or length. To parse this information, use the <a href="https://docs.microsoft.com/previous-versions/dd798442(v=vs.85)">MEVT_EVENTTYPE</a> and <a href="https://docs.microsoft.com/previous-versions/dd798441(v=vs.85)">MEVT_EVENTPARM</a> macros. See Remarks.
             
 
 
@@ -159,11 +159,11 @@ The remainder of the high byte contains one of the following event codes:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798441(v=vs.85)">MEVT_EVENTPARM</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798441(v=vs.85)">MEVT_EVENTPARM</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798442(v=vs.85)">MEVT_EVENTTYPE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798442(v=vs.85)">MEVT_EVENTTYPE</a>
 
 
 
@@ -171,7 +171,7 @@ The remainder of the high byte contains one of the following event codes:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798493(v=vs.85)">MIDISTRMBUFFVER</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798493(v=vs.85)">MIDISTRMBUFFVER</a>
 
 
 
@@ -179,7 +179,7 @@ The remainder of the high byte contains one of the following event codes:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd798481(v=vs.85)">midiOutShortMsg</a>
+<a href="https://docs.microsoft.com/previous-versions/dd798481(v=vs.85)">midiOutShortMsg</a>
  
 
  

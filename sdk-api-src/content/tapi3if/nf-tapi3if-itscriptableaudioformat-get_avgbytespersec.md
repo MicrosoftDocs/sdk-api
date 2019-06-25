@@ -52,7 +52,7 @@ ms.custom: 19H1
 
 The 
 <b>get_AvgBytesPerSec</b> method returns the value for the <b>nAvgBytesPerSec</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value for the <b>nAvgBytesPerSec</b> member in the 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 
 ## -returns

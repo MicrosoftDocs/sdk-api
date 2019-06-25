@@ -77,7 +77,7 @@ Number of palette entries that can fit in the array that <i>lpEntries</i> specif
 
 ### -param arg4 [out]
 
-An array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures that receives the palette entries from the DirectDrawPalette object. The palette entries are 1 byte each if the DDPCAPS_8BITENTRIES flag is set, and 4 bytes otherwise. Each field is a color description.
+An array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures that receives the palette entries from the DirectDrawPalette object. The palette entries are 1 byte each if the DDPCAPS_8BITENTRIES flag is set, and 4 bytes otherwise. Each field is a color description.
 
 
 ## -returns

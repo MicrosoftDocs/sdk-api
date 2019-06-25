@@ -60,7 +60,7 @@ Gets an enumerator that iterates through the qualified resources that are define
 
 ### -param resources [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dn280306(v=vs.85)">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dn280306(v=vs.85)">IAppxManifestQualifiedResourcesEnumerator</a>**</b>
 
 The enumerator that iterates through the qualified resources.
 

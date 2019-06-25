@@ -139,7 +139,7 @@ Driver supports hardware input and/or output of the specified format through a w
 
 ### -field pwfx
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will receive the format details. This structure requires no initialization by the application unless the ACM_FORMATDETAILSF_FORMAT flag is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. In this case, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure must be equal to the <b>dwFormatTag</b> of the <b>ACMFORMATDETAILS</b> structure.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that will receive the format details. This structure requires no initialization by the application unless the ACM_FORMATDETAILSF_FORMAT flag is specified in the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatdetails">acmFormatDetails</a> function. In this case, the <b>wFormatTag</b> member of the <b>WAVEFORMATEX</b> structure must be equal to the <b>dwFormatTag</b> of the <b>ACMFORMATDETAILS</b> structure.
 
 
 ### -field cbwfx
@@ -173,7 +173,7 @@ String that describes the format for the <b>dwFormatTag</b> type. If the <a href
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 

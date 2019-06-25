@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the privacy settings for a given <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
+Sets the privacy settings for a given <a href="https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyType</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the privacy settings for a given <a href="https://docs.microsoft.com/en-us/
 
 ### -param dwZone [in]
 
-Value of type <b>DWORD</b> that specifies the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a>for which privacy settings are being set.
+Value of type <b>DWORD</b> that specifies the <a href="https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a>for which privacy settings are being set.
 
 
 ### -param dwType [in]
@@ -94,9 +94,9 @@ Returns zero if successful. Otherwise, one of the errors defined in winerr.h is 
 
 These privacy settings for the Internet zone are found on the <b>Privacy</b> tab of the <b>Internet Options</b> dialog box.
 
-Setting the privacy options for the <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE_INTERNET</a> involves setting the <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-templates">privacy templates</a> for both <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyTypes</a>. The slider on the <b>Privacy</b> Menu in <b>Internet Options</b> only moves if privacy is set for both <b>PrivacyTypes</b>.
+Setting the privacy options for the <a href="https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE_INTERNET</a> involves setting the <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-templates">privacy templates</a> for both <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyTypes</a>. The slider on the <b>Privacy</b> Menu in <b>Internet Options</b> only moves if privacy is set for both <b>PrivacyTypes</b>.
 
-Custom privacy preferences for a given <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.ole.interop.urlzone">URLZONE</a> and <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyType</a> can be set through the <i>pszPreference</i> parameter. The <i>pszPreference</i> parameter can contain a series of rules separated by white space describing the privacy preferences. It is important to note that the rules themselves cannot contain white space. The <i>pszPreference</i> has the following structure where there can be multiple logical rules: &lt;<i>signature</i>&gt; &lt;<i>logical-rule</i>&gt; &lt;<i>special-rule</i>&gt;.
+Custom privacy preferences for a given <a href="https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.urlzone?view=visualstudiosdk-2017">URLZONE</a> and <a href="https://docs.microsoft.com/windows/desktop/WinInet/privacy-type">PrivacyType</a> can be set through the <i>pszPreference</i> parameter. The <i>pszPreference</i> parameter can contain a series of rules separated by white space describing the privacy preferences. It is important to note that the rules themselves cannot contain white space. The <i>pszPreference</i> has the following structure where there can be multiple logical rules: &lt;<i>signature</i>&gt; &lt;<i>logical-rule</i>&gt; &lt;<i>special-rule</i>&gt;.
 
 Currently, the signature must be set to IE6-P3PSettings/V1:.
 

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://docs.microsoft.com/previous-versions//bb761347(v=vs.85)">SetProgressFeedback</a> method during reconciliation. 
+Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://docs.microsoft.com/previous-versions/bb761347(v=vs.85)">SetProgressFeedback</a> method during reconciliation. 
 
 
 ## -parameters

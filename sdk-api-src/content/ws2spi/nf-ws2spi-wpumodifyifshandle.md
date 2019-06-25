@@ -127,24 +127,24 @@ There are several limitations a layered provider should observe if it takes this
 
 <ul>
 <li>The provider should expose base provider entry points for 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a> in the procedure dispatch table it returns at the time of 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> in the procedure dispatch table it returns at the time of 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup</a> to make sure the Windows Sockets SPI client's access to these functions is as efficient as possible.</li>
 <li>The provider cannot rely on its 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> and 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a> functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table.</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> and 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> functions being invoked for all I/O, particularly in the case of the I/O system functions <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a> and <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>. These functions would bypass the layered provider and invoke the base IFS provider's implementation directly even if the layered provider puts its own entry points for these functions into the procedure dispatch table.</li>
 <li>The provider cannot rely on any ability to post-process overlapped I/O using 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>, 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742291(v=vs.85)">WSPSendTo</a>, 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>, 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>, 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742287(v=vs.85)">WSPRecvFrom</a>, or 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a>. Post-processing notification may happen through completion ports and bypass the layered provider entirely. A layered provider has no way to determine that a completion port was used or determine what port it is. The layered provider has no way to insert itself into the notification sequence.</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a>. Post-processing notification may happen through completion ports and bypass the layered provider entirely. A layered provider has no way to determine that a completion port was used or determine what port it is. The layered provider has no way to insert itself into the notification sequence.</li>
 <li>The provider should pass through all overlapped I/O requests directly to the base provider using the original overlapped parameters (for example, the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/ns-winsock2-_wsaoverlapped">WSAOVERLAPPED</a> structure and completion routine pointer). The provider should expose the base provider entry point for 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspgetoverlappedresult">WSPGetOverlappedResult</a>. Since some overlapped I/O requests can bypass the layered provider completely, the layered provider cannot reliably mark 
 <b>WSAOVERLAPPED</b> structures to determine which ones it can report results for, and which ones would have to be passed through to the underlying provider's 
 <b>WSPGetOverlappedResult</b>. This effectively means that 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a> has to be a pass-through operation to the underlying provider.</li>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a> has to be a pass-through operation to the underlying provider.</li>
 </ul>
 
 
@@ -166,15 +166,15 @@ There are several limitations a layered provider should observe if it takes this
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
  
 
  

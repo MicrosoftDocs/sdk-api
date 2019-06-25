@@ -310,7 +310,7 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 #### Examples
 
 For an example, see 
-<a href="https://docs.microsoft.com/previous-versions//aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
+<a href="https://docs.microsoft.com/previous-versions/aa379608(v=vs.85)">Starting an Interactive Client Process</a>.
 
 <div class="code"></div>
 
@@ -341,7 +341,7 @@ For an example, see
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
 
 
 

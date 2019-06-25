@@ -61,10 +61,10 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534979(v=vs.85)">Offset(Point&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534979(v=vs.85)">Offset(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534979(v=vs.85)">Rect::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
+The <a href="https://docs.microsoft.com/previous-versions/ms534979(v=vs.85)">Rect::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
 
 </td>
 </tr>

@@ -70,7 +70,7 @@ A handle to the window that owns the drag image.
 
 ### -param ptStart
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates at which to begin displaying the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.
 

@@ -50,11 +50,11 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>SecPkgContext_IssuerListInfoEx</b> structure holds a list of trusted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs). This structure is used by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function.
+The <b>SecPkgContext_IssuerListInfoEx</b> structure holds a list of trusted <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certification authorities</a> (CAs). This structure is used by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security package</a> <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function.
 
 This attribute is supported only by the Schannel <a href="https://docs.microsoft.com/windows/desktop/SecGloss/s-gly">security support provider</a> (SSP).
 
-This attribute is available only to client applications and can be queried only after a call to the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function returns the value <b>SEC_E_INCOMPLETE_CREDENTIALS</b>.
+This attribute is available only to client applications and can be queried only after a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function returns the value <b>SEC_E_INCOMPLETE_CREDENTIALS</b>.
 
 
 ## -struct-fields

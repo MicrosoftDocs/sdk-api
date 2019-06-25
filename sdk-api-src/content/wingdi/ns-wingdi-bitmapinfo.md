@@ -63,7 +63,7 @@ The <b>BITMAPINFO</b> structure defines the dimensions and color information for
 
 ### -field bmiHeader
 
-A <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
+A <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure that contains information about the dimensions of color format.
 
 .
 
@@ -90,7 +90,7 @@ The <i>iUsage</i> parameter of <a href="https://docs.microsoft.com/windows/deskt
 
 </li>
 </ul>
-The number of entries in the array depends on the values of the <b>biBitCount</b> and <b>biClrUsed</b> members of the <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
+The number of entries in the array depends on the values of the <b>biBitCount</b> and <b>biClrUsed</b> members of the <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure.
 
 The colors in the <b>bmiColors</b> table appear in order of importance. For more information, see the Remarks section.
 
@@ -117,7 +117,7 @@ A bitmap is packed when the bitmap array immediately follows the <b>BITMAPINFO</
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 

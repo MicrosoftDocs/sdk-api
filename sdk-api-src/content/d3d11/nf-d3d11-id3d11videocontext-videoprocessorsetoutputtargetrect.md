@@ -70,7 +70,7 @@ Specifies whether to apply the target rectangle.
 
 ### -param pRect [in]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162897(v=vs.85)">RECT</a> structure that specifies the target rectangle.  If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162897(v=vs.85)">RECT</a> structure that specifies the target rectangle.  If <i>Enable</i> is <b>FALSE</b>, this parameter is ignored.
 
 
 ## -returns

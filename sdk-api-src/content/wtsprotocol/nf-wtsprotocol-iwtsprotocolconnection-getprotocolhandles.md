@@ -67,7 +67,7 @@ A pointer to a keyboard handle. This is a handle to an <a href="https://docs.mic
 
 ### -param pMouseHandle [out]
 
-A pointer to a mouse handle. This is a handle to a <a href="https://docs.microsoft.com/previous-versions//ff542367(v=vs.85)">Mouclass driver</a>.
+A pointer to a mouse handle. This is a handle to a <a href="https://docs.microsoft.com/previous-versions/ff542367(v=vs.85)">Mouclass driver</a>.
 
 
 ### -param pBeepHandle [out]

@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 <div class="alert"><b>Note</b>  This interface is deprecated. New applications should not use it.</div>
 <div> </div>
-The <code>IAudioData</code> interface provides methods that enable applications to set and get the underlying audio data that audio streams will reference. The audio data format is set in the <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure.
+The <code>IAudioData</code> interface provides methods that enable applications to set and get the underlying audio data that audio streams will reference. The audio data format is set in the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure.
 
 Implement this interface on underlying audio data objects that audio stream sample objects will access.
 

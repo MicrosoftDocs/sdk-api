@@ -68,39 +68,39 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536205(v=vs.85)">Font(HDC,LOGFONTA*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536205(v=vs.85)">Font(HDC,LOGFONTA*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536205(v=vs.85)">Font::Font</a> object directly from a GDI logical font. The GDI logical font is a 
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536205(v=vs.85)">Font::Font</a> object directly from a GDI logical font. The GDI logical font is a 
 			<b>LOGFONTA</b> structure, which is the one-byte character version of a logical font. This constructor is provided for compatibility with GDI.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536206(v=vs.85)">Font(HDC,LOGFONTW*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536206(v=vs.85)">Font(HDC,LOGFONTW*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536206(v=vs.85)">Font::Font</a> object directly from a GDI logical font. The GDI logical font is a 
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536206(v=vs.85)">Font::Font</a> object directly from a GDI logical font. The GDI logical font is a 
 			<b>LOGFONTW</b> structure, which is the wide character version of a logical font. This constructor is provided for compatibility with GDI.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536203(v=vs.85)">Font(FontFamily*,REAL,INT,Unit)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536203(v=vs.85)">Font(FontFamily*,REAL,INT,Unit)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536203(v=vs.85)">Font::Font</a> object based on a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object, a size, a font style, and a unit of measurement.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536203(v=vs.85)">Font::Font</a> object based on a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily">FontFamily</a> object, a size, a font style, and a unit of measurement.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536207(v=vs.85)">Font(WCHAR*,REAL,INT,Unit,FontCollection*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536207(v=vs.85)">Font(WCHAR*,REAL,INT,Unit,FontCollection*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536207(v=vs.85)">Font::Font</a> object based on a font family, a size, a font style, a unit of measurement, and a 
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536207(v=vs.85)">Font::Font</a> object based on a font family, a size, a font style, a unit of measurement, and a 
 			<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontcollection">FontCollection</a> object.
 
 </td>

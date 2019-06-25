@@ -77,7 +77,7 @@ The height, in 0.1-millimeter units, of the bitmap.
 
 ### -param lpsz [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure to receive the previous dimensions of the bitmap. This pointer can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure to receive the previous dimensions of the bitmap. This pointer can be <b>NULL</b>.
 
 
 ## -returns
@@ -123,7 +123,7 @@ The bitmap identified by <i>hBitmap</i> cannot be a DIB section, which is a bitm
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
  
 
  

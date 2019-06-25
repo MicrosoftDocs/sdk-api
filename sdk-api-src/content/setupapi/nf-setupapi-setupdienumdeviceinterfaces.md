@@ -104,7 +104,7 @@ Repeated calls to this function return an <a href="https://docs.microsoft.com/wi
 
 <i>DeviceInterfaceData</i> points to a structure that identifies a requested device interface. To get detailed information about an interface, call <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacedetaila">SetupDiGetDeviceInterfaceDetail</a>. The detailed information includes the name of the device interface that can be passed to a Win32 function such as <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (described in Microsoft Windows SDK documentation) to get a handle to the interface.
 
-See <a href="https://docs.microsoft.com/previous-versions//ff553412(v=vs.85)">System Defined Device Interface Classes</a> for a list of available device interface classes.
+See <a href="https://docs.microsoft.com/previous-versions/ff553412(v=vs.85)">System Defined Device Interface Classes</a> for a list of available device interface classes.
 
 
 

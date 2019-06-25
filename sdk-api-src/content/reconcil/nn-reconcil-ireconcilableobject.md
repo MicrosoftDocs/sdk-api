@@ -73,7 +73,7 @@ The <b>IReconcilableObject</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/reconcil/nf-reconcil-ireconcilableobject-getprogressfeedbackmaxestimate">GetProgressFeedbackMaxEstimate</a>
 </td>
 <td align="left" width="63%">
-Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://docs.microsoft.com/previous-versions//bb761347(v=vs.85)">IReconcileInitiator::SetProgressFeedback</a> method during reconciliation. 
+Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://docs.microsoft.com/previous-versions/bb761347(v=vs.85)">IReconcileInitiator::SetProgressFeedback</a> method during reconciliation. 
 
 </td>
 </tr>

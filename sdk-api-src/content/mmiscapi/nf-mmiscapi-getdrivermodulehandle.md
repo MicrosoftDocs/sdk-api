@@ -64,7 +64,7 @@ Retrieves the instance handle of the module that contains the installable driver
 
 ### -param hDriver [in]
 
-Handle of the installable driver instance. The handle must have been previously created by using the <a href="https://docs.microsoft.com/previous-versions//dd743639(v=vs.85)">OpenDriver</a> function.
+Handle of the installable driver instance. The handle must have been previously created by using the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
 
 
 ## -returns

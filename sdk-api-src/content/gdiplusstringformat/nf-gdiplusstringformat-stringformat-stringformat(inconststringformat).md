@@ -68,7 +68,7 @@ Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringf
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534733(v=vs.85)">StringFormat(StringFormat*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534733(v=vs.85)">StringFormat(StringFormat*)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object from another <b>StringFormat</b> object.

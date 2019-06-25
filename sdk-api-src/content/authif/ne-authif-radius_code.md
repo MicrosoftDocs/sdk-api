@@ -114,7 +114,7 @@ The packet was discarded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a>
 
 
 
@@ -130,7 +130,7 @@ The packet was discarded.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85)">SetResponseType</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a>
  
 
  

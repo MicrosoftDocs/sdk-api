@@ -68,7 +68,7 @@ Handle to a capture window.
 
 ### -param s
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> or <a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure that defines the audio format. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> or <a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a> structure that defines the audio format. 
 
 
 ### -param wSize
@@ -81,7 +81,7 @@ Size, in bytes, of the structure referenced by <i>psAudioFormat</i>.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd743663(v=vs.85)">PCMWAVEFORMAT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd743663(v=vs.85)">PCMWAVEFORMAT</a>
 
 
 
@@ -93,7 +93,7 @@ Size, in bytes, of the structure referenced by <i>psAudioFormat</i>.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 

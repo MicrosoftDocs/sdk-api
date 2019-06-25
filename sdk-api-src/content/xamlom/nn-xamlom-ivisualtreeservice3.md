@@ -73,7 +73,7 @@ The <b>IVisualTreeService3</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-adddictionaryitem">AddDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-	Adds an item to a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Adds an item to a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ The <b>IVisualTreeService3</b> interface has these methods.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-getdictionaryitem">GetDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>.
+Gets an item from a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ Gets an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtreeservice3-removedictionaryitem">RemoveDictionaryItem</a>
 </td>
 <td align="left" width="63%">
-	Removes an item from a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Removes an item from a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 </td>
 </tr>

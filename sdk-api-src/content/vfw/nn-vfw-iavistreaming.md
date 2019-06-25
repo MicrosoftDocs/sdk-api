@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 
-The <b>IAVIStreaming</b> interface supports preparing open data streams for playback in streaming operations. Uses <a href="https://docs.microsoft.com/previous-versions//dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions//dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="https://docs.microsoft.com/previous-versions//dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
+The <b>IAVIStreaming</b> interface supports preparing open data streams for playback in streaming operations. Uses <a href="https://docs.microsoft.com/previous-versions/dd757101(v=vs.85)">IUnknown::QueryInterface</a>, <a href="https://docs.microsoft.com/previous-versions/dd757100(v=vs.85)">IUnknown::AddRef</a>, <a href="https://docs.microsoft.com/previous-versions/dd757102(v=vs.85)">IUnknown::Release</a> in addition to the following custom methods:
 
 
 

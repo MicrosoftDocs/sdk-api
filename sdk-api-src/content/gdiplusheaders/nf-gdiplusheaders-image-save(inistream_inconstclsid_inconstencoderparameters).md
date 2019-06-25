@@ -82,9 +82,9 @@ Pointer to a
 
 ### -param encoderParams [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>*</b>
 
-Optional. Pointer to an <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object that holds parameters used by the encoder. The default value is <b>NULL</b>. 
+Optional. Pointer to an <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that holds parameters used by the encoder. The default value is <b>NULL</b>. 
 
 
 ## -returns
@@ -211,11 +211,11 @@ Exit:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
 
 
 

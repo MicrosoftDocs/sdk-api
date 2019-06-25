@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-	Adds an item to a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.windows.resourcedictionary">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
+	Adds an item to a <a href="https://docs.microsoft.com/dotnet/api/system.windows.resourcedictionary?view=netframework-4.8">ResourceDictionary</a>, and re-resolves all elements in the tree that reference a resource with the specified key.
 
 
 ## -parameters

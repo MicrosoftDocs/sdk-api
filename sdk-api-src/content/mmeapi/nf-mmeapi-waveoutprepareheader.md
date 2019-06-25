@@ -71,13 +71,13 @@ Handle to the waveform-audio output device.
 
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the data block to be prepared.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure that identifies the data block to be prepared.
           
 
 
 ### -param cbwh
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure.
           
 
 
@@ -135,11 +135,11 @@ Unable to allocate or lock memory.
 
 
 
-Set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure before calling this function. Set the <b>dwFlags</b> member to zero.
+Set the <b>lpData</b>, <b>dwBufferLength</b>, and <b>dwFlags</b> members of the <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure before calling this function. Set the <b>dwFlags</b> member to zero.
 
-The <b>dwFlags</b>, <b>dwBufferLength</b>, and <b>dwLoops</b> members of the <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure can change between calls to this function and the <a href="https://docs.microsoft.com/previous-versions//dd743876(v=vs.85)">waveOutWrite</a> function. If you change the size specified by <b>dwBufferLength</b> before the call to <b>waveOutWrite</b>, the new value must be less than the prepared value.
+The <b>dwFlags</b>, <b>dwBufferLength</b>, and <b>dwLoops</b> members of the <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure can change between calls to this function and the <a href="https://docs.microsoft.com/previous-versions/dd743876(v=vs.85)">waveOutWrite</a> function. If you change the size specified by <b>dwBufferLength</b> before the call to <b>waveOutWrite</b>, the new value must be less than the prepared value.
 
-If the method succeeds, the <b>WHDR_PREPARED</b> flag is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure.
+If the method succeeds, the <b>WHDR_PREPARED</b> flag is set in the <b>dwFlags</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure.
 
 Preparing a header that has already been prepared has no effect, and the function returns zero.
       

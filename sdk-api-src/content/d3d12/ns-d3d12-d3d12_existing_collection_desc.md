@@ -71,7 +71,7 @@ Size of the <i>pExports</i> array.  If 0, all of the collection’s exports get 
 
 #### pExports
 
-Optional exports array.  For more information, see <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_export_desc">D3D12_EXPORT_DESC</a>.
+Optional exports array.  For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_export_desc">D3D12_EXPORT_DESC</a>.
 
 
 ### -field pExports

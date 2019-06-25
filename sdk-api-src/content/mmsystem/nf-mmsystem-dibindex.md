@@ -70,7 +70,7 @@ Specifies an index to the color table entry containing the color to be used for 
 
 
 
-<b>DIBINDEX</b> indexes colors in a DIB color table in a manner similar to the way <a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a> indexes colors in a logical palette.
+<b>DIBINDEX</b> indexes colors in a DIB color table in a manner similar to the way <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a> indexes colors in a logical palette.
 
 <b>DIBINDEX</b> also works with 16-bit bitmaps and device contexts (DCs).
 
@@ -94,7 +94,7 @@ Specifies an index to the color table entry containing the color to be used for 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 

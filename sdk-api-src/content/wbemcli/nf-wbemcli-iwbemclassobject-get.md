@@ -141,7 +141,7 @@ To obtain the string form of the Common Information Model (CIM) type for the pro
 
 #### Examples
 
-For an extended discussion and example of making queries in C++ and WMI, see Making <a href="http://www.codeproject.com/Articles/10539/Making-WMI-Queries-In-C">WMI Queries In C++</a> on CodeProject.
+For an extended discussion and example of making queries in C++ and WMI, see Making <a href="https://www.codeproject.com/Articles/10539/Making-WMI-Queries-In-C">WMI Queries In C++</a> on CodeProject.
 
 <div class="code"></div>
 The following C++ example shows how to retrieve the CIM class name from an object by using the system property <b>__CLASS.</b> The code requires the following #include statements and references to compile.

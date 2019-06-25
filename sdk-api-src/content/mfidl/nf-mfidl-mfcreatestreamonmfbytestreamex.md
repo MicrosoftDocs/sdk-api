@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates an <a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a> object that wraps a Microsoft Media Foundation byte stream.
+Creates an <a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a> object that wraps a Microsoft Media Foundation byte stream.
 
 
 ## -parameters

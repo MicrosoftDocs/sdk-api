@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies constraints for state objects. Use values from this enumeration in the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> structure.
+Specifies constraints for state objects. Use values from this enumeration in the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_state_object_config">D3D12_STATE_OBJECT_CONFIG</a> structure.
 
 
 ## -enum-fields

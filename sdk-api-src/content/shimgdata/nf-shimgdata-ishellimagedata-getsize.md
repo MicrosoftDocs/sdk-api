@@ -60,9 +60,9 @@ Gets the dimensions of the image file.
 
 ### -param pSize [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>*</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure containing the size of the image. This value is valid only when the method returns <b>S_OK</b>.
         
 
 

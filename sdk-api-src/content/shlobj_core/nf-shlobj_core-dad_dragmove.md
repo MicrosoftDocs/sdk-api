@@ -65,7 +65,7 @@ Moves the image that is being dragged during a drag-and-drop operation.
 
 ### -param pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The coordinates at which to display the drag image. The coordinates are relative to the upper-left corner of the window, not the client area.  
 

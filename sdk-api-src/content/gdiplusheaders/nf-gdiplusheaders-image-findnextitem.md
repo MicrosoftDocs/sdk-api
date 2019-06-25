@@ -61,9 +61,9 @@ The <b>Image::FindNextItem</b> method is used along with the <a href="https://do
 
 ### -param item [in, out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534468(v=vs.85)">ImageItemData</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534468(v=vs.85)">ImageItemData</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//ms534468(v=vs.85)">ImageItemData</a> object. On input, the Desc member points to a buffer (allocated by the caller) large enough to hold the metadata description (1 byte for JPEG, 4 bytes for PNG, 11 bytes for GIF), and the DescSize member specifies the size (1, 4, or 6) of the buffer pointed to by Desc. On output, the buffer pointed to by Desc receives the metadata description, and the DataSize member receives the size, in bytes, of the metadata itself.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/ms534468(v=vs.85)">ImageItemData</a> object. On input, the Desc member points to a buffer (allocated by the caller) large enough to hold the metadata description (1 byte for JPEG, 4 bytes for PNG, 11 bytes for GIF), and the DescSize member specifies the size (1, 4, or 6) of the buffer pointed to by Desc. On output, the buffer pointed to by Desc receives the metadata description, and the DataSize member receives the size, in bytes, of the metadata itself.
 
 
 ## -returns

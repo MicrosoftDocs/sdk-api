@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Opaque data structure describing driver versioning for a serialized acceleration structure.  Pass this structure into a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> to determine if a previously serialized acceleration structure is compatible with the current driver/device, and can therefore be deserialized and used for raytracing.
+Opaque data structure describing driver versioning for a serialized acceleration structure.  Pass this structure into a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a> to determine if a previously serialized acceleration structure is compatible with the current driver/device, and can therefore be deserialized and used for raytracing.
 
 
 ## -struct-fields

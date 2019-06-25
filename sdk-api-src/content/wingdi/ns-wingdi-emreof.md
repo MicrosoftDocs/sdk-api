@@ -73,7 +73,7 @@ The number of palette entries.
 
 ### -field offPalEntries
 
-The offset, in bytes, to an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures.
+The offset, in bytes, to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures.
 
 
 ### -field nSizeLast
@@ -98,7 +98,7 @@ The same size as the <b>nSize</b> member of the <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
  
 
  

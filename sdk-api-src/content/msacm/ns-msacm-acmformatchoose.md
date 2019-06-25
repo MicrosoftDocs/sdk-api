@@ -121,7 +121,7 @@ The <b>hInstance</b> member identifies a data block that contains a preloaded di
 </dl>
 </td>
 <td width="60%">
-The buffer pointed to by <b>pwfx</b> contains a valid <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure that the dialog box will use as the initial selection.
+The buffer pointed to by <b>pwfx</b> contains a valid <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that the dialog box will use as the initial selection.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Handle to the window that owns the dialog box. This member can be any valid wind
 
 ### -field pwfx
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure. If the ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid format. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns, this buffer contains the selected format. If the user cancels the dialog box, no changes will be made to this buffer.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure. If the ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT flag is specified in the <b>fdwStyle</b> member, this structure must be initialized to a valid format. When the <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmformatchoose">acmFormatChoose</a> function returns, this buffer contains the selected format. If the user cancels the dialog box, no changes will be made to this buffer.
 
 
 ### -field cbwfx
@@ -194,7 +194,7 @@ Optional flags for restricting the type of formats listed in the dialog box. The
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only destination formats that can be converted from the given <b>pwfxEnum</b> format.
+The <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only destination formats that can be converted from the given <b>pwfxEnum</b> format.
 
 </td>
 </tr>
@@ -224,7 +224,7 @@ The enumerator should enumerate only formats that are supported for input (recor
 </dl>
 </td>
 <td width="60%">
-The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ The <b>nChannels</b> member of the <a href="https://docs.microsoft.com/previous-
 </dl>
 </td>
 <td width="60%">
-The <b>nSamplesPerSec</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>nSamplesPerSec</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -254,7 +254,7 @@ The enumerator should enumerate only formats that are supported for output (play
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfxEnum</b> format.
+The <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate all suggested destination formats for the given <b>pwfxEnum</b> format.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ The <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WA
 </dl>
 </td>
 <td width="60%">
-The <b>wBitsPerSample</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>wBitsPerSample</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -274,7 +274,7 @@ The <b>wBitsPerSample</b> member of the <a href="https://docs.microsoft.com/prev
 </dl>
 </td>
 <td width="60%">
-The <b>wFormatTag</b> member of the <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
+The <b>wFormatTag</b> member of the <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure pointed to by the <b>pwfxEnum</b> member is valid. The enumerator will enumerate only a format that conforms to this attribute.
 
 </td>
 </tr>
@@ -340,7 +340,7 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>
 
 
 

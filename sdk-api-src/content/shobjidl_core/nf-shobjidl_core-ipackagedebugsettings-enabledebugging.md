@@ -95,7 +95,7 @@ Enabling debug mode has the following effects:
 <li>Disables automatic process termination.</li>
 <li>Disables automatic process resumption.</li>
 </ul>
-To restore normal operation, call the <a href="https://docs.microsoft.com/previous-versions//hh438394(v=vs.85)">DisableDebugging</a> method.
+To restore normal operation, call the <a href="https://docs.microsoft.com/previous-versions/hh438394(v=vs.85)">DisableDebugging</a> method.
 
 
 

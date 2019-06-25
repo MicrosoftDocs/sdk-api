@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a> structure.
+Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_hit_group_desc">D3D12_HIT_GROUP_DESC</a> structure.
 
 
 ## -enum-fields

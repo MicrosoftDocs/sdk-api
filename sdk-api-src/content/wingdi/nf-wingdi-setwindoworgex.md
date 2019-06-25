@@ -79,7 +79,7 @@ The y-coordinate, in logical units, of the new window origin.
 
 ### -param lppt [out]
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that receives the previous origin of the window, in logical units. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the previous origin of the window, in logical units. If <i>lpPoint</i> is <b>NULL</b>, this parameter is not used.
 
 
 ## -returns
@@ -134,7 +134,7 @@ This is related to the <a href="https://docs.microsoft.com/windows/desktop/api/w
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

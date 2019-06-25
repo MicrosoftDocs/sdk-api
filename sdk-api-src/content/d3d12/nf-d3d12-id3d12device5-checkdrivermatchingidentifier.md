@@ -50,7 +50,7 @@ ms.custom: RS5, 19H1
 ## -description
 
 
-Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
+Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
 
 
 ## -parameters
@@ -60,12 +60,12 @@ Reports the compatibility of serialized data, such as a serialized raytracing ac
 
 ### -param SerializedDataType [in]
 
-The type of the serialized data. For more information, see <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a>.
+The type of the serialized data. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_serialized_data_type">D3D12_SERIALIZED_DATA_TYPE</a>.
 
 
 ### -param pIdentifierToCheck [in]
 
-Identifier from the header of the serialized data to check with the driver. For more information, see <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_serialized_data_driver_matching_identifier">D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER</a>.
+Identifier from the header of the serialized data to check with the driver. For more information, see <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_serialized_data_driver_matching_identifier">D3D12_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER</a>.
 
 
 ## -returns

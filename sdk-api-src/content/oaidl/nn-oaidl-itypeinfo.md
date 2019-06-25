@@ -276,7 +276,7 @@ An instance of <b>ITypeInfo</b> provides various information about the type of a
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
+<a href="https://docs.microsoft.com/previous-versions/ms221172(v=vs.85)">Type Description Interfaces and Functions </a>
  
 
  

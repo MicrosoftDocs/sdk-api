@@ -124,7 +124,7 @@ The supplied <b>LPCWSTR</b> is null.
 
 If the function succeeds, <i>ppSensorGroup</i> will point to a valid <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> object.  The caller must release this interface.
 
-<div class="alert"><b>Note</b>  When this API is used with a <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a> symbolic name, the resulting <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> object will only contain one sensor device but behaves as a virtualized sensor group.  The caller  may use the resulting object in the same manner as a sensor group obtained from a <a href="https://docs.microsoft.com/previous-versions//ff548567(v=vs.85)">KSCATEGORY_SENSOR_GROUP</a>.</div>
+<div class="alert"><b>Note</b>  When this API is used with a <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_SENSOR_CAMERA</a> or <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_VIDEO_CAMERA</a> symbolic name, the resulting <a href="https://docs.microsoft.com/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a> object will only contain one sensor device but behaves as a virtualized sensor group.  The caller  may use the resulting object in the same manner as a sensor group obtained from a <a href="https://docs.microsoft.com/previous-versions/ff548567(v=vs.85)">KSCATEGORY_SENSOR_GROUP</a>.</div>
 <div> </div>
 
 

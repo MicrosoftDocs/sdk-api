@@ -53,7 +53,7 @@ ms.custom: 19H1
 The <b>IWiaVideo</b> interface provides methods that allow an application that uses Windows Image Acquisition (WIA) services to acquire still images from a streaming video device.
 
 
-<div class="alert"><b>Note</b>  WIA does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use <a href="https://docs.microsoft.com/previous-versions//ms783323(v=vs.85)">DirectShow</a> to acquire images from video.</div><div> </div>
+<div class="alert"><b>Note</b>  WIA does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use <a href="https://docs.microsoft.com/previous-versions/ms783323(v=vs.85)">DirectShow</a> to acquire images from video.</div><div> </div>
 
 ## -inheritance
 

@@ -53,7 +53,7 @@ ms.custom: 19H1
 The <b>WIAVIDEO_STATE</b> enumeration is used to specify the current state of a video stream.
 
 
-<div class="alert"><b>Note</b>  Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use <a href="https://docs.microsoft.com/previous-versions//ms783323(v=vs.85)">DirectShow</a> to acquire images from video.</div><div> </div>
+<div class="alert"><b>Note</b>  Windows Image Acquisition (WIA) does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use <a href="https://docs.microsoft.com/previous-versions/ms783323(v=vs.85)">DirectShow</a> to acquire images from video.</div><div> </div>
 
 ## -enum-fields
 

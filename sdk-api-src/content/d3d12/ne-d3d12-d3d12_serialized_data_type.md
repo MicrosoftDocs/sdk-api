@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies the type of serialized data. Use a value from this enumeration when calling <a href="http://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a>.
+Specifies the type of serialized data. Use a value from this enumeration when calling <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-checkdrivermatchingidentifier">ID3D12Device5::CheckDriverMatchingIdentifier</a>.
 
 
 ## -enum-fields

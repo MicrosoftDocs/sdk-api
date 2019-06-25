@@ -95,7 +95,7 @@ Returns the HRESULT defined by OLE.
 
 
 
-It is typically easier to implement this method by creating all of the stream objects in advance by using the <a href="https://docs.microsoft.com/previous-versions//dd798007(v=vs.85)">IAVIFile::Open</a> method. Then, this method accesses the interface to the specified stream.
+It is typically easier to implement this method by creating all of the stream objects in advance by using the <a href="https://docs.microsoft.com/previous-versions/dd798007(v=vs.85)">IAVIFile::Open</a> method. Then, this method accesses the interface to the specified stream.
 
 Remember to increment the reference count maintained by the <b>AddRef</b> method for the stream when this method is used.
 

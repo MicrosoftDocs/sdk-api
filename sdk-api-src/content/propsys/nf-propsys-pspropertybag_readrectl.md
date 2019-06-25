@@ -74,9 +74,9 @@ A null-terminated property name string.
 
 ### -param value [out]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a>*</b>
 
-When this function returns, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162907(v=vs.85)">RECTL</a> structure that contains the property coordinates.
+When this function returns, contains a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162907(v=vs.85)">RECTL</a> structure that contains the property coordinates.
 
 
 ## -returns

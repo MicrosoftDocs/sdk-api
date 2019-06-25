@@ -136,7 +136,7 @@ Use the <b>get_audioLanguageCount</b> method to retrieve the number of supported
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/aa388723(v%3dvs.85)">IWMPControls3::put_currentAudioLanguageIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/aa388723(v=vs.85)">IWMPControls3::put_currentAudioLanguageIndex</a>
  
 
  

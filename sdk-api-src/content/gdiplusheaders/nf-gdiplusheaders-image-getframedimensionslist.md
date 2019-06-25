@@ -189,7 +189,7 @@ You can look up the displayed GUID in Gdiplusimaging.h and see that it is the id
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
 
 

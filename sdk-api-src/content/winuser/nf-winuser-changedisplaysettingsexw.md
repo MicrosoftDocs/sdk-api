@@ -246,7 +246,7 @@ The graphics mode for the current screen will be changed dynamically and the gra
 </dl>
 </td>
 <td width="60%">
-When set, the <i>lParam</i> parameter is a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure.
+When set, the <i>lParam</i> parameter is a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure.
 
 </td>
 </tr>
@@ -282,7 +282,7 @@ If CDS_UPDATEREGISTRY is specified and the information could not be stored in th
 
 ### -param lParam [in]
 
-If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
+If <i>dwFlags</i> is <b>CDS_VIDEOPARAMETERS</b>, <i>lParam</i> is a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a> structure. Otherwise <i>lParam</i> must be <b>NULL</b>.
 
 
 ## -returns
@@ -467,7 +467,7 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145196(v=vs.85)">VIDEOPARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145196(v=vs.85)">VIDEOPARAMETERS</a>
 
 
 

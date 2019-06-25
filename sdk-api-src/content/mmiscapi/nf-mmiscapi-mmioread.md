@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioRead</b> function reads a specified number of bytes from a file opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function.
+The <b>mmioRead</b> function reads a specified number of bytes from a file opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function.
 
 
 

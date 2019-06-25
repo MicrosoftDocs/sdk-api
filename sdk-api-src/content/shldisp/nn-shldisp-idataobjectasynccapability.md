@@ -53,7 +53,7 @@ ms.custom: 19H1
 Enables interfaces that are usually synchronous to function asynchronously.
         
             
-<div class="alert"><b>Note</b>  This interface is the current, renamed version of <a href="https://docs.microsoft.com/previous-versions//bb776309(v=vs.85)">IAsyncOperation</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This interface is the current, renamed version of <a href="https://docs.microsoft.com/previous-versions/bb776309(v=vs.85)">IAsyncOperation</a>.</div><div> </div>
 
 ## -inheritance
 

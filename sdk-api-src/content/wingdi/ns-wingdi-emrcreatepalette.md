@@ -73,7 +73,7 @@ Index of palette in handle table.
 
 ### -field lgpl
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpalette">LOGPALETTE</a> structure that contains information about the palette. Note that <b>peFlags</b> members in the <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures do not contain any flags.
+A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglogpalette">LOGPALETTE</a> structure that contains information about the palette. Note that <b>peFlags</b> members in the <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures do not contain any flags.
 
 
 ## -see-also
@@ -97,7 +97,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-taglo
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
  
 
  

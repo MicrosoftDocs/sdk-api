@@ -618,7 +618,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>
+<a href="https://docs.microsoft.com/previous-versions/aa388149(v=vs.85)">Threading Issues with Cryptographic Service Providers</a>
  
 
  

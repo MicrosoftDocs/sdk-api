@@ -65,19 +65,19 @@ The <b>midiStreamOut</b> function plays or queues a stream (buffer) of MIDI data
 
 ### -param hms
 
-Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions//dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
+Handle to a MIDI stream. This handle must have been returned by a call to the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function. This handle identifies the output device.
           
 
 
 ### -param pmh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the MIDI buffer.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure that identifies the MIDI buffer.
           
 
 
 ### -param cbmh
 
-Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure.
+Size, in bytes, of the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure.
           
 
 
@@ -110,7 +110,7 @@ The system is unable to allocate or lock memory.
 </dl>
 </td>
 <td width="60%">
-The output buffer pointed to by <i>lpMidiHdr</i> is still playing or is queued from a previous call to <a href="https://docs.microsoft.com/previous-versions//dd798487(v=vs.85)">midiStreamOut</a>.
+The output buffer pointed to by <i>lpMidiHdr</i> is still playing or is queued from a previous call to <a href="https://docs.microsoft.com/previous-versions/dd798487(v=vs.85)">midiStreamOut</a>.
 
 </td>
 </tr>
@@ -157,13 +157,13 @@ The pointer specified by <i>lpMidiHdr</i> is invalid.
 
 
 
-Before the buffer is passed to <a href="https://docs.microsoft.com/previous-versions//dd798486(v=vs.85)">midiStreamOpen</a>, it must be prepared by using the <a href="https://docs.microsoft.com/previous-versions//dd798477(v=vs.85)">midiOutPrepareHeader</a> function.
+Before the buffer is passed to <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a>, it must be prepared by using the <a href="https://docs.microsoft.com/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a> function.
 
-Because the <a href="https://docs.microsoft.com/previous-versions//dd798486(v=vs.85)">midiStreamOpen</a> function opens the output device in paused mode, you must call the <a href="https://docs.microsoft.com/previous-versions//dd798491(v=vs.85)">midiStreamRestart</a> function before you can use <b>midiStreamOut</b> to start the playback.
+Because the <a href="https://docs.microsoft.com/previous-versions/dd798486(v=vs.85)">midiStreamOpen</a> function opens the output device in paused mode, you must call the <a href="https://docs.microsoft.com/previous-versions/dd798491(v=vs.85)">midiStreamRestart</a> function before you can use <b>midiStreamOut</b> to start the playback.
 
 For the current implementation of this function, the buffer must be smaller than 64K.
 
-The buffer pointed to by the <a href="https://docs.microsoft.com/previous-versions//dd798449(v=vs.85)">MIDIHDR</a> structure contains one or more MIDI events, each of which is defined by a <a href="https://docs.microsoft.com/previous-versions//dd798448(v=vs.85)">MIDIEVENT</a> structure.
+The buffer pointed to by the <a href="https://docs.microsoft.com/previous-versions/dd798449(v=vs.85)">MIDIHDR</a> structure contains one or more MIDI events, each of which is defined by a <a href="https://docs.microsoft.com/previous-versions/dd798448(v=vs.85)">MIDIEVENT</a> structure.
 
 
 

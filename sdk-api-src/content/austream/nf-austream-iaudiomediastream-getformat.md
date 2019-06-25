@@ -65,7 +65,7 @@ Retrieves the stream data's current format.
 
 ### -param pWaveFormatCurrent [out]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v%3dvs.85)">WAVEFORMATEX</a> structure that contains the stream data's current format.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a> structure that contains the stream data's current format.
 
 
 ## -returns

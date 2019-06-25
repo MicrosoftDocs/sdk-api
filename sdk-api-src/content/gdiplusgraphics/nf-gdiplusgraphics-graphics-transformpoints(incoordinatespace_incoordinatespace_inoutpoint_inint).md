@@ -112,7 +112,7 @@ The world transformation converts points from the world coordinate space to the 
 
 
 
-The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://docs.microsoft.com/previous-versions//ms536020(v=vs.85)">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
+The following example creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://docs.microsoft.com/previous-versions/ms536020(v=vs.85)">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
 
 
 ```cpp

@@ -73,7 +73,7 @@ An <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/ns-mfobject
 
 ### -field Area
 
-A <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that contains the width and height of the rectangle.
+A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the width and height of the rectangle.
           
 
 

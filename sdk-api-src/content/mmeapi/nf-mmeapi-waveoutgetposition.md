@@ -70,7 +70,7 @@ Handle to the waveform-audio output device.
 
 ### -param pmmt
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure.
 
 
 ### -param cbmmt

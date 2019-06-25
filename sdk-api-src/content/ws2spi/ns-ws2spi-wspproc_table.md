@@ -84,7 +84,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 Type: <b>LPWSPBIND</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)">WSPBind</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">WSPBind</a> function. 
 
 
 ### -field lpWSPCancelBlockingCall
@@ -98,42 +98,42 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 Type: <b>LPWSPCLEANUP</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a> function. 
 
 
 ### -field lpWSPCloseSocket
 
 Type: <b>LPWSPCLOSESOCKET</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v%3dvs.85)">WSPCloseSocket</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v=vs.85)">WSPCloseSocket</a> function. 
 
 
 ### -field lpWSPConnect
 
 Type: <b>LPWSPCONNECT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a> function. 
 
 
 ### -field lpWSPDuplicateSocket
 
 Type: <b>LPWSPDUPLICATESOCKET</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a> function. 
 
 
 ### -field lpWSPEnumNetworkEvents
 
 Type: <b>LPWSPENUMNETWORKEVENTS</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566284(v%3dvs.85)">WSPEnumNetworkEvents</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566284(v=vs.85)">WSPEnumNetworkEvents</a> function. 
 
 
 ### -field lpWSPEventSelect
 
 Type: <b>LPWSPEVENTSELECT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a> function. 
 
 
 ### -field lpWSPGetOverlappedResult
@@ -161,7 +161,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 Type: <b>LPWSPGETSOCKOPT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)">WSPGetSockOpt</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v=vs.85)">WSPGetSockOpt</a> function. 
 
 
 ### -field lpWSPGetQOSByName
@@ -175,7 +175,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 Type: <b>LPWSPIOCTL</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a> function. 
 
 
 ### -field lpWSPJoinLeaf
@@ -189,14 +189,14 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 Type: <b>LPWSPLISTEN</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a> function. 
 
 
 ### -field lpWSPRecv
 
 Type: <b>LPWSPRECV</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a> function. 
 
 
 ### -field lpWSPRecvDisconnect
@@ -224,7 +224,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 Type: <b>LPWSPSEND</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a> function. 
 
 
 ### -field lpWSPSendDisconnect
@@ -245,7 +245,7 @@ A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/d
 
 Type: <b>LPWSPSETSOCKOPT</b>
 
-A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)">WSPSetSockOpt</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a> function. 
 
 
 ### -field lpWSPShutdown
@@ -296,7 +296,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)">WSPBind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">WSPBind</a>
 
 
 
@@ -304,23 +304,23 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v%3dvs.85)">WSPCleanup</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566270(v=vs.85)">WSPCleanup</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v%3dvs.85)">WSPCloseSocket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v=vs.85)">WSPCloseSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v%3dvs.85)">WSPDuplicateSocket</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566282(v=vs.85)">WSPDuplicateSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566284(v%3dvs.85)">WSPEnumNetworkEvents</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566284(v=vs.85)">WSPEnumNetworkEvents</a>
 
 
 
@@ -340,11 +340,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v%3dvs.85)">WSPGetSockOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566292(v=vs.85)">WSPGetSockOpt</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a>
 
 
 
@@ -352,11 +352,11 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v%3dvs.85)">WSPRecv</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566309(v=vs.85)">WSPRecv</a>
 
 
 
@@ -368,7 +368,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v%3dvs.85)">WSPSend</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566316(v=vs.85)">WSPSend</a>
 
 
 
@@ -380,7 +380,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v%3dvs.85)">WSPSetSockOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566318(v=vs.85)">WSPSetSockOpt</a>
 
 
 

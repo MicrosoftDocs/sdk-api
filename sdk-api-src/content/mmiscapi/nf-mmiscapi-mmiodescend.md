@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-The <b>mmioDescend</b> function descends into a chunk of a RIFF file that was opened by using the <a href="https://docs.microsoft.com/previous-versions//dd757331(v=vs.85)">mmioOpen</a> function. It can also search for a given chunk.
+The <b>mmioDescend</b> function descends into a chunk of a RIFF file that was opened by using the <a href="https://docs.microsoft.com/previous-versions/dd757331(v=vs.85)">mmioOpen</a> function. It can also search for a given chunk.
 
 
 
@@ -71,12 +71,12 @@ File handle of an open RIFF file.
 
 ### -param pmmcki
 
-Pointer to a buffer that receives an <a href="https://docs.microsoft.com/previous-versions//dd757312(v=vs.85)">MMCKINFO</a> structure.
+Pointer to a buffer that receives an <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure.
 
 
 ### -param pmmckiParent
 
-Pointer to an optional application-defined <a href="https://docs.microsoft.com/previous-versions//dd757312(v=vs.85)">MMCKINFO</a> structure identifying the parent of the chunk being searched for. If this parameter is not <b>NULL</b>, <b>mmioDescend</b> assumes the <b>MMCKINFO</b> structure it refers to was filled when <b>mmioDescend</b> was called to descend into the parent chunk, and <b>mmioDescend</b> searches for a chunk within the parent chunk. Set this parameter to <b>NULL</b> if no parent chunk is being specified.
+Pointer to an optional application-defined <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure identifying the parent of the chunk being searched for. If this parameter is not <b>NULL</b>, <b>mmioDescend</b> assumes the <b>MMCKINFO</b> structure it refers to was filled when <b>mmioDescend</b> was called to descend into the parent chunk, and <b>mmioDescend</b> searches for a chunk within the parent chunk. Set this parameter to <b>NULL</b> if no parent chunk is being specified.
 
 
 ### -param fuDescend
@@ -144,10 +144,10 @@ If you use <b>mmioDescend</b> to search for a chunk, make sure the file position
 
 If <b>mmioDescend</b> is unsuccessful in searching for a chunk, the current file position is undefined. If <b>mmioDescend</b> is successful, the current file position is changed. If the chunk is a "RIFF" or "LIST" chunk, the new file position will be just after the form type or list type (12 bytes from the beginning of the chunk). For other chunks, the new file position will be the start of the data portion of the chunk (8 bytes from the beginning of the chunk).
 
-The <b>mmioDescend</b> function fills the <a href="https://docs.microsoft.com/previous-versions//dd757312(v=vs.85)">MMCKINFO</a> structure pointed to by the <i>lpck</i> parameter with the following information:
+The <b>mmioDescend</b> function fills the <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure pointed to by the <i>lpck</i> parameter with the following information:
 
 <ul>
-<li>The <b>ckid</b> member is the chunk. If the MMIO_FINDCHUNK, MMIO_FINDRIFF, or MMIO_FINDLIST flag is specified for <b>wFlags</b>, the <a href="https://docs.microsoft.com/previous-versions//dd757312(v=vs.85)">MMCKINFO</a> structure is also used to pass parameters to <b>mmioDescend</b>. In this case, the <b>ckid</b> member specifies the four-character code of the chunk identifier, form type, or list type to search for.</li>
+<li>The <b>ckid</b> member is the chunk. If the MMIO_FINDCHUNK, MMIO_FINDRIFF, or MMIO_FINDLIST flag is specified for <b>wFlags</b>, the <a href="https://docs.microsoft.com/previous-versions/dd757312(v=vs.85)">MMCKINFO</a> structure is also used to pass parameters to <b>mmioDescend</b>. In this case, the <b>ckid</b> member specifies the four-character code of the chunk identifier, form type, or list type to search for.</li>
 <li>The <b>cksize</b> member is the size, in bytes, of the data portion of the chunk. The size includes the form type or list type (if any), but does not include the 8-byte chunk header or the pad byte at the end of the data (if any).</li>
 <li>The <b>fccType</b> member is the form type if <b>ckid</b> is "RIFF", or the list type if <b>ckid</b> is "LIST". Otherwise, it is <b>NULL</b>.</li>
 <li>The <b>dwDataOffset</b> member is the file offset of the beginning of the data portion of the chunk. If the chunk is a "RIFF" chunk or a "LIST" chunk, this member is the offset of the form type or list type.</li>

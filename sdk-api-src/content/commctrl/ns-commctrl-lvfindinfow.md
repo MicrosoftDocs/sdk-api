@@ -151,10 +151,10 @@ Value to compare with the <b>lParam</b> member of a list-view item's <a href="ht
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure with the initial search position. It is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
 
 
 ### -field vkDirection

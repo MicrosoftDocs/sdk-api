@@ -74,7 +74,7 @@ Pointer to a variable to be filled with the current volume setting. The low-orde
 
 If a device does not support both left and right volume control, the low-order word of the specified location contains the mono volume level.
 
-The full 16-bit setting(s) set with the <a href="https://docs.microsoft.com/previous-versions//dd743874(v=vs.85)">waveOutSetVolume</a> function is returned, regardless of whether the device supports the full 16 bits of volume-level control.
+The full 16-bit setting(s) set with the <a href="https://docs.microsoft.com/previous-versions/dd743874(v=vs.85)">waveOutSetVolume</a> function is returned, regardless of whether the device supports the full 16 bits of volume-level control.
 
 
 ## -returns

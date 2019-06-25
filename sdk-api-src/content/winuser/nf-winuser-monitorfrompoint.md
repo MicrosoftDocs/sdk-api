@@ -63,7 +63,7 @@ The <b>MonitorFromPoint</b> function retrieves a handle to the display monitor t
 
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that specifies the point of interest in virtual-screen coordinates.
 
 
 ### -param dwFlags [in]

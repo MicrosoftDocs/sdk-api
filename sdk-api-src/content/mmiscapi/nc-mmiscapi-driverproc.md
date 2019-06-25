@@ -238,9 +238,9 @@ Returns nonzero if successful or zero otherwise.
 
 
 
-When <i>msg</i> is <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-open">DRV_OPEN</a>, <i>lParam1</i> is the string following the driver filename from the SYSTEM.INI file and <i>lParam2</i> is the value given as the <i>lParam</i> parameter in a call to the <a href="https://docs.microsoft.com/previous-versions//dd743639(v=vs.85)">OpenDriver</a> function.
+When <i>msg</i> is <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-open">DRV_OPEN</a>, <i>lParam1</i> is the string following the driver filename from the SYSTEM.INI file and <i>lParam2</i> is the value given as the <i>lParam</i> parameter in a call to the <a href="https://docs.microsoft.com/previous-versions/dd743639(v=vs.85)">OpenDriver</a> function.
 
-When <i>msg</i> is <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-close">DRV_CLOSE</a>, <i>lParam1</i> and <i>lParam2</i> are the same values as the <i>lParam1</i> and <i>lParam2</i> parameters in a call to the <a href="https://docs.microsoft.com/previous-versions//dd797785(v=vs.85)">CloseDriver</a> function.
+When <i>msg</i> is <a href="https://docs.microsoft.com/windows/desktop/Multimedia/drv-close">DRV_CLOSE</a>, <i>lParam1</i> and <i>lParam2</i> are the same values as the <i>lParam1</i> and <i>lParam2</i> parameters in a call to the <a href="https://docs.microsoft.com/previous-versions/dd797785(v=vs.85)">CloseDriver</a> function.
 
 
 

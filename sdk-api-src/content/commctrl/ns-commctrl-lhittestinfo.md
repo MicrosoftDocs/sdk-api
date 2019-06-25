@@ -61,7 +61,7 @@ Used to get information about the link corresponding to a given location.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Location for the hit-test, in client coordinates (not screen coordinates).
 

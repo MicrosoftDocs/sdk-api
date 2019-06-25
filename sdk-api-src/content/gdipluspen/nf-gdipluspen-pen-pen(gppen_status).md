@@ -59,7 +59,7 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535058(v=vs.85)">Pen(Brush*,REAL)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535058(v=vs.85)">Pen(Brush*,REAL)</a>
 </td>
 <td align="left" width="63%">
 Creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> object that uses the attributes of a brush and a real number to set the width of this <b>Pen</b> object.

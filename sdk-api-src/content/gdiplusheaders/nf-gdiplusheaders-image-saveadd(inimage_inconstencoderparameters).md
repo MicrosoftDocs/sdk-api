@@ -70,9 +70,9 @@ Pointer to an
 
 ### -param encoderParams [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a> object that contains parameters required by the image encoder used in the save-add operation. 
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a> object that contains parameters required by the image encoder used in the save-add operation. 
 
 
 ## -returns
@@ -96,11 +96,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534434(v=vs.85)">EncoderParameter</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534434(v=vs.85)">EncoderParameter</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms534435(v=vs.85)">EncoderParameters</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534435(v=vs.85)">EncoderParameters</a>
 
 
 

@@ -212,7 +212,7 @@ Stops receiving package state-change notifications associated with a previous ca
 
 Any debug options set remain in effect until they are cleared or this interface is released.
 
-For debug settings to take effect on Internet Explorer in the new Windows UI, use "DefaultBrowser_NOPUBLISHERID" as the <i>packageFullName</i> parameter  for  <a href="https://docs.microsoft.com/previous-versions//hh438393(v=vs.85)">IPackageDebugSettings</a> methods. 
+For debug settings to take effect on Internet Explorer in the new Windows UI, use "DefaultBrowser_NOPUBLISHERID" as the <i>packageFullName</i> parameter  for  <a href="https://docs.microsoft.com/previous-versions/hh438393(v=vs.85)">IPackageDebugSettings</a> methods. 
 
 
 

@@ -61,9 +61,9 @@ The <b>Image::GetItemData</b> method gets one piece of metadata from this <a hre
 
 ### -param item [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//ms534468(v=vs.85)">ImageItemData</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/ms534468(v=vs.85)">ImageItemData</a>*</b>
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions//ms534468(v=vs.85)">ImageItemData</a> object that specifies the item to be retrieved. The Data member of the <b>ImageItemData</b> object points to a buffer that receives the custom metadata. If the Data member is set to <b>NULL</b>, this method returns the size of the required buffer in the DataSize member of the ImageItemData object.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/ms534468(v=vs.85)">ImageItemData</a> object that specifies the item to be retrieved. The Data member of the <b>ImageItemData</b> object points to a buffer that receives the custom metadata. If the Data member is set to <b>NULL</b>, this method returns the size of the required buffer in the DataSize member of the ImageItemData object.
 
 
 ## -returns

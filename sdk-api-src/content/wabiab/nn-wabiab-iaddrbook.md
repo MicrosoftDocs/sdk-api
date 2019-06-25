@@ -71,7 +71,7 @@ The <b>IAddrBook</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629532(v=vs.85)">Address</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629532(v=vs.85)">Address</a>
 </td>
 <td align="left" width="63%">
 Displays the common address book dialog box.
@@ -80,7 +80,7 @@ Displays the common address book dialog box.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629533(v=vs.85)">Advise</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629533(v=vs.85)">Advise</a>
 </td>
 <td align="left" width="63%">
 Registers the caller with the WAB to receive notifications.
@@ -90,7 +90,7 @@ Registers the caller with the WAB to receive notifications.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629534(v=vs.85)">CompareEntryIDs</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629534(v=vs.85)">CompareEntryIDs</a>
 </td>
 <td align="left" width="63%">
 Compares two entry identifiers.
@@ -117,7 +117,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629638(v=vs.85)">CreateOneOff</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629638(v=vs.85)">CreateOneOff</a>
 </td>
 <td align="left" width="63%">
 Creates an entry identifier for a <a href="https://docs.microsoft.com/">one-off</a> address.
@@ -135,7 +135,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629640(v=vs.85)">Details</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629640(v=vs.85)">Details</a>
 </td>
 <td align="left" width="63%">
 Displays a dialog box that shows details, and allows editing, 
@@ -145,7 +145,7 @@ Displays a dialog box that shows details, and allows editing,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629641(v=vs.85)">GetDefaultDir</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629641(v=vs.85)">GetDefaultDir</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -181,7 +181,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629645(v=vs.85)">GetPAB</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629645(v=vs.85)">GetPAB</a>
 </td>
 <td align="left" width="63%">
 Returns the entry identifier of the default WAB container.
@@ -208,18 +208,18 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629648(v=vs.85)">GetSearchPath</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629648(v=vs.85)">GetSearchPath</a>
 </td>
 <td align="left" width="63%">
 Returns an ordered list of the entry identifiers of containers 
 		to be included in the name resolution process initiated by the 
-		<a href="https://docs.microsoft.com/previous-versions//ms629656(v=vs.85)">ResolveName</a> method.
+		<a href="https://docs.microsoft.com/previous-versions/ms629656(v=vs.85)">ResolveName</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629650(v=vs.85)">NewEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629650(v=vs.85)">NewEntry</a>
 </td>
 <td align="left" width="63%">
 Displays a blank dialog box that enables the user to create a new entry.
@@ -228,7 +228,7 @@ Displays a blank dialog box that enables the user to create a new entry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629651(v=vs.85)">OpenEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629651(v=vs.85)">OpenEntry</a>
 </td>
 <td align="left" width="63%">
 Opens a container or mail user object and returns a pointer 
@@ -247,7 +247,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629653(v=vs.85)">PrepareRecips</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629653(v=vs.85)">PrepareRecips</a>
 </td>
 <td align="left" width="63%">
 Prepares a recipient list for later use by the messaging system.
@@ -257,7 +257,7 @@ Prepares a recipient list for later use by the messaging system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629654(v=vs.85)">QueryDefaultRecipOpt</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629654(v=vs.85)">QueryDefaultRecipOpt</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -266,7 +266,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629655(v=vs.85)">RecipOptions</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629655(v=vs.85)">RecipOptions</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.
@@ -275,7 +275,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629656(v=vs.85)">ResolveName</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629656(v=vs.85)">ResolveName</a>
 </td>
 <td align="left" width="63%">
 Resolves a partial recipient list to full addresses.
@@ -294,7 +294,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629658(v=vs.85)">SetDefaultDir</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629658(v=vs.85)">SetDefaultDir</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -303,7 +303,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629660(v=vs.85)">SetPAB</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629660(v=vs.85)">SetPAB</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -321,7 +321,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629665(v=vs.85)">SetSearchPath</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629665(v=vs.85)">SetSearchPath</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -330,7 +330,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629668(v=vs.85)">Unadvise</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629668(v=vs.85)">Unadvise</a>
 </td>
 <td align="left" width="63%">
 Unregisters the caller from the WAB 

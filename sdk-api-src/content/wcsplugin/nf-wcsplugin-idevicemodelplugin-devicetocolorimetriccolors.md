@@ -107,7 +107,7 @@ If <i>cColors</i> or <i>cChannels</i> is zero, the return value is E_FAIL.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 

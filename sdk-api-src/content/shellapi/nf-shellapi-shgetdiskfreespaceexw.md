@@ -103,7 +103,7 @@ Returns <b>TRUE</b> if successful, <b>FALSE</b> otherwise.
 
 
 
-The similarly named function <a href="https://docs.microsoft.com/previous-versions//bb762176(v=vs.85)">SHGetDiskFreeSpace</a> is merely an alias for <b>SHGetDiskFreeSpaceEx</b>. When you call <b>SHGetDiskFreeSpace</b> you actually call this function.
+The similarly named function <a href="https://docs.microsoft.com/previous-versions/bb762176(v=vs.85)">SHGetDiskFreeSpace</a> is merely an alias for <b>SHGetDiskFreeSpaceEx</b>. When you call <b>SHGetDiskFreeSpace</b> you actually call this function.
 
 This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespaceexa">GetDiskFreeSpaceEx</a> function if it is available on the operating system. If <b>GetDiskFreeSpaceEx</b> is not available, it is emulated by calling the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-getdiskfreespacea">GetDiskFreeSpace</a> function and manipulating the return values. For additional information, see the documentation for <b>GetDiskFreeSpaceEx</b>.
 
@@ -119,7 +119,7 @@ This function calls the <a href="https://docs.microsoft.com/windows/desktop/api/
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//bb762176(v=vs.85)">SHGetDiskFreeSpace</a>
+<a href="https://docs.microsoft.com/previous-versions/bb762176(v=vs.85)">SHGetDiskFreeSpace</a>
  
 
  

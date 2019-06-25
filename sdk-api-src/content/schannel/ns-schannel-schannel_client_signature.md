@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Specifies a client signature when a call to the <a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function cannot access the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> for a client certificate (in this case, the function returns <b>SEC_I_SIGNATURE_NEEDED</b>).
+Specifies a client signature when a call to the <a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">InitializeSecurityContext (Schannel)</a> function cannot access the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/p-gly">private key</a> for a client certificate (in this case, the function returns <b>SEC_I_SIGNATURE_NEEDED</b>).
 
 
 ## -struct-fields

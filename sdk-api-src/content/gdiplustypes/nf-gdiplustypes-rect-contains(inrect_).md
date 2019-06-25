@@ -79,10 +79,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534986(v=vs.85)">Contains(INT,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534986(v=vs.85)">Contains(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534986(v=vs.85)">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
+The <a href="https://docs.microsoft.com/previous-versions/ms534986(v=vs.85)">Rect::Contains</a><i>x</i><i>y</i>) is inside this rectangle.
 
 </td>
 </tr>

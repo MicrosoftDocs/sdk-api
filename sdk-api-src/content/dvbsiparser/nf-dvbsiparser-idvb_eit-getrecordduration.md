@@ -71,7 +71,7 @@ Specifies the record number, indexed from zero. Call <a href="https://docs.micro
 
 ### -param pmdVal [out]
 
-Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd390732(v%3dvs.85)">MPEG_DURATION</a> structure allocated by the caller. The method fills the structure with the event duration.
+Pointer to an <a href="https://docs.microsoft.com/previous-versions/dd390732(v=vs.85)">MPEG_DURATION</a> structure allocated by the caller. The method fills the structure with the event duration.
 
 
 ## -returns

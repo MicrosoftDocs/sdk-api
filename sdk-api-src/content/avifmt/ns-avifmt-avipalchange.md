@@ -79,7 +79,7 @@ Reserved.
 
 ### -field peNew
 
-Specifies an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures, of size <b>bNumEntries</b>.
+Specifies an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures, of size <b>bNumEntries</b>.
           
 
 

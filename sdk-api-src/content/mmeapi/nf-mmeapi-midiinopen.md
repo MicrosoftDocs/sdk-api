@@ -77,7 +77,7 @@ Identifier of the MIDI input device to be opened.
 
 ### -param dwCallback
 
-Pointer to a callback function, a thread identifier, or a handle of a window called with information about incoming MIDI messages. For more information on the callback function, see <a href="https://docs.microsoft.com/previous-versions//dd798460(v=vs.85)">MidiInProc</a>.
+Pointer to a callback function, a thread identifier, or a handle of a window called with information about incoming MIDI messages. For more information on the callback function, see <a href="https://docs.microsoft.com/previous-versions/dd798460(v=vs.85)">MidiInProc</a>.
           
 
 
@@ -200,7 +200,7 @@ The system is unable to allocate or lock memory.
 
 
 
-To determine the number of MIDI input devices present in the system, use the <a href="https://docs.microsoft.com/previous-versions//dd798456(v=vs.85)">midiInGetNumDevs</a> function. The device identifier specified by <i>wDeviceID</i> varies from zero to one less than the number of devices present.
+To determine the number of MIDI input devices present in the system, use the <a href="https://docs.microsoft.com/previous-versions/dd798456(v=vs.85)">midiInGetNumDevs</a> function. The device identifier specified by <i>wDeviceID</i> varies from zero to one less than the number of devices present.
 
 If a window or thread is chosen to receive callback information, the following messages are sent to the window procedure or thread to indicate the progress of MIDI input: <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-open">MM_MIM_OPEN</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-close">MM_MIM_CLOSE</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-data">MM_MIM_DATA</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-longdata">MM_MIM_LONGDATA</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-error">MM_MIM_ERROR</a>, <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-longerror">MM_MIM_LONGERROR</a>, and <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mim-moredata">MM_MIM_MOREDATA</a>.
 

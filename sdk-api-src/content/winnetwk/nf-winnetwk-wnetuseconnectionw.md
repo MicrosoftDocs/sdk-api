@@ -74,7 +74,7 @@ Handle to a window that the provider of network resources can use as an owner wi
 ### -param lpNetResource [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection. The structure contains information about the network resource, the local device, and the network resource provider. 
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure that specifies details of the proposed connection. The structure contains information about the network resource, the local device, and the network resource provider. 
 
 
 
@@ -155,7 +155,7 @@ You should set this member only if you know the network provider you want to use
 
 The 
 <b>WNetUseConnection</b> function ignores the other members of the 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. For more information, see the descriptions following for the <i>dwFlags</i> parameter.
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structure. For more information, see the descriptions following for the <i>dwFlags</i> parameter.
 
 
 ### -param lpPassword [in]
@@ -231,7 +231,7 @@ This flag forces the redirection of a local device when making the connection.
 
 
 If the <b>lpLocalName</b> member of 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> specifies a local device to redirect, this flag has no effect, because the operating system still attempts to redirect the specified device. When the operating system automatically chooses a local device, the <b>dwType</b> member must not be equal to RESOURCETYPE_ANY.
 
 If this flag is not set, a local device is automatically chosen for redirection only if the network requires a local device to be redirected.
 

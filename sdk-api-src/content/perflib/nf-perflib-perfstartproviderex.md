@@ -62,7 +62,7 @@ Registers the provider.
 
 ### -param ProviderGuid [in]
 
-GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element specifies the GUID.
+GUID that uniquely identifies the provider. The <b>providerGuid</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element specifies the GUID.
 
 
 ### -param ProviderContext [in, optional]
@@ -96,7 +96,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/counterinitiali
 
 <b>Windows Vista:  </b>The <b>PerfAutoInitialize</b> function calls this function.
 
-The CTRPP tool includes this function instead of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> if you use the <b>-MemoryRoutines</b> argument or <b>-NotificationCallback</b> argument when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, or if the <b>callback</b> attribute of the <a href="https://docs.microsoft.com/previous-versions//aa373164(v=vs.85)">provider</a> element is set to "custom".
+The CTRPP tool includes this function instead of <a href="https://docs.microsoft.com/windows/desktop/api/perflib/nf-perflib-perfstartprovider">PerfStartProvider</a> if you use the <b>-MemoryRoutines</b> argument or <b>-NotificationCallback</b> argument when calling <a href="https://docs.microsoft.com/windows/desktop/PerfCtrs/ctrpp">CTRPP</a>, or if the <b>callback</b> attribute of the <a href="https://docs.microsoft.com/previous-versions/aa373164(v=vs.85)">provider</a> element is set to "custom".
 
 
 

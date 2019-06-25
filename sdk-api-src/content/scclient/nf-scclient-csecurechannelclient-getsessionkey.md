@@ -64,7 +64,7 @@ The <b>GetSessionKey</b> method retrieves the current session key. This method i
 
 ### -param pbSPSessionKey [out]
 
-Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="https://docs.microsoft.com/previous-versions/bb231587(v%3dvs.85)">EncryptParam</a> and <a href="https://docs.microsoft.com/previous-versions/bb231586(v%3dvs.85)">DecryptParam</a> methods.
+Pointer to the first byte of a buffer specifying the session key. The session key is used for encryption and decryption by the <a href="https://docs.microsoft.com/previous-versions/bb231587(v=vs.85)">EncryptParam</a> and <a href="https://docs.microsoft.com/previous-versions/bb231586(v=vs.85)">DecryptParam</a> methods.
 
 
 ## -returns

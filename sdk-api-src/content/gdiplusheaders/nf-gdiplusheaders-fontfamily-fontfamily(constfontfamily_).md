@@ -59,19 +59,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536182(v=vs.85)">FontFamily()</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536182(v=vs.85)">FontFamily()</a>
 </td>
 <td align="left" width="63%">
-Creates an empty <a href="https://docs.microsoft.com/previous-versions//ms536182(v=vs.85)">FontFamily::FontFamily</a> object.
+Creates an empty <a href="https://docs.microsoft.com/previous-versions/ms536182(v=vs.85)">FontFamily::FontFamily</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms536183(v=vs.85)">FontFamily(WCHAR*,FontCollection*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms536183(v=vs.85)">FontFamily(WCHAR*,FontCollection*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://docs.microsoft.com/previous-versions//ms536183(v=vs.85)">FontFamily::FontFamily</a> object based on a specified font family.
+Creates a <a href="https://docs.microsoft.com/previous-versions/ms536183(v=vs.85)">FontFamily::FontFamily</a> object based on a specified font family.
 
 </td>
 </tr>

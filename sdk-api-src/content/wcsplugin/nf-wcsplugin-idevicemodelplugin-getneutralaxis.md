@@ -99,7 +99,7 @@ There is no requirement that the samples be uniformly spaced in any color space.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 

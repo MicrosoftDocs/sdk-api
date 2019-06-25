@@ -70,12 +70,12 @@ Bind a buffer as an <a href="https://docs.microsoft.com/windows/desktop/direct3d
 
 ### -field D3D10_BIND_CONSTANT_BUFFER
 
-Bind a buffer as a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffer</a> to a <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">shader stage</a>; this flag may NOT be combined with any other bind flag.
+Bind a buffer as a <a href="https://docs.microsoft.com/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-types">constant buffer</a> to a <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">shader stage</a>; this flag may NOT be combined with any other bind flag.
 
 
 ### -field D3D10_BIND_SHADER_RESOURCE
 
-Bind a buffer or texture to a <a href="https://docs.microsoft.com/previous-versions//bb205146(v=vs.85)">shader stage</a>; this flag cannot be used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP_WRITE_NO_OVERWRITE</a> flag.
+Bind a buffer or texture to a <a href="https://docs.microsoft.com/previous-versions/bb205146(v=vs.85)">shader stage</a>; this flag cannot be used with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d10/ne-d3d10-d3d10_map">D3D10_MAP_WRITE_NO_OVERWRITE</a> flag.
 
 
 ### -field D3D10_BIND_STREAM_OUTPUT

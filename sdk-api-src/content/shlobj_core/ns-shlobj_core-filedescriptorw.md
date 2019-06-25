@@ -143,7 +143,7 @@ The width and height of the file icon.
 
 ### -field pointl
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162807(v=vs.85)">POINTL</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162807(v=vs.85)">POINTL</a></b>
 
 The screen coordinates of the file object.
 

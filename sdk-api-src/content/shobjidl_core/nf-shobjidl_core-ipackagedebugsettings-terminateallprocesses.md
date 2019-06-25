@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-This method does not suspend the processes first. To test suspension followed by termination, call the <a href="https://docs.microsoft.com/windows/desktop/WinRT/ipackagedebugsettings-suspend">Suspend</a> method before calling <a href="https://docs.microsoft.com/previous-versions//hh438399(v=vs.85)">TerminateAllProcesses</a>.
+This method does not suspend the processes first. To test suspension followed by termination, call the <a href="https://docs.microsoft.com/windows/desktop/WinRT/ipackagedebugsettings-suspend">Suspend</a> method before calling <a href="https://docs.microsoft.com/previous-versions/hh438399(v=vs.85)">TerminateAllProcesses</a>.
 
 
 

@@ -78,7 +78,7 @@ A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_
 
 ### -param pptNow [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to the current scroll coordinates.
 

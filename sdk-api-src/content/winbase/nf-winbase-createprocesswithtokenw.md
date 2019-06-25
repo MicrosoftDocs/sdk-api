@@ -429,7 +429,7 @@ To avoid this problem, do not pass NULL for <i>lpApplicationName</i>. If you do 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
 
 
 

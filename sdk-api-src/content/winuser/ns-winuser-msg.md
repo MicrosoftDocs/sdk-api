@@ -97,7 +97,7 @@ The time at which the message was posted.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The cursor position, in screen coordinates, when the message was posted. 
 

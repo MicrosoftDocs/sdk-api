@@ -165,7 +165,7 @@ Also, when printing to a printer's DC with WCS turned on, the <b>SetICMMode</b> 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 

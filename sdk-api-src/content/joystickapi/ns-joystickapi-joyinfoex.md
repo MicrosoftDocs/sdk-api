@@ -244,7 +244,7 @@ Reserved; do not use.
 
 
 
-The value of the <b>dwSize</b> member is also used to identify the version number for the structure when it's passed to the <a href="https://docs.microsoft.com/previous-versions//dd757108(v=vs.85)">joyGetPosEx</a> function.
+The value of the <b>dwSize</b> member is also used to identify the version number for the structure when it's passed to the <a href="https://docs.microsoft.com/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a> function.
 
 Most devices with a point-of-view control have only five positions. When the JOY_RETURNPOV flag is set, these positions are reported by using the following constants:
 
@@ -296,7 +296,7 @@ Multimedia Joystick Structures
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd757108(v=vs.85)">joyGetPosEx</a>
+<a href="https://docs.microsoft.com/previous-versions/dd757108(v=vs.85)">joyGetPosEx</a>
  
 
  

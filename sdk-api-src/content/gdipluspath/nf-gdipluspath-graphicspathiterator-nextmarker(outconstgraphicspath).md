@@ -84,7 +84,7 @@ This method returns the number of data points in the retrieved section. If there
 
 A path has an array of data points that define its lines and curves. You can call a path's <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-setmarker">SetMarker</a> method to designate certain points in the array as markers. Those marker points divide the path into sections.
 
-The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an iterator, it gets the first marker-delimited section of that iterator's associated path. The second time, it gets the second section, and so on. Each time you call <a href="https://docs.microsoft.com/previous-versions//ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a>, it returns the number of data points in the retrieved section. When there are no sections remaining, it returns 0.
+The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an iterator, it gets the first marker-delimited section of that iterator's associated path. The second time, it gets the second section, and so on. Each time you call <a href="https://docs.microsoft.com/previous-versions/ms535462(v=vs.85)">GraphicsPathIterator::NextSubpath</a>, it returns the number of data points in the retrieved section. When there are no sections remaining, it returns 0.
 
 
 #### Examples

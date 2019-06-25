@@ -79,7 +79,7 @@ Gets a value by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd376218(v%3dvs.85)">GetValueNameByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd376218(v=vs.85)">GetValueNameByIndex</a>
 </td>
 <td align="left" width="63%">
 Gets a name, specified by index, from the device's list of name/value pairs.

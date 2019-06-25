@@ -81,9 +81,9 @@ A control-specific item data.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse when the click occurred. 
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse when the click occurred. 
 
 
 ### -field dwHitInfo

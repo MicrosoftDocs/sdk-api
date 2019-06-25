@@ -140,7 +140,7 @@ Enumerate the selected <a href="https://docs.microsoft.com/previous-versions/win
 
 Each user has  two machine certificates. The valid index value for machine certificates is zero or one.
 
-<div class="alert"><b>Note</b>  Due to updates to enable cryptographic mode-2, DRMActivate(machine) will write two machine certificates to the store. Unless an application makes direct calls to the certification web method on the RMS server, the calling application does not need to distinguish between the two machine certificates; the machine certificate that corresponds to the server cryptographic mode will be used.<p class="note">For more information, see <a href="http://support.microsoft.com/kb/2627273">RSA key length is increased to 2048 bits for AD RMS in Windows 7 or in Windows Server 2008 R2</a>.
+<div class="alert"><b>Note</b>  Due to updates to enable cryptographic mode-2, DRMActivate(machine) will write two machine certificates to the store. Unless an application makes direct calls to the certification web method on the RMS server, the calling application does not need to distinguish between the two machine certificates; the machine certificate that corresponds to the server cryptographic mode will be used.<p class="note">For more information, see <a href="https://support.microsoft.com/help/2627273">RSA key length is increased to 2048 bits for AD RMS in Windows 7 or in Windows Server 2008 R2</a>.
 
 </div>
 <div> </div>

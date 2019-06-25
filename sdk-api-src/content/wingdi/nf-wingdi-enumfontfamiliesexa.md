@@ -97,7 +97,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns
 
 ### -param lpProc [in]
 
-A pointer to the application defined callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)">EnumFontFamExProc</a> function.
+A pointer to the application defined callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions/dd162618(v=vs.85)">EnumFontFamExProc</a> function.
 
 
 ### -param lParam [in]
@@ -240,7 +240,7 @@ When the graphics mode on the device context is set to GM_ADVANCED using the Set
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162618(v=vs.85)">EnumFontFamExProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162618(v=vs.85)">EnumFontFamExProc</a>
 
 
 

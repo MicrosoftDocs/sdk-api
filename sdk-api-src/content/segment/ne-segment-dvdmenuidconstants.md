@@ -108,7 +108,7 @@ All the titles in a title set share the same Subpicture, Audio, Angle, and Chapt
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd695183(v=vs.85)">MSVidWebDVD Constants</a>
+<a href="https://docs.microsoft.com/previous-versions/dd695183(v=vs.85)">MSVidWebDVD Constants</a>
 
 
 

@@ -118,7 +118,7 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 

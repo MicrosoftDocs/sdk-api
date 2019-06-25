@@ -79,7 +79,7 @@ Returns the system time, in milliseconds.
 
 
 
-The only difference between this function and the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a> function is that <b>timeGetSystemTime</b> uses the <a href="https://docs.microsoft.com/previous-versions//dd757347(v=vs.85)">MMTIME</a> structure to return the system time. The <b>timeGetTime</b> function has less overhead than <b>timeGetSystemTime</b>.
+The only difference between this function and the <a href="https://docs.microsoft.com/windows/desktop/api/timeapi/nf-timeapi-timegetsystemtime">timeGetSystemTime</a> function is that <b>timeGetSystemTime</b> uses the <a href="https://docs.microsoft.com/previous-versions/dd757347(v=vs.85)">MMTIME</a> structure to return the system time. The <b>timeGetTime</b> function has less overhead than <b>timeGetSystemTime</b>.
 
 Note that the value returned by the <b>timeGetTime</b> function is a <b>DWORD</b> value. The return value wraps around to 0 every 2^32 milliseconds, which is about 49.71 days. This can cause problems in code that directly uses the <b>timeGetTime</b> return value in computations, particularly where the value is used to control code execution. You should always use the difference between two <b>timeGetTime</b> return values in computations.
 

@@ -70,7 +70,7 @@ The <b>IReconcileInitiator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//bb761345(v=vs.85)">SetAbortCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/bb761345(v=vs.85)">SetAbortCallback</a>
 </td>
 <td align="left" width="63%">
 Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction. 
@@ -79,7 +79,7 @@ Sets the object through which the initiator can asynchronously terminate a recon
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//bb761347(v=vs.85)">SetProgressFeedback</a>
+<a href="https://docs.microsoft.com/previous-versions/bb761347(v=vs.85)">SetProgressFeedback</a>
 </td>
 <td align="left" width="63%">
 Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation. The amount is a fraction and is computed as the quotient of the <i>ulProgress</i> and <i>ulProgressMax</i> parameters. Reconcilers should call this method periodically during their reconciliation process. 

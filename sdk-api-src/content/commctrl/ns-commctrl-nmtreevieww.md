@@ -110,10 +110,10 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/commctrl/ns-com
 
 ### -field ptDrag
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent. 
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the client coordinates of the mouse at the time the event occurred that caused the notification message to be sent. 
 
 
 ## -see-also

@@ -90,10 +90,10 @@ Specifies a value of type
 
 ### -field GetRequest
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> function provided by NPS. NPS sets the value of this member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> function provided by NPS. NPS sets the value of this member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
 
 The Extension DLL can modify the attributes in the RADIUS request. For example, if NPS is acting as a RADIUS proxy, an Extension DLL could filter which attributes are forwarded to the remote RADIUS server.
 
@@ -111,14 +111,14 @@ Pointer to a
 
 ### -field GetResponse
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> function provided by NPS. NPS sets the value of this member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> function provided by NPS. NPS sets the value of this member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a> function returns the attributes received in the RADIUS request process and any internal attributes describing the request state.
 
 An Extension DLL can use 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a> to retrieve and modify the attributes for any valid response type regardless of the request's current disposition. For example, an Extension DLL could 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85)">set the response type</a> to rcAccessAccept, but still add attributes to those returned in the case of an rcAccessReject. The response specified by the Extension DLL (rcAccessAccept in this example) could be overridden during further processing.
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a> to retrieve and modify the attributes for any valid response type regardless of the request's current disposition. For example, an Extension DLL could 
+<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">set the response type</a> to rcAccessAccept, but still add attributes to those returned in the case of an rcAccessReject. The response specified by the Extension DLL (rcAccessAccept in this example) could be overridden during further processing.
 
 To modify the attributes, the Extension DLL uses the functions provided as members of the 
 <a href="https://docs.microsoft.com/windows/desktop/api/authif/ns-authif-_radius_attribute_array">RADIUS_ATTRIBUTE_ARRAY</a> structure.
@@ -141,10 +141,10 @@ Specifies the response type. This parameter must be one of the values enumerated
 
 ### -field SetResponseType
 
-Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85)">SetResponseType</a> function provided by NPS. NPS sets the value of this member.
+Pointer to the <a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a> function provided by NPS. NPS sets the value of this member.
 
 The 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85)">SetResponseType</a> function sets the final disposition of the request.
+<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a> function sets the final disposition of the request.
 
 Note that the disposition set by the Extension DLL can be overridden during further processing. For example, the Extension DLL may set the response type to <b>rcAccessAccept</b>, but during further processing, the response can be changed to <b>rcAccessReject</b>.
 
@@ -181,11 +181,11 @@ NPS passes this structure to the Extension DLL when it calls the Extension DLL's
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688263(v%3dvs.85)">GetRequest</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688263(v=vs.85)">GetRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688270(v%3dvs.85)">GetResponse</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688270(v=vs.85)">GetResponse</a>
 
 
 
@@ -193,7 +193,7 @@ NPS passes this structure to the Extension DLL when it calls the Extension DLL's
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/ms688462(v%3dvs.85)">SetResponseType</a>
+<a href="https://docs.microsoft.com/previous-versions/ms688462(v=vs.85)">SetResponseType</a>
  
 
  

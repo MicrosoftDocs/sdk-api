@@ -68,7 +68,7 @@ A pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> str
 
 ### -param pt [in]
 
-A <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
+A <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the specified point.
 
 
 ## -returns
@@ -112,7 +112,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/usin
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 

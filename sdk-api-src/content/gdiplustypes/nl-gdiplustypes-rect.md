@@ -116,10 +116,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534986(v=vs.85)">Rect::Contains(INT,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534986(v=vs.85)">Rect::Contains(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534986(v=vs.85)">Rect::Contains</a> method determines whether the point (
+The <a href="https://docs.microsoft.com/previous-versions/ms534986(v=vs.85)">Rect::Contains</a> method determines whether the point (
 			<i>x</i>, 
 			<i>y</i>) is inside this rectangle.
 
@@ -217,10 +217,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534982(v=vs.85)">Rect::Inflate(INT,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534982(v=vs.85)">Rect::Inflate(INT,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534982(v=vs.85)">Rect::Inflate</a> method expands the rectangle by 
+The <a href="https://docs.microsoft.com/previous-versions/ms534982(v=vs.85)">Rect::Inflate</a> method expands the rectangle by 
 			<i>dx</i> on the left and right edges, and by 
 			<i>dy</i> on the top and bottom edges.
 
@@ -238,10 +238,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534981(v=vs.85)">Rect::Intersect(Rect&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534981(v=vs.85)">Rect::Intersect(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534981(v=vs.85)">Rect::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
+The <a href="https://docs.microsoft.com/previous-versions/ms534981(v=vs.85)">Rect::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
 </td>
 </tr>
@@ -286,10 +286,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nf-gdip
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534979(v=vs.85)">Rect::Offset(Point&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534979(v=vs.85)">Rect::Offset(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534979(v=vs.85)">Rect::Offset</a> method moves this rectangle horizontally a distance of 
+The <a href="https://docs.microsoft.com/previous-versions/ms534979(v=vs.85)">Rect::Offset</a> method moves this rectangle horizontally a distance of 
 			 <i>point</i>.<b>X</b> and vertically a distance of 
 			<i>point</i>.<b>Y</b>.
 

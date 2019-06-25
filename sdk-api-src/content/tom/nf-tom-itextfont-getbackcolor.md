@@ -75,7 +75,7 @@ The text background color. It can be one of the following values.
 <td>The high-order byte is zero, and the three low-order bytes specify an RGB color. </td>
 </tr>
 <tr>
-<td>A value returned by <a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<td>A value returned by <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 </td>
 <td>The high-order byte is 1, and the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)">LOWORD</a> specifies the index of a logical-color palette entry.</td>
 </tr>
@@ -149,7 +149,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 

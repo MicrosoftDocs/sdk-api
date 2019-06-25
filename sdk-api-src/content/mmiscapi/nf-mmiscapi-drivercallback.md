@@ -54,7 +54,7 @@ ms.custom: 19H1
 
 
 
-Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the <a href="https://docs.microsoft.com/previous-versions//dd797918(v=vs.85)">DriverProc</a> function of an installable driver.
+Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the <a href="https://docs.microsoft.com/previous-versions/dd797918(v=vs.85)">DriverProc</a> function of an installable driver.
 
 
 

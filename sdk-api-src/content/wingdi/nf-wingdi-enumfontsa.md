@@ -76,7 +76,7 @@ A pointer to a null-terminated string that specifies the typeface name of the de
 
 ### -param lpProc [in]
 
-A pointer to the application definedcallback function. For more information, see <a href="https://docs.microsoft.com/previous-versions//dd162623(v=vs.85)">EnumFontsProc</a>.
+A pointer to the application definedcallback function. For more information, see <a href="https://docs.microsoft.com/previous-versions/dd162623(v=vs.85)">EnumFontsProc</a>.
 
 
 ### -param lParam [in]
@@ -117,7 +117,7 @@ The fonts for many East Asian languages have two typeface names: an English name
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162623(v=vs.85)">EnumFontsProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162623(v=vs.85)">EnumFontsProc</a>
 
 
 

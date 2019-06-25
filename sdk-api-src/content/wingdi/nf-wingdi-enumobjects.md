@@ -72,7 +72,7 @@ The object type. This parameter can be OBJ_BRUSH or OBJ_PEN.
 
 ### -param lpFunc [in]
 
-A pointer to the application-defined callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions//dd162686(v=vs.85)">EnumObjectsProc</a> function.
+A pointer to the application-defined callback function. For more information about the callback function, see the <a href="https://docs.microsoft.com/previous-versions/dd162686(v=vs.85)">EnumObjectsProc</a> function.
 
 
 ### -param lParam [in]
@@ -104,7 +104,7 @@ If the objects cannot be enumerated (for example, there are too many objects), t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162686(v=vs.85)">EnumObjectsProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162686(v=vs.85)">EnumObjectsProc</a>
 
 
 

@@ -102,7 +102,7 @@ A pointer to a NULL-terminated, wide-character string that identifies the sensor
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dn915117(v=vs.85)">Thermal management in Windows</a>
+<a href="https://docs.microsoft.com/previous-versions/dn915117(v=vs.85)">Thermal management in Windows</a>
  
 
  

@@ -88,11 +88,11 @@ Flags for retrieving information about one or more controls associated with an a
 </tr>
 <tr>
 <td>MIXER_GETLINECONTROLSF_ALL</td>
-<td>The <i>pmxlc</i> parameter references a list of <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola">MIXERCONTROL</a> structures that will receive information on all controls associated with the audio line identified by the <b>dwLineID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinecontrolsa">MIXERLINECONTROLS</a> structure. The <b>cControls</b> member must be initialized to the number of controls associated with the line. This number is retrieved from the <b>cControls</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinea">MIXERLINE</a> structure returned by the <a href="https://docs.microsoft.com/previous-versions//dd757303(v=vs.85)">mixerGetLineInfo</a> function. The <b>cbmxctrl</b> member must be initialized to the size, in bytes, of a single <b>MIXERCONTROL</b> structure. The <b>pamxctrl</b> member must point to the first <b>MIXERCONTROL</b> structure to be filled. The <b>dwControlID</b> and <b>dwControlType</b> members are ignored for this query.</td>
+<td>The <i>pmxlc</i> parameter references a list of <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola">MIXERCONTROL</a> structures that will receive information on all controls associated with the audio line identified by the <b>dwLineID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinecontrolsa">MIXERLINECONTROLS</a> structure. The <b>cControls</b> member must be initialized to the number of controls associated with the line. This number is retrieved from the <b>cControls</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinea">MIXERLINE</a> structure returned by the <a href="https://docs.microsoft.com/previous-versions/dd757303(v=vs.85)">mixerGetLineInfo</a> function. The <b>cbmxctrl</b> member must be initialized to the size, in bytes, of a single <b>MIXERCONTROL</b> structure. The <b>pamxctrl</b> member must point to the first <b>MIXERCONTROL</b> structure to be filled. The <b>dwControlID</b> and <b>dwControlType</b> members are ignored for this query.</td>
 </tr>
 <tr>
 <td>MIXER_GETLINECONTROLSF_ONEBYID</td>
-<td>The <i>pmxlc</i> parameter references a single <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola">MIXERCONTROL</a> structure that will receive information on the control identified by the <b>dwControlID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinecontrolsa">MIXERLINECONTROLS</a> structure. The <b>cControls</b> member must be initialized to 1. The <b>cbmxctrl</b> member must be initialized to the size, in bytes, of a single <b>MIXERCONTROL</b> structure. The <b>pamxctrl</b> member must point to a <b>MIXERCONTROL</b> structure to be filled. The <b>dwLineID</b> and <b>dwControlType</b> members are ignored for this query. This query is usually used to refresh a control after receiving a <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mixm-control-change">MM_MIXM_CONTROL_CHANGE</a> control change notification message by the user-defined callback (see <a href="https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)">mixerOpen</a>).</td>
+<td>The <i>pmxlc</i> parameter references a single <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixercontrola">MIXERCONTROL</a> structure that will receive information on the control identified by the <b>dwControlID</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeapi/ns-mmeapi-tagmixerlinecontrolsa">MIXERLINECONTROLS</a> structure. The <b>cControls</b> member must be initialized to 1. The <b>cbmxctrl</b> member must be initialized to the size, in bytes, of a single <b>MIXERCONTROL</b> structure. The <b>pamxctrl</b> member must point to a <b>MIXERCONTROL</b> structure to be filled. The <b>dwLineID</b> and <b>dwControlType</b> members are ignored for this query. This query is usually used to refresh a control after receiving a <a href="https://docs.microsoft.com/windows/desktop/Multimedia/mm-mixm-control-change">MM_MIXM_CONTROL_CHANGE</a> control change notification message by the user-defined callback (see <a href="https://docs.microsoft.com/previous-versions/dd757308(v=vs.85)">mixerOpen</a>).</td>
 </tr>
 <tr>
 <td>MIXER_GETLINECONTROLSF_ONEBYTYPE</td>
@@ -102,47 +102,47 @@ Flags for retrieving information about one or more controls associated with an a
 </tr>
 <tr>
 <td>MIXER_OBJECTF_AUX</td>
-<td>The <i>hmxobj</i> parameter is an auxiliary device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd756713(v=vs.85)">auxGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is an auxiliary device identifier in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd756713(v=vs.85)">auxGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HMIDIIN</td>
-<td>The <i>hmxobj</i> parameter is the handle of a MIDI input device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions//dd798458(v=vs.85)">midiInOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the handle of a MIDI input device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions/dd798458(v=vs.85)">midiInOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HMIDIOUT</td>
-<td>The <i>hmxobj</i> parameter is the handle of a MIDI output device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions//dd798476(v=vs.85)">midiOutOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the handle of a MIDI output device. This handle must have been returned by the <a href="https://docs.microsoft.com/previous-versions/dd798476(v=vs.85)">midiOutOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HMIXER</td>
-<td>The <i>hmxobj</i> parameter is a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd757308(v=vs.85)">mixerOpen</a> function. This flag is optional.</td>
+<td>The <i>hmxobj</i> parameter is a mixer device handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd757308(v=vs.85)">mixerOpen</a> function. This flag is optional.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HWAVEIN</td>
-<td>The <i>hmxobj</i> parameter is a waveform-audio input handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd743847(v=vs.85)">waveInOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is a waveform-audio input handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd743847(v=vs.85)">waveInOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_HWAVEOUT</td>
-<td>The <i>hmxobj</i> parameter is a waveform-audio output handle returned by the <a href="https://docs.microsoft.com/previous-versions//dd743866(v=vs.85)">waveOutOpen</a> function.</td>
+<td>The <i>hmxobj</i> parameter is a waveform-audio output handle returned by the <a href="https://docs.microsoft.com/previous-versions/dd743866(v=vs.85)">waveOutOpen</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_MIDIIN</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a MIDI input device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd798456(v=vs.85)">midiInGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a MIDI input device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd798456(v=vs.85)">midiInGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_MIDIOUT</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a MIDI output device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd798472(v=vs.85)">midiOutGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a MIDI output device. This identifier must be in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd798472(v=vs.85)">midiOutGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_MIXER</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a mixer device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd757304(v=vs.85)">mixerGetNumDevs</a> function. This flag is optional.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a mixer device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd757304(v=vs.85)">mixerGetNumDevs</a> function. This flag is optional.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_WAVEIN</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio input device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd743844(v=vs.85)">waveInGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio input device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd743844(v=vs.85)">waveInGetNumDevs</a> function.</td>
 </tr>
 <tr>
 <td>MIXER_OBJECTF_WAVEOUT</td>
-<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions//dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
+<td>The <i>hmxobj</i> parameter is the identifier of a waveform-audio output device in the range of zero to one less than the number of devices returned by the <a href="https://docs.microsoft.com/previous-versions/dd743860(v=vs.85)">waveOutGetNumDevs</a> function.</td>
 </tr>
 </table>
  

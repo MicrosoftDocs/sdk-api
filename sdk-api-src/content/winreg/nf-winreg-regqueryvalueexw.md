@@ -242,7 +242,7 @@ void main()
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api//rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">ExpandEnvironmentStrings</a>
 
 
 

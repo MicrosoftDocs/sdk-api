@@ -76,7 +76,7 @@ A pointer to a substring that defines a DTP control callback field. The substrin
 
 ### -field szMax
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a></b>
 
-A <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that must be filled with the maximum size of the text that will be displayed in the callback field. 
+A <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that must be filled with the maximum size of the text that will be displayed in the callback field. 
 

@@ -77,7 +77,7 @@ An indicator whether the source color contains only black. This value can only b
 
 <ul>
 <li>the source device has a black channel</li>
-<li>the <a href="https://docs.microsoft.com/previous-versions//ms536577(v=vs.85)">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
+<li>the <a href="https://docs.microsoft.com/previous-versions/ms536577(v=vs.85)">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
 </ul>
 
 ## -remarks

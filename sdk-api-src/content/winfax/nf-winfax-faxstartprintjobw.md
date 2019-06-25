@@ -96,7 +96,7 @@ Pointer to a <b>DWORD</b> variable to receive the print spooler's unique ID for 
 
 Type: <b>PFAX_CONTEXT_INFO</b>
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts</a> and the <a href="https://docs.microsoft.com/previous-versions//ms535790(v=vs.85)">Printing and Print Spooler Reference</a>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/ns-winfax-_fax_context_infoa">FAX_CONTEXT_INFO</a> structure to receive a handle to a printer device context. When the fax client application calls the <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a> function, it must pass this value in that function's <i>FaxContextInfo</i> parameter. For more information, see <a href="https://docs.microsoft.com/windows/desktop/gdi/device-contexts">Device Contexts</a> and the <a href="https://docs.microsoft.com/previous-versions/ms535790(v=vs.85)">Printing and Print Spooler Reference</a>.
 
 
 ## -returns

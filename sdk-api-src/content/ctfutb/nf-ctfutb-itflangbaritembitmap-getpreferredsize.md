@@ -59,7 +59,7 @@ ms.custom: 19H1
 
 ### -param pszDefault [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contains the default size, in pixels, of the bitmap.
 
 
 ### -param psz [out]
@@ -104,7 +104,7 @@ The method was successful.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a>
+<a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a>
  
 
  

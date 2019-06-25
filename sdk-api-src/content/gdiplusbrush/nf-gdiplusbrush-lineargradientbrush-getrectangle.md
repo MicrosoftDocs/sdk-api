@@ -64,19 +64,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535351(v=vs.85)">GetRectangle(Rect*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535351(v=vs.85)">GetRectangle(Rect*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms535351(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient. 
+The <a href="https://docs.microsoft.com/previous-versions/ms535351(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535352(v=vs.85)">GetRectangle(RectF*)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535352(v=vs.85)">GetRectangle(RectF*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms535352(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient.
+The <a href="https://docs.microsoft.com/previous-versions/ms535352(v=vs.85)">LinearGradientBrush::GetRectangle</a> method gets the rectangle that defines the boundaries of the gradient.
 
 </td>
 </tr>

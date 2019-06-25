@@ -829,7 +829,7 @@ Specifies an index to an 8-bit color index. This field is valid only when used w
 
 #### DDPCAPS_ALPHA
 
-Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
+Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
 
 
 
@@ -1733,7 +1733,7 @@ Supports palettes that can have all 256 entries defined.
 
 ##### - dwPalCaps.DDPCAPS_ALPHA
 
-Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
+Supports palettes that include an alpha component. For alpha-capable palettes, the <b>peFlags</b> member of each <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structure that the palette contains is to be interpreted as a single 8-bit alpha value (in addition to the color data in the <b>peRed</b>, <b>peGreen</b>, and <b>peBlue</b> members). A palette created with this flag can be attached only to a texture surface.
 
 
 ##### - dwPalCaps.DDPCAPS_PRIMARYSURFACE

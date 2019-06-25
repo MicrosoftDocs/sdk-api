@@ -64,7 +64,7 @@ The <b>MACInit</b> method acquires a message authentication code (MAC) channel.
 
 ### -param phMAC [out]
 
-Pointer to the MAC handle for the parameter data. The handle is acquired by <b>MACInit</b> to be used for subsequent <a href="https://docs.microsoft.com/previous-versions/bb231593(v%3dvs.85)">MACUpdate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231591(v%3dvs.85)">MACFinal</a> calls. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
+Pointer to the MAC handle for the parameter data. The handle is acquired by <b>MACInit</b> to be used for subsequent <a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">MACUpdate</a> and <a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">MACFinal</a> calls. This datatype is declared in Sac.h installed with the Windows Media Format SDK.
 
 
 ## -returns
@@ -153,11 +153,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231591(v%3dvs.85)">CSecureChannelClient::MACFinal</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231591(v=vs.85)">CSecureChannelClient::MACFinal</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231593(v%3dvs.85)">CSecureChannelClient::MACUpdate</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231593(v=vs.85)">CSecureChannelClient::MACUpdate</a>
 
 
 

@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Creates a swap chain that you can use to send Direct3D content into the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> API or the <a href="https://docs.microsoft.com/en-us/dotnet/api/windows.ui.xaml">Windows.UI.Xaml</a> framework to compose in a window.
+Creates a swap chain that you can use to send Direct3D content into the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> API or the <a href="https://docs.microsoft.com/dotnet/api/windows.ui.xaml?view=dotnet-uwp-10.0">Windows.UI.Xaml</a> framework to compose in a window.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ A pointer to a variable that receives a pointer to the <a href="https://docs.mic
 </ul>
 
 
-<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>CreateSwapChainForComposition</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
+<b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="https://support.microsoft.com/help/2670838">Platform Update for Windows 7</a> installed, <b>CreateSwapChainForComposition</b> fails with E_NOTIMPL. For more info about the Platform Update for Windows 7, see <a href="https://docs.microsoft.com/windows/desktop/direct3darticles/platform-update-for-windows-7">Platform Update for Windows 7</a>. 
 
 
 
@@ -118,7 +118,7 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 #### Examples
 
-The following code example shows how to use <b>CreateSwapChainForComposition</b> in the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> API or the <a href="https://docs.microsoft.com/en-us/dotnet/api/windows.ui.xaml">Windows.UI.Xaml</a> framework:
+The following code example shows how to use <b>CreateSwapChainForComposition</b> in the <a href="https://docs.microsoft.com/windows/desktop/directcomp/directcomposition-portal">DirectComposition</a> API or the <a href="https://docs.microsoft.com/dotnet/api/windows.ui.xaml?view=dotnet-uwp-10.0">Windows.UI.Xaml</a> framework:
 
 
 ```

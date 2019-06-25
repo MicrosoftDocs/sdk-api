@@ -148,7 +148,7 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/msports/nf-msports-c
 
 <b>ComDBResizeDatabase</b> runs in user mode.
 
-For more information, see <a href="https://docs.microsoft.com/previous-versions//ff546481(v=vs.85)">Resizing the COM Port Database</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff546481(v=vs.85)">Resizing the COM Port Database</a>.
 
 
 

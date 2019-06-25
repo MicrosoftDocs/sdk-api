@@ -75,7 +75,7 @@ Pointer to the DirectDraw surface for which a DC is requested.
 
 ### -param pColorTable
 
-Optional pointer to a 256-entry array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures. If the color table is null, and the surface and display mode are both 8 bits per pixel, the DC shares the color table of the device.
+Optional pointer to a 256-entry array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures. If the color table is null, and the surface and display mode are both 8 bits per pixel, the DC shares the color table of the device.
 
 
 ## -returns

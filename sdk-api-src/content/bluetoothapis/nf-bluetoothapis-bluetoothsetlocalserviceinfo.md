@@ -170,7 +170,7 @@ To use Bluetooth APIs like
     system or an administrator context can elevate its privilege by using the SDK 
     <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a> and 
     <a href="https://docs.microsoft.com/windows/desktop/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges">AdjustTokenPrivileges</a> functions. For more information about this see 
-    <a href="https://docs.microsoft.com/previous-versions//ff536681(v=vs.85)">Installing a Bluetooth
+    <a href="https://docs.microsoft.com/previous-versions/ff536681(v=vs.85)">Installing a Bluetooth
     Device</a>.</div>
 <div> </div>
 The <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/ns-bluetoothapis-_bluetooth_local_service_info">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 

@@ -110,7 +110,7 @@ The <b>EnumICMProfiles</b> function returns a list of profiles that are associat
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd316902(v=vs.85)">Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
 
 
 

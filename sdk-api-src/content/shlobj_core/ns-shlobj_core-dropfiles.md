@@ -67,7 +67,7 @@ The offset of the file list from the beginning of this structure, in bytes.
 
 ### -field pt
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 The drop point. The coordinates depend on <b>fNC</b>.
 

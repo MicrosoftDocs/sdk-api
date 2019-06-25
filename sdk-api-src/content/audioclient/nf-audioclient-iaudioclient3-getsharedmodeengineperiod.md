@@ -64,7 +64,7 @@ Returns the range of periodicities supported by the engine for the specified str
 
 ### -param pFormat [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/previous-versions//dd757713(v=vs.85)">WAVEFORMATEX</a>*</b>
+Type: <b>const <a href="https://docs.microsoft.com/previous-versions/dd757713(v=vs.85)">WAVEFORMATEX</a>*</b>
 
 The stream format for which the supported periodicities are queried. 
 

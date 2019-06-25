@@ -125,7 +125,7 @@ Returns the number of descriptors for a record in the VCT.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389486(v%3dvs.85)">GetRecordDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389486(v=vs.85)">GetRecordDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a descriptor for a specified record in the VCT.
@@ -269,7 +269,7 @@ Returns the transport stream identifier (TSID) for a specified channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/dd389502(v%3dvs.85)">GetTableDescriptorByIndex</a>
+<a href="https://docs.microsoft.com/previous-versions/dd389502(v=vs.85)">GetTableDescriptorByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns a table-wide descriptor for the VCT.

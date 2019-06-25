@@ -51,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>EnumMetaFileProc</b> function is an application-defined callback function that processes Windows-format metafile records. This function is called by the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function. The <b>MFENUMPROC</b> type defines a pointer to this callback function. <b>EnumMetaFileProc</b> is a placeholder for the application-defined function name.
-<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  This function is provided only for compatibility with Windows-format metafiles. Enhanced-format metafiles provide superior functionality and are recommended for new applications. The corresponding function for an enhanced-format metafile is <a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>.</div><div> </div>
 
 ## -parameters
 
@@ -126,7 +126,7 @@ An application must register the callback function by passing its address to the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 

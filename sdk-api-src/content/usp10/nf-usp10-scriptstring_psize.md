@@ -53,7 +53,7 @@ ms.custom: 19H1
 ## -description
 
 
-Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure for an analyzed string.
+Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure for an analyzed string.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysi
 
 
 
-Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions//dd145106(v=vs.85)">SIZE</a> structure containing the size (width and height) of the analyzed string if successful. The function returns <b>NULL</b> if it does not succeed.
+Returns a pointer to a <a href="https://docs.microsoft.com/previous-versions/dd145106(v=vs.85)">SIZE</a> structure containing the size (width and height) of the analyzed string if successful. The function returns <b>NULL</b> if it does not succeed.
 
 
 

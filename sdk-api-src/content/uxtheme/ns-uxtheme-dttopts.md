@@ -299,7 +299,7 @@ The shadow will be drawn to appear blurred underneath text.
 
 ### -field ptShadowOffset
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a></b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 Specifies the amount of offset, in logical coordinates, between the shadow and the text.
 

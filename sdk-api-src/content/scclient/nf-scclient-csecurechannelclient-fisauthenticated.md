@@ -86,7 +86,7 @@ For an extensive list of possible error codes, see <a href="https://docs.microso
 
 This method is used to ensure that a secure authentication channel has been established between components before allowing other operations. This includes calls by devices and storages prior to accessing and transferring data streams.
 
-Applications do not need to call this method, but service providers call the corresponding <a href="https://docs.microsoft.com/previous-versions/bb231600(v%3dvs.85)">CSecureChannelServer::fIsAuthenticated</a> method and return WMDM_E_NOTCERTIFIED if it returns <b>FALSE</b>.
+Applications do not need to call this method, but service providers call the corresponding <a href="https://docs.microsoft.com/previous-versions/bb231600(v=vs.85)">CSecureChannelServer::fIsAuthenticated</a> method and return WMDM_E_NOTCERTIFIED if it returns <b>FALSE</b>.
 
 
 

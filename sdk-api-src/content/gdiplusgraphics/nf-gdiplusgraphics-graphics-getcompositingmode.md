@@ -91,7 +91,7 @@ Suppose you create a <a href="https://docs.microsoft.com/windows/desktop/api/gdi
 
 The following example creates a 
 						<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
-<a href="https://docs.microsoft.com/previous-versions//ms535957(v=vs.85)">Graphics::FillRectangle</a> method of the 
+<a href="https://docs.microsoft.com/previous-versions/ms535957(v=vs.85)">Graphics::FillRectangle</a> method of the 
 						<b>Graphics</b> object to fill a rectangle with a color that is not blended with the background color. The call to the <b>Graphics::GetCompositingMode</b> method of the 
 						<b>Graphics</b> object demonstrates how to obtain the compositing mode (which is already known in this case). The code determines whether the compositing mode is CompositingModeSourceCopy and if so, changes it to CompositingModeSourceOver. Then the code calls 
 						<b>Graphics::FillRectangle</b> a second time to fill a rectangle with a color that is a half-and-half blend of the brush color and the background color.

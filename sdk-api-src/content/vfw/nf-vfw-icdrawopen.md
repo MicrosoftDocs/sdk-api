@@ -73,7 +73,7 @@ Four-character code indicating the preferred stream handler to use. Typically, t
 
 ### -param lpbiIn
 
-Pointer to the structure defining the input format. A driver handle will not be returned unless it can decompress this format. For images, this parameter refers to a <a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure. 
+Pointer to the structure defining the input format. A driver handle will not be returned unless it can decompress this format. For images, this parameter refers to a <a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a> structure. 
 
 
 ## -remarks

@@ -122,7 +122,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-ien
 
 
 
-The <b>IEnumWiaItem</b> interface is a specific implementation for WIA of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions//ms680089(v=vs.85)">IEnumXXXX</a>.
+The <b>IEnumWiaItem</b> interface is a specific implementation for WIA of the standard Component Object Model (COM) enumeration interface. For details, see <a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>.
 
 Applications obtain a pointer to the <b>IEnumWiaItem</b> interface by invoking the <a href="https://docs.microsoft.com/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems">IWiaItem::EnumChildItems</a> method.
 
@@ -174,7 +174,7 @@ The <b>IEnumWiaItem</b> interface, like all COM interfaces, inherits the <a href
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms680089(v=vs.85)">IEnumXXXX</a>
+<a href="https://docs.microsoft.com/previous-versions/ms680089(v=vs.85)">IEnumXXXX</a>
 
 
 

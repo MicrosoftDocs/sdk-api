@@ -114,7 +114,7 @@ Possible values include, but are not limited to, those in the following table.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231590(v%3dvs.85)">CSecureChannelClient::GetSessionKey</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231590(v=vs.85)">CSecureChannelClient::GetSessionKey</a>
 
 
 

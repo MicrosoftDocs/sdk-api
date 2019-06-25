@@ -99,7 +99,7 @@ To convert a Windows-format metafile into an enhanced-format metafile, use the <
 
 An application typically uses <b>PlayMetaFileRecord</b> in conjunction with the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a> function to process and play a Windows-format metafile one record at a time.
 
-The <i>lpHandletable</i> and <i>nHandles</i> parameters must be identical to those passed to the <a href="https://docs.microsoft.com/previous-versions//dd162630(v=vs.85)">EnumMetaFileProc</a> callback procedure by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
+The <i>lpHandletable</i> and <i>nHandles</i> parameters must be identical to those passed to the <a href="https://docs.microsoft.com/previous-versions/dd162630(v=vs.85)">EnumMetaFileProc</a> callback procedure by <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enummetafile">EnumMetaFile</a>.
 
 If the <b>PlayMetaFileRecord</b> function does not recognize a record, it ignores the record and returns <b>TRUE</b>.
 

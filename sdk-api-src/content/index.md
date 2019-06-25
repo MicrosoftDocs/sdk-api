@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programming reference for Windows API
 description: The following is a list of the reference content for the Windows application programming interface (API) for desktop and server applications.
 author: misatran
@@ -18,7 +18,7 @@ Using the Windows API, you can develop applications that run successfully on all
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://www.visualstudio.com/">
+        <a href="https://visualstudio.microsoft.com/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

@@ -213,7 +213,7 @@ Error:
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/bb231598(v%3dvs.85)">CSecureChannelServer::DecryptParam</a>
+<a href="https://docs.microsoft.com/previous-versions/bb231598(v=vs.85)">CSecureChannelServer::DecryptParam</a>
  
 
  

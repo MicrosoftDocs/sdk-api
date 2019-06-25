@@ -119,7 +119,7 @@ Enables the snap-in to get the handle to the parent item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.clradmin.iconsolenamespace2.insertitem">InsertItem</a>
+<a href="https://docs.microsoft.com/dotnet/api/microsoft.clradmin.iconsolenamespace2.insertitem?view=netframework-1.1">InsertItem</a>
 </td>
 <td align="left" width="63%">
 Enables the snap-in to insert a single item into the scope pane.

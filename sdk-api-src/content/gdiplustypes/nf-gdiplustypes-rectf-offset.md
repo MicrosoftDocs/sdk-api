@@ -61,10 +61,10 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534948(v=vs.85)">Offset(PointF&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534948(v=vs.85)">Offset(PointF&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534948(v=vs.85)">RectF::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
+The <a href="https://docs.microsoft.com/previous-versions/ms534948(v=vs.85)">RectF::Offset</a><i>point</i>.<b>X</b><i>point</i>.<b>Y</b>.
 
 </td>
 </tr>

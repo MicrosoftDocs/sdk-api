@@ -61,10 +61,10 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms534981(v=vs.85)">Intersect(Rect&)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms534981(v=vs.85)">Intersect(Rect&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms534981(v=vs.85)">Rect::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
+The <a href="https://docs.microsoft.com/previous-versions/ms534981(v=vs.85)">Rect::Intersect</a> method replaces this rectangle with the intersection of itself and another rectangle.
 
 </td>
 </tr>

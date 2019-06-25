@@ -181,7 +181,7 @@ When you no longer need the bitmap, call the <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd183376(v=vs.85)">BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/previous-versions/dd183376(v=vs.85)">BITMAPINFOHEADER</a>
 
 
 

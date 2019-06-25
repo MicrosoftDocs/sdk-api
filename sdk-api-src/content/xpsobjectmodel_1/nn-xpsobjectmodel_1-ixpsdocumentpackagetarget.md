@@ -107,7 +107,7 @@ Gets the <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel_
 
 
 
-<a href="http://docs.microsoft.com/uwp/api/windows.graphics.printing.printmanager">Windows.Graphics.Printing.PrintManager</a>
+<a href="https://docs.microsoft.com/uwp/api/windows.graphics.printing.printmanager">Windows.Graphics.Printing.PrintManager</a>
  
 
  

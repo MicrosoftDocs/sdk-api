@@ -75,7 +75,7 @@ The new background color. It can be one of the following.
 <td>An RGB color.</td>
 </tr>
 <tr>
-<td>A value returned by <a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<td>A value returned by <a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 </td>
 <td>A palette index.</td>
 </tr>
@@ -181,7 +181,7 @@ Insufficient memory.
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162770(v=vs.85)">PALETTEINDEX</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162770(v=vs.85)">PALETTEINDEX</a>
 
 
 

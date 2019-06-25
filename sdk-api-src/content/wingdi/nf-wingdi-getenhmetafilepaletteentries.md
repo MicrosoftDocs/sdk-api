@@ -72,7 +72,7 @@ The number of entries to be retrieved from the optional palette.
 
 ### -param lpPaletteEntries [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a> structures that receives the palette colors. The array must contain at least as many structures as there are entries specified by the <i>cEntries</i> parameter.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures that receives the palette colors. The array must contain at least as many structures as there are entries specified by the <i>cEntries</i> parameter.
 
 
 ## -returns
@@ -112,7 +112,7 @@ An application that displays a picture stored in an enhanced metafile can call t
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162769(v=vs.85)">PALETTEENTRY</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
 
 
 

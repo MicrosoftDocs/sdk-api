@@ -69,7 +69,7 @@ A PIDL that corresponds to the item for which the position is being set.
 
 ### -param ppt [in]
 
-Type: <b><a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>*</b>
+Type: <b><a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>*</b>
 
 A pointer to a structure that contains the new coordinates of the item relative to the ListView contained in the view.
 

@@ -94,7 +94,7 @@ Gets a handle from a random-access byte stream that the <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//hh438400(v=vs.85)">IRandomAccessStream</a>
+<a href="https://docs.microsoft.com/previous-versions/hh438400(v=vs.85)">IRandomAccessStream</a>
 
 
 

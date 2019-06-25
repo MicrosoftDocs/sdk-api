@@ -329,7 +329,7 @@ An attempt to join timed out without establishing a multipoint session.
 This function is used to join a leaf node to a multipoint session, and to perform a number of other ancillary operations that occur at session join time as well. If the socket, <i>s</i>, is unbound, unique values are assigned to the local association by the system, and the socket is marked as bound.
 
 <b>WSPJoinLeaf</b> has the same parameters and semantics as 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v%3dvs.85)">WSPConnect</a> except that it returns a socket descriptor (as in 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566275(v=vs.85)">WSPConnect</a> except that it returns a socket descriptor (as in 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaccept">WSPAccept</a>), and it has an additional <i>dwFlags</i> parameter. Only multipoint sockets created using 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspsocket">WSPSocket</a> with appropriate multipoint flags set can be used for input parameter <i>s</i> in this function. If the socket is in the nonblocking mode, the returned socket descriptor will not be usable until after a corresponding FD_CONNECT indication on the original socket <i>s</i> has been received, except that 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-closesocket">closesocket</a> can be invoked on this new socket descriptor to cancel a pending join operation. A root node in a multipoint session can call 
@@ -338,7 +338,7 @@ This function is used to join a leaf node to a multipoint session, and to perfor
 
 For nonblocking sockets it is often not possible to complete the connection immediately. In such a case, this function returns an as-yet unusable socket descriptor and the operation proceeds. There is no error code such as <a href="https://docs.microsoft.com/windows/desktop/WinSock/windows-sockets-error-codes-2">WSAEWOULDBLOCK</a> in this case, since the function has effectively returned a "successful start" indication. When the final outcome success or failure becomes known, it may be reported through 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)">WSPAsyncSelect</a> or 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a> depending on how the client registers for notification on the original socket <i>s</i>. In either case, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure. Note that 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a> depending on how the client registers for notification on the original socket <i>s</i>. In either case, the notification is announced with FD_CONNECT and the error code associated with the FD_CONNECT indicates either success or a specific reason for failure. Note that 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742289(v=vs.85)">WSPSelect</a> cannot be used to detect completion notification for 
 <b>WSPJoinLeaf</b>.
 
@@ -348,14 +348,14 @@ The socket descriptor returned by
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpumodifyifshandle">WPUModifyIFSHandle</a> and non-IFS providers must call 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nf-ws2spi-wpucreatesockethandle">WPUCreateSocketHandle</a>). The newly created socket has the same properties as <i>s</i> including asynchronous events registered with 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms742267(v=vs.85)">WSPAsyncSelect</a> or with 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a>. It is not intended to be used for exchange of multipoint data, but rather is used to receive network event indications (for example, FD_CLOSE) for the connection that exists to the particular c_leaf. Some multipoint implementations can also allow this socket to be used for "side chats" between the root and an individual leaf node. An FD_CLOSE indication will be received for this socket if the corresponding leaf node calls 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v%3dvs.85)">WSPCloseSocket</a> to drop out of the multipoint session. Symmetrically, invoking 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>. It is not intended to be used for exchange of multipoint data, but rather is used to receive network event indications (for example, FD_CLOSE) for the connection that exists to the particular c_leaf. Some multipoint implementations can also allow this socket to be used for "side chats" between the root and an individual leaf node. An FD_CLOSE indication will be received for this socket if the corresponding leaf node calls 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566273(v=vs.85)">WSPCloseSocket</a> to drop out of the multipoint session. Symmetrically, invoking 
 <b>WSPCloseSocket</b> on the c_leaf socket returned from 
 <b>WSPJoinLeaf</b> will cause the socket in the corresponding leaf node to get FD_CLOSE notification.
 
 When 
 <b>WSPJoinLeaf</b> is invoked with a c_leaf socket, the <i>name</i> parameter contains the address of the root node (for a rooted control scheme) or an existing multipoint session (nonrooted control scheme), and the returned socket descriptor is the same as the input socket descriptor. In other words, a new socket descriptor is not allocated. In a rooted control scheme, the root application would put its c_root socket in the listening mode by calling 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v%3dvs.85)">WSPListen</a>. The standard FD_ACCEPT notification will be delivered when the leaf node requests to join itself to the multipoint session. The root application uses the usual 
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566297(v=vs.85)">WSPListen</a>. The standard FD_ACCEPT notification will be delivered when the leaf node requests to join itself to the multipoint session. The root application uses the usual 
 <a href="https://docs.microsoft.com/windows/desktop/api/ws2spi/nc-ws2spi-lpwspaccept">WSPAccept</a> functions to admit the new leaf node. The value returned from 
 <b>WSPAccept</b> is also a c_leaf socket descriptor just like those returned from 
 <b>WSPJoinLeaf</b>. To accommodate multipoint schemes that allow both root-initiated and leaf-initiated joins, it is acceptable for a c_root socket that is already in listening mode to be used as an input to 
@@ -367,7 +367,7 @@ The <i>lpCallerData</i> is a value parameter that contains any user data that is
 <b>WSPJoinLeaf</b> function returns. For nonblocking sockets, this will be after the FD_CONNECT notification has occurred on the original socket <i>s</i>. If <i>lpCalleeData</i> is <b>NULL</b>, no user data will be passed back. The exact format of the user data is specific to the address family to which the socket belongs and/or the applications involved.
 
 At multipoint session establishment time, a Windows Sockets SPI client can use the <i>lpSQOS</i> parameters to override any previous QoS specification made for the socket through 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v%3dvs.85)">WSPIoctl</a> with the SIO_SET_QOS opcode.
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566296(v=vs.85)">WSPIoctl</a> with the SIO_SET_QOS opcode.
 
 <i>lpSQOS</i> specifies the flow specifications for socket <i>s</i>, one for each direction, followed by any additional provider-specific parameters. If either the associated transport provider in general or the specific type of socket in particular cannot honor the QoS request, an error will be returned as indicated below. The sending or receiving flow specification values will be ignored, respectively, for any unidirectional sockets. If no provider-specific parameters are supplied, the <b>buf</b> and <b>len</b> members of <i>lpSQOS</i>-&gt;<b>ProviderSpecific</b> should be set to <b>NULL</b> and zero, respectively. A <b>NULL</b> value for <i>lpSQOS</i> indicates no application supplied quality of service.
 
@@ -391,11 +391,11 @@ The <i>dwFlags</i> parameter is used to indicate whether the socket will be acti
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v%3dvs.85)">WSPBind</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566268(v=vs.85)">WSPBind</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v%3dvs.85)">WSPEventSelect</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff566287(v=vs.85)">WSPEventSelect</a>
 
 
 

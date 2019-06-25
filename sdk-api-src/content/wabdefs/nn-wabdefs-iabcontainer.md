@@ -71,7 +71,7 @@ The <b>IABContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629670(v=vs.85)">CopyEntries</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629670(v=vs.85)">CopyEntries</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -98,7 +98,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms629676(v=vs.85)">CreateEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/ms629676(v=vs.85)">CreateEntry</a>
 </td>
 <td align="left" width="63%">
 Creates a new entry in the address book container.  The WAB supports creation of mail users and distribution lists.

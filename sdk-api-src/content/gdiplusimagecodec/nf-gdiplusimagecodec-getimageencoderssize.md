@@ -53,7 +53,7 @@ ms.custom: 19H1
 
 
 The <b>GetImageEncodersSize</b> function gets the number of available image encoders and the total size of the array of 
-			<a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a> function.
+			<a href="https://docs.microsoft.com/previous-versions/ms534466(v=vs.85)">ImageCodecInfo</a> objects that is returned by the <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a> function.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ Type: <b>UINT*</b>
 
 Pointer to a 
 					<b>UINT</b> that receives the total size, in bytes, of the array of 
-					<a href="https://docs.microsoft.com/previous-versions//ms534466(v=vs.85)">ImageCodecInfo</a> objects that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a>. 
+					<a href="https://docs.microsoft.com/previous-versions/ms534466(v=vs.85)">ImageCodecInfo</a> objects that is returned by <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusimagecodec/nf-gdiplusimagecodec-getimageencoders">GetImageEncoders</a>. 
 
 
 ## -returns

@@ -76,7 +76,7 @@ The index of the item.
 
 Type: <b>LPPOINT</b>
 
-A pointer to a <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates. 
+A pointer to a <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structure that receives the initial location of the upper-left corner of the image, in view coordinates. 
 
 
 ## -remarks

@@ -72,7 +72,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdipl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete[]">GdiplusBase::operator delete[]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatordelete%5B%5D">GdiplusBase::operator delete[]</a>
 </td>
 <td align="left" width="63%">
 The 
@@ -93,10 +93,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdipl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew%5B%5D">GdiplusBase::operator new[]</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew[]">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
+The <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusbase/nf-gdiplusbase-gdiplusbase-operatornew%5B%5D">GdiplusBase::operator new[]</a> method allocates memory for an array of GDI+ objects.
 
 </td>
 </tr>

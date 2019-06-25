@@ -70,7 +70,7 @@ Handle to the waveform-audio output device.
 
 ### -param pwh
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions//dd743837(v=vs.85)">WAVEHDR</a> structure containing information about the data block.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/dd743837(v=vs.85)">WAVEHDR</a> structure containing information about the data block.
 
 
 ### -param cbwh

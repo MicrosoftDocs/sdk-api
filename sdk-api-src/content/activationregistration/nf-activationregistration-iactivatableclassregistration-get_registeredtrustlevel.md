@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dn408470(v=vs.85)">RegisteredTrustLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/dn408470(v=vs.85)">RegisteredTrustLevel</a>
 
 
 

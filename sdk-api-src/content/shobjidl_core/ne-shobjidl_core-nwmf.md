@@ -60,7 +60,7 @@ Flags used by <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_c
 
 ### -field NWMF_UNLOADING
 
-The page is unloading. This flag is set in response to the <a href="https://docs.microsoft.com/previous-versions//aa741480(v=vs.85)">onbeforeunload</a> and <a href="https://docs.microsoft.com/previous-versions//aa741488(v=vs.85)">onunload</a> events. Some pages load pop-up windows when you leave them, not when you enter. This flag is used to identify those situations.
+The page is unloading. This flag is set in response to the <a href="https://docs.microsoft.com/previous-versions/aa741480(v=vs.85)">onbeforeunload</a> and <a href="https://docs.microsoft.com/previous-versions/aa741488(v=vs.85)">onunload</a> events. Some pages load pop-up windows when you leave them, not when you enter. This flag is used to identify those situations.
 
 
 ### -field NWMF_USERINITED

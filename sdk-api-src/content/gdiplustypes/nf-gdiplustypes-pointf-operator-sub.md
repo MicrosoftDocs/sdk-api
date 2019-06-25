@@ -121,7 +121,7 @@ PointF point3 = point1 - point2;
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//ms535008(v=vs.85)">operator+</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535008(v=vs.85)">operator+</a>
  
 
  

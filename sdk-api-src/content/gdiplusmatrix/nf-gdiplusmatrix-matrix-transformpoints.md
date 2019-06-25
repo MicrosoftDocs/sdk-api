@@ -58,19 +58,19 @@ ms.custom: 19H1
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535320(v=vs.85)">TransformPoints(Point*,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535320(v=vs.85)">TransformPoints(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms535320(v=vs.85)">Matrix::TransformPoints</a> method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
+The <a href="https://docs.microsoft.com/previous-versions/ms535320(v=vs.85)">Matrix::TransformPoints</a> method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions//ms535321(v=vs.85)">TransformPoints(PointF*,INT)</a>
+<a href="https://docs.microsoft.com/previous-versions/ms535321(v=vs.85)">TransformPoints(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/previous-versions//ms535321(v=vs.85)">Matrix::TransformPoints</a> method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
+The <a href="https://docs.microsoft.com/previous-versions/ms535321(v=vs.85)">Matrix::TransformPoints</a> method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
 
 </td>
 </tr>

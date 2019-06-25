@@ -72,7 +72,7 @@ A handle to an enhanced metafile.
 
 ### -param proc [in]
 
-A pointer to the application-supplied callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a> function.
+A pointer to the application-supplied callback function. For more information, see the <a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a> function.
 
 
 ### -param param [in]
@@ -114,7 +114,7 @@ You can use the <b>EnumEnhMetaFile</b> function to embed one enhanced-metafile w
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162606(v=vs.85)">EnhMetaFileProc</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162606(v=vs.85)">EnhMetaFileProc</a>
 
 
 

@@ -62,7 +62,7 @@ The <b>CreatePolygonRgn</b> function creates a polygonal region.
 
 ### -param pptl [in]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a> structures that define the vertices of the polygon in logical units. The polygon is presumed closed. Each vertex can be specified only once.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a> structures that define the vertices of the polygon in logical units. The polygon is presumed closed. Each vertex can be specified only once.
 
 
 ### -param cPoint [in]
@@ -162,7 +162,7 @@ Regions created by the Create&lt;shape&gt;Rgn methods (such as <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/previous-versions//dd162805(v=vs.85)">POINT</a>
+<a href="https://docs.microsoft.com/previous-versions/dd162805(v=vs.85)">POINT</a>
 
 
 
