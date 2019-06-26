@@ -8,7 +8,7 @@ tech.root: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50
 ms.author: windowssdkdev
 ms.date: 12/05/2018
-ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
+ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
 ms.topic: function
 f1_keywords: 
  - "ncrypt/NCryptOpenStorageProvider"
@@ -92,6 +92,17 @@ Identifies the software key storage provider that is provided by Microsoft.
 </td>
 <td width="60%">
 Identifies the smart card key storage provider that is provided by Microsoft.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="MS_PLATFORM_CRYPTO_PROVIDER"></a><a id="ms_platform_crypto_provider"></a><dl>
+<dt><b>MS_PLATFORM_CRYPTO_PROVIDER</b></dt>
+<dt>L"Microsoft Platform Crypto Provider"</dt>
+</dl>
+</td>
+<td width="60%">
+Identifies the TPM key storage provider that is provided by Microsoft.
 
 </td>
 </tr>
